@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "cn-industry-textiles-garments-footwear-17-19",
+  "revisionId": "RC01-two-definition-details",
+  "revisedAt": "2026-09-09",
+  "inputSha256": "b7d209d9374f0a8f5ca1972c0d817015da55523ae7b679af9068acb5debf85fa",
+  "outputSha256": "e8e24034460d5eefea0082c01b2ad6f3647fb5464d40a1975fefe670e1f64e6b",
+  "independentRecheckSha256": "78350dc9fcf3432f3cd338c198d30828059104395fc19d717d5325d3298ae5ec",
+  "findingId": "RC01",
+  "changes": [
+    {
+      "path": "/tasks/21/executionConditions/reviewedDefinitionSourceRefs/1/detail",
+      "before": "纺纱机台清洁与废料回收范围；输出仍需分核。",
+      "after": "纺纱工任务8只支持机台清理；回花回收由另一前处理/粗纱条目支持，输出仍需分核。"
+    },
+    {
+      "path": "/tasks/21/inventoryDisposition/reviewedDefinitionChecks/1/detail",
+      "before": "纺纱机台清洁与废料回收范围；输出仍需分核。",
+      "after": "纺纱工任务8只支持机台清理；回花回收由另一前处理/粗纱条目支持，输出仍需分核。"
+    }
+  ],
+  "changedRawPaths": [
+    "/tasks/21/executionConditions/reviewedDefinitionSourceRefs/1/detail",
+    "/tasks/21/inventoryDisposition/reviewedDefinitionChecks/1/detail"
+  ],
+  "rawChangedPathCount": 2,
+  "inputSnapshots": [
+    {
+      "file": "cn-industry-textiles-garments-footwear-17-19-revisions.json",
+      "sha256": "848d0fce0c09c4ab52ad41deaa932b4fd98a5091ffcd462af049bf7dfb829e9c"
+    },
+    {
+      "file": "cn-industry-textiles-garments-footwear-17-19-search-audit.json",
+      "sha256": "4bb43099b62de176d1bfc7423166fe9d15d5666e1b3c0d78220bec843a84a9ce"
+    },
+    {
+      "file": "cn-industry-textiles-garments-footwear-17-19-validation.json",
+      "sha256": "f08294253949d8f9508139c9357adaa5dd251375ab981595d4c8b8a158e9b1cf"
+    },
+    {
+      "file": "cn-industry-textiles-garments-footwear-17-19.json",
+      "sha256": "b7d209d9374f0a8f5ca1972c0d817015da55523ae7b679af9068acb5debf85fa"
+    },
+    {
+      "file": "cn-industry-textiles-garments-footwear-17-19.md",
+      "sha256": "27595680c3dea592711ab455ba8958372821002d8da47f36d3e019e9255fdc26"
+    }
+  ],
+  "linkedArtifactChanges": [
+    {
+      "file": "cn-industry-textiles-garments-footwear-17-19.md",
+      "reason": "仅同步研究 JSON SHA",
+      "beforeSha256": "27595680c3dea592711ab455ba8958372821002d8da47f36d3e019e9255fdc26",
+      "afterSha256": "d93c948e4c25ad8755baf9348dc7851a5df5f250953bb39f8dc51c2fd580a04d"
+    },
+    {
+      "file": "cn-industry-textiles-garments-footwear-17-19-validation.json",
+      "reason": "仅同步 outputSha256；旧验证结果保留原语义",
+      "changedPaths": [
+        "/outputSha256"
+      ],
+      "afterSha256": "81c210b22c1df1acd451a772177f21eba166740b64883b34cb28337d62849f2c"
+    }
+  ],
+  "preservationChecks": {
+    "all136OriginalTasksPreserved": true,
+    "allOtherRawValuesPreserved": true,
+    "searchAuditBytesUnchanged": true,
+    "oldRevisionReceiptBytesUnchanged": true,
+    "newQueriesExecuted": 0,
+    "independentReviewUnmodified": true
+  },
+  "canFreeze": false,
+  "limitedRecheckStatus": "pending-independent-two-field-recheck"
+}

@@ -9,6 +9,8 @@ import {importUsAgriculture} from '../src/research/import-us-agriculture'
 import {importUsCore} from '../src/research/import-us-core'
 import {importUsHealth} from '../src/research/import-us-health'
 import {importUsServices} from '../src/research/import-us-services'
+import {importCnIndustryFood,cnIndustryFoodFiles} from '../src/research/import-cn-industry-food'
+import {importCnIndustryTextiles,cnIndustryTextilesFiles} from '../src/research/import-cn-industry-textiles'
 import {validateResearch} from '../src/research/validate'
 const root=new URL('../',import.meta.url)
 const read=async(file:string)=>{const text=await readFile(new URL(file,root),'utf8');return {data:JSON.parse(text),sha256:createHash('sha256').update(text).digest('hex')}}
@@ -52,6 +54,10 @@ const agricultureFollowupTexts=Object.fromEntries(await Promise.all(Object.value
 data=importCnAgricultureFollowups(data,agricultureFollowupTexts)
 const constructionTexts=Object.fromEntries(await Promise.all(Object.values(cnConstructionFiles).map(async({file})=>[file,await readFile(new URL(file,root),'utf8')])))
 data=importCnConstruction(data,constructionTexts)
+for(const [manifest,importer] of [[cnIndustryFoodFiles,importCnIndustryFood],[cnIndustryTextilesFiles,importCnIndustryTextiles]] as const) {
+ const texts=Object.fromEntries(await Promise.all(Object.values(manifest).map(async({file})=>[file,await readFile(new URL(file,root),'utf8')])))
+ data=importer(data,texts)
+}
 const result=validateResearch(data)
 await writeFile(new URL('data/research.json',root),JSON.stringify(result,null,2)+'\n')
 console.log('Integrated',raw.data.tasks.length,'CN service task research records. Definition revisions remain open; none are frozen.')

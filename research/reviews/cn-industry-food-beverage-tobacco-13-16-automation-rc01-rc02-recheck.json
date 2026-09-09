@@ -1,0 +1,470 @@
+{
+  "schemaVersion": "1.0",
+  "reviewId": "cn-industry-food-beverage-tobacco-13-16-rc01-rc02-field-recheck",
+  "reviewer": "us_data (original independent reviewer, not author)",
+  "reviewedAt": "2026-09-09",
+  "country": "CN",
+  "inputSha256": "b54710c4db1b730515f85b07d53ddc33f0f37b59769a069e13cdae94c214f748",
+  "previousInputSha256": "2713f38aa23f7a367be8f1eff88b624434480df2da1466b15103070e043d0756",
+  "revisionReceiptSha256": "7248d31f22c423f2c0c41981e96877ff5a25e2f34a2042353931469859aca620",
+  "priorIndependentRecheckSha256": "25f32ec9b5402ae2e399a9446ef78c19c9b88579f2f2dc38322bdd0adc9b6a41",
+  "inputFiles": [
+    {
+      "path": "research/automation/source-cache/cn-industry-food-beverage-tobacco-13-16/revision-input-2713/cn-industry-food-beverage-tobacco-13-16.json",
+      "sha256": "2713f38aa23f7a367be8f1eff88b624434480df2da1466b15103070e043d0756"
+    },
+    {
+      "path": "research/automation/cn-industry-food-beverage-tobacco-13-16.json",
+      "sha256": "b54710c4db1b730515f85b07d53ddc33f0f37b59769a069e13cdae94c214f748"
+    },
+    {
+      "path": "research/automation/cn-industry-food-beverage-tobacco-13-16-limited-revisions.json",
+      "sha256": "7248d31f22c423f2c0c41981e96877ff5a25e2f34a2042353931469859aca620"
+    },
+    {
+      "path": "research/reviews/cn-industry-food-beverage-tobacco-13-16-automation-recheck.json",
+      "sha256": "25f32ec9b5402ae2e399a9446ef78c19c9b88579f2f2dc38322bdd0adc9b6a41"
+    },
+    {
+      "path": "research/automation/cn-industry-food-beverage-tobacco-13-16-search-audit.json",
+      "sha256": "7e616c9260868a05be967d0d74778bbbe95bac8110d887e6ac88d93b5e89ef2b"
+    },
+    {
+      "path": "research/automation/cn-industry-food-beverage-tobacco-13-16-validation.json",
+      "sha256": "27c0c9cba36d32907d81d58a390de3a006f04b2a4c5ef5f2b7725bf9b2df5ee9"
+    },
+    {
+      "path": "research/automation/cn-industry-food-beverage-tobacco-13-16.md",
+      "sha256": "8d35baf40e1f9e94fb16a4f4c1681d6fa8e88b905850332c44189d1d252c0cd0"
+    }
+  ],
+  "scope": "RC01/RC02限定字段复检，逐比86条实际JSON差异；不是196项新一轮完整独审。",
+  "verdict": "RC01-and-RC02-resolved-with-existing-evidence-gaps",
+  "canEnterUnfrozenWorkingVersion": true,
+  "isFrozen": false,
+  "authorInputModified": false,
+  "differenceAudit": {
+    "actualPathCount": 86,
+    "receiptPathCount": 86,
+    "allBeforeAndAfterValuesExactlyMatchReceipt": true,
+    "countBreakdown": {
+      "role": 24,
+      "detail": 24,
+      "supportConclusion": 24,
+      "fishMechanismAndMirrors": 7,
+      "statistics": 5,
+      "reviewMetadata": 2
+    },
+    "actualDiffSha256": "688bc8fd550cceeefb92972bf7b1c1445f5cced15423a3db95483d6272bb2705",
+    "scopeBoundary": "72处职业新增引用字段、7处鱼任务分级/镜像、5处统计、2处复检元数据；没有改任何原任务或补旧查询。"
+  },
+  "findingRechecks": [
+    {
+      "id": "RC01",
+      "status": "resolved",
+      "taskCount": 12,
+      "supportRoleFieldCount": 24,
+      "detailFieldCount": 24,
+      "supportConclusionFieldCount": 24,
+      "basis": "上轮独审已读且目视职业physical324/326/332/338，同一570页公示稿。本轮不重复声称新目视这四页；复读12个新增说明，逐一分开职业背景与HJ/设备证据。"
+    },
+    {
+      "id": "RC02",
+      "status": "resolved",
+      "taskId": "cn-ind-fish-mince-004",
+      "A1DirectPartialMechanism": true,
+      "A2EquipmentScopeOnly": true,
+      "fullTaskAcceptanceVerified": false,
+      "gillRemovalEvidenceMissing": true,
+      "freshOrThawedFishOnly": true,
+      "A2Unchanged": true,
+      "scope": "仅去内脏/局部刷洗恢复机制层；没有恢复去鳃/去鳞完整任务或当前在运证明。"
+    }
+  ],
+  "taskRechecks": [
+    {
+      "taskId": "cn-ind-feed-pellets-010",
+      "basisFromPriorIndependentReview": "饲料条目定义及任务1—7未列计量包装；HJ包装单元和FDSP称量材料另列。",
+      "fieldChecks": [
+        {
+          "field": "executionConditions.reviewedDefinitionSourceRefs",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。饲料条目定义及任务1—7未列计量包装；HJ包装单元和FDSP称量材料另列。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        },
+        {
+          "field": "inventoryDisposition.reviewedDefinitionChecks",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。饲料条目定义及任务1—7未列计量包装；HJ包装单元和FDSP称量材料另列。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        }
+      ],
+      "originalTaskUnchanged": true,
+      "isFrozen": false
+    },
+    {
+      "taskId": "cn-ind-fish-mince-001",
+      "basisFromPriorIndependentReview": "水产职责以初加工后的原料为入口，未列卸货、储存。",
+      "fieldChecks": [
+        {
+          "field": "executionConditions.reviewedDefinitionSourceRefs",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。水产职责以初加工后的原料为入口，未列卸货、储存。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        },
+        {
+          "field": "inventoryDisposition.reviewedDefinitionChecks",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。水产职责以初加工后的原料为入口，未列卸货、储存。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        }
+      ],
+      "originalTaskUnchanged": true,
+      "isFrozen": false
+    },
+    {
+      "taskId": "cn-ind-fish-mince-002",
+      "basisFromPriorIndependentReview": "水产职责未列原料挑选/等级分流，HJ表1是直接流程来源。",
+      "fieldChecks": [
+        {
+          "field": "executionConditions.reviewedDefinitionSourceRefs",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。水产职责未列原料挑选/等级分流，HJ表1是直接流程来源。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        },
+        {
+          "field": "inventoryDisposition.reviewedDefinitionChecks",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。水产职责未列原料挑选/等级分流，HJ表1是直接流程来源。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        }
+      ],
+      "originalTaskUnchanged": true,
+      "isFrozen": false
+    },
+    {
+      "taskId": "cn-ind-fish-mince-003",
+      "basisFromPriorIndependentReview": "水产职责未列原料宰杀/放血，HJ表1是直接流程来源。",
+      "fieldChecks": [
+        {
+          "field": "executionConditions.reviewedDefinitionSourceRefs",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。水产职责未列原料宰杀/放血，HJ表1是直接流程来源。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        },
+        {
+          "field": "inventoryDisposition.reviewedDefinitionChecks",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。水产职责未列原料宰杀/放血，HJ表1是直接流程来源。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        }
+      ],
+      "originalTaskUnchanged": true,
+      "isFrozen": false
+    },
+    {
+      "taskId": "cn-ind-fish-mince-004",
+      "basisFromPriorIndependentReview": "水产职责未列去鳃/鳞/内脏，HJ表1和局部设备原文另列。",
+      "fieldChecks": [
+        {
+          "field": "executionConditions.reviewedDefinitionSourceRefs",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。水产职责未列去鳃/鳞/内脏，HJ表1和局部设备原文另列。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        },
+        {
+          "field": "inventoryDisposition.reviewedDefinitionChecks",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。水产职责未列去鳃/鳞/内脏，HJ表1和局部设备原文另列。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        }
+      ],
+      "originalTaskUnchanged": true,
+      "isFrozen": false
+    },
+    {
+      "taskId": "cn-ind-fish-mince-005",
+      "basisFromPriorIndependentReview": "水产职责6清理场地、设备，不能当鱼体清洗职责。",
+      "fieldChecks": [
+        {
+          "field": "executionConditions.reviewedDefinitionSourceRefs",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。水产职责6清理场地、设备，不能当鱼体清洗职责。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        },
+        {
+          "field": "inventoryDisposition.reviewedDefinitionChecks",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。水产职责6清理场地、设备，不能当鱼体清洗职责。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        }
+      ],
+      "originalTaskUnchanged": true,
+      "isFrozen": false
+    },
+    {
+      "taskId": "cn-ind-milk-heat-fill-003",
+      "basisFromPriorIndependentReview": "乳品职责13清洗设备和管道，不是直接列包装瓶清洗；HJ回收瓶路线另列。",
+      "fieldChecks": [
+        {
+          "field": "executionConditions.reviewedDefinitionSourceRefs",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。乳品职责13清洗设备和管道，不是直接列包装瓶清洗；HJ回收瓶路线另列。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        },
+        {
+          "field": "inventoryDisposition.reviewedDefinitionChecks",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。乳品职责13清洗设备和管道，不是直接列包装瓶清洗；HJ回收瓶路线另列。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        }
+      ],
+      "originalTaskUnchanged": true,
+      "isFrozen": false
+    },
+    {
+      "taskId": "cn-ind-fruit-juice-001",
+      "basisFromPriorIndependentReview": "饮料职责4预处理列清洗/破碎/打浆/榨汁，不包含挑选；HJ挑选台另列。",
+      "fieldChecks": [
+        {
+          "field": "executionConditions.reviewedDefinitionSourceRefs",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。饮料职责4预处理列清洗/破碎/打浆/榨汁，不包含挑选；HJ挑选台另列。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        },
+        {
+          "field": "inventoryDisposition.reviewedDefinitionChecks",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。饮料职责4预处理列清洗/破碎/打浆/榨汁，不包含挑选；HJ挑选台另列。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        }
+      ],
+      "originalTaskUnchanged": true,
+      "isFrozen": false
+    },
+    {
+      "taskId": "cn-ind-fruit-juice-006",
+      "basisFromPriorIndependentReview": "饮料职责1过滤对象为原料水，不能直接支持果汁粗滤。",
+      "fieldChecks": [
+        {
+          "field": "executionConditions.reviewedDefinitionSourceRefs",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。饮料职责1过滤对象为原料水，不能直接支持果汁粗滤。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        },
+        {
+          "field": "inventoryDisposition.reviewedDefinitionChecks",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。饮料职责1过滤对象为原料水，不能直接支持果汁粗滤。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        }
+      ],
+      "originalTaskUnchanged": true,
+      "isFrozen": false
+    },
+    {
+      "taskId": "cn-ind-fruit-juice-007",
+      "basisFromPriorIndependentReview": "饮料职责没有直接列果汁离心澄清，HJ对应工序和局部设备另列。",
+      "fieldChecks": [
+        {
+          "field": "executionConditions.reviewedDefinitionSourceRefs",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。饮料职责没有直接列果汁离心澄清，HJ对应工序和局部设备另列。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        },
+        {
+          "field": "inventoryDisposition.reviewedDefinitionChecks",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。饮料职责没有直接列果汁离心澄清，HJ对应工序和局部设备另列。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        }
+      ],
+      "originalTaskUnchanged": true,
+      "isFrozen": false
+    },
+    {
+      "taskId": "cn-ind-carbonated-drink-005",
+      "basisFromPriorIndependentReview": "饮料职责未单列二氧化碳充入/碳酸化；HJ碳酸化系统另列。",
+      "fieldChecks": [
+        {
+          "field": "executionConditions.reviewedDefinitionSourceRefs",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。饮料职责未单列二氧化碳充入/碳酸化；HJ碳酸化系统另列。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        },
+        {
+          "field": "inventoryDisposition.reviewedDefinitionChecks",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。饮料职责未单列二氧化碳充入/碳酸化；HJ碳酸化系统另列。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        }
+      ],
+      "originalTaskUnchanged": true,
+      "isFrozen": false
+    },
+    {
+      "taskId": "cn-ind-carbonated-drink-006",
+      "basisFromPriorIndependentReview": "饮料职责1原料水过滤不能直接支持碳酸饮料料液过滤。",
+      "fieldChecks": [
+        {
+          "field": "executionConditions.reviewedDefinitionSourceRefs",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。饮料职责1原料水过滤不能直接支持碳酸饮料料液过滤。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        },
+        {
+          "field": "inventoryDisposition.reviewedDefinitionChecks",
+          "role": "occupation-scenario-context-not-direct-current-action",
+          "detail": "2022职业公示稿仅作场景背景，不直接列出本动作。饮料职责1原料水过滤不能直接支持碳酸饮料料液过滤。",
+          "supportConclusion": "职业场景背景，不是本动作、验收、部署或工时的直接支持；工艺来源与自动化来源须分别核对。",
+          "decision": "corrected-context-role-and-scope"
+        }
+      ],
+      "originalTaskUnchanged": true,
+      "isFrozen": false
+    }
+  ],
+  "sourceRechecks": [
+    {
+      "sourceId": "CN-FOOD-FISH-GUT",
+      "cacheSha256": "bf13f34ebd641f9b87b5baebb0d9ad44451a015f6fdd9112a527340de998c50b",
+      "readLocator": "规范化90—95，尤其93—94",
+      "rereadThisLimitedCheck": true,
+      "note": "鲜鱼/解冻鱼开肚、去内脏与勾刀/毛刷/高压水局部机制；参数不填入现金流。"
+    },
+    {
+      "sourceId": "CN-FOOD-FISH-MINCE",
+      "cacheSha256": "52e7e71c15574b56f7c5c4ff0efac6287f2b0b578af7eee2ac817a57733c603a",
+      "readLocator": "规范化75—76",
+      "rereadThisLimitedCheck": true,
+      "note": "设备清单列去鳞机，无具体去鳞动作机理；A2继续目录层。"
+    }
+  ],
+  "invariants": {
+    "original196SnapshotsUnchanged": true,
+    "196TaskCoreFieldsUnchanged": true,
+    "sourcesUnchanged": true,
+    "cashModelsUnchanged": true,
+    "all196CashFieldsUnchanged": true,
+    "queryAuditBytesUnchanged": true,
+    "A2Unchanged": true,
+    "taskIdOrderUnchanged": true,
+    "noNewChildrenCounted": true,
+    "priorIndependentReviewUnchanged": true
+  },
+  "tierCountsRecomputed": {
+    "insufficient-matched-evidence-after-search": 99,
+    "bounded-direct-or-partial-action-mechanism": 64,
+    "adjacent-evidence-only-no-current-task-mechanism": 6,
+    "equipment-or-route-scope-only": 20,
+    "provisional-application-only": 1,
+    "bounded-indexed-origin-mechanism": 6
+  },
+  "taskCount": 196,
+  "proposedSplitParentCount": 35,
+  "proposedChildrenCounted": 0,
+  "queryAudit": {
+    "mainQueries": 392,
+    "supplementalQueries": 15,
+    "auditSha256": "7e616c9260868a05be967d0d74778bbbe95bac8110d887e6ac88d93b5e89ef2b",
+    "queryAuditBytesUnchanged": true,
+    "newQueriesExecuted": 0,
+    "oldExecutionUTCFabricated": false,
+    "scope": "未重做旧查询审计；沿用前轮分层：主批请求/回包同批持久化，无独立精确UTC；补查请求来源层级保留原限制。"
+  },
+  "cashFlowReview": "全部196现金与人工字段及统一模型逐值未变，参数仍缺；不产生回报。",
+  "remainingBlockingFindings": [],
+  "remainingNonblockingNotes": [
+    {
+      "id": "RN01",
+      "severity": "editorial-synchronization",
+      "scope": "all-196",
+      "note": "evidenceGaps仍有“库存流程与职业路径仍待独立复核”旧句；当前已完成特定原文范围的首轮审校。建议改为已核该范围、尚缺现场SOP/正式版本/行业遗漏，区分已完成与未完成。"
+    },
+    {
+      "id": "RN02",
+      "severity": "historical-review-note-display",
+      "taskIds": [
+        "cn-ind-oil-solvent-extract-001",
+        "cn-ind-raw-milk-preparation-001",
+        "cn-ind-dairy-cip-002",
+        "cn-ind-beer-brewing-009",
+        "cn-ind-tobacco-filter-cigarette-002"
+      ],
+      "note": "保存原裁决note适合审计，但当前结论/剩余人工等镜像仍逐字说应补定位、应补成型段。须在显示时标原审意见，另显示本轮已补及仍缺的具体边界；不能让已补锚在当前状态仍显示缺失。"
+    },
+    {
+      "id": "RN03",
+      "severity": "statistic-field-naming-boundary",
+      "field": "statistics.tasksWithoutMatchedReadMechanism",
+      "note": "该值是196减直接/局部机制一层，包含6项已经读到索引机制。建议改为tasksOutsideDirectOrPartialMechanismTier，或显式保留兼容字段并说明集合；不能将其理解成133项完全没有已读机制。"
+    }
+  ],
+  "remainingOriginalGaps": [
+    {
+      "id": "G01",
+      "scope": "all-196",
+      "text": "全部主查询确有不同动作全文，仍多为长动作+自动化设备应用/故障失效未采用的首轮检索；未逐任务扩展设备别名、传统机械/专机/辅助工具、退出/未采用运营证据及经济采用检索。392个执行匹配不能等同完成正反验证。"
+    },
+    {
+      "id": "G02",
+      "scope": "inventory-baselines",
+      "text": "职业与HJ已明确粉碎、制粒、洗瓶、输送、制水、包装、平衡箱等传统设备。99项缺已读新机制不能表达为没有现有机械；应补设备存在级基线，再研究配置、残留人工和验收。"
+    },
+    {
+      "id": "G03",
+      "scope": "all-196",
+      "text": "所有工时、可撤销付薪、部署、能源水耗材、维护、异常停机、需求瓶颈等现金参数空；没有本任务完整持续商业成功或2026在运核验。"
+    },
+    {
+      "id": "G04",
+      "scope": "industry-coverage",
+      "text": "196仅27个既有候选场景。13类聚焦饲料油料水产，14聚焦乳品，未覆盖其余门类；各场景准备交接、检测、异常、返工、保养和交付仍不完整。数量不代表行业全部任务。"
+    },
+    {
+      "id": "G05",
+      "scope": "source-era-and-process-scope",
+      "text": "2022职业公示稿不是现行逐工序SOP或工时标准；2019/2020 HJ表格用于工艺/设备范围，未重新认证所有现行合规条款，固废章节后续替代不在本次引用用途；2007烟草范围/时期须保留。"
+    },
+    {
+      "id": "G06",
+      "scope": "independent-execution-audit",
+      "text": "98主批为执行后持久化的请求字段和响应；本次能重比该记录但没有独立调用前日志/UTC。15补充仅公开请求转录与结果缓存，没有独立请求日志。未重跑原查询。"
+    },
+    {
+      "id": "G07",
+      "scope": "sources-CN-FOOD-BEER-BREW-and-GEL",
+      "text": "糖化系统/糊化锅实际复读的是原网址索引相关段，直接原页403/超时；此层级与完整页面缓存分开。论文摘要与整篇论文同样分开。"
+    },
+    {
+      "id": "G08",
+      "scope": "task-evidence-gaps",
+      "text": "剩余证据不足逐任务保留；未找到案例不能证明不可行，设计风险/文献机理/旧供应商比较不能代替具名中国失败或未采用原因。"
+    }
+  ],
+  "nextStep": "可按已审范围进入未冻结工作版；保留RN01–RN03显示/字段口径提醒与既有现场、正式职业版本、失败史及完整任务证据缺口，不自动冻结。",
+  "privateFullSnapshotDirectory": "/tmp/us-recheck-cn-food-rc01-rc02"
+}

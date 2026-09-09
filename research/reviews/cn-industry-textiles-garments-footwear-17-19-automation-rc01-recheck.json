@@ -1,0 +1,40 @@
+{
+  "reviewType": "independent-limited-two-field-recheck",
+  "reviewedAt": "2026-09-09",
+  "previousIndependentRecheckSha256": "78350dc9fcf3432f3cd338c198d30828059104395fc19d717d5325d3298ae5ec",
+  "beforeSha256": "b7d209d9374f0a8f5ca1972c0d817015da55523ae7b679af9068acb5debf85fa",
+  "afterSha256": "e8e24034460d5eefea0082c01b2ad6f3647fb5464d40a1975fefe670e1f64e6b",
+  "authorReceiptSha256": "507cc51931c64ab708cb5d9322165022969d47c9c36302a28222b0ea9e940b2d",
+  "decision": "confirmed-with-retained-gaps-eligible-for-unfrozen-working-version",
+  "isFrozen": false,
+  "actualDiffPathCount": 2,
+  "changes": [
+    {
+      "path": "/tasks/21/inventoryDisposition/reviewedDefinitionChecks/1/detail",
+      "before": "纺纱机台清洁与废料回收范围；输出仍需分核。",
+      "after": "纺纱工任务8只支持机台清理；回花回收由另一前处理/粗纱条目支持，输出仍需分核。"
+    },
+    {
+      "path": "/tasks/21/executionConditions/reviewedDefinitionSourceRefs/1/detail",
+      "before": "纺纱机台清洁与废料回收范围；输出仍需分核。",
+      "after": "纺纱工任务8只支持机台清理；回花回收由另一前处理/粗纱条目支持，输出仍需分核。"
+    }
+  ],
+  "method": "原整稿逐路径比较，精确核对原审RC01 requiredValue；未重新读整份136项、未重新查询或补造执行时序。原审已实际复读职业公示稿物理344页正文337页纺纱工任务8，只有清理机台。",
+  "unchanged": "除这两处detail以外，raw全部其他路径字节解析值相同；136 originalTask、定义映射其余字段、人力、现金、来源与查询均保持。",
+  "retainedCounts": {
+    "taskCount": 136,
+    "matchedLocalMechanism": 61,
+    "terminologyConditional": 1,
+    "catalogueOnly": 1,
+    "adjacent": 2,
+    "noNewMatchedMechanism": 71,
+    "proposedSplitParents": 23,
+    "newCountedTasks": 0
+  },
+  "retainedLimitations": [
+    "术语等价1项仍待核，不得改成直接证实。",
+    "产品或拟建材料不证明2026持续运行。",
+    "所有原独审和限定复检其余证据缺口继续存在。"
+  ]
+}
