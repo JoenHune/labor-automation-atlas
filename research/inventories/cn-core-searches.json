@@ -1,0 +1,958 @@
+{
+  "asOf": "2026-09-09",
+  "country": "CN",
+  "scope": "中国五行业任务盘点；农业与工业增量",
+  "queries": [
+    {
+      "id": "cn-core-search-001",
+      "query": "site.gov.cn 职业分类大典 2022 农林牧渔 生产 辅助 人员 pdf",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-002",
+      "query": "site.gov.cn 农业社会化服务 粮食 生产 服务 技术 规程 耕 整地 播种 收获",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-003",
+      "query": "site.moa.gov.cn 蔬菜 生产 技术 规程 采收 分级 包装",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-004",
+      "query": "site.forestry.gov.cn 森林 抚育 作业 规程 割灌 除草 补植",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-005",
+      "query": "site.moa.gov.cn 生猪 饲养 管理 技术 规程 消毒 转群",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-006",
+      "query": "site.moa.gov.cn 池塘 养殖 技术 规程 清塘 放养 捕捞",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-007",
+      "query": "site.moa.gov.cn \"蔬菜\" \"整地\" \"采收\" \"技术指导\" 2025",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-008",
+      "query": "site.moa.gov.cn \"果园\" \"修剪\" \"采收\" \"技术指导\" 2025",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-009",
+      "query": "site.gov.cn \"林木采伐工\" \"主要工作任务\"",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-010",
+      "query": "site.gov.cn \"家畜饲养员\" \"主要工作任务\"",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-011",
+      "query": "site.forestry.gov.cn \"造林质量管理暂行办法\" \"2002\"",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-012",
+      "query": "site.moa.gov.cn \"小麦农业社会化服务规范\" \"5.1\"",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-013",
+      "query": "site.moa.gov.cn \"生鲜乳生产收购\" \"挤奶\" \"清洗\" 规范",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-014",
+      "query": "site.moa.gov.cn \"家禽\" \"捡蛋\" \"技术指导\"",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-015",
+      "query": "site.forestry.gov.cn \"造林\" \"补植\" \"2025\" \"技术\"",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-016",
+      "query": "site.gov.cn \"森林采伐作业规程\" \"打枝\" \"造材\"",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-017",
+      "query": "site.moa.gov.cn \"食用菌\" \"灭菌\" \"接种\" \"技术指导\"",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-018",
+      "query": "site.moa.gov.cn \"蛋鸡\" \"集蛋\" \"技术\"",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-019",
+      "query": "site.gov.cn 森林采伐 作业 技术 打枝 造材 油锯",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-020",
+      "query": "site.gov.cn 食用菌 生产 技术 指导 装袋 灭菌 接种 2025",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-021",
+      "query": "site.gov.cn 渔船 捕捞 操作 起网 分拣 保鲜 安全规程",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-022",
+      "query": "site.hzjjs.moa.gov.cn/nyshhfw/202402/t20240228_6449268.htm \"5.1\" \"收获\"",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-023",
+      "query": "site.jnny.jinan.gov.cn \"2026年全省夏季食用菌生产管理技术指导意见\" \"发布日期\"",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-024",
+      "query": "site.lcj.yn.gov.cn/html/2026/sfjd_0113/75946.html \"整地\" \"栽植\"",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-025",
+      "query": "site.yyj.moa.gov.cn/scyz/202306/t20230620_6430587.htm \"投喂\" \"养殖\"",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-026",
+      "query": "\"安徽省小麦农业社会化服务规范\" \"5.4\"",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-027",
+      "query": "\"安徽省小麦农业社会化服务规范\" \"5.1.1\"",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-028",
+      "query": "\"2023年苹果园秋季生产技术指导意见\" \"三、\"",
+      "executedAt": "2026-09-09",
+      "purpose": "流程或职业任务发现与版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-029",
+      "query": "site.mee.gov.cn 排污许可证 申请 核发 技术规范 \"主要生产单元\" \"食品\"",
+      "executedAt": "2026-09-09",
+      "purpose": "工业生产单元、规范版本及职业交叉核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-030",
+      "query": "site.mee.gov.cn \"排污许可证申请与核发技术规范\" \"电子工业\" \"2019\"",
+      "executedAt": "2026-09-09",
+      "purpose": "工业生产单元、规范版本及职业交叉核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-031",
+      "query": "site.mem.gov.cn \"煤矿安全规程\" \"2025\" \"采煤\"",
+      "executedAt": "2026-09-09",
+      "purpose": "工业生产单元、规范版本及职业交叉核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-032",
+      "query": "site.mee.gov.cn \"排污许可证申请与核发技术规范\" \"水处理\" \"W020\"",
+      "executedAt": "2026-09-09",
+      "purpose": "工业生产单元、规范版本及职业交叉核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-033",
+      "query": "site.mee.gov.cn \"排污许可证申请与核发技术规范\" \"火电\" \"W020\"",
+      "executedAt": "2026-09-09",
+      "purpose": "工业生产单元、规范版本及职业交叉核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-034",
+      "query": "site.gov.cn \"燃气设施运行\" \"巡查\" \"操作规程\" \"储配站\"",
+      "executedAt": "2026-09-09",
+      "purpose": "工业生产单元、规范版本及职业交叉核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-035",
+      "query": "排污许可证申请与核发技术规范 水处理 HJ 978 生态环境部",
+      "executedAt": "2026-09-09",
+      "purpose": "工业生产单元、规范版本及职业交叉核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-036",
+      "query": "排污许可证申请与核发技术规范 火电 HJ 820 生态环境部",
+      "executedAt": "2026-09-09",
+      "purpose": "工业生产单元、规范版本及职业交叉核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-037",
+      "query": "煤矿安全规程 应急管理部 2025 采煤 PDF",
+      "executedAt": "2026-09-09",
+      "purpose": "工业生产单元、规范版本及职业交叉核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-038",
+      "query": "排污许可证申请与核发技术规范 纺织印染 HJ861 生态环境部",
+      "executedAt": "2026-09-09",
+      "purpose": "工业生产单元、规范版本及职业交叉核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-039",
+      "query": "site.mee.gov.cn 排污许可证 家具制造工业 HJ1027 pdf",
+      "executedAt": "2026-09-09",
+      "purpose": "工业生产单元、规范版本及职业交叉核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-040",
+      "query": "site.mee.gov.cn 排污许可证 谷物磨制 HJ860 pdf",
+      "executedAt": "2026-09-09",
+      "purpose": "工业生产单元、规范版本及职业交叉核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-041",
+      "query": "site.gov.cn 供水 水厂 运行 规程 混凝 沉淀 过滤 反冲洗",
+      "executedAt": "2026-09-09",
+      "purpose": "工业生产单元、规范版本及职业交叉核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-042",
+      "query": "site.gov.cn \"DB4403/T 205\" pdf",
+      "executedAt": "2026-09-09",
+      "purpose": "工业生产单元、规范版本及职业交叉核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-043",
+      "query": "site.mee.gov.cn \"谷物磨制\" \"清理\" \"碾米\"",
+      "executedAt": "2026-09-09",
+      "purpose": "工业生产单元、规范版本及职业交叉核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-044",
+      "query": "site.mee.gov.cn \"HJ 861\" \"纺纱\" \"清梳\"",
+      "executedAt": "2026-09-09",
+      "purpose": "工业生产单元、规范版本及职业交叉核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-045",
+      "query": "site.gov.cn \"CJJ 51-2016\" pdf",
+      "executedAt": "2026-09-09",
+      "purpose": "工业生产单元、规范版本及职业交叉核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-046",
+      "query": "site.gov.cn \"建筑与市政工程施工质量控制通用规范\" \"材料\" \"检验\"",
+      "executedAt": "2026-09-09",
+      "purpose": "建筑批零交通流程来源发现",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-047",
+      "query": "site.gov.cn \"食品经营过程卫生规范\" \"验收\" \"贮存\" GB31621",
+      "executedAt": "2026-09-09",
+      "purpose": "建筑批零交通流程来源发现",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-048",
+      "query": "site.mot.gov.cn \"道路货物运输\" \"装载\" \"检查\" \"操作规程\"",
+      "executedAt": "2026-09-09",
+      "purpose": "建筑批零交通流程来源发现",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-049",
+      "query": "site.spb.gov.cn \"快递服务\" \"收寄\" \"分拣\" \"投递\" 2024",
+      "executedAt": "2026-09-09",
+      "purpose": "建筑批零交通流程来源发现",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-050",
+      "query": "GB 55032-2022 施工质量控制 通用规范 pdf 住房 城乡",
+      "executedAt": "2026-09-09",
+      "purpose": "原始规范与版本核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-051",
+      "query": "GB 31621-2014 食品经营过程卫生规范 2026 现行 替代",
+      "executedAt": "2026-09-09",
+      "purpose": "原始规范与版本核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-052",
+      "query": "site.spb.gov.cn \"GB/T 27917.3—2023\" pdf",
+      "executedAt": "2026-09-09",
+      "purpose": "原始规范与版本核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-053",
+      "query": "site.gov.cn \"建筑地基基础工程施工规范\" \"土方\" \"回填\"",
+      "executedAt": "2026-09-09",
+      "purpose": "原始规范与版本核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-054",
+      "query": "site.gov.cn \"GB/T 27917.3-2023\" \"pdf\"",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-055",
+      "query": "site.spb.gov.cn \"快递业务操作指导规范\" \"装卸\"",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-056",
+      "query": "site.gov.cn \"混凝土结构工程施工规范\" \"钢筋\" \"浇筑\" pdf",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-057",
+      "query": "site.gov.cn \"商品验收\" \"补货\" \"超市\" \"规范\"",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-058",
+      "query": "site.mofcom.gov.cn \"百货店\" \"陈列\" \"规范\"",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-059",
+      "query": "site.gov.cn \"快递服务\" \"27917.3\" \"分拣\" \"2023\"",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-060",
+      "query": "site.spb.gov.cn \"快递市场管理办法\" \"2023\" \"分拣\"",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-061",
+      "query": "site.xxgk.mot.gov.cn \"快递市场管理办法\" \"2023年第22号\"",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-062",
+      "query": "\"GB 55032-2022\" \"W020\"",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-063",
+      "query": "site.gov.cn \"超市\" \"商品验收\" \"陈列\" 规范",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-064",
+      "query": "site.mofcom.gov.cn \"仓储作业规范\"",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-065",
+      "query": "site.gov.cn \"仓储作业规范\" \"入库\" \"出库\"",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-066",
+      "query": "site.gov.cn \"给水排水管道工程施工及验收规范\" \"冲洗\" \"试验\"",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-067",
+      "query": "site.gov.cn \"GB55032\" \"抹灰\" \"门窗\"",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-068",
+      "query": "\"建筑与市政工程施工质量控制通用规范\" \"pdf\" site.gov.cn",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-069",
+      "query": "\"砌体结构通用规范\" \"施工\" site.gov.cn",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-070",
+      "query": "\"建筑装饰装修工程\" \"抹灰\" \"清理\" site.gov.cn",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-071",
+      "query": "\"仓储作业规范\" site.cawd.org.cn",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-072",
+      "query": "site.slt.ln.gov.cn/slt/zfxxgk/fdzdgknr/lzyj/bbmgfxwj/2025042116584218642 \"电气\" \"5.\"",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-073",
+      "query": "site.slt.ln.gov.cn/slt/zfxxgk/fdzdgknr/lzyj/bbmgfxwj/2025042116584218642 \"机泵\" \"安装\"",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-074",
+      "query": "site.gov.cn \"GB 50666-2011\" \"pdf\"",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-075",
+      "query": "site.mohurd.gov.cn \"装饰装修\" \"工艺\" \"施工\"",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-076",
+      "query": "site.mofcom.gov.cn \"SB/T 10977\" \"pdf\"",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-077",
+      "query": "\"DB11/T 1832.10-2022\" \"pdf\" site.gov.cn",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-078",
+      "query": "\"GB 50666\" site.zjw.sh.gov.cn \"P020\"",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-079",
+      "query": "\"GB 55032\" \"attachment\"",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-080",
+      "query": "\"DB11/T 1832.3\" \"pdf\"",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-081",
+      "query": "\"1832.10\" site.scjgj.beijing.gov.cn",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-082",
+      "query": "\"1832.3\" site.scjgj.beijing.gov.cn",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-083",
+      "query": "\"建筑工程施工工艺规程\" \"混凝土结构工程\" site.gov.cn",
+      "executedAt": "2026-09-09",
+      "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
+      "automationEvidenceSearch": false
+    }
+  ],
+  "sourceReads": [
+    {
+      "sourceId": "cn-occ-2022-draft",
+      "url": "https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "agronomy",
+        "horticulture",
+        "seedling",
+        "mushroom",
+        "forestry",
+        "logging",
+        "livestock",
+        "poultry",
+        "aquaculture",
+        "aquatic-seed",
+        "fishing",
+        "crop-protection",
+        "mechanization",
+        "initial-processing",
+        "coal-mining",
+        "coal-support",
+        "steel-charge",
+        "steelmaking",
+        "steelcasting",
+        "pulp",
+        "papermaking",
+        "pulp-recovery",
+        "paperbox",
+        "furniture",
+        "autoassembly",
+        "pcb",
+        "power-fuel",
+        "power-boiler",
+        "power-turbine",
+        "power-electric",
+        "gas",
+        "wastewater",
+        "retail",
+        "warehouse",
+        "tally",
+        "loader",
+        "truck",
+        "freight-station",
+        "courier",
+        "express-sort",
+        "masonry",
+        "concrete",
+        "rebar",
+        "scaffold",
+        "prefab",
+        "electrical-install",
+        "pipe-install",
+        "decoration",
+        "window",
+        "earthwork"
+      ],
+      "readMethod": "下载 PDF 并提取原文；封面与有关页已核对"
+    },
+    {
+      "sourceId": "cn-wheat-service-2024",
+      "url": "https://hzjjs.moa.gov.cn/nyshhfw/202402/t20240228_6449268.htm",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "requirements"
+      ],
+      "readMethod": "官方网页检索展开原文；直接页面间歇性 404/抓取失败"
+    },
+    {
+      "sourceId": "cn-vegetable-2021",
+      "url": "https://njhs.moa.gov.cn/tzggjzcjd/202111/t20211123_6382709.htm",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "prepare",
+        "grow",
+        "harvest",
+        "abnormal"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-apple-autumn-2023",
+      "url": "https://jgs.moa.gov.cn/fxpg/202309/t20230928_6437593.htm",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "soil",
+        "prune",
+        "fruit",
+        "health"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-apple-summer-2022",
+      "url": "https://zzys.moa.gov.cn/gzdt/202206/t20220621_6403019.htm",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "disaster"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-mushroom-2026",
+      "url": "https://jnny.jinan.gov.cn/col/col553/art/2026/art_3fecf5fd25844bb39b0b87379179dc09.html",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "facility",
+        "bags"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-mushroom-hygiene-2023",
+      "url": "https://jgs.moa.gov.cn/fxpg/202301/t20230128_6419291.htm",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "contamination",
+        "pests"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-pig-health-2023",
+      "url": "https://xmsyj.moa.gov.cn/zcjd/202401/t20240109_6445184.htm",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "inspection",
+        "immunization",
+        "hygiene",
+        "husbandry",
+        "transfer"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-milk-station-2009",
+      "url": "https://nync.ln.gov.cn/nync/index/lnsnyfzfwzx/zcfg/A7B5DED1857C4FCABF7918529CBB917B/index.shtml",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "equipment",
+        "test",
+        "milking",
+        "clean"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-aquaculture-summer-2023",
+      "url": "https://yyj.moa.gov.cn/scyz/202306/t20230620_6430587.htm",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "fish",
+        "shrimp",
+        "shellfish",
+        "disease"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-forest-restoration-2021",
+      "url": "https://lcj.yn.gov.cn/html/2021/gfxwj_1206/127.html",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "land",
+        "plant",
+        "accept"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-ag-outsourcing-2019",
+      "url": "https://jcs.moa.gov.cn/trzgl/201908/t20190827_6323158.htm",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "service"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-coal-rule-2025",
+      "url": "https://www.mem.gov.cn/gk/zfxxgkpt/fdzdgknr/gz11/202508/W020250804639453346681.pdf",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "longwall",
+        "miner",
+        "scraper"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-power-hj953-2026",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/W020260903351863274869.pdf",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "units"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-steel-hj846-2026",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/W020260903364560555505.pdf",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "units"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-paper-hj1482-2026",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/W020260903355217681908.pdf",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "pulp",
+        "paper"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-auto-hj971-2026",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/W020260903357835401097.pdf",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "units"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-electronics-hj1031-2019",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201907/W020190726463360946225.pdf",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "pcb",
+        "components"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-furniture-hj1027-2019",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201906/W020190606477512248323.pdf",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "wood",
+        "scope"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-wastewater-hj978-2018",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201811/W020181115298062287807.pdf",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "treatment",
+        "outlet"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-gas-gb55009-2021",
+      "url": "https://www.jingtai.gov.cn/zfxxgk/bmhxzxxgk/xzfzcbmzsjgml/xzjj/fdzdgknr/lzyj/zcfg/art/2025/art_3d1bfff86a94436483c1dcd3d14cba3d.html",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "scope",
+        "operations",
+        "lng",
+        "cylinder"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-food-retail-gb31621-2014",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3424/site/upload/20170830/20170830161219_49896.pdf",
+      "readStatus": "full-original-text-read",
+      "locatorIds": [
+        "receipt",
+        "storage",
+        "sales",
+        "recall"
+      ],
+      "readMethod": "PDF全部5页有效正文已读取"
+    },
+    {
+      "sourceId": "cn-roadfreight-2026",
+      "url": "https://xxgk.mot.gov.cn/gz/202602/t20260213_4200294.html",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "scope",
+        "road",
+        "station"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-express-rule-2023",
+      "url": "https://xxgk.mot.gov.cn/jigou/fgs/202401/t20240104_3980683.html",
+      "readStatus": "relevant-original-passages-read",
+      "locatorIds": [
+        "receive",
+        "deliver",
+        "safety"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    },
+    {
+      "sourceId": "cn-concrete-db1832-2021",
+      "url": "https://leadingcloudread.oss-cn-beijing.aliyuncs.com/lizhengyun/1105009575860244482",
+      "readStatus": "selected-original-pdf-pages-read",
+      "locatorIds": [
+        "steel-form",
+        "rebar-machine",
+        "rebar-coupling",
+        "rebar-raft",
+        "concrete-pump",
+        "concrete-cast"
+      ],
+      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+    }
+  ],
+  "exclusions": [
+    {
+      "url": "https://www.forestry.gov.cn/c/www/gkgfxwj/300395.jhtml",
+      "title": "造林质量管理暂行办法（2002）",
+      "reason": "发现废止线索但尚未完成官方废止核验，未按当前有效规范采用。",
+      "status": "not-used-as-current-standard"
+    },
+    {
+      "url": "https://nyt.hubei.gov.cn/zfxxgk/zc_GK2020/qtzdgkwj_GK2020/tz/202602/t20260210_5874529.shtml",
+      "title": "湖北省2026年农业主推技术指南",
+      "reason": "检索结果出现‘人工成本降低150%’异常表述，未采用任何效率与回报数字；蛋禽场景仍待规范核验。",
+      "status": "numbers-not-adopted"
+    },
+    {
+      "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=mCZP0OBlCUo%3D&mode=p",
+      "title": "GB/T 45088-2024 林木采伐技术规程",
+      "reason": "已读标准元数据，发布日期2024-11-28；未读完整条文，因此未声称生产采伐流程已完成。",
+      "status": "metadata-only"
+    },
+    {
+      "url": "https://std.samr.gov.cn/db/search/stdDBDetailed?id=D7B86BEB5C804BEAE05397BE0A0AB375",
+      "title": "DB4403/T205—2021生活饮用水净水厂运行管理规范",
+      "reason": "元数据页同时出现现行标记与2026-07-27废止日期；尚未核清替代版，不能作为2026现行要求。PDF完整条文未读，因此未据此建立饮用水场景。",
+      "status": "metadata-conflict-not-adopted-as-current"
+    },
+    {
+      "url": "https://jx.spb.gov.cn/",
+      "reason": "检索得到转载于2023年的2011快递服务标准和2013快递管理办法，未当作现行版本采用；最终使用交通运输部2023办法。"
+    }
+  ],
+  "accessFailures": [
+    {
+      "url": "https://hzjjs.moa.gov.cn/nyshhfw/202402/t20240228_6449268.htm",
+      "result": "直接打开多次 404/抓取失败，检索可展开部分原文；尚需全文稳定定位。"
+    },
+    {
+      "url": "https://srsj.cngy.gov.cn/gongkai/show/cd7449164a5b4a73bbdaf28c79905970.html",
+      "result": "网页 405；其托管 PDF 下载成功，实际同为 2022 社会公示稿，不是正式现行版。"
+    },
+    {
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/t20260903_1164999.shtml",
+      "result": "再次核标题时网页抓取错误；此前PDF正文和日期已读取。"
+    },
+    {
+      "url": "https://sjw.nanjing.gov.cn/gdzsj/zcfg/bmgz/202310/P020231026571138062651.pdf",
+      "issue": "直接读取失败，搜索摘要不足以声称全文已读，未作为任务正文来源"
+    }
+  ],
+  "limitations": [
+    "尚未进行每个任务自动化成功/失败/退出/未采用检索。",
+    "浏览器抓取日期不作为发布时间；网页 URL 日期与正文日期不同时以原文说明。",
+    "未核读完整条文的材料只列线索，不视为已完成双路径流程证据。"
+  ]
+}

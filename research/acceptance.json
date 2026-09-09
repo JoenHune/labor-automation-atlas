@@ -1,0 +1,105 @@
+{
+  "version": "2026-09-09.working",
+  "status": "not-ready",
+  "checks": [
+    {
+      "id": "data-latest",
+      "area": "数据",
+      "description": "执行初查和发布前复查：最新全年、2021—2025最新修订趋势及最新已发布一期",
+      "status": "in-progress",
+      "evidence": []
+    },
+    {
+      "id": "rank-classification",
+      "area": "数据",
+      "description": "同统计期现价非重叠分类、Top10与产业补项、其他汇总覆盖缺口",
+      "status": "in-progress",
+      "evidence": []
+    },
+    {
+      "id": "task-coverage",
+      "area": "研究",
+      "description": "全选中行业双路径流程任务盘点、交叉审查、明确边界、首版冻结",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "task-research",
+      "area": "研究",
+      "description": "每个任务有正反检索结果、逐结论来源定位、缺口、访谈、独立复核",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "cashflow",
+      "area": "研究",
+      "description": "完整增量成本及需求依据、缺参数不产生回收期、可复算",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "country-isolation",
+      "area": "隔离",
+      "description": "排名/货币/任务/搜索/案例/批注不跨国",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "region-selection",
+      "area": "框选",
+      "description": "文字/正文/表格/图表/图片/空白/跨组件可就地调整选区、无固定评论区",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "anchor-resilience",
+      "area": "定位",
+      "description": "缩放/换行/排序/年份恢复/内容变更/删除不错误挂载",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "identity-live",
+      "area": "互动",
+      "description": "真实GitHub用户新建/评论/回复/关闭/重开/权限拒绝",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "sync-live",
+      "area": "互动",
+      "description": "Webhook验签去重、GitHub普通评论、双向状态及父评论删除",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "failure-recovery",
+      "area": "异常",
+      "description": "草稿保留/重复提交/快照失败/授权过期/服务不可用/更新时间",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "responsive",
+      "area": "体验",
+      "description": "桌面/平板/手机/200%文字、触摸调整、键盘批注、标记筛选隐藏聚合",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "share-restore",
+      "area": "体验",
+      "description": "独立链接恢复年份筛选和多目标选区、快照仅选中网站区域",
+      "status": "pending",
+      "evidence": []
+    },
+    {
+      "id": "public-deploy",
+      "area": "交付",
+      "description": "公开仓库/Pages公开网址/Worker+D1+R2+GitHub App生产联调/数据与访谈导出",
+      "status": "pending",
+      "evidence": []
+    }
+  ]
+}
+

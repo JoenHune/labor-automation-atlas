@@ -1,0 +1,4016 @@
+{
+  "reviewDate": "2026-09-09",
+  "reviewerTask": "us_data (independent from cn_data author)",
+  "reviewedFile": "research/cn/macro.json",
+  "reviewedSha256": "49638464102d8a74cc5626ffc270894164bee0c26c68809e382521439c59cc92",
+  "method": "Fresh source retrieval recorded separately; independent HTML table-cell parse without importing build_macro.py or using extracted-release-tables.json; visual transcription of C03-01 and all requested columns in C03-06; independent arithmetic and ranking.",
+  "numericCoverage": {
+    "htmlNominalObservations": 80,
+    "htmlRealGrowthObservations": 80,
+    "yearbookMainObservations": 48,
+    "yearbookDetailCells": 57,
+    "monthlyValues": 8,
+    "rankValues": 10
+  },
+  "checksCount": 562,
+  "confirmed": 562,
+  "errors": [],
+  "otherComparisons": [
+    {
+      "year": "2021",
+      "sevenSectionSum": 192899.1,
+      "table31BroadOther": 278986.7,
+      "informationPlusBusiness": 86087.7,
+      "broadMinusSevenInformationBusiness": -0.1
+    },
+    {
+      "year": "2022",
+      "sevenSectionSum": 207801.9,
+      "table31BroadOther": 303003.0,
+      "informationPlusBusiness": 95201.20000000001,
+      "broadMinusSevenInformationBusiness": -0.1
+    },
+    {
+      "year": "2023",
+      "sevenSectionSum": 221303.3,
+      "table31BroadOther": 329240.5,
+      "informationPlusBusiness": 107937.3,
+      "broadMinusSevenInformationBusiness": -0.1
+    }
+  ],
+  "checks": [
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 1348066,
+      "expected": 1348066.0,
+      "sourceLocator": "annual2024final.html: GDP; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 5.0,
+      "expected": 5.0,
+      "sourceLocator": "annual2024final.html: GDP; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2025-12-26",
+      "expected": "2025-12-26",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 91636,
+      "expected": 91636.0,
+      "sourceLocator": "annual2024final.html: 第一产业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 3.7,
+      "expected": 3.7,
+      "sourceLocator": "annual2024final.html: 第一产业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2025-12-26",
+      "expected": "2025-12-26",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 490305,
+      "expected": 490305.0,
+      "sourceLocator": "annual2024final.html: 第二产业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 5.0,
+      "expected": 5.0,
+      "sourceLocator": "annual2024final.html: 第二产业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2025-12-26",
+      "expected": "2025-12-26",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 766125,
+      "expected": 766125.0,
+      "sourceLocator": "annual2024final.html: 第三产业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 5.1,
+      "expected": 5.1,
+      "sourceLocator": "annual2024final.html: 第三产业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2025-12-26",
+      "expected": "2025-12-26",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 96976,
+      "expected": 96976.0,
+      "sourceLocator": "annual2024final.html: 农林牧渔业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 4.0,
+      "expected": 4.0,
+      "sourceLocator": "annual2024final.html: 农林牧渔业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2025-12-26",
+      "expected": "2025-12-26",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 404519,
+      "expected": 404519.0,
+      "sourceLocator": "annual2024final.html: 工业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 5.5,
+      "expected": 5.5,
+      "sourceLocator": "annual2024final.html: 工业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2025-12-26",
+      "expected": "2025-12-26",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 334881,
+      "expected": 334881.0,
+      "sourceLocator": "annual2024final.html: 制造业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 5.8,
+      "expected": 5.8,
+      "sourceLocator": "annual2024final.html: 制造业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2025-12-26",
+      "expected": "2025-12-26",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 88863,
+      "expected": 88863.0,
+      "sourceLocator": "annual2024final.html: 建筑业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 2.9,
+      "expected": 2.9,
+      "sourceLocator": "annual2024final.html: 建筑业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2025-12-26",
+      "expected": "2025-12-26",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 139192,
+      "expected": 139192.0,
+      "sourceLocator": "annual2024final.html: 批发和零售业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 6.5,
+      "expected": 6.5,
+      "sourceLocator": "annual2024final.html: 批发和零售业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2025-12-26",
+      "expected": "2025-12-26",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 59045,
+      "expected": 59045.0,
+      "sourceLocator": "annual2024final.html: 交通运输、仓储和邮政业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 6.7,
+      "expected": 6.7,
+      "sourceLocator": "annual2024final.html: 交通运输、仓储和邮政业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2025-12-26",
+      "expected": "2025-12-26",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 24894,
+      "expected": 24894.0,
+      "sourceLocator": "annual2024final.html: 住宿和餐饮业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 7.0,
+      "expected": 7.0,
+      "sourceLocator": "annual2024final.html: 住宿和餐饮业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2025-12-26",
+      "expected": "2025-12-26",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 96956,
+      "expected": 96956.0,
+      "sourceLocator": "annual2024final.html: 金融业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 3.7,
+      "expected": 3.7,
+      "sourceLocator": "annual2024final.html: 金融业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2025-12-26",
+      "expected": "2025-12-26",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 84047,
+      "expected": 84047.0,
+      "sourceLocator": "annual2024final.html: 房地产业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": -2.2,
+      "expected": -2.2,
+      "sourceLocator": "annual2024final.html: 房地产业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2025-12-26",
+      "expected": "2025-12-26",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 63958,
+      "expected": 63958.0,
+      "sourceLocator": "annual2024final.html: 信息传输、软件和信息技术服务业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 11.7,
+      "expected": 11.7,
+      "sourceLocator": "annual2024final.html: 信息传输、软件和信息技术服务业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2025-12-26",
+      "expected": "2025-12-26",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 56941,
+      "expected": 56941.0,
+      "sourceLocator": "annual2024final.html: 租赁和商务服务业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 11.1,
+      "expected": 11.1,
+      "sourceLocator": "annual2024final.html: 租赁和商务服务业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2025-12-26",
+      "expected": "2025-12-26",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 232676,
+      "expected": 232676.0,
+      "sourceLocator": "annual2024final.html: 其他行业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 3.9,
+      "expected": 3.9,
+      "sourceLocator": "annual2024final.html: 其他行业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2025-12-26",
+      "expected": "2025-12-26",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2024final.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 1401879,
+      "expected": 1401879.0,
+      "sourceLocator": "annual2025.html: GDP; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 5.0,
+      "expected": 5.0,
+      "sourceLocator": "annual2025.html: GDP; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-01-20",
+      "expected": "2026-01-20",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 93347,
+      "expected": 93347.0,
+      "sourceLocator": "annual2025.html: 第一产业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 3.9,
+      "expected": 3.9,
+      "sourceLocator": "annual2025.html: 第一产业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-01-20",
+      "expected": "2026-01-20",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 499653,
+      "expected": 499653.0,
+      "sourceLocator": "annual2025.html: 第二产业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 4.5,
+      "expected": 4.5,
+      "sourceLocator": "annual2025.html: 第二产业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-01-20",
+      "expected": "2026-01-20",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 808879,
+      "expected": 808879.0,
+      "sourceLocator": "annual2025.html: 第三产业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 5.4,
+      "expected": 5.4,
+      "sourceLocator": "annual2025.html: 第三产业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-01-20",
+      "expected": "2026-01-20",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 99107,
+      "expected": 99107.0,
+      "sourceLocator": "annual2025.html: 农林牧渔业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 4.1,
+      "expected": 4.1,
+      "sourceLocator": "annual2025.html: 农林牧渔业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-01-20",
+      "expected": "2026-01-20",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 416826,
+      "expected": 416826.0,
+      "sourceLocator": "annual2025.html: 工业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 5.8,
+      "expected": 5.8,
+      "sourceLocator": "annual2025.html: 工业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-01-20",
+      "expected": "2026-01-20",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 346747,
+      "expected": 346747.0,
+      "sourceLocator": "annual2025.html: 制造业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 6.1,
+      "expected": 6.1,
+      "sourceLocator": "annual2025.html: 制造业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-01-20",
+      "expected": "2026-01-20",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 86425,
+      "expected": 86425.0,
+      "sourceLocator": "annual2025.html: 建筑业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": -1.1,
+      "expected": -1.1,
+      "sourceLocator": "annual2025.html: 建筑业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-01-20",
+      "expected": "2026-01-20",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 145808,
+      "expected": 145808.0,
+      "sourceLocator": "annual2025.html: 批发和零售业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 5.0,
+      "expected": 5.0,
+      "sourceLocator": "annual2025.html: 批发和零售业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-01-20",
+      "expected": "2026-01-20",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 62092,
+      "expected": 62092.0,
+      "sourceLocator": "annual2025.html: 交通运输、仓储和邮政业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 5.2,
+      "expected": 5.2,
+      "sourceLocator": "annual2025.html: 交通运输、仓储和邮政业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-01-20",
+      "expected": "2026-01-20",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 26403,
+      "expected": 26403.0,
+      "sourceLocator": "annual2025.html: 住宿和餐饮业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 4.9,
+      "expected": 4.9,
+      "sourceLocator": "annual2025.html: 住宿和餐饮业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-01-20",
+      "expected": "2026-01-20",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 101337,
+      "expected": 101337.0,
+      "sourceLocator": "annual2025.html: 金融业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 4.5,
+      "expected": 4.5,
+      "sourceLocator": "annual2025.html: 金融业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-01-20",
+      "expected": "2026-01-20",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 83024,
+      "expected": 83024.0,
+      "sourceLocator": "annual2025.html: 房地产业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 0.2,
+      "expected": 0.2,
+      "sourceLocator": "annual2025.html: 房地产业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-01-20",
+      "expected": "2026-01-20",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 70599,
+      "expected": 70599.0,
+      "sourceLocator": "annual2025.html: 信息传输、软件和信息技术服务业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 11.1,
+      "expected": 11.1,
+      "sourceLocator": "annual2025.html: 信息传输、软件和信息技术服务业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-01-20",
+      "expected": "2026-01-20",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 63666,
+      "expected": 63666.0,
+      "sourceLocator": "annual2025.html: 租赁和商务服务业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 10.3,
+      "expected": 10.3,
+      "sourceLocator": "annual2025.html: 租赁和商务服务业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-01-20",
+      "expected": "2026-01-20",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 246593,
+      "expected": 246593.0,
+      "sourceLocator": "annual2025.html: 其他行业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 5.0,
+      "expected": 5.0,
+      "sourceLocator": "annual2025.html: 其他行业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-01-20",
+      "expected": "2026-01-20",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "annual2025.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 334193,
+      "expected": 334193.0,
+      "sourceLocator": "quarter2026q1.html: GDP; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 5.0,
+      "expected": 5.0,
+      "sourceLocator": "quarter2026q1.html: GDP; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-04-17",
+      "expected": "2026-04-17",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 11941,
+      "expected": 11941.0,
+      "sourceLocator": "quarter2026q1.html: 第一产业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 3.8,
+      "expected": 3.8,
+      "sourceLocator": "quarter2026q1.html: 第一产业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-04-17",
+      "expected": "2026-04-17",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 116135,
+      "expected": 116135.0,
+      "sourceLocator": "quarter2026q1.html: 第二产业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 4.9,
+      "expected": 4.9,
+      "sourceLocator": "quarter2026q1.html: 第二产业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-04-17",
+      "expected": "2026-04-17",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 206117,
+      "expected": 206117.0,
+      "sourceLocator": "quarter2026q1.html: 第三产业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 5.2,
+      "expected": 5.2,
+      "sourceLocator": "quarter2026q1.html: 第三产业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-04-17",
+      "expected": "2026-04-17",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 12851,
+      "expected": 12851.0,
+      "sourceLocator": "quarter2026q1.html: 农林牧渔业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 4.0,
+      "expected": 4.0,
+      "sourceLocator": "quarter2026q1.html: 农林牧渔业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-04-17",
+      "expected": "2026-04-17",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 103388,
+      "expected": 103388.0,
+      "sourceLocator": "quarter2026q1.html: 工业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 6.1,
+      "expected": 6.1,
+      "sourceLocator": "quarter2026q1.html: 工业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-04-17",
+      "expected": "2026-04-17",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 86960,
+      "expected": 86960.0,
+      "sourceLocator": "quarter2026q1.html: 制造业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 6.3,
+      "expected": 6.3,
+      "sourceLocator": "quarter2026q1.html: 制造业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-04-17",
+      "expected": "2026-04-17",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 13632,
+      "expected": 13632.0,
+      "sourceLocator": "quarter2026q1.html: 建筑业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": -3.8,
+      "expected": -3.8,
+      "sourceLocator": "quarter2026q1.html: 建筑业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-04-17",
+      "expected": "2026-04-17",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 35071,
+      "expected": 35071.0,
+      "sourceLocator": "quarter2026q1.html: 批发和零售业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 4.1,
+      "expected": 4.1,
+      "sourceLocator": "quarter2026q1.html: 批发和零售业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-04-17",
+      "expected": "2026-04-17",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 14638,
+      "expected": 14638.0,
+      "sourceLocator": "quarter2026q1.html: 交通运输、仓储和邮政业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 4.3,
+      "expected": 4.3,
+      "sourceLocator": "quarter2026q1.html: 交通运输、仓储和邮政业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-04-17",
+      "expected": "2026-04-17",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 6055,
+      "expected": 6055.0,
+      "sourceLocator": "quarter2026q1.html: 住宿和餐饮业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 4.3,
+      "expected": 4.3,
+      "sourceLocator": "quarter2026q1.html: 住宿和餐饮业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-04-17",
+      "expected": "2026-04-17",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 27225,
+      "expected": 27225.0,
+      "sourceLocator": "quarter2026q1.html: 金融业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 6.5,
+      "expected": 6.5,
+      "sourceLocator": "quarter2026q1.html: 金融业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-04-17",
+      "expected": "2026-04-17",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 20326,
+      "expected": 20326.0,
+      "sourceLocator": "quarter2026q1.html: 房地产业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": -0.1,
+      "expected": -0.1,
+      "sourceLocator": "quarter2026q1.html: 房地产业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-04-17",
+      "expected": "2026-04-17",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 20444,
+      "expected": 20444.0,
+      "sourceLocator": "quarter2026q1.html: 信息传输、软件和信息技术服务业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 10.6,
+      "expected": 10.6,
+      "sourceLocator": "quarter2026q1.html: 信息传输、软件和信息技术服务业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-04-17",
+      "expected": "2026-04-17",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 16209,
+      "expected": 16209.0,
+      "sourceLocator": "quarter2026q1.html: 租赁和商务服务业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 12.2,
+      "expected": 12.2,
+      "sourceLocator": "quarter2026q1.html: 租赁和商务服务业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-04-17",
+      "expected": "2026-04-17",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 64354,
+      "expected": 64354.0,
+      "sourceLocator": "quarter2026q1.html: 其他行业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 4.0,
+      "expected": 4.0,
+      "sourceLocator": "quarter2026q1.html: 其他行业; numeric column 2"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-04-17",
+      "expected": "2026-04-17",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "quarter2026q1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 361511,
+      "expected": 361511.0,
+      "sourceLocator": "half2026h1.html: GDP; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 4.3,
+      "expected": 4.3,
+      "sourceLocator": "half2026h1.html: GDP; numeric column 3"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 19581,
+      "expected": 19581.0,
+      "sourceLocator": "half2026h1.html: 第一产业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 3.7,
+      "expected": 3.7,
+      "sourceLocator": "half2026h1.html: 第一产业; numeric column 3"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 134338,
+      "expected": 134338.0,
+      "sourceLocator": "half2026h1.html: 第二产业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 3.0,
+      "expected": 3.0,
+      "sourceLocator": "half2026h1.html: 第二产业; numeric column 3"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 207592,
+      "expected": 207592.0,
+      "sourceLocator": "half2026h1.html: 第三产业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 5.1,
+      "expected": 5.1,
+      "sourceLocator": "half2026h1.html: 第三产业; numeric column 3"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 20951,
+      "expected": 20951.0,
+      "sourceLocator": "half2026h1.html: 农林牧渔业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 3.9,
+      "expected": 3.9,
+      "sourceLocator": "half2026h1.html: 农林牧渔业; numeric column 3"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 112836,
+      "expected": 112836.0,
+      "sourceLocator": "half2026h1.html: 工业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 4.7,
+      "expected": 4.7,
+      "sourceLocator": "half2026h1.html: 工业; numeric column 3"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 95370,
+      "expected": 95370.0,
+      "sourceLocator": "half2026h1.html: 制造业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 4.8,
+      "expected": 4.8,
+      "sourceLocator": "half2026h1.html: 制造业; numeric column 3"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 22411,
+      "expected": 22411.0,
+      "sourceLocator": "half2026h1.html: 建筑业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": -4.1,
+      "expected": -4.1,
+      "sourceLocator": "half2026h1.html: 建筑业; numeric column 3"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 37146,
+      "expected": 37146.0,
+      "sourceLocator": "half2026h1.html: 批发和零售业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 3.3,
+      "expected": 3.3,
+      "sourceLocator": "half2026h1.html: 批发和零售业; numeric column 3"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 16692,
+      "expected": 16692.0,
+      "sourceLocator": "half2026h1.html: 交通运输、仓储和邮政业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 5.1,
+      "expected": 5.1,
+      "sourceLocator": "half2026h1.html: 交通运输、仓储和邮政业; numeric column 3"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 6202,
+      "expected": 6202.0,
+      "sourceLocator": "half2026h1.html: 住宿和餐饮业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 5.8,
+      "expected": 5.8,
+      "sourceLocator": "half2026h1.html: 住宿和餐饮业; numeric column 3"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 27390,
+      "expected": 27390.0,
+      "sourceLocator": "half2026h1.html: 金融业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 6.9,
+      "expected": 6.9,
+      "sourceLocator": "half2026h1.html: 金融业; numeric column 3"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 21038,
+      "expected": 21038.0,
+      "sourceLocator": "half2026h1.html: 房地产业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": -0.2,
+      "expected": -0.2,
+      "sourceLocator": "half2026h1.html: 房地产业; numeric column 3"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 20890,
+      "expected": 20890.0,
+      "sourceLocator": "half2026h1.html: 信息传输、软件和信息技术服务业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 10.8,
+      "expected": 10.8,
+      "sourceLocator": "half2026h1.html: 信息传输、软件和信息技术服务业; numeric column 3"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 15383,
+      "expected": 15383.0,
+      "sourceLocator": "half2026h1.html: 租赁和商务服务业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 11.6,
+      "expected": 11.6,
+      "sourceLocator": "half2026h1.html: 租赁和商务服务业; numeric column 3"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 60572,
+      "expected": 60572.0,
+      "sourceLocator": "half2026h1.html: 其他行业; numeric column 1"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 3.7,
+      "expected": 3.7,
+      "sourceLocator": "half2026h1.html: 其他行业; numeric column 3"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 695704,
+      "expected": 695704.0,
+      "sourceLocator": "half2026h1.html: GDP; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 4.7,
+      "expected": 4.7,
+      "sourceLocator": "half2026h1.html: GDP; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 31522,
+      "expected": 31522.0,
+      "sourceLocator": "half2026h1.html: 第一产业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 3.7,
+      "expected": 3.7,
+      "sourceLocator": "half2026h1.html: 第一产业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 250473,
+      "expected": 250473.0,
+      "sourceLocator": "half2026h1.html: 第二产业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 3.9,
+      "expected": 3.9,
+      "sourceLocator": "half2026h1.html: 第二产业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 413709,
+      "expected": 413709.0,
+      "sourceLocator": "half2026h1.html: 第三产业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 5.2,
+      "expected": 5.2,
+      "sourceLocator": "half2026h1.html: 第三产业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 33801,
+      "expected": 33801.0,
+      "sourceLocator": "half2026h1.html: 农林牧渔业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 4.0,
+      "expected": 4.0,
+      "sourceLocator": "half2026h1.html: 农林牧渔业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 216224,
+      "expected": 216224.0,
+      "sourceLocator": "half2026h1.html: 工业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 5.4,
+      "expected": 5.4,
+      "sourceLocator": "half2026h1.html: 工业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 182331,
+      "expected": 182331.0,
+      "sourceLocator": "half2026h1.html: 制造业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 5.5,
+      "expected": 5.5,
+      "sourceLocator": "half2026h1.html: 制造业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 36043,
+      "expected": 36043.0,
+      "sourceLocator": "half2026h1.html: 建筑业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": -4.0,
+      "expected": -4.0,
+      "sourceLocator": "half2026h1.html: 建筑业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 72217,
+      "expected": 72217.0,
+      "sourceLocator": "half2026h1.html: 批发和零售业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 3.7,
+      "expected": 3.7,
+      "sourceLocator": "half2026h1.html: 批发和零售业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 31330,
+      "expected": 31330.0,
+      "sourceLocator": "half2026h1.html: 交通运输、仓储和邮政业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 4.7,
+      "expected": 4.7,
+      "sourceLocator": "half2026h1.html: 交通运输、仓储和邮政业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 12257,
+      "expected": 12257.0,
+      "sourceLocator": "half2026h1.html: 住宿和餐饮业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 5.0,
+      "expected": 5.0,
+      "sourceLocator": "half2026h1.html: 住宿和餐饮业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 54614,
+      "expected": 54614.0,
+      "sourceLocator": "half2026h1.html: 金融业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 6.7,
+      "expected": 6.7,
+      "sourceLocator": "half2026h1.html: 金融业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 41365,
+      "expected": 41365.0,
+      "sourceLocator": "half2026h1.html: 房地产业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": -0.2,
+      "expected": -0.2,
+      "sourceLocator": "half2026h1.html: 房地产业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 41334,
+      "expected": 41334.0,
+      "sourceLocator": "half2026h1.html: 信息传输、软件和信息技术服务业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 10.7,
+      "expected": 10.7,
+      "sourceLocator": "half2026h1.html: 信息传输、软件和信息技术服务业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 31592,
+      "expected": 31592.0,
+      "sourceLocator": "half2026h1.html: 租赁和商务服务业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 11.9,
+      "expected": 11.9,
+      "sourceLocator": "half2026h1.html: 租赁和商务服务业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "current_value",
+      "status": "confirmed",
+      "actual": 124926,
+      "expected": 124926.0,
+      "sourceLocator": "half2026h1.html: 其他行业; numeric column 2"
+    },
+    {
+      "check": "real_yoy_growth",
+      "status": "confirmed",
+      "actual": 3.9,
+      "expected": 3.9,
+      "sourceLocator": "half2026h1.html: 其他行业; numeric column 4"
+    },
+    {
+      "check": "publication_date",
+      "status": "confirmed",
+      "actual": "2026-07-16",
+      "expected": "2026-07-16",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "not_annualized",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "unit",
+      "status": "confirmed",
+      "actual": "亿元",
+      "expected": "亿元",
+      "sourceLocator": "half2026h1.html"
+    },
+    {
+      "check": "yearbook_visual_value",
+      "status": "confirmed",
+      "actual": 1173823.0,
+      "expected": 1173823.0,
+      "sourceLocator": "C03-01.jpg: 2021/cn-gdp"
+    },
+    {
+      "check": "yearbook_visual_value",
+      "status": "confirmed",
+      "actual": 83216.5,
+      "expected": 83216.5,
+      "sourceLocator": "C03-01.jpg: 2021/cn-primary"
+    },
+    {
+      "check": "yearbook_visual_value",
+      "status": "confirmed",
+      "actual": 447138.2,
+      "expected": 447138.2,
+      "sourceLocator": "C03-01.jpg: 2021/cn-secondary"
+    },
+    {
+      "check": "yearbook_visual_value",
+      "status": "confirmed",
+      "actual": 643468.4,
+      "expected": 643468.4,
+      "sourceLocator": "C03-01.jpg: 2021/cn-tertiary"
+    },
+    {
+      "check": "yearbook_visual_value",
+      "status": "confirmed",
+      "actual": 369903.7,
+      "expected": 369903.7,
+      "sourceLocator": "C03-01.jpg: 2021/cn-industry"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 86994.8,
+      "expected": 86994.8,
+      "sourceLocator": "C03-06.jpg: 2021/农林牧渔业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 32012.1,
+      "expected": 32012.1,
+      "sourceLocator": "C03-06.jpg: 2021/采矿业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 312494.4,
+      "expected": 312494.4,
+      "sourceLocator": "C03-06.jpg: 2021/制造业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 25397.3,
+      "expected": 25397.3,
+      "sourceLocator": "C03-06.jpg: 2021/电力、热力、燃气及水生产和供应业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 79269.8,
+      "expected": 79269.8,
+      "sourceLocator": "C03-06.jpg: 2021/建筑业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 114358.0,
+      "expected": 114358.0,
+      "sourceLocator": "C03-06.jpg: 2021/批发和零售业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 48439.0,
+      "expected": 48439.0,
+      "sourceLocator": "C03-06.jpg: 2021/交通运输、仓储和邮政业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 19064.4,
+      "expected": 19064.4,
+      "sourceLocator": "C03-06.jpg: 2021/住宿和餐饮业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 45506.6,
+      "expected": 45506.6,
+      "sourceLocator": "C03-06.jpg: 2021/信息传输、软件和信息技术服务业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 86409.2,
+      "expected": 86409.2,
+      "sourceLocator": "C03-06.jpg: 2021/金融业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 90397.5,
+      "expected": 90397.5,
+      "sourceLocator": "C03-06.jpg: 2021/房地产业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 40581.1,
+      "expected": 40581.1,
+      "sourceLocator": "C03-06.jpg: 2021/租赁和商务服务业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 29406.5,
+      "expected": 29406.5,
+      "sourceLocator": "C03-06.jpg: 2021/科学研究和技术服务业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 7081.8,
+      "expected": 7081.8,
+      "sourceLocator": "C03-06.jpg: 2021/水利、环境和公共设施管理业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 19708.6,
+      "expected": 19708.6,
+      "sourceLocator": "C03-06.jpg: 2021/居民服务、修理和其他服务业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 44523.6,
+      "expected": 44523.6,
+      "sourceLocator": "C03-06.jpg: 2021/教育"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 27003.1,
+      "expected": 27003.1,
+      "sourceLocator": "C03-06.jpg: 2021/卫生和社会工作"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 9232.0,
+      "expected": 9232.0,
+      "sourceLocator": "C03-06.jpg: 2021/文化、体育和娱乐业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 55943.5,
+      "expected": 55943.5,
+      "sourceLocator": "C03-06.jpg: 2021/公共管理、社会保障和社会组织"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 86994.8,
+      "expected": 86994.8,
+      "sourceLocator": "C03-06.jpg: 2021/农林牧渔业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 312494.4,
+      "expected": 312494.4,
+      "sourceLocator": "C03-06.jpg: 2021/制造业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 79269.8,
+      "expected": 79269.8,
+      "sourceLocator": "C03-06.jpg: 2021/建筑业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 114358.0,
+      "expected": 114358.0,
+      "sourceLocator": "C03-06.jpg: 2021/批发和零售业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 48439.0,
+      "expected": 48439.0,
+      "sourceLocator": "C03-06.jpg: 2021/交通运输、仓储和邮政业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 19064.4,
+      "expected": 19064.4,
+      "sourceLocator": "C03-06.jpg: 2021/住宿和餐饮业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 86409.2,
+      "expected": 86409.2,
+      "sourceLocator": "C03-06.jpg: 2021/金融业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 90397.5,
+      "expected": 90397.5,
+      "sourceLocator": "C03-06.jpg: 2021/房地产业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 45506.6,
+      "expected": 45506.6,
+      "sourceLocator": "C03-06.jpg: 2021/信息传输、软件和信息技术服务业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 40581.1,
+      "expected": 40581.1,
+      "sourceLocator": "C03-06.jpg: 2021/租赁和商务服务业"
+    },
+    {
+      "check": "other_seven_component_sum",
+      "status": "confirmed",
+      "actual": 192899.1,
+      "expected": 192899.1,
+      "sourceLocator": "C03-06.jpg: 2021/last seven sections"
+    },
+    {
+      "check": "other_is_calculation",
+      "status": "confirmed",
+      "actual": "calculation",
+      "expected": "calculation",
+      "sourceLocator": "C03-06.jpg: 2021"
+    },
+    {
+      "check": "yearbook_visual_value",
+      "status": "confirmed",
+      "actual": 1234029.4,
+      "expected": 1234029.4,
+      "sourceLocator": "C03-01.jpg: 2022/cn-gdp"
+    },
+    {
+      "check": "yearbook_visual_value",
+      "status": "confirmed",
+      "actual": 88207.0,
+      "expected": 88207.0,
+      "sourceLocator": "C03-01.jpg: 2022/cn-primary"
+    },
+    {
+      "check": "yearbook_visual_value",
+      "status": "confirmed",
+      "actual": 467629.6,
+      "expected": 467629.6,
+      "sourceLocator": "C03-01.jpg: 2022/cn-secondary"
+    },
+    {
+      "check": "yearbook_visual_value",
+      "status": "confirmed",
+      "actual": 678192.7,
+      "expected": 678192.7,
+      "sourceLocator": "C03-01.jpg: 2022/cn-tertiary"
+    },
+    {
+      "check": "yearbook_visual_value",
+      "status": "confirmed",
+      "actual": 388651.6,
+      "expected": 388651.6,
+      "sourceLocator": "C03-01.jpg: 2022/cn-industry"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 92576.8,
+      "expected": 92576.8,
+      "sourceLocator": "C03-06.jpg: 2022/农林牧渔业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 38303.4,
+      "expected": 38303.4,
+      "sourceLocator": "C03-06.jpg: 2022/采矿业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 320609.1,
+      "expected": 320609.1,
+      "sourceLocator": "C03-06.jpg: 2022/制造业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 29739.1,
+      "expected": 29739.1,
+      "sourceLocator": "C03-06.jpg: 2022/电力、热力、燃气及水生产和供应业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 81439.8,
+      "expected": 81439.8,
+      "sourceLocator": "C03-06.jpg: 2022/建筑业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 122177.5,
+      "expected": 122177.5,
+      "sourceLocator": "C03-06.jpg: 2022/批发和零售业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 50967.7,
+      "expected": 50967.7,
+      "sourceLocator": "C03-06.jpg: 2022/交通运输、仓储和邮政业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 19146.2,
+      "expected": 19146.2,
+      "sourceLocator": "C03-06.jpg: 2022/住宿和餐饮业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 51036.3,
+      "expected": 51036.3,
+      "sourceLocator": "C03-06.jpg: 2022/信息传输、软件和信息技术服务业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 88051.5,
+      "expected": 88051.5,
+      "sourceLocator": "C03-06.jpg: 2022/金融业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 88015.2,
+      "expected": 88015.2,
+      "sourceLocator": "C03-06.jpg: 2022/房地产业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 44164.9,
+      "expected": 44164.9,
+      "sourceLocator": "C03-06.jpg: 2022/租赁和商务服务业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 31525.8,
+      "expected": 31525.8,
+      "sourceLocator": "C03-06.jpg: 2022/科学研究和技术服务业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 7604.2,
+      "expected": 7604.2,
+      "sourceLocator": "C03-06.jpg: 2022/水利、环境和公共设施管理业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 20998.2,
+      "expected": 20998.2,
+      "sourceLocator": "C03-06.jpg: 2022/居民服务、修理和其他服务业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 47629.3,
+      "expected": 47629.3,
+      "sourceLocator": "C03-06.jpg: 2022/教育"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 30056.5,
+      "expected": 30056.5,
+      "sourceLocator": "C03-06.jpg: 2022/卫生和社会工作"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 9678.3,
+      "expected": 9678.3,
+      "sourceLocator": "C03-06.jpg: 2022/文化、体育和娱乐业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 60309.6,
+      "expected": 60309.6,
+      "sourceLocator": "C03-06.jpg: 2022/公共管理、社会保障和社会组织"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 92576.8,
+      "expected": 92576.8,
+      "sourceLocator": "C03-06.jpg: 2022/农林牧渔业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 320609.1,
+      "expected": 320609.1,
+      "sourceLocator": "C03-06.jpg: 2022/制造业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 81439.8,
+      "expected": 81439.8,
+      "sourceLocator": "C03-06.jpg: 2022/建筑业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 122177.5,
+      "expected": 122177.5,
+      "sourceLocator": "C03-06.jpg: 2022/批发和零售业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 50967.7,
+      "expected": 50967.7,
+      "sourceLocator": "C03-06.jpg: 2022/交通运输、仓储和邮政业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 19146.2,
+      "expected": 19146.2,
+      "sourceLocator": "C03-06.jpg: 2022/住宿和餐饮业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 88051.5,
+      "expected": 88051.5,
+      "sourceLocator": "C03-06.jpg: 2022/金融业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 88015.2,
+      "expected": 88015.2,
+      "sourceLocator": "C03-06.jpg: 2022/房地产业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 51036.3,
+      "expected": 51036.3,
+      "sourceLocator": "C03-06.jpg: 2022/信息传输、软件和信息技术服务业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 44164.9,
+      "expected": 44164.9,
+      "sourceLocator": "C03-06.jpg: 2022/租赁和商务服务业"
+    },
+    {
+      "check": "other_seven_component_sum",
+      "status": "confirmed",
+      "actual": 207801.9,
+      "expected": 207801.9,
+      "sourceLocator": "C03-06.jpg: 2022/last seven sections"
+    },
+    {
+      "check": "other_is_calculation",
+      "status": "confirmed",
+      "actual": "calculation",
+      "expected": "calculation",
+      "sourceLocator": "C03-06.jpg: 2022"
+    },
+    {
+      "check": "yearbook_visual_value",
+      "status": "confirmed",
+      "actual": 1294271.7,
+      "expected": 1294271.7,
+      "sourceLocator": "C03-01.jpg: 2023/cn-gdp"
+    },
+    {
+      "check": "yearbook_visual_value",
+      "status": "confirmed",
+      "actual": 89169.1,
+      "expected": 89169.1,
+      "sourceLocator": "C03-01.jpg: 2023/cn-primary"
+    },
+    {
+      "check": "yearbook_visual_value",
+      "status": "confirmed",
+      "actual": 475936.1,
+      "expected": 475936.1,
+      "sourceLocator": "C03-01.jpg: 2023/cn-secondary"
+    },
+    {
+      "check": "yearbook_visual_value",
+      "status": "confirmed",
+      "actual": 729166.5,
+      "expected": 729166.5,
+      "sourceLocator": "C03-01.jpg: 2023/cn-tertiary"
+    },
+    {
+      "check": "yearbook_visual_value",
+      "status": "confirmed",
+      "actual": 392183.0,
+      "expected": 392183.0,
+      "sourceLocator": "C03-01.jpg: 2023/cn-industry"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 93967.0,
+      "expected": 93967.0,
+      "sourceLocator": "C03-06.jpg: 2023/农林牧渔业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 35613.9,
+      "expected": 35613.9,
+      "sourceLocator": "C03-06.jpg: 2023/采矿业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 323754.6,
+      "expected": 323754.6,
+      "sourceLocator": "C03-06.jpg: 2023/制造业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 32814.5,
+      "expected": 32814.5,
+      "sourceLocator": "C03-06.jpg: 2023/电力、热力、燃气及水生产和供应业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 86640.6,
+      "expected": 86640.6,
+      "sourceLocator": "C03-06.jpg: 2023/建筑业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 130809.7,
+      "expected": 130809.7,
+      "sourceLocator": "C03-06.jpg: 2023/批发和零售业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 56438.3,
+      "expected": 56438.3,
+      "sourceLocator": "C03-06.jpg: 2023/交通运输、仓储和邮政业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 23084.2,
+      "expected": 23084.2,
+      "sourceLocator": "C03-06.jpg: 2023/住宿和餐饮业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 57498.4,
+      "expected": 57498.4,
+      "sourceLocator": "C03-06.jpg: 2023/信息传输、软件和信息技术服务业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 93926.9,
+      "expected": 93926.9,
+      "sourceLocator": "C03-06.jpg: 2023/金融业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 87981.5,
+      "expected": 87981.5,
+      "sourceLocator": "C03-06.jpg: 2023/房地产业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 50438.9,
+      "expected": 50438.9,
+      "sourceLocator": "C03-06.jpg: 2023/租赁和商务服务业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 34088.4,
+      "expected": 34088.4,
+      "sourceLocator": "C03-06.jpg: 2023/科学研究和技术服务业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 7997.9,
+      "expected": 7997.9,
+      "sourceLocator": "C03-06.jpg: 2023/水利、环境和公共设施管理业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 23418.2,
+      "expected": 23418.2,
+      "sourceLocator": "C03-06.jpg: 2023/居民服务、修理和其他服务业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 49398.6,
+      "expected": 49398.6,
+      "sourceLocator": "C03-06.jpg: 2023/教育"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 31970.2,
+      "expected": 31970.2,
+      "sourceLocator": "C03-06.jpg: 2023/卫生和社会工作"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 10692.8,
+      "expected": 10692.8,
+      "sourceLocator": "C03-06.jpg: 2023/文化、体育和娱乐业"
+    },
+    {
+      "check": "yearbook_visual_detail_value",
+      "status": "confirmed",
+      "actual": 63737.2,
+      "expected": 63737.2,
+      "sourceLocator": "C03-06.jpg: 2023/公共管理、社会保障和社会组织"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 93967.0,
+      "expected": 93967.0,
+      "sourceLocator": "C03-06.jpg: 2023/农林牧渔业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 323754.6,
+      "expected": 323754.6,
+      "sourceLocator": "C03-06.jpg: 2023/制造业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 86640.6,
+      "expected": 86640.6,
+      "sourceLocator": "C03-06.jpg: 2023/建筑业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 130809.7,
+      "expected": 130809.7,
+      "sourceLocator": "C03-06.jpg: 2023/批发和零售业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 56438.3,
+      "expected": 56438.3,
+      "sourceLocator": "C03-06.jpg: 2023/交通运输、仓储和邮政业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 23084.2,
+      "expected": 23084.2,
+      "sourceLocator": "C03-06.jpg: 2023/住宿和餐饮业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 93926.9,
+      "expected": 93926.9,
+      "sourceLocator": "C03-06.jpg: 2023/金融业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 87981.5,
+      "expected": 87981.5,
+      "sourceLocator": "C03-06.jpg: 2023/房地产业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 57498.4,
+      "expected": 57498.4,
+      "sourceLocator": "C03-06.jpg: 2023/信息传输、软件和信息技术服务业"
+    },
+    {
+      "check": "yearbook_visual_main_value",
+      "status": "confirmed",
+      "actual": 50438.9,
+      "expected": 50438.9,
+      "sourceLocator": "C03-06.jpg: 2023/租赁和商务服务业"
+    },
+    {
+      "check": "other_seven_component_sum",
+      "status": "confirmed",
+      "actual": 221303.3,
+      "expected": 221303.3,
+      "sourceLocator": "C03-06.jpg: 2023/last seven sections"
+    },
+    {
+      "check": "other_is_calculation",
+      "status": "confirmed",
+      "actual": "calculation",
+      "expected": "calculation",
+      "sourceLocator": "C03-06.jpg: 2023"
+    },
+    {
+      "check": "monthly_value",
+      "status": "confirmed",
+      "actual": 4.5,
+      "expected": 4.5,
+      "sourceLocator": "monthly202607.html: 一、规模以上工业增加值, column 2"
+    },
+    {
+      "check": "monthly_date",
+      "status": "confirmed",
+      "actual": "2026-08-17",
+      "expected": "2026-08-17",
+      "sourceLocator": "monthly202607.html: 一、规模以上工业增加值, column 2"
+    },
+    {
+      "check": "monthly_unit",
+      "status": "confirmed",
+      "actual": "%",
+      "expected": "%",
+      "sourceLocator": "monthly202607.html: 一、规模以上工业增加值, column 2"
+    },
+    {
+      "check": "monthly_period",
+      "status": "confirmed",
+      "actual": "2026-07",
+      "expected": "2026-07",
+      "sourceLocator": "monthly202607.html: 一、规模以上工业增加值, column 2"
+    },
+    {
+      "check": "monthly_excluded_from_ranking",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "monthly202607.html: 一、规模以上工业增加值, column 2"
+    },
+    {
+      "check": "monthly_value",
+      "status": "confirmed",
+      "actual": 5.3,
+      "expected": 5.3,
+      "sourceLocator": "monthly202607.html: 一、规模以上工业增加值, column 4"
+    },
+    {
+      "check": "monthly_date",
+      "status": "confirmed",
+      "actual": "2026-08-17",
+      "expected": "2026-08-17",
+      "sourceLocator": "monthly202607.html: 一、规模以上工业增加值, column 4"
+    },
+    {
+      "check": "monthly_unit",
+      "status": "confirmed",
+      "actual": "%",
+      "expected": "%",
+      "sourceLocator": "monthly202607.html: 一、规模以上工业增加值, column 4"
+    },
+    {
+      "check": "monthly_period",
+      "status": "confirmed",
+      "actual": "2026-01/07",
+      "expected": "2026-01/07",
+      "sourceLocator": "monthly202607.html: 一、规模以上工业增加值, column 4"
+    },
+    {
+      "check": "monthly_excluded_from_ranking",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "monthly202607.html: 一、规模以上工业增加值, column 4"
+    },
+    {
+      "check": "monthly_value",
+      "status": "confirmed",
+      "actual": 4.3,
+      "expected": 4.3,
+      "sourceLocator": "monthly202607.html: 二、服务业生产指数, column 2"
+    },
+    {
+      "check": "monthly_date",
+      "status": "confirmed",
+      "actual": "2026-08-17",
+      "expected": "2026-08-17",
+      "sourceLocator": "monthly202607.html: 二、服务业生产指数, column 2"
+    },
+    {
+      "check": "monthly_unit",
+      "status": "confirmed",
+      "actual": "%",
+      "expected": "%",
+      "sourceLocator": "monthly202607.html: 二、服务业生产指数, column 2"
+    },
+    {
+      "check": "monthly_period",
+      "status": "confirmed",
+      "actual": "2026-07",
+      "expected": "2026-07",
+      "sourceLocator": "monthly202607.html: 二、服务业生产指数, column 2"
+    },
+    {
+      "check": "monthly_excluded_from_ranking",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "monthly202607.html: 二、服务业生产指数, column 2"
+    },
+    {
+      "check": "monthly_value",
+      "status": "confirmed",
+      "actual": 4.7,
+      "expected": 4.7,
+      "sourceLocator": "monthly202607.html: 二、服务业生产指数, column 4"
+    },
+    {
+      "check": "monthly_date",
+      "status": "confirmed",
+      "actual": "2026-08-17",
+      "expected": "2026-08-17",
+      "sourceLocator": "monthly202607.html: 二、服务业生产指数, column 4"
+    },
+    {
+      "check": "monthly_unit",
+      "status": "confirmed",
+      "actual": "%",
+      "expected": "%",
+      "sourceLocator": "monthly202607.html: 二、服务业生产指数, column 4"
+    },
+    {
+      "check": "monthly_period",
+      "status": "confirmed",
+      "actual": "2026-01/07",
+      "expected": "2026-01/07",
+      "sourceLocator": "monthly202607.html: 二、服务业生产指数, column 4"
+    },
+    {
+      "check": "monthly_excluded_from_ranking",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "monthly202607.html: 二、服务业生产指数, column 4"
+    },
+    {
+      "check": "monthly_value",
+      "status": "confirmed",
+      "actual": 10.6,
+      "expected": 10.6,
+      "sourceLocator": "monthly202607.html: 正文二、服务业; 1—7月份四行业分别同比增长"
+    },
+    {
+      "check": "monthly_date",
+      "status": "confirmed",
+      "actual": "2026-08-17",
+      "expected": "2026-08-17",
+      "sourceLocator": "monthly202607.html: 正文二、服务业; 1—7月份四行业分别同比增长"
+    },
+    {
+      "check": "monthly_unit",
+      "status": "confirmed",
+      "actual": "%",
+      "expected": "%",
+      "sourceLocator": "monthly202607.html: 正文二、服务业; 1—7月份四行业分别同比增长"
+    },
+    {
+      "check": "monthly_period",
+      "status": "confirmed",
+      "actual": "2026-01/07",
+      "expected": "2026-01/07",
+      "sourceLocator": "monthly202607.html: 正文二、服务业; 1—7月份四行业分别同比增长"
+    },
+    {
+      "check": "monthly_excluded_from_ranking",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "monthly202607.html: 正文二、服务业; 1—7月份四行业分别同比增长"
+    },
+    {
+      "check": "monthly_value",
+      "status": "confirmed",
+      "actual": 9.5,
+      "expected": 9.5,
+      "sourceLocator": "monthly202607.html: 正文二、服务业; 1—7月份四行业分别同比增长"
+    },
+    {
+      "check": "monthly_date",
+      "status": "confirmed",
+      "actual": "2026-08-17",
+      "expected": "2026-08-17",
+      "sourceLocator": "monthly202607.html: 正文二、服务业; 1—7月份四行业分别同比增长"
+    },
+    {
+      "check": "monthly_unit",
+      "status": "confirmed",
+      "actual": "%",
+      "expected": "%",
+      "sourceLocator": "monthly202607.html: 正文二、服务业; 1—7月份四行业分别同比增长"
+    },
+    {
+      "check": "monthly_period",
+      "status": "confirmed",
+      "actual": "2026-01/07",
+      "expected": "2026-01/07",
+      "sourceLocator": "monthly202607.html: 正文二、服务业; 1—7月份四行业分别同比增长"
+    },
+    {
+      "check": "monthly_excluded_from_ranking",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "monthly202607.html: 正文二、服务业; 1—7月份四行业分别同比增长"
+    },
+    {
+      "check": "monthly_value",
+      "status": "confirmed",
+      "actual": 6.3,
+      "expected": 6.3,
+      "sourceLocator": "monthly202607.html: 正文二、服务业; 1—7月份四行业分别同比增长"
+    },
+    {
+      "check": "monthly_date",
+      "status": "confirmed",
+      "actual": "2026-08-17",
+      "expected": "2026-08-17",
+      "sourceLocator": "monthly202607.html: 正文二、服务业; 1—7月份四行业分别同比增长"
+    },
+    {
+      "check": "monthly_unit",
+      "status": "confirmed",
+      "actual": "%",
+      "expected": "%",
+      "sourceLocator": "monthly202607.html: 正文二、服务业; 1—7月份四行业分别同比增长"
+    },
+    {
+      "check": "monthly_period",
+      "status": "confirmed",
+      "actual": "2026-01/07",
+      "expected": "2026-01/07",
+      "sourceLocator": "monthly202607.html: 正文二、服务业; 1—7月份四行业分别同比增长"
+    },
+    {
+      "check": "monthly_excluded_from_ranking",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "monthly202607.html: 正文二、服务业; 1—7月份四行业分别同比增长"
+    },
+    {
+      "check": "monthly_value",
+      "status": "confirmed",
+      "actual": 5.1,
+      "expected": 5.1,
+      "sourceLocator": "monthly202607.html: 正文二、服务业; 1—7月份四行业分别同比增长"
+    },
+    {
+      "check": "monthly_date",
+      "status": "confirmed",
+      "actual": "2026-08-17",
+      "expected": "2026-08-17",
+      "sourceLocator": "monthly202607.html: 正文二、服务业; 1—7月份四行业分别同比增长"
+    },
+    {
+      "check": "monthly_unit",
+      "status": "confirmed",
+      "actual": "%",
+      "expected": "%",
+      "sourceLocator": "monthly202607.html: 正文二、服务业; 1—7月份四行业分别同比增长"
+    },
+    {
+      "check": "monthly_period",
+      "status": "confirmed",
+      "actual": "2026-01/07",
+      "expected": "2026-01/07",
+      "sourceLocator": "monthly202607.html: 正文二、服务业; 1—7月份四行业分别同比增长"
+    },
+    {
+      "check": "monthly_excluded_from_ranking",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "monthly202607.html: 正文二、服务业; 1—7月份四行业分别同比增长"
+    },
+    {
+      "check": "ranking_order",
+      "status": "confirmed",
+      "actual": [
+        "cn-industry",
+        "cn-wholesale-retail",
+        "cn-finance",
+        "cn-agriculture",
+        "cn-construction",
+        "cn-real-estate",
+        "cn-information",
+        "cn-business-services",
+        "cn-transport",
+        "cn-accommodation-food"
+      ],
+      "expected": [
+        "cn-industry",
+        "cn-wholesale-retail",
+        "cn-finance",
+        "cn-agriculture",
+        "cn-construction",
+        "cn-real-estate",
+        "cn-information",
+        "cn-business-services",
+        "cn-transport",
+        "cn-accommodation-food"
+      ],
+      "sourceLocator": "2025 annual source values sorted descending"
+    },
+    {
+      "check": "manufacturing_excluded",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "industries and ranking IDs"
+    },
+    {
+      "check": "government_sector_totals_excluded",
+      "status": "confirmed",
+      "actual": false,
+      "expected": false,
+      "sourceLocator": "ranking IDs"
+    },
+    {
+      "check": "rank_value",
+      "status": "confirmed",
+      "actual": 416826,
+      "expected": 416826,
+      "sourceLocator": "cn-industry-2025-current-value-added"
+    },
+    {
+      "check": "rank_value",
+      "status": "confirmed",
+      "actual": 145808,
+      "expected": 145808,
+      "sourceLocator": "cn-wholesale-retail-2025-current-value-added"
+    },
+    {
+      "check": "rank_value",
+      "status": "confirmed",
+      "actual": 101337,
+      "expected": 101337,
+      "sourceLocator": "cn-finance-2025-current-value-added"
+    },
+    {
+      "check": "rank_value",
+      "status": "confirmed",
+      "actual": 99107,
+      "expected": 99107,
+      "sourceLocator": "cn-agriculture-2025-current-value-added"
+    },
+    {
+      "check": "rank_value",
+      "status": "confirmed",
+      "actual": 86425,
+      "expected": 86425,
+      "sourceLocator": "cn-construction-2025-current-value-added"
+    },
+    {
+      "check": "rank_value",
+      "status": "confirmed",
+      "actual": 83024,
+      "expected": 83024,
+      "sourceLocator": "cn-real-estate-2025-current-value-added"
+    },
+    {
+      "check": "rank_value",
+      "status": "confirmed",
+      "actual": 70599,
+      "expected": 70599,
+      "sourceLocator": "cn-information-2025-current-value-added"
+    },
+    {
+      "check": "rank_value",
+      "status": "confirmed",
+      "actual": 63666,
+      "expected": 63666,
+      "sourceLocator": "cn-business-services-2025-current-value-added"
+    },
+    {
+      "check": "rank_value",
+      "status": "confirmed",
+      "actual": 62092,
+      "expected": 62092,
+      "sourceLocator": "cn-transport-2025-current-value-added"
+    },
+    {
+      "check": "rank_value",
+      "status": "confirmed",
+      "actual": 26403,
+      "expected": 26403,
+      "sourceLocator": "cn-accommodation-food-2025-current-value-added"
+    },
+    {
+      "check": "china_country_isolation",
+      "status": "confirmed",
+      "actual": true,
+      "expected": true,
+      "sourceLocator": "all 128 observation IDs"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "national-data-later-revision",
+      "status": "gap",
+      "description": "National Data online annual cell values were not retrieved. Later 2021–2023 database revisions therefore remain unverified; source access check is recorded separately."
+    },
+    {
+      "id": "yearbook-exact-published-date",
+      "status": "gap",
+      "description": "The archived yearbook pages do not expose a precise publication date. Null dates are appropriate."
+    },
+    {
+      "id": "2025-other-disaggregation",
+      "status": "gap",
+      "description": "Latest first-level release does not separately disclose the seven other sections; no current-year disaggregation is validated."
+    }
+  ]
+}

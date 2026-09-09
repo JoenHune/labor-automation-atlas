@@ -1,0 +1,11 @@
+{
+ "name": "Labor Automation Atlas",
+ "url": "https://joenhune.github.io/labor-automation-atlas/",
+ "description": "人力与自动化图谱的内容区域批注，以本人GitHub身份创建议题、评论和回复。",
+ "public": true,
+ "default_permissions": {"issues": "write", "metadata": "read"},
+ "default_events": ["issues", "issue_comment"],
+ "request_oauth_on_install": true,
+ "callback_urls": ["https://REPLACE_WORKER_HOST/auth/callback"],
+ "hook_attributes": {"url": "https://REPLACE_WORKER_HOST/webhook", "active": true}
+}

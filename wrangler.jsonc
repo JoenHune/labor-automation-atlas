@@ -1,0 +1,20 @@
+{
+ "$schema": "node_modules/wrangler/config-schema.json",
+ "name": "labor-automation-atlas-api",
+ "main": "worker/index.ts",
+ "compatibility_date": "2026-09-09",
+ "workers_dev": true,
+ "triggers": {"crons": ["17 * * * *"]},
+ "d1_databases": [
+  {"binding": "DB", "database_name": "labor-automation-atlas", "migrations_dir": "worker/migrations"}
+ ],
+ "r2_buckets": [
+  {"binding": "SNAPSHOTS", "bucket_name": "labor-automation-atlas-snapshots"}
+ ],
+ "vars": {
+  "SITE_ORIGIN": "https://joenhune.github.io",
+  "SITE_BASE_PATH": "/labor-automation-atlas/",
+  "GITHUB_OWNER": "JoenHune",
+  "GITHUB_REPO": "labor-automation-atlas"
+ }
+}

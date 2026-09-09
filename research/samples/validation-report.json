@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-09-09",
+  "reviewType": "same-researcher-structural-validation",
+  "independentReview": "pending",
+  "checks": [
+    {
+      "file": "cn-injection-molding-part-removal.json",
+      "country": "CN",
+      "currency": "CNY",
+      "claimCount": 10,
+      "sourceCount": 8,
+      "processNodes": 12,
+      "alternativeTypes": 5,
+      "allFinancialInputsNull": true,
+      "citationReferencesResolve": true,
+      "reviewFrozen": false
+    },
+    {
+      "file": "us-cnc-machine-tending.json",
+      "country": "US",
+      "currency": "USD",
+      "claimCount": 11,
+      "sourceCount": 9,
+      "processNodes": 12,
+      "alternativeTypes": 5,
+      "allFinancialInputsNull": true,
+      "citationReferencesResolve": true,
+      "reviewFrozen": false
+    }
+  ],
+  "errors": [],
+  "formulaReview": {
+    "status": "symbolic-review-passed",
+    "notes": [
+      "年度CF与NPV口径一致。",
+      "显式门槛将NPV=0重排；残值现值按CRF年金化。",
+      "r=0有独立CRF=1/N分支；w>0、N>0。",
+      "若税和运维随节省量变化，显式门槛不直接适用，须解NPV(Hsave)=0。",
+      "没有将任何示例参数写入研究结果。"
+    ]
+  },
+  "status": "passed"
+}

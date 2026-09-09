@@ -1,0 +1,327 @@
+{
+  "schemaVersion": "1.0.0",
+  "searchedAt": "2026-09-09",
+  "cutoffDate": "2026-09-09",
+  "scope": "两个样板任务的定向公开检索；不是行业全任务普查，也不是全部数据库穷尽式系统综述",
+  "method": "每组包含实际运行的检索词；部分重复词为追溯/刷新检索。检索得到的无关结果及原文不匹配资料明确排除。网页来源记录在任务JSON内，PDF本地校验缓存不随公开发布。",
+  "entries": [
+    {
+      "id": "S-00",
+      "country": "mixed",
+      "purpose": "样板选题与来源筛选",
+      "queries": [
+        "site.universal-robots.com China case story CNC machine tending",
+        "site.nist.gov MEP robot machine tending challenges manufacturer case",
+        "site.gov.cn 机器人 上下料 仍需 人工 机床",
+        "site.tesla.com 2018 shareholder letter automation manual battery module"
+      ],
+      "outcomes": [
+        "找到厦门建霖多工序案例、NIST集成指南与美国CNC上下料案例入口。",
+        "Tesla资料涉及多段产线且尚未收敛为可验收单任务，本样板未采用。"
+      ],
+      "acceptedSourceIds": [
+        "CN-E1",
+        "US-E4"
+      ],
+      "exclusion": "未将广义机器人应用篇目或非中美厂商案例当作任务证据",
+      "searchedAt": "2026-09-09"
+    },
+    {
+      "id": "S-CN-01",
+      "country": "CN",
+      "purpose": "确认中国部署与任务边界",
+      "queries": [
+        "建霖 气密 检测 协作机器人 人工",
+        "site.runner-corp.com 优傲 注塑 机器人",
+        "\"建霖\" \"取件\" \"优傲\"",
+        "\"建霖\" \"机器人\" \"人工\" \"仍\""
+      ],
+      "outcomes": [
+        "选择注塑成型件取出与交接；气密检测是另一任务，未混合。",
+        "官网中文材料展示滑轨取件；客户品牌官网只支持生产能力背景，不能独立证明取件成绩。",
+        "2017行业媒体有更细过程但属转载线索，主结论改引用厂商原始PDF。"
+      ],
+      "acceptedSourceIds": [
+        "CN-E1",
+        "CN-E2"
+      ],
+      "exclusion": "匿名深圳气密检测案例未选；无法确定匿名客户/验收与该任务一致",
+      "searchedAt": "2026-09-09"
+    },
+    {
+      "id": "S-CN-02",
+      "country": "CN",
+      "purpose": "职业职责路径初始术语与纠正",
+      "queries": [
+        "site.gov.cn \"塑料成型工\" \"注射\" \"脱模\"",
+        "\"塑料成型工\" \"国家职业技能标准\"",
+        "\"塑料注射成型工\" \"国家职业\" 标准",
+        "\"塑料成型\" \"取出\" \"职业\" 标准",
+        "\"塑料\" \"成型制作工\" 职业 标准",
+        "\"注塑\" \"国家职业技能标准\" \"操作\""
+      ],
+      "outcomes": [
+        "规范职业名称确认为塑料制品成型制作工；其中B类为塑料注塑工。",
+        "检索并读取技能人才评价工作网征求意见稿，逐页核对操作、清洁、记录、检验与故障内容。"
+      ],
+      "acceptedSourceIds": [
+        "CN-E4"
+      ],
+      "exclusion": "未使用职业画像聚合站或培训补贴个人名单；不推算工时占比",
+      "searchedAt": "2026-09-09"
+    },
+    {
+      "id": "S-CN-03",
+      "country": "CN",
+      "purpose": "2026更新核对与正式标准状态",
+      "queries": [
+        "site.osta.org.cn \"塑料制品成型制作工\" \"2026\"",
+        "site.mohrss.gov.cn \"塑料制品成型制作工\"",
+        "\"塑料制品成型制作工\" \"国家职业标准\" \"发布\" \"2026\"",
+        "site.osta.org.cn \"95\" \"征求意见\" \"2025\"",
+        "\"建霖\" \"取件\" 2026"
+      ],
+      "outcomes": [
+        "找到人社部门2025年8月公示通知；原公示入口重定向首页，但PDF仍可读取。",
+        "本轮未确认正式职业标准版本，也未找到样板单元2026运行日志。",
+        "建霖2025年战略合作新闻/2026集团报告线索并不能证明特定旧取件单元当前状态。"
+      ],
+      "acceptedSourceIds": [
+        "CN-E4",
+        "CN-E8"
+      ],
+      "exclusion": "未把搜索“Published/Crawled”相对日期当正式发布日期",
+      "searchedAt": "2026-09-09"
+    },
+    {
+      "id": "S-CN-04",
+      "country": "CN",
+      "purpose": "流程、替代机构与数字握手",
+      "queries": [
+        "\"注塑机\" \"机器人\" \"未采用\"",
+        "\"注塑\" \"取件\" \"机械手\" \"事故\" site.szlhq.gov.cn"
+      ],
+      "outcomes": [
+        "搜索结果中发现中国自动取件专利并打开原文。",
+        "读取CN107521054B和CN203185605U：前者支持信号/漏气停机设计，后者支持专用摆臂结构。",
+        "读取职业院校模具循环材料，作为流程交叉来源。"
+      ],
+      "acceptedSourceIds": [
+        "CN-E3",
+        "CN-E6",
+        "CN-E7"
+      ],
+      "exclusion": "专利法律失效不能充当设备商业退出；专利中的绝对安全/质量承诺未采用",
+      "searchedAt": "2026-09-09"
+    },
+    {
+      "id": "S-CN-05",
+      "country": "CN",
+      "purpose": "失败/异常/未采用证据",
+      "queries": [
+        "site.gov.cn \"注塑\" \"取件\" \"事故调查\"",
+        "注塑 机械手 取件 故障 事故 调查报告 site.gov.cn",
+        "注塑机 机械手 故障 事故调查 report",
+        "\"注塑机\" \"机械手\" \"取件\" \"故障\" \"调查\" site.gov.cn",
+        "\"注塑机\" \"机器人\" \"未采用\""
+      ],
+      "outcomes": [
+        "找到注塑安全事故及维修过程资料，部分仅有转载站。",
+        "保留蓬江2025事故官方页面与已可读取的官方PDF索引原文，限定为相邻维修/异常接管环节。",
+        "未找到建霖特定取件单元性能失败、撤除或长期转回人工的原始记录。"
+      ],
+      "acceptedSourceIds": [
+        "CN-E3",
+        "CN-E5"
+      ],
+      "exclusion": "未将其他自动化冲压/焊接事故或跨国案例迁移为本取件任务失败率",
+      "searchedAt": "2026-09-09"
+    },
+    {
+      "id": "S-CN-06",
+      "country": "CN",
+      "purpose": "事故原始来源追溯与范围排除",
+      "queries": [
+        "\"蓬江杜阮\" \"3·3\" \"成品\"",
+        "\"蓬江杜阮\" \"3·3\" \"机械\" \"2025\"",
+        "\"深圳富桂精密工业有限公司\" \"5·12\" site.gov.cn",
+        "\"平佳注塑件厂\" \"6·9\" site.gov.cn",
+        "site.dg.gov.cn \"颖辉\" \"6·5\" \"事故\"",
+        "site.shantou.gov.cn \"莲华镇\" \"3·18\" \"2021\" 事故",
+        "site.changzhou.gov.cn \"平佳\" \"2018\"",
+        "site.gov.cn \"注塑机\" \"未关停\" \"3·3\""
+      ],
+      "outcomes": [
+        "蓬江官方页面确认发布日期2025-07-04；PDF首页确认事故发生2025-03-03。",
+        "完整PDF本地下载失败（TLS/空响应），仅使用已读取首页/第7页段落。",
+        "其事故发生在注塑设备维修，不是已证实取件机器人失效。"
+      ],
+      "acceptedSourceIds": [
+        "CN-E5"
+      ],
+      "exclusion": "其他转载事故报告未充当已核实原始部署证据",
+      "searchedAt": "2026-09-09"
+    },
+    {
+      "id": "S-CN-07",
+      "country": "CN",
+      "purpose": "反例结论边界",
+      "queries": [
+        "\"建霖\" \"机器人\" \"人工\" \"仍\"",
+        "\"建霖\" \"取件\" 2026"
+      ],
+      "outcomes": [
+        "记录具名失败/退出证据缺口；不宣称不存在失败。",
+        "厂商拿传统机器人部署周期作比较，不等于存在同任务采购否决书。"
+      ],
+      "acceptedSourceIds": [
+        "CN-E1",
+        "CN-E2"
+      ],
+      "exclusion": "无足够采购评审资料；等待访谈",
+      "searchedAt": "2026-09-09"
+    },
+    {
+      "id": "S-US-01",
+      "country": "US",
+      "purpose": "商业部署与美国属地",
+      "queries": [
+        "site.universal-robots.com/case-stories \"WST\" \"canceled\"",
+        "site.universal-robots.com \"WST Fab\" \"case\"",
+        "site.wstfab.com robot CNC automation",
+        "site.pccweb.com WST Fab robot",
+        "site.wstfab.com \"CNC\" \"CNC\""
+      ],
+      "outcomes": [
+        "找到WST Fab/UR、PCC集成商原始材料和客户官网。",
+        "客户网站确认美国威斯康星州工厂及机加工服务；不把网站行业标签代入BEA分类。"
+      ],
+      "acceptedSourceIds": [
+        "US-E1",
+        "US-E8",
+        "US-E9"
+      ],
+      "exclusion": "同名WST/Wefab及中国FSFab资料未用于美国结论",
+      "searchedAt": "2026-09-09"
+    },
+    {
+      "id": "S-US-02",
+      "country": "US",
+      "purpose": "流程与职业职责双路径",
+      "queries": [
+        "site.onetonline.org \"Load and unload\" \"Computer Numerically Controlled\"",
+        "site.nist.gov \"machine tending\" \"failed\"",
+        "site.haascnc.com \"Parts loading and unloading\""
+      ],
+      "outcomes": [
+        "读取O*NET 51-9161.00完整职责列表（页面更新2026）。",
+        "读取NIST工作单元论文Section 2/Figure 1，以及Haas手册的装卸、机器人单元与无人值守章节。"
+      ],
+      "acceptedSourceIds": [
+        "US-E2",
+        "US-E3",
+        "US-E5"
+      ],
+      "exclusion": "NIST实验室流程不标为WST实际流程；人工模式门规则不套用机器人模式",
+      "searchedAt": "2026-09-09"
+    },
+    {
+      "id": "S-US-03",
+      "country": "US",
+      "purpose": "未采用、原假设失败和技术限制",
+      "queries": [
+        "site.nist.gov \"machine tending\" \"failed\"",
+        "site.universal-robots.com/case-stories \"WST\" \"canceled\"",
+        "site.haascnc.com \"Automatic Parts Loader\" \"Limitations\"",
+        "site.osha.gov \"robot\" \"loading\" \"CNC\" \"accident\""
+      ],
+      "outcomes": [
+        "WST原订单交付当天取消与固定自动化未采用均为同一厂商案例的客户自述。",
+        "NIST专家指南明确残留人工、集成、维护、技能和安全限速。",
+        "Haas说明人工预装托盘适配部分难自动夹持工件；无人运行需要独立过程风险评估。"
+      ],
+      "acceptedSourceIds": [
+        "US-E1",
+        "US-E4",
+        "US-E5",
+        "US-E6"
+      ],
+      "exclusion": "没有把OSHA列表上的异任务事故或网络评论当本任务失败统计",
+      "searchedAt": "2026-09-09"
+    },
+    {
+      "id": "S-US-04",
+      "country": "US",
+      "purpose": "2026最新运行与撤除核对",
+      "queries": [
+        "\"WST Fab\" robot 2026 2025",
+        "site.wstfab.com robot CNC automation"
+      ],
+      "outcomes": [
+        "当前可访问客户官网仅支持业务背景。",
+        "找到2022-06-24集成商案例日期；没有本单元2026连续运行/撤除记录。"
+      ],
+      "acceptedSourceIds": [
+        "US-E8",
+        "US-E9"
+      ],
+      "exclusion": "页面近期被抓取不等于最近部署/运行核验",
+      "searchedAt": "2026-09-09"
+    },
+    {
+      "id": "S-US-05",
+      "country": "US",
+      "purpose": "替代技术与宣传数字排除",
+      "queries": [
+        "site.haascnc.com \"Automatic Parts Loader\" \"Limitations\"",
+        "site.haascnc.com \"Parts loading and unloading\""
+      ],
+      "outcomes": [
+        "读取Haas APL、What to Automate及Chuck Air Blast原始页面。",
+        "区分棒料送料、托盘库、专用APL、机械臂与辅助工装。",
+        "WST经理比较的550000美元不当完整实际报价；Haas宣传回收期不进入样板参数。"
+      ],
+      "acceptedSourceIds": [
+        "US-E6",
+        "US-E7"
+      ],
+      "exclusion": "不利用参数不足的广告算回收期",
+      "searchedAt": "2026-09-09"
+    },
+    {
+      "id": "S-CN-08",
+      "country": "CN",
+      "purpose": "独立反例复查：全球产品接口安全通知",
+      "queries": [
+        "https://www.universal-robots.com/articles/ur/safety/product-alert-safety-notice-for-all-ur-immi-and-euromap-products/"
+      ],
+      "outcomes": [
+        "直接读取官方网页，确认原通知日期、页面修订日期、MAF限制及集成验证要求。"
+      ],
+      "acceptedSourceIds": [
+        "CN-E9"
+      ],
+      "exclusion": "不推断中国样板使用受影响型号；不是中国部署/事故事实。",
+      "searchedAt": "2026-09-09"
+    },
+    {
+      "id": "S-US-06",
+      "country": "US",
+      "purpose": "独立复核补充同厂维护和培训记录",
+      "queries": [
+        "\"WST Fab\" robot failed removed cancelled 2026",
+        "site.osha.gov \"WST FAB\" 2025",
+        "\"WST FAB LLC\" OSHA \"2025\"",
+        "https://www.osha.gov/ords/imis/establishment.violation_detail?citation_id=01002A&id=1818506.015"
+      ],
+      "outcomes": [
+        "独立复核者读取OSHA 01002A原文及事件状态，确认同厂加工中心清洁/设置的培训记录；后续HTTP直接复取403。"
+      ],
+      "acceptedSourceIds": [
+        "US-E10"
+      ],
+      "exclusion": "01003A焊接机器人/激光机与本UR10e单元不同；01005原文403，未推测内容；不把监管记录写成事故或机械失败。",
+      "searchedAt": "2026-09-09"
+    }
+  ]
+}

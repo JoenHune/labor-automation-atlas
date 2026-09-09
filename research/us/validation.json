@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checkedObservations": 100,
+  "checks": [
+    "100 annual observations in the 20-industry partition match BEA iTable rendered data at million-dollar scale",
+    "2021\u20132025 exhaustive partition sums reconcile to published GDP within stated BEA rounding",
+    "quarterly workbook is separately labeled seasonally adjusted annual rates"
+  ],
+  "iTableTitle": "Value Added by Industry",
+  "iTableUnits": "[Millions of dollars]",
+  "iTableVintage": "Last Revised on: June 25, 2026",
+  "checkDate": "2026-09-09",
+  "annualRequestFile": "research/us/raw/annual-itable-request.json",
+  "annualResponseFile": "research/us/raw/annual-itable-verification.json"
+}

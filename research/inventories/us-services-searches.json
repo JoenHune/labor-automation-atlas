@@ -1,0 +1,694 @@
+{
+  "country": "US",
+  "searchedAt": "2026-09-09",
+  "purpose": "服务行业候选任务发现；尚非逐任务自动化正反检索",
+  "automationResearchStatus": "not-started",
+  "sourceReadRecords": [
+    {
+      "sourceId": "US-SVC-TELLER",
+      "url": "https://www.onetonline.org/link/summary/43-3071.00",
+      "title": "O*NET — Tellers",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-TELLER-tasks",
+          "section": "Occupation-Specific Information → Tasks（已实际读取动作条目）",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": null,
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-CLAIMS",
+      "url": "https://www.onetonline.org/link/summary/13-1031.00",
+      "title": "O*NET — Claims Adjusters, Examiners, and Investigators",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-CLAIMS-tasks",
+          "section": "Occupation-Specific Information → Tasks（已实际读取动作条目）",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": null,
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-PROPERTY",
+      "url": "https://www.onetonline.org/link/summary/11-9141.00",
+      "title": "O*NET — Property, Real Estate, and Community Association Managers",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-PROPERTY-tasks",
+          "section": "Occupation-Specific Information → Tasks（已实际读取动作条目）",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": null,
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-MAINT",
+      "url": "https://www.onetonline.org/link/summary/49-9071.00",
+      "title": "O*NET — Maintenance and Repair Workers, General",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-MAINT-tasks",
+          "section": "Occupation-Specific Information → Tasks（已实际读取动作条目）",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": null,
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-RENTAL",
+      "url": "https://www.onetonline.org/link/summary/41-2021.00",
+      "title": "O*NET — Counter and Rental Clerks",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-RENTAL-tasks",
+          "section": "Occupation-Specific Information → Tasks（已实际读取动作条目）",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": null,
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-CHEM",
+      "url": "https://www.onetonline.org/link/summary/19-4031.00",
+      "title": "O*NET — Chemical Technicians",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-CHEM-tasks",
+          "section": "Occupation-Specific Information → Tasks（已实际读取动作条目）",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": null,
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-SURVEY",
+      "url": "https://www.onetonline.org/link/summary/17-3031.00",
+      "title": "O*NET — Surveying and Mapping Technicians",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-SURVEY-tasks",
+          "section": "Occupation-Specific Information → Tasks（已实际读取动作条目）",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": null,
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-VET",
+      "url": "https://www.onetonline.org/link/summary/29-2056.00",
+      "title": "O*NET — Veterinary Technologists and Technicians",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-VET-tasks",
+          "section": "Occupation-Specific Information → Tasks（已实际读取动作条目）",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": null,
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-STOCK",
+      "url": "https://www.onetonline.org/link/summary/53-7065.00",
+      "title": "O*NET — Stockers and Order Fillers",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-STOCK-tasks",
+          "section": "Occupation-Specific Information → Tasks（已实际读取动作条目）",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": null,
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-CASHIER",
+      "url": "https://www.onetonline.org/link/summary/41-2011.00",
+      "title": "O*NET — Cashiers",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-CASHIER-tasks",
+          "section": "Occupation-Specific Information → Tasks（已实际读取动作条目）",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": null,
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-SALES",
+      "url": "https://www.onetonline.org/link/summary/41-2031.00",
+      "title": "O*NET — Retail Salespersons",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-SALES-tasks",
+          "section": "Occupation-Specific Information → Tasks（已实际读取动作条目）",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": null,
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-SHIP",
+      "url": "https://www.onetonline.org/link/summary/43-5071.00",
+      "title": "O*NET — Shipping, Receiving, and Inventory Clerks",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-SHIP-tasks",
+          "section": "Occupation-Specific Information → Tasks（已实际读取动作条目）",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": null,
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-TELECOM",
+      "url": "https://www.onetonline.org/link/summary/49-2022.00",
+      "title": "O*NET — Telecommunications Equipment Installers and Repairers, Except Line Installers",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-TELECOM-tasks",
+          "section": "Occupation-Specific Information → Tasks（已实际读取动作条目）",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": null,
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-TOWER",
+      "url": "https://www.onetonline.org/link/summary/49-2021.00",
+      "title": "O*NET — Radio, Cellular, and Tower Equipment Installers and Repairers",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-TOWER-tasks",
+          "section": "Occupation-Specific Information → Tasks（已实际读取动作条目）",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": null,
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-BROADCAST",
+      "url": "https://www.onetonline.org/link/summary/27-4012.00",
+      "title": "O*NET — Broadcast Technicians",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-BROADCAST-tasks",
+          "section": "Occupation-Specific Information → Tasks（已实际读取动作条目）",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": null,
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-FEDCASH",
+      "url": "https://www.frbservices.org/resources/financial-services/cash/depositing-ordering/visual-reference-guide.html",
+      "title": "Deposit Visual Reference Guide",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-FEDCASH-prepare",
+          "section": "Preparing Currency Deposits / Preparing Currency Straps / Strap Bands / Preparing Currency Bundles",
+          "readStatus": "read"
+        },
+        {
+          "id": "US-SVC-FEDCASH-exception",
+          "section": "Preparing Contaminated Currency；正常、污染及严重毁损货币分流",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": null,
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-FEMA",
+      "url": "https://emilms.fema.gov/IS1104/groups/32.html",
+      "title": "Adjustment Standards and Requirements — Proper Photographs",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-FEMA-photos",
+          "section": "正文：受损及未受损财产拍照、清晰度、日期房间位置及损害描述标注",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": null,
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-HUD",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/NSPIRE-Standard-Leak-Water_20230620.pdf",
+      "title": "NSPIRE Standard — Leak — Water",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-HUD-inspection",
+          "section": "PDF第2–6页：环境水侵入和管道漏水的检查位置、可见证据及询问住户/业主代理步骤",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": "HUD NSPIRE适用住房的检查规程；不是美国全部商业物业规范，维修工艺未由本文件证明。",
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-RECALL",
+      "url": "https://www.nhtsa.gov/press-releases/nhtsa-announces-consent-order-zipcar",
+      "title": "NHTSA Announces Consent Order with Zipcar",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-RECALL-recall",
+          "section": "正文：开放召回车辆出租的调查、召回信息集中管理、限制预订和完成补救后的放行流程",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": "2023年美国租赁企业的官方执法案例，提供召回处理流程，不代表2026全行业采用情况。",
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-FDALAB",
+      "url": "https://www.fda.gov/media/187901/download?attachment=",
+      "title": "Regulatory Testing Laboratory Manual of Quality Policies, MAN-000025, Revision 07",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-FDALAB-equipment",
+          "section": "PDF第16–17页§6.4：设备处理维护、投入/恢复使用前验证、校准状态及停用",
+          "readStatus": "read"
+        },
+        {
+          "id": "US-SVC-FDALAB-sample",
+          "section": "PDF第27–28页§7.3–7.4：接收、编号、保存、转移、异常样品及分样",
+          "readStatus": "read"
+        },
+        {
+          "id": "US-SVC-FDALAB-quality",
+          "section": "PDF第29–31页§7.5、7.7、7.8：原始记录、质控和授权报告",
+          "readStatus": "read"
+        },
+        {
+          "id": "US-SVC-FDALAB-exception",
+          "section": "PDF第34–35页§7.8.9、7.10：修改报告、不符合工作和恢复授权",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": "FDA自有监管实验室流程参考；这些政府实验室不计入私人专业科学技术行业。用于发现同类实验动作，商业检测实验室适用SOP仍待取得。",
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-NGS",
+      "url": "https://geodesy.noaa.gov/surveys/mark-recovery/",
+      "title": "Survey Mark Recovery — Mark Recovery Form Instructions",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-NGS-recovery",
+          "section": "Survey Mark Recovery及Form Instructions第1–4步：识别PID、核对描述、记录恢复者与标志状态、提交处理",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": "测量标志查找与记录提交参考，不是全部商业测量流程或精度规范。",
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-VETSUBMIT",
+      "url": "https://www.aphis.usda.gov/nvap/reference-guide/laboratory-submissions",
+      "title": "NVAP Reference Guide: Laboratory Submissions",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-VETSUBMIT-submit",
+          "section": "正文开头及routine diagnostic samples各段：与实验室确认取样准备、标识、包装、发送和送检表",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": "美国认可兽医送检流程；具体标本种类须遵循接收实验室当前要求。",
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-GROCERY",
+      "url": "https://www.osha.gov/sites/default/files/publications/OSHA3192.pdf",
+      "title": "Guidelines for Retail Grocery Stores — Ergonomics for the Prevention of Musculoskeletal Disorders",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-GROCERY-overview",
+          "section": "印刷第12页 Implementing Solutions：前端收款装袋提货、补货、烘焙、肉类熟食和果蔬作业范围",
+          "readStatus": "indexed-page-excerpt-read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": "仅实际读取官方PDF搜索索引的第12页正文；原PDF大写/小写及旧URL直接读取均受访问错误限制，不能声称全文已读。",
+      "scopeLimit": "人机工程流程识别参考，非强制全部采用的方案清单，也未证明当前自动化采用。",
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-KEHE",
+      "url": "https://www.oshrc.gov/wp-content/uploads/Final-Decision-and-Order-22-0696-KeHE-Distributors.html",
+      "title": "KEHE DISTRIBUTORS, LLC — OSHRC Docket No. 22-0696, Decision and Order",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-KEHE-flow",
+          "section": "IV.a Respondent’s Business，网页第84–90行：制造商到货、加工/上架/存储、订单组托、包裹装车；QA处理未识别或破损商品及订单核对",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": "美国一家食品批发配送仓的历史事实认定，提供执行流程证据，不代表整个批发业或2026在运状态。该案所涉传票被撤销，不把背景事故解释为确认违法或自动化失败。",
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-OSHA268",
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.268",
+      "title": "29 CFR 1910.268 — Telecommunications",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-OSHA268-scope",
+          "section": "§1910.268(a)：通信中心与现场安装、运行、维护、重排、拆除范围",
+          "readStatus": "indexed-section-text-read"
+        },
+        {
+          "id": "US-SVC-OSHA268-prepare",
+          "section": "§1910.268(b)(6)、(g)、(k)：支撑结构、攀登设备及材料存储检查",
+          "readStatus": "indexed-section-text-read"
+        },
+        {
+          "id": "US-SVC-OSHA268-testing",
+          "section": "§1910.268(l)：电缆故障定位和测试隔离/告知；(n)木杆检查及(o)地下线路条件",
+          "readStatus": "indexed-section-text-read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": "官方页面直接读取返回403；实际读取官方搜索索引返回的各列明条文正文，未声称整份标准全文读取。",
+      "scopeLimit": "作业安全与任务发现参考，不是完整运营商安装SOP或部署采用证据。",
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-HARDWARE",
+      "url": "https://www.onetonline.org/link/summary/49-2011.00",
+      "title": "O*NET OnLine 49-2011.00 — Computer, Automated Teller, and Office Machine Repairers",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-HARDWARE-tasks",
+          "section": "Tasks全25项，网页第125–168行：拆检替换、组装配置、测试、维修记录、清洁保养",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": "跨行业职业职责不证明信息行业就业份额；只将由信息行业经营单位自行执行的任务归入信息业。",
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    },
+    {
+      "sourceId": "US-SVC-NIST88",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r2.pdf",
+      "title": "NIST SP 800-88 Rev.2 — Guidelines for Media Sanitization",
+      "retrievedAt": "2026-09-09",
+      "readScope": [
+        {
+          "id": "US-SVC-NIST88-decision",
+          "section": "印刷第20–23页/PDF第29–32页§4.3：介质控制、复用、数据保护及处置决策",
+          "readStatus": "read"
+        },
+        {
+          "id": "US-SVC-NIST88-execution",
+          "section": "印刷第23–24页/PDF第32–33页§4.4–4.5：执行清除、核查结果、判断有效性及失败重做",
+          "readStatus": "read"
+        },
+        {
+          "id": "US-SVC-NIST88-record",
+          "section": "印刷第25–26页/PDF第34–35页§4.6：介质识别、方法工具、验证人员、出入库去向与证明记录",
+          "readStatus": "read"
+        }
+      ],
+      "entireDocumentRead": false,
+      "accessLimitation": null,
+      "scopeLimit": "美国政府技术指导，适用于发现介质生命周期任务；不证明任何具体美国数据中心采用、回报或无人化。",
+      "note": "仅以列明已读章节支持任务发现；不证明工时、自动化采用或完整行业覆盖。"
+    }
+  ],
+  "searches": [
+    {
+      "query": "site.osha.gov 1910.268 telecommunications inspection poles ladders cables testing",
+      "result": "官方条文索引返回适用范围、支撑/攀登检查、电缆测试等原文段；直接URL访问403。"
+    },
+    {
+      "query": "site.osha.gov grocery warehousing work practice receiving shipping damaged pallets",
+      "result": "官方eTool/仓储条目索引；未当作全文已读取或全流程已证实。"
+    },
+    {
+      "query": "site.geodesy.noaa.gov mark recovery description photographs recovery submission",
+      "result": "NGS Survey Mark Recovery及描述帮助页，读取编号辨认、恢复记录与提交步骤。"
+    },
+    {
+      "query": "site.aphis.usda.gov veterinary laboratory submissions sample labeling packaging specimen",
+      "result": "APHIS NVAP Laboratory Submissions当前页面及样品提交相关检索；采用实际读取的NVAP送检段。"
+    },
+    {
+      "query": "site.osha.gov \"grocery stores\" \"stocking\" \"checkout\"",
+      "result": "OSHA3192第12页官方索引正文；检索日期不等于文献发布日期。"
+    },
+    {
+      "query": "site.osha.gov/etools/grocery-warehousing \"damaged\"",
+      "result": "获得官方相关检索，但细分工作规范仍缺完整读取，不据此补编数据。"
+    },
+    {
+      "query": "site.fcc.gov \"EAS Operating Handbook\" \"log\"",
+      "result": "返回历史执法文件及规范线索；未将历史规则称为2026现行规范，广播场景仍为proposed。"
+    },
+    {
+      "query": "site.fcc.gov broadcast station equipment monitoring logging maintenance EAS handbook",
+      "result": "当前广播流程尚未完成核查，不纳入作为已读流程源。"
+    }
+  ],
+  "accessAttempts": [
+    {
+      "url": "https://www.osha.gov/sites/default/files/publications/OSHA3192.pdf",
+      "status": "direct web/HTTP access error",
+      "fallback": "读取官方索引第12页；全部门店流程未复核。"
+    },
+    {
+      "url": "https://www.osha.gov/sites/default/files/publications/osha3192.pdf",
+      "status": "web internal error; direct TLS UNEXPECTED_EOF",
+      "fallback": "官方索引片段。"
+    },
+    {
+      "url": "https://www.osha.gov/Publications/osha3192.pdf",
+      "status": "HTTP 403",
+      "fallback": "官方索引片段。"
+    },
+    {
+      "url": "https://www.osha.gov/etools/grocery-warehousing/work-practice",
+      "status": "web internal error; earlier direct access403",
+      "fallback": "未将本页作为完整已读规范。"
+    },
+    {
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.268",
+      "status": "directHTTP403",
+      "fallback": "已读官方索引返回的列明具体条文。"
+    },
+    {
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r2.pdf",
+      "status": "directHTTP403; web PDF source succeeded",
+      "fallback": "实际读取48页PDF中的§4.3–4.6及相关段落；保留精确定位。"
+    },
+    {
+      "url": "https://www.fda.gov/media/187901/download?attachment=",
+      "status": "web initial PDF success then internal error; directPDF success",
+      "fallback": "实际读取45页PDF第1、16、17、27–31、34、35页。"
+    },
+    {
+      "url": "https://www.onetonline.org/link/summary/43-9011.00",
+      "status": "redirects to15-1299.00 Computer Occupations, All Other without task detail",
+      "fallback": "未用原Computer Operators职业作为来源；改读49-2011.00完整Tasks并保留跨行业限制。"
+    }
+  ],
+  "inventoryCounts": [
+    {
+      "country": "US",
+      "id": "us-finance",
+      "registeredSubsectors": 4,
+      "fullyCoveredSubsectors": 0,
+      "partialSubsectors": 2,
+      "gapSubsectors": 2,
+      "excludedFromEmploymentTaskCount": 0,
+      "scenarioCount": 2,
+      "sourceBackedScenarios": 2,
+      "proposedScenarios": 0,
+      "taskCount": 20,
+      "automationResearchCompletedTasks": 0,
+      "automationResearchNotStartedTasks": 20,
+      "countsMeaning": "子行业登记数是覆盖清单条目数量，不是官方分类数量、增加值覆盖率或研究完成率。partial仍有具体缺口，不能算已完整覆盖。"
+    },
+    {
+      "country": "US",
+      "id": "us-real-estate",
+      "registeredSubsectors": 6,
+      "fullyCoveredSubsectors": 0,
+      "partialSubsectors": 3,
+      "gapSubsectors": 2,
+      "excludedFromEmploymentTaskCount": 1,
+      "scenarioCount": 3,
+      "sourceBackedScenarios": 2,
+      "proposedScenarios": 1,
+      "taskCount": 30,
+      "automationResearchCompletedTasks": 0,
+      "automationResearchNotStartedTasks": 30,
+      "countsMeaning": "子行业登记数是覆盖清单条目数量，不是官方分类数量、增加值覆盖率或研究完成率。partial仍有具体缺口，不能算已完整覆盖。"
+    },
+    {
+      "country": "US",
+      "id": "us-professional",
+      "registeredSubsectors": 9,
+      "fullyCoveredSubsectors": 0,
+      "partialSubsectors": 3,
+      "gapSubsectors": 6,
+      "excludedFromEmploymentTaskCount": 0,
+      "scenarioCount": 3,
+      "sourceBackedScenarios": 3,
+      "proposedScenarios": 0,
+      "taskCount": 33,
+      "automationResearchCompletedTasks": 0,
+      "automationResearchNotStartedTasks": 33,
+      "countsMeaning": "子行业登记数是覆盖清单条目数量，不是官方分类数量、增加值覆盖率或研究完成率。partial仍有具体缺口，不能算已完整覆盖。"
+    },
+    {
+      "country": "US",
+      "id": "us-retail",
+      "registeredSubsectors": 9,
+      "fullyCoveredSubsectors": 0,
+      "partialSubsectors": 8,
+      "gapSubsectors": 1,
+      "excludedFromEmploymentTaskCount": 0,
+      "scenarioCount": 3,
+      "sourceBackedScenarios": 2,
+      "proposedScenarios": 1,
+      "taskCount": 31,
+      "automationResearchCompletedTasks": 0,
+      "automationResearchNotStartedTasks": 31,
+      "countsMeaning": "子行业登记数是覆盖清单条目数量，不是官方分类数量、增加值覆盖率或研究完成率。partial仍有具体缺口，不能算已完整覆盖。"
+    },
+    {
+      "country": "US",
+      "id": "us-wholesale",
+      "registeredSubsectors": 10,
+      "fullyCoveredSubsectors": 0,
+      "partialSubsectors": 7,
+      "gapSubsectors": 3,
+      "excludedFromEmploymentTaskCount": 0,
+      "scenarioCount": 2,
+      "sourceBackedScenarios": 2,
+      "proposedScenarios": 0,
+      "taskCount": 22,
+      "automationResearchCompletedTasks": 0,
+      "automationResearchNotStartedTasks": 22,
+      "countsMeaning": "子行业登记数是覆盖清单条目数量，不是官方分类数量、增加值覆盖率或研究完成率。partial仍有具体缺口，不能算已完整覆盖。"
+    },
+    {
+      "country": "US",
+      "id": "us-information",
+      "registeredSubsectors": 6,
+      "fullyCoveredSubsectors": 0,
+      "partialSubsectors": 3,
+      "gapSubsectors": 3,
+      "excludedFromEmploymentTaskCount": 0,
+      "scenarioCount": 3,
+      "sourceBackedScenarios": 2,
+      "proposedScenarios": 1,
+      "taskCount": 32,
+      "automationResearchCompletedTasks": 0,
+      "automationResearchNotStartedTasks": 32,
+      "countsMeaning": "子行业登记数是覆盖清单条目数量，不是官方分类数量、增加值覆盖率或研究完成率。partial仍有具体缺口，不能算已完整覆盖。"
+    }
+  ],
+  "structuralValidation": {
+    "country": "US",
+    "industries": 6,
+    "scenarios": 16,
+    "tasks": 168,
+    "sourceCount": 27,
+    "duplicateIds": 0,
+    "invalidReferences": 0,
+    "missingWorkflowPhases": 0,
+    "countryLinkErrors": 0,
+    "automationResearchCompleted": 0,
+    "validation": "passed"
+  }
+}

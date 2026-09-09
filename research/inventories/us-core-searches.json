@@ -1,0 +1,126 @@
+{
+  "country": "US",
+  "cutoffDate": "2026-09-09",
+  "purpose": "仅任务发现与流程/职责交叉核对，非自动化成功失败检索",
+  "entries": [
+    {
+      "id": "US-CORE-MFG-01",
+      "queries": [
+        "site.bls.gov manufacturing NAICS 31 33 subsectors",
+        "site.osha.gov etools poultry processing receiving cutting packaging sanitation",
+        "site.osha.gov etools woodworking production assembly finishing"
+      ],
+      "result": "已读BLS制造门类、OSHA禽类工艺目录；直接OSHA部分路径403，保留索引正文已读状态。"
+    },
+    {
+      "id": "US-CORE-MFG-02",
+      "queries": [
+        "site.osha.gov etools sewing stitching",
+        "site.osha.gov Petroleum Refining Process Desalting",
+        "site.epa.gov printing pre-press post-press",
+        "site.osha.gov injection molding operator remove",
+        "site.epa.gov semiconductor manufacturing wafer cleaning"
+      ],
+      "result": "已读OSHA缝制、炼油与注塑来源相关正文及EPA印刷/1999半导体工艺。"
+    },
+    {
+      "id": "US-CORE-MFG-03",
+      "queries": [
+        "site.epa.gov pulp paper pulping papermaking process",
+        "site.epa.gov iron steel Process Description",
+        "site.epa.gov Portland Cement Manufacturing Process Description",
+        "site.osha.gov battery manufacturing formation"
+      ],
+      "result": "纸浆2008流程原页已读；钢铁/水泥/电池仅发现线索，未冒充完成专门生产规范。"
+    },
+    {
+      "id": "US-CORE-MFG-04",
+      "queries": [
+        "direct O*NET details Tasks sections (20 occupations)",
+        "direct eCFR 21 CFR 117.80",
+        "direct eCFR 14 CFR 21.137",
+        "direct eCFR 29 CFR 1910.147"
+      ],
+      "result": "职业动作与适用流程控制条款已读；1910.147不延伸到建筑/农业。"
+    },
+    {
+      "id": "US-CORE-GOV-01",
+      "queries": [
+        "BEA concordance government industry rows",
+        "USDA school meals process HACCP",
+        "VA patient handling assessment",
+        "FHWA pothole manual 3.2",
+        "USPS M-41 public revision",
+        "FTA wheelchair securement questions",
+        "DLA distribution receipt store ship",
+        "BOP entering prison"
+      ],
+      "result": "逐读已列原始来源相关段落；9个政府场景建立，未齐专用规范处标partial；不将NIPA business sector等同private industry。"
+    },
+    {
+      "id": "US-CORE-HLT-01",
+      "queries": [
+        "CDC disinfection sterilization recommendations2/7/15-19",
+        "O*NET phlebotomist radiologic surgical equipment preparer rehabilitation home aide child care tasks",
+        "FDA Medical X-ray Imaging healthcare team QA",
+        "ChildCare.gov health safety",
+        "GovInfo 42CFR493.1242 2022 and 2025 attempted",
+        "HUD 24CFR576.403 2025"
+      ],
+      "result": "9场景，原文/职责实际读取；2025CLIA原PDF失败，2022条款明确旧版；不假称当前规范已齐。"
+    },
+    {
+      "id": "US-CORE-CON-SEARCH",
+      "date": "2026-09-09",
+      "queries": [
+        "12个建筑相关O*NET details页 Tasks实际读取",
+        "Caltrans construction manual earthwork concrete structures",
+        "OSHA steel erection structural stability cranes and 1926.417",
+        "DOE PNNL advanced framing roof flashing mini split installation air sealing"
+      ],
+      "result": "已读土方、混凝土完整指定章节；钢架及气密检查表读取官方索引正文；热泵安装1—12；木框架洞口与泛水指定段。石膏板/管道独立guide工具失败，未作为已读源。油漆专用SOP仍缺。HUD 2025 PDF失败，已替换为确实读取的2022(b)文本。",
+      "automationSearchPerformed": false
+    },
+    {
+      "id": "US-CORE-AGR-SEARCH",
+      "date": "2026-09-09",
+      "queries": [
+        "O*NET45-2091/2092/2093/2041/4021/4022/3031/4011 Tasks actual HTTP text",
+        "USDA AMS Harmonized GAP current3.1 and containers F10 indexed detail",
+        "US university Extension corn planting grain storage apple harvest video produce handling tomato nursery",
+        "Penn State milk SOP2024/2025 TMR swine and eggs",
+        "OSHA logging limb buck NOAA pots pelagic longlines",
+        "Mississippi State catfish phases feeding water quality"
+      ],
+      "result": "已读列出指定章节和职业Tasks。GAP v3.1全文打开成功但指定章节后续工具失败，只用已实际见到F10.4；2024旧版F10.1—3明确历史。未读来源不填为当前全规范。所有数量/工时/经济参数未采用。",
+      "automationSearchPerformed": false
+    },
+    {
+      "id": "US-CORE-EXPAND-SEARCH",
+      "date": "2026-09-09",
+      "queries": [
+        "EPA current AP42 mineral chapter cement2025 ceramic2025 glass1986",
+        "O*NET51-9195/9051/9111/9197 and33-2011 actual Tasks",
+        "FDA CGMP production controls Q1 Q2 Q12 blend sampling",
+        "Tire Industry Association how tires are made",
+        "Toyota Mississippi official process passage",
+        "USFA first responder role PPE maintenance"
+      ],
+      "result": "新增制造6场景及消防；金属熔炼/焊接拆开并保留旧任务ID，补两个独立动作。矿物流程新旧版显式区分。汽车细部只为提案，厂商美国工艺段不证明具体工位。",
+      "automationSearchPerformed": false
+    }
+  ],
+  "validation": {
+    "checkedAt": "2026-09-09",
+    "scope": "JSON结构与引用完整性，不是实质逐条证据审查",
+    "sources": 133,
+    "scenarios": 66,
+    "tasks": 788,
+    "uniqueTaskIds": true,
+    "allSourceIdsResolve": true,
+    "countryIsolation": "all US",
+    "phaseAuditFields": "8 per scenario",
+    "independentSubstantiveReview": "pending"
+  },
+  "queryFidelity": "entries中的queries是本次实际检索/读取的简明说明，包含归并表述，不是逐工具原始搜索语句转储。访问失败和只读索引段在sources.accessStatus逐项标明。"
+}

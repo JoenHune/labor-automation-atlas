@@ -1,0 +1,6169 @@
+{
+  "schemaVersion": "1.0.0",
+  "researchVersion": "2026-09-09-public-v1-draft",
+  "country": "CN",
+  "countryName": "中国",
+  "asOf": "2026-09-09",
+  "defaultYear": 2025,
+  "availableYears": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+  "unit": "亿元",
+  "currency": "CNY",
+  "priceBasis": "current",
+  "annualized": false,
+  "selection": {
+    "rule": "最新官方现价增加值；11个第一级行业中的10个具名行业按2025全年数排序，其他行业单列",
+    "classification": "GB/T 4754-2017；NBS GDP第一级11行业；三次产业划分规定2018",
+    "rankingTitle": "2025年官方GDP一级分类中的10个具名行业榜",
+    "scopeWarning": "这是最新官方可识别具名大类榜，不是所有19个门类或全部工业大类的全国Top10；未拆分其他行业可能包含大行业",
+    "parentChildExclusion": "工业入榜，制造业仅作其子项；三次产业合计不入行业榜",
+    "missingSectorSupplement": [],
+    "sectorCoverage": [
+      "primary",
+      "secondary",
+      "tertiary"
+    ],
+    "sourceId": "cn-nbs-2025-preliminary"
+  },
+  "latestPeriod": {
+    "gdp": "2026-H1",
+    "quarter": "2026-Q2",
+    "publishedAt": "2026-07-16",
+    "sourceId": "cn-nbs-2026-h1",
+    "monthlyProgress": "2026-07",
+    "monthlyPublishedAt": "2026-08-17",
+    "nextGdpPlannedRelease": "2026-10-20",
+    "nextMonthlyPlannedRelease": "2026-09-15",
+    "calendarSourceId": "cn-nbs-release-calendar-2026",
+    "actualPublicationChecked": true
+  },
+  "industries": [
+    {
+      "id": "cn-industry",
+      "country": "CN",
+      "name": "工业",
+      "sectors": [
+        "secondary",
+        "tertiary"
+      ],
+      "classificationCode": "B+C+D",
+      "scopeNote": "包含采矿、制造、公用事业；部分专业辅助、修理活动属于第三产业，不能直接等同第二产业工业口径",
+      "rankingEligible": true
+    },
+    {
+      "id": "cn-wholesale-retail",
+      "country": "CN",
+      "name": "批发和零售业",
+      "sectors": [
+        "tertiary"
+      ],
+      "classificationCode": "F",
+      "scopeNote": null,
+      "rankingEligible": true
+    },
+    {
+      "id": "cn-finance",
+      "country": "CN",
+      "name": "金融业",
+      "sectors": [
+        "tertiary"
+      ],
+      "classificationCode": "J",
+      "scopeNote": null,
+      "rankingEligible": true
+    },
+    {
+      "id": "cn-agriculture",
+      "country": "CN",
+      "name": "农林牧渔业",
+      "sectors": [
+        "primary",
+        "tertiary"
+      ],
+      "classificationCode": "A",
+      "scopeNote": "包含农林牧渔专业及辅助性活动，不等于第一产业",
+      "rankingEligible": true
+    },
+    {
+      "id": "cn-construction",
+      "country": "CN",
+      "name": "建筑业",
+      "sectors": [
+        "secondary"
+      ],
+      "classificationCode": "E",
+      "scopeNote": null,
+      "rankingEligible": true
+    },
+    {
+      "id": "cn-real-estate",
+      "country": "CN",
+      "name": "房地产业",
+      "sectors": [
+        "tertiary"
+      ],
+      "classificationCode": "K",
+      "scopeNote": "包括自有住房服务核算；增加值规模不能直接视作可替代人工市场",
+      "rankingEligible": true
+    },
+    {
+      "id": "cn-information",
+      "country": "CN",
+      "name": "信息传输、软件和信息技术服务业",
+      "sectors": [
+        "tertiary"
+      ],
+      "classificationCode": "I",
+      "scopeNote": null,
+      "rankingEligible": true
+    },
+    {
+      "id": "cn-business-services",
+      "country": "CN",
+      "name": "租赁和商务服务业",
+      "sectors": [
+        "tertiary"
+      ],
+      "classificationCode": "L",
+      "scopeNote": null,
+      "rankingEligible": true
+    },
+    {
+      "id": "cn-transport",
+      "country": "CN",
+      "name": "交通运输、仓储和邮政业",
+      "sectors": [
+        "tertiary"
+      ],
+      "classificationCode": "G",
+      "scopeNote": null,
+      "rankingEligible": true
+    },
+    {
+      "id": "cn-accommodation-food",
+      "country": "CN",
+      "name": "住宿和餐饮业",
+      "sectors": [
+        "tertiary"
+      ],
+      "classificationCode": "H",
+      "scopeNote": null,
+      "rankingEligible": true
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "industryId": "cn-industry",
+      "country": "CN",
+      "name": "工业",
+      "value": 416826,
+      "unit": "亿元",
+      "period": "2025",
+      "observationId": "cn-industry-2025-current-value-added",
+      "shareOfGdpPct": 29.733379271677514,
+      "shareEvidenceType": "calculation",
+      "shareFormula": "value / 1401879 * 100"
+    },
+    {
+      "rank": 2,
+      "industryId": "cn-wholesale-retail",
+      "country": "CN",
+      "name": "批发和零售业",
+      "value": 145808,
+      "unit": "亿元",
+      "period": "2025",
+      "observationId": "cn-wholesale-retail-2025-current-value-added",
+      "shareOfGdpPct": 10.400897652365147,
+      "shareEvidenceType": "calculation",
+      "shareFormula": "value / 1401879 * 100"
+    },
+    {
+      "rank": 3,
+      "industryId": "cn-finance",
+      "country": "CN",
+      "name": "金融业",
+      "value": 101337,
+      "unit": "亿元",
+      "period": "2025",
+      "observationId": "cn-finance-2025-current-value-added",
+      "shareOfGdpPct": 7.228655254840111,
+      "shareEvidenceType": "calculation",
+      "shareFormula": "value / 1401879 * 100"
+    },
+    {
+      "rank": 4,
+      "industryId": "cn-agriculture",
+      "country": "CN",
+      "name": "农林牧渔业",
+      "value": 99107,
+      "unit": "亿元",
+      "period": "2025",
+      "observationId": "cn-agriculture-2025-current-value-added",
+      "shareOfGdpPct": 7.069583038193739,
+      "shareEvidenceType": "calculation",
+      "shareFormula": "value / 1401879 * 100"
+    },
+    {
+      "rank": 5,
+      "industryId": "cn-construction",
+      "country": "CN",
+      "name": "建筑业",
+      "value": 86425,
+      "unit": "亿元",
+      "period": "2025",
+      "observationId": "cn-construction-2025-current-value-added",
+      "shareOfGdpPct": 6.164940055454144,
+      "shareEvidenceType": "calculation",
+      "shareFormula": "value / 1401879 * 100"
+    },
+    {
+      "rank": 6,
+      "industryId": "cn-real-estate",
+      "country": "CN",
+      "name": "房地产业",
+      "value": 83024,
+      "unit": "亿元",
+      "period": "2025",
+      "observationId": "cn-real-estate-2025-current-value-added",
+      "shareOfGdpPct": 5.922337091860282,
+      "shareEvidenceType": "calculation",
+      "shareFormula": "value / 1401879 * 100"
+    },
+    {
+      "rank": 7,
+      "industryId": "cn-information",
+      "country": "CN",
+      "name": "信息传输、软件和信息技术服务业",
+      "value": 70599,
+      "unit": "亿元",
+      "period": "2025",
+      "observationId": "cn-information-2025-current-value-added",
+      "shareOfGdpPct": 5.036026647092937,
+      "shareEvidenceType": "calculation",
+      "shareFormula": "value / 1401879 * 100"
+    },
+    {
+      "rank": 8,
+      "industryId": "cn-business-services",
+      "country": "CN",
+      "name": "租赁和商务服务业",
+      "value": 63666,
+      "unit": "亿元",
+      "period": "2025",
+      "observationId": "cn-business-services-2025-current-value-added",
+      "shareOfGdpPct": 4.541476118837646,
+      "shareEvidenceType": "calculation",
+      "shareFormula": "value / 1401879 * 100"
+    },
+    {
+      "rank": 9,
+      "industryId": "cn-transport",
+      "country": "CN",
+      "name": "交通运输、仓储和邮政业",
+      "value": 62092,
+      "unit": "亿元",
+      "period": "2025",
+      "observationId": "cn-transport-2025-current-value-added",
+      "shareOfGdpPct": 4.4291982403616865,
+      "shareEvidenceType": "calculation",
+      "shareFormula": "value / 1401879 * 100"
+    },
+    {
+      "rank": 10,
+      "industryId": "cn-accommodation-food",
+      "country": "CN",
+      "name": "住宿和餐饮业",
+      "value": 26403,
+      "unit": "亿元",
+      "period": "2025",
+      "observationId": "cn-accommodation-food-2025-current-value-added",
+      "shareOfGdpPct": 1.883400778526535,
+      "shareEvidenceType": "calculation",
+      "shareFormula": "value / 1401879 * 100"
+    }
+  ],
+  "otherIndustry": {
+    "id": "cn-other",
+    "country": "CN",
+    "name": "其他行业（未拆分汇总）",
+    "period": "2025",
+    "value": 246593,
+    "unit": "亿元",
+    "shareOfGdpPct": 17.59017718362284,
+    "evidenceType": "direct_fact",
+    "shareEvidenceType": "calculation",
+    "shareFormula": "246593 / 1401879 * 100",
+    "observationId": "cn-other-2025-current-value-added",
+    "components": [
+      "科学研究和技术服务业",
+      "水利、环境和公共设施管理业",
+      "居民服务、修理和其他服务业",
+      "教育",
+      "卫生和社会工作",
+      "文化、体育和娱乐业",
+      "公共管理、社会保障和社会组织"
+    ],
+    "componentValues2025": null,
+    "scopeNote": "2025发布仅给汇总值；七门类规模缺口保持未拆分，历史2023分行业值不能当2025值"
+  },
+  "observations": [
+    {
+      "id": "cn-industry-2021-current-value-added",
+      "country": "CN",
+      "industryId": "cn-industry",
+      "industryName": "工业",
+      "period": "2021",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 369903.7,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值；本研究不采用表中2024初步值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-1",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-01.jpg",
+          "locator": {
+            "table": "3-1 国内生产总值",
+            "row": "2021年",
+            "column": "工业"
+          },
+          "verbatimValue": "369903.7"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-wholesale-retail-2021-current-value-added",
+      "country": "CN",
+      "industryId": "cn-wholesale-retail",
+      "industryName": "批发和零售业",
+      "period": "2021",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 114358.0,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "批发和零售业",
+            "column": "2021年"
+          },
+          "verbatimValue": "114358.0"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-finance-2021-current-value-added",
+      "country": "CN",
+      "industryId": "cn-finance",
+      "industryName": "金融业",
+      "period": "2021",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 86409.2,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "金融业",
+            "column": "2021年"
+          },
+          "verbatimValue": "86409.2"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-agriculture-2021-current-value-added",
+      "country": "CN",
+      "industryId": "cn-agriculture",
+      "industryName": "农林牧渔业",
+      "period": "2021",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 86994.8,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "农林牧渔业",
+            "column": "2021年"
+          },
+          "verbatimValue": "86994.8"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-construction-2021-current-value-added",
+      "country": "CN",
+      "industryId": "cn-construction",
+      "industryName": "建筑业",
+      "period": "2021",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 79269.8,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "建筑业",
+            "column": "2021年"
+          },
+          "verbatimValue": "79269.8"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-real-estate-2021-current-value-added",
+      "country": "CN",
+      "industryId": "cn-real-estate",
+      "industryName": "房地产业",
+      "period": "2021",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 90397.5,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "房地产业",
+            "column": "2021年"
+          },
+          "verbatimValue": "90397.5"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-information-2021-current-value-added",
+      "country": "CN",
+      "industryId": "cn-information",
+      "industryName": "信息传输、软件和信息技术服务业",
+      "period": "2021",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 45506.6,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "信息传输、软件和信息技术服务业",
+            "column": "2021年"
+          },
+          "verbatimValue": "45506.6"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-business-services-2021-current-value-added",
+      "country": "CN",
+      "industryId": "cn-business-services",
+      "industryName": "租赁和商务服务业",
+      "period": "2021",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 40581.1,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "租赁和商务服务业",
+            "column": "2021年"
+          },
+          "verbatimValue": "40581.1"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-transport-2021-current-value-added",
+      "country": "CN",
+      "industryId": "cn-transport",
+      "industryName": "交通运输、仓储和邮政业",
+      "period": "2021",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 48439.0,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "交通运输、仓储和邮政业",
+            "column": "2021年"
+          },
+          "verbatimValue": "48439.0"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-accommodation-food-2021-current-value-added",
+      "country": "CN",
+      "industryId": "cn-accommodation-food",
+      "industryName": "住宿和餐饮业",
+      "period": "2021",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 19064.4,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "住宿和餐饮业",
+            "column": "2021年"
+          },
+          "verbatimValue": "19064.4"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-gdp-2021-current-value-added",
+      "country": "CN",
+      "industryId": "cn-gdp",
+      "industryName": "GDP",
+      "period": "2021",
+      "frequency": "annual",
+      "metric": "current_price_gdp",
+      "value": 1173823.0,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值；本研究不采用表中2024初步值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-1",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-01.jpg",
+          "locator": {
+            "table": "3-1 国内生产总值",
+            "row": "2021年",
+            "column": "GDP"
+          },
+          "verbatimValue": "1173823.0"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-primary-2021-current-value-added",
+      "country": "CN",
+      "industryId": "cn-primary",
+      "industryName": "第一产业",
+      "period": "2021",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 83216.5,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值；本研究不采用表中2024初步值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-1",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-01.jpg",
+          "locator": {
+            "table": "3-1 国内生产总值",
+            "row": "2021年",
+            "column": "第一产业"
+          },
+          "verbatimValue": "83216.5"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-secondary-2021-current-value-added",
+      "country": "CN",
+      "industryId": "cn-secondary",
+      "industryName": "第二产业",
+      "period": "2021",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 447138.2,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值；本研究不采用表中2024初步值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-1",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-01.jpg",
+          "locator": {
+            "table": "3-1 国内生产总值",
+            "row": "2021年",
+            "column": "第二产业"
+          },
+          "verbatimValue": "447138.2"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-tertiary-2021-current-value-added",
+      "country": "CN",
+      "industryId": "cn-tertiary",
+      "industryName": "第三产业",
+      "period": "2021",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 643468.4,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值；本研究不采用表中2024初步值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-1",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-01.jpg",
+          "locator": {
+            "table": "3-1 国内生产总值",
+            "row": "2021年",
+            "column": "第三产业"
+          },
+          "verbatimValue": "643468.4"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-other-2021-current-value-added",
+      "country": "CN",
+      "industryId": "cn-other",
+      "industryName": "其他行业",
+      "period": "2021",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 192899.1,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "calculation",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "科学研究和技术服务业",
+            "column": "2021年"
+          },
+          "verbatimValue": "29406.5"
+        },
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "水利、环境和公共设施管理业",
+            "column": "2021年"
+          },
+          "verbatimValue": "7081.8"
+        },
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "居民服务、修理和其他服务业",
+            "column": "2021年"
+          },
+          "verbatimValue": "19708.6"
+        },
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "教育",
+            "column": "2021年"
+          },
+          "verbatimValue": "44523.6"
+        },
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "卫生和社会工作",
+            "column": "2021年"
+          },
+          "verbatimValue": "27003.1"
+        },
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "文化、体育和娱乐业",
+            "column": "2021年"
+          },
+          "verbatimValue": "9232.0"
+        },
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "公共管理、社会保障和社会组织",
+            "column": "2021年"
+          },
+          "verbatimValue": "55943.5"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": {
+        "operation": "sum",
+        "operands": [
+          29406.5,
+          7081.8,
+          19708.6,
+          44523.6,
+          27003.1,
+          9232.0,
+          55943.5
+        ],
+        "componentNames": [
+          "科学研究和技术服务业",
+          "水利、环境和公共设施管理业",
+          "居民服务、修理和其他服务业",
+          "教育",
+          "卫生和社会工作",
+          "文化、体育和娱乐业",
+          "公共管理、社会保障和社会组织"
+        ],
+        "formula": "sum(seven_official_service_sections)",
+        "note": "按最新11行业分类合并七个官方历史门类；不是2025其他行业的拆分；不用3-1更宽的其他列"
+      }
+    },
+    {
+      "id": "cn-manufacturing-2021-current-value-added",
+      "country": "CN",
+      "industryId": "cn-manufacturing",
+      "industryName": "制造业",
+      "period": "2021",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 312494.4,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "制造业",
+            "column": "2021年"
+          },
+          "verbatimValue": "312494.4"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-industry-2022-current-value-added",
+      "country": "CN",
+      "industryId": "cn-industry",
+      "industryName": "工业",
+      "period": "2022",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 388651.6,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值；本研究不采用表中2024初步值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-1",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-01.jpg",
+          "locator": {
+            "table": "3-1 国内生产总值",
+            "row": "2022年",
+            "column": "工业"
+          },
+          "verbatimValue": "388651.6"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-wholesale-retail-2022-current-value-added",
+      "country": "CN",
+      "industryId": "cn-wholesale-retail",
+      "industryName": "批发和零售业",
+      "period": "2022",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 122177.5,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "批发和零售业",
+            "column": "2022年"
+          },
+          "verbatimValue": "122177.5"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-finance-2022-current-value-added",
+      "country": "CN",
+      "industryId": "cn-finance",
+      "industryName": "金融业",
+      "period": "2022",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 88051.5,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "金融业",
+            "column": "2022年"
+          },
+          "verbatimValue": "88051.5"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-agriculture-2022-current-value-added",
+      "country": "CN",
+      "industryId": "cn-agriculture",
+      "industryName": "农林牧渔业",
+      "period": "2022",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 92576.8,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "农林牧渔业",
+            "column": "2022年"
+          },
+          "verbatimValue": "92576.8"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-construction-2022-current-value-added",
+      "country": "CN",
+      "industryId": "cn-construction",
+      "industryName": "建筑业",
+      "period": "2022",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 81439.8,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "建筑业",
+            "column": "2022年"
+          },
+          "verbatimValue": "81439.8"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-real-estate-2022-current-value-added",
+      "country": "CN",
+      "industryId": "cn-real-estate",
+      "industryName": "房地产业",
+      "period": "2022",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 88015.2,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "房地产业",
+            "column": "2022年"
+          },
+          "verbatimValue": "88015.2"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-information-2022-current-value-added",
+      "country": "CN",
+      "industryId": "cn-information",
+      "industryName": "信息传输、软件和信息技术服务业",
+      "period": "2022",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 51036.3,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "信息传输、软件和信息技术服务业",
+            "column": "2022年"
+          },
+          "verbatimValue": "51036.3"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-business-services-2022-current-value-added",
+      "country": "CN",
+      "industryId": "cn-business-services",
+      "industryName": "租赁和商务服务业",
+      "period": "2022",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 44164.9,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "租赁和商务服务业",
+            "column": "2022年"
+          },
+          "verbatimValue": "44164.9"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-transport-2022-current-value-added",
+      "country": "CN",
+      "industryId": "cn-transport",
+      "industryName": "交通运输、仓储和邮政业",
+      "period": "2022",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 50967.7,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "交通运输、仓储和邮政业",
+            "column": "2022年"
+          },
+          "verbatimValue": "50967.7"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-accommodation-food-2022-current-value-added",
+      "country": "CN",
+      "industryId": "cn-accommodation-food",
+      "industryName": "住宿和餐饮业",
+      "period": "2022",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 19146.2,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "住宿和餐饮业",
+            "column": "2022年"
+          },
+          "verbatimValue": "19146.2"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-gdp-2022-current-value-added",
+      "country": "CN",
+      "industryId": "cn-gdp",
+      "industryName": "GDP",
+      "period": "2022",
+      "frequency": "annual",
+      "metric": "current_price_gdp",
+      "value": 1234029.4,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值；本研究不采用表中2024初步值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-1",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-01.jpg",
+          "locator": {
+            "table": "3-1 国内生产总值",
+            "row": "2022年",
+            "column": "GDP"
+          },
+          "verbatimValue": "1234029.4"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-primary-2022-current-value-added",
+      "country": "CN",
+      "industryId": "cn-primary",
+      "industryName": "第一产业",
+      "period": "2022",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 88207.0,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值；本研究不采用表中2024初步值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-1",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-01.jpg",
+          "locator": {
+            "table": "3-1 国内生产总值",
+            "row": "2022年",
+            "column": "第一产业"
+          },
+          "verbatimValue": "88207.0"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-secondary-2022-current-value-added",
+      "country": "CN",
+      "industryId": "cn-secondary",
+      "industryName": "第二产业",
+      "period": "2022",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 467629.6,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值；本研究不采用表中2024初步值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-1",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-01.jpg",
+          "locator": {
+            "table": "3-1 国内生产总值",
+            "row": "2022年",
+            "column": "第二产业"
+          },
+          "verbatimValue": "467629.6"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-tertiary-2022-current-value-added",
+      "country": "CN",
+      "industryId": "cn-tertiary",
+      "industryName": "第三产业",
+      "period": "2022",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 678192.7,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值；本研究不采用表中2024初步值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-1",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-01.jpg",
+          "locator": {
+            "table": "3-1 国内生产总值",
+            "row": "2022年",
+            "column": "第三产业"
+          },
+          "verbatimValue": "678192.7"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-other-2022-current-value-added",
+      "country": "CN",
+      "industryId": "cn-other",
+      "industryName": "其他行业",
+      "period": "2022",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 207801.9,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "calculation",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "科学研究和技术服务业",
+            "column": "2022年"
+          },
+          "verbatimValue": "31525.8"
+        },
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "水利、环境和公共设施管理业",
+            "column": "2022年"
+          },
+          "verbatimValue": "7604.2"
+        },
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "居民服务、修理和其他服务业",
+            "column": "2022年"
+          },
+          "verbatimValue": "20998.2"
+        },
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "教育",
+            "column": "2022年"
+          },
+          "verbatimValue": "47629.3"
+        },
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "卫生和社会工作",
+            "column": "2022年"
+          },
+          "verbatimValue": "30056.5"
+        },
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "文化、体育和娱乐业",
+            "column": "2022年"
+          },
+          "verbatimValue": "9678.3"
+        },
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "公共管理、社会保障和社会组织",
+            "column": "2022年"
+          },
+          "verbatimValue": "60309.6"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": {
+        "operation": "sum",
+        "operands": [
+          31525.8,
+          7604.2,
+          20998.2,
+          47629.3,
+          30056.5,
+          9678.3,
+          60309.6
+        ],
+        "componentNames": [
+          "科学研究和技术服务业",
+          "水利、环境和公共设施管理业",
+          "居民服务、修理和其他服务业",
+          "教育",
+          "卫生和社会工作",
+          "文化、体育和娱乐业",
+          "公共管理、社会保障和社会组织"
+        ],
+        "formula": "sum(seven_official_service_sections)",
+        "note": "按最新11行业分类合并七个官方历史门类；不是2025其他行业的拆分；不用3-1更宽的其他列"
+      }
+    },
+    {
+      "id": "cn-manufacturing-2022-current-value-added",
+      "country": "CN",
+      "industryId": "cn-manufacturing",
+      "industryName": "制造业",
+      "period": "2022",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 320609.1,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "制造业",
+            "column": "2022年"
+          },
+          "verbatimValue": "320609.1"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-industry-2023-current-value-added",
+      "country": "CN",
+      "industryId": "cn-industry",
+      "industryName": "工业",
+      "period": "2023",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 392183.0,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值；本研究不采用表中2024初步值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-1",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-01.jpg",
+          "locator": {
+            "table": "3-1 国内生产总值",
+            "row": "2023年",
+            "column": "工业"
+          },
+          "verbatimValue": "392183.0"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-wholesale-retail-2023-current-value-added",
+      "country": "CN",
+      "industryId": "cn-wholesale-retail",
+      "industryName": "批发和零售业",
+      "period": "2023",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 130809.7,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "批发和零售业",
+            "column": "2023年"
+          },
+          "verbatimValue": "130809.7"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-finance-2023-current-value-added",
+      "country": "CN",
+      "industryId": "cn-finance",
+      "industryName": "金融业",
+      "period": "2023",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 93926.9,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "金融业",
+            "column": "2023年"
+          },
+          "verbatimValue": "93926.9"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-agriculture-2023-current-value-added",
+      "country": "CN",
+      "industryId": "cn-agriculture",
+      "industryName": "农林牧渔业",
+      "period": "2023",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 93967.0,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "农林牧渔业",
+            "column": "2023年"
+          },
+          "verbatimValue": "93967.0"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-construction-2023-current-value-added",
+      "country": "CN",
+      "industryId": "cn-construction",
+      "industryName": "建筑业",
+      "period": "2023",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 86640.6,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "建筑业",
+            "column": "2023年"
+          },
+          "verbatimValue": "86640.6"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-real-estate-2023-current-value-added",
+      "country": "CN",
+      "industryId": "cn-real-estate",
+      "industryName": "房地产业",
+      "period": "2023",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 87981.5,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "房地产业",
+            "column": "2023年"
+          },
+          "verbatimValue": "87981.5"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-information-2023-current-value-added",
+      "country": "CN",
+      "industryId": "cn-information",
+      "industryName": "信息传输、软件和信息技术服务业",
+      "period": "2023",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 57498.4,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "信息传输、软件和信息技术服务业",
+            "column": "2023年"
+          },
+          "verbatimValue": "57498.4"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-business-services-2023-current-value-added",
+      "country": "CN",
+      "industryId": "cn-business-services",
+      "industryName": "租赁和商务服务业",
+      "period": "2023",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 50438.9,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "租赁和商务服务业",
+            "column": "2023年"
+          },
+          "verbatimValue": "50438.9"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-transport-2023-current-value-added",
+      "country": "CN",
+      "industryId": "cn-transport",
+      "industryName": "交通运输、仓储和邮政业",
+      "period": "2023",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 56438.3,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "交通运输、仓储和邮政业",
+            "column": "2023年"
+          },
+          "verbatimValue": "56438.3"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-accommodation-food-2023-current-value-added",
+      "country": "CN",
+      "industryId": "cn-accommodation-food",
+      "industryName": "住宿和餐饮业",
+      "period": "2023",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 23084.2,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "住宿和餐饮业",
+            "column": "2023年"
+          },
+          "verbatimValue": "23084.2"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-gdp-2023-current-value-added",
+      "country": "CN",
+      "industryId": "cn-gdp",
+      "industryName": "GDP",
+      "period": "2023",
+      "frequency": "annual",
+      "metric": "current_price_gdp",
+      "value": 1294271.7,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值；本研究不采用表中2024初步值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-1",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-01.jpg",
+          "locator": {
+            "table": "3-1 国内生产总值",
+            "row": "2023年",
+            "column": "GDP"
+          },
+          "verbatimValue": "1294271.7"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-primary-2023-current-value-added",
+      "country": "CN",
+      "industryId": "cn-primary",
+      "industryName": "第一产业",
+      "period": "2023",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 89169.1,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值；本研究不采用表中2024初步值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-1",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-01.jpg",
+          "locator": {
+            "table": "3-1 国内生产总值",
+            "row": "2023年",
+            "column": "第一产业"
+          },
+          "verbatimValue": "89169.1"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-secondary-2023-current-value-added",
+      "country": "CN",
+      "industryId": "cn-secondary",
+      "industryName": "第二产业",
+      "period": "2023",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 475936.1,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值；本研究不采用表中2024初步值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-1",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-01.jpg",
+          "locator": {
+            "table": "3-1 国内生产总值",
+            "row": "2023年",
+            "column": "第二产业"
+          },
+          "verbatimValue": "475936.1"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-tertiary-2023-current-value-added",
+      "country": "CN",
+      "industryId": "cn-tertiary",
+      "industryName": "第三产业",
+      "period": "2023",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 729166.5,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值；本研究不采用表中2024初步值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-1",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-01.jpg",
+          "locator": {
+            "table": "3-1 国内生产总值",
+            "row": "2023年",
+            "column": "第三产业"
+          },
+          "verbatimValue": "729166.5"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-other-2023-current-value-added",
+      "country": "CN",
+      "industryId": "cn-other",
+      "industryName": "其他行业",
+      "period": "2023",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 221303.3,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "calculation",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "科学研究和技术服务业",
+            "column": "2023年"
+          },
+          "verbatimValue": "34088.4"
+        },
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "水利、环境和公共设施管理业",
+            "column": "2023年"
+          },
+          "verbatimValue": "7997.9"
+        },
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "居民服务、修理和其他服务业",
+            "column": "2023年"
+          },
+          "verbatimValue": "23418.2"
+        },
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "教育",
+            "column": "2023年"
+          },
+          "verbatimValue": "49398.6"
+        },
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "卫生和社会工作",
+            "column": "2023年"
+          },
+          "verbatimValue": "31970.2"
+        },
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "文化、体育和娱乐业",
+            "column": "2023年"
+          },
+          "verbatimValue": "10692.8"
+        },
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "公共管理、社会保障和社会组织",
+            "column": "2023年"
+          },
+          "verbatimValue": "63737.2"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": {
+        "operation": "sum",
+        "operands": [
+          34088.4,
+          7997.9,
+          23418.2,
+          49398.6,
+          31970.2,
+          10692.8,
+          63737.2
+        ],
+        "componentNames": [
+          "科学研究和技术服务业",
+          "水利、环境和公共设施管理业",
+          "居民服务、修理和其他服务业",
+          "教育",
+          "卫生和社会工作",
+          "文化、体育和娱乐业",
+          "公共管理、社会保障和社会组织"
+        ],
+        "formula": "sum(seven_official_service_sections)",
+        "note": "按最新11行业分类合并七个官方历史门类；不是2025其他行业的拆分；不用3-1更宽的其他列"
+      }
+    },
+    {
+      "id": "cn-manufacturing-2023-current-value-added",
+      "country": "CN",
+      "industryId": "cn-manufacturing",
+      "industryName": "制造业",
+      "period": "2023",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 323754.6,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-yearbook2025-t3-6",
+          "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+          "locator": {
+            "table": "3-6 分行业增加值",
+            "row": "制造业",
+            "column": "2023年"
+          },
+          "verbatimValue": "323754.6"
+        }
+      ],
+      "realGrowthPct": null,
+      "realGrowthEvidence": null,
+      "calculation": null
+    },
+    {
+      "id": "cn-gdp-2024-current-value-added",
+      "country": "CN",
+      "industryId": "cn-gdp",
+      "industryName": "GDP",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "current_price_gdp",
+      "value": 1348066,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2025-12-26",
+      "publicationDateNote": null,
+      "revisionStatus": "最终核实",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+          "locator": {
+            "table": "附件1：2024年GDP最终核实数",
+            "row": "GDP",
+            "column": "现价总量（亿元）"
+          },
+          "verbatimValue": "1348066"
+        }
+      ],
+      "realGrowthPct": 5.0,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2024-final",
+        "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+        "locator": {
+          "table": "附件1：2024年GDP最终核实数",
+          "row": "GDP",
+          "column": "不变价增速（%）"
+        },
+        "verbatimValue": "5.0"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-primary-2024-current-value-added",
+      "country": "CN",
+      "industryId": "cn-primary",
+      "industryName": "第一产业",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 91636,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2025-12-26",
+      "publicationDateNote": null,
+      "revisionStatus": "最终核实",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+          "locator": {
+            "table": "附件1：2024年GDP最终核实数",
+            "row": "第一产业",
+            "column": "现价总量（亿元）"
+          },
+          "verbatimValue": "91636"
+        }
+      ],
+      "realGrowthPct": 3.7,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2024-final",
+        "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+        "locator": {
+          "table": "附件1：2024年GDP最终核实数",
+          "row": "第一产业",
+          "column": "不变价增速（%）"
+        },
+        "verbatimValue": "3.7"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-secondary-2024-current-value-added",
+      "country": "CN",
+      "industryId": "cn-secondary",
+      "industryName": "第二产业",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 490305,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2025-12-26",
+      "publicationDateNote": null,
+      "revisionStatus": "最终核实",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+          "locator": {
+            "table": "附件1：2024年GDP最终核实数",
+            "row": "第二产业",
+            "column": "现价总量（亿元）"
+          },
+          "verbatimValue": "490305"
+        }
+      ],
+      "realGrowthPct": 5.0,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2024-final",
+        "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+        "locator": {
+          "table": "附件1：2024年GDP最终核实数",
+          "row": "第二产业",
+          "column": "不变价增速（%）"
+        },
+        "verbatimValue": "5.0"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-tertiary-2024-current-value-added",
+      "country": "CN",
+      "industryId": "cn-tertiary",
+      "industryName": "第三产业",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 766125,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2025-12-26",
+      "publicationDateNote": null,
+      "revisionStatus": "最终核实",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+          "locator": {
+            "table": "附件1：2024年GDP最终核实数",
+            "row": "第三产业",
+            "column": "现价总量（亿元）"
+          },
+          "verbatimValue": "766125"
+        }
+      ],
+      "realGrowthPct": 5.1,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2024-final",
+        "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+        "locator": {
+          "table": "附件1：2024年GDP最终核实数",
+          "row": "第三产业",
+          "column": "不变价增速（%）"
+        },
+        "verbatimValue": "5.1"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-agriculture-2024-current-value-added",
+      "country": "CN",
+      "industryId": "cn-agriculture",
+      "industryName": "农林牧渔业",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 96976,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2025-12-26",
+      "publicationDateNote": null,
+      "revisionStatus": "最终核实",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+          "locator": {
+            "table": "附件1：2024年GDP最终核实数",
+            "row": "农林牧渔业",
+            "column": "现价总量（亿元）"
+          },
+          "verbatimValue": "96976"
+        }
+      ],
+      "realGrowthPct": 4.0,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2024-final",
+        "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+        "locator": {
+          "table": "附件1：2024年GDP最终核实数",
+          "row": "农林牧渔业",
+          "column": "不变价增速（%）"
+        },
+        "verbatimValue": "4.0"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-industry-2024-current-value-added",
+      "country": "CN",
+      "industryId": "cn-industry",
+      "industryName": "工业",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 404519,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2025-12-26",
+      "publicationDateNote": null,
+      "revisionStatus": "最终核实",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+          "locator": {
+            "table": "附件1：2024年GDP最终核实数",
+            "row": "工业",
+            "column": "现价总量（亿元）"
+          },
+          "verbatimValue": "404519"
+        }
+      ],
+      "realGrowthPct": 5.5,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2024-final",
+        "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+        "locator": {
+          "table": "附件1：2024年GDP最终核实数",
+          "row": "工业",
+          "column": "不变价增速（%）"
+        },
+        "verbatimValue": "5.5"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-manufacturing-2024-current-value-added",
+      "country": "CN",
+      "industryId": "cn-manufacturing",
+      "industryName": "制造业",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 334881,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2025-12-26",
+      "publicationDateNote": null,
+      "revisionStatus": "最终核实",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+          "locator": {
+            "table": "附件1：2024年GDP最终核实数",
+            "row": "制造业",
+            "column": "现价总量（亿元）"
+          },
+          "verbatimValue": "334881"
+        }
+      ],
+      "realGrowthPct": 5.8,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2024-final",
+        "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+        "locator": {
+          "table": "附件1：2024年GDP最终核实数",
+          "row": "制造业",
+          "column": "不变价增速（%）"
+        },
+        "verbatimValue": "5.8"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-construction-2024-current-value-added",
+      "country": "CN",
+      "industryId": "cn-construction",
+      "industryName": "建筑业",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 88863,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2025-12-26",
+      "publicationDateNote": null,
+      "revisionStatus": "最终核实",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+          "locator": {
+            "table": "附件1：2024年GDP最终核实数",
+            "row": "建筑业",
+            "column": "现价总量（亿元）"
+          },
+          "verbatimValue": "88863"
+        }
+      ],
+      "realGrowthPct": 2.9,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2024-final",
+        "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+        "locator": {
+          "table": "附件1：2024年GDP最终核实数",
+          "row": "建筑业",
+          "column": "不变价增速（%）"
+        },
+        "verbatimValue": "2.9"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-wholesale-retail-2024-current-value-added",
+      "country": "CN",
+      "industryId": "cn-wholesale-retail",
+      "industryName": "批发和零售业",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 139192,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2025-12-26",
+      "publicationDateNote": null,
+      "revisionStatus": "最终核实",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+          "locator": {
+            "table": "附件1：2024年GDP最终核实数",
+            "row": "批发和零售业",
+            "column": "现价总量（亿元）"
+          },
+          "verbatimValue": "139192"
+        }
+      ],
+      "realGrowthPct": 6.5,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2024-final",
+        "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+        "locator": {
+          "table": "附件1：2024年GDP最终核实数",
+          "row": "批发和零售业",
+          "column": "不变价增速（%）"
+        },
+        "verbatimValue": "6.5"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-transport-2024-current-value-added",
+      "country": "CN",
+      "industryId": "cn-transport",
+      "industryName": "交通运输、仓储和邮政业",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 59045,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2025-12-26",
+      "publicationDateNote": null,
+      "revisionStatus": "最终核实",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+          "locator": {
+            "table": "附件1：2024年GDP最终核实数",
+            "row": "交通运输、仓储和邮政业",
+            "column": "现价总量（亿元）"
+          },
+          "verbatimValue": "59045"
+        }
+      ],
+      "realGrowthPct": 6.7,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2024-final",
+        "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+        "locator": {
+          "table": "附件1：2024年GDP最终核实数",
+          "row": "交通运输、仓储和邮政业",
+          "column": "不变价增速（%）"
+        },
+        "verbatimValue": "6.7"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-accommodation-food-2024-current-value-added",
+      "country": "CN",
+      "industryId": "cn-accommodation-food",
+      "industryName": "住宿和餐饮业",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 24894,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2025-12-26",
+      "publicationDateNote": null,
+      "revisionStatus": "最终核实",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+          "locator": {
+            "table": "附件1：2024年GDP最终核实数",
+            "row": "住宿和餐饮业",
+            "column": "现价总量（亿元）"
+          },
+          "verbatimValue": "24894"
+        }
+      ],
+      "realGrowthPct": 7.0,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2024-final",
+        "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+        "locator": {
+          "table": "附件1：2024年GDP最终核实数",
+          "row": "住宿和餐饮业",
+          "column": "不变价增速（%）"
+        },
+        "verbatimValue": "7.0"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-finance-2024-current-value-added",
+      "country": "CN",
+      "industryId": "cn-finance",
+      "industryName": "金融业",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 96956,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2025-12-26",
+      "publicationDateNote": null,
+      "revisionStatus": "最终核实",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+          "locator": {
+            "table": "附件1：2024年GDP最终核实数",
+            "row": "金融业",
+            "column": "现价总量（亿元）"
+          },
+          "verbatimValue": "96956"
+        }
+      ],
+      "realGrowthPct": 3.7,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2024-final",
+        "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+        "locator": {
+          "table": "附件1：2024年GDP最终核实数",
+          "row": "金融业",
+          "column": "不变价增速（%）"
+        },
+        "verbatimValue": "3.7"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-real-estate-2024-current-value-added",
+      "country": "CN",
+      "industryId": "cn-real-estate",
+      "industryName": "房地产业",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 84047,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2025-12-26",
+      "publicationDateNote": null,
+      "revisionStatus": "最终核实",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+          "locator": {
+            "table": "附件1：2024年GDP最终核实数",
+            "row": "房地产业",
+            "column": "现价总量（亿元）"
+          },
+          "verbatimValue": "84047"
+        }
+      ],
+      "realGrowthPct": -2.2,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2024-final",
+        "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+        "locator": {
+          "table": "附件1：2024年GDP最终核实数",
+          "row": "房地产业",
+          "column": "不变价增速（%）"
+        },
+        "verbatimValue": "-2.2"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-information-2024-current-value-added",
+      "country": "CN",
+      "industryId": "cn-information",
+      "industryName": "信息传输、软件和信息技术服务业",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 63958,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2025-12-26",
+      "publicationDateNote": null,
+      "revisionStatus": "最终核实",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+          "locator": {
+            "table": "附件1：2024年GDP最终核实数",
+            "row": "信息传输、软件和信息技术服务业",
+            "column": "现价总量（亿元）"
+          },
+          "verbatimValue": "63958"
+        }
+      ],
+      "realGrowthPct": 11.7,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2024-final",
+        "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+        "locator": {
+          "table": "附件1：2024年GDP最终核实数",
+          "row": "信息传输、软件和信息技术服务业",
+          "column": "不变价增速（%）"
+        },
+        "verbatimValue": "11.7"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-business-services-2024-current-value-added",
+      "country": "CN",
+      "industryId": "cn-business-services",
+      "industryName": "租赁和商务服务业",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 56941,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2025-12-26",
+      "publicationDateNote": null,
+      "revisionStatus": "最终核实",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+          "locator": {
+            "table": "附件1：2024年GDP最终核实数",
+            "row": "租赁和商务服务业",
+            "column": "现价总量（亿元）"
+          },
+          "verbatimValue": "56941"
+        }
+      ],
+      "realGrowthPct": 11.1,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2024-final",
+        "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+        "locator": {
+          "table": "附件1：2024年GDP最终核实数",
+          "row": "租赁和商务服务业",
+          "column": "不变价增速（%）"
+        },
+        "verbatimValue": "11.1"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-other-2024-current-value-added",
+      "country": "CN",
+      "industryId": "cn-other",
+      "industryName": "其他行业",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 232676,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2025-12-26",
+      "publicationDateNote": null,
+      "revisionStatus": "最终核实",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+          "locator": {
+            "table": "附件1：2024年GDP最终核实数",
+            "row": "其他行业",
+            "column": "现价总量（亿元）"
+          },
+          "verbatimValue": "232676"
+        }
+      ],
+      "realGrowthPct": 3.9,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2024-final",
+        "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+        "locator": {
+          "table": "附件1：2024年GDP最终核实数",
+          "row": "其他行业",
+          "column": "不变价增速（%）"
+        },
+        "verbatimValue": "3.9"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-gdp-2025-current-value-added",
+      "country": "CN",
+      "industryId": "cn-gdp",
+      "industryName": "GDP",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "current_price_gdp",
+      "value": 1401879,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-01-20",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+          "locator": {
+            "table": "表1：2025年四季度和全年GDP初步核算数据",
+            "row": "GDP",
+            "column": "全年绝对额（亿元）"
+          },
+          "verbatimValue": "1401879"
+        }
+      ],
+      "realGrowthPct": 5.0,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2025-preliminary",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+        "locator": {
+          "table": "表1：2025年四季度和全年GDP初步核算数据",
+          "row": "GDP",
+          "column": "全年同比增长（%）"
+        },
+        "verbatimValue": "5.0"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-primary-2025-current-value-added",
+      "country": "CN",
+      "industryId": "cn-primary",
+      "industryName": "第一产业",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 93347,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-01-20",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+          "locator": {
+            "table": "表1：2025年四季度和全年GDP初步核算数据",
+            "row": "第一产业",
+            "column": "全年绝对额（亿元）"
+          },
+          "verbatimValue": "93347"
+        }
+      ],
+      "realGrowthPct": 3.9,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2025-preliminary",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+        "locator": {
+          "table": "表1：2025年四季度和全年GDP初步核算数据",
+          "row": "第一产业",
+          "column": "全年同比增长（%）"
+        },
+        "verbatimValue": "3.9"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-secondary-2025-current-value-added",
+      "country": "CN",
+      "industryId": "cn-secondary",
+      "industryName": "第二产业",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 499653,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-01-20",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+          "locator": {
+            "table": "表1：2025年四季度和全年GDP初步核算数据",
+            "row": "第二产业",
+            "column": "全年绝对额（亿元）"
+          },
+          "verbatimValue": "499653"
+        }
+      ],
+      "realGrowthPct": 4.5,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2025-preliminary",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+        "locator": {
+          "table": "表1：2025年四季度和全年GDP初步核算数据",
+          "row": "第二产业",
+          "column": "全年同比增长（%）"
+        },
+        "verbatimValue": "4.5"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-tertiary-2025-current-value-added",
+      "country": "CN",
+      "industryId": "cn-tertiary",
+      "industryName": "第三产业",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 808879,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-01-20",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+          "locator": {
+            "table": "表1：2025年四季度和全年GDP初步核算数据",
+            "row": "第三产业",
+            "column": "全年绝对额（亿元）"
+          },
+          "verbatimValue": "808879"
+        }
+      ],
+      "realGrowthPct": 5.4,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2025-preliminary",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+        "locator": {
+          "table": "表1：2025年四季度和全年GDP初步核算数据",
+          "row": "第三产业",
+          "column": "全年同比增长（%）"
+        },
+        "verbatimValue": "5.4"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-agriculture-2025-current-value-added",
+      "country": "CN",
+      "industryId": "cn-agriculture",
+      "industryName": "农林牧渔业",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 99107,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-01-20",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+          "locator": {
+            "table": "表1：2025年四季度和全年GDP初步核算数据",
+            "row": "农林牧渔业",
+            "column": "全年绝对额（亿元）"
+          },
+          "verbatimValue": "99107"
+        }
+      ],
+      "realGrowthPct": 4.1,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2025-preliminary",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+        "locator": {
+          "table": "表1：2025年四季度和全年GDP初步核算数据",
+          "row": "农林牧渔业",
+          "column": "全年同比增长（%）"
+        },
+        "verbatimValue": "4.1"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-industry-2025-current-value-added",
+      "country": "CN",
+      "industryId": "cn-industry",
+      "industryName": "工业",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 416826,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-01-20",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+          "locator": {
+            "table": "表1：2025年四季度和全年GDP初步核算数据",
+            "row": "工业",
+            "column": "全年绝对额（亿元）"
+          },
+          "verbatimValue": "416826"
+        }
+      ],
+      "realGrowthPct": 5.8,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2025-preliminary",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+        "locator": {
+          "table": "表1：2025年四季度和全年GDP初步核算数据",
+          "row": "工业",
+          "column": "全年同比增长（%）"
+        },
+        "verbatimValue": "5.8"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-manufacturing-2025-current-value-added",
+      "country": "CN",
+      "industryId": "cn-manufacturing",
+      "industryName": "制造业",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 346747,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-01-20",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+          "locator": {
+            "table": "表1：2025年四季度和全年GDP初步核算数据",
+            "row": "#制造业",
+            "column": "全年绝对额（亿元）"
+          },
+          "verbatimValue": "346747"
+        }
+      ],
+      "realGrowthPct": 6.1,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2025-preliminary",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+        "locator": {
+          "table": "表1：2025年四季度和全年GDP初步核算数据",
+          "row": "#制造业",
+          "column": "全年同比增长（%）"
+        },
+        "verbatimValue": "6.1"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-construction-2025-current-value-added",
+      "country": "CN",
+      "industryId": "cn-construction",
+      "industryName": "建筑业",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 86425,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-01-20",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+          "locator": {
+            "table": "表1：2025年四季度和全年GDP初步核算数据",
+            "row": "建筑业",
+            "column": "全年绝对额（亿元）"
+          },
+          "verbatimValue": "86425"
+        }
+      ],
+      "realGrowthPct": -1.1,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2025-preliminary",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+        "locator": {
+          "table": "表1：2025年四季度和全年GDP初步核算数据",
+          "row": "建筑业",
+          "column": "全年同比增长（%）"
+        },
+        "verbatimValue": "-1.1"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-wholesale-retail-2025-current-value-added",
+      "country": "CN",
+      "industryId": "cn-wholesale-retail",
+      "industryName": "批发和零售业",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 145808,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-01-20",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+          "locator": {
+            "table": "表1：2025年四季度和全年GDP初步核算数据",
+            "row": "批发和零售业",
+            "column": "全年绝对额（亿元）"
+          },
+          "verbatimValue": "145808"
+        }
+      ],
+      "realGrowthPct": 5.0,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2025-preliminary",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+        "locator": {
+          "table": "表1：2025年四季度和全年GDP初步核算数据",
+          "row": "批发和零售业",
+          "column": "全年同比增长（%）"
+        },
+        "verbatimValue": "5.0"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-transport-2025-current-value-added",
+      "country": "CN",
+      "industryId": "cn-transport",
+      "industryName": "交通运输、仓储和邮政业",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 62092,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-01-20",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+          "locator": {
+            "table": "表1：2025年四季度和全年GDP初步核算数据",
+            "row": "交通运输、仓储和邮政业",
+            "column": "全年绝对额（亿元）"
+          },
+          "verbatimValue": "62092"
+        }
+      ],
+      "realGrowthPct": 5.2,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2025-preliminary",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+        "locator": {
+          "table": "表1：2025年四季度和全年GDP初步核算数据",
+          "row": "交通运输、仓储和邮政业",
+          "column": "全年同比增长（%）"
+        },
+        "verbatimValue": "5.2"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-accommodation-food-2025-current-value-added",
+      "country": "CN",
+      "industryId": "cn-accommodation-food",
+      "industryName": "住宿和餐饮业",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 26403,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-01-20",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+          "locator": {
+            "table": "表1：2025年四季度和全年GDP初步核算数据",
+            "row": "住宿和餐饮业",
+            "column": "全年绝对额（亿元）"
+          },
+          "verbatimValue": "26403"
+        }
+      ],
+      "realGrowthPct": 4.9,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2025-preliminary",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+        "locator": {
+          "table": "表1：2025年四季度和全年GDP初步核算数据",
+          "row": "住宿和餐饮业",
+          "column": "全年同比增长（%）"
+        },
+        "verbatimValue": "4.9"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-finance-2025-current-value-added",
+      "country": "CN",
+      "industryId": "cn-finance",
+      "industryName": "金融业",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 101337,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-01-20",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+          "locator": {
+            "table": "表1：2025年四季度和全年GDP初步核算数据",
+            "row": "金融业",
+            "column": "全年绝对额（亿元）"
+          },
+          "verbatimValue": "101337"
+        }
+      ],
+      "realGrowthPct": 4.5,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2025-preliminary",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+        "locator": {
+          "table": "表1：2025年四季度和全年GDP初步核算数据",
+          "row": "金融业",
+          "column": "全年同比增长（%）"
+        },
+        "verbatimValue": "4.5"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-real-estate-2025-current-value-added",
+      "country": "CN",
+      "industryId": "cn-real-estate",
+      "industryName": "房地产业",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 83024,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-01-20",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+          "locator": {
+            "table": "表1：2025年四季度和全年GDP初步核算数据",
+            "row": "房地产业",
+            "column": "全年绝对额（亿元）"
+          },
+          "verbatimValue": "83024"
+        }
+      ],
+      "realGrowthPct": 0.2,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2025-preliminary",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+        "locator": {
+          "table": "表1：2025年四季度和全年GDP初步核算数据",
+          "row": "房地产业",
+          "column": "全年同比增长（%）"
+        },
+        "verbatimValue": "0.2"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-information-2025-current-value-added",
+      "country": "CN",
+      "industryId": "cn-information",
+      "industryName": "信息传输、软件和信息技术服务业",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 70599,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-01-20",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+          "locator": {
+            "table": "表1：2025年四季度和全年GDP初步核算数据",
+            "row": "信息传输、软件和信息技术服务业",
+            "column": "全年绝对额（亿元）"
+          },
+          "verbatimValue": "70599"
+        }
+      ],
+      "realGrowthPct": 11.1,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2025-preliminary",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+        "locator": {
+          "table": "表1：2025年四季度和全年GDP初步核算数据",
+          "row": "信息传输、软件和信息技术服务业",
+          "column": "全年同比增长（%）"
+        },
+        "verbatimValue": "11.1"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-business-services-2025-current-value-added",
+      "country": "CN",
+      "industryId": "cn-business-services",
+      "industryName": "租赁和商务服务业",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 63666,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-01-20",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+          "locator": {
+            "table": "表1：2025年四季度和全年GDP初步核算数据",
+            "row": "租赁和商务服务业",
+            "column": "全年绝对额（亿元）"
+          },
+          "verbatimValue": "63666"
+        }
+      ],
+      "realGrowthPct": 10.3,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2025-preliminary",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+        "locator": {
+          "table": "表1：2025年四季度和全年GDP初步核算数据",
+          "row": "租赁和商务服务业",
+          "column": "全年同比增长（%）"
+        },
+        "verbatimValue": "10.3"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-other-2025-current-value-added",
+      "country": "CN",
+      "industryId": "cn-other",
+      "industryName": "其他行业",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "current_price_gross_value_added",
+      "value": 246593,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-01-20",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+          "locator": {
+            "table": "表1：2025年四季度和全年GDP初步核算数据",
+            "row": "其他行业",
+            "column": "全年绝对额（亿元）"
+          },
+          "verbatimValue": "246593"
+        }
+      ],
+      "realGrowthPct": 5.0,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2025-preliminary",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+        "locator": {
+          "table": "表1：2025年四季度和全年GDP初步核算数据",
+          "row": "其他行业",
+          "column": "全年同比增长（%）"
+        },
+        "verbatimValue": "5.0"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-gdp-2026-Q1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-gdp",
+      "industryName": "GDP",
+      "period": "2026-Q1",
+      "frequency": "quarterly",
+      "metric": "current_price_gdp",
+      "value": 334193,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-04-17",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-q1",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+          "locator": {
+            "table": "表1：2026年一季度GDP初步核算数据",
+            "row": "GDP",
+            "column": "绝对额（亿元）"
+          },
+          "verbatimValue": "334193"
+        }
+      ],
+      "realGrowthPct": 5.0,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-q1",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+        "locator": {
+          "table": "表1：2026年一季度GDP初步核算数据",
+          "row": "GDP",
+          "column": "同比增长（%）"
+        },
+        "verbatimValue": "5.0"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-primary-2026-Q1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-primary",
+      "industryName": "第一产业",
+      "period": "2026-Q1",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 11941,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-04-17",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-q1",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+          "locator": {
+            "table": "表1：2026年一季度GDP初步核算数据",
+            "row": "第一产业",
+            "column": "绝对额（亿元）"
+          },
+          "verbatimValue": "11941"
+        }
+      ],
+      "realGrowthPct": 3.8,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-q1",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+        "locator": {
+          "table": "表1：2026年一季度GDP初步核算数据",
+          "row": "第一产业",
+          "column": "同比增长（%）"
+        },
+        "verbatimValue": "3.8"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-secondary-2026-Q1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-secondary",
+      "industryName": "第二产业",
+      "period": "2026-Q1",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 116135,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-04-17",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-q1",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+          "locator": {
+            "table": "表1：2026年一季度GDP初步核算数据",
+            "row": "第二产业",
+            "column": "绝对额（亿元）"
+          },
+          "verbatimValue": "116135"
+        }
+      ],
+      "realGrowthPct": 4.9,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-q1",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+        "locator": {
+          "table": "表1：2026年一季度GDP初步核算数据",
+          "row": "第二产业",
+          "column": "同比增长（%）"
+        },
+        "verbatimValue": "4.9"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-tertiary-2026-Q1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-tertiary",
+      "industryName": "第三产业",
+      "period": "2026-Q1",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 206117,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-04-17",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-q1",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+          "locator": {
+            "table": "表1：2026年一季度GDP初步核算数据",
+            "row": "第三产业",
+            "column": "绝对额（亿元）"
+          },
+          "verbatimValue": "206117"
+        }
+      ],
+      "realGrowthPct": 5.2,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-q1",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+        "locator": {
+          "table": "表1：2026年一季度GDP初步核算数据",
+          "row": "第三产业",
+          "column": "同比增长（%）"
+        },
+        "verbatimValue": "5.2"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-agriculture-2026-Q1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-agriculture",
+      "industryName": "农林牧渔业",
+      "period": "2026-Q1",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 12851,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-04-17",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-q1",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+          "locator": {
+            "table": "表1：2026年一季度GDP初步核算数据",
+            "row": "农林牧渔业",
+            "column": "绝对额（亿元）"
+          },
+          "verbatimValue": "12851"
+        }
+      ],
+      "realGrowthPct": 4.0,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-q1",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+        "locator": {
+          "table": "表1：2026年一季度GDP初步核算数据",
+          "row": "农林牧渔业",
+          "column": "同比增长（%）"
+        },
+        "verbatimValue": "4.0"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-industry-2026-Q1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-industry",
+      "industryName": "工业",
+      "period": "2026-Q1",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 103388,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-04-17",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-q1",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+          "locator": {
+            "table": "表1：2026年一季度GDP初步核算数据",
+            "row": "工业",
+            "column": "绝对额（亿元）"
+          },
+          "verbatimValue": "103388"
+        }
+      ],
+      "realGrowthPct": 6.1,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-q1",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+        "locator": {
+          "table": "表1：2026年一季度GDP初步核算数据",
+          "row": "工业",
+          "column": "同比增长（%）"
+        },
+        "verbatimValue": "6.1"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-manufacturing-2026-Q1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-manufacturing",
+      "industryName": "制造业",
+      "period": "2026-Q1",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 86960,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-04-17",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-q1",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+          "locator": {
+            "table": "表1：2026年一季度GDP初步核算数据",
+            "row": "#制造业",
+            "column": "绝对额（亿元）"
+          },
+          "verbatimValue": "86960"
+        }
+      ],
+      "realGrowthPct": 6.3,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-q1",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+        "locator": {
+          "table": "表1：2026年一季度GDP初步核算数据",
+          "row": "#制造业",
+          "column": "同比增长（%）"
+        },
+        "verbatimValue": "6.3"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-construction-2026-Q1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-construction",
+      "industryName": "建筑业",
+      "period": "2026-Q1",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 13632,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-04-17",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-q1",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+          "locator": {
+            "table": "表1：2026年一季度GDP初步核算数据",
+            "row": "建筑业",
+            "column": "绝对额（亿元）"
+          },
+          "verbatimValue": "13632"
+        }
+      ],
+      "realGrowthPct": -3.8,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-q1",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+        "locator": {
+          "table": "表1：2026年一季度GDP初步核算数据",
+          "row": "建筑业",
+          "column": "同比增长（%）"
+        },
+        "verbatimValue": "-3.8"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-wholesale-retail-2026-Q1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-wholesale-retail",
+      "industryName": "批发和零售业",
+      "period": "2026-Q1",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 35071,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-04-17",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-q1",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+          "locator": {
+            "table": "表1：2026年一季度GDP初步核算数据",
+            "row": "批发和零售业",
+            "column": "绝对额（亿元）"
+          },
+          "verbatimValue": "35071"
+        }
+      ],
+      "realGrowthPct": 4.1,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-q1",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+        "locator": {
+          "table": "表1：2026年一季度GDP初步核算数据",
+          "row": "批发和零售业",
+          "column": "同比增长（%）"
+        },
+        "verbatimValue": "4.1"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-transport-2026-Q1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-transport",
+      "industryName": "交通运输、仓储和邮政业",
+      "period": "2026-Q1",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 14638,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-04-17",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-q1",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+          "locator": {
+            "table": "表1：2026年一季度GDP初步核算数据",
+            "row": "交通运输、仓储和邮政业",
+            "column": "绝对额（亿元）"
+          },
+          "verbatimValue": "14638"
+        }
+      ],
+      "realGrowthPct": 4.3,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-q1",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+        "locator": {
+          "table": "表1：2026年一季度GDP初步核算数据",
+          "row": "交通运输、仓储和邮政业",
+          "column": "同比增长（%）"
+        },
+        "verbatimValue": "4.3"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-accommodation-food-2026-Q1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-accommodation-food",
+      "industryName": "住宿和餐饮业",
+      "period": "2026-Q1",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 6055,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-04-17",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-q1",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+          "locator": {
+            "table": "表1：2026年一季度GDP初步核算数据",
+            "row": "住宿和餐饮业",
+            "column": "绝对额（亿元）"
+          },
+          "verbatimValue": "6055"
+        }
+      ],
+      "realGrowthPct": 4.3,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-q1",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+        "locator": {
+          "table": "表1：2026年一季度GDP初步核算数据",
+          "row": "住宿和餐饮业",
+          "column": "同比增长（%）"
+        },
+        "verbatimValue": "4.3"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-finance-2026-Q1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-finance",
+      "industryName": "金融业",
+      "period": "2026-Q1",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 27225,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-04-17",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-q1",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+          "locator": {
+            "table": "表1：2026年一季度GDP初步核算数据",
+            "row": "金融业",
+            "column": "绝对额（亿元）"
+          },
+          "verbatimValue": "27225"
+        }
+      ],
+      "realGrowthPct": 6.5,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-q1",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+        "locator": {
+          "table": "表1：2026年一季度GDP初步核算数据",
+          "row": "金融业",
+          "column": "同比增长（%）"
+        },
+        "verbatimValue": "6.5"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-real-estate-2026-Q1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-real-estate",
+      "industryName": "房地产业",
+      "period": "2026-Q1",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 20326,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-04-17",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-q1",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+          "locator": {
+            "table": "表1：2026年一季度GDP初步核算数据",
+            "row": "房地产业",
+            "column": "绝对额（亿元）"
+          },
+          "verbatimValue": "20326"
+        }
+      ],
+      "realGrowthPct": -0.1,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-q1",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+        "locator": {
+          "table": "表1：2026年一季度GDP初步核算数据",
+          "row": "房地产业",
+          "column": "同比增长（%）"
+        },
+        "verbatimValue": "-0.1"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-information-2026-Q1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-information",
+      "industryName": "信息传输、软件和信息技术服务业",
+      "period": "2026-Q1",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 20444,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-04-17",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-q1",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+          "locator": {
+            "table": "表1：2026年一季度GDP初步核算数据",
+            "row": "信息传输、软件和信息技术服务业",
+            "column": "绝对额（亿元）"
+          },
+          "verbatimValue": "20444"
+        }
+      ],
+      "realGrowthPct": 10.6,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-q1",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+        "locator": {
+          "table": "表1：2026年一季度GDP初步核算数据",
+          "row": "信息传输、软件和信息技术服务业",
+          "column": "同比增长（%）"
+        },
+        "verbatimValue": "10.6"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-business-services-2026-Q1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-business-services",
+      "industryName": "租赁和商务服务业",
+      "period": "2026-Q1",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 16209,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-04-17",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-q1",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+          "locator": {
+            "table": "表1：2026年一季度GDP初步核算数据",
+            "row": "租赁和商务服务业",
+            "column": "绝对额（亿元）"
+          },
+          "verbatimValue": "16209"
+        }
+      ],
+      "realGrowthPct": 12.2,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-q1",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+        "locator": {
+          "table": "表1：2026年一季度GDP初步核算数据",
+          "row": "租赁和商务服务业",
+          "column": "同比增长（%）"
+        },
+        "verbatimValue": "12.2"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-other-2026-Q1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-other",
+      "industryName": "其他行业",
+      "period": "2026-Q1",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 64354,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-04-17",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-q1",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+          "locator": {
+            "table": "表1：2026年一季度GDP初步核算数据",
+            "row": "其他行业",
+            "column": "绝对额（亿元）"
+          },
+          "verbatimValue": "64354"
+        }
+      ],
+      "realGrowthPct": 4.0,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-q1",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+        "locator": {
+          "table": "表1：2026年一季度GDP初步核算数据",
+          "row": "其他行业",
+          "column": "同比增长（%）"
+        },
+        "verbatimValue": "4.0"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-gdp-2026-Q2-current-value-added",
+      "country": "CN",
+      "industryId": "cn-gdp",
+      "industryName": "GDP",
+      "period": "2026-Q2",
+      "frequency": "quarterly",
+      "metric": "current_price_gdp",
+      "value": 361511,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "GDP",
+            "column": "二季度绝对额（亿元）"
+          },
+          "verbatimValue": "361511"
+        }
+      ],
+      "realGrowthPct": 4.3,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "GDP",
+          "column": "二季度同比增长（%）"
+        },
+        "verbatimValue": "4.3"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-primary-2026-Q2-current-value-added",
+      "country": "CN",
+      "industryId": "cn-primary",
+      "industryName": "第一产业",
+      "period": "2026-Q2",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 19581,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "第一产业",
+            "column": "二季度绝对额（亿元）"
+          },
+          "verbatimValue": "19581"
+        }
+      ],
+      "realGrowthPct": 3.7,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "第一产业",
+          "column": "二季度同比增长（%）"
+        },
+        "verbatimValue": "3.7"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-secondary-2026-Q2-current-value-added",
+      "country": "CN",
+      "industryId": "cn-secondary",
+      "industryName": "第二产业",
+      "period": "2026-Q2",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 134338,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "第二产业",
+            "column": "二季度绝对额（亿元）"
+          },
+          "verbatimValue": "134338"
+        }
+      ],
+      "realGrowthPct": 3.0,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "第二产业",
+          "column": "二季度同比增长（%）"
+        },
+        "verbatimValue": "3.0"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-tertiary-2026-Q2-current-value-added",
+      "country": "CN",
+      "industryId": "cn-tertiary",
+      "industryName": "第三产业",
+      "period": "2026-Q2",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 207592,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "第三产业",
+            "column": "二季度绝对额（亿元）"
+          },
+          "verbatimValue": "207592"
+        }
+      ],
+      "realGrowthPct": 5.1,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "第三产业",
+          "column": "二季度同比增长（%）"
+        },
+        "verbatimValue": "5.1"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-agriculture-2026-Q2-current-value-added",
+      "country": "CN",
+      "industryId": "cn-agriculture",
+      "industryName": "农林牧渔业",
+      "period": "2026-Q2",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 20951,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "农林牧渔业",
+            "column": "二季度绝对额（亿元）"
+          },
+          "verbatimValue": "20951"
+        }
+      ],
+      "realGrowthPct": 3.9,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "农林牧渔业",
+          "column": "二季度同比增长（%）"
+        },
+        "verbatimValue": "3.9"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-industry-2026-Q2-current-value-added",
+      "country": "CN",
+      "industryId": "cn-industry",
+      "industryName": "工业",
+      "period": "2026-Q2",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 112836,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "工业",
+            "column": "二季度绝对额（亿元）"
+          },
+          "verbatimValue": "112836"
+        }
+      ],
+      "realGrowthPct": 4.7,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "工业",
+          "column": "二季度同比增长（%）"
+        },
+        "verbatimValue": "4.7"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-manufacturing-2026-Q2-current-value-added",
+      "country": "CN",
+      "industryId": "cn-manufacturing",
+      "industryName": "制造业",
+      "period": "2026-Q2",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 95370,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "#制造业",
+            "column": "二季度绝对额（亿元）"
+          },
+          "verbatimValue": "95370"
+        }
+      ],
+      "realGrowthPct": 4.8,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "#制造业",
+          "column": "二季度同比增长（%）"
+        },
+        "verbatimValue": "4.8"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-construction-2026-Q2-current-value-added",
+      "country": "CN",
+      "industryId": "cn-construction",
+      "industryName": "建筑业",
+      "period": "2026-Q2",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 22411,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "建筑业",
+            "column": "二季度绝对额（亿元）"
+          },
+          "verbatimValue": "22411"
+        }
+      ],
+      "realGrowthPct": -4.1,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "建筑业",
+          "column": "二季度同比增长（%）"
+        },
+        "verbatimValue": "-4.1"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-wholesale-retail-2026-Q2-current-value-added",
+      "country": "CN",
+      "industryId": "cn-wholesale-retail",
+      "industryName": "批发和零售业",
+      "period": "2026-Q2",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 37146,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "批发和零售业",
+            "column": "二季度绝对额（亿元）"
+          },
+          "verbatimValue": "37146"
+        }
+      ],
+      "realGrowthPct": 3.3,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "批发和零售业",
+          "column": "二季度同比增长（%）"
+        },
+        "verbatimValue": "3.3"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-transport-2026-Q2-current-value-added",
+      "country": "CN",
+      "industryId": "cn-transport",
+      "industryName": "交通运输、仓储和邮政业",
+      "period": "2026-Q2",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 16692,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "交通运输、仓储和邮政业",
+            "column": "二季度绝对额（亿元）"
+          },
+          "verbatimValue": "16692"
+        }
+      ],
+      "realGrowthPct": 5.1,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "交通运输、仓储和邮政业",
+          "column": "二季度同比增长（%）"
+        },
+        "verbatimValue": "5.1"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-accommodation-food-2026-Q2-current-value-added",
+      "country": "CN",
+      "industryId": "cn-accommodation-food",
+      "industryName": "住宿和餐饮业",
+      "period": "2026-Q2",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 6202,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "住宿和餐饮业",
+            "column": "二季度绝对额（亿元）"
+          },
+          "verbatimValue": "6202"
+        }
+      ],
+      "realGrowthPct": 5.8,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "住宿和餐饮业",
+          "column": "二季度同比增长（%）"
+        },
+        "verbatimValue": "5.8"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-finance-2026-Q2-current-value-added",
+      "country": "CN",
+      "industryId": "cn-finance",
+      "industryName": "金融业",
+      "period": "2026-Q2",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 27390,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "金融业",
+            "column": "二季度绝对额（亿元）"
+          },
+          "verbatimValue": "27390"
+        }
+      ],
+      "realGrowthPct": 6.9,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "金融业",
+          "column": "二季度同比增长（%）"
+        },
+        "verbatimValue": "6.9"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-real-estate-2026-Q2-current-value-added",
+      "country": "CN",
+      "industryId": "cn-real-estate",
+      "industryName": "房地产业",
+      "period": "2026-Q2",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 21038,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "房地产业",
+            "column": "二季度绝对额（亿元）"
+          },
+          "verbatimValue": "21038"
+        }
+      ],
+      "realGrowthPct": -0.2,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "房地产业",
+          "column": "二季度同比增长（%）"
+        },
+        "verbatimValue": "-0.2"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-information-2026-Q2-current-value-added",
+      "country": "CN",
+      "industryId": "cn-information",
+      "industryName": "信息传输、软件和信息技术服务业",
+      "period": "2026-Q2",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 20890,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "信息传输、软件和信息技术服务业",
+            "column": "二季度绝对额（亿元）"
+          },
+          "verbatimValue": "20890"
+        }
+      ],
+      "realGrowthPct": 10.8,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "信息传输、软件和信息技术服务业",
+          "column": "二季度同比增长（%）"
+        },
+        "verbatimValue": "10.8"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-business-services-2026-Q2-current-value-added",
+      "country": "CN",
+      "industryId": "cn-business-services",
+      "industryName": "租赁和商务服务业",
+      "period": "2026-Q2",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 15383,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "租赁和商务服务业",
+            "column": "二季度绝对额（亿元）"
+          },
+          "verbatimValue": "15383"
+        }
+      ],
+      "realGrowthPct": 11.6,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "租赁和商务服务业",
+          "column": "二季度同比增长（%）"
+        },
+        "verbatimValue": "11.6"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-other-2026-Q2-current-value-added",
+      "country": "CN",
+      "industryId": "cn-other",
+      "industryName": "其他行业",
+      "period": "2026-Q2",
+      "frequency": "quarterly",
+      "metric": "current_price_gross_value_added",
+      "value": 60572,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "其他行业",
+            "column": "二季度绝对额（亿元）"
+          },
+          "verbatimValue": "60572"
+        }
+      ],
+      "realGrowthPct": 3.7,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "其他行业",
+          "column": "二季度同比增长（%）"
+        },
+        "verbatimValue": "3.7"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-gdp-2026-H1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-gdp",
+      "industryName": "GDP",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "current_price_gdp",
+      "value": 695704,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "GDP",
+            "column": "上半年绝对额（亿元）"
+          },
+          "verbatimValue": "695704"
+        }
+      ],
+      "realGrowthPct": 4.7,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "GDP",
+          "column": "上半年同比增长（%）"
+        },
+        "verbatimValue": "4.7"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-primary-2026-H1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-primary",
+      "industryName": "第一产业",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "current_price_gross_value_added",
+      "value": 31522,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "第一产业",
+            "column": "上半年绝对额（亿元）"
+          },
+          "verbatimValue": "31522"
+        }
+      ],
+      "realGrowthPct": 3.7,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "第一产业",
+          "column": "上半年同比增长（%）"
+        },
+        "verbatimValue": "3.7"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-secondary-2026-H1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-secondary",
+      "industryName": "第二产业",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "current_price_gross_value_added",
+      "value": 250473,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "第二产业",
+            "column": "上半年绝对额（亿元）"
+          },
+          "verbatimValue": "250473"
+        }
+      ],
+      "realGrowthPct": 3.9,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "第二产业",
+          "column": "上半年同比增长（%）"
+        },
+        "verbatimValue": "3.9"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-tertiary-2026-H1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-tertiary",
+      "industryName": "第三产业",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "current_price_gross_value_added",
+      "value": 413709,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "第三产业",
+            "column": "上半年绝对额（亿元）"
+          },
+          "verbatimValue": "413709"
+        }
+      ],
+      "realGrowthPct": 5.2,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "第三产业",
+          "column": "上半年同比增长（%）"
+        },
+        "verbatimValue": "5.2"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-agriculture-2026-H1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-agriculture",
+      "industryName": "农林牧渔业",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "current_price_gross_value_added",
+      "value": 33801,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "农林牧渔业",
+            "column": "上半年绝对额（亿元）"
+          },
+          "verbatimValue": "33801"
+        }
+      ],
+      "realGrowthPct": 4.0,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "农林牧渔业",
+          "column": "上半年同比增长（%）"
+        },
+        "verbatimValue": "4.0"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-industry-2026-H1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-industry",
+      "industryName": "工业",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "current_price_gross_value_added",
+      "value": 216224,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "工业",
+            "column": "上半年绝对额（亿元）"
+          },
+          "verbatimValue": "216224"
+        }
+      ],
+      "realGrowthPct": 5.4,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "工业",
+          "column": "上半年同比增长（%）"
+        },
+        "verbatimValue": "5.4"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-manufacturing-2026-H1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-manufacturing",
+      "industryName": "制造业",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "current_price_gross_value_added",
+      "value": 182331,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "#制造业",
+            "column": "上半年绝对额（亿元）"
+          },
+          "verbatimValue": "182331"
+        }
+      ],
+      "realGrowthPct": 5.5,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "#制造业",
+          "column": "上半年同比增长（%）"
+        },
+        "verbatimValue": "5.5"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-construction-2026-H1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-construction",
+      "industryName": "建筑业",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "current_price_gross_value_added",
+      "value": 36043,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "建筑业",
+            "column": "上半年绝对额（亿元）"
+          },
+          "verbatimValue": "36043"
+        }
+      ],
+      "realGrowthPct": -4.0,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "建筑业",
+          "column": "上半年同比增长（%）"
+        },
+        "verbatimValue": "-4.0"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-wholesale-retail-2026-H1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-wholesale-retail",
+      "industryName": "批发和零售业",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "current_price_gross_value_added",
+      "value": 72217,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "批发和零售业",
+            "column": "上半年绝对额（亿元）"
+          },
+          "verbatimValue": "72217"
+        }
+      ],
+      "realGrowthPct": 3.7,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "批发和零售业",
+          "column": "上半年同比增长（%）"
+        },
+        "verbatimValue": "3.7"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-transport-2026-H1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-transport",
+      "industryName": "交通运输、仓储和邮政业",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "current_price_gross_value_added",
+      "value": 31330,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "交通运输、仓储和邮政业",
+            "column": "上半年绝对额（亿元）"
+          },
+          "verbatimValue": "31330"
+        }
+      ],
+      "realGrowthPct": 4.7,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "交通运输、仓储和邮政业",
+          "column": "上半年同比增长（%）"
+        },
+        "verbatimValue": "4.7"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-accommodation-food-2026-H1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-accommodation-food",
+      "industryName": "住宿和餐饮业",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "current_price_gross_value_added",
+      "value": 12257,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "住宿和餐饮业",
+            "column": "上半年绝对额（亿元）"
+          },
+          "verbatimValue": "12257"
+        }
+      ],
+      "realGrowthPct": 5.0,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "住宿和餐饮业",
+          "column": "上半年同比增长（%）"
+        },
+        "verbatimValue": "5.0"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-finance-2026-H1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-finance",
+      "industryName": "金融业",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "current_price_gross_value_added",
+      "value": 54614,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "金融业",
+            "column": "上半年绝对额（亿元）"
+          },
+          "verbatimValue": "54614"
+        }
+      ],
+      "realGrowthPct": 6.7,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "金融业",
+          "column": "上半年同比增长（%）"
+        },
+        "verbatimValue": "6.7"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-real-estate-2026-H1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-real-estate",
+      "industryName": "房地产业",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "current_price_gross_value_added",
+      "value": 41365,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "房地产业",
+            "column": "上半年绝对额（亿元）"
+          },
+          "verbatimValue": "41365"
+        }
+      ],
+      "realGrowthPct": -0.2,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "房地产业",
+          "column": "上半年同比增长（%）"
+        },
+        "verbatimValue": "-0.2"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-information-2026-H1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-information",
+      "industryName": "信息传输、软件和信息技术服务业",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "current_price_gross_value_added",
+      "value": 41334,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "信息传输、软件和信息技术服务业",
+            "column": "上半年绝对额（亿元）"
+          },
+          "verbatimValue": "41334"
+        }
+      ],
+      "realGrowthPct": 10.7,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "信息传输、软件和信息技术服务业",
+          "column": "上半年同比增长（%）"
+        },
+        "verbatimValue": "10.7"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-business-services-2026-H1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-business-services",
+      "industryName": "租赁和商务服务业",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "current_price_gross_value_added",
+      "value": 31592,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "租赁和商务服务业",
+            "column": "上半年绝对额（亿元）"
+          },
+          "verbatimValue": "31592"
+        }
+      ],
+      "realGrowthPct": 11.9,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "租赁和商务服务业",
+          "column": "上半年同比增长（%）"
+        },
+        "verbatimValue": "11.9"
+      },
+      "calculation": null
+    },
+    {
+      "id": "cn-other-2026-H1-current-value-added",
+      "country": "CN",
+      "industryId": "cn-other",
+      "industryName": "其他行业",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "current_price_gross_value_added",
+      "value": 124926,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "revisionStatus": "初步核算",
+      "evidenceType": "direct_fact",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2026-h1",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+          "locator": {
+            "table": "表1：2026年二季度和上半年GDP初步核算数据",
+            "row": "其他行业",
+            "column": "上半年绝对额（亿元）"
+          },
+          "verbatimValue": "124926"
+        }
+      ],
+      "realGrowthPct": 3.9,
+      "realGrowthEvidence": {
+        "sourceId": "cn-nbs-2026-h1",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+        "locator": {
+          "table": "表1：2026年二季度和上半年GDP初步核算数据",
+          "row": "其他行业",
+          "column": "上半年同比增长（%）"
+        },
+        "verbatimValue": "3.9"
+      },
+      "calculation": null
+    }
+  ],
+  "monthlyProgress": [
+    {
+      "country": "CN",
+      "industryId": "cn-industry",
+      "label": "规模以上工业增加值同比增速",
+      "period": "2026-07",
+      "value": 4.5,
+      "unit": "%",
+      "priceBasis": "comparable",
+      "publishedAt": "2026-08-17",
+      "revisionStatus": "当期发布值；未标为最终数",
+      "evidenceType": "direct_fact",
+      "sourceId": "cn-nbs-2026-july",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965056.html",
+      "locator": "表：一、规模以上工业增加值；7月同比增长列",
+      "rankingEligible": false,
+      "scopeNote": "进度指标，不能代替全行业现价增加值或用于主榜排序"
+    },
+    {
+      "country": "CN",
+      "industryId": "cn-industry",
+      "label": "规模以上工业增加值同比增速",
+      "period": "2026-01/07",
+      "value": 5.3,
+      "unit": "%",
+      "priceBasis": "comparable",
+      "publishedAt": "2026-08-17",
+      "revisionStatus": "当期发布值；未标为最终数",
+      "evidenceType": "direct_fact",
+      "sourceId": "cn-nbs-2026-july",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965056.html",
+      "locator": "表：一、规模以上工业增加值；1—7月同比增长列",
+      "rankingEligible": false,
+      "scopeNote": "进度指标，不能代替全行业现价增加值或用于主榜排序"
+    },
+    {
+      "country": "CN",
+      "industryId": "cn-tertiary",
+      "label": "服务业生产指数同比增速",
+      "period": "2026-07",
+      "value": 4.3,
+      "unit": "%",
+      "priceBasis": "production_index",
+      "publishedAt": "2026-08-17",
+      "revisionStatus": "当期发布值；未标为最终数",
+      "evidenceType": "direct_fact",
+      "sourceId": "cn-nbs-2026-july",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965056.html",
+      "locator": "表：二、服务业生产指数；7月同比增长列",
+      "rankingEligible": false,
+      "scopeNote": "进度指标，不能代替全行业现价增加值或用于主榜排序"
+    },
+    {
+      "country": "CN",
+      "industryId": "cn-tertiary",
+      "label": "服务业生产指数同比增速",
+      "period": "2026-01/07",
+      "value": 4.7,
+      "unit": "%",
+      "priceBasis": "production_index",
+      "publishedAt": "2026-08-17",
+      "revisionStatus": "当期发布值；未标为最终数",
+      "evidenceType": "direct_fact",
+      "sourceId": "cn-nbs-2026-july",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965056.html",
+      "locator": "表：二、服务业生产指数；1—7月同比增长列",
+      "rankingEligible": false,
+      "scopeNote": "进度指标，不能代替全行业现价增加值或用于主榜排序"
+    },
+    {
+      "country": "CN",
+      "industryId": "cn-information",
+      "label": "行业服务业生产指数同比增速",
+      "period": "2026-01/07",
+      "value": 10.6,
+      "unit": "%",
+      "priceBasis": "production_index",
+      "publishedAt": "2026-08-17",
+      "revisionStatus": "当期发布值；未标为最终数",
+      "evidenceType": "direct_fact",
+      "sourceId": "cn-nbs-2026-july",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965056.html",
+      "locator": "正文二、服务业平稳增长，现代服务业发展向好；分行业第一项",
+      "rankingEligible": false,
+      "scopeNote": "进度指标，不能代替全行业现价增加值或用于主榜排序"
+    },
+    {
+      "country": "CN",
+      "industryId": "cn-business-services",
+      "label": "行业服务业生产指数同比增速",
+      "period": "2026-01/07",
+      "value": 9.5,
+      "unit": "%",
+      "priceBasis": "production_index",
+      "publishedAt": "2026-08-17",
+      "revisionStatus": "当期发布值；未标为最终数",
+      "evidenceType": "direct_fact",
+      "sourceId": "cn-nbs-2026-july",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965056.html",
+      "locator": "正文二、服务业平稳增长，现代服务业发展向好；分行业第二项",
+      "rankingEligible": false,
+      "scopeNote": "进度指标，不能代替全行业现价增加值或用于主榜排序"
+    },
+    {
+      "country": "CN",
+      "industryId": "cn-finance",
+      "label": "行业服务业生产指数同比增速",
+      "period": "2026-01/07",
+      "value": 6.3,
+      "unit": "%",
+      "priceBasis": "production_index",
+      "publishedAt": "2026-08-17",
+      "revisionStatus": "当期发布值；未标为最终数",
+      "evidenceType": "direct_fact",
+      "sourceId": "cn-nbs-2026-july",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965056.html",
+      "locator": "正文二、服务业平稳增长，现代服务业发展向好；分行业第三项",
+      "rankingEligible": false,
+      "scopeNote": "进度指标，不能代替全行业现价增加值或用于主榜排序"
+    },
+    {
+      "country": "CN",
+      "industryId": "cn-transport",
+      "label": "行业服务业生产指数同比增速",
+      "period": "2026-01/07",
+      "value": 5.1,
+      "unit": "%",
+      "priceBasis": "production_index",
+      "publishedAt": "2026-08-17",
+      "revisionStatus": "当期发布值；未标为最终数",
+      "evidenceType": "direct_fact",
+      "sourceId": "cn-nbs-2026-july",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965056.html",
+      "locator": "正文二、服务业平稳增长，现代服务业发展向好；分行业第四项",
+      "rankingEligible": false,
+      "scopeNote": "进度指标，不能代替全行业现价增加值或用于主榜排序"
+    }
+  ],
+  "sources": [
+    {
+      "id": "cn-nbs-2025-preliminary",
+      "publisher": "国家统计局",
+      "title": "2025年四季度和全年国内生产总值初步核算结果",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+      "publishedAt": "2026-01-20",
+      "publicationDateNote": null,
+      "retrievedAt": "2026-09-09",
+      "revisionStatus": "初步核算",
+      "country": "CN",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "archivedPath": "research/cn/raw/annual2025.html",
+      "sha256": "2826c38fd8d232e92cb4aa3fa3ec1b7763d40d6e0f3f17bb0c2c87811c281b2f"
+    },
+    {
+      "id": "cn-nbs-2024-final",
+      "publisher": "国家统计局",
+      "title": "国家统计局关于2024年国内生产总值最终核实的公告",
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+      "publishedAt": "2025-12-26",
+      "publicationDateNote": null,
+      "retrievedAt": "2026-09-09",
+      "revisionStatus": "最终核实",
+      "country": "CN",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "archivedPath": "research/cn/raw/annual2024final.html",
+      "sha256": "b6b6b5c74b9e044818a92eb3eec356fbcd9215c9649f760db9b91eb2a282233e"
+    },
+    {
+      "id": "cn-nbs-2026-q1",
+      "publisher": "国家统计局",
+      "title": "2026年一季度国内生产总值初步核算结果",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202604/t20260417_1963336.html",
+      "publishedAt": "2026-04-17",
+      "publicationDateNote": null,
+      "retrievedAt": "2026-09-09",
+      "revisionStatus": "初步核算",
+      "country": "CN",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "archivedPath": "research/cn/raw/quarter2026q1.html",
+      "sha256": "8e9b109e9f68fbb36c6effb34da9a6cbc475fbed9f0aa3eb739d2ad75d5fccbd"
+    },
+    {
+      "id": "cn-nbs-2026-h1",
+      "publisher": "国家统计局",
+      "title": "2026年二季度和上半年国内生产总值初步核算结果",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260716_1964142.html",
+      "publishedAt": "2026-07-16",
+      "publicationDateNote": null,
+      "retrievedAt": "2026-09-09",
+      "revisionStatus": "初步核算",
+      "country": "CN",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "archivedPath": "research/cn/raw/half2026h1.html",
+      "sha256": "60b12f6257d62842e7ea13e5c79bf868438fb382e7857bd6f88ab4110c588915"
+    },
+    {
+      "id": "cn-nbs-2026-july",
+      "publisher": "国家统计局",
+      "title": "1—7月份国民经济保持总体平稳、向新向优发展态势",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202608/t20260817_1965056.html",
+      "publishedAt": "2026-08-17",
+      "publicationDateNote": null,
+      "retrievedAt": "2026-09-09",
+      "revisionStatus": "当期发布值；未标为最终数",
+      "country": "CN",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "archivedPath": "research/cn/raw/monthly202607.html",
+      "sha256": "dea13b8a4ff116ca91403b189cdd60705545b28200f9023c3d56e6db03f3939d"
+    },
+    {
+      "id": "cn-nbs-2025-communique",
+      "publisher": "国家统计局",
+      "title": "中华人民共和国2025年国民经济和社会发展统计公报",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202602/t20260228_1962662.html",
+      "publishedAt": "2026-02-28",
+      "publicationDateNote": null,
+      "retrievedAt": "2026-09-09",
+      "revisionStatus": "2025年GDP为初步核算",
+      "country": "CN",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "archivedPath": "research/cn/raw/communique2025.html",
+      "sha256": "38686120cd89155f7614f959d12252b386ada9cda282edd1777616afab0bfcc6"
+    },
+    {
+      "id": "cn-nbs-yearbook2025-t3-1",
+      "publisher": "国家统计局",
+      "title": "中国统计年鉴2025·3-1 国内生产总值",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-01.jpg",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "retrievedAt": "2026-09-09",
+      "revisionStatus": "五经普及核算改革后历史修订值；本研究不采用表中2024初步值",
+      "country": "CN",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "archivedPath": "research/cn/raw/C03-01.jpg",
+      "sha256": "58c40bf49ae4fac0a62fe7238522bd778e396e29c13ef5ed96a6e0a37bc15f97"
+    },
+    {
+      "id": "cn-nbs-yearbook2025-t3-6",
+      "publisher": "国家统计局",
+      "title": "中国统计年鉴2025·3-6 分行业增加值",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "retrievedAt": "2026-09-09",
+      "revisionStatus": "五经普及核算改革后历史修订值",
+      "country": "CN",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "archivedPath": "research/cn/raw/C03-06.jpg",
+      "sha256": "e4e58c1bd54623b04aa2c37e761e46ae65121383e4d15da88bfb6666041c5fdf"
+    },
+    {
+      "id": "cn-nbs-yearbook2025-method",
+      "publisher": "国家统计局",
+      "title": "中国统计年鉴2025·国民经济核算简要说明",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/sm03.htm",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "retrievedAt": "2026-09-09",
+      "revisionStatus": "核算方法与历史修订说明",
+      "country": "CN",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "archivedPath": "research/cn/raw/yearbook-method.html",
+      "sha256": "370ae92856732ba441836baa639185c7c57b011e864bb0aeb75310e8c59e8194"
+    },
+    {
+      "id": "cn-nbs-yearbook2025-note",
+      "publisher": "国家统计局",
+      "title": "中国统计年鉴2025·编者说明",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/note.htm",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "retrievedAt": "2026-09-09",
+      "revisionStatus": "统计范围与取舍误差说明",
+      "country": "CN",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "archivedPath": "research/cn/raw/yearbook-note.html",
+      "sha256": "e5183482d73205737b5204a61c46f22af6d30e6b7236e93aa184454a4fb87447"
+    },
+    {
+      "id": "cn-nbs-release-calendar-2026",
+      "publisher": "国家统计局",
+      "title": "2026年国家统计局主要统计信息发布日程表",
+      "url": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
+      "publishedAt": "2025-12-24",
+      "publicationDateNote": null,
+      "retrievedAt": "2026-09-09",
+      "revisionStatus": "计划日程，非实际发布证明",
+      "country": "CN",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "archivedPath": "research/cn/raw/release-calendar.html",
+      "sha256": "d5bca44202dea67da4b18dab7ebac5a80573478442897fae6a07d205e4b9745e"
+    },
+    {
+      "id": "cn-nbs-yearbook-catalog",
+      "publisher": "国家统计局",
+      "title": "中国统计年鉴官方目录",
+      "url": "https://www.stats.gov.cn/sj/ndsj/",
+      "publishedAt": null,
+      "publicationDateNote": "页面未标示具体发布日期；2025版年鉴的版本年不是数据年或具体发布日期",
+      "retrievedAt": "2026-09-09",
+      "revisionStatus": "截至检索日列出的最新在线年鉴为2025版",
+      "country": "CN",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "archivedPath": "research/cn/raw/yearbook-catalog.html",
+      "sha256": "1e6c24df01d51661a9956f05a4b6be6a0a954f3ff664a7ec138347bb9ccc85a5"
+    }
+  ],
+  "historicalDetail": {
+    "years": [
+      2021,
+      2022,
+      2023
+    ],
+    "values": {
+      "农林牧渔业": [
+        86994.8,
+        92576.8,
+        93967.0
+      ],
+      "采矿业": [
+        32012.1,
+        38303.4,
+        35613.9
+      ],
+      "制造业": [
+        312494.4,
+        320609.1,
+        323754.6
+      ],
+      "电力、热力、燃气及水生产和供应业": [
+        25397.3,
+        29739.1,
+        32814.5
+      ],
+      "建筑业": [
+        79269.8,
+        81439.8,
+        86640.6
+      ],
+      "批发和零售业": [
+        114358.0,
+        122177.5,
+        130809.7
+      ],
+      "交通运输、仓储和邮政业": [
+        48439.0,
+        50967.7,
+        56438.3
+      ],
+      "住宿和餐饮业": [
+        19064.4,
+        19146.2,
+        23084.2
+      ],
+      "信息传输、软件和信息技术服务业": [
+        45506.6,
+        51036.3,
+        57498.4
+      ],
+      "金融业": [
+        86409.2,
+        88051.5,
+        93926.9
+      ],
+      "房地产业": [
+        90397.5,
+        88015.2,
+        87981.5
+      ],
+      "租赁和商务服务业": [
+        40581.1,
+        44164.9,
+        50438.9
+      ],
+      "科学研究和技术服务业": [
+        29406.5,
+        31525.8,
+        34088.4
+      ],
+      "水利、环境和公共设施管理业": [
+        7081.8,
+        7604.2,
+        7997.9
+      ],
+      "居民服务、修理和其他服务业": [
+        19708.6,
+        20998.2,
+        23418.2
+      ],
+      "教育": [
+        44523.6,
+        47629.3,
+        49398.6
+      ],
+      "卫生和社会工作": [
+        27003.1,
+        30056.5,
+        31970.2
+      ],
+      "文化、体育和娱乐业": [
+        9232.0,
+        9678.3,
+        10692.8
+      ],
+      "公共管理、社会保障和社会组织": [
+        55943.5,
+        60309.6,
+        63737.2
+      ]
+    },
+    "sourceId": "cn-nbs-yearbook2025-t3-6",
+    "unit": "亿元",
+    "priceBasis": "current",
+    "use": "仅用于历史序列及核对分组；不可替代2025主榜"
+  },
+  "gaps": [
+    {
+      "id": "cn-gap-national-data-api",
+      "status": "unresolved_access",
+      "description": "国家数据首页查询与公开QueryData请求HTTP403；不能确认2025年鉴中的2021—2023值是否在数据库中另有后续细小修订。现采用可获取最新年鉴的五经普后修订值，GDP总量与2026-02公报取整后吻合。",
+      "attempts": [
+        "https://data.stats.gov.cn/easyquery.htm?cn=C01",
+        "https://data.stats.gov.cn/easyquery.htm?m=QueryData&dbcode=hgnd&rowcode=zb&colcode=sj&wds=%5B%5D&dfwds=%5B%7B%22wdcode%22%3A%22zb%22%2C%22valuecode%22%3A%22A0201%22%7D%5D"
+      ],
+      "nextStep": "发布前经可访问的官方数据库或中国统计摘要2026复核历史行业单元格"
+    },
+    {
+      "id": "cn-gap-yearbook-date",
+      "status": "date_not_displayed",
+      "description": "在线2025年鉴未标具体发布日期；publishedAt为空，保留版本名和抓取日；不以HTTP Last-Modified冒充发布日期。"
+    },
+    {
+      "id": "cn-gap-2025-other",
+      "status": "not_disaggregated_in_latest_release",
+      "description": "2025其他行业246593亿元没有在同一期主表拆出七门类；不按2023比例推算。"
+    },
+    {
+      "id": "cn-gap-2026-yearbook",
+      "status": "not_found_as_of_check",
+      "description": "官方年鉴目录列出的最新版本是2025；2026/left.htm返回404，不将未获取等同于永久未发布。",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2026/left.htm"
+    }
+  ],
+  "checks": [
+    {
+      "check": "non_overlapping_11_group_sum",
+      "period": "2021",
+      "industrySum": 1173823.2,
+      "gdp": 1173823.0,
+      "difference": 0.2,
+      "unit": "亿元",
+      "status": "pass_with_official_rounding",
+      "note": "保留源表修约误差；不机械调整"
+    },
+    {
+      "check": "non_overlapping_11_group_sum",
+      "period": "2022",
+      "industrySum": 1234029.4,
+      "gdp": 1234029.4,
+      "difference": 0.0,
+      "unit": "亿元",
+      "status": "pass_with_official_rounding",
+      "note": "保留源表修约误差；不机械调整"
+    },
+    {
+      "check": "non_overlapping_11_group_sum",
+      "period": "2023",
+      "industrySum": 1294271.8,
+      "gdp": 1294271.7,
+      "difference": 0.1,
+      "unit": "亿元",
+      "status": "pass_with_official_rounding",
+      "note": "保留源表修约误差；不机械调整"
+    },
+    {
+      "check": "non_overlapping_11_group_sum",
+      "period": "2024",
+      "industrySum": 1348067.0,
+      "gdp": 1348066,
+      "difference": 1.0,
+      "unit": "亿元",
+      "status": "pass_with_official_rounding",
+      "note": "保留源表修约误差；不机械调整"
+    },
+    {
+      "check": "non_overlapping_11_group_sum",
+      "period": "2025",
+      "industrySum": 1401880.0,
+      "gdp": 1401879,
+      "difference": 1.0,
+      "unit": "亿元",
+      "status": "pass_with_official_rounding",
+      "note": "保留源表修约误差；不机械调整"
+    },
+    {
+      "check": "non_overlapping_11_group_sum",
+      "period": "2026-Q1",
+      "industrySum": 334193.0,
+      "gdp": 334193,
+      "difference": 0.0,
+      "unit": "亿元",
+      "status": "pass_with_official_rounding",
+      "note": "保留源表修约误差；不机械调整"
+    },
+    {
+      "check": "non_overlapping_11_group_sum",
+      "period": "2026-Q2",
+      "industrySum": 361511.0,
+      "gdp": 361511,
+      "difference": 0.0,
+      "unit": "亿元",
+      "status": "pass_with_official_rounding",
+      "note": "保留源表修约误差；不机械调整"
+    },
+    {
+      "check": "non_overlapping_11_group_sum",
+      "period": "2026-H1",
+      "industrySum": 695703.0,
+      "gdp": 695704,
+      "difference": -1.0,
+      "unit": "亿元",
+      "status": "pass_with_official_rounding",
+      "note": "保留源表修约误差；不机械调整"
+    }
+  ],
+  "notes": [
+    "现价规模与不变价增长分别存储；不能用增长率反推现价值。",
+    "2021—2023其他行业为七个官方历史门类加总，误差来自源表取舍；表3-1其他列还包含信息与租赁商务，不能直接连到当前其他行业序列。",
+    "2024年鉴初步数已由2025-12-26最终核实数据替换。",
+    "2026-Q1保留其官方发布值；H1减Q2可能有1亿元取整差，不借差额伪造一季度修订值。",
+    "以上行业规模不代表实体劳动工资规模或自动化可实现收益。"
+  ]
+}
