@@ -4,10 +4,12 @@ export const Scope=z.enum(['cn','us','shared'])
 export const RectSchema=z.object({x:z.number().finite(),y:z.number().finite(),width:z.number().positive(),height:z.number().positive()})
 export const RelativeRectSchema=z.object({x:z.number().min(0).max(1),y:z.number().min(0).max(1),width:z.number().positive().max(1),height:z.number().positive().max(1)})
  .refine(r=>r.x+r.width<=1.001&&r.y+r.height<=1.001,'相对选区必须在目标内')
+export const DisclosureStateSchema=z.object({id:stableId,fingerprint:z.string().regex(/^[a-f0-9]{64}$/),open:z.boolean()})
 export const ViewStateSchema=z.object({
  year:z.number().int().min(2021).max(2100).nullable(),
  focus:stableId.nullable(),sort:z.enum(['value','name']).nullable(),
  filters:z.record(z.string().max(50),z.string().max(300)),
+ disclosures:z.array(DisclosureStateSchema).max(128).optional(),
 })
 export const TargetSchema=z.object({
  contentId:stableId,
@@ -30,6 +32,9 @@ export const AnchorSchema=z.object({
  const other=v.country==='cn'?'us-':v.country==='us'?'cn-':null
  if(other&&(v.targets.some(t=>t.contentId.startsWith(other)||t.dataPoints.some(p=>p.key.startsWith(other)))||v.view.focus?.startsWith(other))) ctx.addIssue({code:'custom',message:'批注目标或视图串入其他国家'})
  if(new Set(v.targets.map(t=>t.contentId)).size!==v.targets.length)ctx.addIssue({code:'custom',message:'重复目标'})
+ const disclosures=v.view.disclosures??[]
+ if(new Set(disclosures.map(d=>d.id)).size!==disclosures.length)ctx.addIssue({code:'custom',message:'重复折叠面板'})
+ if(disclosures.some(d=>!d.id.startsWith(v.country+'-disclosure-')))ctx.addIssue({code:'custom',message:'折叠面板国家不符'})
 })
 export const CreateAnnotationSchema=z.object({anchor:AnchorSchema,body:z.string().trim().min(1).max(16000),idempotencyKey:z.uuid()})
 export const ReplySchema=z.object({body:z.string().trim().min(1).max(16000),parentCommentId:z.number().int().positive().nullable(),idempotencyKey:z.uuid()})

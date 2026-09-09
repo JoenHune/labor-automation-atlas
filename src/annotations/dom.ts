@@ -2,7 +2,8 @@ import {fingerprint,normalizeText,relativeRect,intersect,absoluteRect,quoteMatch
 import {AnchorSchema,type Anchor,type Rect,type Target,type ViewState} from './schema'
 import {ownedTargetId,unambiguousTargets,quoteForSpan,assertTextCoverage} from './text-targets'
 import {normalizeTextOffsets} from './text-offsets'
-export interface LiveBlock {id:string;element:HTMLElement;rect:Rect;fingerprint:string;text:string;kind:Target['kind'];points:Target['dataPoints'];pointRects:(Target['dataPoints'][number]&{rect:Rect})[];space?:boolean;ownedContent?:boolean;virtual?:boolean}
+import {captureDisclosures,closedDisclosures,disclosurePlan,readDisclosureBlocks,renderedElement,hiddenTextNode,type DisclosureBlock} from './disclosures'
+export interface LiveBlock {id:string;element:HTMLElement;rect:Rect;fingerprint:string;text:string;kind:Target['kind'];points:Target['dataPoints'];pointRects:(Target['dataPoints'][number]&{rect:Rect})[];space?:boolean;ownedContent?:boolean;virtual?:boolean;hidden?:boolean}
 export const rectOf=(r:DOMRect|DOMRectReadOnly):Rect=>({x:r.x,y:r.y,width:r.width,height:r.height})
 export function contentRoot(){return document.querySelector<HTMLElement>('.VPContent')??document.querySelector<HTMLElement>('main')!}
 export function pageScope(base:string) {
@@ -37,13 +38,14 @@ function contentText(el:HTMLElement,ownedContent=false) {
  if(ownedContent)clone.querySelectorAll('[data-content-id],script,style').forEach(n=>n.remove())
  return normalizeText(clone.textContent??'')
 }
-export async function liveBlocks(options:{includeAmbiguous?:boolean}={}):Promise<LiveBlock[]> {
+export async function liveBlocks(options:{includeAmbiguous?:boolean;includeHidden?:boolean}={}):Promise<LiveBlock[]> {
  const root=contentRoot();if(!root)return []
  const candidates=Array.from(root.querySelectorAll<HTMLElement>('[data-content-id]')).filter(el=>!el.closest('[data-annotation-ui]'))
  const blocks:LiveBlock[]=[]
  for(const el of candidates) {
   const rect=rectOf(el.getBoundingClientRect())
-  if(rect.width<=0||rect.height<=0||getComputedStyle(el).visibility==='hidden')continue
+  const hidden=!renderedElement(el)
+  if(hidden&&!options.includeHidden)continue
   const ownedContent=Boolean(el.querySelector('[data-content-id]'))
   const text=contentText(el,ownedContent)
   const points=ownedContent?[]:JSON.parse(el.dataset.annotationPoints??'[]') as Target['dataPoints']
@@ -53,18 +55,18 @@ export async function liveBlocks(options:{includeAmbiguous?:boolean}={}):Promise
   const semantic=JSON.stringify({text,points,image:image?.getAttribute('src')??null})
   // Previously valid leaf IDs and their semantic fingerprint are unchanged.
   // A non-leaf owner contributes only its own text, excluding numbered subtrees.
-  if(!ownedContent||text)blocks.push({id:ownedContent?await ownedTargetId(el.dataset.contentId!,'text'):el.dataset.contentId!,element:el,rect,fingerprint:await fingerprint(semantic),text,kind:ownedContent?'block':el.matches('tr')?'table-row':el.querySelector('[role="img"]')||el.dataset.annotationPoints?'chart':image?'image':'block',points,pointRects,...(ownedContent?{ownedContent:true,virtual:true}:{})})
+  if(!ownedContent||text)blocks.push({id:ownedContent?await ownedTargetId(el.dataset.contentId!,'text'):el.dataset.contentId!,element:el,rect,fingerprint:await fingerprint(semantic),text,kind:ownedContent?'block':el.matches('tr')?'table-row':el.querySelector('[role="img"]')||el.dataset.annotationPoints?'chart':image?'image':'block',points,pointRects,...(ownedContent?{ownedContent:true,virtual:true}:{}),...(hidden?{hidden:true}:{})})
   if(ownedContent)for(const img of el.querySelectorAll<HTMLImageElement>('img')) {
    if(img.closest('[data-content-id]')!==el||img.closest('[data-annotation-ui]'))continue
-   const imageRect=rectOf(img.getBoundingClientRect());if(imageRect.width<=0||imageRect.height<=0||getComputedStyle(img).visibility==='hidden')continue
+   const imageRect=rectOf(img.getBoundingClientRect()),imageHidden=!renderedElement(img);if(imageHidden&&!options.includeHidden)continue
    const src=img.getAttribute('src')??'',imageText=contentText(img)
-   blocks.push({id:await ownedTargetId(el.dataset.contentId!,'image',JSON.stringify({src,semanticId:img.id||null})),element:img,rect:imageRect,fingerprint:await fingerprint(JSON.stringify({text:imageText,points:[],image:src})),text:imageText,kind:'image',points:[],pointRects:[],virtual:true})
+   blocks.push({id:await ownedTargetId(el.dataset.contentId!,'image',JSON.stringify({src,semanticId:img.id||null})),element:img,rect:imageRect,fingerprint:await fingerprint(JSON.stringify({text:imageText,points:[],image:src})),text:imageText,kind:'image',points:[],pointRects:[],virtual:true,...(imageHidden?{hidden:true}:{})})
   }
  }
  return options.includeAmbiguous?blocks:unambiguousTargets(blocks)
 }
 function spaceBlock(blocks:LiveBlock[],selection:Rect):LiveBlock|null {
- blocks=blocks.filter(b=>!b.virtual)
+ blocks=blocks.filter(b=>!b.virtual&&!b.hidden)
  const root=contentRoot(),bounds=root?.getBoundingClientRect();if(!bounds)return null
  const cx=selection.x+selection.width/2,cy=selection.y+selection.height/2
  const nearest=[...blocks].sort((a,b)=>Math.abs(a.rect.y+a.rect.height/2-cy)-Math.abs(b.rect.y+b.rect.height/2-cy))[0]
@@ -107,17 +109,29 @@ function cellRects(cells:TextCell[]):Rect[] {
   else parts.push({...p})
  }
  return parts.flatMap(p=>{
+  if(hiddenTextNode(p.node))return []
   const range=document.createRange();range.setStart(p.node,p.start);range.setEnd(p.node,p.end)
   return Array.from(range.getClientRects()).filter(r=>r.width>0&&r.height>0).map(rectOf)
  })
 }
-export function locateQuote(el:HTMLElement,quote:NonNullable<Target['text']>,ownedContent=false):Rect[]|null {
+function quoteCells(el:HTMLElement,quote:NonNullable<Target['text']>,ownedContent=false):TextCell[]|null {
  const map=textMap(el,ownedContent),matches=quoteMatches(map.text,quote)
  if(matches.length!==1)return null
  const from=matches[0],to=from+normalizeText(quote.exact).length,start=map.positions[from],end=map.positions[to-1]
  if(!start||!end)return null
  if((map.positions[from-1]?.end??0)>start.start||(map.positions[to]?.start??Infinity)<end.end)return null
- const rects=cellRects(map.positions.slice(from,to));return rects.length?rects:null
+ return map.positions.slice(from,to)
+}
+function quotePosition(el:HTMLElement,quote:NonNullable<Target['text']>,ownedContent=false) {
+ const cells=quoteCells(el,quote,ownedContent)
+ if(!cells)return {status:'changed' as const,rects:[] as Rect[]}
+ if(cells.some(c=>c.parts.some(p=>hiddenTextNode(p.node))))return {status:'hidden' as const,rects:[] as Rect[]}
+ const rects=cellRects(cells)
+ return rects.length?{status:'resolved' as const,rects}:{status:'hidden' as const,rects:[] as Rect[]}
+}
+export function locateQuote(el:HTMLElement,quote:NonNullable<Target['text']>,ownedContent=false):Rect[]|null {
+ const result=quotePosition(el,quote,ownedContent)
+ return result.status==='resolved'?result.rects:null
 }
 function rectangleText(el:HTMLElement,selection:Rect,ownedContent=false):NonNullable<Target['text']>[] {
  const map=textMap(el,ownedContent),segments:NonNullable<Target['text']>[]=[],hits=new Map<TextCell,boolean>()
@@ -146,7 +160,7 @@ function selectedTextNodes(range:Range):Map<Text,{start:number;end:number}> {
  if(ancestor.nodeType===Node.TEXT_NODE)nodes.push(ancestor)
  else {const walker=document.createTreeWalker(ancestor,NodeFilter.SHOW_TEXT);let node:Node|null;while((node=walker.nextNode()))nodes.push(node)}
  for(const node of nodes) {
-  if(node.parentElement?.closest(ignoredText)||!range.intersectsNode(node))continue
+  if(node.parentElement?.closest(ignoredText)||hiddenTextNode(node as Text)||!range.intersectsNode(node))continue
   const start=node===range.startContainer?range.startOffset:0,end=node===range.endContainer?range.endOffset:(node.textContent??'').length
   if(end>start)selected.set(node as Text,{start,end})
  }
@@ -166,7 +180,7 @@ export async function createAnchor(selection:Rect,scope:{country:Anchor['country
  const selected=textSelection?selectedTextNodes(textSelection):null,owners:Text[][]=[]
  for(const b of blocks) {
   const relative=relativeRect(selection,b.rect);if(!relative)continue
-  let quote:Target['text']=null
+  let quote:Target['text']=null,rangeSegments:NonNullable<Target['text']>[]=[]
   if(textSelection) {
    if(!textSelection.intersectsNode(b.element))continue
    const map=textMap(b.element,b.ownedContent),indices:number[]=[],covered=new Set<Text>()
@@ -179,13 +193,16 @@ export async function createAnchor(selection:Rect,scope:{country:Anchor['country
     for(const part of p.parts)if(normalizeText(part.node.data.slice(selected!.get(part.node)!.start,selected!.get(part.node)!.end)))covered.add(part.node)
    }
    if(!indices.length)continue
-   quote=quoteForSpan(map.text,indices[0],indices[indices.length-1]+1)
-   if(!quote||!b.text.includes(quote.exact))continue
+   const spans:{start:number;end:number}[]=[]
+   for(const index of indices){const last=spans.at(-1);if(last&&!normalizeText(map.text.slice(last.end,index)))last.end=index+1;else spans.push({start:index,end:index+1})}
+   const quotes=spans.map(s=>quoteForSpan(map.text,s.start,s.end))
+   if(quotes.some(q=>!q||!b.text.includes(q.exact)))continue
+   if(quotes.length===1)quote=quotes[0];else rangeSegments=quotes as NonNullable<Target['text']>[]
    owners.push([...covered])
   }
-  const textSegments=!quote&&['block','table-row'].includes(b.kind)?rectangleText(b.element,selection,b.ownedContent):[]
+  const textSegments=textSelection?rangeSegments:!quote&&['block','table-row'].includes(b.kind)?rectangleText(b.element,selection,b.ownedContent):[]
   if(b.ownedContent&&!quote&&!textSegments.length)continue
-  targets.push({contentId:b.id,kind:quote?'text':b.kind,fingerprint:b.fingerprint,text:quote,textSegments,rect:relative,dataPoints:b.pointRects.filter(p=>intersect(p.rect,selection)).map(({rect,...p})=>p)})
+  targets.push({contentId:b.id,kind:textSelection?'text':b.kind,fingerprint:b.fingerprint,text:quote,textSegments,rect:relative,dataPoints:b.pointRects.filter(p=>intersect(p.rect,selection)).map(({rect,...p})=>p)})
  }
  // A partially mapped text range is also unsafe; never substitute whitespace.
  if(selected)assertTextCoverage([...selected].filter(([node,part])=>normalizeText(node.data.slice(part.start,part.end))).map(([node])=>node),owners)
@@ -194,38 +211,69 @@ export async function createAnchor(selection:Rect,scope:{country:Anchor['country
   if(space&&relative)targets.push({contentId:space.id,kind:'whitespace',fingerprint:space.fingerprint,text:null,rect:relative,dataPoints:[]})
  }
  if(!targets.length)throw new Error('请在网站内容范围内选择区域')
- return AnchorSchema.parse({schema:1,id:crypto.randomUUID(),...scope,researchVersion:version,targets,view:currentView(),selectedText:textSelection?normalizeText(textSelection.toString()):targets.map(t=>t.text?.exact??t.textSegments?.map(s=>s.exact).join('\n')??'').filter(Boolean).join('\n'),snapshotId:crypto.randomUUID(),capturedAt:new Date().toISOString()})
+ const disclosures=await captureDisclosures(contentRoot(),scope,selection)
+ const selectedText=selected?normalizeText([...selected].map(([node,part])=>node.data.slice(part.start,part.end)).join('')):targets.map(t=>t.text?.exact??t.textSegments?.map(s=>s.exact).join('\n')??'').filter(Boolean).join('\n')
+ return AnchorSchema.parse({schema:1,id:crypto.randomUUID(),...scope,researchVersion:version,targets,view:{...currentView(),disclosures},selectedText,snapshotId:crypto.randomUUID(),capturedAt:new Date().toISOString()})
 }
-export async function resolveAnchor(anchor:Anchor,scope:{country:string;page:string},blocks?:LiveBlock[]) {
+export async function resolveAnchor(anchor:Anchor,scope:{country:string;page:string},blocks?:LiveBlock[],disclosures?:DisclosureBlock[]) {
  const view=currentView()
  if(anchor.country!==scope.country||anchor.page!==scope.page||!sameContentView(anchor.view,view))return {status:'wrong-view' as const,rects:[] as Rect[]}
- const current=blocks??await liveBlocks(),rects:Rect[]=[]
+ const current=blocks??await liveBlocks({includeHidden:true}),rects:Rect[]=[]
+ const panels=anchor.view.disclosures?.length?disclosures??await readDisclosureBlocks(contentRoot(),anchor):[]
+ const plan=disclosurePlan(anchor.view.disclosures??[],panels)
+ if(!plan)return {status:'changed' as const,rects:[] as Rect[]}
+ let hidden=plan.some((p,i)=>anchor.view.disclosures![i].open&&!p.element.open)
  for(const target of anchor.targets) {
   let b=current.find(b=>b.id===target.contentId)
   if(target.kind==='whitespace') {
    const original=current.find(b=>'space:'+b.id===target.contentId)
-   if(original)b=spaceBlock(current,original.rect)??undefined
+   if(original)b=original.hidden?{...original,id:target.contentId}:spaceBlock(current,original.rect)??undefined
    if(b&&b.id!==target.contentId)b=undefined
   }
   if(!b||b.fingerprint!==target.fingerprint)return {status:'changed' as const,rects:[] as Rect[]}
+  hidden=hidden||Boolean(b.hidden)
   if(target.dataPoints.some(p=>!b!.points.some(x=>x.key===p.key&&x.period===p.period&&x.value===p.value)))return {status:'changed' as const,rects:[] as Rect[]}
   if(target.text) {
-   const ranges=locateQuote(b.element,target.text,b.ownedContent)
-   if(!ranges?.length)return {status:'changed' as const,rects:[] as Rect[]}
-   rects.push(...ranges)
+   const position=quotePosition(b.element,target.text,b.ownedContent)
+   if(position.status==='changed')return position
+   hidden=hidden||position.status==='hidden';rects.push(...position.rects)
   }else if(target.textSegments?.length) {
    for(const segment of target.textSegments) {
-    const ranges=locateQuote(b.element,segment,b.ownedContent)
-    if(!ranges?.length)return {status:'changed' as const,rects:[] as Rect[]}
-    rects.push(...ranges)
+    const position=quotePosition(b.element,segment,b.ownedContent)
+    if(position.status==='changed')return position
+    hidden=hidden||position.status==='hidden';rects.push(...position.rects)
    }
   }else if(target.dataPoints.length) {
    const found=target.dataPoints.map(p=>b!.pointRects.find(x=>x.key===p.key&&x.period===p.period&&x.value===p.value))
-   if(found.some(p=>!p))return {status:'changed' as const,rects:[] as Rect[]}
-   rects.push(...found.map(p=>p!.rect))
+   if(!b.hidden&&found.some(p=>!p))return {status:'changed' as const,rects:[] as Rect[]}
+   if(!b.hidden)rects.push(...found.map(p=>p!.rect))
   }else rects.push(absoluteRect(target.rect,b.rect))
  }
- return {status:'resolved' as const,rects}
+ return hidden?{status:'hidden' as const,rects:[] as Rect[]}:{status:'resolved' as const,rects}
+}
+/** Only explicit open/share/draft restoration changes disclosure state. Regular
+ * marker refreshes inspect visibility without undoing the reader's choices. */
+export async function restoreAnchorDisclosures(anchor:Anchor,scope:{country:string;page:string}) {
+ const current=await liveBlocks({includeHidden:true}),panels=await readDisclosureBlocks(contentRoot(),anchor)
+ const before=await resolveAnchor(anchor,scope,current,panels)
+ if(before.status==='changed'||before.status==='wrong-view')return before
+ const plan=disclosurePlan(anchor.view.disclosures??[],panels)!
+ // Legacy anchors have no disclosure metadata. Derive only ancestor panels
+ // from uniquely matched, unchanged target nodes before mutating the DOM.
+ const legacy=new Set<HTMLDetailsElement>()
+ if(!anchor.view.disclosures)for(const target of anchor.targets){
+  const b=current.find(b=>b.id===target.contentId||target.kind==='whitespace'&&'space:'+b.id===target.contentId)
+  if(!b)continue
+  for(const d of closedDisclosures(b.element))legacy.add(d)
+  for(const quote of target.text?[target.text]:target.textSegments??[]){
+   const cells=quoteCells(b.element,quote,b.ownedContent)
+   for(const cell of cells??[])for(const p of cell.parts)for(const d of closedDisclosures(p.node))legacy.add(d)
+  }
+ }
+ for(const [i,p] of plan.entries())p.element.open=anchor.view.disclosures![i].open
+ for(const panel of legacy)panel.open=true
+ if(plan.length||legacy.size)await new Promise<void>(resolve=>requestAnimationFrame(()=>resolve()))
+ return resolveAnchor(anchor,scope)
 }
 export async function snapshotRegion(selection:Rect,masks:Rect[]=[]) {
  if(selection.width<1||selection.height<1||selection.width>4096||selection.height>4096||selection.width*selection.height>8000000)throw new Error('选区过大，请缩小后重试')

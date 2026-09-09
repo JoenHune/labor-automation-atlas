@@ -4,14 +4,18 @@ import {useData,useRoute,useRouter} from 'vitepress'
 import research from '../../../../data/site.json'
 import type {Annotation,Rect,Anchor,ThreadComment} from '../../../../src/annotations/schema'
 import {clusterMarkers,intersect} from '../../../../src/annotations/anchors'
-import {contentRoot,currentView,pageScope,ensureContentIds,liveBlocks,createAnchor,resolveAnchor,snapshotRegion,rectOf} from '../../../../src/annotations/dom'
+import {contentRoot,currentView,pageScope,ensureContentIds,liveBlocks,createAnchor,resolveAnchor,restoreAnchorDisclosures,snapshotRegion,rectOf} from '../../../../src/annotations/dom'
+import {readDisclosureBlocks} from '../../../../src/annotations/disclosures'
 import {api,post,apiOrigin,ApiError,storedSession,beginLogin,finishLogin,shareUrl,saveDraft,draftsForPage,deleteDraft,type Draft,type SiteSession} from '../../../../src/annotations/client'
 import {safeMarkdown} from '../../../../src/annotations/markdown'
 const {site}=useData(),route=useRoute(),router=useRouter()
 const ready=ref(false),mode=ref(false),markersVisible=ref(true),filter=ref<'open'|'closed'|'mine'|'all'>('open')
 const session=shallowRef<SiteSession|null>(null),annotations=shallowRef<Annotation[]>([]),draft=shallowRef<Draft|null>(null),savedDrafts=shallowRef<Draft[]>([])
 const active=shallowRef<Annotation|null>(null),rect=ref<Rect|null>(null),textPopup=ref<Rect|null>(null),error=ref(''),warning=ref(''),notice=ref(''),busy=ref(false),draftSaved=ref(false)
-const resolved=shallowRef<Record<string,{status:'resolved'|'changed'|'wrong-view';rects:Rect[]}>>({}),groupChoices=ref<string[]>([])
+type Position=Awaited<ReturnType<typeof resolveAnchor>>
+const resolved=shallowRef<Record<string,Position>>({}),groupChoices=ref<string[]>([])
+const draftPosition=shallowRef<{id:string;status:Position['status']}|null>(null)
+const currentDraftPosition=computed(()=>draft.value?.anchor?.id===draftPosition.value?.id?draftPosition.value?.status:null)
 const textarea=ref<HTMLTextAreaElement>(),card=ref<HTMLElement>(),viewportWidth=ref(1200),viewportHeight=ref(900)
 const draftSnapshotUrl=ref('')
 watch(()=>draft.value?.snapshot,blob=>{if(draftSnapshotUrl.value)URL.revokeObjectURL(draftSnapshotUrl.value);draftSnapshotUrl.value=blob?URL.createObjectURL(blob):''})
@@ -23,6 +27,7 @@ const groups=computed(()=>clusterMarkers(filtered.value.flatMap(a=>{
  const r=resolved.value[a.id];return r?.status==='resolved'&&r.rects[0]?[{id:a.id,x:r.rects[0].x+r.rects[0].width-3,y:r.rects[0].y-8}]:[]
 })))
 const orphaned=computed(()=>filtered.value.filter(a=>resolved.value[a.id]?.status==='changed'))
+const hiddenAnnotations=computed(()=>filtered.value.filter(a=>resolved.value[a.id]?.status==='hidden'))
 const highlights=computed(()=>active.value?resolved.value[active.value.id]?.rects??[]:[])
 const showCard=computed(()=>Boolean(draft.value||active.value||groupChoices.value.length))
 const cardStyle=computed(()=>{
@@ -59,12 +64,15 @@ function newDraft(kind:Draft['kind'],annotationId:string|null=null,parentComment
  return {id:crypto.randomUUID(),...scope.value,kind,body:'',updatedAt:new Date().toISOString(),anchor:null,snapshot:null,annotationId,parentCommentId,state:'closed',reason:null,submitted:false}
 }
 async function refreshPositions() {
- const token=++generation
+ const token=++generation,capturedScope={...scope.value},capturedAnchor=draft.value?.anchor
  viewportWidth.value=window.innerWidth;viewportHeight.value=window.innerHeight
- const blocks=await liveBlocks(),next:typeof resolved.value={}
- for(const a of annotations.value)next[a.id]=await resolveAnchor(a.anchor,scope.value,blocks)
+ const [blocks,panels]=await Promise.all([liveBlocks({includeHidden:true}),readDisclosureBlocks(contentRoot(),capturedScope)]),next:typeof resolved.value={}
+ for(const a of annotations.value)next[a.id]=await resolveAnchor(a.anchor,capturedScope,blocks,panels)
  if(token===generation)resolved.value=next
- if(draft.value?.anchor&&!drag&&!busy.value){const position=await resolveAnchor(draft.value.anchor,scope.value,blocks);rect.value=position.rects.length?selectionBounds(position.rects):null}
+ if(capturedAnchor&&!drag&&!busy.value){
+  const position=await resolveAnchor(capturedAnchor,capturedScope,blocks,panels)
+  if(token===generation&&draft.value?.anchor===capturedAnchor&&!drag&&!busy.value){rect.value=position.rects.length?selectionBounds(position.rects):null;draftPosition.value={id:capturedAnchor.id,status:position.status}}
+ }
 }
 function selectionBounds(rects:Rect[]):Rect {
  const x=Math.min(...rects.map(r=>r.x)),y=Math.min(...rects.map(r=>r.y))
@@ -84,6 +92,7 @@ async function waitForView() {
  await nextTick();await ensureContentIds()
 }
 function schedulePositions(){clearTimeout(repositionTimer);repositionTimer=window.setTimeout(()=>refreshPositions().catch(()=>{}),80)}
+function disclosureToggled(event:Event){if(event.target instanceof HTMLDetailsElement&&!event.target.closest('[data-annotation-ui]'))schedulePositions()}
 async function loadPage() {
  const token=++loadingGeneration
  active.value=null;rect.value=null;draft.value=null;mode.value=false;groupChoices.value=[];range=null;textPopup.value=null;annotations.value=[];resolved.value={};warning.value='';error.value=''
@@ -128,6 +137,7 @@ async function captureArea(selection:Rect,selectedRange:Range|null=null,existing
   const masks=selectedRange?Array.from(selectedRange.getClientRects()).map(rectOf):[]
   const snapshot=await snapshotRegion(selection,masks)
   draft.value={...next,anchor,snapshot}
+  draftPosition.value={id:anchor.id,status:'resolved'}
   await persist();await nextTick();textarea.value?.focus()
  }catch(e){error.value=e instanceof Error?e.message:'选区保存失败；可调整范围重试'}
  finally{busy.value=false;window.getSelection()?.removeAllRanges();range=null}
@@ -190,6 +200,7 @@ async function openAnnotation(id:string,scroll=false) {
    history.replaceState(null,'',shareUrl(a,site.value.base));window.dispatchEvent(new PopStateEvent('popstate'))
   }
   await waitForView()
+  await restoreAnchorDisclosures(a.anchor,scope.value)
   active.value=a;warning.value=response.warning??''
   annotations.value=[...annotations.value.filter(x=>x.id!==a.id),a]
   markersVisible.value=true;filter.value='all'
@@ -232,11 +243,10 @@ async function restoreDraft(saved:Draft) {
   for(const key of Array.from(url.searchParams.keys()))if(key.startsWith('filter.'))url.searchParams.delete(key)
   for(const [key,value] of Object.entries(v.filters))url.searchParams.set('filter.'+key,value)
   history.replaceState(null,'',url);window.dispatchEvent(new PopStateEvent('popstate'));await waitForView()
-  const result=await resolveAnchor(saved.anchor,scope.value)
+  const result=await restoreAnchorDisclosures(saved.anchor,scope.value)
+  draftPosition.value={id:saved.anchor.id,status:result.status}
   rect.value=result.rects.length?selectionBounds(result.rects):null
-  if(result.status==='changed')warning.value='草稿原内容已变更；保留原快照，可提交关于原内容的批注'
-  else if(result.status==='resolved') {
-   warning.value=''
+  if(result.status==='resolved') {
    if(result.rects[0])window.scrollBy({top:result.rects[0].y-140,behavior:'instant'})
    const positioned=await resolveAnchor(saved.anchor,scope.value)
    rect.value=positioned.rects.length?selectionBounds(positioned.rects):null
@@ -295,6 +305,7 @@ onMounted(async()=>{
  const returning=new URLSearchParams(location.hash.slice(1)).has('atlas_login');let loginError=''
  try{session.value=await finishLogin()}catch(e){loginError=(e as Error).message}
  document.addEventListener('mouseup',selectionChanged);document.addEventListener('keyup',selectionChanged);document.addEventListener('keydown',keyboard)
+ document.addEventListener('toggle',disclosureToggled,true)
  window.addEventListener('scroll',schedulePositions,true);window.addEventListener('resize',schedulePositions);window.addEventListener('atlas:view-change',schedulePositions);window.addEventListener('hashchange',openShared)
  await loadPage()
  if(returning&&savedDrafts.value[0])await restoreDraft(savedDrafts.value[0])
@@ -307,6 +318,7 @@ onMounted(async()=>{
 onBeforeUnmount(()=>{
  if(router.onBeforeRouteChange===routeGuard)router.onBeforeRouteChange=undefined
  document.removeEventListener('mouseup',selectionChanged);document.removeEventListener('keyup',selectionChanged);document.removeEventListener('keydown',keyboard)
+ document.removeEventListener('toggle',disclosureToggled,true)
  window.removeEventListener('scroll',schedulePositions,true);window.removeEventListener('resize',schedulePositions);window.removeEventListener('atlas:view-change',schedulePositions);window.removeEventListener('hashchange',openShared)
  observer?.disconnect();resizeObserver?.disconnect();clearInterval(poll);clearTimeout(debounce);clearTimeout(repositionTimer);if(draftSnapshotUrl.value)URL.revokeObjectURL(draftSnapshotUrl.value)
 })
@@ -319,6 +331,7 @@ onBeforeUnmount(()=>{
    <select v-model="filter" aria-label="筛选批注"><option value="open">Open</option><option value="closed">Closed</option><option value="mine">本人参与</option><option value="all">全部状态</option></select>
    <details v-if="savedDrafts.length" class="annotation-menu"><summary>草稿 {{savedDrafts.length}}</summary><div><button v-for="d in savedDrafts" :key="d.id" @click="restoreDraft(d)">{{d.body.slice(0,26)||'尚未填写正文'}} · {{fmtTime(d.updatedAt)}}</button></div></details>
    <details v-if="orphaned.length" class="annotation-menu"><summary>原内容已变更 {{orphaned.length}}</summary><div><button v-for="a in orphaned" :key="a.id" @click="openAnnotation(a.id)">{{a.state==='open'?'Open':'Closed'}} · {{a.title}}</button></div></details>
+   <details v-if="hiddenAnnotations.length" class="annotation-menu"><summary>内容已折叠或隐藏 {{hiddenAnnotations.length}}</summary><div><button v-for="a in hiddenAnnotations" :key="a.id" @click="openAnnotation(a.id,true)">{{a.state==='open'?'Open':'Closed'}} · {{a.title}}</button></div></details>
    <button v-if="!session" @click="login">GitHub 登录</button><button v-else @click="logout" :title="'退出 '+session.user.login">@{{session.user.login}}</button>
   </div>
   <p v-if="mode" class="annotation-instruction" data-annotation-ui>在内容上拖出矩形，拖动四角调整。Esc 退出；键盘聚焦内容后按 Alt＋Shift＋A。</p>
@@ -339,6 +352,7 @@ onBeforeUnmount(()=>{
     <div class="annotation-card-actions"><button @click="copyShare">分享选区</button><a :href="active.issueUrl" target="_blank" rel="noopener noreferrer">GitHub #{{active.issueNumber}}</a><button :disabled="busy" @click="openAnnotation(active.id)">刷新</button></div>
     <p class="annotation-timestamp">同步于 {{fmtTime(active.fetchedAt)}}<br>研究版本 {{active.anchor.researchVersion}}</p>
     <p v-if="resolved[active.id]?.status==='changed'" class="annotation-alert">原内容已变更。此批注保留原始快照，不再挂载到当前内容。</p>
+    <p v-if="resolved[active.id]?.status==='hidden'" class="annotation-timestamp" role="status">选区内容当前折叠或隐藏，未判定为原文变更。<button :disabled="busy" @click="openAnnotation(active.id,true)">展开并定位</button></p>
     <details v-if="active.anchor.snapshotId" :open="resolved[active.id]?.status==='changed'"><summary>查看原始选区快照</summary><img class="annotation-snapshot" :src="apiOrigin+'/snapshots/'+active.anchor.snapshotId" alt="创建批注时用户选中的网站内容" @error="warning='原始快照暂时无法读取；选区文本与上下文仍保留'"/><blockquote v-if="active.anchor.selectedText">{{active.anchor.selectedText}}</blockquote></details>
     <article class="annotation-comment"><header>@{{active.author}} · {{fmtTime(active.createdAt)}}</header><div class="annotation-markdown" v-html="safeMarkdown(active.body)"></div><button @click="reply(null)">回复首评</button></article>
     <div v-for="group in threadComments" :key="group.comment.id" class="annotation-comment-group">
@@ -351,6 +365,8 @@ onBeforeUnmount(()=>{
    </template>
    <form v-if="draft" class="annotation-compose" @submit.prevent="submit">
     <p v-if="draft.kind==='new'" class="annotation-timestamp">首条评论提交后自动生成议题标题。评论公开，并显示你的 GitHub 身份。</p>
+    <p v-if="currentDraftPosition==='changed'" class="annotation-alert" role="status">草稿原内容已变更；保留原快照，可提交关于原内容的批注。</p>
+    <p v-if="currentDraftPosition==='hidden'" class="annotation-timestamp" role="status">选区内容当前折叠或隐藏，未判定为原文变更。<button type="button" :disabled="busy" @click="restoreDraft(draft)">展开并定位</button></p>
     <details v-if="draftSnapshotUrl"><summary>查看本次选区快照</summary><img :src="draftSnapshotUrl" class="annotation-snapshot" alt="仅包含当前选区的快照预览"/></details>
     <p v-if="draft.kind==='reply'" class="annotation-parent">{{draft.parentCommentId===null?'回复首评':'回复 @'+(findComment(draft.parentCommentId)?.author??'原评论')+' · #'+draft.parentCommentId}} <button v-if="draft.parentCommentId!==null&&!draft.submitted" type="button" @click="changeToRoot">改为回复首评</button></p>
     <label v-if="draft.kind==='state'&&draft.state==='closed'">关闭原因 <select :value="draft.reason??''" :disabled="draft.submitted" @change="updateDraft('reason',($event.target as HTMLSelectElement).value)"><option value="" disabled>请选择</option><option value="resolved">已解决</option><option value="duplicate">重复议题</option><option value="outdated">内容已更新</option><option value="not-planned">暂不处理</option></select></label>

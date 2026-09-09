@@ -75,6 +75,20 @@ it('GitHub已创建但响应丢失时从签名标记恢复，不重复POST',asyn
  expect((await request('/annotations',input)).status).toBe(201)
  expect(postCount).toBe(1)
 })
+it('折叠视图经提交和结构化Issue标记重建后保持原值（本地模拟）',async()=>{
+ const base=await fixture(),disclosures=[{id:'cn-disclosure-cash',fingerprint:'b'.repeat(64),open:true},{id:'cn-disclosure-source',fingerprint:'c'.repeat(64),open:false}]
+ const input={...base,anchor:{...base.anchor,view:{...base.anchor.view,disclosures}}}
+ const created=await request('/annotations',input)
+ expect(created.status).toBe(201)
+ expect((await created.json() as any).annotation.anchor.view.disclosures).toEqual(disclosures)
+ const stored=sql.prepare('SELECT anchor_json FROM annotations WHERE id=?').get(input.anchor.id) as {anchor_json:string}
+ expect(JSON.parse(stored.anchor_json).view.disclosures).toEqual(disclosures)
+ sql.exec("UPDATE snapshots SET annotation_id=NULL; DELETE FROM annotations; DELETE FROM github_cache WHERE cache_key='issue-index'")
+ const rebuilt=await request('/annotations?country=cn&page=%2Fcn%2F')
+ expect(rebuilt.status).toBe(200)
+ expect((await rebuilt.json() as any).annotations[0].anchor.view.disclosures).toEqual(disclosures)
+ expect(issues).toHaveLength(1);expect(postCount).toBe(1)
+})
 it('拒绝跨国家快照和伪造父评论，删除父评论后回复关联仍可恢复',async()=>{
  const input=await fixture()
  expect((await request('/annotations',{...input,anchor:{...input.anchor,country:'us'}})).status).toBe(400)
