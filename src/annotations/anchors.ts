@@ -1,4 +1,8 @@
-import type { Anchor,Target,Rect } from './schema'
+import type { Anchor,Target,Rect,ViewState } from './schema'
+export function sameContentView(a:Pick<ViewState,'year'|'focus'|'filters'>,b:Pick<ViewState,'year'|'focus'|'filters'>) {
+ const filters=(values:ViewState['filters'])=>Object.entries(values).filter(([,value])=>value!=='').sort(([a],[b])=>a.localeCompare(b))
+ return a.year===b.year&&a.focus===b.focus&&JSON.stringify(filters(a.filters))===JSON.stringify(filters(b.filters))
+}
 export function normalizeText(text:string) { return text.normalize('NFC').replace(/\s+/g,' ').trim() }
 export async function fingerprint(text:string) {
  const bytes=new TextEncoder().encode(normalizeText(text))
@@ -29,8 +33,8 @@ export function quoteMatches(text:string,quote:{exact:string,prefix:string,suffi
  }
  return matches
 }
-export function resolveTargets(anchor:Anchor,blocks:ContentBlock[],scope:{country:string,page:string,year:number|null}) {
- if(anchor.country!==scope.country||anchor.page!==scope.page||anchor.view.year!==scope.year) return {status:'wrong-view' as const,rects:[],changed:[]}
+export function resolveTargets(anchor:Anchor,blocks:ContentBlock[],scope:{country:string,page:string,year:number|null,focus?:string|null,filters?:ViewState['filters']}) {
+ if(anchor.country!==scope.country||anchor.page!==scope.page||!sameContentView(anchor.view,{year:scope.year,focus:scope.focus??null,filters:scope.filters??{}})) return {status:'wrong-view' as const,rects:[],changed:[]}
  const rects:Rect[]=[],changed:string[]=[]
  for(const target of anchor.targets) {
   const block=blocks.find(b=>b.id===target.contentId)

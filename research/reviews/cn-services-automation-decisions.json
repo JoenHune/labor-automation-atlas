@@ -1,0 +1,3254 @@
+{
+  "reviewer": "root-independent-content-audit",
+  "inputFile": "research/automation/cn-services.json",
+  "inputSha256": "7eb832a70d4ce388e4aee259ec2be0193ee3c1ff4431ff02256cb1cef7275637",
+  "reviewedAt": "2026-09-09",
+  "status": "review-complete-corrections-required",
+  "sources": [
+    {
+      "sourceId": "CN-AUTO-LANDOW",
+      "status": "bounded-source-read",
+      "locator": "产品概述 L14；查房与工作管理 L42–56",
+      "shortQuote": "实时通知主管查房",
+      "note": "重试后读到原页。房态与查房通知、移动查询、工作报表匹配；进房许可与实物清洁验收不受支持。",
+      "url": "https://www.landow.cn/products/housekeeping",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-PUDUH",
+      "status": "bounded-source-read",
+      "locator": "客房配送 L65–80；公区清洁 L84–103；行李/重物搬运 L107–122",
+      "shortQuote": "支持直接负载、顶升、牵引多种搬运模式",
+      "note": "厂商方案，可支持载具搬运及列明清洁设备功能；不能证明任一酒店持续运行。效率和载重数值未用于任务工时。",
+      "url": "https://www.pudutech.com/zh-CN/solutions/hospitality",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-PUDUD",
+      "status": "bounded-source-read",
+      "locator": "营销配送 L78–88；地面保洁 L92–111；全环节覆盖段（独立原HTML）",
+      "shortQuote": "支持托盘监测和取错提醒",
+      "note": "配送托盘与清洁设备功能说明；不支持餐具卫生检测、实际端放餐桌或投诉处置。 已重新核对全环节覆盖中列有领位，仅场景概述。",
+      "url": "https://www.pudutech.com/zh-CN/solutions/food-and-beverage",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-MT1",
+      "status": "bounded-source-read-with-correction",
+      "locator": "AI识别 L61–67；人工转场/维护 L94–102；自倾倒 L108–110；可拆卸尘箱与工作站条件 L203–205、L229",
+      "shortQuote": "自主前往工作站倾倒垃圾",
+      "note": "原稿功能描述成立，但遗漏选配自倾倒方案。须给关联清倒任务增加有条件替代；自倾倒工作站和可拆卸尘箱须作为绑定附件配套，不能据此推导全部垃圾分类或维护无人。",
+      "url": "https://www.pudutech.com/zh-CN/products/mt1",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-MANKE",
+      "status": "bounded-source-read",
+      "locator": "原料反算 L65；PDA L100–102；批次、保质期与溯源 L108–137",
+      "shortQuote": "原料反算",
+      "note": "BOM、库存批次、期限提示与采购/出入库记录匹配；不证明实物收货、食品状态判定或搬运。",
+      "url": "https://www.mankebao.com/sales/",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-ZEEWAY",
+      "status": "bounded-source-read",
+      "locator": "CIP L155–159；流体/颗粒 L179–187；自检维护 L226–228；称重校准 L232–238",
+      "shortQuote": "在线自动校准",
+      "note": "已读列明材料输送、管路CIP与称重补偿；厂商说明，不支持无人补料、整吧台清洁或独立卫生验收，版权年份不是发布日期。",
+      "url": "https://www.zeeway-tech.com/product/zhinengnaichaji",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-RFIDLINEN",
+      "status": "bounded-source-read-with-correction",
+      "locator": "发布日期/更新时间 L47；标签嵌入与身份 L62–64；流转读取 L66–68；管理系统 L69–71",
+      "shortQuote": "2026-07-10",
+      "note": "原稿 L85、L102–109 指向咨询和宣传区域，必须替换。实质结论匹配 RFID 标签清点与流转记录；不支持污染判别和搬运。",
+      "url": "https://www.cslrfid.com/news-1322.html",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-WASHREG",
+      "status": "bounded-source-read-with-correction",
+      "locator": "署名与撰写时间 L21–23；常见错误 L29–40；附件一清洗、消毒、保洁 L53–91",
+      "shortQuote": "2026-03-25 10:46",
+      "note": "原页有明确撰写日期，补为 authoredAt=2026-03-25，若无单独发布字段 publishedAt 保持 null。风险提示匹配，不是具名失败/退出样本；不将风险出现频率量化。",
+      "url": "https://www.hljms.gov.cn/mss/c100562/202603/c06_359229.shtml",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-HOTELCOMP",
+      "status": "bounded-source-read",
+      "locator": "日期 L7；赛事性质 L22–24；观察到滑脱与理床 L29–34；规则 L43–49；经营者访谈 L63–65",
+      "shortQuote": "手指几次滑脱",
+      "note": "记者现场观察属赛事；评分任务要求不能充当完成结果。酒店访谈已投用仅送物、货柜、AI总机；行李/煮面/咖啡仍计划引入。",
+      "url": "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202608/t20260817_4825062.html",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-SAMPLE",
+      "status": "partial-indexed-primary-read",
+      "locator": "标题下2026-04-21 11:14；索引中当留样盒存入智能留样柜段",
+      "shortQuote": "当留样盒存入智能留样柜时",
+      "note": "直接访问证书过期，原文工具超时；官方页面索引核对日期和入柜位置/时间记录联动，但完整称重打印与操作者流程尚未独立读齐，相关细节保持待核。",
+      "url": "https://www.satrace.cn/case/show-259.html",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-CITIC",
+      "status": "bounded-source-read",
+      "locator": "2026-05-15变更公告；优先规则 L38；标准修订 L39–40；替换后表格 L50–56",
+      "shortQuote": "修改为",
+      "note": "计数清分、自检、开盖卡钞取出等均为采购要求，不能认定供应商交付性能；旧表残留 JR/T0154-2017 不代表新要求。后续故障详细行仍需定位。",
+      "url": "https://ebid.cfhc.citic/cms/default/webfile/ywgg4/20260515/1239981289411444736.html",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-BJRCB",
+      "status": "bounded-source-read-with-correction",
+      "locator": "自助设备正文 L214–216；设备目录 L195–207",
+      "shortQuote": "现金类自助设备和非现金类自助设备",
+      "note": "原稿 L191–193 是位置导航/标题，应替换为正文。银行提供现金存取与回单打印服务，不能计量工时或持续无人程度；URL年份不作发布日期。",
+      "url": "https://www.bjrcb.com/pc/cn/InternetFinance/zzsb/20191013/19166.shtml",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-BOCATM",
+      "status": "bounded-source-read",
+      "locator": "2019年宣教标题 L122；银行卡使用 L182；ATM交易时 L233",
+      "shortQuote": "吞卡或不吐钞故障",
+      "note": "历史风险处置提示。不能当具名事故、故障率或2026采用；精确发布日期需元数据支持，不仅依据URL。",
+      "url": "https://www.boc.cn/custserv/cs7/cs72/201904/t20190417_17045499.html",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-BOCOP",
+      "status": "bounded-source-read-with-correction",
+      "locator": "PDF第1页生效说明、第二条境内范围；第1–3页第七/八条",
+      "shortQuote": "2024 年 12 月 11 日生效",
+      "note": "独立下载并提取正文核对，表述匹配；境内明确排除港澳台。PDF无2025-05-27发布日期正文证据，文件URL不能单独确定发布日期；将证据级别改为带版本操作规程，避免未经更新核对称current。",
+      "url": "https://www.boc.cn/aboutboc/ab1/202505/P020250527520104074081.pdf",
+      "reviewedAt": "2026-09-09",
+      "independentFetchedContentSha256": "f0e3b95a26a96f2ebd19376bdac69399bfc26be615e2d21df1cca7c11b64afea"
+    },
+    {
+      "sourceId": "CN-AUTO-GZSALE",
+      "status": "bounded-source-read",
+      "locator": "通知第二/三项 L137–139；成文日期 L150；实施日期 L143",
+      "shortQuote": "第一部分房屋信息核验情况",
+      "note": "内容为广州二手房出售而非当前住房租赁库存；继续不挂作租赁采用证据。2025-04-28为成文日期，2025-05-01为施行日期，应分字段。",
+      "url": "https://www.gz.gov.cn/gfxwj/sbmgfxwj/gzszfhcxjsj/content/post_10243247.html",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-CK100",
+      "status": "bounded-source-read-with-correction",
+      "locator": "页面标示日期 L20；介绍 L38；AUTO模式 L60；制备 L126–149；维护标题 L163–167",
+      "shortQuote": "CommKing 2020/1/1",
+      "note": "原稿publishedAt为空而页面有标示日期，记录displayedDate=2020-01-01但新年默认日期可能为站点默认，不推断2026版本。自动对轴和校准适用单芯，部分图片细节未读，不能凭标题补写详细步骤。",
+      "url": "https://help.commking.cn/guide/inst/splicer/ck100.html",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-ZTEZJ",
+      "status": "bounded-source-read",
+      "locator": "发布时间 L418；部署自报 L420；诊断 L441；修复分工 L444",
+      "shortQuote": "运维人员根据系统推荐的修复方案进行决策后",
+      "note": "2025厂商现网部署自报；软故障方案须人决策，断纤下站由人处理。不能由黑灯工厂宣传句推出全链无人；时间/效率数不采用。",
+      "url": "https://www.zte.com.cn/china/solutions_latest/optical_network_cn/2025/_multi-agent_.html",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-IDCIM",
+      "status": "bounded-source-read",
+      "locator": "技术规格：告警 L447–450；备份 L464–465；资产 L494–500；移动/运维 L503–538",
+      "shortQuote": "支持跟踪演练操作过程",
+      "note": "系统管理自身数据备份与演练目标判定匹配，不能推出全部业务数据容灾成功或物理模块自动更换。产品功能非采用实测。",
+      "url": "https://www.zte.com.cn/china/solutions_latest/smart_energy/aidc/idcim.html",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-ALIYUN",
+      "status": "bounded-source-read",
+      "locator": "前提 L29–31；演练费用 L37；切换警告 L111；恢复点选择与检查 L117–125；不一致数据换恢复点 L130；故障恢复 L135–156",
+      "shortQuote": "会停掉实时复制流程",
+      "note": "产品操作说明明确需要操作者配置与应用验证，也有演练资源现金成本；不是故障/退出发生样本。已补读故障恢复配置与反向复制步骤。",
+      "url": "https://help.aliyun.com/zh/hdr/user-guide/step-5-perform-disaster-recovery",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-GATE",
+      "status": "bounded-source-read-with-correction",
+      "locator": "产品优势：预约登记 L95；门禁联动 L96；名单告警 L98；远程处理 L100",
+      "shortQuote": "后台自动发送信息至相关人员",
+      "note": "原稿 L97–100 遗漏身份登记与闸机关键句，补 L94–101。示例客户存在但当前委外保安执行者未确认，不归为本场景已采用；无全违禁物检测。",
+      "url": "https://www.zjrob.com/product/24.html",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-TRAVELERP",
+      "status": "bounded-source-read",
+      "locator": "OTA/旅行综合社 L13–25；业务与计调管理 L47–59",
+      "shortQuote": "自动匹配司导/交通/酒店等资源",
+      "note": "订单和资源数据匹配功能成立；现场履约、行李转移、旅客安全或供应者实际可用性未获支持。",
+      "url": "https://www.maytek.cn/mayTekErp/",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-TOURBOT",
+      "status": "bounded-source-read",
+      "locator": "产品优势 L94–101；应用场景 L120；客户自报摘要 L132–138",
+      "shortQuote": "景点讲解",
+      "note": "仅景区/场馆产品及厂商案例摘要，不直接归入旅行社带团执行者。可作邻近技术参考，不能否定旅行社自行采用可能。",
+      "url": "https://www.zjrob.com/product/8.html",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-DOCBOT",
+      "status": "bounded-source-read",
+      "locator": "RL-D401产品功能第1–9项 L149–157",
+      "shortQuote": "设备故障时能确保档案可以取出",
+      "note": "厂商自动运输、RFID身份、安全认证及应急取件描述；非具名失败记录，无法检测内页丢失篡改。第9项联动AGV条件须与自动上下架结论一起保留。",
+      "url": "https://www.ruiliniot.cn/RFID/179",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-CPIC",
+      "status": "bounded-source-read-with-correction",
+      "locator": "原页标题括号日期；强强联合，数智引领段（独立提取文本第65、72–73行）",
+      "shortQuote": "查勘员拍照后，系统直接生成估损单",
+      "note": "正文匹配2020历史保险公司自报。标题显示2020-12-29，URL路径2020-12-30；不要把URL日期确定为发布日期，改为displayedDate并保留冲突说明。全智能无人工宣传句与拍照环节并存，不覆盖隐损。",
+      "url": "https://cpic.com.cn/c/2020-12-30/1614708.shtml",
+      "reviewedAt": "2026-09-09",
+      "independentFetchedContentSha256": "c2ebf30ea634d05965104a5f483c15c80d4b1c853d2f8765a127425e0b4ea1ff"
+    },
+    {
+      "sourceId": "CN-AUTO-ARCSOFT",
+      "status": "bounded-source-read",
+      "locator": "方案概述、车辆与部件识别、车辆损伤鉴定（独立提取第183–190行）",
+      "shortQuote": "只需上传事故照片",
+      "note": "直接读取厂商网页。车辆外部件和外观损伤识别产品匹配，不采纳速度或精度广告，无公估现场拆解或在运证明。",
+      "url": "https://www.arcsoft.com.cn/product/smart_insurance.html",
+      "reviewedAt": "2026-09-09",
+      "independentFetchedContentSha256": "ac8f30fd77f90cd91ffef059df299fc264e5a9689c4384c1e781d4abe3207557"
+    },
+    {
+      "sourceId": "CN-AUTO-PAWNSYS",
+      "status": "bounded-source-read",
+      "locator": "四象典当业务管理系统产品概述、业务管理层（独立提取第50、78–89行）",
+      "shortQuote": "评估鉴定管理",
+      "note": "直接读取原网页。只见业务模块与档案管理，不能将鉴定管理等同物品真伪成色检测；仍无上海典当行采用证据。",
+      "url": "https://www.cdsxlc.com/m/impawn",
+      "reviewedAt": "2026-09-09",
+      "independentFetchedContentSha256": "29b7066c39a6db82ca4b48245f773724a2aba2169eb475c09a9b9fcf41195894"
+    },
+    {
+      "sourceId": "CN-AUTO-TW",
+      "status": "bounded-source-read",
+      "locator": "巡检/维保与设备维修；现场操作智能便捷；问题整改在线协同（独立提取第72–74、131–135行）；EBA集成，智能监控实现无人化（独立提取87–88行）",
+      "shortQuote": "实测数据录入",
+      "note": "原页明确由查验工程师、责任单位和复核人员分别操作。规则比较基于实测数据输入，不能替代实体测量、整改或复查。 该段另明确员工APP远程开闸合闸，不能描述为无人决策。",
+      "url": "https://www.tw369.com/Product/Quality",
+      "reviewedAt": "2026-09-09",
+      "independentFetchedContentSha256": "a56da7a47ad012bad579325afa30b494d387a8cced211b57b25c01119ef9ddf6"
+    },
+    {
+      "sourceId": "CN-AUTO-BGY",
+      "status": "bounded-source-read-with-correction",
+      "locator": "文章标题下日期；盈禧花园段；来源署名（独立提取第143、154、160行）",
+      "shortQuote": "2025.10.27",
+      "note": "补页面日期2025-10-27；经营者转载搜狐焦点的自报，具名广州物业项目楼道清洁可保留此层级。不得据此给单项工时或证明2026持续运转。",
+      "url": "https://www.bgyfw.com/cn/about-news/314.html",
+      "reviewedAt": "2026-09-09",
+      "independentFetchedContentSha256": "b24c9b937b3d1533ecd76c365167adcdde2a8874b2b56f79780da065aaf60695"
+    },
+    {
+      "sourceId": "CN-AUTO-RGK",
+      "status": "bounded-indexed-primary-read",
+      "locator": "核心功能—工单管理、设备管理；用户价值—客服工单、设备管理；典型客户",
+      "shortQuote": "系统智能化派单至维护维修人员",
+      "note": "直接访问证书不匹配，未绕过；官方原页搜索索引正文已核对工单闭环与维保任务功能。未确认服务外包实际执行方，无自主物理维修结论；原行号另需替换为语义章节。",
+      "url": "https://www.rgkgroup.cn/solution_1_3.html",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-KEYCAB",
+      "status": "bounded-source-read-with-correction",
+      "locator": "文章出处与发布日期；主要功能1–4（独立提取第74、82–94行）",
+      "shortQuote": "2025-03-21",
+      "note": "补明确发布日期。用户自己存取钥匙、远程授权、超期告警及记录描述成立；不证明车辆检查或交付验收自动完成。",
+      "url": "https://www.chinasuperbox.com/xw/jsbk/news_2710.html",
+      "reviewedAt": "2026-09-09",
+      "independentFetchedContentSha256": "700997887254419fd943017fdf1e58025fba4356abfafbc9f3e2cb9d852ca9b0"
+    },
+    {
+      "sourceId": "CN-AUTO-PRINTERLEASE",
+      "status": "bounded-source-read",
+      "locator": "租赁设备台账管理；多模式抄表智能结算；租赁设备运维保障管理（独立提取第103–113行）",
+      "shortQuote": "设备联网自动抄表",
+      "note": "办公打印设备范围明确，联网自动与移动人工两种模式并存；设备状态和工单记录不证明实物维修或全部租赁品适用。",
+      "url": "https://www.kuaipu.com.cn/products_lease",
+      "reviewedAt": "2026-09-09",
+      "independentFetchedContentSha256": "43db8690725dc08b97ed51710e4ae1a9b1601dd3fafd0ccf4a72fbc7d9726b36"
+    },
+    {
+      "sourceId": "CN-AUTO-ATS",
+      "status": "bounded-source-read",
+      "locator": "各来源简历收集入库；测评/笔试；智能自动化机器人助理（独立提取第16–19、54–57、117–118行）",
+      "shortQuote": "当满足此条件时，自动执行系统的操作",
+      "note": "可配置条件触发流转、笔试安排；现场秩序、布展、资格真实性与最终录用不受支持，产品有定制与接口条件。",
+      "url": "https://ats.chinahr.com/Price.html",
+      "reviewedAt": "2026-09-09",
+      "independentFetchedContentSha256": "710e7f8fd1cfb3af8b9cdb33ac8f121283aeb8de91704ae7fc78c0124bdd0f49"
+    },
+    {
+      "sourceId": "CN-AUTO-ATSI",
+      "status": "bounded-source-read",
+      "locator": "自动化处理让批量面试更高效（独立提取第52–60行）",
+      "shortQuote": "自动通知/状态变更",
+      "note": "产品可配置通知、状态和评分结果汇总，不将评分汇总当自主录用评判。",
+      "url": "https://ats.chinahr.com/Interview.html",
+      "reviewedAt": "2026-09-09",
+      "independentFetchedContentSha256": "e7e36e0edb77076410ef7cc339a79fd3e8967e64b4a3549c8af3808b1d22c55a"
+    },
+    {
+      "sourceId": "CN-AUTO-VEGWASH",
+      "status": "bounded-source-read",
+      "locator": "工艺流程；浸泡/去皮/清洗/切割/深度清洗/筛分（独立提取第18–48行）",
+      "shortQuote": "另一个则专注于根茎类蔬菜的切割",
+      "note": "传统机械对特定蔬菜品种的处理描述成立；无单店持续运行或全流程无人证据，挑选工作台仍需核对实际人机分工。",
+      "url": "https://www.zclongyuanjixie.com/solution/central-kitchen-clean-vegetable-processing-line.html",
+      "reviewedAt": "2026-09-09",
+      "independentFetchedContentSha256": "c01152068b139efe9f8952ddfaf36753d43236d52a1fed7e08332ef5ed686eee"
+    },
+    {
+      "sourceId": "CN-AUTO-RFIDARCH",
+      "status": "bounded-source-read-with-correction",
+      "locator": "首页一体化平台 L184–186；档案管理软件 L190–193；十防系统 L204–205；数字化加工 L209–211",
+      "shortQuote": "支持在线接收、离线导入、手工录入",
+      "note": "原行号已漂移，更新语义位置；只支持产品目录背景。不证明实体纸张修补、律所应用或标准化取档的全套验收。",
+      "url": "https://www.ruiliniot.cn/",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-JINGWU",
+      "status": "bounded-source-read-with-correction",
+      "locator": "2021年产品加入说明 L5；标准化清扫 L13；换夹具 L17；功能与场景 L28、L36–51",
+      "shortQuote": "2021年",
+      "note": "企业产品档案须在使用处明确是2021产品背景，发布日期仍不明；机械臂特定卫浴表面清扫与换夹具可保留，时间/替人数未独立验证不采用。",
+      "url": "https://5gai.cctv.com/special/companies/shjwzn/p04/index.shtml",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-LUGGAGE",
+      "status": "bounded-source-read-with-correction",
+      "locator": "标题下日期 L64；硬件与配送 L80–111；工作人员绑定流程 L113–143",
+      "shortQuote": "2025/12/18",
+      "note": "补页面显示日期。工作人员扫码录入、绑定标签和放行李；自动配送功能不能推出自主装卸与安全验收。",
+      "url": "https://jc-it.cn/archives/Luggage-Storage-System",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-ARCHARM",
+      "status": "bounded-source-read",
+      "locator": "RL-S101功能第2–4项 L150–152；对象/架位条件 L153、157；保护 L160；故障告警 L192",
+      "shortQuote": "一隔存放一个档案盒",
+      "note": "必须匹配标准档案盒、分隔架位、RFID与定位设施；可条件化取回上架，非任意散页、非律所在运。保护功能不是故障发生案例。",
+      "url": "https://www.ruiliniot.cn/Unmanned-warehouse/206",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-ARCHSYS",
+      "status": "bounded-source-read",
+      "locator": "档案管理软件平台产品说明 L149–150",
+      "shortQuote": "元数据管理",
+      "note": "电子档案分类与库房集成管理，不等于纸质文件自主分类、装订与质量鉴别；不把厂商满足规范声明当认证。",
+      "url": "https://www.ruiliniot.cn/system-platform/272",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-ARCHENV",
+      "status": "bounded-source-read",
+      "locator": "十防管理管控系统产品说明 L149",
+      "shortQuote": "环境监测、安防监测",
+      "note": "系统层环境/告警功能可保留；不会支持逐卷污染判定或实体清洁，也不采纳杜绝风险的广告。",
+      "url": "https://www.ruiliniot.cn/system-platform/274",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-SHVENUE",
+      "status": "bounded-indexed-primary-read",
+      "locator": "2026-06-08署名；一体协同、数字服务、数智安防三个小节",
+      "shortQuote": "依托安全整改系统自动派单",
+      "note": "独立直接访问403，官方原页搜索索引返回相关正文，可核对该报道的场地/订单、客流和安全告警功能；保留索引读取标记，未查持续运行日志或实体搭建替代。",
+      "url": "https://www.gzw.sh.gov.cn/shgzw_zxzx_gqdt/20260608/0d5b0374f4b54df782a9531a80b52b1c.html",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-DISHWASH",
+      "status": "bounded-indexed-primary-read",
+      "locator": "产品特点—主要结构及工作原理，自动除渣、清洗、漂洗、热风段",
+      "shortQuote": "将残渣排到残渣收集口进行回收",
+      "note": "直接访问TLS失败，但官方产品页索引返回相关全文段。厂商声明明确餐盒/餐具除渣与清洗烘干流程；卫生合格和产能数字不采用，无客户实测。",
+      "url": "https://www.xiangying.cn/Products/zdczcjchqx.html",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "sourceId": "CN-AUTO-ANNOBEV",
+      "status": "bounded-indexed-primary-read",
+      "locator": "标题及正文第1–3段",
+      "shortQuote": "正式入驻荔园山庄",
+      "note": "原页直接读取失败，官方页面搜索索引返回具名产品自报全文段；辅料调配、冷热饮及扫码说明匹配，发布日期和持续运营期未知。数值性能、全程无人不作为任务结论。",
+      "url": "https://www.robotanno.com/anlizhanshi/anno-ai-robot-bubble-tea-kiosk-and-anno-ai-robot-latte-art-coffee-printing-bar-open-at-liyuan-villa.html",
+      "reviewedAt": "2026-09-09"
+    }
+  ],
+  "tasks": [
+    {
+      "taskId": "CN-AF-ROOM-T01",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-LANDOW"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-ROOM-T02",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-ROOM-T03",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-ROOM-T04",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "更换床单、套换被套/枕套和整理卧具的对象、方法与验收不同；比赛理床证据只能映射整理，不能支持更换床品。",
+        "children": [
+          "更换床单",
+          "更换被套",
+          "更换枕套",
+          "摆放枕头并拉平床面"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-HOTELCOMP"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-ROOM-T05",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-JINGWU"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-ROOM-T06",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "公区地面、卫浴台面与客房家具用品的适用设备不同，须拆后分别核对；现有局部证据边界合理。",
+        "children": [
+          "清洁客房地面",
+          "擦拭客房家具表面",
+          "清洁客房可复用用品"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-PUDUH",
+        "CN-AUTO-JINGWU"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-ROOM-T07",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-RFIDLINEN"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-ROOM-T08",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-LANDOW"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-ROOM-T09",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "遗留物交接与设备报修对象和去向不同，不能合并核算。",
+        "children": [
+          "登记并移交住客遗留物",
+          "登记并报送设备损坏"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-ROOM-T10",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-MT1",
+        "CN-AUTO-JINGWU"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-ROOM-T11",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-WASHREG"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-ROOM-T12",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-and-expand-alternative",
+        "note": "分类、清出与洗容器应分开。MT1有配套工作站/可拆尘箱的选配自倾倒，须补为清倒所收集垃圾的条件化方案；不扩展为房内所有废物或分类。",
+        "children": [
+          "按规定类别收集客房废弃物",
+          "将收集的废弃物移交至收集点",
+          "清洁垃圾容器"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-MT1",
+        "CN-AUTO-HOTELCOMP"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-ROOM-T13",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-LANDOW"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-KITCHEN-T01",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-MANKE"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-KITCHEN-T02",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-MANKE"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-KITCHEN-T03",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-MANKE"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-KITCHEN-T04",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "机器清洗、机械去皮与人工去不可食部不能合成一个自动化程度。",
+        "children": [
+          "清洗适用品种原料",
+          "去除适用根茎原料表皮",
+          "剔除其他不可食部分和异物"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-VEGWASH"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-KITCHEN-T05",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "分档、去骨和干货涨发不是同一交付动作，原结论已提示差异；分别保留证据缺口。",
+        "children": [
+          "按规格分档原料",
+          "剔除骨或刺",
+          "按配方涨发干货"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-KITCHEN-T06",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-VEGWASH"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-KITCHEN-T07",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "预熟、挂浆、配菜分别具有不同输入、验收与设备方案。",
+        "children": [
+          "按工艺预熟原料",
+          "给指定原料上浆挂糊",
+          "按菜品规格组合配菜"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-KITCHEN-T08",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "热菜调味烹制与冷菜制作的对象和流程不同，未读线索仍只能保留候选。",
+        "children": [
+          "按配方调味并烹制热菜",
+          "按规范制作冷菜"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-KITCHEN-T09",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-KITCHEN-T10",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "装盘与交接出餐口可分开核算与验收，装杯不能继承为装盘。",
+        "children": [
+          "按规格装盘",
+          "核对订单并移交出餐口"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-KITCHEN-T11",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-MANKE"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-KITCHEN-T12",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-KITCHEN-T13",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-and-downgrade-context",
+        "note": "WASHREG范围是复用餐饮具，不能把监管提示当刀具、砧板、固定设备接触面的直接机器证据或本任务失败；仅保留邻近风险背景并拆固定接触面。",
+        "children": [
+          "清洗消毒刀具和砧板",
+          "清洗消毒固定设备食品接触面"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-WASHREG"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-KITCHEN-T14",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "厨余和废弃油脂的容器、流动性质及交接不同，分别列任务更适合比选。",
+        "children": [
+          "收集并密闭移交厨余",
+          "收集并密闭移交废弃油脂"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-KITCHEN-T15",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-and-source-gap",
+        "note": "留样的取样装盒与信息记录不等价。SAMPLE当前仅独立读到官方索引部分，称重打印细節待核，不升级整项证据。",
+        "children": [
+          "按要求取得代表性食品样品并装盒",
+          "记录样品信息与打印标签",
+          "贴标并将样品放入指定留样柜"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-SAMPLE"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-DINING-T01",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-DINING-T02",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-and-refine-locator",
+        "note": "独立直接读取原HTML确认“全环节覆盖”列领位，但只是场景概述，未证实需求核验。定位补到该段；引导和需求确认分列。",
+        "children": [
+          "引导顾客至指定席位",
+          "确认并记录用餐需求"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-PUDUD"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-DINING-T03",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-DINING-T04",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "机器人运输、端放上桌与席间加水等不能共享替代结论。",
+        "children": [
+          "将餐品运到指定餐台附近",
+          "将餐品端放餐台",
+          "按请求提供席间添水等服务"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-PUDUD"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-DINING-T05",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "托盘状态/取错提醒不证明订单实物一致或餐具卫生，须拆验收对象。",
+        "children": [
+          "核对餐品与出餐订单",
+          "检查餐具洁净和完整状态"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-PUDUD"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-DINING-T06",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "洒漏、错餐与反馈处理具有不同物理和责任输出，原文已明确应分。",
+        "children": [
+          "清理洒漏餐品",
+          "登记并处置错餐",
+          "受理并转交顾客反馈"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-DINING-T07",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "更换餐具与再次运输不同；复送属于有条件研究推断，原标签须保留。",
+        "children": [
+          "撤回并更换错配餐具",
+          "重新配送经确认的合格餐品"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-PUDUD"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-DINING-T08",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "回收、分材质与残食分离各有方案，输送和餐盒除渣只映射适用子动作。",
+        "children": [
+          "从餐台收回餐具与残食",
+          "按规定分类待洗餐具",
+          "分离餐具内残食并移交"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-PUDUD",
+        "CN-AUTO-DISHWASH"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-DINING-T09",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "餐台擦拭、餐具洗消与洗后保洁明显不同；监管提示限餐饮具洗消。",
+        "children": [
+          "清洁餐台表面",
+          "将适用餐具投入洗消流程并操作设备",
+          "将已验收餐具转入保洁存放"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-DISHWASH",
+        "CN-AUTO-WASHREG"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-DINING-T10",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "账单核对、支付结算和交班平账是不同交付，当前分别证据不足。",
+        "children": [
+          "核对用餐账单",
+          "完成收款结账",
+          "核对班次款项并交班"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-GUEST-T01",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-HOTELCOMP"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-GUEST-T02",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "载具搬运与寄存标记存放分开；竞赛滑脱只支持提放行李受限这一观察。",
+        "children": [
+          "将行李装入或卸出搬运载具",
+          "运送已装载行李",
+          "登记并暂存行李"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-PUDUH",
+        "CN-AUTO-LUGGAGE",
+        "CN-AUTO-HOTELCOMP"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-GUEST-T03",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-PUDUH",
+        "CN-AUTO-HOTELCOMP"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-GUEST-T04",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "downgrade-adjacent",
+        "note": "酒店公共布草 RFID 方案不是客衣洗护要求或污损交接直接证据；明确为可借鉴识别机制，不能计为本任务支持案例。"
+      },
+      "sourceIds": [
+        "CN-AUTO-RFIDLINEN"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-GUEST-T05",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "downgrade-adjacent",
+        "note": "行李存取标签对衣物洗护与租借物验收只属邻近机制，不能计作这两种对象的成功证据。"
+      },
+      "sourceIds": [
+        "CN-AUTO-LUGGAGE"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-GUEST-T06",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-GUEST-T07",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对动作、替代范围、残留人工措辞和反证类型；保持局部/邻近证据与未测参数，不推出技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-PUDUH"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-GUEST-T08",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "递送托盘与电子器材等租借物清洁方法不可混用，按对象分组。",
+        "children": [
+          "清洁递送托盘",
+          "按材质清洁租借物品"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-GUEST-T09",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "行李寄存系统只能支持行李交付辅助，不支持衣物交付质量确认，分开交付对象。",
+        "children": [
+          "核对并返还寄存行李",
+          "核对并返还送洗衣物",
+          "登记住客请求完成状态"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-LUGGAGE"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-BEVERAGE-T01",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-ANNOBEV"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-BEVERAGE-T02",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-ZEEWAY"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-BEVERAGE-T03",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "原料预处理须展开已识别的洗果、切果、煮茶、煮珍珠，不以总任务掩盖不同机器条件；当前均有检索缺口。",
+        "children": [
+          "清洗鲜果原料",
+          "切分鲜果原料",
+          "按配方煮制茶汤",
+          "按配方煮制珍珠等辅料"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-BEVERAGE-T04",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "downgrade-adjacent",
+        "note": "奶泡打印不提供研磨或冲煮直接证据，不能计为咖啡基底制作的有支持方案；仅留邻近线索。研磨与萃取在后续按设备一体化边界拆分。"
+      },
+      "sourceIds": [
+        "CN-AUTO-ANNOBEV"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-BEVERAGE-T05",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "鲜果榨汁与已制备流体调配不同，ZEEWAY只能映射其列明材料输送调配。",
+        "children": [
+          "用适用设备榨取鲜果汁",
+          "将已制备基底与辅料按配方调配"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-ZEEWAY",
+        "CN-AUTO-ANNOBEV"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-BEVERAGE-T06",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-BEVERAGE-T07",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-ZEEWAY"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-BEVERAGE-T08",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "封装、标识和移交取餐位置是可独立验收动作，ANNOBEV整流程宣传不证明每一步。",
+        "children": [
+          "封装制作完成的饮品",
+          "给饮品添加订单标识",
+          "将饮品移交指定取餐位置"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-ANNOBEV"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-BEVERAGE-T09",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-BEVERAGE-T10",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "label-inference",
+        "note": "再次按配方制作是研究推断，必须在本句显示research-judgment；厂商案例未描述错配重做流程。"
+      },
+      "sourceIds": [
+        "CN-AUTO-ANNOBEV"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-BEVERAGE-T11",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "管路CIP、可拆器具和吧台面清洁分开，只有第一项有匹配产品功能。",
+        "children": [
+          "运行饮品设备管路CIP清洗",
+          "清洗消毒可拆饮品接触器具",
+          "清洁吧台表面"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-ZEEWAY"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-BEVERAGE-T12",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-AF-BEVERAGE-T13",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-ANNOBEV"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-CASH-T01",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-CITIC"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-CASH-T02",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-CITIC"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-CASH-T03",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "现金计数与存取凭证核对分别验收，设备采购指标仅支持计数/清分子项。",
+        "children": [
+          "清点客户交付现金",
+          "核对清点金额与存取凭证"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-CITIC"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-CASH-T04",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-CITIC",
+        "CN-AUTO-BOCOP"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-CASH-T05",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "correct-counterevidence-phrase",
+        "note": "BOCATM原文写吞卡或不吐钞，未在该定位说明已经扣账。删除反证detail中的“扣账”，其余历史风险提示边界保留。收付和打印按设备联动形成一次交易输出可保留。"
+      },
+      "sourceIds": [
+        "CN-AUTO-BJRCB",
+        "CN-AUTO-BOCATM"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-CASH-T06",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-CASH-T07",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "当面收缴、按币种处理封装、系统登记打印的工具和权限不同，应分列并分别绑定第七条子项。",
+        "children": [
+          "按规程当面收缴已鉴别假币",
+          "按币种对假币盖章或封装",
+          "登记假币信息并打印收缴凭证"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-BOCOP"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-CASH-T08",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-CITIC"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-CASH-T09",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "复点与授权更账是不同输出，设备计数不得支持自动更账。",
+        "children": [
+          "再次清点存在差异的现金",
+          "按核实结果和授权更正账务差错"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-CITIC"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-CASH-T10",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-CITIC"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-CASH-T11",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "两口机清分、扎把封包与交库搬运不等价。",
+        "children": [
+          "按用途清分现金",
+          "按规则扎把和封包现金",
+          "将已封包现金移交库管"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-CITIC"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-CASH-T12",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "现金凭证对账与实物档案封存须分别研究。",
+        "children": [
+          "核对班次现金和业务凭证",
+          "将完成核对的业务档案封存移交"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-CITIC"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-LOSS-T01",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-LOSS-T02",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "downgrade-adjacent-executor",
+        "note": "太保内部查勘与独立公估单位不能混认采用。照片识别仅图像分析辅助，不支持自主现场采集；已保留2020标签，需再显式显示执行者差异。"
+      },
+      "sourceIds": [
+        "CN-AUTO-CPIC",
+        "CN-AUTO-ARCSOFT"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-LOSS-T03",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-and-downgrade-context",
+        "note": "车辆图像识别不支持实物尺寸测量或物证收集，改作邻近背景，不计直接任务支持。",
+        "children": [
+          "测量受损部位",
+          "提取并登记需留存的实物资料"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-CPIC",
+        "CN-AUTO-ARCSOFT"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-LOSS-T04",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-LOSS-T05",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-ARCSOFT"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-LOSS-T06",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "现场隔离与后续补充查勘安排分别对应物理处置和调度。",
+        "children": [
+          "按权限隔离不安全查勘区域",
+          "安排符合进入条件的补充查勘"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-LOSS-T07",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "补拍与复测输入工具不同；原有图像分析来源不支持这两个实际采集动作。",
+        "children": [
+          "重新拍摄争议部位",
+          "重新测量争议部位"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-CPIC"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-LOSS-T08",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-LOSS-T09",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-PAWN-T01",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-PAWNSYS"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-PAWN-T02",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-PAWNSYS"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-PAWN-T03",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "refine-object-specific-definition",
+        "note": "真伪、成色、残损的检测方法随当物变化，需按实际纳入的当物种类建立子定义。业务软件模块仅为邻近背景，不能当工具检测方案。"
+      },
+      "sourceIds": [
+        "CN-AUTO-PAWNSYS"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-PAWN-T04",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-PAWNSYS"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-PAWN-T05",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-PAWNSYS"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-PAWN-T06",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-PAWNSYS"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-PAWN-T07",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-PAWN-T08",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "当票字段纠错与库位实物复查不同，分别保留原值和授权条件。",
+        "children": [
+          "复核并更正当票字段差错",
+          "复查当物存放位置并更正库位记录"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-PAWN-T09",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对动作、对象、方案范围和反证类型；未知投入与商业运行保持缺口，不推导不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-PAWNSYS"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-FI-PAWN-T10",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-HANDOVER-T01",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-TW"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-HANDOVER-T02",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-HANDOVER-T03",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-TW"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-HANDOVER-T04",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "给排水、电气和门窗的实体试用及验收工具不同，软件比较值只映射数据判断。",
+        "children": [
+          "试用并检测给排水设施",
+          "试用并检测电气设施",
+          "试用并检测门窗设施"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-TW"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-HANDOVER-T05",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "表计、钥匙和技术文件齐套核对分别交付，不能混用台账作为实物验证。",
+        "children": [
+          "核对交付表计标识和读数",
+          "核对交付钥匙与锁具",
+          "核对交付设备技术文件"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-TW"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-HANDOVER-T06",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-TW",
+        "CN-AUTO-RGK"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-HANDOVER-T07",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-TW"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-HANDOVER-T08",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-TW"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-HANDOVER-T09",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "收回仪器与恢复受检设施是不同动作。",
+        "children": [
+          "点清并收回检测仪器",
+          "恢复受检设施至约定状态"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-HANDOVER-T10",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "签认责任和档案移交分别核算，报告生成仅辅助。",
+        "children": [
+          "按权限签认查验结果",
+          "移交经核对的房屋档案"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-TW"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-OPERATE-T01",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-TW",
+        "CN-AUTO-RGK"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-OPERATE-T02",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-TW",
+        "CN-AUTO-RGK"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-OPERATE-T03",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-OPERATE-T04",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-BGY",
+        "CN-AUTO-PUDUH"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-OPERATE-T05",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-RGK",
+        "CN-AUTO-TW"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-OPERATE-T06",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-RGK"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-OPERATE-T07",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-and-refine-locator",
+        "note": "独立原页证实 TW 的 EBA 集成确有员工APP远程开闸合闸（本地提取87–88行），须把此章节加到sourceRefs；不得推为自主控制漏水。漏水、电气和通知分列。",
+        "children": [
+          "按权限实施漏水异常初步控制",
+          "按权限实施供电异常初步控制",
+          "向指定责任方通报异常状态"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-TW",
+        "CN-AUTO-RGK"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-OPERATE-T08",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-OPERATE-T09",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "维修功能复测与环境质量采样有不同方法与设备。",
+        "children": [
+          "复测维修后设备功能",
+          "核查维修后环境质量"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-TW"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-OPERATE-T10",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "提出返工要求和再次实体检验分开；软件只覆盖登记与流转。",
+        "children": [
+          "向责任方退回不合格维修",
+          "复检返工后的设施"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-TW"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-OPERATE-T11",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "expand-conditional-alternative",
+        "note": "MT1快拆是人工维护设计，选配自动倾倒可减少其尘箱清空步骤；不能推广到物业所有工具或自动清洗。维护子动作应按具体服务工具界定。"
+      },
+      "sourceIds": [
+        "CN-AUTO-MT1"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-OPERATE-T12",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-RGK"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-BROKER-T01",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-BROKER-T02",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-BROKER-T03",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-BROKER-T04",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-BROKER-T05",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-BROKER-T06",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "移交房源信息与组织带看是不同输出，VR线索不足不得标成功。",
+        "children": [
+          "向客户移交已核验房源信息",
+          "组织获准时段的现场带看"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-BROKER-T07",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-BROKER-T08",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-RE-BROKER-T09",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "访问钥匙归还与核验资料移交分开。",
+        "children": [
+          "交回访问钥匙",
+          "移交留存核验资料"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-LINE-T01",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-ZTEZJ"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-LINE-T02",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "downgrade-adjacent",
+        "note": "CK100检查的是熔接前光纤与校准，不是完整仪表备件清点；只能为单台设备功能准备提供局部参考。"
+      },
+      "sourceIds": [
+        "CN-AUTO-CK100"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-LINE-T03",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-LINE-T04",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "安装终端、配置业务和替换模块物理条件不同，OMC软配置不得继承到安装插拔。",
+        "children": [
+          "安装授权通信终端",
+          "配置经批准的终端或网络参数",
+          "替换指定故障模块"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-ZTEZJ"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-LINE-T05",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-and-downgrade-context",
+        "note": "熔接前对轴不能等同传输质量检测，ZTE故障恢复验证也不是客户终端业务全测试；分列任务并仅保留邻近输入。",
+        "children": [
+          "测试规定链路传输质量",
+          "测试客户终端业务功能"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-CK100",
+        "CN-AUTO-ZTEZJ"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-LINE-T06",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-ZTEZJ"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-LINE-T07",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-ZTEZJ"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-LINE-T08",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-CK100",
+        "CN-AUTO-ZTEZJ"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-LINE-T09",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "光纤清洁、仪器维护和线缆现场恢复不可互相替代。",
+        "children": [
+          "清洁保养已使用测试仪器",
+          "整理并恢复线缆作业现场"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-CK100"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-LINE-T10",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "新开通验收与资料提交分别研究；故障恢复个案只作邻近参考。",
+        "children": [
+          "验证已开通业务",
+          "整理并提交竣工记录"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-ZTEZJ"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-DC-T01",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-IDCIM"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-DC-T02",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-DC-T03",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-IDCIM"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-DC-T04",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-DC-T05",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "电源、空调和接地测试不应共享DCIM覆盖度；接地实测明确证据不足。",
+        "children": [
+          "测试供配电设施状态",
+          "测试空调设施状态",
+          "测试接地设施状态"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-IDCIM"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-DC-T06",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "refine-tested-system",
+        "note": "限定受保护服务器的数据/应用容灾流程，iDCIM演练数据不得扩大为任意业务倒换或物理供电；原操作条件反证分类正确。"
+      },
+      "sourceIds": [
+        "CN-AUTO-ALIYUN",
+        "CN-AUTO-IDCIM"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-DC-T07",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-IDCIM"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-DC-T08",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-IDCIM"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-DC-T09",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "回退变更与复测分开，ALIYUN仅覆盖所述数据容灾流程。",
+        "children": [
+          "按批准方案回退失败变更",
+          "复测回退后的业务和设备状态"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-ALIYUN"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-DC-T10",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "环境设备清洁与耗材更换采用方法不同，当前均缺证据。",
+        "children": [
+          "清洁维护指定环境设备",
+          "更换授权范围内的环境设备耗材"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-IN-DC-T11",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "资产台账更新与未决告警责任交接分开。",
+        "children": [
+          "更新经核实的设备台账",
+          "交接未决告警"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-IDCIM"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-CAR-T01",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-KEYCAB"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-CAR-T02",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "车辆外观与安全功能分别验收，不能用图像替代功能试验。",
+        "children": [
+          "检查交车外观状态",
+          "检查交车安全功能"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-CAR-T03",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "外洗、内饰清洁和物品补齐的自动化方案不同。",
+        "children": [
+          "清洁车辆外部",
+          "清洁车辆内部",
+          "点配随车物品"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-CAR-T04",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "状态说明、钥匙交付和文件交付分别验收；钥匙柜只对应钥匙。",
+        "children": [
+          "向承租人说明经核查的车辆状态",
+          "交付已授权车辆钥匙",
+          "交付必要车辆文件"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-KEYCAB"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-CAR-T05",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-CAR-T06",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "钥匙归还不能证明车辆和其他随车物件归还，分别列。",
+        "children": [
+          "接收归还车辆钥匙",
+          "核对归还车辆及随车物件"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-KEYCAB"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-CAR-T07",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "外观损伤、里程和燃料/电量是不同测量与判断对象。",
+        "children": [
+          "复核归还车辆损伤",
+          "记录还车里程",
+          "记录还车燃料或电量状态"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-CAR-T08",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "退整备派工与整改后复验分开。",
+        "children": [
+          "暂停出租并移交不合格车辆整备",
+          "复验整备后车辆"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-CAR-T09",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-executor-boundary",
+        "note": "自营许可保养和交外修执行者不同。外修仅记租赁方交接验收，修理工序归维修提供者。",
+        "children": [
+          "执行自营许可保养",
+          "向外部修理方移交车辆并核对结果"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-CAR-T10",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "费用核对与可租状态安全判断分别研究。",
+        "children": [
+          "核对租赁费用",
+          "按验收结果更新车辆可租状态"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-KEYCAB"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-EQUIP-T01",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-PRINTERLEASE"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-EQUIP-T02",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "搬出和附件组配独立验收与核算，后续须按实际资产类别定义。",
+        "children": [
+          "搬出选定租赁资产",
+          "组配租赁物附件"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-EQUIP-T03",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-EQUIP-T04",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-PRINTERLEASE"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-EQUIP-T05",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-PRINTERLEASE"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-EQUIP-T06",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "实体补附件、委托修复和复检不能合一。",
+        "children": [
+          "补齐租赁物附件",
+          "委托修复不合格资产",
+          "复检完成补件或修复的资产"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-PRINTERLEASE"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-EQUIP-T07",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "清洁、保养和入库储存条件不同。",
+        "children": [
+          "清洁归还租赁资产",
+          "完成授权资产保养",
+          "将合格资产存入适当库位"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-EQUIP-T08",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-PRINTERLEASE"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-GUARD-T01",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-GUARD-T02",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-GATE"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-GUARD-T03",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "downgrade-adjacent",
+        "note": "门岗设备不是区域巡查证据，原文已明确不支持，应排除直接支持数量。"
+      },
+      "sourceIds": [
+        "CN-AUTO-GATE"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-GUARD-T04",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-GUARD-T05",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-GATE"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-GUARD-T06",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "报告升级与保护现场是不同结果。",
+        "children": [
+          "报告违法或危险事件",
+          "按权限保护事件现场"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-GUARD-T07",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "实际补巡与更正记录分开。",
+        "children": [
+          "补巡遗漏检查点",
+          "更正经核实的错误登记"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-GUARD-T08",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-GUARD-T09",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "实物查点移交与未决事件交接不同。",
+        "children": [
+          "清点移交钥匙和器材",
+          "交接未决安保事件"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-EVENT-T01",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-SHVENUE"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-EVENT-T02",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "家具搬摆、标识设置、设备组装有不同方案，应分别展开并保留当前缺口。",
+        "children": [
+          "搬摆会场家具",
+          "设置会场标识",
+          "安装租用会展设备"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-EVENT-T03",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "音视频调试与场馆隐患检查分开；SHVENUE只支持列明安全行为识别和传感告警。",
+        "children": [
+          "调试会展音视频等设备",
+          "检查场馆规定安全隐患"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-SHVENUE"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-EVENT-T04",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-SHVENUE"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-EVENT-T05",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "实体设备故障处理和事件升级移交不同。",
+        "children": [
+          "处理权限内设备故障",
+          "升级移交突发事件"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-SHVENUE"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-EVENT-T06",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "场地重布与设备复调分开。",
+        "children": [
+          "重布未符合要求的设施位置",
+          "复调未达要求的设备"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-EVENT-T07",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "撤收、清洁和归库为独立动作。",
+        "children": [
+          "断开并撤收会展设备",
+          "清洁撤回设备",
+          "清点包装并归还仓库"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-EVENT-T08",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-SHVENUE"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-TOUR-T01",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [
+        "CN-AUTO-TRAVELERP"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-TOUR-T02",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项比对任务对象、操作方案和来源适用范围；保留未测投入、持续运行及失败样本缺口。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-TOUR-T03",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对输出、来源适用范围及失败/保护功能区分；不得把标签识别视为内页质量或把缺失案例视为技术不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-TOUR-T04",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对输出、来源适用范围及失败/保护功能区分；不得把标签识别视为内页质量或把缺失案例视为技术不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-TOUR-T05",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对输出、来源适用范围及失败/保护功能区分；不得把标签识别视为内页质量或把缺失案例视为技术不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-TOUR-T06",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对输出、来源适用范围及失败/保护功能区分；不得把标签识别视为内页质量或把缺失案例视为技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-TRAVELERP"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-TOUR-T07",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对输出、来源适用范围及失败/保护功能区分；不得把标签识别视为内页质量或把缺失案例视为技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-TRAVELERP"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-TOUR-T08",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对输出、来源适用范围及失败/保护功能区分；不得把标签识别视为内页质量或把缺失案例视为技术不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-TOUR-T09",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "离站手续协助与行李提醒分别完成，不将航空自助值机记入旅行社。",
+        "children": [
+          "协助旅游者办理约定离站手续",
+          "核对并提醒旅游者携带随身行李"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-LAWARCH-T01",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对输出、来源适用范围及失败/保护功能区分；不得把标签识别视为内页质量或把缺失案例视为技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-DOCBOT"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-LAWARCH-T02",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对输出、来源适用范围及失败/保护功能区分；不得把标签识别视为内页质量或把缺失案例视为技术不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-LAWARCH-T03",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "分类编号与纸质组卷不是同一动作；电子档案功能不证明纸质操作。",
+        "children": [
+          "按归档规则分类编号案卷",
+          "按规则排列并组装纸质案卷"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-ARCHSYS"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-LAWARCH-T04",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "downgrade-adjacent",
+        "note": "通用元数据/检索管理功能只是目录编制候选；没有自动提取、页卷关联或律所采用证明，不计为完整直接支持。"
+      },
+      "sourceIds": [
+        "CN-AUTO-ARCHSYS"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-LAWARCH-T05",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对输出、来源适用范围及失败/保护功能区分；不得把标签识别视为内页质量或把缺失案例视为技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-ARCHARM"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-LAWARCH-T06",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对输出、来源适用范围及失败/保护功能区分；不得把标签识别视为内页质量或把缺失案例视为技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-DOCBOT"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-LAWARCH-T07",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对输出、来源适用范围及失败/保护功能区分；不得把标签识别视为内页质量或把缺失案例视为技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-DOCBOT"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-LAWARCH-T08",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "correct-unsupported-negative",
+        "note": "原notEstablished写“事实识别、取证和上报责任仍未自动化”，来源不足以作不存在自动化的结论。改“本次未取得这些动作已自动完成的证据”。"
+      },
+      "sourceIds": [
+        "CN-AUTO-DOCBOT"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-LAWARCH-T09",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "修补原件与复制留存不同，后者不恢复原件物理状态。",
+        "children": [
+          "按批准方法修补破损材料",
+          "复制需保护的材料并核对可读性"
+        ]
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-LAWARCH-T10",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "split-definition",
+        "note": "库房清洁、环境监测和逐卷存放状态检查不同；ARCHENV只支持系统监测调控。",
+        "children": [
+          "清洁档案库房",
+          "监测库房规定环境参数",
+          "检查案卷存放与污染状态"
+        ]
+      },
+      "sourceIds": [
+        "CN-AUTO-ARCHENV"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-LAWARCH-T11",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对输出、来源适用范围及失败/保护功能区分；不得把标签识别视为内页质量或把缺失案例视为技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-DOCBOT",
+        "CN-AUTO-ARCHARM"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-RECRUIT-T01",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对输出、来源适用范围及失败/保护功能区分；不得把标签识别视为内页质量或把缺失案例视为技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-ATS"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-RECRUIT-T02",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对输出、来源适用范围及失败/保护功能区分；不得把标签识别视为内页质量或把缺失案例视为技术不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-RECRUIT-T03",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对输出、来源适用范围及失败/保护功能区分；不得把标签识别视为内页质量或把缺失案例视为技术不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-RECRUIT-T04",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对输出、来源适用范围及失败/保护功能区分；不得把标签识别视为内页质量或把缺失案例视为技术不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-RECRUIT-T05",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对输出、来源适用范围及失败/保护功能区分；不得把标签识别视为内页质量或把缺失案例视为技术不可行。"
+      },
+      "sourceIds": [
+        "CN-AUTO-ATS",
+        "CN-AUTO-ATSI"
+      ],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-RECRUIT-T06",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "retain-bounded-result-with-gaps",
+        "note": "已逐项核对输出、来源适用范围及失败/保护功能区分；不得把标签识别视为内页质量或把缺失案例视为技术不可行。"
+      },
+      "sourceIds": [],
+      "canFreeze": false
+    },
+    {
+      "taskId": "CN-BS-RECRUIT-T07",
+      "reviewedAt": "2026-09-09",
+      "result": {
+        "action": "downgrade-adjacent",
+        "note": "面试阶段通知不能直接证明正式聘用通知的授权、内容和送达；仅保留待适配的软件机制。"
+      },
+      "sourceIds": [
+        "CN-AUTO-ATSI"
+      ],
+      "canFreeze": false
+    }
+  ],
+  "issues": [
+    {
+      "id": "CN-AUDIT-01",
+      "severity": "red",
+      "category": "locator",
+      "sourceIds": [
+        "CN-AUTO-RFIDLINEN",
+        "CN-AUTO-BJRCB",
+        "CN-AUTO-GATE",
+        "CN-AUTO-RFIDARCH"
+      ],
+      "description": "旧行号指向导航、广告或其他产品，必须改为已核对语义章节和短原文。"
+    },
+    {
+      "id": "CN-AUDIT-02",
+      "severity": "yellow",
+      "category": "date",
+      "sourceIds": [
+        "CN-AUTO-CPIC",
+        "CN-AUTO-BOCOP",
+        "CN-AUTO-GZSALE",
+        "CN-AUTO-BOCATM"
+      ],
+      "description": "页面标题日期、成文/生效日期及URL路径日期不可混作发布日期；未证精确发布日期置空并保留已知日期和依据。"
+    },
+    {
+      "id": "CN-AUDIT-03",
+      "severity": "yellow",
+      "category": "date",
+      "sourceIds": [
+        "CN-AUTO-WASHREG",
+        "CN-AUTO-CK100",
+        "CN-AUTO-BGY",
+        "CN-AUTO-KEYCAB",
+        "CN-AUTO-LUGGAGE",
+        "CN-AUTO-JINGWU"
+      ],
+      "description": "补可见日期或历史产品期间并在引用位置展示；CK100页面2020-01-01可能为站点默认，明确不确定。"
+    },
+    {
+      "id": "CN-AUDIT-04",
+      "severity": "yellow",
+      "category": "alternative-coverage",
+      "sourceIds": [
+        "CN-AUTO-MT1"
+      ],
+      "taskIds": [
+        "CN-AF-ROOM-T12",
+        "CN-RE-OPERATE-T11"
+      ],
+      "description": "补选配自倾倒工作站与可拆卸尘箱的配套条件，仅映射所收集垃圾的清倒，不宣称分类或全维护。"
+    },
+    {
+      "id": "CN-AUDIT-05",
+      "severity": "red",
+      "category": "unsupported-negative",
+      "taskIds": [
+        "CN-BS-LAWARCH-T08"
+      ],
+      "description": "将仍未自动化改成未取得自动完成证据，避免从证据缺失推断不存在技术。"
+    },
+    {
+      "id": "CN-AUDIT-06",
+      "severity": "red",
+      "category": "unsupported-detail",
+      "taskIds": [
+        "CN-FI-CASH-T05"
+      ],
+      "description": "ATM原文是吞卡或不吐钞，删除引用定位不支持的扣账说法。"
+    },
+    {
+      "id": "CN-AUDIT-07",
+      "severity": "yellow",
+      "category": "atomicity",
+      "description": "76条需拆分，列出186条拟议子定义；拆分之后还须逐子动作绑定证据、查缺、验收与核算单位，不能自动继承父项检索完成标记。"
+    },
+    {
+      "id": "CN-AUDIT-08",
+      "severity": "yellow",
+      "category": "scope",
+      "description": "保留局部功能与邻近上下文的区别；刀具/固定设备、衣物、咖啡萃取、公估、仪表准备、巡查和正式聘用通知等见逐任务裁决。"
+    },
+    {
+      "id": "CN-AUDIT-09",
+      "severity": "yellow",
+      "category": "access",
+      "sourceIds": [
+        "CN-AUTO-SAMPLE",
+        "CN-AUTO-RGK",
+        "CN-AUTO-SHVENUE",
+        "CN-AUTO-DISHWASH",
+        "CN-AUTO-ANNOBEV"
+      ],
+      "description": "38来源独立直接核读，4来源官方索引相关正文，SAMPLE仅索引部分；完整独立读取状态须精确标注。"
+    },
+    {
+      "id": "CN-AUDIT-10",
+      "severity": "yellow",
+      "category": "calculation",
+      "description": "205项人工与回报参数留空正确。补初始营运资金与运营期间增量的时点定义，避免未来计算重复扣除；不得把研究疑问升级技术或采用障碍事实。"
+    },
+    {
+      "id": "CN-AUDIT-11",
+      "severity": "yellow",
+      "category": "search-provenance",
+      "description": "205对查询和40条补查结构完整；候选结果来自成对/批次返回，须注明不能归属到特定正向或负向查询。"
+    },
+    {
+      "id": "CN-AUDIT-12",
+      "severity": "yellow",
+      "category": "opportunity",
+      "description": "7条机会均为条件化验证清单；第三条合并餐具洗消与留样，应拆成两个独立验证包；第五条将现行银行规程改为所核读2024-12-11生效版本，并核目标银行适用性。"
+    }
+  ],
+  "note": "独立审校全部205项原稿与43来源；这是修订裁决，不是研究冻结、所有证据已足或验收完成。原稿SHA保持不变。",
+  "sourceReviewStatus": "completed-with-access-and-metadata-corrections",
+  "taskReviewStatus": "all-205-adjudicated-corrections-required",
+  "opportunities": [
+    {
+      "id": "CN-SVC-OPP-01",
+      "review": "retain-conditional-validation-priority",
+      "canFreeze": false,
+      "correction": "按任务拆分更新引用；不赋予收益率排名或已验证机会标签"
+    },
+    {
+      "id": "CN-SVC-OPP-02",
+      "review": "retain-conditional-validation-priority",
+      "canFreeze": false,
+      "correction": "按任务拆分更新引用；不赋予收益率排名或已验证机会标签"
+    },
+    {
+      "id": "CN-SVC-OPP-03",
+      "review": "retain-conditional-validation-priority",
+      "canFreeze": false,
+      "correction": "拆为餐具洗消与留样两个验证包"
+    },
+    {
+      "id": "CN-SVC-OPP-04",
+      "review": "retain-conditional-validation-priority",
+      "canFreeze": false,
+      "correction": "按任务拆分更新引用；不赋予收益率排名或已验证机会标签"
+    },
+    {
+      "id": "CN-SVC-OPP-05",
+      "review": "retain-conditional-validation-priority",
+      "canFreeze": false,
+      "correction": "银行规程标示所读生效版本，未验证当前所有机构适用"
+    },
+    {
+      "id": "CN-SVC-OPP-06",
+      "review": "retain-conditional-validation-priority",
+      "canFreeze": false,
+      "correction": "按任务拆分更新引用；不赋予收益率排名或已验证机会标签"
+    },
+    {
+      "id": "CN-SVC-OPP-07",
+      "review": "retain-conditional-validation-priority",
+      "canFreeze": false,
+      "correction": "按任务拆分更新引用；不赋予收益率排名或已验证机会标签"
+    }
+  ],
+  "structuralChecks": {
+    "taskIdsMatch": true,
+    "sources": 43,
+    "directlyReadSources": 38,
+    "indexedBodySources": 4,
+    "partialIndexedSources": 1,
+    "taskQueryPairs": 205,
+    "taskQueries": 410,
+    "adaptiveQueries": 40,
+    "numericLaborAndPaybackAllNull": true,
+    "splitParents": 76,
+    "proposedChildren": 186,
+    "atomicityApplied": false
+  }
+}

@@ -1,0 +1,469 @@
+{
+  "revisionId": "automation-cn-services-2026-09-09-v2",
+  "date": "2026-09-09",
+  "beforeSha256": "7eb832a70d4ce388e4aee259ec2be0193ee3c1ff4431ff02256cb1cef7275637",
+  "afterSha256": "9fa2bb3a8d8de7ad517e206fe7b41ec327456a9dbd0c7e0e694baafe560b9a9b",
+  "reviewFile": "research/reviews/cn-services-automation-decisions.json",
+  "reviewFileSha256": "7d2e9d91c50763e8e2e4490227c82c1bbcacf8993706d7dc6f811f4fa8dee2d8",
+  "status": "independent-review-complete-corrections-applied-split-work-pending",
+  "isFrozen": false,
+  "sourceRepairs": [
+    {
+      "sourceId": "CN-AUTO-LANDOW",
+      "previousLocators": [
+        "L14；L42–56"
+      ],
+      "locators": [
+        "产品概述 L14；查房与工作管理 L42–56"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-PUDUH",
+      "previousLocators": [
+        "L61；L65–122；L139–145"
+      ],
+      "locators": [
+        "客房配送 L65–80；公区清洁 L84–103；行李/重物搬运 L107–122"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-PUDUD",
+      "previousLocators": [
+        "L61；L78–100"
+      ],
+      "locators": [
+        "营销配送 L78–88；地面保洁 L92–111；全环节覆盖段（独立原HTML）"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-MT1",
+      "previousLocators": [
+        "L61–67；L94–102"
+      ],
+      "locators": [
+        "AI识别 L61–67；人工转场/维护 L94–102；自倾倒 L108–110；可拆卸尘箱与工作站条件 L203–205、L229"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-MANKE",
+      "previousLocators": [
+        "L65；L108–137"
+      ],
+      "locators": [
+        "原料反算 L65；PDA L100–102；批次、保质期与溯源 L108–137"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-ZEEWAY",
+      "previousLocators": [
+        "L155–159；L179–187；L226–238"
+      ],
+      "locators": [
+        "CIP L155–159；流体/颗粒 L179–187；自检维护 L226–228；称重校准 L232–238"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-RFIDLINEN",
+      "previousLocators": [
+        "L85；L102–109"
+      ],
+      "locators": [
+        "发布日期/更新时间 L47；标签嵌入与身份 L62–64；流转读取 L66–68；管理系统 L69–71"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-WASHREG",
+      "previousLocators": [
+        "L29–40；附件一"
+      ],
+      "locators": [
+        "署名与撰写时间 L21–23；常见错误 L29–40；附件一清洗、消毒、保洁 L53–91"
+      ],
+      "dateNotes": [
+        "页面标为撰写时间；没有独立发布字段。"
+      ]
+    },
+    {
+      "sourceId": "CN-AUTO-HOTELCOMP",
+      "previousLocators": [
+        "L22–34；L43–49；L63–65"
+      ],
+      "locators": [
+        "日期 L7；赛事性质 L22–24；观察到滑脱与理床 L29–34；规则 L43–49；经营者访谈 L63–65"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-SAMPLE",
+      "previousLocators": [
+        "L33–45"
+      ],
+      "locators": [
+        "标题下2026-04-21 11:14；索引中当留样盒存入智能留样柜段"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-CITIC",
+      "previousLocators": [
+        "第三章技术需求：L39–62及故障自诊断行"
+      ],
+      "locators": [
+        "2026-05-15变更公告；优先规则 L38；标准修订 L39–40；替换后表格 L50–56"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-BJRCB",
+      "previousLocators": [
+        "L191–193"
+      ],
+      "locators": [
+        "自助设备正文 L214–216；设备目录 L195–207"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-BOCATM",
+      "previousLocators": [
+        "L182；L233"
+      ],
+      "locators": [
+        "2019年宣教标题 L122；银行卡使用 L182；ATM交易时 L233"
+      ],
+      "dateNotes": [
+        "2019 年见正文标题；精确日仅见 URL，首次发布日期未证实。"
+      ]
+    },
+    {
+      "sourceId": "CN-AUTO-BOCOP",
+      "previousLocators": [
+        "PDF1–3页第七条、第八条；第1页生效说明"
+      ],
+      "locators": [
+        "PDF第1页生效说明、第二条境内范围；第1–3页第七/八条"
+      ],
+      "dateNotes": [
+        "PDF 正文没有明确发布日期；未核实此版本是否在 2026 年仍为最新版。"
+      ]
+    },
+    {
+      "sourceId": "CN-AUTO-CPIC",
+      "previousLocators": [
+        "L50–52"
+      ],
+      "locators": [
+        "原页标题括号日期；强强联合，数智引领段（独立提取文本第65、72–73行）"
+      ],
+      "dateNotes": [
+        "标题括号日期与 URL 路径差一天，精确首次发布日期未证实；不证明 2026 年仍运行。"
+      ]
+    },
+    {
+      "sourceId": "CN-AUTO-ARCSOFT",
+      "previousLocators": [
+        "L250–264"
+      ],
+      "locators": [
+        "方案概述、车辆与部件识别、车辆损伤鉴定（独立提取第183–190行）"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-PAWNSYS",
+      "previousLocators": [
+        "L77；L132–188；L200–214"
+      ],
+      "locators": [
+        "四象典当业务管理系统产品概述、业务管理层（独立提取第50、78–89行）"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-TW",
+      "previousLocators": [
+        "产品功能：设备管理 L53–105；查验管理的任务/缺陷/整改/报告 L160–214；实测比较 L202；整改复查 L208"
+      ],
+      "locators": [
+        "巡检/维保与设备维修；现场操作智能便捷；问题整改在线协同（独立提取第72–74、131–135行）；EBA集成，智能监控实现无人化（独立提取87–88行）"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-BGY",
+      "previousLocators": [
+        "L149–160；L173来源说明"
+      ],
+      "locators": [
+        "文章标题下日期；盈禧花园段；来源署名（独立提取第143、154、160行）"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-RGK",
+      "previousLocators": [
+        "L109–127；L165–176；L192–201"
+      ],
+      "locators": [
+        "核心功能—工单管理、设备管理；用户价值—客服工单、设备管理；典型客户"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-GZSALE",
+      "previousLocators": [
+        "第二项、第三项，L135–139"
+      ],
+      "locators": [
+        "通知第二/三项 L137–139；成文日期 L150；实施日期 L143"
+      ],
+      "dateNotes": [
+        "通知成文与生效日期分开；用于二手房出售，不是住房租赁采用证据。"
+      ]
+    },
+    {
+      "sourceId": "CN-AUTO-CK100",
+      "previousLocators": [
+        "L38；L60；L126–147；日常保养和故障章节标题"
+      ],
+      "locators": [
+        "页面标示日期 L20；介绍 L38；AUTO模式 L60；制备 L126–149；维护标题 L163–167"
+      ],
+      "dateNotes": [
+        "页面显示日期可能是站点默认，不能判定型号版本或首次发布日期。"
+      ]
+    },
+    {
+      "sourceId": "CN-AUTO-ZTEZJ",
+      "previousLocators": [
+        "L420；L433–444"
+      ],
+      "locators": [
+        "发布时间 L418；部署自报 L420；诊断 L441；修复分工 L444"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-IDCIM",
+      "previousLocators": [
+        "L440–470；L495–537"
+      ],
+      "locators": [
+        "技术规格：告警 L447–450；备份 L464–465；资产 L494–500；移动/运维 L503–538"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-ALIYUN",
+      "previousLocators": [
+        "操作说明：演练资源费用 L27–37；切换导致复制停止 L111；选择恢复点与检查应用一致性 L117–130；故障恢复流程 L135–160"
+      ],
+      "locators": [
+        "前提 L29–31；演练费用 L37；切换警告 L111；恢复点选择与检查 L117–125；不一致数据换恢复点 L130；故障恢复 L135–156"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-KEYCAB",
+      "previousLocators": [
+        "L116–132"
+      ],
+      "locators": [
+        "文章出处与发布日期；主要功能1–4（独立提取第74、82–94行）"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-PRINTERLEASE",
+      "previousLocators": [
+        "L37–74"
+      ],
+      "locators": [
+        "租赁设备台账管理；多模式抄表智能结算；租赁设备运维保障管理（独立提取第103–113行）"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-GATE",
+      "previousLocators": [
+        "L97–100"
+      ],
+      "locators": [
+        "产品优势：预约登记 L95；门禁联动 L96；名单告警 L98；远程处理 L100"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-SHVENUE",
+      "previousLocators": [
+        "L13；L22；L37"
+      ],
+      "locators": [
+        "2026-06-08署名；一体协同、数字服务、数智安防三个小节"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-TRAVELERP",
+      "previousLocators": [
+        "L15–25；L47–59"
+      ],
+      "locators": [
+        "OTA/旅行综合社 L13–25；业务与计调管理 L47–59"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-TOURBOT",
+      "previousLocators": [
+        "L94–101"
+      ],
+      "locators": [
+        "产品优势 L94–101；应用场景 L120；客户自报摘要 L132–138"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-DOCBOT",
+      "previousLocators": [
+        "L149–157"
+      ],
+      "locators": [
+        "RL-D401产品功能第1–9项 L149–157"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-RFIDARCH",
+      "previousLocators": [
+        "首页产品介绍：一体化平台 L204；十防环境系统 L222；档案软件的收集管理利用 L228"
+      ],
+      "locators": [
+        "首页一体化平台 L184–186；档案管理软件 L190–193；十防系统 L204–205；数字化加工 L209–211"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-ATS",
+      "previousLocators": [
+        "L27；L223–225；L244；L256"
+      ],
+      "locators": [
+        "各来源简历收集入库；测评/笔试；智能自动化机器人助理（独立提取第16–19、54–57、117–118行）"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-ATSI",
+      "previousLocators": [
+        "L39–55"
+      ],
+      "locators": [
+        "自动化处理让批量面试更高效（独立提取第52–60行）"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-VEGWASH",
+      "previousLocators": [
+        "工艺流程 L37–44；清洗去皮 L50–61；工作台 L67；叶菜/根茎切菜机 L72；深洗与振动筛 L78–84"
+      ],
+      "locators": [
+        "工艺流程；浸泡/去皮/清洗/切割/深度清洗/筛分（独立提取第18–48行）"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-DISHWASH",
+      "previousLocators": [
+        "L30；L45–48；L55"
+      ],
+      "locators": [
+        "产品特点—主要结构及工作原理，自动除渣、清洗、漂洗、热风段"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-JINGWU",
+      "previousLocators": [
+        "L6；L15–28；L36–47"
+      ],
+      "locators": [
+        "2021年产品加入说明 L5；标准化清扫 L13；换夹具 L17；功能与场景 L28、L36–51"
+      ],
+      "dateNotes": [
+        "产品档案说明年份；页面首次发表日未知，不证明 2026 年持续运行。"
+      ]
+    },
+    {
+      "sourceId": "CN-AUTO-ANNOBEV",
+      "previousLocators": [
+        "L4–8"
+      ],
+      "locators": [
+        "标题及正文第1–3段"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-LUGGAGE",
+      "previousLocators": [
+        "L80–96；L119–143"
+      ],
+      "locators": [
+        "标题下日期 L64；硬件与配送 L80–111；工作人员绑定流程 L113–143"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-ARCHARM",
+      "previousLocators": [
+        "产品功能第2–4项 L150–152；夹爪过载保护 L160；故障报警 L192"
+      ],
+      "locators": [
+        "RL-S101功能第2–4项 L150–152；对象/架位条件 L153、157；保护 L160；故障告警 L192"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-ARCHSYS",
+      "previousLocators": [
+        "产品功能 L149–150"
+      ],
+      "locators": [
+        "档案管理软件平台产品说明 L149–150"
+      ],
+      "dateNotes": []
+    },
+    {
+      "sourceId": "CN-AUTO-ARCHENV",
+      "previousLocators": [
+        "产品功能 L149"
+      ],
+      "locators": [
+        "十防管理管控系统产品说明 L149"
+      ],
+      "dateNotes": []
+    }
+  ],
+  "taskRepairs": [
+    "删除 LAWARCH-T08 无证据的仍未自动化措辞",
+    "删除 CASH-T05 原文不支持的扣账",
+    "ROOM-T12 与 OPERATE-T11 补选配自倾倒及必要附件条件",
+    "全部任务传播更正后的来源定位、规程层级与审校裁决",
+    "全部任务明确期初及逐期营运资金无重复计入",
+    "技术问题改为围绕本任务输入、输出与验收的待验证问题"
+  ],
+  "unresolved": [
+    "留样设备完整原文仍未独立读齐",
+    "76 个组合任务拆分和每个子项的独立证据核查尚待完成",
+    "全部任务没有可计算回报的现场参数或冻结状态"
+  ]
+}

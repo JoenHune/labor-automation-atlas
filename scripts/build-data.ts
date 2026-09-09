@@ -7,7 +7,7 @@ const read=async(path:string)=>JSON.parse(await readFile(new URL('../'+path,impo
 const cn=await read('research/cn/macro.json'), us=await read('research/us/macro.json')
 const existing=await read('data/research.json')
 const data:Research={
- version:'2026-09-09.working',checkedAt:'2026-09-09',publishedAt:null,freezeStatus:'working',
+ version:existing.version??'2026-09-09.working',checkedAt:'2026-09-09',publishedAt:null,freezeStatus:'working',
  countries:[],sources:[],industries:[],observations:[],scenarios:existing.scenarios??[],tasks:existing.tasks??[],claims:existing.claims??[],searches:existing.searches??[],
 }
 const locator=(v:unknown):string=> typeof v==='string'?v:Object.entries(v as Record<string,unknown>).map(([k,value])=>k+': '+value).join(' · ')

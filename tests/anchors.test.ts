@@ -33,10 +33,17 @@ describe('选区恢复避免错误挂载',()=>{
   anchor.targets[0].contentId='us-industry-row'
   expect(AnchorSchema.safeParse(anchor).success).toBe(false)
  })
+ it('筛选隐藏内容时提示视图不符；筛选键顺序与表格排序不破坏定位',async()=>{
+  const {anchor,block,scope}=await fixture()
+  anchor.view.filters={taskQuery:'清洁',taskStatus:'in-progress'}
+  expect(resolveTargets(anchor,[],{...scope,filters:{taskQuery:'维修'}})).toMatchObject({status:'wrong-view',changed:[]})
+  anchor.view.sort='name'
+  expect(resolveTargets(anchor,[block],{...scope,filters:{taskStatus:'in-progress',taskQuery:'清洁',empty:''}}).status).toBe('resolved')
+  expect(resolveTargets(anchor,[block],{...scope,focus:'cn-another',filters:anchor.view.filters}).status).toBe('wrong-view')
+ })
  it('跨组件截取仅保留每个交集；重叠标记聚合',()=>{
   expect(relativeRect({x:80,y:0,width:40,height:30},{x:0,y:0,width:100,height:30})).toEqual({x:.8,y:0,width:.2,height:1})
   expect(clusterMarkers([{id:'a',x:0,y:0},{id:'b',x:10,y:0},{id:'c',x:100,y:0}]).map(g=>g.items.length)).toEqual([2,1])
  })
  it('关闭必须具备原因和说明',()=>expect(StateChangeSchema.safeParse({state:'closed',reason:null,explanation:'',idempotencyKey:'b461522f-9b34-4b6e-bb6f-7a1bbdc68c7d'}).success).toBe(false))
 })
-

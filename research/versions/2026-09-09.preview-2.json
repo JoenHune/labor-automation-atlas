@@ -1,0 +1,26 @@
+{
+  "version": "2026-09-09.preview-2",
+  "date": "2026-09-09",
+  "status": "research-preview-not-frozen",
+  "inputs": {
+    "research/inventories/cn-core.json": "b13c875562b39528d886f32d03c13c0af992d489fd4599e6d030729633376c10",
+    "research/inventories/cn-services.json": "800d61b89f845963f6fcad9a05f8e42304f285e4002d771cd6d95cc1fbfc3c0b",
+    "research/inventories/us-core.json": "7feeeb264545b41681f95245a35625986bcb65326a4b0a25db47c98ef39046c5",
+    "research/inventories/us-services.json": "df7eae9e161d63fffc89df3d2ed6cc8ebf3641945acfe16b913a5d80a6536978",
+    "research/automation/cn-services.json": "9fa2bb3a8d8de7ad517e206fe7b41ec327456a9dbd0c7e0e694baafe560b9a9b",
+    "research/automation/cn-services-search-audit.json": "655e7a8ec93f4c2144a5f17311834663b416ec8b64232635cef9542135ff1908",
+    "research/reviews/cn-services-automation-decisions.json": "7d2e9d91c50763e8e2e4490227c82c1bbcacf8993706d7dc6f811f4fa8dee2d8"
+  },
+  "changes": [
+    "中国服务业205项原定义的公开研究与独立审校修订接入任务页",
+    "页面显示来源时期、不同日期依据、局部功能及部署层级",
+    "76个组合任务拟议拆分保持待办，不继承子项检索完成状态",
+    "扩展候选清单，2份样板继续作为组合参考",
+    "筛选条件隐藏内容时不误报原文改变"
+  ],
+  "limitations": [
+    "全部任务尚未研究与冻结",
+    "GitHub App/R2及真实身份交互未完成",
+    "新研究页浏览器导航复测仍待完成"
+  ]
+}

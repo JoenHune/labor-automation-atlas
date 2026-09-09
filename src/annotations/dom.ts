@@ -1,4 +1,4 @@
-import {fingerprint,normalizeText,relativeRect,intersect,absoluteRect,quoteMatches} from './anchors'
+import {fingerprint,normalizeText,relativeRect,intersect,absoluteRect,quoteMatches,sameContentView} from './anchors'
 import {AnchorSchema,type Anchor,type Rect,type Target,type ViewState} from './schema'
 export interface LiveBlock {id:string;element:HTMLElement;rect:Rect;fingerprint:string;text:string;kind:Target['kind'];points:Target['dataPoints'];pointRects:(Target['dataPoints'][number]&{rect:Rect})[];space?:boolean}
 export const rectOf=(r:DOMRect|DOMRectReadOnly):Rect=>({x:r.x,y:r.y,width:r.width,height:r.height})
@@ -129,7 +129,7 @@ export async function createAnchor(selection:Rect,scope:{country:Anchor['country
 }
 export async function resolveAnchor(anchor:Anchor,scope:{country:string;page:string},blocks?:LiveBlock[]) {
  const view=currentView()
- if(anchor.country!==scope.country||anchor.page!==scope.page||anchor.view.year!==view.year||anchor.view.focus!==view.focus)return {status:'wrong-view' as const,rects:[] as Rect[]}
+ if(anchor.country!==scope.country||anchor.page!==scope.page||!sameContentView(anchor.view,view))return {status:'wrong-view' as const,rects:[] as Rect[]}
  const current=blocks??await liveBlocks(),rects:Rect[]=[]
  for(const target of anchor.targets) {
   let b=current.find(b=>b.id===target.contentId)

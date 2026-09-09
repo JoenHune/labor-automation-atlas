@@ -22,6 +22,10 @@ export const SourceSchema = z.object({
   archive: z.string().optional(),
   sha256: z.string().regex(/^[a-f0-9]{64}$/).optional(),
   limitations: z.array(nonempty),
+  dates:z.array(z.object({kind:z.enum(['updated','authored','effective','displayed','url-only']),value:date,note:nonempty})).optional(),
+  evidencePeriod:nonempty.optional(),
+  evidenceLevel:nonempty.optional(),
+  readStatus:nonempty.optional(),
 })
 export const ObservationSchema = z.object({
   id: ID, country: CountrySchema, industryId: ID,
@@ -85,8 +89,9 @@ export const SearchSchema = z.object({
   direction:z.enum(['workflow', 'occupation', 'automation', 'counterevidence']),
   query:nonempty, searchedOn:date,
   results:z.array(ID),
-  outcome:z.enum(['evidence-found','no-relevant-result','access-blocked']),
+  outcome:z.enum(['evidence-found','no-relevant-result','access-blocked','completed-candidates-unattributed']),
   note:nonempty,
+  audit:z.object({file:nonempty,id:nonempty,sha256:nonempty}).optional(),
 })
 export const TaskSchema = z.object({
   id:ID, country:CountrySchema, industryId:ID, scenarioId:ID,
