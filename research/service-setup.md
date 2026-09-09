@@ -4,7 +4,7 @@
 
 ## 目标资源
 - 公开仓库：JoenHune/labor-automation-atlas。
-- 前台：https://joenhune.github.io/labor-automation-atlas/（仅在Pages成功部署后可访问）。
+- 前台：https://joen.site/labor-automation-atlas/（仅在Pages成功部署后可访问）。
 - Worker：labor-automation-atlas-api；域名 https://labor-automation-atlas-api.kongy6.workers.dev 。
 - D1：labor-automation-atlas，数据库ID b5814f69-7bf7-4e3d-a047-57e3be22883f；两项迁移已通过账号控制台执行，业务表及迁移表已核对。Worker绑定DB仍待配置。
 - R2：labor-automation-atlas-snapshots，绑定SNAPSHOTS，不开放桶列表。
