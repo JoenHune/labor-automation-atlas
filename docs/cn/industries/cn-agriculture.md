@@ -1,4 +1,7 @@
 ---
-title: 农林牧渔业
+title: "农林牧渔业"
 ---
-<IndustryView industry-id="cn-agriculture" />
+<script setup>
+import record from "../../.generated/industries/cn-agriculture.json"
+</script>
+<IndustryView :record="record" />

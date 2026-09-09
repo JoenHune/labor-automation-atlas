@@ -1,20 +1,35 @@
 {
- "$schema": "node_modules/wrangler/config-schema.json",
- "name": "labor-automation-atlas-api",
- "main": "worker/index.ts",
- "compatibility_date": "2026-09-09",
- "workers_dev": true,
- "triggers": {"crons": ["17 * * * *"]},
- "d1_databases": [
-  {"binding": "DB", "database_name": "labor-automation-atlas", "migrations_dir": "worker/migrations"}
- ],
- "r2_buckets": [
-  {"binding": "SNAPSHOTS", "bucket_name": "labor-automation-atlas-snapshots"}
- ],
- "vars": {
-  "SITE_ORIGIN": "https://joenhune.github.io",
-  "SITE_BASE_PATH": "/labor-automation-atlas/",
-  "GITHUB_OWNER": "JoenHune",
-  "GITHUB_REPO": "labor-automation-atlas"
- }
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "labor-automation-atlas-api",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-09-09",
+  "workers_dev": true,
+  "triggers": {
+    "crons": [
+      "17 * * * *"
+    ]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "labor-automation-atlas",
+      "database_id": "b5814f69-7bf7-4e3d-a047-57e3be22883f",
+      "migrations_dir": "worker/migrations"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "SNAPSHOTS",
+      "bucket_name": "labor-automation-atlas-snapshots"
+    }
+  ],
+  "vars": {
+    "SITE_ORIGIN": "https://joenhune.github.io",
+    "SITE_BASE_PATH": "/labor-automation-atlas/",
+    "GITHUB_OWNER": "JoenHune",
+    "GITHUB_REPO": "labor-automation-atlas",
+    "API_ORIGIN": "https://labor-automation-atlas-api.kongy6.workers.dev",
+    "GITHUB_REPOSITORY_ID": "1362222824"
+  },
+  "account_id": "c4b4a02da327e3519252b16ec4a0bf17"
 }

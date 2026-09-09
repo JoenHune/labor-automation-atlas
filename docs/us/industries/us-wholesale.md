@@ -1,4 +1,7 @@
 ---
-title: 批发业
+title: "批发业"
 ---
-<IndustryView industry-id="us-wholesale" />
+<script setup>
+import record from "../../.generated/industries/us-wholesale.json"
+</script>
+<IndustryView :record="record" />

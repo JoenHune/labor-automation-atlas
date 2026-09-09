@@ -583,6 +583,114 @@
       "executedAt": "2026-09-09",
       "purpose": "行业缺口拓展、原始规范与实际发布时间核验",
       "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-084",
+      "query": "site.mee.gov.cn \"排污许可证\" \"技术规范\" \"纺织印染\"",
+      "executedAt": "2026-09-09",
+      "purpose": "继续拓展工业未覆盖门类，结果尚未转为任务来源",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-085",
+      "query": "site.mee.gov.cn \"排污许可证\" \"技术规范\" \"橡胶\"",
+      "executedAt": "2026-09-09",
+      "purpose": "继续拓展工业未覆盖门类，结果尚未转为任务来源",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-086",
+      "query": "site.mee.gov.cn \"排污许可证\" \"食品制造\"",
+      "executedAt": "2026-09-09",
+      "purpose": "继续拓展工业未覆盖门类，结果尚未转为任务来源",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-087",
+      "query": "site.mee.gov.cn \"排污许可证\" \"通用设备\"",
+      "executedAt": "2026-09-09",
+      "purpose": "继续拓展工业未覆盖门类，结果尚未转为任务来源",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-088",
+      "query": "site.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/ \"纺织印染工业\"",
+      "executedAt": "2026-09-09",
+      "purpose": "工业门类原始流程和版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-089",
+      "query": "site.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/ \"食品制造工业\" \"乳制品\"",
+      "executedAt": "2026-09-09",
+      "purpose": "工业门类原始流程和版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-090",
+      "query": "site.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/ \"金属铸造\"",
+      "executedAt": "2026-09-09",
+      "purpose": "工业门类原始流程和版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-091",
+      "query": "site.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/ \"石油天然气\"",
+      "executedAt": "2026-09-09",
+      "purpose": "工业门类原始流程和版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-092",
+      "query": "\"HJ 1030.1-2019\" 生态环境部",
+      "executedAt": "2026-09-09",
+      "purpose": "工业门类原始流程和版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-093",
+      "query": "\"排污许可证\" \"纺织印染工业\" \"HJ 861\"",
+      "executedAt": "2026-09-09",
+      "purpose": "工业门类原始流程和版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-094",
+      "query": "\"HJ 1115\" \"W020200310\"",
+      "executedAt": "2026-09-09",
+      "purpose": "工业门类原始流程和版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "id": "cn-core-search-095",
+      "query": "\"HJ1122—2020\" \"pdf\"",
+      "executedAt": "2026-09-09",
+      "purpose": "工业门类原始流程和版本核对",
+      "automationEvidenceSearch": false
+    },
+    {
+      "query": "site.mee.gov.cn 排污许可证 通用设备 专用设备 制造 HJ 2020",
+      "date": "2026-09-09",
+      "intent": "继续扩展未覆盖工业门类的真实工艺规范",
+      "status": "searched-not-all-sources-read"
+    },
+    {
+      "query": "site.mee.gov.cn 排污许可证 化学原料 化学纤维 石油炼制 水泥 玻璃",
+      "date": "2026-09-09",
+      "intent": "继续扩展未覆盖工业门类的真实工艺规范",
+      "status": "searched-not-all-sources-read"
+    },
+    {
+      "query": "site.mee.gov.cn 排污许可证 食品制造 乳制品 酒 饮料 HJ",
+      "date": "2026-09-09",
+      "intent": "继续扩展未覆盖工业门类的真实工艺规范",
+      "status": "searched-not-all-sources-read"
+    },
+    {
+      "query": "site.mee.gov.cn 排污许可证 木材加工 皮革 服装 印刷",
+      "date": "2026-09-09",
+      "intent": "继续扩展未覆盖工业门类的真实工艺规范",
+      "status": "searched-not-all-sources-read"
     }
   ],
   "sourceReads": [
@@ -640,9 +748,40 @@
         "pipe-install",
         "decoration",
         "window",
-        "earthwork"
+        "earthwork",
+        "mechanical-install",
+        "rural-builder",
+        "waterproof",
+        "fiber-pre",
+        "cotton-pre",
+        "spinning",
+        "weaving",
+        "dye-pre",
+        "dyeing",
+        "textile-print",
+        "textile-finish",
+        "rubber",
+        "tyre-retread",
+        "plastic",
+        "foundry",
+        "oil-processing",
+        "feed-processing",
+        "fish-processing",
+        "fish-refining",
+        "bulk-mechanic",
+        "conveyor",
+        "ship-agent",
+        "cement-production",
+        "glass-melt",
+        "glass-form",
+        "prepress",
+        "printing",
+        "postpress",
+        "battery",
+        "pv-module",
+        "drug-formulation"
       ],
-      "readMethod": "下载 PDF 并提取原文；封面与有关页已核对"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-wheat-service-2024",
@@ -651,7 +790,7 @@
       "locatorIds": [
         "requirements"
       ],
-      "readMethod": "官方网页检索展开原文；直接页面间歇性 404/抓取失败"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-vegetable-2021",
@@ -663,7 +802,7 @@
         "harvest",
         "abnormal"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-apple-autumn-2023",
@@ -675,7 +814,7 @@
         "fruit",
         "health"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-apple-summer-2022",
@@ -684,7 +823,7 @@
       "locatorIds": [
         "disaster"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-mushroom-2026",
@@ -694,7 +833,7 @@
         "facility",
         "bags"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-mushroom-hygiene-2023",
@@ -704,7 +843,7 @@
         "contamination",
         "pests"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-pig-health-2023",
@@ -717,7 +856,7 @@
         "husbandry",
         "transfer"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-milk-station-2009",
@@ -729,7 +868,7 @@
         "milking",
         "clean"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-aquaculture-summer-2023",
@@ -741,7 +880,7 @@
         "shellfish",
         "disease"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-forest-restoration-2021",
@@ -752,7 +891,7 @@
         "plant",
         "accept"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-ag-outsourcing-2019",
@@ -761,7 +900,7 @@
       "locatorIds": [
         "service"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-coal-rule-2025",
@@ -772,7 +911,7 @@
         "miner",
         "scraper"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-power-hj953-2026",
@@ -781,7 +920,7 @@
       "locatorIds": [
         "units"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-steel-hj846-2026",
@@ -790,7 +929,7 @@
       "locatorIds": [
         "units"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-paper-hj1482-2026",
@@ -800,7 +939,7 @@
         "pulp",
         "paper"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-auto-hj971-2026",
@@ -809,7 +948,7 @@
       "locatorIds": [
         "units"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-electronics-hj1031-2019",
@@ -819,7 +958,7 @@
         "pcb",
         "components"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-furniture-hj1027-2019",
@@ -829,7 +968,7 @@
         "wood",
         "scope"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-wastewater-hj978-2018",
@@ -839,7 +978,7 @@
         "treatment",
         "outlet"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-gas-gb55009-2021",
@@ -851,7 +990,7 @@
         "lng",
         "cylinder"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-food-retail-gb31621-2014",
@@ -863,7 +1002,7 @@
         "sales",
         "recall"
       ],
-      "readMethod": "PDF全部5页有效正文已读取"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-roadfreight-2026",
@@ -874,7 +1013,7 @@
         "road",
         "station"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-express-rule-2023",
@@ -885,7 +1024,7 @@
         "deliver",
         "safety"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     },
     {
       "sourceId": "cn-concrete-db1832-2021",
@@ -899,7 +1038,149 @@
         "concrete-pump",
         "concrete-cast"
       ],
-      "readMethod": "读取原始网页有关条款或提取原始PDF的所列页段；不代表已逐页读完全文"
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
+    },
+    {
+      "sourceId": "cn-decoration-db1832-2022",
+      "url": "https://dbba.sacinfo.org.cn/portal/download/d3c0e94118703a2dbe066b1c1247108e1d031f6ded8596e3a616df7fa417d45d",
+      "readStatus": "selected-original-pdf-pages-read",
+      "locatorIds": [
+        "general",
+        "external-tile",
+        "interior-coat",
+        "mortar-plaster",
+        "partition",
+        "ceiling"
+      ],
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
+    },
+    {
+      "sourceId": "cn-rural-water-ln-2013",
+      "url": "https://slt.ln.gov.cn/slt/zfxxgk/fdzdgknr/lzyj/bbmgfxwj/2025042116584218642/index.shtml",
+      "readStatus": "original-relevant-sections-read",
+      "locatorIds": [
+        "materials",
+        "pipeline",
+        "pressure-flush",
+        "water-tank",
+        "pump-equipment",
+        "electrical"
+      ],
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
+    },
+    {
+      "sourceId": "cn-textile-hj861-2017",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201710/W020171010507884353215.pdf",
+      "readStatus": "selected-original-pdf-pages-read",
+      "locatorIds": [
+        "units"
+      ],
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
+    },
+    {
+      "sourceId": "cn-foundry-hj1115-2020",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202003/W020200310519293485501.pdf",
+      "readStatus": "selected-original-pdf-pages-read",
+      "locatorIds": [
+        "scope",
+        "units"
+      ],
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
+    },
+    {
+      "sourceId": "cn-rubber-plastic-hj1122-2020",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401327032592051.pdf",
+      "readStatus": "selected-original-pdf-pages-read",
+      "locatorIds": [
+        "rubber",
+        "plastic"
+      ],
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
+    },
+    {
+      "sourceId": "cn-feed-oil-hj1110-2020",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202003/W020200304702000053087.pdf",
+      "readStatus": "selected-original-pdf-pages-read",
+      "locatorIds": [
+        "scope",
+        "units"
+      ],
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
+    },
+    {
+      "sourceId": "cn-fish-hj1109-2020",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202003/W020200304699417594541.pdf",
+      "readStatus": "selected-original-pdf-pages-read",
+      "locatorIds": [
+        "scope",
+        "units"
+      ],
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
+    },
+    {
+      "sourceId": "cn-harbor-hj1107-2020",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202003/W020200304692515262514.pdf",
+      "readStatus": "selected-original-pdf-pages-read",
+      "locatorIds": [
+        "scope",
+        "units",
+        "dust"
+      ],
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
+    },
+    {
+      "sourceId": "cn-cement-hj847-2017",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201708/W020170802617396676231.pdf",
+      "readStatus": "selected-original-pdf-pages-read",
+      "locatorIds": [
+        "scope",
+        "units"
+      ],
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
+    },
+    {
+      "sourceId": "cn-flatglass-hj856-2017",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201709/W020170918582848574342.pdf",
+      "readStatus": "selected-original-pdf-pages-read",
+      "locatorIds": [
+        "scope",
+        "units"
+      ],
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
+    },
+    {
+      "sourceId": "cn-print-hj1066-2019",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201912/W020240730350115357933.pdf",
+      "readStatus": "selected-original-pdf-pages-read",
+      "locatorIds": [
+        "scope",
+        "units"
+      ],
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
+    },
+    {
+      "sourceId": "cn-battery-hj967-2018",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201809/W020180927573097842473.pdf",
+      "readStatus": "selected-original-pdf-pages-read",
+      "locatorIds": [
+        "scope",
+        "lead",
+        "lithium",
+        "solar"
+      ],
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
+    },
+    {
+      "sourceId": "cn-pharma-hj1063-2019",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201912/W020200103326295794926.pdf",
+      "readStatus": "selected-original-pdf-pages-read",
+      "locatorIds": [
+        "scope",
+        "solid",
+        "liquid",
+        "utilities"
+      ],
+      "readMethod": "已读取所列网页条款或PDF页段；全文下载不代表逐页阅读"
     }
   ],
   "exclusions": [
@@ -948,11 +1229,19 @@
     {
       "url": "https://sjw.nanjing.gov.cn/gdzsj/zcfg/bmgz/202310/P020231026571138062651.pdf",
       "issue": "直接读取失败，搜索摘要不足以声称全文已读，未作为任务正文来源"
+    },
+    {
+      "date": "2026-09-09",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201912/W020200103326295794926.pdf",
+      "issue": "PDF文本提取产生 Bad annotation destination 警告，混入stdout导致JSON读取两次失败",
+      "resolution": "单独捕获PDF注释警告后成功取得正文；警告涉及注释跳转，不据此宣称全文无损"
     }
   ],
   "limitations": [
     "尚未进行每个任务自动化成功/失败/退出/未采用检索。",
     "浏览器抓取日期不作为发布时间；网页 URL 日期与正文日期不同时以原文说明。",
-    "未核读完整条文的材料只列线索，不视为已完成双路径流程证据。"
+    "未核读完整条文的材料只列线索，不视为已完成双路径流程证据。",
+    "辽宁农村水利技术要求正文为2013年6月；2025-04-17仅网页转载时间，历史动作路径须补现行规范。",
+    "装饰装修正式全文由SAMR官方元数据的公开预览链接取得；不采用此前2021征求意见稿。"
   ]
 }

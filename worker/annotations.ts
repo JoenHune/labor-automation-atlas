@@ -2,7 +2,7 @@ import { z } from 'zod'
 import {CreateAnnotationSchema,ReplySchema,StateChangeSchema,Scope,type Annotation} from '../src/annotations/schema'
 import {type Env,type Session,HttpError,json,now} from './types'
 import {authenticate,userToken} from './auth'
-import {readJson} from './security'
+import {readJson,b64url,unb64} from './security'
 import {github,installationToken,repoPath} from './github'
 import {annotationTitle,embedMarker} from './metadata'
 import {annotationRow,readIssue,syncIssue,refreshIndex,canManage,recoverOperationIssue,recoverOperationComment,issueComments,type AnnotationRow,type GitHubIssue,type GitHubComment} from './discussions'
@@ -25,9 +25,12 @@ export async function annotationRoute(request:Request,env:Env):Promise<Response|
   if(country!==prefix||!page.startsWith('/')||page.length>500)throw new HttpError(400,'scope','页面与国家不符')
   let warning:string|null=null
   try{await refreshIndex(env)}catch{warning='最新状态暂时无法刷新；以下为上次同步结果'}
-  const rows=await env.DB.prepare('SELECT * FROM annotations WHERE country=? AND page=? AND deleted_at IS NULL ORDER BY github_updated_at DESC LIMIT 301').bind(country,page).all<AnnotationRow>()
-  if(rows.results.length>300)throw new HttpError(503,'page-overflow','本页批注过多，需启用分页后加载，当前不返回不完整结果')
-  return json({annotations:rows.results.map(r=>JSON.parse(r.cached_json)),warning,indexFetchedAt:(await env.DB.prepare('SELECT fetched_at FROM github_cache WHERE cache_key=?').bind('issue-index').first<{fetched_at:number}>())?.fetched_at??null})
+  let after:{updated:string;id:string}|null=null
+  if(url.searchParams.has('cursor'))try{const cursor=url.searchParams.get('cursor')!;if(cursor.length>500)throw new Error();after=z.object({updated:z.iso.datetime(),id:z.uuid()}).parse(JSON.parse(new TextDecoder().decode(unb64(cursor))))}catch{throw new HttpError(400,'cursor','批注分页位置无效，请刷新页面')}
+  const rows=await env.DB.prepare('SELECT * FROM annotations WHERE country=? AND page=? AND deleted_at IS NULL'+(after?' AND (github_updated_at < ? OR (github_updated_at = ? AND id > ?))':'')+' ORDER BY github_updated_at DESC,id ASC LIMIT 101').bind(country,page,...(after?[after.updated,after.updated,after.id]:[])).all<AnnotationRow>()
+  const visible=rows.results.slice(0,100),last=visible.at(-1)
+  const nextCursor=rows.results.length>100&&last?b64url(new TextEncoder().encode(JSON.stringify({updated:last.github_updated_at,id:last.id}))):null
+  return json({annotations:visible.map(r=>JSON.parse(r.cached_json)),warning,nextCursor,indexFetchedAt:(await env.DB.prepare('SELECT fetched_at FROM github_cache WHERE cache_key=?').bind('issue-index').first<{fetched_at:number}>())?.fetched_at??null})
  }
  const match=path.match(/^\/annotations\/([a-f0-9-]{36})(?:\/(comments|state))?$/)
  if(match&&request.method==='GET'&&!match[2]) {
@@ -79,7 +82,9 @@ export async function annotationRoute(request:Request,env:Env):Promise<Response|
     const body=await embedMarker(input.body,{kind:'reply',annotationId:row.id,parentCommentId:input.parentCommentId,operationKey:input.idempotencyKey,authorId:user.user_id},env.METADATA_SIGNING_KEY)
     comment=await sendOnce(env,operation,()=>github<GitHubComment>(repoPath(env)+'/issues/'+row.issue_number+'/comments',token,{method:'POST',body:JSON.stringify({body})}))
    }
-   const annotation=await syncIssue(await readIssue(row.issue_number,env,token),env,token)
+   const issue=await readIssue(row.issue_number,env,token),annotation=await syncIssue(issue,env,token)
+   if(!annotation)throw new HttpError(503,'index-pending','评论已保存；批注索引正在恢复，请用同一提交重试')
+   annotation.canClose=await canManage(issue,user,env)
    return json(await completeOperation(env,operation,{annotation,commentId:comment.id},comment.id),201)
   }finally{await unlockOperation(env,operation)}
  }

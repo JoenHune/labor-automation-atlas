@@ -10,6 +10,8 @@ for(const filename of ['cn-injection-molding-part-removal','us-cnc-machine-tendi
  const raw=JSON.parse(await readFile(new URL('research/samples/'+filename+'.json',root),'utf8')) as Raw
  const country=raw.country.toLowerCase() as 'cn'|'us',taskId=lower(raw.taskId),industryId=country==='cn'?'cn-industry':'us-manufacturing'
  const scenarioId=country+'-sample-scenario'
+ const review=raw.research?.independentReview
+ const reviewed=Boolean(review?.status?.startsWith('passed')&&review.reviewer&&review.date&&review.report)
  const sourceMap=new Map<string,Raw>(raw.sources.map((s:Raw)=>[s.id,s]))
  const sourceRefs=(ids:string[])=>ids.map(id=>({sourceId:lower(id),locator:sourceMap.get(id)!.locators.map((l:Raw)=>l.section+(l.pdfPageOneBased?' · PDF第'+l.pdfPageOneBased+'页':'')).join('；')}))
  const claimEvidence=(entries:Raw[])=>entries.map(e=>{
@@ -29,7 +31,7 @@ for(const filename of ['cn-injection-molding-part-removal','us-cnc-machine-tendi
   const claim={
    id:lower(c.id),country,taskId,kind:({direct_fact:'fact',research_judgment:'judgment',unverified_hypothesis:'hypothesis'} as const)[c.kind as 'direct_fact'],
    text:c.text,conditions:[c.scope,c.limitations].filter(Boolean),evidence:claimEvidence(c.evidence??[]),basedOn:[],
-   status:'reviewed' as const,deployment:vendor?'vendor-report' as const:lab?'laboratory' as const:'not-applicable' as const,
+   status:reviewed?'reviewed' as const:'draft' as const,deployment:vendor?'vendor-report' as const:lab?'laboratory' as const:'not-applicable' as const,
   }
   data.claims=data.claims.filter(x=>x.id!==claim.id);data.claims.push(claim)
  }
@@ -72,7 +74,7 @@ for(const filename of ['cn-injection-molding-part-removal','us-cnc-machine-tendi
   conclusionIds:raw.conclusion.basisClaimIds.map(lower),counterevidenceIds:[...new Set([...raw.counterEvidence.successCounterexample.claimIds,...(raw.counterEvidence.notAdopted.claimIds??[]),...(country==='cn'?['CN-C11']:['US-C12'])])].map(id=>lower(String(id))),
   evidenceGaps:raw.evidenceGaps.map((g:Raw)=>g.gap+'（影响：'+g.blocks+'）'),
   interviewQuestions:raw.interviews.map((i:Raw)=>i.targetRole+'：'+i.question),
-  searchIds,researchStatus:'reviewed',review:{reviewer:raw.research.independentReview.reviewer,date:raw.research.independentReview.date,notes:raw.research.independentReview.reason+'；'+raw.research.independentReview.report},summary:raw.conclusion.text,evidenceAge:raw.conclusion.visibleEvidenceAge,dossier:raw,
+  searchIds,researchStatus:reviewed?'reviewed':'in-progress',review:reviewed?{reviewer:review.reviewer,date:review.date,notes:(review.reason??'复核通过且保留明示证据缺口')+'；'+review.report}:null,summary:raw.conclusion.text,evidenceAge:raw.conclusion.visibleEvidenceAge,dossier:raw,
  }
  data.tasks=data.tasks.filter(x=>x.id!==taskId);data.tasks.push(task)
 }

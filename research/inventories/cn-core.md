@@ -2,7 +2,7 @@
 
 研究日期：2026-09-09。本文件是可追溯的任务发现增量，未冻结，也未完成全任务自动化证据研究。
 
-当前 42 个场景、564 条已识别/待核任务。任务数是清单行数，不是工人数、工时或统计覆盖率。
+当前 92 个场景、1050 条已识别/待核任务。任务数是清单行数，不是工人数、工时或统计覆盖率。
 
 ## 阅读与计数规则
 
@@ -66,6 +66,37 @@
   - decoration：PDF第545页，6-29-04-01 装饰装修工。清理、抹涂裱镶铺缝、隔墙吊顶、设施安装
   - window：PDF第545页，6-29-04-02 建筑门窗幕墙安装工。部件加工、测量、装配安装调试密封及机具维护
   - earthwork：PDF第553页，6-30-05-05 挖掘铲运和桩工机械司机。挖铲填运、成桩、机械设置调试、保养故障记录
+  - mechanical-install：PDF第542页，6-29-03-01 机械设备安装工，任务1—6。开箱就位调整测试、组装、空负荷和负荷试运、排故及记录
+  - rural-builder：PDF第536页，6-29-01-07 乡村建设工匠，任务1—9。识图材料准备、砌抹防水钢筋混凝土、给排水电气及乡村基础设施施工、自检记录
+  - waterproof：PDF第539页，6-29-02-08 防水工，任务1—5。基底处理、防水层与细部施工、缺陷修补和保护
+  - fiber-pre：PDF第343页，6-04-01-02，主要工作任务。丝麻毛开松清洗脱胶煮茧等预处理
+  - cotton-pre：PDF第342—343页，6-04-01-01/03/04/05，主要工作任务。开清梳并粗纱、接换落卷清洁和异常
+  - spinning：PDF第344页，6-04-02-01，主要工作任务。换粗纱、细纱络筒并捻、断头纱疵及机台清洁
+  - weaving：PDF第344—345页，6-04-03-01/02/03，主要工作任务。整经上浆穿经上轴织布、断经纬处置、落布验修
+  - dye-pre：PDF第347页，6-04-06-01，主要工作任务。配液缝头引布、烧毛退煮漂丝光、质量检查异常清洁
+  - dyeing：PDF第347—348页，6-04-06-02，主要工作任务。打样染前检验、化料染色洗固脱烘、异常废物清洁
+  - textile-print：PDF第348页，6-04-06-03/04，主要工作任务。花网检查、打样印花走布固色、版网制作修补及回收
+  - textile-finish：PDF第348—349页，6-04-06-05/06，主要工作任务。配液送料、拉幅定型功能整理、落布质量异常记录和剩料回收
+  - rubber：PDF第413页，6-14-01-01，主要工作任务。计配混炼、压延挤出成型硫化、检验维护记录
+  - tyre-retread：PDF第413—414页，6-14-01-02，主要工作任务。选胎检验修补削磨、胎面贴合和硫化
+  - plastic：PDF第414页，6-14-02-00，主要工作任务。混合造粒测色、挤注压延模压泡沫吹塑烧结及焊接
+  - foundry：PDF第466页，6-18-02-01，主要工作任务。型芯砂回用、造型制芯合箱、熔炼浇注、清理修补及维护
+  - oil-processing：PDF第324页，6-01-01-03，主要工作任务。油料预处理、压榨浸出、溶剂回收、精炼、油脂与粕壳包装仓储、监控维护
+  - feed-processing：PDF第324页，6-01-02-00，主要工作任务。原料添加剂核验、清理粉碎、按配方称量混合、调质成型干燥、质量检验与维护
+  - fish-processing：PDF第326页，6-01-05-01，主要工作任务。腌制、分割采肉制糜、配料、干燥熟化熏制、成型计量杀菌包装与清洁消毒
+  - fish-refining：PDF第327页，6-01-05-02，主要工作任务。水产原料浸泡洗涤绞碎、消化、分离提纯、浓缩脱水干燥、磨粉配料杀菌包装与清洁
+  - bulk-mechanic：PDF第552页，6-30-05-01，主要工作任务。起重装卸机械检查调整、吊运叉运、散货专用装卸、翻车机和设备维护
+  - conveyor：PDF第553页，6-30-05-03，主要工作任务。输送机运料、给卸料分配、检查跑偏托辊、除尘泵、胶接皮带与清扫维护
+  - ship-agent：PDF第197页，4-02-03-02，主要工作任务。水路运输票据、靠港中转装卸保管交接的业务办理；不证明装卸工时
+  - cement-production：PDF第415页，6-15-01-01，主要工作任务。生料制备、熟料煅烧、水泥粉磨包装、环保检测和设备维护
+  - glass-melt：PDF第420页，6-15-03-01，主要工作任务。原料均化称混投料、熔窑燃烧换向、熔液取样检查和维护
+  - glass-form：PDF第420页，6-15-03-02，主要工作任务。料液输送、浮法或压延成型、退火切裁、质量剔除、换件维护
+  - prepress：PDF第359—360页，6-08-01-01，主要工作任务。图文输入排版打样、制版显影、凹版滚筒和印版质量检查
+  - printing：PDF第360页，6-08-01-02，主要工作任务。调墨备料、供纸收纸供墨调压、印刷检验排故以及设备清洁维护
+  - postpress：PDF第360—361页，6-08-01-03，主要工作任务。上光覆膜裁切、折叠装订、插页、压凹凸烫印模切压痕、包装与质量判断
+  - battery：PDF第509—510页，6-24-04-00，主要工作任务。活性物质、隔膜、浆料电极电解液、单体装配、化成电测、组件及固态材料
+  - pv-module：PDF第506页，6-24-02-04，主要工作任务。电池片分选焊接、层叠封装装框、薄膜沉积刻划连接及电性能安全测试
+  - drug-formulation：PDF第408页，6-12-03-00，主要工作任务。生产前确认计配制剂成型、包装器具洗干灭菌、制水净化消毒、液体灯检包装扫码、排故清洁记录
 - **cn-wheat-service-2024** [安徽省小麦农业社会化服务规范（试行）](https://hzjjs.moa.gov.cn/nyshhfw/202402/t20240228_6449268.htm)；发布：2024-02-28；读取：2026-09-09
   - requirements：第 4 章基本要求，第 5 章服务内容（5.1 耕整地、5.2 种子、5.3 播种及收获、运输、干燥、储存项目）。小麦社会化服务的机具、耕整、种子播种及后续作业质量
 - **cn-vegetable-2021** [冬季蔬菜稳产保供机械化生产技术指导意见](https://njhs.moa.gov.cn/tzggjzcjd/202111/t20211123_6382709.htm)；发布：2021-11-23；读取：2026-09-09
@@ -155,6 +186,57 @@
   - rebar-raft：PDF第104—107页，§15.1—15.4.10（印刷页96—99）。钢筋及基底验收、底板与梁钢筋布置绑扎、马凳垫块、预埋交接、整改隐检
   - concrete-pump：PDF第154—161页，§22.3—22.7（印刷页146—153）。到场检验、泵管安装润泵、泵送监视、堵塞卸压处理、清洗余料污水回收
   - concrete-cast：PDF第164—170页，§23.3.9—23.7.17（印刷页156—162）。输送到场状态、柱梁板分层浇振、施工缝、湿养护、试件、缺陷及变形停工、落地灰清理
+- **cn-decoration-db1832-2022** [建筑工程施工工艺规程 第10部分：装饰装修工程（DB11/T 1832.10—2022）](https://dbba.sacinfo.org.cn/portal/download/d3c0e94118703a2dbe066b1c1247108e1d031f6ded8596e3a616df7fa417d45d)；发布：2022-12-28；读取：2026-09-09；实施：2023-04-01
+  - general：PDF第7—9页，§1.0.2—2.0.10（印刷页1—3）。北京适用范围、材料验收、每道工序及跨专业交接检验、成品防护和废弃物分类
+  - external-tile：PDF第10—13页，§3.1—3.5.6（印刷页4—7）。选材样板、基底处理排砖弹线、浸砖、拌胶粘贴调整、填缝清理和粘结检验
+  - interior-coat：PDF第35—40页，§7.1—7.5.10（印刷页29—34）。涂料批色验收、基底及水分条件、修补底涂、刮磨腻子、刷滚喷面涂与表面验收
+  - mortar-plaster：PDF第44—49页，§8.1—8.7.1（印刷页38—43）。砂浆验收、基面处理、定位灰饼底灰加强网、分格面灰滴水槽、养护检验保护
+  - partition：PDF第57—61页，§10.1—10.5.10（印刷页51—55）。轻钢龙骨定位连接、单侧面板、管线隐检及填充封板、板缝和钉头处理、填料及连接验收
+  - ceiling：PDF第109—113页，§21.1—21.5.10（印刷页103—107）。吊顶内设备交接、吊杆和龙骨固定、面板钉接补钉、防锈嵌缝、设备开口及检验
+- **cn-rural-water-ln-2013** [辽宁省农村饮水安全工程质量技术要求（正文落款2013年6月，2025年网页转载）](https://slt.ln.gov.cn/slt/zfxxgk/fdzdgknr/lzyj/bbmgfxwj/2025042116584218642/index.shtml)；发布：未核实完整日期；读取：2026-09-09
+  - materials：§1.0.3、2.1.3、2.2.1—2.2.5及文末日期。地域范围、隐蔽交接、到货验收和储存；2013年6月落款
+  - pipeline：§4.1—4.2。沟槽基底、垫层回填、管道清理安装连接及轴线高程复测
+  - pressure-flush：§4.3—4.5。管道排气浸泡、强度严密性、冲洗消毒取样，阀表及井盖
+  - water-tank：§6.1—6.4。防水基层分层砂浆、砌筑预埋防渗与养护、清洗消毒、分阶段充水测漏
+  - pump-equipment：§5.0.1—5.0.5、7.1、7.4。基础及预埋条件、机泵安装试运和处理消毒设备组装试压
+  - electrical：§7.2—7.3。变压器安装交接试验与防雷连接位置焊缝防腐
+- **cn-textile-hj861-2017** [排污许可证申请与核发技术规范 纺织印染工业（HJ 861—2017）](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201710/W020171010507884353215.pdf)；发布：2017-09-29；读取：2026-09-09；实施：2017-09-29
+  - units：PDF第6—9页，§3.1、3.4、4.3.2—4.3.4、4.4.1—4.4.2（印刷页3—6）。洗毛脱胶缫丝、织造、前处理染印整理成衣水洗单元，以及可选纺纱服装家纺与原辅料；不是所有企业均包含全部工序
+- **cn-foundry-hj1115-2020** [排污许可证申请与核发技术规范 金属铸造工业（HJ1115—2020）](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202003/W020200310519293485501.pdf)；发布：2020-03-04；读取：2026-09-09；实施：2020-03-04
+  - scope：PDF第6页，§3.1—3.6（印刷页3）。金属铸造C3391/C3392，区别于冶炼连续铸坯；熔炼和铸造定义
+  - units：PDF第8—10页，§4.1.3.2表1与§4.1.4.2（印刷页5—7）。熔炼造型制芯浇冷落砂再生清理热处理涂装及原辅料
+- **cn-rubber-plastic-hj1122-2020** [排污许可证申请与核发技术规范 橡胶和塑料制品工业（HJ1122—2020）](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401327032592051.pdf)；发布：2020-03-27；读取：2026-09-09；实施：2020-03-27
+  - rubber：PDF第9—11页，第一部分§4.1.2—4.1.3.4，表1（印刷页5—7）。轮胎、胶板管带零件、乳胶制品的炼胶成型硫化浸胶烘干脱模等单元及产品
+  - plastic：PDF第75—78页，第二部分§4.1.2—4.1.3.2，表1（印刷页71—74）。膜、管型材、泡沫、容器、日用零件、人造革草坪等工艺及混配挤出吹塑注塑层压等单元
+- **cn-feed-oil-hj1110-2020** [排污许可证申请与核发技术规范 农副食品加工工业—饲料加工、植物油加工工业（HJ1110—2020）](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202003/W020200304702000053087.pdf)；发布：2020-02-28；读取：2026-09-09；实施：2020-02-28
+  - scope：PDF第5页，§3.1—3.2（印刷页2）。农牧及宠物饲料加工、食用非食用植物油加工范围
+  - units：PDF第7—8页，§4.3.2表1、4.3.4及4.4.2（印刷页4—5）。饲料清理粉碎混合调质制粒、植物油预处理压榨浸出精炼包装输运及原辅料；生产单元表不能替代完整SOP
+- **cn-fish-hj1109-2020** [排污许可证申请与核发技术规范 农副食品加工工业—水产品加工工业（HJ1109—2020）](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202003/W020200304699417594541.pdf)；发布：2020-02-28；读取：2026-09-09；实施：2020-02-28
+  - scope：PDF第5页，§3.1（印刷页2）。水产动物和藻类初加工及鱼糜、腌干、精制产品等范围
+  - units：PDF第7—8页，§4.3.2表1及4.4.2（印刷页4—5）。卸料储存、分级宰杀去除清洗漂烫盐渍分割、采肉脱水干制熟制精制及原辅料
+- **cn-harbor-hj1107-2020** [排污许可证申请与核发技术规范 码头（HJ1107—2020）](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202003/W020200304692515262514.pdf)；发布：2020-02-28；读取：2026-09-09；实施：2020-02-28
+  - scope：PDF第5页，§3.1、4.2（印刷页2）。仅覆盖专业化及通用干散货码头；填报行业为水上运输业-货运港口
+  - units：PDF第7—8页，§4.3.2表1—2（印刷页4—5）。船岸装卸、堆场堆取、陆侧车装卸、转运输送；车辆可自有或委托外部
+  - dust：PDF第10—11页，§4.4表3—4（印刷页7—8）。各干散货单元的湿式抑尘、封闭、覆盖和干式除尘设施
+- **cn-cement-hj847-2017** [排污许可证申请与核发技术规范 水泥工业（HJ847—2017）](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201708/W020170802617396676231.pdf)；发布：2017-07-27；读取：2026-09-09；实施：2017-07-27
+  - scope：PDF第4—5页，§1、3.1（印刷页1—2）。熟料制造和独立粉磨站，排污范围可包含配套矿山及协同处置；不等同统计产业归属
+  - units：PDF第6—8页，§4.3.1表1、4.3.3及4.4.2（印刷页3—5）。原料破碎预均化、生料与煤粉制备、煅烧冷却、熟料粉磨包装及原辅料
+- **cn-flatglass-hj856-2017** [排污许可证申请与核发技术规范 玻璃工业—平板玻璃（HJ856—2017）](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201709/W020170918582848574342.pdf)；发布：2017-09-12；读取：2026-09-09；实施：2017-09-12
+  - scope：PDF第4—5页，§1、3.1（印刷页1—2）。采用浮法压延工艺的平板玻璃工业
+  - units：PDF第6—9页，§4.3.1表1及4.4.1（印刷页3—6）。破碎备料混配、熔化、浮法锡槽或压延成型、退火切裁装箱、公辅及原辅料
+- **cn-print-hj1066-2019** [排污许可证申请与核发技术规范 印刷工业（HJ1066—2019）](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201912/W020240730350115357933.pdf)；发布：2019-12-10；读取：2026-09-09；实施：2019-12-10
+  - scope：PDF第4—7页，§1、3.1—3.9、4.2（印刷页1—4）。印前制版、印刷、印后涂布等范围；C2311/C2312/C2319
+  - units：PDF第8—10页，§4.3.2表1—2、4.3.4（印刷页5—7）。调墨制版、平凹柔孔版及数字印刷、复合涂布糊盒裱糊等单元和产品
+- **cn-battery-hj967-2018** [排污许可证申请与核发技术规范 电池工业（HJ967—2018）](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201809/W020180927573097842473.pdf)；发布：2018-09-23；读取：2026-09-09；实施：2018-09-23
+  - scope：PDF第5—7页，§3.1、4.2—4.3.2（印刷页2—4）。电池制造C384含化学电池和太阳电池，具体统计小类须与现行分类复核
+  - lead：PDF第8页，表1（印刷页5）。铅酸极板制粉和膏板栅灌粉分片化成、称片包片焊接充放电清洗
+  - lithium：PDF第10页，表4（印刷页7）。锂原电池与锂离子路线分别列；锂离子投料涂布烘烤注液
+  - solar：PDF第10—11页，表5—7（印刷页7—8）。晶硅电池切片制绒扩散刻蚀沉积、薄膜电池清洗镀膜激光刻化与电极接线
+- **cn-pharma-hj1063-2019** [排污许可证申请与核发技术规范 制药工业—化学药品制剂制造（HJ1063—2019）](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201912/W020200103326295794926.pdf)；发布：2019-12-10；读取：2026-09-09；实施：2019-12-10
+  - scope：PDF第6页，§3.1、4.2（印刷页3）。化学药品制剂制造及兽药制剂相应申报范围；本轮只研究人用化学制剂场景
+  - solid：PDF第7页，§4.3.2表1固体制剂单元（印刷页4）。干燥粉碎筛分混合制粒压片包衣分装灭菌；路线因剂型选择
+  - liquid：PDF第8—9页，表1续表及§4.3.4（印刷页5—6）。液体制剂洗瓶干燥过滤灌装、固液半固体气体剂型及公用单元
+  - utilities：PDF第8页，表1公用单元（印刷页5）。质检、洁净区、物料储运、制水废水废气及固废暂存
 
 ## 农林牧渔业
 
@@ -525,32 +607,32 @@ partial-inventory-in-progress
 | 10 非金属矿采选业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
 | 11 开采专业及辅助性活动 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
 | 12 其他采矿业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
-| 13 农副食品加工业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
+| 13 农副食品加工业 | partial | cn-ind-feed-pellets、cn-ind-oil-pretreat-press、cn-ind-oil-solvent-extract、cn-ind-oil-refine-fill、cn-ind-fish-mince、cn-ind-fish-cure-dry、cn-ind-aquatic-refining | 谷物碾磨、淀粉、制糖、畜禽屠宰肉加工、蔬菜水果坚果、豆制品蛋品尚未展开；油种路线、水产精制产品与干熟制分支仍需细化；动作族不得与未来子动作重复计数；规范是工艺单元表；完整操作、质量验收、换线清洁和失败批处理仍需补证 |
 | 14 食品制造业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
 | 15 酒、饮料和精制茶制造业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
 | 16 烟草制品业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
-| 17 纺织业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
+| 17 纺织业 | partially-covered | cn-ind-wool-preparation、cn-ind-cotton-spinning、cn-ind-warp-weaving、cn-ind-dye-pretreatment、cn-ind-textile-dyeing、cn-ind-textile-printing、cn-ind-textile-finishing | 蚕丝煮缫、麻纤维脱胶、化纤纯纺混纺、毛纺等具体差异未完整覆盖；经编纬编袜品横机、针刺水刺纺粘熔喷等非织造未展开；织物裁缝制成品、产业用纺织品、成衣水洗及功能性整理细目未完整展开；流程来源为生产单元规范，现场SOP和完整成品验收标准待补 |
 | 18 纺织服装、服饰业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
 | 19 皮革、毛皮、羽毛及其制品和制鞋业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
 | 20 木材加工和木、竹、藤、棕、草制品业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
 | 21 家具制造业 | partial | cn-ind-wood-furniture | 实木榫卯、定制板件异形、软体绷装、金属塑料竹藤玻璃家具仍分别待盘点。；生产单元表不支持声称所有工厂配置机械手或自动喷涂；机器人部署研究尚未开始。；本门类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。 |
 | 22 造纸和纸制品业 | partial | cn-ind-chemical-pulp、cn-ind-recovered-paper-pulp、cn-ind-machine-paper、cn-ind-paper-recovery、cn-ind-paper-box | 氧脱木素虽在流程表存在，职业稿未独立说明；具体加氧反应控制作为待补，不假设与漂白工时重复。；危险化学品接收、堵塞断料、蒸煮异常、洗网清洗和检维修待专项规程补证。；废纸接收解包、胶黏物控制、浮选废渣、脱墨污泥和设备清洗尚待原始规范。；纸机穿纸、断纸事故、毛毯网部清洗和设备保养需操作标准；不得把专线已列自动生产线推断为无人。；回收炉安全联锁、熔融物事故、蒸发器结垢清洗及检维修缺专项已读资料。；机器换纸接纸、调版换模、糊箱堵料、废纸分拣、清洁维护尚缺已读专门SOP。；本门类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。 |
-| 23 印刷和记录媒介复制业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
+| 23 印刷和记录媒介复制业 | partial | cn-ind-print-prepress、cn-ind-print-sheet-offset、cn-ind-print-postfinish | 卷筒印刷、凹版柔版孔版数字印刷、实体滚筒制版、书刊装订与记录媒介复制未展开；制版及印后部分动作仍需按产品原子化；源为工艺单元规范而非完整现场SOP |
 | 24 文教、工美、体育和娱乐用品制造业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
 | 25 石油、煤炭及其他燃料加工业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
 | 26 化学原料和化学制品制造业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
-| 27 医药制造业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
+| 27 医药制造业 | partial | cn-ind-tablet-granulate-press、cn-ind-sterile-liquid-fill、cn-ind-drug-pack-trace、cn-ind-drug-water-cleanroom | 化学原料药、中药饮片中成药、生物药疫苗血液制品、兽药和药用辅料包装制造尚未展开；化学制剂仅部分片剂液体包装公辅单元；其他剂型、完整质量控制和偏差返工仍需正式GMP流程；所有药品场景仅盘点，不生成处方、生产参数或放行结论 |
 | 28 化学纤维制造业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
-| 29 橡胶和塑料制品业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
-| 30 非金属矿物制品业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
+| 29 橡胶和塑料制品业 | partially-covered | cn-ind-rubber-mixing-forming、cn-ind-tyre-retreading、cn-ind-plastic-compounding、cn-ind-plastic-extrusion、cn-ind-plastic-injection | 轮胎和胶管胶带零件成型目前仍有产品族汇总，必须继续原子化；乳胶浸渍医用制品未展开；塑料膜吹塑/流延/拉伸、泡沫、吹瓶容器、压延人造革、合成革及层压制品未展开；塑料挤注详细上下料、冷却脱模、修边、质量检验和包装流程多数仍proposed，未冻结 |
+| 30 非金属矿物制品业 | partial | cn-ind-cement-rawmeal、cn-ind-cement-clinker、cn-ind-cement-grind-pack、cn-ind-flatglass-melt、cn-ind-floatglass-form、cn-ind-rolledglass-form | 陶瓷砖瓦卫生陶瓷、石灰石膏及制品、混凝土构件、玻纤与复合材料、耐火材料、石墨炭素和其他矿物材料未展开；水泥协同处置、玻璃深加工以及设备异常清理返修还需专项操作规范；配套矿山在排污许可证中的范围不能用于跨行业统计重复计数 |
 | 31 黑色金属冶炼和压延加工业 | partial | cn-ind-steel-charge、cn-ind-steel-refine、cn-ind-steel-continuous-cast | 流程来源是2026已公布、2027实施的工序表，不能代替实际炼钢作业规程。；未取得废钢放射性、密闭物与含水检查的原始操作标准，未虚构其现场步骤或限值。；各炉型精炼分支按实际路线选择；不把LF、真空、喂线等假设为每炉必经。；不合格炉次补吹、改判、回炉的现场准则待补，暂未编造统一返工流程。；开浇准备、结晶器更换、漏钢处置和铸坯修磨需专项原始流程；不能把精整概称当作所有返工已识别。；本门类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。 |
 | 32 有色金属冶炼和压延加工业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
-| 33 金属制品业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
+| 33 金属制品业 | partially-covered | cn-ind-sand-foundry | 压力/熔模/离心等特种铸造未展开；锻压冲切钣金、焊接、工具紧固件和金属结构制品制造未展开；热处理电镀涂层及其维护返修工序未完整覆盖 |
 | 34 通用设备制造业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
 | 35 专用设备制造业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
 | 36 汽车制造业 | partial | cn-ind-auto-final-assembly | 汽车冲压白车身焊接、涂装、电池模组、发动机和变速器内部装配、商用车上装及再制造仍未完整盘点。；HJ流程表只证明有装配及检验单元，不能支持各车型力矩和劳动投入。；本门类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。 |
 | 37 铁路、船舶、航空航天和其他运输设备制造业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
-| 38 电气机械和器材制造业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
+| 38 电气机械和器材制造业 | partial | cn-ind-lithium-electrode、cn-ind-lithium-cell-finish、cn-ind-lead-battery-plate、cn-ind-lead-battery-assembly、cn-ind-thinfilm-solar | 电机、输配电控制、电线电缆及光缆、家电、照明和电工器材尚未展开；电池仅有锂离子、铅酸和薄膜太阳局部单元；镍氢锌锰等化学路线与晶硅光伏尚未展开；电池完整上下料装配检验异常清洁及模组PACK等还未取得足够已读流程 |
 | 39 计算机、通信和其他电子设备制造业 | partial | cn-ind-pcb-fabrication | 尚缺钻污处理、棕化、化学配液槽液分析、独立电测、清洗用水和危险废物处理的详细人工作业规范。；步骤按单双多层和终饰路线选择；非所有订单必经同一工序，不能求和生成单板人工工时。；本门类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。 |
 | 40 仪器仪表制造业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
 | 41 其他制造业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
@@ -1038,6 +1120,952 @@ partial-inventory-in-progress
 - 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
 - 没有据任务描述推断人工工时或自动化效果。
 
+### 动物原毛开松、清洗和炭化
+
+纺织17的纺前毛纤维加工；原毛分级详细检验及精梳、羊毛纺后续另待拓展，洗毛工法按实际选择。
+
+流程来源：cn-textile-hj861-2017。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-wool-preparation-001 | 准备 | 接收并按原毛类别建立加工批次 | 分选后动物原毛 → 待加工原毛批 | 原料来源类别及混批规则可追踪 | proposed | cn-occ-2022-draft#fiber-pre；cn-textile-hj861-2017#units |
+| cn-ind-wool-preparation-002 | 作业 | 开松原毛并除去夹杂 | 原毛与开松设备 → 初步开松毛 | 适合后续清洗且粗杂移除 | source-backed | cn-occ-2022-draft#fiber-pre；cn-textile-hj861-2017#units |
+| cn-ind-wool-preparation-003 | 准备 | 配制洗毛或炭化所需工作液 | 原料及工艺配方 → 可用工作液 | 浓度用量依毛种与产品工艺确认 | source-backed | cn-occ-2022-draft#fiber-pre；cn-textile-hj861-2017#units |
+| cn-ind-wool-preparation-004 | 作业 | 清洗原毛上的污垢和汗脂 | 开松毛与洗毛设施 → 清洗毛 | 清洁程度满足纺前质量要求 | source-backed | cn-occ-2022-draft#fiber-pre；cn-textile-hj861-2017#units |
+| cn-ind-wool-preparation-005 | 作业 | 按需炭化处理原毛草杂 | 需炭化原毛及设施 → 处理毛 | 去杂且纤维品质满足所用工艺 | source-backed | cn-occ-2022-draft#fiber-pre；cn-textile-hj861-2017#units |
+| cn-ind-wool-preparation-006 | 作业 | 将洗后毛进行脱水和烘干 | 湿净毛 → 待后续加工净毛 | 含水及温度按产品工艺确认 | proposed | cn-occ-2022-draft#fiber-pre；cn-textile-hj861-2017#units |
+| cn-ind-wool-preparation-007 | 检测 | 检查洗净毛残杂水分及损伤 | 处理毛样本 → 质量状态 | 按产品标准评定后方可流转 | proposed | cn-occ-2022-draft#fiber-pre；cn-textile-hj861-2017#units |
+| cn-ind-wool-preparation-008 | 交付 | 分批交出处理毛至纺纱工序 | 完成净毛 → 可追溯毛料批 | 批号与处置状态清楚 | proposed | cn-occ-2022-draft#fiber-pre |
+
+阶段缺口：交接、异常、返工、清洁维护
+
+- 异常、返工、清洗设备和排污处理的逐步SOP缺口保留。麻脱胶、蚕茧加工和丝纺不由本洗毛场景代表。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 棉纺开清梳并粗纱至细纱络筒
+
+纺织17棉纺链条；按纱种及设备选择工艺，不把所有可选机组视作每条生产线必经。
+
+流程来源：cn-textile-hj861-2017。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-cotton-spinning-001 | 准备 | 拆包排放原棉并拣除杂物 | 棉包与排包图 → 已排棉台 | 品种批次顺序按配棉计划 | source-backed | cn-occ-2022-draft#cotton-pre；cn-textile-hj861-2017#units |
+| cn-ind-cotton-spinning-002 | 作业 | 开清混棉并形成可梳理纤维 | 已排棉料 → 开松混合纤维 | 去杂混合满足纺纱工艺 | source-backed | cn-occ-2022-draft#cotton-pre；cn-textile-hj861-2017#units |
+| cn-ind-cotton-spinning-003 | 作业 | 梳理纤维并形成生条 | 开松纤维 → 生条 | 单纤维化混合和条状态满足工艺 | source-backed | cn-occ-2022-draft#cotton-pre；cn-textile-hj861-2017#units |
+| cn-ind-cotton-spinning-004 | 作业 | 并合牵伸纤维条形成熟条 | 生条或半制条 → 熟条或条卷 | 配条及牵伸状态满足工艺 | source-backed | cn-occ-2022-draft#cotton-pre；cn-textile-hj861-2017#units |
+| cn-ind-cotton-spinning-005 | 作业 | 给粗纱机换条接头并制成粗纱 | 熟条条筒 → 粗纱 | 喂入及粗纱成形满足工艺 | source-backed | cn-occ-2022-draft#cotton-pre；cn-textile-hj861-2017#units |
+| cn-ind-cotton-spinning-006 | 交接 | 落取粗纱并转至细纱供给位置 | 满粗纱管或自动落纱装置 → 细纱待用粗纱 | 批次对应且卷装不受损 | source-backed | cn-occ-2022-draft#cotton-pre；cn-textile-hj861-2017#units；cn-occ-2022-draft#spinning |
+| cn-ind-cotton-spinning-007 | 作业 | 给细纱机换粗纱并生头纺纱 | 粗纱或条筒 → 连续纺成管纱 | 纱支卷装按工艺确认 | source-backed | cn-occ-2022-draft#cotton-pre；cn-textile-hj861-2017#units；cn-occ-2022-draft#spinning |
+| cn-ind-cotton-spinning-008 | 作业 | 落取满管细纱并重新生头开车 | 满管纱及落纱装置 → 下机管纱与恢复运行机台 | 纱管流转和重启状态正常 | source-backed | cn-occ-2022-draft#cotton-pre；cn-textile-hj861-2017#units；cn-occ-2022-draft#spinning |
+| cn-ind-cotton-spinning-009 | 作业 | 络筒清纱并完成接头 | 管纱及络筒设施 → 筒子纱 | 筒形接头和清纱质量满足规格 | source-backed | cn-occ-2022-draft#cotton-pre；cn-textile-hj861-2017#units；cn-occ-2022-draft#spinning |
+| cn-ind-cotton-spinning-010 | 作业 | 按产品要求并线捻线或制线 | 筒纱与指定机组 → 多股线或线团 | 股数捻度卷装按订单要求 | source-backed | cn-occ-2022-draft#cotton-pre；cn-textile-hj861-2017#units；cn-occ-2022-draft#spinning |
+| cn-ind-cotton-spinning-011 | 检测 | 巡检各纺纱机台的运行及纱线质量 | 在制纱条与机台 → 巡检状态 | 断头纱疵和运转异常可识别 | source-backed | cn-occ-2022-draft#cotton-pre；cn-textile-hj861-2017#units；cn-occ-2022-draft#spinning |
+| cn-ind-cotton-spinning-012 | 异常 | 查明纺纱停台与断头原因 | 断头停台机位 → 处置结果 | 异常原因和恢复条件确认 | source-backed | cn-occ-2022-draft#cotton-pre；cn-textile-hj861-2017#units |
+| cn-ind-cotton-spinning-013 | 返工 | 重接断纱并剔除可处理纱疵 | 断头或纱疵段 → 可继续加工纱线 | 接头及品质符合纱种工艺 | source-backed | cn-occ-2022-draft#cotton-pre；cn-textile-hj861-2017#units；cn-occ-2022-draft#spinning |
+| cn-ind-cotton-spinning-014 | 清洁维护 | 回收回花并清洁纺纱机台地面 | 回花落料与机台 → 已分类回收物和清洁区域 | 清扫防混纤及机台恢复按制度执行 | source-backed | cn-occ-2022-draft#cotton-pre；cn-textile-hj861-2017#units |
+| cn-ind-cotton-spinning-015 | 交付 | 标识并交出成形纱卷筒 | 完成纱卷与生产记录 → 后道待用纱线批 | 批号和质量状态与订单对应 | proposed | cn-occ-2022-draft#cotton-pre |
+
+阶段缺口：
+
+- 纺纱在HJ861中为选填单元，不是完整过程规范；全流程主依据目前来自职业任务，棉纱产品验收标准和现场SOP待补。精梳差异、自动接头失败人工处置未完成研究。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 经纱整经上浆、机织与坯布验修
+
+织造17的经纬机织；不代表经编、纬编、非织造或工艺手织。
+
+流程来源：cn-textile-hj861-2017。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-warp-weaving-001 | 准备 | 插挂纱筒并整理整经通道 | 纱筒和整经架 → 可运行经纱阵列 | 接头过结和排列满足经轴要求 | source-backed | cn-occ-2022-draft#weaving；cn-textile-hj861-2017#units |
+| cn-ind-warp-weaving-002 | 作业 | 整经并完成经轴落轴倒轴 | 纱线及整经设备 → 经轴或织轴 | 纱线顺序张力和轴卷符合品种 | source-backed | cn-occ-2022-draft#weaving；cn-textile-hj861-2017#units |
+| cn-ind-warp-weaving-003 | 准备 | 配轴上机并调制浆纱工作液 | 经轴配方和浆料 → 待浆经轴和浆液 | 配轴批次及浆液符合工艺 | source-backed | cn-occ-2022-draft#weaving；cn-textile-hj861-2017#units |
+| cn-ind-warp-weaving-004 | 作业 | 调控浆槽烘房及速度完成上浆 | 经纱浆液与机组 → 浆轴 | 上浆与伸长状态符合品种工艺 | source-backed | cn-occ-2022-draft#weaving；cn-textile-hj861-2017#units |
+| cn-ind-warp-weaving-005 | 检测 | 核对浆染纱色光与纱线状态 | 浆染纱线和标样 → 质量检查结果 | 色差色条及断头缺陷有记录 | source-backed | cn-occ-2022-draft#weaving；cn-textile-hj861-2017#units |
+| cn-ind-warp-weaving-006 | 交接 | 落下浆轴并交入织造准备 | 完成浆轴 → 可穿经上机轴 | 轴号与织物任务对应 | source-backed | cn-occ-2022-draft#weaving；cn-textile-hj861-2017#units |
+| cn-ind-warp-weaving-007 | 作业 | 穿经或结经并更换织机经轴 | 经轴与穿经工具 → 可织织轴 | 经路连接及安装按组织结构核对 | source-backed | cn-occ-2022-draft#weaving；cn-textile-hj861-2017#units |
+| cn-ind-warp-weaving-008 | 准备 | 安装织机附件并设定织造参数 | 织轴附件和品种工艺 → 待运行织机 | 绞边经路和参数核对完成 | source-backed | cn-occ-2022-draft#weaving；cn-textile-hj861-2017#units |
+| cn-ind-warp-weaving-009 | 作业 | 供应或更换纬纱并处理回丝 | 纬纱管筒与机台 → 稳定纬纱供给 | 品种和供纬位置正确 | source-backed | cn-occ-2022-draft#weaving；cn-textile-hj861-2017#units |
+| cn-ind-warp-weaving-010 | 作业 | 操控织机形成经纬织物 | 经纬纱和设定织机 → 坯布 | 织物组织与运行状态符合工艺 | source-backed | cn-occ-2022-draft#weaving；cn-textile-hj861-2017#units |
+| cn-ind-warp-weaving-011 | 检测 | 巡检布面织轴和纬纱状态 | 在织坯布与纱路 → 巡检结果 | 异常疵点及时识别 | source-backed | cn-occ-2022-draft#weaving；cn-textile-hj861-2017#units |
+| cn-ind-warp-weaving-012 | 异常 | 查明并处理断经断纬停台 | 停台织机 → 恢复条件 | 断纱及相关隐患已处理 | source-backed | cn-occ-2022-draft#weaving；cn-textile-hj861-2017#units |
+| cn-ind-warp-weaving-013 | 作业 | 落取满布辊并送至验布 | 织机布辊 → 待验坯布卷 | 卷布与批次标识对应 | source-backed | cn-occ-2022-draft#weaving；cn-textile-hj861-2017#units |
+| cn-ind-warp-weaving-014 | 检测 | 运行验布机检查织物缺陷 | 坯布卷与验布设备 → 缺陷及等级结果 | 检验范围与标识按产品要求 | source-backed | cn-occ-2022-draft#weaving；cn-textile-hj861-2017#units |
+| cn-ind-warp-weaving-015 | 返工 | 修补清洗或开剪允许处理的布疵 | 验出的缺陷布 → 处理后坯布 | 按产品可修范围处理并复检 | source-backed | cn-occ-2022-draft#weaving；cn-textile-hj861-2017#units |
+| cn-ind-warp-weaving-016 | 清洁维护 | 清洗浆槽机台并处理废纱 | 结束机台及残浆废纱 → 洁净机台和回收物 | 防混纱污染且设备按规程复位 | source-backed | cn-occ-2022-draft#weaving；cn-textile-hj861-2017#units |
+| cn-ind-warp-weaving-017 | 交付 | 记录并交出验修后的坯布批次 | 合格布卷与记录 → 后续染整可接收坯布 | 批号米数与等级信息待产品SOP补核 | proposed | cn-occ-2022-draft#weaving |
+
+阶段缺口：
+
+- 织机型号及产品结构改变补纱接头等作业；机台自动功能不证明无需人工。提花制版与机织前端张力验收细则待补。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 织物染整前处理和进出布
+
+含棉织物退煮漂烧毛与适用丝光工法；蚕丝脱胶、涤纶碱减量条件各异，暂列未展开。
+
+流程来源：cn-textile-hj861-2017。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-dye-pretreatment-001 | 准备 | 配制并测定前处理工作液 | 工艺配方与原辅料 → 合格工作液 | 浓度和配比满足所用织物工艺 | source-backed | cn-occ-2022-draft#dye-pre；cn-textile-hj861-2017#units |
+| cn-ind-dye-pretreatment-002 | 作业 | 缝头接布并穿引织物 | 待处理坯布 → 连续进布端 | 接头方向牢固且与机组匹配 | source-backed | cn-occ-2022-draft#dye-pre；cn-textile-hj861-2017#units |
+| cn-ind-dye-pretreatment-003 | 作业 | 调节吸边对中装置保持平直进布 | 引入织物与导布装置 → 稳定进布 | 位置张力和展幅符合工艺 | source-backed | cn-occ-2022-draft#dye-pre；cn-textile-hj861-2017#units |
+| cn-ind-dye-pretreatment-004 | 作业 | 按含棉织物工艺操控烧毛处理 | 适用织物与烧毛设施 → 烧毛后织物 | 毛羽处理满足品种质量要求 | source-backed | cn-occ-2022-draft#dye-pre；cn-textile-hj861-2017#units |
+| cn-ind-dye-pretreatment-005 | 作业 | 操控退浆煮练漂白或丝光工序 | 织物工作液与处理设施 → 完成指定化学前处理织物 | 温压车速时间和浓度按产品工艺控制 | source-backed | cn-occ-2022-draft#dye-pre；cn-textile-hj861-2017#units |
+| cn-ind-dye-pretreatment-006 | 作业 | 堆置或汽蒸并水洗烘燥织物 | 按工艺反应的织物 → 后处理织物 | 步骤时间及残液状态符合工艺 | source-backed | cn-occ-2022-draft#dye-pre；cn-textile-hj861-2017#units |
+| cn-ind-dye-pretreatment-007 | 检测 | 检查落布毛效白度纬斜和残液指标 | 处理织物与测量条件 → 落布检验结果 | 指标依品种标准判定 | source-backed | cn-occ-2022-draft#dye-pre；cn-textile-hj861-2017#units |
+| cn-ind-dye-pretreatment-008 | 异常 | 处置前处理设备运行异常 | 异常机组或布面信号 → 处置记录 | 按SOP隔离原因并确认恢复 | source-backed | cn-occ-2022-draft#dye-pre；cn-textile-hj861-2017#units |
+| cn-ind-dye-pretreatment-009 | 返工 | 处理前处理布面病疵 | 已识别病疵织物 → 返修待验织物 | 可返修范围与复验依产品工艺 | source-backed | cn-occ-2022-draft#dye-pre；cn-textile-hj861-2017#units |
+| cn-ind-dye-pretreatment-010 | 清洁维护 | 分类收集废物并清洁维护设备 | 废料与处理设施 → 已清洁设备及分类废物 | 按物料性质分类并防交叉污染 | source-backed | cn-occ-2022-draft#dye-pre；cn-textile-hj861-2017#units |
+| cn-ind-dye-pretreatment-011 | 交付 | 登记批次工艺与检验记录交下一工序 | 完成前处理织物 → 染色印花待用批次 | 处理状态与批次对应 | proposed | cn-occ-2022-draft#dye-pre |
+
+阶段缺口：交接
+
+- 不同前处理化学工序目前是可选择子工艺，需逐品种展开而不能按一个全能设备折算工时。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 纤维纱线织物染色及后洗
+
+染整17；具体纤维与连续/间歇染色分别保留工艺条件，当前不输出通用色差阈值。
+
+流程来源：cn-textile-hj861-2017。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-textile-dyeing-001 | 准备 | 按标样试染并核对染色处方 | 染物标样与打样设备 → 确认色样及处方 | 色样和技术数据按订单确认 | source-backed | cn-occ-2022-draft#dyeing；cn-textile-hj861-2017#units |
+| cn-ind-textile-dyeing-002 | 检测 | 检查被染物的染前质量条件 | 待染批次 → 染前接收结果 | 毛效幅宽含碱及平整满足工艺 | source-backed | cn-occ-2022-draft#dyeing；cn-textile-hj861-2017#units |
+| cn-ind-textile-dyeing-003 | 准备 | 配制染液并供至染缸或轧槽 | 配方染化料与化料设备 → 已供工作液 | 批次浓度用量按处方核对 | source-backed | cn-occ-2022-draft#dyeing；cn-textile-hj861-2017#units |
+| cn-ind-textile-dyeing-004 | 作业 | 操控染色设备完成规定染色程序 | 被染物与染液 → 染色织物或纱纤 | 过程条件符合材料品种工艺 | source-backed | cn-occ-2022-draft#dyeing；cn-textile-hj861-2017#units |
+| cn-ind-textile-dyeing-005 | 作业 | 洗涤并按工艺固色染成品 | 染成品 → 完成后洗固色材料 | 残液及色牢度目标按工艺确认 | source-backed | cn-occ-2022-draft#dyeing；cn-textile-hj861-2017#units |
+| cn-ind-textile-dyeing-006 | 作业 | 对染成品脱水并烘干 | 湿染成品 → 可进入后整材料 | 干湿状态满足后续工艺 | source-backed | cn-occ-2022-draft#dyeing；cn-textile-hj861-2017#units |
+| cn-ind-textile-dyeing-007 | 异常 | 查明并处理染色过程异常 | 异常染色批次或设备 → 处置记录 | 原因及继续或隔离条件确认 | source-backed | cn-occ-2022-draft#dyeing；cn-textile-hj861-2017#units |
+| cn-ind-textile-dyeing-008 | 检测 | 对完成染批复核色光与色牢度 | 染成品与标样 → 质量结果 | 检验方法及判据待产品标准确认 | proposed | cn-occ-2022-draft#dyeing |
+| cn-ind-textile-dyeing-009 | 返工 | 按确认处方复染不合格染批 | 允许返染批次 → 待复验染物 | 可返染条件和品质风险须现场确认 | proposed | cn-occ-2022-draft#dyeing |
+| cn-ind-textile-dyeing-010 | 清洁维护 | 回收分类废料并清洁维护染色设备 | 余液废物与染机 → 已处理废物和洁净机台 | 批次切换防污染且按规程排放回收 | source-backed | cn-occ-2022-draft#dyeing；cn-textile-hj861-2017#units |
+| cn-ind-textile-dyeing-011 | 交付 | 登记染色过程并交付后整理批次 | 染批与记录 → 后整接收材料 | 批次和异常处置状态可追溯 | proposed | cn-occ-2022-draft#dyeing |
+
+阶段缺口：交接
+
+- 质量复核和返染拟定任务显式proposed；不得据此声称所有不合格批次能够返染。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 织物印花制网、印制及固色
+
+平网圆网工艺为主，传统制网与数码印花不应叠加；花版制备按本企业执行记录，外协时移至实际执行行业。
+
+流程来源：cn-textile-hj861-2017。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-textile-printing-001 | 准备 | 分色处理花稿并制作印花版数据 | 花稿与色版要求 → 分色版稿 | 花型尺寸套色与客户稿相符 | source-backed | cn-occ-2022-draft#textile-print；cn-textile-hj861-2017#units |
+| cn-ind-textile-printing-002 | 作业 | 配制感光材料并制成平网或圆网 | 版稿网材和感光材料 → 完成印花网 | 制网清洗曝光烘焙按工艺完成 | source-backed | cn-occ-2022-draft#textile-print；cn-textile-hj861-2017#units |
+| cn-ind-textile-printing-003 | 返工 | 修整印花网的纹样瑕疵 | 有瑕疵版网 → 修复版网 | 样纹与版稿核对通过 | source-backed | cn-occ-2022-draft#textile-print；cn-textile-hj861-2017#units |
+| cn-ind-textile-printing-004 | 准备 | 检查布坯花网并排列版网刮刀 | 布坯版网刮刀 → 可印配置 | 幅宽纬斜毛效及工具质量符合工艺 | source-backed | cn-occ-2022-draft#textile-print；cn-textile-hj861-2017#units |
+| cn-ind-textile-printing-005 | 检测 | 印制小样并核对色光和印制效果 | 配置好的印花条件 → 样印确认结果 | 图案色光与标样相符 | source-backed | cn-occ-2022-draft#textile-print；cn-textile-hj861-2017#units |
+| cn-ind-textile-printing-006 | 作业 | 操作印花机将图案印到织物 | 合格布坯及版网色浆 → 印花织物 | 套色图案及布面质量依订单 | source-backed | cn-occ-2022-draft#textile-print；cn-textile-hj861-2017#units |
+| cn-ind-textile-printing-007 | 作业 | 调整吸边整纬与张力保持布料运行 | 运行布坯衬布 → 稳定印制路径 | 布面平直张力符合工艺 | source-backed | cn-occ-2022-draft#textile-print；cn-textile-hj861-2017#units |
+| cn-ind-textile-printing-008 | 作业 | 汽蒸或焙烘印花织物完成固色 | 印后织物 → 固色织物 | 所选染料体系规定条件完成 | source-backed | cn-occ-2022-draft#textile-print；cn-textile-hj861-2017#units |
+| cn-ind-textile-printing-009 | 异常 | 查明并处置印花机组运行异常 | 异常机组或布面信号 → 处置记录 | 原因和恢复条件确认 | source-backed | cn-occ-2022-draft#textile-print；cn-textile-hj861-2017#units |
+| cn-ind-textile-printing-010 | 交接 | 卸下版网刮刀并送制网间 | 使用后的辅助工具 → 可追溯返还工具 | 与版号对应且返还状态明确 | source-backed | cn-occ-2022-draft#textile-print；cn-textile-hj861-2017#units |
+| cn-ind-textile-printing-011 | 清洁维护 | 回收剩余色浆并清洁制版机台 | 剩浆和制版设施 → 回收物及清洁机台 | 防混色且记录使用回收量 | source-backed | cn-occ-2022-draft#textile-print；cn-textile-hj861-2017#units |
+| cn-ind-textile-printing-012 | 交付 | 记录并交出固色后的印花批次 | 完成印花织物和记录 → 后整待接收批次 | 版号工艺和检验状态可追溯 | proposed | cn-occ-2022-draft#textile-print |
+
+阶段缺口：
+
+- 数码墨路维护、喷头堵塞和数码印制控制未完整覆盖；印后水洗及完整质量检验要求待补。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 染整织物定型、功能整理与落布
+
+拉幅、定型、轧光或起绒按品种选择；各工法是可展开子流程而非所有产品必经链。
+
+流程来源：cn-textile-hj861-2017。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-textile-finishing-001 | 检测 | 检查待整理织物幅宽色牢度和干湿状态 | 待整织物 → 整理前验收状态 | 来料条件满足指定整理工艺 | source-backed | cn-occ-2022-draft#textile-finish；cn-textile-hj861-2017#units |
+| cn-ind-textile-finishing-002 | 准备 | 称配并测定功能整理工作液 | 配方和助剂 → 合格整理液 | 浓度配比与产品功能要求一致 | source-backed | cn-occ-2022-draft#textile-finish；cn-textile-hj861-2017#units |
+| cn-ind-textile-finishing-003 | 作业 | 缝接并引入织物后调节对中 | 待整布卷 → 平直连续进布 | 接头方向与进布路径满足工艺 | source-backed | cn-occ-2022-draft#textile-finish；cn-textile-hj861-2017#units |
+| cn-ind-textile-finishing-004 | 作业 | 操控拉幅干湿热或表面整理设备 | 织物与工艺设备 → 完成指定整理织物 | 幅宽手感外观及功能依工艺验收 | source-backed | cn-occ-2022-draft#textile-finish；cn-textile-hj861-2017#units |
+| cn-ind-textile-finishing-005 | 作业 | 操作定型机并检查废气余热系统 | 织物及定型机组 → 定型织物与运行状态 | 定型过程及配套系统按规程运行 | source-backed | cn-occ-2022-draft#textile-finish；cn-textile-hj861-2017#units |
+| cn-ind-textile-finishing-006 | 检测 | 核对落布质量与标样 | 整理后织物 → 落布检验记录 | 幅宽和所需质量达到品种要求 | source-backed | cn-occ-2022-draft#textile-finish；cn-textile-hj861-2017#units |
+| cn-ind-textile-finishing-007 | 返工 | 处理允许修整的落布病疵 | 有病疵织物 → 修整待验布 | 处理范围按产品SOP确认 | source-backed | cn-occ-2022-draft#textile-finish；cn-textile-hj861-2017#units |
+| cn-ind-textile-finishing-008 | 异常 | 排查后整理设备异常 | 异常机组 → 处置记录 | 设备恢复条件明确 | source-backed | cn-occ-2022-draft#textile-finish；cn-textile-hj861-2017#units |
+| cn-ind-textile-finishing-009 | 清洁维护 | 记录并回收可利用剩余整理液 | 未使用整理液 → 回收料及记录 | 品种浓度与再次使用条件可追踪 | source-backed | cn-occ-2022-draft#textile-finish；cn-textile-hj861-2017#units |
+| cn-ind-textile-finishing-010 | 交付 | 登记工艺与检验状态并交出整理布 | 完成布卷及记录 → 下道待用布卷 | 批次和质量状态对应 | proposed | cn-occ-2022-draft#textile-finish |
+
+阶段缺口：交接
+
+- 各功能整理的产品性能检验、分卷包装、清洗换色及异常恢复SOP未完全展开。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 砂型金属铸件的造型制芯、浇注与清理
+
+C3391/3392金属制品制造；区别于钢厂连续铸坯。砂型工艺，熔模压铸离心等特殊铸造另待展开。
+
+流程来源：cn-foundry-hj1115-2020。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-sand-foundry-001 | 准备 | 核对铸造金属炉料及辅料批次 | 生铁废钢回炉料和配料计划 → 待用炉料 | 材质及批次满足目标铸件要求 | proposed | cn-occ-2022-draft#foundry；cn-foundry-hj1115-2020#units |
+| cn-ind-sand-foundry-002 | 作业 | 配制型砂芯砂及铸型涂料 | 砂料黏结剂和工艺配方 → 型芯材料 | 配料和工艺性能依铸件要求确认 | source-backed | cn-occ-2022-draft#foundry；cn-foundry-hj1115-2020#units |
+| cn-ind-sand-foundry-003 | 作业 | 使用造型设备或工具制成铸型 | 型砂与模样 → 铸型 | 型腔几何及完整性满足工艺 | source-backed | cn-occ-2022-draft#foundry；cn-foundry-hj1115-2020#units |
+| cn-ind-sand-foundry-004 | 作业 | 制成并烘干砂芯 | 芯砂和芯盒 → 可装配砂芯 | 芯形强度干燥条件符合工艺 | source-backed | cn-occ-2022-draft#foundry；cn-foundry-hj1115-2020#units |
+| cn-ind-sand-foundry-005 | 作业 | 装配砂芯并合箱 | 铸型砂芯及合箱装置 → 待浇铸型 | 定位和封合满足铸件工艺 | source-backed | cn-occ-2022-draft#foundry；cn-foundry-hj1115-2020#units |
+| cn-ind-sand-foundry-006 | 作业 | 熔化炉料并调整金属液质量 | 炉料与熔炼炉 → 合格待浇金属液 | 温度成分纯净度按材质目标控制 | source-backed | cn-occ-2022-draft#foundry；cn-foundry-hj1115-2020#units |
+| cn-ind-sand-foundry-007 | 检测 | 测量熔炼金属温度与成分 | 金属液和检测工具 → 熔炼检验结果 | 所需温度成分有可核对记录 | source-backed | cn-occ-2022-draft#foundry；cn-foundry-hj1115-2020#scope |
+| cn-ind-sand-foundry-008 | 交接 | 确认待浇型与金属液的批次匹配 | 合箱型与炉次信息 → 浇注准备确认 | 材质型号和就绪状态相符 | proposed | cn-occ-2022-draft#foundry |
+| cn-ind-sand-foundry-009 | 作业 | 将金属液浇入铸型并控制凝固冷却 | 待浇型与金属液 → 凝固铸件 | 浇冷过程按铸件工艺执行 | source-backed | cn-occ-2022-draft#foundry；cn-foundry-hj1115-2020#units |
+| cn-ind-sand-foundry-010 | 作业 | 落砂分离铸件并回收旧砂 | 冷却型砂铸件 → 初清铸件和旧砂 | 分离不损坏铸件且材料分流 | source-backed | cn-occ-2022-draft#foundry；cn-foundry-hj1115-2020#units |
+| cn-ind-sand-foundry-011 | 清洁维护 | 处理回用旧砂并补配新砂 | 分离旧砂 → 可再利用砂料 | 再生质量及回用条件经确认 | source-backed | cn-occ-2022-draft#foundry；cn-foundry-hj1115-2020#units |
+| cn-ind-sand-foundry-012 | 作业 | 抛丸或打磨清理铸件表面 | 脱砂铸件 → 清理后铸件 | 表面残砂和规定余量处理完成 | source-backed | cn-occ-2022-draft#foundry；cn-foundry-hj1115-2020#units |
+| cn-ind-sand-foundry-013 | 检测 | 检查清理铸件尺寸表面及内部缺陷 | 清理铸件 → 质量判定记录 | 检验方式和项目待产品图样SOP补核 | proposed | cn-occ-2022-draft#foundry |
+| cn-ind-sand-foundry-014 | 返工 | 修补准许返修的铸件缺陷 | 已确认可修铸件 → 修补待验铸件 | 返修方案批准且复验符合用途要求 | source-backed | cn-occ-2022-draft#foundry；cn-foundry-hj1115-2020#units |
+| cn-ind-sand-foundry-015 | 异常 | 隔离不可放行铸件并报告异常炉次 | 质量异常铸件 → 隔离处置批次 | 失效影响及去向待专业评审 | proposed | cn-occ-2022-draft#foundry |
+| cn-ind-sand-foundry-016 | 清洁维护 | 维护保养造型熔炼和清理工装 | 结束运行工装 → 可用工艺装备 | 按设备规程检查复位 | source-backed | cn-occ-2022-draft#foundry；cn-foundry-hj1115-2020#units |
+| cn-ind-sand-foundry-017 | 交付 | 标识合格铸件并交下一机械加工环节 | 合格铸件和炉次记录 → 可追溯铸件批 | 批号材质质量状态对应 | proposed | cn-occ-2022-draft#foundry |
+
+阶段缺口：
+
+- 热处理涂装和机加工虽在生产单元中识别，本场景未展开；浇冒口切除、夹芯吊运、浇包维护、防错浇和特殊缺陷试验仍需补规范。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 橡胶配料混炼、半成品与轮胎胶管胶带成型
+
+29门类，配方胶到硫化制品；轮胎、胶管、胶带、零件有不同成型装配条件，现为工艺骨架，后续必须逐产品展开。
+
+流程来源：cn-rubber-plastic-hj1122-2020。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-rubber-mixing-forming-001 | 准备 | 计量橡胶与配合剂组成批料 | 橡胶助剂和配方 → 已计量批料 | 组分批号和用量与配方一致 | source-backed | cn-occ-2022-draft#rubber；cn-rubber-plastic-hj1122-2020#rubber |
+| cn-ind-rubber-mixing-forming-002 | 作业 | 破胶塑炼并混炼胶料 | 计配胶料和炼胶设备 → 塑炼胶或混炼胶 | 混炼工艺与质量状态符合配方要求 | source-backed | cn-occ-2022-draft#rubber；cn-rubber-plastic-hj1122-2020#rubber |
+| cn-ind-rubber-mixing-forming-003 | 作业 | 挤出或压延混炼胶形成半成品 | 混炼胶 → 规定截面或胶片 | 几何和材料状态满足产品工艺 | source-backed | cn-occ-2022-draft#rubber；cn-rubber-plastic-hj1122-2020#rubber |
+| cn-ind-rubber-mixing-forming-004 | 作业 | 将胶片复贴到纤维或钢丝帘线 | 胶片及增强材料 → 增强胶半成品 | 层位和结合符合工艺要求 | source-backed | cn-occ-2022-draft#rubber；cn-rubber-plastic-hj1122-2020#rubber |
+| cn-ind-rubber-mixing-forming-005 | 交接 | 确认半成品批次并送入指定成型工序 | 胶半成品与流转信息 → 匹配的成型投料 | 配方规格和待用状态可追踪 | proposed | cn-occ-2022-draft#rubber |
+| cn-ind-rubber-mixing-forming-006 | 作业 | 将胶半成品组装成指定产品坯件 | 胶半成品和产品工装 → 轮胎或管带等指定坯件 | 结构及尺寸按对应产品分别确认 | proposed | cn-occ-2022-draft#rubber；cn-rubber-plastic-hj1122-2020#rubber |
+| cn-ind-rubber-mixing-forming-007 | 作业 | 操控硫化设备完成胶坯硫化 | 成型坯与硫化设备 → 硫化制品 | 温度压力时间按配方和产品工艺 | source-backed | cn-occ-2022-draft#rubber；cn-rubber-plastic-hj1122-2020#rubber |
+| cn-ind-rubber-mixing-forming-008 | 检测 | 使用检验设备检查橡胶制品质量 | 完成胶制品 → 检验结论 | 尺寸外观性能按产品规格验收 | source-backed | cn-occ-2022-draft#rubber；cn-rubber-plastic-hj1122-2020#rubber |
+| cn-ind-rubber-mixing-forming-009 | 异常 | 排查胶料加工设备异常与故障 | 异常工艺或设备 → 处置记录 | 异常原因和恢复条件确认 | source-backed | cn-occ-2022-draft#rubber；cn-rubber-plastic-hj1122-2020#rubber |
+| cn-ind-rubber-mixing-forming-010 | 返工 | 评估并处理准许重新混炼的胶料 | 不合格未硫化胶料 → 待复验胶料 | 再加工适用条件与配方风险待核 | proposed | cn-occ-2022-draft#rubber |
+| cn-ind-rubber-mixing-forming-011 | 清洁维护 | 检查维护炼胶成型硫化设备 | 生产设备 → 维护后设备 | 按设备要求确认可用 | source-backed | cn-occ-2022-draft#rubber；cn-rubber-plastic-hj1122-2020#rubber |
+| cn-ind-rubber-mixing-forming-012 | 交付 | 保存胶料与硫化批记录并交出制品 | 合格制品及生产数据 → 可追溯产品批 | 配方硫化和检验数据对应 | proposed | cn-occ-2022-draft#rubber |
+
+阶段缺口：
+
+- 本场景不是轮胎完整成型原子任务终稿，胎圈帘布裁断卷绕胎胚装配及脱模修边必须继续拆解。成型汇总暂作proposed，不能和未来子任务叠加计数。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 旧轮胎胎体检查、修补与翻新
+
+29轮胎翻新；检验准入是先决条件，不代表所有旧胎均能翻新。
+
+流程来源：cn-rubber-plastic-hj1122-2020。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-tyre-retreading-001 | 检测 | 检查旧胎胎体并确认可翻修性 | 旧胎和检查设备 → 胎体准入结果 | 完整性和可修条件依翻胎规范确认 | source-backed | cn-occ-2022-draft#tyre-retread；cn-rubber-plastic-hj1122-2020#rubber |
+| cn-ind-tyre-retreading-002 | 准备 | 制备翻新中垫胶和预硫化胎面 | 胶料及专用设备 → 可用中垫胶胎面 | 配方及型面与待修胎体适配 | source-backed | cn-occ-2022-draft#tyre-retread；cn-rubber-plastic-hj1122-2020#rubber |
+| cn-ind-tyre-retreading-003 | 返工 | 使用补片和工具修补准入胎体 | 准许修补缺陷和补片 → 修补后胎体 | 修补范围与质量经复核 | source-backed | cn-occ-2022-draft#tyre-retread；cn-rubber-plastic-hj1122-2020#rubber |
+| cn-ind-tyre-retreading-004 | 作业 | 削磨胎面至翻新工艺轮廓 | 经检查旧胎和削磨机 → 可贴胶胎体 | 轮廓和剩余胎体状态符合工艺 | source-backed | cn-occ-2022-draft#tyre-retread；cn-rubber-plastic-hj1122-2020#rubber |
+| cn-ind-tyre-retreading-005 | 作业 | 铺中垫胶并缠贴预硫化胎面 | 处理胎体与胎面 → 翻新成型轮胎 | 贴合定位和界面质量满足工艺 | source-backed | cn-occ-2022-draft#tyre-retread；cn-rubber-plastic-hj1122-2020#rubber |
+| cn-ind-tyre-retreading-006 | 作业 | 在硫化罐内完成翻新胎硫化 | 已成型轮胎 → 硫化后翻新胎 | 过程条件按产品翻修工艺 | source-backed | cn-occ-2022-draft#tyre-retread；cn-rubber-plastic-hj1122-2020#rubber |
+| cn-ind-tyre-retreading-007 | 检测 | 检查翻新胎成品并判定放行 | 完成翻新胎 → 检验判定 | 合格标准及检验方式按使用条件确认 | source-backed | cn-occ-2022-draft#tyre-retread；cn-rubber-plastic-hj1122-2020#rubber |
+| cn-ind-tyre-retreading-008 | 交付 | 标识并交付检验合格翻新胎 | 合格翻新胎与记录 → 可追溯翻新胎 | 原胎和修补硫化检验记录关联 | proposed | cn-occ-2022-draft#tyre-retread |
+
+阶段缺口：交接、异常、清洁维护
+
+- 异常退出胎体的去向、翻胎设备清理和使用等级限制待补；不存在可恢复所有旧胎使用性能的结论。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 塑料原辅料混配、塑化与造粒
+
+29产品成型前配混场景；独立树脂合成属于26，不在此重复。
+
+流程来源：cn-rubber-plastic-hj1122-2020。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-plastic-compounding-002 | 作业 | 初混并捏合塑料原辅料 | 树脂助剂与混合设备 → 均匀配混料 | 混配状态符合所需成型料要求 | source-backed | cn-occ-2022-draft#plastic；cn-rubber-plastic-hj1122-2020#plastic |
+| cn-ind-plastic-compounding-003 | 作业 | 混炼塑化并造粒成型用料 | 配混料和造粒机组 → 成型用塑料粒 | 温度剪切和粒料质量按材料工艺 | source-backed | cn-occ-2022-draft#plastic；cn-rubber-plastic-hj1122-2020#plastic |
+| cn-ind-plastic-compounding-004 | 检测 | 测定塑料试样颜色 | 成型用料试样 → 测色结果 | 与标准色样依方法比较 | source-backed | cn-occ-2022-draft#plastic；cn-rubber-plastic-hj1122-2020#plastic |
+
+阶段缺口：准备、交接、异常、返工、清洁维护、交付
+
+- 职业路径未给人工工时；清机、降温开停车、滤网更换、加料和包装微动作待现场SOP补齐。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+- 原先可想到的通用开停机/检测/返工/包装候选现保存在evidencePendingCandidates且不计任务；不以这些模板填满八阶段。
+
+### 塑料管、板及型材挤出成型
+
+29管板型材，模具后定型牵引切割流程仍需行业产品规范补全，不能视为已完成挤出全线。
+
+流程来源：cn-rubber-plastic-hj1122-2020。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-plastic-extrusion-002 | 作业 | 操控挤出机将塑料形成管板型材 | 塑料料及挤出设施 → 挤出型材 | 截面和材料状态满足工艺 | source-backed | cn-occ-2022-draft#plastic；cn-rubber-plastic-hj1122-2020#plastic |
+
+阶段缺口：准备、交接、检测、异常、返工、清洁维护、交付
+
+- 这是流程未完整验证的场景骨架；source-backed仅挤出动作，proposed不得作为冻结清单或自动化结论。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+- 原先可想到的通用开停机/检测/返工/包装候选现保存在evidencePendingCandidates且不计任务；不以这些模板填满八阶段。
+
+### 塑料工业配件或日用品注塑成型
+
+29具体注塑件类型尚需按产品拆场景；与样板研究文件的工件上下料证据不自动合并。
+
+流程来源：cn-rubber-plastic-hj1122-2020。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-plastic-injection-002 | 作业 | 操作注塑机将物料塑化成型 | 树脂模具与注塑机 → 成型塑料件 | 成型过程符合产品工艺窗口 | source-backed | cn-occ-2022-draft#plastic；cn-rubber-plastic-hj1122-2020#plastic |
+
+阶段缺口：准备、交接、检测、异常、返工、清洁维护、交付
+
+- 只有工艺单元及操作注塑存在双路径；换模、干燥、嵌件、取件、修边、测量和包装均须继续细化验证。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+- 原先可想到的通用开停机/检测/返工/包装候选现保存在evidencePendingCandidates且不计任务；不以这些模板填满八阶段。
+
+### 配合饲料配料与制粒
+
+农副食品13的农牧或水产用颗粒饲料；发酵、膨化及宠物食品不假设为本路线必经。
+
+流程来源：cn-feed-oil-hj1110-2020。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-feed-pellets-001 | 准备 | 核对饲料原料与添加剂的标识及入库记录 | 待用原料和记录 → 已核对批次 | 原料与指定批次对应 | source-backed | cn-occ-2022-draft#feed-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-feed-pellets-002 | 作业 | 清理并输送饲料原料入仓 | 原料 → 入仓原料 | 杂物清理且目标仓对应 | source-backed | cn-occ-2022-draft#feed-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-feed-pellets-003 | 作业 | 粉碎饲料原料 | 已清理原料 → 粉碎料 | 符合产品粒度要求 | source-backed | cn-occ-2022-draft#feed-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-feed-pellets-004 | 作业 | 按配方称量饲料原料和添加剂 | 配方与原料 → 各组分称量料 | 各组分与本批配方对应 | source-backed | cn-occ-2022-draft#feed-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-feed-pellets-005 | 作业 | 混合称量后的饲料组分 | 称量料 → 混合料 | 达到本批混合要求 | source-backed | cn-occ-2022-draft#feed-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-feed-pellets-006 | 作业 | 调质混合饲料 | 混合料 → 调质料 | 达到后续成型条件 | source-backed | cn-occ-2022-draft#feed-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-feed-pellets-007 | 作业 | 将调质料制成颗粒 | 调质料 → 颗粒饲料 | 形态满足本产品要求 | source-backed | cn-occ-2022-draft#feed-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-feed-pellets-008 | 作业 | 干燥成型饲料 | 湿颗粒 → 干燥饲料 | 达到本产品水分要求 | source-backed | cn-occ-2022-draft#feed-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-feed-pellets-009 | 作业 | 破碎并分级饲料颗粒 | 制粒料 → 分级颗粒料 | 指定粒级单独收集 | source-backed | cn-occ-2022-draft#feed-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-feed-pellets-010 | 交付 | 计量包装成品饲料 | 成品料与包装 → 包装批次 | 包装与产品批次对应 | source-backed | cn-occ-2022-draft#feed-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-feed-pellets-011 | 检测 | 检验成品饲料质量 | 本批饲料 → 检验记录 | 所检项目对应产品要求 | source-backed | cn-occ-2022-draft#feed-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-feed-pellets-012 | 异常 | 排查并处理饲料加工设备故障 | 故障设备和记录 → 恢复或移交检修的设备 | 异常及处理结果已记录 | source-backed | cn-occ-2022-draft#feed-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-feed-pellets-013 | 清洁维护 | 维护保养饲料加工设备 | 待保养设备 → 保养记录 | 规定保养项目已完成 | source-backed | cn-occ-2022-draft#feed-processing；cn-feed-oil-hj1110-2020#units |
+
+阶段缺口：交接、返工
+
+- 验收指标和取样规则未取得产品专用正式规范，不把定性验收当数值标准。
+- 出仓换线清洁、防交叉污染、霉变拒收、返料及返工路径仍缺已读流程依据。
+- 发酵、水产饲料脱臭和粉状预混料各有独立分支，尚未展开。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 植物油料预处理与压榨
+
+植物油加工13的油料预处理和机械压榨；脱壳、膨化等按原料选用，不能一律相加。
+
+流程来源：cn-feed-oil-hj1110-2020。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-oil-pretreat-press-001 | 作业 | 筛选和风选植物油料 | 进厂油料 → 清选油料 | 杂质分离并对应批次 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-pretreat-press-002 | 作业 | 干燥调质植物油料 | 清选油料 → 调质油料 | 满足后续处理要求 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-pretreat-press-003 | 作业 | 脱除植物油料外壳 | 适用油料 → 仁料和壳料 | 仁壳分别收集 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-pretreat-press-004 | 作业 | 破碎植物油料 | 油料或仁料 → 碎料 | 满足轧胚路线要求 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-pretreat-press-005 | 作业 | 软化并轧制油料胚片 | 碎料 → 胚片 | 胚片满足本路线规格 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-pretreat-press-006 | 作业 | 蒸炒油料胚片 | 胚片 → 蒸炒料 | 达到压榨工艺条件 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-pretreat-press-007 | 作业 | 压榨油料并收集毛油与饼粕 | 调制油料 → 毛油和饼粕 | 两股产物按路线分流 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-pretreat-press-008 | 作业 | 分离毛油中的固体残渣 | 含渣毛油 → 分离油和油渣 | 分离结果符合后续工序要求 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-pretreat-press-009 | 交付 | 计量包装并入库油粕和壳料 | 副产物 → 可发放批次 | 重量批次与库位对应 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-pretreat-press-010 | 异常 | 排查压榨单元设备故障并记录 | 异常设备 → 处置记录 | 故障已处置或明确移交 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-pretreat-press-011 | 清洁维护 | 保养油料处理及压榨设备 | 停机设备 → 保养记录 | 规定保养项目完成 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+
+阶段缺口：准备、交接、检测、返工
+
+- 热榨冷榨及各油料脱皮脱壳路线需继续拆解；焙炒芝麻等专用场景未展开。
+- 物料接收检验、压榨堵塞处理、清机换料及油渣返榨尚缺操作规范。
+- 机组步骤存在合并操作，原子动作工时不得直接求和。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 植物油浸出与溶剂回收
+
+植物油13的溶剂浸出路线；与压榨是可并联或串联的具体工艺选择，不能视作每厂必经。
+
+流程来源：cn-feed-oil-hj1110-2020。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-oil-solvent-extract-001 | 作业 | 浸出油料中的油脂 | 预处理油料与溶剂 → 混合油和湿粕 | 产物流向符合浸出工艺 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-solvent-extract-002 | 作业 | 蒸脱湿粕中的溶剂 | 湿粕 → 脱溶粕和蒸汽 | 达到本工艺脱溶要求 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-solvent-extract-003 | 作业 | 蒸发并汽提混合油 | 混合油 → 浸出毛油与溶剂蒸汽 | 油和溶剂分别进入后续工序 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-solvent-extract-004 | 作业 | 冷凝回收溶剂蒸汽 | 溶剂蒸汽 → 冷凝液 | 回收流向对应规定回路 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-solvent-extract-005 | 作业 | 分离冷凝液中的溶剂和水 | 冷凝液 → 回收溶剂与水 | 两相按规定去向分离 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-solvent-extract-006 | 作业 | 回收浸出尾气中的溶剂 | 含溶剂尾气 → 回收溶剂及处理后气流 | 回收单元按规定运行 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-solvent-extract-007 | 异常 | 排查浸出回收设备故障并记录 | 设备异常 → 处置记录 | 异常已处置或移交 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-solvent-extract-008 | 清洁维护 | 保养浸出与溶剂回收设备 | 待保养设备 → 保养记录 | 规定项目已完成 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+
+阶段缺口：准备、交接、检测、返工、交付
+
+- 泄漏报警、火灾防爆、受限空间、开停机置换和危险检修必须另查专项流程，不能据此清单执行。
+- 残溶检验、物料交接和不合格粕返工未获足够已读来源。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 植物油精炼与灌装
+
+植物油13的精炼及工厂内成品灌装；脱胶脱酸脱色脱臭脱蜡按油种和路线选择。
+
+流程来源：cn-feed-oil-hj1110-2020。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-oil-refine-fill-001 | 作业 | 脱除毛油中的胶质 | 毛油 → 脱胶油与胶脚 | 达到所选精炼路线要求 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-refine-fill-002 | 作业 | 脱除油脂中的游离脂肪酸 | 待脱酸油 → 脱酸油及副产物 | 达到本品种工艺要求 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-refine-fill-003 | 作业 | 脱除油脂中的色素 | 待脱色油 → 脱色油 | 达到本品种脱色要求 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-refine-fill-004 | 作业 | 蒸汽脱除油脂中的异味物质 | 待脱臭油 → 脱臭油 | 达到本品种脱臭要求 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-refine-fill-005 | 作业 | 冷却结晶并分离油脂中的蜡 | 待脱蜡油 → 脱蜡油和蜡相 | 满足本品种低温要求 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-refine-fill-006 | 作业 | 输送计量油脂至灌装工位 | 成品油 → 待灌装定量油 | 油种批次与计量对应 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-refine-fill-007 | 作业 | 灌装并充氮封装油脂 | 油脂与包装 → 包装成品 | 按所选包装工艺封装 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-refine-fill-008 | 交付 | 办理包装油脂入库与出库交接 | 包装批次和库单 → 库存或出库批次 | 实物批次数量与交接记录相符 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-refine-fill-009 | 异常 | 排查精炼或灌装设备故障 | 异常设备 → 处置记录 | 异常已处置或移交 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+| cn-ind-oil-refine-fill-010 | 清洁维护 | 保养精炼和灌装设备 | 待保养设备 → 保养记录 | 规定项目完成 | source-backed | cn-occ-2022-draft#oil-processing；cn-feed-oil-hj1110-2020#units |
+
+阶段缺口：准备、交接、检测、返工
+
+- 精炼理化检测、过滤器更换、吸附剂处理、清洗及产品改判返工仍需专用规范。
+- HJ表1包装设备列有注塑机，可能对应包装制造或表述问题，本清单不采用该设备结论；灌装充氮来自职业稿。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 水产品预处理与鱼糜加工
+
+农副食品13的鱼类预处理、采肉制糜及成型；不同鱼种、甲壳类和贝类不能共用全部去除步骤。
+
+流程来源：cn-fish-hj1109-2020。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-fish-mince-001 | 交接 | 卸收并储存水产原料 | 到厂水产原料 → 储存原料批次 | 批次进入对应储存单元 | source-backed | cn-occ-2022-draft#fish-processing；cn-fish-hj1109-2020#units |
+| cn-ind-fish-mince-002 | 检测 | 对水产原料分拣分级 | 原料批次 → 分级原料 | 按本加工路线分流 | source-backed | cn-occ-2022-draft#fish-processing；cn-fish-hj1109-2020#units |
+| cn-ind-fish-mince-003 | 作业 | 宰杀并放血鱼类原料 | 适用鲜活鱼 → 宰杀鱼体 | 完成本品种规定宰杀处理 | source-backed | cn-occ-2022-draft#fish-processing；cn-fish-hj1109-2020#units |
+| cn-ind-fish-mince-004 | 作业 | 去除鱼体鳃鳞与内脏 | 宰杀鱼体 → 净膛鱼体和废弃物 | 需去除部位分离 | source-backed | cn-occ-2022-draft#fish-processing；cn-fish-hj1109-2020#units |
+| cn-ind-fish-mince-005 | 作业 | 清洗预处理鱼体 | 鱼体 → 清洗鱼体 | 满足后续分割条件 | source-backed | cn-occ-2022-draft#fish-processing；cn-fish-hj1109-2020#units |
+| cn-ind-fish-mince-006 | 作业 | 分割鱼体并采集鱼肉 | 鱼体 → 鱼肉及分离物 | 可用鱼肉按规定分离 | source-backed | cn-occ-2022-draft#fish-processing；cn-fish-hj1109-2020#units |
+| cn-ind-fish-mince-007 | 作业 | 将采集鱼肉制成鱼糜 | 鱼肉 → 鱼糜 | 达到本产品细度和状态要求 | source-backed | cn-occ-2022-draft#fish-processing；cn-fish-hj1109-2020#units |
+| cn-ind-fish-mince-008 | 作业 | 给鱼糜配料并调味混合 | 鱼糜和配料 → 混合鱼糜 | 配方与本批产品对应 | source-backed | cn-occ-2022-draft#fish-processing；cn-fish-hj1109-2020#units |
+| cn-ind-fish-mince-009 | 作业 | 成型并计量鱼糜制品 | 混合鱼糜 → 定型定量制品 | 形态和份量符合本产品要求 | source-backed | cn-occ-2022-draft#fish-processing；cn-fish-hj1109-2020#units |
+| cn-ind-fish-mince-010 | 作业 | 杀菌并包装鱼糜制品 | 待处理制品和包装 → 包装制品 | 执行本产品经验证的杀菌包装工艺 | source-backed | cn-occ-2022-draft#fish-processing；cn-fish-hj1109-2020#units |
+| cn-ind-fish-mince-011 | 清洁维护 | 清洗消毒鱼糜加工场所和设备 | 待清洁区域设备 → 清洁消毒记录 | 规定区域和设备完成清洁消毒 | source-backed | cn-occ-2022-draft#fish-processing；cn-fish-hj1109-2020#units |
+
+阶段缺口：准备、异常、返工、交付
+
+- 冰鲜冷冻保鲜、温度记录、金属异物及微生物检测、过敏原换线、解冻滴水和退货返工未完成规范补证。
+- 原料验收、杀菌条件和冷链条件未给出统一数值；不可据本任务列表执行食品安全控制。
+- 表1前处理动作支持原子任务存在，职业条目未逐一重复；sourceRefs已注明单路径细节。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 水产品腌制干燥熟化加工
+
+农副食品13的腌干、熟制和熏制产品分支；按实际产品选择步骤。
+
+流程来源：cn-fish-hj1109-2020。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-fish-cure-dry-001 | 作业 | 腌制预处理水产品 | 净制水产原料和盐料 → 腌制原料 | 达到本产品腌制要求 | source-backed | cn-occ-2022-draft#fish-processing；cn-fish-hj1109-2020#units |
+| cn-ind-fish-cure-dry-002 | 作业 | 配制并混合水产制品调味料 | 原料和调味配方 → 调味料或混合物 | 用料与配方对应 | source-backed | cn-occ-2022-draft#fish-processing；cn-fish-hj1109-2020#units |
+| cn-ind-fish-cure-dry-003 | 作业 | 干燥水产制品 | 待干燥制品 → 干制品 | 达到本产品干燥要求 | source-backed | cn-occ-2022-draft#fish-processing；cn-fish-hj1109-2020#units |
+| cn-ind-fish-cure-dry-004 | 作业 | 熟化水产制品 | 待熟制品 → 熟制品 | 执行本产品规定熟化程序 | source-backed | cn-occ-2022-draft#fish-processing；cn-fish-hj1109-2020#units |
+| cn-ind-fish-cure-dry-005 | 作业 | 熏制水产制品 | 适用制品 → 熏制品 | 达到本产品熏制要求 | source-backed | cn-occ-2022-draft#fish-processing；cn-fish-hj1109-2020#units |
+| cn-ind-fish-cure-dry-006 | 交付 | 计量并包装水产干熟制品 | 成品和包装 → 包装批次 | 产品与批次及包装规格对应 | source-backed | cn-occ-2022-draft#fish-processing；cn-fish-hj1109-2020#units |
+| cn-ind-fish-cure-dry-007 | 清洁维护 | 清洗消毒腌干熟制设备及场所 | 待清洁设备区域 → 清洁消毒记录 | 规定项目完成 | source-backed | cn-occ-2022-draft#fish-processing；cn-fish-hj1109-2020#units |
+
+阶段缺口：准备、交接、检测、异常、返工
+
+- 熟化仍为蒸煮、烘烤或油炸的路线级动作，需继续按产品分解上料、翻动、取出等可独立验收操作；本条未来展开后应退出计数避免重复。
+- 感官理化检测、腌液循环处置、失败批处理、炉体清焦与废气单元维护均未展开。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 水产原料精制提取
+
+农副食品13的水产精制品操作族入口；鱼油、海藻胶等化学成分与工艺不同，尚不作为单一完整工厂流程。
+
+流程来源：cn-fish-hj1109-2020。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-aquatic-refining-001 | 作业 | 浸泡洗涤并绞碎水产原料 | 适用原料 → 净化细化原料 | 满足所选精制路线输入条件 | source-backed | cn-occ-2022-draft#fish-refining；cn-fish-hj1109-2020#units |
+| cn-ind-aquatic-refining-002 | 作业 | 消化处理水产原料 | 预处理原料 → 消化物 | 达到本产品消化程序要求 | source-backed | cn-occ-2022-draft#fish-refining；cn-fish-hj1109-2020#units |
+| cn-ind-aquatic-refining-003 | 作业 | 分离并提纯水产中间物 | 消化物或提取物 → 提纯中间物 | 目标相与残渣分离 | source-backed | cn-occ-2022-draft#fish-refining；cn-fish-hj1109-2020#units |
+| cn-ind-aquatic-refining-004 | 作业 | 浓缩水产精制中间液 | 中间液 → 浓缩液 | 达到后续处理浓度要求 | source-backed | cn-occ-2022-draft#fish-refining；cn-fish-hj1109-2020#units |
+| cn-ind-aquatic-refining-005 | 作业 | 压榨脱水并干燥精制物 | 湿中间物 → 干燥精制物 | 达到所选产品干燥要求 | source-backed | cn-occ-2022-draft#fish-refining；cn-fish-hj1109-2020#units |
+| cn-ind-aquatic-refining-006 | 作业 | 磨粉并配制精制水产产品 | 精制物和配料 → 配制产品 | 细度与配方对应 | source-backed | cn-occ-2022-draft#fish-refining；cn-fish-hj1109-2020#units |
+| cn-ind-aquatic-refining-007 | 交付 | 杀菌并包装精制水产产品 | 待处理产品和包装 → 包装批次 | 执行本产品规定工艺并标识批次 | source-backed | cn-occ-2022-draft#fish-refining；cn-fish-hj1109-2020#units |
+| cn-ind-aquatic-refining-008 | 清洁维护 | 清洗消毒水产精制设备与场所 | 待清洁设备区域 → 清洁消毒记录 | 规定项目完成 | source-backed | cn-occ-2022-draft#fish-refining；cn-fish-hj1109-2020#units |
+
+阶段缺口：准备、交接、检测、异常、返工
+
+- 本场景为职业动作族入口，鱼油、鱼粉、藻胶等不同原料与产品必须继续分开；联合动作需取得详细SOP后拆分并删除对应汇总条。
+- HJ表1支持精制分离过滤溶剂脱脂等单元；职业稿中的消化不代表所有水产品路线使用。
+- 残留检测、物料交接、批失败返工以及溶剂与药剂操作尚缺逐项规范。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 水泥生料制备
+
+非金属矿物制品30的水泥厂原料加工；原料矿山采掘另按执行者的采矿门类登记。
+
+流程来源：cn-cement-hj847-2017。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-cement-rawmeal-001 | 作业 | 破碎水泥原料 | 原料块料 → 破碎原料 | 粒级满足后续粉磨路线 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+| cn-ind-cement-rawmeal-002 | 作业 | 烘干水泥原料 | 含水原料 → 干燥原料 | 满足本工艺水分要求 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+| cn-ind-cement-rawmeal-003 | 准备 | 按生料配比配制水泥原料 | 原料和配比 → 配合原料 | 组分符合本批配料要求 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+| cn-ind-cement-rawmeal-004 | 作业 | 粉磨配合原料制成水泥生料 | 配合原料 → 生料 | 达到本线生料要求 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+| cn-ind-cement-rawmeal-005 | 作业 | 均化水泥生料 | 待均化生料 → 均化料 | 达到后续煅烧输入要求 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+| cn-ind-cement-rawmeal-006 | 异常 | 排查生料制备设备故障 | 设备异常 → 处置记录 | 故障已处置或移交 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+| cn-ind-cement-rawmeal-007 | 清洁维护 | 保养生料制备设备 | 待保养设备 → 保养记录 | 规定项目完成 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+
+阶段缺口：交接、检测、返工、交付
+
+- 原料检验、料仓切换、防混料和计量校准、堵料清仓及余料返配仍未取得具体已读规程。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 水泥熟料煅烧与冷却
+
+非金属矿物制品30熟料窑线；煤粉制备、协同处置和余热发电属于独立待展开单元。
+
+流程来源：cn-cement-hj847-2017。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-cement-clinker-001 | 作业 | 预热水泥生料 | 生料 → 预热料 | 满足所选窑线下游条件 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+| cn-ind-cement-clinker-002 | 作业 | 预分解水泥生料 | 预热料 → 分解料 | 达到本窑线分解要求 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+| cn-ind-cement-clinker-003 | 作业 | 煅烧生料形成水泥熟料 | 分解料或适用生料 → 熟料 | 达到本产品煅烧要求 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+| cn-ind-cement-clinker-004 | 作业 | 冷却水泥熟料 | 高温熟料 → 冷却熟料 | 达到储运与粉磨条件 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+| cn-ind-cement-clinker-005 | 检测 | 检测水泥线环保设施排放 | 排放流 → 检测记录 | 记录所测项目及达标判断依据 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+| cn-ind-cement-clinker-006 | 异常 | 排查熟料生产设备故障 | 设备异常 → 处置记录 | 故障已处置或移交 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+| cn-ind-cement-clinker-007 | 清洁维护 | 保养熟料生产设备 | 待维护设备 → 维护记录 | 规定项目完成 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+
+阶段缺口：准备、交接、返工、交付
+
+- 窑开停机、喷煤点火、结圈结皮处理、篦冷机故障、热工取样和不合格熟料改判未取得专项流程。
+- 环保检测跨原料/熟料/粉磨系统由同一团队执行时只计一次，不按场景重复累加工时。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 水泥粉磨与装运
+
+非金属矿物制品30的熟料制水泥及厂内包装散装；袋装和散装为产品交付分支。
+
+流程来源：cn-cement-hj847-2017。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-cement-grind-pack-001 | 作业 | 破碎水泥熟料及缓凝剂 | 熟料和缓凝剂 → 碎料 | 满足粉磨入料规格 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+| cn-ind-cement-grind-pack-002 | 准备 | 配混熟料与水泥用辅料 | 碎料及混合材 → 配合料 | 配比对应本产品 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+| cn-ind-cement-grind-pack-003 | 作业 | 烘干水泥混合料 | 含水混合料 → 干燥料 | 满足粉磨条件 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+| cn-ind-cement-grind-pack-004 | 作业 | 粉磨水泥配合料 | 配合料 → 水泥粉 | 达到本产品粉磨要求 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+| cn-ind-cement-grind-pack-005 | 作业 | 分选水泥粉粒 | 粉磨出料 → 合适粒级和回料 | 各股物料进入规定去向 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+| cn-ind-cement-grind-pack-006 | 交付 | 将水泥计量装包 | 水泥及包装袋 → 袋装水泥 | 按产品规格完成包装 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+| cn-ind-cement-grind-pack-007 | 交付 | 将散装水泥装入运输容器 | 散装水泥及容器 → 散装批次 | 产品与容器及出料批次对应 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+| cn-ind-cement-grind-pack-008 | 异常 | 排查水泥粉磨包装设备故障 | 设备异常 → 处置记录 | 故障已处置或移交 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+| cn-ind-cement-grind-pack-009 | 清洁维护 | 保养水泥粉磨包装设备 | 待维护设备 → 保养记录 | 规定项目完成 | source-backed | cn-occ-2022-draft#cement-production；cn-cement-hj847-2017#units |
+
+阶段缺口：交接、检测、返工
+
+- 包装插袋、封口检查、码垛、破包回收、装车交接和成品取样检验仍未完整展开。
+- 选粉机回料为正常工艺循环，不视作独立产品返工并重复计入产量。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 平板玻璃配料与熔化
+
+非金属矿物制品30平板玻璃配合料及熔窑；浮法与压延共享的前段只登记一次。
+
+流程来源：cn-flatglass-hj856-2017。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-flatglass-melt-001 | 作业 | 均化平板玻璃原料 | 石英砂等原料 → 均化原料 | 达到本品种配料条件 | source-backed | cn-occ-2022-draft#glass-melt；cn-flatglass-hj856-2017#units |
+| cn-ind-flatglass-melt-002 | 准备 | 称量玻璃配合料各组分 | 配方及原料 → 称量组分 | 重量与配方对应 | source-backed | cn-occ-2022-draft#glass-melt；cn-flatglass-hj856-2017#units |
+| cn-ind-flatglass-melt-003 | 作业 | 混合玻璃配合料 | 称量组分 → 配合料 | 符合本线混合要求 | source-backed | cn-occ-2022-draft#glass-melt；cn-flatglass-hj856-2017#units |
+| cn-ind-flatglass-melt-004 | 交接 | 输送玻璃配合料至窑头仓 | 配合料 → 仓内配合料 | 批次与窑头仓对应 | source-backed | cn-occ-2022-draft#glass-melt；cn-flatglass-hj856-2017#units |
+| cn-ind-flatglass-melt-005 | 作业 | 将配合料投进玻璃熔窑 | 配合料 → 熔窑入料 | 供料与液面控制要求一致 | source-backed | cn-occ-2022-draft#glass-melt；cn-flatglass-hj856-2017#units |
+| cn-ind-flatglass-melt-006 | 作业 | 调节玻璃熔窑燃烧条件 | 熔窑及热工读数 → 受控熔液 | 温压气氛满足本线熔化要求 | source-backed | cn-occ-2022-draft#glass-melt；cn-flatglass-hj856-2017#units |
+| cn-ind-flatglass-melt-007 | 作业 | 切换玻璃熔窑预热空气方向 | 换向设备 → 切换后风路 | 按适用窑型程序完成换向 | source-backed | cn-occ-2022-draft#glass-melt；cn-flatglass-hj856-2017#units |
+| cn-ind-flatglass-melt-008 | 检测 | 取样检查玻璃液熔化缺陷 | 玻璃液样品 → 缺陷检查记录 | 结石气泡等检查有记录 | source-backed | cn-occ-2022-draft#glass-melt；cn-flatglass-hj856-2017#units |
+| cn-ind-flatglass-melt-009 | 异常 | 排查玻璃熔窑及设备故障 | 设备异常 → 处置记录 | 故障已处置或移交 | source-backed | cn-occ-2022-draft#glass-melt；cn-flatglass-hj856-2017#units |
+| cn-ind-flatglass-melt-010 | 清洁维护 | 检查维护玻璃窑炉及附属设备 | 待维护设备 → 维护记录 | 规定项目完成 | source-backed | cn-occ-2022-draft#glass-melt；cn-flatglass-hj856-2017#units |
+
+阶段缺口：返工、交付
+
+- 原料化验、碎玻璃分选清洗、炉窑冷修、换料以及熔化缺陷纠偏需专项规范；没有把热工调节当作软件岗位。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 浮法平板玻璃成型退火切裁
+
+非金属矿物制品30的浮法路线，从供料至切裁质检；上游配料熔化不重复列。
+
+流程来源：cn-flatglass-hj856-2017。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-floatglass-form-001 | 交接 | 将玻璃液送入锡槽 | 玻璃液 → 槽内玻璃液 | 供液符合本线条件 | source-backed | cn-occ-2022-draft#glass-form；cn-flatglass-hj856-2017#units |
+| cn-ind-floatglass-form-002 | 作业 | 调控锡槽条件形成玻璃带 | 槽内玻璃液 → 成型玻璃带 | 保护气氛及带形符合产品要求 | source-backed | cn-occ-2022-draft#glass-form；cn-flatglass-hj856-2017#units |
+| cn-ind-floatglass-form-003 | 作业 | 退火成型玻璃带 | 成型玻璃带 → 退火玻璃 | 执行本产品退火程序 | source-backed | cn-occ-2022-draft#glass-form；cn-flatglass-hj856-2017#units |
+| cn-ind-floatglass-form-004 | 作业 | 切裁平板玻璃 | 退火玻璃带 → 规定尺寸玻璃片 | 切裁尺寸符合订单 | source-backed | cn-occ-2022-draft#glass-form；cn-flatglass-hj856-2017#units |
+| cn-ind-floatglass-form-005 | 检测 | 检查玻璃片质量 | 玻璃片 → 质量记录 | 所检项目对应产品要求 | source-backed | cn-occ-2022-draft#glass-form；cn-flatglass-hj856-2017#units |
+| cn-ind-floatglass-form-006 | 异常 | 剔除不合格玻璃片 | 不合格玻璃片 → 分离的不合格品 | 与合格品隔离 | source-backed | cn-occ-2022-draft#glass-form；cn-flatglass-hj856-2017#units |
+| cn-ind-floatglass-form-007 | 准备 | 更换成型设备的适用替换件 | 产品要求及备件 → 换件后设备 | 配置符合本产品 | source-backed | cn-occ-2022-draft#glass-form；cn-flatglass-hj856-2017#units |
+| cn-ind-floatglass-form-008 | 异常 | 排查浮法成型设备故障 | 设备异常 → 处置记录 | 故障已处置或移交 | source-backed | cn-occ-2022-draft#glass-form；cn-flatglass-hj856-2017#units |
+| cn-ind-floatglass-form-009 | 清洁维护 | 维护浮法成型退火切裁设备 | 待维护设备 → 维护记录 | 规定项目完成 | source-backed | cn-occ-2022-draft#glass-form；cn-flatglass-hj856-2017#units |
+
+阶段缺口：返工、交付
+
+- 在线镀膜、玻璃上片下片、隔纸码架装箱、厚度缺陷仪校准及破板处理尚缺逐项操作规范。
+- 不合格品剔除是异常分流，破碎回炉工序尚未完整识别，不能假定为一次返工即合格。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 压延平板玻璃成型
+
+非金属矿物制品30压延路线；本场景仅列区别于浮法的成型动作，退火切裁共性需按压延设备再验证，不能把浮法场景直接当已验证。
+
+流程来源：cn-flatglass-hj856-2017。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-rolledglass-form-001 | 作业 | 操作压延成型机形成平板玻璃 | 玻璃液 → 压延玻璃带 | 达到本产品厚度和表面要求 | source-backed | cn-occ-2022-draft#glass-form；cn-flatglass-hj856-2017#units |
+| cn-ind-rolledglass-form-002 | 作业 | 将压延玻璃送入退火炉 | 压延玻璃带 → 退火炉来料 | 按本线顺序输送 | source-backed | cn-occ-2022-draft#glass-form；cn-flatglass-hj856-2017#units |
+| cn-ind-rolledglass-form-003 | 作业 | 退火压延玻璃带 | 压延玻璃带 → 退火玻璃 | 执行本产品退火程序 | source-backed | cn-occ-2022-draft#glass-form；cn-flatglass-hj856-2017#units |
+| cn-ind-rolledglass-form-004 | 作业 | 切裁压延平板玻璃 | 退火玻璃 → 规定尺寸玻璃片 | 尺寸符合产品要求 | source-backed | cn-occ-2022-draft#glass-form；cn-flatglass-hj856-2017#units |
+| cn-ind-rolledglass-form-005 | 检测 | 检查压延玻璃片并记录结果 | 玻璃片 → 质量记录 | 所检项目对应产品要求 | source-backed | cn-occ-2022-draft#glass-form；cn-flatglass-hj856-2017#units |
+| cn-ind-rolledglass-form-006 | 异常 | 剔除不合格压延玻璃片 | 不合格片 → 隔离品 | 与合格品分离 | source-backed | cn-occ-2022-draft#glass-form；cn-flatglass-hj856-2017#units |
+| cn-ind-rolledglass-form-007 | 清洁维护 | 保养压延成型退火切裁设备 | 待维护设备 → 维护记录 | 规定项目完成 | source-backed | cn-occ-2022-draft#glass-form；cn-flatglass-hj856-2017#units |
+
+阶段缺口：准备、交接、返工、交付
+
+- 花纹辊拆装、压延辊调整、供液波动、清辊和压延玻璃包装尚缺专项已读流程。
+- 与浮法的共同动作作为不同设备条件研究，不相加生成同一生产线工时。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 印前文件检查打样与制版
+
+印刷23的订单生产准备及实体印版制作；纯艺术设计不列入，必要图文处理保留。
+
+流程来源：cn-print-hj1066-2019。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-print-prepress-001 | 准备 | 输入或扫描订单图文 | 订单文字图像 → 数字图文 | 内容能进入排版流程 | source-backed | cn-occ-2022-draft#prepress；cn-print-hj1066-2019#units |
+| cn-ind-print-prepress-002 | 准备 | 分色处理待印图像 | 数字图像 → 分色文件 | 满足选定印刷路线 | source-backed | cn-occ-2022-draft#prepress；cn-print-hj1066-2019#units |
+| cn-ind-print-prepress-003 | 准备 | 排版并拼版订单图文 | 图文与版式 → 生产版面文件 | 版面对应订单 | source-backed | cn-occ-2022-draft#prepress；cn-print-hj1066-2019#units |
+| cn-ind-print-prepress-004 | 检测 | 输出数字样张供印前核对 | 生产文件 → 样张 | 样张对应本次文件版本 | source-backed | cn-occ-2022-draft#prepress；cn-print-hj1066-2019#units |
+| cn-ind-print-prepress-005 | 作业 | 将生产文件输出为胶片或直接制版数据 | 已定文件 → 胶片或制版输出 | 输出与定版文件对应 | source-backed | cn-occ-2022-draft#prepress；cn-print-hj1066-2019#units |
+| cn-ind-print-prepress-006 | 作业 | 曝光制作印版 | 版材与图文 → 曝光版材 | 执行本版材曝光程序 | source-backed | cn-occ-2022-draft#prepress；cn-print-hj1066-2019#units |
+| cn-ind-print-prepress-007 | 作业 | 显影并冲洗印版 | 曝光版材 → 可用印版 | 完成本版材显影冲洗 | source-backed | cn-occ-2022-draft#prepress；cn-print-hj1066-2019#units |
+| cn-ind-print-prepress-008 | 检测 | 检查印版及胶片质量 | 印版胶片 → 检查记录 | 图文及版面质量被核对 | source-backed | cn-occ-2022-draft#prepress；cn-print-hj1066-2019#units |
+
+阶段缺口：交接、异常、返工、清洁维护、交付
+
+- PS/CTP、网版和柔性版具体版材及处理路线需继续拆分；免处理CTP不套用显影步骤。
+- 凹版滚筒车磨焊接电镀雕刻和打样为另一个实体制版场景，尚未展开。
+- 文件改版重制、废液更换、制版机清洁及版材交接尚缺详细流程。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 单张纸平版印刷供纸印刷与收纸
+
+印刷23单张纸胶印场景；卷筒纸、凹版、柔版、孔版和数字喷绘不视为已覆盖。
+
+流程来源：cn-print-hj1066-2019。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-print-sheet-offset-001 | 准备 | 调配本印件油墨及适用溶剂 | 油墨配方及原料 → 调配油墨 | 色墨与订单要求对应 | source-backed | cn-occ-2022-draft#printing；cn-print-hj1066-2019#units |
+| cn-ind-print-sheet-offset-002 | 准备 | 准备承印纸张与印版 | 纸张印版及订单 → 待开印材料 | 材料与订单对应 | source-backed | cn-occ-2022-draft#printing；cn-print-hj1066-2019#units |
+| cn-ind-print-sheet-offset-003 | 准备 | 调整纸台与输纸装置 | 印刷机和纸张规格 → 输纸设置 | 适配本批纸张 | source-backed | cn-occ-2022-draft#printing；cn-print-hj1066-2019#units |
+| cn-ind-print-sheet-offset-004 | 准备 | 调整印刷压力 | 印刷机和材料 → 压力设置 | 满足本版材纸张工艺 | source-backed | cn-occ-2022-draft#printing；cn-print-hj1066-2019#units |
+| cn-ind-print-sheet-offset-005 | 作业 | 控制供墨装置供给油墨 | 调配油墨 → 连续供墨状态 | 供墨符合本印件要求 | source-backed | cn-occ-2022-draft#printing；cn-print-hj1066-2019#units |
+| cn-ind-print-sheet-offset-006 | 作业 | 操作平版印刷机转印图文 | 纸张印版油墨 → 印刷纸张 | 完成指定图文转印 | source-backed | cn-occ-2022-draft#printing；cn-print-hj1066-2019#units |
+| cn-ind-print-sheet-offset-007 | 作业 | 控制收纸装置收集印张 | 印刷纸张 → 收集印张 | 印张进入规定收纸位置 | source-backed | cn-occ-2022-draft#printing；cn-print-hj1066-2019#units |
+| cn-ind-print-sheet-offset-008 | 检测 | 检查并评估印张质量 | 印张样品 → 质量记录 | 本印件颜色和图文质量被评估 | source-backed | cn-occ-2022-draft#printing；cn-print-hj1066-2019#units |
+| cn-ind-print-sheet-offset-009 | 异常 | 诊断并排除印刷运行故障 | 故障信息 → 处置记录 | 故障被处置或移交 | source-backed | cn-occ-2022-draft#printing；cn-print-hj1066-2019#units |
+| cn-ind-print-sheet-offset-010 | 清洁维护 | 清洁印刷机及供墨部件 | 待清洁设备 → 清洁设备 | 完成规定清洁项目 | source-backed | cn-occ-2022-draft#printing；cn-print-hj1066-2019#units |
+| cn-ind-print-sheet-offset-011 | 清洁维护 | 维护调整印刷设备 | 待维护设备 → 维护记录 | 规定项目完成 | source-backed | cn-occ-2022-draft#printing；cn-print-hj1066-2019#units |
+
+阶段缺口：交接、返工、交付
+
+- 上版定位套准、堆纸翻面、加纸接纸、橡皮布清洗、首样签字、色差纠偏及补印单应继续取得专项作业规范。
+- 通用职业稿支持动作存在，胶印专用水墨平衡和套准验收还未有双源细节。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 印后表面整饰与裁切成型
+
+印刷23的印后加工分支；成品整饰与包装纸盒制造22边界按实际经营活动和执行者核定，同一物料转换不重复计数。
+
+流程来源：cn-print-hj1066-2019。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-print-postfinish-001 | 作业 | 给印刷品上光 | 印刷品及上光材料 → 上光印品 | 达到本产品表面要求 | source-backed | cn-occ-2022-draft#postpress；cn-print-hj1066-2019#units |
+| cn-ind-print-postfinish-002 | 作业 | 给印刷品覆膜 | 印刷品及膜材 → 覆膜印品 | 膜层符合本产品要求 | source-backed | cn-occ-2022-draft#postpress；cn-print-hj1066-2019#units |
+| cn-ind-print-postfinish-003 | 准备 | 设定自动裁切程序 | 印品尺寸要求 → 裁切程序 | 程序对应本订单尺寸 | source-backed | cn-occ-2022-draft#postpress；cn-print-hj1066-2019#units |
+| cn-ind-print-postfinish-004 | 作业 | 裁切印刷品 | 待裁印品 → 裁切印品 | 尺寸符合本订单 | source-backed | cn-occ-2022-draft#postpress；cn-print-hj1066-2019#units |
+| cn-ind-print-postfinish-005 | 作业 | 光整裁切印品边缘 | 裁切印品 → 边缘整齐印品 | 边缘满足本产品要求 | source-backed | cn-occ-2022-draft#postpress；cn-print-hj1066-2019#units |
+| cn-ind-print-postfinish-006 | 作业 | 对印刷品压凹凸 | 印品及模具 → 凹凸印品 | 位置及形状对应本产品 | source-backed | cn-occ-2022-draft#postpress；cn-print-hj1066-2019#units |
+| cn-ind-print-postfinish-007 | 作业 | 烫印印刷品表面 | 印品及烫印材料 → 烫印印品 | 位置图案符合本产品要求 | source-backed | cn-occ-2022-draft#postpress；cn-print-hj1066-2019#units |
+| cn-ind-print-postfinish-008 | 作业 | 模切印刷品 | 印品及模具 → 模切印品 | 轮廓符合本产品要求 | source-backed | cn-occ-2022-draft#postpress；cn-print-hj1066-2019#units |
+| cn-ind-print-postfinish-009 | 作业 | 给印刷品压痕 | 印品及压痕模具 → 压痕印品 | 折线位置对应本产品 | source-backed | cn-occ-2022-draft#postpress；cn-print-hj1066-2019#units |
+| cn-ind-print-postfinish-010 | 作业 | 修饰印刷品成品 | 待修饰印品 → 修饰成品 | 完成本产品规定修饰 | source-backed | cn-occ-2022-draft#postpress；cn-print-hj1066-2019#units |
+| cn-ind-print-postfinish-011 | 交付 | 包装印后成品 | 成品及包装 → 包装批次 | 产品批次及包装规格对应 | source-backed | cn-occ-2022-draft#postpress；cn-print-hj1066-2019#units |
+| cn-ind-print-postfinish-012 | 检测 | 检查印后成品质量并追查工序原因 | 成品与工序信息 → 检查及归因记录 | 问题对应印前印中或印后工序 | source-backed | cn-occ-2022-draft#postpress；cn-print-hj1066-2019#units |
+
+阶段缺口：交接、异常、返工、清洁维护
+
+- 装订书本的折页、配页、锁线胶订、封面上壳、插页等职业已识别，尚缺本轮已读详细流程规范，未在本场景冒充完整书刊生产。
+- 上光覆膜压凹凸烫印等为按产品选用的分支，不是每个订单必经。
+- 修饰动作仍需继续拆成可独立验收的具体产品工步，展开后删除当前汇总条。
+- 剥膜重覆、补印重订及废料回收、胶黏剂换线清洗尚缺实际流程。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 锂离子电池浆料与涂布烘烤
+
+电气机械38的锂离子电池电极前段；活性物质粉体制造需按化学品26或材料工艺实际归属另查。
+
+流程来源：cn-battery-hj967-2018。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-lithium-electrode-001 | 准备 | 按配方配入电极活性物质及辅料 | 活性物质导电料黏结剂溶剂 → 配料批次 | 组分对应本电极配方 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lithium |
+| cn-ind-lithium-electrode-002 | 作业 | 混合电极浆料 | 配入原辅料 → 浆料 | 达到本极片涂布输入要求 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lithium |
+| cn-ind-lithium-electrode-003 | 作业 | 将电极材料涂布成极片 | 浆料及基材 → 湿涂布极片 | 涂层满足本电极工艺要求 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lithium |
+| cn-ind-lithium-electrode-004 | 作业 | 烘烤涂布极片 | 湿极片 → 干燥极片 | 达到本极片干燥要求 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lithium |
+
+阶段缺口：交接、检测、异常、返工、清洁维护、交付
+
+- 分散除泡过滤、涂布上下卷接带、辊压分切模切、极耳焊接、在线缺陷检测及溶剂回收清洁均未取得详细已读流程，不以4条代表完整极片制造。
+- 材料称量误投、厚度偏差返工和粉尘溶剂异常处置仍待专项规范。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 锂离子单体电池注液化成与测试
+
+电气机械38锂离子电芯装配后段入口；卷绕叠片入壳等细分暂缺规范，不把整装单体概称计作已完成任务。
+
+流程来源：cn-battery-hj967-2018。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-lithium-cell-finish-001 | 准备 | 配制本电池所需电解液 | 溶剂电解质及辅料 → 电解液批次 | 配方与目标电池对应 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lithium |
+| cn-ind-lithium-cell-finish-002 | 作业 | 向单体电池装入电解液 | 待注液单体及电解液 → 注液单体 | 按本产品规定量与程序注液 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lithium |
+| cn-ind-lithium-cell-finish-003 | 作业 | 对电池进行化成充放电 | 待化成电池 → 化成电池 | 执行本产品化成程序 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lithium |
+| cn-ind-lithium-cell-finish-004 | 检测 | 测试单体电池电性能 | 单体电池 → 电性能记录 | 测试项目与本产品要求对应 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lithium |
+
+阶段缺口：交接、异常、返工、清洁维护、交付
+
+- 真空干燥、卷绕叠片、装壳焊接封口、静置分容老化、检漏安全测试、模组PACK及返修暂未取得逐项流程依据。
+- 注液量、露点、容量和化成参数均未提供统一值；不推算用工和合格率。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 铅酸电池极板制造
+
+电气机械38铅酸极板的不同工艺分支；板栅铸造/拉网、管式灌粉/挤膏是选择关系。
+
+流程来源：cn-battery-hj967-2018。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-lead-battery-plate-001 | 作业 | 制取铅酸极板用铅粉 | 铅料 → 铅粉 | 满足本极板工艺要求 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lead |
+| cn-ind-lead-battery-plate-002 | 作业 | 混合铅粉和辅料制成铅膏 | 铅粉及辅料 → 铅膏 | 达到本产品配膏要求 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lead |
+| cn-ind-lead-battery-plate-003 | 作业 | 铸造铅酸电池板栅 | 铅合金料 → 铸板栅 | 形状符合本极板要求 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lead |
+| cn-ind-lead-battery-plate-004 | 作业 | 拉网形成铅酸电池板栅 | 适用铅带 → 拉网板栅 | 网形符合本产品要求 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lead |
+| cn-ind-lead-battery-plate-005 | 作业 | 向管式电极灌入活性粉料 | 管式部件与粉料 → 灌粉电极 | 按本产品装填要求完成 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lead |
+| cn-ind-lead-battery-plate-006 | 作业 | 向管式电极挤入铅膏 | 管式部件与铅膏 → 挤膏电极 | 按本产品挤膏要求完成 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lead |
+| cn-ind-lead-battery-plate-007 | 作业 | 分切铅酸电池极板 | 联片极板 → 单片极板 | 片形符合本产品要求 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lead |
+| cn-ind-lead-battery-plate-008 | 作业 | 刷理极板边缘及极耳 | 待刷理极板 → 整理极板 | 边缘及极耳符合装配要求 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lead |
+| cn-ind-lead-battery-plate-009 | 作业 | 对适用极板进行槽式化成 | 待化成极板 → 化成极板 | 完成本工艺化成程序 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lead |
+| cn-ind-lead-battery-plate-010 | 检测 | 称量铅酸极板 | 极板 → 称量记录 | 质量与指定分组要求对应 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lead |
+
+阶段缺口：准备、交接、异常、返工、清洁维护、交付
+
+- 平板涂膏、固化干燥、极板水洗及污染物清扫尚缺本轮已读完整操作依据。
+- 铅尘作业隔离、个体防护和职业卫生不能用本工艺表代替专项要求。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 铅酸电池包片焊组与内化成
+
+电气机械38铅酸电池装配后段；内外化成随产品工艺选择不重复计算同一电池。
+
+流程来源：cn-battery-hj967-2018。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-lead-battery-assembly-001 | 作业 | 包裹铅酸极板隔离层 | 极板与隔离材料 → 包片极板 | 包覆满足本产品绝缘隔离要求 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lead |
+| cn-ind-lead-battery-assembly-002 | 作业 | 焊接铅酸电池极板组 | 包片极板及连接件 → 焊接极板组 | 连接符合本产品要求 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lead |
+| cn-ind-lead-battery-assembly-003 | 作业 | 对适用铅酸电池进行内化成 | 装配电池 → 内化成电池 | 完成本产品充放电程序 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lead |
+| cn-ind-lead-battery-assembly-004 | 作业 | 清洗铅酸电池表面 | 待清洗电池 → 清洗电池 | 表面满足本工序要求 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lead |
+| cn-ind-lead-battery-assembly-005 | 检测 | 测试铅酸电池电性能 | 成品电池 → 电性能记录 | 测试项目对应产品要求 | source-backed | cn-occ-2022-draft#battery；cn-battery-hj967-2018#lead |
+
+阶段缺口：准备、交接、异常、返工、清洁维护、交付
+
+- 组装入槽、灌酸、盖封端子焊接、气密检测、配组包装和漏液不良品处理仍需详细作业标准。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 薄膜太阳电池沉积刻划与连接
+
+电气机械38薄膜太阳电池及组件；各材料体系沉积刻蚀化学条件不同，不将其概称为统一量产路线。
+
+流程来源：cn-battery-hj967-2018。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-thinfilm-solar-001 | 作业 | 清洗薄膜太阳电池基板 | 基板 → 清洁基板 | 满足本薄膜工艺输入要求 | source-backed | cn-occ-2022-draft#pv-module；cn-battery-hj967-2018#solar |
+| cn-ind-thinfilm-solar-002 | 作业 | 在电池基板沉积薄膜层 | 基板及沉积材料 → 镀膜基板 | 层结构符合本产品要求 | source-backed | cn-occ-2022-draft#pv-module；cn-battery-hj967-2018#solar |
+| cn-ind-thinfilm-solar-003 | 作业 | 激光刻划薄膜电池层 | 镀膜基板 → 刻划电池 | 图形与设计对应 | source-backed | cn-occ-2022-draft#pv-module；cn-battery-hj967-2018#solar |
+| cn-ind-thinfilm-solar-004 | 作业 | 清洗电池组件背板 | 背板 → 清洁背板 | 满足后续封装要求 | source-backed | cn-occ-2022-draft#pv-module；cn-battery-hj967-2018#solar |
+| cn-ind-thinfilm-solar-005 | 作业 | 焊接薄膜电池引线 | 电池及引线 → 连接电池 | 电极连接对应设计 | source-backed | cn-occ-2022-draft#pv-module；cn-battery-hj967-2018#solar |
+| cn-ind-thinfilm-solar-006 | 作业 | 安装薄膜电池接线盒 | 组件和接线盒 → 装盒组件 | 连接和安装符合本产品要求 | source-backed | cn-occ-2022-draft#pv-module；cn-battery-hj967-2018#solar |
+| cn-ind-thinfilm-solar-007 | 作业 | 封装薄膜电池组件 | 电池及封装材料 → 封装组件 | 执行本产品封装工艺 | source-backed | cn-occ-2022-draft#pv-module；cn-battery-hj967-2018#solar |
+| cn-ind-thinfilm-solar-008 | 检测 | 测试薄膜电池组件电性能 | 组件 → 电性能记录 | 测试项目对应本产品 | source-backed | cn-occ-2022-draft#pv-module；cn-battery-hj967-2018#solar |
+| cn-ind-thinfilm-solar-009 | 检测 | 测试薄膜电池组件安全性能 | 组件 → 安全性能记录 | 完成本产品规定试验 | source-backed | cn-occ-2022-draft#pv-module；cn-battery-hj967-2018#solar |
+
+阶段缺口：准备、交接、异常、返工、清洁维护、交付
+
+- 不同薄膜材料的靶材补换、真空腔清洁、激光调焦、封装层压返修、抽检与分选尚需专项标准。
+- 晶硅片制绒扩散刻蚀沉积路线及晶硅组件焊片叠层装框未覆盖，不能以薄膜场景代替。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 化学药品片剂配料制粒与压片
+
+医药制造27非无菌片剂生产的主要操作；湿法、干法和直接压片按实际处方路线选择。
+
+流程来源：cn-pharma-hj1063-2019。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-tablet-granulate-press-001 | 准备 | 确认片剂生产前作业状态 | 本批工艺文件与场地设备 → 开工确认记录 | 本批规定开工项目已确认 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#solid |
+| cn-ind-tablet-granulate-press-002 | 准备 | 计量片剂原辅料 | 原辅料及批配方 → 计量物料 | 物料与本批配方对应 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#solid |
+| cn-ind-tablet-granulate-press-003 | 作业 | 粉碎片剂原辅料 | 适用原辅料 → 粉碎物料 | 符合本产品粒度要求 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#solid |
+| cn-ind-tablet-granulate-press-004 | 作业 | 筛分片剂粉料 | 粉料 → 筛分物料 | 规定粒级分别收集 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#solid |
+| cn-ind-tablet-granulate-press-005 | 作业 | 混合片剂物料 | 按批计量物料 → 混合料 | 满足本产品混合要求 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#solid |
+| cn-ind-tablet-granulate-press-006 | 作业 | 制取片剂用颗粒 | 适用混合料 → 颗粒 | 达到所选制粒路线要求 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#solid |
+| cn-ind-tablet-granulate-press-007 | 作业 | 干燥片剂用颗粒 | 湿颗粒 → 干颗粒 | 达到本产品规定干燥状态 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#solid |
+| cn-ind-tablet-granulate-press-008 | 作业 | 整粒筛分干燥颗粒 | 干颗粒 → 压片用颗粒 | 符合本产品压片粒级 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#solid |
+| cn-ind-tablet-granulate-press-009 | 作业 | 压制药物片剂 | 压片物料 → 片芯 | 片形和份量对应本产品 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#solid |
+| cn-ind-tablet-granulate-press-010 | 作业 | 包覆片剂衣层 | 适用片芯和衣料 → 包衣片 | 达到本产品衣层要求 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#solid |
+| cn-ind-tablet-granulate-press-011 | 异常 | 判断并处理片剂生产设备故障 | 设备异常 → 处置记录 | 故障已处置或移交 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#solid |
+| cn-ind-tablet-granulate-press-012 | 清洁维护 | 清洁片剂生产现场 | 待清洁区域 → 清洁记录 | 规定项目完成 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#solid |
+| cn-ind-tablet-granulate-press-013 | 清洁维护 | 保养片剂生产设备 | 待保养设备 → 保养记录 | 规定项目完成 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#solid |
+
+阶段缺口：交接、检测、返工、交付
+
+- 称量复核、过筛异物、取样检验、工序中转、清场验证、偏差与不合格批处置尚未按现行GMP逐条补证。
+- 以上工艺只作任务盘点，不以列出的设备规格或定性验收代替经批准的产品参数；物料生产与批放行未完成完整清单。
+- 胶囊、颗粒剂、粉针冻干、缓控释等剂型不由本场景代表。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 灭菌液体制剂容器处理与灌装灯检
+
+医药制造27已批准工艺中的液体制剂生产；终端灭菌与无菌灌装路线必须另行验证，不将两者步骤混成一条。
+
+流程来源：cn-pharma-hj1063-2019。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-sterile-liquid-fill-001 | 准备 | 确认液体制剂生产前作业状态 | 本批文件与作业状态 → 确认记录 | 规定开工项目已确认 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#liquid |
+| cn-ind-sterile-liquid-fill-002 | 准备 | 计量液体制剂原辅料 | 原辅料与配方 → 计量物料 | 物料与本批配方对应 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#liquid |
+| cn-ind-sterile-liquid-fill-003 | 作业 | 配制液体药物料液 | 计量物料 → 待过滤料液 | 执行本产品配制工艺 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#liquid |
+| cn-ind-sterile-liquid-fill-004 | 作业 | 清洗直接接触药品的容器 | 待清洗容器 → 清洗容器 | 达到本容器清洗要求 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#liquid |
+| cn-ind-sterile-liquid-fill-005 | 作业 | 干燥清洗后的药品容器 | 湿容器 → 干燥容器 | 达到后续处理要求 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#liquid |
+| cn-ind-sterile-liquid-fill-006 | 作业 | 灭菌适用的药品包装材料及器具 | 待灭菌材料器具 → 灭菌批次 | 执行本工艺规定灭菌程序 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#liquid |
+| cn-ind-sterile-liquid-fill-007 | 作业 | 过滤液体制剂料液 | 料液和过滤设备 → 过滤料液 | 完成本产品规定过滤程序 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#liquid |
+| cn-ind-sterile-liquid-fill-008 | 作业 | 灌装液体药物制剂 | 料液与容器 → 灌装制剂 | 灌装量与本产品规格对应 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#liquid |
+| cn-ind-sterile-liquid-fill-009 | 作业 | 封闭液体制剂容器 | 灌装容器 → 封闭制剂 | 封闭符合本包装系统要求 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#liquid |
+| cn-ind-sterile-liquid-fill-010 | 检测 | 检查灭菌后液体制剂中的可见异物 | 待检液体制剂 → 异物检查记录 | 按本产品程序完成灯检或目检 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#liquid |
+| cn-ind-sterile-liquid-fill-011 | 异常 | 判断并处理液体制剂设备故障 | 设备异常 → 处置记录 | 故障已处置或移交 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#liquid |
+| cn-ind-sterile-liquid-fill-012 | 清洁维护 | 清洁液体制剂生产现场 | 待清洁区域 → 清洁记录 | 规定项目完成 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#liquid |
+
+阶段缺口：交接、返工、交付
+
+- 容器完整性、灌装前过滤器完整性、无菌保证、微生物取样、介入操作和成品灭菌程序均待专项GMP及批工艺补证。
+- 工作任务8明确为灭菌后液体制剂异物检查；不把灯检等同全部质量检验或无菌合格。
+- 本清单未添加无依据的成品灭菌操作或自动返工路径；异常批必须有具体处置资料后研究。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 药物制剂成品包装与追溯操作
+
+医药制造27工厂内成品分装包装扫码；批零药品仓储销售和医院调剂不计入。
+
+流程来源：cn-pharma-hj1063-2019。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-drug-pack-trace-001 | 作业 | 按产品规格分装药物制剂 | 制剂与包装 → 分装单元 | 数量或份量符合本规格 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#liquid |
+| cn-ind-drug-pack-trace-002 | 作业 | 包装制剂成品 | 分装制剂和包装材料 → 包装成品 | 产品与包装规格对应 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#liquid |
+| cn-ind-drug-pack-trace-003 | 交付 | 扫描制剂包装追溯标识 | 包装成品和标识 → 扫码记录 | 记录对应实际包装单元 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#liquid |
+| cn-ind-drug-pack-trace-004 | 交接 | 填写并移交制剂操作记录 | 操作信息与记录载体 → 本批操作记录 | 记录能关联所做操作 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#liquid |
+| cn-ind-drug-pack-trace-005 | 清洁维护 | 清洁制剂包装现场 | 待清洁包装区域 → 清洁记录 | 规定项目完成 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#liquid |
+
+阶段缺口：准备、检测、异常、返工
+
+- 包装材料核对销毁、印码检验、装盒装箱、防混批清场及成品检验放行尚未有逐项已读流程规范。
+- 分装可能与压片后包装或液体灌装存在边界重叠；同一实际分装动作只归一个场景，不能重复计时。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 药品制剂用水与洁净环境操作
+
+医药制造27厂内公辅物料和洁净环境；公用设施服务多条剂型线时只计一次。
+
+流程来源：cn-pharma-hj1063-2019。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-ind-drug-water-cleanroom-001 | 作业 | 制备药品生产用水 | 原水及制水设备 → 制药用水 | 符合本产品适用的药典用水要求 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#utilities |
+| cn-ind-drug-water-cleanroom-002 | 作业 | 运行空气净化设备制备洁净空气 | 供气和净化设施 → 洁净空气 | 达到本区域适用要求 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#utilities |
+| cn-ind-drug-water-cleanroom-003 | 清洁维护 | 消毒制剂生产环境 | 指定区域 → 消毒记录 | 规定区域完成消毒 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#utilities |
+| cn-ind-drug-water-cleanroom-004 | 清洁维护 | 消毒制剂生产设备 | 设备 → 消毒记录 | 规定设备完成消毒 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#utilities |
+| cn-ind-drug-water-cleanroom-005 | 清洁维护 | 消毒药品生产器具 | 器具 → 消毒器具 | 规定器具完成消毒 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#utilities |
+| cn-ind-drug-water-cleanroom-006 | 清洁维护 | 维护制剂公辅生产设备 | 待维护设备 → 维护记录 | 规定维护项目完成 | source-backed | cn-occ-2022-draft#drug-formulation；cn-pharma-hj1063-2019#utilities |
+
+阶段缺口：准备、交接、检测、异常、返工、交付
+
+- 制水各单元、纯化水/注射用水分路、取样检测、过滤器更换、洁净区监测及验证未完整展开。
+- 用水和空气质量要求不赋统一数值，必须对应适用药典和区域要求。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
 ## 建筑业
 
 in-progress-not-frozen
@@ -1045,9 +2073,9 @@ in-progress-not-frozen
 | 门类 | 状态 | 当前场景 | 未覆盖说明 |
 | --- | --- | --- | --- |
 | 47 房屋建筑业 | partially-covered | cn-const-steel-wall-form、cn-const-rebar-machining、cn-const-rebar-thread-coupling、cn-const-rebar-raft、cn-const-concrete-pumping、cn-const-concrete-frame-cast | 砌体、钢结构、装配式、木结构、其他模架体系尚未展开；基坑支护、降排水、桩基和防水施工尚未展开；剪力墙、预应力、大体积及其他特殊混凝土尚未展开；各类住宅/工业/公共房屋场景差异、返工拆除与完整交付清单尚未交叉查尽 |
-| 48 土木工程建筑业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
-| 49 建筑安装业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
-| 50 建筑装饰、装修和其他建筑业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
+| 48 土木工程建筑业 | partially-covered-historical-source-current-update-pending | cn-const-rural-water-pipe、cn-const-rural-water-tank | 铁路道路桥梁隧道港口机场与大中型水利工程未展开；农村供水井、完整土建池塔、非开挖敷管、基坑支护及临时设施未完整覆盖 |
+| 49 建筑安装业 | partially-covered-historical-source-current-update-pending | cn-const-water-plant-equipment、cn-const-water-plant-electrical | 房屋电气照明消防弱电系统未覆盖；电梯扶梯、通风空调、锅炉和其他工艺设备安装未覆盖；管道焊接、专业调试、系统联动试验和运维边界未完整覆盖 |
+| 50 建筑装饰、装修和其他建筑业 | partially-covered | cn-const-external-tile、cn-const-interior-coating、cn-const-mortar-plaster、cn-const-light-steel-partition、cn-const-fixed-panel-ceiling | 内墙砖石、外墙涂饰、木金属玻璃陶瓷装饰板、其他隔断体系尚未逐项展开；地板地坪、裱糊软包、栏杆扶手、细部柜体及厨卫整装尚未展开；建筑门窗幕墙安装、拆除和场地准备、古建筑修缮尚未覆盖 |
 
 ### 现浇混凝土墙体钢大模板安装与拆回
 
@@ -1227,6 +2255,260 @@ in-progress-not-frozen
 - 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
 - 没有据任务描述推断人工工时或自动化效果。
 
+### 外墙饰面砖选配、粘贴与填缝
+
+北京地方工艺所述陶瓷外墙饰面砖；高处平台由架设专业交接，幕墙干挂、地砖和内墙砖的差异尚待单列。
+
+流程来源：cn-decoration-db1832-2022。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-const-external-tile-001 | 准备 | 核对饰面砖胶粘剂填缝料并挑出缺陷砖 | 进场砖材和配套材料 → 经检合格材料 | 型号色差表面及复验记录符合设计 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#external-tile |
+| cn-const-external-tile-002 | 准备 | 核验外窗洞口及脚手架先行工序 | 窗框洞口外墙平台 → 可贴砖作业面 | 封堵预留和平台验收完成 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#external-tile |
+| cn-const-external-tile-003 | 检测 | 制作各类基层贴砖样板并进行粘结检验 | 基底砖胶和样板区 → 确认后的工艺样板 | 粘结检验和相关方确认完成 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#external-tile |
+| cn-const-external-tile-004 | 准备 | 清理加固并找平待粘贴基层 | 墙体基层 → 合格粘贴基层 | 强度平整及水分条件符合材料体系 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#external-tile |
+| cn-const-external-tile-005 | 准备 | 按排砖图弹分格线和控制点 | 排砖深化图与墙面 → 排砖控制标记 | 洞口角部伸缩缝和非整砖位置明确 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#external-tile |
+| cn-const-external-tile-006 | 作业 | 清洗并按适用砖种浸泡晾干饰面砖 | 所选饰面砖 → 可粘贴砖 | 按砖种适用工艺处理且表面无浮粉 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#external-tile |
+| cn-const-external-tile-007 | 作业 | 按产品比例搅拌粘结材料 | 胶粘材料及水 → 均匀粘结料 | 配比拌合时限依产品要求 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#external-tile |
+| cn-const-external-tile-008 | 作业 | 套割洞口砖并涂胶对线压贴 | 墙面粘结料和砖材 → 定位粘贴饰面砖 | 套割吻合且位置缝宽平整受控 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#external-tile |
+| cn-const-external-tile-009 | 检测 | 随贴检查垂直平整缝线和空鼓 | 粘贴中的砖面 → 检查结果 | 几何和粘结状态按样板复核 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#external-tile |
+| cn-const-external-tile-010 | 返工 | 在允许调整时间内校正或返贴不合格砖 | 发现偏位或不合格砖 → 整改砖面 | 复检合格且不违反胶粘材料时限 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#external-tile |
+| cn-const-external-tile-011 | 作业 | 清缝拌填缝料并嵌填普通缝及伸缩缝 | 经自检砖面 → 完成接缝 | 密实连续且材料适配缝类型 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#external-tile |
+| cn-const-external-tile-012 | 清洁维护 | 清除填缝残留并保护完成砖面 | 填缝完成面 → 洁净受保护饰面 | 无污染破损且后续作业保护明确 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#external-tile |
+| cn-const-external-tile-013 | 检测 | 配合完工粘结强度和饰面检查 | 完成外墙砖面 → 竣工检验记录 | 外观粘结和材料工艺一致性核验完成 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#external-tile |
+| cn-const-external-tile-014 | 交付 | 办理砖饰面工序交接并提交检验材料 | 合格墙面及过程记录 → 可接收装饰成品 | 工序验收与相关专业交接有记录 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#general |
+
+阶段缺口：交接、异常
+
+- 外墙饰面可使用性受地方政策、设计和基底体系约束；本文不推断所有新建项目都采用外贴砖。施工失效后的安全拆换工艺尚未展开。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 室内墙顶基层修补、腻子与涂料施工
+
+室内水性墙顶平涂为主要条件；刷涂、滚涂、喷涂是相同面层任务的替代工法，不相加为三遍人工作业。
+
+流程来源：cn-decoration-db1832-2022。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-const-interior-coating-001 | 准备 | 按批号颜色验收并分区保管涂饰材料 | 涂料腻子及检验资料 → 可领用配套涂饰材料 | 颜色型号兼容性与复验记录一致 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#interior-coat |
+| cn-const-interior-coating-002 | 准备 | 制作并留存涂饰样板 | 选定材料及样板墙 → 已认可涂饰样板 | 工序色泽与建设方确认一致 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#interior-coat |
+| cn-const-interior-coating-003 | 检测 | 检查墙顶基层牢固清洁平整和水分状态 | 待涂墙顶面 → 基层接收结果 | 基层及温湿通风条件适合所选材料 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#interior-coat |
+| cn-const-interior-coating-004 | 准备 | 遮护邻近门窗设备与装修面 | 相邻成品及保护材料 → 防污染边界 | 喷滚刷作业不污染衔接内容 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#interior-coat |
+| cn-const-interior-coating-005 | 返工 | 剔除松散旧层并修填基层孔缝 | 粉化旧层及孔缝 → 平整牢固基层 | 污物和松散物清除且填补密实 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#interior-coat |
+| cn-const-interior-coating-006 | 作业 | 按基层类型施涂界面剂或封闭底漆 | 修复清洁基层 → 处理后基面 | 需要处理部位无遗漏且符合材料体系 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#interior-coat |
+| cn-const-interior-coating-007 | 作业 | 分遍批刮腻子找平墙顶与阴阳角 | 待找平基层与腻子 → 找平腻子层 | 干燥间隔和厚度按材料工艺确认 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#interior-coat |
+| cn-const-interior-coating-008 | 作业 | 打磨干燥腻子并清除粉尘 | 干燥腻子层 → 光洁可涂基面 | 不磨穿且阴阳角和表面平整 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#interior-coat |
+| cn-const-interior-coating-009 | 作业 | 调匀涂料并完成首遍墙顶面层 | 准备基面与涂料 → 首遍涂层 | 选定刷滚喷工法下无遗漏流坠 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#interior-coat |
+| cn-const-interior-coating-010 | 返工 | 修补首涂后坑点并磨除颗粒毛刺 | 首涂后的表面缺陷 → 可续涂面层 | 缺陷处理干燥并除尘完成 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#interior-coat |
+| cn-const-interior-coating-011 | 作业 | 按配套工艺完成后续面层涂布 | 已干燥处理涂层 → 完整涂饰面 | 遍次间隔色泽及质感按样板验收 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#interior-coat |
+| cn-const-interior-coating-012 | 检测 | 在养护期满后检查涂饰外观与粘结 | 完成涂饰面及材料记录 → 批次验收结果 | 无不允许露底开裂起皮掉粉 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#interior-coat |
+| cn-const-interior-coating-013 | 清洁维护 | 清理完成空间并保护涂饰面 | 施工残留和涂饰成品 → 洁净受保护房间 | 相邻构件无污染且成品保护到位 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#general |
+| cn-const-interior-coating-014 | 交付 | 交出涂饰区域样板及过程验收记录 | 已验收房间与档案 → 后续专业接收记录 | 材料基层施工记录可追溯 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#interior-coat |
+
+阶段缺口：交接、异常
+
+- 多彩、砂壁、艺术涂层的分格和中间层工序未完全展开；危险旧涂层拆除及基底污染异常需要独立工艺。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 预拌砂浆墙面抹灰、分格与养护
+
+混凝土、砖砌体及加气混凝土基底；基底材料改变界面处理与层厚条件，不能共用未经验证的参数。
+
+流程来源：cn-decoration-db1832-2022。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-const-mortar-plaster-001 | 准备 | 验收预拌砂浆材料和检验资料 | 进场砂浆及证明 → 合格砂浆批次 | 外观批次与复验符合设计 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#mortar-plaster |
+| cn-const-mortar-plaster-002 | 交接 | 核查主体门窗预埋及防水先行工序 | 待抹灰作业面 → 已接收基层 | 先行工程验收且孔槽预埋条件满足 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#mortar-plaster |
+| cn-const-mortar-plaster-003 | 准备 | 清理墙面并填补凸凹与门窗周缝 | 不平基底及缝隙 → 坚实平整基底 | 浮尘油污和不牢部位已处理 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#mortar-plaster |
+| cn-const-mortar-plaster-004 | 准备 | 按基底湿润并施作界面处理 | 清理后的墙体 → 可抹灰界面 | 基底类型适配且无不允许明水 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#mortar-plaster |
+| cn-const-mortar-plaster-005 | 作业 | 测垂直套方并设置灰饼控制厚度 | 墙面与测量工具 → 定位灰饼 | 垂直平整和抹灰厚度基准明确 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#mortar-plaster |
+| cn-const-mortar-plaster-006 | 作业 | 分层抹底灰并刮平搓毛 | 可施工基面及砂浆 → 底灰层 | 层间条件厚度和平整依工艺控制 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#mortar-plaster |
+| cn-const-mortar-plaster-007 | 作业 | 在异材交界或需加强处铺设加强网 | 设计指定位置与加强网 → 增强连接层 | 搭接和固定按现行方案验收 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#mortar-plaster |
+| cn-const-mortar-plaster-008 | 作业 | 弹线安装分格条和滴水槽 | 底灰面与分格设计 → 已定位分格滴水构件 | 位置连贯且排水要求明确 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#mortar-plaster |
+| cn-const-mortar-plaster-009 | 返工 | 修整箱槽洞口和管后底灰 | 洞口管后不齐表面 → 平齐方正边界 | 不堵封预留孔并符合设备接口 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#mortar-plaster |
+| cn-const-mortar-plaster-010 | 作业 | 施抹面层砂浆并压光成面 | 底灰与面层砂浆 → 面层灰面 | 面层粘结平整且阴阳角顺直 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#mortar-plaster |
+| cn-const-mortar-plaster-011 | 作业 | 取出分格条并完成踢脚和滴水细部 | 面灰及细部区域 → 完整边缝细部 | 边棱不破损且滴水坡槽符合设计 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#mortar-plaster |
+| cn-const-mortar-plaster-012 | 清洁维护 | 在适宜条件下湿养护抹灰层 | 已抹灰墙面 → 养护记录和墙面 | 硬化期保湿防晒冻和撞击受控 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#mortar-plaster |
+| cn-const-mortar-plaster-013 | 检测 | 检查抹灰空鼓裂缝平整和分格质量 | 养护后灰面 → 验收结果 | 几何粘结和表面质量符合要求 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#mortar-plaster |
+| cn-const-mortar-plaster-014 | 清洁维护 | 清除框边管后残浆并保护墙角 | 完成抹灰区域 → 洁净受保护墙面 | 门窗孔槽和墙角不污染损伤 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#mortar-plaster |
+| cn-const-mortar-plaster-015 | 交付 | 办理抹灰面与后续饰面工序交接 | 检验合格墙面及记录 → 后序施工接收记录 | 强度养护和基面条件经确认 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#general |
+
+阶段缺口：异常
+
+- 石膏抹灰、机械喷抹具体控制、脱落后的受控清除与重新施工尚待独立盘点。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 轻钢龙骨纸面石膏板隔墙安装
+
+地枕可有可无；主场景纸面石膏板，纤维水泥/木基板的差异尚未完全展开。墙内电气安装归专业安装场景，只计交接。
+
+流程来源：cn-decoration-db1832-2022。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-const-light-steel-partition-001 | 准备 | 验收隔墙龙骨面板与填充材料 | 板材骨架配件及资料 → 可用材料批次 | 尺寸外观及防潮防火隔声性能适配 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#partition |
+| cn-const-light-steel-partition-002 | 准备 | 测放隔墙门洞和顶地龙骨位置 | 平面设计和施工基准 → 隔墙控制线 | 墙线门洞和标高复核一致 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#partition |
+| cn-const-light-steel-partition-003 | 作业 | 在设计要求处制作地枕基座 | 地面和基座材料 → 合格地枕 | 连接基底处理且达到后续安装条件 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#partition |
+| cn-const-light-steel-partition-004 | 作业 | 固定沿顶沿地及门洞龙骨 | 位置线与骨架件 → 边界骨架 | 锚固可靠并符合门洞构造 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#partition |
+| cn-const-light-steel-partition-005 | 作业 | 安装校正竖龙骨横撑和角部加强件 | 边界骨架及竖横构件 → 完整隔墙骨架 | 模数垂直和连接按设计复核 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#partition |
+| cn-const-light-steel-partition-006 | 检测 | 检查封板前龙骨安装质量 | 骨架及门洞 → 封板前检查记录 | 间距连接加强及洞口符合设计 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#partition |
+| cn-const-light-steel-partition-007 | 作业 | 切配并固定隔墙一侧石膏板 | 合格骨架与面板 → 单侧封板墙体 | 板边和螺钉固定满足构造 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#partition |
+| cn-const-light-steel-partition-008 | 交接 | 与电气专业确认墙内管盒安装及隐检 | 开放墙腔与预埋线路 → 隐蔽交接记录 | 管线验收且不擅自切断龙骨 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#partition |
+| cn-const-light-steel-partition-009 | 作业 | 铺填墙体防火隔声防潮材料 | 墙腔及指定填料 → 已填充墙腔 | 密实均匀无下坠并完成隐检 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#partition |
+| cn-const-light-steel-partition-010 | 作业 | 错缝安装另一侧和设计附加层面板 | 验收墙腔与面板 → 封闭隔墙 | 板缝布置与固定符合设计 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#partition |
+| cn-const-light-steel-partition-011 | 作业 | 清缝嵌填腻子并粘贴拉接带 | 封板接缝 → 接缝防裂层 | 嵌实刮平且带材无气泡 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#partition |
+| cn-const-light-steel-partition-012 | 作业 | 对板面钉帽作防锈并填平 | 面板固定钉帽 → 完成钉眼 | 防锈和填平无漏点 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#partition |
+| cn-const-light-steel-partition-013 | 检测 | 检查隔墙表面连接填料及洞口质量 | 封闭隔墙和隐检记录 → 隔墙验收记录 | 牢固平整孔槽吻合且性能资料齐全 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#partition |
+| cn-const-light-steel-partition-014 | 清洁维护 | 清理隔墙施工残留并保护面板 | 完成隔墙及废料 → 可交付施工面 | 废料分类且板面不受潮损坏 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#general |
+| cn-const-light-steel-partition-015 | 交付 | 交出验收隔墙供后续面层施工 | 隔墙和过程档案 → 饰面工序接收记录 | 隐检与完成面状态可核查 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#general |
+
+阶段缺口：异常、返工
+
+- 纸面石膏板异常返工的具体工艺未在本次读取段落中取得；不得用另一板材的修补条款代替。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 固定式石膏罩面板吊顶安装
+
+主体顶板至固定式板面；吊顶内设备管线和独立重型设备吊挂按执行专业归属，此场景记录接口核验。
+
+流程来源：cn-decoration-db1832-2022。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-const-fixed-panel-ceiling-001 | 准备 | 验收吊杆龙骨面板及连接配件 | 进场材料和质量资料 → 已验收吊顶材料 | 设计规格与防火环保资料一致 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#ceiling |
+| cn-const-fixed-panel-ceiling-002 | 交接 | 核对吊顶净高和内部管线设备验收 | 现场顶面设备与各专业记录 → 封顶前交接结果 | 标高空间及管线试压调试已确认 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#ceiling |
+| cn-const-fixed-panel-ceiling-003 | 准备 | 测放吊顶标高及龙骨吊杆位置 | 吊顶图和水准基准 → 控制线与定位点 | 面板高度和吊点布置可复核 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#ceiling |
+| cn-const-fixed-panel-ceiling-004 | 作业 | 钻孔固定吊杆及需要的反支撑 | 定位顶板和吊挂组件 → 可靠吊挂体系 | 锚固承载防锈及加强符合设计 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#ceiling |
+| cn-const-fixed-panel-ceiling-005 | 作业 | 固定边龙骨并安装调平主龙骨 | 边界基准与主龙骨 → 调平主框架 | 连接稳定且起拱标高符合设计 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#ceiling |
+| cn-const-fixed-panel-ceiling-006 | 作业 | 安装次龙骨和洞口补强骨架 | 主框架与次龙骨 → 板面承托骨架 | 板缝承托设备检修洞口构造完整 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#ceiling |
+| cn-const-fixed-panel-ceiling-007 | 检测 | 核对封板前吊挂骨架及设备接口 | 完成骨架和设备点位 → 封板检查记录 | 间距稳定防锈及接口符合设计 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#ceiling |
+| cn-const-fixed-panel-ceiling-008 | 作业 | 配切石膏板并从中部向周边固定 | 面板与验收骨架 → 固定式吊顶板面 | 面板自然就位且接缝错开有承托 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#ceiling |
+| cn-const-fixed-panel-ceiling-009 | 返工 | 剔除变形螺钉并在合适位置补钉 | 弯曲变形固定螺钉 → 重新固定板面 | 不损伤纸面且钉位满足工艺 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#ceiling |
+| cn-const-fixed-panel-ceiling-010 | 作业 | 防锈填平钉眼并清填板缝贴防裂带 | 已固定板面 → 接缝钉眼处理面 | 嵌填饱满平整且防裂层连续 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#ceiling |
+| cn-const-fixed-panel-ceiling-011 | 作业 | 配合开设设备检修口并修整板面交界 | 设计洞口与板面 → 吻合检修设备接口 | 位置形状与刚度完整性符合设计 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#ceiling |
+| cn-const-fixed-panel-ceiling-012 | 检测 | 检查吊顶标高造型表面和连接质量 | 完成吊顶与过程记录 → 吊顶验收结论 | 尺寸平整接缝牢固及接口无漏检 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#ceiling |
+| cn-const-fixed-panel-ceiling-013 | 清洁维护 | 清洁板面并分类收集吊顶废材 | 完成板面和施工余料 → 清洁保护后的吊顶 | 表面无污染且废料按要求回收 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#general |
+| cn-const-fixed-panel-ceiling-014 | 交付 | 移交吊顶验收和隐蔽交接资料 | 完成吊顶与档案 → 后续接收记录 | 检修口及内藏专业记录可追溯 | source-backed | cn-occ-2022-draft#decoration；cn-decoration-db1832-2022#general |
+
+阶段缺口：异常
+
+- 活动板、金属板、造型吊顶与声学特殊空间未完整展开；不存在由本清单推出自动封顶可行性的结论。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 农村供水埋地管线施工与通水前验证
+
+辽宁农村供水历史工艺范围；市政/水利输配主管施工候选48，建筑内部管道另归49。现场执行者分类待核，不能以管工职业代替行业统计分类。
+
+流程来源：cn-rural-water-ln-2013。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-const-rural-water-pipe-001 | 准备 | 核对进场管材管件外观尺寸和质量资料 | 管件合同及证明 → 可安装管材批次 | 规格数量材质防腐与检测资料一致 | source-backed | cn-occ-2022-draft#pipe-install；cn-rural-water-ln-2013#materials |
+| cn-const-rural-water-pipe-002 | 准备 | 分类存放管材并设置遮阳防损保护 | 进场管材和场地 → 受保护材料堆 | 标识清楚且满足材料储存条件 | source-backed | cn-occ-2022-draft#pipe-install；cn-rural-water-ln-2013#materials |
+| cn-const-rural-water-pipe-003 | 作业 | 按设计开挖管道沟槽 | 放线路由和土层 → 待验收沟槽 | 几何和基础条件按现行设计验收 | source-backed | cn-rural-water-ln-2013#pipeline；cn-occ-2022-draft#rural-builder；cn-occ-2022-draft#earthwork |
+| cn-const-rural-water-pipe-004 | 作业 | 处理硬质槽底并铺设要求的管底垫层 | 已开挖沟槽和垫层料 → 承管基底 | 材料及厚度依地基管材条件确认 | source-backed | cn-rural-water-ln-2013#pipeline；cn-occ-2022-draft#rural-builder |
+| cn-const-rural-water-pipe-005 | 交接 | 核验土建沟槽后接收管道安装面 | 基底与土建检查记录 → 可安装沟槽 | 前序检查合格且记录完成 | source-backed | cn-rural-water-ln-2013#pipeline；cn-occ-2022-draft#rural-builder |
+| cn-const-rural-water-pipe-006 | 准备 | 清除管内杂物和外表面污物 | 待安装管节 → 洁净管件 | 无妨碍连接和通水的污染物 | source-backed | cn-occ-2022-draft#pipe-install；cn-rural-water-ln-2013#pipeline |
+| cn-const-rural-water-pipe-007 | 作业 | 逐节放管对中并调整安装高程 | 管件及测量基准 → 已定位管线 | 中线高程符合设计且无损伤 | source-backed | cn-occ-2022-draft#pipe-install；cn-rural-water-ln-2013#pipeline |
+| cn-const-rural-water-pipe-008 | 作业 | 用适配连接工艺组对管件与阀件 | 定位管节和接口材料 → 连通管段 | 连接强度和密封依管材体系确认 | source-backed | cn-occ-2022-draft#pipe-install；cn-rural-water-ln-2013#pipeline |
+| cn-const-rural-water-pipe-009 | 检测 | 复测安装管节的中心线和高程 | 已连接管线 → 测量检查记录 | 定位误差满足现行设计要求 | source-backed | cn-occ-2022-draft#pipe-install；cn-rural-water-ln-2013#pipeline |
+| cn-const-rural-water-pipe-010 | 作业 | 装设阀门计量装置并检验开闭动作 | 阀表及随机文件 → 可操作阀表 | 装配完整方向正确且功能检查完成 | source-backed | cn-occ-2022-draft#pipe-install；cn-rural-water-ln-2013#pressure-flush |
+| cn-const-rural-water-pipe-011 | 准备 | 向试验管段充水排气并按管材浸泡 | 隔离试验段和试验水 → 可试压管段 | 排气浸泡及试验边界按批准程序完成 | source-backed | cn-occ-2022-draft#pipe-install；cn-rural-water-ln-2013#pressure-flush |
+| cn-const-rural-water-pipe-012 | 检测 | 开展管道强度和严密性试验 | 准备管段及测试仪表 → 试压和渗漏记录 | 压力保压及允许渗漏按当前标准确认 | source-backed | cn-occ-2022-draft#pipe-install；cn-rural-water-ln-2013#pressure-flush |
+| cn-const-rural-water-pipe-013 | 返工 | 处理检查确认的不合格连接并复测 | 不合格管段 → 修复待复验管段 | 处置方案确认且重检通过 | source-backed | cn-occ-2022-draft#pipe-install |
+| cn-const-rural-water-pipe-014 | 清洁维护 | 冲洗消毒安装管段并再冲洗 | 合格试压管线 → 可取样管内水 | 采用经批准现行消毒工艺 | source-backed | cn-occ-2022-draft#pipe-install；cn-rural-water-ln-2013#pressure-flush |
+| cn-const-rural-water-pipe-015 | 检测 | 采集冲洗后水样交检 | 完成冲洗管线 → 可追溯水质样本 | 检测合格才进入供水交付 | source-backed | cn-occ-2022-draft#pipe-install；cn-rural-water-ln-2013#pressure-flush |
+| cn-const-rural-water-pipe-016 | 作业 | 用适宜材料回填保护管周和沟槽 | 通过相关验收管线和回填料 → 回填沟槽 | 材料层厚及管线保护按现行方案验收 | source-backed | cn-rural-water-ln-2013#pipeline；cn-occ-2022-draft#rural-builder；cn-occ-2022-draft#earthwork |
+| cn-const-rural-water-pipe-017 | 作业 | 安装匹配道路条件的阀井井盖 | 完成阀井及井盖 → 可用阀井出入口 | 井盖类别承载及路面高程符合设计 | source-backed | cn-rural-water-ln-2013#pressure-flush；cn-occ-2022-draft#rural-builder |
+| cn-const-rural-water-pipe-018 | 异常 | 围护当日未完成回填的井槽 | 开放井槽和警示设施 → 受控施工边界 | 围栏标识完整且人员风险受控 | source-backed | cn-rural-water-ln-2013#pressure-flush；cn-occ-2022-draft#rural-builder；cn-occ-2022-draft#earthwork |
+| cn-const-rural-water-pipe-019 | 清洁维护 | 清理管道阀井施工遗留物 | 完工现场和废物 → 清洁场地 | 遗留土方和杂物清理完成 | source-backed | cn-occ-2022-draft#pipe-install；cn-rural-water-ln-2013#pressure-flush |
+| cn-const-rural-water-pipe-020 | 交付 | 汇交隐检试压水质与安装记录 | 验收管网及记录 → 供水运行方接收材料 | 位置质量及试验记录可追溯 | source-backed | cn-occ-2022-draft#pipe-install；cn-rural-water-ln-2013#materials |
+
+阶段缺口：
+
+- 依据2013历史资料发现任务，绝不将网页2025日期当作标准修订。沟槽支护、管线探测、交通组织、顶管和不停水接驳未展开；完整现行SOP待补。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 农村供水砖石蓄水构筑物及防渗验证
+
+历史资料所述砌筑蓄水池与防水层；钢筋混凝土池结构主体、塔身与供水井尚未展开。
+
+流程来源：cn-rural-water-ln-2013。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-const-rural-water-tank-001 | 准备 | 检查并湿润砌筑砖石表面 | 砖石及清洁水 → 可砌筑砖石 | 污物移除并按材料要求处理 | source-backed | cn-occ-2022-draft#masonry；cn-rural-water-ln-2013#water-tank |
+| cn-const-rural-water-tank-002 | 作业 | 按设计错缝搭砌池壁砖石 | 砖石砂浆和位置基准 → 已砌池壁 | 搭砌灰缝与预埋件符合设计 | source-backed | cn-occ-2022-draft#masonry；cn-rural-water-ln-2013#water-tank |
+| cn-const-rural-water-tank-003 | 作业 | 固定穿池预埋管并施工防渗细部 | 预埋管与池壁 → 防渗连接节点 | 固定和防渗构造按设计确认 | source-backed | cn-occ-2022-draft#masonry；cn-rural-water-ln-2013#water-tank；cn-occ-2022-draft#waterproof |
+| cn-const-rural-water-tank-004 | 准备 | 清理湿润并修整防水施工基层 | 池壁池底 → 可做防水基层 | 坚实洁净粗糙适宜且无积水 | source-backed | cn-occ-2022-draft#masonry；cn-rural-water-ln-2013#water-tank；cn-occ-2022-draft#waterproof |
+| cn-const-rural-water-tank-005 | 作业 | 分层铺抹防水砂浆并处理转角接茬 | 基层及防水砂浆 → 连续防水层 | 层次搭接转角及厚度符合方案 | source-backed | cn-occ-2022-draft#masonry；cn-rural-water-ln-2013#water-tank；cn-occ-2022-draft#waterproof |
+| cn-const-rural-water-tank-006 | 清洁维护 | 覆盖洒水养护池壁与防水层 | 新砌池壁及防水面 → 养护状态记录 | 时长环境和保护依现行方案确认 | source-backed | cn-occ-2022-draft#masonry；cn-rural-water-ln-2013#water-tank；cn-occ-2022-draft#waterproof |
+| cn-const-rural-water-tank-007 | 检测 | 分阶段充水并测读水位计算渗漏 | 达到试验条件水池 → 满水试验记录 | 外观和渗漏结果满足现行验收 | source-backed | cn-occ-2022-draft#masonry；cn-rural-water-ln-2013#water-tank |
+| cn-const-rural-water-tank-008 | 返工 | 按批准修复方案处理防水缺陷 | 经检查确认渗漏点 → 返修待复验水池 | 修复后重新试验通过 | source-backed | cn-occ-2022-draft#masonry；cn-occ-2022-draft#waterproof |
+| cn-const-rural-water-tank-009 | 清洁维护 | 按供水要求清洗消毒构筑物 | 完成施工容器 → 可取样检验容器 | 具体消毒工艺和合格判据待现行SOP确认 | proposed | cn-occ-2022-draft#masonry；cn-occ-2022-draft#rural-builder |
+| cn-const-rural-water-tank-010 | 交付 | 完成满水试验后的外壁及回填交接 | 合格水池和记录 → 后续工序接收记录 | 验收记录与回填条件明确 | source-backed | cn-occ-2022-draft#masonry；cn-rural-water-ln-2013#water-tank |
+
+阶段缺口：交接、异常
+
+- 清洗消毒对所读原文明确的是水塔，拓展到本砖石蓄水池列proposed，不能偷换来源。满水试验执行职业职责依据偏弱，需补水工职业标准。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 供水泵房机泵与处理消毒设备安装调试
+
+农村供水工程内机械设备安装的候选49场景；若随主体工程由48单位执行，按执行者主营活动归属，不在两个行业重复计。
+
+流程来源：cn-rural-water-ln-2013。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-const-water-plant-equipment-001 | 准备 | 开箱核对机泵设备和配件随机资料 | 到货设备与合同 → 设备接收记录 | 规格外观附件和质量文件一致 | source-backed | cn-occ-2022-draft#mechanical-install；cn-rural-water-ln-2013#materials |
+| cn-const-water-plant-equipment-002 | 交接 | 核验机泵基础标高预埋和强度条件 | 基础及土建记录 → 可安装设备基础 | 地基防水和加载条件已验收 | source-backed | cn-occ-2022-draft#mechanical-install；cn-rural-water-ln-2013#pump-equipment |
+| cn-const-water-plant-equipment-003 | 作业 | 就位并调整机泵或处理设备 | 安装基础和设备 → 定位设备 | 平面标高及安装条件符合设计 | source-backed | cn-occ-2022-draft#mechanical-install；cn-rural-water-ln-2013#pump-equipment |
+| cn-const-water-plant-equipment-004 | 作业 | 按随机文件组装连接设备组件 | 处理消毒设备组件 → 组装设备 | 连接构造与产品安装要求一致 | source-backed | cn-occ-2022-draft#mechanical-install；cn-rural-water-ln-2013#pump-equipment |
+| cn-const-water-plant-equipment-005 | 检测 | 开展处理设备强度及严密性试验 | 安装处理消毒设备 → 设备试验记录 | 压力稳压及密封满足现行产品要求 | source-backed | cn-occ-2022-draft#mechanical-install；cn-rural-water-ln-2013#pump-equipment |
+| cn-const-water-plant-equipment-006 | 作业 | 调试机泵并进行规定条件试运转 | 安装机泵与能源介质 → 试运转结果 | 运行工况符合设计和现行验收程序 | source-backed | cn-occ-2022-draft#mechanical-install；cn-rural-water-ln-2013#pump-equipment |
+| cn-const-water-plant-equipment-007 | 异常 | 排查试运行发现的设备故障 | 试运异常设备 → 故障处置记录 | 隔离原因查明并形成修复安排 | source-backed | cn-occ-2022-draft#mechanical-install |
+| cn-const-water-plant-equipment-008 | 返工 | 重新调整或连接不合格设备接口 | 安装调试缺陷 → 待复验设备 | 按制造商方案修复并通过复验 | source-backed | cn-occ-2022-draft#mechanical-install |
+| cn-const-water-plant-equipment-009 | 清洁维护 | 整理安装区域并移除保护包装 | 安装结束设备周边 → 可交接区域 | 按卫生安全要求清理且开口受保护 | proposed | cn-occ-2022-draft#mechanical-install |
+| cn-const-water-plant-equipment-010 | 交付 | 移交安装试运记录及随机文件 | 通过验收设备和档案 → 运行方接收包 | 设备编号对应记录和维护资料 | source-backed | cn-occ-2022-draft#mechanical-install；cn-rural-water-ln-2013#materials |
+
+阶段缺口：
+
+- 故障排查有职业依据但无具体型号SOP；清洁边界暂为proposed。泵体制造不在此计，电缆及电气试验另场景。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 农村供水泵房变压器与防雷装置安装
+
+安装49候选；仅历史原文明确的变压器、防雷连接，未代表完整电力施工或泵房控制系统。
+
+流程来源：cn-rural-water-ln-2013。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-const-water-plant-electrical-001 | 准备 | 检查到场电气设备和配件质量 | 变压器防雷器件及资料 → 验收电气材料 | 外观规格和质量文件符合设计 | source-backed | cn-occ-2022-draft#electrical-install；cn-rural-water-ln-2013#materials |
+| cn-const-water-plant-electrical-002 | 作业 | 就位安装供水泵房变压器 | 安装条件与变压器 → 安装变压器 | 位置连接按现行产品及电气标准确认 | source-backed | cn-occ-2022-draft#electrical-install；cn-rural-water-ln-2013#electrical |
+| cn-const-water-plant-electrical-003 | 检测 | 对变压器进行交接试验并接受检查 | 安装变压器及测试器具 → 电气交接试验记录 | 试验项目及检查认定满足现行要求 | source-backed | cn-occ-2022-draft#electrical-install；cn-rural-water-ln-2013#electrical |
+| cn-const-water-plant-electrical-004 | 作业 | 安装连接防雷装置和引下电气通路 | 防雷器件与金属构件 → 可靠电气连接 | 位置正确连接连续且符合设计 | source-backed | cn-occ-2022-draft#electrical-install；cn-rural-water-ln-2013#electrical |
+| cn-const-water-plant-electrical-005 | 作业 | 补刷防雷连接焊接部位防腐涂层 | 检验焊接部位 → 受保护接头 | 焊缝和防腐无遗漏 | source-backed | cn-occ-2022-draft#electrical-install；cn-rural-water-ln-2013#electrical |
+| cn-const-water-plant-electrical-006 | 异常 | 排查安装试验发现的电气故障 | 电气异常记录 → 故障处置记录 | 原因与修复责任已确认 | source-backed | cn-occ-2022-draft#electrical-install |
+| cn-const-water-plant-electrical-007 | 交付 | 移交电气安装调试及验收记录 | 合格电气设备和档案 → 运行方接收材料 | 设备标识与试验记录一致 | source-backed | cn-occ-2022-draft#electrical-install；cn-rural-water-ln-2013#materials |
+
+阶段缺口：交接、返工、清洁维护
+
+- 防雷测量、停送电、线缆敷设与控制联调需补完整当前规范；没有从历史条款推断今日合规清单。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
 ## 批发和零售业
 
 partial-inventory-in-progress
@@ -1331,7 +2613,7 @@ partial-inventory-in-progress
 | --- | --- | --- | --- |
 | 53 铁路运输业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
 | 54 道路运输业 | partial | cn-trans-road-truck、cn-trans-freight-terminal | 本门类其他模式及具体场景未覆盖，逐场景gaps继续拓展；不计算覆盖率。 |
-| 55 水上运输业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
+| 55 水上运输业 | partial | cn-trans-bulk-berth、cn-trans-bulk-yard-transfer、cn-trans-bulk-landside | 海洋内河船舶航行、轮机值守、系解缆和客运未覆盖；集装箱、液体散货与件杂货码头未覆盖；本规范仅适用干散货；货运港口为55水上运输业；58代理、59独立装卸、54场外承运按实际执行者登记，不能将同一任务计入多个行业 |
 | 56 航空运输业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
 | 57 管道运输业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
 | 58 多式联运和运输代理业 | not-yet-covered |  | 本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点 |
@@ -1469,6 +2751,79 @@ partial-inventory-in-progress
 阶段缺口：
 
 - 代收点出入库、货架查找、排队交付、超期回收、智能柜故障开柜等细场景待专门流程；车辆骑行不在本场景重复计。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 干散货码头船岸装卸
+
+水上运输业55的货运港口经营者执行的煤炭矿石等干散货船岸装卸；不覆盖集装箱、液体散货或船舶航行。
+
+流程来源：cn-harbor-hj1107-2020。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-trans-bulk-berth-001 | 准备 | 检查并调整船岸装卸机械 | 待作业装卸机 → 可开工设备状态 | 检查项目符合本设备要求 | source-backed | cn-occ-2022-draft#bulk-mechanic；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-berth-002 | 作业 | 操作抓斗卸船机卸取散货 | 舱内散货 → 岸侧接料货物 | 按指定舱位与接料路线卸取 | source-backed | cn-occ-2022-draft#bulk-mechanic；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-berth-003 | 作业 | 操作连续卸船机卸取散货 | 舱内散货 → 岸侧连续货流 | 按指定路线连续输送 | source-backed | cn-occ-2022-draft#bulk-mechanic；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-berth-004 | 作业 | 操作连续装船机装入散货 | 岸侧来料 → 装入船舱货物 | 来料按指定舱位装入 | source-backed | cn-occ-2022-draft#bulk-mechanic；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-berth-005 | 作业 | 操作门座起重机装卸通用散货 | 船岸待运散货 → 目标接料点货物 | 按指定方向完成吊运 | source-backed | cn-occ-2022-draft#bulk-mechanic；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-berth-006 | 异常 | 排查船岸装卸机械故障 | 异常设备 → 处置记录 | 故障已处置或移交维修 | source-backed | cn-occ-2022-draft#bulk-mechanic；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-berth-007 | 清洁维护 | 保养船岸起重装卸机械 | 待保养设备 → 保养记录 | 规定项目完成 | source-backed | cn-occ-2022-draft#bulk-mechanic；cn-harbor-hj1107-2020#units |
+
+阶段缺口：交接、检测、返工、交付
+
+- 靠离泊系解缆、装载计划、舱口启闭、平舱清舱、吃水计重和船岸签收未获具体已读操作规程。
+- 不同设备路线互斥或组合，不能全部相加计算单船人工；通用门机工步还需按吊具和货物继续拆解。
+- 风速停机、吊具检查、危险区隔离等安全步骤不能从排污工艺表推导。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+
+### 干散货码头堆取料与输送
+
+货运港口55厂界内干散货堆场和输送系统；独立装卸服务执行者需按59登记，外包公路干线运输归54，不因规范列有外包车辆而计入港口工时。
+
+流程来源：cn-harbor-hj1107-2020。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-trans-bulk-yard-transfer-001 | 作业 | 将到达散货堆放至指定堆位 | 来料 → 指定货堆 | 物料与堆位对应 | source-backed | cn-occ-2022-draft#conveyor；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-yard-transfer-002 | 作业 | 从指定货堆取出散货 | 堆存货物 → 后续输送来料 | 货类和目标路线对应 | source-backed | cn-occ-2022-draft#conveyor；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-yard-transfer-003 | 作业 | 启动并操作输送机转运散货 | 接料点散货 → 下游散货 | 沿指定路线完成输送 | source-backed | cn-occ-2022-draft#conveyor；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-yard-transfer-004 | 作业 | 向输送机给入散货 | 待转运散货 → 连续输送来料 | 给料与指定路线对应 | source-backed | cn-occ-2022-draft#conveyor；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-yard-transfer-005 | 作业 | 调整卸料位置向指定料仓配料 | 输送散货 → 指定仓内散货 | 物料与目标仓对应 | source-backed | cn-occ-2022-draft#conveyor；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-yard-transfer-006 | 检测 | 巡查输送机运行状态 | 运行输送机 → 检查记录 | 跑偏及部件异常被识别 | source-backed | cn-occ-2022-draft#conveyor；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-yard-transfer-007 | 异常 | 纠正输送带跑偏 | 跑偏输送带 → 调整后设备 | 恢复规定运行位置 | source-backed | cn-occ-2022-draft#conveyor；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-yard-transfer-008 | 清洁维护 | 更换损坏的输送机托辊 | 故障托辊 → 更换后部件 | 更换后检查符合设备要求 | source-backed | cn-occ-2022-draft#conveyor；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-yard-transfer-009 | 清洁维护 | 胶接损坏或更换的输送带 | 待连接输送带 → 接头连接带 | 连接满足设备使用要求 | source-backed | cn-occ-2022-draft#conveyor；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-yard-transfer-010 | 清洁维护 | 清扫输送机沿线撒料 | 撒落散货 → 清理后作业区 | 散落物进入规定收集去向 | source-backed | cn-occ-2022-draft#conveyor；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-yard-transfer-011 | 清洁维护 | 保养输送机及附属设施 | 待维护设备 → 维护记录 | 规定项目完成 | source-backed | cn-occ-2022-draft#conveyor；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-yard-transfer-012 | 作业 | 运行输送单元除尘设施与水泵 | 尘源与除尘设施 → 运行记录 | 所选抑尘除尘单元按规定运行 | source-backed | cn-occ-2022-draft#conveyor；cn-harbor-hj1107-2020#dust |
+
+阶段缺口：准备、交接、返工、交付
+
+- 堆取料机回转行走对位、货堆测量、防混料、雨污水收集、苫盖洒水具体分工仍缺详细规程。
+- 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
+- 没有据任务描述推断人工工时或自动化效果。
+- 更换托辊和胶接输送带归清洁维护中的设备维修；未把设备维修冒充货物返工。
+
+### 干散货码头陆侧装卸
+
+货运港口55经营者的陆侧车辆装卸；铁路列车运行归53，场外公路承运归54，独立受托装卸服务按执行者归59并避免重复。
+
+流程来源：cn-harbor-hj1107-2020。职业来源：cn-occ-2022-draft。
+
+| 稳定编号 | 阶段 | 动作 | 输入 → 输出 | 验收 | 支持状态 | 引文位置 |
+| --- | --- | --- | --- | --- | --- | --- |
+| cn-trans-bulk-landside-001 | 准备 | 检查陆侧装卸机械和作业机具 | 待开工设备 → 检查结果 | 符合本设备开工要求 | source-backed | cn-occ-2022-draft#bulk-mechanic；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-landside-002 | 作业 | 操作翻车机卸出铁路敞车散货 | 装货铁路车辆 → 卸出散货 | 按指定接料路线卸货 | source-backed | cn-occ-2022-draft#bulk-mechanic；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-landside-003 | 作业 | 操作装车机装入散货 | 待装散货及车辆 → 装货车辆 | 物料与目标车辆对应 | source-backed | cn-occ-2022-draft#bulk-mechanic；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-landside-004 | 作业 | 操作抓斗或装载机装卸陆侧散货 | 散货和车辆 → 装卸后散货 | 完成指定装卸任务 | source-backed | cn-occ-2022-draft#bulk-mechanic；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-landside-005 | 异常 | 排查陆侧装卸设备故障 | 异常设备 → 处置记录 | 故障已处置或移交 | source-backed | cn-occ-2022-draft#bulk-mechanic；cn-harbor-hj1107-2020#units |
+| cn-trans-bulk-landside-006 | 清洁维护 | 保养陆侧装卸机械及机具 | 待保养设备 → 保养记录 | 规定项目完成 | source-backed | cn-occ-2022-draft#bulk-mechanic；cn-harbor-hj1107-2020#units |
+
+阶段缺口：交接、检测、返工、交付
+
+- 车辆定位止挡、摘挂联接、平车清扫、衡器过磅、抑尘苫盖、超载退载和交接凭证需铁路及港口作业规程补证。
 - 职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。
 - 没有据任务描述推断人工工时或自动化效果。
 

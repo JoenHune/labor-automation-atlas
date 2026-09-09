@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { withBase } from 'vitepress'
-import research from '../../../../data/research.json'
+import research from '../../../../data/site.json'
 const labels={cn:'中国',us:'美国'}
 const latest=(country:string)=>research.observations.find(o=>o.industryId===country+'-gdp'&&o.period==='2025'&&o.measure==='value-added')
 const fmt=(n:number|null|undefined)=>n==null?'—':n.toLocaleString('zh-CN')

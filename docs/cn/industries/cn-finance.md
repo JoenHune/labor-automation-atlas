@@ -1,4 +1,7 @@
 ---
-title: 金融业
+title: "金融业"
 ---
-<IndustryView industry-id="cn-finance" />
+<script setup>
+import record from "../../.generated/industries/cn-finance.json"
+</script>
+<IndustryView :record="record" />

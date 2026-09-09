@@ -1,4 +1,7 @@
 ---
-title: 金融和保险业
+title: "金融和保险业"
 ---
-<IndustryView industry-id="us-finance" />
+<script setup>
+import record from "../../.generated/industries/us-finance.json"
+</script>
+<IndustryView :record="record" />

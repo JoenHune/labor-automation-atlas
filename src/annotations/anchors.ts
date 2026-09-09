@@ -36,6 +36,7 @@ export function resolveTargets(anchor:Anchor,blocks:ContentBlock[],scope:{countr
   const block=blocks.find(b=>b.id===target.contentId)
   if(!block||block.fingerprint!==target.fingerprint){changed.push(target.contentId);continue}
   if(target.text && quoteMatches(block.text,target.text).length!==1){changed.push(target.contentId);continue}
+  if(target.textSegments?.some(q=>quoteMatches(block.text,q).length!==1)){changed.push(target.contentId);continue}
   if(target.dataPoints.length) {
    const points=target.dataPoints.map(p=>block.dataPoints?.find(b=>b.key===p.key&&b.period===p.period&&b.value===p.value))
    if(points.some(p=>!p)){changed.push(target.contentId);continue}
@@ -60,4 +61,3 @@ export function clusterMarkers(markers:{id:string,x:number,y:number}[],distance=
  }
  return groups.map(items=>({x:items.reduce((s,i)=>s+i.x,0)/items.length,y:items.reduce((s,i)=>s+i.y,0)/items.length,items}))
 }
-

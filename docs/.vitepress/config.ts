@@ -7,6 +7,7 @@ export default defineConfig({
   sidebar:[],outline:false,
   socialLinks:[{icon:'github',link:'https://github.com/JoenHune/labor-automation-atlas'}],
   docFooter:{prev:false,next:false},
+  lastUpdated:{text:'页面更新'},
  },
- vite:{server:{fs:{allow:['..']}}},
+ vite:{server:{fs:{allow:['..']},watch:{ignored:['**/.vitepress/dist/**']}}},
 })

@@ -1,25 +1,42 @@
 <script setup lang="ts">
-import {computed} from 'vue'
+import {computed,ref,onMounted,onBeforeUnmount,watch} from 'vue'
 import {withBase} from 'vitepress'
-import raw from '../../../../data/research.json'
-import type {Research} from '../../../../src/research/schema'
+import type {IndustryPage} from '../../../../src/research/site'
+import {phaseNames,taskStatus} from '../../../../src/research/site'
 import EvidenceList from './EvidenceList.vue'
-const props=defineProps<{industryId:string}>()
-const data=raw as Research
-const industry=computed(()=>data.industries.find(i=>i.id===props.industryId)!)
-const tasks=computed(()=>data.tasks.filter(t=>t.industryId===props.industryId))
-const observation=computed(()=>data.observations.find(o=>o.industryId===props.industryId&&o.period==='2025'&&o.measure==='value-added'))
+import ObservationDetails from './ObservationDetails.vue'
+const props=defineProps<{record:IndustryPage}>()
+const industry=computed(()=>props.record.industry),observation=computed(()=>props.record.observation)
+const query=ref(''),phase=ref('all'),scenario=ref('all'),status=ref('all')
+const fields={q:query,phase,scenario,status}
+const filtered=computed(()=>props.record.tasks.filter(t=>t.country===industry.value.country&&t.industryId===industry.value.id&&(phase.value==='all'||t.phase===phase.value)&&(scenario.value==='all'||t.scenarioId===scenario.value)&&(status.value==='all'||t.researchStatus===status.value)&&(!query.value||t.title.toLocaleLowerCase().includes(query.value.trim().toLocaleLowerCase()))))
+const scenes=computed(()=>props.record.scenarios.filter(s=>scenario.value==='all'||s.id===scenario.value))
+const reviewed=computed(()=>props.record.tasks.filter(t=>t.researchStatus==='reviewed').length)
+const phaseTasks=(id:string,p:string)=>filtered.value.filter(t=>t.scenarioId===id&&t.phase===p)
+const subsectors=computed(()=>(industry.value.inventory?.subsectorCoverage??[]) as Record<string,any>[])
+function restore(){const q=new URLSearchParams(location.search);for(const [key,value] of Object.entries(fields))value.value=q.get('filter.'+key)??(key==='q'?'':'all')}
+function sync(){const url=new URL(location.href);for(const [key,value] of Object.entries(fields)){if(value.value&&value.value!=='all')url.searchParams.set('filter.'+key,value.value);else url.searchParams.delete('filter.'+key)}history.replaceState(null,'',url);window.dispatchEvent(new CustomEvent('atlas:view-change'))}
+watch([query,phase,scenario,status],()=>{if(typeof window!=='undefined')sync()})
+onMounted(()=>{restore();window.addEventListener('popstate',restore)})
+onBeforeUnmount(()=>window.removeEventListener('popstate',restore))
 </script>
 <template>
  <article class="industry-view" :data-country="industry.country">
  <a :href="withBase('/'+industry.country+'/')">← {{industry.country==='cn'?'中国':'美国'}}行业全景</a>
  <p class="eyebrow">行业流程 · {{industry.selectionReason==='sector-supplement'?'榜外产业补充':'2025 全年入选行业'}}</p>
  <h1 :data-content-id="industry.id+'-title'" tabindex="0">{{industry.name}}</h1>
- <section :data-content-id="industry.id+'-scale-2025'" tabindex="0" class="task-conclusion"><p><strong>{{observation?.value?.toLocaleString('zh-CN')}} {{observation?.unit}}</strong> · 2025 年现价增加值</p><p>{{industry.coverage}}</p><p class="scope-note">发布 {{observation?.releaseDate}} · {{observation?.revision}}</p><EvidenceList v-if="observation" :items="observation.evidence"/></section>
- <h2>已研究任务</h2>
- <p class="scope-note" :data-content-id="industry.id+'-coverage-status'" tabindex="0">全流程任务清单正在按子行业、场景与职业职责交叉盘点。这里的样板用于验证完整研究路径，不代表该行业全部任务。</p>
- <div v-if="tasks.length" class="task-cards"><a v-for="t in tasks" :key="t.id" :data-content-id="t.id+'-index'" :href="withBase('/'+industry.country+'/tasks/'+t.id)" class="task-link"><span class="tag">{{t.researchStatus==='reviewed'?'公开证据已复核':'研究中'}}</span><h3>{{t.title}}</h3><p>{{t.summary}}</p><small>{{t.evidenceAge}}</small><span class="entry-link">查看条件、证据与回报 →</span></a></div>
- <p v-else class="work-note">该行业尚无完成证据研究的任务。流程清单、逐项检索、反例和独立复核完成后才会计入研究覆盖。</p>
+ <section :data-content-id="industry.id+'-scale-2025'" tabindex="0" class="task-conclusion"><p><strong>{{observation?.value?.toLocaleString('zh-CN')}} {{observation?.unit}}</strong> · 2025 年现价增加值</p><p>{{industry.coverage}}</p><p class="scope-note">发布 {{observation?.releaseDate}} · {{observation?.revision}}</p><ObservationDetails v-if="observation" :observation="observation"/></section>
+ <section :data-content-id="industry.id+'-coverage-status'" tabindex="0"><h2>场景与任务进度</h2><p>当前 {{record.scenarios.length}} 个场景、{{record.tasks.length}} 项候选任务，{{reviewed}} 项已完成公开证据独立复核。</p><p class="work-note">任务清单仍在扩展并修订粒度；数量不代表行业任务覆盖率、人工规模或自动化市场。未完成方案、反例和来源复核的任务保持待研究状态。</p></section>
+ <details v-if="subsectors.length" class="method-details"><summary>子行业范围与未覆盖部分</summary><ul><li v-for="(sub,i) in subsectors" :key="i" :data-content-id="industry.id+'-subsector-'+i" tabindex="0"><strong>{{sub.name??sub.subsector??sub.code??sub.naics??sub.classification}}</strong><p>{{sub.gap??sub.uncovered??sub.coverageMeaning}}</p><small>{{sub.scope??sub.countingNote}}</small></li></ul></details>
+ <div class="task-filters"><label>搜索本行业任务 <input v-model="query" type="search" placeholder="任务动作或对象"/></label><label>场景 <select v-model="scenario"><option value="all">全部场景</option><option v-for="s in record.scenarios" :value="s.id">{{s.title}}</option></select></label><label>流程阶段 <select v-model="phase"><option value="all">全部阶段</option><option v-for="(label,key) in phaseNames" :value="key">{{label}}</option></select></label><label>研究状态 <select v-model="status"><option value="all">全部状态</option><option v-for="(label,key) in taskStatus" :value="key">{{label}}</option></select></label></div>
+ <p class="scope-note">筛选结果 {{filtered.length}} 项；筛选条件随批注分享链接保存。</p>
+ <section v-for="s in scenes" :key="s.id" class="industry-scenario" :data-content-id="s.id+'-flow'" tabindex="0">
+  <h2>{{s.title}}</h2><p :data-content-id="s.id+'-scope'" tabindex="0">{{s.scope}}</p>
+  <div class="workflow-columns"><section v-for="(label,key) in phaseNames" :key="key" :data-content-id="s.id+'-phase-'+key" tabindex="0"><h3>{{label}}</h3><ul v-if="phaseTasks(s.id,key).length"><li v-for="t in phaseTasks(s.id,key)" :key="t.id" :data-content-id="t.id+'-index'" tabindex="0"><a :href="withBase('/'+industry.country+'/tasks/'+t.id)">{{t.title}}</a><small>{{taskStatus[t.researchStatus]}}</small></li></ul><p v-else class="scope-note">{{s.coverage.find(c=>c.phase===label)?.gap??'当前筛选下没有任务。'}}</p></section></div>
+  <details><summary>流程发现来源与遗漏检查</summary><p>流程规范与职业职责用于交叉发现任务，条目级对应仍需复核；不据此推算工时或自动化程度。</p><EvidenceList :items="[...s.workflowSources,...s.occupationSources]"/><ul><li v-for="text in s.exclusions">{{text}}</li></ul></details>
+ </section>
  </article>
 </template>
-
+<style scoped>
+.task-filters{display:flex;flex-wrap:wrap;gap:16px;margin:28px 0 12px}.task-filters label{display:grid;gap:5px;font-size:13px;min-width:140px;max-width:100%}.task-filters input,.task-filters select{border:1px solid #cbd5e1;border-radius:6px;padding:8px;background:white;max-width:100%}.industry-scenario{margin-top:36px;padding-top:12px;border-top:1px solid #dbe3f0}.workflow-columns{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:20px 0}.workflow-columns>section{border:1px solid #dce4ef;border-radius:8px;padding:12px;min-width:0}.workflow-columns h3{margin-top:0;font-size:15px}.workflow-columns ul{padding-left:16px}.workflow-columns li{margin-bottom:14px;overflow-wrap:anywhere}.workflow-columns small{display:block;color:#64748b;font-size:11px;line-height:1.5;margin-top:4px}@media(max-width:960px){.workflow-columns{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:540px){.workflow-columns{grid-template-columns:1fr}.task-filters label{width:100%}}
+</style>

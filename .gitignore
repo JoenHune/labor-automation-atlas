@@ -20,3 +20,9 @@ research/samples/source-cache/
 research/reviews/source-cache/
 research/**/raw/
 research/inventories/raw/
+
+# Deterministic page records and exports are rebuilt from canonical research.
+docs/.generated/
+docs/cn/tasks/*.md
+docs/us/tasks/*.md
+docs/public/exports/*.json

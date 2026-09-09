@@ -1,4 +1,7 @@
 ---
-title: 制造业
+title: "制造业"
 ---
-<IndustryView industry-id="us-manufacturing" />
+<script setup>
+import record from "../../.generated/industries/us-manufacturing.json"
+</script>
+<IndustryView :record="record" />

@@ -7,7 +7,7 @@ export interface GitHubUser {id:number;login:string;avatar_url:string}
 export interface GitHubIssue {id:number;number:number;title:string;body:string|null;state:'open'|'closed';user:GitHubUser;html_url:string;created_at:string;updated_at:string;pull_request?:unknown;locked:boolean}
 export interface GitHubComment {id:number;body:string|null;user:GitHubUser;created_at:string;updated_at:string;issue_url:string}
 export interface GitHubEvent {id:number;event:string;actor:GitHubUser|null;created_at:string}
-export interface AnnotationRow {id:string;country:string;page:string;anchor_json:string;issue_number:number;author_id:number;state:string;cached_json:string;synced_at:number;deleted_at:number|null}
+export interface AnnotationRow {id:string;country:string;page:string;anchor_json:string;issue_number:number;author_id:number;state:string;cached_json:string;github_updated_at:string;synced_at:number;deleted_at:number|null}
 export async function paginated<T>(path:string,token:string,maxPages=20):Promise<T[]> {
  const all:T[]=[]
  for(let page=1;page<=maxPages;page++) {

@@ -61,6 +61,7 @@ export const IndustrySchema = z.object({
   selectionReason: z.enum(['top10', 'sector-supplement', 'not-selected', 'unallocated']),
   coverage: nonempty,
   evidence: z.array(EvidenceRefSchema).min(1),
+  inventory:z.record(z.string(),z.unknown()).optional(),
 })
 export const ClaimSchema = z.object({
   id: ID, country: CountrySchema, taskId: ID.optional(),
@@ -107,6 +108,7 @@ export const TaskSchema = z.object({
   searchIds:z.array(ID),
   researchStatus:z.enum(['not-started','in-progress','evidence-insufficient','researched','reviewed']),
   summary:z.string().optional(),evidenceAge:z.string().optional(),dossier:z.record(z.string(),z.unknown()).optional(),
+  discovery:z.object({originalId:nonempty,supportStatus:nonempty,acceptanceStatus:nonempty,sourceLimitations:z.array(nonempty),inventoryFile:nonempty,inputSha256:nonempty}).optional(),
   review:z.object({reviewer:nonempty,date:date,notes:nonempty}).nullable(),
 })
 export const ScenarioSchema = z.object({
@@ -115,6 +117,7 @@ export const ScenarioSchema = z.object({
   coverage:z.array(z.object({phase:nonempty,taskIds:z.array(ID),gap:z.string().nullable()})),
   status:z.enum(['proposed','source-backed','cross-checked','frozen']),
   exclusions:z.array(nonempty),
+  inventory:z.record(z.string(),z.unknown()).optional(),
 })
 export const ResearchSchema = z.object({
   version:nonempty, checkedAt:date, publishedAt:date.nullable(),

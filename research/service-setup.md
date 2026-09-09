@@ -1,12 +1,12 @@
 # 服务配置与联调准备
 
-状态：准备稿；未表示任何账号或线上资源已创建。
+状态：2026-09-09 工作中。公开仓库、Worker代码部署与D1初始化已完成；R2订阅和GitHub本人身份验证已请求用户处理。其余绑定、秘密变量与真实联调尚未完成。
 
 ## 目标资源
 - 公开仓库：JoenHune/labor-automation-atlas。
 - 前台：https://joenhune.github.io/labor-automation-atlas/（仅在Pages成功部署后可访问）。
-- Worker：labor-automation-atlas-api；最终workers.dev域名由账号界面确认。
-- D1：labor-automation-atlas，绑定DB；执行worker/migrations中的两项迁移。
+- Worker：labor-automation-atlas-api；域名 https://labor-automation-atlas-api.kongy6.workers.dev 。
+- D1：labor-automation-atlas，数据库ID b5814f69-7bf7-4e3d-a047-57e3be22883f；两项迁移已通过账号控制台执行，业务表及迁移表已核对。Worker绑定DB仍待配置。
 - R2：labor-automation-atlas-snapshots，绑定SNAPSHOTS，不开放桶列表。
 - GitHub App：拟用labor-automation-atlas-joenhune；Issues读写、Metadata只读，仅安装到此仓库。
 

@@ -1,4 +1,7 @@
 ---
-title: 农业、林业、渔业和狩猎业
+title: "农业、林业、渔业和狩猎业"
 ---
-<IndustryView industry-id="us-agriculture" />
+<script setup>
+import record from "../../.generated/industries/us-agriculture.json"
+</script>
+<IndustryView :record="record" />

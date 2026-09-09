@@ -1,4 +1,7 @@
 ---
-title: 政府
+title: "政府"
 ---
-<IndustryView industry-id="us-government" />
+<script setup>
+import record from "../../.generated/industries/us-government.json"
+</script>
+<IndustryView :record="record" />

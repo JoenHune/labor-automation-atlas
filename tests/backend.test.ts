@@ -115,6 +115,23 @@ it('不向客户端返回GitHub凭证，授权过期拒绝写入',async()=>{
  sql.prepare('UPDATE sessions SET expires_at=1').run()
  expect((await request('/annotations',await fixture())).status).toBe(401);expect(postCount).toBe(0)
 })
+it('超过100条批注分页无遗漏且同更新时间不重复，国家及删除记录隔离',async()=>{
+ const stamp=timestamp(),at=Math.floor(Date.now()/1000),expected:string[]=[]
+ sql.prepare('INSERT INTO github_cache VALUES(?,?,?,?)').run('issue-index','{}',at,at+30)
+ const insert=sql.prepare('INSERT INTO annotations(id,country,page,anchor_json,issue_number,author_id,state,cached_json,github_updated_at,synced_at,deleted_at) VALUES(?,?,?,?,?,?,?,?,?,?,?)')
+ for(let i=0;i<109;i++) {
+  const id=crypto.randomUUID(),country=i<107?'cn':'us',deleted=i===106?at:null
+  if(country==='cn'&&!deleted)expected.push(id)
+  insert.run(id,country,'/'+country+'/','{}',i+1,42,'open',JSON.stringify({id,country}),stamp,at,deleted)
+ }
+ const first=await (await request('/annotations?country=cn&page=%2Fcn%2F')).json() as any
+ expect(first.annotations).toHaveLength(100);expect(first.nextCursor).toBeTruthy()
+ const second=await (await request('/annotations?country=cn&page=%2Fcn%2F&cursor='+first.nextCursor)).json() as any
+ expect(second.annotations).toHaveLength(6);expect(second.nextCursor).toBeNull()
+ expect([...first.annotations,...second.annotations].map((a:any)=>a.id).sort()).toEqual(expected.sort())
+ expect((await request('/annotations?country=cn&page=%2Fus%2F')).status).toBe(400)
+ expect((await request('/annotations?country=cn&page=%2Fcn%2F&cursor=bad')).status).toBe(400)
+})
 it('支持GitHub下载的PKCS#1私钥及PKCS#8',async()=>{
  const {privateKey}=generateKeyPairSync('rsa',{modulusLength:2048})
  for(const type of ['pkcs1','pkcs8'] as const) {
@@ -128,7 +145,8 @@ it('评论Markdown禁用脚本、事件和远程图片自动加载',()=>{
  expect(rendered).toContain('&lt;img');expect(rendered).toContain('noopener noreferrer nofollow')
 })
 it('快照拒绝伪装文件、校验损坏及尾部附加数据',()=>{
- const png=Uint8Array.from(Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAusB9Wl6XQAAAABJRU5ErkJggg==','base64'))
+ const png=Uint8Array.from(Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAADUlEQVQImWP4////fwAJ+wP9CNHoHgAAAABJRU5ErkJggg==','base64'))
+ expect(validatePng(png)).toEqual({width:1,height:1})
  expect(()=>validatePng(new TextEncoder().encode('<svg onload="alert(1)"/>'))).toThrow()
  const bad=png.slice();bad[16]=255;expect(()=>validatePng(bad)).toThrow()
  expect(()=>validatePng(new Uint8Array([...png,1,2,3]))).toThrow()

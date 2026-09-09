@@ -5,10 +5,12 @@ import * as echarts from 'echarts/core'
 import { BarChart,LineChart } from 'echarts/charts'
 import { GridComponent,TooltipComponent } from 'echarts/components'
 import { SVGRenderer } from 'echarts/renderers'
-import researchJson from '../../../../data/research.json'
+import researchJson from '../../../../data/site.json'
 import { annualRanking } from '../../../../src/research/ranking'
 import type { Country,Research } from '../../../../src/research/schema'
 import EvidenceList from './EvidenceList.vue'
+import ObservationDetails from './ObservationDetails.vue'
+import CountryTaskSearch from './CountryTaskSearch.vue'
 echarts.use([BarChart,LineChart,GridComponent,TooltipComponent,SVGRenderer])
 const props=defineProps<{country:Country}>()
 const research=researchJson as Research
@@ -28,6 +30,7 @@ const format=(value:number|null|undefined)=>value==null?'—':value.toLocaleStri
 const coverage=computed(()=>gdp.value?.value?rank.value.top10.reduce((sum,r)=>sum+(r.observation?.value??0),0)/gdp.value.value*100:null)
 const focusIndustry=computed(()=>research.industries.find(i=>i.id===focus.value))
 const progress=computed(()=>research.observations.filter(o=>o.country===props.country&&(o.frequency==='month'||o.frequency==='year-to-date')))
+const latestIndustries=computed(()=>research.industries.filter(i=>i.country===props.country&&i.selected).map(industry=>({industry,value:obs(industry.id,profile.value.latestPeriod),growth:obs(industry.id,profile.value.latestPeriod,'real-growth')})))
 const trendPoints=computed(()=>[2021,2022,2023,2024,2025].map(y=>obs(focus.value,String(y))))
 function syncState() {
  if(typeof window==='undefined') return
@@ -96,33 +99,35 @@ onBeforeUnmount(()=>{chart?.dispose();trend?.dispose();resize?.disconnect();wind
   <p v-if="year!==2025" class="historical-note" :data-content-id="country+'-historical-notice'" tabindex="0">正在查看 {{year}} 年历史数据。最新完整年度为 2025 年，最新行业进展为 {{profile.latestPeriod}}。</p>
   <p class="scope-note" :data-content-id="country+'-scope'" tabindex="0">{{profile.scope}} {{country==='cn'?'仅在最新官方发布的十个具名大类内排名；其他行业保留未拆分汇总。':'20 组非重叠行业构成排名范围；政府整体与私人行业分别列示。'}}</p>
   <div class="stats-row">
-   <section :data-content-id="country+'-gdp-'+year" tabindex="0"><span>{{year}} 全年 GDP</span><strong>{{format(gdp?.value)}}</strong><span>{{unit}} · 现价</span><small>发布 {{gdp?.releaseDate??'年鉴未标具体日期'}}<br>{{gdp?.revision}}</small><EvidenceList v-if="gdp" :items="gdp.evidence"/></section>
+   <section :data-content-id="country+'-gdp-'+year" tabindex="0"><span>{{year}} 全年 GDP</span><strong>{{format(gdp?.value)}}</strong><span>{{unit}} · 现价</span><small>发布 {{gdp?.releaseDate??'年鉴未标具体日期'}}<br>{{gdp?.revision}}</small><ObservationDetails v-if="gdp" :observation="gdp"/></section>
    <section :data-content-id="country+'-coverage-'+year" tabindex="0"><span>具名 Top 10 占 GDP</span><strong>{{coverage?.toFixed(2)}}<em>%</em></strong><span>计算：入榜行业现价之和 ÷ GDP</span><small>覆盖规模用于研究筛选，不能视为可自动化市场。</small></section>
-   <section :data-content-id="country+'-latest-'+profile.latestPeriod" tabindex="0"><span>最新进展 · {{profile.latestPeriod}}</span><strong>{{format(latest?.value)}}</strong><span>{{unit}}{{latest?.annualized?' · 季调年率':' · 当期现价'}}</span><small>发布 {{profile.latestRelease}} · 实际增长 {{latestGrowth?.value??'—'}}%{{country==='us'?'（环比折年）':'（同比）'}}</small><EvidenceList v-if="latest" :items="latest.evidence"/></section>
+   <section :data-content-id="country+'-latest-'+profile.latestPeriod" tabindex="0"><span>最新进展 · {{profile.latestPeriod}}</span><strong>{{format(latest?.value)}}</strong><span>{{unit}}{{latest?.annualized?' · 季调年率':' · 当期现价'}}</span><small>发布 {{profile.latestRelease}} · 实际增长 {{latestGrowth?.value??'—'}}%{{country==='us'?'（环比折年）':'（同比）'}}</small><ObservationDetails v-if="latest" :observation="latest"/><ObservationDetails v-if="latestGrowth" :observation="latestGrowth"/></section>
   </div>
   <section :data-content-id="country+'-ranking-chart-'+year" tabindex="0" class="chart-section">
    <div class="section-header"><h2>{{year}} 年行业规模</h2><span>现价增加值 · {{unit}}</span></div>
-   <div ref="chartEl" class="rank-chart" role="img" :aria-label="year+'年'+profile.name+'行业增加值，精确值见下表'"></div>
+   <div ref="chartEl" :data-content-id="country+'-ranking-plot-'+year" tabindex="0" class="rank-chart" role="img" :aria-label="year+'年'+profile.name+'行业增加值，精确值见下表'"></div>
   </section>
   <section :data-content-id="country+'-ranking-table'" tabindex="0">
    <div class="section-header"><h2>行业榜单</h2><label>排序 <select v-model="sort" aria-label="表格排序"><option value="value">增加值</option><option value="name">名称</option></select></label></div>
    <div class="table-scroll"><table class="atlas-table"><thead><tr><th>排名</th><th>行业</th><th class="numeric">{{year}} 年 · {{unit}}</th><th>证据与趋势</th></tr></thead><tbody>
     <tr v-for="r in rows" :key="r.industry.id" :data-content-id="r.industry.id+'-annual-'+year" :data-observation-id="r.observation?.id" tabindex="0">
-     <td>{{rank.top10.findIndex(x=>x.industry.id===r.industry.id)+1}}</td><th scope="row"><a v-if="r.industry.selected" :href="withBase('/'+country+'/industries/'+r.industry.id)">{{r.industry.name}}</a><span v-else>{{r.industry.name}}</span></th><td class="numeric">{{format(r.observation?.value)}}</td><td><button @click="focus=r.industry.id">看五年趋势</button><EvidenceList v-if="r.observation" :items="r.observation.evidence"/></td>
+     <td>{{rank.top10.findIndex(x=>x.industry.id===r.industry.id)+1}}</td><th scope="row"><a v-if="r.industry.selected" :href="withBase('/'+country+'/industries/'+r.industry.id)">{{r.industry.name}}</a><span v-else>{{r.industry.name}}</span></th><td class="numeric">{{format(r.observation?.value)}}</td><td><button @click="focus=r.industry.id">看五年趋势</button><ObservationDetails v-if="r.observation" :observation="r.observation"/></td>
     </tr>
-    <tr v-for="r in rank.supplements" :key="r.industry.id" :data-content-id="r.industry.id+'-annual-'+year" tabindex="0"><td>补充</td><th scope="row">{{r.industry.name}}<small>补充榜单未覆盖产业</small></th><td class="numeric">{{format(r.observation?.value)}}</td><td><button @click="focus=r.industry.id">看五年趋势</button><EvidenceList v-if="r.observation" :items="r.observation.evidence"/></td></tr>
+    <tr v-for="r in rank.supplements" :key="r.industry.id" :data-content-id="r.industry.id+'-annual-'+year" tabindex="0"><td>补充</td><th scope="row"><a :href="withBase('/'+country+'/industries/'+r.industry.id)">{{r.industry.name}}</a><small>补充榜单未覆盖产业</small></th><td class="numeric">{{format(r.observation?.value)}}</td><td><button @click="focus=r.industry.id">看五年趋势</button><ObservationDetails v-if="r.observation" :observation="r.observation"/></td></tr>
    </tbody></table></div>
    <p class="scope-note">{{country==='cn'?'工业整体入榜，制造业为子项，不再同时排名。三次产业合计不参与行业榜。':'排名以官方行值计算；不同时列入父级汇总和子行业。'}}</p>
   </section>
   <section :data-content-id="focus+'-trend'" tabindex="0" class="chart-section">
    <div class="section-header"><h2>{{focusIndustry?.name}} · 2021—2025</h2><label>趋势对象 <select v-model="focus" aria-label="趋势行业"><option :value="country+'-gdp'">GDP</option><option v-for="i in research.industries.filter(i=>i.country===country&&i.rankingUniverse)" :value="i.id">{{i.name}}</option></select></label></div>
-   <div ref="trendEl" class="trend-chart" role="img" :aria-label="focusIndustry?.name+'近五年趋势'"></div>
-   <div class="trend-values"><div v-for="(o,i) in trendPoints" :key="i" :data-content-id="focus+'-trend-value-'+(2021+i)" tabindex="0"><span>{{2021+i}} 年</span><strong>{{format(o?.value)}}</strong><small>{{unit}} · {{o?.releaseDate??'发布日期未注明'}}</small><EvidenceList v-if="o" :items="o.evidence"/></div></div>
+   <div ref="trendEl" :data-content-id="focus+'-trend-plot'" tabindex="0" class="trend-chart" role="img" :aria-label="focusIndustry?.name+'近五年趋势'"></div>
+   <div class="trend-values"><div v-for="(o,i) in trendPoints" :key="i" :data-content-id="focus+'-trend-value-'+(2021+i)" tabindex="0"><span>{{2021+i}} 年</span><strong>{{format(o?.value)}}</strong><small>{{unit}} · {{o?.releaseDate??'发布日期未注明'}}</small><ObservationDetails v-if="o" :observation="o"/></div></div>
    <p class="scope-note">{{country==='cn'?'2021—2023：2025版年鉴的修订后历史值；2024：最终核实；2025：初步核算。':'五年均采用2026-06-25版最新可获取修订序列。'}}</p>
   </section>
-  <section :data-content-id="country+'-other-'+year" tabindex="0" class="coverage-box"><h2>未拆分汇总与覆盖缺口</h2><p>{{country==='cn'?'其他行业':'其他服务业（不含政府）'}}：<strong>{{format(other?.value)}} {{unit}}</strong> · {{year}} 年现价。{{country==='cn'?'不将旧年度细分值当作当前规模。':'保留官方行业汇总，不编造细分；九个未入选行业仍在数据下载中。'}}</p><EvidenceList v-if="other" :items="other.evidence"/></section>
-  <section v-if="progress.length" :data-content-id="country+'-monthly-progress'" tabindex="0"><h2>月度进度 · {{profile.monthlyPeriod}}</h2><p>发布 {{profile.monthlyRelease}}。这些增长指标反映进展，不用于年度规模排名。</p><ul class="progress-list"><li v-for="p in progress" :key="p.id" :data-content-id="p.id" tabindex="0">{{p.period}} · {{research.industries.find(i=>i.id===p.industryId)?.name}} · {{p.label}} <strong>{{p.value}}%</strong><EvidenceList :items="p.evidence"/></li></ul></section>
+  <section :data-content-id="country+'-other-'+year" tabindex="0" class="coverage-box"><h2>未拆分汇总与覆盖缺口</h2><p>{{country==='cn'?'其他行业':'其他服务业（不含政府）'}}：<strong>{{format(other?.value)}} {{unit}}</strong> · {{year}} 年现价。{{country==='cn'?'不将旧年度细分值当作当前规模。':'保留官方行业汇总，不编造细分；九个未入选行业仍在数据下载中。'}}</p><ObservationDetails v-if="other" :observation="other"/></section>
+  <section :data-content-id="country+'-industry-progress'" tabindex="0"><h2>行业最新一期 · {{profile.latestPeriod}}</h2><p class="scope-note">发布 {{profile.latestRelease}}。{{country==='us'?'现价列为季度季调年率，实际增长为环比折年率；不参与年度排名。':'现价列为上半年累计增加值，实际增长为同比；不参与年度排名。'}}</p><div class="table-scroll"><table class="atlas-table"><thead><tr><th>入选行业</th><th>{{profile.latestPeriod}} · {{unit}}{{country==='us'?'（季调年率）':''}}</th><th>实际增长</th><th>来源与统计范围</th></tr></thead><tbody><tr v-for="row in latestIndustries" :key="row.industry.id" :data-content-id="row.industry.id+'-progress-'+profile.latestPeriod" tabindex="0"><th>{{row.industry.name}}</th><td class="numeric">{{format(row.value?.value)}}</td><td class="numeric">{{format(row.growth?.value)}}%</td><td><ObservationDetails v-if="row.value" :observation="row.value"/><ObservationDetails v-if="row.growth" :observation="row.growth"/></td></tr></tbody></table></div></section>
+  <section v-if="progress.length" :data-content-id="country+'-monthly-progress'" tabindex="0"><h2>月度进度 · {{profile.monthlyPeriod}}</h2><p>发布 {{profile.monthlyRelease}}。这些增长指标反映进展，不用于年度规模排名。</p><ul class="progress-list"><li v-for="p in progress" :key="p.id" :data-content-id="p.id" tabindex="0">{{p.period}} · {{research.industries.find(i=>i.id===p.industryId)?.name}} · {{p.label}} <strong>{{p.value}}%</strong><ObservationDetails :observation="p"/></li></ul></section>
   <details class="method-details"><summary>统计范围、修订与当前缺口</summary><ul><li v-for="text in profile.caveats">{{text}}</li><li v-for="text in profile.gaps">{{text}}</li></ul><EvidenceList :items="profile.evidence"/></details>
+  <CountryTaskSearch :country="country"/>
   <p><a :href="withBase('/exports/research.json')" download>下载完整数据及来源</a> · <a :href="withBase('/methodology')">研究方法</a></p>
  </div>
 </template>

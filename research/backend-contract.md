@@ -1,5 +1,5 @@
 # 批注后台实现约定
-状态：接口与界面首轮代码可运行；34项单元/模拟测试通过，尚无已部署服务及真实身份联调。
+状态：接口与界面首轮代码可运行；35项单元/模拟测试通过。Worker代码已部署、D1已初始化；绑定与身份配置待完成，尚未进行真实身份联调。
 
 ## 身份
 GitHub App 仅申请本仓库 Issues 读写，Metadata 只读；安装仅选择 labor-automation-atlas。用户写入必须使用 GitHub App user access token，安装令牌仅用于读取和同步。GitHub权限为用户与应用权限的交集；匿名只读，不接受前端提交的作者身份。
@@ -10,7 +10,7 @@ OAuth 同时使用 state、服务端保存的 S256 verifier、短期HttpOnly浏�
 - GET /health
 - GET /auth/login、GET /auth/callback、POST /auth/exchange
 - GET /session、POST /logout
-- GET /annotations?country=&page=，GET /annotations/:id
+- GET /annotations?country=&page=&cursor=，GET /annotations/:id
 - POST /annotations、POST /annotations/:id/comments、POST /annotations/:id/state
 - POST /snapshots、GET /snapshots/:id
 - POST /webhook
@@ -25,13 +25,12 @@ OAuth 同时使用 state、服务端保存的 S256 verifier、短期HttpOnly浏�
 ## 当前实现边界
 已有：上述完整路由、D1/R2绑定代码、GitHub用户写入、幂等锁及响应丢失对账、签名Webhook、回复父链与删除处理、权限检查、关闭/重开记录、大小/格式校验、短会话与定期清理、文字/矩形批注界面、浏览器草稿、手机底部浮层。
 
-验证：34项单元/模拟测试；页面与Worker打包通过。模拟使用内存SQLite和可控GitHub响应，不能代替真实GitHub权限验收。手机框选生成280×160 PNG并在就地浮层核对，未包含选区外页面内容。
+验证：35项单元/模拟测试；页面与Worker打包通过。模拟使用内存SQLite和可控GitHub响应，不能代替真实GitHub权限验收。手机框选生成280×160 PNG并在就地浮层核对，未包含选区外页面内容。
 
-未完成：GitHub App/Cloudflare账号配置、真实D1/R2读写与全流程联调；完整桌面手势、文字换行/排序/缩放/更新/删除等浏览器验证仍须逐项执行。当前单页索引超过300条或一次GitHub同步超过2000条会明确报不完整而不静默丢弃；发布前须补齐分页。
+未完成：GitHub App/Cloudflare账号配置、真实D1/R2读写与全流程联调；完整桌面手势、文字换行/排序/缩放/更新/删除等浏览器验证仍须逐项执行。单页索引已支持每页100条游标，前台收齐后更新显示，分页失败保留上次完整结果；同更新时间排序和国家/删除隔离已有模拟测试。单次GitHub同步超过2000条仍明确报不完整，规模扩展前需实现可恢复增量分页。
 
 官方依据：
 - [GitHub App用户令牌与PKCE](https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/generating-a-user-access-token-for-a-github-app)
 - [GitHub App权限](https://docs.github.com/en/apps/creating-github-apps/registering-a-github-app/choosing-permissions-for-a-github-app)
 - [D1准备语句](https://developers.cloudflare.com/d1/worker-api/prepared-statements/)
 - [Cloudflare密钥](https://developers.cloudflare.com/workers/configuration/secrets/)
-

@@ -1,4 +1,7 @@
 ---
-title: 批发和零售业
+title: "批发和零售业"
 ---
-<IndustryView industry-id="cn-wholesale-retail" />
+<script setup>
+import record from "../../.generated/industries/cn-wholesale-retail.json"
+</script>
+<IndustryView :record="record" />

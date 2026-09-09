@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { withBase } from 'vitepress'
-import raw from '../../../../data/research.json'
+import raw from '../../../../data/site.json'
 import type { Research } from '../../../../src/research/schema'
 import EvidenceList from './EvidenceList.vue'
 const props=defineProps<{taskId:string}>()

@@ -1,4 +1,7 @@
 ---
-title: 住宿和餐饮业
+title: "住宿和餐饮业"
 ---
-<IndustryView industry-id="cn-accommodation-food" />
+<script setup>
+import record from "../../.generated/industries/cn-accommodation-food.json"
+</script>
+<IndustryView :record="record" />

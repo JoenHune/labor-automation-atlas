@@ -1,4 +1,7 @@
 ---
-title: 建筑业
+title: "建筑业"
 ---
-<IndustryView industry-id="cn-construction" />
+<script setup>
+import record from "../../.generated/industries/cn-construction.json"
+</script>
+<IndustryView :record="record" />

@@ -4,7 +4,7 @@ export interface LiveBlock {id:string;element:HTMLElement;rect:Rect;fingerprint:
 export const rectOf=(r:DOMRect|DOMRectReadOnly):Rect=>({x:r.x,y:r.y,width:r.width,height:r.height})
 export function contentRoot(){return document.querySelector<HTMLElement>('.VPContent')??document.querySelector<HTMLElement>('main')!}
 export function pageScope(base:string) {
- let page=decodeURI(location.pathname.slice(base.replace(/\/$/,'').length))||'/'
+ let page=(decodeURI(location.pathname.slice(base.replace(/\/$/,'').length))||'/').replace(/\.html$/,'').replace(/\/index$/,'/')
  if(page==='/cn'||page==='/us')page+='/'
  const country=page.startsWith('/cn/')?'cn':page.startsWith('/us/')?'us':'shared'
  return {page,country} as {page:string;country:Anchor['country']}
@@ -84,6 +84,22 @@ export function locateQuote(el:HTMLElement,quote:NonNullable<Target['text']>):Re
  const range=document.createRange();range.setStart(start.node,start.offset);range.setEnd(end.node,end.offset+1)
  return Array.from(range.getClientRects()).filter(r=>r.width>0&&r.height>0).map(rectOf)
 }
+function rectangleText(el:HTMLElement,selection:Rect):NonNullable<Target['text']>[] {
+ const map=textMap(el),segments:NonNullable<Target['text']>[]=[],range=document.createRange()
+ let start=-1,last=-1
+ const finish=()=>{
+  if(start<0)return
+  const exact=normalizeText(map.text.slice(start,last+1))
+  if(exact)segments.push({exact,prefix:map.text.slice(Math.max(0,start-90),start).trimEnd(),suffix:map.text.slice(last+1,last+91).trimStart()})
+  start=-1;last=-1
+ }
+ for(let i=0;i<map.positions.length;i++) {
+  const p=map.positions[i];range.setStart(p.node,p.offset);range.setEnd(p.node,p.offset+1)
+  const box=range.getBoundingClientRect(),hit=box.width>0&&intersect(rectOf(box),selection)
+  if(hit){if(start<0)start=i;last=i}else finish()
+ }
+ finish();return segments
+}
 export async function createAnchor(selection:Rect,scope:{country:Anchor['country'];page:string},version:string,textSelection:Range|null=null):Promise<Anchor> {
  const blocks=await liveBlocks(),targets:Target[]=[]
  for(const b of blocks) {
@@ -101,14 +117,15 @@ export async function createAnchor(selection:Rect,scope:{country:Anchor['country
    after.selectNodeContents(b.element);after.setStart(range.endContainer,range.endOffset)
    quote={exact,prefix:normalizeText(before.toString()).slice(-90),suffix:normalizeText(after.toString()).slice(0,90)}
   }
-  targets.push({contentId:b.id,kind:quote?'text':b.kind,fingerprint:b.fingerprint,text:quote,rect:relative,dataPoints:b.pointRects.filter(p=>intersect(p.rect,selection)).map(({rect,...p})=>p)})
+  const textSegments=!quote&&['block','table-row'].includes(b.kind)?rectangleText(b.element,selection):[]
+  targets.push({contentId:b.id,kind:quote?'text':b.kind,fingerprint:b.fingerprint,text:quote,textSegments,rect:relative,dataPoints:b.pointRects.filter(p=>intersect(p.rect,selection)).map(({rect,...p})=>p)})
  }
  if(!targets.length) {
   const space=spaceBlock(blocks,selection),relative=space&&relativeRect(selection,space.rect)
   if(space&&relative)targets.push({contentId:space.id,kind:'whitespace',fingerprint:space.fingerprint,text:null,rect:relative,dataPoints:[]})
  }
  if(!targets.length)throw new Error('请在网站内容范围内选择区域')
- return AnchorSchema.parse({schema:1,id:crypto.randomUUID(),...scope,researchVersion:version,targets,view:currentView(),selectedText:targets.map(t=>t.text?.exact??'').filter(Boolean).join('\n'),snapshotId:crypto.randomUUID(),capturedAt:new Date().toISOString()})
+ return AnchorSchema.parse({schema:1,id:crypto.randomUUID(),...scope,researchVersion:version,targets,view:currentView(),selectedText:targets.map(t=>t.text?.exact??t.textSegments?.map(s=>s.exact).join('\n')??'').filter(Boolean).join('\n'),snapshotId:crypto.randomUUID(),capturedAt:new Date().toISOString()})
 }
 export async function resolveAnchor(anchor:Anchor,scope:{country:string;page:string},blocks?:LiveBlock[]) {
  const view=currentView()
@@ -127,6 +144,12 @@ export async function resolveAnchor(anchor:Anchor,scope:{country:string;page:str
    const ranges=locateQuote(b.element,target.text)
    if(!ranges?.length)return {status:'changed' as const,rects:[] as Rect[]}
    rects.push(...ranges)
+  }else if(target.textSegments?.length) {
+   for(const segment of target.textSegments) {
+    const ranges=locateQuote(b.element,segment)
+    if(!ranges?.length)return {status:'changed' as const,rects:[] as Rect[]}
+    rects.push(...ranges)
+   }
   }else if(target.dataPoints.length) {
    const found=target.dataPoints.map(p=>b!.pointRects.find(x=>x.key===p.key&&x.period===p.period&&x.value===p.value))
    if(found.some(p=>!p))return {status:'changed' as const,rects:[] as Rect[]}

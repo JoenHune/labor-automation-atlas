@@ -15,7 +15,12 @@ export default {
    if(origin&&origin!==env.SITE_ORIGIN)throw new HttpError(403,'origin','请求来源不属于本站')
    if(request.method==='OPTIONS')return new Response(null,{status:204,headers:cors})
    const path=new URL(request.url).pathname
-   if(path==='/health')return json({service:'labor-automation-atlas',stage:'integration-pending',configured:Boolean(env.GITHUB_CLIENT_ID&&env.GITHUB_CLIENT_SECRET&&env.TOKEN_ENCRYPTION_KEY&&env.GITHUB_APP_PRIVATE_KEY&&env.METADATA_SIGNING_KEY),annotationsReady:Boolean(env.GITHUB_CLIENT_ID&&env.GITHUB_CLIENT_SECRET&&env.TOKEN_ENCRYPTION_KEY&&env.GITHUB_APP_PRIVATE_KEY&&env.METADATA_SIGNING_KEY)},200,cors)
+   if(path==='/health') {
+    const configured=Boolean(env.DB&&env.SNAPSHOTS&&env.SITE_ORIGIN&&env.API_ORIGIN&&env.GITHUB_REPOSITORY_ID&&env.GITHUB_CLIENT_ID&&env.GITHUB_CLIENT_SECRET&&env.GITHUB_APP_ID&&env.GITHUB_INSTALLATION_ID&&env.TOKEN_ENCRYPTION_KEY&&env.GITHUB_APP_PRIVATE_KEY&&env.METADATA_SIGNING_KEY&&env.GITHUB_WEBHOOK_SECRET)
+    let databaseReady=false
+    if(env.DB)try{databaseReady=Boolean(await env.DB.prepare('SELECT COUNT(*) AS count FROM d1_migrations').first())}catch{}
+    return json({service:'labor-automation-atlas',stage:configured&&databaseReady?'ready-for-integration':'integration-pending',configured,databaseReady,annotationsReady:configured&&databaseReady},200,cors)
+   }
    if(request.method!=='GET'&&request.method!=='OPTIONS'&&path!=='/webhook'&&!origin)throw new HttpError(403,'origin','写入请求需要本站来源')
    const response=await authRoute(request,env)??await annotationRoute(request,env)??await snapshotRoute(request,env)??await webhookRoute(request,env)
    if(response) {

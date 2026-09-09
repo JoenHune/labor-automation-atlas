@@ -1,4 +1,7 @@
 ---
-title: 房地产业
+title: "房地产业"
 ---
-<IndustryView industry-id="cn-real-estate" />
+<script setup>
+import record from "../../.generated/industries/cn-real-estate.json"
+</script>
+<IndustryView :record="record" />

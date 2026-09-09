@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {computed,nextTick,onMounted,onBeforeUnmount,ref,shallowRef,watch} from 'vue'
 import {useData,useRoute,useRouter} from 'vitepress'
-import research from '../../../../data/research.json'
+import research from '../../../../data/site.json'
 import type {Annotation,Rect,Anchor,ThreadComment} from '../../../../src/annotations/schema'
 import {clusterMarkers,intersect} from '../../../../src/annotations/anchors'
 import {contentRoot,currentView,pageScope,ensureContentIds,liveBlocks,createAnchor,resolveAnchor,snapshotRegion,rectOf} from '../../../../src/annotations/dom'
@@ -44,8 +44,9 @@ const threadComments=computed(()=>{
 })
 function findComment(id:number|null){return active.value?.comments.find(c=>c.id===id)}
 async function persist() {
- if(!draft.value)return
- try{await saveDraft(draft.value);draftSaved.value=true;savedDrafts.value=await draftsForPage(scope.value.page,scope.value.country)}
+ const captured=draft.value;if(!captured)return
+ clearTimeout(debounce)
+ try{await saveDraft(captured);if(draft.value===captured)draftSaved.value=true;savedDrafts.value=await draftsForPage(scope.value.page,scope.value.country)}
  catch{draftSaved.value=false;throw new Error('浏览器未能保存草稿，请复制正文后重试或保持本页打开')}
 }
 function changeBody(event:Event) {
@@ -63,6 +64,11 @@ async function refreshPositions() {
  const blocks=await liveBlocks(),next:typeof resolved.value={}
  for(const a of annotations.value)next[a.id]=await resolveAnchor(a.anchor,scope.value,blocks)
  if(token===generation)resolved.value=next
+ if(draft.value?.anchor&&!drag&&!busy.value){const position=await resolveAnchor(draft.value.anchor,scope.value,blocks);rect.value=position.rects.length?selectionBounds(position.rects):null}
+}
+function selectionBounds(rects:Rect[]):Rect {
+ const x=Math.min(...rects.map(r=>r.x)),y=Math.min(...rects.map(r=>r.y))
+ return {x,y,width:Math.max(...rects.map(r=>r.x+r.width))-x,height:Math.max(...rects.map(r=>r.y+r.height))-y}
 }
 function schedulePositions(){clearTimeout(repositionTimer);repositionTimer=window.setTimeout(()=>refreshPositions().catch(()=>{}),80)}
 async function loadPage() {
@@ -76,10 +82,18 @@ async function loadPage() {
 async function reload() {
  const captured={...scope.value}
  try {
-  const result=await api<{annotations:Annotation[];warning:string|null}>('/annotations?'+new URLSearchParams(captured))
-  if(scope.value.page!==captured.page||scope.value.country!==captured.country)return
-  annotations.value=result.annotations.filter(a=>a.page===captured.page&&a.country===captured.country)
-  warning.value=result.warning??''
+  const collected=new Map<string,Annotation>(),seen=new Set<string>();let cursor:string|null=null,pageWarning=''
+  do {
+   const query=new URLSearchParams(captured);if(cursor)query.set('cursor',cursor)
+   const result=await api<{annotations:Annotation[];warning:string|null;nextCursor:string|null}>('/annotations?'+query)
+   if(scope.value.page!==captured.page||scope.value.country!==captured.country)return
+   for(const a of result.annotations)if(a.page===captured.page&&a.country===captured.country)collected.set(a.id,a)
+   if(result.warning)pageWarning=result.warning
+   cursor=result.nextCursor??null
+   if(cursor&&seen.has(cursor))throw new Error('批注分页未能继续，保留上次完整结果；请稍后刷新')
+   if(cursor)seen.add(cursor)
+  }while(cursor)
+  annotations.value=[...collected.values()];warning.value=pageWarning
  }catch(e){warning.value=e instanceof Error?e.message:'批注状态暂时不可用'}
  await refreshPositions()
 }
@@ -92,6 +106,7 @@ function selectionChanged() {
  range=candidate.cloneRange();textPopup.value=rectOf(range.getBoundingClientRect())
 }
 async function captureArea(selection:Rect,selectedRange:Range|null=null,existing:Draft|null=null) {
+ if(draft.value&&draft.value!==existing)try{await persist()}catch(e){error.value=(e as Error).message;return}
  busy.value=true;error.value='';mode.value=false;active.value=null;groupChoices.value=[];textPopup.value=null
  const next=existing??newDraft('new');draft.value=next;rect.value=selection
  try {
@@ -177,27 +192,32 @@ async function openShared() {
  const id=new URLSearchParams(location.hash.slice(1)).get('annotation')
  if(id&&/^[a-f0-9-]{36}$/.test(id))await openAnnotation(id,true)
 }
-function openGroup(ids:string[]){if(ids.length===1)openAnnotation(ids[0]);else{groupChoices.value=ids;active.value=null;draft.value=null;rect.value=null}}
+async function openGroup(ids:string[]){if(ids.length===1)await openAnnotation(ids[0]);else{try{await persist()}catch(e){error.value=(e as Error).message;return}groupChoices.value=ids;active.value=null;draft.value=null;rect.value=null}}
 async function reply(parent:number|null) {
  if(!active.value)return
+ try{await persist()}catch(e){error.value=(e as Error).message;return}
  draft.value=newDraft('reply',active.value.id,parent);error.value='';await persist();await nextTick();textarea.value?.focus()
 }
 async function stateChange() {
  if(!active.value)return
+ try{await persist()}catch(e){error.value=(e as Error).message;return}
  draft.value={...newDraft('state',active.value.id),state:active.value.state==='open'?'closed':'open'}
  await persist();await nextTick();textarea.value?.focus()
 }
 async function restoreDraft(saved:Draft) {
+ try{await persist()}catch(e){error.value=(e as Error).message;return}
  error.value='';active.value=null;rect.value=null
  if(saved.annotationId)await openAnnotation(saved.annotationId)
  draft.value=saved
  if(saved.anchor) {
   const url=new URL(location.href),v=saved.anchor.view
   if(v.year!==null)url.searchParams.set('year',String(v.year));else url.searchParams.delete('year')
-  if(v.focus)url.searchParams.set('focus',v.focus);if(v.sort)url.searchParams.set('sort',v.sort)
+  for(const key of ['focus','sort'] as const){if(v[key])url.searchParams.set(key,v[key]);else url.searchParams.delete(key)}
+  for(const key of Array.from(url.searchParams.keys()))if(key.startsWith('filter.'))url.searchParams.delete(key)
+  for(const [key,value] of Object.entries(v.filters))url.searchParams.set('filter.'+key,value)
   history.replaceState(null,'',url);window.dispatchEvent(new PopStateEvent('popstate'));await nextTick()
   const result=await resolveAnchor(saved.anchor,scope.value)
-  rect.value=result.rects[0]??null
+  rect.value=result.rects.length?selectionBounds(result.rects):null
   if(result.status==='changed')warning.value='草稿原内容已变更；保留原快照，可提交关于原内容的批注'
  }
  draftSaved.value=true;await nextTick();textarea.value?.focus()
@@ -236,9 +256,17 @@ async function submit() {
 }
 async function copyShare(){if(active.value)try{await navigator.clipboard.writeText(shareUrl(active.value,site.value.base));notice.value='批注链接已复制'}catch{notice.value='请复制地址栏中的批注链接'}}
 function changeToRoot(){if(draft.value&&!draft.value.submitted){draft.value={...draft.value,parentCommentId:null};persist().catch(e=>error.value=e.message)}}
-function exportDraft(){if(!draft.value)return;const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify({...draft.value,snapshot:undefined},null,2)],{type:'application/json'}));a.download='annotation-draft-'+draft.value.id+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}
+async function exportDraft(){
+ const captured=draft.value;if(!captured)return
+ const snapshotDataUrl=captured.snapshot?await new Promise<string>((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(String(reader.result));reader.onerror=()=>reject(reader.error);reader.readAsDataURL(captured.snapshot!)}):null
+ const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify({...captured,snapshot:undefined,snapshotDataUrl},null,2)],{type:'application/json'}));a.download='annotation-draft-'+captured.id+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)
+}
+const routeGuard:NonNullable<typeof router.onBeforeRouteChange>=async()=>{
+ try{await persist()}catch(e){error.value=(e as Error).message;return false}
+}
 watch(()=>route.path,()=>{if(ready.value)loadPage()})
 onMounted(async()=>{
+ router.onBeforeRouteChange=routeGuard
  ready.value=true;session.value=storedSession()
  const returning=new URLSearchParams(location.hash.slice(1)).has('atlas_login');let loginError=''
  try{session.value=await finishLogin()}catch(e){loginError=(e as Error).message}
@@ -253,6 +281,7 @@ onMounted(async()=>{
  poll=window.setInterval(()=>{if(!document.hidden&&!busy.value)reload()},60000)
 })
 onBeforeUnmount(()=>{
+ if(router.onBeforeRouteChange===routeGuard)router.onBeforeRouteChange=undefined
  document.removeEventListener('mouseup',selectionChanged);document.removeEventListener('keyup',selectionChanged);document.removeEventListener('keydown',keyboard)
  window.removeEventListener('scroll',schedulePositions,true);window.removeEventListener('resize',schedulePositions);window.removeEventListener('atlas:view-change',schedulePositions);window.removeEventListener('hashchange',openShared)
  observer?.disconnect();resizeObserver?.disconnect();clearInterval(poll);clearTimeout(debounce);clearTimeout(repositionTimer);if(draftSnapshotUrl.value)URL.revokeObjectURL(draftSnapshotUrl.value)

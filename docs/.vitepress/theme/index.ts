@@ -4,6 +4,7 @@ import AtlasHome from './components/AtlasHome.vue'
 import CountryView from './components/CountryView.vue'
 import IndustryView from './components/IndustryView.vue'
 import TaskView from './components/TaskView.vue'
+import CandidateTaskView from './components/CandidateTaskView.vue'
 import AnnotationLayer from './components/AnnotationLayer.vue'
 import {h} from 'vue'
 export default {
@@ -14,5 +15,6 @@ export default {
   app.component('CountryView',CountryView)
   app.component('IndustryView',IndustryView)
   app.component('TaskView',TaskView)
+  app.component('CandidateTaskView',CandidateTaskView)
  },
 }

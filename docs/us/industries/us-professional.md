@@ -1,4 +1,7 @@
 ---
-title: 专业、科学和技术服务业
+title: "专业、科学和技术服务业"
 ---
-<IndustryView industry-id="us-professional" />
+<script setup>
+import record from "../../.generated/industries/us-professional.json"
+</script>
+<IndustryView :record="record" />

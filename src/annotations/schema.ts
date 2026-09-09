@@ -14,6 +14,7 @@ export const TargetSchema=z.object({
  kind:z.enum(['text','block','table-row','chart','image','whitespace']),
  fingerprint:z.string().regex(/^[a-f0-9]{64}$/),
  text:z.object({exact:z.string().max(12000),prefix:z.string().max(120),suffix:z.string().max(120)}).nullable(),
+ textSegments:z.array(z.object({exact:z.string().max(12000),prefix:z.string().max(120),suffix:z.string().max(120)})).max(120).optional(),
  rect:RelativeRectSchema,
  dataPoints:z.array(z.object({key:stableId,period:z.string().max(30),value:z.number().nullable()})).max(200),
 })

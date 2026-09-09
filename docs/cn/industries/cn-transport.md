@@ -1,4 +1,7 @@
 ---
-title: 交通运输、仓储和邮政业
+title: "交通运输、仓储和邮政业"
 ---
-<IndustryView industry-id="cn-transport" />
+<script setup>
+import record from "../../.generated/industries/cn-transport.json"
+</script>
+<IndustryView :record="record" />

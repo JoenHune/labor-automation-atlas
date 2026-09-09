@@ -1,4 +1,7 @@
 ---
-title: 零售业
+title: "零售业"
 ---
-<IndustryView industry-id="us-retail" />
+<script setup>
+import record from "../../.generated/industries/us-retail.json"
+</script>
+<IndustryView :record="record" />
