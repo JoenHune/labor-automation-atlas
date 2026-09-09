@@ -1,0 +1,32 @@
+{
+  "country": "CN",
+  "industryId": "cn-agriculture",
+  "reviewedOn": "2026-09-09",
+  "inputSha256": "29623933f780c5236243d63e142d40a825b47273ef46dfc721133c85e90cb5d3",
+  "reviewFile": "research/reviews/cn-agriculture-automation-decisions.json",
+  "reviewSha256": "9d811267f37746d255901c9904284f21b78bf812c7861de76aba7084d06ef3ff",
+  "revisionFile": "research/automation/cn-agriculture-revisions.json",
+  "revisionSha256": "69f6c69aea9aa56dd1e3578c6d8bad50ba6da51ac1d0b8b549734f3cf307db6c",
+  "status": "first-pass-corrections-rechecked-followup-not-incorporated",
+  "checkedTasks": 164,
+  "checkedSourceClaimPairs": 46,
+  "checks": [
+    "逐项比较164个原任务快照、动作定位、阶段和拟议拆分；没有新增已批准任务。",
+    "46条来源声明、来源条目的定位与任务引用一致；没有增加人工或现金数值。",
+    "10项机制改为相邻背景；原文定位和限制继续保留。",
+    "补检12个来源候选及22项遗漏跟进记录仍单独等待独立复核，未进入此输入。"
+  ],
+  "definitionSourceCorrections": [
+    {
+      "sourceId": "cn-forest-restoration-2021",
+      "publishedAt": null,
+      "authoredAt": "2021-11-23",
+      "effectiveAt": "2022-01-01",
+      "urlDate": "2021-12-06",
+      "evidencePeriod": "2021年成文、2022年生效的历史试行文件；当前效力未核实",
+      "locator": "重新获取HTML文本第62、66行；完整提取文本未见单独页面发布日期，URL仅含2021/gfxwj_1206",
+      "note": "复检发现首轮definitionSources延续了库存URL日期；降为仅URL线索，网页发布日期留空。没有将日期空缺解释为文件未发布。"
+    }
+  ],
+  "canFreeze": false
+}

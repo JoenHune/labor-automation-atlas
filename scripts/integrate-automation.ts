@@ -1,6 +1,7 @@
 import {readFile,writeFile} from 'node:fs/promises'
 import {createHash} from 'node:crypto'
 import {importCnServices} from '../src/research/import-cn-services'
+import {importCnAgriculture} from '../src/research/import-cn-agriculture'
 import {importUsAgriculture} from '../src/research/import-us-agriculture'
 import {importUsCore} from '../src/research/import-us-core'
 import {importUsServices} from '../src/research/import-us-services'
@@ -16,7 +17,13 @@ const us=await read(usFile),usAudit=await read(usAuditFile),review=await read(re
 const revisions=await read('research/automation/us-agriculture-revisions.json'),recheck=await read('research/reviews/us-agriculture-automation-followup-recheck.json')
 if(revisions.data.reviewInputSha256!==review.data.inputSha256||revisions.data.reviewFileSha256!==review.sha256||revisions.data.followupRevisions.at(-1)?.afterSha256!==us.sha256||recheck.data.inputSha256!==us.sha256||recheck.data.isFrozen!==false)throw new Error('美国农业修订与复检输入不匹配')
 const technical=await read('research/reviews/us-agriculture-technical-field-decisions.json')
+const technicalRecheck=await read('research/reviews/us-agriculture-technical-field-recheck.json')
+if(technicalRecheck.data.inputSha256!==us.sha256||technicalRecheck.data.decisionSha256!==technical.sha256||technicalRecheck.data.canFreeze!==false)throw new Error('美国农业技术字段复检输入不匹配')
 importUsAgriculture(data,us.data,usAudit.data,review.data,{file:usFile,sha256:us.sha256,auditFile:usAuditFile,auditSha256:usAudit.sha256,reviewFile,reviewSha256:review.sha256},technical.data)
+const cnAgFile='research/automation/cn-agriculture.json',cnAgAuditFile='research/automation/cn-agriculture-search-audit.json',cnAgReviewFile='research/reviews/cn-agriculture-automation-decisions.json'
+const cnAg=await read(cnAgFile),cnAgAudit=await read(cnAgAuditFile),cnAgReview=await read(cnAgReviewFile),cnAgRevision=await read('research/automation/cn-agriculture-revisions.json'),cnAgRecheck=await read('research/reviews/cn-agriculture-automation-recheck.json')
+if(cnAgRevision.data.afterSha256!==cnAg.sha256||cnAgRevision.data.reviewInputSha256!==cnAgReview.data.input.sha256||cnAgRevision.data.reviewSha256!==cnAgReview.sha256||cnAgRecheck.data.revisionSha256!==cnAgRevision.sha256)throw new Error('中国农业修订与复检输入不匹配')
+importCnAgriculture(data,cnAg.data,cnAgAudit.data,cnAgReview.data,cnAgRecheck.data,{file:cnAgFile,sha256:cnAg.sha256,auditFile:cnAgAuditFile,auditSha256:cnAgAudit.sha256,reviewFile:cnAgReviewFile,reviewSha256:cnAgReview.sha256})
 const servicesFile='research/automation/us-services.json',servicesAuditFile='research/automation/us-services-search-audit.json',servicesReviewFile='research/reviews/us-services-automation-decisions.json'
 const services=await read(servicesFile),servicesAudit=await read(servicesAuditFile),servicesReview=await read(servicesReviewFile)
 const servicesRevision=await read('research/automation/us-services-revisions.json'),servicesRecheck=await read('research/reviews/us-services-automation-recheck.json')
@@ -34,3 +41,4 @@ await writeFile(new URL('data/research.json',root),JSON.stringify(result,null,2)
 console.log('Integrated',raw.data.tasks.length,'CN service task research records. Definition revisions remain open; none are frozen.')
 console.log('Integrated',us.data.tasks.length,'US agriculture task research records. Partial dates, evidence limits and unresolved task definitions retained.')
 console.log('Integrated',services.data.tasks.length,'US service task research records. Original source claims, country scope and unknown cash-flow inputs retained.')
+console.log('Integrated',cnAg.data.tasks.length,'CN agriculture task research records. Split proposals and followups remain open; no task frozen.')

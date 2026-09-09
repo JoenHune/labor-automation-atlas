@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-09.preview-4",
+  "version": "2026-09-09.preview-5",
   "checkedAt": "2026-09-09",
   "publishedAt": null,
   "freezeStatus": "working",
@@ -6892,6 +6892,905 @@
       "evidencePeriod": "官网回顾2025-07-03发布生效；PDF版本日另列",
       "evidenceLevel": "official-program-news",
       "readStatus": "official-indexed-source-section-read"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-wheat-nx",
+      "title": "2026年“春耕”小麦机械化生产技术指引_宁夏回族自治区农业农村厅",
+      "publisher": "宁夏回族自治区农业农村厅（农业机械化技术推广站）",
+      "url": "https://nynct.nx.gov.cn/xwzx/zwdt/202602/t20260214_5174897.html",
+      "published": "2026-02-14",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "宁夏春耕小麦；安徽适用性待核查",
+        "未确认中国部署；功能、指导或设计不能证明实际采用",
+        "2026宁夏春耕技术指导；不等于安徽现场已采用。人工准备、机手地头与质量检查仍须区分。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "宁夏春耕小麦；安徽适用性待核查",
+      "evidenceLevel": "official-technical-guidance",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-wheat-harvest",
+      "title": "小麦机械化收获减损技术指导意见",
+      "publisher": "农业农村部农业机械化总站、农业农村部农作物生产全程机械化专家指导组",
+      "url": "https://njhs.moa.gov.cn/qcjxhtjxd/202206/t20220601_6401271.htm",
+      "published": "2022-06-01",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "全喂入小麦联合收获技术指导，不是部署调查",
+        "未确认中国部署；功能、指导或设计不能证明实际采用",
+        "公开2022-06-01，正文注明2022年5月修订；机收减损要求不构成具体机型全自动保证。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2022-05",
+          "note": "按原文精度记录，成文、修订、生效和网页发布日期分开。"
+        }
+      ],
+      "evidencePeriod": "全喂入小麦联合收获技术指导，不是部署调查",
+      "evidenceLevel": "official-technical-guidance",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-wheat-quality",
+      "title": "农业农村部农业机械化管理司关于通报用于收割小麦的谷物联合收割机质量调查情况的函",
+      "publisher": "农业农村部农业机械化管理司",
+      "url": "https://njhs.moa.gov.cn/tzggjzcjd/202303/t20230314_6422966.htm",
+      "published": "2023-03-14",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "official-investigation",
+      "limitations": [
+        "2022年对2019—2020年销售且已使用至少一季机具的调查，包括安徽；不能等同2026年状况",
+        "原文明确中国场景；仍按来源层级限定",
+        "2022年在用机调查，2019/2020购机且至少经历一季，覆盖多地区；成文2023-03-13、公开2023-03-14。故障与服务问题不等于退出。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [
+        {
+          "kind": "authored",
+          "value": "2023-03-13",
+          "note": "按原文精度记录，成文、修订、生效和网页发布日期分开。"
+        }
+      ],
+      "evidencePeriod": "2022年在用机调查（2019/2020购机并至少作业一季）",
+      "evidenceLevel": "official-in-use-quality-survey",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-wheat-repair",
+      "title": "2023年“三夏”“双抢”农业生产农机检修技术指引",
+      "publisher": "农业农村部农业机械化总站",
+      "url": "https://njhs.moa.gov.cn/qcjxhtjxd/202306/t20230601_6429150.htm",
+      "published": "2023-05-30",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "三夏双抢机具检修指导；网页发布日期早于URL日期",
+        "未确认中国部署；功能、指导或设计不能证明实际采用",
+        "检修指引支持准备、联接和维修要求，不证明无人执行。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "三夏双抢机具检修指导；网页发布日期早于URL日期",
+      "evidenceLevel": "official-technical-guidance",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-wheat-demo",
+      "title": "“十四五”国家重点研发计划项目“小麦生产全程无人化作业技术装备创制与应用”2026年现场会在宜阳基地成功召开-示范服务-北京市农林科学院",
+      "publisher": "北京市农林科学院智能装备技术研究中心",
+      "url": "https://www.baafs.net.cn/kjfw/fwdt/8eb462f24a6348aa9ca83b2e4d683853.htm",
+      "published": "2026-06-15",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "2026-06-13河南宜阳现场演示，不是安徽长期运行",
+        "原文明确中国场景；仍按来源层级限定",
+        "2026-06-13宁夏示范、6月15日报道，多环节协同演示不证明跨季持续商业运行。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "2026-06-13河南宜阳现场演示，不是安徽长期运行",
+      "evidenceLevel": "developer-field-demonstration",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-wheat-attach",
+      "title": "博创inside™ 2.0 智能拖拉机—-博创联动",
+      "publisher": "博创联动",
+      "url": "https://www.uml-tech.com/zntlj",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "智能拖拉机产品功能；未确认目标地块实际采用",
+        "未确认中国部署；功能、指导或设计不能证明实际采用",
+        "快挂/耕深/提醒为厂商功能；不包括动力轴与全部管线连接，也不把提醒当实际保养。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "智能拖拉机产品功能；未确认目标地块实际采用",
+      "evidenceLevel": "manufacturer-product-description",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-wheat-record",
+      "title": "关于印发《2026年通州区智能农机装备作业补贴工作实施方案》的通知",
+      "publisher": "北京市通州区农业农村局",
+      "url": "https://www.bjtzh.gov.cn/bjtz/zwgk/zcwj/bmwj/2026072416355363904/index.shtml",
+      "published": "2026-07-24",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "通州2026年补贴核验流程；不是安徽部署证据",
+        "未确认中国部署；功能、指导或设计不能证明实际采用",
+        "北京通州、成文2026-07-20、2026-07-24公开与实施；按粮食/蔬菜/设施分别有终端、现场、影像核验，不能直接移为安徽。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [
+        {
+          "kind": "authored",
+          "value": "2026-07-20",
+          "note": "按原文精度记录，成文、修订、生效和网页发布日期分开。"
+        },
+        {
+          "kind": "effective",
+          "value": "2026-07-24",
+          "note": "按原文精度记录，成文、修订、生效和网页发布日期分开。"
+        }
+      ],
+      "evidencePeriod": "通州2026年补贴核验流程；不是安徽部署证据",
+      "evidenceLevel": "official-policy-procedure",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-seed-line",
+      "title": "LB-BZ100W 型气吸式播种机_穴盘播种机_山东联播智能制造研究院有限公司",
+      "publisher": "山东联播智能制造研究院有限公司",
+      "url": "https://www.lbzzc.com/product-detail/B8kxe6Pb",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "LB-BZ100W产品页，不是使用方生产记录",
+        "未确认中国部署；功能、指导或设计不能证明实际采用",
+        "BZ100W需人工装土，不能按整线产品可选配置理解。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "LB-BZ100W产品页，不是使用方生产记录",
+      "evidenceLevel": "manufacturer-product-description",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-seed-line-full",
+      "title": "蔬菜育苗自动化方案_智慧农业_山东联播智能制造研究院有限公司",
+      "publisher": "山东联播智能制造研究院有限公司",
+      "url": "https://lbzzc.com/article-detail/NjDvM3jb",
+      "published": "2022-09-02",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "穴盘播种线功能及人工岗位说明，不能估算单任务工时",
+        "未确认中国部署；功能、指导或设计不能证明实际采用",
+        "原文L29为2022-09-02，须补发布日期；人工供盘供料、检验与转运不被可选自动配置消除。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "穴盘播种线功能及人工岗位说明，不能估算单任务工时",
+      "evidenceLevel": "manufacturer-solution-description",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-seed-leak",
+      "title": "蔬菜穴盘育苗播种漏播检测及智能补种装置设计与试验",
+      "publisher": "农业工程学报（研究作者）",
+      "url": "https://www.aeeisp.com/nygcxb/cn/article/Y2024/I6/168",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "paper",
+      "limitations": [
+        "2024年第40卷第6期；中双11号菜心种子的装置试验；日未核实",
+        "原文明确中国场景；仍按来源层级限定",
+        "2024菜心漏播/补种试验，不能证明所有种子、苗盘和现场速度；不采用原数量作任务投入。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "2024年第40卷第6期；中双11号菜心种子的装置试验；日未核实",
+      "evidenceLevel": "research-experiment",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-veg-winter",
+      "title": "冬季蔬菜稳产保供机械化生产技术指导意见",
+      "publisher": "农业农村部农作物生产全程机械化专家指导组蔬菜组、农业农村部农机化总站（重庆市农业农村委转载）",
+      "url": "https://nyncw.cq.gov.cn/wsdw/cqsjxh/kjtg/202312/t20231205_12654991_wap.html",
+      "published": "2021-11-24",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "较旧的冬季蔬菜指导；正文日期2021年，不能按转载URL当2023年",
+        "未确认中国部署；功能、指导或设计不能证明实际采用",
+        "重庆2021-11-24转载，原农业农村部指导2021-11-23；2023路径不能当资料期。修剪器具未明确全部电动。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "较旧的冬季蔬菜指导；正文日期2021年，不能按转载URL当2023年",
+      "evidenceLevel": "official-technical-guidance",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-veg-fruit-manual",
+      "title": "番茄采摘机器人说明 | AUBO 开发者",
+      "publisher": "遨博 AUBO 开发者文档",
+      "url": "https://developer.aubo-robotics.cn/compound_robot/Farm200/tomato_picking_manual.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "Farm200串番茄采摘程序与人工配置；无用户运行记录",
+        "未确认中国部署；功能、指导或设计不能证明实际采用",
+        "串番茄采摘程序与厂商整合说明，人工配置和换空箱接口仍在；不是中国现场独立持续运行。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "Farm200串番茄采摘程序与人工配置；无用户运行记录",
+      "evidenceLevel": "manufacturer-operating-manual",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-leaf-harvest",
+      "title": "4GCD-600型叶菜收获机",
+      "publisher": "农业农村部南京农业机械化研究所",
+      "url": "https://nnj.caas.cn/cgzh/cgzh1/242616.htm",
+      "published": "2020-09-11",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "4GCD-600电驱自走叶菜机；非全自主作业证据",
+        "未确认中国部署；功能、指导或设计不能证明实际采用",
+        "电驱切割输送由人员控制，不是叶菜全流程无人交付。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "4GCD-600电驱自走叶菜机；非全自主作业证据",
+      "evidenceLevel": "developer-product-description",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-apple-platform",
+      "title": "自走式果园多工位收获装备设计与试验",
+      "publisher": "智慧农业（研究作者）",
+      "url": "https://www.smartag.net.cn/CN/10.12133/j.smartag.SA202206007",
+      "published": "2022-09-30",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "paper",
+      "limitations": [
+        "矮化宽行密植果园田间试验；人采果、机器输送装箱",
+        "原文明确中国场景；仍按来源层级限定",
+        "2022-09-30采摘平台试验；人采摘、机器输送装箱及观察损伤，不是自动采果或退出。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "矮化宽行密植果园田间试验；人采果、机器输送装箱",
+      "evidenceLevel": "research-field-trial",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-apple-film",
+      "title": "CN212116453U - 果园专用反光膜覆盖机",
+      "publisher": "CN212116453U 专利申请人（Google Patents呈现原始专利）",
+      "url": "https://patents.google.com/patent/CN212116453U/zh",
+      "published": "2020-12-11",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "果园反光膜覆盖装置；专利法律状态不是商业采用或退出证据",
+        "未确认中国部署；功能、指导或设计不能证明实际采用",
+        "2020-12-11公开专利设计有人工扶持和换膜；覆土农膜与果园反光膜回收不能等同。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "果园反光膜覆盖装置；专利法律状态不是商业采用或退出证据",
+      "evidenceLevel": "patent-disclosure",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-mush-user",
+      "title": "先进生产设备_十堰市昌欣香菇产业发展有限公司",
+      "publisher": "十堰市昌欣香菇产业发展有限公司",
+      "url": "https://www.cxxg.cn/shebei/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "operator",
+      "limitations": [
+        "湖北香菇生产企业自报设备；无独立运行核查，非山东现场证据",
+        "原文明确中国场景；仍按来源层级限定",
+        "湖北香菇企业生产自报，不等于山东目标场景；灭菌、拌料填袋、打孔接种为局部执行。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "湖北香菇生产企业自报设备；无独立运行核查，非山东现场证据",
+      "evidenceLevel": "operator-self-reported-operation",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-mush-harvest",
+      "title": "机电学院苑进教授团队设计了新型香菇菌棒选择性采收机",
+      "publisher": "山东农业大学机械与电子工程学院",
+      "url": "https://www.sdau.edu.cn/2024/0813/c13309a240632/page.htm",
+      "published": "2024-08-17",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "paper",
+      "limitations": [
+        "香菇菌棒选择性采收试验；网页日期为8月17日，不取URL的8月13日",
+        "原文明确中国场景；仍按来源层级限定",
+        "2024-08-17新闻，不能用URL日期8月13；成熟菌棒评估/采收试验不支撑污染检测。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "香菇菌棒选择性采收试验；网页日期为8月17日，不取URL的8月13日",
+      "evidenceLevel": "research-factory-trial",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-forest-accept",
+      "title": "西北院生态工程验收智慧管理系统应用实践_国家林业和草原局政府网",
+      "publisher": "国家林业和草原局西北院",
+      "url": "https://www.forestry.gov.cn/c/www/kjkjxw/675065.jhtml",
+      "published": "2026-06-08",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "河北阳原生态工程验收系统应用；云南现场适配未证实",
+        "原文明确中国场景；仍按来源层级限定",
+        "2026年5月河北阳原验收应用、6月8日发布；辅助调查档案不等于自动判定云南恢复合格。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "河北阳原生态工程验收系统应用；云南现场适配未证实",
+      "evidenceLevel": "developer-reported-field-application",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-forest-research",
+      "title": "南方丘陵山地多功能林业作业机方案设计_ 农、林、牧、渔业_ 福建省科学技术厅",
+      "publisher": "福建省科学技术厅成果转化处、省对外科技交流中心",
+      "url": "https://kjt.fujian.gov.cn/ztzl/kjcg/nlmyy/202004/t20200401_5226908.htm",
+      "published": "2020-04-01",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "paper",
+      "limitations": [
+        "福建省林科院与徐工2015—2017课题方案设计；无云南运行证据",
+        "未确认中国部署；功能、指导或设计不能证明实际采用",
+        "2015–2017福建课题、2020-04-01论文；清杂和钻穴设计计算，地形利用率问题不证明云南已经出现同样经济障碍。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "福建省林科院与徐工2015—2017课题方案设计；无云南运行证据",
+      "evidenceLevel": "research-design",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-pig-case",
+      "title": "典型案例：生猪智慧养殖模式",
+      "publisher": "全国畜牧总站（来源：农业农村部市场与信息化司）",
+      "url": "https://www.nahs.org.cn/dt/xwlb/202505/t20250528_457594.htm",
+      "published": "2025-05-28",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "牧原生猪智慧养殖案例含2022年企业数据；不证明2026持续状态",
+        "原文明确中国场景；仍按来源层级限定",
+        "2025部门案例含2022企业数字；供料/环境/巡检和免疫记录设备不等于自动保定、诊断或转隔离。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "牧原生猪智慧养殖案例含2022年企业数据；不证明2026持续状态",
+      "evidenceLevel": "official-case-report",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-pig-wash",
+      "title": "Pigsty cleaning and disinfection | Kärcher",
+      "publisher": "Kärcher 卡赫",
+      "url": "https://www.karcher.cn/cn/professional/industry-solutions/741905/742111.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "全球猪舍清洗指导；中文网址不能证明中国采用",
+        "未确认中国部署；功能、指导或设计不能证明实际采用",
+        "厂商清洗指导；大块污物、拆装和操作保留人工，清洗、干燥和消毒必须分别判断。",
+        "国家标签表示中国任务的研究关联；国际供应商的功能说明不代表中国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "全球猪舍清洗指导；中文网址不能证明中国采用",
+      "evidenceLevel": "manufacturer-application-guide",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-dairy-lely",
+      "title": "自动挤奶机器人 | Lely Astronaut",
+      "publisher": "Lely",
+      "url": "https://www.lely.com/cn/solutions/milking/astronaut/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "Astronaut A5 Next产品功能；不把海外客户案例当中国采用",
+        "未确认中国部署；功能、指导或设计不能证明实际采用",
+        "海外厂商产品说明，摄像激光套杯及刷洗不能外推全部入厅资格；启动仍有牧场准备与人员支持。",
+        "国家标签表示中国任务的研究关联；国际供应商的功能说明不代表中国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "Astronaut A5 Next产品功能；不把海外客户案例当中国采用",
+      "evidenceLevel": "manufacturer-product-description",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-dairy-apollo",
+      "title": "Apollo 挤奶系统 | 自动乳头药浴和反冲洗挤奶单元",
+      "publisher": "GEA",
+      "url": "https://www.gea.com/zh/products/milking-farming-barn/milking-solutions/components/cluster-positioning/apollo-milksystem/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "Apollo奶杯组药浴和反冲洗；不等于全牧场清洗",
+        "未确认中国部署；功能、指导或设计不能证明实际采用",
+        "杯内药浴在脱杯前、反冲在脱杯后，适配奶衬和药剂条件；先关真空时序未在产品段落证实。",
+        "国家标签表示中国任务的研究关联；国际供应商的功能说明不代表中国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "Apollo奶杯组药浴和反冲洗；不等于全牧场清洗",
+      "evidenceLevel": "manufacturer-product-description",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-dairy-liner",
+      "title": "GEA 奶衬概述",
+      "publisher": "GEA",
+      "url": "https://www.gea.com/zh/products/milking-farming-barn/dairyservice-dairy-farm-service/milking-liner-overview/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "奶衬适配和人工维护说明；不合并不同机型功能",
+        "未确认中国部署；功能、指导或设计不能证明实际采用",
+        "奶衬适配、连接和磨损更换指导，不是自动检漏或自换奶衬。",
+        "国家标签表示中国任务的研究关联；国际供应商的功能说明不代表中国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "奶衬适配和人工维护说明；不合并不同机型功能",
+      "evidenceLevel": "manufacturer-product-description",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-dairy-dpq",
+      "title": "DairyProQ 自动转盘式挤奶厅",
+      "publisher": "GEA",
+      "url": "https://www.gea.com/zh/products/milking-farming-barn/milking-solutions/automatic-milking/dairyproq/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "产品页明确自报中国安装，用户未具名、日期和持续期不明",
+        "原文明确中国场景；仍按来源层级限定",
+        "GEA称中国安装2×80系统，无具名客户日期或持续运行独立记录；数字管理不等于已明确真空与奶流通道。",
+        "国家标签表示中国任务的研究关联；国际供应商的功能说明不代表中国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "产品页明确自报中国安装，用户未具名、日期和持续期不明",
+      "evidenceLevel": "manufacturer-self-reported-installation",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-fish-liaoning",
+      "title": "辽宁省淡水院开启“互联网+”智能化池塘养殖之路",
+      "publisher": "辽宁省海洋与渔业厅（农业农村部渔业渔政管理局转载）",
+      "url": "https://yyj.moa.gov.cn/zhxx/201904/t20190419_6205625.htm",
+      "published": "2017-08-10",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "paper",
+      "limitations": [
+        "沈阳淡水养殖试验基地安装调试；2017正文时间不取2019URL",
+        "原文明确中国场景；仍按来源层级限定",
+        "2017试验基地信息被放在2019路径，按2017标注；监测、阈值增氧、设定投饵与报警，不推断水泵闭环或设备维护。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "沈阳淡水养殖试验基地安装调试；2017正文时间不取2019URL",
+      "evidenceLevel": "research-base-commissioning-report",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-fish-feed",
+      "title": "池塘养殖全自动精准投饲系统设计与应用",
+      "publisher": "农业工程学报（研究作者）",
+      "url": "https://www.aeeisp.com/nygcxb/cn/article/id/20210933",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "paper",
+      "limitations": [
+        "2021年第9期，未具名养殖企业示范基地；品种及长期状态未披露",
+        "原文明确中国场景；仍按来源层级限定",
+        "2021未具名企业示范且未披露鱼种；中英文70%分别写劳力成本/强度，矛盾数值不采用。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "2021年第9期，未具名养殖企业示范基地；品种及长期状态未披露",
+      "evidenceLevel": "research-production-demonstration",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-fish-net",
+      "title": "基于双螺旋驱动的遥控式池塘拉网装备研制与应用",
+      "publisher": "南方水产科学（研究作者）",
+      "url": "https://www.schinafish.cn/article/doi/10.12131/20260005",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "paper",
+      "limitations": [
+        "2026年卷期，遥控双螺旋牵网试验；正式发布日期未核实",
+        "原文明确中国场景；仍按来源层级限定",
+        "2026遥控双螺旋拉网试验，人工视频操控；拉网不是全起捕或上市交付。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "2026年卷期，遥控双螺旋牵网试验；正式发布日期未核实",
+      "evidenceLevel": "research-pond-trial",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-fish-demo",
+      "title": "智慧渔业模式下绿色健康养殖应用示范场景,全方位可视可控管理，提高生产管理效率，降低运行成本!-中国水产科学研究院渔业机械仪器研究所网站",
+      "publisher": "中国水产科学研究院渔业机械仪器研究所（来源：数渔）",
+      "url": "https://www.fmiri.ac.cn/info/1016/22857.htm",
+      "published": "2023-03-09",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "常州金坛技术基地，正文指向智慧养蟹；不作为淡水鱼证据",
+        "原文明确中国场景；仍按来源层级限定",
+        "2023金坛养蟹尾水循环与水草视频示范，不能替代虾类两级外源水处理，也不证明健康自动诊断。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "常州金坛技术基地，正文指向智慧养蟹；不作为淡水鱼证据",
+      "evidenceLevel": "supplier-reported-demonstration",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-shrimp-demo",
+      "title": "苏州市顺利举办虾蟹养殖机械化智能化现场会",
+      "publisher": "苏州市农机推广站（苏州市农业农村局）",
+      "url": "https://nyncj.suzhou.gov.cn/nlj/ywdt/202509/5c9aaab335194154b23e915658d3871e.shtml",
+      "published": "2025-09-18",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "虾蟹现场会；演示与后续推广目标分开",
+        "原文明确中国场景；仍按来源层级限定",
+        "2025-09-18常熟现场演示无人机、船与水草收割，原标题需补，长期应用和腐败水草处置仍未知。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "虾蟹现场会；演示与后续推广目标分开",
+      "evidenceLevel": "official-field-demonstration",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-shrimp-feed",
+      "title": "河蟹养殖智能化投饵装备适用性能试验研究",
+      "publisher": "中国农机化学报（研究作者）",
+      "url": "https://www.aeeisp.com/zgnjhxb/article/doi/10.13733/j.jcam.issn.2095-5553.2022.12.009?viewType=citedby-info",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "paper",
+      "limitations": [
+        "2022年第43卷第12期，河蟹投饵无人机与船比较，不外推对虾",
+        "原文明确中国场景；仍按来源层级限定",
+        "2022河蟹机型比较；未读效率比定义和分母，删除“船效率未优于人工”的二次推断，保留不同机型/转塘和航线约束。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "2022年第43卷第12期，河蟹投饵无人机与船比较，不外推对虾",
+      "evidenceLevel": "research-comparative-trial",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-ag-auto-veg-fail",
+      "title": "“新农人”埋头七年研发60多款农业机器人 一路坚持终有收获_新闻频道_央视网(cctv.com)",
+      "publisher": "央视网",
+      "url": "https://news.cctv.com/2023/03/26/ARTIQtUZ4rFn1H9SKMhShCON230326.shtml",
+      "published": "2023-03-26",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "上海试验田插秧机器人故障与创业者自述；稻田不是本清单叶菜/果菜场景",
+        "原文明确中国场景；仍按来源层级限定",
+        "稻田插秧原型受积泥故障的报道排除，不作为蔬菜、小麦任务失败或企业退出证据。",
+        "国家标签表示中国任务的研究关联；原文地区、物种及设备条件不能自动外推至目标任务。"
+      ],
+      "dates": [],
+      "evidencePeriod": "上海试验田插秧机器人故障与创业者自述；稻田不是本清单叶菜/果菜场景",
+      "evidenceLevel": "original-field-report",
+      "readStatus": "independently-read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-occ-2022-draft",
+      "title": "中华人民共和国职业分类大典（2022年版）（社会公示稿）",
+      "publisher": "国家职业分类大典修订工作委员会；北京经济技术开发区总工会托管副本",
+      "url": "https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "occupation",
+      "sha256": "6d21f69331883b200af8d78e73c48564e219dbdf11f8b44409a7794d4027170c",
+      "limitations": [
+        "职业目录只支持任务存在，不支持工时、人工比例或行业统计归属。",
+        "2022 年社会公示稿，非正式现行版",
+        "HTML提取文本从1开始的物理行；PDF使用完整570页文件的物理页，不使用28页样本片段。",
+        "流程与职责仅支撑动作存在或背景，不能据此推算工时或证明当前采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2022 年社会公示稿，非正式现行版",
+      "evidenceLevel": "official-occupation-draft",
+      "readStatus": "original-retrieved-and-relevant-passages-read"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-vegetable-2021",
+      "title": "冬季蔬菜稳产保供机械化生产技术指导意见",
+      "publisher": "农业农村部农业机械化管理司；特色经济作物全程机械化专家指导组蔬菜专业组",
+      "url": "https://njhs.moa.gov.cn/tzggjzcjd/202111/t20211123_6382709.htm",
+      "published": "2021-11-23",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "sha256": "e3e5c8097b9a1184530062ae2ebfc53314483ed876b251e42c1c19efa77e6198",
+      "limitations": [
+        "HTML提取文本从1开始的物理行；PDF使用完整570页文件的物理页，不使用28页样本片段。",
+        "流程与职责仅支撑动作存在或背景，不能据此推算工时或证明当前采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2021-11-23 的历史流程资料",
+      "evidenceLevel": "official-historical-workflow",
+      "readStatus": "original-retrieved-and-relevant-passages-read"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-apple-autumn-2023",
+      "title": "2023年苹果园秋季生产技术指导意见",
+      "publisher": "农业农村部；全国农业技术推广服务中心、国家苹果产业技术体系",
+      "url": "https://jgs.moa.gov.cn/fxpg/202309/t20230928_6437593.htm",
+      "published": "2023-09-28",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "sha256": "41052127c440f7eb3cda8c8f61280aa9c9fe56fdb7e389dd18c8b27fe07ba640",
+      "limitations": [
+        "HTML提取文本从1开始的物理行；PDF使用完整570页文件的物理页，不使用28页样本片段。",
+        "流程与职责仅支撑动作存在或背景，不能据此推算工时或证明当前采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2023-09-28 的历史流程资料",
+      "evidenceLevel": "official-historical-workflow",
+      "readStatus": "original-retrieved-and-relevant-passages-read"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-apple-summer-2022",
+      "title": "苹果园夏季生产技术指导意见",
+      "publisher": "农业农村部种植业管理司",
+      "url": "https://zzys.moa.gov.cn/gzdt/202206/t20220621_6403019.htm",
+      "published": "2022-06-21",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "sha256": "f8b0b4e83a7a59712f4380708b848c113e671f9ec1c072e2b6ccf9e99e7b1095",
+      "limitations": [
+        "HTML提取文本从1开始的物理行；PDF使用完整570页文件的物理页，不使用28页样本片段。",
+        "流程与职责仅支撑动作存在或背景，不能据此推算工时或证明当前采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2022-06-21 的历史流程资料",
+      "evidenceLevel": "official-historical-workflow",
+      "readStatus": "original-retrieved-and-relevant-passages-read"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-mushroom-2026",
+      "title": "2026年全省夏季食用菌生产管理技术指导意见",
+      "publisher": "济南市农业技术推广服务中心转载",
+      "url": "https://jnny.jinan.gov.cn/col/col553/art/2026/art_3fecf5fd25844bb39b0b87379179dc09.html",
+      "published": "2026-06-24",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "sha256": "4744ec5267c911be8f562c331160cbacf8196321919c0b3cc6db7c46970a79e3",
+      "limitations": [
+        "HTML提取文本从1开始的物理行；PDF使用完整570页文件的物理页，不使用28页样本片段。",
+        "流程与职责仅支撑动作存在或背景，不能据此推算工时或证明当前采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-06-24 的历史流程资料",
+      "evidenceLevel": "official-historical-workflow",
+      "readStatus": "original-retrieved-and-relevant-passages-read"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-mushroom-hygiene-2023",
+      "title": "食用菌生产用药安全管控技术性指导意见",
+      "publisher": "农业农村部农产品质量安全监管司",
+      "url": "https://jgs.moa.gov.cn/fxpg/202301/t20230128_6419291.htm",
+      "published": "2023-01-28",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "sha256": "a64222723f62902d485b90b9db1c2ca1d3b41a2ed117fc7f9abd2c96beba59c1",
+      "limitations": [
+        "HTML提取文本从1开始的物理行；PDF使用完整570页文件的物理页，不使用28页样本片段。",
+        "流程与职责仅支撑动作存在或背景，不能据此推算工时或证明当前采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2023-01-28 的历史流程资料",
+      "evidenceLevel": "official-historical-workflow",
+      "readStatus": "original-retrieved-and-relevant-passages-read"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-pig-health-2023",
+      "title": "秋冬季生猪疫病防控技术要点",
+      "publisher": "中国动物疫病预防控制中心（农业农村部屠宰技术中心）",
+      "url": "https://xmsyj.moa.gov.cn/zcjd/202401/t20240109_6445184.htm",
+      "published": "2023-11-08",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "sha256": "89afcaf7b150885b3fb28d9c0837376652305a5f8082e7eb0f5357aa702b8ff7",
+      "limitations": [
+        "HTML提取文本从1开始的物理行；PDF使用完整570页文件的物理页，不使用28页样本片段。",
+        "流程与职责仅支撑动作存在或背景，不能据此推算工时或证明当前采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2023-11-08 的历史流程资料",
+      "evidenceLevel": "official-historical-workflow",
+      "readStatus": "original-retrieved-and-relevant-passages-read"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-milk-station-2009",
+      "title": "生鲜乳收购站标准化管理技术规范（农牧发〔2009〕4号）",
+      "publisher": "农业部；辽宁省农业农村厅转载",
+      "url": "https://nync.ln.gov.cn/nync/index/lnsnyfzfwzx/zcfg/A7B5DED1857C4FCABF7918529CBB917B/index.shtml",
+      "published": "2022-08-10",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "sha256": "ee3f8dba35e3f351d5a7cf54f0804e6a6399312575345f09b48e36fd57f3878c",
+      "limitations": [
+        "HTML提取文本从1开始的物理行；PDF使用完整570页文件的物理页，不使用28页样本片段。",
+        "不把网页转载日期当规范发布，未独立核现行法律效力。",
+        "流程与职责仅支撑动作存在或背景，不能据此推算工时或证明当前采用。"
+      ],
+      "dates": [
+        {
+          "kind": "authored",
+          "value": "2009-03-23",
+          "note": "不把网页转载日期当规范发布，未独立核现行法律效力。"
+        }
+      ],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-agriculture-cn-milk-station-2009",
+          "locator": "重新获取HTML第45、49、53行"
+        }
+      ],
+      "evidencePeriod": "2009规范；2022转载",
+      "evidenceLevel": "official-historical-workflow",
+      "readStatus": "original-retrieved-and-relevant-passages-read"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-aquaculture-summer-2023",
+      "title": "夏季水产养殖技术指引",
+      "publisher": "农业农村部渔业渔政管理局",
+      "url": "https://yyj.moa.gov.cn/scyz/202306/t20230620_6430587.htm",
+      "published": "2023-06-20",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "sha256": "48376c1dd966feae5a7293128ad1087a6f3d55d9c341ce918ee26d4207070465",
+      "limitations": [
+        "HTML提取文本从1开始的物理行；PDF使用完整570页文件的物理页，不使用28页样本片段。",
+        "流程与职责仅支撑动作存在或背景，不能据此推算工时或证明当前采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2023-06-20 的历史流程资料",
+      "evidenceLevel": "official-historical-workflow",
+      "readStatus": "original-retrieved-and-relevant-passages-read"
+    },
+    {
+      "id": "automation-cn-agriculture-cn-forest-restoration-2021",
+      "title": "云南省恢复植被和林业生产条件及树木补种标准的实施意见（试行）",
+      "publisher": "云南省林业和草原局",
+      "url": "https://lcj.yn.gov.cn/html/2021/gfxwj_1206/127.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "sha256": "c84dfe1b91e7c75ea66cd51836f375034329de27b510cbcf67e0266c927feb57",
+      "limitations": [
+        "HTML提取文本从1开始的物理行；PDF使用完整570页文件的物理页，不使用28页样本片段。",
+        "复检发现首轮definitionSources延续了库存URL日期；降为仅URL线索，网页发布日期留空。没有将日期空缺解释为文件未发布。",
+        "流程与职责仅支撑动作存在或背景，不能据此推算工时或证明当前采用。"
+      ],
+      "dates": [
+        {
+          "kind": "authored",
+          "value": "2021-11-23",
+          "note": "复检发现首轮definitionSources延续了库存URL日期；降为仅URL线索，网页发布日期留空。没有将日期空缺解释为文件未发布。"
+        },
+        {
+          "kind": "effective",
+          "value": "2022-01-01",
+          "note": "复检发现首轮definitionSources延续了库存URL日期；降为仅URL线索，网页发布日期留空。没有将日期空缺解释为文件未发布。"
+        },
+        {
+          "kind": "url-only",
+          "value": "2021-12-06",
+          "note": "复检发现首轮definitionSources延续了库存URL日期；降为仅URL线索，网页发布日期留空。没有将日期空缺解释为文件未发布。"
+        }
+      ],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-agriculture-cn-forest-restoration-2021",
+          "locator": "重新获取HTML文本第62、66行；完整提取文本未见单独页面发布日期，URL仅含2021/gfxwj_1206"
+        }
+      ],
+      "evidencePeriod": "2021年成文、2022年生效的历史试行文件；当前效力未核实",
+      "evidenceLevel": "official-historical-workflow",
+      "readStatus": "original-retrieved-and-relevant-passages-read"
     },
     {
       "id": "automation-us-services-uss-e-glory",

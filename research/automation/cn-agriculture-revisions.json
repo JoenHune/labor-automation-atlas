@@ -1,0 +1,73 @@
+{
+  "country": "CN",
+  "industryId": "cn-agriculture",
+  "revisedOn": "2026-09-09",
+  "beforeSha256": "50bbcc891b2380aaf75f37669d77199c831fb2931aa2d7e42e6eeb76215890d9",
+  "afterSha256": "29623933f780c5236243d63e142d40a825b47273ef46dfc721133c85e90cb5d3",
+  "reviewInputSha256": "50bbcc891b2380aaf75f37669d77199c831fb2931aa2d7e42e6eeb76215890d9",
+  "reviewFile": "research/reviews/cn-agriculture-automation-decisions.json",
+  "reviewSha256": "9d811267f37746d255901c9904284f21b78bf812c7861de76aba7084d06ef3ff",
+  "appliedSourceCorrections": [
+    {
+      "sourceId": "CN-AG-AUTO-SEED-LINE-FULL",
+      "field": "publishedAt",
+      "value": "2022-09-02",
+      "locator": "原网页提取L29；2026-09-09重新获取HTML提取第24行"
+    },
+    {
+      "sourceId": "CN-AG-AUTO-SHRIMP-DEMO",
+      "field": "title",
+      "value": "苏州市顺利举办虾蟹养殖机械化智能化现场会",
+      "locator": "2026-09-09重新获取HTML提取第1、14行；发布日期第18行",
+      "requiresFinalValueCheck": false
+    },
+    {
+      "sourceId": "CN-AG-AUTO-WHEAT-HARVEST",
+      "field": "revisedAt",
+      "value": "2022-05",
+      "locator": "原网页L33，修订月与6月1日公开日期分列"
+    },
+    {
+      "sourceId": "CN-AG-AUTO-WHEAT-QUALITY",
+      "field": "evidencePeriod",
+      "value": "2022年在用机调查（2019/2020购机并至少作业一季）",
+      "locator": "原网页调查对象及调查范围；L112成文2023-03-13、L31公开2023-03-14"
+    },
+    {
+      "sourceId": "CN-AG-AUTO-WHEAT-QUALITY",
+      "field": "authoredAt",
+      "value": "2023-03-13",
+      "locator": "原网页L112"
+    },
+    {
+      "sourceId": "CN-AG-AUTO-WHEAT-RECORD",
+      "field": "authoredAt",
+      "value": "2026-07-20",
+      "locator": "原网页L66"
+    },
+    {
+      "sourceId": "CN-AG-AUTO-WHEAT-RECORD",
+      "field": "effectiveAt",
+      "value": "2026-07-24",
+      "locator": "原网页L70，与L65公开日期分列"
+    },
+    {
+      "sourceId": "CN-AG-AUTO-SHRIMP-FEED",
+      "field": "claims.CN-AG-CLAIM-SF-COMPARE.statement",
+      "value": "河蟹试验比较无人机与投饵船；两者均可撒料，船需人工规划航线，无人机转塘不需人工搬运机具。未核实效率比定义，不推断船与人工的效率排序。",
+      "locator": "原网页L86/L89；重新获取HTML摘要第89–91行",
+      "reason": "摘要仅明确无人机相对船和人工的比较，不足以从未核实定义的效率比推断船低于人工。"
+    }
+  ],
+  "taskCount": 164,
+  "originalTaskSnapshotsUnchanged": true,
+  "definitionRecordsApplied": 164,
+  "adjacentMechanismCorrections": 10,
+  "phaseCorrections": [
+    "cn-ag-apple-orchard-013"
+  ],
+  "splitParentCount": 47,
+  "splitProposalsNotCounted": 104,
+  "queryAuditUnchanged": true,
+  "canFreeze": false
+}
