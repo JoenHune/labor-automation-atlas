@@ -15,6 +15,7 @@ import {importCnIndustryFood,cnIndustryFoodFiles} from '../src/research/import-c
 import {importCnIndustryTextiles,cnIndustryTextilesFiles} from '../src/research/import-cn-industry-textiles'
 import {importCnTrade,cnTradeFiles} from '../src/research/import-cn-trade'
 import {importUsConstruction,usConstructionFiles} from '../src/research/import-us-construction'
+import {importCnIndustryWood,cnIndustryWoodFiles} from '../src/research/import-cn-industry-wood'
 import {validateResearch} from '../src/research/validate'
 const root=new URL('../',import.meta.url)
 const read=async(file:string)=>{const text=await readFile(new URL(file,root),'utf8');return {data:JSON.parse(text),sha256:createHash('sha256').update(text).digest('hex')}}
@@ -67,6 +68,8 @@ const tradeTexts=Object.fromEntries(await Promise.all(Object.values(cnTradeFiles
 data=importCnTrade(data,tradeTexts)
 const usConstructionTexts=Object.fromEntries(await Promise.all(Object.values(usConstructionFiles).map(async({file})=>[file,await readFile(new URL(file,root),'utf8')])))
 data=importUsConstruction(data,usConstructionTexts)
+const woodTexts=Object.fromEntries(await Promise.all(Object.values(cnIndustryWoodFiles).map(async({file})=>[file,await readFile(new URL(file,root),'utf8')])))
+data=importCnIndustryWood(data,woodTexts)
 data.sources=preserveRecordOrder(data.sources,recordOrder.sources)
 data.claims=preserveRecordOrder(data.claims,recordOrder.claims)
 data.searches=preserveRecordOrder(data.searches,recordOrder.searches)
@@ -79,3 +82,4 @@ console.log('Integrated',cnAg.data.tasks.length,'CN agriculture task research re
 console.log('Integrated',mining.data.tasks.length,'CN mining task research records. Reviewed display corrections applied; original snapshots preserved, no task frozen.')
 console.log('Integrated',health.data.tasks.length,'US health task research records. Adjacent evidence, source dates, proposed splits and unknown costs retained.')
 console.log('Integrated 53 CN trade and 131 US construction candidates. Reviewed revisions, original snapshots and evidence gaps retained; none frozen.')
+console.log('Integrated 181 CN wood, furniture, paper, print and cultural-product candidates. Final limited recheck linked; definitions, phases and unknown cash inputs retained.')

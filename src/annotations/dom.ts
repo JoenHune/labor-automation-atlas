@@ -1,6 +1,7 @@
 import {fingerprint,normalizeText,relativeRect,intersect,absoluteRect,quoteMatches,sameContentView} from './anchors'
 import {AnchorSchema,type Anchor,type Rect,type Target,type ViewState} from './schema'
-export interface LiveBlock {id:string;element:HTMLElement;rect:Rect;fingerprint:string;text:string;kind:Target['kind'];points:Target['dataPoints'];pointRects:(Target['dataPoints'][number]&{rect:Rect})[];space?:boolean}
+import {ownedTargetId,unambiguousTargets,quoteForSpan,assertTextCoverage} from './text-targets'
+export interface LiveBlock {id:string;element:HTMLElement;rect:Rect;fingerprint:string;text:string;kind:Target['kind'];points:Target['dataPoints'];pointRects:(Target['dataPoints'][number]&{rect:Rect})[];space?:boolean;ownedContent?:boolean;virtual?:boolean}
 export const rectOf=(r:DOMRect|DOMRectReadOnly):Rect=>({x:r.x,y:r.y,width:r.width,height:r.height})
 export function contentRoot(){return document.querySelector<HTMLElement>('.VPContent')??document.querySelector<HTMLElement>('main')!}
 export function pageScope(base:string) {
@@ -27,30 +28,42 @@ export async function ensureContentIds() {
   el.dataset.contentId=id;el.tabIndex=0
  }
 }
-function contentText(el:HTMLElement) {
+const ignoredText='script,style,[data-annotation-ui],[data-zr-dom-id],.echarts-tooltip'
+function contentText(el:HTMLElement,ownedContent=false) {
  // The semantic payload excludes generated tooltips and annotation controls.
  const clone=el.cloneNode(true) as HTMLElement
  clone.querySelectorAll('[data-annotation-ui],[data-zr-dom-id],.echarts-tooltip').forEach(n=>n.remove())
+ if(ownedContent)clone.querySelectorAll('[data-content-id],script,style').forEach(n=>n.remove())
  return normalizeText(clone.textContent??'')
 }
-export async function liveBlocks():Promise<LiveBlock[]> {
+export async function liveBlocks(options:{includeAmbiguous?:boolean}={}):Promise<LiveBlock[]> {
  const root=contentRoot();if(!root)return []
- const candidates=Array.from(root.querySelectorAll<HTMLElement>('[data-content-id]')).filter(el=>!el.closest('[data-annotation-ui]')&&!el.querySelector('[data-content-id]'))
+ const candidates=Array.from(root.querySelectorAll<HTMLElement>('[data-content-id]')).filter(el=>!el.closest('[data-annotation-ui]'))
  const blocks:LiveBlock[]=[]
  for(const el of candidates) {
   const rect=rectOf(el.getBoundingClientRect())
   if(rect.width<=0||rect.height<=0||getComputedStyle(el).visibility==='hidden')continue
-  const text=contentText(el)
-  const points=JSON.parse(el.dataset.annotationPoints??'[]') as Target['dataPoints']
-  const pointRects=JSON.parse(el.dataset.annotationPointRects??'[]') as LiveBlock['pointRects']
+  const ownedContent=Boolean(el.querySelector('[data-content-id]'))
+  const text=contentText(el,ownedContent)
+  const points=ownedContent?[]:JSON.parse(el.dataset.annotationPoints??'[]') as Target['dataPoints']
+  const pointRects=ownedContent?[]:JSON.parse(el.dataset.annotationPointRects??'[]') as LiveBlock['pointRects']
   for(const p of pointRects){p.rect.x+=rect.x;p.rect.y+=rect.y}
-  const image=el.matches('img')?el as HTMLImageElement:el.querySelector('img')
+  const image=ownedContent?null:el.matches('img')?el as HTMLImageElement:el.querySelector('img')
   const semantic=JSON.stringify({text,points,image:image?.getAttribute('src')??null})
-  blocks.push({id:el.dataset.contentId!,element:el,rect,fingerprint:await fingerprint(semantic),text,kind:el.matches('tr')?'table-row':el.querySelector('[role="img"]')||el.dataset.annotationPoints?'chart':image?'image':'block',points,pointRects})
+  // Previously valid leaf IDs and their semantic fingerprint are unchanged.
+  // A non-leaf owner contributes only its own text, excluding numbered subtrees.
+  if(!ownedContent||text)blocks.push({id:ownedContent?await ownedTargetId(el.dataset.contentId!,'text'):el.dataset.contentId!,element:el,rect,fingerprint:await fingerprint(semantic),text,kind:ownedContent?'block':el.matches('tr')?'table-row':el.querySelector('[role="img"]')||el.dataset.annotationPoints?'chart':image?'image':'block',points,pointRects,...(ownedContent?{ownedContent:true,virtual:true}:{})})
+  if(ownedContent)for(const img of el.querySelectorAll<HTMLImageElement>('img')) {
+   if(img.closest('[data-content-id]')!==el||img.closest('[data-annotation-ui]'))continue
+   const imageRect=rectOf(img.getBoundingClientRect());if(imageRect.width<=0||imageRect.height<=0||getComputedStyle(img).visibility==='hidden')continue
+   const src=img.getAttribute('src')??'',imageText=contentText(img)
+   blocks.push({id:await ownedTargetId(el.dataset.contentId!,'image',JSON.stringify({src,semanticId:img.id||null})),element:img,rect:imageRect,fingerprint:await fingerprint(JSON.stringify({text:imageText,points:[],image:src})),text:imageText,kind:'image',points:[],pointRects:[],virtual:true})
+  }
  }
- return blocks
+ return options.includeAmbiguous?blocks:unambiguousTargets(blocks)
 }
 function spaceBlock(blocks:LiveBlock[],selection:Rect):LiveBlock|null {
+ blocks=blocks.filter(b=>!b.virtual)
  const root=contentRoot(),bounds=root?.getBoundingClientRect();if(!bounds)return null
  const cx=selection.x+selection.width/2,cy=selection.y+selection.height/2
  const nearest=[...blocks].sort((a,b)=>Math.abs(a.rect.y+a.rect.height/2-cy)-Math.abs(b.rect.y+b.rect.height/2-cy))[0]
@@ -61,8 +74,8 @@ function spaceBlock(blocks:LiveBlock[],selection:Rect):LiveBlock|null {
  const bottom=after?(after.rect.y+nearest.rect.y+nearest.rect.height)/2:bounds.bottom
  return {...nearest,id:'space:'+nearest.id,kind:'whitespace',space:true,text:'',points:[],rect:{x:bounds.x,y:top,width:bounds.width,height:Math.max(1,bottom-top)}}
 }
-function textMap(element:HTMLElement) {
- const walker=document.createTreeWalker(element,NodeFilter.SHOW_TEXT,{acceptNode:node=>node.parentElement?.closest('script,style,[data-annotation-ui]')?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT})
+function textMap(element:HTMLElement,ownedContent=false) {
+ const walker=document.createTreeWalker(element,NodeFilter.SHOW_TEXT,{acceptNode:node=>node.parentElement?.closest(ignoredText)||(ownedContent&&node.parentElement?.closest('[data-content-id]')!==element)?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT})
  let text='',node:Node|null;const positions:{node:Text;offset:number}[]=[]
  while((node=walker.nextNode())) {
   const value=node.textContent??''
@@ -76,21 +89,37 @@ function textMap(element:HTMLElement) {
  while(text.endsWith(' ')){text=text.slice(0,-1);positions.pop()}
  return {text,positions}
 }
-export function locateQuote(el:HTMLElement,quote:NonNullable<Target['text']>):Rect[]|null {
- const map=textMap(el),matches=quoteMatches(map.text,quote)
+export function locateQuote(el:HTMLElement,quote:NonNullable<Target['text']>,ownedContent=false):Rect[]|null {
+ const map=textMap(el,ownedContent),matches=quoteMatches(map.text,quote)
  if(matches.length!==1)return null
  const start=map.positions[matches[0]],end=map.positions[matches[0]+normalizeText(quote.exact).length-1]
  if(!start||!end)return null
+ if(ownedContent) {
+  // A DOM Range spanning an excluded child would highlight that child as well.
+  // Build ranges per owned text node instead, while retaining the unique quote.
+  const selected=map.positions.slice(matches[0],matches[0]+normalizeText(quote.exact).length),rects:Rect[]=[]
+  for(let i=0;i<selected.length;) {
+   const first=selected[i];let last=first;i++
+   while(i<selected.length&&selected[i].node===first.node)last=selected[i++]
+   const range=document.createRange();range.setStart(first.node,first.offset);range.setEnd(last.node,last.offset+1)
+   rects.push(...Array.from(range.getClientRects()).filter(r=>r.width>0&&r.height>0).map(rectOf))
+  }
+  return rects.length?rects:null
+ }
  const range=document.createRange();range.setStart(start.node,start.offset);range.setEnd(end.node,end.offset+1)
  return Array.from(range.getClientRects()).filter(r=>r.width>0&&r.height>0).map(rectOf)
 }
-function rectangleText(el:HTMLElement,selection:Rect):NonNullable<Target['text']>[] {
- const map=textMap(el),segments:NonNullable<Target['text']>[]=[],range=document.createRange()
+function rectangleText(el:HTMLElement,selection:Rect,ownedContent=false):NonNullable<Target['text']>[] {
+ const map=textMap(el,ownedContent),segments:NonNullable<Target['text']>[]=[],range=document.createRange()
  let start=-1,last=-1
  const finish=()=>{
   if(start<0)return
   const exact=normalizeText(map.text.slice(start,last+1))
-  if(exact)segments.push({exact,prefix:map.text.slice(Math.max(0,start-90),start).trimEnd(),suffix:map.text.slice(last+1,last+91).trimStart()})
+  if(exact) {
+   const quote=quoteForSpan(map.text,start,last+1)
+   if(!quote)throw new Error('选区中的重复文字无法唯一定位，请调整选区后重试；草稿正文会保留。')
+   segments.push(quote)
+  }
   start=-1;last=-1
  }
  for(let i=0;i<map.positions.length;i++) {
@@ -100,32 +129,57 @@ function rectangleText(el:HTMLElement,selection:Rect):NonNullable<Target['text']
  }
  finish();return segments
 }
+function selectedTextNodes(range:Range):Map<Text,{start:number;end:number}> {
+ const selected=new Map<Text,{start:number;end:number}>(),ancestor=range.commonAncestorContainer
+ const nodes:Node[]=[]
+ if(ancestor.nodeType===Node.TEXT_NODE)nodes.push(ancestor)
+ else {const walker=document.createTreeWalker(ancestor,NodeFilter.SHOW_TEXT);let node:Node|null;while((node=walker.nextNode()))nodes.push(node)}
+ for(const node of nodes) {
+  if(node.parentElement?.closest(ignoredText)||!range.intersectsNode(node))continue
+  const start=node===range.startContainer?range.startOffset:0,end=node===range.endContainer?range.endOffset:(node.textContent??'').length
+  if(normalizeText((node.textContent??'').slice(start,end)))selected.set(node as Text,{start,end})
+ }
+ return selected
+}
 export async function createAnchor(selection:Rect,scope:{country:Anchor['country'];page:string},version:string,textSelection:Range|null=null):Promise<Anchor> {
- const blocks=await liveBlocks(),targets:Target[]=[]
+ await ensureContentIds()
+ const allBlocks=await liveBlocks({includeAmbiguous:true}),blocks=unambiguousTargets(allBlocks),targets:Target[]=[]
+ // An ambiguous visible image or text fragment is content, not empty space.
+ // Refuse partial rectangle capture even when other targets can be mapped.
+ if(!textSelection) {
+  const accepted=new Set(blocks)
+  for(const b of allBlocks)if(!accepted.has(b)&&intersect(selection,b.rect)) {
+   if(['image','chart'].includes(b.kind)||rectangleText(b.element,selection,b.ownedContent).length)throw new Error('选区中的图片或文字存在重复编号，无法唯一定位；请调整选区后重试，草稿正文会保留。')
+  }
+ }
+ const selected=textSelection?selectedTextNodes(textSelection):null,owners:Text[][]=[]
  for(const b of blocks) {
   const relative=relativeRect(selection,b.rect);if(!relative)continue
   let quote:Target['text']=null
   if(textSelection) {
    if(!textSelection.intersectsNode(b.element))continue
-   const range=document.createRange();range.selectNodeContents(b.element)
-   if(textSelection.compareBoundaryPoints(Range.START_TO_START,range)>0)range.setStart(textSelection.startContainer,textSelection.startOffset)
-   if(textSelection.compareBoundaryPoints(Range.END_TO_END,range)<0)range.setEnd(textSelection.endContainer,textSelection.endOffset)
-   const exact=normalizeText(range.toString())
-   if(!exact||!b.text.includes(exact))continue
-   const before=document.createRange(),after=document.createRange()
-   before.selectNodeContents(b.element);before.setEnd(range.startContainer,range.startOffset)
-   after.selectNodeContents(b.element);after.setStart(range.endContainer,range.endOffset)
-   quote={exact,prefix:normalizeText(before.toString()).slice(-90),suffix:normalizeText(after.toString()).slice(0,90)}
+   const map=textMap(b.element,b.ownedContent),indices:number[]=[],covered=new Set<Text>()
+   for(const [i,p] of map.positions.entries()) {
+    const part=selected!.get(p.node)
+    if(part&&p.offset>=part.start&&p.offset<part.end){indices.push(i);covered.add(p.node)}
+   }
+   if(!indices.length)continue
+   quote=quoteForSpan(map.text,indices[0],indices[indices.length-1]+1)
+   if(!quote||!b.text.includes(quote.exact))continue
+   owners.push([...covered])
   }
-  const textSegments=!quote&&['block','table-row'].includes(b.kind)?rectangleText(b.element,selection):[]
+  const textSegments=!quote&&['block','table-row'].includes(b.kind)?rectangleText(b.element,selection,b.ownedContent):[]
+  if(b.ownedContent&&!quote&&!textSegments.length)continue
   targets.push({contentId:b.id,kind:quote?'text':b.kind,fingerprint:b.fingerprint,text:quote,textSegments,rect:relative,dataPoints:b.pointRects.filter(p=>intersect(p.rect,selection)).map(({rect,...p})=>p)})
  }
+ // A partially mapped text range is also unsafe; never substitute whitespace.
+ if(selected)assertTextCoverage([...selected.keys()],owners)
  if(!targets.length) {
   const space=spaceBlock(blocks,selection),relative=space&&relativeRect(selection,space.rect)
   if(space&&relative)targets.push({contentId:space.id,kind:'whitespace',fingerprint:space.fingerprint,text:null,rect:relative,dataPoints:[]})
  }
  if(!targets.length)throw new Error('请在网站内容范围内选择区域')
- return AnchorSchema.parse({schema:1,id:crypto.randomUUID(),...scope,researchVersion:version,targets,view:currentView(),selectedText:targets.map(t=>t.text?.exact??t.textSegments?.map(s=>s.exact).join('\n')??'').filter(Boolean).join('\n'),snapshotId:crypto.randomUUID(),capturedAt:new Date().toISOString()})
+ return AnchorSchema.parse({schema:1,id:crypto.randomUUID(),...scope,researchVersion:version,targets,view:currentView(),selectedText:textSelection?normalizeText(textSelection.toString()):targets.map(t=>t.text?.exact??t.textSegments?.map(s=>s.exact).join('\n')??'').filter(Boolean).join('\n'),snapshotId:crypto.randomUUID(),capturedAt:new Date().toISOString()})
 }
 export async function resolveAnchor(anchor:Anchor,scope:{country:string;page:string},blocks?:LiveBlock[]) {
  const view=currentView()
@@ -141,12 +195,12 @@ export async function resolveAnchor(anchor:Anchor,scope:{country:string;page:str
   if(!b||b.fingerprint!==target.fingerprint)return {status:'changed' as const,rects:[] as Rect[]}
   if(target.dataPoints.some(p=>!b!.points.some(x=>x.key===p.key&&x.period===p.period&&x.value===p.value)))return {status:'changed' as const,rects:[] as Rect[]}
   if(target.text) {
-   const ranges=locateQuote(b.element,target.text)
+   const ranges=locateQuote(b.element,target.text,b.ownedContent)
    if(!ranges?.length)return {status:'changed' as const,rects:[] as Rect[]}
    rects.push(...ranges)
   }else if(target.textSegments?.length) {
    for(const segment of target.textSegments) {
-    const ranges=locateQuote(b.element,segment)
+    const ranges=locateQuote(b.element,segment,b.ownedContent)
     if(!ranges?.length)return {status:'changed' as const,rects:[] as Rect[]}
     rects.push(...ranges)
    }

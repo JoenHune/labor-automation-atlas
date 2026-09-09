@@ -1,0 +1,128 @@
+{
+  "checkedAt": "2026-09-09T16:10:52.685Z",
+  "route": "/methodology/annotation-qa",
+  "checks": [
+    {
+      "name": "父标题只属于虚拟父文字目标",
+      "passed": true,
+      "detail": [
+        {
+          "id": "shared-qa-parent:own:text:c5df3984c5d2420f92dcc59a",
+          "text": "父标题：独立选择与恢复"
+        }
+      ]
+    },
+    {
+      "name": "父标题立即恢复",
+      "passed": true
+    },
+    {
+      "name": "既有叶子编号与指纹保持",
+      "passed": true
+    },
+    {
+      "name": "跨父标题与子块完整且不重复",
+      "passed": true,
+      "detail": [
+        {
+          "id": "shared-qa-parent:own:text:c5df3984c5d2420f92dcc59a",
+          "text": "父标题：独立选择与恢复"
+        },
+        {
+          "id": "shared-qa-first",
+          "text": "独立子块 shared-qa-first第一条独立内容，验收后交接。"
+        }
+      ]
+    },
+    {
+      "name": "父标题恢复矩形不包含子块",
+      "passed": true,
+      "detail": [
+        {
+          "x": 17,
+          "y": 347,
+          "width": 211.203125,
+          "height": 24
+        }
+      ]
+    },
+    {
+      "name": "只框子块不会多挂父目标",
+      "passed": true
+    },
+    {
+      "name": "对子块排序后父子锚点保持",
+      "passed": true
+    },
+    {
+      "name": "变窄并放大文字后仍按内容恢复",
+      "passed": true
+    },
+    {
+      "name": "父文字改变时整条批注停止挂载",
+      "passed": true
+    },
+    {
+      "name": "父原文删除后不转挂子块",
+      "passed": true
+    },
+    {
+      "name": "原文恢复后按相同内容匹配",
+      "passed": true
+    },
+    {
+      "name": "父块内具名图片成为独立目标",
+      "passed": true
+    },
+    {
+      "name": "图片框选与恢复不夹带父文字",
+      "passed": true
+    },
+    {
+      "name": "真正空白区域仍能恢复",
+      "passed": true
+    },
+    {
+      "name": "重复文字上下文不足时拒绝保存",
+      "passed": true,
+      "detail": "Error: 所选文字有未能唯一定位的内容，请调整选区后重试；草稿正文会保留。"
+    },
+    {
+      "name": "矩形命中重复文字时同样拒绝",
+      "passed": true,
+      "detail": "Error: 选区中的重复文字无法唯一定位，请调整选区后重试；草稿正文会保留。"
+    },
+    {
+      "name": "重复图片不能降为关联空白",
+      "passed": true,
+      "detail": "Error: 选区中的图片或文字存在重复编号，无法唯一定位；请调整选区后重试，草稿正文会保留。"
+    },
+    {
+      "name": "部分可定位区域也不能掩盖歧义内容",
+      "passed": true,
+      "detail": "Error: 选区中的图片或文字存在重复编号，无法唯一定位；请调整选区后重试，草稿正文会保留。"
+    }
+  ],
+  "files": {
+    "src/annotations/dom.ts": "4b2460100e4e5b56348f2a5b8956c9562158c335d3d5fc08eb4b7086ed8338e4",
+    "src/annotations/text-targets.ts": "705cb1fc690331c49708ac939c7d30f3355e0376d2783bdb1ebe98b45f7e597a",
+    "tests/annotation-text-targets.test.ts": "bbdeaab7c7aa2af89bcb0ed9b31d2c589b50c615ef8c35eaf1a9acdfb124c5ea",
+    "tests/browser/AnnotationDomHarness.vue": "13b56320c81d798b57c4727422b9ab6a3f6764de6bbdd675aeb4db151ed2d4c1",
+    "docs/.vitepress/theme/style.css": "11c409b18abb9d01923b24a93c17eb7b37d891ee3f89552acf041b44dd01a46b"
+  },
+  "unitTests": {
+    "fullSuite": 461,
+    "finalFocused": 25,
+    "typecheckPassed": true
+  },
+  "actualPageChecks": {
+    "page": "/us/tasks/us-con-drywall-005",
+    "titleTextSelection": true,
+    "snapshotOnlySelectedTitle": true,
+    "draftSaved": true,
+    "phoneWidth": 390,
+    "draftRestoresAfterReflow": true,
+    "draftMenuNotBlockedByStatusAfterFix": true,
+    "githubSubmitted": false
+  }
+}

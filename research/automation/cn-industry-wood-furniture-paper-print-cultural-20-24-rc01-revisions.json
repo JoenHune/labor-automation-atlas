@@ -1,0 +1,97 @@
+{
+  "country": "CN",
+  "repairId": "WOOD-RC01",
+  "author": "root implementing the three explicit independent repair values",
+  "updatedAtUTC": "2026-09-09T15:10:53.624467+00:00",
+  "inputFiles": [
+    {
+      "path": "research/automation/cn-industry-wood-furniture-paper-print-cultural-20-24.json",
+      "sha256": "3075ec558a85efc3eaad029aef8f9c2ffe79163d8324aa622ec25338fee4eaf9"
+    },
+    {
+      "path": "research/automation/cn-industry-wood-furniture-paper-print-cultural-20-24.md",
+      "sha256": "3c1f8314fd67466b2661a301458620409021c5da20714514dfa9f4ac84f3bc08"
+    },
+    {
+      "path": "research/automation/cn-industry-wood-furniture-paper-print-cultural-20-24-search-audit.json",
+      "sha256": "ad502f79926142b52483bd13c8e3aef2bffa52660a4eac0fb18626ce905ef0c0"
+    },
+    {
+      "path": "research/automation/cn-industry-wood-furniture-paper-print-cultural-20-24-validation.json",
+      "sha256": "e3701bdb1d255572ee6c99fea4048e1a5cf33a24a5d4fce85c3755abab807265"
+    },
+    {
+      "path": "research/automation/cn-industry-wood-furniture-paper-print-cultural-20-24-revisions.json",
+      "sha256": "cff7062885612751ef69e57a839d9dbf3a88855c0fdc1a55b9a0affcc549cd01"
+    },
+    {
+      "path": "research/reviews/cn-industry-wood-furniture-paper-print-cultural-20-24-automation-recheck.json",
+      "sha256": "f4055e7580c93a0028c321b24d5b5cda6e03a9714949b5fceea918d9c31a63d6"
+    }
+  ],
+  "beforeSha256": "3075ec558a85efc3eaad029aef8f9c2ffe79163d8324aa622ec25338fee4eaf9",
+  "afterSha256": "6b0a5e972b32798b0e5ef91039af15153a5a04a4dca760e75fa2d08647caee48",
+  "independentRecheckSha256": "f4055e7580c93a0028c321b24d5b5cda6e03a9714949b5fceea918d9c31a63d6",
+  "exactChanges": [
+    {
+      "path": "/tasks/44/barriers/technical/directLimitingEvidence/0/statement",
+      "before": "厂商指出快速换单需处理机构碰撞和订单数据错误；属于设计条件，不是独立事故报告。",
+      "after": "厂商要求快速换单控制处理机构碰撞和订单数据错误。",
+      "taskId": "cn-ind-paper-box-004",
+      "sourceRef": {
+        "sourceId": "CN-WOOD-INVT-SLIT",
+        "locatorId": "conditions",
+        "section": "工艺关键点，行252及264"
+      },
+      "retainedBoundaryPath": "/tasks/44/barriers/technical/directLimitingEvidence/0/reviewedSourceBoundaries/0",
+      "retainedBoundary": {
+        "sourceId": "CN-WOOD-INVT-SLIT",
+        "locatorId": "conditions",
+        "text": "该材料为设计条件说明，不是独立事故报告。",
+        "statementType": "research-judgment-or-evidence-gap"
+      }
+    },
+    {
+      "path": "/tasks/58/barriers/technical/directLimitingEvidence/0/statement",
+      "before": "胶辊材质和配套供漆过滤须按涂装要求选择，未证明任意材质均可。",
+      "after": "胶辊材质、供漆过滤须按涂装要求选择。",
+      "taskId": "cn-ind-wood-furniture-009",
+      "sourceRef": {
+        "sourceId": "CN-WOOD-CARPOLY",
+        "locatorId": "conditions",
+        "section": "注意事项，行250—254及262"
+      },
+      "retainedBoundaryPath": "/tasks/58/barriers/technical/directLimitingEvidence/0/reviewedSourceBoundaries/0",
+      "retainedBoundary": {
+        "sourceId": "CN-WOOD-CARPOLY",
+        "locatorId": "conditions",
+        "text": "不能由所读材料证明任意家具材质均适配。",
+        "statementType": "research-judgment-or-evidence-gap"
+      }
+    },
+    {
+      "path": "/tasks/165/barriers/technical/directLimitingEvidence/0/statement",
+      "before": "供应商指出水性漆抽涂量、干燥和丰满度是研发针对的问题；不是某工厂退出证据。",
+      "after": "供应商将水性漆抽涂量、干燥和丰满度列为研发针对的问题。",
+      "taskId": "cn-ind-pencil-coat-print-003",
+      "sourceRef": {
+        "sourceId": "CN-WOOD-HGS-COAT",
+        "locatorId": "limits",
+        "section": "水性漆问题，行71—82"
+      },
+      "retainedBoundaryPath": "/tasks/165/barriers/technical/directLimitingEvidence/0/reviewedSourceBoundaries/0",
+      "retainedBoundary": {
+        "sourceId": "CN-WOOD-HGS-COAT",
+        "locatorId": "limits",
+        "text": "不是某工厂退出证据，也不代表EIA硝基漆故障。",
+        "statementType": "research-judgment-or-evidence-gap"
+      }
+    }
+  ],
+  "changesExactlyThreePaths": true,
+  "retainedIndependentBoundaries": true,
+  "originalTasksHumanCashQueriesUnchanged": true,
+  "isFrozen": false,
+  "requiresIndependentRecheck": true,
+  "previousValidationStatus": "Previous validation and author revision files retain their original target hashes; this receipt binds the three-field follow-up."
+}

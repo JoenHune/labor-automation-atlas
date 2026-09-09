@@ -1,0 +1,1594 @@
+{
+  "version": "2026-09-10.preview-12",
+  "checkedAt": "2026-09-09T16:09:50.735Z",
+  "previousLogicalSha256": "6b2dbfe210b804861e2f0601c2f0f29e431a1093795f31adebbc4f0441beae8a",
+  "currentLogicalSha256": "0e0faaf36fa69f15dd2ddd10d002439fb3c79da30f7714cf0faf90105faa9ac0",
+  "fullExport": {
+    "bytes": 111515347,
+    "sha256": "6a75cf1e02713be5131751de35782b3e7d1cc99fd336d1daf5395d28a163f202"
+  },
+  "allTaskExportsChecked": 3187,
+  "newTaskEvidenceClosureChecks": 181,
+  "macroAndProductivityUnchanged": true,
+  "oldSourcesClaimsSearchesAndOrderPreserved": true,
+  "originalTitlesPhasesManualAndSnapshotsKept": true,
+  "unrelatedTasksUnchangedExceptInheritedVersion": true,
+  "inheritedVersionTasks": [
+    "us-hlt-specimen-001",
+    "us-hlt-specimen-002",
+    "us-hlt-specimen-003",
+    "us-hlt-specimen-004",
+    "us-hlt-specimen-005",
+    "us-hlt-specimen-006",
+    "us-hlt-specimen-007",
+    "us-hlt-specimen-008",
+    "us-hlt-specimen-009",
+    "us-hlt-specimen-010",
+    "us-hlt-specimen-011",
+    "us-hlt-imaging-001",
+    "us-hlt-imaging-002",
+    "us-hlt-imaging-003",
+    "us-hlt-imaging-004",
+    "us-hlt-imaging-005",
+    "us-hlt-imaging-006",
+    "us-hlt-imaging-007",
+    "us-hlt-imaging-008",
+    "us-hlt-imaging-009",
+    "us-hlt-imaging-010",
+    "us-hlt-imaging-011",
+    "us-hlt-sterile-001",
+    "us-hlt-sterile-002",
+    "us-hlt-sterile-003",
+    "us-hlt-sterile-004",
+    "us-hlt-sterile-005",
+    "us-hlt-sterile-006",
+    "us-hlt-sterile-007",
+    "us-hlt-sterile-008",
+    "us-hlt-sterile-009",
+    "us-hlt-sterile-010",
+    "us-hlt-sterile-011",
+    "us-hlt-sterile-012",
+    "us-hlt-or-001",
+    "us-hlt-or-002",
+    "us-hlt-or-003",
+    "us-hlt-or-004",
+    "us-hlt-or-005",
+    "us-hlt-or-006",
+    "us-hlt-or-007",
+    "us-hlt-or-008",
+    "us-hlt-or-009",
+    "us-hlt-or-010",
+    "us-hlt-ward-001",
+    "us-hlt-ward-002",
+    "us-hlt-ward-003",
+    "us-hlt-ward-004",
+    "us-hlt-ward-005",
+    "us-hlt-ward-006",
+    "us-hlt-ward-007",
+    "us-hlt-ward-008",
+    "us-hlt-ward-009",
+    "us-hlt-ward-010",
+    "us-hlt-ward-011",
+    "us-hlt-rehab-001",
+    "us-hlt-rehab-002",
+    "us-hlt-rehab-003",
+    "us-hlt-rehab-004",
+    "us-hlt-rehab-005",
+    "us-hlt-rehab-006",
+    "us-hlt-rehab-007",
+    "us-hlt-rehab-008",
+    "us-hlt-rehab-009",
+    "us-hlt-rehab-010",
+    "us-hlt-rehab-011",
+    "us-hlt-home-001",
+    "us-hlt-home-002",
+    "us-hlt-home-003",
+    "us-hlt-home-004",
+    "us-hlt-home-005",
+    "us-hlt-home-006",
+    "us-hlt-home-007",
+    "us-hlt-home-008",
+    "us-hlt-home-009",
+    "us-hlt-home-010",
+    "us-hlt-home-011",
+    "us-hlt-child-001",
+    "us-hlt-child-002",
+    "us-hlt-child-003",
+    "us-hlt-child-004",
+    "us-hlt-child-005",
+    "us-hlt-child-006",
+    "us-hlt-child-007",
+    "us-hlt-child-008",
+    "us-hlt-child-009",
+    "us-hlt-child-010",
+    "us-hlt-child-011",
+    "us-hlt-child-012",
+    "us-hlt-social-001",
+    "us-hlt-social-002",
+    "us-hlt-social-003",
+    "us-hlt-social-004",
+    "us-hlt-social-005",
+    "us-hlt-social-006",
+    "us-hlt-social-007",
+    "us-hlt-social-008",
+    "us-hlt-social-009",
+    "us-hlt-social-010",
+    "us-hlt-social-011"
+  ],
+  "stats": {
+    "records": 3187,
+    "candidates": 3185,
+    "scenes": 336,
+    "sources": 1104,
+    "claims": 17246,
+    "searches": 5080,
+    "observations": 363,
+    "firstPass": {
+      "cn": 1280,
+      "us": 1160
+    }
+  },
+  "checks": [
+    {
+      "taskId": "cn-ind-chemical-pulp-001",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-chemical-pulp-002",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-chemical-pulp-003",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-chemical-pulp-004",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-chemical-pulp-005",
+      "country": "cn",
+      "claims": 10,
+      "sources": 2,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-chemical-pulp-006",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-chemical-pulp-007",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-chemical-pulp-008",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-chemical-pulp-009",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-chemical-pulp-010",
+      "country": "cn",
+      "claims": 14,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-chemical-pulp-011",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-chemical-pulp-012",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-chemical-pulp-013",
+      "country": "cn",
+      "claims": 10,
+      "sources": 2,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-recovered-paper-pulp-001",
+      "country": "cn",
+      "claims": 18,
+      "sources": 7,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-recovered-paper-pulp-002",
+      "country": "cn",
+      "claims": 16,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-recovered-paper-pulp-003",
+      "country": "cn",
+      "claims": 20,
+      "sources": 8,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-recovered-paper-pulp-004",
+      "country": "cn",
+      "claims": 16,
+      "sources": 8,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-recovered-paper-pulp-005",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-recovered-paper-pulp-006",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-recovered-paper-pulp-007",
+      "country": "cn",
+      "claims": 10,
+      "sources": 2,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-recovered-paper-pulp-008",
+      "country": "cn",
+      "claims": 10,
+      "sources": 2,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-machine-paper-001",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-machine-paper-002",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-machine-paper-003",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-machine-paper-004",
+      "country": "cn",
+      "claims": 18,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-machine-paper-005",
+      "country": "cn",
+      "claims": 16,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-machine-paper-006",
+      "country": "cn",
+      "claims": 18,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-machine-paper-007",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-machine-paper-008",
+      "country": "cn",
+      "claims": 13,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-machine-paper-009",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-machine-paper-010",
+      "country": "cn",
+      "claims": 10,
+      "sources": 2,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-machine-paper-011",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-machine-paper-012",
+      "country": "cn",
+      "claims": 14,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-paper-recovery-001",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-paper-recovery-002",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-paper-recovery-003",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-paper-recovery-004",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-paper-recovery-005",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-paper-recovery-006",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-paper-recovery-007",
+      "country": "cn",
+      "claims": 16,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-paper-recovery-008",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-paper-box-001",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-paper-box-002",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-paper-box-003",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-paper-box-004",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-paper-box-005",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-paper-box-006",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-paper-box-007",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-paper-box-008",
+      "country": "cn",
+      "claims": 10,
+      "sources": 2,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-paper-box-009",
+      "country": "cn",
+      "claims": 13,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-wood-furniture-001",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-wood-furniture-002",
+      "country": "cn",
+      "claims": 16,
+      "sources": 7,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-wood-furniture-003",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-wood-furniture-004",
+      "country": "cn",
+      "claims": 16,
+      "sources": 7,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-wood-furniture-005",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-wood-furniture-006",
+      "country": "cn",
+      "claims": 16,
+      "sources": 7,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-wood-furniture-007",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-wood-furniture-008",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-wood-furniture-009",
+      "country": "cn",
+      "claims": 21,
+      "sources": 7,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-wood-furniture-010",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-wood-furniture-011",
+      "country": "cn",
+      "claims": 10,
+      "sources": 2,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-wood-furniture-012",
+      "country": "cn",
+      "claims": 10,
+      "sources": 2,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-wood-furniture-013",
+      "country": "cn",
+      "claims": 10,
+      "sources": 2,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-wood-furniture-014",
+      "country": "cn",
+      "claims": 10,
+      "sources": 2,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-wood-furniture-015",
+      "country": "cn",
+      "claims": 12,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-prepress-001",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-prepress-002",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-prepress-003",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-prepress-004",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-prepress-005",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-prepress-006",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-prepress-007",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-prepress-008",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-sheet-offset-001",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-sheet-offset-002",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-sheet-offset-003",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-sheet-offset-004",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-sheet-offset-005",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-sheet-offset-006",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-sheet-offset-007",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-sheet-offset-008",
+      "country": "cn",
+      "claims": 16,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-sheet-offset-009",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-sheet-offset-010",
+      "country": "cn",
+      "claims": 14,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-sheet-offset-011",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-postfinish-001",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-postfinish-002",
+      "country": "cn",
+      "claims": 15,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-postfinish-003",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-postfinish-004",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-postfinish-005",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-postfinish-006",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-postfinish-007",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-postfinish-008",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-postfinish-009",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-postfinish-010",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-postfinish-011",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-print-postfinish-012",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-plywood-veneer-001",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-plywood-veneer-002",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-plywood-veneer-003",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-plywood-veneer-004",
+      "country": "cn",
+      "claims": 14,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-plywood-veneer-005",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-plywood-veneer-006",
+      "country": "cn",
+      "claims": 14,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-plywood-veneer-007",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-plywood-veneer-008",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-plywood-press-finish-001",
+      "country": "cn",
+      "claims": 14,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-plywood-press-finish-002",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-plywood-press-finish-003",
+      "country": "cn",
+      "claims": 14,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-plywood-press-finish-004",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-plywood-press-finish-005",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-plywood-press-finish-006",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-plywood-press-finish-007",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-plywood-press-finish-008",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-fiberboard-form-001",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-fiberboard-form-002",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-fiberboard-form-003",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-fiberboard-form-004",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-fiberboard-form-005",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-fiberboard-form-006",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-fiberboard-form-007",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-fiberboard-form-008",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-fiberboard-form-009",
+      "country": "cn",
+      "claims": 10,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-fiberboard-form-010",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-particleboard-form-001",
+      "country": "cn",
+      "claims": 12,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-particleboard-form-002",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-particleboard-form-003",
+      "country": "cn",
+      "claims": 16,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-particleboard-form-004",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-particleboard-form-005",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-particleboard-form-006",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-particleboard-form-007",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-particleboard-form-008",
+      "country": "cn",
+      "claims": 11,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-mix-form-001",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-mix-form-002",
+      "country": "cn",
+      "claims": 14,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-mix-form-003",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-mix-form-004",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-mix-form-005",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-mix-form-006",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-mix-form-007",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-mix-form-008",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-mix-form-009",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-dry-oil-001",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-dry-oil-002",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-dry-oil-003",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-dry-oil-004",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-dry-oil-005",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-dry-oil-006",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-dry-oil-007",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-dry-oil-008",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-dry-oil-009",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-cut-pack-001",
+      "country": "cn",
+      "claims": 14,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-cut-pack-002",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-cut-pack-003",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-cut-pack-004",
+      "country": "cn",
+      "claims": 16,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-core-cut-pack-005",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-wood-glue-001",
+      "country": "cn",
+      "claims": 14,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-wood-glue-002",
+      "country": "cn",
+      "claims": 18,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-wood-glue-003",
+      "country": "cn",
+      "claims": 17,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-wood-glue-004",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-wood-glue-005",
+      "country": "cn",
+      "claims": 17,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-wood-glue-006",
+      "country": "cn",
+      "claims": 17,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-wood-glue-007",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-wood-glue-008",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-wood-glue-009",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-wood-glue-010",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-coat-print-001",
+      "country": "cn",
+      "claims": 16,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-coat-print-002",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-coat-print-003",
+      "country": "cn",
+      "claims": 17,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-coat-print-004",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-coat-print-005",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-coat-print-006",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-coat-print-007",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-coat-print-008",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-coat-print-009",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-wood-finish-001",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-wood-finish-002",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-wood-finish-003",
+      "country": "cn",
+      "claims": 15,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-wood-finish-004",
+      "country": "cn",
+      "claims": 14,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-wood-finish-005",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-glue-clean-001",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-glue-clean-002",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-glue-clean-003",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-ind-pencil-glue-clean-004",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    }
+  ],
+  "repeatedFullGeneration": {
+    "identical": true,
+    "before": {
+      "data/research.json": "8a55fc37db50e91da6c985cbe4dd1754e17c7a17e48925edf7154331906d59ac",
+      "data/site.json": "985b2840f2ca83e1ba6ec72170a12bc5033dd9607d7aff2c39f09e7ba537993e",
+      "docs/public/exports/research.json": "6a75cf1e02713be5131751de35782b3e7d1cc99fd336d1daf5395d28a163f202"
+    },
+    "after": {
+      "data/research.json": "8a55fc37db50e91da6c985cbe4dd1754e17c7a17e48925edf7154331906d59ac",
+      "data/site.json": "985b2840f2ca83e1ba6ec72170a12bc5033dd9607d7aff2c39f09e7ba537993e",
+      "docs/public/exports/research.json": "6a75cf1e02713be5131751de35782b3e7d1cc99fd336d1daf5395d28a163f202"
+    }
+  }
+}

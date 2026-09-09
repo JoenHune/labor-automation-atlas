@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.0",
+  "reviewId": "cn-industry-wood-furniture-paper-print-cultural-20-24-rc01-limited-recheck-6b0a-2026-09-09",
+  "country": "CN",
+  "reviewer": "us_data, independent of root RC01 implementation",
+  "reviewedAtUTC": "2026-09-09T15:13:37.754072+00:00",
+  "scope": "仅RC01三值、保留边界及整稿差异重放；不重跑3075全审或原查询",
+  "input": {
+    "beforeRawSha256": "3075ec558a85efc3eaad029aef8f9c2ffe79163d8324aa622ec25338fee4eaf9",
+    "afterRawSha256": "6b0a5e972b32798b0e5ef91039af15153a5a04a4dca760e75fa2d08647caee48",
+    "rc01ReceiptSha256": "41265826a33c1b102d2ac8a61bfad639be182949b44a01cd58946024aeb24854",
+    "priorLimitedRecheckSha256": "f4055e7580c93a0028c321b24d5b5cda6e03a9714949b5fceea918d9c31a63d6",
+    "priorLimitedRecheckMarkdownSha256": "9b329ab4e1085969bfec9c394d8eb6a60fb2352741a0f6c14a72131993596a09",
+    "firstReviewDecisionsSha256": "64ec46d98b4e9986ff0c3e521edc1b976a3268c0024d78e3b8ea0aa6af363b1b",
+    "firstReviewRawSha256": "beb4d1391fc2204dbe754601229cb605c4747c1d205816fef5674e81f15d4d36",
+    "originalAuthorRevisionSha256": "cff7062885612751ef69e57a839d9dbf3a88855c0fdc1a55b9a0affcc549cd01",
+    "snapshotDirectory": "research/.private/cn-wood-rc01-recheck-6b0a",
+    "snapshotManifestSha256": "33ed1bd5f48565a4e572a4652a5b3299893fe42a59f4527766e013f5186fa69e"
+  },
+  "originalArchiveChecks": [
+    {
+      "path": "research/automation/cn-industry-wood-furniture-paper-print-cultural-20-24.json",
+      "sha256": "3075ec558a85efc3eaad029aef8f9c2ffe79163d8324aa622ec25338fee4eaf9",
+      "archivePath": ".private/wood-rc01-3075/cn-industry-wood-furniture-paper-print-cultural-20-24.json",
+      "archiveShaVerified": true,
+      "currentBytesUnchanged": false
+    },
+    {
+      "path": "research/automation/cn-industry-wood-furniture-paper-print-cultural-20-24.md",
+      "sha256": "3c1f8314fd67466b2661a301458620409021c5da20714514dfa9f4ac84f3bc08",
+      "archivePath": ".private/wood-rc01-3075/cn-industry-wood-furniture-paper-print-cultural-20-24.md",
+      "archiveShaVerified": true,
+      "currentBytesUnchanged": true
+    },
+    {
+      "path": "research/automation/cn-industry-wood-furniture-paper-print-cultural-20-24-search-audit.json",
+      "sha256": "ad502f79926142b52483bd13c8e3aef2bffa52660a4eac0fb18626ce905ef0c0",
+      "archivePath": ".private/wood-rc01-3075/cn-industry-wood-furniture-paper-print-cultural-20-24-search-audit.json",
+      "archiveShaVerified": true,
+      "currentBytesUnchanged": true
+    },
+    {
+      "path": "research/automation/cn-industry-wood-furniture-paper-print-cultural-20-24-validation.json",
+      "sha256": "e3701bdb1d255572ee6c99fea4048e1a5cf33a24a5d4fce85c3755abab807265",
+      "archivePath": ".private/wood-rc01-3075/cn-industry-wood-furniture-paper-print-cultural-20-24-validation.json",
+      "archiveShaVerified": true,
+      "currentBytesUnchanged": true
+    },
+    {
+      "path": "research/automation/cn-industry-wood-furniture-paper-print-cultural-20-24-revisions.json",
+      "sha256": "cff7062885612751ef69e57a839d9dbf3a88855c0fdc1a55b9a0affcc549cd01",
+      "archivePath": ".private/wood-rc01-3075/cn-industry-wood-furniture-paper-print-cultural-20-24-revisions.json",
+      "archiveShaVerified": true,
+      "currentBytesUnchanged": true
+    },
+    {
+      "path": "research/reviews/cn-industry-wood-furniture-paper-print-cultural-20-24-automation-recheck.json",
+      "sha256": "f4055e7580c93a0028c321b24d5b5cda6e03a9714949b5fceea918d9c31a63d6",
+      "archivePath": ".private/wood-rc01-3075/cn-industry-wood-furniture-paper-print-cultural-20-24-automation-recheck.json",
+      "archiveShaVerified": true,
+      "currentBytesUnchanged": true
+    }
+  ],
+  "exactChangedPaths": [
+    "/tasks/44/barriers/technical/directLimitingEvidence/0/statement",
+    "/tasks/58/barriers/technical/directLimitingEvidence/0/statement",
+    "/tasks/165/barriers/technical/directLimitingEvidence/0/statement"
+  ],
+  "taskFieldChecks": [
+    {
+      "taskId": "cn-ind-paper-box-004",
+      "path": "/tasks/44/barriers/technical/directLimitingEvidence/0/statement",
+      "before": "厂商指出快速换单需处理机构碰撞和订单数据错误；属于设计条件，不是独立事故报告。",
+      "after": "厂商要求快速换单控制处理机构碰撞和订单数据错误。",
+      "beforeCanonicalValueSha256": "110272dae2e35b78fcfb830a1dc96dd9e34ff58813e24c376e6f694347b4b6b3",
+      "afterCanonicalValueSha256": "0c4b4ab4a0cb2a0ea87bacfc2ee9361afbd08e7cfef33e43d991eda9d5f06019",
+      "matchesIndependentRequiredValue": true,
+      "retainedBoundaryPath": "/tasks/44/barriers/technical/directLimitingEvidence/0/reviewedSourceBoundaries/0",
+      "retainedBoundaryObjectSha256": "90d8f97ce0cc2460f7b4335397739c89685fe6b4064def183b568caf832806ad",
+      "retainedBoundaryObjectUnchanged": true,
+      "sourceClaimAndCounterEvidenceMirrorsMatch": true,
+      "sourceRef": {
+        "sourceId": "CN-WOOD-INVT-SLIT",
+        "locatorId": "conditions",
+        "section": "工艺关键点，行252及264"
+      },
+      "verdict": "accepted-three-field-limited-repair"
+    },
+    {
+      "taskId": "cn-ind-wood-furniture-009",
+      "path": "/tasks/58/barriers/technical/directLimitingEvidence/0/statement",
+      "before": "胶辊材质和配套供漆过滤须按涂装要求选择，未证明任意材质均可。",
+      "after": "胶辊材质、供漆过滤须按涂装要求选择。",
+      "beforeCanonicalValueSha256": "8e1e9d007981ffe58c9c1fd8772a872d51e608a4e47a639f661dacaaa2508476",
+      "afterCanonicalValueSha256": "b7fe60a02fc0b3eb96546559a29405357be5d8518e5e1bbf816646c6a223e91f",
+      "matchesIndependentRequiredValue": true,
+      "retainedBoundaryPath": "/tasks/58/barriers/technical/directLimitingEvidence/0/reviewedSourceBoundaries/0",
+      "retainedBoundaryObjectSha256": "503e1fb80ca8765e3d51191d62e207aa113b6fc4112dc5220c6ce60389ebdbb6",
+      "retainedBoundaryObjectUnchanged": true,
+      "sourceClaimAndCounterEvidenceMirrorsMatch": true,
+      "sourceRef": {
+        "sourceId": "CN-WOOD-CARPOLY",
+        "locatorId": "conditions",
+        "section": "注意事项，行250—254及262"
+      },
+      "verdict": "accepted-three-field-limited-repair"
+    },
+    {
+      "taskId": "cn-ind-pencil-coat-print-003",
+      "path": "/tasks/165/barriers/technical/directLimitingEvidence/0/statement",
+      "before": "供应商指出水性漆抽涂量、干燥和丰满度是研发针对的问题；不是某工厂退出证据。",
+      "after": "供应商将水性漆抽涂量、干燥和丰满度列为研发针对的问题。",
+      "beforeCanonicalValueSha256": "b05d0a66c56d57da048018722a5ee6db0d43a74f87267d878f157771379726db",
+      "afterCanonicalValueSha256": "a886b51012cde78870f109ed47d8575dde0e16811e579da92a2ca925adf51bcf",
+      "matchesIndependentRequiredValue": true,
+      "retainedBoundaryPath": "/tasks/165/barriers/technical/directLimitingEvidence/0/reviewedSourceBoundaries/0",
+      "retainedBoundaryObjectSha256": "23a88f42a83ba0a0c17d3fbbdb8adb4e993566f01643f9d37976ccea883e4812",
+      "retainedBoundaryObjectUnchanged": true,
+      "sourceClaimAndCounterEvidenceMirrorsMatch": true,
+      "sourceRef": {
+        "sourceId": "CN-WOOD-HGS-COAT",
+        "locatorId": "limits",
+        "section": "水性漆问题，行71—82"
+      },
+      "verdict": "accepted-three-field-limited-repair"
+    }
+  ],
+  "wholeFileVerification": {
+    "jsonChangedPathCount": 3,
+    "reportedPathsExactlyEqualActualFullJSONDiff": true,
+    "threeValueForwardReplayEqualsCurrentWholeJSON": true,
+    "reverseReplayEqualsOriginalWholeJSON": true,
+    "allOtherFieldsUnchanged": true,
+    "all181OriginalSnapshotsUnchanged": true,
+    "humanCashFrameworkAndParametersUnchanged": true,
+    "362MainAnd36SupplementQueriesUnchanged": true,
+    "allSourcesLocatorsQuotesAndResearchBoundariesUnchanged": true,
+    "taskEvidenceGradesUnchanged": true,
+    "fiveDisplayPhaseProposalsAndNineSplitParentsUnchanged": true,
+    "newCountedTasks": 0,
+    "method": "从归档原始字节解析全稿递归比对，不限于作者提供的3个路径；前后双向重放；JSON物理文件SHA分别保存。"
+  },
+  "historicalArtifacts": {
+    "previousValidationSha256": "e3701bdb1d255572ee6c99fea4048e1a5cf33a24a5d4fce85c3755abab807265",
+    "previousValidationOutputSha256": "3075ec558a85efc3eaad029aef8f9c2ffe79163d8324aa622ec25338fee4eaf9",
+    "previousValidationWasRerunFor6b0a": false,
+    "previousValidationInterpretation": "旧校验仍明确绑定3075作者稿，并未对6b0a重新执行。当前限定复检通过独立三路径差异和完整重放建立6b0a继承链，不能声称旧校验已覆盖新SHA。",
+    "previousMarkdownSha256": "3c1f8314fd67466b2661a301458620409021c5da20714514dfa9f4ac84f3bc08",
+    "previousMarkdownStillDescribes3075": true,
+    "previousAuditSha256": "ad502f79926142b52483bd13c8e3aef2bffa52660a4eac0fb18626ce905ef0c0",
+    "fourOriginalAuthorCompanionFilesUnchanged": true,
+    "oldReviewAndReceiptNotOverwritten": true
+  },
+  "noAdditionalExecutionClaim": {
+    "newSearches": 0,
+    "sourceRereadsInThisThreeFieldCheck": 0,
+    "sourceBasis": "继承f4055e75限定复检中已实际重读的三源原段与已核source.claim，不虚报新读源。",
+    "full181ReReviewRerun": false,
+    "authorValidationRerun": false
+  },
+  "overallVerdict": "RC01-closed-accepted-for-unfrozen-working-version",
+  "remainingMandatoryRC01Repairs": [],
+  "workingVersionDecision": "三字段准确修复；与f4055e75限定复检共同支持6b0a稿进入未冻结工作版。保留原有证据、覆盖、现金、日期和2026在运缺口，不代表全行业验收完成。",
+  "isFrozen": false,
+  "reviewerModifiedAuthorInput": false
+}
