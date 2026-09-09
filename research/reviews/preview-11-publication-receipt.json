@@ -1,0 +1,87 @@
+{
+  "sourceCommit": "7ea1dd686c2b649ca6aa56b9ecd5957182685e60",
+  "version": "2026-09-09.preview-11",
+  "ci": 34372250141,
+  "pages": 34372614335,
+  "checkedAtUTC": "2026-09-09T15:59:23Z",
+  "pagesChecked": [
+    {
+      "path": "",
+      "status": 200,
+      "versionVisible": false
+    },
+    {
+      "path": "cn/",
+      "status": 200,
+      "versionVisible": false
+    },
+    {
+      "path": "us/",
+      "status": 200,
+      "versionVisible": false
+    },
+    {
+      "path": "cn/tasks/cn-retail-motor-fuel-retail-006",
+      "status": 200,
+      "versionVisible": true
+    },
+    {
+      "path": "us/tasks/us-con-drywall-002",
+      "status": 200,
+      "versionVisible": true
+    },
+    {
+      "path": "us/tasks/us-con-drywall-005",
+      "status": 200,
+      "versionVisible": true
+    }
+  ],
+  "exportsChecked": [
+    {
+      "task": "cn-retail-motor-fuel-retail-006",
+      "status": 200,
+      "bytes": 108258,
+      "sha256": "ec5072ebfc184d98b0ccda2fd8647f19c0f41713428cae7e8edc59bc759bdaee",
+      "matchesLocalExactly": true
+    },
+    {
+      "task": "us-con-drywall-002",
+      "status": 200,
+      "bytes": 108473,
+      "sha256": "2337d8fde25a1858de7a339cd502d81faf9b20b1bfc2d45c58bd78b69cdaf910",
+      "matchesLocalExactly": true
+    },
+    {
+      "task": "us-con-drywall-005",
+      "status": 200,
+      "bytes": 122227,
+      "sha256": "7a287a0c08fbc0d91f1ec055088fb33eaa63ecd05f7f4669dcd1523e3c52e483",
+      "matchesLocalExactly": true
+    }
+  ],
+  "runs": [
+    {
+      "id": 34372250141,
+      "head_sha": "7ea1dd686c2b649ca6aa56b9ecd5957182685e60",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/JoenHune/labor-automation-atlas/actions/runs/34372250141"
+    },
+    {
+      "id": 34372614335,
+      "head_sha": "7ea1dd686c2b649ca6aa56b9ecd5957182685e60",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/JoenHune/labor-automation-atlas/actions/runs/34372614335"
+    }
+  ],
+  "fullExport": {
+    "bytes": 98300178,
+    "sha256": "47d9f7bfe867b954813e7e35139b9dae255ca10fb56d1652957530d6a0e47b2d",
+    "matchesCanonicalExportExactly": true
+  },
+  "browserChecks": [
+    "Public US drywall002: preparation, preview11, unfrozen and 6 cost gaps visible.",
+    "Public CN industry2025: child panel opens, missing employment stays unranked, default FX6.71 and CNY mode visible."
+  ]
+}
