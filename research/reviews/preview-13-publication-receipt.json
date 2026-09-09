@@ -1,0 +1,109 @@
+{
+  "sourceCommit": "801dd578d346a2890a2c9d8675954aad47eaba43",
+  "version": "2026-09-10.preview-13",
+  "runs": [
+    {
+      "id": 34384159930,
+      "name": "Publish atlas to GitHub Pages",
+      "head_sha": "801dd578d346a2890a2c9d8675954aad47eaba43",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/JoenHune/labor-automation-atlas/actions/runs/34384159930",
+      "created_at": "2026-09-09T17:38:39Z",
+      "updated_at": "2026-09-09T17:45:22Z"
+    },
+    {
+      "id": 34384122462,
+      "name": "Check research and application",
+      "head_sha": "801dd578d346a2890a2c9d8675954aad47eaba43",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/JoenHune/labor-automation-atlas/actions/runs/34384122462",
+      "created_at": "2026-09-09T17:38:17Z",
+      "updated_at": "2026-09-09T17:43:50Z"
+    }
+  ],
+  "checkedAtUTC": "2026-09-09T17:46:03Z",
+  "pagesChecked": [
+    {
+      "path": "",
+      "status": 200,
+      "versionVisible": false
+    },
+    {
+      "path": "cn/",
+      "status": 200,
+      "versionVisible": false
+    },
+    {
+      "path": "us/",
+      "status": 200,
+      "versionVisible": false
+    },
+    {
+      "path": "cn/tasks/cn-trans-express-lastmile-008",
+      "status": 200,
+      "versionVisible": true
+    },
+    {
+      "path": "cn/tasks/cn-trans-bulk-berth-006",
+      "status": 200,
+      "versionVisible": true
+    },
+    {
+      "path": "cn/tasks/cn-trans-bulk-yard-transfer-008",
+      "status": 200,
+      "versionVisible": true
+    }
+  ],
+  "exportsChecked": [
+    {
+      "task": "cn-trans-express-lastmile-008",
+      "status": 200,
+      "bytes": 68398,
+      "sha256": "9a7d412c8fc7b92669bf46323361474fcf1ecdee188bbc8d0ae6346b7e29047f",
+      "matchesLocalExactly": true
+    },
+    {
+      "task": "cn-trans-bulk-berth-006",
+      "status": 200,
+      "bytes": 105539,
+      "sha256": "53c701351506d2ec7860e211ceee79fdd7c8c17a35d5fb829fcf3407226e8405",
+      "matchesLocalExactly": true
+    },
+    {
+      "task": "cn-trans-bulk-yard-transfer-008",
+      "status": 200,
+      "bytes": 87171,
+      "sha256": "990767818440e80b2fda82bd0fbed0e95ed6335d4e05b6bbb896f771c398d65a",
+      "matchesLocalExactly": true
+    }
+  ],
+  "fullExport": {
+    "bytes": 118941704,
+    "sha256": "b0e1fae46c66339b8288b2730ef5c465673e3ce19dccff8d43aa3d7890f4618f",
+    "status": 200,
+    "matchesCanonicalExportExactly": true
+  },
+  "repeatedLocalGenerationByteIdentity": true,
+  "browserChecks": [
+    {
+      "path": "/cn/tasks/cn-trans-bulk-yard-transfer-008",
+      "versionVisible": true,
+      "result": "仅机器人栏关联相邻煤矿样机；其余四类明确证据不足，完整回收期留空。"
+    },
+    {
+      "path": "/cn/?year=2025",
+      "result": "交通细分入口展开2023资料，显著注明主视图2025与历史细分时期；人均与增加值两种排序可切换，8项因分子缺失不排名。"
+    },
+    {
+      "path": "/cn/?year=2025",
+      "result": "全局默认1美元=6.71元人民币；切换百万美元后GDP显示20,892,384.5，再恢复亿元人民币、6.71与默认全景。"
+    }
+  ],
+  "limitations": [
+    "仍为未冻结研究工作版。",
+    "公开GitHub批注服务尚未配置，未验收真实作者、权限与双向同步。",
+    "已复现折叠证据草稿重载后没有展开、被误标原内容已变更；正文与快照入口保留，修复待下一轮。"
+  ]
+}

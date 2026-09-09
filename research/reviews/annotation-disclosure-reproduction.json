@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-10",
+  "timezone": "Asia/Shanghai",
+  "sourceCommit": "801dd578d346a2890a2c9d8675954aad47eaba43",
+  "path": "/cn/tasks/cn-trans-bulk-berth-006",
+  "environment": "Local VitePress browser, desktop width 951",
+  "status": "reproduced-not-fixed",
+  "steps": [
+    "展开“增量现金流口径与缺少的参数”。",
+    "使用真实鼠标拖选“期初投入包含设备、场”，点击添加批注。",
+    "填写“折叠内容定位检查：恢复后应重新展开现金流说明。”，收起并保存本地草稿。",
+    "重新加载相同页面，点击草稿1中的该条记录。"
+  ],
+  "observed": {
+    "savedDraftTime": "2026/9/10 01:41:22",
+    "selectedText": "期初投入包含设备、场",
+    "initialSelectionSize": {"width":144,"height":17},
+    "draftBodyPreserved": true,
+    "snapshotPreviewEntryVisible": true,
+    "cashDisclosureOpenAfterRestore": false,
+    "warning": "草稿原内容已变更；保留原快照，可提交关于原内容的批注",
+    "selectionElementRemains": true,
+    "contentActuallyEdited": false,
+    "githubCommentSubmitted": false
+  },
+  "codeFindings": [
+    "currentView仅保存URL中的年份、焦点、排序及筛选，没有折叠内容状态。",
+    "restoreDraft等待筛选恢复后直接定位，没有恢复相关details。",
+    "折叠造成目标文字没有可见矩形，被当作内容改变；需区分暂时隐藏与原文实质变化。"
+  ],
+  "requiredVerification": [
+    "为折叠块建立可核对的稳定身份；记录相关展开状态，避免给排序后的其他内容展开或挂载。",
+    "显式打开分享链接或恢复草稿时恢复必要面板，普通滚动与位置刷新不反复改动用户折叠选择。",
+    "覆盖嵌套折叠、同名摘要、目标删除/改写、旧锚点、年份切换和排序。",
+    "屏幕缩放与手机底部浮层下重新定位；隐藏目标不留陈旧选区框，不误提示原文已变更。",
+    "保持原快照与真实删除提示；旧锚点没有展开记录时谨慎处理。"
+  ]
+}
