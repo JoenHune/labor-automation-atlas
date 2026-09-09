@@ -1,0 +1,49 @@
+name: Publish atlas to GitHub Pages
+on:
+  workflow_dispatch:
+    inputs:
+      publication:
+        description: '研究工作版用于样板联调；完整版须通过全部验收'
+        type: choice
+        required: true
+        default: research-preview
+        options: [research-preview, release]
+permissions:
+  contents: read
+concurrency:
+  group: atlas-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.0.0
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - if: inputs.publication == 'release'
+        run: npm run release:check
+      - run: npm run build
+        env:
+          VITE_ATLAS_API_ORIGIN: ${{ vars.VITE_ATLAS_API_ORIGIN }}
+      - uses: actions/configure-pages@v6.0.0
+      - uses: actions/upload-pages-artifact@v5.0.0
+        with:
+          path: docs/.vitepress/dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v5.0.1
