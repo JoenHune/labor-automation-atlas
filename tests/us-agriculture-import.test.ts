@@ -1,3 +1,4 @@
+import {readResearchSync} from '../src/research/storage'
 import {readFileSync} from 'node:fs'
 import {createHash} from 'node:crypto'
 import {describe,it,expect} from 'vitest'
@@ -9,7 +10,7 @@ const sha=(file:string)=>createHash('sha256').update(readFileSync(new URL('../'+
 const file='research/automation/us-agriculture.json',auditFile='research/automation/us-agriculture-search-audit.json',reviewFile='research/reviews/us-agriculture-automation-decisions.json'
 const raw=read(file),audit=read(auditFile),review=read(reviewFile),provenance={file,sha256:sha(file),auditFile,auditSha256:sha(auditFile),reviewFile,reviewSha256:sha(reviewFile)}
 const technical=read('research/reviews/us-agriculture-technical-field-decisions.json')
-const fixture=()=>read('data/research.json') as Research
+const fixture=()=>readResearchSync(new URL('../data/research.json',import.meta.url))
 describe('美国农业修订接入',()=>{
  it('保留真实查询、局部机制、日期精度及未知现金流，不扩大任务完成范围',()=>{
   const result=validateResearch(importUsAgriculture(fixture(),raw,audit,review,provenance,technical))

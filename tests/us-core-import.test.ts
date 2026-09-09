@@ -1,3 +1,4 @@
+import {readResearchSync} from '../src/research/storage'
 import {readFileSync} from 'node:fs'
 import {createHash} from 'node:crypto'
 import {describe,it,expect} from 'vitest'
@@ -6,7 +7,7 @@ import {validateResearch} from '../src/research/validate'
 import type {Research} from '../src/research/schema'
 const read=(file:string)=>JSON.parse(readFileSync(new URL('../'+file,import.meta.url),'utf8'))
 const sha=(file:string)=>createHash('sha256').update(readFileSync(new URL('../'+file,import.meta.url))).digest('hex')
-const fixture=()=>read('data/research.json') as Research
+const fixture=()=>readResearchSync(new URL('../data/research.json',import.meta.url))
 const batch=(industry:string)=>{
  const file='research/automation/us-'+industry+'.json',auditFile='research/automation/us-'+industry+'-search-audit.json',reviewFile='research/reviews/us-'+industry+'-automation-decisions.json'
  return {raw:read(file),audit:read(auditFile),review:read(reviewFile),provenance:{file,sha256:sha(file),auditFile,auditSha256:sha(auditFile),reviewFile,reviewSha256:sha(reviewFile)}}

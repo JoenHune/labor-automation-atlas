@@ -1,0 +1,1308 @@
+{
+  "schemaVersion": "independent-limited-recheck/1",
+  "country": "US",
+  "industryId": "us-construction",
+  "reviewedAt": "2026-09-09",
+  "reviewer": "root independent reviewer",
+  "beforeSha256": "dcd6cea337011b8ec1c7b8fa65910c1b1f0d3de6fdedf1d3f23137d47e2cd500",
+  "afterSha256": "41cd55b6178be4c39a598e295f464f51da48ed79408c76a2c660089a8c9638b7",
+  "authorReceiptSha256": "44bf28fcf59adb346dbde0425bfc54f86cb4b6038e0858f11cf0d8d47e660503",
+  "previousIndependentRecheckSha256": "e94670f058a96e243dbcd4c22b462b00fe087cadee3fa0bf850103a0fda368b5",
+  "inputFiles": [
+    {
+      "path": "research/automation/us-construction.json",
+      "sha256": "41cd55b6178be4c39a598e295f464f51da48ed79408c76a2c660089a8c9638b7"
+    },
+    {
+      "path": "research/automation/us-construction.md",
+      "sha256": "edb0421253f5b74b565ffed560d20f96d5f1c8d981faa5f8934102a382b39f2d"
+    },
+    {
+      "path": "research/automation/us-construction-search-audit.json",
+      "sha256": "9ca4a755d7950e36eea7b7e36645e8d3700dc3da2b5e35437afc17c34cabde3c"
+    },
+    {
+      "path": "research/automation/us-construction-revisions.json",
+      "sha256": "2efc212a1d12ce17ceb9da7f3bec4cc8cb07287129a61ef35f5472a874a86e90"
+    },
+    {
+      "path": "research/automation/us-construction-rc01-revisions.json",
+      "sha256": "44bf28fcf59adb346dbde0425bfc54f86cb4b6038e0858f11cf0d8d47e660503"
+    },
+    {
+      "path": "research/automation/us-construction-validation.json",
+      "sha256": "1d634dba853307775be2f37e0aa0ce504bcc72beb5e8f9436c342e0da9685df1"
+    },
+    {
+      "path": "research/reviews/us-construction-automation-decisions.json",
+      "sha256": "661ddf52ff9976afc942d5b5a1aafdbe688bdd3a0a41c3074d0800312ae309e2"
+    },
+    {
+      "path": "research/reviews/us-construction-automation-recheck.json",
+      "sha256": "e94670f058a96e243dbcd4c22b462b00fe087cadee3fa0bf850103a0fda368b5"
+    }
+  ],
+  "decision": "specified-revision-confirmed-eligible-for-unfrozen-working-version",
+  "isFrozen": false,
+  "canFreeze": false,
+  "actualDiffPathCount": 2933,
+  "replayExactlyMatchesOutput": true,
+  "taskCount": 131,
+  "newCountedTasks": 0,
+  "proposedSplitParents": 37,
+  "proposedChildren": 76,
+  "issueRechecks": [
+    {
+      "id": "UC-RC01",
+      "status": "confirmed-with-retained-gaps",
+      "specifiedLocatorCount": 71,
+      "additionalLocatorIds": [
+        "DRYWALL-STUDY.pick",
+        "RUFUS.preview"
+      ],
+      "splitSourceFactAndResearchBoundaryCount": 73,
+      "genericOccupationJudgmentCount": 239,
+      "result": "73条原有混合声明逐句复核并分离来源陈述与研究边界；239条相同职业适用说明整体标研究判断，未补造职业动作译文，均移出directFacts。"
+    }
+  ],
+  "preservationChecks": {
+    "beforeSHA256": "dcd6cea337011b8ec1c7b8fa65910c1b1f0d3de6fdedf1d3f23137d47e2cd500",
+    "afterSHA256": "41cd55b6178be4c39a598e295f464f51da48ed79408c76a2c660089a8c9638b7",
+    "receiptSHA256": "44bf28fcf59adb346dbde0425bfc54f86cb4b6038e0858f11cf0d8d47e660503",
+    "exactChangeCount": 2933,
+    "replayMatches": true,
+    "originalsHumanCashQueriesPreserved": true,
+    "sourceMetadataQuoteLocatorPreserved": true,
+    "cacheFilesVerified": 45,
+    "groups": {
+      "specifiedList": 71,
+      "additionalMixedStatements": 2,
+      "additionalIds": [
+        "DRYWALL-STUDY.pick",
+        "RUFUS.preview"
+      ],
+      "genericOccupationScopeNotes": 239
+    }
+  },
+  "mirrorChecks": {
+    "allReferenceOccurrences": 1688,
+    "fullTextReferenceMirrors": 1216,
+    "referencedCacheFilesVerified": 61,
+    "changedLocatorReceipts": 312,
+    "emptyQuoteCount": 290,
+    "emptyQuotesAssertNoMatch": true,
+    "allTaskClassesUnchanged": true,
+    "directFactsExcludeResearchJudgment": true,
+    "sourceResearchBoundariesResolveExactly": true
+  },
+  "referenceCountBoundary": "当前任务和机会引用为1685处；root递归另纳入旧authorRevision历史说明的3处引用，合计1688。1216个含原文镜像的引用对象核对通过，不与773个实际变化对象混用。",
+  "readingScope": "本次逐句复核73个分离后的事实/边界与原已接受混合语句，核对239条相同通用说明；验证312定位回执、全部2933路径重放及全部引用镜像。沿用先前原稿独审与第一次限定复检的原文核读；不声称本次重新核读381定位全文或重新检索。",
+  "newQueries": 0,
+  "newOriginalSourceReads": 0,
+  "newSourceFactsOrTranslations": 0,
+  "retainedCounts": {
+    "taskCount": 131,
+    "scenarioCount": 10,
+    "actualQueries": 262,
+    "sourceCount": 61,
+    "proposedTaskCount": 29,
+    "splitRecommendations": 37,
+    "counterEvidenceWithBoundedSourceCount": 78,
+    "completeTaskCommercialSuccessCount": 0,
+    "proposedChildren": 76,
+    "approvedNewTasks": 0,
+    "matchedPartialTaskCount": 74,
+    "adjacentOnlyTaskCount": 21,
+    "noMatchedAlternativeTaskCount": 36,
+    "frozenTaskCount": 0,
+    "authorRevisionNewQueryCount": 0
+  },
+  "taskRechecks": [
+    {
+      "taskId": "US-CON-EARTH-001",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 5,
+      "sourceResearchBoundaryCount": 5,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-EARTH-002",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-EARTH-003",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-EARTH-004",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 4,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-EARTH-005",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 4,
+      "sourceResearchBoundaryCount": 4,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-EARTH-006",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-EARTH-007",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-EARTH-008",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 4,
+      "sourceResearchBoundaryCount": 5,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-EARTH-009",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-EARTH-010",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-EARTH-011",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-EARTH-012",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-EARTH-013",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 6,
+      "sourceResearchBoundaryCount": 5,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-001",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-002",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-003",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-004",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 5,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-005",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-006",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-007",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 3,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-008",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-009",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-010",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-011",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-012",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-013",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-014",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 3,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-015",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 4,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-016",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-017",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-STEEL-001",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-STEEL-002",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-STEEL-003",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-STEEL-004",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-STEEL-005",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-STEEL-006",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-STEEL-007",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-STEEL-008",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-STEEL-009",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-STEEL-010",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-STEEL-011",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 3,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-STEEL-012",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-FRAME-001",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-FRAME-002",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-FRAME-003",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-FRAME-004",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-FRAME-005",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 4,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-FRAME-006",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-FRAME-007",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-FRAME-008",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-FRAME-009",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-FRAME-010",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-FRAME-011",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 0,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-FRAME-012",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 3,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-001",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 4,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-002",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-003",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 4,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-004",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-005",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-006",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-007",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-008",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 3,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-009",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-010",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-011",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 0,
+      "sourceResearchBoundaryCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-012",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-001",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-002",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 4,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-003",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 0,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-004",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-005",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-006",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-007",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-008",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 3,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-009",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-010",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 4,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-011",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-012",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-013",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 3,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-HVAC-001",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-HVAC-002",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 3,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-HVAC-003",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-HVAC-004",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-HVAC-005",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-HVAC-006",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-HVAC-007",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-HVAC-008",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-HVAC-009",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-HVAC-010",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-HVAC-011",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-HVAC-012",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-HVAC-013",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-HVAC-014",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-HVAC-015",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ROOF-001",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ROOF-002",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ROOF-003",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ROOF-004",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ROOF-005",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 3,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ROOF-006",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 3,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ROOF-007",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 4,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ROOF-008",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ROOF-009",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ROOF-010",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ROOF-011",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-ROOF-012",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-001",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-002",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 3,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-003",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-004",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-005",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 4,
+      "sourceResearchBoundaryCount": 3,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-006",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 0,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-007",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-008",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 3,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-009",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-010",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-011",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 0,
+      "sourceResearchBoundaryCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-012",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PAINT-001",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PAINT-002",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 0,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PAINT-003",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PAINT-004",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PAINT-005",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 4,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PAINT-006",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 0,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PAINT-007",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 2,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PAINT-008",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PAINT-009",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PAINT-010",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PAINT-011",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 2,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PAINT-012",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-CON-PAINT-013",
+      "originalSnapshotHumanCashQueryUnchanged": true,
+      "directFactsExcludeResearchJudgment": true,
+      "sourceResearchBoundariesResolveExactly": true,
+      "directFactCount": 1,
+      "sourceResearchBoundaryCount": 1,
+      "canFreeze": false
+    }
+  ],
+  "remainingGaps": [
+    "全部131任务仍未冻结；37个拟拆父项/76拟议子项未批准或分别研究。",
+    "真实工地持续运行、完整验收、方案类别与退出非采用证据仍有缺口。",
+    "人工和现金参数保持缺失，不生成回收期。",
+    "239条职业说明只表达适用范围，不能作为具体机器机制或新增职业动作译文；原定位和空quote状态继续保留。",
+    "旧来源、年份、原始查询归因、国外与工地/场外范围的既有说明保持。"
+  ]
+}

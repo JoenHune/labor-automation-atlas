@@ -1,3 +1,4 @@
+import {readResearch,writeResearch} from '../src/research/storage'
 import {readFile,writeFile} from 'node:fs/promises'
 import {ProductivityDatasetSchema} from '../src/research/schema'
 import {validateResearch} from '../src/research/validate'
@@ -5,7 +6,7 @@ import {validateProductivityDataset} from '../src/research/productivity'
 
 const root=new URL('../',import.meta.url)
 const read=async(path:string)=>JSON.parse(await readFile(new URL(path,root),'utf8'))
-const data=await read('data/research.json')
+const data=await readResearch(new URL('data/research.json',root))
 const datasets=await Promise.all((['cn','us'] as const).map(async country=>{
   const dataset=ProductivityDatasetSchema.parse(await read(`research/${country}/subindustry-productivity.json`))
   validateProductivityDataset(dataset)
@@ -16,5 +17,5 @@ const datasets=await Promise.all((['cn','us'] as const).map(async country=>{
 }))
 data.subindustryProductivity={version:data.version,checkedAt:data.checkedAt,sources:datasets.flatMap(d=>d.sources),parents:datasets.flatMap(d=>d.parents)}
 const validated=validateResearch(data)
-await writeFile(new URL('data/research.json',root),JSON.stringify(validated,null,2)+'\n')
+await writeResearch(new URL('data/research.json',root),validated)
 console.log('Integrated subindustry data:',validated.subindustryProductivity!.parents.length,'parents;',validated.subindustryProductivity!.parents.reduce((n,p)=>n+p.rows.length,0),'year-specific rows.')

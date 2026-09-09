@@ -33,6 +33,7 @@ export function createTaskPageBuilder(data:Research) {
   for(const patch of Object.values(followups?.supplementPatches??{}) as Record<string,any>[])for(const ref of patch.references??[])addSource(ref.sourceId)
   const industry=data.industries.find(i=>i.id===task.industryId),scene=data.scenarios.find(s=>s.id===task.scenarioId)
   if(!industry||!scene||industry.country!==task.country||scene.country!==task.country||scene.industryId!==industry.id)throw new Error('任务页面国家或行业关联不一致：'+task.id)
+  industry.evidence.forEach(e=>addSource(e.sourceId))
   return {version:data.version,checkedAt:data.checkedAt,task,industry:{...industry,inventory:undefined},scenario:{id:scene.id,title:scene.title,scope:scene.scope},claims,searches,sources}
  }
 }

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "1.0",
+  "revisionId": "cn-trade-RC01-seven-mirror-notes",
+  "revisedAt": "2026-09-09",
+  "inputSha256": "66015d33e4204c51b4106711f9b211f13e90bf3fd3b12c0e57dc5d7e5721bd3c",
+  "outputSha256": "be907a2fb435d5d499c33331f027167eb14e8865162c5b8b041d0e8dc2424b25",
+  "independentRecheckSha256": "f5053ee8ef2568e837df8a9558cd87389fa1d2e28a6609a1c51f5866b0964ebc",
+  "findingId": "RC01",
+  "changes": [
+    {
+      "path": "/tasks/51/conclusion/boundary",
+      "before": "仅保留所述局部动作或相邻输入；HJ§5.3.3(c)（物理27）明确当地生态环境主管部门为报告接收者，原“当地生态环境主管部门（所引版本）”过宽；职业ref不能承接该条款。",
+      "after": "仅保留所述局部动作或相邻输入；HJ§5.3.3(c)（物理27）明确当地生态环境主管部门为报告接收者；职业ref不能承接该条款。"
+    },
+    {
+      "path": "/tasks/51/definitionReview/sourceRefs/0/note",
+      "before": "HJ§5.3.3(c)（物理27）明确当地生态环境主管部门为报告接收者，原“当地生态环境主管部门（所引版本）”过宽；职业ref不能承接该条款。",
+      "after": "HJ§5.3.3(c)（物理27）明确当地生态环境主管部门为报告接收者；职业ref不能承接该条款。"
+    },
+    {
+      "path": "/tasks/51/definitionReview/sourceRefs/1/note",
+      "before": "HJ§5.3.3(c)（物理27）明确当地生态环境主管部门为报告接收者，原“当地生态环境主管部门（所引版本）”过宽；职业ref不能承接该条款。",
+      "after": "HJ§5.3.3(c)（物理27）明确当地生态环境主管部门为报告接收者；职业ref不能承接该条款。"
+    },
+    {
+      "path": "/tasks/51/definitionReview/note",
+      "before": "HJ§5.3.3(c)（物理27）明确当地生态环境主管部门为报告接收者，原“当地生态环境主管部门（所引版本）”过宽；职业ref不能承接该条款。",
+      "after": "HJ§5.3.3(c)（物理27）明确当地生态环境主管部门为报告接收者；职业ref不能承接该条款。"
+    },
+    {
+      "path": "/tasks/51/reviewedDefinition/sourceRefs/0/note",
+      "before": "HJ§5.3.3(c)（物理27）明确当地生态环境主管部门为报告接收者，原“当地生态环境主管部门（所引版本）”过宽；职业ref不能承接该条款。",
+      "after": "HJ§5.3.3(c)（物理27）明确当地生态环境主管部门为报告接收者；职业ref不能承接该条款。"
+    },
+    {
+      "path": "/tasks/51/reviewedDefinition/sourceRefs/1/note",
+      "before": "HJ§5.3.3(c)（物理27）明确当地生态环境主管部门为报告接收者，原“当地生态环境主管部门（所引版本）”过宽；职业ref不能承接该条款。",
+      "after": "HJ§5.3.3(c)（物理27）明确当地生态环境主管部门为报告接收者；职业ref不能承接该条款。"
+    },
+    {
+      "path": "/tasks/51/reviewedDefinition/scopeNote",
+      "before": "HJ§5.3.3(c)（物理27）明确当地生态环境主管部门为报告接收者，原“当地生态环境主管部门（所引版本）”过宽；职业ref不能承接该条款。",
+      "after": "HJ§5.3.3(c)（物理27）明确当地生态环境主管部门为报告接收者；职业ref不能承接该条款。"
+    }
+  ],
+  "rawChangedPaths": [
+    "/tasks/51/conclusion/boundary",
+    "/tasks/51/definitionReview/sourceRefs/0/note",
+    "/tasks/51/definitionReview/sourceRefs/1/note",
+    "/tasks/51/definitionReview/note",
+    "/tasks/51/reviewedDefinition/sourceRefs/0/note",
+    "/tasks/51/reviewedDefinition/sourceRefs/1/note",
+    "/tasks/51/reviewedDefinition/scopeNote"
+  ],
+  "rawChangedPathCount": 7,
+  "inputSnapshots": [
+    {
+      "file": "cn-trade-revisions.json",
+      "sha256": "5f2508e5b0aa57d546f0a171f01fa0c02cbc403bd9524bccb809c530bfbf60c0"
+    },
+    {
+      "file": "cn-trade-search-audit.json",
+      "sha256": "0a60f7dc221a6d3ff0816a19aa759ec3381e4154dca6d7b084f7602f47b8a929"
+    },
+    {
+      "file": "cn-trade.json",
+      "sha256": "66015d33e4204c51b4106711f9b211f13e90bf3fd3b12c0e57dc5d7e5721bd3c"
+    },
+    {
+      "file": "cn-trade.md",
+      "sha256": "6ec377d113bae65b36d99bc27bcafe7bde455b5c60dafa6122e1f948a67e8eb8"
+    }
+  ],
+  "linkedArtifactChanges": [
+    {
+      "file": "cn-trade.md",
+      "reason": "仅同步 JSON SHA",
+      "beforeSha256": "6ec377d113bae65b36d99bc27bcafe7bde455b5c60dafa6122e1f948a67e8eb8",
+      "afterSha256": "6ec377d113bae65b36d99bc27bcafe7bde455b5c60dafa6122e1f948a67e8eb8"
+    }
+  ],
+  "preservationChecks": {
+    "allOtherRawFieldsPreserved": true,
+    "allOtherBatchFileBytesPreserved": true,
+    "oldReceiptsAndSearchAuditPreserved": true,
+    "originalTasksQueriesAndCashPreserved": true,
+    "independentReviewUnmodified": true,
+    "newQueriesExecuted": 0
+  },
+  "canFreeze": false,
+  "limitedRecheckStatus": "pending-independent-seven-field-recheck"
+}

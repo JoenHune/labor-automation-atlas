@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0",
+  "reviewId": "cn-trade-automation-rc01-limited-recheck-2026-09-09",
+  "country": "CN",
+  "reviewer": "root-independent-limited-recheck",
+  "reviewedAt": "2026-09-09",
+  "scope": "只复检RC01七字段，沿用上轮限定复检其余裁定与缺口；未重跑查询。",
+  "input": {
+    "originalRawSHA256": "66015d33e4204c51b4106711f9b211f13e90bf3fd3b12c0e57dc5d7e5721bd3c",
+    "currentRawSHA256": "be907a2fb435d5d499c33331f027167eb14e8865162c5b8b041d0e8dc2424b25",
+    "authorReceiptSHA256": "e1abc2c6285c6d3357a0597f4e865a1afb18eaaa4229df833fe8aeb7297c1721",
+    "precedingRecheckSHA256": "f5053ee8ef2568e837df8a9558cd87389fa1d2e28a6609a1c51f5866b0964ebc"
+  },
+  "verdict": "specified-revisions-verified-for-unfrozen-working-version",
+  "isFrozen": false,
+  "changedPaths": [
+    "/tasks/51/conclusion/boundary",
+    "/tasks/51/definitionReview/note",
+    "/tasks/51/definitionReview/sourceRefs/0/note",
+    "/tasks/51/definitionReview/sourceRefs/1/note",
+    "/tasks/51/reviewedDefinition/scopeNote",
+    "/tasks/51/reviewedDefinition/sourceRefs/0/note",
+    "/tasks/51/reviewedDefinition/sourceRefs/1/note"
+  ],
+  "checks": {
+    "exactlySevenRequiredValues": true,
+    "allOtherRawValuesUnchanged": true,
+    "original53TaskObjectsUnchanged": true,
+    "queryAuditBytesUnchanged": true,
+    "cashParametersUnchangedAndNull": true,
+    "oldAuthorReceiptAndOriginalReviewBytesUnchanged": true,
+    "sourceLocatorUnchanged": true,
+    "noQueryRerun": true
+  },
+  "counts": {
+    "originalTasks": 53,
+    "partialMechanism": 26,
+    "adjacentEvidenceOnly": 15,
+    "noRetainedMechanism": 12,
+    "proposedSplitParents": 18,
+    "approvedNewTasks": 0,
+    "mainQueries": 106,
+    "supplementalQueries": 22
+  },
+  "remainingGaps": [
+    "全技术/全反证未穷尽",
+    "无调用前独立时序或UTC，不补造",
+    "当前持续商业部署、劳动与现金参数缺口",
+    "跨场景去重与原子定义待补；维修成本旧文字和eventId是同一分析，呈现不可重复计数"
+  ],
+  "nextAction": "可接入未冻结工作版；首轮覆盖不是全行业完整验收。"
+}

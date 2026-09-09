@@ -1,3 +1,4 @@
+import {readResearchSync} from '../src/research/storage'
 import {readFileSync} from 'node:fs'
 import {beforeAll,describe,expect,it} from 'vitest'
 import {cnConstructionFiles as manifest,importCnConstruction} from '../src/research/import-cn-construction'
@@ -16,7 +17,7 @@ const definition=(t:Task) => ({title:t.title,inputs:t.inputs,outputs:t.outputs,a
 const catalogue=(data:Research):Raw => data.industries.find(i => i.id === 'cn-construction')!.inventory!.constructionResearch as Raw
 let before:Research,after:Research
 beforeAll(() => {
-  before=JSON.parse(readFileSync('data/research.json','utf8'))
+  before=readResearchSync(new URL('../data/research.json',import.meta.url))
   after=importCnConstruction(structuredClone(before),files)
 })
 

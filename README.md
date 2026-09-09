@@ -6,3 +6,5 @@
 技术：VitePress、Vue、TypeScript、ECharts、GitHub Pages；Cloudflare Workers、D1、R2；自建 GitHub App 以真实用户身份写入 Issues 和 Comments。
 
 所有缺失参数保留为空；来源、自报性质、试点与持续运行分开标记。批注不自动转为研究事实。
+
+仓库中的 `data/research.json` 是研究存储清单，关联 `data/research.json.shards/` 中按内容摘要命名的分片。读写统一经过 `src/research/storage.ts`，检查字节数、SHA256、记录数与路径；原记录、空值、顺序和证据关联保持不变。构建时从这份逻辑数据生成页面、图表及网站可下载的完整 `exports/research.json`，完整导出仍是普通JSON。已有单文件格式可用 `npx tsx scripts/migrate-research-storage.ts` 无损迁移；不要把存储清单当作完整研究数据直接解析。

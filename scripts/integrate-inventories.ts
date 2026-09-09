@@ -1,10 +1,11 @@
+import {readResearch,writeResearch} from '../src/research/storage'
 import {readFile,writeFile} from 'node:fs/promises'
 import {createHash} from 'node:crypto'
 import {validateResearch} from '../src/research/validate'
 import type {Research,Task,Country} from '../src/research/schema'
 type Raw=Record<string,any>
 const root=new URL('../',import.meta.url)
-const data=JSON.parse(await readFile(new URL('data/research.json',root),'utf8')) as Research
+const data=await readResearch(new URL('data/research.json',root))
 data.tasks=data.tasks.filter(t=>!t.discovery)
 data.scenarios=data.scenarios.filter(s=>!s.inventory)
 data.sources=data.sources.filter(s=>!s.id.startsWith('inventory-'))
@@ -72,5 +73,5 @@ for(const name of ['cn-core','cn-services','us-core','us-services']) {
  }
 }
 const validated=validateResearch(data)
-await writeFile(new URL('data/research.json',root),JSON.stringify(validated,null,2)+'\n')
+await writeResearch(new URL('data/research.json',root),validated)
 console.log('Integrated',validated.scenarios.length,'scenarios and',validated.tasks.length,'tasks; reviewed',validated.tasks.filter(t=>t.researchStatus==='reviewed').length)

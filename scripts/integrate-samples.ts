@@ -1,9 +1,10 @@
+import {readResearch,writeResearch} from '../src/research/storage'
 import { readFile,writeFile } from 'node:fs/promises'
 import { validateResearch } from '../src/research/validate'
 import type { Research,Task } from '../src/research/schema'
 type Raw=Record<string,any>
 const root=new URL('../',import.meta.url)
-const data=JSON.parse(await readFile(new URL('data/research.json',root),'utf8')) as Research
+const data=await readResearch(new URL('data/research.json',root))
 const logs=JSON.parse(await readFile(new URL('research/samples/search-log.json',root),'utf8'))
 const lower=(id:string)=>id.toLowerCase()
 for(const filename of ['cn-injection-molding-part-removal','us-cnc-machine-tending']) {
@@ -79,7 +80,8 @@ for(const filename of ['cn-injection-molding-part-removal','us-cnc-machine-tendi
  }
  data.tasks=data.tasks.filter(x=>x.id!==taskId);data.tasks.push(task)
 }
-const output=JSON.stringify(validateResearch(data),null,2)+'\n'
-await writeFile(new URL('data/research.json',root),output)
+const validated=validateResearch(data)
+const output=JSON.stringify(validated,null,2)+'\n'
+await writeResearch(new URL('data/research.json',root),validated)
 await writeFile(new URL('docs/public/exports/research.json',root),output)
 console.log('Integrated',data.tasks.length,'tasks,',data.claims.length,'claims,',data.sources.length,'sources. Independent review status remains explicit.')

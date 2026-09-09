@@ -29,7 +29,17 @@ describe('任务页面与导出的完整证据关联',()=>{
   task.alternatives=[{category:'assistive-tool',description:'辅助检查',claimIds:['alternative'],remainingLabor:['复查'],conditions:['本场景']}]
   expect(new Set(createTaskPageBuilder(data)(task).claims.map(c=>c.id))).toEqual(new Set(['shared','premise','barrier','alternative']))
  })
- it.each(['missing-claim','claim-country','premise-country','source-country','date-country','scene-country'] as const)('拒绝缺失或跨国的证据关联：%s',failure=>{
+ it('导出的行业分类依据与其发布日期依据均可解析',()=>{
+  const {data,task,source}=fixture()
+  data.industries[0].evidence=[{sourceId:'classification',locator:'行业分类表'}]
+  data.sources.push({...source('classification'),dateEvidence:[{sourceId:'classification-date',locator:'发布时间'}]},source('classification-date'))
+  const record=JSON.parse(JSON.stringify(createTaskPageBuilder(data)(task)))
+  const ids=new Set(record.sources.map((s:{id:string})=>s.id))
+  for(const ref of record.industry.evidence)expect(ids.has(ref.sourceId)).toBe(true)
+  expect(ids.has('classification-date')).toBe(true)
+  expect(ids.has('unrelated')).toBe(false)
+ })
+ it.each(['missing-claim','claim-country','premise-country','source-country','date-country','scene-country','industry-source-country','industry-source-missing'] as const)('拒绝缺失或跨国的证据关联：%s',failure=>{
   const {data,task}=fixture()
   if(failure==='missing-claim')task.conclusionIds=['missing']
   if(failure==='claim-country')data.claims[0].country='us'
@@ -37,6 +47,8 @@ describe('任务页面与导出的完整证据关联',()=>{
   if(failure==='source-country')data.sources[0].country='us'
   if(failure==='date-country')data.sources[1].country='us'
   if(failure==='scene-country')data.scenarios[0].country='us'
+  if(failure==='industry-source-country'){data.industries[0].evidence=[{sourceId:'unrelated',locator:'分类'}];data.sources[2].country='us'}
+  if(failure==='industry-source-missing')data.industries[0].evidence=[{sourceId:'absent',locator:'分类'}]
   expect(()=>createTaskPageBuilder(data)(task)).toThrow(/缺失|国家/)
  })
  it('待定定义证据保留在导出中，不变成父任务结论或查询',()=>{

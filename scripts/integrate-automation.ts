@@ -1,3 +1,4 @@
+import {readResearch,writeResearch} from '../src/research/storage'
 import {readFile,writeFile} from 'node:fs/promises'
 import {createHash} from 'node:crypto'
 import {importCnServices} from '../src/research/import-cn-services'
@@ -11,10 +12,12 @@ import {importUsHealth} from '../src/research/import-us-health'
 import {importUsServices} from '../src/research/import-us-services'
 import {importCnIndustryFood,cnIndustryFoodFiles} from '../src/research/import-cn-industry-food'
 import {importCnIndustryTextiles,cnIndustryTextilesFiles} from '../src/research/import-cn-industry-textiles'
+import {importCnTrade,cnTradeFiles} from '../src/research/import-cn-trade'
+import {importUsConstruction,usConstructionFiles} from '../src/research/import-us-construction'
 import {validateResearch} from '../src/research/validate'
 const root=new URL('../',import.meta.url)
 const read=async(file:string)=>{const text=await readFile(new URL(file,root),'utf8');return {data:JSON.parse(text),sha256:createHash('sha256').update(text).digest('hex')}}
-let data=(await read('data/research.json')).data
+let data=await readResearch(new URL('data/research.json',root))
 const file='research/automation/cn-services.json',auditFile='research/automation/cn-services-search-audit.json'
 const raw=await read(file),audit=await read(auditFile)
 importCnServices(data,raw.data,audit.data,{file,sha256:raw.sha256,auditFile,auditSha256:audit.sha256})
@@ -58,11 +61,16 @@ for(const [manifest,importer] of [[cnIndustryFoodFiles,importCnIndustryFood],[cn
  const texts=Object.fromEntries(await Promise.all(Object.values(manifest).map(async({file})=>[file,await readFile(new URL(file,root),'utf8')])))
  data=importer(data,texts)
 }
+const tradeTexts=Object.fromEntries(await Promise.all(Object.values(cnTradeFiles).map(async({file})=>[file,await readFile(new URL(file,root),'utf8')])))
+data=importCnTrade(data,tradeTexts)
+const usConstructionTexts=Object.fromEntries(await Promise.all(Object.values(usConstructionFiles).map(async({file})=>[file,await readFile(new URL(file,root),'utf8')])))
+data=importUsConstruction(data,usConstructionTexts)
 const result=validateResearch(data)
-await writeFile(new URL('data/research.json',root),JSON.stringify(result,null,2)+'\n')
+await writeResearch(new URL('data/research.json',root),result)
 console.log('Integrated',raw.data.tasks.length,'CN service task research records. Definition revisions remain open; none are frozen.')
 console.log('Integrated',us.data.tasks.length,'US agriculture task research records. Partial dates, evidence limits and unresolved task definitions retained.')
 console.log('Integrated',services.data.tasks.length,'US service task research records. Original source claims, country scope and unknown cash-flow inputs retained.')
 console.log('Integrated',cnAg.data.tasks.length,'CN agriculture task research records. Split proposals and followups remain open; no task frozen.')
 console.log('Integrated',mining.data.tasks.length,'CN mining task research records. Reviewed display corrections applied; original snapshots preserved, no task frozen.')
 console.log('Integrated',health.data.tasks.length,'US health task research records. Adjacent evidence, source dates, proposed splits and unknown costs retained.')
+console.log('Integrated 53 CN trade and 131 US construction candidates. Reviewed revisions, original snapshots and evidence gaps retained; none frozen.')

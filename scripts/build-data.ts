@@ -1,3 +1,4 @@
+import {readResearch,writeResearch} from '../src/research/storage'
 import { readFile,writeFile,mkdir } from 'node:fs/promises'
 import { validateResearch } from '../src/research/validate'
 import { annualRanking } from '../src/research/ranking'
@@ -5,7 +6,7 @@ import type { Research,Observation,Industry } from '../src/research/schema'
 type Raw=Record<string,any>
 const read=async(path:string)=>JSON.parse(await readFile(new URL('../'+path,import.meta.url),'utf8')) as Raw
 const cn=await read('research/cn/macro.json'), us=await read('research/us/macro.json')
-const existing=await read('data/research.json')
+const existing=await readResearch(new URL('../data/research.json',import.meta.url))
 const data:Research={
  version:existing.version??'2026-09-09.working',checkedAt:'2026-09-09',publishedAt:null,freezeStatus:'working',
  countries:[],sources:[],industries:[],observations:[],scenarios:existing.scenarios??[],tasks:existing.tasks??[],claims:existing.claims??[],searches:existing.searches??[],
@@ -103,7 +104,7 @@ data.countries=[
 ]
 const validated=validateResearch(data)
 const output=JSON.stringify(validated,null,2)+'\n'
-await writeFile(new URL('../data/research.json',import.meta.url),output)
+await writeResearch(new URL('../data/research.json',import.meta.url),validated)
 await mkdir(new URL('../docs/public/exports/',import.meta.url),{recursive:true})
 await writeFile(new URL('../docs/public/exports/research.json',import.meta.url),output)
 for(const c of ['cn','us'] as const) {

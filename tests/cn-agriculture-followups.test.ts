@@ -1,3 +1,4 @@
+import {readResearchSync} from '../src/research/storage'
 import {readFileSync} from 'node:fs'
 import {createHash} from 'node:crypto'
 import {beforeAll, describe, expect, it} from 'vitest'
@@ -12,7 +13,7 @@ const raw = (name: keyof typeof manifest): Raw => JSON.parse(files[manifest[name
 // Canonical data may already include this batch after publication. Restore the
 // pinned 164-task baseline so delta assertions do not depend on release timing.
 const fixture = () => {
-  const data=JSON.parse(readFileSync('data/research.json','utf8')) as Research
+  const data=readResearchSync(new URL('../data/research.json',import.meta.url))
   for (const key of ['sources','claims','searches'] as const) data[key]=data[key].filter(x => !isFollowupId(x.id)) as never
   for (const t of data.tasks.filter(t => t.country === 'cn' && t.industryId === 'cn-agriculture')) if (t.dossier) delete t.dossier.agricultureFollowups
   const industry=data.industries.find(i => i.id === 'cn-agriculture')!

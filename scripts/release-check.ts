@@ -1,6 +1,7 @@
+import {readResearch} from '../src/research/storage'
 import { readFile } from 'node:fs/promises'
 import { validateResearch } from '../src/research/validate'
-const data=validateResearch(JSON.parse(await readFile(new URL('../data/research.json',import.meta.url),'utf8')))
+const data=validateResearch(await readResearch(new URL('../data/research.json',import.meta.url)))
 const acceptance=JSON.parse(await readFile(new URL('../research/acceptance.json',import.meta.url),'utf8'))
 const errors:string[]=[]
 if(data.freezeStatus!=='frozen') errors.push('研究清单尚未冻结')

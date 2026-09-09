@@ -1,8 +1,9 @@
+import {readResearch} from '../src/research/storage'
 import {readFile,writeFile,mkdir,rm} from 'node:fs/promises'
 import {validateResearch} from '../src/research/validate'
 import {createTaskPageBuilder,type IndustryPage} from '../src/research/site'
 const root=new URL('../',import.meta.url)
-const data=validateResearch(JSON.parse(await readFile(new URL('data/research.json',root),'utf8')))
+const data=validateResearch(await readResearch(new URL('data/research.json',root)))
 const taskPage=createTaskPageBuilder(data)
 const json=(v:unknown)=>JSON.stringify(v,null,2)+'\n'
 const put=async(path:string,body:string)=>{if(await readFile(new URL(path,root),'utf8').catch(()=>null)===body)return;await mkdir(new URL(path.slice(0,path.lastIndexOf('/'))+'/',root),{recursive:true});await writeFile(new URL(path,root),body)}

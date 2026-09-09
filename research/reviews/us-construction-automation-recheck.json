@@ -1,0 +1,2496 @@
+{
+  "schemaVersion": "1.0",
+  "reviewId": "us-construction-automation-limited-recheck-2026-09-09",
+  "reviewer": "root-independent-of-author",
+  "country": "US",
+  "industryId": "us-construction",
+  "reviewedAt": "2026-09-09",
+  "verdict": "statement-type-repair-required-before-import",
+  "canFreeze": false,
+  "input": {
+    "research/automation/us-construction.json": "dcd6cea337011b8ec1c7b8fa65910c1b1f0d3de6fdedf1d3f23137d47e2cd500",
+    "research/automation/us-construction-search-audit.json": "9ca4a755d7950e36eea7b7e36645e8d3700dc3da2b5e35437afc17c34cabde3c",
+    "research/automation/us-construction-revisions.json": "2efc212a1d12ce17ceb9da7f3bec4cc8cb07287129a61ef35f5472a874a86e90",
+    "research/automation/us-construction-validation.json": "7d03642eacdd3e7a9fed6f92fe567a4812f89c6dfbb8fd45fa1da1f4f559cc09",
+    "research/reviews/us-construction-automation-decisions.json": "661ddf52ff9976afc942d5b5a1aafdbe688bdd3a0a41c3074d0800312ae309e2"
+  },
+  "scope": "限定复检原作者dcd6修订；沿用独审原读来源与任务裁定，校验精确改动并亲读作者新增原文段，不重跑任务查询。",
+  "summary": {
+    "rawSHA256": "dcd6cea337011b8ec1c7b8fa65910c1b1f0d3de6fdedf1d3f23137d47e2cd500",
+    "revisionSHA256": "2efc212a1d12ce17ceb9da7f3bec4cc8cb07287129a61ef35f5472a874a86e90",
+    "exactChangeRecords": 12029,
+    "beforeAndAfterValuesVerified": true,
+    "replayExactlyMatchesNewRaw": true,
+    "sourceRepairReceipts": 35,
+    "metadataReceipts": 8,
+    "cacheSelectionsVerified": 110,
+    "emptyQuotesNoMatchAssertion": 290,
+    "nonemptyAnchorsInRaw": 91,
+    "taskClasses": {
+      "bounded-mechanism-or-tool-for-substep": 74,
+      "adjacent-mechanism-or-workflow-only": 21,
+      "no-matched-alternative-evidence": 36
+    }
+  },
+  "originalArchive": "revision-input-5fa3完整四文件字节与原独审一致",
+  "specifiedChecks": [
+    {
+      "id": "UC-R01",
+      "result": "35来源定位及8元数据修订一致；原句事实范围已收窄，混合语句类型问题另列RC01。"
+    },
+    {
+      "id": "UC-R02",
+      "result": "131项对照，130项维持原适用性；CONCRETE009按亲读后的泵喷枪对象进一步降为相邻。当前74局部、21相邻、36无匹配。"
+    },
+    {
+      "id": "UC-R03",
+      "result": "290空quote的rawQuoteMatch为null，并附无引文匹配声明；91非空锚在缓存中。这里没有把null说成false或全文已重读。"
+    },
+    {
+      "id": "UC-R04",
+      "result": "年度营运资金为WC_t减WC_(t-1)，t0全投入排除营运资金后单扣WC0，终期仅回收尚未释放余额；更新、退出支出及数值缺口保留。"
+    },
+    {
+      "id": "UC-R05",
+      "result": "37组76拟议子定义保留未研究/未继承原查询，批准新增0，任务和行业原始快照不改。"
+    }
+  ],
+  "additionalEvidenceActuallyRead": [
+    {
+      "id": "UC-A01",
+      "sourceId": "O47-2061.00",
+      "locator": "缓存LF574、职业任务27",
+      "result": "经喷枪施作天花或墙面，不能认定模板按构件顺序布料。作者进一步收窄成立。"
+    },
+    {
+      "id": "UC-A02",
+      "sourceId": "O47-2141.00",
+      "locator": "缓存LF331、职业任务5",
+      "result": "砂磨机列为磨平表面的工具，局部工具依据成立，具体旧涂层与粉尘条件不自动成立。"
+    },
+    {
+      "sourceId": "CPWR-CANVAS",
+      "locator": "缓存LF15—21",
+      "result": "机器人干墙泥料喷涂/打磨且受训者遥控；作为旧涂层打磨的相邻对象合理。"
+    },
+    {
+      "sourceId": "DRYWALL-STUDY",
+      "locator": "缓存LF870—879及882—911",
+      "result": "追加870—879支持未计背景噪声；原882—911支持数据与现场口语差异，扩大定位合理。"
+    }
+  ],
+  "newFindings": [
+    {
+      "id": "UC-RC01",
+      "severity": "required-revision",
+      "title": "混合来源事实与研究边界仍被整体标为直接事实",
+      "reason": "多处locators.claim后半段是研究范围判断、未验证结论或计量规则，仍标direct-fact-limited-to-source；被任务sourceRefs和statementSeparation.directFacts复用会把判断显示成原文事实。原独审建议句也含部分此类边界，本轮补正分类。",
+      "examples": [
+        {
+          "sourceId": "C-EARTH",
+          "locatorId": "utilities",
+          "path": "/sources/0/locators/0",
+          "currentStatementType": "direct-fact-limited-to-source",
+          "currentClaim": "加州公路施工手册要求业主检查方复核既有设施迁移状态并确认应保留设施和特征标记清楚；承包商作业与业主检查须分开计量。",
+          "researchBoundaryToSeparate": "承包商作业与业主检查须分开计量。"
+        },
+        {
+          "sourceId": "DRYWALL-STUDY",
+          "locatorId": "pick",
+          "path": "/sources/42/locators/0",
+          "currentStatementType": "direct-fact-limited-to-source",
+          "currentClaim": "2024年论文以ROS/Gazebo中的虚拟机械臂验证自然语言指令到板材抓取放置动作的框架；未据此确认物理搬板原型、真实工地部署或板材紧固能力。",
+          "researchBoundaryToSeparate": "未据此确认物理搬板原型、真实工地部署或板材紧固能力。"
+        },
+        {
+          "sourceId": "TYBOT",
+          "locatorId": "human",
+          "path": "/sources/21/locators/1",
+          "currentStatementType": "direct-fact-limited-to-source",
+          "currentClaim": "TyBOT厂商FAQ描述监督人员监视表现、补充绑丝并可在特殊情形人工覆盖控制；未核各项目实际人员配置或节省工时。",
+          "researchBoundaryToSeparate": "未核各项目实际人员配置或节省工时。"
+        },
+        {
+          "sourceId": "O47-2061.00",
+          "locatorId": "task-27",
+          "path": "/sources/51/locators/26",
+          "currentStatementType": "direct-fact-limited-to-source",
+          "currentClaim": "职业条目描述照管泵送混凝土、砂浆等材料并经喷枪施作于天花或墙面的机器；不是向模板按构件顺序布料的直接证据。",
+          "researchBoundaryToSeparate": "不是向模板按构件顺序布料的直接证据。"
+        }
+      ],
+      "scopeToCheck": [
+        {
+          "sourceId": "C-EARTH",
+          "locatorId": "utilities",
+          "path": "/sources/0/locators/0",
+          "claim": "加州公路施工手册要求业主检查方复核既有设施迁移状态并确认应保留设施和特征标记清楚；承包商作业与业主检查须分开计量。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "C-EARTH",
+          "locatorId": "unsuitable",
+          "path": "/sources/0/locators/2",
+          "claim": "手册要求检查原地基材料，向承包商指出需移除的不合格土料范围和深度，移除后再检查是否须先处理排水；不是自动判别不合格土料机制。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "C-EARTH",
+          "locatorId": "water",
+          "path": "/sources/0/locators/3",
+          "claim": "对路基过量地下水，驻地工程师联系水力或岩土专业人员讨论稳定材料及开挖深度并通知承包商；本段没有自动监测或异常判别设备。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "C-EARTH",
+          "locatorId": "qc",
+          "path": "/sources/0/locators/5",
+          "claim": "手册明确承包商承担指定回填、路肩和土工材料等的质量控制，业主检查方核查其落实；本段没有自动质检机制。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "C-CONCRETE",
+          "locatorId": "vibrate",
+          "path": "/sources/1/locators/2",
+          "claim": "不足振捣可留下空洞；是工艺风险，不是机器人失效事件。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "C-CONCRETE",
+          "locatorId": "clean",
+          "path": "/sources/1/locators/3",
+          "claim": "加州公路混凝土检查流程分别涉及模板内尺寸、钢筋和预埋件固定、清除异物及承包商泵送排水；这些检查对象与动作不能合并为已验证的无人清洁流程。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "C-CONCRETE",
+          "locatorId": "curing",
+          "path": "/sources/1/locators/4",
+          "claim": "手册要求提前拆模后实施养护；温度监测与数据记录段明确针对大体积混凝土，不能外推全部混凝土构件。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "C-STEEL",
+          "locatorId": "release",
+          "path": "/sources/2/locators/1",
+          "claim": "满足所需连接条件才可释放吊装荷载；不能按机械可吊起等同稳定交付。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "OSHA-STEEL-INSPECT",
+          "locatorId": "inspect",
+          "path": "/sources/3/locators/0",
+          "claim": "钢结构架设所用起重机须在每班前由有能力者目视检查；所定位条款开头涉及控制机构缺陷，不替代全部吊索具、吊点或自动自检证据。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "C-ELEC",
+          "locatorId": "isolate",
+          "path": "/sources/5/locators/0",
+          "claim": "电路停止供能并防止误操作、设置清晰标签；指导未证明自动核实所有电源。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "C-HEATPUMP",
+          "locatorId": "load",
+          "path": "/sources/7/locators/0",
+          "claim": "住宅无风管热泵指南分别要求按Manual J核算分区负荷、选择机组数量类型，并以AHRI证明或厂家资料核对室内外机组合；不是选型软件的机制证据。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "C-HEATPUMP",
+          "locatorId": "leak",
+          "path": "/sources/7/locators/3",
+          "claim": "充氮检漏配合仪表与泡沫定位，不等于自动修复。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "C-HEATPUMP",
+          "locatorId": "drain",
+          "path": "/sources/7/locators/5",
+          "claim": "住宅无风管热泵指南要求确认冷凝水管及接水盘安装正确，并测试系统各运行模式；所引段落未证明实际冷凝负荷下的排水性能测试或排水安装专机。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "C-ROOF",
+          "locatorId": "flash",
+          "path": "/sources/8/locators/1",
+          "claim": "特定沥青瓦屋面穿管节点指南要求自粘膜、金属或橡胶套环与上下瓦片按排水方向搭接；不代表全部屋面体系的节点方法。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "C-AIRSEAL",
+          "locatorId": "seal",
+          "path": "/sources/9/locators/1",
+          "claim": "按缝隙、材料用填缝胶、泡沫等；不是防火贯穿密封认证。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "C-AIRSEAL",
+          "locatorId": "record",
+          "path": "/sources/9/locators/2",
+          "claim": "2019年住宅气密清单要求封堵后进行鼓风门测试并将结果交业主，承包商勾选并签认工作完成；这是检查和交付要求，不是该工程实测结果。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "VOLPE-UTILITY",
+          "locatorId": "future",
+          "path": "/sources/10/locators/1",
+          "claim": "页面仍描述后续运营测试和商业化，不能据更新日声称2026持续商业运行。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "PHMSA-GPR",
+          "locatorId": "scan",
+          "path": "/sources/11/locators/0",
+          "claim": "2022年报告描述操作员将半自主平台驶至作业点后指令自动扫描，并报告在ULC自建试场测试；不是客户工地持续商业定位服务。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "PHMSA-GPR",
+          "locatorId": "unbuilt",
+          "path": "/sources/11/locators/1",
+          "claim": "2022年报告时避障和自动地面标记已设计但尚未实现，客户现场测试列为后续工作；未核2026年该产品状态。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "PHMSA-GPR",
+          "locatorId": "congest",
+          "path": "/sources/11/locators/2",
+          "claim": "背景提出密集地下设施和非金属管探测需求；本段不是本设备失败试验。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "VOLVO-DIG",
+          "locatorId": "dig",
+          "path": "/sources/14/locators/0",
+          "claim": "厂商描述设备自动调整动臂与铲斗以保持坡度，操作者仍用控制杆控制斗杆速度；并非全部挖掘动作自主化。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "VOLVO-DIG",
+          "locatorId": "override",
+          "path": "/sources/14/locators/1",
+          "claim": "操作者预设深度等虚拟边界，不等于系统发现未知地下设施。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "BUILT-SAFETY",
+          "locatorId": "monitor",
+          "path": "/sources/17/locators/0",
+          "claim": "厂商分别列出机上及无线急停、有人支持的远程监控；不能据此量化现场安全或残留人工。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "FELCO-COMPACT",
+          "locatorId": "clean",
+          "path": "/sources/18/locators/1",
+          "claim": "刮齿辅助清理滚轮；未证明自动维护全部设备。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "HUMBOLDT-DENSITY",
+          "locatorId": "measure",
+          "path": "/sources/19/locators/0",
+          "claim": "EDGe系统将实验室代表土样的Proctor及电学数据与同材料现场读数对应，用于产品所列土料的密度、含水量和压实检测；不替代代表性采样。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "TYBOT",
+          "locatorId": "tie",
+          "path": "/sources/21/locators/0",
+          "claim": "对水平钢筋交点批量绑扎，不能覆盖垫块放置或前置钢筋安装。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "TYBOT",
+          "locatorId": "human",
+          "path": "/sources/21/locators/1",
+          "claim": "TyBOT厂商FAQ描述监督人员监视表现、补充绑丝并可在特殊情形人工覆盖控制；未核各项目实际人员配置或节省工时。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "DOKA-CLIMB",
+          "locatorId": "climb",
+          "path": "/sources/22/locators/0",
+          "claim": "液压提升核心筒模板及作业平台，初始组装和支撑判断仍另计。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "DOKAXACT",
+          "locatorId": "pressure",
+          "path": "/sources/24/locators/0",
+          "claim": "无线压力和锚点荷载监测及记录，不能等同直接测量模板位移。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "CONJET",
+          "locatorId": "remove",
+          "path": "/sources/26/locators/0",
+          "claim": "遥控水力拆除混凝土和表面处理，不能自动补填或完成修补验收。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "TRIMBLE-EARTH",
+          "locatorId": "records",
+          "path": "/sources/27/locators/1",
+          "claim": "机载作业数据支持进度和实测记录，不替代独立终验。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "TRIMBLE-RI",
+          "locatorId": "layout",
+          "path": "/sources/28/locators/0",
+          "claim": "厂商描述Ri提供激光放样、实时水平检测及FieldLink软件集成，并支持人员远程控制仪器；现场永久标记、遮挡处理和独立验收的具体人工尚待验证。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "EASYFRAME",
+          "locatorId": "mark",
+          "path": "/sources/29/locators/0",
+          "claim": "EasyFrame面向墙板及构件制造商，将框架线喷墨标在木材上，可与人工或自动锯配套；场外生产不等同施工现场标记或安装。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "SPIDA-WALL",
+          "locatorId": "assemble",
+          "path": "/sources/30/locators/0",
+          "claim": "SPIDA厂内墙架设备自动定位板枋并循环打钉，另列装料支承、双手夹紧触发及补钉提示；未确认全部上料无人化或现场立墙。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "WALL-LIFT",
+          "locatorId": "raise",
+          "path": "/sources/31/locators/0",
+          "claim": "Wall-Lift产品用电动绞盘立墙，松开控制后制动以保持位置直至完成支撑；人工校正和支撑安装未被自动化覆盖。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "OSHA-WIRE",
+          "locatorId": "pull",
+          "path": "/sources/32/locators/0",
+          "claim": "OSHA工具指引介绍机械拉线器和卷轴滚轮，另述拉线与送料两端操作及人员轮换；没有完整流程无人化证据。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "DUSTY-MEP",
+          "locatorId": "print",
+          "path": "/sources/33/locators/0",
+          "claim": "Dusty的MEP产品页描述把协调CAD/BIM中的点、线及标签打印在楼板上，包括套管、支吊架、设备和管路参考；不证明隔墙图协调、钻孔或实体安装。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "OATEY-FLASH",
+          "locatorId": "collar",
+          "path": "/sources/38/locators/0",
+          "claim": "预制金属底座和管道密封圈辅助现场安装，未证明自主搭接铺设。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "TEN-ROBOTS",
+          "locatorId": "methods",
+          "path": "/sources/43/locators/0",
+          "claim": "多国承包商资料、计划、现场记录与比较假设，不能全称美国实证。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "TEN-ROBOTS",
+          "locatorId": "tybot",
+          "path": "/sources/43/locators/3",
+          "claim": "2022年比较研究描述TyBot需要预先布置钢筋、安装运行支撑及人工监督检查；部分生产率为比较假设，不能证明所设情形已实地部署或2026持续运行。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "TEN-ROBOTS",
+          "locatorId": "idle",
+          "path": "/sources/43/locators/4",
+          "claim": "桥梁工序间隔需协调以减少闲置；项目比较条件不能当实测全年利用率。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "PENTEK",
+          "locatorId": "surface",
+          "path": "/sources/44/locators/0",
+          "claim": "Pentek描述由电机调节缆索长度移动大表面工作模块，列出表面处理、涂装与检查模块，背景为核清理示范；普通建筑局部涂层适配另核。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "FINISHBOT",
+          "locatorId": "paint",
+          "path": "/sources/45/locators/0",
+          "claim": "厂商声称ANDY能在设定墙面自行映射及喷漆，并提供机器人辅助施工技术人员培训；未核具名美国项目当前运行及实际人员配置。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "PROCORE-COMPLETE",
+          "locatorId": "record",
+          "path": "/sources/46/locators/0",
+          "claim": "Procore描述归集现场观察、照片、测试和缺陷记录并汇编移交资料，权限控制特定人员签认；记录系统不代替物理检查、测量或施工。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "UMD-PLUMB",
+          "locatorId": "test",
+          "path": "/sources/48/locators/1",
+          "claim": "2023年大学业主模板要求新改生活给水管道测试并获认可前保持可见，不得提前隐蔽；适用工程条款及投用条件尚需另核。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2031.00",
+          "locatorId": "task-3",
+          "path": "/sources/49/locators/2",
+          "claim": "职业条目描述以手工具、机械或动力锯将材料成形或切至规定尺寸；现场完整加工验收未核。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2031.00",
+          "locatorId": "task-5",
+          "path": "/sources/49/locators/4",
+          "claim": "职业条目描述使用木工手动或动力工具安装窗、框架、地板等构件；不能据此证明过梁专用升降机。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2031.00",
+          "locatorId": "task-9",
+          "path": "/sources/49/locators/8",
+          "claim": "职业条目描述用手工具移除并修换损坏构件；未证明全部动力拆换或自动替换。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2061.00",
+          "locatorId": "task-5",
+          "path": "/sources/51/locators/4",
+          "claim": "职业条目描述测量、标记或记录开口和距离以放样作业区域；建立本工程标高控制及验收仍未核。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2061.00",
+          "locatorId": "task-27",
+          "path": "/sources/51/locators/26",
+          "claim": "职业条目描述照管泵送混凝土、砂浆等材料并经喷枪施作于天花或墙面的机器；不是向模板按构件顺序布料的直接证据。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2073.00",
+          "locatorId": "task-11",
+          "path": "/sources/52/locators/10",
+          "claim": "职业条目描述操纵拖拉机或推土机清地、拌污泥、修回填及筑路；不是具体工程无人作业实证。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2073.00",
+          "locatorId": "task-17",
+          "path": "/sources/52/locators/16",
+          "claim": "职业条目描述记录材料、设备使用和问题；不是实物完成面测量机制。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2081.00",
+          "locatorId": "task-6",
+          "path": "/sources/53/locators/5",
+          "claim": "职业条目描述用孔锯及其他切割工具在板材上开设备孔口；整板外轮廓裁切另核。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2081.00",
+          "locatorId": "task-10",
+          "path": "/sources/53/locators/9",
+          "claim": "职业条目描述用刀修整墙板粗边以保持接缝平整；不等于更换损伤板件。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2081.00",
+          "locatorId": "task-18",
+          "path": "/sources/53/locators/17",
+          "claim": "职业条目描述用撬棍及锤移除旧灰泥、石膏板或面板；完整替换及返修验收另核。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2111.00",
+          "locatorId": "task-11",
+          "path": "/sources/54/locators/10",
+          "claim": "职业条目描述用测试设备和手工具诊断故障并纠正问题；本条不证明自动根因识别及停用标识。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2111.00",
+          "locatorId": "task-15",
+          "path": "/sources/54/locators/14",
+          "claim": "职业条目描述以手动或动力工具修换导线、设备或装置；未核本工程完整隔离复测流程。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2111.00",
+          "locatorId": "task-19",
+          "path": "/sources/54/locators/18",
+          "claim": "职业条目描述把小型金属或塑料开关插座盒固定于墙面；不证明自动安装设备。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2141.00",
+          "locatorId": "task-4",
+          "path": "/sources/55/locators/3",
+          "claim": "职业条目描述用填缝枪或批刀向裂缝孔洞填入填料；不证明自动识别供料填平。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2141.00",
+          "locatorId": "task-5",
+          "path": "/sources/55/locators/4",
+          "claim": "职业条目描述用砂纸、刮刀、刷、钢丝棉或砂磨机磨平表面；具体旧涂层及粉尘控制条件另核。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2152.00",
+          "locatorId": "task-10",
+          "path": "/sources/56/locators/9",
+          "claim": "职业条目描述向管道或器具充水或气并观察压力表以发现和定位泄漏；失败区隔离及复测另核。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2152.00",
+          "locatorId": "task-13",
+          "path": "/sources/56/locators/12",
+          "claim": "职业条目描述用手动或动力工具安装管组件、阀件、器具与洁具；成品保护及末端连接验收另核。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2152.00",
+          "locatorId": "task-16",
+          "path": "/sources/56/locators/15",
+          "claim": "职业条目描述用手动或动力工具修改、清洁或维护管系统、配件及有关机器；不是管工工具或施工残料清理。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2152.00",
+          "locatorId": "task-22",
+          "path": "/sources/56/locators/21",
+          "claim": "职业条目描述修理、移除并替换系统部件；当前工地接口与验收未核。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2171.00",
+          "locatorId": "task-4",
+          "path": "/sources/57/locators/3",
+          "claim": "职业条目明确用叉车或起重机搬运钢筋等建筑材料；材料分置识别及卸载质量另核。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2221.00",
+          "locatorId": "task-2",
+          "path": "/sources/59/locators/1",
+          "claim": "职业条目描述以铅垂、激光、经纬或水平仪检验钢件水平与垂直位置；未证明自动认可偏差。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2221.00",
+          "locatorId": "task-13",
+          "path": "/sources/59/locators/12",
+          "claim": "职业条目描述用花篮螺栓、撬杆、千斤顶或手工具把钢件调整到最终位置；整体稳定另核。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2221.00",
+          "locatorId": "task-14",
+          "path": "/sources/59/locators/13",
+          "claim": "职业条目描述人员随构件定位或以绳引导构件就位；不证明自动姿态控制或连接。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O47-2221.00",
+          "locatorId": "task-15",
+          "path": "/sources/59/locators/14",
+          "claim": "职业条目描述把定位销打入铆钉孔以使钢件孔位对齐；不是完整连接验收。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O49-9021.00",
+          "locatorId": "task-2",
+          "path": "/sources/60/locators/1",
+          "claim": "职业条目描述用电气测试仪表测试电路或部件连续性；不证明冷凝排水或机组全部模式测试。",
+          "statementType": "direct-fact-limited-to-source"
+        },
+        {
+          "sourceId": "O49-9021.00",
+          "locatorId": "task-20",
+          "path": "/sources/60/locators/19",
+          "claim": "职业条目描述用手工具和气焊设备把压缩机、冷凝器等装于指定支架位置；未核全部住宅支承形式。",
+          "statementType": "direct-fact-limited-to-source"
+        }
+      ],
+      "requiredChanges": [
+        "对已列及其他同类混合声明分离原文事实与研究判断/假设，可保留源事实字段与researchBoundary对象，各自标类型。若无法稳定拆分，整句标研究判断并移出directFacts，不能继续整体称直接事实。",
+        "同步任务、方案、反例、sourceBoundConditions和机会的镜像/声明分组；不以非空sourceRefs证明技术动作直接匹配。纯职业元信息中的适用限制不应变成具体机器事实。",
+        "保留正确来源定位、阶段、日期、74/21/36分类、原131任务、37拟拆/76子定义、人工现金空值及262原查询，不增任务、不重跑、不补造UTC。",
+        "归档dcd6完整文件，另出新限定修订回执与逐路径前后值；旧作者回执与旧独审不修改。"
+      ]
+    }
+  ],
+  "remainingGaps": [
+    "没有原262查询请求全文/独立UTC，只保留作者列表和组级原始回包归属",
+    "样板不是全行业完整任务",
+    "当前现场持续商业成功、全技术/失败/退出/未采用仍需补研",
+    "37组子任务未独立研究；数值现金回收期未计算",
+    "完整规范现行效力与现场验收条件未认证"
+  ],
+  "taskChecks": [
+    {
+      "taskId": "US-CON-EARTH-001",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-EARTH-002",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-EARTH-003",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-EARTH-004",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-EARTH-005",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-EARTH-006",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-EARTH-007",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-EARTH-008",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-EARTH-009",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-EARTH-010",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-EARTH-011",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-EARTH-012",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-EARTH-013",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-001",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-002",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-003",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-004",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-005",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-006",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-007",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-008",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-009",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-010",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-011",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-012",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-013",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-014",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-015",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 3,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-016",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-CONCRETE-017",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-STEEL-001",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-STEEL-002",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-STEEL-003",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-STEEL-004",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-STEEL-005",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-STEEL-006",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-STEEL-007",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-STEEL-008",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-STEEL-009",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-STEEL-010",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-STEEL-011",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-STEEL-012",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-FRAME-001",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-FRAME-002",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-FRAME-003",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-FRAME-004",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-FRAME-005",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-FRAME-006",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-FRAME-007",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-FRAME-008",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-FRAME-009",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-FRAME-010",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-FRAME-011",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-FRAME-012",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-001",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-002",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-003",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-004",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-005",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-006",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-007",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-008",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-009",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-010",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-011",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ELECTRIC-012",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-001",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-002",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-003",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-004",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-005",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-006",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-007",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-008",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-009",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-010",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-011",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-012",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PLUMB-013",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-HVAC-001",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-HVAC-002",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-HVAC-003",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-HVAC-004",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 3,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-HVAC-005",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-HVAC-006",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-HVAC-007",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-HVAC-008",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-HVAC-009",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-HVAC-010",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-HVAC-011",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-HVAC-012",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-HVAC-013",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-HVAC-014",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-HVAC-015",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ROOF-001",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ROOF-002",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ROOF-003",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ROOF-004",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ROOF-005",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ROOF-006",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ROOF-007",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ROOF-008",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ROOF-009",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ROOF-010",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ROOF-011",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-ROOF-012",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-001",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-002",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-003",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-004",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-005",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-006",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-007",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-008",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-009",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-010",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-011",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-DRYWALL-012",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PAINT-001",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PAINT-002",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PAINT-003",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PAINT-004",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PAINT-005",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PAINT-006",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PAINT-007",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PAINT-008",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PAINT-009",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "adjacent-mechanism-or-workflow-only",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PAINT-010",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PAINT-011",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 0,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PAINT-012",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "no-matched-alternative-evidence",
+      "proposedChildren": 2,
+      "isFrozen": false
+    },
+    {
+      "taskId": "US-CON-PAINT-013",
+      "oldOriginalHumanCashQueryPreserved": true,
+      "authorMirrorsMatch": true,
+      "positiveClass": "bounded-mechanism-or-tool-for-substep",
+      "proposedChildren": 2,
+      "isFrozen": false
+    }
+  ],
+  "verifiedCacheSelections": [
+    {
+      "cachePath": "research/automation/source-cache/us-construction/C-EARTH-web.txt",
+      "cacheSha256": "3efd568b7efe6cd03e5dd054d11785251267bb40e32310e1e5677df4047d004f",
+      "start": 187,
+      "end": 188,
+      "selectedTextSha256": "6a6ea9e86760a29fcc4c3f296847c7203737638303093f8e89bb97716638d631"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/C-EARTH-web.txt",
+      "cacheSha256": "3efd568b7efe6cd03e5dd054d11785251267bb40e32310e1e5677df4047d004f",
+      "start": 287,
+      "end": 287,
+      "selectedTextSha256": "fea3f810ac95ae1ab7fb7f0ae1b73dba3bd03e149f3abb64badcb38456e94192"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/C-EARTH-web.txt",
+      "cacheSha256": "3efd568b7efe6cd03e5dd054d11785251267bb40e32310e1e5677df4047d004f",
+      "start": 292,
+      "end": 292,
+      "selectedTextSha256": "a7b6d60f9ce37179bd03e1d2bf54154de470a62d94fdf3f039ffafb1d4a50ade"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/C-EARTH-web.txt",
+      "cacheSha256": "3efd568b7efe6cd03e5dd054d11785251267bb40e32310e1e5677df4047d004f",
+      "start": 41,
+      "end": 43,
+      "selectedTextSha256": "e83b665aebb1b1a72a0bb506fffbb03318b684247888d402d7040088189e095c"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/C-EARTH-web.txt",
+      "cacheSha256": "3efd568b7efe6cd03e5dd054d11785251267bb40e32310e1e5677df4047d004f",
+      "start": 131,
+      "end": 131,
+      "selectedTextSha256": "6140aefa94f8277a12fb13eab1e8b41743b0f8427acbcde21cbdd9d9ca4d7d46"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/C-CONCRETE-web.txt",
+      "cacheSha256": "a47dd27b1dcd8e8c48742c3f5d01b29b8b1286ec48309f060dbcf417e9eecffc",
+      "start": 78,
+      "end": 78,
+      "selectedTextSha256": "b21770bc2c3128341c770e7c9755b5a79c5fde1f53fd3731bc0541ecf9ea0b08"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/C-CONCRETE-web.txt",
+      "cacheSha256": "a47dd27b1dcd8e8c48742c3f5d01b29b8b1286ec48309f060dbcf417e9eecffc",
+      "start": 81,
+      "end": 81,
+      "selectedTextSha256": "7e3ca95e2145b8bda4732fa3d469040395b6208a0568d7da45c96af8ea93a567"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/C-CONCRETE-web.txt",
+      "cacheSha256": "a47dd27b1dcd8e8c48742c3f5d01b29b8b1286ec48309f060dbcf417e9eecffc",
+      "start": 85,
+      "end": 86,
+      "selectedTextSha256": "a1ddf478c85e8131a9f0396e8712996be03c5ff94b34a5bc033facc52d595e9d"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/C-CONCRETE-web.txt",
+      "cacheSha256": "a47dd27b1dcd8e8c48742c3f5d01b29b8b1286ec48309f060dbcf417e9eecffc",
+      "start": 87,
+      "end": 87,
+      "selectedTextSha256": "1e3d6822caea089ee1644cde79d2ceaf9a52a70c6683695f5cfadafd6c2d56ed"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/C-CONCRETE-web.txt",
+      "cacheSha256": "a47dd27b1dcd8e8c48742c3f5d01b29b8b1286ec48309f060dbcf417e9eecffc",
+      "start": 120,
+      "end": 120,
+      "selectedTextSha256": "fb6f5df3928d2679ea4571d9c06547d49dbc6846908f0bcd30579506e858466c"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/OSHA-STEEL-INSPECT-web.txt",
+      "cacheSha256": "73877cc78f58845158b6b07c11a9b7c6d753b5717ac46aab2eef7c8c3192ce0b",
+      "start": 43,
+      "end": 46,
+      "selectedTextSha256": "69695a785f1cb5b532bbb4549768465a001456e4c6fddb443b25ef337cbdfba6"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/OSHA-STEEL-INSPECT-web.txt",
+      "cacheSha256": "73877cc78f58845158b6b07c11a9b7c6d753b5717ac46aab2eef7c8c3192ce0b",
+      "start": 53,
+      "end": 55,
+      "selectedTextSha256": "72a9501909ea73948bd871f5496e85e0e0dbd0656e2b21032fc31c361f89b963"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/OSHA-CONCRETE-web.txt",
+      "cacheSha256": "068066a53519704c61ad95290489afd0f35cbf1d4eb352795d2ac873b62ebcff",
+      "start": 46,
+      "end": 50,
+      "selectedTextSha256": "5350a8a7e2e2a4d63b5edfa1f46af2ea74fbc501baa5b6c668032d9d304c1935"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/OSHA-CONCRETE-web.txt",
+      "cacheSha256": "068066a53519704c61ad95290489afd0f35cbf1d4eb352795d2ac873b62ebcff",
+      "start": 54,
+      "end": 58,
+      "selectedTextSha256": "73a167ac29c6646d5282cfc28c8da9219344c613e82ebbeb912dd4ceff1882c4"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/C-HEATPUMP.txt",
+      "cacheSha256": "4b614fc7b11d6b689f9d9eb914a818c546e3e16680e0914996ad06cb2f6b0a30",
+      "start": 660,
+      "end": 662,
+      "selectedTextSha256": "ba3587b4b9f2a839535b38628fa83c4cb04ca5a2111519688f567da6b881767e"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/C-HEATPUMP.txt",
+      "cacheSha256": "4b614fc7b11d6b689f9d9eb914a818c546e3e16680e0914996ad06cb2f6b0a30",
+      "start": 1204,
+      "end": 1204,
+      "selectedTextSha256": "0c06a75afb71bc0b46d0c375372b1884332fd6fa54a9ce6420e000a616113d08"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/C-HEATPUMP.txt",
+      "cacheSha256": "4b614fc7b11d6b689f9d9eb914a818c546e3e16680e0914996ad06cb2f6b0a30",
+      "start": 665,
+      "end": 665,
+      "selectedTextSha256": "e8a2521b860669b89a0bf93fc1d8b57c1ae781977e299ea6a95c2bc116494a23"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/C-HEATPUMP.txt",
+      "cacheSha256": "4b614fc7b11d6b689f9d9eb914a818c546e3e16680e0914996ad06cb2f6b0a30",
+      "start": 1209,
+      "end": 1210,
+      "selectedTextSha256": "4cbc61e565c648d85ba0b4a3ab8d287a14a75cdc27fc629c2f5d192aa55c073e"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/C-ROOF.txt",
+      "cacheSha256": "2e5fd49adf9fa1ac4ac3abdae8ae61c3a02d2791d4a98e4177bf35008c258471",
+      "start": 685,
+      "end": 685,
+      "selectedTextSha256": "eff580679122be54d71d0e6f5ca1047d3463a120bc6467669479edeab167a42b"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/C-ROOF.txt",
+      "cacheSha256": "2e5fd49adf9fa1ac4ac3abdae8ae61c3a02d2791d4a98e4177bf35008c258471",
+      "start": 688,
+      "end": 689,
+      "selectedTextSha256": "5900f558daa9d3bcc91c8863b7d5c5ff2ec4ed00d9afb77585c74e932b7a0e8d"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/C-AIRSEAL.txt",
+      "cacheSha256": "b31caae05ed06f9dd35f9d858fe8e71cefa4a477fc4a5599c39b4da1c2513009",
+      "start": 191,
+      "end": 192,
+      "selectedTextSha256": "2ce47bcabe60c134878adb9b3109137e1a424b2bde3b1eda852c77977c7efc39"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/C-AIRSEAL.txt",
+      "cacheSha256": "b31caae05ed06f9dd35f9d858fe8e71cefa4a477fc4a5599c39b4da1c2513009",
+      "start": 197,
+      "end": 204,
+      "selectedTextSha256": "fcf3da065b1401a865ed0bd3dff5be2469c3ab165074fe2c62653034731dd8a4"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/PHMSA-GPR.txt",
+      "cacheSha256": "01ad1fd0f1adbf0e4b0d2be607fa75109e650f7a346646129714519eda0a80ee",
+      "start": 149,
+      "end": 157,
+      "selectedTextSha256": "fda392042e763340ab3e625ad92352750d3c1dcd5a7178f1344a3de2d42d3089"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/PHMSA-GPR.txt",
+      "cacheSha256": "01ad1fd0f1adbf0e4b0d2be607fa75109e650f7a346646129714519eda0a80ee",
+      "start": 158,
+      "end": 164,
+      "selectedTextSha256": "f0c225faa37c326c42fbea2a0a420416822d5593abbd5a93654a48971dd78656"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/PHMSA-GPR.txt",
+      "cacheSha256": "01ad1fd0f1adbf0e4b0d2be607fa75109e650f7a346646129714519eda0a80ee",
+      "start": 165,
+      "end": 171,
+      "selectedTextSha256": "c8d2ef9184693b8d161a2da2c57554ff7a60e65ee496efcbe84600a5b6a73c07"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/FHWA-BARRIER.txt",
+      "cacheSha256": "92c92f056ef68d0ebcb752ad9f3aa32822e9017420aa9aafd21259599b941c41",
+      "start": 99,
+      "end": 99,
+      "selectedTextSha256": "fed724ca8e34e46a7beaa354438b763b324a82ccde9235325322cace557467d8"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/FHWA-BARRIER.txt",
+      "cacheSha256": "92c92f056ef68d0ebcb752ad9f3aa32822e9017420aa9aafd21259599b941c41",
+      "start": 104,
+      "end": 106,
+      "selectedTextSha256": "8a3e7217f2ec6bf4a754a00931a1e27c52f0e80dee6254f76a561a19edfe40af"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/VOLVO-DIG.txt",
+      "cacheSha256": "d3e4971950a2b26610e798ec3197e9611a67d6d6e7a5ad59a63be8cdb0e46cbf",
+      "start": 752,
+      "end": 752,
+      "selectedTextSha256": "2e15023efb42f91f3c0c52c975cf6841e62973824d22b0cb7fdb6f8f4be09b0c"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/BUILT-SAFETY-web.txt",
+      "cacheSha256": "231eefca7ac2eabe6d8392e51e5a7af9b8441e07540f86c1b986a0a35d56c82c",
+      "start": 80,
+      "end": 82,
+      "selectedTextSha256": "aeca2b7cf82807e671ee9129113b2b33e552c69e7e523e3f57b34c41f0ae47c9"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/BUILT-SAFETY-web.txt",
+      "cacheSha256": "231eefca7ac2eabe6d8392e51e5a7af9b8441e07540f86c1b986a0a35d56c82c",
+      "start": 105,
+      "end": 105,
+      "selectedTextSha256": "90cf0c505b0425f820f25591811459dd626d645d788981bd420ed439c9adcc1f"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/HUMBOLDT-DENSITY.txt",
+      "cacheSha256": "dacabd255c892dc40d1a5faaec741f5d8a4399683d7bb07fed98b5b55a46dd17",
+      "start": 883,
+      "end": 890,
+      "selectedTextSha256": "ba710fa4b10204571c38246601a9d3f4edbf42f69e4f64609ee6e5bd4d112510"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/HUMBOLDT-DENSITY.txt",
+      "cacheSha256": "dacabd255c892dc40d1a5faaec741f5d8a4399683d7bb07fed98b5b55a46dd17",
+      "start": 906,
+      "end": 908,
+      "selectedTextSha256": "84e0ec42d42a88f85345bf4ed4ed82908e8a11d22df98e7b273547bf57467de0"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/HUMBOLDT-DENSITY.txt",
+      "cacheSha256": "dacabd255c892dc40d1a5faaec741f5d8a4399683d7bb07fed98b5b55a46dd17",
+      "start": 932,
+      "end": 948,
+      "selectedTextSha256": "279bda003f923cf4972a9c4eeb5c51df7a4aa7b847ad08d05180e112e3ccdeb5"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/TYBOT.txt",
+      "cacheSha256": "7fc641f1021fd9342ee2108e884f03e16c006cedefdb337b46bbe4d33a881370",
+      "start": 214,
+      "end": 216,
+      "selectedTextSha256": "1f3b1a5f86ad0020f10ee07ece9443373de31010fbaa2976534c9aa1bcd2c093"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/TRIMBLE-RI.txt",
+      "cacheSha256": "43d06ba8adc0ce9b8db79a51d2aeb6bbfddcaaf205a6fc06ba1def9444f2a5cd",
+      "start": 772,
+      "end": 790,
+      "selectedTextSha256": "c44f92f82696d616e68c5f4103135b41492263202f8177fe63ae9fdd79e912e1"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/TRIMBLE-RI.txt",
+      "cacheSha256": "43d06ba8adc0ce9b8db79a51d2aeb6bbfddcaaf205a6fc06ba1def9444f2a5cd",
+      "start": 791,
+      "end": 793,
+      "selectedTextSha256": "87f442ac0873e6d33ab1b35c92c60d60ef0ed89c6de0374fbb736a541aaeacda"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/EASYFRAME.txt",
+      "cacheSha256": "9e4b51575da5333b1b447dd3fc92970890e1c5051413dc2a823fdd8cf9d0f03c",
+      "start": 9,
+      "end": 12,
+      "selectedTextSha256": "e6f33322d0e6efad4866d96b9c3cb91ba328940203f884ced9bae2135fd3eb5a"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/SPIDA-WALL.txt",
+      "cacheSha256": "cf8898c5ab2eb548102df9aa93b1f423bdd52cb16b47183b7d953e4b48950239",
+      "start": 41,
+      "end": 44,
+      "selectedTextSha256": "90d0b0f5b02aebf5dfff690b6ed24b92188f657bfb834970fbbfddf729e710bd"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/SPIDA-WALL.txt",
+      "cacheSha256": "cf8898c5ab2eb548102df9aa93b1f423bdd52cb16b47183b7d953e4b48950239",
+      "start": 56,
+      "end": 62,
+      "selectedTextSha256": "42ffb107b7a00cefc70cae03aa7f0153f02f0af92b13ade67dbe4a43e3189c5b"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/SPIDA-WALL.txt",
+      "cacheSha256": "cf8898c5ab2eb548102df9aa93b1f423bdd52cb16b47183b7d953e4b48950239",
+      "start": 72,
+      "end": 72,
+      "selectedTextSha256": "c407d359c478177295ecd1390a61fef97f7d065a9d38f2c13e1a6d440bc913f2"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/WALL-LIFT.txt",
+      "cacheSha256": "3e99e34eb2a166b90d521e2756106321c4a8220e44d29066f9b3f414d83c585f",
+      "start": 169,
+      "end": 174,
+      "selectedTextSha256": "46647108ae997ac0b8dfa4e6ed238443c2bf06df7ead049325b74add9f0f325d"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/OSHA-WIRE-web.txt",
+      "cacheSha256": "d600f0d75df93a97c0ebdad42f461c6748720d4ff65bd54ac3ad0c40476a4355",
+      "start": 8,
+      "end": 8,
+      "selectedTextSha256": "6de8836333a9c2ef7996ada17a232fac9405f0c225d6f5f408c1d401a4eccafd"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/OSHA-WIRE-web.txt",
+      "cacheSha256": "d600f0d75df93a97c0ebdad42f461c6748720d4ff65bd54ac3ad0c40476a4355",
+      "start": 36,
+      "end": 40,
+      "selectedTextSha256": "64836125dbd28c8bfbe38d52fd796da59c824e02ad4237dd8daa8276f08a1948"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/OSHA-WIRE-web.txt",
+      "cacheSha256": "d600f0d75df93a97c0ebdad42f461c6748720d4ff65bd54ac3ad0c40476a4355",
+      "start": 49,
+      "end": 49,
+      "selectedTextSha256": "4ef61337c0930c3f1716f92e1161ecb848928e271943f7a65079e5ecbff66717"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/OSHA-WIRE-web.txt",
+      "cacheSha256": "d600f0d75df93a97c0ebdad42f461c6748720d4ff65bd54ac3ad0c40476a4355",
+      "start": 24,
+      "end": 30,
+      "selectedTextSha256": "d26b84dcdfa60c143f263f1f7b1ea00985c6404c7feb245e2c57e608d50d52cd"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/DUSTY-MEP.txt",
+      "cacheSha256": "94b802c4140bdf06eaac7a0ad2a7d2f18341bac9def4054c7c6a001b1077052b",
+      "start": 89,
+      "end": 94,
+      "selectedTextSha256": "7b0c0951b251d56a054c9791d1ee077cfe8fe2287bf7a860dfdd8c7780ba65cd"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/DUSTY-MEP.txt",
+      "cacheSha256": "94b802c4140bdf06eaac7a0ad2a7d2f18341bac9def4054c7c6a001b1077052b",
+      "start": 106,
+      "end": 106,
+      "selectedTextSha256": "3fb6c49d4ff4a7cd7167bc54fffad92e1d4af44518a7c9945006d5437bcf7847"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/EPA-608.txt",
+      "cacheSha256": "b50566b4318b21df9f72b88ff0e41a5824a474cc875ffc782517fd22413abd1a",
+      "start": 212,
+      "end": 218,
+      "selectedTextSha256": "78c03b8c2f492741fc09f5fa3a6c99e45fd4e918ae9312e1b8e86cede031d356"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/DRYWALL-STUDY.txt",
+      "cacheSha256": "36bb4f499c75537d0a076876ca1cd3202052bb8bed1c9e6bdec2de0e5ec5e28e",
+      "start": 415,
+      "end": 429,
+      "selectedTextSha256": "8b0afa6f522695614ca6f43422c182f589bf67f884d95fdb8d2bce268009d9ca"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/DRYWALL-STUDY.txt",
+      "cacheSha256": "36bb4f499c75537d0a076876ca1cd3202052bb8bed1c9e6bdec2de0e5ec5e28e",
+      "start": 870,
+      "end": 879,
+      "selectedTextSha256": "81a24430bc9f7d97502585ceb24684e04e98174c4005874f6b40c417908e6938"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/DRYWALL-STUDY.txt",
+      "cacheSha256": "36bb4f499c75537d0a076876ca1cd3202052bb8bed1c9e6bdec2de0e5ec5e28e",
+      "start": 882,
+      "end": 911,
+      "selectedTextSha256": "a314fb6195d3fcfa120592421282e1de17b9d14739ef89f03c545de180215627"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/TEN-ROBOTS-fulltext.txt",
+      "cacheSha256": "d037348e4e1ff70317701391eefc26e5bfcb9c39bca6fe926313b5182f343d91",
+      "start": 143,
+      "end": 146,
+      "selectedTextSha256": "873125e8a4a40644a8dab5f751c069bfb63e9180ab09057bc24c47a7c33920e5"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/PENTEK.txt",
+      "cacheSha256": "63aa51c2784bb89d49dd32a4c58aee768ca4dadf4b27cf6c7e2eb3b8b0b88a1f",
+      "start": 347,
+      "end": 352,
+      "selectedTextSha256": "ee7c47e776b23bb75638866fff90fc8f32ec0b22b32e24681c7eaed949585258"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/FINISHBOT.txt",
+      "cacheSha256": "e8e704133822760772698a1e2a33d00030260198dd5eeeae8b4004295699f704",
+      "start": 350,
+      "end": 353,
+      "selectedTextSha256": "ebab43d3098ed7562e79c337364f81052246309e5e451cefeefb5069bdbd1894"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/PROCORE-COMPLETE.txt",
+      "cacheSha256": "66849787d387d632ad0aad984b0452a0147b43165f38ca02b281569cfff2cfe4",
+      "start": 41,
+      "end": 53,
+      "selectedTextSha256": "1a739f15177f45474517b3f6a9282c8d84e4c7ebea59ab4f65a45238e0135abc"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/PROCORE-COMPLETE.txt",
+      "cacheSha256": "66849787d387d632ad0aad984b0452a0147b43165f38ca02b281569cfff2cfe4",
+      "start": 105,
+      "end": 108,
+      "selectedTextSha256": "6240802c1352d15b0290d8a8b97850dcb3d7d0bacc553e44536cba7e0301ee9f"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/UMD-PLUMB.txt",
+      "cacheSha256": "e40bf314615e0522843e9810489b4d4858525e0917c64d0e84f9a8b72fe77c8d",
+      "start": 3490,
+      "end": 3497,
+      "selectedTextSha256": "607a1f2033919ade72ec77a875bcf8f90ea4b376c19444281dac9605468a85bf"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2061.00.txt",
+      "cacheSha256": "66d8aa9baec5447586cdd2965591f4961d9aac209a2aaaec723733bdcfaa0b8d",
+      "start": 332,
+      "end": 332,
+      "selectedTextSha256": "ae6dd956c84f922eaf90892d8765f4ba268a50d314deb680c0b3fe83d4da19e5"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2073.00.txt",
+      "cacheSha256": "f491f4510fa03ce03fa78a7777090f509c18d3630c4861a7c5ce4b4447690b03",
+      "start": 386,
+      "end": 386,
+      "selectedTextSha256": "eb3979c92fe9d7ed03df157e71aee1b11763f10e76ea94b8b080d343127f520e"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2073.00.txt",
+      "cacheSha256": "f491f4510fa03ce03fa78a7777090f509c18d3630c4861a7c5ce4b4447690b03",
+      "start": 397,
+      "end": 397,
+      "selectedTextSha256": "e564f26f94b749a607998ed398b6180f31a68f2496bfa594c33e38914b940160"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2073.00.txt",
+      "cacheSha256": "f491f4510fa03ce03fa78a7777090f509c18d3630c4861a7c5ce4b4447690b03",
+      "start": 375,
+      "end": 375,
+      "selectedTextSha256": "027de06d35e9e4e901edf527f2e288a66c5ef842bec08197f3b2afd415cc102d"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2073.00.txt",
+      "cacheSha256": "f491f4510fa03ce03fa78a7777090f509c18d3630c4861a7c5ce4b4447690b03",
+      "start": 463,
+      "end": 463,
+      "selectedTextSha256": "7ee2b469d136c9e7b61bfd58ea6031c19623d145ecd3621684a41dd7b0edb72a"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2221.00.txt",
+      "cacheSha256": "cc98091db10d923d2dede569bca8aa506d65ceae6288cde6316de142f54d7e43",
+      "start": 342,
+      "end": 342,
+      "selectedTextSha256": "0ac57e8f0e49201f3da814d78d2e7da3ad97817f3fe28ffa4afa9cec0e665993"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2221.00.txt",
+      "cacheSha256": "cc98091db10d923d2dede569bca8aa506d65ceae6288cde6316de142f54d7e43",
+      "start": 386,
+      "end": 386,
+      "selectedTextSha256": "e8c69d810b7fa830368872d0231523ec97a5f4094392e71050dff57bcefbf8f5"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2031.00.txt",
+      "cacheSha256": "f1fab082826a02c7d205673c8ee3e3f898804c4d03691c9de8632e55f0a08533",
+      "start": 332,
+      "end": 332,
+      "selectedTextSha256": "1277f7abfc3867dc9316a9cf7a1669dcdd3bac859fb9ad4cc4f7c8f5d49c524b"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2031.00.txt",
+      "cacheSha256": "f1fab082826a02c7d205673c8ee3e3f898804c4d03691c9de8632e55f0a08533",
+      "start": 387,
+      "end": 387,
+      "selectedTextSha256": "045c57b4847529c20e37de163dab5d7b6e365249d9ed576eb3884dfe4de8ad22"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2111.00.txt",
+      "cacheSha256": "3b85cb8909660d8b1e678045cae8d8d31032317b231afa62658b16f998ba01ca",
+      "start": 299,
+      "end": 299,
+      "selectedTextSha256": "3fd5a75e76f65b1d70ca545417f6179337a590f781724e26b2da5f2ca6600790"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2111.00.txt",
+      "cacheSha256": "3b85cb8909660d8b1e678045cae8d8d31032317b231afa62658b16f998ba01ca",
+      "start": 486,
+      "end": 486,
+      "selectedTextSha256": "ee5cca4065228f328b7dd445beac5b2f0aa240393456bff244db64638faa3102"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2152.00.txt",
+      "cacheSha256": "95a3f7fbb821d81cc5ed5c127a9545cd084e731ce2b1c5a39a2da170d2022711",
+      "start": 322,
+      "end": 322,
+      "selectedTextSha256": "ffaa729b0771f0d426f443e88fa3cb801baf924fdb434cac23952d8a79a423d7"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2152.00.txt",
+      "cacheSha256": "95a3f7fbb821d81cc5ed5c127a9545cd084e731ce2b1c5a39a2da170d2022711",
+      "start": 388,
+      "end": 388,
+      "selectedTextSha256": "f203514c1c91fffb9717b21c5b50e475a4a3a3e27b04cb6a106143afab3a00df"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2152.00.txt",
+      "cacheSha256": "95a3f7fbb821d81cc5ed5c127a9545cd084e731ce2b1c5a39a2da170d2022711",
+      "start": 454,
+      "end": 454,
+      "selectedTextSha256": "dac3b843b804e6be56b041f2a9626d0325122e0f0357d0dc8d26fd5054321223"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2152.00.txt",
+      "cacheSha256": "95a3f7fbb821d81cc5ed5c127a9545cd084e731ce2b1c5a39a2da170d2022711",
+      "start": 509,
+      "end": 509,
+      "selectedTextSha256": "a00ac67168167b5786f35f8f752ab4a847082c7cd6db1a6724454e9671b1563d"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2152.00.txt",
+      "cacheSha256": "95a3f7fbb821d81cc5ed5c127a9545cd084e731ce2b1c5a39a2da170d2022711",
+      "start": 520,
+      "end": 520,
+      "selectedTextSha256": "de1c1d49596f3070ac510fa39ca98ddfdfb22da2d1741393e5d4c211ebaa514f"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O49-9021.00.txt",
+      "cacheSha256": "c03fdd19dbb90479e38009da36b123aa5a8e4d266c6f32664211be5eaec88eb8",
+      "start": 574,
+      "end": 574,
+      "selectedTextSha256": "45f7124da78fb23f4bd822773af54fddebb75ac0684cef95c8e4b25d2ec7f3f1"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O49-9021.00.txt",
+      "cacheSha256": "c03fdd19dbb90479e38009da36b123aa5a8e4d266c6f32664211be5eaec88eb8",
+      "start": 299,
+      "end": 299,
+      "selectedTextSha256": "708ba00e1b218d5a3cea4ac469e282a42f1354cc043053b12ea650a7f240f05d"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O49-9021.00.txt",
+      "cacheSha256": "c03fdd19dbb90479e38009da36b123aa5a8e4d266c6f32664211be5eaec88eb8",
+      "start": 475,
+      "end": 475,
+      "selectedTextSha256": "da1657f426b34b49bdcc47045f87cd8be2454119b51f857d764d373a80247dfc"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O49-9021.00.txt",
+      "cacheSha256": "c03fdd19dbb90479e38009da36b123aa5a8e4d266c6f32664211be5eaec88eb8",
+      "start": 431,
+      "end": 431,
+      "selectedTextSha256": "b79c209e349a232267d6d1416a70b2fc17e3fec3fe840a557a7c40366ec13b5c"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2031.00.txt",
+      "cacheSha256": "f1fab082826a02c7d205673c8ee3e3f898804c4d03691c9de8632e55f0a08533",
+      "start": 310,
+      "end": 310,
+      "selectedTextSha256": "fd58e23051ac0b7236ac0ac73bd1b6acc887891b204dc9dda2d85262cdc66adf"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2031.00.txt",
+      "cacheSha256": "f1fab082826a02c7d205673c8ee3e3f898804c4d03691c9de8632e55f0a08533",
+      "start": 376,
+      "end": 376,
+      "selectedTextSha256": "4da114e9ca15a2254ca19d086329412e18af7db095d960254bffa1f8ba7e1b8e"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2051.00.txt",
+      "cacheSha256": "defa633bd690cb51055cac3dea22f9cf816844f20f6ea21614469f7d37115e57",
+      "start": 386,
+      "end": 386,
+      "selectedTextSha256": "4f4f0193a8de5ac983254b42f14e111a9935477c334b0514c6730cf8a454eb44"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2051.00.txt",
+      "cacheSha256": "defa633bd690cb51055cac3dea22f9cf816844f20f6ea21614469f7d37115e57",
+      "start": 309,
+      "end": 309,
+      "selectedTextSha256": "61d763e456d3facc6525d01cdea7bb28251d0e8c6aafb92738bf9a0c89e2b47d"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2061.00.txt",
+      "cacheSha256": "66d8aa9baec5447586cdd2965591f4961d9aac209a2aaaec723733bdcfaa0b8d",
+      "start": 574,
+      "end": 574,
+      "selectedTextSha256": "28674ea5462b4087ccd200820abeeee7f76137bbda0bb1bbe0576edc88d77207"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2081.00.txt",
+      "cacheSha256": "72a5caa5588adf3bcca24575802a0a7854f0e0438efdc2c81560dfc5f038738a",
+      "start": 386,
+      "end": 386,
+      "selectedTextSha256": "91cdfe6c8ae46a49d95aa79b0d48a4538c6b7b41d9d3e01675a877a3f9d4b82f"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2081.00.txt",
+      "cacheSha256": "72a5caa5588adf3bcca24575802a0a7854f0e0438efdc2c81560dfc5f038738a",
+      "start": 397,
+      "end": 397,
+      "selectedTextSha256": "cf0684d54b372991ba41041095191a4f66017a2abc259eedc63b4350d58f9dab"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2081.00.txt",
+      "cacheSha256": "72a5caa5588adf3bcca24575802a0a7854f0e0438efdc2c81560dfc5f038738a",
+      "start": 474,
+      "end": 474,
+      "selectedTextSha256": "dcd41275534c88ad2fb71e59ae3e930350abfac03c52e2c79a5b4d2578444020"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2081.00.txt",
+      "cacheSha256": "72a5caa5588adf3bcca24575802a0a7854f0e0438efdc2c81560dfc5f038738a",
+      "start": 309,
+      "end": 309,
+      "selectedTextSha256": "a171ee0f3f1dd8ad5fb0247c01e2ca5d0fb6903447a6a950bcc987a4f11ada6a"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2081.00.txt",
+      "cacheSha256": "72a5caa5588adf3bcca24575802a0a7854f0e0438efdc2c81560dfc5f038738a",
+      "start": 342,
+      "end": 342,
+      "selectedTextSha256": "83d9264b9a79f315533641a9184ff28ed92d17bcce6d80dd48f0cd8fbb86c630"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2111.00.txt",
+      "cacheSha256": "3b85cb8909660d8b1e678045cae8d8d31032317b231afa62658b16f998ba01ca",
+      "start": 398,
+      "end": 398,
+      "selectedTextSha256": "47bd46349e7274426d274daf01e37a792c39a02bb88cb47c04f98fab0f1fcc35"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2111.00.txt",
+      "cacheSha256": "3b85cb8909660d8b1e678045cae8d8d31032317b231afa62658b16f998ba01ca",
+      "start": 442,
+      "end": 442,
+      "selectedTextSha256": "b3941c44b6cad7e303b950cffbd7fbb6a36478fa20a1cf7eb56fae32e501548e"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2141.00.txt",
+      "cacheSha256": "3dd6b67840eaf499daebf39837fa9583d39f2a57c5f1e1c9c8191d4bc6b9c89f",
+      "start": 309,
+      "end": 309,
+      "selectedTextSha256": "4e48cddfb6e35ad4ada55bfd6458158c684022fa0c693e76aa25fce5d9ab0ae0"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2141.00.txt",
+      "cacheSha256": "3dd6b67840eaf499daebf39837fa9583d39f2a57c5f1e1c9c8191d4bc6b9c89f",
+      "start": 320,
+      "end": 320,
+      "selectedTextSha256": "456ef9885d7e0295bb7cd1ee389b1edf8cdf26cf4ad2b95cc75a67dca0ee2888"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2141.00.txt",
+      "cacheSha256": "3dd6b67840eaf499daebf39837fa9583d39f2a57c5f1e1c9c8191d4bc6b9c89f",
+      "start": 331,
+      "end": 331,
+      "selectedTextSha256": "03b1c7c7831d1f616df3a25f0ce2d4934f02014972372ca8470a4675f6d9787c"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2152.00.txt",
+      "cacheSha256": "95a3f7fbb821d81cc5ed5c127a9545cd084e731ce2b1c5a39a2da170d2022711",
+      "start": 421,
+      "end": 421,
+      "selectedTextSha256": "70ac38704a107de1329cc751d953af4e51ab5ef07acf40a3c62f1ad0164506f6"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2152.00.txt",
+      "cacheSha256": "95a3f7fbb821d81cc5ed5c127a9545cd084e731ce2b1c5a39a2da170d2022711",
+      "start": 311,
+      "end": 311,
+      "selectedTextSha256": "f79ccad8a8621e297dea10f3c92ed8350d031de18bb1ecf9794a23295bfaaefa"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2152.00.txt",
+      "cacheSha256": "95a3f7fbb821d81cc5ed5c127a9545cd084e731ce2b1c5a39a2da170d2022711",
+      "start": 333,
+      "end": 333,
+      "selectedTextSha256": "22d2d1186955b61189571d4ea9f37040cf111eafb2ebd885a84a30431daecbbf"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2171.00.txt",
+      "cacheSha256": "fae2901342888139354ba4e388f18966f4b2a2d06fffbd51f30d30200cb11617",
+      "start": 321,
+      "end": 321,
+      "selectedTextSha256": "18d347eed430c8130c7f490c7412c1667568fe26e22a58aa8c1ef23555970a12"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2171.00.txt",
+      "cacheSha256": "fae2901342888139354ba4e388f18966f4b2a2d06fffbd51f30d30200cb11617",
+      "start": 343,
+      "end": 343,
+      "selectedTextSha256": "3a4d36f35811ac436f71f1bc2bd567b7e4c567a3900f79d3c8e76e3b7567cba5"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2181.00.txt",
+      "cacheSha256": "97e564206983a4f5f855f33e85e8d3c9451823f02c33962bc4c3ebc1502bfaee",
+      "start": 398,
+      "end": 398,
+      "selectedTextSha256": "6b9c41c25a7efbc4d9e4e5ffe406c3fb2d7e1e5bf685259e750d3364dfd79006"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2221.00.txt",
+      "cacheSha256": "cc98091db10d923d2dede569bca8aa506d65ceae6288cde6316de142f54d7e43",
+      "start": 419,
+      "end": 419,
+      "selectedTextSha256": "bb3fe4e000dc5862066f2b3dda43214feeece96f8e547c2448f498ef3964200e"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2221.00.txt",
+      "cacheSha256": "cc98091db10d923d2dede569bca8aa506d65ceae6288cde6316de142f54d7e43",
+      "start": 430,
+      "end": 430,
+      "selectedTextSha256": "64bf4c53d0df71e86d7e8407d84c4e4b14b20e28f06d16a0aaaf35798c37cb3a"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2221.00.txt",
+      "cacheSha256": "cc98091db10d923d2dede569bca8aa506d65ceae6288cde6316de142f54d7e43",
+      "start": 441,
+      "end": 441,
+      "selectedTextSha256": "2f8c7ebf8f338fa404daf4c423a7155f0056c08b1f8c731495c6facc89aeba56"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O47-2221.00.txt",
+      "cacheSha256": "cc98091db10d923d2dede569bca8aa506d65ceae6288cde6316de142f54d7e43",
+      "start": 298,
+      "end": 298,
+      "selectedTextSha256": "6f9ab296e0faec23f5dd4f22b684b31c92ebc9c736484749fd627fceed15d958"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O49-9021.00.txt",
+      "cacheSha256": "c03fdd19dbb90479e38009da36b123aa5a8e4d266c6f32664211be5eaec88eb8",
+      "start": 442,
+      "end": 442,
+      "selectedTextSha256": "abc63b78e5f792544d944576601cb0c340fd731c012305367b1103b3854dbba0"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O49-9021.00.txt",
+      "cacheSha256": "c03fdd19dbb90479e38009da36b123aa5a8e4d266c6f32664211be5eaec88eb8",
+      "start": 497,
+      "end": 497,
+      "selectedTextSha256": "334d312bdaa026989ec8467be11c47f31d29167885eaffdeed58d458f1d461f7"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O49-9021.00.txt",
+      "cacheSha256": "c03fdd19dbb90479e38009da36b123aa5a8e4d266c6f32664211be5eaec88eb8",
+      "start": 596,
+      "end": 596,
+      "selectedTextSha256": "ea6f62aee6fd80185e3af69756bd0b18f7766ebbfaa674bc48d6407b67494d01"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/O49-9021.00.txt",
+      "cacheSha256": "c03fdd19dbb90479e38009da36b123aa5a8e4d266c6f32664211be5eaec88eb8",
+      "start": 321,
+      "end": 321,
+      "selectedTextSha256": "4dac456c65f0c5e1757dbf0ce1b2c6b29875867ed128335c4b86e28ad6155042"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/OATEY-FLASH.txt",
+      "cacheSha256": "73319b81b38b3264f4cd39f98ef1ebf3bd24aeb991b1593c549817af2cd7c522",
+      "start": 417,
+      "end": 417,
+      "selectedTextSha256": "9dbeab262a06348b33f4975b1668e6649b0bd5f4c54f25cfa7bb938eb7f2f3b1"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/CPWR-CANVAS.txt",
+      "cacheSha256": "2858aba2b2f1c8821c9c879d4a49f1ebff9ff4bcce61db317c815d9e7cfa56ac",
+      "start": 15,
+      "end": 21,
+      "selectedTextSha256": "b6cd3796fac29dc96dcc31e49675b00f88e30237869f81610398470685237377"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/C-HEATPUMP.txt",
+      "cacheSha256": "4b614fc7b11d6b689f9d9eb914a818c546e3e16680e0914996ad06cb2f6b0a30",
+      "start": 879,
+      "end": 886,
+      "selectedTextSha256": "1fe93978263072df1398927194e26596fcb2942787c09591bfdc9d7f350dd4c6"
+    },
+    {
+      "cachePath": "research/automation/source-cache/us-construction/CPWR-LIFT.txt",
+      "cacheSha256": "7985cf39996cb7009e2ec3f9fd8de2fdec194f9db6078ed610cc63cf5886b6ff",
+      "start": 17,
+      "end": 24,
+      "selectedTextSha256": "fe72dad75729ccf41b3990a8c6a2916936d673298a39dbe50aa4e496dd9cfb05"
+    }
+  ],
+  "sourceRepairIds": [
+    "UC-L01",
+    "UC-L02",
+    "UC-L03",
+    "UC-L04",
+    "UC-L05",
+    "UC-L06",
+    "UC-L07",
+    "UC-E01",
+    "UC-L08",
+    "UC-L09",
+    "UC-E02",
+    "UC-L10",
+    "UC-E03",
+    "UC-L11",
+    "UC-L12",
+    "UC-L13",
+    "UC-L14",
+    "UC-L15",
+    "UC-E04",
+    "UC-L16",
+    "UC-E05",
+    "UC-L17",
+    "UC-L18",
+    "UC-L19",
+    "UC-E06",
+    "UC-L20",
+    "UC-L21",
+    "UC-E07",
+    "UC-L22",
+    "UC-L23",
+    "UC-L24",
+    "UC-L25",
+    "UC-L26",
+    "UC-E08",
+    "UC-L27"
+  ],
+  "nextAction": "先修UC-RC01并限定复核，再接入未冻结工作版。本次未修改原研究稿。"
+}

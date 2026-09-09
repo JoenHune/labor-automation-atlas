@@ -1,3 +1,4 @@
+import {readResearchSync} from '../src/research/storage'
 import {readFileSync} from 'node:fs'
 import {createHash} from 'node:crypto'
 import {describe,it,expect} from 'vitest'
@@ -8,7 +9,7 @@ const read=(file:string)=>JSON.parse(readFileSync(new URL('../'+file,import.meta
 const sha=(file:string)=>createHash('sha256').update(readFileSync(new URL('../'+file,import.meta.url))).digest('hex')
 const file='research/automation/us-services.json',auditFile='research/automation/us-services-search-audit.json',reviewFile='research/reviews/us-services-automation-decisions.json'
 const raw=read(file),audit=read(auditFile),review=read(reviewFile),provenance={file,sha256:sha(file),auditFile,auditSha256:sha(auditFile),reviewFile,reviewSha256:sha(reviewFile)}
-const fixture=()=>read('data/research.json') as Research
+const fixture=()=>readResearchSync(new URL('../data/research.json',import.meta.url))
 describe('美国服务业经审校研究接入',()=>{
  it('保留372项逐任务查询与原子来源声明，全球产品资料不升级为美国持续运行',()=>{
   const result=validateResearch(importUsServices(fixture(),raw,audit,review,provenance))

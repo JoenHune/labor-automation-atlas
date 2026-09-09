@@ -1,3 +1,4 @@
+import {readResearchSync} from '../src/research/storage'
 import {readFileSync} from 'node:fs'
 import {beforeAll,describe,expect,it} from 'vitest'
 import {cnIndustryFoodFiles as manifest,importCnIndustryFood} from '../src/research/import-cn-industry-food'
@@ -17,7 +18,7 @@ const core=(t:Task)=>({id:t.id,country:t.country,industryId:t.industryId,scenari
 const reorder=(value:any):any=>Array.isArray(value)?value.map(reorder):value && typeof value==='object'?Object.fromEntries(Object.keys(value).reverse().map(k=>[k,reorder(value[k])])):value
 let before:Research,after:Research
 beforeAll(()=>{
-  before=JSON.parse(readFileSync('data/research.json','utf8'))
+  before=readResearchSync(new URL('../data/research.json',import.meta.url))
   after=importCnIndustryFood(before,files)
 })
 

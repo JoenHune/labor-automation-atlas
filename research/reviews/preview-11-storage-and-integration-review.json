@@ -1,0 +1,1560 @@
+{
+  "version": "2026-09-09.preview-11",
+  "checkedAt": "2026-09-09T15:26:06.381Z",
+  "migrationBaselineLogicalSha256": "31ba8194f862f72d0143d503d7da59aac8da3df49c9bf206886fcca4321aaea3",
+  "currentLogicalSha256": "6b2dbfe210b804861e2f0601c2f0f29e431a1093795f31adebbc4f0441beae8a",
+  "fullExportLogicalSha256": "6b2dbfe210b804861e2f0601c2f0f29e431a1093795f31adebbc4f0441beae8a",
+  "allTaskExportsChecked": 3187,
+  "newTaskEvidenceClosureChecks": 184,
+  "macroAndProductivityUnchanged": true,
+  "allOldSourcesClaimsSearchesPreserved": true,
+  "taskIdsAndOrderUnchanged": true,
+  "phaseChanges": [
+    {
+      "id": "us-con-drywall-002",
+      "before": "operation",
+      "after": "preparation"
+    }
+  ],
+  "storage": {
+    "shards": 31,
+    "bytes": 78202317,
+    "records": 24851
+  },
+  "stats": {
+    "records": 3187,
+    "candidates": 3185,
+    "scenes": 336,
+    "sources": 1040,
+    "claims": 15168,
+    "searches": 4718,
+    "observations": 363,
+    "firstPass": {
+      "cn": 1099,
+      "us": 1160
+    },
+    "reviewed": 2
+  },
+  "checks": [
+    {
+      "taskId": "cn-trade-food-receiving-001",
+      "country": "cn",
+      "claims": 14,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-receiving-002",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-receiving-003",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-receiving-004",
+      "country": "cn",
+      "claims": 17,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-receiving-005",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-receiving-006",
+      "country": "cn",
+      "claims": 17,
+      "sources": 6,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-receiving-007",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-receiving-008",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-receiving-009",
+      "country": "cn",
+      "claims": 16,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-receiving-010",
+      "country": "cn",
+      "claims": 20,
+      "sources": 6,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-receiving-011",
+      "country": "cn",
+      "claims": 24,
+      "sources": 6,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-receiving-012",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-receiving-013",
+      "country": "cn",
+      "claims": 13,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-receiving-014",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-receiving-015",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-receiving-016",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-store-001",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-store-002",
+      "country": "cn",
+      "claims": 17,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-store-003",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-store-004",
+      "country": "cn",
+      "claims": 15,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-store-005",
+      "country": "cn",
+      "claims": 15,
+      "sources": 6,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-store-006",
+      "country": "cn",
+      "claims": 14,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-store-007",
+      "country": "cn",
+      "claims": 16,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-store-008",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-store-009",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-store-010",
+      "country": "cn",
+      "claims": 17,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-store-011",
+      "country": "cn",
+      "claims": 19,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-store-012",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-store-013",
+      "country": "cn",
+      "claims": 16,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-store-014",
+      "country": "cn",
+      "claims": 14,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-store-015",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-food-store-016",
+      "country": "cn",
+      "claims": 14,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-bulk-food-pack-001",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-bulk-food-pack-002",
+      "country": "cn",
+      "claims": 14,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-bulk-food-pack-003",
+      "country": "cn",
+      "claims": 16,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-bulk-food-pack-004",
+      "country": "cn",
+      "claims": 16,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-bulk-food-pack-005",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-bulk-food-pack-006",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-bulk-food-pack-007",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-trade-bulk-food-pack-008",
+      "country": "cn",
+      "claims": 14,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-retail-fuel-receive-store-001",
+      "country": "cn",
+      "claims": 14,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-retail-fuel-receive-store-002",
+      "country": "cn",
+      "claims": 12,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-retail-fuel-receive-store-003",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-retail-fuel-receive-store-004",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-retail-fuel-receive-store-005",
+      "country": "cn",
+      "claims": 12,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-retail-fuel-receive-store-006",
+      "country": "cn",
+      "claims": 14,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-retail-motor-fuel-retail-001",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-retail-motor-fuel-retail-002",
+      "country": "cn",
+      "claims": 24,
+      "sources": 8,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-retail-motor-fuel-retail-003",
+      "country": "cn",
+      "claims": 13,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-retail-motor-fuel-retail-004",
+      "country": "cn",
+      "claims": 12,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-retail-motor-fuel-retail-005",
+      "country": "cn",
+      "claims": 25,
+      "sources": 8,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-retail-motor-fuel-retail-006",
+      "country": "cn",
+      "claims": 19,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "cn-retail-motor-fuel-retail-007",
+      "country": "cn",
+      "claims": 19,
+      "sources": 6,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-earth-001",
+      "country": "us",
+      "claims": 25,
+      "sources": 8,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-earth-002",
+      "country": "us",
+      "claims": 18,
+      "sources": 6,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-earth-003",
+      "country": "us",
+      "claims": 13,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-earth-004",
+      "country": "us",
+      "claims": 15,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-earth-005",
+      "country": "us",
+      "claims": 19,
+      "sources": 7,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-earth-006",
+      "country": "us",
+      "claims": 13,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-earth-007",
+      "country": "us",
+      "claims": 13,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-earth-008",
+      "country": "us",
+      "claims": 18,
+      "sources": 6,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-earth-009",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-earth-010",
+      "country": "us",
+      "claims": 21,
+      "sources": 8,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-earth-011",
+      "country": "us",
+      "claims": 13,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-earth-012",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-earth-013",
+      "country": "us",
+      "claims": 28,
+      "sources": 11,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-concrete-001",
+      "country": "us",
+      "claims": 11,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-concrete-002",
+      "country": "us",
+      "claims": 14,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-concrete-003",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-concrete-004",
+      "country": "us",
+      "claims": 20,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-concrete-005",
+      "country": "us",
+      "claims": 14,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-concrete-006",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-concrete-007",
+      "country": "us",
+      "claims": 15,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-concrete-008",
+      "country": "us",
+      "claims": 11,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-concrete-009",
+      "country": "us",
+      "claims": 14,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-concrete-010",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-concrete-011",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-concrete-012",
+      "country": "us",
+      "claims": 13,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-concrete-013",
+      "country": "us",
+      "claims": 10,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-concrete-014",
+      "country": "us",
+      "claims": 15,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-concrete-015",
+      "country": "us",
+      "claims": 14,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-concrete-016",
+      "country": "us",
+      "claims": 12,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-concrete-017",
+      "country": "us",
+      "claims": 15,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-steel-001",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-steel-002",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-steel-003",
+      "country": "us",
+      "claims": 11,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-steel-004",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-steel-005",
+      "country": "us",
+      "claims": 13,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-steel-006",
+      "country": "us",
+      "claims": 13,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-steel-007",
+      "country": "us",
+      "claims": 17,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-steel-008",
+      "country": "us",
+      "claims": 14,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-steel-009",
+      "country": "us",
+      "claims": 11,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-steel-010",
+      "country": "us",
+      "claims": 10,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-steel-011",
+      "country": "us",
+      "claims": 14,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-steel-012",
+      "country": "us",
+      "claims": 14,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-frame-001",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-frame-002",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-frame-003",
+      "country": "us",
+      "claims": 13,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-frame-004",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-frame-005",
+      "country": "us",
+      "claims": 14,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-frame-006",
+      "country": "us",
+      "claims": 11,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-frame-007",
+      "country": "us",
+      "claims": 13,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-frame-008",
+      "country": "us",
+      "claims": 13,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-frame-009",
+      "country": "us",
+      "claims": 11,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-frame-010",
+      "country": "us",
+      "claims": 12,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-frame-011",
+      "country": "us",
+      "claims": 10,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-frame-012",
+      "country": "us",
+      "claims": 15,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-electric-001",
+      "country": "us",
+      "claims": 17,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-electric-002",
+      "country": "us",
+      "claims": 11,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-electric-003",
+      "country": "us",
+      "claims": 15,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-electric-004",
+      "country": "us",
+      "claims": 13,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-electric-005",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-electric-006",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-electric-007",
+      "country": "us",
+      "claims": 13,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-electric-008",
+      "country": "us",
+      "claims": 15,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-electric-009",
+      "country": "us",
+      "claims": 13,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-electric-010",
+      "country": "us",
+      "claims": 11,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-electric-011",
+      "country": "us",
+      "claims": 9,
+      "sources": 1,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-electric-012",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-plumb-001",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-plumb-002",
+      "country": "us",
+      "claims": 16,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-plumb-003",
+      "country": "us",
+      "claims": 10,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-plumb-004",
+      "country": "us",
+      "claims": 10,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-plumb-005",
+      "country": "us",
+      "claims": 12,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-plumb-006",
+      "country": "us",
+      "claims": 13,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-plumb-007",
+      "country": "us",
+      "claims": 11,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-plumb-008",
+      "country": "us",
+      "claims": 14,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-plumb-009",
+      "country": "us",
+      "claims": 14,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-plumb-010",
+      "country": "us",
+      "claims": 15,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-plumb-011",
+      "country": "us",
+      "claims": 11,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-plumb-012",
+      "country": "us",
+      "claims": 11,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-plumb-013",
+      "country": "us",
+      "claims": 18,
+      "sources": 6,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-hvac-001",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-hvac-002",
+      "country": "us",
+      "claims": 14,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-hvac-003",
+      "country": "us",
+      "claims": 12,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-hvac-004",
+      "country": "us",
+      "claims": 11,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-hvac-005",
+      "country": "us",
+      "claims": 10,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-hvac-006",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-hvac-007",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-hvac-008",
+      "country": "us",
+      "claims": 13,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-hvac-009",
+      "country": "us",
+      "claims": 16,
+      "sources": 6,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-hvac-010",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-hvac-011",
+      "country": "us",
+      "claims": 12,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-hvac-012",
+      "country": "us",
+      "claims": 14,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-hvac-013",
+      "country": "us",
+      "claims": 13,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-hvac-014",
+      "country": "us",
+      "claims": 11,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-hvac-015",
+      "country": "us",
+      "claims": 16,
+      "sources": 6,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-roof-001",
+      "country": "us",
+      "claims": 12,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-roof-002",
+      "country": "us",
+      "claims": 10,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-roof-003",
+      "country": "us",
+      "claims": 11,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-roof-004",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-roof-005",
+      "country": "us",
+      "claims": 14,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-roof-006",
+      "country": "us",
+      "claims": 14,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-roof-007",
+      "country": "us",
+      "claims": 15,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-roof-008",
+      "country": "us",
+      "claims": 12,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-roof-009",
+      "country": "us",
+      "claims": 11,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-roof-010",
+      "country": "us",
+      "claims": 14,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-roof-011",
+      "country": "us",
+      "claims": 11,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-roof-012",
+      "country": "us",
+      "claims": 11,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-drywall-001",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-drywall-002",
+      "country": "us",
+      "claims": 16,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-drywall-003",
+      "country": "us",
+      "claims": 12,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-drywall-004",
+      "country": "us",
+      "claims": 11,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-drywall-005",
+      "country": "us",
+      "claims": 17,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-drywall-006",
+      "country": "us",
+      "claims": 10,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-drywall-007",
+      "country": "us",
+      "claims": 13,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-drywall-008",
+      "country": "us",
+      "claims": 14,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-drywall-009",
+      "country": "us",
+      "claims": 12,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-drywall-010",
+      "country": "us",
+      "claims": 10,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-drywall-011",
+      "country": "us",
+      "claims": 9,
+      "sources": 1,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-drywall-012",
+      "country": "us",
+      "claims": 13,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-paint-001",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-paint-002",
+      "country": "us",
+      "claims": 10,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-paint-003",
+      "country": "us",
+      "claims": 13,
+      "sources": 4,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-paint-004",
+      "country": "us",
+      "claims": 11,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-paint-005",
+      "country": "us",
+      "claims": 15,
+      "sources": 5,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-paint-006",
+      "country": "us",
+      "claims": 10,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-paint-007",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-paint-008",
+      "country": "us",
+      "claims": 12,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-paint-009",
+      "country": "us",
+      "claims": 11,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-paint-010",
+      "country": "us",
+      "claims": 10,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-paint-011",
+      "country": "us",
+      "claims": 12,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-paint-012",
+      "country": "us",
+      "claims": 11,
+      "sources": 3,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    },
+    {
+      "taskId": "us-con-paint-013",
+      "country": "us",
+      "claims": 11,
+      "sources": 2,
+      "exportMatchesPage": true,
+      "evidenceClosure": true
+    }
+  ],
+  "reviewer": "root，独立于本轮研究原稿作者；存储模块另经阅读全文与故障测试",
+  "decision": "允许发布未冻结研究工作版；不构成全任务研究或真实身份批注验收",
+  "tests": {
+    "files": 24,
+    "passed": 406,
+    "typecheck": "passed",
+    "storageCases": 51,
+    "tradeCases": 36,
+    "constructionCases": 35,
+    "fullBuild": "待 GitHub Actions 完整构建成功后部署"
+  },
+  "uiChecks": [
+    {
+      "path": "/us/tasks/us-con-drywall-002",
+      "result": "显示准备阶段、全站仪/打印辅助范围、6项现金参数缺口；未计算回收期"
+    },
+    {
+      "path": "/us/tasks/us-con-drywall-005",
+      "result": "2024语言框架明确为ROS/Gazebo虚拟机器人模拟；不作为物理现场商业运行"
+    },
+    {
+      "path": "/cn/tasks/cn-retail-motor-fuel-retail-006",
+      "result": "报告对象为当地生态环境主管部门；2020历史事件未写为报告动作失败；390px手机正文无横向溢出，展开10项现金参数缺口"
+    },
+    {
+      "path": "/us/?year=2025&filter.subindustry=us-manufacturing&filter.subyear=2022",
+      "result": "恢复2022历史细分；每岗位排序首项石油与煤制品231030百万美元/110900岗位；切增加值首项化学品509453百万美元。汇率7、亿元人民币模式下GDP2153346.9亿元；恢复6.71"
+    }
+  ],
+  "macroRecheck": [
+    {
+      "url": "https://www.bea.gov/data/gdp/gdp-industry",
+      "locator": "Current release / Next release / first paragraph",
+      "result": "2026-06-25发布的2026Q1行业明细仍为当前一期，下次2026-09-30"
+    },
+    {
+      "url": "https://www.stats.gov.cn/sj/zxfb/",
+      "locator": "数据发布列表2026-09-09至2026-08-17",
+      "result": "9月9日新增价格指标；所列最新月度工业增加值仍为7月、8月17日发布，未用价格或实际增速替代现价行业主榜"
+    }
+  ],
+  "limitations": [
+    "全部候选仍未冻结；2259为首轮研究及原稿独审记录数，不是覆盖和原子粒度最终通过数。",
+    "中国批零18个拟拆父项；美国建筑37父项76拟议子项均不增加计数。全部人工现金参数保持缺失，现场成本与完整自动化运行继续待核。",
+    "美国建筑262查询/66合并回包归属可核，但缺少独立保存的原请求全文与精确UTC；未宣称五类技术逐一穷尽。中国22补充查询保留7原组。",
+    "子行业资料仅继承版本号，其数字、来源、空值和顺序保持；2025匹配就业分母仍不足。",
+    "GitHub App/R2尚未完成配置，批注真实身份、快照与双向同步未验收。部分研究正文仍含需编辑的内部状态术语。"
+  ]
+}

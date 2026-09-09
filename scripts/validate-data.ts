@@ -1,8 +1,9 @@
+import {readResearch} from '../src/research/storage'
 import { readFile } from 'node:fs/promises'
 import { validateResearch,researchCoverage } from '../src/research/validate'
 import {assertPublicUrls} from '../src/research/public-urls'
 import {createHash} from 'node:crypto'
-const data=validateResearch(JSON.parse(await readFile(new URL('../data/research.json',import.meta.url),'utf8')))
+const data=validateResearch(await readResearch(new URL('../data/research.json',import.meta.url)))
 assertPublicUrls(data)
 const manifest=JSON.parse(await readFile(new URL('../research/versions/'+data.version+'.json',import.meta.url),'utf8'))
 await Promise.all(Object.entries(manifest.inputs as Record<string,string>).map(async([file,expected])=>{
