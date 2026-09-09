@@ -1,0 +1,933 @@
+{
+  "version": "2026-09-10.preview-13",
+  "checkedAt": "2026-09-09T17:35:05.620Z",
+  "previousLogicalSha256": "0e0faaf36fa69f15dd2ddd10d002439fb3c79da30f7714cf0faf90105faa9ac0",
+  "currentLogicalSha256": "9a3e30a18ac35226a4d294cfbe759ab02101f69ffdf7a27ed1ffab7dcbc0ba84",
+  "fullExport": {
+    "bytes": 118941704,
+    "sha256": "b0e1fae46c66339b8288b2730ef5c465673e3ce19dccff8d43aa3d7890f4618f"
+  },
+  "allTaskExportsChecked": 3187,
+  "newTaskEvidenceClosureChecks": 83,
+  "macroAndProductivityUnchanged": true,
+  "oldSourcesClaimsSearchesAndOrderPreserved": true,
+  "originalManualAndSnapshotsKept": true,
+  "unrelatedTasksUnchangedExceptInheritedVersion": true,
+  "inheritedVersionTasks": [
+    "us-hlt-specimen-001",
+    "us-hlt-specimen-002",
+    "us-hlt-specimen-003",
+    "us-hlt-specimen-004",
+    "us-hlt-specimen-005",
+    "us-hlt-specimen-006",
+    "us-hlt-specimen-007",
+    "us-hlt-specimen-008",
+    "us-hlt-specimen-009",
+    "us-hlt-specimen-010",
+    "us-hlt-specimen-011",
+    "us-hlt-imaging-001",
+    "us-hlt-imaging-002",
+    "us-hlt-imaging-003",
+    "us-hlt-imaging-004",
+    "us-hlt-imaging-005",
+    "us-hlt-imaging-006",
+    "us-hlt-imaging-007",
+    "us-hlt-imaging-008",
+    "us-hlt-imaging-009",
+    "us-hlt-imaging-010",
+    "us-hlt-imaging-011",
+    "us-hlt-sterile-001",
+    "us-hlt-sterile-002",
+    "us-hlt-sterile-003",
+    "us-hlt-sterile-004",
+    "us-hlt-sterile-005",
+    "us-hlt-sterile-006",
+    "us-hlt-sterile-007",
+    "us-hlt-sterile-008",
+    "us-hlt-sterile-009",
+    "us-hlt-sterile-010",
+    "us-hlt-sterile-011",
+    "us-hlt-sterile-012",
+    "us-hlt-or-001",
+    "us-hlt-or-002",
+    "us-hlt-or-003",
+    "us-hlt-or-004",
+    "us-hlt-or-005",
+    "us-hlt-or-006",
+    "us-hlt-or-007",
+    "us-hlt-or-008",
+    "us-hlt-or-009",
+    "us-hlt-or-010",
+    "us-hlt-ward-001",
+    "us-hlt-ward-002",
+    "us-hlt-ward-003",
+    "us-hlt-ward-004",
+    "us-hlt-ward-005",
+    "us-hlt-ward-006",
+    "us-hlt-ward-007",
+    "us-hlt-ward-008",
+    "us-hlt-ward-009",
+    "us-hlt-ward-010",
+    "us-hlt-ward-011",
+    "us-hlt-rehab-001",
+    "us-hlt-rehab-002",
+    "us-hlt-rehab-003",
+    "us-hlt-rehab-004",
+    "us-hlt-rehab-005",
+    "us-hlt-rehab-006",
+    "us-hlt-rehab-007",
+    "us-hlt-rehab-008",
+    "us-hlt-rehab-009",
+    "us-hlt-rehab-010",
+    "us-hlt-rehab-011",
+    "us-hlt-home-001",
+    "us-hlt-home-002",
+    "us-hlt-home-003",
+    "us-hlt-home-004",
+    "us-hlt-home-005",
+    "us-hlt-home-006",
+    "us-hlt-home-007",
+    "us-hlt-home-008",
+    "us-hlt-home-009",
+    "us-hlt-home-010",
+    "us-hlt-home-011",
+    "us-hlt-child-001",
+    "us-hlt-child-002",
+    "us-hlt-child-003",
+    "us-hlt-child-004",
+    "us-hlt-child-005",
+    "us-hlt-child-006",
+    "us-hlt-child-007",
+    "us-hlt-child-008",
+    "us-hlt-child-009",
+    "us-hlt-child-010",
+    "us-hlt-child-011",
+    "us-hlt-child-012",
+    "us-hlt-social-001",
+    "us-hlt-social-002",
+    "us-hlt-social-003",
+    "us-hlt-social-004",
+    "us-hlt-social-005",
+    "us-hlt-social-006",
+    "us-hlt-social-007",
+    "us-hlt-social-008",
+    "us-hlt-social-009",
+    "us-hlt-social-010",
+    "us-hlt-social-011"
+  ],
+  "definitionChanges": [
+    {
+      "taskId": "cn-trans-road-truck-004",
+      "field": "title",
+      "before": "检查货物载量和外廓尺寸",
+      "after": "核对货物载重与尺寸是否符合装载要求"
+    },
+    {
+      "taskId": "cn-trans-road-truck-004",
+      "field": "acceptance",
+      "before": [
+        "不超核定载质量或允许尺寸"
+      ],
+      "after": [
+        "以已确认的重量及货物装载尺寸对照核定载质量与适用装载要求，并记录合规核对结果；原始测量过程另核。"
+      ]
+    },
+    {
+      "taskId": "cn-trans-express-lastmile-012",
+      "field": "outputs",
+      "before": [
+        "检查维护记录"
+      ],
+      "after": [
+        "设施与作业区检查结果、缺陷移交记录"
+      ]
+    },
+    {
+      "taskId": "cn-trans-express-lastmile-012",
+      "field": "acceptance",
+      "before": [
+        "设施安全且快件保管完整"
+      ],
+      "after": [
+        "按确认的检查项目形成结果，发现缺陷后按权限记录及移交；不以已完成维护修理作为本检查验收。"
+      ]
+    },
+    {
+      "taskId": "cn-trans-bulk-berth-006",
+      "field": "outputs",
+      "before": [
+        "处置记录"
+      ],
+      "after": [
+        "故障排查结果与维修转交记录"
+      ]
+    },
+    {
+      "taskId": "cn-trans-bulk-berth-006",
+      "field": "acceptance",
+      "before": [
+        "故障已处置或移交维修"
+      ],
+      "after": [
+        "完成获授权范围内的排查，记录诊断结果、未确定问题及维修转交；不以设备已修复作为本诊断任务验收。"
+      ]
+    },
+    {
+      "taskId": "cn-trans-bulk-yard-transfer-012",
+      "field": "title",
+      "before": "运行输送单元除尘设施与水泵",
+      "after": "运行输送单元抑尘除尘设施"
+    },
+    {
+      "taskId": "cn-trans-bulk-landside-005",
+      "field": "outputs",
+      "before": [
+        "处置记录"
+      ],
+      "after": [
+        "故障排查结果与维修转交记录"
+      ]
+    },
+    {
+      "taskId": "cn-trans-bulk-landside-005",
+      "field": "acceptance",
+      "before": [
+        "故障已处置或移交"
+      ],
+      "after": [
+        "完成获授权范围内的排查，记录诊断结果、未确定问题及维修转交；不以设备已修复作为本诊断任务验收。"
+      ]
+    }
+  ],
+  "stats": {
+    "records": 3187,
+    "candidates": 3185,
+    "scenes": 336,
+    "sources": 1138,
+    "claims": 18441,
+    "searches": 5268,
+    "observations": 363,
+    "firstPass": {
+      "cn": 1363,
+      "us": 1160
+    }
+  },
+  "checks": [
+    {
+      "taskId": "cn-trans-road-truck-001",
+      "country": "cn",
+      "claims": 19,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-road-truck-002",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-road-truck-003",
+      "country": "cn",
+      "claims": 20,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-road-truck-004",
+      "country": "cn",
+      "claims": 24,
+      "sources": 7,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-road-truck-005",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-road-truck-006",
+      "country": "cn",
+      "claims": 20,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-road-truck-007",
+      "country": "cn",
+      "claims": 23,
+      "sources": 7,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-road-truck-008",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-road-truck-009",
+      "country": "cn",
+      "claims": 19,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-road-truck-010",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-road-truck-011",
+      "country": "cn",
+      "claims": 19,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-freight-terminal-001",
+      "country": "cn",
+      "claims": 18,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-freight-terminal-002",
+      "country": "cn",
+      "claims": 20,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-freight-terminal-003",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-freight-terminal-004",
+      "country": "cn",
+      "claims": 25,
+      "sources": 7,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-freight-terminal-005",
+      "country": "cn",
+      "claims": 20,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-freight-terminal-006",
+      "country": "cn",
+      "claims": 20,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-freight-terminal-007",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-freight-terminal-008",
+      "country": "cn",
+      "claims": 19,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-freight-terminal-009",
+      "country": "cn",
+      "claims": 21,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-freight-terminal-010",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-freight-terminal-011",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-freight-terminal-012",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-collection-001",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-collection-002",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-collection-003",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-collection-004",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-collection-005",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-collection-006",
+      "country": "cn",
+      "claims": 17,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-collection-007",
+      "country": "cn",
+      "claims": 22,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-collection-008",
+      "country": "cn",
+      "claims": 19,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-collection-009",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-collection-010",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-sort-001",
+      "country": "cn",
+      "claims": 18,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-sort-002",
+      "country": "cn",
+      "claims": 24,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-sort-003",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-sort-004",
+      "country": "cn",
+      "claims": 25,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-sort-005",
+      "country": "cn",
+      "claims": 28,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-sort-006",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-sort-007",
+      "country": "cn",
+      "claims": 24,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-sort-008",
+      "country": "cn",
+      "claims": 28,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-sort-009",
+      "country": "cn",
+      "claims": 21,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-sort-010",
+      "country": "cn",
+      "claims": 20,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-sort-011",
+      "country": "cn",
+      "claims": 21,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-sort-012",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-sort-013",
+      "country": "cn",
+      "claims": 18,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-lastmile-001",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-lastmile-002",
+      "country": "cn",
+      "claims": 19,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-lastmile-003",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-lastmile-004",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-lastmile-005",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-lastmile-006",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-lastmile-007",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-lastmile-008",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-lastmile-009",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-lastmile-010",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-lastmile-011",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-express-lastmile-012",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-berth-001",
+      "country": "cn",
+      "claims": 14,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-berth-002",
+      "country": "cn",
+      "claims": 28,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-berth-003",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-berth-004",
+      "country": "cn",
+      "claims": 25,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-berth-005",
+      "country": "cn",
+      "claims": 14,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-berth-006",
+      "country": "cn",
+      "claims": 17,
+      "sources": 5,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-berth-007",
+      "country": "cn",
+      "claims": 14,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-yard-transfer-001",
+      "country": "cn",
+      "claims": 28,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-yard-transfer-002",
+      "country": "cn",
+      "claims": 25,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-yard-transfer-003",
+      "country": "cn",
+      "claims": 14,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-yard-transfer-004",
+      "country": "cn",
+      "claims": 26,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-yard-transfer-005",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-yard-transfer-006",
+      "country": "cn",
+      "claims": 21,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-yard-transfer-007",
+      "country": "cn",
+      "claims": 14,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-yard-transfer-008",
+      "country": "cn",
+      "claims": 15,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-yard-transfer-009",
+      "country": "cn",
+      "claims": 26,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-yard-transfer-010",
+      "country": "cn",
+      "claims": 19,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-yard-transfer-011",
+      "country": "cn",
+      "claims": 21,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-yard-transfer-012",
+      "country": "cn",
+      "claims": 19,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-landside-001",
+      "country": "cn",
+      "claims": 14,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-landside-002",
+      "country": "cn",
+      "claims": 26,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-landside-003",
+      "country": "cn",
+      "claims": 25,
+      "sources": 6,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-landside-004",
+      "country": "cn",
+      "claims": 11,
+      "sources": 3,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-landside-005",
+      "country": "cn",
+      "claims": 14,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    },
+    {
+      "taskId": "cn-trans-bulk-landside-006",
+      "country": "cn",
+      "claims": 14,
+      "sources": 4,
+      "evidenceClosure": true,
+      "exportMatchesPage": true
+    }
+  ],
+  "localValidation": {
+    "fullSuiteBeforeFinalPresentationChange": {
+      "files": 29,
+      "tests": 498,
+      "passed": true
+    },
+    "finalTransportTests": {
+      "files": 1,
+      "tests": 21,
+      "passed": true
+    },
+    "typecheckPassed": true,
+    "finalPresentationChange": "284个没有保留匹配证据的方案栏显示本类证据缺口，避免照搬相邻方案的范围说明；全部原始方案记录保持。",
+    "notVerified": [
+      "GitHub真实作者互动、权限与双向同步",
+      "完整行业覆盖与任务冻结"
+    ]
+  },
+  "uiVerification": [
+    {
+      "path": "/cn/tasks/cn-trans-express-lastmile-008",
+      "viewport": "desktop",
+      "result": "拒收或无法投递原因记录只保留拟议定义支持；未保留匹配机制，未推断实际拒收原因自动识别。"
+    },
+    {
+      "path": "/cn/tasks/cn-trans-express-sort-004",
+      "viewport": "390x844",
+      "result": "局部扫描机制与大型分拣系统未采用条件分开；2022社会公示稿在使用位置标明；没有水平溢出。"
+    },
+    {
+      "path": "/cn/tasks/cn-trans-bulk-yard-transfer-008",
+      "viewport": "390x844",
+      "result": "仅机器人栏关联王家岭煤矿样机试验证据，其余四类明确缺证；港口持续部署与不停机可用性未确认，回收期为空；页面宽度390。"
+    }
+  ],
+  "officialDirectoryRecheck": {
+    "date": "2026-09-10",
+    "timezone": "Asia/Shanghai",
+    "bea": {
+      "url": "https://www.bea.gov/data/gdp/gdp-industry",
+      "currentIndustryPeriod": "2026-Q1",
+      "released": "2026-06-25",
+      "nextRelease": "2026-09-30"
+    },
+    "nbs": {
+      "url": "https://www.stats.gov.cn/sj/zxfb/",
+      "latestDirectoryDate": "2026-09-09",
+      "latestIndustrialGrowthPeriod": "2026-07",
+      "released": "2026-08-17"
+    },
+    "boundary": "仅本次目录复查；宏观数据自身checkedAt仍为9月9日，不声称全部历史修订重新核验。"
+  }
+}

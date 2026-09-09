@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "country": "CN",
+  "author": "root-limited-revision",
+  "createdAt": "2026-09-09T16:25:57.444031+00:00",
+  "beforeSha256": "8493674bc345f1d9227621fccac82e1f8c8e0621974b4d3348666839f12ad6b1",
+  "afterSha256": "09d85ebf4ffdb6cf35103202d511d1a0e09282153a893bea607580c98f7ae72d",
+  "independentRecheckSha256": "0e5acf1ef273d81d840a23eb3c1039c199dd0e01dad01860a9c4993c883ab9c5",
+  "exactChanges": [
+    {
+      "path": "/tasks/53/reviewedDefinition/supportStatus",
+      "taskId": "cn-trans-express-lastmile-008",
+      "before": "source-backed-action-or-requirement-only",
+      "after": "proposed",
+      "reason": "职业再投改退与法规真实信息均只是本动作上下文；supportStatus仍称来源支持，须改proposed。",
+      "sourceRefsUnchanged": true
+    },
+    {
+      "path": "/tasks/63/reviewedDefinition/supportStatus",
+      "taskId": "cn-trans-bulk-berth-006",
+      "before": "source-backed-action-or-requirement-only",
+      "after": "proposed",
+      "reason": "诊断结果与维修转交终点已正确；职业故障处置任务族/HJ设备范围不直接细分诊断，标签须改proposed。",
+      "sourceRefsUnchanged": true
+    },
+    {
+      "path": "/tasks/81/reviewedDefinition/supportStatus",
+      "taskId": "cn-trans-bulk-landside-005",
+      "before": "source-backed-action-or-requirement-only",
+      "after": "proposed",
+      "reason": "诊断/转交验收正确，职业任务族与设备目录只有上下文；supportStatus须改proposed。",
+      "sourceRefsUnchanged": true
+    }
+  ],
+  "changedPathCount": 3,
+  "wholeFileReverseReplayMatches": true,
+  "protectedArtifacts": {
+    "research/automation/cn-transport-search-audit.json": "86ef3aaf630a6cc09a669c2cd876a3811d7328499fcc0866354232290ed9eb7b",
+    "research/automation/cn-transport-validation.json": "f634781f0d9eec093ff10a5dc4839930dfde2ce01361a458312f14b937927c49",
+    "research/automation/cn-transport-revisions.json": "728f53a54f1819b5992b391e552dab765a09273ef042caeb4153c9924d6ed0cf",
+    "research/reviews/cn-transport-automation-recheck.json": "0e5acf1ef273d81d840a23eb3c1039c199dd0e01dad01860a9c4993c883ab9c5"
+  },
+  "priorValidationWasRerun": false,
+  "newQueries": 0,
+  "newCountedTasks": 0,
+  "canonicalTouched": false,
+  "canFreeze": false
+}

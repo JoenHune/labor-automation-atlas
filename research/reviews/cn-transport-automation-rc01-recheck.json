@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "independent-three-path-bridge-recheck-1",
+  "country": "CN",
+  "industryId": "cn-transport",
+  "reviewer": "us_data; independent of root limited reviser",
+  "completedAtUTC": "2026-09-09T16:28:15.964492+00:00",
+  "inputs": {
+    "before": {
+      "file": ".private/transport-rc01-849367/cn-transport.json",
+      "sha256": "8493674bc345f1d9227621fccac82e1f8c8e0621974b4d3348666839f12ad6b1"
+    },
+    "after": {
+      "file": "research/automation/cn-transport.json",
+      "sha256": "09d85ebf4ffdb6cf35103202d511d1a0e09282153a893bea607580c98f7ae72d"
+    },
+    "rc01Receipt": {
+      "file": "research/automation/cn-transport-rc01-revisions.json",
+      "sha256": "6731687e8e6f1eb9d49ddaaef49acb1fd2d7a1f6e40c989e3701f2c4d61e40a6"
+    },
+    "priorIndependentRecheck": {
+      "file": "research/reviews/cn-transport-automation-recheck.json",
+      "sha256": "0e5acf1ef273d81d840a23eb3c1039c199dd0e01dad01860a9c4993c883ab9c5"
+    },
+    "priorAuthorValidation": {
+      "file": "research/automation/cn-transport-validation.json",
+      "sha256": "f634781f0d9eec093ff10a5dc4839930dfde2ce01361a458312f14b937927c49",
+      "stillTargetsRawSha256": "8493674bc345f1d9227621fccac82e1f8c8e0621974b4d3348666839f12ad6b1"
+    }
+  },
+  "decision": {
+    "status": "RC01-passed-limited-bridge-to-unfrozen-working-version",
+    "remainingRepairs": [],
+    "canFreeze": false,
+    "canonicalIntegratedByThisReviewer": false,
+    "newQueries": 0,
+    "newSourcesRead": 0,
+    "newCountedTasks": 0,
+    "scope": "只核先前明确要求的三个标签值及整稿差异；来源语义依据0e5acf1限定复检，未将该作者校验改称对09d85重新运行。"
+  },
+  "actualCompleteDifference": [
+    {
+      "path": "/tasks/53/reviewedDefinition/supportStatus",
+      "before": "source-backed-action-or-requirement-only",
+      "after": "proposed",
+      "taskId": "cn-trans-express-lastmile-008",
+      "sourceRefsUnchanged": true,
+      "currentOnlyContextRoles": true,
+      "meaning": "降为拟议定义与此前独立复读的职业/法规上下文一致；保留诊断或登记输出，不证明动作不存在。"
+    },
+    {
+      "path": "/tasks/63/reviewedDefinition/supportStatus",
+      "before": "source-backed-action-or-requirement-only",
+      "after": "proposed",
+      "taskId": "cn-trans-bulk-berth-006",
+      "sourceRefsUnchanged": true,
+      "currentOnlyContextRoles": true,
+      "meaning": "降为拟议定义与此前独立复读的职业/法规上下文一致；保留诊断或登记输出，不证明动作不存在。"
+    },
+    {
+      "path": "/tasks/81/reviewedDefinition/supportStatus",
+      "before": "source-backed-action-or-requirement-only",
+      "after": "proposed",
+      "taskId": "cn-trans-bulk-landside-005",
+      "sourceRefsUnchanged": true,
+      "currentOnlyContextRoles": true,
+      "meaning": "降为拟议定义与此前独立复读的职业/法规上下文一致；保留诊断或登记输出，不证明动作不存在。"
+    }
+  ],
+  "checks": {
+    "actualWholeDocumentDiffHasExactlyThreePaths": true,
+    "actualDiffEqualsPriorIndependentRemainingRepairs": true,
+    "actualDiffEqualsReceipt": true,
+    "forwardWholeDocumentReplayMatches": true,
+    "reverseWholeDocumentReplayMatches": true,
+    "forwardSerializedBytesEqual09d85": true,
+    "reverseSerializedBytesEqual849367": true,
+    "allOtherRawFieldsUnchanged": true,
+    "sourceRefsOfThreeDefinitionsUnchanged": true,
+    "priorAuthorValidationStillTargets849367": true,
+    "priorAuthorValidationWasRerun": false,
+    "priorIndependentRecheckStillTargets849367": true
+  },
+  "protectedArtifacts": [
+    {
+      "file": "research/automation/cn-transport-search-audit.json",
+      "expectedSha256": "86ef3aaf630a6cc09a669c2cd876a3811d7328499fcc0866354232290ed9eb7b",
+      "actualSha256": "86ef3aaf630a6cc09a669c2cd876a3811d7328499fcc0866354232290ed9eb7b",
+      "unchanged": true
+    },
+    {
+      "file": "research/automation/cn-transport-validation.json",
+      "expectedSha256": "f634781f0d9eec093ff10a5dc4839930dfde2ce01361a458312f14b937927c49",
+      "actualSha256": "f634781f0d9eec093ff10a5dc4839930dfde2ce01361a458312f14b937927c49",
+      "unchanged": true
+    },
+    {
+      "file": "research/automation/cn-transport-revisions.json",
+      "expectedSha256": "728f53a54f1819b5992b391e552dab765a09273ef042caeb4153c9924d6ed0cf",
+      "actualSha256": "728f53a54f1819b5992b391e552dab765a09273ef042caeb4153c9924d6ed0cf",
+      "unchanged": true
+    },
+    {
+      "file": "research/reviews/cn-transport-automation-recheck.json",
+      "expectedSha256": "0e5acf1ef273d81d840a23eb3c1039c199dd0e01dad01860a9c4993c883ab9c5",
+      "actualSha256": "0e5acf1ef273d81d840a23eb3c1039c199dd0e01dad01860a9c4993c883ab9c5",
+      "unchanged": true
+    }
+  ],
+  "preservedCounts": {
+    "tasks": 83,
+    "mechanismGrades": {
+      "partial-mechanism": 45,
+      "no-retained-matching-mechanism": 23,
+      "adjacent-mechanism-only": 14,
+      "adjacent-planned-requirement-only": 1
+    },
+    "splitParents": 7,
+    "proposedChildren": 15,
+    "newCountedTasks": 0,
+    "queries": 210,
+    "frozenTasks": 0
+  },
+  "sourceMeaningBoundary": "末端008仅职业再投改退与真实信息/交付条件上下文；船岸006、陆侧005仅故障处置职业任务族与设备范围。三个proposed与这些原段适用范围一致。原验收、原sourceRefs和原完整快照均未变化。",
+  "validationBridge": "17d7原稿→849367作者修订，由bf379726原独审和0e5acf1限定复检覆盖；849367→09d85只三个supportStatus值，由本报告独立双向整稿及字节重放覆盖。f634781作者校验及0e5acf1旧独检原文件均未改，不声称它们对09d85重跑。",
+  "limits": [
+    "原83全行业覆盖、SOP、当前商业运行、人工工时与现金等缺口照常保留。",
+    "本轮不重读20缓存或重跑210原查询；这些边界继承原限定复检，字节未变。",
+    "准许作为有明确证据缺口的未冻结工作版，未自行集成总数据或网站。"
+  ]
+}

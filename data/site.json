@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-10.preview-12",
+  "version": "2026-09-10.preview-13",
   "checkedAt": "2026-09-09",
   "publishedAt": null,
   "freezeStatus": "working",
@@ -21884,6 +21884,947 @@
       "dateEvidence": [],
       "evidenceLevel": "original-inventory-context-not-automation-evidence",
       "readStatus": "independently-reread-at-listed-pages-in-first-pass-review"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-epod",
+      "title": "物流业条形码读码器应用案例",
+      "publisher": "基恩士中国",
+      "url": "https://www.keyence.com.cn/ss/products/auto_id/handheld-terminals/example/logistics.jsp",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "条码与物流数据采集功能；中国站不证明国内具名实际部署。",
+        "收货/发货/集货扫描、目的地区域分流及交付时点数据有原文；配载确认、先确认收件人超出原段。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "正文没有可确认发布日期，留null；中国产品页不证明国内用户。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-epod",
+          "locator": "L60—85、92—94、99、105、111、116、122、126（所读产品正文未确认日期）"
+        }
+      ],
+      "evidencePeriod": "未确认首次发布日期；案例地区未确认；L60—85、92—94、99、105、111、116、122、126（所读产品正文未确认日期）；正文没有可确认发布日期，留null；中国产品页不证明国内用户。",
+      "evidenceLevel": "厂商产品说明",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-freight-load",
+      "title": "机器人全自动装卸车解决方案",
+      "publisher": "星猿哲科技",
+      "url": "https://www.xyzrobotics.com.cn/publicity/robotic-loading-unloading-with-rocky-bing",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "纸箱机器人装卸方案；页面日本和美国图片案例均不作为中国部署。",
+        "纸箱装卸、机械臂和输送线仅产品机制；对软袋、无托盘货、车内绑固未证。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "正文未见日期；页面日本/美国案例图不作中国部署。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-freight-load",
+          "locator": "L47—52、64（所读产品正文未确认日期）"
+        }
+      ],
+      "evidencePeriod": "未确认首次发布日期；案例地区未确认；L47—52、64（所读产品正文未确认日期）；正文未见日期；页面日本/美国案例图不作中国部署。",
+      "evidenceLevel": "厂商产品说明",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-address",
+      "title": "地址诊断服务",
+      "publisher": "京东物流地图平台",
+      "url": "https://lbsapi.jd.com/doc/guide/addressAnalyze/addressVerificationService/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "operator",
+      "limitations": [
+        "地址文本诊断；最后更新2022-09-09，未证明任意快递企业实际服务范围。",
+        "缺项、嵌套、模糊地址文本诊断与提示；不核本快递企业服务范围，不授权改原始订单。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "L190为最后更新2022-09-09，非首发日，publishedAt=null可保留。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2022-09-09",
+          "note": "最后更新；L190为最后更新2022-09-09，非首发日，publishedAt=null可保留。"
+        }
+      ],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-address",
+          "locator": "L190"
+        }
+      ],
+      "evidencePeriod": "未确认首次发布日期；案例地区未确认；L190；L190为最后更新2022-09-09，非首发日，publishedAt=null可保留。",
+      "evidenceLevel": "运营方接口文档",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-post-robot-2023",
+      "title": "中国邮政启动全国首个“机器人+”AI寄递解决方案",
+      "publisher": "中国邮政",
+      "url": "https://www.chinapost.com.cn/cn/report/2306/11864-1.html",
+      "published": "2023-06-20",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "operator",
+      "limitations": [
+        "2023-06-16启动的总部场景试运营；户外与室内联动，不代表所有住宅上门服务。",
+        "室内外机器人与门禁电梯通知联调；遥控模式保留，不能推住宅普遍适用或2026持续运行。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "L17发布日期2023-06-20；L18—24为6月16日起总部试运营，二者不混。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-post-robot-2023",
+          "locator": "L17；试运营起点另见L18—24"
+        }
+      ],
+      "evidencePeriod": "原资料日期：2023-06-20；案例地区：CN；L17；试运营起点另见L18—24；L17发布日期2023-06-20；L18—24为6月16日起总部试运营，二者不混。",
+      "evidenceLevel": "运营方试点自述",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-post-misroute-plan",
+      "title": "2026年广东邮政省际中心AI错分监测报警系统建设项目采购需求公开征求意见公告",
+      "publisher": "中国邮政",
+      "url": "https://www.chinapost.com.cn/cn/report/2607/6699-1.htm",
+      "published": "2026-07-22",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "采购征求意见和性能要求；不得推为已部署、实际误报或失败率。",
+        "错分视频回溯/扫码关联及人工复核为计划需求，非已部署；与破损油污名址错误相邻。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "L32为2026-07-22；L40采购前征求意见。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-post-misroute-plan",
+          "locator": "L32；采购阶段L40"
+        }
+      ],
+      "evidencePeriod": "原资料日期：2026-07-22；案例地区未确认；L32；采购阶段L40；L32为2026-07-22；L40采购前征求意见。",
+      "evidenceLevel": "采购要求，未证明部署",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-post-bag",
+      "title": "东莞邮政创新提升物流仓配集包效率",
+      "publisher": "中国邮政",
+      "url": "https://www.chinapost.com.cn/cn/report/2404/5675-1.htm",
+      "published": "2024-04-10",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "operator",
+      "limitations": [
+        "东莞自研半自动集包，保留人工装袋；按场地和业务量选型。",
+        "东莞半自动粗分/灯光集包和人工投袋；大型分拣设备不适合场地邮件量，不能当独立地址读码器失败。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "L35为2024-04-10，历史运营者报道。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-post-bag",
+          "locator": "L35"
+        }
+      ],
+      "evidencePeriod": "原资料日期：2024-04-10；案例地区：CN；L35；L35为2024-04-10，历史运营者报道。",
+      "evidenceLevel": "运营方运行自述",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-post-yard",
+      "title": "数智化场院管理 处理中心数字化迈出新步伐",
+      "publisher": "中国邮政",
+      "url": "https://www.chinapost.com.cn/cn/report/2211/30021-1.htm",
+      "published": "2022-11-23",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "operator",
+      "limitations": [
+        "报道时运行一个多月；司机与接发调度人员仍现场交接。",
+        "场院指令、垛口车辆识别和人工查验交接；不将计划信息当实际发运。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "L35为2022-11-23，文内当时运行一个多月；未核2026。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-post-yard",
+          "locator": "L35；当时运行一个多月的叙述另见正文"
+        }
+      ],
+      "evidencePeriod": "原资料日期：2022-11-23；案例地区：CN；L35；当时运行一个多月的叙述另见正文；L35为2022-11-23，文内当时运行一个多月；未核2026。",
+      "evidenceLevel": "运营方初始运行自述",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-cpte-dws",
+      "title": "称重读码设备",
+      "publisher": "中邮科技",
+      "url": "https://www.cpte.com/product-detail/35",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "视觉与电子称重取得码号、重量和体积信息；无具名用户。",
+        "视觉条码与电子称重体积数据采集；不证明名址真实性、法定计量或任意包形。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "产品页未见可靠日期，留null；无具名运行用户。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-cpte-dws",
+          "locator": "L93—95、140（所读产品正文未确认日期）"
+        }
+      ],
+      "evidencePeriod": "未确认首次发布日期；案例地区未确认；L93—95、140（所读产品正文未确认日期）；产品页未见可靠日期，留null；无具名运行用户。",
+      "evidenceLevel": "厂商产品说明",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-print-label",
+      "title": "自动打印贴标机的工作原理是什么？",
+      "publisher": "伟迪捷中国",
+      "url": "https://www.videojet.com.cn/cn/homepage/resources/faqs/general/lpa-principle.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "打印及贴附功能；不证明收寄信息真实或快递企业已安装。",
+        "滚贴、吹贴、压贴及缺标签故障报警只局部打印贴附；非信息核验或收寄部署。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "产品说明未见可确认日期，留null。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-print-label",
+          "locator": "L120—131（所读产品正文未确认日期）"
+        }
+      ],
+      "evidencePeriod": "未确认首次发布日期；案例地区未确认；L120—131（所读产品正文未确认日期）；产品说明未见可确认日期，留null。",
+      "evidenceLevel": "厂商产品说明",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-port-robot",
+      "title": "山东日照港矿石管带运输智能化巡检项目",
+      "publisher": "天创机器人",
+      "url": "https://tetrabot.com/lists/456.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "日照港指定管带廊道的挂轨巡检；不是自主维修，持续日期未披露。",
+        "挂轨巡检裂纹、托辊异常与噪声，报警后确认维修不是其执行机制。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "未列可核部署/发布日期，留null；具名日照港仍为供应商自报。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-port-robot",
+          "locator": "L53—59、69（所读产品正文未确认日期）"
+        }
+      ],
+      "evidencePeriod": "未确认首次发布日期；案例地区：CN；L53—59、69（所读产品正文未确认日期）；未列可核部署/发布日期，留null；具名日照港仍为供应商自报。",
+      "evidenceLevel": "厂商具名部署自述",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-bag-open-patent",
+      "title": "CN111559551A 快递流转包自动拆包方法和装置",
+      "publisher": "上海中通吉网络技术有限公司（专利公开文本）",
+      "url": "https://patents.google.com/patent/CN111559551A/zh",
+      "published": "2020-08-21",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "视觉抓袋、切口、倒包专利；描述人工回收袋子，无独立商用验证。",
+        "视觉定位抓袋切口倒出与人工回收空袋的专利实施描述；未证内装数重核验或商业运营。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "L37/公开时间线2020-08-21为CN111559551A公开日，不是装机日。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [
+        {
+          "kind": "released",
+          "value": "2020-08-21",
+          "note": "专利公开日，不是部署日。"
+        }
+      ],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-bag-open-patent",
+          "locator": "L37；CN111559551A公开时间线"
+        }
+      ],
+      "evidencePeriod": "原资料日期：2020-08-21；案例地区未确认；L37；CN111559551A公开时间线；L37/公开时间线2020-08-21为CN111559551A公开日，不是装机日。",
+      "evidenceLevel": "专利公开，未证明部署",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-mot-bulk-body",
+      "title": "交通强国建设试点典型案例集（第一辑）案例14、15",
+      "publisher": "交通运输部加快建设交通强国领导小组办公室",
+      "url": "https://xxgk.mot.gov.cn/jigou/zhghs/202509/P020250916422010117400.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "青岛港前港和国能黄骅港分别归属；部委案例汇编不等于独立现场审计。",
+        "青岛前港与黄骅港分开；部委汇编收录地方/企业试点成效，不是独立现场审计。黄骅说明跨物理47—48/正文43—44。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "物理1封面2025年9月，只有月精度；URL发布日期日不推定为封面日。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025-09",
+          "note": "封面月份，未推定为确切发布日期。"
+        }
+      ],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-mot-bulk-body",
+          "locator": "PDF物理第1页封面，2025年9月"
+        }
+      ],
+      "evidencePeriod": "原资料日期：2025-09；案例地区：CN；PDF物理第1页封面，2025年9月；物理1封面2025年9月，只有月精度；URL发布日期日不推定为封面日。",
+      "evidenceLevel": "官方案例报告的历史运行",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-belt-join",
+      "title": "ZLJ系列组合式输送胶带硫化接头机",
+      "publisher": "青岛巨航胶带",
+      "url": "https://www.qdjuhang.cn/detail-50.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "电加热、液压加压及水冷胶接工具，未证明自动备带或全接头验收。",
+        "电热液压/水冷型胶带接头工具，未证带端准备、参数选择及接头验收全自动。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "产品无可靠日期；侧栏2024等新闻日期不当产品发布日期。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-belt-join",
+          "locator": "L8—10（所读产品正文未确认日期）"
+        }
+      ],
+      "evidencePeriod": "未确认首次发布日期；案例地区未确认；L8—10（所读产品正文未确认日期）；产品无可靠日期；侧栏2024等新闻日期不当产品发布日期。",
+      "evidenceLevel": "厂商产品说明",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-belt-idler",
+      "title": "带式输送机不停机更换托辊机器人研究与应用",
+      "publisher": "田立勇等／中国机械工程",
+      "url": "https://www.cmemo.org.cn/EN/10.3969/j.issn.1004-132X.2024.05.019",
+      "published": "2024-06-26",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "paper",
+      "limitations": [
+        "王家岭煤矿地面及井下样机试验；不是港口部署，页面另列Online 2024-05-25。",
+        "王家岭煤矿地面/井下样机试验，相邻港口；不停机的标题不可升格港口可用。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "L18分别Online2024-05-25、Published2024-06-26，原日可保留并并列日期类型。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [
+        {
+          "kind": "released",
+          "value": "2024-05-25",
+          "note": "在线刊载；L18分别Online2024-05-25、Published2024-06-26，原日可保留并并列日期类型。"
+        }
+      ],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-belt-idler",
+          "locator": "L18：Online与Published分别列示"
+        }
+      ],
+      "evidencePeriod": "原资料日期：2024-06-26；案例地区：CN；L18：Online与Published分别列示；L18分别Online2024-05-25、Published2024-06-26，原日可保留并并列日期类型。",
+      "evidenceLevel": "相邻行业原型试验",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-road-pilot",
+      "title": "全国首个跨省市高速公路自动驾驶货运测试在京津塘高速正式启动",
+      "publisher": "招商公路",
+      "url": "https://www.cmhighway.com/xwzx/qyxw/content/1991755486905913346_1991755500805836802.html",
+      "published": "2024-01-29",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "operator",
+      "limitations": [
+        "限定京津塘测试路段，主驾安全员；后续商业试运行是当时计划。",
+        "京津塘道路测试主驾安全员实际保留；不是无安全员运营和可取消司机工资。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "L82为2024-01-29报道，L89叙述1月22日启动，商业试运行为随后探索计划。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-road-pilot",
+          "locator": "L82；L89为2024-01-22启动沟通会及后续道路测试叙述"
+        }
+      ],
+      "evidencePeriod": "原资料日期：2024-01-29；案例地区：CN；L82；L89为2024-01-22启动沟通会及后续道路测试叙述；L82为2024-01-29报道，L89叙述1月22日启动，商业试运行为随后探索计划。",
+      "evidenceLevel": "运营方道路测试自述",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-crown-move",
+      "title": "WJ系列紧凑型托盘搬运车",
+      "publisher": "科朗设备中国",
+      "url": "https://www.crown.com/zh-cn/forklifts/pallet-trucks/compact-pallet-truck-wj.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "电动步行式托盘升降搬运；需要操作员，国内用户部署未提供。",
+        "步行人控电动托盘车行驶升降定位辅助，不是自动配载绑扎。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "产品页未确认日期，留null；中文站非国内具名用户。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-crown-move",
+          "locator": "L24、41—55、94—101、160—168（所读产品正文未确认日期）"
+        }
+      ],
+      "evidencePeriod": "未确认首次发布日期；案例地区未确认；L24、41—55、94—101、160—168（所读产品正文未确认日期）；产品页未确认日期，留null；中文站非国内具名用户。",
+      "evidenceLevel": "厂商产品说明",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-post-maint-retry",
+      "title": "邮政寄递建强集中维保体系 全网设备故障数下降超九成",
+      "publisher": "中国邮政",
+      "url": "https://www.chinapost.com.cn/cn/report/2609/0746-1.htm",
+      "published": "2026-09-03",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "operator",
+      "limitations": [
+        "SCADA及集中维保，数据截至2026年7月底；效率百分比不用于人工或回报。",
+        "SCADA与人工渠道收故障、定位指导维修；保留现场班组备件。运行故障不是退出；整体降幅未采入任务现金流。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "L35=2026-09-03报道，L37数据截至2026年7月底，不能标9月现场普查。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-post-maint-retry",
+          "locator": "L35；L37为截至2026年7月底数据"
+        }
+      ],
+      "evidencePeriod": "原资料日期：2026-09-03；案例地区：CN；L35；L37为截至2026年7月底数据；L35=2026-09-03报道，L37数据截至2026年7月底，不能标9月现场普查。",
+      "evidenceLevel": "运营方运行自述",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-port-maint",
+      "title": "神华黄骅港运维项目",
+      "publisher": "中交第一航务工程局",
+      "url": "https://www.ccccyhj.com/article/38/detail-701.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "正文以2016年资料为背景，未给网页发布日期；外包运行维修责任案例，不证明自动维修。",
+        "服务商黄骅巡视、清扫、皮带秤检修及大机维护责任；只有执行者/人工上下文，不是自动方案。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "L4正文历史2016口径/2001起服务；网页发布日期未知留null。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-port-maint",
+          "locator": "L4历史2016口径及2001起服务，不是网页日"
+        }
+      ],
+      "evidencePeriod": "未确认首次发布日期；案例地区：CN；L4历史2016口径及2001起服务，不是网页日；L4正文历史2016口径/2001起服务；网页发布日期未知留null。",
+      "evidenceLevel": "服务商历史自述",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-belt-correct",
+      "title": "CN101244777A 输送带自动纠偏装置和方法",
+      "publisher": "上海海事大学（专利公开文本）",
+      "url": "https://patents.google.com/patent/CN101244777A/zh",
+      "published": "2008-08-20",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "跑偏测量反馈控制托辊角度的设计；非现行商业采用或根因全处置证据。",
+        "反馈偏移驱动托辊的专利机制，缺港口长周期运行。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "L39/42公开2008-08-20；专利法律状态不当撤机失败。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [
+        {
+          "kind": "released",
+          "value": "2008-08-20",
+          "note": "专利公开日，不是部署日。"
+        }
+      ],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-belt-correct",
+          "locator": "L39、L42，CN101244777A公开时间线"
+        }
+      ],
+      "evidencePeriod": "原资料日期：2008-08-20；案例地区未确认；L39、L42，CN101244777A公开时间线；L39/42公开2008-08-20；专利法律状态不当撤机失败。",
+      "evidenceLevel": "专利公开，未证明部署",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-road-tpms-cn",
+      "title": "商用车胎压与胎温监测系统方案",
+      "publisher": "东莞赛富特汽车安全技术有限公司",
+      "url": "https://www.saftire.com/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "轮胎数据显示和挂车连接仅限所列胎压胎温监测方案；UDS 诊断位于卡车前装胎压（胎温）监测小节，不推整车诊断；无可审计承运车队清单。",
+        "轮胎信息/挂车连接支持，UDS在卡车前装胎压胎温监测小节，不能泛称整车诊断。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "产品无日期，留null；没有车队清单。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-road-tpms-cn",
+          "locator": "L96—121，尤其117—120（所读产品正文未确认日期）"
+        }
+      ],
+      "evidencePeriod": "未确认首次发布日期；案例地区未确认；L96—121，尤其117—120（所读产品正文未确认日期）；产品无日期，留null；没有车队清单。",
+      "evidenceLevel": "厂商产品说明",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-road-weigh-patent",
+      "title": "CN213209231U 一种无人值守称重装置",
+      "publisher": "紫金矿业集团（专利公开文本）",
+      "url": "https://patents.google.com/patent/CN213209231U/zh",
+      "published": "2021-05-14",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "地磅称重实施例与清理推板设计；明确司机、门卫参与，非承运场站商用证明。",
+        "前后称重、磅单与门卫/司机职责为专利实施例；无人值守命名不等于无人。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "L40=2021-05-14公开日，2020申请不是部署日。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [
+        {
+          "kind": "released",
+          "value": "2021-05-14",
+          "note": "专利公开日，不是部署日。"
+        }
+      ],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-road-weigh-patent",
+          "locator": "L40，CN213209231U公开日"
+        }
+      ],
+      "evidencePeriod": "原资料日期：2021-05-14；案例地区未确认；L40，CN213209231U公开日；L40=2021-05-14公开日，2020申请不是部署日。",
+      "evidenceLevel": "专利公开，未证明部署",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-road-fix-mon",
+      "title": "CN208013426U 运输途中货物装载加固状态实时监测装置",
+      "publisher": "北京交通大学（专利公开文本）",
+      "url": "https://patents.google.com/patent/CN208013426U/zh",
+      "published": "2018-10-26",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "超声位移监测设计含公路扩展；实验背景含铁路，不当公路持续运行证明。",
+        "超声距离判断货物移动有公路扩展；不直接查绑带张力或覆盖状态。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "L39—40公开2018-10-26，申请2018-04-17另列。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [
+        {
+          "kind": "released",
+          "value": "2018-10-26",
+          "note": "专利公开日，不是部署日。"
+        }
+      ],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-road-fix-mon",
+          "locator": "L39公开日；L40另列2018-04-17申请日"
+        }
+      ],
+      "evidencePeriod": "原资料日期：2018-10-26；案例地区未确认；L39公开日；L40另列2018-04-17申请日；L39—40公开2018-10-26，申请2018-04-17另列。",
+      "evidenceLevel": "专利公开，未证明部署",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-port-continuous",
+      "title": "关于学习借鉴国投港口《港口生产标准作业法（卸船作业线）》的通知",
+      "publisher": "福建省湄洲湾港口发展中心",
+      "url": "https://jtyst.fujian.gov.cn/mzwgk/mzwzfxxgk/mzwzfxxgk/qtyzdgkdzfxx/202411/t20241105_6560445.htm",
+      "published": "2024-11-05",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "operator",
+      "limitations": [
+        "文件成文2023-12-13，网页2024-11-05；检查与试操作等职责，不作为自动化部署。",
+        "作业法点检、试转、异常移交和交接是规范流程上下文；不是连续卸船自动运行案例。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "网页L21=2024-11-05，文件落款L40=2023-12-13，原双日期说明正确。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [
+        {
+          "kind": "authored",
+          "value": "2023-12-13",
+          "note": "文件成文；网页L21=2024-11-05，文件落款L40=2023-12-13，原双日期说明正确。"
+        }
+      ],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-port-continuous",
+          "locator": "L21网页日；L40文件落款日"
+        }
+      ],
+      "evidencePeriod": "原资料日期：2024-11-05；案例地区：CN；L21网页日；L40文件落款日；网页L21=2024-11-05，文件落款L40=2023-12-13，原双日期说明正确。",
+      "evidenceLevel": "运营方流程规范背景",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-pack-hprt",
+      "title": "什么是快递打包机？怎样操作？",
+      "publisher": "厦门汉印电子科技",
+      "url": "https://www.hprt.com.cn/News/2361.html",
+      "published": "2024-07-08",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "电商商家包装机步骤；只作收寄封袋工序可迁移机制，不能将商家劳动计入邮政。",
+        "商家电商投料、打印贴标、热封等局部机制，仅相邻快递收寄。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "L74=2024-07-08发布；销售产品说明。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-pack-hprt",
+          "locator": "L74"
+        }
+      ],
+      "evidencePeriod": "原资料日期：2024-07-08；案例地区未确认；L74；L74=2024-07-08发布；销售产品说明。",
+      "evidenceLevel": "厂商产品说明，执行者相邻",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-freight-clean",
+      "title": "全场景清洁解决方案：物流仓库",
+      "publisher": "扬子清洁设备",
+      "url": "https://www.yangziqj.com/solution/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "物流仓库洗地、扫地组合；道路货站同类地面适配待核，不推危险泄漏清理。",
+        "物流仓库纸屑/轮胎印扫洗推荐；货站垃圾或危险泄漏不同条件，维持相邻。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "没有正文发布日期；版权2017—2028非文稿日期，留null。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-freight-clean",
+          "locator": "L128—136（所读产品正文未确认日期）"
+        }
+      ],
+      "evidencePeriod": "未确认首次发布日期；案例地区未确认；L128—136（所读产品正文未确认日期）；没有正文发布日期；版权2017—2028非文稿日期，留null。",
+      "evidenceLevel": "厂商产品说明，场地相邻",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-yantai-operator",
+      "title": "烟台港干散货专业化码头控制技术正式发布",
+      "publisher": "山东省港口集团",
+      "url": "https://www.sd-port.com/groupMainNews/2021-12-23/658591897748504576.html",
+      "published": "2021-12-22",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "operator",
+      "limitations": [
+        "烟台西港区专业化矿石码头，操作自动化与远程清舱分别描述；不是2026全港无人化。",
+        "矿石码头抓斗、铁路装车、堆取、装船机制可各有限映射；是历史运营者自报，非2026独立验证。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "L99正文2021-12-22，与URL12-23区分，采用正文日正确。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-yantai-operator",
+          "locator": "L99正文日"
+        }
+      ],
+      "evidencePeriod": "原资料日期：2021-12-22；案例地区：CN；L99正文日；L99正文2021-12-22，与URL12-23区分，采用正文日正确。",
+      "evidenceLevel": "运营方部署自述",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-lastmile-tools",
+      "title": "“作业神器”让邮政“双11”服务更赞",
+      "publisher": "中国邮政",
+      "url": "https://www.chinapost.com.cn/cn/report/1911/9337-1.htm",
+      "published": "2019-11-18",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "operator",
+      "limitations": [
+        "不同城市案例分别识别；只取邮袋辅助与输送、人工扎袋及场地改造条件。",
+        "输送、撑袋架/缝包/人工扎袋局部；深圳旧场地与迁址条件不能算技术失败或全国门槛。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "L37=2019-11-18，历史双11多个地点案例不能合成一个站。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-lastmile-tools",
+          "locator": "L37"
+        }
+      ],
+      "evidencePeriod": "原资料日期：2019-11-18；案例地区：CN；L37；L37=2019-11-18，历史双11多个地点案例不能合成一个站。",
+      "evidenceLevel": "运营方历史部署自述",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-cabinet-operator",
+      "title": "中邮速递易智能信报箱落地北京",
+      "publisher": "中国邮政",
+      "url": "https://www.chinapost.com.cn/html1/report/181312/9573-1.htm",
+      "published": "2018-08-21",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "operator",
+      "limitations": [
+        "2018北京信报箱兼包裹柜，仍由投递员入格；不证明用户同意流程。",
+        "北京信报箱空格地址匹配、人员入格、用户凭码取件；没有本人身份或用户同意证明。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "L39=2018-08-21，不用路径日期替代正文。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-cabinet-operator",
+          "locator": "L39"
+        }
+      ],
+      "evidencePeriod": "原资料日期：2018-08-21；案例地区：CN；L39；L39=2018-08-21，不用路径日期替代正文。",
+      "evidenceLevel": "运营方历史部署自述",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-road-size-patent",
+      "title": "CN206177238U 车辆外廓尺寸检测仪",
+      "publisher": "佛山分析仪有限公司（专利公开文本）",
+      "url": "https://patents.google.com/patent/CN206177238U/zh",
+      "published": "2017-05-17",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "车辆检测站激光外廓设计；载货货物外伸识别及道路货站应用均待确认。",
+        "检测站外廓激光光电测量与引车员为相邻路线；不能等于运输中货物外伸与许可对照。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "L34公开2017-05-17；2016-08-23为申请日。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [
+        {
+          "kind": "released",
+          "value": "2017-05-17",
+          "note": "专利公开日，不是部署日。"
+        }
+      ],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-road-size-patent",
+          "locator": "L34，CN206177238U公开日"
+        }
+      ],
+      "evidencePeriod": "原资料日期：2017-05-17；案例地区未确认；L34，CN206177238U公开日；L34公开2017-05-17；2016-08-23为申请日。",
+      "evidenceLevel": "专利公开，未证明部署",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-tp-auto-continuous-patent",
+      "title": "CN105016099B 链斗式连续型卸船机全自动智能控制系统",
+      "publisher": "上海振华相关申请人（专利公开文本）",
+      "url": "https://patents.google.com/patent/CN105016099B/zh",
+      "published": "2017-07-07",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "2015公开A文本，2017B文本；手动示教与逐作业面确认，未提供具名持续用户。",
+        "链斗示教、分面确认及协调卸取的专利机制和自述测试，不外推螺旋/气吸或长期商业。",
+        "L为2026-09-09网页或PDF工具提取行号；PDF另列物理页/印刷页。日期取正文，URL及版权年不代替发布日期。",
+        "L43/48=2017-07-07授权公告；2015A初次公开另有，不当同日期。",
+        "本国研究关联不代表已独立核实当前中国整项任务商业运行。"
+      ],
+      "dates": [
+        {
+          "kind": "released",
+          "value": "2017-07-07",
+          "note": "专利授权公告日，不是初次公开或部署日。"
+        }
+      ],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-cn-transport-cn-tp-auto-continuous-patent",
+          "locator": "L43、L48，CN105016099B授权公告日"
+        }
+      ],
+      "evidencePeriod": "原资料日期：2017-07-07；案例地区未确认；L43、L48，CN105016099B授权公告日；L43/48=2017-07-07授权公告；2015A初次公开另有，不当同日期。",
+      "evidenceLevel": "专利自述试验，未独立核实部署",
+      "readStatus": "read-original-selected-passages"
+    },
+    {
+      "id": "automation-cn-transport-cn-occ-2022-draft",
+      "title": "中华人民共和国职业分类大典（2022年版）（社会公示稿）",
+      "publisher": "国家职业分类大典修订工作委员会；北京经济技术开发区总工会托管副本",
+      "url": "https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "occupation",
+      "limitations": [
+        "职业目录只支持任务存在，不支持工时、人工比例或行业统计归属。",
+        "2022 年社会公示稿，非正式现行版",
+        "只读本批列明段落；不继承其他行业全部定位的已读状态，不证明工时或现场完整 SOP。"
+      ],
+      "publishedLabel": "首次发布日期未确认",
+      "evidencePeriod": "2022 年社会公示稿，非正式现行版",
+      "evidenceLevel": "2022 年职业社会公示稿限定段落",
+      "readStatus": "selected-relevant-definition-passages-read-not-all-inherited-locators"
+    },
+    {
+      "id": "automation-cn-transport-cn-roadfreight-2026",
+      "title": "道路货物运输及站场管理规定（2026年第八次修正）",
+      "publisher": "交通运输部",
+      "url": "https://xxgk.mot.gov.cn/gz/202602/t20260213_4200294.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "standard",
+      "limitations": [
+        "2026年第5号令修正；部网站现行有效栏",
+        "只读本批列明段落；不继承其他行业全部定位的已读状态，不证明工时或现场完整 SOP。"
+      ],
+      "publishedLabel": "原资料列示日期 2026-02-06，首次发布日期未确认",
+      "evidencePeriod": "2026年第5号令修正；部网站现行有效栏",
+      "evidenceLevel": "所列历史法规或工艺规范限定段落",
+      "readStatus": "selected-relevant-definition-passages-read-not-all-inherited-locators"
+    },
+    {
+      "id": "automation-cn-transport-cn-express-rule-2023",
+      "title": "快递市场管理办法（交通运输部令2023年第22号）",
+      "publisher": "交通运输部",
+      "url": "https://xxgk.mot.gov.cn/jigou/fgs/202401/t20240104_3980683.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "standard",
+      "limitations": [
+        "只读本批列明段落；不继承其他行业全部定位的已读状态，不证明工时或现场完整 SOP。"
+      ],
+      "publishedLabel": "原资料列示日期 2023-12-17，首次发布日期未确认",
+      "evidencePeriod": "快递市场管理办法（交通运输部令2023年第22号）",
+      "evidenceLevel": "所列历史法规或工艺规范限定段落",
+      "readStatus": "selected-relevant-definition-passages-read-not-all-inherited-locators"
+    },
+    {
+      "id": "automation-cn-transport-cn-harbor-hj1107-2020",
+      "title": "排污许可证申请与核发技术规范 码头（HJ1107—2020）",
+      "publisher": "生态环境部",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202003/W020200304692515262514.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "standard",
+      "limitations": [
+        "只读本批列明段落；不继承其他行业全部定位的已读状态，不证明工时或现场完整 SOP。"
+      ],
+      "publishedLabel": "原资料列示日期 2020-02-28，首次发布日期未确认",
+      "evidencePeriod": "排污许可证申请与核发技术规范 码头（HJ1107—2020）",
+      "evidenceLevel": "所列历史法规或工艺规范限定段落",
+      "readStatus": "selected-relevant-definition-passages-read-not-all-inherited-locators"
     }
   ],
   "industries": [
@@ -109766,7 +110707,2646 @@
         ],
         "sourceFile": "research/inventories/cn-core.json",
         "inputSha256": "5388db09742709d606032d030ced3985f802a6e221441b59cd1302064ee8983e",
-        "reviewStatus": "候选清单；未冻结，不代表行业全部任务已研究"
+        "reviewStatus": "候选清单；未冻结，不代表行业全部任务已研究",
+        "transportResearch": {
+          "country": "cn",
+          "provenance": {
+            "inventory": {
+              "file": "research/inventories/cn-core.json",
+              "sha256": "5388db09742709d606032d030ced3985f802a6e221441b59cd1302064ee8983e"
+            },
+            "main": {
+              "file": "research/automation/cn-transport.json",
+              "sha256": "09d85ebf4ffdb6cf35103202d511d1a0e09282153a893bea607580c98f7ae72d"
+            },
+            "audit": {
+              "file": "research/automation/cn-transport-search-audit.json",
+              "sha256": "86ef3aaf630a6cc09a669c2cd876a3811d7328499fcc0866354232290ed9eb7b"
+            },
+            "review": {
+              "file": "research/reviews/cn-transport-automation-decisions.json",
+              "sha256": "bf379726aabfbb6fc2d024041d9d9e0a192c6a2df81c24b49810dae02b671633"
+            },
+            "revisions": {
+              "file": "research/automation/cn-transport-revisions.json",
+              "sha256": "728f53a54f1819b5992b391e552dab765a09273ef042caeb4153c9924d6ed0cf"
+            },
+            "authorValidation": {
+              "file": "research/automation/cn-transport-validation.json",
+              "sha256": "f634781f0d9eec093ff10a5dc4839930dfde2ce01361a458312f14b937927c49"
+            },
+            "recheck": {
+              "file": "research/reviews/cn-transport-automation-recheck.json",
+              "sha256": "0e5acf1ef273d81d840a23eb3c1039c199dd0e01dad01860a9c4993c883ab9c5"
+            },
+            "limitedRevisions": {
+              "file": "research/automation/cn-transport-rc01-revisions.json",
+              "sha256": "6731687e8e6f1eb9d49ddaaef49acb1fd2d7a1f6e40c989e3701f2c4d61e40a6"
+            },
+            "finalRecheck": {
+              "file": "research/reviews/cn-transport-automation-rc01-recheck.json",
+              "sha256": "e7c1163c379d565d7e543ec3bc941aeb517628b881dff4e8c16fd25c9fbc145e"
+            }
+          },
+          "taskIds": [
+            "cn-trans-road-truck-001",
+            "cn-trans-road-truck-002",
+            "cn-trans-road-truck-003",
+            "cn-trans-road-truck-004",
+            "cn-trans-road-truck-005",
+            "cn-trans-road-truck-006",
+            "cn-trans-road-truck-007",
+            "cn-trans-road-truck-008",
+            "cn-trans-road-truck-009",
+            "cn-trans-road-truck-010",
+            "cn-trans-road-truck-011",
+            "cn-trans-freight-terminal-001",
+            "cn-trans-freight-terminal-002",
+            "cn-trans-freight-terminal-003",
+            "cn-trans-freight-terminal-004",
+            "cn-trans-freight-terminal-005",
+            "cn-trans-freight-terminal-006",
+            "cn-trans-freight-terminal-007",
+            "cn-trans-freight-terminal-008",
+            "cn-trans-freight-terminal-009",
+            "cn-trans-freight-terminal-010",
+            "cn-trans-freight-terminal-011",
+            "cn-trans-freight-terminal-012",
+            "cn-trans-express-collection-001",
+            "cn-trans-express-collection-002",
+            "cn-trans-express-collection-003",
+            "cn-trans-express-collection-004",
+            "cn-trans-express-collection-005",
+            "cn-trans-express-collection-006",
+            "cn-trans-express-collection-007",
+            "cn-trans-express-collection-008",
+            "cn-trans-express-collection-009",
+            "cn-trans-express-collection-010",
+            "cn-trans-express-sort-001",
+            "cn-trans-express-sort-002",
+            "cn-trans-express-sort-003",
+            "cn-trans-express-sort-004",
+            "cn-trans-express-sort-005",
+            "cn-trans-express-sort-006",
+            "cn-trans-express-sort-007",
+            "cn-trans-express-sort-008",
+            "cn-trans-express-sort-009",
+            "cn-trans-express-sort-010",
+            "cn-trans-express-sort-011",
+            "cn-trans-express-sort-012",
+            "cn-trans-express-sort-013",
+            "cn-trans-express-lastmile-001",
+            "cn-trans-express-lastmile-002",
+            "cn-trans-express-lastmile-003",
+            "cn-trans-express-lastmile-004",
+            "cn-trans-express-lastmile-005",
+            "cn-trans-express-lastmile-006",
+            "cn-trans-express-lastmile-007",
+            "cn-trans-express-lastmile-008",
+            "cn-trans-express-lastmile-009",
+            "cn-trans-express-lastmile-010",
+            "cn-trans-express-lastmile-011",
+            "cn-trans-express-lastmile-012",
+            "cn-trans-bulk-berth-001",
+            "cn-trans-bulk-berth-002",
+            "cn-trans-bulk-berth-003",
+            "cn-trans-bulk-berth-004",
+            "cn-trans-bulk-berth-005",
+            "cn-trans-bulk-berth-006",
+            "cn-trans-bulk-berth-007",
+            "cn-trans-bulk-yard-transfer-001",
+            "cn-trans-bulk-yard-transfer-002",
+            "cn-trans-bulk-yard-transfer-003",
+            "cn-trans-bulk-yard-transfer-004",
+            "cn-trans-bulk-yard-transfer-005",
+            "cn-trans-bulk-yard-transfer-006",
+            "cn-trans-bulk-yard-transfer-007",
+            "cn-trans-bulk-yard-transfer-008",
+            "cn-trans-bulk-yard-transfer-009",
+            "cn-trans-bulk-yard-transfer-010",
+            "cn-trans-bulk-yard-transfer-011",
+            "cn-trans-bulk-yard-transfer-012",
+            "cn-trans-bulk-landside-001",
+            "cn-trans-bulk-landside-002",
+            "cn-trans-bulk-landside-003",
+            "cn-trans-bulk-landside-004",
+            "cn-trans-bulk-landside-005",
+            "cn-trans-bulk-landside-006"
+          ],
+          "taskCount": 83,
+          "approvedNewTasks": 0,
+          "canFreeze": false,
+          "evidenceSupportTierCounts": {
+            "partial-mechanism": 45,
+            "adjacent-mechanism-only": 14,
+            "adjacent-planned-requirement-only": 1,
+            "no-retained-matching-mechanism": 23
+          },
+          "scenarios": [
+            {
+              "id": "cn-trans-road-truck",
+              "title": "营业性道路普通货运装车核验、驾驶及交货",
+              "scope": "代码54；普货公路运输，装卸由承运人自营时记入；危险品、大件、冷链另列。车辆制造与专业修理不计本任务劳动。",
+              "taskIds": [
+                "cn-trans-road-truck-001",
+                "cn-trans-road-truck-002",
+                "cn-trans-road-truck-003",
+                "cn-trans-road-truck-004",
+                "cn-trans-road-truck-005",
+                "cn-trans-road-truck-006",
+                "cn-trans-road-truck-007",
+                "cn-trans-road-truck-008",
+                "cn-trans-road-truck-009",
+                "cn-trans-road-truck-010",
+                "cn-trans-road-truck-011"
+              ],
+              "taskCount": 11,
+              "workflowSourceIds": [
+                "cn-roadfreight-2026"
+              ],
+              "occupationSourceIds": [
+                "cn-occ-2022-draft"
+              ],
+              "definitionSourcesUse": "仅保存原清单双路径引用，待独立核读；不计作本轮自动化来源。",
+              "gaps": [
+                "驾驶员与专门装卸工职责分界需承运合同，装卸工实际作业另见场站场景，不能重复计同次装车。",
+                "路线调度、进出场排队、油电补能、胎检故障恢复等需继续细分原始工作规范。",
+                "职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。",
+                "没有据任务描述推断人工工时或自动化效果。"
+              ],
+              "phaseCoverage": [
+                {
+                  "phase": "准备",
+                  "taskIds": [
+                    "cn-trans-road-truck-001",
+                    "cn-trans-road-truck-002",
+                    "cn-trans-road-truck-005"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "作业",
+                  "taskIds": [
+                    "cn-trans-road-truck-006"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "交接",
+                  "taskIds": [],
+                  "status": "gap",
+                  "gap": "尚无足够公开流程依据；未为凑齐阶段编造动作。"
+                },
+                {
+                  "phase": "检测",
+                  "taskIds": [
+                    "cn-trans-road-truck-003",
+                    "cn-trans-road-truck-004",
+                    "cn-trans-road-truck-007"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "异常",
+                  "taskIds": [
+                    "cn-trans-road-truck-008"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "返工",
+                  "taskIds": [
+                    "cn-trans-road-truck-010"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "清洁维护",
+                  "taskIds": [
+                    "cn-trans-road-truck-011"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "交付",
+                  "taskIds": [
+                    "cn-trans-road-truck-009"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                }
+              ]
+            },
+            {
+              "id": "cn-trans-freight-terminal",
+              "title": "道路货运站接货、分类暂存、配载与装卸",
+              "scope": "代码54站场自营服务，具体统计执行主体须核；独立通用仓库代码59另列未覆盖，不能将本站场当成所有仓储。",
+              "taskIds": [
+                "cn-trans-freight-terminal-001",
+                "cn-trans-freight-terminal-002",
+                "cn-trans-freight-terminal-003",
+                "cn-trans-freight-terminal-004",
+                "cn-trans-freight-terminal-005",
+                "cn-trans-freight-terminal-006",
+                "cn-trans-freight-terminal-007",
+                "cn-trans-freight-terminal-008",
+                "cn-trans-freight-terminal-009",
+                "cn-trans-freight-terminal-010",
+                "cn-trans-freight-terminal-011",
+                "cn-trans-freight-terminal-012"
+              ],
+              "taskCount": 12,
+              "workflowSourceIds": [
+                "cn-roadfreight-2026"
+              ],
+              "occupationSourceIds": [
+                "cn-occ-2022-draft"
+              ],
+              "definitionSourcesUse": "仅保存原清单双路径引用，待独立核读；不计作本轮自动化来源。",
+              "gaps": [
+                "货物堆码高度、叉车吊具选配、重心约束、装卸机操作细节依货种设备待补；不得用法规原则替代详细SOP。",
+                "职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。",
+                "没有据任务描述推断人工工时或自动化效果。"
+              ],
+              "phaseCoverage": [
+                {
+                  "phase": "准备",
+                  "taskIds": [],
+                  "status": "gap",
+                  "gap": "尚无足够公开流程依据；未为凑齐阶段编造动作。"
+                },
+                {
+                  "phase": "作业",
+                  "taskIds": [
+                    "cn-trans-freight-terminal-002",
+                    "cn-trans-freight-terminal-004",
+                    "cn-trans-freight-terminal-005",
+                    "cn-trans-freight-terminal-006",
+                    "cn-trans-freight-terminal-007"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "交接",
+                  "taskIds": [
+                    "cn-trans-freight-terminal-001"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "检测",
+                  "taskIds": [
+                    "cn-trans-freight-terminal-003",
+                    "cn-trans-freight-terminal-008"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "异常",
+                  "taskIds": [
+                    "cn-trans-freight-terminal-010"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "返工",
+                  "taskIds": [],
+                  "status": "gap",
+                  "gap": "尚无足够公开流程依据；未为凑齐阶段编造动作。"
+                },
+                {
+                  "phase": "清洁维护",
+                  "taskIds": [
+                    "cn-trans-freight-terminal-011",
+                    "cn-trans-freight-terminal-012"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "交付",
+                  "taskIds": [
+                    "cn-trans-freight-terminal-009"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                }
+              ]
+            },
+            {
+              "id": "cn-trans-express-collection",
+              "title": "快件上门或网点收寄、验视与封装",
+              "scope": "代码60；国内快递收寄，国际验关另列未覆盖；订单商家拣货不自动归快递。",
+              "taskIds": [
+                "cn-trans-express-collection-001",
+                "cn-trans-express-collection-002",
+                "cn-trans-express-collection-003",
+                "cn-trans-express-collection-004",
+                "cn-trans-express-collection-005",
+                "cn-trans-express-collection-006",
+                "cn-trans-express-collection-007",
+                "cn-trans-express-collection-008",
+                "cn-trans-express-collection-009",
+                "cn-trans-express-collection-010"
+              ],
+              "taskCount": 10,
+              "workflowSourceIds": [
+                "cn-express-rule-2023"
+              ],
+              "occupationSourceIds": [
+                "cn-occ-2022-draft"
+              ],
+              "definitionSourcesUse": "仅保存原清单双路径引用，待独立核读；不计作本轮自动化来源。",
+              "gaps": [
+                "单证收费与当日缴款仅保留必要交接接口，完整收银流程待补；取件骑行驾驶和车辆保养需专门操作规范。",
+                "职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。",
+                "没有据任务描述推断人工工时或自动化效果。"
+              ],
+              "phaseCoverage": [
+                {
+                  "phase": "准备",
+                  "taskIds": [
+                    "cn-trans-express-collection-001"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "作业",
+                  "taskIds": [
+                    "cn-trans-express-collection-005",
+                    "cn-trans-express-collection-007"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "交接",
+                  "taskIds": [
+                    "cn-trans-express-collection-008"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "检测",
+                  "taskIds": [
+                    "cn-trans-express-collection-002",
+                    "cn-trans-express-collection-003",
+                    "cn-trans-express-collection-006"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "异常",
+                  "taskIds": [
+                    "cn-trans-express-collection-004"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "返工",
+                  "taskIds": [
+                    "cn-trans-express-collection-009"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "清洁维护",
+                  "taskIds": [
+                    "cn-trans-express-collection-010"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "交付",
+                  "taskIds": [],
+                  "status": "gap",
+                  "gap": "尚无足够公开流程依据；未为凑齐阶段编造动作。"
+                }
+              ]
+            },
+            {
+              "id": "cn-trans-express-sort",
+              "title": "快件处理中心卸包、分拨、集包与封发",
+              "scope": "代码60国内处理中心；每次处理节点区分发件、中转、到件，不按同一包裹全国总人工推算。",
+              "taskIds": [
+                "cn-trans-express-sort-001",
+                "cn-trans-express-sort-002",
+                "cn-trans-express-sort-003",
+                "cn-trans-express-sort-004",
+                "cn-trans-express-sort-005",
+                "cn-trans-express-sort-006",
+                "cn-trans-express-sort-007",
+                "cn-trans-express-sort-008",
+                "cn-trans-express-sort-009",
+                "cn-trans-express-sort-010",
+                "cn-trans-express-sort-011",
+                "cn-trans-express-sort-012",
+                "cn-trans-express-sort-013"
+              ],
+              "taskCount": 13,
+              "workflowSourceIds": [
+                "cn-express-rule-2023"
+              ],
+              "occupationSourceIds": [
+                "cn-occ-2022-draft"
+              ],
+              "definitionSourcesUse": "仅保存原清单双路径引用，待独立核读；不计作本轮自动化来源。",
+              "gaps": [
+                "供包姿态整理、称量读码失败、滑槽清堵、满格换容器、异形重件处理和安检图像判读待设备及安全规范；法规未披露具体劳动分工。",
+                "职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。",
+                "没有据任务描述推断人工工时或自动化效果。"
+              ],
+              "phaseCoverage": [
+                {
+                  "phase": "准备",
+                  "taskIds": [
+                    "cn-trans-express-sort-009"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "作业",
+                  "taskIds": [
+                    "cn-trans-express-sort-002",
+                    "cn-trans-express-sort-003",
+                    "cn-trans-express-sort-005",
+                    "cn-trans-express-sort-008",
+                    "cn-trans-express-sort-010"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "交接",
+                  "taskIds": [
+                    "cn-trans-express-sort-001"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "检测",
+                  "taskIds": [
+                    "cn-trans-express-sort-004",
+                    "cn-trans-express-sort-012"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "异常",
+                  "taskIds": [
+                    "cn-trans-express-sort-006"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "返工",
+                  "taskIds": [
+                    "cn-trans-express-sort-007"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "清洁维护",
+                  "taskIds": [
+                    "cn-trans-express-sort-013"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "交付",
+                  "taskIds": [
+                    "cn-trans-express-sort-011"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                }
+              ]
+            },
+            {
+              "id": "cn-trans-express-lastmile",
+              "title": "快件到站分装、按址投递与退改再投",
+              "scope": "代码60末端服务，包括本人同意的自提设施路线；不假设所有快件默认入柜。",
+              "taskIds": [
+                "cn-trans-express-lastmile-001",
+                "cn-trans-express-lastmile-002",
+                "cn-trans-express-lastmile-003",
+                "cn-trans-express-lastmile-004",
+                "cn-trans-express-lastmile-005",
+                "cn-trans-express-lastmile-006",
+                "cn-trans-express-lastmile-007",
+                "cn-trans-express-lastmile-008",
+                "cn-trans-express-lastmile-009",
+                "cn-trans-express-lastmile-010",
+                "cn-trans-express-lastmile-011",
+                "cn-trans-express-lastmile-012"
+              ],
+              "taskCount": 12,
+              "workflowSourceIds": [
+                "cn-express-rule-2023"
+              ],
+              "occupationSourceIds": [
+                "cn-occ-2022-draft"
+              ],
+              "definitionSourcesUse": "仅保存原清单双路径引用，待独立核读；不计作本轮自动化来源。",
+              "gaps": [
+                "代收点出入库、货架查找、排队交付、超期回收、智能柜故障开柜等细场景待专门流程；车辆骑行不在本场景重复计。",
+                "职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。",
+                "没有据任务描述推断人工工时或自动化效果。"
+              ],
+              "phaseCoverage": [
+                {
+                  "phase": "准备",
+                  "taskIds": [
+                    "cn-trans-express-lastmile-003"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "作业",
+                  "taskIds": [
+                    "cn-trans-express-lastmile-002",
+                    "cn-trans-express-lastmile-004",
+                    "cn-trans-express-lastmile-007"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "交接",
+                  "taskIds": [
+                    "cn-trans-express-lastmile-001",
+                    "cn-trans-express-lastmile-010"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "检测",
+                  "taskIds": [
+                    "cn-trans-express-lastmile-005"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "异常",
+                  "taskIds": [
+                    "cn-trans-express-lastmile-008",
+                    "cn-trans-express-lastmile-011"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "返工",
+                  "taskIds": [
+                    "cn-trans-express-lastmile-009"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "清洁维护",
+                  "taskIds": [
+                    "cn-trans-express-lastmile-012"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "交付",
+                  "taskIds": [
+                    "cn-trans-express-lastmile-006"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                }
+              ]
+            },
+            {
+              "id": "cn-trans-bulk-berth",
+              "title": "干散货码头船岸装卸",
+              "scope": "水上运输业55的货运港口经营者执行的煤炭矿石等干散货船岸装卸；不覆盖集装箱、液体散货或船舶航行。",
+              "taskIds": [
+                "cn-trans-bulk-berth-001",
+                "cn-trans-bulk-berth-002",
+                "cn-trans-bulk-berth-003",
+                "cn-trans-bulk-berth-004",
+                "cn-trans-bulk-berth-005",
+                "cn-trans-bulk-berth-006",
+                "cn-trans-bulk-berth-007"
+              ],
+              "taskCount": 7,
+              "workflowSourceIds": [
+                "cn-harbor-hj1107-2020"
+              ],
+              "occupationSourceIds": [
+                "cn-occ-2022-draft"
+              ],
+              "definitionSourcesUse": "仅保存原清单双路径引用，待独立核读；不计作本轮自动化来源。",
+              "gaps": [
+                "靠离泊系解缆、装载计划、舱口启闭、平舱清舱、吃水计重和船岸签收未获具体已读操作规程。",
+                "不同设备路线互斥或组合，不能全部相加计算单船人工；通用门机工步还需按吊具和货物继续拆解。",
+                "风速停机、吊具检查、危险区隔离等安全步骤不能从排污工艺表推导。",
+                "职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。",
+                "没有据任务描述推断人工工时或自动化效果。"
+              ],
+              "phaseCoverage": [
+                {
+                  "phase": "准备",
+                  "taskIds": [
+                    "cn-trans-bulk-berth-001"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "作业",
+                  "taskIds": [
+                    "cn-trans-bulk-berth-002",
+                    "cn-trans-bulk-berth-003",
+                    "cn-trans-bulk-berth-004",
+                    "cn-trans-bulk-berth-005"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "交接",
+                  "taskIds": [],
+                  "status": "gap",
+                  "gap": "尚无足够公开流程依据；未为凑齐阶段编造动作。"
+                },
+                {
+                  "phase": "检测",
+                  "taskIds": [],
+                  "status": "gap",
+                  "gap": "尚无足够公开流程依据；未为凑齐阶段编造动作。"
+                },
+                {
+                  "phase": "异常",
+                  "taskIds": [
+                    "cn-trans-bulk-berth-006"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "返工",
+                  "taskIds": [],
+                  "status": "gap",
+                  "gap": "尚无足够公开流程依据；未为凑齐阶段编造动作。"
+                },
+                {
+                  "phase": "清洁维护",
+                  "taskIds": [
+                    "cn-trans-bulk-berth-007"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "交付",
+                  "taskIds": [],
+                  "status": "gap",
+                  "gap": "尚无足够公开流程依据；未为凑齐阶段编造动作。"
+                }
+              ]
+            },
+            {
+              "id": "cn-trans-bulk-yard-transfer",
+              "title": "干散货码头堆取料与输送",
+              "scope": "货运港口55厂界内干散货堆场和输送系统；独立装卸服务执行者需按59登记，外包公路干线运输归54，不因规范列有外包车辆而计入港口工时。",
+              "taskIds": [
+                "cn-trans-bulk-yard-transfer-001",
+                "cn-trans-bulk-yard-transfer-002",
+                "cn-trans-bulk-yard-transfer-003",
+                "cn-trans-bulk-yard-transfer-004",
+                "cn-trans-bulk-yard-transfer-005",
+                "cn-trans-bulk-yard-transfer-006",
+                "cn-trans-bulk-yard-transfer-007",
+                "cn-trans-bulk-yard-transfer-008",
+                "cn-trans-bulk-yard-transfer-009",
+                "cn-trans-bulk-yard-transfer-010",
+                "cn-trans-bulk-yard-transfer-011",
+                "cn-trans-bulk-yard-transfer-012"
+              ],
+              "taskCount": 12,
+              "workflowSourceIds": [
+                "cn-harbor-hj1107-2020"
+              ],
+              "occupationSourceIds": [
+                "cn-occ-2022-draft"
+              ],
+              "definitionSourcesUse": "仅保存原清单双路径引用，待独立核读；不计作本轮自动化来源。",
+              "gaps": [
+                "堆取料机回转行走对位、货堆测量、防混料、雨污水收集、苫盖洒水具体分工仍缺详细规程。",
+                "职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。",
+                "没有据任务描述推断人工工时或自动化效果。",
+                "更换托辊和胶接输送带归清洁维护中的设备维修；未把设备维修冒充货物返工。"
+              ],
+              "phaseCoverage": [
+                {
+                  "phase": "准备",
+                  "taskIds": [],
+                  "status": "gap",
+                  "gap": "未取得可独立描述的已读流程依据；不为凑数添加。"
+                },
+                {
+                  "phase": "作业",
+                  "taskIds": [
+                    "cn-trans-bulk-yard-transfer-001",
+                    "cn-trans-bulk-yard-transfer-002",
+                    "cn-trans-bulk-yard-transfer-003",
+                    "cn-trans-bulk-yard-transfer-004",
+                    "cn-trans-bulk-yard-transfer-005",
+                    "cn-trans-bulk-yard-transfer-012"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "交接",
+                  "taskIds": [],
+                  "status": "gap",
+                  "gap": "未取得可独立描述的已读流程依据；不为凑数添加。"
+                },
+                {
+                  "phase": "检测",
+                  "taskIds": [
+                    "cn-trans-bulk-yard-transfer-006"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "异常",
+                  "taskIds": [
+                    "cn-trans-bulk-yard-transfer-007"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "返工",
+                  "taskIds": [],
+                  "status": "gap",
+                  "gap": "未取得可独立描述的已读流程依据；不为凑数添加。"
+                },
+                {
+                  "phase": "清洁维护",
+                  "taskIds": [
+                    "cn-trans-bulk-yard-transfer-008",
+                    "cn-trans-bulk-yard-transfer-009",
+                    "cn-trans-bulk-yard-transfer-010",
+                    "cn-trans-bulk-yard-transfer-011"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "交付",
+                  "taskIds": [],
+                  "status": "gap",
+                  "gap": "未取得可独立描述的已读流程依据；不为凑数添加。"
+                }
+              ]
+            },
+            {
+              "id": "cn-trans-bulk-landside",
+              "title": "干散货码头陆侧装卸",
+              "scope": "货运港口55经营者的陆侧车辆装卸；铁路列车运行归53，场外公路承运归54，独立受托装卸服务按执行者归59并避免重复。",
+              "taskIds": [
+                "cn-trans-bulk-landside-001",
+                "cn-trans-bulk-landside-002",
+                "cn-trans-bulk-landside-003",
+                "cn-trans-bulk-landside-004",
+                "cn-trans-bulk-landside-005",
+                "cn-trans-bulk-landside-006"
+              ],
+              "taskCount": 6,
+              "workflowSourceIds": [
+                "cn-harbor-hj1107-2020"
+              ],
+              "occupationSourceIds": [
+                "cn-occ-2022-draft"
+              ],
+              "definitionSourcesUse": "仅保存原清单双路径引用，待独立核读；不计作本轮自动化来源。",
+              "gaps": [
+                "车辆定位止挡、摘挂联接、平车清扫、衡器过磅、抑尘苫盖、超载退载和交接凭证需铁路及港口作业规程补证。",
+                "职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。",
+                "没有据任务描述推断人工工时或自动化效果。"
+              ],
+              "phaseCoverage": [
+                {
+                  "phase": "准备",
+                  "taskIds": [
+                    "cn-trans-bulk-landside-001"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "作业",
+                  "taskIds": [
+                    "cn-trans-bulk-landside-002",
+                    "cn-trans-bulk-landside-003",
+                    "cn-trans-bulk-landside-004"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "交接",
+                  "taskIds": [],
+                  "status": "gap",
+                  "gap": "尚无足够公开流程依据；未为凑齐阶段编造动作。"
+                },
+                {
+                  "phase": "检测",
+                  "taskIds": [],
+                  "status": "gap",
+                  "gap": "尚无足够公开流程依据；未为凑齐阶段编造动作。"
+                },
+                {
+                  "phase": "异常",
+                  "taskIds": [
+                    "cn-trans-bulk-landside-005"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "返工",
+                  "taskIds": [],
+                  "status": "gap",
+                  "gap": "尚无足够公开流程依据；未为凑齐阶段编造动作。"
+                },
+                {
+                  "phase": "清洁维护",
+                  "taskIds": [
+                    "cn-trans-bulk-landside-006"
+                  ],
+                  "status": "identified",
+                  "gap": null
+                },
+                {
+                  "phase": "交付",
+                  "taskIds": [],
+                  "status": "gap",
+                  "gap": "尚无足够公开流程依据；未为凑齐阶段编造动作。"
+                }
+              ]
+            }
+          ],
+          "subsectorCoverage": [
+            {
+              "code": "53",
+              "name": "铁路运输业",
+              "status": "not-yet-covered",
+              "coveredScenarios": [],
+              "uncovered": [
+                "本大类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
+              ],
+              "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
+            },
+            {
+              "code": "54",
+              "name": "道路运输业",
+              "status": "partial",
+              "coveredScenarios": [
+                "cn-trans-road-truck",
+                "cn-trans-freight-terminal"
+              ],
+              "uncovered": [
+                "本大类其他模式及具体场景未覆盖，逐场景gaps继续拓展；不计算覆盖率。"
+              ],
+              "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
+            },
+            {
+              "code": "55",
+              "name": "水上运输业",
+              "status": "partial",
+              "coveredScenarios": [
+                "cn-trans-bulk-berth",
+                "cn-trans-bulk-yard-transfer",
+                "cn-trans-bulk-landside"
+              ],
+              "uncovered": [
+                "海洋内河船舶航行、轮机值守、系解缆和客运未覆盖",
+                "集装箱、液体散货与件杂货码头未覆盖；本规范仅适用干散货",
+                "货运港口为55水上运输业；58代理、59独立装卸、54场外承运按实际执行者登记，不能将同一任务计入多个行业"
+              ],
+              "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
+            },
+            {
+              "code": "56",
+              "name": "航空运输业",
+              "status": "not-yet-covered",
+              "coveredScenarios": [],
+              "uncovered": [
+                "本大类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
+              ],
+              "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
+            },
+            {
+              "code": "57",
+              "name": "管道运输业",
+              "status": "not-yet-covered",
+              "coveredScenarios": [],
+              "uncovered": [
+                "本大类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
+              ],
+              "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
+            },
+            {
+              "code": "58",
+              "name": "多式联运和运输代理业",
+              "status": "not-yet-covered",
+              "coveredScenarios": [],
+              "uncovered": [
+                "本大类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
+              ],
+              "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
+            },
+            {
+              "code": "59",
+              "name": "装卸搬运和仓储业",
+              "status": "not-yet-covered",
+              "coveredScenarios": [],
+              "uncovered": [
+                "本大类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
+              ],
+              "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
+            },
+            {
+              "code": "60",
+              "name": "邮政业",
+              "status": "partial",
+              "coveredScenarios": [
+                "cn-trans-express-collection",
+                "cn-trans-express-sort",
+                "cn-trans-express-lastmile"
+              ],
+              "uncovered": [
+                "本大类其他模式及具体场景未覆盖，逐场景gaps继续拓展；不计算覆盖率。"
+              ],
+              "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
+            }
+          ],
+          "coverageReview": {
+            "limits": [
+              {
+                "code": "53",
+                "name": "铁路运输业",
+                "status": "not-yet-covered",
+                "coveredScenarios": [],
+                "uncovered": [
+                  "本大类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
+                ],
+                "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
+              },
+              {
+                "code": "54",
+                "name": "道路运输业",
+                "status": "partial",
+                "coveredScenarios": [
+                  "cn-trans-road-truck",
+                  "cn-trans-freight-terminal"
+                ],
+                "uncovered": [
+                  "本大类其他模式及具体场景未覆盖，逐场景gaps继续拓展；不计算覆盖率。"
+                ],
+                "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
+              },
+              {
+                "code": "55",
+                "name": "水上运输业",
+                "status": "partial",
+                "coveredScenarios": [
+                  "cn-trans-bulk-berth",
+                  "cn-trans-bulk-yard-transfer",
+                  "cn-trans-bulk-landside"
+                ],
+                "uncovered": [
+                  "海洋内河船舶航行、轮机值守、系解缆和客运未覆盖",
+                  "集装箱、液体散货与件杂货码头未覆盖；本规范仅适用干散货",
+                  "货运港口为55水上运输业；58代理、59独立装卸、54场外承运按实际执行者登记，不能将同一任务计入多个行业"
+                ],
+                "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
+              },
+              {
+                "code": "56",
+                "name": "航空运输业",
+                "status": "not-yet-covered",
+                "coveredScenarios": [],
+                "uncovered": [
+                  "本大类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
+                ],
+                "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
+              },
+              {
+                "code": "57",
+                "name": "管道运输业",
+                "status": "not-yet-covered",
+                "coveredScenarios": [],
+                "uncovered": [
+                  "本大类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
+                ],
+                "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
+              },
+              {
+                "code": "58",
+                "name": "多式联运和运输代理业",
+                "status": "not-yet-covered",
+                "coveredScenarios": [],
+                "uncovered": [
+                  "本大类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
+                ],
+                "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
+              },
+              {
+                "code": "59",
+                "name": "装卸搬运和仓储业",
+                "status": "not-yet-covered",
+                "coveredScenarios": [],
+                "uncovered": [
+                  "本大类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
+                ],
+                "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
+              },
+              {
+                "code": "60",
+                "name": "邮政业",
+                "status": "partial",
+                "coveredScenarios": [
+                  "cn-trans-express-collection",
+                  "cn-trans-express-sort",
+                  "cn-trans-express-lastmile"
+                ],
+                "uncovered": [
+                  "本大类其他模式及具体场景未覆盖，逐场景gaps继续拓展；不计算覆盖率。"
+                ],
+                "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
+              }
+            ],
+            "furtherMissingScenarios": [
+              "54：客运、市内服务、危险品/大件/冷链及其清洗应急等未由本83覆盖。",
+              "55：海洋/内河航行、轮机、系解缆、港口调度/理货/取样、液散/集装箱/件杂货、船舱清扫和环保异常未全盘点。",
+              "60：国际通关、函件报刊、退件销毁、包装回收后清洁、网点设施维护、极端天气及特殊件未穷尽。",
+              "铁路53、航空56、管道57、多式联运代理58、独立装卸仓储59整类未盘点；本批不能宣称交通仓储邮政全行业完成。"
+            ],
+            "taskFamiliesPendingSOP": [
+              "cn-trans-road-truck-011",
+              "cn-trans-freight-terminal-012",
+              "cn-trans-express-sort-006",
+              "cn-trans-express-sort-013",
+              "cn-trans-bulk-berth-007",
+              "cn-trans-bulk-yard-transfer-011",
+              "cn-trans-bulk-landside-006"
+            ],
+            "noNewTasks": true
+          },
+          "splitProposals": [
+            {
+              "originalTaskId": "cn-trans-road-truck-007",
+              "proposedChildDescriptions": [
+                "检查在途车辆状态并记录",
+                "检查在途货物位移或装载状态并记录"
+              ],
+              "proposedChildCount": 2,
+              "newCountedTasks": 0,
+              "reason": "车辆状态检查与货物位移检查有不同对象和异常记录，建议2子候选；0新增计数。",
+              "status": "proposal-only-pending-SOP-and-author-response"
+            },
+            {
+              "originalTaskId": "cn-trans-road-truck-008",
+              "proposedChildDescriptions": [
+                "按预案停车并实施现场安全保护",
+                "报告故障或事故并形成可追溯通报",
+                "按获准预案实施具体实体应急处置（场景待补）"
+              ],
+              "proposedChildCount": 3,
+              "newCountedTasks": 0,
+              "reason": "可分现场安全保护、报告、按预案实体处置3个待定义子输出；需现场预案后确认。",
+              "status": "proposal-only-pending-SOP-and-author-response"
+            },
+            {
+              "originalTaskId": "cn-trans-express-sort-003",
+              "proposedChildDescriptions": [
+                "开拆快件总包并输出散件",
+                "复核袋内快件数量重量规格并记录差异"
+              ],
+              "proposedChildCount": 2,
+              "newCountedTasks": 0,
+              "reason": "开拆输出散件，复核输出差异记录；建议2子候选，0新增。",
+              "status": "proposal-only-pending-SOP-and-author-response"
+            },
+            {
+              "originalTaskId": "cn-trans-express-sort-008",
+              "proposedChildDescriptions": [
+                "将同向快件集入总包",
+                "封闭并标识待发总包"
+              ],
+              "proposedChildCount": 2,
+              "newCountedTasks": 0,
+              "reason": "集齐入袋与封口分别产生未封袋/封发总包，机制和计量可不同，建议2子候选。",
+              "status": "proposal-only-pending-SOP-and-author-response"
+            },
+            {
+              "originalTaskId": "cn-trans-express-lastmile-002",
+              "proposedChildDescriptions": [
+                "开拆末端到站总包",
+                "按投递地址分装散件"
+              ],
+              "proposedChildCount": 2,
+              "newCountedTasks": 0,
+              "reason": "开袋成散件和按址成投递组独立输出，建议2子候选。",
+              "status": "proposal-only-pending-SOP-and-author-response"
+            },
+            {
+              "originalTaskId": "cn-trans-express-lastmile-011",
+              "proposedChildDescriptions": [
+                "核实无法投递且无法退回的状态",
+                "按制度保管无着快件并保留查询记录"
+              ],
+              "proposedChildCount": 2,
+              "newCountedTasks": 0,
+              "reason": "首次核实无着状态与持续保管不同记录/周期，建议2子候选，依法处理另待流程。",
+              "status": "proposal-only-pending-SOP-and-author-response"
+            },
+            {
+              "originalTaskId": "cn-trans-bulk-yard-transfer-012",
+              "proposedChildDescriptions": [
+                "运行适配尘源的抑尘除尘设施",
+                "运行输送单元排水泵（具体条件待补）"
+              ],
+              "proposedChildCount": 2,
+              "newCountedTasks": 0,
+              "reason": "尘源控制与排水是不同目的/验收记录，建议2子候选；抑尘泵可并入抑尘系统但需明确用途。",
+              "status": "proposal-only-pending-SOP-and-author-response"
+            }
+          ],
+          "opportunities": [
+            {
+              "id": "CN-TP-OPP-01",
+              "country": "CN",
+              "title": "收寄称重与面单贴附的局部改善",
+              "kind": "conditional-research-opportunity-not-investment-recommendation",
+              "scenarioIds": [
+                "cn-trans-express-collection"
+              ],
+              "claimRefs": [
+                "CN-TP-CLAIM-DWS",
+                "CN-TP-CLAIM-LABEL"
+              ],
+              "reasonToInvestigate": "已有明确称重/读码与贴附机制，可以用同一真实收寄批次核对输出。",
+              "conditions": [
+                "码号、重量和地址接口可靠",
+                "保留验视与授权职责",
+                "低量网点应与普通秤和手持打印基线比较",
+                "各方案必须按各自任务/来源地点与阶段独立验证，不构成投资回报或全行业排序。"
+              ],
+              "nextValidation": [
+                "分包形记录首件、换耗材、异常重称/重贴和真实现金工资",
+                "核对全投入及停机，不使用额定速度估回报",
+                "后续更换资本、退出/转场/切换支出均按项目相对基准的现金差额及实际发生期列出；初始改造停产、期中更换、期末退出分别计时，已经计入异常停机或处置净残值的同一笔支出不得重复扣除。"
+              ],
+              "roi": null,
+              "priorityStatus": "requires-operator-data",
+              "reviewStatus": "independent-review-applied-pending-limited-recheck",
+              "sourceRefs": [
+                {
+                  "sourceId": "CN-TP-AUTO-CPTE-DWS",
+                  "claimId": "CN-TP-CLAIM-DWS",
+                  "locator": "L93—95、L140",
+                  "sourceBoundary": "视觉与电子称重取得码号、重量和体积信息；无具名用户。"
+                },
+                {
+                  "sourceId": "CN-TP-AUTO-PRINT-LABEL",
+                  "claimId": "CN-TP-CLAIM-LABEL",
+                  "locator": "L120—131",
+                  "sourceBoundary": "打印及贴附功能；不证明收寄信息真实或快递企业已安装。"
+                }
+              ],
+              "independentReview": {
+                "opportunityId": "CN-TP-OPP-01",
+                "decision": "retain-only-conditional-investigation-after-linked-repairs",
+                "requiredIssueIds": [
+                  "C01"
+                ],
+                "boundary": "各方案必须按各自任务/来源地点与阶段独立验证，不构成投资回报或全行业排序。",
+                "additionalRequirement": "补后续更换和退出切换现金流，沿用原需求/瓶颈/下游验证。"
+              }
+            },
+            {
+              "id": "CN-TP-OPP-02",
+              "country": "CN",
+              "title": "按场地与件量选择半自动集包",
+              "kind": "conditional-research-opportunity-not-investment-recommendation",
+              "scenarioIds": [
+                "cn-trans-express-sort"
+              ],
+              "claimRefs": [
+                "CN-TP-CLAIM-BAG-HALFAUTO",
+                "CN-TP-CLAIM-BAG-NONADOPT",
+                "CN-TP-CLAIM-BAG-BASELINE"
+              ],
+              "reasonToInvestigate": "有运营者明确未选大型设备的场景依据，可比较人工工具、半自动与全线改造。",
+              "conditions": [
+                "限定本网点可用空间及路向数",
+                "人工投袋扎袋独立计时",
+                "不要把其他站成本节约迁移",
+                "各方案必须按各自任务/来源地点与阶段独立验证，不构成投资回报或全行业排序。"
+              ],
+              "nextValidation": [
+                "观察整班峰谷件量、等待、错分回流和接管",
+                "同时索取弃购方案报价与空间约束",
+                "后续更换资本、退出/转场/切换支出均按项目相对基准的现金差额及实际发生期列出；初始改造停产、期中更换、期末退出分别计时，已经计入异常停机或处置净残值的同一笔支出不得重复扣除。"
+              ],
+              "roi": null,
+              "priorityStatus": "requires-operator-data",
+              "reviewStatus": "independent-review-applied-pending-limited-recheck",
+              "sourceRefs": [
+                {
+                  "sourceId": "CN-TP-AUTO-POST-BAG",
+                  "claimId": "CN-TP-CLAIM-BAG-HALFAUTO",
+                  "locator": "L37—42",
+                  "sourceBoundary": "东莞自研半自动集包，保留人工装袋；按场地和业务量选型。"
+                },
+                {
+                  "sourceId": "CN-TP-AUTO-POST-BAG",
+                  "claimId": "CN-TP-CLAIM-BAG-NONADOPT",
+                  "locator": "L39—42",
+                  "sourceBoundary": "东莞自研半自动集包，保留人工装袋；按场地和业务量选型。"
+                },
+                {
+                  "sourceId": "CN-TP-AUTO-LASTMILE-TOOLS",
+                  "claimId": "CN-TP-CLAIM-BAG-BASELINE",
+                  "locator": "L37、L46、L55—56",
+                  "sourceBoundary": "不同城市案例分别识别；只取邮袋辅助与输送、人工扎袋及场地改造条件。"
+                }
+              ],
+              "independentReview": {
+                "opportunityId": "CN-TP-OPP-02",
+                "decision": "retain-only-conditional-investigation-after-linked-repairs",
+                "requiredIssueIds": [
+                  "C01"
+                ],
+                "boundary": "各方案必须按各自任务/来源地点与阶段独立验证，不构成投资回报或全行业排序。",
+                "additionalRequirement": "补后续更换和退出切换现金流，沿用原需求/瓶颈/下游验证。"
+              }
+            },
+            {
+              "id": "CN-TP-OPP-03",
+              "country": "CN",
+              "title": "车货交接记录与场院指令联动",
+              "kind": "conditional-research-opportunity-not-investment-recommendation",
+              "scenarioIds": [
+                "cn-trans-express-sort",
+                "cn-trans-freight-terminal"
+              ],
+              "claimRefs": [
+                "CN-TP-CLAIM-YARD-DIGITAL",
+                "CN-TP-CLAIM-SCAN-RECEIVE"
+              ],
+              "reasonToInvestigate": "操作记录与物理交接可对照审计，适于先找重复录入与误联数据。",
+              "conditions": [
+                "场院邮政案例迁至道路货站须另验证",
+                "司机、接发人员现场确认保留",
+                "状态不能早于实际发运",
+                "各方案必须按各自任务/来源地点与阶段独立验证，不构成投资回报或全行业排序。"
+              ],
+              "nextValidation": [
+                "抽查设备事件与录像/签收时点",
+                "记录网络中断和人工接管流程，核算系统共用成本",
+                "后续更换资本、退出/转场/切换支出均按项目相对基准的现金差额及实际发生期列出；初始改造停产、期中更换、期末退出分别计时，已经计入异常停机或处置净残值的同一笔支出不得重复扣除。"
+              ],
+              "roi": null,
+              "priorityStatus": "requires-operator-data",
+              "reviewStatus": "independent-review-applied-pending-limited-recheck",
+              "sourceRefs": [
+                {
+                  "sourceId": "CN-TP-AUTO-POST-YARD",
+                  "claimId": "CN-TP-CLAIM-YARD-DIGITAL",
+                  "locator": "L50—61、L65—72、L84—95",
+                  "sourceBoundary": "报道时运行一个多月；司机与接发调度人员仍现场交接。"
+                },
+                {
+                  "sourceId": "CN-TP-AUTO-EPOD",
+                  "claimId": "CN-TP-CLAIM-SCAN-RECEIVE",
+                  "locator": "L60—85、L105、L116",
+                  "sourceBoundary": "条码与物流数据采集功能；中国站不证明国内具名实际部署。"
+                }
+              ],
+              "independentReview": {
+                "opportunityId": "CN-TP-OPP-03",
+                "decision": "retain-only-conditional-investigation-after-linked-repairs",
+                "requiredIssueIds": [
+                  "C01"
+                ],
+                "boundary": "各方案必须按各自任务/来源地点与阶段独立验证，不构成投资回报或全行业排序。",
+                "additionalRequirement": "补后续更换和退出切换现金流，沿用原需求/瓶颈/下游验证。"
+              }
+            },
+            {
+              "id": "CN-TP-OPP-04",
+              "country": "CN",
+              "title": "干散货皮带巡检与人工维保衔接",
+              "kind": "conditional-research-opportunity-not-investment-recommendation",
+              "scenarioIds": [
+                "cn-trans-bulk-yard-transfer"
+              ],
+              "claimRefs": [
+                "CN-TP-CLAIM-PORT-INSPECT",
+                "CN-TP-CLAIM-MOT-PORT-DUST",
+                "CN-TP-CLAIM-OUTSOURCE-MAINT"
+              ],
+              "reasonToInvestigate": "存在具名廊道与官方巡检案例，但报警至修复劳动需要补齐。",
+              "conditions": [
+                "点位、可见范围和安装通道匹配",
+                "不能把煤矿换托辊样机当港口可用",
+                "外包维修按合同归属",
+                "各方案必须按各自任务/来源地点与阶段独立验证，不构成投资回报或全行业排序。"
+              ],
+              "nextValidation": [
+                "复核漏检/误报与实际故障台账",
+                "分开统计巡检、确认、断能和维修动作，并取得费用差额",
+                "后续更换资本、退出/转场/切换支出均按项目相对基准的现金差额及实际发生期列出；初始改造停产、期中更换、期末退出分别计时，已经计入异常停机或处置净残值的同一笔支出不得重复扣除。"
+              ],
+              "roi": null,
+              "priorityStatus": "requires-operator-data",
+              "reviewStatus": "independent-review-applied-pending-limited-recheck",
+              "sourceRefs": [
+                {
+                  "sourceId": "CN-TP-AUTO-PORT-ROBOT",
+                  "claimId": "CN-TP-CLAIM-PORT-INSPECT",
+                  "locator": "L53—59、L69",
+                  "sourceBoundary": "日照港指定管带廊道的挂轨巡检；不是自主维修，持续日期未披露。"
+                },
+                {
+                  "sourceId": "CN-TP-AUTO-MOT-BULK-BODY",
+                  "claimId": "CN-TP-CLAIM-MOT-PORT-DUST",
+                  "locator": "PDF第45页/印刷页41，L732—738",
+                  "sourceBoundary": "青岛港前港和国能黄骅港分别归属；部委案例汇编不等于独立现场审计。"
+                },
+                {
+                  "sourceId": "CN-TP-AUTO-PORT-MAINT",
+                  "claimId": "CN-TP-CLAIM-OUTSOURCE-MAINT",
+                  "locator": "L4—12",
+                  "sourceBoundary": "正文以2016年资料为背景，未给网页发布日期；外包运行维修责任案例，不证明自动维修。"
+                }
+              ],
+              "independentReview": {
+                "opportunityId": "CN-TP-OPP-04",
+                "decision": "retain-only-conditional-investigation-after-linked-repairs",
+                "requiredIssueIds": [
+                  "C01"
+                ],
+                "boundary": "各方案必须按各自任务/来源地点与阶段独立验证，不构成投资回报或全行业排序。",
+                "additionalRequirement": "补后续更换和退出切换现金流，沿用原需求/瓶颈/下游验证。"
+              }
+            },
+            {
+              "id": "CN-TP-OPP-05",
+              "country": "CN",
+              "title": "既有港机的控制改造与辅助胶接工具",
+              "kind": "conditional-research-opportunity-not-investment-recommendation",
+              "scenarioIds": [
+                "cn-trans-bulk-berth",
+                "cn-trans-bulk-yard-transfer",
+                "cn-trans-bulk-landside"
+              ],
+              "claimRefs": [
+                "CN-TP-CLAIM-YT-GRAB",
+                "CN-TP-CLAIM-YT-PILE",
+                "CN-TP-CLAIM-YT-SHIPLOAD",
+                "CN-TP-CLAIM-YT-RAILLOAD",
+                "CN-TP-CLAIM-MOT-TIPPLER",
+                "CN-TP-CLAIM-VULCANIZE"
+              ],
+              "reasonToInvestigate": "具名自动动作与传统工序辅助工具可分别比较，不需要假设整港无人化。",
+              "conditions": [
+                "按煤种/矿种、舱型、轨道车厢和设备接口限定",
+                "监护、维修和收尾始终纳入测量",
+                "源案例的组合系统及子动作不重复记收益",
+                "各方案必须按各自任务/来源地点与阶段独立验证，不构成投资回报或全行业排序。"
+              ],
+              "nextValidation": [
+                "取同设备改造前后班次日志和验收标准",
+                "核对改造停产、传感器维护、调试及来船需求",
+                "后续更换资本、退出/转场/切换支出均按项目相对基准的现金差额及实际发生期列出；初始改造停产、期中更换、期末退出分别计时，已经计入异常停机或处置净残值的同一笔支出不得重复扣除。"
+              ],
+              "roi": null,
+              "priorityStatus": "requires-operator-data",
+              "reviewStatus": "independent-review-applied-pending-limited-recheck",
+              "sourceRefs": [
+                {
+                  "sourceId": "CN-TP-AUTO-YANTAI-OPERATOR",
+                  "claimId": "CN-TP-CLAIM-YT-GRAB",
+                  "locator": "L99、L111—114",
+                  "sourceBoundary": "烟台西港区专业化矿石码头，操作自动化与远程清舱分别描述；不是2026全港无人化。"
+                },
+                {
+                  "sourceId": "CN-TP-AUTO-YANTAI-OPERATOR",
+                  "claimId": "CN-TP-CLAIM-YT-PILE",
+                  "locator": "L120—122",
+                  "sourceBoundary": "烟台西港区专业化矿石码头，操作自动化与远程清舱分别描述；不是2026全港无人化。"
+                },
+                {
+                  "sourceId": "CN-TP-AUTO-YANTAI-OPERATOR",
+                  "claimId": "CN-TP-CLAIM-YT-SHIPLOAD",
+                  "locator": "L127—129",
+                  "sourceBoundary": "烟台西港区专业化矿石码头，操作自动化与远程清舱分别描述；不是2026全港无人化。"
+                },
+                {
+                  "sourceId": "CN-TP-AUTO-YANTAI-OPERATOR",
+                  "claimId": "CN-TP-CLAIM-YT-RAILLOAD",
+                  "locator": "L116—118",
+                  "sourceBoundary": "烟台西港区专业化矿石码头，操作自动化与远程清舱分别描述；不是2026全港无人化。"
+                },
+                {
+                  "sourceId": "CN-TP-AUTO-MOT-BULK-BODY",
+                  "claimId": "CN-TP-CLAIM-MOT-TIPPLER",
+                  "locator": "PDF第47—48页/印刷页43—44，L766—778",
+                  "sourceBoundary": "青岛港前港和国能黄骅港分别归属；部委案例汇编不等于独立现场审计。"
+                },
+                {
+                  "sourceId": "CN-TP-AUTO-BELT-JOIN",
+                  "claimId": "CN-TP-CLAIM-VULCANIZE",
+                  "locator": "L8—10",
+                  "sourceBoundary": "电加热、液压加压及水冷胶接工具，未证明自动备带或全接头验收。"
+                }
+              ],
+              "independentReview": {
+                "opportunityId": "CN-TP-OPP-05",
+                "decision": "retain-only-conditional-investigation-after-linked-repairs",
+                "requiredIssueIds": [
+                  "C01",
+                  "E04"
+                ],
+                "boundary": "各方案必须按各自任务/来源地点与阶段独立验证，不构成投资回报或全行业排序。",
+                "additionalRequirement": "补后续更换和退出切换现金流，沿用原需求/瓶颈/下游验证。"
+              }
+            },
+            {
+              "id": "CN-TP-OPP-06",
+              "country": "CN",
+              "title": "适配纸箱或托盘的货站装卸辅助",
+              "kind": "conditional-research-opportunity-not-investment-recommendation",
+              "scenarioIds": [
+                "cn-trans-freight-terminal"
+              ],
+              "claimRefs": [
+                "CN-TP-CLAIM-BOX-ROBOT",
+                "CN-TP-CLAIM-PALLET-MOVE"
+              ],
+              "reasonToInvestigate": "可将已读厂商描述的人控升降助力与纸箱机械臂路线按对象做实测；没有独立市场成熟度证据。",
+              "conditions": [
+                "国内具名机器人用户尚未独立验证",
+                "货物、车厢与装卸接口一致",
+                "异形货和破损件分流",
+                "各方案必须按各自任务/来源地点与阶段独立验证，不构成投资回报或全行业排序。"
+              ],
+              "nextValidation": [
+                "记录整车兼容件占比、准备和异常时间",
+                "取得本地运行用户及未采用客户回访",
+                "后续更换资本、退出/转场/切换支出均按项目相对基准的现金差额及实际发生期列出；初始改造停产、期中更换、期末退出分别计时，已经计入异常停机或处置净残值的同一笔支出不得重复扣除。"
+              ],
+              "roi": null,
+              "priorityStatus": "requires-operator-data",
+              "reviewStatus": "independent-review-applied-pending-limited-recheck",
+              "sourceRefs": [
+                {
+                  "sourceId": "CN-TP-AUTO-FREIGHT-LOAD",
+                  "claimId": "CN-TP-CLAIM-BOX-ROBOT",
+                  "locator": "L47—52、L64",
+                  "sourceBoundary": "纸箱机器人装卸方案；页面日本和美国图片案例均不作为中国部署。"
+                },
+                {
+                  "sourceId": "CN-TP-AUTO-CROWN-MOVE",
+                  "claimId": "CN-TP-CLAIM-PALLET-MOVE",
+                  "locator": "L24、L41—55、L94—101、L160—168",
+                  "sourceBoundary": "电动步行式托盘升降搬运；需要操作员，国内用户部署未提供。"
+                }
+              ],
+              "independentReview": {
+                "opportunityId": "CN-TP-OPP-06",
+                "decision": "retain-only-conditional-investigation-after-linked-repairs",
+                "requiredIssueIds": [
+                  "C01"
+                ],
+                "boundary": "各方案必须按各自任务/来源地点与阶段独立验证，不构成投资回报或全行业排序。",
+                "additionalRequirement": "OP06将成熟人控升降助力改为已有厂商描述的人控升降助力；本次没有独立市场成熟度证据。"
+              }
+            },
+            {
+              "id": "CN-TP-OPP-07",
+              "country": "CN",
+              "title": "道路车辆检查辅助与限定自动驾驶试验",
+              "kind": "conditional-research-opportunity-not-investment-recommendation",
+              "scenarioIds": [
+                "cn-trans-road-truck"
+              ],
+              "claimRefs": [
+                "CN-TP-CLAIM-TPMS",
+                "CN-TP-CLAIM-TRUCK-SCALE",
+                "CN-TP-CLAIM-ROAD-TEST"
+              ],
+              "reasonToInvestigate": "轮胎/重量数据与驾驶试验可分别核查，先明确可替代输出和残留驾驶责任。",
+              "conditions": [
+                "不把专利、检测站技术或测试道路升格承运全程部署",
+                "安全员及驾驶工资是否可取消必须有实际依据",
+                "各方案必须按各自任务/来源地点与阶段独立验证，不构成投资回报或全行业排序。",
+                "TPMS所列UDS只属卡车前装胎压胎温系统；轮胎数据、整车出车检查与驾驶试验分别取证。"
+              ],
+              "nextValidation": [
+                "索取当前车队车型、路线和2026运行资质/日志",
+                "核查全车检查、事故、货移报警和出车放行的真实关联",
+                "后续更换资本、退出/转场/切换支出均按项目相对基准的现金差额及实际发生期列出；初始改造停产、期中更换、期末退出分别计时，已经计入异常停机或处置净残值的同一笔支出不得重复扣除。"
+              ],
+              "roi": null,
+              "priorityStatus": "requires-operator-data",
+              "reviewStatus": "independent-review-applied-pending-limited-recheck",
+              "sourceRefs": [
+                {
+                  "sourceId": "CN-TP-AUTO-ROAD-TPMS-CN",
+                  "claimId": "CN-TP-CLAIM-TPMS",
+                  "locator": "L96—121",
+                  "sourceBoundary": "轮胎数据显示和挂车连接仅限所列胎压胎温监测方案；UDS 诊断位于卡车前装胎压（胎温）监测小节，不推整车诊断；无可审计承运车队清单。"
+                },
+                {
+                  "sourceId": "CN-TP-AUTO-ROAD-WEIGH-PATENT",
+                  "claimId": "CN-TP-CLAIM-TRUCK-SCALE",
+                  "locator": "L89、L124",
+                  "sourceBoundary": "地磅称重实施例与清理推板设计；明确司机、门卫参与，非承运场站商用证明。"
+                },
+                {
+                  "sourceId": "CN-TP-AUTO-ROAD-PILOT",
+                  "claimId": "CN-TP-CLAIM-ROAD-TEST",
+                  "locator": "L82—89",
+                  "sourceBoundary": "限定京津塘测试路段，主驾安全员；后续商业试运行是当时计划。"
+                }
+              ],
+              "independentReview": {
+                "opportunityId": "CN-TP-OPP-07",
+                "decision": "retain-only-conditional-investigation-after-linked-repairs",
+                "requiredIssueIds": [
+                  "C01",
+                  "E03"
+                ],
+                "boundary": "各方案必须按各自任务/来源地点与阶段独立验证，不构成投资回报或全行业排序。",
+                "additionalRequirement": "补后续更换和退出切换现金流，沿用原需求/瓶颈/下游验证。"
+              }
+            }
+          ],
+          "method": {
+            "queryScope": "83项各一正一反实际查询；初查道路11项被正式法规措辞主导后追加22条聚焦复查；另外8个专题批次22条。每对/批请求与原始回包完整保留，搜索结果只联合归因，不为每一查询捏造独立排序。",
+            "dateCutoff": "2026-09-09",
+            "sourceLevels": "厂商功能、具名供应商案例、运营者历史/试运行/运行、官方案例、专利、相邻行业样机、采购要求和规范责任分别标记。",
+            "dataBoundary": "CN与CNY独立；海外案例图片不进入中国部署，国内供应商欧美车型产品亦未作为国内匹配机制。",
+            "definitionBoundary": "原清单83份完整快照保持；逐项有效定义区分职业动作、部分动作、上下文、法规要求和拟议返工。7父15子仅建议，无新增或继承搜索/工时。作者应用独审后仍待限定复检。",
+            "missingEvidence": "未读全文的候选不支撑实质结论；检索无匹配并非不可行，不给第2/3类无场景判断。",
+            "cashFlowFormula": "WC_inc_t = WC_project_t - WC_baseline_t; delta_WC_inc_t = WC_inc_t - WC_inc_(t-1); CF_t = avoidable_baseline_cash_labor_before_residual_t + demand_and_bottleneck_supported_incremental_contribution_t - project_residual_cash_labor_t - incremental_maintenance_consumables_energy_rent_service_t - incremental_exception_rework_downtime_t - incremental_taxes_t - delta_WC_inc_t - replacement_capex_t - incremental_exit_transfer_switch_cost_t; CF_0 = -(incremental_equipment_site_integration_training_commissioning_0 + incremental_initial_switch_downtime_0 + WC_inc_0); terminal_net_recovery_T added once only if evidenced; replacement_capex_t and incremental_exit_transfer_switch_cost_t are project-minus-baseline cash differences, allocated once at their actual occurrence; terminal costs already deducted in terminal_net_recovery_T are not deducted again",
+            "workingCapitalDefinition": "WC_inc,t=项目营运资金余额_t−基准方案营运资金余额_t；每期只扣WC_inc,t−WC_inc,t−1。期初只投入WC_inc,0；期末有依据才回收，已反映在余额下降中的回收不得再计。",
+            "economics": "比较同一交付质量/数量的增量现金流，已进入贡献的成本不重复扣；全部输入、回收期与门槛为null。",
+            "privacy": "公开审计去除临时授权参数和过长正文误识别标题，原文及原始回包仅留内部。",
+            "coverage": "道路货运、货站、快递与干散货港口8场景；53/56/57/58/59全大类及54/55/60剩余场景显式未覆盖。",
+            "cashLifecycleBoundary": "后续更换资本、退出/转场/切换支出均按项目相对基准的现金差额及实际发生期列出；初始改造停产、期中更换、期末退出分别计时，已经计入异常停机或处置净残值的同一笔支出不得重复扣除。",
+            "queryPersistenceLayer": "请求文本、startedAtUTC/completedAtUTC与原始回包在同对象；没有独立调用前持久日志，不能由该对象证明写入先后。",
+            "sourceReadsUTC": "首轮若干并行open共有起止区间，只证明批次区间而非各源精确完成瞬间。"
+          },
+          "exclusions": [
+            {
+              "sourceAlias": "YANTAI",
+              "reason": "政府转载大众网报道为发现线索；机制改引运营者原发布和部委案例，不采用转载中的劳动/收益数字。"
+            },
+            {
+              "sourceAlias": "RECYCLE-SPB",
+              "reason": "政府转载科技日报，未补到对应运营者原始包装追踪报告；不保留为本批事实依据。"
+            },
+            {
+              "sourceAlias": "ROAD-TPMS",
+              "reason": "道通产品明确覆盖欧美主流车型，未证明本次中国承运车队适配；另留赛富特商用车功能。"
+            },
+            {
+              "sourceAlias": "ROAD-TPMS-DETAIL",
+              "reason": "一次探索性猜测地址请求未取得内容；不是已发现或已读来源，已由主页实际href另请求亦未取得正文。"
+            },
+            {
+              "sourceAlias": "FREIGHT-LOAD",
+              "reason": "日本、美国的图片案例只作排除记录；中国本批仅保留供应商功能说明。"
+            },
+            {
+              "sourceAlias": "BELT-IDLER",
+              "reason": "可保留煤矿样机为相邻机制，绝不计作港口实际采用。"
+            },
+            {
+              "sourceAlias": "POST-MISROUTE-PLAN",
+              "reason": "仅计划证据；要求的检出率、误报率、维护SLA不是运行实测。"
+            }
+          ],
+          "numericEvidenceExclusions": [
+            "所有来源的名义速度、节约比例、人数、全港或全网累计产出均未输入本任务人工或回报计算。",
+            "专利参数与实验读数只用于说明对象边界，不作为本场景验收阈值或经济收益。"
+          ],
+          "queryAudit": {
+            "file": "research/automation/cn-transport-search-audit.json",
+            "sha256": "86ef3aaf630a6cc09a669c2cd876a3811d7328499fcc0866354232290ed9eb7b",
+            "mainQueries": 166,
+            "roadRetryQueries": 22,
+            "supplementalQueries": 22,
+            "supplementalBatches": 8,
+            "recordBoundary": "166 条主查询、22 条道路复查按94个正反合并批保留，22条专题补查按原8批保留。请求、UTC与回包在同一对象，不能证明独立调用前写入；不逐查询归因候选，也不声称五类路线分别穷尽。",
+            "supplementalGroups": [
+              {
+                "id": "TP-A02",
+                "request": {
+                  "search_query": [
+                    {
+                      "q": "site.chinapost.com.cn 分拣 维保 急停 检测 故障"
+                    },
+                    {
+                      "q": "site.crown.com 中国 电动 搬运车 维护 日常 检查"
+                    },
+                    {
+                      "q": "site.jd.com 循环箱 RFID 回收 2025"
+                    }
+                  ],
+                  "response_length": "long"
+                },
+                "startedAtUTC": "2026-09-09 11:00:49 UTC",
+                "completedAtUTC": "2026-09-09 11:00:52 UTC",
+                "executionStatus": "executed",
+                "responseAttribution": "batch-candidates-not-individual-query",
+                "candidates": [
+                  {
+                    "title": "Crown-科朗叉车官网 | 首页",
+                    "url": "https://www.crown.com/zh-cn.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "〖中国邮政集团有限公司杭州市分公司全地区揽投部直线分拣机框架协议维保服务项目〗招标公告 - 中国邮政集团有限公司",
+                    "url": "https://www.chinapost.com.cn/html1/report/2509/7549-1.htm",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "领券中心",
+                    "url": "https://huishou.jd.com/recieveCenter",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "邮政寄递建强集中维保体系 全网设备故障数下降超九成 - 中国邮政集团有限公司",
+                    "url": "https://www.chinapost.com.cn/cn/report/2609/0746-1.htm",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "2026年广东邮政省际中心AI错分监测报警系统建设项目采购需求公开征求意见公告 - 中国邮政集团有限公司",
+                    "url": "https://www.chinapost.com.cn/cn/report/2607/6699-1.htm",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "〖中国邮政集团有限公司河北省分公司全省县、乡共配中心简易分拣系统设备维保服务项目〗招标公告 - 中国邮政集团有限公司",
+                    "url": "https://www.chinapost.com.cn/html1/report/2505/3857-1.htm",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "WJ 系列紧凑型托盘搬运车 | 科朗叉车",
+                    "url": "https://www.crown.com/zh-cn/forklifts/pallet-trucks/compact-pallet-truck-wj.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "2022 年6 月2 日星期四",
+                    "url": "https://www.chinapost.com.cn/newspaper/epaper/page/1/2022-06-02/03/44641654144596732.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "Crown-科朗叉车官网 I 全系列叉车",
+                    "url": "https://www.crown.com/zh-cn/forklifts.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "2022 年8 月12 日星期五",
+                    "url": "https://www.chinapost.com.cn/newspaper/epaper/page/1/2022-08-12/03/34441660274373930.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "帮助中心-京东",
+                    "url": "https://help.jd.com/user/issue/962-4555.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "帮助中心-京东",
+                    "url": "https://help.jd.com/user/issue/321-4535.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "PR系列 |托盘搬运车 | Crown-科朗叉车",
+                    "url": "https://www.crown.com/zh-cn/forklifts/pallet-trucks/pr-rider-pallet-truck.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "启用50万个新款循环保温箱 京东物流生鲜包装“添新绿”",
+                    "url": "https://www.spb.gov.cn/gjyzj/c204524/202506/875082582b104329934d5c7c55c059e6.shtml",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "JDL 京东物流 2024 年环境、社会及治理报告",
+                    "url": "https://stockn.xueqiu.com/02618/20250425989257.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "候选资源（标题待核；搜索回包将正文误识别为标题）",
+                    "url": "https://www.crown.com/content/dam/crown/pdfs/zh-cn/brochures/product-service-guide-zh-cn.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "2023 年，京东物流重新修订了《",
+                    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2024/0426/2024042601993_c.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "<visual_element",
+                    "url": "https://www.plasticfreechn.org.cn/upload/ueditor/20220411/202204111152069971.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  }
+                ],
+                "rawTextSha256": "0e4519030e7bf43597fa678f16c4434585e877582d39409d748b4e552dce645b"
+              },
+              {
+                "id": "TP-A01",
+                "request": {
+                  "search_query": [
+                    {
+                      "q": "中国 公路 货车 自动驾驶 京津塘 主线科技 安全员 现场 核验"
+                    },
+                    {
+                      "q": "中国 货车 智能网联 驾驶 系统 退出 人工接管 运营"
+                    }
+                  ],
+                  "response_length": "long"
+                },
+                "startedAtUTC": "2026-09-09 11:00:49 UTC",
+                "completedAtUTC": "2026-09-09 11:00:52 UTC",
+                "executionStatus": "executed",
+                "responseAttribution": "batch-candidates-not-individual-query",
+                "candidates": [
+                  {
+                    "title": "主线科技顺利通过“通港达园”项目成果京津塘高速现场核验 - 最新动态 - 主线科技 | TRUNK — 打造更安全、更绿色、更高效的自动驾驶卡车生态",
+                    "url": "https://www.trunk.tech/dynamic/info.html?id=15",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "全国首个跨省市高速公路自动驾驶货运测试项目通过验收_产业发展_北京市科学技术委员会、中关村科技园区管理委员会",
+                    "url": "https://kw.beijing.gov.cn/xwdt/kcyx/xwdtcyfz/202403/t20240320_3818120.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "跨省市自动驾驶货运项目通过验收_资讯信息_北京经济技术开发区",
+                    "url": "https://kfqgw.beijing.gov.cn/zwgkkfq/ztzl/lqztkfq/lqzx/zxxx/202403/t20240318_4234198.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "全国首个跨省市高速公路自动驾驶货运测试正式启动 - 最新动态 - 主线科技 | TRUNK — 打造更安全、更绿色、更高效的自动驾驶卡车生态",
+                    "url": "https://www.trunk.tech/index/dynamic/info.html?id=16",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "高级别自动驾驶3.0扩区建设打造商用车高速场景 首条跨京津冀测试高速公路全线开放_部门动态_首都之窗_北京市人民政府门户网站",
+                    "url": "https://www.beijing.gov.cn/ywdt/gzdt/202404/t20240419_3624472.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "公路火车开进现实，主线科技获北京首批智能网联重卡编队路测通知书 - 最新动态 - 主线科技 | TRUNK — 打造更安全、更绿色、更高效的自动驾驶卡车生态",
+                    "url": "https://trunk.tech/index/dynamic/info.html?id=81",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "京津塘高速全线开放智能网联汽车测试",
+                    "url": "https://jtyst.jl.gov.cn/kys/xxdt/yjshydt/202404/t20240415_8894110.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "开启公路物流新篇章，东疆智驾企业启动跨省测试",
+                    "url": "https://www.dongjiang.gov.cn/contents/22/20937.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "全国首个跨省市高速公路自动驾驶货运测试项目通过验收",
+                    "url": "https://peking.bjd.com.cn/content/s65f811e0e4b06417815667af.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "最新动态 - 主线科技 | TRUNK — 打造更安全、更绿色、更高效的自动驾驶卡车生态",
+                    "url": "https://www.trunk.tech/dynamic?page=5",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "全国首个跨省市高速公路自动驾驶货运测试在京津塘高速正式启动-企业新闻-招商公路",
+                    "url": "https://www.cmhighway.com/xwzx/qyxw/content/1991755486905913346_1991755500805836802.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "全国首个跨省高速自动驾驶货运测试通过验收 京津联手打造自动驾驶货运走廊",
+                    "url": "https://www.ncsti.gov.cn/kjdt/kjrd/qtrd_kjrd/202403/t20240319_151410.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "2025 年3 月28 日 星期五 13",
+                    "url": "https://paper.people.com.cn/rmrb/pc/attachement/202503/28/e8e81df1-eba7-419f-96d3-1834bf54a151.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "(19)中华人民共和国国家知识产权局",
+                    "url": "https://patentimages.storage.googleapis.com/cb/26/d3/4904274ea2d95a/CN111260946A.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "候选资源（标题待核；搜索回包将正文误识别为标题）",
+                    "url": "https://www.cmet1965.com/uploadfile/2025/0403/20250403122256343.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "北京—天津—塘沽高速公路",
+                    "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E4%BA%AC%E2%80%94%E5%A4%A9%E6%B4%A5%E2%80%94%E5%A1%98%E6%B2%BD%E9%AB%98%E9%80%9F%E5%85%AC%E8%B7%AF",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "根据汽车行业预测，智能网联汽车将于 2020 年-2025 年逐步进入市场，将开启一个崭",
+                    "url": "https://www.catarc.org.cn/upload/202107/13/202107132208394655.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "2024年3月8日",
+                    "url": "https://paper.people.com.cn/rmrbhwb/images/2024-03/08/10/rmrbhwb2024030810.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "候选资源（标题待核；搜索回包将正文误识别为标题）",
+                    "url": "https://aimg8.dlssyht.cn/u/2207416/ueditor/file/1104/2207416/1708651696984347.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "比亚迪高端品牌腾势，客户试驾途中4S店销售说可以放开双手让电脑接管（智能驾驶功能），其后追尾前车🤣",
+                    "url": "https://www.reddit.com/r/real_China_irl/comments/1dtjfaw",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "不懂就问：既然小米L2级的辅助驾驶允许驾驶员开车时睡着，那出现情况时又会自动退出交由驾驶员接管，这是不是矛盾了？",
+                    "url": "https://www.reddit.com/r/China_irl/comments/1jq0ao1",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  }
+                ],
+                "rawTextSha256": "7d6fa4c747570b870622a7f9ad78393256b23983b0af21036afe69beb5ba0939"
+              },
+              {
+                "id": "TP-A03",
+                "request": {
+                  "search_query": [
+                    {
+                      "q": "中国 货车 胎压 温度 实时 监测 车载 厂家"
+                    },
+                    {
+                      "q": "中国 货车 出车 检查 日常 保养 智能 系统 手册"
+                    },
+                    {
+                      "q": "中国 货车 装载 固定 状态 监测 传感器"
+                    }
+                  ],
+                  "response_length": "long"
+                },
+                "startedAtUTC": "2026-09-09 11:01:41 UTC",
+                "completedAtUTC": "2026-09-09 11:01:43 UTC",
+                "executionStatus": "executed",
+                "responseAttribution": "batch-candidates-not-individual-query",
+                "candidates": [
+                  {
+                    "title": "MX-Sensor CVS-A01 - Autel",
+                    "url": "https://www.auteltech.cn/tyxlcp/4142.jhtml",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "专用线交接检查系统 – 北京鼎兴达信息科技股份有限公司",
+                    "url": "https://www.topnetwork.com.cn/products-and-service/zyxjjjcxt/",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "TireAngel - 商用车队智能轮胎管理解决方案",
+                    "url": "https://www.tireangel.com/",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "主动安全-陕西法士特汽车传动集团有限责任公司 陕西法士特汽车传动集团有限责任公司",
+                    "url": "https://www.chinafastgear.com/default/detail/2023110911M2Cy4.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "安全，铁将军",
+                    "url": "https://www.zstjj.com/static/Chinese/product_tyjc.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "太阳能LCD显示屏负显款内置胎压报警器厂家|同花顺",
+                    "url": "https://www.promata.cn/zh-cn/tpms-mata2.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "亿连官网|专注手机汽车互联-亿连手机互联,驾驶助手,方控-卡比特",
+                    "url": "https://www.carbit.com.cn/hardware/tirepressure",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "铁路货车装载状态标准图像智能识别装置 - 中国铁道科学研究院集团有限公司",
+                    "url": "https://www.rails.cn/content.php?contentid=68013",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "胎牛,商用车胎压监测,胎牛压力监测系统,胎压监测,胎压监测装置-东莞赛富特汽车安全技术有限公司",
+                    "url": "https://www.saftire.com/",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "橙的电子股份有限公司",
+                    "url": "https://www.orange-electronic.com/index_cn.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "中位科技 - 产品",
+                    "url": "https://www.zwlbs.com/product-terminal.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "随着我国铁路向高速，重载，长编组发展，在铁",
+                    "url": "https://sc19.gongkong.com/Upload/gongkong/technicalDataAttachment/202202/22/72f74e2a115f4ca2a92b676676654d39.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "车联网、智能终端",
+                    "url": "https://www.hfitech.com/product_airport/safeEscort.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "6.2.2.1 货车车辆应搭载先进的车载传感器、控制器、执行器等装置，具备环境感知、智能化决策与控制功能，自动驾驶级别应不低于 L3 级。",
+                    "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3234/site/attach/0/17888b19684641baad823f7405e09321.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "(19)国家知识产权局",
+                    "url": "https://patentimages.storage.googleapis.com/0c/aa/24/736ddd59f20621/CN219706823U.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "溧阳市国省道省市际交界处货车不停车动态称重检测系统",
+                    "url": "https://zfcg.changzhou.gov.cn/upfiles/fromtuisong/20231215/20231215143001_7853.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "(19)国家知识产权局",
+                    "url": "https://patentimages.storage.googleapis.com/fe/34/ed/e6d9b22dbe6725/CN115077675A.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "候选资源（标题待核；搜索回包将正文误识别为标题）",
+                    "url": "https://pdf.dfcfw.com/pdf/H3_AP202007171392233559_1.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "胎壓偵測系統",
+                    "url": "https://zh.wikipedia.org/wiki/%E8%83%8E%E5%A3%93%E5%81%B5%E6%B8%AC%E7%B3%BB%E7%B5%B1",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  }
+                ],
+                "rawTextSha256": "a9513619e796452dd8023621e2670f4427dc71e8ab19b5d882a36aa2aaff720b"
+              },
+              {
+                "id": "TP-A04",
+                "request": {
+                  "search_query": [
+                    {
+                      "q": "中国 港口 连续卸船机 螺旋 运行 工人 清舱"
+                    },
+                    {
+                      "q": "中国 港口 输送带 自动 纠偏 机构 故障"
+                    },
+                    {
+                      "q": "中国 港口 皮带 沿线 撒料 清扫 机械"
+                    }
+                  ],
+                  "response_length": "long"
+                },
+                "startedAtUTC": "2026-09-09 11:01:41 UTC",
+                "completedAtUTC": "2026-09-09 11:01:43 UTC",
+                "executionStatus": "executed",
+                "responseAttribution": "batch-candidates-not-individual-query",
+                "candidates": [
+                  {
+                    "title": "输送带自动调偏装置的设计与应用",
+                    "url": "https://qikan.cmes.org/sbglywx/CN/PDF/10.16621/j.cnki.issn1001-0599.2023.06.32",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "输煤港口皮带机回程洗带系统设计与应用_参考网",
+                    "url": "https://www.fx361.com/page/2022/1117/11587685.shtml",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "散货码头皮带机清扫器怎么配才不拖班产 | HCN屈恩机具资讯",
+                    "url": "https://www.hcn-port.com/2026/07/27/port-news-pidaiji-qingsaoqi-sanliao-zhili/",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "神华黄骅港运维项目 - 中交第一航务工程局有限公司(中交一航局) 欢迎您!",
+                    "url": "https://www.ccccyhj.com/article/38/detail-701.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "螺旋式连续卸船机——港口散货作业高效环保的利器-〖官网〗武汉港博港机技术有限公司|港博|港博港机|港口机械设计|港口维修改造_港博_港博港机_港口机械设计",
+                    "url": "https://www.greenports.cn/news/144.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "国产粮食卸船机“上岗”记",
+                    "url": "https://sd.people.com.cn/n2/2025/0915/c166188-41351579.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "福建省湄洲湾港口发展中心关于学习借鉴国投港口《港口生产标准作业法(卸船作业线)》的通知 _ 其他应主动公开的政府信息 _ 省交通运输厅",
+                    "url": "https://jtyst.fujian.gov.cn/mzwgk/mzwzfxxgk/mzwzfxxgk/qtyzdgkdzfxx/202411/t20241105_6560445.htm",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "带式输送机胶带跑偏监测及纠偏装置研究_中国煤炭行业知识服务平台",
+                    "url": "https://www.chinacaj.net/i%2C2%2C334767%2C0.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "CN205471379U - Be applied to high -speed coal -conveying belt's in bulk cargo harbour washing unit - Google Patents",
+                    "url": "https://patents.google.com/patent/CN205471379U/en",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "CN101244777A - 输送带自动纠偏装置和方法 - Google Patents",
+                    "url": "https://patents.google.com/patent/CN101244777A/zh",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "浙江海港电子招标采购平台",
+                    "url": "https://hgdzzb.nbport.com.cn/sdny_bulletin/2026-07-23/167618.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "​技改让老塘山码头粉尘“无处可逃”——中国水运网",
+                    "url": "https://www.zgsyb.com/news.html?aid=732447",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "装船机输送皮带故障排查：跑偏、打滑、撕裂、撒料与堵料 - 中瑞重工",
+                    "url": "https://zoomry.cn/industrynews/227.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "138  中国航海  第47卷第2期",
+                    "url": "https://zghh.cinnet.cn/cn/article/pdf/preview/10.3969/j.issn.1000-4653.2024.02.018.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "高等教育出版社",
+                    "url": "https://yun.cncgroup.net/Resource/ebook_old/dz/date/U/A2036766.pdf?url=",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "(19)中华人民共和国国家知识产权局",
+                    "url": "https://patentimages.storage.googleapis.com/60/1d/5c/bbe9e34857bb26/CN110182621A.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "2024年 第 4 期",
+                    "url": "https://cn.zpmc.com/Img/gujia/202409201033142246528.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "Port of Tianjin",
+                    "url": "https://en.wikipedia.org/wiki/Port_of_Tianjin",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  }
+                ],
+                "rawTextSha256": "0c0a794e1bcee3cb4a2d90a181a13e663360ace499077adce6251c28567b6b1f"
+              },
+              {
+                "id": "TP-A06",
+                "request": {
+                  "search_query": [
+                    {
+                      "q": "site.spb.gov.cn 快递 实名 收寄 智能 验视 设备"
+                    },
+                    {
+                      "q": "site.chinapost.com.cn 智能 收寄 身份证 实名 验视"
+                    },
+                    {
+                      "q": "中国 快递 循环 包装 回收 机器 RFID 厂商"
+                    }
+                  ],
+                  "response_length": "long"
+                },
+                "startedAtUTC": "2026-09-09 11:03:17 UTC",
+                "completedAtUTC": "2026-09-09 11:03:20 UTC",
+                "executionStatus": "executed",
+                "responseAttribution": "batch-candidates-not-individual-query",
+                "candidates": [
+                  {
+                    "title": "邮政快递业安全生产",
+                    "url": "https://www.spb.gov.cn/gjyzj/yzkdyaqsc02/202607/117332c8c4cc46f2a91b9faee0ce296a.shtml",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "智能快件箱寄递服务管理办法",
+                    "url": "https://sh.spb.gov.cn/shsyzglj/c100065/c100066/201912/dd82dd8f4a8040a9b1d2139b9bb4e87d.shtml",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "YZ / T 0185—2022",
+                    "url": "https://www.spb.gov.cn/gjyzj/c100009/c100012/202411/2d0b117547164fe5ba55d3b1957ea2cc/files/%E9%82%AE%E4%BB%B6%E5%BF%AB%E4%BB%B6%E5%AE%9E%E5%90%8D%E6%94%B6%E5%AF%84%E9%AA%8C%E8%A7%86%E6%93%8D%E4%BD%9C%E8%A7%84%E8%8C%83.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "市邮政管理局部署开展寄递安全第三方试寄测试",
+                    "url": "https://sd.spb.gov.cn/sdsyzglj/c103496/c103498/202606/9d249aa3435b4e4485d1771a6f6636e6.shtml",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "关于实名制寄递的权威解读和公布举报电话的信息公告",
+                    "url": "https://ah.spb.gov.cn/ahsyzglj/c103046/c103049/201710/b407faf5d5a24cfbbba4a23835bf5330.shtml",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "快递业务经营许可申请指南",
+                    "url": "https://zj.spb.gov.cn/zjsyzglj/c100057/c100058/202204/c52382bdf27a4c5f998d848ae8f02b42.shtml",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "强化线上巡查 筑牢重大活动期间寄递安全防线",
+                    "url": "https://ah.spb.gov.cn/ahsyzglj/c103028/c103030/202511/d9e6c778e3124daaa08e84bf1f8fcb15.shtml",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "严抓三项制度 筑牢安全防线巴州邮政管理局开展寄递行业安全生产专项整治行动",
+                    "url": "https://xj.spb.gov.cn/xjyzglj/c101019/c101030/c101032/202608/de11b4b70730446b8bbbc2355a9aff96.shtml",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "本溪局与市公安局建立联合机制 打击盗窃等寄递渠道治安违法行为",
+                    "url": "https://ln.spb.gov.cn/lnsyzglj/c100057/c100061/202608/390fb445bd5c46a8859b57cee2758406.shtml",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "寄件人交寄邮件时应如何履行告知义务 - 中国邮政集团有限公司",
+                    "url": "https://www.chinapost.com.cn/cn/report/2302/19996-1.htm",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "国家邮政局部署开展寄递安全“三项制度”专项整治行动",
+                    "url": "https://sc.spb.gov.cn/scsyzglj/c105837/c105839/202404/ba0a9af045ec407494cfdc37e1a03e6f.shtml",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "寄递服务企业收寄物品安全管理规定（试行）",
+                    "url": "https://zwfw.spb.gov.cn/flagship/zcfg/zcfgDetail?uuid=241",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "第一分局全员出动开展专项检查 护航上合组织峰会顺利召开",
+                    "url": "https://tj.spb.gov.cn/tjsyzglj/c100057/c100061/202509/0f13e683bdc94cc09a83039c25065c8c.shtml",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "在快递包装领域，循环包装使用较成熟的是用于分拣中心到快递网",
+                    "url": "https://www.plasticfreechn.org.cn/upload/ueditor/20220411/202204111152069971.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "候选资源（标题待核；搜索回包将正文误识别为标题）",
+                    "url": "https://hl.spb.gov.cn/hljsyzglj/c101912/c101915/202310/ecfb2e768c5a44f08893b04554dfe1c8/files/%E5%AF%84%E9%80%92%E6%9C%8D%E5%8A%A1%E7%94%A8%E6%88%B7%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E4%BF%9D%E6%8A%A4%E8%A6%81%E6%B1%82.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "顺丰持续深耕绿色包装领域，聚焦包装技术前沿，不断加大可持续包装材料的研发投入。通过",
+                    "url": "https://pdf.dfcfw.com/pdf/H2_AN202503281648722665_1.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "第一届绿色物流示范案例",
+                    "url": "https://www.zgjtb.com/photo/2025-03/17/ac97e5aa-350c-4aba-9119-f1d8526e1524.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "智能快遞櫃",
+                    "url": "https://zh.wikipedia.org/wiki/%E6%99%BA%E8%83%BD%E5%BF%AB%E9%81%9E%E6%AB%83",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  }
+                ],
+                "rawTextSha256": "299d355030bfa1b0b99669214de77b28f84eced0ed16b4efeabf1d458dc688be"
+              },
+              {
+                "id": "TP-A05",
+                "request": {
+                  "search_query": [
+                    {
+                      "q": "site.fcbox.com 快递员 投递 扫码 格口 同意"
+                    },
+                    {
+                      "q": "site.chinapost.com.cn 智能快件箱 取件码 放入 快递员"
+                    },
+                    {
+                      "q": "site.ems.com.cn 签收 身份 验证 再投 退回 手持终端"
+                    }
+                  ],
+                  "response_length": "long"
+                },
+                "startedAtUTC": "2026-09-09 11:03:17 UTC",
+                "completedAtUTC": "2026-09-09 11:03:20 UTC",
+                "executionStatus": "executed",
+                "responseAttribution": "batch-candidates-not-individual-query",
+                "candidates": [
+                  {
+                    "title": "澄迈县分公司购置智能快递柜项目采购需求 公开征求意见公告 - 中国邮政集团有限公司",
+                    "url": "https://www.chinapost.com.cn/cn/report/2606/4445-1.htm",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "网点运营管理系统",
+                    "url": "https://net.fcbox.com/pages/order/send-order.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "快递柜寄件",
+                    "url": "https://common.fcbox.com/sms/pages/main/order.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "丰巢官网—丰巢自助快递服务",
+                    "url": "https://fcbox.com/pages/express-admin/my-receive.html?type=2",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "“作业神器”让邮政“双11”服务更赞 - 中国邮政集团有限公司",
+                    "url": "https://www.chinapost.com.cn/cn/report/1911/9337-1.htm",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "中邮速递易智能信报箱落地北京 - 中国邮政集团有限公司",
+                    "url": "https://www.chinapost.com.cn/html1/report/181312/9573-1.htm",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "--------------------------------------------------------------------------------",
+                    "url": "https://consumer.fcbox.com/customerApp/pages/register.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "海淘转运常见问题FAQ – 中邮海外购",
+                    "url": "https://buy.ems.com.cn/help/faq.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "2022 年11 月12 日星期六",
+                    "url": "https://www.chinapost.com.cn/newspaper/epaper/page/1/2022-11-12/04/84211668396283529.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "首页 - 中国邮政集团有限公司",
+                    "url": "https://www.chinapost.com.cn/",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "新一代物流平台",
+                    "url": "https://cnpl.ems.com.cn/",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "小编码 大作用 - 中国邮政集团有限公司",
+                    "url": "https://www.chinapost.com.cn/cn/report/2211/6603-1.htm",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "中国邮政速递物流",
+                    "url": "https://order.ems.com.cn/",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "2022 年11 月9 日星期三",
+                    "url": "https://www.chinapost.com.cn/newspaper/epaper/page/1/2022-11-09/03/63671667961640602.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "(19)中华人民共和国国家知识产权局",
+                    "url": "https://patentimages.storage.googleapis.com/f4/17/1e/c781fc767009ba/CN110675024A.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "智能快遞櫃",
+                    "url": "https://zh.wikipedia.org/wiki/%E6%99%BA%E8%83%BD%E5%BF%AB%E9%81%9E%E6%AB%83",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "2023 年9 月6 日星期三",
+                    "url": "https://www.chinapost.com.cn/newspaper/epaper/page/1/2023-09-06/03/50181693976432218.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "(19)中华人民共和国国家知识产权局",
+                    "url": "https://patentimages.storage.googleapis.com/fc/60/bb/522f35fe416f7c/CN113643458A.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "(19)中华人民共和国国家知识产权局",
+                    "url": "https://patentimages.storage.googleapis.com/52/8f/31/23af41ed1ef3b7/CN110197558A.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  }
+                ],
+                "rawTextSha256": "c648f8d3b44ea11e9bac0b563eaec196006a48280371be38be0bdaeaaa1ac854"
+              },
+              {
+                "id": "TP-A07",
+                "request": {
+                  "search_query": [
+                    {
+                      "q": "site.chinapost.com.cn 东莞 半自动 集包 停用 故障 2025 2026"
+                    },
+                    {
+                      "q": "site.trunk.tech 2026 京津塘 安全员 示范 运营"
+                    },
+                    {
+                      "q": "site.shandong-port.com 烟台港 自动化 堆取料 失败 防摇"
+                    }
+                  ],
+                  "response_length": "long"
+                },
+                "startedAtUTC": "2026-09-09 11:03:17 UTC",
+                "completedAtUTC": "2026-09-09 11:03:20 UTC",
+                "executionStatus": "executed",
+                "responseAttribution": "batch-candidates-not-individual-query",
+                "candidates": [
+                  {
+                    "title": "东莞邮政创新提升物流仓配集包效率 - 中国邮政集团有限公司",
+                    "url": "https://www.chinapost.com.cn/cn/report/2404/5675-1.htm",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "关于主线 - 主线科技 | TRUNK — 打造更安全、更绿色、更高效的自动驾驶卡车生态",
+                    "url": "https://www.trunk.tech/about/index.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "主线科技顺利通过“通港达园”项目成果京津塘高速现场核验 - 最新动态 - 主线科技 | TRUNK — 打造更安全、更绿色、更高效的自动驾驶卡车生态",
+                    "url": "https://www.trunk.tech/dynamic/info.html?id=15",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "山东省港口集团官网",
+                    "url": "https://www.sd-port.com/groupMainNews/2021-12-23/658591897748504576.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "最新动态 - 主线科技 | TRUNK — 打造更安全、更绿色、更高效的自动驾驶卡车生态",
+                    "url": "https://www.trunk.tech/dynamic/",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "首页 - 中国邮政集团有限公司",
+                    "url": "https://www.chinapost.com.cn/",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "〖中国邮政集团有限公司东莞市分公司2026年下半年金融队伍培训采购项目（第二次）〗招标公告 - 中国邮政集团有限公司",
+                    "url": "https://www.chinapost.com.cn/cn/report/2607/4504-1.htm",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "主线科技 | TRUNK — 打造更安全、更绿色、更高效的自动驾驶卡车生态 - 主线科技",
+                    "url": "https://trunk.tech/?trk=public_post-text",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "最新动态 - Trunk Technology (Beijing) Co., Ltd.",
+                    "url": "https://en.trunk.tech/dynamic/",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "中国邮政集团有限公司 - 中国邮政集团有限公司",
+                    "url": "https://www.chinapost.cn/",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "堆取料机智能化解决方案",
+                    "url": "https://tp.fsgyhlw.com/industry-op-portal/fsgyhlw-com/imgs/04d56a913358841c5f045909f3522e54.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "山东省交通运输厅 交通动态 山东港口自主研发的全球首台自动化门机正式投产",
+                    "url": "https://jtt.shandong.gov.cn/art/2021/6/18/art_12459_10291171.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "2022 年7 月29 日星期五",
+                    "url": "https://www.chinapost.com.cn/newspaper/epaper/page/1/2022-07-29/03/28541659064872390.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "2025邮政普遍服务和经营服务工作这样干 - 中国邮政集团有限公司",
+                    "url": "https://postsc.chinapost.com.cn/html1/report/2502/9333-1.htm",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "2023 年1 月18 日星期三",
+                    "url": "https://www.chinapost.com.cn/newspaper/epaper/page/1/2023-01-18/03/761674015027284.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "2022 年6 月2 日星期四",
+                    "url": "https://www.chinapost.com.cn/newspaper/epaper/page/1/2022-06-02/03/44641654144596732.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "候选资源（标题待核；搜索回包将正文误识别为标题）",
+                    "url": "https://jtw.sh.gov.cn/cmsres/b9/b9fb98c010844f71a2ab8d71f9a5116c/babf1b4b68f718da51f6b91bae6ba117.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "候选资源（标题待核；搜索回包将正文误识别为标题）",
+                    "url": "https://xxgk.mot.gov.cn/2020/jigou/zhghs/202502/P020250211519935823058.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  }
+                ],
+                "rawTextSha256": "6806f33f88e19fcbee7fe35d61105724d14301efb6feb8771b2908cb7f735491"
+              },
+              {
+                "id": "TP-A08",
+                "request": {
+                  "search_query": [
+                    {
+                      "q": "中国 货车 外廓 尺寸 自动 检测 激光 产品 传感器"
+                    },
+                    {
+                      "q": "中国 螺旋 连续 卸船机 工作 原理 制造商"
+                    }
+                  ],
+                  "response_length": "long"
+                },
+                "startedAtUTC": "2026-09-09 11:05:50 UTC",
+                "completedAtUTC": "2026-09-09 11:05:53 UTC",
+                "executionStatus": "executed",
+                "responseAttribution": "batch-candidates-not-individual-query",
+                "candidates": [
+                  {
+                    "title": "NHWK-1 车辆外廓检测仪-佛山市南华仪器股份有限公司, 仪器, 设备",
+                    "url": "https://www.nanhua.com.cn/chanpxiangq/41.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "Vehicle Overlimit Management - 图达通官网",
+                    "url": "https://www.seyond.cn/applications/vehicle-overlimit-management/",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "产品中心 | FEDE",
+                    "url": "https://www.fedesensors.cn/cn/product/detail/744.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "重庆凯瑞测试装备有限公司",
+                    "url": "https://m.caeri-te.com/product/ddh/jdc/2021-07-13/58.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "CN206177238U - 车辆外廓尺寸检测仪 - Google Patents",
+                    "url": "https://patents.google.com/patent/CN206177238U/zh",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "汽车外廓尺寸检测仪_成都弥荣科技发展有限公司",
+                    "url": "https://iyasaka.com.cn/displayproduct-99-14.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "外廓尺寸测量ADM系统-深邦智能科技集团（青岛）有限公司",
+                    "url": "https://www.zhichaoxt.com/solutionsdetails528.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "螺旋卸船机_门座式起重机,集装箱门式起重机,轮胎吊,游艇搬运机,造船龙门吊,跨运车-东起集团",
+                    "url": "https://www.dongqqzj.com/product/xcj/60.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "螺旋式连续卸船机——港口散货作业高效环保的利器-〖官网〗武汉港博港机技术有限公司|港博|港博港机|港口机械设计|港口维修改造_港博_港博港机_港口机械设计",
+                    "url": "https://www.greenports.cn/news/144.html",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "货车长宽高测量方案_解决方案_深圳治超厂家-超限检测-安安交通科技公司",
+                    "url": "https://www.anan-sz.cn/article-detail/BQazXRxB",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "CN106646431B - 一种车辆外廓尺寸自动测量装置的标定装置及方法 - Google Patents",
+                    "url": "https://patents.google.com/patent/CN106646431B/zh",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "GTLWH—25D型 车辆外廓尺寸自动测量仪 使用说明 - 四川广泰科技有限公司",
+                    "url": "https://www.sccoretech.com/nd.jsp?groupId=-1&id=13",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "了解决上述问题，我们研制了一种全自动的车辆外廓尺寸动态检测系统，该系统以多个室外型高",
+                    "url": "https://www.stalents.com/wp-content/uploads/2025100312542625.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "股份有限公司",
+                    "url": "https://pdf.dfcfw.com/pdf/H2_AN202108261512524680_1.pdf?1630025036000.pdf=",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "(19)中华人民共和国国家知识产权局",
+                    "url": "https://patentimages.storage.googleapis.com/47/41/dc/52ac0cfc8c41d8/CN113781797B.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "第一章产品介绍........................",
+                    "url": "https://www.gdnhhs.com/UpLoad/Files/202512/b04d58ph7sao.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "(19)中华人民共和国国家知识产权局",
+                    "url": "https://patentimages.storage.googleapis.com/3b/62/a1/63482539ead86f/CN113654632A.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "2024年 第 4 期",
+                    "url": "https://cn.zpmc.com/Img/gujia/202409201033142246528.pdf",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "捏合机",
+                    "url": "https://zh.wikipedia.org/wiki/%E6%8D%8F%E5%90%88%E6%9C%BA",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "尾旋",
+                    "url": "https://zh.wikipedia.org/wiki/%E5%B0%BE%E6%97%8B",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "螺旋输送机",
+                    "url": "https://zh.wikipedia.org/wiki/%E8%9E%BA%E6%97%8B%E8%BE%93%E9%80%81%E6%9C%BA",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "卷板机",
+                    "url": "https://zh.wikipedia.org/wiki/%E5%8D%B7%E6%9D%BF%E6%9C%BA",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "柴电动力",
+                    "url": "https://zh.wikipedia.org/wiki/%E6%9F%B4%E7%94%B5%E5%8A%A8%E5%8A%9B",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  },
+                  {
+                    "title": "青岛造船厂",
+                    "url": "https://zh.wikipedia.org/wiki/%E9%9D%92%E5%B2%9B%E9%80%A0%E8%88%B9%E5%8E%82",
+                    "status": "discovery-only-unless-listed-in-source-reads"
+                  }
+                ],
+                "rawTextSha256": "2efbeb5a44c4a9b6ff23b1243d06fb6123e20729f8eb7a92c39b44e664e04363"
+              }
+            ]
+          },
+          "publicationBoundary": "八场景83既有候选完成原稿独审与所列修订复检；7父15拟议子不新增计数，完整行业覆盖、当前整任务商用、工时与现金仍缺证。"
+        }
       }
     },
     {
@@ -132365,7 +135945,7 @@
     }
   ],
   "subindustryProductivity": {
-    "version": "2026-09-10.preview-12",
+    "version": "2026-09-10.preview-13",
     "checkedAt": "2026-09-09",
     "sources": [
       {

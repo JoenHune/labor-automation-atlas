@@ -1,0 +1,60 @@
+{
+  "country": "CN",
+  "industryId": "cn-transport",
+  "role": "author-structural-validation-not-independent-source-review",
+  "checkedAtUTC": "2026-09-09T15:20:59.046773+00:00",
+  "inputResearchSha256": "17d7e466a6b1e36222aec4ece6eb42cc8214fe2c798f95ef12d9c023df62b6e7",
+  "independentReviewSha256": "bf379726aabfbb6fc2d024041d9d9e0a192c6a2df81c24b49810dae02b671633",
+  "output": {
+    "jsonSha256": "8493674bc345f1d9227621fccac82e1f8c8e0621974b4d3348666839f12ad6b1",
+    "auditSha256": "86ef3aaf630a6cc09a669c2cd876a3811d7328499fcc0866354232290ed9eb7b",
+    "markdownSha256": "32116cd4e296213bb48602a2a043de5efe20ac7ef2cdda6d48a86a6aae91c035"
+  },
+  "revisionReceiptSha256": "728f53a54f1819b5992b391e552dab765a09273ef042caeb4153c9924d6ed0cf",
+  "checks": {
+    "83OriginalSnapshotsExact": true,
+    "83HumanValuesPreserved": true,
+    "originalInputOutputAcceptancePreserved": true,
+    "actualQueryStructuresAndUTCUnchanged": true,
+    "all210QueriesPreserved": true,
+    "taskCountryAndCurrencyPreserved": true,
+    "83CashParametersStillNull": true,
+    "sharedFormulaSynchronized": true,
+    "mechanismCountsMatchIndependentReview": true,
+    "13ContextMetadataRepairs": true,
+    "7SplitParents15Proposals0New": true,
+    "allUnfrozen": true,
+    "sourceAndTaskCountsUnchanged": true,
+    "scenariosInventoryCoverageUnchanged": true,
+    "55SpecificDecisionReceipts": true,
+    "exactResearchChangeReplay": true,
+    "exactAuditChangeReplay": true,
+    "allClaimLocatorMirrorsSynchronized": true,
+    "rawQueryContainerBytesPreserved": true,
+    "rawOpenedContainerBytesPreserved": true,
+    "sharedClaimBindingsFollowIndependentRoles": true,
+    "sourcePublicationValuesPreserved": true,
+    "effectiveDefinitionsPreserveAllOriginalInputs": true,
+    "allEffectiveAlternativeRolesFollowTaskBinding": true
+  },
+  "errors": [],
+  "summary": {
+    "tasks": 83,
+    "specificTaskRepairs": 55,
+    "allTasksCashRepairs": 83,
+    "confirmedErrorGroups": 11,
+    "taskEvidenceStatusCounts": {
+      "partial-mechanism": 45,
+      "no-retained-matching-mechanism": 23,
+      "adjacent-mechanism-only": 14,
+      "adjacent-planned-requirement-only": 1
+    },
+    "contextMetadataRepairs": 13,
+    "proposedSplitParents": 7,
+    "proposedChildren": 15,
+    "newCountedTasks": 0,
+    "newQueries": 0,
+    "frozenTasks": 0
+  },
+  "canFreeze": false
+}

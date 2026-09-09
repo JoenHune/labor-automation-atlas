@@ -16,6 +16,7 @@ import {importCnIndustryTextiles,cnIndustryTextilesFiles} from '../src/research/
 import {importCnTrade,cnTradeFiles} from '../src/research/import-cn-trade'
 import {importUsConstruction,usConstructionFiles} from '../src/research/import-us-construction'
 import {importCnIndustryWood,cnIndustryWoodFiles} from '../src/research/import-cn-industry-wood'
+import {importCnTransport,cnTransportFiles} from '../src/research/import-cn-transport'
 import {validateResearch} from '../src/research/validate'
 const root=new URL('../',import.meta.url)
 const read=async(file:string)=>{const text=await readFile(new URL(file,root),'utf8');return {data:JSON.parse(text),sha256:createHash('sha256').update(text).digest('hex')}}
@@ -70,6 +71,8 @@ const usConstructionTexts=Object.fromEntries(await Promise.all(Object.values(usC
 data=importUsConstruction(data,usConstructionTexts)
 const woodTexts=Object.fromEntries(await Promise.all(Object.values(cnIndustryWoodFiles).map(async({file})=>[file,await readFile(new URL(file,root),'utf8')])))
 data=importCnIndustryWood(data,woodTexts)
+const transportTexts=Object.fromEntries(await Promise.all(Object.values(cnTransportFiles).map(async({file})=>[file,await readFile(new URL(file,root),'utf8')])))
+data=importCnTransport(data,transportTexts)
 data.sources=preserveRecordOrder(data.sources,recordOrder.sources)
 data.claims=preserveRecordOrder(data.claims,recordOrder.claims)
 data.searches=preserveRecordOrder(data.searches,recordOrder.searches)
@@ -83,3 +86,4 @@ console.log('Integrated',mining.data.tasks.length,'CN mining task research recor
 console.log('Integrated',health.data.tasks.length,'US health task research records. Adjacent evidence, source dates, proposed splits and unknown costs retained.')
 console.log('Integrated 53 CN trade and 131 US construction candidates. Reviewed revisions, original snapshots and evidence gaps retained; none frozen.')
 console.log('Integrated 181 CN wood, furniture, paper, print and cultural-product candidates. Final limited recheck linked; definitions, phases and unknown cash inputs retained.')
+console.log('Integrated 83 CN transport candidates; final three-field review bridge, 188 task queries and uncounted proposals retained.')
