@@ -12,7 +12,7 @@ const industry=computed(()=>research.industries.find(i=>i.id===task.value.indust
 const claims=computed(()=>research.claims.filter(c=>c.taskId===task.value.id))
 const claimKinds={fact:'直接事实',judgment:'研究判断',hypothesis:'待验证假设',calculation:'计算结果'}
 const stages={'not-applicable':'背景／规范','vendor-report':'厂商或集成商自报',laboratory:'实验室',pilot:'试点','commercial-operation':'持续商业运行',unknown:'阶段不明'}
-const alternatives={'traditional-machine':'传统机械','dedicated-machine':'专机',robot:'机器人','assistive-tool':'辅助工具','digital-process':'数字流程'}
+const alternatives={'traditional-machine':'传统机械','dedicated-machine':'专机',robot:'机器人','assistive-tool':'辅助工具','digital-process':'数字流程',unclassified:'方案类别待细分'}
 const barrierTypes={technical:'技术',economic:'经济',adoption:'采用'}
 const refs=(ids:string[])=>claims.value.filter(c=>ids.map(x=>x.toLowerCase()).includes(c.id)).flatMap(c=>c.evidence)
 </script>

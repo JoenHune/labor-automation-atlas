@@ -1,0 +1,64 @@
+{
+  "industryId": "us-health",
+  "country": "US",
+  "checkedAt": "2026-09-09",
+  "researchJsonSha256": "d682f8a61eb3c2c7384b5ced73a391c3c53106c8bd62aeaf6c86436dadec6faf",
+  "inventorySha256": "7feeeb264545b41681f95245a35625986bcb65326a4b0a25db47c98ef39046c5",
+  "independentReviewSha256": "79ab9ae692e5e24202724f09f37ee1b53db621edcde5b4e76747540d9ce4181f",
+  "statistics": {
+    "taskCount": 100,
+    "scenarioCount": 9,
+    "actualQueries": 200,
+    "sourceCount": 55,
+    "proposedTaskCount": 21,
+    "splitRecommendations": 35,
+    "counterEvidenceWithBoundedSourceCount": 60,
+    "completeTaskCommercialSuccessCount": 0,
+    "positiveEvidenceStatusCounts": {
+      "bounded-mechanism-or-assisted-task-not-full-commercial-success": 65,
+      "no-task-specific-positive-counterexample-confirmed": 27,
+      "adjacent-evidence-only": 8
+    },
+    "positiveScopeRevisions": 8,
+    "independentlyReviewedCandidates": 100,
+    "authorRevisionsAwaitingRecheck": 100,
+    "frozenTaskCount": 0
+  },
+  "checks": {
+    "100-stable-IDs-and-originalTask-unchanged": true,
+    "55-sources-325-locators-retained": true,
+    "source-cache-SHA-matches": true,
+    "nonempty-quotes-present-in-cached-source": true,
+    "empty-quotes-not-treated-as-verbatim-match": true,
+    "query-plan-result-membership-only-original-audit-unchanged": true,
+    "original-search-query-request-verified": false,
+    "actual-query-UTC-available": false,
+    "27-original-unconfirmed-positive-states-preserved": true,
+    "8-positive-states-downgraded-to-adjacent": true,
+    "35-split-parents-proposed-not-counted-as-new-tasks": true,
+    "cash-parameters-remain-null": true,
+    "unfrozen": true
+  },
+  "emptyQuoteLocatorCount": 229,
+  "cacheLineChanges": [
+    [
+      "H-CLIA",
+      "receipt",
+      271,
+      328
+    ],
+    [
+      "OBI-STUDY",
+      "conflict",
+      2,
+      102
+    ]
+  ],
+  "errors": [],
+  "independentReview": "completed-on-9ccb13; author-corrections-awaiting-limited-independent-recheck",
+  "limitations": [
+    "结构和缓存复比不等于完整任务临床/商业验证；现行法规全文未重新认证。",
+    "原查询请求包与UTC未保存，验证false字段是明确记录缺口。",
+    "精确引文定位已按独立审校修正，非空短锚全文匹配不替代上下文支持。"
+  ]
+}

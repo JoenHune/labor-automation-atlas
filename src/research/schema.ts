@@ -107,7 +107,7 @@ export const TaskSchema = z.object({
   occupationEvidence:z.array(EvidenceRefSchema),
   manualInputs:z.array(z.object({name:nonempty,value:z.number().nullable(),unit:nonempty,evidence:z.array(EvidenceRefSchema),gap:z.string().optional()})),
   alternatives:z.array(z.object({
-    category:z.enum(['traditional-machine','dedicated-machine','robot','assistive-tool','digital-process']),
+    category:z.enum(['traditional-machine','dedicated-machine','robot','assistive-tool','digital-process','unclassified']),
     description:nonempty, claimIds:z.array(ID), remainingLabor:z.array(nonempty), conditions:z.array(nonempty),
   })),
   barriers:z.array(z.object({type:z.enum(['technical','economic','adoption']),scenario:nonempty,claimIds:z.array(ID)})),

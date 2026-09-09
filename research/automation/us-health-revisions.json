@@ -1,0 +1,3059 @@
+{
+  "schemaVersion": "1.0",
+  "industryId": "us-health",
+  "revisedAt": "2026-09-09",
+  "author": "us_data",
+  "beforeSha256": "9ccb13a0421f068081b614cf679f1ed5a8131788271734102acff37418d62537",
+  "afterSha256": "d682f8a61eb3c2c7384b5ced73a391c3c53106c8bd62aeaf6c86436dadec6faf",
+  "independentReviewInput": {
+    "file": "research/reviews/us-health-automation-decisions.json",
+    "sha256": "79ab9ae692e5e24202724f09f37ee1b53db621edcde5b4e76747540d9ce4181f"
+  },
+  "originalSnapshot": "private source-cache/us-health/revision-input-9ccb13; byte-preserved",
+  "sourceRepairs": [
+    {
+      "sourceId": "FDA-ALETTA",
+      "independentRepair": {
+        "claimClarification": {
+          "stop": "找不到适合静脉时不穿刺；患者移动过度触发脱针并停止；其他风险传感器可暂停并报警。不要把所有停止统一写为停止且报警。"
+        }
+      },
+      "appliedFields": [
+        "locators.stop.claim",
+        "locators.stop.additionalAnchors"
+      ],
+      "status": "applied-not-self-certified-independent-recheck",
+      "originalCacheUnchanged": true
+    },
+    {
+      "sourceId": "H-CLIA",
+      "independentRepair": {
+        "publishedAt": null,
+        "documentEditionDate": "2022-10-01",
+        "dateStatus": "historical-edition-date-web-publication-unconfirmed",
+        "locatorCorrections": {
+          "receipt": {
+            "cacheLine": 328,
+            "cacheEndLine": 330,
+            "physicalPage": 5,
+            "printedPage": "744",
+            "section": "§493.1242(b)，左栏；以LF分行"
+          },
+          "specimen": {
+            "cacheLine": 314,
+            "cacheEndLine": 327,
+            "physicalPage": 5,
+            "printedPage": "744",
+            "section": "§493.1242(a)(1)—(8)，左栏"
+          }
+        }
+      },
+      "appliedFields": [
+        "publishedAt",
+        "documentEditionDate",
+        "dateStatus",
+        "locators.receipt",
+        "locators.specimen"
+      ],
+      "status": "applied-not-self-certified-independent-recheck",
+      "originalCacheUnchanged": true
+    },
+    {
+      "sourceId": "H-STERILE",
+      "independentRepair": {
+        "additionalLocatorAnchors": {
+          "maintain": [
+            {
+              "cacheLine": 192,
+              "webLine": 318,
+              "section": "19.d 服务记录"
+            },
+            {
+              "cacheLine": 197,
+              "webLine": 323,
+              "section": "19.i 由合格人员维护"
+            }
+          ]
+        }
+      },
+      "appliedFields": [
+        "locators.maintain.additionalAnchors"
+      ],
+      "status": "applied-not-self-certified-independent-recheck",
+      "originalCacheUnchanged": true
+    },
+    {
+      "sourceId": "CENSITRAC",
+      "independentRepair": {
+        "additionalLocatorAnchors": {
+          "stop": [
+            {
+              "cacheLine": 279,
+              "section": "Recall alerts"
+            },
+            {
+              "cacheLine": 935,
+              "cacheEndLine": 936,
+              "section": "How does CensiTrac support instrument recalls?"
+            }
+          ]
+        }
+      },
+      "appliedFields": [
+        "locators.stop.additionalAnchors"
+      ],
+      "status": "applied-not-self-certified-independent-recheck",
+      "originalCacheUnchanged": true
+    },
+    {
+      "sourceId": "SMARTSPONGE",
+      "independentRepair": {
+        "documentPreparedDate": "2006-10",
+        "clearanceLetterDate": "2007-05-24",
+        "webPublicationDate": null,
+        "locatorCorrections": {
+          "count": {
+            "cacheLine": 210,
+            "cacheEndLine": 211,
+            "physicalPage": 6,
+            "printedPage": "4-1",
+            "additionalMechanismLocations": [
+              {
+                "physicalPage": 1,
+                "printedPage": "5-1",
+                "cacheLines": [
+                  27,
+                  44
+                ]
+              },
+              {
+                "physicalPage": 2,
+                "printedPage": "5-2",
+                "cacheLines": [
+                  51,
+                  85
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "appliedFields": [
+        "documentPreparedDate",
+        "clearanceLetterDate",
+        "webPublicationDate",
+        "locators.count"
+      ],
+      "status": "applied-not-self-certified-independent-recheck",
+      "originalCacheUnchanged": true
+    },
+    {
+      "sourceId": "OBI-STUDY",
+      "independentRepair": {
+        "publishedAt": null,
+        "publicationYear": 2026,
+        "dateStatus": "exact-day-unconfirmed-in-retained-primary-sections",
+        "readStatus": "publisher-abstract-contributions-and-conflicts-read-not-full-study",
+        "locatorCorrections": {
+          "conflict": {
+            "section": "缓存尾部完整Conflicts of Interest段，不能定位到开头搜索摘要"
+          }
+        }
+      },
+      "appliedFields": [
+        "publishedAt",
+        "dateStatus",
+        "publicationYear",
+        "readStatus",
+        "locators.conflict"
+      ],
+      "status": "applied-not-self-certified-independent-recheck",
+      "originalCacheUnchanged": true
+    },
+    {
+      "sourceId": "FDA-HOME",
+      "independentRepair": {
+        "additionalLocatorAnchors": {
+          "clean": [
+            {
+              "cacheLine": 291,
+              "section": "Unsanitary conditions"
+            },
+            {
+              "cacheLine": 303,
+              "section": "Plumbing"
+            }
+          ]
+        }
+      },
+      "appliedFields": [
+        "locators.clean.additionalAnchors"
+      ],
+      "status": "applied-not-self-certified-independent-recheck",
+      "originalCacheUnchanged": true
+    },
+    {
+      "sourceId": "BRIGHT-PICKUP",
+      "independentRepair": {
+        "pageDate": "2025-12-11",
+        "dateStatus": "visible-page-date-publication-vs-update-unresolved",
+        "additionalLocatorAnchors": {
+          "authorized": [
+            {
+              "cacheLine": 21,
+              "section": "Kiosk or QR entry"
+            },
+            {
+              "cacheLine": 28,
+              "cacheEndLine": 35,
+              "section": "Kiosk and Quick Scan"
+            },
+            {
+              "cacheLine": 46,
+              "cacheEndLine": 48,
+              "section": "Contact code"
+            },
+            {
+              "cacheLine": 60,
+              "section": "Authorized contacts"
+            }
+          ]
+        }
+      },
+      "appliedFields": [
+        "dateStatus",
+        "pageDate",
+        "locators.authorized.additionalAnchors"
+      ],
+      "status": "applied-not-self-certified-independent-recheck",
+      "originalCacheUnchanged": true
+    },
+    {
+      "sourceId": "H-SHELTER",
+      "independentRepair": {
+        "publishedAt": null,
+        "documentEditionDate": "2022-04-01",
+        "dateStatus": "historical-edition-date-web-publication-unconfirmed",
+        "locatorClarification": "LF line326，物理5/印刷204；(b)两栏，非(c)永久住房。"
+      },
+      "appliedFields": [
+        "publishedAt",
+        "documentEditionDate",
+        "dateStatus",
+        "locators.facility.section"
+      ],
+      "status": "applied-not-self-certified-independent-recheck",
+      "originalCacheUnchanged": true
+    },
+    {
+      "sourceId": "GAO-SHELTER",
+      "independentRepair": {
+        "reportDate": "2025-12-23",
+        "publiclyReleasedAt": "2026-01-22",
+        "dateStatus": "report-date-and-public-release-separate"
+      },
+      "appliedFields": [
+        "dateStatus",
+        "reportDate",
+        "publiclyReleasedAt"
+      ],
+      "status": "applied-not-self-certified-independent-recheck",
+      "originalCacheUnchanged": true
+    },
+    {
+      "sourceId": "O21-1093.00",
+      "independentRepair": {
+        "quotationVerification": "empty-quote-is-not-verbatim-check; verify-identified-LF-action-line-without-republishing-task-list"
+      },
+      "appliedFields": [],
+      "status": "applied-not-self-certified-independent-recheck",
+      "originalCacheUnchanged": true
+    },
+    {
+      "sourceId": "O29-2034.00",
+      "independentRepair": {
+        "quotationVerification": "empty-quote-is-not-verbatim-check; verify-identified-LF-action-line-without-republishing-task-list"
+      },
+      "appliedFields": [],
+      "status": "applied-not-self-certified-independent-recheck",
+      "originalCacheUnchanged": true
+    },
+    {
+      "sourceId": "O29-2055.00",
+      "independentRepair": {
+        "quotationVerification": "empty-quote-is-not-verbatim-check; verify-identified-LF-action-line-without-republishing-task-list"
+      },
+      "appliedFields": [],
+      "status": "applied-not-self-certified-independent-recheck",
+      "originalCacheUnchanged": true
+    },
+    {
+      "sourceId": "O31-1121.00",
+      "independentRepair": {
+        "quotationVerification": "empty-quote-is-not-verbatim-check; verify-identified-LF-action-line-without-republishing-task-list"
+      },
+      "appliedFields": [],
+      "status": "applied-not-self-certified-independent-recheck",
+      "originalCacheUnchanged": true
+    },
+    {
+      "sourceId": "O31-1131.00",
+      "independentRepair": {
+        "quotationVerification": "empty-quote-is-not-verbatim-check; verify-identified-LF-action-line-without-republishing-task-list"
+      },
+      "appliedFields": [],
+      "status": "applied-not-self-certified-independent-recheck",
+      "originalCacheUnchanged": true
+    },
+    {
+      "sourceId": "O31-2021.00",
+      "independentRepair": {
+        "quotationVerification": "empty-quote-is-not-verbatim-check; verify-identified-LF-action-line-without-republishing-task-list"
+      },
+      "appliedFields": [],
+      "status": "applied-not-self-certified-independent-recheck",
+      "originalCacheUnchanged": true
+    },
+    {
+      "sourceId": "O31-9093.00",
+      "independentRepair": {
+        "quotationVerification": "empty-quote-is-not-verbatim-check; verify-identified-LF-action-line-without-republishing-task-list"
+      },
+      "appliedFields": [],
+      "status": "applied-not-self-certified-independent-recheck",
+      "originalCacheUnchanged": true
+    },
+    {
+      "sourceId": "O31-9097.00",
+      "independentRepair": {
+        "quotationVerification": "empty-quote-is-not-verbatim-check; verify-identified-LF-action-line-without-republishing-task-list"
+      },
+      "appliedFields": [],
+      "status": "applied-not-self-certified-independent-recheck",
+      "originalCacheUnchanged": true
+    },
+    {
+      "sourceId": "O35-2012.00",
+      "independentRepair": {
+        "quotationVerification": "empty-quote-is-not-verbatim-check; verify-identified-LF-action-line-without-republishing-task-list"
+      },
+      "appliedFields": [],
+      "status": "applied-not-self-certified-independent-recheck",
+      "originalCacheUnchanged": true
+    },
+    {
+      "sourceId": "O39-9011.00",
+      "independentRepair": {
+        "quotationVerification": "empty-quote-is-not-verbatim-check; verify-identified-LF-action-line-without-republishing-task-list"
+      },
+      "appliedFields": [],
+      "status": "applied-not-self-certified-independent-recheck",
+      "originalCacheUnchanged": true
+    }
+  ],
+  "taskRepairs": [
+    {
+      "taskId": "US-HLT-SPECIMEN-001",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "准备",
+        "recommended": "准备",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-9097.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SPECIMEN-002",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "准备",
+        "recommended": "准备",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-9097.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SPECIMEN-003",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "准备",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "解释本次采集与核对理解",
+            "核对本次采样准备状态"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        },
+        {
+          "type": "phase",
+          "recommended": "准备",
+          "reason": "说明与采样准备状态核对在采集前执行；实质采集仍为作业。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "FDA-ALETTA",
+            "O31-9097.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SPECIMEN-004",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "FDA-ALETTA",
+            "O31-9097.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SPECIMEN-005",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "检测",
+        "recommended": "检测",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "核对标本识别信息",
+            "检查标本容器状态"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "FDA-ALETTA",
+            "O31-9097.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SPECIMEN-006",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-9097.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SPECIMEN-007",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 3,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "交接",
+        "recommended": "交接",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "包装并核验待运输标本",
+            "按条件保存待交标本",
+            "向实验室或承运方交接标本"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "H-CLIA",
+            "O31-9097.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SPECIMEN-008",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "异常",
+        "recommended": "异常",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "H-CLIA"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SPECIMEN-009",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "返工",
+        "recommended": "返工",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "FDA-ALETTA",
+            "O31-9097.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SPECIMEN-010",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "清洁维护",
+        "recommended": "清洁维护",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "FDA-ALETTA",
+            "O31-9097.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SPECIMEN-011",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "交付",
+        "recommended": "交付",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "H-CLIA",
+            "O31-9097.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-IMAGING-001",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "准备",
+        "recommended": "准备",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O29-2034.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-IMAGING-002",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "准备",
+        "recommended": "准备",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O29-2034.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-IMAGING-003",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O29-2034.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-IMAGING-004",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O29-2034.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-IMAGING-005",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "检测",
+        "recommended": "检测",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O29-2034.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-IMAGING-006",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "检测",
+        "recommended": "检测",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O29-2034.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-IMAGING-007",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "异常",
+        "recommended": "异常",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O29-2034.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-IMAGING-008",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "返工",
+        "recommended": "返工",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O29-2034.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-IMAGING-009",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "adjacent-evidence-only",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "交接",
+        "recommended": "交接",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "positive-evidence-scope",
+          "recommended": "adjacent-evidence-only",
+          "reason": "图像方向校正和剂量结构文件是交接前的数字处理，未证影像与患者信息传到正确接收端。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O29-2034.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-IMAGING-010",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "清洁维护",
+        "recommended": "清洁维护",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "H-STERILE"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-IMAGING-011",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "交付",
+        "recommended": "交付",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O29-2034.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-STERILE-001",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "准备",
+        "recommended": "准备",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "CENSITRAC"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-STERILE-002",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "按器械说明拆卸器械",
+            "清除可见污物"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "H-STERILE",
+            "O31-9093.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-STERILE-003",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "H-STERILE",
+            "O31-9093.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-STERILE-004",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "检测",
+        "recommended": "检测",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "检查清洁度",
+            "检查器械完整性与功能"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-9093.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-STERILE-005",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "按清单组装器械盘",
+            "选择并应用兼容包装"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "H-STERILE",
+            "CENSITRAC",
+            "O31-9093.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-STERILE-006",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "核对并装载待灭菌负载",
+            "执行并监控批准灭菌循环"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "H-STERILE",
+            "O31-9093.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-STERILE-007",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "检测",
+        "recommended": "检测",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "H-STERILE",
+            "CENSITRAC",
+            "O31-9093.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-STERILE-008",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "异常",
+        "recommended": "异常",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "H-STERILE",
+            "CENSITRAC"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-STERILE-009",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "返工",
+        "recommended": "返工",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "更换包装并核验",
+            "对允许返工负载重新处理"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "H-STERILE"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-STERILE-010",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "交接",
+        "recommended": "交接",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "标记并核对循环批号",
+            "移入并登记无菌存储位置"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "H-STERILE",
+            "CENSITRAC"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-STERILE-011",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "清洁维护",
+        "recommended": "清洁维护",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "H-STERILE",
+            "O31-9093.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-STERILE-012",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "交付",
+        "recommended": "交付",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "H-STERILE",
+            "CENSITRAC",
+            "O31-9093.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-OR-001",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "准备",
+        "recommended": "准备",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "CENSITRAC",
+            "O29-2055.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-OR-002",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "准备",
+        "recommended": "准备",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "H-STERILE",
+            "O29-2055.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-OR-003",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O29-2055.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-OR-004",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "检测",
+        "recommended": "检测",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "CENSITRAC",
+            "SMARTSPONGE",
+            "O29-2055.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-OR-005",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O29-2055.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-OR-006",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "交接",
+        "recommended": "交接",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O29-2055.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-OR-007",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "异常",
+        "recommended": "异常",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "SMARTSPONGE",
+            "O29-2055.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-OR-008",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "返工",
+        "recommended": "返工",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "更换污染器械",
+            "重新布置受影响无菌区"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "CENSITRAC",
+            "O29-2055.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-OR-009",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "清洁维护",
+        "recommended": "交接",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "清点并回收用后器械",
+            "向再处理单元交接用后器械"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        },
+        {
+          "type": "phase",
+          "recommended": "交接",
+          "reason": "当前输出是供应室接收用后器械，真正清洗再处理在另一单元核算。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "CENSITRAC",
+            "SMARTSPONGE",
+            "O29-2055.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-OR-010",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "交付",
+        "recommended": "交付",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "CENSITRAC",
+            "O29-2055.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-WARD-001",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "adjacent-evidence-only",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "准备",
+        "recommended": "准备",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "positive-evidence-scope",
+          "recommended": "adjacent-evidence-only",
+          "reason": "移动评估工具不支持自动核验当班膳食限制，场景背景保留。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-1131.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-WARD-002",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "检测",
+        "recommended": "检测",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-1131.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-WARD-003",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-1131.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-WARD-004",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-1131.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-WARD-005",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "协助进食",
+            "记录实际摄入"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "OBI-STUDY",
+            "O31-1131.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-WARD-006",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 3,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-1131.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-WARD-007",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "交接",
+        "recommended": "交接",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-1131.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-WARD-008",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "adjacent-evidence-only",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "异常",
+        "recommended": "异常",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "positive-evidence-scope",
+          "recommended": "adjacent-evidence-only",
+          "reason": "生命体征预警与响应呼叫/患者主诉是不同触发路径，不能作为本任务的已证正例。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-1131.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-WARD-009",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "返工",
+        "recommended": "返工",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-1131.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-WARD-010",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "清洁维护",
+        "recommended": "清洁维护",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "H-STERILE",
+            "O31-1131.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-WARD-011",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "交付",
+        "recommended": "交付",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-1131.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-REHAB-001",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "准备",
+        "recommended": "准备",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-2021.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-REHAB-002",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "adjacent-evidence-only",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "准备",
+        "recommended": "准备",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "positive-evidence-scope",
+          "recommended": "adjacent-evidence-only",
+          "reason": "设备服务目录证明存在训练服务，不证明调整/设定器材这个准备动作被辅助或自动完成。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-2021.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-REHAB-003",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-2021.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-REHAB-004",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-2021.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-REHAB-005",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "协助穿脱支具",
+            "调整并验收支具适配"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-2021.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-REHAB-006",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "检测",
+        "recommended": "检测",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-2021.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-REHAB-007",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "异常",
+        "recommended": "异常",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-2021.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-REHAB-008",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "返工",
+        "recommended": "返工",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-2021.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-REHAB-009",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "交接",
+        "recommended": "交接",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-2021.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-REHAB-010",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 3,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "清洁维护",
+        "recommended": "清洁维护",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "清洁用后训练设备",
+            "检查训练设备状态",
+            "归位并登记设备"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "H-STERILE",
+            "O31-2021.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-REHAB-011",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "交付",
+        "recommended": "交付",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-2021.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-HOME-001",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "准备",
+        "recommended": "准备",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "FDA-HOME",
+            "O31-1121.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-HOME-002",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "FDA-HOME",
+            "O31-1121.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-HOME-003",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "FDA-HOME",
+            "O31-1121.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-HOME-004",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "按饮食要求准备餐食",
+            "分配并供应餐食"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-1121.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-HOME-005",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "更换床品",
+            "对照护床品分类并洗涤"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "FDA-HOME",
+            "O31-1121.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-HOME-006",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "检测",
+        "recommended": "检测",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-1121.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-HOME-007",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "adjacent-evidence-only",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "交接",
+        "recommended": "交接",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "positive-evidence-scope",
+          "recommended": "adjacent-evidence-only",
+          "reason": "所读FHIR原型限DME/居家医疗订单，不证明一般外出就诊的接收信息交接。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-1121.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-HOME-008",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "异常",
+        "recommended": "异常",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "FDA-HOME",
+            "O31-1121.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-HOME-009",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "adjacent-evidence-only",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "返工",
+        "recommended": "返工",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "positive-evidence-scope",
+          "recommended": "adjacent-evidence-only",
+          "reason": "2018康复记录/排程功能不证明对未完成居家照护的原因、优先级和人员条件作出重排。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-HOME-010",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "清洁维护",
+        "recommended": "清洁维护",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "H-STERILE",
+            "FDA-HOME"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-HOME-011",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "交付",
+        "recommended": "交付",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O31-1121.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-CHILD-001",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "准备",
+        "recommended": "准备",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O39-9011.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-CHILD-002",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "准备",
+        "recommended": "准备",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "布置游戏环境",
+            "检查游戏环境安全状态"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O39-9011.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-CHILD-003",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O39-9011.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-CHILD-004",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O39-9011.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-CHILD-005",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 3,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O39-9011.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-CHILD-006",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "adjacent-evidence-only",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "positive-evidence-scope",
+          "recommended": "adjacent-evidence-only",
+          "reason": "汇总午睡记录发生在人员观察之后，不能证明组织休息和观察状态的替代。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O39-9011.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-CHILD-007",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "检测",
+        "recommended": "检测",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O39-9011.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-CHILD-008",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "异常",
+        "recommended": "异常",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O39-9011.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-CHILD-009",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "返工",
+        "recommended": "返工",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "更换污染用品",
+            "重新清洁受影响区域"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O39-9011.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-CHILD-010",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "清洁维护",
+        "recommended": "清洁维护",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O39-9011.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-CHILD-011",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "交接",
+        "recommended": "交接",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "BRIGHT-PICKUP",
+            "O39-9011.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-CHILD-012",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "交付",
+        "recommended": "交付",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "归整照护用品",
+            "完成班次物品清点"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O39-9011.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-001",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "准备",
+        "recommended": "准备",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "GAO-SHELTER",
+            "O21-1093.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-002",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "准备",
+        "recommended": "准备",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-003",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-004",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "adjacent-evidence-only",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "positive-evidence-scope",
+          "recommended": "adjacent-evidence-only",
+          "reason": "床位状态与服务记录不同于共用设施使用安排和现场协助；仅相邻数字环节。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O21-1093.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-005",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "作业",
+        "recommended": "作业",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "准备集中餐食",
+            "分装并供应餐食"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        },
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O35-2012.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-006",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "no-task-specific-positive-counterexample-confirmed",
+      "positiveAfter": "no-task-specific-positive-counterexample-confirmed",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "检测",
+        "recommended": "检测",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O21-1093.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-007",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "交接",
+        "recommended": "交接",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O21-1093.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-008",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "异常",
+        "recommended": "异常",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O21-1093.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-009",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 0,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "返工",
+        "recommended": "返工",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O21-1093.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-010",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "清洁维护",
+        "recommended": "清洁维护",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "proposed-split",
+          "children": [
+            "协调并验收寝具洗涤",
+            "协调并验收住所清洁"
+          ],
+          "reason": "各子输出或动作条件可分别验收和核算；尚未独立完成子任务研究。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-011",
+      "originalTaskUnchanged": true,
+      "positiveBefore": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "positiveAfter": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "splitChildrenProposed": 2,
+      "splitApprovedChildren": 0,
+      "phaseRecommendation": {
+        "original": "交付",
+        "recommended": "交付",
+        "appliedAsDisplayRecommendationOnly": true
+      },
+      "repairsApplied": [
+        {
+          "type": "source-metadata-and-locator",
+          "sourceIds": [
+            "O21-1093.00"
+          ],
+          "reason": "同步sourceDecisions，保留原任务快照。"
+        }
+      ],
+      "status": "author-applied-awaiting-limited-recheck"
+    }
+  ],
+  "issuesApplied": [
+    {
+      "issue": {
+        "id": "HLT-E01",
+        "severity": "confirmed-error",
+        "sourceIds": [
+          "H-CLIA"
+        ],
+        "finding": "接收日期与时间的定位271实际是§493.1239质量活动记录；同短句命中不能证明结论。",
+        "requiredAction": "改§493.1242(b)LF328—330、物理5/印刷744左栏，并同步所有嵌套引用。"
+      },
+      "status": "applied-with-gaps-not-frozen"
+    },
+    {
+      "issue": {
+        "id": "HLT-E02",
+        "severity": "confirmed-error",
+        "sourceIds": [
+          "SMARTSPONGE"
+        ],
+        "finding": "原quote在LF210/物理6/印刷4-1，section却定位印刷5-2；进出差额另需机制段。",
+        "requiredAction": "保留有效短引，修物理页/印刷页并添加1—2页机制定位。"
+      },
+      "status": "applied-with-gaps-not-frozen"
+    },
+    {
+      "issue": {
+        "id": "HLT-E03",
+        "severity": "metadata-correction",
+        "sourceIds": [
+          "H-CLIA",
+          "H-SHELTER",
+          "GAO-SHELTER",
+          "BRIGHT-PICKUP",
+          "OBI-STUDY",
+          "SMARTSPONGE"
+        ],
+        "finding": "历史法规版次不等于网页发布日期；GAO公开与报告日期不同；Brightwheel已有可见日期；OBI精确日缺所保留原文佐证。",
+        "requiredAction": "按sourceDecisions分列日期性质，不能用抓取日、文件URL或搜索摘要补精确刊日。OBI若补到发布方原文可再审后保留。"
+      },
+      "status": "applied-with-gaps-not-frozen"
+    },
+    {
+      "issue": {
+        "id": "HLT-E04",
+        "severity": "locator-completeness",
+        "sourceIds": [
+          "H-STERILE",
+          "CENSITRAC",
+          "FDA-HOME",
+          "BRIGHT-PICKUP",
+          "OBI-STUDY"
+        ],
+        "finding": "部分复合概述超出单个短锚附近文字，或定位到了搜索摘要而非已存在的正文。",
+        "requiredAction": "添加已读完整支持段及行号；OBI利益披露定位到缓存尾部正文。"
+      },
+      "status": "applied-with-gaps-not-frozen"
+    },
+    {
+      "issue": {
+        "id": "HLT-E05",
+        "severity": "validation-metadata-correction",
+        "sourceIds": [
+          "O21-1093.00",
+          "O29-2034.00",
+          "O29-2055.00",
+          "O31-1121.00",
+          "O31-1131.00",
+          "O31-2021.00",
+          "O31-9093.00",
+          "O31-9097.00",
+          "O35-2012.00",
+          "O39-9011.00"
+        ],
+        "finding": "职业定位quote为空而rawQuoteMatch为true，空串匹配不能算逐字引文核验。PDF的LF与splitlines也不能混用。",
+        "requiredAction": "空引文保持无引文状态，以可复查行号和动作概述验证；声明LF分行及PDF页码。无需抄录整份职业任务表。"
+      },
+      "status": "applied-with-gaps-not-frozen"
+    },
+    {
+      "issue": {
+        "id": "HLT-E06",
+        "severity": "scope-clarification",
+        "sourceIds": [
+          "FDA-ALETTA"
+        ],
+        "finding": "找不到静脉、移动过度和其他传感器风险的停止/暂停/报警机制不是同一句条件。",
+        "requiredAction": "按sourceDecisions逐条件陈述，授权范围及人员监督紧邻显示。"
+      },
+      "status": "applied-with-gaps-not-frozen"
+    },
+    {
+      "issue": {
+        "id": "HLT-J01",
+        "severity": "research-judgment-revision",
+        "sourceIds": [],
+        "finding": "8项所引功能只支持相邻阶段或相邻任务，原正例标签容易高估当前任务的替代程度。",
+        "requiredAction": "按逐任务repairs降为adjacent-evidence-only，并保留实际支持动作和证据不足。"
+      },
+      "status": "applied-with-gaps-not-frozen"
+    },
+    {
+      "issue": {
+        "id": "HLT-J02",
+        "severity": "research-judgment-revision",
+        "sourceIds": [],
+        "finding": "原14项拆分建议之外仍有可分别验收核算的组合项；2项阶段需调整。",
+        "requiredAction": "新增建议只作拟议，不新增正式任务数；保留原快照，按逐项atomicityReview和phaseReview处理。"
+      },
+      "status": "applied-with-gaps-not-frozen"
+    },
+    {
+      "issue": {
+        "id": "HLT-G01",
+        "severity": "evidence-gap",
+        "sourceIds": [],
+        "finding": "200条query计划及50批结果存在，但没有保存原search_query请求包或逐批UTC。",
+        "requiredAction": "只声明作者记录的执行日期与结果关联已检查，不能标成独立重放或原始请求核验。后续检索保存实际请求和UTC。"
+      },
+      "status": "applied-with-gaps-not-frozen"
+    },
+    {
+      "issue": {
+        "id": "HLT-G02",
+        "severity": "framework-clarification",
+        "sourceIds": [],
+        "finding": "年度营运资金只写后续变化，未把相邻期增量余额差分明确到公式。",
+        "requiredAction": "令W_t为相对无项目基线的增量营运资金余额，年度扣W_t-W_(t-1)；期初与期末各一次，末期余额回收不双算。所有结果继续留空。"
+      },
+      "status": "applied-with-gaps-not-frozen"
+    },
+    {
+      "issue": {
+        "id": "HLT-G03",
+        "severity": "evidence-gap",
+        "sourceIds": [],
+        "finding": "9场景与100候选并非整个医疗社会援助行业完整覆盖，反例和所有技术类别对照未穷尽。",
+        "requiredAction": "保留场景缺口，补充本报告遗漏组、传统机械/专机基线、实体参数和逐项访谈，不冻结。"
+      },
+      "status": "applied-with-gaps-not-frozen"
+    }
+  ],
+  "queryAuditUnchangedSha256": "712b6f717158431347ab03511e632406078ad8ef4fae4c3d0f381d8772663cb5",
+  "workingCapitalApplied": true,
+  "originalTasksUnchanged": 100,
+  "cashParameterChanges": 0,
+  "approvedNewTasks": 0,
+  "changedPrimaryCacheLines": [
+    [
+      "H-CLIA",
+      "receipt",
+      271,
+      328
+    ],
+    [
+      "OBI-STUDY",
+      "conflict",
+      2,
+      102
+    ]
+  ],
+  "no8LfAnchorsMistakenlyChanged": true,
+  "outputFiles": [
+    {
+      "file": "us-health.md",
+      "sha256": "ce8431030043dc1860ecb837e9271bf86840c2e1fd6442fc3167c710220cbbea"
+    },
+    {
+      "file": "us-health-validation.json",
+      "sha256": "6c7e0d83e75a02639e1d2f47491a558ae0609b8c5ea2be29a7d6ca805fc6f721"
+    }
+  ],
+  "isFrozen": false,
+  "requiresLimitedRecheck": true
+}

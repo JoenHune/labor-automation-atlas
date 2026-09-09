@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-09.preview-6",
+  "version": "2026-09-09.preview-7",
   "checkedAt": "2026-09-09",
   "publishedAt": null,
   "freezeStatus": "working",
@@ -13465,6 +13465,1213 @@
       "evidencePeriod": "1999出版年书目信息；书目页更新2022-04-11",
       "evidenceLevel": "official-bibliographic-metadata",
       "readStatus": "official-page-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-fda-aletta",
+      "title": "FDA Authorizes First-Of-Its-Kind Robotic Blood Draw Device",
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-its-kind-robotic-blood-draw-device",
+      "published": "2026-08-19",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "监管摘要非独立长期经营效果；临床批准不等于无需人工，更不支持全部种类标本或儿科。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2026-08-19",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-08-19获准上市；不是美国机构持续运营记录",
+      "evidenceLevel": "official-regulatory-authorization",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-atellica",
+      "title": "Atellica Integrated Automation on Atellica Solution",
+      "publisher": "Siemens Healthineers",
+      "url": "https://www.siemens-healthineers.com/en-us/laboratory-automation/atellica-integrated-automation",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署期美国产品页",
+      "evidenceLevel": "vendor-product-description",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-specimen-lost",
+      "title": "Specimen Almost Lost",
+      "publisher": "AHRQ PSNet / Yael K. Heher",
+      "url": "https://psnet.ahrq.gov/web-mm/specimen-almost-lost",
+      "published": "2017-11-01",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "病例所在机构未具名，作者署名Beth Israel Deaconess不证明病例就发生在该院；文内二手统计不采用。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2017-11-01",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2017匿名病例及作者所在实验室的流程评论",
+      "evidenceLevel": "clinical-case-and-author-workflow-commentary",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-h-clia",
+      "title": "42 CFR 493 Subpart K, 2022 edition",
+      "publisher": "GovInfo / U.S. Government",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2022-title42-vol5/pdf/CFR-2022-title42-vol5-part493-subpartK.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "standard",
+      "limitations": [
+        "仅旧版任务流程定位，不作为2026合规意见；双栏原PDF文字按标题及打印页定位。",
+        "来源范围：US-historical-rule",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2022-10-01",
+          "note": "历史文档版次，不能作为网页首次发布日期或现行有效性认证。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "2022-10-01历史条文，本轮未完成2026现行文本逐条核对",
+      "evidenceLevel": "historical-official-rule-text",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-h-xray",
+      "title": "Medical X-ray Imaging",
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/radiation-emitting-products/medical-imaging/medical-x-ray-imaging",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "网页含历史项目和持续指导，正式发布日期未确认",
+      "evidenceLevel": "official-radiation-protection-guidance",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-ui-rad",
+      "title": "United Imaging Announces the uDR Aurora CX",
+      "publisher": "United Imaging",
+      "url": "https://usa.united-imaging.com/news/press/united-imaging-announces-the-udr-aurora-cx",
+      "published": "2025-09-29",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2025-09-29",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2025-09厂商新品发布，称已FDA cleared，未独立复核许可号",
+      "evidenceLevel": "vendor-product-launch",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-ge-quality",
+      "title": "Quality Care Suite 2.0",
+      "publisher": "GE HealthCare",
+      "url": "https://www.gehealthcare.com/en-us/products/radiography-and-fluoroscopy/quality-care-suite",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "厂商内部节省工时、点击次数、覆盖率和AUC未纳入任务数字；仅机制、范围与人工决策边界。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2026-02",
+          "note": "依资料原日期精度记录；首发、修订、通过及公开发布各自分列。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "页面文号JB22535XX February 2026",
+      "evidenceLevel": "vendor-product-description",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-fda-reprocess",
+      "title": "Factors Affecting Quality of Reprocessing",
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/medical-devices/reprocessing-reusable-medical-devices/factors-affecting-quality-reprocessing",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署期监管汇总",
+      "evidenceLevel": "official-regulatory-risk-assessment",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-h-sterile",
+      "title": "Recommendations for Disinfection and Sterilization in Healthcare Facilities",
+      "publisher": "CDC",
+      "url": "https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/summary-recommendations.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "按推荐编号定位；不发布临床操作参数；内镜特有条款不可套全部器械。非单一私人医院现场SOP或设备效果证据。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2023-12-07",
+          "note": "依资料原日期精度记录；首发、修订、通过及公开发布各自分列。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "2008指导；页面2023-12-07及明确历次更新",
+      "evidenceLevel": "official-process-guidance",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-rif-wellstar",
+      "title": "RIF Robotics pioneers autonomous surgical tray assembly",
+      "publisher": "Catalyst by Wellstar",
+      "url": "https://catalyst.wellstar.org/casestudies/rif-robotics/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "Wellstar同时投资方和试点运营方，非独立验证；2026持续运行与成本未确认。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2023-08试点，2023-12组盘里程碑；未确认页面发布日期",
+      "evidenceLevel": "operator-investor-pilot-report",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-censitrac",
+      "title": "Surgical Instrument Tracking Software",
+      "publisher": "Censis",
+      "url": "https://censis.com/products/censitrac/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "无署期美国产品页，包含2026推广语",
+      "evidenceLevel": "vendor-product-description",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-smartsponge",
+      "title": "ClearCount SmartSponge 510(k) summary K071355",
+      "publisher": "FDA-hosted manufacturer submission",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf7/K071355.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "已核公开申报摘要机制；本稿未以该页独立证明长期临床效果。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "authored",
+          "value": "2006-10",
+          "note": "申报材料准备月份，按原文精度保留。"
+        },
+        {
+          "kind": "adopted",
+          "value": "2007-05-24",
+          "note": "FDA许可函日期；不证明当前销售或持续商业运行。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "2006-10申报材料准备，2007-05-24许可函；不证明2026销售或在运",
+      "evidenceLevel": "historical-manufacturer-regulatory-submission",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-count2008",
+      "title": "The frequency and significance of discrepancies in the surgical count",
+      "publisher": "Greenberg et al. / Annals of Surgery",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18650646/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "只读PubMed索引摘要；工时为整台手术计数活动，不能分摊到原子任务或作2026基线。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2008-08",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2008发表美国择期普外现场观察",
+      "evidenceLevel": "historical-primary-observational-study",
+      "readStatus": "indexed-extract-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-fda-lift",
+      "title": "Patient Lifts",
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/medical-devices/general-hospital-devices-and-supplies/patient-lifts",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "跨主体设备指导；不证明任何特定私人机构的采购、工时或事故。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2018-08-22",
+          "note": "依资料原日期精度记录；首发、修订、通过及公开发布各自分列。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "内容更新2018-08-22的设备指导",
+      "evidenceLevel": "official-device-guidance",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-g-vaapp",
+      "title": "Safe Patient Handling",
+      "publisher": "VA Mobile",
+      "url": "https://mobile.va.gov/app/safe-patient-handling",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US-government-tool-not-private-deployment",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "无署期工具目录",
+      "evidenceLevel": "official-tool-description",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-hercules",
+      "title": "The Hercules System",
+      "publisher": "The Morel Company",
+      "url": "https://morelcompany.com/products/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "床头纵向复位不等于左右翻身、重新铺单或全部体位护理；不采用自报人数和秒数。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "无署期产品说明",
+      "evidenceLevel": "vendor-product-description",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-obi",
+      "title": "Meet Obi: the Independent Eating Device",
+      "publisher": "DESIN / Obi",
+      "url": "https://meetobi.com/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "不据此证实吞咽评估、准备食物、喂水或自动摄入记录；须经个体评估。",
+        "来源范围：US-product-and-global-marketing-not-site-deployment",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "无署期当前产品页",
+      "evidenceLevel": "vendor-product-description",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-obi-study",
+      "title": "Usability and Functional Outcomes of the Obi3 Robotic Feeding Device",
+      "publisher": "Fairman et al. / JMIR Rehabilitation and Assistive Technologies",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2369252926000700",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "已读出版商摘要、方法概述和利益披露，未把居家短测当美国私人护理院持续商业效果；不采用效果分数与减工时数字。 本轮按独立审校将未获保留原文佐证的2026-08-12撤为null，仅保留发表年份；没有另行取得JMIR全文。",
+        "来源范围：study-location-not-fully-confirmed-from-read-sections",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。",
+        "已确认发表年份：2026；没有已核实的精确月日。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026年短期居家使用研究；观察期一周；精确发表月日未从保留的出版方原文确认",
+      "evidenceLevel": "primary-usability-study-with-manufacturer-conflicts",
+      "readStatus": "publisher-abstract-contributions-and-conflicts-read-not-full-study"
+    },
+    {
+      "id": "automation-us-health-nh-abandon",
+      "title": "A Survey of Technology Abandonment in US Nursing Homes",
+      "publisher": "Powell et al. / JAMDA",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37837997/",
+      "published": "2023-10-11",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "仅PubMed摘要；没有分辨每个照护动作或机器，不能作为喂饭、洗浴或移位机器人弃用证据。",
+        "来源范围：US-mixed-ownership-nursing-homes",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2023-10-11",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2019–2021两期调查；2023-10在线发表、2024-01卷期",
+      "evidenceLevel": "primary-longitudinal-survey",
+      "readStatus": "indexed-extract-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-inova-rehab",
+      "title": "Inova Inpatient Rehabilitation",
+      "publisher": "Inova",
+      "url": "https://www.inova.org/inova-rehabilitation-services/inpatient-rehabilitation",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "服务目录不提供日常运行频率、逐任务工时或效果，雇佣关系和具体院区仍待核对；不把所有列出的器具视为动力机器人。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署期机构服务目录，2026-09-09读取",
+      "evidenceLevel": "operator-service-description",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-baxter-vital",
+      "title": "Baxter Launches Welch Allyn Connex 360 Vital Signs Monitor",
+      "publisher": "Baxter",
+      "url": "https://investor.baxter.com/investors/events-and-news/news/press-release-details/2025/Baxter-Launches-Welch-Allyn-Connex-360-Vital-Signs-Monitor-to-Advance-Connected-Patient-Monitoring/default.aspx",
+      "published": "2025-09-16",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2025-09-16",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2025-09新品发布，厂商称美国可订购",
+      "evidenceLevel": "vendor-product-launch",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-hhs-rpm",
+      "title": "Physical therapy and remote patient monitoring",
+      "publisher": "HHS Telehealth",
+      "url": "https://telehealth.hhs.gov/providers/best-practice-guides/telehealth-for-physical-therapy/physical-therapy-and-remote-patient-monitoring",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2025-07-29",
+          "note": "依资料原日期精度记录；首发、修订、通过及公开发布各自分列。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "页面更新2025-07-29",
+      "evidenceLevel": "official-technology-guidance",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-apta-connect",
+      "title": "APTA Connect",
+      "publisher": "American Physical Therapy Association",
+      "url": "https://www.apta.org/your-practice/documentation/connect",
+      "published": "2018-10-01",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "APTA为产品合作方，不视作独立商业效果验证。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2018-10-01",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2018产品合作说明，2026销售/运行未核",
+      "evidenceLevel": "historical-partner-product-description",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-fda-home",
+      "title": "Unique Considerations in the Home",
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/medical-devices/home-use-devices/unique-considerations-home",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "无署期居家器械指导",
+      "evidenceLevel": "official-environmental-risk-guidance",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-bath-need",
+      "title": "Unmet Need for Equipment to Help With Bathing and Toileting Among Older US Adults",
+      "publisher": "Lam et al. / JAMA Internal Medicine",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7985819/",
+      "published": "2021-03-22",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "已读原研究索引摘要与Methods/Results选段；机构雇员参与照护、当年实际成本与2026覆盖未核。",
+        "来源范围：US-community-dwelling-older-adults",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2021-03-22",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2015–2019 NHATS；2021-03-22发表",
+      "evidenceLevel": "primary-observational-cohort-analysis",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-cms-fhir",
+      "title": "Post-acute FHIR Order and Referrals",
+      "publisher": "CMS",
+      "url": "https://www.cms.gov/data-research/computer-data-systems/emdi/post-acute-fhir-order-and-referrals",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2026-03-04",
+          "note": "依资料原日期精度记录；首发、修订、通过及公开发布各自分列。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "页面2026-03-04更新，原型与已结束试点项目",
+      "evidenceLevel": "official-prototype-and-pilot-program-description",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-home-oig",
+      "title": "Home Health Agencies Failed To Report Over Half of Falls With Major Injury and Hospitalization Among Their Medicare Patients",
+      "publisher": "HHS OIG",
+      "url": "https://www.oig.hhs.gov/reports/all/2023/home-health-agencies-failed-to-report-over-half-of-falls-with-major-injury-and-hospitalization-among-their-medicare-patients/",
+      "published": "2023-09-05",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不采用标题比例作为任务数字；主体含营利、非营利及政府机构，不能推为所有私人机构状况。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2023-09-05",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2023审核；所读摘要未给出完整索赔观察期",
+      "evidenceLevel": "official-independent-reporting-audit",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-h-child",
+      "title": "Health and Safety Requirements",
+      "publisher": "HHS Childcare.gov",
+      "url": "https://www.childcare.gov/consumer-education/regulated-child-care/health-and-safety-requirements",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "未覆盖各州详细标准和指定设施SOP，不能由此确认全自动照护验收。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署期说明，州级具体规范另查",
+      "evidenceLevel": "official-process-overview",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-bright-check",
+      "title": "Check-in Report",
+      "publisher": "Brightwheel",
+      "url": "https://help.mybrightwheel.com/en/articles/2652805-check-in-report",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2026-07-01",
+          "note": "依资料原日期精度记录；首发、修订、通过及公开发布各自分列。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "页面2026-07-01",
+      "evidenceLevel": "vendor-user-documentation",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-bright-report",
+      "title": "Overview of reports & data available in brightwheel",
+      "publisher": "Brightwheel",
+      "url": "https://help.mybrightwheel.com/en/articles/942384-overview-of-reports-data-available-in-brightwheel",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "不采用自报节省时间；信息来自教师或联系人填写，不等于机器判断健康。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2025-10-30",
+          "note": "依资料原日期精度记录；首发、修订、通过及公开发布各自分列。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "2025-10-30产品帮助文档",
+      "evidenceLevel": "vendor-user-documentation",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-bright-feed",
+      "title": "View your child’s activity feed",
+      "publisher": "Brightwheel",
+      "url": "https://help.mybrightwheel.com/en/articles/942392-view-your-child-s-activity-feed",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2025-05-13",
+          "note": "依资料原日期精度记录；首发、修订、通过及公开发布各自分列。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "帮助页2025-05-13",
+      "evidenceLevel": "vendor-user-documentation",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-bright-pickup",
+      "title": "Everything you need to know about student check-in",
+      "publisher": "Brightwheel",
+      "url": "https://help.mybrightwheel.com/en/articles/942374-everything-you-need-to-know-about-student-check-in",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "displayed",
+          "value": "2025-12-11",
+          "note": "页面可见日期，尚未区分首次发表或更新。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "帮助页可见日期2025-12-11；尚未区分首次发表或更新时间",
+      "evidenceLevel": "vendor-user-documentation",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-fda-infant",
+      "title": "Do Not Use Unauthorized Infant Devices for Monitoring Vital Signs",
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/medical-devices/safety-communications/do-not-use-unauthorized-infant-devices-monitoring-vital-signs-fda-safety-communication",
+      "published": "2025-09-16",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "针对生命体征设备，不扩展为所有摄像头违法或全部儿童睡眠设备失效。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2025-09-16",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "安全通告2025-09-16",
+      "evidenceLevel": "official-device-safety-communication",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-cdc-child-clean",
+      "title": "How To Clean and Disinfect Early Care and Education Settings",
+      "publisher": "CDC",
+      "url": "https://www.cdc.gov/hygiene/about/how-to-clean-and-disinfect-early-care-and-education-settings.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2024-04-19",
+          "note": "依资料原日期精度记录；首发、修订、通过及公开发布各自分列。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "页面2024-04-19",
+      "evidenceLevel": "official-process-guidance",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-h-shelter",
+      "title": "24 CFR 576 Subpart E, 2022 edition",
+      "publisher": "GovInfo / U.S. Government",
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2022-title24-vol3/pdf/CFR-2022-title24-vol3-part576-subpartE.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "standard",
+      "limitations": [
+        "仅紧急庇护所(b)，不混永久住房(c)；原文是设施条件，不证明某职业亲自完成所有动作。",
+        "来源范围：US-historical-rule",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2022-04-01",
+          "note": "历史文档版次，不能作为网页首次发布日期或现行有效性认证。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "2022-04-01历史版，现行逐条核查未完成",
+      "evidenceLevel": "historical-official-rule-text",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-andgo-bed",
+      "title": "Bed Management",
+      "publisher": "AndGo Case Management",
+      "url": "https://andgocm.com/features/bed-management/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "无署期产品页",
+      "evidenceLevel": "vendor-product-description",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-freevend",
+      "title": "freevend",
+      "publisher": "reversebus",
+      "url": "https://reversebus.com/freevend/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "页面包含规划放置场所，具体美国已部署地点和长期持续性未核；不声称已有某庇护所自动发寝具；不采用动态发放数量。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "网页2026-09-08更新计数；方案发布日期未知",
+      "evidenceLevel": "operator-service-marketing",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-chef-openhand",
+      "title": "How Project Open Hand Makes Medically Tailored Meals With Chef’s AI-Enabled Robots",
+      "publisher": "Chef Robotics",
+      "url": "https://www.chefrobotics.ai/case-studies/project-open-hand",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "不采用宣传生产率和份数；仅分装机制与志愿者边界，厂商与运营方引述未构成独立审计。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "无署期具名旧部署叙述，2026持续性另核",
+      "evidenceLevel": "vendor-named-US-nonprofit-case",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-gao-shelter",
+      "title": "Homelessness: Agency Actions Could Improve Data on Shelter Program Use",
+      "publisher": "GAO",
+      "url": "https://files.gao.gov/reports/GAO-26-107502/index.html",
+      "published": "2026-01-22",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "2026-01-22为公开日。统计估计审计只为数据边界，不作为洗衣、配餐等动作反例。",
+        "来源范围：US-mixed-provider-data-system",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2026-01-22",
+      "dates": [
+        {
+          "kind": "authored",
+          "value": "2025-12-23",
+          "note": "报告标注日期；另列首次公开日期。"
+        },
+        {
+          "kind": "released",
+          "value": "2026-01-22",
+          "note": "公开发布日，与报告日期分开。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "2024-05至2025-09审计；2025-12-23发报告、2026-01-22公开",
+      "evidenceLevel": "official-independent-data-audit",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-social-laundry",
+      "title": "Support Systems: Laundry",
+      "publisher": "Weatherhaven",
+      "url": "https://www.weatherhaven.com/support-systems/laundry/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：global-product-not-US-case",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "无署期全球野外设施产品说明",
+      "evidenceLevel": "vendor-global-product-description",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-robonurse",
+      "title": "RoboNurse-VLA: Robotic Scrub Nurse System based on Vision-Language-Action Model",
+      "publisher": "Li et al. / arXiv",
+      "url": "https://arxiv.org/abs/2409.19590",
+      "published": "2024-09-29",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "本轮只读摘要，不使用成功率或比较效果。需全文复核实验地点、样本与失败定义。",
+        "来源范围：research-geography-not-verified-not-US-case",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2024-09-29",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2024-09-29预印本摘要",
+      "evidenceLevel": "research-prototype-not-clinical-deployment",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-hmis-client",
+      "title": "Creating a Client",
+      "publisher": "Council for the Homeless, Clark County",
+      "url": "https://www.councilforthehomeless.org/wp-content/uploads/2021/06/HMIS-Cheat-Sheet-Create-a-Client.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "地方运营机构旧讲义；未确认2026界面版本，不能代表全美HMIS或所有社会服务。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署期旧界面讲义，URL年月不当发布日期",
+      "evidenceLevel": "operator-digital-workflow-guide",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-hmis-referral",
+      "title": "Making a Referral",
+      "publisher": "Council for the Homeless, Clark County",
+      "url": "https://www.councilforthehomeless.org/wp-content/uploads/2021/06/HMIS-Cheat-Sheet-Add-a-Referral.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "地方运营机构流程；未确认2026界面版本及接受方实际服务结果。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署期旧界面讲义",
+      "evidenceLevel": "operator-digital-workflow-guide",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-hmis-exit",
+      "title": "Close Out an Entry",
+      "publisher": "Council for the Homeless, Clark County",
+      "url": "https://www.councilforthehomeless.org/wp-content/uploads/2021/06/HMIS-Cheat-Sheet-Exit-a-Client-From-Program.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "地方运营机构旧界面流程；不是离所全过程自动完成案例。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署期旧界面讲义",
+      "evidenceLevel": "operator-digital-workflow-guide",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-hmis-scan",
+      "title": "Add a Service in SkanPoint",
+      "publisher": "Council for the Homeless, Clark County",
+      "url": "https://www.councilforthehomeless.org/wp-content/uploads/2021/06/HMIS-Cheat-Sheet-Use-SkanPoint-to-Add-Services.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "地方服务记录流程；未核2026版本，不能以扫码速度当实体服务工时。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署期旧界面讲义",
+      "evidenceLevel": "operator-digital-workflow-guide",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-health-o21-1093.00",
+      "title": "O*NET Detailed Report 21-1093.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/21-1093.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明私营照护机构场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
+    },
+    {
+      "id": "automation-us-health-o29-2034.00",
+      "title": "O*NET Detailed Report 29-2034.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/29-2034.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明私营照护机构场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
+    },
+    {
+      "id": "automation-us-health-o29-2055.00",
+      "title": "O*NET Detailed Report 29-2055.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/29-2055.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明私营照护机构场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
+    },
+    {
+      "id": "automation-us-health-o31-1121.00",
+      "title": "O*NET Detailed Report 31-1121.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/31-1121.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明私营照护机构场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
+    },
+    {
+      "id": "automation-us-health-o31-1131.00",
+      "title": "O*NET Detailed Report 31-1131.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/31-1131.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明私营照护机构场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
+    },
+    {
+      "id": "automation-us-health-o31-2021.00",
+      "title": "O*NET Detailed Report 31-2021.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/31-2021.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明私营照护机构场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
+    },
+    {
+      "id": "automation-us-health-o31-9093.00",
+      "title": "O*NET Detailed Report 31-9093.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/31-9093.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明私营照护机构场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
+    },
+    {
+      "id": "automation-us-health-o31-9097.00",
+      "title": "O*NET Detailed Report 31-9097.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/31-9097.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明私营照护机构场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
+    },
+    {
+      "id": "automation-us-health-o35-2012.00",
+      "title": "O*NET Detailed Report 35-2012.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/35-2012.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明私营照护机构场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
+    },
+    {
+      "id": "automation-us-health-o39-9011.00",
+      "title": "O*NET Detailed Report 39-9011.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/39-9011.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明私营照护机构场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
     }
   ],
   "industries": [

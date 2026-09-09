@@ -5,6 +5,7 @@ import {importCnAgriculture} from '../src/research/import-cn-agriculture'
 import {importCnMining} from '../src/research/import-cn-mining'
 import {importUsAgriculture} from '../src/research/import-us-agriculture'
 import {importUsCore} from '../src/research/import-us-core'
+import {importUsHealth} from '../src/research/import-us-health'
 import {importUsServices} from '../src/research/import-us-services'
 import {validateResearch} from '../src/research/validate'
 const root=new URL('../',import.meta.url)
@@ -41,6 +42,10 @@ for(const industry of ['manufacturing','government']) {
  importUsCore(data,raw.data,audit.data,review.data,{file,sha256:raw.sha256,auditFile,auditSha256:audit.sha256,reviewFile,reviewSha256:review.sha256})
  console.log('Integrated',raw.data.tasks.length,industry,'task research records; independent corrections applied, no task frozen.')
 }
+const healthFile='research/automation/us-health.json',healthAuditFile='research/automation/us-health-search-audit.json',healthReviewFile='research/reviews/us-health-automation-decisions.json'
+const health=await read(healthFile),healthAudit=await read(healthAuditFile),healthReview=await read(healthReviewFile),healthRevision=await read('research/automation/us-health-revisions.json'),healthRecheck=await read('research/reviews/us-health-automation-recheck.json')
+if(healthRevision.data.afterSha256!==health.sha256||healthRevision.data.beforeSha256!==healthReview.data.input.sha256||healthRevision.data.independentReviewInput.sha256!==healthReview.sha256||healthRecheck.data.authorRevisionReceiptSHA256!==healthRevision.sha256||healthRecheck.sha256!=='49abc134eab8932af4f079707590ca2f9af1c900f1a698b7c73f209b14b50276')throw new Error('美国卫生修订与限定复检文件不匹配')
+importUsHealth(data,health.data,healthAudit.data,healthReview.data,healthRecheck.data,{file:healthFile,sha256:health.sha256,auditFile:healthAuditFile,auditSha256:healthAudit.sha256,reviewFile:healthReviewFile,reviewSha256:healthReview.sha256})
 const result=validateResearch(data)
 await writeFile(new URL('data/research.json',root),JSON.stringify(result,null,2)+'\n')
 console.log('Integrated',raw.data.tasks.length,'CN service task research records. Definition revisions remain open; none are frozen.')
@@ -48,3 +53,4 @@ console.log('Integrated',us.data.tasks.length,'US agriculture task research reco
 console.log('Integrated',services.data.tasks.length,'US service task research records. Original source claims, country scope and unknown cash-flow inputs retained.')
 console.log('Integrated',cnAg.data.tasks.length,'CN agriculture task research records. Split proposals and followups remain open; no task frozen.')
 console.log('Integrated',mining.data.tasks.length,'CN mining task research records. Reviewed display corrections applied; original snapshots preserved, no task frozen.')
+console.log('Integrated',health.data.tasks.length,'US health task research records. Adjacent evidence, source dates, proposed splits and unknown costs retained.')

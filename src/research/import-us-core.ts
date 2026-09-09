@@ -13,7 +13,7 @@ const category=(label:string):Task['alternatives'][number]['category']=>/机器�
 /** Only independently reviewed US batches enter this importer; completed queries never freeze a task. */
 export function importUsCore(data:Research,raw:Raw,audit:Raw,review:Raw,provenance:CoreProvenance) {
  const industry=raw.industryId
- if(!['us-manufacturing','us-government'].includes(industry)||[raw,audit,review].some(x=>x.country!=='US'||x.industryId!==industry)||raw.isFrozen!==false||!(review.canFreeze===false||(review.counts?.frozen===0&&review.counts?.approvedNewAtomicTaskCount===0)))throw new Error('美国行业研究国家、行业或冻结状态不匹配')
+ if(!['us-manufacturing','us-government','us-health'].includes(industry)||[raw,audit,review].some(x=>x.country!=='US'||x.industryId!==industry)||raw.isFrozen!==false||!(review.canFreeze===false||(review.counts?.frozen===0&&review.counts?.approvedNewAtomicTaskCount===0)))throw new Error('美国行业研究国家、行业或冻结状态不匹配')
  if(raw.reviewedInputSha256!==review.input?.sha256||raw.sourceReviewFile!==provenance.reviewFile)throw new Error('独立审校输入不匹配')
  const prefix='automation-'+industry+'-',sourceId=(id:string)=>prefix+id.toLowerCase()
  const decisions=new Map<string,Raw>(review.decisions.map((d:Raw)=>[d.taskId,d])),ids=new Set<string>(raw.tasks.map((t:Raw)=>t.id))

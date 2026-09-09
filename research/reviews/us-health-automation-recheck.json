@@ -1,0 +1,1421 @@
+{
+  "schemaVersion": 1,
+  "country": "US",
+  "industryId": "us-health",
+  "reviewType": "independent-limited-recheck-of-author-corrections",
+  "reviewedAt": "2026-09-09",
+  "reviewer": "root",
+  "author": "us_data",
+  "inputFile": "research/automation/us-health.json",
+  "inputSHA256": "d682f8a61eb3c2c7384b5ced73a391c3c53106c8bd62aeaf6c86436dadec6faf",
+  "originalInputSHA256": "9ccb13a0421f068081b614cf679f1ed5a8131788271734102acff37418d62537",
+  "independentReviewFile": "research/reviews/us-health-automation-decisions.json",
+  "independentReviewSHA256": "79ab9ae692e5e24202724f09f37ee1b53db621edcde5b4e76747540d9ce4181f",
+  "auditFile": "research/automation/us-health-search-audit.json",
+  "auditSHA256": "712b6f717158431347ab03511e632406078ad8ef4fae4c3d0f381d8772663cb5",
+  "authorRevisionReceipt": "research/automation/us-health-revisions.json",
+  "authorRevisionReceiptSHA256": "27e3fe21840a8737cc048b03b313f931cfff85f485f2797eb9c9552e657b5cc0",
+  "verdict": "specified-corrections-verified-research-gaps-remain",
+  "canFreeze": false,
+  "scope": "继承根代理对原100项、55来源与325定位的独立审查；本轮精确比较旧新完整JSON，复检指定修订和传播。未重跑原查询，未取得新的JMIR全文，不扩张现行/商用认证。",
+  "counts": {
+    "tasks": 100,
+    "sources": 55,
+    "locators": 325,
+    "nonemptyQuotesAtSpecifiedLF": 96,
+    "emptyQuotesNotVerbatimVerified": 229,
+    "mainQueries": 200,
+    "proposedSplitParents": 35,
+    "newSplitParents": 21,
+    "positiveDowngradesToAdjacent": 8,
+    "originalNoPositiveUnchanged": 27,
+    "phaseCorrections": 2,
+    "newTasksCounted": 0,
+    "frozenTasks": 0
+  },
+  "findings": [
+    {
+      "id": "HLT-E01",
+      "status": "confirmed-fixed-with-stated-boundary",
+      "assessment": "检验标本接收日期时间已改到§493.1242(b)，重新核对LF328—330与此前目视的物理5/印刷744左栏。"
+    },
+    {
+      "id": "HLT-E02",
+      "status": "confirmed-fixed-with-stated-boundary",
+      "assessment": "敷料计数许可用途页改物理6/印刷4-1，补物理1—2页机制；有效短引未改，仍是历史许可资料。"
+    },
+    {
+      "id": "HLT-E03",
+      "status": "confirmed-fixed-with-stated-boundary",
+      "assessment": "法规版次、GAO报告与公开日、Brightwheel页面日期、OBI仅可证年份及SMART准备/许可日期各自分列。"
+    },
+    {
+      "id": "HLT-E04",
+      "status": "confirmed-fixed-with-stated-boundary",
+      "assessment": "五来源补充锚已对照此前读过的缓存正文；OBI利益披露现定位LF102完整段，未声称读到JMIR全文。"
+    },
+    {
+      "id": "HLT-E05",
+      "status": "confirmed-fixed-with-stated-boundary",
+      "assessment": "229空引文改为无逐字匹配，96非空短引均位于指定LF行范围；325缓存哈希与原输入一致。"
+    },
+    {
+      "id": "HLT-E06",
+      "status": "confirmed-fixed-with-stated-boundary",
+      "assessment": "未找到适用静脉、患者过度移动和其他传感风险的动作分别描述，人员监督和门诊成人范围未扩大。"
+    },
+    {
+      "id": "HLT-J01",
+      "status": "confirmed-fixed-with-stated-boundary",
+      "assessment": "8项正例按原独审降为相邻动作/阶段；原27项无确认正例未被冒充新增纠错或正例。"
+    },
+    {
+      "id": "HLT-J02",
+      "status": "confirmed-fixed-with-stated-boundary",
+      "assessment": "35父项拆分建议含原14项和新21项，未增加正式任务；两项阶段改在显示建议，原快照和场景均不变。"
+    },
+    {
+      "id": "HLT-G01",
+      "status": "documented-evidence-gap-remains",
+      "assessment": "原200查询审计字节未变；没有补造原始请求或UTC证据，也没有重新执行原查询。"
+    },
+    {
+      "id": "HLT-G02",
+      "status": "confirmed-fixed-with-stated-boundary",
+      "assessment": "增量营运资金余额、相邻期差分和初末期规则分开，全部参数及100任务现金字段与原稿一致且结果为空。"
+    },
+    {
+      "id": "HLT-G03",
+      "status": "documented-evidence-gap-remains",
+      "assessment": "十组遗漏与传统机械、专机基线及现场参数待办继续有效；100候选与9场景不代表医疗社会援助全行业覆盖。"
+    }
+  ],
+  "wholeFileComparison": {
+    "originalArchivedBytesVerified": true,
+    "scenariosUnchanged": true,
+    "inventorySourcesUnchanged": true,
+    "allOriginalTaskSnapshotsUnchanged": true,
+    "allHumanAndTaskCashInputsUnchanged": true,
+    "searchAuditBytesUnchanged": true,
+    "sourceCachesUnchanged": true,
+    "sourceChanges": [
+      {
+        "sourceId": "FDA-ALETTA",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "ATELLICA",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "SPECIMEN-LOST",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "H-CLIA",
+        "changedFields": [
+          "publishedAt",
+          "dateStatus",
+          "locators",
+          "documentEditionDate"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "H-XRAY",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "UI-RAD",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "GE-QUALITY",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "FDA-REPROCESS",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "H-STERILE",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "RIF-WELLSTAR",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "CENSITRAC",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "SMARTSPONGE",
+        "changedFields": [
+          "publishedAt",
+          "dateStatus",
+          "evidencePeriod",
+          "locators",
+          "documentPreparedDate",
+          "clearanceLetterDate"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "COUNT2008",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "FDA-LIFT",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "G-VAAPP",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "HERCULES",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "OBI",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "OBI-STUDY",
+        "changedFields": [
+          "publishedAt",
+          "dateStatus",
+          "evidencePeriod",
+          "readStatus",
+          "locators",
+          "limitations",
+          "publicationYear"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "NH-ABANDON",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "INOVA-REHAB",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "BAXTER-VITAL",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "HHS-RPM",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "APTA-CONNECT",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "FDA-HOME",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "BATH-NEED",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "CMS-FHIR",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "HOME-OIG",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "H-CHILD",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "BRIGHT-CHECK",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "BRIGHT-REPORT",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "BRIGHT-FEED",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "BRIGHT-PICKUP",
+        "changedFields": [
+          "dateStatus",
+          "evidencePeriod",
+          "locators",
+          "pageDate"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "FDA-INFANT",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "CDC-CHILD-CLEAN",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "H-SHELTER",
+        "changedFields": [
+          "publishedAt",
+          "dateStatus",
+          "locators",
+          "documentEditionDate"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "ANDGO-BED",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "FREEVEND",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "CHEF-OPENHAND",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "GAO-SHELTER",
+        "changedFields": [
+          "publishedAt",
+          "dateStatus",
+          "locators",
+          "reportDate",
+          "publiclyReleasedAt"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "SOCIAL-LAUNDRY",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "ROBONURSE",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "HMIS-CLIENT",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "HMIS-REFERRAL",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "HMIS-EXIT",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "HMIS-SCAN",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "O21-1093.00",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "O29-2034.00",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "O29-2055.00",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "O31-1121.00",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "O31-1131.00",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "O31-2021.00",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "O31-9093.00",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "O31-9097.00",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "O35-2012.00",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      },
+      {
+        "sourceId": "O39-9011.00",
+        "changedFields": [
+          "locators"
+        ],
+        "originalCacheAndLocatorIdsUnchanged": true
+      }
+    ]
+  },
+  "taskChecks": [
+    {
+      "taskId": "US-HLT-SPECIMEN-001",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "准备",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SPECIMEN-002",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "准备",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SPECIMEN-003",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "准备",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SPECIMEN-004",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SPECIMEN-005",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "检测",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SPECIMEN-006",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SPECIMEN-007",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "交接",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SPECIMEN-008",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "异常",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SPECIMEN-009",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "返工",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SPECIMEN-010",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "清洁维护",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SPECIMEN-011",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "交付",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-IMAGING-001",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "准备",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-IMAGING-002",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "准备",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-IMAGING-003",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-IMAGING-004",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-IMAGING-005",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "检测",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-IMAGING-006",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "检测",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-IMAGING-007",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "异常",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-IMAGING-008",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "返工",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-IMAGING-009",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "交接",
+      "positiveEvidenceStatus": "adjacent-evidence-only",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-IMAGING-010",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "清洁维护",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-IMAGING-011",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "交付",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-STERILE-001",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "准备",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-STERILE-002",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-STERILE-003",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-STERILE-004",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "检测",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-STERILE-005",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-STERILE-006",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-STERILE-007",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "检测",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-STERILE-008",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "异常",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-STERILE-009",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "返工",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-STERILE-010",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "交接",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-STERILE-011",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "清洁维护",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-STERILE-012",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "交付",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-OR-001",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "准备",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-OR-002",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "准备",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-OR-003",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-OR-004",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "检测",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-OR-005",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-OR-006",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "交接",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-OR-007",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "异常",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-OR-008",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "返工",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-OR-009",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "交接",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-OR-010",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "交付",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-WARD-001",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "准备",
+      "positiveEvidenceStatus": "adjacent-evidence-only",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-WARD-002",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "检测",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-WARD-003",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-WARD-004",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-WARD-005",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-WARD-006",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-WARD-007",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "交接",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-WARD-008",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "异常",
+      "positiveEvidenceStatus": "adjacent-evidence-only",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-WARD-009",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "返工",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-WARD-010",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "清洁维护",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-WARD-011",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "交付",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-REHAB-001",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "准备",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-REHAB-002",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "准备",
+      "positiveEvidenceStatus": "adjacent-evidence-only",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-REHAB-003",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-REHAB-004",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-REHAB-005",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-REHAB-006",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "检测",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-REHAB-007",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "异常",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-REHAB-008",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "返工",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-REHAB-009",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "交接",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-REHAB-010",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "清洁维护",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-REHAB-011",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "交付",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-HOME-001",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "准备",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-HOME-002",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-HOME-003",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-HOME-004",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-HOME-005",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-HOME-006",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "检测",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-HOME-007",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "交接",
+      "positiveEvidenceStatus": "adjacent-evidence-only",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-HOME-008",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "异常",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-HOME-009",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "返工",
+      "positiveEvidenceStatus": "adjacent-evidence-only",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-HOME-010",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "清洁维护",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-HOME-011",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "交付",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-CHILD-001",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "准备",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-CHILD-002",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "准备",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-CHILD-003",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-CHILD-004",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-CHILD-005",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-CHILD-006",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "adjacent-evidence-only",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-CHILD-007",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "检测",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-CHILD-008",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "异常",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-CHILD-009",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "返工",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-CHILD-010",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "清洁维护",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-CHILD-011",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "交接",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-CHILD-012",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "交付",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-001",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "准备",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-002",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "准备",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-003",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-004",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "adjacent-evidence-only",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-005",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "作业",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-006",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "检测",
+      "positiveEvidenceStatus": "no-task-specific-positive-counterexample-confirmed",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-007",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "交接",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-008",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "异常",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-009",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "返工",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-010",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "清洁维护",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "US-HLT-SOCIAL-011",
+      "originalSnapshotAndHumanCashInputsUnchanged": true,
+      "independentDecisionApplied": true,
+      "phaseRecommendation": "交付",
+      "positiveEvidenceStatus": "bounded-mechanism-or-assisted-task-not-full-commercial-success",
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    }
+  ],
+  "integrationRules": [
+    "使用inventoryReview的动作支持和phase.recommended，保留originalTask作追溯；不直接改原清单。",
+    "8项相邻证据不能在页面重新变成任务替代正例；35拟拆父项不能计成新子任务。",
+    "来源日期性质及readStatus紧邻结论显示；不得把历史许可、短期居家研究、机构服务目录当2026完整任务商用验证。",
+    "现金模型使用修订后的营运资金差分，参数不足仍不计算回报。"
+  ]
+}
