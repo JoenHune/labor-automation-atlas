@@ -2,6 +2,7 @@ import {readFile,writeFile} from 'node:fs/promises'
 import {createHash} from 'node:crypto'
 import {importCnServices} from '../src/research/import-cn-services'
 import {importUsAgriculture} from '../src/research/import-us-agriculture'
+import {importUsCore} from '../src/research/import-us-core'
 import {importUsServices} from '../src/research/import-us-services'
 import {validateResearch} from '../src/research/validate'
 const root=new URL('../',import.meta.url)
@@ -20,7 +21,15 @@ const servicesFile='research/automation/us-services.json',servicesAuditFile='res
 const services=await read(servicesFile),servicesAudit=await read(servicesAuditFile),servicesReview=await read(servicesReviewFile)
 const servicesRevision=await read('research/automation/us-services-revisions.json'),servicesRecheck=await read('research/reviews/us-services-automation-recheck.json')
 if(servicesRevision.data.afterSha256!==services.sha256||servicesRevision.data.reviewSha256!==servicesReview.sha256||servicesRevision.data.reviewInputSha256!==servicesReview.data.inputSha256||servicesRecheck.data.inputSha256!==services.sha256||servicesRecheck.data.reviewSha256!==servicesReview.sha256||servicesRecheck.data.canFreeze!==false)throw new Error('美国服务业修订与复检输入不匹配')
-const result=validateResearch(importUsServices(data,services.data,servicesAudit.data,servicesReview.data,{file:servicesFile,sha256:services.sha256,auditFile:servicesAuditFile,auditSha256:servicesAudit.sha256,reviewFile:servicesReviewFile,reviewSha256:servicesReview.sha256}))
+importUsServices(data,services.data,servicesAudit.data,servicesReview.data,{file:servicesFile,sha256:services.sha256,auditFile:servicesAuditFile,auditSha256:servicesAudit.sha256,reviewFile:servicesReviewFile,reviewSha256:servicesReview.sha256})
+for(const industry of ['manufacturing','government']) {
+ const file='research/automation/us-'+industry+'.json',auditFile='research/automation/us-'+industry+'-search-audit.json',reviewFile='research/reviews/us-'+industry+'-automation-decisions.json'
+ const raw=await read(file),audit=await read(auditFile),review=await read(reviewFile),revision=await read('research/automation/us-'+industry+'-revisions.json'),recheck=await read('research/reviews/us-'+industry+'-automation-recheck.json')
+ if(revision.data.afterSha256!==raw.sha256||revision.data.reviewInputSha256!==review.data.input.sha256||revision.data.reviewSha256!==review.sha256||recheck.data.inputSha256!==raw.sha256||recheck.data.reviewSha256!==review.sha256||recheck.data.canFreeze!==false)throw new Error('美国行业修订与复检输入不匹配：'+industry)
+ importUsCore(data,raw.data,audit.data,review.data,{file,sha256:raw.sha256,auditFile,auditSha256:audit.sha256,reviewFile,reviewSha256:review.sha256})
+ console.log('Integrated',raw.data.tasks.length,industry,'task research records; independent corrections applied, no task frozen.')
+}
+const result=validateResearch(data)
 await writeFile(new URL('data/research.json',root),JSON.stringify(result,null,2)+'\n')
 console.log('Integrated',raw.data.tasks.length,'CN service task research records. Definition revisions remain open; none are frozen.')
 console.log('Integrated',us.data.tasks.length,'US agriculture task research records. Partial dates, evidence limits and unresolved task definitions retained.')

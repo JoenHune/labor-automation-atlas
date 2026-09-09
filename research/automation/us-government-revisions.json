@@ -1,0 +1,303 @@
+{
+  "revisionId": "US-GOV-20260909-r2",
+  "reviewInputSha256": "80ceb3f3ce7b92eed3e40c8af1ceff4a267464283121b7a4b4b6da7b2742ec38",
+  "reviewFile": "research/reviews/us-government-automation-decisions.json",
+  "reviewSha256": "5fa0f1aa3f7878a5291ae7e099d5270e1caf74dab95bd4778f94de8cdc26f3ee",
+  "afterSha256": "88b7ab39475011d20a06aa60571541dbc436347bd7bc791c078b495db7c9ae0f",
+  "sourceCorrections": [
+    {
+      "sourceId": "PRIMERO",
+      "field": "geography",
+      "value": "product-or-guidance; US-government-site-deployment-unverified"
+    },
+    {
+      "sourceId": "FWE",
+      "locatorId": "retherm",
+      "changes": {
+        "claim": "产品说明有装载预制冷食并复热后转保温的功能；未说明自动上料。"
+      }
+    },
+    {
+      "sourceId": "FWE",
+      "field": "geography",
+      "value": "product-or-guidance; US-government-site-deployment-unverified"
+    },
+    {
+      "sourceId": "SMARTSENSE",
+      "field": "geography",
+      "value": "product-or-guidance; US-government-site-deployment-unverified"
+    },
+    {
+      "sourceId": "HOBART",
+      "field": "geography",
+      "value": "product-or-guidance; US-government-site-deployment-unverified"
+    },
+    {
+      "sourceId": "SNA-POS",
+      "locatorId": "limits",
+      "changes": {
+        "cacheLines": [
+          111,
+          112,
+          115,
+          116,
+          118
+        ],
+        "section": "Electronic POS challenges / Paper-based POS selection and challenges；LF缓存111—118行"
+      }
+    },
+    {
+      "sourceId": "GAO-AT",
+      "field": "releasedAt",
+      "value": "2026-01-29"
+    },
+    {
+      "sourceId": "GAO-AT",
+      "field": "dateNote",
+      "value": "报告日期2025-12-30，公开发布2026-01-29，见官网首部日期行。"
+    },
+    {
+      "sourceId": "KAERCHER",
+      "field": "geography",
+      "value": "product-or-guidance; US-government-site-deployment-unverified"
+    },
+    {
+      "sourceId": "FDA-LIFT",
+      "field": "dateNote",
+      "value": "2018-08-22为Content current as of更新日，网页未确认首次发表；缓存331—332行。"
+    },
+    {
+      "sourceId": "VA-ROBOT",
+      "field": "publishedAt",
+      "value": "2026-02-04"
+    },
+    {
+      "sourceId": "VA-ROBOT",
+      "field": "dateStatus",
+      "value": "article-published-footer-date-separated"
+    },
+    {
+      "sourceId": "VA-ROBOT",
+      "field": "evidencePeriod",
+      "value": "2025-12-15论文；VA简报正文2026-02-04；页脚2025-04-28早于正文，不能当正文更新"
+    },
+    {
+      "sourceId": "VA-ROBOT",
+      "field": "dateNote",
+      "value": "正文标题下02/04/2026（缓存959行/在线254行），论文及页脚日期各自保留。"
+    },
+    {
+      "sourceId": "G-ROAD",
+      "field": "dateNote",
+      "value": "官方书目页明确Publication Year:1999；PDF Report Date空白不用于推日月。"
+    },
+    {
+      "sourceId": "G-ROAD",
+      "field": "publicationMetadataUrl",
+      "value": "https://www.fhwa.dot.gov/pavement/pub_details.cfm?id=139"
+    },
+    {
+      "sourceId": "G-ROAD",
+      "field": "publicationMetadataLocator",
+      "value": "Publication Details → Publication Year，在线行34—36"
+    },
+    {
+      "sourceId": "G-ROAD",
+      "locatorId": "edges",
+      "changes": {
+        "cacheLines": [
+          619,
+          620,
+          651,
+          652,
+          658,
+          659
+        ],
+        "section": "3.2.2 Semi-Permanent；印刷页11—13，图3/4；LF缓存619—620、651—659行"
+      }
+    },
+    {
+      "sourceId": "G-ROAD",
+      "locatorId": "compact",
+      "changes": {
+        "cacheLines": [
+          623,
+          624,
+          625,
+          683,
+          684
+        ],
+        "section": "3.2.2 / 3.2.3，印刷页11、16；压实与喷注无需后压实分支；LF缓存623—625、683—684行"
+      }
+    },
+    {
+      "sourceId": "G-ROAD",
+      "locatorId": "reopen",
+      "changes": {
+        "cacheLines": [
+          583,
+          584,
+          585,
+          626,
+          628
+        ],
+        "section": "3.2.1 / 3.2.2，印刷页10—11；LF缓存583—585、626—628行"
+      }
+    },
+    {
+      "sourceId": "USPS-MANUAL",
+      "locatorId": "gatekeeper",
+      "changes": {
+        "cacheLines": [
+          58,
+          78,
+          80
+        ],
+        "section": "Background gatekeeper/re-run + Findings未持续执行；LF缓存58、78、80行"
+      }
+    },
+    {
+      "sourceId": "G-POST",
+      "locatorId": "scan",
+      "changes": {
+        "cacheLines": [
+          268,
+          270
+        ],
+        "section": "2013 Handbook M-41修订122.22，Delivery Operations / scanning；LF缓存268—270行"
+      }
+    },
+    {
+      "sourceId": "BECKHOFF-WATER",
+      "field": "modifiedAt",
+      "value": "2023-06-23"
+    },
+    {
+      "sourceId": "BECKHOFF-WATER",
+      "field": "dateNote",
+      "value": "2021-03-02首发及Updated:Jun 23,2023分开；缓存117行。"
+    },
+    {
+      "sourceId": "BECKHOFF-WATER",
+      "locatorId": "chemical",
+      "changes": {
+        "cacheLines": [
+          119,
+          125,
+          137
+        ],
+        "section": "NSWC chemical-feed caption and actual PC-control / HMI paragraphs；LF缓存119、125、137行"
+      }
+    },
+    {
+      "sourceId": "G-WATER",
+      "locatorId": "filters",
+      "changes": {
+        "cacheLines": [
+          232,
+          245,
+          377
+        ],
+        "section": "Granular activated carbon正文 + What is adsorptive media；LF缓存232、245、377行",
+        "claim": "正文描述GAC吸附介质及污染水流经介质床；不证明所有水厂自动控制。"
+      }
+    },
+    {
+      "sourceId": "G-WATER",
+      "locatorId": "media",
+      "changes": {
+        "cacheLines": [
+          381,
+          383
+        ],
+        "section": "Adsorptive media — advantages/disadvantages；LF缓存381、383行"
+      }
+    },
+    {
+      "sourceId": "VEOLIA-BACKWASH",
+      "locatorId": "mechanism",
+      "changes": {
+        "cacheLines": [
+          412,
+          442
+        ],
+        "section": "ABW overview mechanism / applications；LF缓存412、442行"
+      }
+    },
+    {
+      "sourceId": "FTA-ACCESS",
+      "locatorId": "needs",
+      "changes": {
+        "cacheLines": [
+          5,
+          9,
+          10,
+          14,
+          18,
+          20
+        ],
+        "section": "Section4 printed p.18；检索索引原文节选，LF缓存5、9—14、18、20行"
+      }
+    },
+    {
+      "sourceId": "VOLPE-DISINFECT",
+      "locatorId": "scope",
+      "changes": {
+        "cacheLines": [
+          21,
+          22,
+          29
+        ],
+        "section": "Technology / Future；在线30—31、38行；LF缓存21—22、29行"
+      }
+    },
+    {
+      "sourceId": "BOP-ISSUES",
+      "field": "publishedAt",
+      "value": "2023-05-04"
+    },
+    {
+      "sourceId": "BOP-ISSUES",
+      "field": "dateNote",
+      "value": "当前引证新闻稿Posted Date:May4,2023（缓存257行/在线24行），不混用关联报告5月3日。"
+    },
+    {
+      "sourceId": "DLA-WMS",
+      "locatorId": "scope",
+      "changes": {
+        "cacheLines": [
+          16,
+          17,
+          24
+        ],
+        "claim": "WMS用于仓储与运输记录；页面将扫描与便携打印列为改造意图，具体现场实现另核。",
+        "section": "What is WMS / Why transitioning；LF缓存16—17、24行，区分已用与拟采用"
+      }
+    },
+    {
+      "sourceId": "DLA-MODERN",
+      "locatorId": "automation",
+      "changes": {
+        "cacheLines": [
+          31,
+          62,
+          65,
+          84
+        ],
+        "section": "2022输送线、2025-03-12ASRS照片、改造计划与移动/语音流程；LF缓存31、62、65、84行"
+      }
+    },
+    {
+      "sourceId": "HALE-PUMP",
+      "field": "geography",
+      "value": "product-or-guidance; US-government-site-deployment-unverified"
+    }
+  ],
+  "additionalSource": "G-ROAD-METADATA",
+  "taskCount": 115,
+  "sourceCount": 60,
+  "additionalDefinitionDowngrades": 15,
+  "approvedNewAtomicTasks": 0,
+  "rawSearchesRerun": false,
+  "canFreeze": false
+}

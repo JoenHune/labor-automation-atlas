@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-09-09",
+  "researchJsonSha256": "88b7ab39475011d20a06aa60571541dbc436347bd7bc791c078b495db7c9ae0f",
+  "reviewerRole": "revision-structural-check-after-independent-review",
+  "checks": {
+    "originalTasksAndIdsPreserved": true,
+    "all115IndependentDecisionsApplied": true,
+    "sourceDatesAndLocationsCorrected": true,
+    "pdfLineConventionExplicit": true,
+    "governmentExecutorBoundaryRetained": true,
+    "allCashParametersAndResultsNull": true,
+    "allTasksUnfrozen": true,
+    "noNewAtomicTasksApproved": true
+  },
+  "recheckFile": "research/reviews/us-government-automation-recheck.json",
+  "previousAuthorCheck": {
+    "industryId": "us-government",
+    "country": "US",
+    "checkedAt": "2026-09-09",
+    "researchJsonSha256": "80ceb3f3ce7b92eed3e40c8af1ceff4a267464283121b7a4b4b6da7b2742ec38",
+    "inventorySha256": "7feeeb264545b41681f95245a35625986bcb65326a4b0a25db47c98ef39046c5",
+    "statistics": {
+      "taskCount": 115,
+      "scenarioCount": 10,
+      "actualQueries": 230,
+      "sourceCount": 59,
+      "proposedTaskCount": 13,
+      "splitRecommendations": 7,
+      "counterEvidenceWithBoundedSourceCount": 38,
+      "completeTaskCommercialSuccessCount": 0
+    },
+    "checks": {
+      "inventory-115-stable-IDs": true,
+      "inventory-SHA-unchanged": true,
+      "original-task-byte-equivalent-JSON": true,
+      "230-actual-executed-queries": true,
+      "queries-distinct-and-dual-directions": true,
+      "raw-logs-cover-query-IDs-once": true,
+      "59-source-IDs-unique": true,
+      "source-cache-SHA-matches": true,
+      "quotes-match-read-source": true,
+      "source-total-verbatim-at-most-25-words": true,
+      "new-references-resolve": true,
+      "cash-parameters-null": true,
+      "task-cash-and-labor-unfilled": true,
+      "barrier-hypotheses-not-facts": true,
+      "unfrozen-and-independent-review-pending": true,
+      "public-audit-no-raw-excerpts": true,
+      "country-isolated": true
+    },
+    "errors": [],
+    "badRefs": [],
+    "badCache": [],
+    "badQuotes": [],
+    "independentReview": "pending-not-self-certified",
+    "limitations": [
+      "验证结构、引用和缓存一致性，不替代独立逐项事实与场景审查。",
+      "缺少动作专属负向源或商业运行仍在每项保留；查询执行不等于证据充分。"
+    ]
+  },
+  "frozen": false
+}

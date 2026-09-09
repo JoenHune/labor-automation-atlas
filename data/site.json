@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-09.preview-3",
+  "version": "2026-09-09.preview-4",
   "checkedAt": "2026-09-09",
   "publishedAt": null,
   "freezeStatus": "working",
@@ -7805,6 +7805,3972 @@
       "evidencePeriod": "无日期产品方案页",
       "evidenceLevel": "manufacturer-product-description",
       "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-manufacturing-mp-cut",
+      "title": "Poultry eTool — Cutting",
+      "publisher": "OSHA",
+      "url": "https://www.osha.gov/etools/poultry-processing/tasks/cutting-deboning/cutting",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-guidance",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期的工艺指导",
+      "evidenceLevel": "official-workflow-tool",
+      "readStatus": "indexed-extract-selected-sections-read; direct-access-unavailable"
+    },
+    {
+      "id": "automation-us-manufacturing-mp-deb",
+      "title": "Poultry eTool — Deboning",
+      "publisher": "OSHA",
+      "url": "https://www.osha.gov/etools/poultry-processing/tasks/cutting-deboning/deboning",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-guidance",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期的工艺指导",
+      "evidenceLevel": "official-workflow-tool",
+      "readStatus": "indexed-extract-selected-sections-read; direct-access-unavailable"
+    },
+    {
+      "id": "automation-us-manufacturing-mp-ars",
+      "title": "Automatic Poultry Inspection Goes On Line",
+      "publisher": "USDA ARS",
+      "url": "https://www.ars.usda.gov/news-events/news/research-news/2003/automatic-poultry-inspection-goes-on-line/",
+      "published": "2003-10-15",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-commercial-plant-test",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2003-10-15",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2003 商业线短期试验；页面已归档",
+      "evidenceLevel": "official-research-pilot",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mp-baader",
+      "title": "Customized for the American Market: The BAADER Breast Deboner 661",
+      "publisher": "BAADER",
+      "url": "https://www.baader.com/media/blog/customized-for-the-american-market-the-baader-breast-deboner-661",
+      "published": "2023-01-17",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-target-market; prototype-Germany",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2023-01-17",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2023 产品发布回顾，叙述 2020 前采用障碍",
+      "evidenceLevel": "vendor-self-report",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mp-nal",
+      "title": "Automated X-ray & Laser Imaging System for Detecting Bone Fragments on Poultry De-boning Lines",
+      "publisher": "USDA National Agricultural Library",
+      "url": "https://www.nal.usda.gov/research-tools/food-safety-research-projects/automated-x-ray-laser-imaging-system-detecting-bone",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-research",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "项目 2007—2009",
+      "evidenceLevel": "official-research-project",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mp-sort",
+      "title": "Active Integrated Motion Equipment",
+      "publisher": "Intralox",
+      "url": "https://www.intralox.com/products/aim",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-site-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署发布年；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mp-wpl",
+      "title": "WPL9000+ Automatic Weigh Price Labeler",
+      "publisher": "JBT Marel",
+      "url": "https://jbtmarel.com/en/products/wpl9000-automatic-weigh-price-labeler/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署发布年；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mp-pattyn",
+      "title": "Meat and poultry packaging line",
+      "publisher": "Pattyn",
+      "url": "https://www.pattyn.com/en/your-industry/meat-and-poultry-packaging-line",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署发布年；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mp-prim",
+      "title": "ROBOEdge Fully Automated Sharpening System",
+      "publisher": "PRIMEdge",
+      "url": "https://www.primedge.com/products-services/sharpening-systems/roboedge/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署发布年；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mp-sanit",
+      "title": "Poultry eTool — Sanitation Worker",
+      "publisher": "OSHA",
+      "url": "https://www.osha.gov/etools/poultry-processing/tasks/sanitation-worker",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-guidance",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期工艺安全指导",
+      "evidenceLevel": "official-workflow-tool",
+      "readStatus": "indexed-extract-selected-sections-read; direct-access-unavailable"
+    },
+    {
+      "id": "automation-us-manufacturing-mp-ware",
+      "title": "Poultry eTool — Warehousing checklist",
+      "publisher": "OSHA",
+      "url": "https://www.osha.gov/etools/poultry-processing/checklists/warehousing",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-guidance",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期工作检查表",
+      "evidenceLevel": "official-workflow-tool",
+      "readStatus": "indexed-extract-selected-sections-read; direct-access-unavailable"
+    },
+    {
+      "id": "automation-us-manufacturing-m-food",
+      "title": "21 CFR 117.80 Processes and controls",
+      "publisher": "FDA / eCFR",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-117/subpart-B/section-117.80",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "standard",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-applicability-conditional",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "读取标题截至 2026-09-04",
+      "evidenceLevel": "official-regulation",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mf-comp",
+      "title": "Computerized Systems in Food Processing Industry",
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-guides/computerized-systems-food-processing-industry",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-guidance-not-site-evidence",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "旧检查指南；页面 Content current as of 2014-11-06；法规引用有历史口径",
+      "evidenceLevel": "official-historical-technical-guidance",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mf-haccp",
+      "title": "HACCP Principles & Application Guidelines",
+      "publisher": "FDA / NACMCF",
+      "url": "https://www.fda.gov/food/hazard-analysis-critical-control-point-haccp/haccp-principles-application-guidelines",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "1997-08-14在原文标为Adopted；建议单列adoptedAt，publishedAt不应无说明当作已核发布日，网页2022-02-25更新另列。",
+        "来源范围：US-guidance",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2022-02-25",
+          "note": "1997-08-14在原文标为Adopted；建议单列adoptedAt，publishedAt不应无说明当作已核发布日，网页2022-02-25更新另列。"
+        },
+        {
+          "kind": "adopted",
+          "value": "1997-08-14",
+          "note": "1997-08-14在原文标为Adopted；建议单列adoptedAt，publishedAt不应无说明当作已核发布日，网页2022-02-25更新另列。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "1997-08-14 采纳，页面 2022-02-25；方法指导不是 2026 新实验",
+      "evidenceLevel": "official-method-guidance",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mf-ster",
+      "title": "Hand Prompt Batching Station",
+      "publisher": "Sterling Systems & Controls",
+      "url": "https://sterlingcontrols.com/products-capabilities/batching-weighing/hand-prompt-batching-station/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-supplier; installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mf-fpec",
+      "title": "Product Transfer & Pumping Systems",
+      "publisher": "FPEC",
+      "url": "https://fpec.com/material-handling-equipment/product-transfer-pumping/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-supplier; installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mf-fill",
+      "title": "Bulk-FIL Automatic Tote and Drum Filler",
+      "publisher": "Federal / ProMach",
+      "url": "https://www.federalmfg.com/videos/bulk-fil-automatic-tote-and-drum-filler/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mf-rheo",
+      "title": "Food Processing Applications",
+      "publisher": "Rheonics",
+      "url": "https://rheonics.com/food-applications/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mf-blend",
+      "title": "Blendco automation on vertical forming and seal line",
+      "publisher": "NIST MEP / MSBA-MEP",
+      "url": "https://www.nist.gov/mep/successstories/2021/blendcos-automation-efforts-increase-production-capacity-100",
+      "published": "2026-01-13",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-Hattiesburg-Mississippi",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2026-01-13",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "页面 Created 2026-01-13；URL 含 2021，事件起止未明确",
+      "evidenceLevel": "official-success-story-reported-outcome",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-3022.00",
+      "title": "Meat, Poultry, and Fish Cutters and Trimmers",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-3022.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；具体任务观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-3092.00",
+      "title": "Food Batchmakers",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-3092.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；具体任务观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-6031.00",
+      "title": "Sewing Machine Operators",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-6031.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；具体任务观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-6063.00",
+      "title": "Textile Knitting and Weaving Machine Setters, Operators, and Tenders",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-6063.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；具体任务观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-7011.00",
+      "title": "Cabinetmakers and Bench Carpenters",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-7011.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；具体任务观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-ms-arm",
+      "title": "Project Highlight: Advancing Automated Robotic Sewing",
+      "publisher": "ARM Institute / Sewbo / Siemens",
+      "url": "https://arminstitute.org/news/project-robotic-sewing/",
+      "published": "2026-04-28",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-research-and-demonstration",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2026-04-28",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026 项目团队访谈；完整线部署尚为规划",
+      "evidenceLevel": "consortium-project-team-self-report",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-ms-ricoma",
+      "title": "What Do I Do When My TC/SWD/MT Machine Has a False Thread Break?",
+      "publisher": "Ricoma",
+      "url": "https://support.ricoma.com/hc/en-us/articles/37451227118867-What-Do-I-Do-When-My-TC-SWD-MT-Machine-Has-a-False-Thread-Break",
+      "published": "2025-01-16",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-support; no-named-factory",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2025-01-16",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2025 技术支持说明",
+      "evidenceLevel": "vendor-support-failure-mode",
+      "readStatus": "indexed-extract-selected-sections-read; direct-access-unavailable"
+    },
+    {
+      "id": "automation-us-manufacturing-ms-juki",
+      "title": "AG-110 Automatic Waist Elastic Jointing Machine",
+      "publisher": "JUKI",
+      "url": "https://juki.com/ag-110",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mw-draw",
+      "title": "SAFIR PRO S37 automatic warp drawing-in system",
+      "publisher": "Stäubli",
+      "url": "https://www.staubli.com/us/en/textile/products/drawing-in-machine/safir-pro-s37-automatic-warp-drawing-in-machine.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "indexed-extract-selected-sections-read; direct-access-unavailable"
+    },
+    {
+      "id": "automation-us-manufacturing-mw-itema",
+      "title": "A9500EVO airjet loom",
+      "publisher": "Itema",
+      "url": "https://www.itemagroup.com/products/a9500evo/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mw-ncsu",
+      "title": "Warp Breaks Detection in Jacquard Weaving using MEMS",
+      "publisher": "North Carolina State University / Jin Ho Lee",
+      "url": "https://repository.lib.ncsu.edu/items/d93dd4a9-ca0c-477f-950a-b76ec2d7fe8c",
+      "published": "2005-04-27",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-research",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2005-04-27",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2005 博士研究；不得描述为 2026 能力现状",
+      "evidenceLevel": "primary-academic-abstract",
+      "readStatus": "indexed-extract-selected-sections-read; direct-access-unavailable"
+    },
+    {
+      "id": "automation-us-manufacturing-mw-tru",
+      "title": "3900 Series fabric length measurement",
+      "publisher": "Trumeter",
+      "url": "https://www.trumeter.com/product/3900-series/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mt-grade",
+      "title": "Automated hardwood lumber grading utilizing a multiple sensor machine vision technology",
+      "publisher": "USDA Forest Service / Kline et al.",
+      "url": "https://research.fs.usda.gov/treesearch/6125",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-Virginia-Tech-research",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2003",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2003 红橡木板研究",
+      "evidenceLevel": "primary-academic-abstract",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mt-holz",
+      "title": "POWER-PIN 7605 drilling and doweling",
+      "publisher": "HOLZ-HER",
+      "url": "https://www.holzherusa.com/us/products/drilling-and-doweling-machines/power-pin-7605.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mt-kreg",
+      "title": "Drawer Slide Jig",
+      "publisher": "Kreg",
+      "url": "https://www.kregtool.com/shop/cabinet-solutions/cabinet-drawer-shelf-jigs/drawer-slide-jig/KHI-SLIDE.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-product-offer; installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mt-niosh",
+      "title": "HC6 Control of Wood Dust from Automated Routers",
+      "publisher": "NIOSH",
+      "url": "https://stacks.cdc.gov/view/cdc/209704",
+      "published": "1996-09-01",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-Ohio",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "1996-09-01",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "1996 技术研究",
+      "evidenceLevel": "official-field-study",
+      "readStatus": "indexed-extract-selected-sections-read; direct-access-unavailable"
+    },
+    {
+      "id": "automation-us-manufacturing-mt-sand",
+      "title": "Rapid Series Sanding",
+      "publisher": "FANUC America / Vention",
+      "url": "https://www.fanucamerica.com/robot-and-go/rapid-series-sanding",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-product-offer; installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-9196.00",
+      "title": "Paper Goods Machine Setters, Operators, and Tenders",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-9196.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；具体任务观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-5112.00",
+      "title": "Printing Press Operators",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-5112.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；具体任务观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-8093.00",
+      "title": "Petroleum Pump System Operators, Refinery Operators, and Gaugers",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-8093.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；具体任务观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-9011.00",
+      "title": "Chemical Equipment Operators and Tenders",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-9011.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；具体任务观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-4072.00",
+      "title": "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-4072.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；具体任务观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mc-fosber",
+      "title": "PaperLink splicer / roll stand",
+      "publisher": "Fosber America",
+      "url": "https://www.fosber.com/products/paperlink-splicer-roll-stand/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-product-offer; installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mc-pca",
+      "title": "Troubleshooting Box Setup Problems",
+      "publisher": "Packaging Corporation of America",
+      "url": "https://www.packagingcorp.com/resource-hub/industry-insights/troubleshooting-box-setup-problems/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-company; customer-sites-unspecified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "operator-technical-guidance",
+      "readStatus": "indexed-extract-selected-sections-read; direct-access-unavailable"
+    },
+    {
+      "id": "automation-us-manufacturing-mc-manual",
+      "title": "Boxmat PROi Machine Manual",
+      "publisher": "Miller Weldmaster / Boxmat",
+      "url": "https://www.weldmaster.com/manuals/boxmatproi",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-equipment; US-hosted-manual",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署修订日期；2026 读取",
+      "evidenceLevel": "manufacturer-manual",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mi-quality",
+      "title": "IQ-501 Intelligent Quality Optimizer",
+      "publisher": "Konica Minolta",
+      "url": "https://kmbs.konicaminolta.us/products/production-industrial-printing/digital-press/iq-501-intelligent-quality-optimizer/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-product-offer; installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mi-clean",
+      "title": "I.Mer Technology Auto Fountain Cleaner",
+      "publisher": "Amerikal",
+      "url": "https://amerikal.com/imer-tech-auto-fountain-cleaner/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-product-offer; installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-m-print",
+      "title": "Monitoring Information By Industry — Printing and Publishing",
+      "publisher": "EPA",
+      "url": "https://www.epa.gov/air-emissions-monitoring-knowledge-base/monitoring-information-industry-printing-and-publishing",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-industry-context",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "页面含旧行业背景；只取工艺描述",
+      "evidenceLevel": "official-process-description",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mr-chevron",
+      "title": "Using robots during tank inspections",
+      "publisher": "Chevron",
+      "url": "https://elsegundo.chevron.com/newsroom/2024/q3/using-robots-to-help-keep-workers-safe-during-tank-inspections",
+      "published": "2024-08-30",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-including-El-Segundo-California",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2024-08-30",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2024 已部署储罐检查叙述；2026 连续运行日志未提供",
+      "evidenceLevel": "operator-self-report",
+      "readStatus": "indexed-extract-selected-sections-read; direct-access-unavailable"
+    },
+    {
+      "id": "automation-us-manufacturing-mr-csb",
+      "title": "CSB final investigation findings on BP Texas City",
+      "publisher": "US Chemical Safety Board",
+      "url": "https://www.csb.gov/u-s-chemical-safety-board-concludes-organizational-and-safety-deficiencies-at-all-levels-of-the-bp-corporation-caused-march-2005-texas-city-disaster-that-killed-15-injured-180/",
+      "published": "2007-03-20",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-Texas-City-Texas",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2007-03-20",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2005-03-23 事故；2007-03-20 最终报告新闻发布",
+      "evidenceLevel": "independent-government-incident-investigation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mr-sample",
+      "title": "Refined Product Sampling System — Texas",
+      "publisher": "Welker",
+      "url": "https://welker.com/case-studies/refined-product-sampling-system-texas/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-Texas-terminal; not-refinery-confirmed",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取；客户未具名",
+      "evidenceLevel": "vendor-customer-story",
+      "readStatus": "indexed-extract-selected-sections-read; direct-access-unavailable"
+    },
+    {
+      "id": "automation-us-manufacturing-mr-clean",
+      "title": "Hands Free Technologies",
+      "publisher": "Clean Harbors",
+      "url": "https://www.cleanharbors.com/services/industrial-field-services/industrial-specialty-services/hands-free-technologies",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-provider; individual-site-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "service-provider-capability",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mr-meter",
+      "title": "Custody transfer metering systems for liquids",
+      "publisher": "KROHNE",
+      "url": "https://us.krohne.com/en/solutions/flow-metering-solutions/metering-systems/custody-transfer-metering-systems-liquids",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mh-azo",
+      "title": "AZO RoLog robotic weighing and dosing",
+      "publisher": "AZO",
+      "url": "https://www.azo-inc.com/machine/azo-rolog",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-ml-liberty",
+      "title": "Liberty Plastics automation",
+      "publisher": "Liberty Plastics",
+      "url": "https://libertyplastics.com/our_products/automation/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-Holland-Michigan",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "页面所属栏目首发 2023，当前内容修订日未列；2026 读取",
+      "evidenceLevel": "operator-self-report",
+      "readStatus": "indexed-extract-selected-sections-read; direct-access-unavailable"
+    },
+    {
+      "id": "automation-us-manufacturing-ml-proto",
+      "title": "Injection Molding Inspections",
+      "publisher": "Protolabs",
+      "url": "https://www.protolabs.com/services/injection-molding/quality/inspections/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-company; inspected-factory-unspecified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "operator-process-description",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-ml-osha",
+      "title": "Injection Molding Safety Tour View 1",
+      "publisher": "OSHA",
+      "url": "https://www.osha.gov/etools/machine-guarding/plastics-machinery/horizontal-injection-molding-machines/safety-tour-view-1",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-guidance",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "official-workflow-safety",
+      "readStatus": "indexed-extract-selected-sections-read; direct-access-unavailable"
+    },
+    {
+      "id": "automation-us-manufacturing-ml-box",
+      "title": "Injection Molding Automated Box Fill System",
+      "publisher": "System Technology",
+      "url": "https://systemtechnologyinc.com/equipment/injection-molding-box-fill-system/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-product-offer; installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-4051.00",
+      "title": "Metal-Refining Furnace Operators and Tenders",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-4051.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；具体任务观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-9161.00",
+      "title": "Computer Numerically Controlled Tool Operators",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-9161.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；具体任务观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-2022.00",
+      "title": "Electrical and Electronic Equipment Assemblers",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-2022.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；具体任务观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-9141.00",
+      "title": "Semiconductor Processing Technicians",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-9141.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；具体任务观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-2011.00",
+      "title": "Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-2011.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；具体任务观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-9081.00",
+      "title": "Dental Laboratory Technicians",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-9081.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；具体任务观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mm-ind",
+      "title": "Steel Alloy Melting",
+      "publisher": "Inductotherm",
+      "url": "https://inductothermgroup.com/steel-alloy-melting/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-site-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mm-poly",
+      "title": "PolySAMPLE LF/VD/VOD",
+      "publisher": "Polytec",
+      "url": "https://polytecgroup.ai/products/polysample-lf-vd-vod/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mm-slag",
+      "title": "Automatic Slag Skimmer",
+      "publisher": "Nederman MikroPul",
+      "url": "https://www.nedermanmikropul.com/en/products/euro-equip-foundry-products/automatic-slag-skimmer",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mm-ladle",
+      "title": "Automated Ladling Systems",
+      "publisher": "Industrial Innovations",
+      "url": "https://www.industrialinnovations.com/ladlers/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-vendor; client-site-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "indexed-extract-selected-sections-read; direct-access-unavailable"
+    },
+    {
+      "id": "automation-us-manufacturing-mm-clean",
+      "title": "DynaTending Furnace Tending Robot",
+      "publisher": "Dynamic Concept",
+      "url": "https://dynamicconcept.com/en/equipment/dynatending/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-aluminium-product; US-site-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mn-wst",
+      "title": "Rolling with the punches at WST Fab",
+      "publisher": "PCC / GCG",
+      "url": "https://afs.gogcg.com/blog/2022/06/24/rolling-with-the-punches-at-wst-fab",
+      "published": "2022-06-24",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-Wisconsin",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2022-06-24",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2022-06-24 旧材料；2026 持续运行未核",
+      "evidenceLevel": "integrator-self-report",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mn-ur",
+      "title": "WST Fab machine tending case",
+      "publisher": "Universal Robots",
+      "url": "https://www.universal-robots.com/case-stories/wst-fab/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-Wisconsin",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "页面无日期；同案集成商材料为 2022；不证明 2026 在运",
+      "evidenceLevel": "vendor-case-self-report",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mn-haas",
+      "title": "Mill Operator Manual — Safety",
+      "publisher": "Haas Automation",
+      "url": "https://www.haascnc.com/service/online-operator-s-manuals/mill-operator-s-manual/mill---safety.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：Haas-product-applicability; not-WST-machine-confirmation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "manufacturer-manual",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mn-versa",
+      "title": "VersaWash",
+      "publisher": "VersaBuilt",
+      "url": "https://www.versabuilt.com/versawash/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-product-offer; installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mn-tool",
+      "title": "AutoComp automated tool compensation",
+      "publisher": "Caron Engineering",
+      "url": "https://www.caroneng.com/products/autocomp/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-product-offer; installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-me-wire",
+      "title": "Automated Wire Harness Production",
+      "publisher": "Steven Douglas Corp",
+      "url": "https://sdcautomation.com/turnkey-solutions/wire-harness-assembly/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-provider; site-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product-and-unnamed-customer-development",
+      "readStatus": "indexed-extract-selected-sections-read; direct-access-unavailable"
+    },
+    {
+      "id": "automation-us-manufacturing-me-fast",
+      "title": "Automated Screwdriving & Fastening",
+      "publisher": "Visumatic",
+      "url": "https://www.visumatic.com/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-provider; installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "indexed-extract-selected-sections-read; direct-access-unavailable"
+    },
+    {
+      "id": "automation-us-manufacturing-me-test",
+      "title": "Switch, Coil & Solenoid Testing",
+      "publisher": "Adaptek Systems",
+      "url": "https://www.adapteksystems.com/switch-coil-solenoid-testing.php",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-provider; installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-msi-hand",
+      "title": "EFEM Wafer Handling Systems",
+      "publisher": "NADAtech",
+      "url": "https://nadatech.com/products-technology/efem-wafer-handling/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-provider; actual-fab-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-msi-wet",
+      "title": "Revolution+ Wet Processing",
+      "publisher": "RENA",
+      "url": "https://www.rena.com/en/products/semiconductor/semiconductor-wet-solutions-for-lab-or-production/revolution-compact-automatic-wet-processing-for-semiconductor-cleaning-and-etching",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-fab-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-msi-mask",
+      "title": "MA300 Gen3",
+      "publisher": "SUSS",
+      "url": "https://www.suss.com/en/products-solutions/imaging-solutions/mask-alignment/ma300-gen3",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-fab-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-msi-check",
+      "title": "Automated Macro Defect Wafer Inspection",
+      "publisher": "Microtronic",
+      "url": "https://www.microtronic.com/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-supplier; global-customers-unspecified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-ma-nwi",
+      "title": "Automated Assembly",
+      "publisher": "NWI Aerostructures",
+      "url": "https://nwiaero.com/capabilities/automated-assembly/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-Nashville",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "operator-capability-self-report",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-ma-ait",
+      "title": "Boeing 747 FAIT Automated Alignment System",
+      "publisher": "AIT",
+      "url": "https://www.aint.com/projects/assembly_alignment_projects/boeing_747_fait_automated_alignment_system",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-Boeing-747-fuselage",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "1999 获选后实施的历史项目；具体持续运行期未给",
+      "evidenceLevel": "integrator-historical-project",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-ma-arm",
+      "title": "Robotic Aircraft Inspection with Digital Twin Verification",
+      "publisher": "ARM Institute",
+      "url": "https://arminstitute.org/projects/dimensional-verification-aircraft/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-project-team; not-production-validation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "25-01 项目征集批次；未署发布日期；2026 读取",
+      "evidenceLevel": "consortium-research-project-announcement",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-ma-boeing",
+      "title": "777 Quality Information",
+      "publisher": "Boeing",
+      "url": "https://www.boeing.com/commercial/777/quality-information",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-Everett-Washington",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2015 引入、2019 局部更换的回顾；页面无单列发布日期",
+      "evidenceLevel": "operator-self-reported-technology-change",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-md-obrien",
+      "title": "O’Brien Dental Lab Technology",
+      "publisher": "O’Brien Dental Lab",
+      "url": "https://obriendentallab.com/technology",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-Corvallis-Oregon",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "operator-process-self-report",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-md-otec",
+      "title": "Maxi Dental finishing machines",
+      "publisher": "OTEC USA",
+      "url": "https://otecusa.com/products/disc-finishing-machines/maxi-dental/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-product-offer; installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-md-exo",
+      "title": "Auto Articulator Module",
+      "publisher": "exocad",
+      "url": "https://exocad.com/our-products/auto-articulator-module",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-chairside-software; US-lab-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "indexed-extract-selected-sections-read; direct-access-unavailable"
+    },
+    {
+      "id": "automation-us-manufacturing-md-glide",
+      "title": "Schedule a Case Pickup & Delivery",
+      "publisher": "Glidewell",
+      "url": "https://glidewelldental.com/send-case/pickup-and-delivery",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-lab-clinic-shipping-interface",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "operator-service-instructions",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-9023.00",
+      "title": "Mixing and Blending Machine Setters, Operators, and Tenders",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-9023.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；2026-09-09 读取 Tasks 全表，观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-9051.00",
+      "title": "Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-9051.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；2026-09-09 读取 Tasks 全表，观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-9111.00",
+      "title": "Packaging and Filling Machine Operators and Tenders",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-9111.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；2026-09-09 读取 Tasks 全表，观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-9195.00",
+      "title": "Molders, Shapers, and Casters, Except Metal and Plastic",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-9195.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；2026-09-09 读取 Tasks 全表，观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-9197.00",
+      "title": "Tire Builders",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-9197.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；2026-09-09 读取 Tasks 全表，观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-2092.00",
+      "title": "Team Assemblers",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-2092.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；2026-09-09 读取 Tasks 全表，观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-o51-4121.00",
+      "title": "Welders, Cutters, Solderers, and Brazers",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-4121.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-occupation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "持续更新；2026-09-09 读取 Tasks 全表，观察期未列",
+      "evidenceLevel": "official-occupation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-m-cement",
+      "title": "AP-42 11.6 Portland Cement Manufacturing",
+      "publisher": "US EPA",
+      "url": "https://www.epa.gov/system/files/documents/2025-02/c11s06_final_2-2025_0.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-process-context",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2025-02 修订章节；工艺叙述不代表全厂现状",
+      "evidenceLevel": "official-process-description",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mb-khd",
+      "title": "Romix raw meal control",
+      "publisher": "KHD",
+      "url": "https://www.khd.com/products/automation/romix/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mb-lab",
+      "title": "polab laboratory automation",
+      "publisher": "thyssenkrupp Polysius",
+      "url": "https://www.thyssenkrupp-polysius.com/en/products/automation/polab-laboratory-automation",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-site-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mb-fluke",
+      "title": "Rotary Kilns and Cement Processing",
+      "publisher": "Fluke Process Instruments",
+      "url": "https://www.flukeprocessinstruments.com/en-us/industry/construction-materials/rotary-kilns-and-cement-processing",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-site-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mb-pscl",
+      "title": "Self-Service Loading",
+      "publisher": "PSCL",
+      "url": "https://www.pscl.com/cement-distribution-management-suite/self-service-loading/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：North-America-market; named-US-site-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-m-glass",
+      "title": "AP-42 11.15 Glass Manufacturing",
+      "publisher": "US EPA",
+      "url": "https://www.epa.gov/sites/default/files/2020-10/documents/c11s15.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-process-context; not-2026-configuration",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "1986-10 工艺文本；1995 重排、图示后续更正，必须在使用处标旧资料",
+      "evidenceLevel": "official-historical-process-description",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mg-batch",
+      "title": "Rotary Glass Batchers",
+      "publisher": "Munson Machinery",
+      "url": "https://www.munsonmachinery.com/Rotary-Glass-Batchers/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-provider; installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mg-emhart",
+      "title": "Process products and robots",
+      "publisher": "Bucher Emhart Glass",
+      "url": "https://emhartglass.com/Products/Technology/Automation_Data/ProcessProducts_Robots",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-site-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mg-cullet",
+      "title": "Cullet recycling",
+      "publisher": "Glass Service",
+      "url": "https://www.glassservice.it/products/batch-plant/cullet-recycling/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：Italy-global-product; US-site-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mg-pack",
+      "title": "Glass jars integrated packaging line",
+      "publisher": "Pearson Packaging Systems",
+      "url": "https://pearsonpkg.com/integrated-systems/form-insert-pack-seal-palletize-of-glass-jars/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-provider; customer-site-undisclosed",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-integrated-system-self-report",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-m-ceramic",
+      "title": "AP-42 11.7 Ceramic Products Manufacturing",
+      "publisher": "US EPA",
+      "url": "https://www.epa.gov/system/files/documents/2025-06/c11s07_2025_final.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-process-context",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2025-05 修订章节；URL 于 2025-06 存放",
+      "evidenceLevel": "official-process-description",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mcer-robot",
+      "title": "Robotic Sagger Handling System",
+      "publisher": "Harrop Industries",
+      "url": "https://harropusa.com/featured/robotic-sagger-handling-system/index.htm",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-provider; customer-country-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "integrator-commissioning-self-report",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mcer-glaze",
+      "title": "Ceramic sanitaryware glazing and casting robots",
+      "publisher": "Gaiotto / SACMI",
+      "url": "https://www.gaiotto.com/en-US/ceramics-sanitaryware/glazing-and-casting-robotized-lines",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-sanitaryware-product; US-site-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-m-tire",
+      "title": "How Tires are Made",
+      "publisher": "Tire Industry Association",
+      "url": "https://www.tireindustry.org/resources/consumer-education/consumer-safety-overview/how-tires-are-made/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-industry-association; not-specific-plant",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "industry-process-description",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mti-hardy",
+      "title": "Batching and Blending in Tire Manufacturing",
+      "publisher": "Hardy Process Solutions",
+      "url": "https://www.hardysolutions.com/en/support/resources/case-study-batching-and-blending-in-tire-manufacturing",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-plant-claimed; customer-undisclosed",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-unnamed-US-plant-case",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mti-surface",
+      "title": "Tire Surface Analysis System / TVIS",
+      "publisher": "Poling Group",
+      "url": "https://www.polinggroup.com/options-tsas",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-plant-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mti-trim",
+      "title": "UFT111 Universal Tire Flash Trimmer",
+      "publisher": "Poling Group",
+      "url": "https://www.polinggroup.com/uft111",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-plant-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mti-clean",
+      "title": "Automated tire mold cleaning system",
+      "publisher": "Guyson Corporation of USA",
+      "url": "https://www.guyson.com/tire-mold-cleaning-system-has-3-axis-gun-motion/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-provider; installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-custom-system-self-report",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-m-pharma",
+      "title": "CGMP Questions and Answers — Production and Process Controls",
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/drugs/guidances-drugs/questions-and-answers-current-good-manufacturing-practice-regulations-production-and-process",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-regulatory-guidance",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "Q1/2 无独立日期；Q12 2011、Q16/17 2013、Q19 2015；2026 读取旧问答",
+      "evidenceLevel": "official-guidance-nonbinding-recommendations",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mpr-equip",
+      "title": "CGMP Questions and Answers — Equipment",
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/drugs/guidances-drugs/questions-and-answers-current-good-manufacturing-practice-requirements-equipment",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-regulatory-guidance",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "页面截至 2022-11-16；定位问答 2004/2005/2015，非新制造试验",
+      "evidenceLevel": "official-guidance-nonbinding-recommendations",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mpr-rheo",
+      "title": "Automated Weigh and Dispense System",
+      "publisher": "Rheo Engineering",
+      "url": "https://rheoengineering.com/products/automated-weigh-dispense-system/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-provider; named-installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mpr-rite",
+      "title": "Ritedose CDMO manufacturing",
+      "publisher": "Ritedose",
+      "url": "https://ritedose.com/cdmo/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-CDMO",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "operator-process-self-report",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mpr-clean",
+      "title": "SaniCab PC Bio-Pharm Cabinet Washers",
+      "publisher": "Sani-Matic",
+      "url": "https://sanimatic.com/sanicab-pc-cabinet-washers-bio-pharm/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-provider; installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "indexed-extract-selected-sections-read; direct-access-unavailable"
+    },
+    {
+      "id": "automation-us-manufacturing-mpr-ebr",
+      "title": "Electronic Batch Record Management",
+      "publisher": "Emerson",
+      "url": "https://www.emerson.com/en/automation-systems/operations-business-management/deltav-mes/electronic-batch-record-management",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-software; US-site-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mau-piab",
+      "title": "Automotive final assembly kitting picking",
+      "publisher": "Piab",
+      "url": "https://www.piab.com/en-us/industries/automotive/final-assembly/kitting-picking-of-parts",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-site-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-application-description",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mau-marry",
+      "title": "Chassis Marriage Systems",
+      "publisher": "Fori Automation",
+      "url": "https://foriauto.com/our-products/assembly-automation-systems/chassis-marriage-systems",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-installation-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mau-vision",
+      "title": "Comprehensive Logistics engine subassembly inspection",
+      "publisher": "Universal Robots",
+      "url": "https://www.universal-robots.com/case-stories/comprehensive-logistics/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-Youngstown-Ohio-contract-subassembly",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "页面未给案例基准日期，所述运行时长不能外推至 2026",
+      "evidenceLevel": "vendor-case-with-customer-quotes",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mau-clip",
+      "title": "Automated automotive clip insertion",
+      "publisher": "Universal Robots / Visumatic",
+      "url": "https://www.universal-robots.com/industries/automotive-manufacturing/automated-clip-insertion/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-site-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mau-nist",
+      "title": "Robotic Assembly: Challenges and Opportunities",
+      "publisher": "Miguel Saez, General Motors; hosted by NIST",
+      "url": "https://www.nist.gov/document/robotic-assembly-challenges-and-opportunities-automotive-industry",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-GM-research-context; not-site-validation",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2019-12-02 NIST workshop 的 GM 报告；网页2020上传不等于研究日期",
+      "evidenceLevel": "operator-researcher-workshop-presentation",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mau-workshop",
+      "title": "Workshop on Standards for 3D Perception Systems",
+      "publisher": "NIST",
+      "url": "https://www.nist.gov/el/intelligent-systems-division-73500/workshop-standards-3d-perception-systems-robotic-assembly",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-NIST-event",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "会议2019-12-02/03；历史页面",
+      "evidenceLevel": "official-event-record",
+      "readStatus": "indexed-extract-selected-sections-read; direct-access-unavailable"
+    },
+    {
+      "id": "automation-us-manufacturing-mau-eol",
+      "title": "Full vehicle end-of-line testing",
+      "publisher": "MTS",
+      "url": "https://www.mts.com/en/applications/automotive/full-vehicle/end-of-line",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-site-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mweld-fix",
+      "title": "Robotic GMAW Fixtures",
+      "publisher": "Stryver Manufacturing",
+      "url": "https://www.stryver.com/fixtures-tooling/robotic-gmaw-fixtures.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：US-provider; site-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "integrator-technical-product-description",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mweld-inspect",
+      "title": "3D Weld Inspection",
+      "publisher": "Bluewrist",
+      "url": "https://bluewrist.com/weld-inspection/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product; US-site-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mweld-maint",
+      "title": "13 Steps to Better Arc Welding Robot Maintenance",
+      "publisher": "FANUC America",
+      "url": "https://www.fanucamerica.com/articles/13-steps-to-better-arc-welding-robot-maintenance",
+      "published": "2019-04-26",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "原文首发2019-04-26、最后更新2026-08-25分列；不能由更新日判断每条维护建议何时修改。",
+        "来源范围：US-provider; equipment-conditional",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2019-04-26",
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2026-08-25",
+          "note": "原文首发2019-04-26、最后更新2026-08-25分列；不能由更新日判断每条维护建议何时修改。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "2019-04-26（FANUC官方应用页文章日期）；旧维护建议",
+      "evidenceLevel": "manufacturer-maintenance-guidance",
+      "readStatus": "full-selected-sections-read"
+    },
+    {
+      "id": "automation-us-manufacturing-mweld-esab",
+      "title": "WeldCloud Assembly",
+      "publisher": "ESAB",
+      "url": "https://esab.com/us/nam_en/products-solutions/product/robotics/software/weldcloud-assembly/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product-US-offer; site-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "indexed-extract-selected-sections-read; direct-access-unavailable"
+    },
+    {
+      "id": "automation-us-manufacturing-mweld-fanuc",
+      "title": "Arc Welding Robots",
+      "publisher": "FANUC America",
+      "url": "https://www.fanucamerica.com/applications/arc-welding",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只能支撑已定位的机理、条件或规范；不是全任务人工工时、回报或 2026 持续运行证明。",
+        "来源范围：global-product-US-offer; site-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署日期；2026 读取",
+      "evidenceLevel": "vendor-product",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-primero",
+      "title": "Production",
+      "publisher": "PrimeroEdge",
+      "url": "https://www.primeroedge.com/production",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：product-or-guidance; US-government-site-deployment-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "无署期产品页",
+      "evidenceLevel": "vendor-product-description",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-fwe",
+      "title": "School Foodservice Equipment",
+      "publisher": "FWE",
+      "url": "https://www.fwe.com/applications/schools",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：product-or-guidance; US-government-site-deployment-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "产品页混有旧促销，机制无明确日期",
+      "evidenceLevel": "vendor-product-description",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-smartsense",
+      "title": "K-12 Education Food Safety Monitoring",
+      "publisher": "SmartSense by Digi",
+      "url": "https://www.smartsense.co/food-service/k-12-education",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：product-or-guidance; US-government-site-deployment-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "无署期产品说明及客户宣传",
+      "evidenceLevel": "vendor-self-report",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-hobart",
+      "title": "Commercial Dishwashers for K-12",
+      "publisher": "Hobart",
+      "url": "https://warewash.hobartcorp.com/commercial-dishwashers-k12",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：product-or-guidance; US-government-site-deployment-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "无署期产品页",
+      "evidenceLevel": "vendor-product-description",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-stopwaste",
+      "title": "Fremont Unified School District Reusable Foodware Case Study",
+      "publisher": "StopWaste",
+      "url": "https://www.stopwaste.org/resource/fremont-unified-school-district-reusable-foodware-case-study",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2026-03-18",
+          "note": "依资料原日期精度记录；首发、修订、通过及公开发布各自分列。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "2023试点、页面2026更新",
+      "evidenceLevel": "public-agency-case-with-private-contractor",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-sna-pos",
+      "title": "Use of Point-of-Service Systems in School Nutrition Programs: Types, Challenges, and Employee Training",
+      "publisher": "School Nutrition Association / original researchers",
+      "url": "https://schoolnutrition.org/journal/fall-2017-use-of-point-of-service-systems-in-school-nutrition-programs-types-challenges-and-employee-training/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US-mixed-school-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2017",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2017论文，美国样本含公立、私立和特许学校",
+      "evidenceLevel": "academic-primary-survey",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-gao-at",
+      "title": "Students With Disabilities: Assistive Technology Challenges and Resources in Selected School Districts and Schools",
+      "publisher": "GAO",
+      "url": "https://www.gao.gov/products/gao-26-107506",
+      "published": "2025-12-30",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "公开日期2026-01-29，样本非全国代表性；只支持辅助技术使用和受访采用条件。",
+        "报告日期2025-12-30，公开发布2026-01-29，见官网首部日期行。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2025-12-30",
+      "dates": [
+        {
+          "kind": "released",
+          "value": "2026-01-29",
+          "note": "报告日期2025-12-30，公开发布2026-01-29，见官网首部日期行。"
+        }
+      ],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-us-government-gao-at",
+          "locator": "官网首部：Published Dec30,2025；Publicly Released Jan29,2026 · 提取文本行 6"
+        }
+      ],
+      "evidencePeriod": "报告2025-12-30，公开2026-01-29；选定学区访谈",
+      "evidenceLevel": "official-independent-review",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-g-school",
+      "title": "IDEA 300.34(c)(16) Transportation",
+      "publisher": "U.S. Department of Education",
+      "url": "https://sites.ed.gov/idea/regs/b/a/300.34/c/16",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "standard",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US-rule",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "现行网页保存条款；条款适用性仍需具体方案确认",
+      "evidenceLevel": "official-rule-text",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-kaercher",
+      "title": "Cleaning Solutions for Education",
+      "publisher": "Kärcher",
+      "url": "https://www.kaercher.com/us/commercial/industry-solutions/education.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：product-or-guidance; US-government-site-deployment-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "无署期产品页",
+      "evidenceLevel": "vendor-product-description",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-g-vaapp",
+      "title": "Safe Patient Handling",
+      "publisher": "VA Mobile",
+      "url": "https://mobile.va.gov/app/safe-patient-handling",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "无确认发布日期的应用目录",
+      "evidenceLevel": "official-tool-description",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-g-va",
+      "title": "Safe Patient Handling and Mobility",
+      "publisher": "VA",
+      "url": "https://publichealth.va.gov/PUBLICHEALTH/employeehealth/patient-handling/index.asp",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2023-07-27",
+          "note": "依资料原日期精度记录；首发、修订、通过及公开发布各自分列。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "页面2023更新，机构移动辅助框架",
+      "evidenceLevel": "official-practice-guidance",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-fda-lift",
+      "title": "Patient Lifts",
+      "publisher": "FDA",
+      "url": "https://www.fda.gov/medical-devices/general-hospital-devices-and-supplies/patient-lifts",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "2018-08-22为Content current as of更新日，网页未确认首次发表；缓存331—332行。",
+        "来源范围：US-device-guidance",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-us-government-fda-lift",
+          "locator": "Content current as of；缓存331—332行 · 提取文本行 332"
+        }
+      ],
+      "evidencePeriod": "无确认发布日期的设备指导",
+      "evidenceLevel": "official-device-guidance",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-va-robot",
+      "title": "Robotics system helps wheelchair users transfer between wheelchair and bed",
+      "publisher": "VA Research",
+      "url": "https://www.research.va.gov/news_briefs/news_brief.cfm?RecordID=258338",
+      "published": "2026-02-04",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "页面未确认正式发布日期；正文论文日期与模板更新日期分开，不据模板认定试验日期。",
+        "正文标题下02/04/2026（缓存959行/在线254行），论文及页脚日期各自保留。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2026-02-04",
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-us-government-va-robot",
+          "locator": "正文标题下02/04/2026；在线254行 · 提取文本行 959"
+        }
+      ],
+      "evidencePeriod": "2025-12-15论文；VA简报正文2026-02-04；页脚2025-04-28早于正文，不能当正文更新",
+      "evidenceLevel": "official-research-test-report",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-va-alarm",
+      "title": "Clinical Alarm Reduction",
+      "publisher": "VA National Center for Patient Safety",
+      "url": "https://www.patientsafety.va.gov/features/Clinical_Alarm_Reduction.asp",
+      "published": "2018-10-09",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2018-10-09",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2014–2018 Hunter Holmes McGuire VA项目",
+      "evidenceLevel": "historical-operator-report",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-va-uv",
+      "title": "Milwaukee VA Medical Center Zaps Germs with Robots",
+      "publisher": "VA",
+      "url": "https://www.va.gov/health/newsfeatures/2015/october/milwaukee-va-medical-center-zaps-germs-with-robots.asp",
+      "published": "2015-10-20",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2015-10-20",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2015投入，未验证2026仍在运",
+      "evidenceLevel": "historical-operator-report",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-g-road",
+      "title": "Materials and Procedures for Repair of Potholes in Asphalt-Surfaced Pavements",
+      "publisher": "FHWA",
+      "url": "https://www.fhwa.dot.gov/publications/research/infrastructure/pavements/ltpp/99168/99168.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "官方书目页明确Publication Year:1999；PDF Report Date空白不用于推日月。",
+        "来源范围：US-Canada-historical-guidance",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "1999",
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-us-government-g-road-metadata",
+          "locator": "Publication Details → Publication Year，在线36行 · 提取文本行 26"
+        }
+      ],
+      "evidencePeriod": "1999手册；美国与加拿大历史经验",
+      "evidenceLevel": "historical-official-methods",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-iowa-patch",
+      "title": "Iowa DOT self-contained pothole filling truck",
+      "publisher": "Iowa Department of Transportation",
+      "url": "https://iowadot.gov/transportation-matters/2025-07-01/iowa-dots-self-contained-one-person-pothole-machine-creates-safer-and-more-efficient-patching",
+      "published": "2025-07-01",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2025-07-01",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2025采购及当年District 4使用",
+      "evidenceLevel": "operator-reported-initial-operation",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-ahmct-patch",
+      "title": "Python Pothole Repair",
+      "publisher": "UC Davis AHMCT",
+      "url": "https://ahmct.ucdavis.edu/python-pothole-repair",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2024-05-29",
+          "note": "依资料原日期精度记录；首发、修订、通过及公开发布各自分列。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "网页更新2024；列明部署视频2013，试验阶段为旧项目描述",
+      "evidenceLevel": "historical-academic-deployment-test",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-fhwa-afad",
+      "title": "Automated Flagger Assistance Devices",
+      "publisher": "FHWA",
+      "url": "https://ops.fhwa.dot.gov/publications/fhwahop17042/index.htm",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2017",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2017出版编号；已读页面概要",
+      "evidenceLevel": "official-work-zone-guidance",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-nyc-patch",
+      "title": "Follow-up Audit Report on Pothole Repair Program",
+      "publisher": "NYC Comptroller",
+      "url": "https://comptroller.nyc.gov/reports/follow-up-audit-report-on-the-performance-of-department-of-transportations-pothole-repair-program/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2004–2005抽查记录；非2026绩效",
+      "evidenceLevel": "historical-official-audit",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-usps-equip",
+      "title": "Mail and Operational Equipment Portfolio",
+      "publisher": "USPS",
+      "url": "https://about.usps.com/what/business-services/suppliers/what-we-buy/equipment.htm",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未署期采购分类目录",
+      "evidenceLevel": "operator-equipment-portfolio",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-usps-agv",
+      "title": "Postal Service’s Use of Automated Guided Vehicles",
+      "publisher": "USPS OIG",
+      "url": "https://www.uspsoig.gov/reports/audit-reports/postal-services-use-automated-guided-vehicles",
+      "published": "2023-08-17",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2023-08-17",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2019–2023审核，使用量问题主要2022",
+      "evidenceLevel": "independent-operational-audit",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-usps-manual",
+      "title": "Manual Mail Processing Efficiency",
+      "publisher": "USPS OIG",
+      "url": "https://www.uspsoig.gov/reports/audit-reports/manual-mail-processing-efficiency",
+      "published": "2021-09-21",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2021-09-21",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2019–2021审核",
+      "evidenceLevel": "independent-operational-audit",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-usps-misroute",
+      "title": "Misrouted Mail Within the U.S. Postal Service Network",
+      "publisher": "USPS OIG",
+      "url": "https://www.uspsoig.gov/reports/audit-reports/misrouted-mail-within-us-postal-service-network",
+      "published": "2021-02-23",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2021-02-23",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2020-03至2020-09审核期",
+      "evidenceLevel": "independent-operational-audit",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-g-post",
+      "title": "Handbook M-41 Revision: Package Simplification",
+      "publisher": "USPS",
+      "url": "https://about.usps.com/postal-bulletin/2013/pb22368/html/updt_009.htm",
+      "published": "2013-07-25",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2013-07-25",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2013条款修订，未充作全本现行手册",
+      "evidenceLevel": "historical-official-procedure",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-beckhoff-water",
+      "title": "Municipal water plant modernizes with PC-based automation",
+      "publisher": "Beckhoff",
+      "url": "https://www.blog.beckhoffus.com/post/north-shore-water-commission",
+      "published": "2021-03-02",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "2021-03-02首发及Updated:Jun 23,2023分开；缓存117行。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2021-03-02",
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2023-06-23",
+          "note": "2021-03-02首发及Updated:Jun 23,2023分开；缓存117行。"
+        }
+      ],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-us-government-beckhoff-water",
+          "locator": "Updated: Jun23,2023 · 提取文本行 117"
+        }
+      ],
+      "evidencePeriod": "2015起改造，文章2021、2023更新",
+      "evidenceLevel": "vendor-case-with-named-US-operator",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-epa-supply",
+      "title": "Risk of Disruptions in the Supply of Water Treatment Chemicals",
+      "publisher": "EPA",
+      "url": "https://www.epa.gov/waterutilityresponse/risk-disruptions-supply-water-treatment-chemicals",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "报告覆盖2020至2023初供应事件",
+      "evidenceLevel": "official-sector-risk-guidance",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-g-water",
+      "title": "Overview of Drinking Water Treatment Technologies",
+      "publisher": "EPA",
+      "url": "https://www.epa.gov/sdwa/overview-drinking-water-treatment-technologies",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2026-03-23",
+          "note": "依资料原日期精度记录；首发、修订、通过及公开发布各自分列。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "页面2026更新，技术说明",
+      "evidenceLevel": "official-technology-overview",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-veolia-backwash",
+      "title": "ABW Automatic Backwash Filter",
+      "publisher": "Veolia",
+      "url": "https://www.watertechnologies.com/products/filtration/abw-automatic-backwash-filter",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：global-product-not-US-deployment",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "无署期产品页，全球应用描述",
+      "evidenceLevel": "vendor-product-description",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-epa-recycle",
+      "title": "Filter Backwash Recycling Rule Documents",
+      "publisher": "EPA",
+      "url": "https://www.epa.gov/dwreginfo/filter-backwash-recycling-rule-documents",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "standard",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "法规说明网页，未核具体厂适用性",
+      "evidenceLevel": "official-rule-explanation",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-fta-access",
+      "title": "Accessibility in Transit Bus Automation, Report 0228",
+      "publisher": "FTA",
+      "url": "https://www.transit.dot.gov/sites/fta.dot.gov/files/2022-08/FTA-Report-No-0228.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "仅核读搜索引擎索引的第18页原文片段；完整PDF访问超时，保留读取缺口。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2022-08",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2022文献和访谈总结",
+      "evidenceLevel": "official-research-review",
+      "readStatus": "indexed-extract-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-fta-risks",
+      "title": "Transit Bus Automation Risks, Barriers, & Mitigations",
+      "publisher": "FTA",
+      "url": "https://www.transit.dot.gov/sites/fta.dot.gov/files/docs/research-innovation/130786/transit-bus-automation-risks-barriers-mitigations-factsheet-07242019.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "核读官方PDF索引正文；指导性潜在风险，不当具体事故证据。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2019-02",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2016研究，2019简报",
+      "evidenceLevel": "official-prospective-risk-review",
+      "readStatus": "indexed-extract-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-fta-demos",
+      "title": "FTA-Managed Transit Bus Automation Demonstration Projects",
+      "publisher": "FTA",
+      "url": "https://www.transit.dot.gov/research-innovation/fta-managed-transit-bus-automation-demonstration-projects",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2024-08-07",
+          "note": "依资料原日期精度记录；首发、修订、通过及公开发布各自分列。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "页面2024-08-07更新，项目时期不一",
+      "evidenceLevel": "official-project-status-table",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-ct-quantum",
+      "title": "CTtransit Pilots Revolutionary Accessibility Program with Quantum",
+      "publisher": "CTtransit",
+      "url": "https://www.cttransit.com/quantum",
+      "published": "2024-12-04",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US-public-program-executor-unconfirmed",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2024-12-04",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2024试点说明，部分将来式",
+      "evidenceLevel": "operator-pilot-announcement",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-volpe-disinfect",
+      "title": "Using Fully Autonomous Robots to Disinfect Public Transit Assets",
+      "publisher": "U.S. DOT Volpe",
+      "url": "https://www.volpe.dot.gov/news/using-fully-autonomous-robots-disinfect-public-transit-assets",
+      "published": "2026-08-19",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2026-08-19",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-08报道，仍探索试点和商业可行性",
+      "evidenceLevel": "official-program-report-of-vendor-RD",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-nij-biometric",
+      "title": "Tracking Prisoners in Jail With Biometrics: An Experiment in a Navy Brig",
+      "publisher": "NIJ",
+      "url": "https://nij.ojp.gov/topics/articles/tracking-prisoners-jail-biometrics-experiment-navy-brig",
+      "published": "2006-01-01",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2006-01-01",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2006存档，试验最终评价当时尚未完成",
+      "evidenceLevel": "historical-US-military-pilot",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-g-bop",
+      "title": "Entering Prison",
+      "publisher": "Federal Bureau of Prisons",
+      "url": "https://www.bop.gov/inmates/custody_and_care/entering_prison.jsp?device=mobile",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "无署期程序概述",
+      "evidenceLevel": "official-process-description",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-bop-medical",
+      "title": "Inmate Medical Care",
+      "publisher": "Federal Bureau of Prisons",
+      "url": "https://www.bop.gov/inmates/custody_and_care/medical_care.jsp",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "无署期机构服务页",
+      "evidenceLevel": "official-process-description",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-bop-issues",
+      "title": "BOP Strategies to Identify, Communicate, and Remedy Operational Issues",
+      "publisher": "DOJ OIG",
+      "url": "https://oig.justice.gov/news/doj-oig-releases-report-bops-strategies-identify-communicate-and-remedy-operational-issues",
+      "published": "2023-05-04",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "引用报告概要及明确时期；完整发布日期待确认，非泛指所有羁押任务自动化障碍。",
+        "当前引证新闻稿Posted Date:May4,2023（缓存257行/在线24行），不混用关联报告5月3日。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2023-05-04",
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-us-government-bop-issues",
+          "locator": "Posted Date；在线24行 · 提取文本行 257"
+        }
+      ],
+      "evidencePeriod": "2021–2022机构问题，2023报告",
+      "evidenceLevel": "official-independent-review",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-dla-wms",
+      "title": "Warehouse Management System",
+      "publisher": "Defense Logistics Agency",
+      "url": "https://www.dla.mil/Info/Warehouse-Management-System/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US-and-overseas-network-context",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "滚动页面；明确已读迁移流程、非统一全网时点",
+      "evidenceLevel": "official-implementation-description",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-dla-modern",
+      "title": "Warehouse Modernization: Efficiency and resilience through innovation",
+      "publisher": "Defense Logistics Agency",
+      "url": "https://www.dla.mil/About-DLA/News/News-Article-View/Article/4183499/warehouse-modernization-efficiency-and-resilience-through-innovation/",
+      "published": "2025-04-01",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "仅用美国宾夕法尼亚现场与机构工作流，海外设备不计美国案例；具体任务执行者和一般物资范围仍待确认。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2025-04-01",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2025报道，Susquehanna设备2022起及2025现场",
+      "evidenceLevel": "operator-reported-deployment-and-plans",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-lafd-rs3",
+      "title": "LAFD Debuts the RS3",
+      "publisher": "Los Angeles Fire Department",
+      "url": "https://lafd.org/news/lafd-debuts-rs3-first-robotic-firefighting-vehicle-united-states",
+      "published": "2020-10-13",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2020-10-13",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2020-10首次服务及商用建筑火灾",
+      "evidenceLevel": "historical-operator-first-use",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-niosh-scba",
+      "title": "Securing an SCBA after Adverse Conditions, Serious Injury, or Line-of-Duty Death",
+      "publisher": "NIOSH",
+      "url": "https://www.cdc.gov/niosh/publications/numbered/2026-105.html",
+      "published": "2026-07-13",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2026-07-13",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026指导；异常后留存证据流程",
+      "evidenceLevel": "official-safety-guidance",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-niosh-gear",
+      "title": "Protecting Firefighters from Contaminated Gear",
+      "publisher": "NIOSH",
+      "url": "https://www.cdc.gov/niosh/bulletin/2026/contaminated-ff-gear.html",
+      "published": "2026-03-16",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2026-03-16",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026说明，引用早期研究",
+      "evidenceLevel": "official-research-guidance",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-niosh-building",
+      "title": "Partnering to Reduce the Risk to Firefighters Responding to High-risk Buildings",
+      "publisher": "NIOSH",
+      "url": "https://www.cdc.gov/niosh/bulletin/2024/high-risk-buildings.html",
+      "published": "2024-06-17",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2024-06-17",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2024伙伴协作指导",
+      "evidenceLevel": "official-risk-management-guidance",
+      "readStatus": "web-open-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-hale-pump",
+      "title": "Integrated Waterflow Solutions",
+      "publisher": "Hale / IDEX Fire & Safety",
+      "url": "https://www.haleproducts.com/solutions-integrated-waterflow",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：product-or-guidance; US-government-site-deployment-unverified",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "无署期SAM产品说明",
+      "evidenceLevel": "vendor-product-description",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-usfa-cad",
+      "title": "CAD Systems and Autopopulated Fields",
+      "publisher": "U.S. Fire Administration",
+      "url": "https://www.usfa.fema.gov/nfirs/coding-help/cad/",
+      "published": "2023-06-07",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "publishedLabel": "2023-06-07",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2023旧NFIRS指导",
+      "evidenceLevel": "historical-official-workflow-guidance",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-neris",
+      "title": "NFIRS Sunset",
+      "publisher": "U.S. Fire Administration",
+      "url": "https://www.usfa.fema.gov/nfirs/sunset/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "限于所定位动作、指导或事件；不证明整个任务自动完成、当前持续在用或完整现金回报。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2025-04-20",
+          "note": "依资料原日期精度记录；首发、修订、通过及公开发布各自分列。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "2025审阅的2026迁移通知；当前页面仍含将来式",
+      "evidenceLevel": "official-transition-notice",
+      "readStatus": "official-or-publisher-HTTP-text-selected-sections-read"
+    },
+    {
+      "id": "automation-us-government-o25-9042.00",
+      "title": "O*NET Detailed Report 25-9042.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/25-9042.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明政府自营场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
+    },
+    {
+      "id": "automation-us-government-o31-1131.00",
+      "title": "O*NET Detailed Report 31-1131.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/31-1131.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明政府自营场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
+    },
+    {
+      "id": "automation-us-government-o33-2011.00",
+      "title": "O*NET Detailed Report 33-2011.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/33-2011.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明政府自营场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
+    },
+    {
+      "id": "automation-us-government-o33-3012.00",
+      "title": "O*NET Detailed Report 33-3012.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/33-3012.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明政府自营场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
+    },
+    {
+      "id": "automation-us-government-o35-2012.00",
+      "title": "O*NET Detailed Report 35-2012.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/35-2012.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明政府自营场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
+    },
+    {
+      "id": "automation-us-government-o43-5052.00",
+      "title": "O*NET Detailed Report 43-5052.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/43-5052.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明政府自营场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
+    },
+    {
+      "id": "automation-us-government-o43-5053.00",
+      "title": "O*NET Detailed Report 43-5053.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/43-5053.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明政府自营场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
+    },
+    {
+      "id": "automation-us-government-o47-4051.00",
+      "title": "O*NET Detailed Report 47-4051.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/47-4051.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明政府自营场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
+    },
+    {
+      "id": "automation-us-government-o51-8031.00",
+      "title": "O*NET Detailed Report 51-8031.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/51-8031.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明政府自营场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
+    },
+    {
+      "id": "automation-us-government-o53-3052.00",
+      "title": "O*NET Detailed Report 53-3052.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/53-3052.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明政府自营场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
+    },
+    {
+      "id": "automation-us-government-o53-7065.00",
+      "title": "O*NET Detailed Report 53-7065.00",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/53-7065.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "职业范围含不同执行者，不能证明政府自营场景、现场验收、劳动时长或自动化比例。",
+        "来源范围：US-occupation-all-ownership",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09网页快照；各职业更新时点未单独确认",
+      "evidenceLevel": "official-occupation-task-description",
+      "readStatus": "HTTP-full-Tasks-section-read"
+    },
+    {
+      "id": "automation-us-government-g-road-metadata",
+      "title": "FHWA publication details: FHWA-RD-99-168",
+      "publisher": "Federal Highway Administration",
+      "url": "https://www.fhwa.dot.gov/pavement/pub_details.cfm?id=139",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "仅支持关联报告出版年，不给报告补造月日。",
+        "来源范围：US",
+        "国家标签表示美国任务研究关联；相邻机构、海外技术或厂商功能不等于美国本任务当前现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2022-04-11",
+          "note": "依资料原日期精度记录；首发、修订、通过及公开发布各自分列。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "1999出版年书目信息；书目页更新2022-04-11",
+      "evidenceLevel": "official-bibliographic-metadata",
+      "readStatus": "official-page-selected-sections-read"
     }
   ],
   "industries": [
@@ -22214,10 +26180,8 @@
         },
         {
           "phase": "operation",
-          "taskIds": [
-            "us-mfg-machining-tending-001"
-          ],
-          "gap": null
+          "taskIds": [],
+          "gap": "本阶段暂无冻结任务；独立复核调整后仍须核查适用性与遗漏。"
         },
         {
           "phase": "handoff",

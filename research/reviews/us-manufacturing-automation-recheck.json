@@ -1,0 +1,25 @@
+{
+  "country": "US",
+  "industryId": "us-manufacturing",
+  "reviewedAt": "2026-09-09",
+  "inputSha256": "7f53d04ee5ac6f01387dbdbbac719a031fb376c9ffd1c7fdf571f98fcb68fbf5",
+  "reviewFile": "research/reviews/us-manufacturing-automation-decisions.json",
+  "reviewSha256": "e4d8e5ad5ec740e5bed1cc6a58307f8726d509a6a2733d7b4849983645b2f0ab",
+  "status": "specified-corrections-structurally-verified",
+  "checks": {
+    "taskIdsAndOriginalDefinitionPreserved": true,
+    "allIndependentBoundariesApplied": true,
+    "noNewAtomicTasks": true,
+    "allCashParametersAndResultsNull": true,
+    "fdaAnswerLocationsApplied": true,
+    "hypotheticalCartonFailuresSeparated": true,
+    "publishedAndUpdatedSeparated": true,
+    "allUnfrozen": true,
+    "correctedPdfLineConventionAndLfEndpointsVerified": true
+  },
+  "limitations": [
+    "原独立审校由另一研究代理完成；本次按19个指定源定位/元数据修补及260项裁决复检应用，未重复全部源文或520次检索。",
+    "原库存任务定义、187项拆分的独立输出/验收/核算缺口仍未关闭。"
+  ],
+  "canFreeze": false
+}

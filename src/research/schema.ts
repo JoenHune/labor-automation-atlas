@@ -23,7 +23,7 @@ export const SourceSchema = z.object({
   sha256: z.string().regex(/^[a-f0-9]{64}$/).optional(),
   limitations: z.array(nonempty),
   publishedLabel:nonempty.optional(),
-  dates:z.array(z.object({kind:z.enum(['updated','authored','effective','displayed','url-only','document-version']),value:z.string().regex(/^\d{4}(?:-\d{2}(?:-\d{2})?)?$/),note:nonempty})).optional(),
+  dates:z.array(z.object({kind:z.enum(['updated','authored','effective','displayed','url-only','document-version','released','adopted']),value:z.string().regex(/^\d{4}(?:-\d{2}(?:-\d{2})?)?$/),note:nonempty})).optional(),
   dateEvidence:z.array(EvidenceRefSchema).optional(),
   evidencePeriod:nonempty.optional(),
   evidenceLevel:nonempty.optional(),

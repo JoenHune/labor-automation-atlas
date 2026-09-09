@@ -1,0 +1,267 @@
+{
+  "revisionId": "US-MFG-20260909-r2",
+  "reviewFile": "research/reviews/us-manufacturing-automation-decisions.json",
+  "reviewSha256": "e4d8e5ad5ec740e5bed1cc6a58307f8726d509a6a2733d7b4849983645b2f0ab",
+  "reviewInputSha256": "1dc867c0cdf58b5afc59431705a56c2af4af390363c6ef6e75f9a59616bb7fe3",
+  "afterSha256": "7f53d04ee5ac6f01387dbdbbac719a031fb376c9ffd1c7fdf571f98fcb68fbf5",
+  "sourceCorrections": [
+    {
+      "sourceId": "MP-WARE",
+      "locatorId": "vehicle",
+      "revision": {
+        "id": "vehicle",
+        "old": 91,
+        "new": [
+          63,
+          71,
+          91
+        ]
+      }
+    },
+    {
+      "sourceId": "MF-HACCP",
+      "locatorId": "correct",
+      "revision": {
+        "id": "correct",
+        "old": 460,
+        "new": 468
+      }
+    },
+    {
+      "sourceId": "MF-HACCP",
+      "locatorId": "verify",
+      "revision": {
+        "id": "verify",
+        "old": 462,
+        "new": 471
+      }
+    },
+    {
+      "sourceId": "MC-MANUAL",
+      "locatorId": "safe",
+      "revision": {
+        "id": "safe",
+        "line": 253,
+        "section": "安全规则（3.0 Technical Data之前；不是8.0 Maintenance）"
+      }
+    },
+    {
+      "sourceId": "MR-METER",
+      "locatorId": "meter",
+      "revision": {
+        "id": "meter",
+        "old": 24,
+        "new": [
+          24,
+          30
+        ]
+      }
+    },
+    {
+      "sourceId": "ME-FAST",
+      "locatorId": "screw",
+      "revision": {
+        "id": "screw",
+        "old": 18,
+        "new": [
+          14,
+          22
+        ]
+      }
+    },
+    {
+      "sourceId": "MA-NWI",
+      "locatorId": "rivet",
+      "revision": {
+        "id": "rivet",
+        "old": 160,
+        "new": [
+          123,
+          146,
+          160
+        ]
+      }
+    },
+    {
+      "sourceId": "MD-OTEC",
+      "locatorId": "finish",
+      "revision": {
+        "id": "finish",
+        "old": 603,
+        "new": [
+          603,
+          629,
+          632
+        ]
+      }
+    },
+    {
+      "sourceId": "M-CEMENT",
+      "locatorId": "recycle",
+      "revision": {
+        "id": "recycle",
+        "old": 210,
+        "new": [
+          263,
+          269
+        ],
+        "section": "11.6.2 p.11.6-7"
+      }
+    },
+    {
+      "sourceId": "MG-CULLET",
+      "locatorId": "return",
+      "revision": {
+        "id": "return",
+        "old": 791,
+        "new": [
+          769,
+          797
+        ]
+      }
+    },
+    {
+      "sourceId": "M-CERAMIC",
+      "locatorId": "form",
+      "revision": {
+        "id": "form",
+        "old": 175,
+        "new": [
+          163,
+          191
+        ]
+      }
+    },
+    {
+      "sourceId": "M-PHARMA",
+      "locatorId": "sample",
+      "revision": {
+        "id": "sample",
+        "old": 255,
+        "new": 306,
+        "section": "Q2答案"
+      }
+    },
+    {
+      "sourceId": "M-PHARMA",
+      "locatorId": "control",
+      "revision": {
+        "id": "control",
+        "old": 330,
+        "new": [
+          393,
+          407
+        ],
+        "section": "Q12，主要支持400—407"
+      }
+    },
+    {
+      "sourceId": "M-PHARMA",
+      "locatorId": "reject",
+      "revision": {
+        "id": "reject",
+        "old": 327,
+        "new": [
+          485,
+          487
+        ],
+        "section": "Q19答案"
+      }
+    },
+    {
+      "sourceId": "MPR-EQUIP",
+      "locatorId": "cal",
+      "revision": {
+        "id": "cal",
+        "old": 255,
+        "new": 306,
+        "section": "Q1答案；2004-08-04"
+      }
+    },
+    {
+      "sourceId": "MPR-CLEAN",
+      "locatorId": "clean",
+      "revision": {
+        "id": "clean",
+        "webLines": [
+          238,
+          239,
+          262
+        ]
+      }
+    },
+    {
+      "sourceId": "MPR-EBR",
+      "locatorId": "record",
+      "revision": {
+        "id": "record",
+        "old": 288,
+        "new": [
+          268,
+          272
+        ]
+      }
+    },
+    {
+      "sourceId": "MAU-WORKSHOP",
+      "locatorId": "date",
+      "revision": {
+        "id": "date",
+        "webLines": [
+          131,
+          136,
+          161
+        ]
+      }
+    },
+    {
+      "sourceId": "MWELD-MAINT",
+      "field": "revisedAt",
+      "value": "2026-08-25"
+    }
+  ],
+  "taskCount": 260,
+  "sourceCount": 131,
+  "definitionDowngrades": 33,
+  "mechanismStatusCorrections": 21,
+  "approvedNewAtomicTasks": 0,
+  "quoteHandling": "短引文保留于私有原始稿；公开稿保留原文章节/行号与有边界的释义。",
+  "cashFlowChange": "usable_incremental_capacity明确定义包含下游有效产能约束，所有参数仍为空。",
+  "canFreeze": false,
+  "rawSearchesRerun": false,
+  "locatorConventionFollowup": {
+    "inputSha256": "e4cde8454c98969d119d502557f8c18f66312950c68a29d13f3e57db2f4e92c7",
+    "afterSha256": "7f53d04ee5ac6f01387dbdbbac719a031fb376c9ffd1c7fdf571f98fcb68fbf5",
+    "basis": "独立审校代理确认采用Python splitlines；主代理逐端点匹配同一缓存LF物理行。",
+    "corrections": [
+      {
+        "sourceId": "M-CEMENT",
+        "locatorId": "recycle",
+        "lineConvention": "one-based-python-str-splitlines-form-feed-counted",
+        "normalizedRange": [
+          263,
+          269
+        ],
+        "lfPhysicalLineRange": [
+          257,
+          263
+        ],
+        "textMatched": true
+      },
+      {
+        "sourceId": "M-CERAMIC",
+        "locatorId": "form",
+        "lineConvention": "one-based-python-str-splitlines-form-feed-counted",
+        "normalizedRange": [
+          163,
+          191
+        ],
+        "lfPhysicalLineRange": [
+          159,
+          186
+        ],
+        "textMatched": true
+      }
+    ]
+  }
+}

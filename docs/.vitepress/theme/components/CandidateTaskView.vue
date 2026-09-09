@@ -4,7 +4,7 @@ import {withBase} from 'vitepress'
 import type {TaskPage} from '../../../../src/research/site'
 import {taskStatus,phaseNames} from '../../../../src/research/site'
 import EvidenceList from './EvidenceList.vue'
-import {evidenceLevelNames} from '../../../../src/research/evidence-labels'
+import {evidenceLevelNames,evidenceDateNames} from '../../../../src/research/evidence-labels'
 const props=defineProps<{record:TaskPage}>()
 const t=computed(()=>props.record.task)
 const stages={'not-applicable':'背景／规范','vendor-report':'厂商自报',laboratory:'实验室',pilot:'试点','commercial-operation':'持续商业运行',unknown:'阶段不明'}
@@ -13,7 +13,7 @@ const barrierNames={technical:'技术条件',economic:'经济参数',adoption:'�
 const publicResearch=computed(()=>t.value.dossier?.publicResearch as Record<string,any>|undefined)
 const claim=(id:string)=>props.record.claims.find(c=>c.id===id)
 const conclusionEvidence=computed(()=>[...new Map(t.value.conclusionIds.flatMap(id=>claim(id)?.evidence??[]).map(r=>[r.sourceId+'|'+r.locator,r])).values()])
-const researchDates=computed(()=>props.record.sources.filter(s=>s.evidenceLevel).map(s=>({id:s.id,title:s.title,period:(s.evidencePeriod??'未注明资料时期')+' · 发布 '+(s.publishedLabel??s.published??'日期未确认')})))
+const researchDates=computed(()=>props.record.sources.filter(s=>s.evidenceLevel).map(s=>({id:s.id,title:s.title,period:[s.evidencePeriod??'未注明资料时期','发布日期：'+(s.publishedLabel??s.published??'未确认'),...(s.dates??[]).map(d=>evidenceDateNames[d.kind]+'：'+d.value)].join(' · ')})))
 </script>
 <template>
  <article class="task-view" :data-country="t.country">
@@ -21,7 +21,7 @@ const researchDates=computed(()=>props.record.sources.filter(s=>s.evidenceLevel)
   <p class="eyebrow">{{record.scenario.title}} · {{phaseNames[t.phase]}}</p>
   <h1 :data-content-id="t.id+'-title'" tabindex="0">{{t.title}}</h1>
   <section class="task-conclusion" :data-content-id="t.id+'-conclusion'" tabindex="0"><span class="tag">{{taskStatus[t.researchStatus]}}</span><p>{{t.summary}}</p><p v-if="t.researchStatus==='not-started'" class="scope-note">本页是任务发现记录。尚未完成自动化及反例检索，不能据此判断方案不可行或没有商业案例。</p><template v-if="publicResearch"><p class="scope-note">已执行本定义的正向与反向查询并完成原稿独立审校；任务拆分和双路径核查仍在继续。以下结论保留适用条件，当前未冻结。</p><ul class="historical-note"><li v-for="s in researchDates">{{s.title}}：{{s.period}}</li></ul><EvidenceList v-if="conclusionEvidence.length" :items="conclusionEvidence"/></template></section>
-  <section v-if="publicResearch?.definitionReview?.children?.length" class="work-note" :data-content-id="t.id+'-definition-review'" tabindex="0"><h2>任务边界正在修订</h2><p>{{publicResearch.definitionReview.note}}</p><p>拟议拆分如下；这些子项尚未分别完成证据核查，不计为新增已研究任务。</p><ul><li v-for="title in publicResearch.definitionReview.children">{{title}}</li></ul></section>
+  <section v-if="publicResearch?.definitionReview" class="work-note" :data-content-id="t.id+'-definition-review'" tabindex="0"><h2>任务边界与独立复核</h2><p>{{publicResearch.definitionReview.note}}</p><p v-if="publicResearch.definitionReview.children?.length">拟议拆分如下；这些子项尚未分别完成证据核查，不计为新增已研究任务。</p><ul><li v-for="title in publicResearch.definitionReview.children">{{title}}</li></ul></section>
   <section :data-content-id="t.id+'-boundary'" tabindex="0"><h2>执行范围与验收定义</h2><p>{{t.boundary}}</p><p class="scope-note">{{t.discovery?.acceptanceStatus}}</p><p><strong>输入：</strong>{{t.inputs.join('；')}}</p><p><strong>输出：</strong>{{t.outputs.join('；')}}</p><ul><li v-for="a in t.acceptance">{{a}}</li></ul></section>
   <section :data-content-id="t.id+'-discovery'" tabindex="0"><h2>任务发现依据</h2><p class="scope-note">原始编号 {{t.discovery?.originalId}}。来源支持程度和拆分建议仍可能在独立审查中修订；职业描述不证明实际工时或人工占比。</p><details open><summary>流程规范路径</summary><EvidenceList v-if="t.workflowEvidence.length" :items="t.workflowEvidence"/><p v-else>尚未取得绑定到本任务的流程依据。</p></details><details open><summary>职业职责路径</summary><EvidenceList v-if="t.occupationEvidence.length" :items="t.occupationEvidence"/><p v-else>尚未取得绑定到本任务的职业职责依据。</p></details><div v-if="t.discovery?.sourceLimitations.length" class="historical-note"><strong>使用资料的年份与适用限制</strong><ul><li v-for="text in t.discovery.sourceLimitations">{{text}}</li></ul></div></section>
   <section :data-content-id="t.id+'-alternatives'" tabindex="0"><h2>替代方案与残留人工</h2><p v-if="!t.alternatives.length">尚未完成传统机械、专机、机器人、辅助工具与必要数字流程的逐项比较。残留人工及部署阶段仍缺证据。</p><article v-for="(a,i) in t.alternatives" :key="i" :data-content-id="t.id+'-alternative-'+i" tabindex="0"><h3>{{a.description}}</h3><template v-for="id in a.claimIds"><p v-if="claim(id)"><span class="tag">{{kinds[claim(id)!.kind]}}</span> {{claim(id)!.text}}</p><EvidenceList v-if="claim(id)?.evidence.length" :items="claim(id)!.evidence"/></template><p>条件：{{a.conditions.join('；')}}</p><p>残留人工与未证实替代范围：{{a.remainingLabor.join('；')}}</p></article><details v-if="publicResearch?.deploymentEvidence?.length"><summary>部署阶段与证据范围</summary><ul><li v-for="d in publicResearch.deploymentEvidence">{{evidenceLevelNames[d.level]??d.level}}：{{d.scope}}。未确认完整任务持续商业运行。<EvidenceList :items="[{sourceId:d.sourceId,locator:d.locator}]"/></li></ul></details></section>
