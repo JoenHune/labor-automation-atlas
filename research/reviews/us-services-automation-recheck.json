@@ -1,0 +1,22 @@
+{
+  "country": "US",
+  "reviewedAt": "2026-09-09",
+  "inputFile": "research/automation/us-services.json",
+  "inputSha256": "390c34fc2929a1675622a8d68f18aa5395e5f234f3728f4ba1c83463dcd366c0",
+  "reviewFile": "research/reviews/us-services-automation-decisions.json",
+  "reviewSha256": "a5a8825c7172cef1c94e952a7f5d5a27f519920f25f9c5d7d0aca7086c00fda0",
+  "status": "specified-corrections-verified",
+  "checkedTasks": 372,
+  "canFreeze": false,
+  "checks": [
+    "所有经济框架包含增量能源水费及适用保险合规培训，参数与回报仍为空",
+    "多页缓存导航候选已替换为实际正文；IDEXX/NGS的多段支持位置已明确",
+    "BADGER空挂钩扫描与产品定价能力分开，任务09-B按新定位及限定范围更新",
+    "质控标记与停机/复测动作按配置描述，不把所有异常解释为硬件报警",
+    "来源时期、原始查询、国家与未冻结状态保留"
+  ],
+  "limitations": [
+    "本次复检只核对已裁决修订，未重跑所有搜索或取得现场资料",
+    "源文核读、PDF页面核对和日期差异详见独立初审记录"
+  ]
+}

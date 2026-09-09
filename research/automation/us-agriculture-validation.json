@@ -1,0 +1,53 @@
+{
+  "reviewedAt": "2026-09-09",
+  "kind": "repair-self-check-not-independent-recheck",
+  "checks": {
+    "idsPreserved": true,
+    "originalInventoryUnchanged": true,
+    "all182DecisionsApplied": true,
+    "activeSourceLocatorErrors": [],
+    "adoptionHypothesesExplicitAndNoUnlocatedSourceIds": true,
+    "allTaskROINull": true,
+    "noFreeze": true,
+    "workingCapitalExcludedFromDeploymentInvestment": true
+  },
+  "statistics": {
+    "taskCount": 182,
+    "scenarioCount": 14,
+    "positiveTaskQueries": 182,
+    "negativeTaskQueries": 182,
+    "sourceCount": 68,
+    "splitRecommendedCount": 55,
+    "phaseChangeRecommendedCount": 2,
+    "allNumericalTaskROIResults": 0,
+    "researchStatusCounts": {
+      "searched-evidence-insufficient-for-full-task": 102,
+      "searched-bounded-evidence-and-gaps": 80
+    },
+    "recommendedProposedTasks": 75,
+    "negativeEvidenceClassificationCounts": {
+      "no-confirmed-task-specific-negative-evidence": 95,
+      "bounded-operating-condition-or-trial-evidence-not-confirmed-exit-case": 65,
+      "shared-context-not-task-specific-failure": 10,
+      "stage-or-scope-gap-not-observed-negative-fact": 10,
+      "european-cleaning-study-background-not-US-case": 1,
+      "US-permitted-on-demand-retrieval-trial-limitation-not-whole-deck-task-failure": 1
+    },
+    "completeAdoptionFailureOrExitCasesIndependentlyVerified": 0
+  },
+  "beforeSha256": "043ae94f13c5bf5befdef17851a29c7790aff0220d536a18d716db7a9a9360fc",
+  "afterSha256": "a1a7fbcbe31e32588fd4b2098ea6c347c6d2a396c382d5d0bb346733affab0d7",
+  "secondFieldRepair": {
+    "date": "2026-09-09",
+    "taskIds": [
+      "US-AGR-VEG-006",
+      "US-AGR-TMR-002",
+      "US-AGR-FOREST-007",
+      "US-AGR-MILK-010",
+      "US-AGR-LONGLINE-004"
+    ],
+    "technicalHypothesisWithNoFactRefs": true,
+    "longlineNoPositiveMechanismClaim": true,
+    "afterSha256": "99c45dc86a0c71892f5eed2bec0a170403a236a85f930998666485cd8d957c97"
+  }
+}

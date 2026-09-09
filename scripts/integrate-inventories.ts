@@ -17,11 +17,17 @@ for(const name of ['cn-core','cn-services','us-core','us-services']) {
  const sourceMap=new Map<string,Raw>(raw.sources.map((s:Raw)=>[s.id,s]))
  const sourceId=(id:string)=>'inventory-'+name+'-'+id.toLowerCase()
  const occupationIds=new Set<string>(raw.industries.flatMap((i:Raw)=>i.scenarios.flatMap((s:Raw)=>s.occupationSourceIds??[])))
- const sourceLimitations=(s:Raw)=>[...list(s.limitations),...list(s.version),...list(s.accessLimitation),...list(s.supportRole)]
- for(const s of raw.sources) data.sources.push({
+ const sourceLimitations=(s:Raw)=>[...list(s.limitations),...list(s.version),...list(s.versionNote),...list(s.accessLimitation),...list(s.supportRole),...(s.documentDate?['文件成文／版本时间：'+s.documentDate+'；与网页发布日期分开。']:[])]
+ for(const s of raw.sources) {
+  const publicationId=s.landingUrl&&s.landingUrl!==s.url?sourceId(s.id)+'-publication':null
+  if(publicationId)data.sources.push({id:publicationId,title:s.title+' · 公开页面',publisher:s.publisher??'原清单未明确发布者',url:s.landingUrl,published:date(s.publishedAt),retrieved:date(s.retrievedAt)??'2026-09-09',country,kind:'other',limitations:['仅用于核对文件公开时间；不能证明投产、持续运行或完整流程。']})
+  data.sources.push({
   id:sourceId(s.id),title:s.title,publisher:s.publisher??'原清单未明确发布者',url:s.url,published:date(s.publishedAt),retrieved:date(s.retrievedAt)??'2026-09-09',country,
   kind:occupationIds.has(s.id)?'occupation':'other',limitations:sourceLimitations(s),
+  dates:s.documentDate&&/^\d{4}(?:-\d{2}(?:-\d{2})?)?$/.test(s.documentDate)?[{kind:'document-version',value:s.documentDate,note:'按资料给出的精度保留，不补造月或日。'}]:[],
+  dateEvidence:publicationId&&s.publishedAt?[{sourceId:publicationId,locator:'文件公示／公开页面的日期标记；报告成文时间另列。'}]:[],
  })
+ }
  const refs=(items:Raw[])=>items.map(r=>{
   const source=sourceMap.get(r.sourceId);if(!source)throw new Error(file+': source missing '+r.sourceId)
   const location=(source.locators??[]).find((l:Raw)=>l.id===r.locatorId)

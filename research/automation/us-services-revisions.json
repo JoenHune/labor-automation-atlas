@@ -1,0 +1,23 @@
+{
+  "revisionId": "US-SVC-20260909-r2",
+  "reviewFile": "research/reviews/us-services-automation-decisions.json",
+  "reviewSha256": "a5a8825c7172cef1c94e952a7f5d5a27f519920f25f9c5d7d0aca7086c00fda0",
+  "reviewInputSha256": "99d687bc668332971e59e7d8972e3e6e2be39d25c1d2041b3514329640aa95c1",
+  "afterSha256": "390c34fc2929a1675622a8d68f18aa5395e5f234f3728f4ba1c83463dcd366c0",
+  "changes": [
+    "US-SVC-QC-WORDING",
+    "US-SVC-CF-UTILITIES",
+    "US-SVC-LOC-COMPOSITE",
+    "US-SVC-LOC-IDEXX",
+    "US-SVC-LOC-NGS",
+    "US-SVC-BADGER-SCOPE",
+    "US-SVC-DATE-PRECISION",
+    "US-SVC-NEGATIVE-TYPE",
+    "US-SVC-ATOMIC-SCOPE",
+    "US-SVC-MODEL-CC1"
+  ],
+  "rawSearchesRerun": false,
+  "taskCount": 372,
+  "sourceCount": 46,
+  "canFreeze": false
+}

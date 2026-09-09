@@ -1,0 +1,33 @@
+{
+  "reviewer": "root follow-up field review",
+  "reviewedAt": "2026-09-09",
+  "inputFile": "research/automation/us-agriculture.json",
+  "inputSha256": "99c45dc86a0c71892f5eed2bec0a170403a236a85f930998666485cd8d957c97",
+  "previousIndependentReview": "research/reviews/us-agriculture-automation-recheck.json",
+  "status": "specified-field-corrections-passed",
+  "method": "将五项待修字段与前次独立复检裁决逐项比较；本次不声称重新核读全部农业原文。",
+  "taskIds": [
+    "US-AGR-VEG-006",
+    "US-AGR-TMR-002",
+    "US-AGR-FOREST-007",
+    "US-AGR-MILK-010",
+    "US-AGR-LONGLINE-004"
+  ],
+  "findings": [
+    "五项技术栏已改为独立待验证条件，不再将正向机制或缺证据作为已证实技术障碍。",
+    "MILK-010正向脱杯机制保留在方案和正例范围，不再放入技术障碍。",
+    "LONGLINE-004布放候选无任务机制证据；方案阶段、引用及正例状态同步修订，不从动力起线推导动力布放。"
+  ],
+  "isFrozen": false,
+  "remaining": "前次独立审校所列任务拆分、现场参数、无法读取原文及现行运行情况缺口仍有效。",
+  "additionalSourceReview": {
+    "sourceId": "E-GAPNEWS",
+    "url": "https://www.ams.usda.gov/services/auditing/gap-ghp/harmonized",
+    "reviewedAt": "2026-09-09",
+    "status": "direct-primary-page-read",
+    "locator": "Program News第一段（本次正文L131）；Harmonized GAP Standards and Checklists第一段（L134）",
+    "quote": "effective July 3, 2025",
+    "verdict": "版本3.1在2025-07-03发布生效的公告、2025-07-01标准与清单建立日期均匹配；二者必须分开。页面本身首次发布日期仍未知。",
+    "scope": "只独立核对日期公告，不声称核查全部标准。"
+  }
+}

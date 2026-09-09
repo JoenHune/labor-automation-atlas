@@ -24,6 +24,7 @@ export function validateResearch(input: unknown) {
       else if (owner.country && s.country !== 'global' && s.country !== owner.country) errors.push(owner.id + ': 来源国家串入 ' + s.id)
     }
   }
+  for (const source of data.sources) evidence(source,source.dateEvidence??[])
   for (const i of data.industries) { evidence(i,i.evidence); if(i.parentId) countryLinks(i,industries.get(i.parentId),'parent') }
   for (const o of data.observations) { countryLinks(o,industries.get(o.industryId),'industry'); evidence(o,o.evidence) }
   for (const s of data.scenarios) {

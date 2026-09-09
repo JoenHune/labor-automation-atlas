@@ -1,0 +1,64 @@
+{
+  "country": "US",
+  "reviewerRole": "revision-structural-check-after-independent-source-review",
+  "checkedAt": "2026-09-09",
+  "fileSha256": "390c34fc2929a1675622a8d68f18aa5395e5f234f3728f4ba1c83463dcd366c0",
+  "coverage": {
+    "industries": 6,
+    "scenarios": 25,
+    "tasks": 372,
+    "actualQueries": 744,
+    "sourceReadCount": 46,
+    "evidenceBoundTasks": 168,
+    "searchedWithNoQualifiedEvidence": 204,
+    "independentlyVerifiedWholeTasks": 0
+  },
+  "opportunityCount": 10,
+  "checks": {
+    "uniqueTaskIds": true,
+    "everyTaskPositiveAndNegativeQuery": true,
+    "sourceLocatorIdsResolve": true,
+    "countryAndCurrency": true,
+    "noFabricatedROI": true,
+    "incrementalUtilitiesIncluded": true,
+    "allUnfrozen": true
+  },
+  "sourceReview": "research/reviews/us-services-automation-decisions.json",
+  "revisionRecheck": "research/reviews/us-services-automation-recheck.json",
+  "previousAuthorCheck": {
+    "country": "US",
+    "reviewerRole": "author-self-check-not-independent",
+    "checkedAt": "2026-09-09",
+    "fileSha256": "99d687bc668332971e59e7d8972e3e6e2be39d25c1d2041b3514329640aa95c1",
+    "coverage": {
+      "industries": 6,
+      "scenarios": 25,
+      "tasks": 372,
+      "actualQueries": 744,
+      "sourceReadCount": 46,
+      "evidenceBoundTasks": 168,
+      "searchedWithNoQualifiedEvidence": 204,
+      "independentlyVerifiedWholeTasks": 0
+    },
+    "opportunityCount": 10,
+    "checks": {
+      "uniqueTaskIds": true,
+      "everyTaskPositiveAndNegativeQuery": true,
+      "sourceLocatorIdsResolve": true,
+      "retainedLocatorStartFoundInCache": true,
+      "publicAuditHasNoRawResultOrDiscoveryExcerptKeys": true,
+      "countryAndCurrency": true,
+      "noFabricatedROI": true,
+      "allIndependentReviewPending": true
+    },
+    "limitations": [
+      "缓存行候选匹配属于作者机械自查，不证明声明语义正确；仍需独立原文审查。",
+      "批次检索合并候选不能自动归属各查询；仅任务绑定引用作为有限证据。",
+      "新增行业覆盖仍受输入任务盘点的缺口和拟议边界限制。"
+    ]
+  },
+  "limitations": [
+    "此结构核查不重复源文审校或全部搜索；原稿自查留作历史记录。",
+    "全部仍未冻结；候选任务数不表示全行业完整覆盖。"
+  ]
+}

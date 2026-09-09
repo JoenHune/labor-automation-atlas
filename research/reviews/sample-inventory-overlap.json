@@ -1,0 +1,509 @@
+{
+  "schemaVersion": "1.0",
+  "reviewId": "sample-inventory-overlap-2026-09-09",
+  "asOf": "2026-09-09",
+  "status": "definition-level-overlap-reviewed-not-field-validated",
+  "statementType": "research-judgment-based-on-existing-artifact-boundaries",
+  "countryIsolation": "CN和US分别映射；不跨国家合并任务、来源、工时或研究通过状态。",
+  "purpose": "将组合样板作为原子任务的研究视图与证据入口，避免与所含动作重复增加任务数和人工时。本次只读取已有样板及清单边界，不修改其他代理清单，也不新增自动化结论。",
+  "inputs": [
+    {
+      "path": "research/samples/cn-injection-molding-part-removal.json",
+      "sha256": "236e29a5f1deed059c3c8d23a3c332ceccc7162ad7fc4a54ab9b5905420503d4",
+      "researchVersion": "sample-2026-09-09-v1"
+    },
+    {
+      "path": "research/samples/us-cnc-machine-tending.json",
+      "sha256": "10edfe20593b000cdd006e9c7b99dd84c60b88d8e5936917ce3e7576d9ca104a",
+      "researchVersion": "sample-2026-09-09-v1"
+    },
+    {
+      "path": "research/inventories/cn-core.json",
+      "sha256": "5388db09742709d606032d030ced3985f802a6e221441b59cd1302064ee8983e",
+      "researchVersion": "2026-09-09-inventory-working"
+    },
+    {
+      "path": "research/inventories/us-core.json",
+      "sha256": "7feeeb264545b41681f95245a35625986bcb65326a4b0a25db47c98ef39046c5",
+      "researchVersion": "inventory-2026-09-09-v1"
+    }
+  ],
+  "countingPolicy": {
+    "sampleRecordType": "composite-cycle-evidence-view",
+    "sampleAdditionalAtomicTaskCount": 0,
+    "rawRecordCountIsNotUniqueAtomicTaskCount": true,
+    "reviewedCompositeSamples": 2,
+    "independentlyVerifiedAtomicTaskIdsFromThisMapping": [],
+    "rule": "组合循环和其组成原子候选不得同时相加。展示记录数可包含样板，但总任务数中样板不另加1；原子范围尚不完整时标注未映射/待拆，不能凭样板覆盖的流程节点数增加已验证原子任务数。",
+    "laborRule": "对同一现场、同一操作事件和相同时间段只核算一次。用组合循环测量值时，其包含的装、卸、清屑、检查与异常时间不再与组成原子记录相加；用原子值时，只汇总互不重叠的可测量事件。",
+    "sharedCostRule": "样板增量现金流中按实际新增归属计准备、检验、清洁、换型、异常和停机；这些项目即使在核心循环之外，也不能再把全机台同项成本重复归入其他任务。",
+    "allNumericLaborParameters": null,
+    "limit": "映射不是工时测量、客户SOP验证或全部原子来源复核。样板独立审查通过状态不能自动传给候选任务。"
+  },
+  "mappings": [
+    {
+      "country": "CN",
+      "sampleId": "cn-ind-plastics-demold-001",
+      "artifactTaskId": "CN-IND-PLASTICS-DEMOLD-001",
+      "aliases": [
+        "CN-IND-PLASTICS-DEMOLD-001"
+      ],
+      "sampleTitle": "注塑成型件从模具取出并交接至下道工序",
+      "sampleArtifact": "research/samples/cn-injection-molding-part-removal.json",
+      "inventoryArtifact": "research/inventories/cn-core.json",
+      "inventorySceneId": "cn-ind-plastic-injection",
+      "boundary": {
+        "kind": "research_definition",
+        "start": "生产工艺已完成冷却/开模，满足经验证的安全取件许可；工件仍在模具/顶出位置。",
+        "end": "本次模腔内预期件数已全部取出，工件按批次与方向交接至指定托盘/工位，取件机构退出后向机台交还下一循环许可。",
+        "inputs": [
+          "工艺卡与模具/产品版本",
+          "已成型工件和可取件状态",
+          "下游可接收位置",
+          "设备、夹具、取件机构状态"
+        ],
+        "outputs": [
+          "按规定数量、方向和批次交接的制件",
+          "取件/交接完成或异常记录",
+          "模具清空与安全退出状态"
+        ],
+        "acceptance": [
+          "计数与模穴数一致，不能残留制件或浇道而误发合模许可。",
+          "表面、尺寸和形状符合产品图纸的取件阶段要求；数值公差待提供。",
+          "目标容器/工位可追踪，掉件、粘模和无法确定状态进入异常流程。"
+        ],
+        "acceptanceStatus": "研究提出的验收定义；须由工厂SOP/图纸确认，非建霖已公开验收数据",
+        "basisClaimIds": [
+          "CN-C3",
+          "CN-C4",
+          "CN-C6"
+        ],
+        "excludedButLinked": [
+          "配料/干燥、换模调机、注射成型本体",
+          "去浇口、焊接、气密测试、成品质量放行",
+          "重大维修和模具修复；本任务只计其触发及交接造成的残留人工和停机"
+        ]
+      },
+      "additionalAtomicTaskCount": 0,
+      "coreDefinitionProcessIds": [
+        "CN-P03",
+        "CN-P04",
+        "CN-P05",
+        "CN-P06"
+      ],
+      "coreUnmappedActions": [
+        {
+          "label": "进入取件位置并抓持制件",
+          "processIds": [
+            "CN-P03"
+          ],
+          "candidateKey": "cn-ind-plastic-injection/evidencePendingCandidates/1",
+          "status": "partially-mapped-to-unvalidated-composite-candidate"
+        },
+        {
+          "label": "确认抓取数量及模内无残留",
+          "processIds": [
+            "CN-P04"
+          ],
+          "candidateKey": null,
+          "status": "no-stable-inventory-atom; sample-research-definition"
+        },
+        {
+          "label": "退出模区并移送指定托盘或工位",
+          "processIds": [
+            "CN-P05"
+          ],
+          "candidateKey": "cn-ind-plastic-injection/evidencePendingCandidates/1",
+          "status": "partially-mapped-to-unvalidated-composite-candidate"
+        },
+        {
+          "label": "确认交接及下一循环许可",
+          "processIds": [
+            "CN-P06"
+          ],
+          "candidateKey": null,
+          "status": "no-stable-inventory-atom; interface-boundary-needs-SOP"
+        }
+      ],
+      "candidateSnapshots": [
+        {
+          "candidateKey": "cn-ind-plastic-injection/evidencePendingCandidates/0",
+          "title": "核对注塑件模具物料与成型参数",
+          "phase": "准备",
+          "countedInInventory": false,
+          "hasStableTaskId": false
+        },
+        {
+          "candidateKey": "cn-ind-plastic-injection/evidencePendingCandidates/1",
+          "title": "将成型件移出模具并处理浇口",
+          "phase": "作业",
+          "countedInInventory": false,
+          "hasStableTaskId": false
+        },
+        {
+          "candidateKey": "cn-ind-plastic-injection/evidencePendingCandidates/2",
+          "title": "检验注塑件尺寸外观及关键性能",
+          "phase": "检测",
+          "countedInInventory": false,
+          "hasStableTaskId": false
+        },
+        {
+          "candidateKey": "cn-ind-plastic-injection/evidencePendingCandidates/3",
+          "title": "隔离成型异常件并确认停机条件",
+          "phase": "异常",
+          "countedInInventory": false,
+          "hasStableTaskId": false
+        },
+        {
+          "candidateKey": "cn-ind-plastic-injection/evidencePendingCandidates/4",
+          "title": "按产品允许条件修整可返修塑料件",
+          "phase": "返工",
+          "countedInInventory": false,
+          "hasStableTaskId": false
+        },
+        {
+          "candidateKey": "cn-ind-plastic-injection/evidencePendingCandidates/5",
+          "title": "清理检查模具与注塑设备",
+          "phase": "清洁维护",
+          "countedInInventory": false,
+          "hasStableTaskId": false
+        },
+        {
+          "candidateKey": "cn-ind-plastic-injection/evidencePendingCandidates/6",
+          "title": "标识包装并交接合格注塑件",
+          "phase": "交付",
+          "countedInInventory": false,
+          "hasStableTaskId": false
+        }
+      ],
+      "relations": [
+        {
+          "targetId": "cn-ind-plastic-injection-002",
+          "targetTitle": "操作注塑机将物料塑化成型（成型过程符合产品工艺窗口）",
+          "relation": "adjacent-upstream; exact-end-boundary-unconfirmed",
+          "sourceProcessIds": [
+            "CN-P02"
+          ],
+          "scope": "样板明确排除注射成型本体，始于冷却/开模且已有安全取件许可；清单塑化成型是上游。清单终点只写成型塑料件，未明确是否已包含开模顶出或取件。",
+          "countRule": "先保留不同边界，不把该宽泛成型任务等同于取件样板；现场若把取件计入其工时，必须从成型时间中拆出再计。",
+          "pending": [
+            "确认成型任务是否终止于模内制件完成，是否包含冷却开模顶出和人工取件。"
+          ]
+        },
+        {
+          "targetId": "cn-ind-plastic-injection/evidencePendingCandidates/1",
+          "targetTitle": "将成型件移出模具并处理浇口",
+          "relation": "partial-action-overlap; target-unvalidated-and-not-counted",
+          "sourceProcessIds": [
+            "CN-P03",
+            "CN-P05"
+          ],
+          "scope": "候选中的将成型件移出模具与样板取件移送重叠；候选中的处理浇口被样板明确排除。",
+          "countRule": "候选需拆成取件移送与浇口处理；不得把当前组合候选与样板各算一个已验证原子任务。",
+          "pending": [
+            "具体取件抓持、退出、托盘落放和浇口处理是否由不同工位完成。"
+          ]
+        },
+        {
+          "targetId": "cn-ind-plastic-injection/evidencePendingCandidates/0",
+          "targetTitle": "核对注塑件模具物料与成型参数",
+          "relation": "linked-preparation-or-changeover-only",
+          "sourceProcessIds": [
+            "CN-P01",
+            "CN-P12"
+          ],
+          "scope": "核对工艺版本、换型准备是上游接口，核心循环以其就绪为前提。",
+          "countRule": "只分配本方案实际新增准备成本，避免把整班换模全额重复计入每次取件。",
+          "pending": []
+        },
+        {
+          "targetId": "cn-ind-plastic-injection/evidencePendingCandidates/2",
+          "targetTitle": "检验注塑件尺寸外观及关键性能",
+          "relation": "linked-quality; limited-interface-check-overlap",
+          "sourceProcessIds": [
+            "CN-P04",
+            "CN-P07"
+          ],
+          "scope": "取件后的数量/状态确认与完整尺寸外观性能检验范围不同；CN-P07为关联质量节点。",
+          "countRule": "区分取件验收、抽检与成品放行；同次检查事件只分配一次。",
+          "pending": [
+            "样板取件阶段表面尺寸要求与独立质量站的检查项目如何分工。"
+          ]
+        },
+        {
+          "targetId": "cn-ind-plastic-injection/evidencePendingCandidates/3",
+          "targetTitle": "隔离成型异常件并确认停机条件",
+          "relation": "partial-conditional-exception-overlap",
+          "sourceProcessIds": [
+            "CN-P08",
+            "CN-P09"
+          ],
+          "scope": "样板掉件粘模漏气的报警隔离/安全恢复可能与候选的成型异常隔离停机重叠；异常原因范围不完全相同。",
+          "countRule": "按异常事件ID及实际原因分配一次，不能将全部成型异常时间归到取件。",
+          "pending": []
+        },
+        {
+          "targetId": "cn-ind-plastic-injection/evidencePendingCandidates/4",
+          "targetTitle": "按产品允许条件修整可返修塑料件",
+          "relation": "linked-rework-outside-core",
+          "sourceProcessIds": [
+            "CN-P10"
+          ],
+          "scope": "样板只关联返工/报废决定与交接，实际修整在边界之外。",
+          "countRule": "取件产生的返工交接与后续修整分别测量，避免两处记录同一等待/处置事件。",
+          "pending": []
+        },
+        {
+          "targetId": "cn-ind-plastic-injection/evidencePendingCandidates/5",
+          "targetTitle": "清理检查模具与注塑设备",
+          "relation": "linked-maintenance; allocation-needed",
+          "sourceProcessIds": [
+            "CN-P11",
+            "CN-P12"
+          ],
+          "scope": "样板记录取件方案相关夹具、设备及模具维护负担，但不包含重大维修和模具修复本体。",
+          "countRule": "按本方案增量与共同维护分摊核算；不与全注塑设备维护全额相加。",
+          "pending": []
+        },
+        {
+          "targetId": "cn-ind-plastic-injection/evidencePendingCandidates/6",
+          "targetTitle": "标识包装并交接合格注塑件",
+          "relation": "partial-handoff-overlap; final-packaging-outside-core",
+          "sourceProcessIds": [
+            "CN-P05",
+            "CN-P06"
+          ],
+          "scope": "样板结束于指定托盘/工位的数量方向批次交接，候选还包含合格品包装和成品状态。",
+          "countRule": "批次标识交接事件只计一次；正式合格判定和终端包装不自动包含于取件样板。",
+          "pending": []
+        }
+      ],
+      "evidenceBoundary": "当前CN注塑清单只有一个已计成型动作，其余7项属于evidencePendingCandidates且不计任务。样板过程节点已标研究定义；本映射不把它们升级为已验证原子任务。",
+      "pending": [
+        "需取得工厂SOP与循环记录确定开模/顶出/取件许可交界。",
+        "将移出模具并处理浇口候选拆开后，赋予稳定原子ID再更新映射。",
+        "确认取件、交接、判空及许可握手是否单独可验收核算，不能据四个流程节点先计四项人工任务。"
+      ]
+    },
+    {
+      "country": "US",
+      "sampleId": "us-mfg-machining-tending-001",
+      "artifactTaskId": "US-MFG-MACHINING-TENDING-001",
+      "aliases": [
+        "US-MFG-MACHINING-TENDING-001"
+      ],
+      "sampleTitle": "CNC机床工件上下料：料盘至夹具，再交接成品",
+      "sampleArtifact": "research/samples/us-cnc-machine-tending.json",
+      "inventoryArtifact": "research/inventories/us-core.json",
+      "inventorySceneId": "US-MFG-CNC",
+      "boundary": {
+        "kind": "research_definition",
+        "start": "合格毛坯与作业版本已在指定料盘就绪；机床完成加工并给出允许装卸的安全状态。",
+        "end": "已加工工件放至可追踪的输出位置，下一毛坯已正确定位夹紧，机构退出并交还运行许可；遇不确定状态则停止并交接。",
+        "inputs": [
+          "零件图纸/程序/夹具版本",
+          "待加工毛坯",
+          "机台安全状态",
+          "可用夹具、末端与料盘位置"
+        ],
+        "outputs": [
+          "正确夹紧的下一工件",
+          "已加工件、批次与去向记录",
+          "下一循环许可或异常记录"
+        ],
+        "acceptance": [
+          "零件、程序和夹具匹配，装夹定位符合图纸要求；公差待客户提供。",
+          "可靠确认夹紧、退出和交接，不能把装卸成功等同于加工质量合格。",
+          "检测失败或定位不明的零件隔离；故障复位遵照机台与整单元SOP。"
+        ],
+        "acceptanceStatus": "研究定义；Haas手册作为工序来源，并不证明WST Fab采用相同机床或具体安全配置",
+        "basisClaimIds": [
+          "US-C3",
+          "US-C4",
+          "US-C6"
+        ],
+        "excludedButLinked": [
+          "毛坯生产、切削刀路和切削动作本体",
+          "精密测量/成品放行、刀具更换和重大维修",
+          "本任务计入因装卸方案新增的准备、清洁、检验、异常与停机；不得重复分配全机床切削工时"
+        ]
+      },
+      "additionalAtomicTaskCount": 0,
+      "coreDefinitionProcessIds": [
+        "US-P03",
+        "US-P04",
+        "US-P05",
+        "US-P06",
+        "US-P07"
+      ],
+      "coreUnmappedActions": [
+        {
+          "label": "机构退出与机床握手允许下一循环",
+          "processIds": [
+            "US-P06"
+          ],
+          "targetId": null,
+          "status": "no-explicit-inventory-atom; may-be-contained-in-003-or-005-acceptance-needs-confirmation"
+        },
+        {
+          "label": "循环内夹持定位面确认及必要清屑",
+          "processIds": [
+            "US-P04"
+          ],
+          "targetId": "US-MFG-CNC-009",
+          "status": "partial; must-separate-per-cycle-from-periodic-maintenance"
+        }
+      ],
+      "relations": [
+        {
+          "targetId": "US-MFG-CNC-003",
+          "targetTitle": "装夹待加工毛坯",
+          "relation": "contained-action-range-at-definition-level",
+          "sourceProcessIds": [
+            "US-P05"
+          ],
+          "scope": "样板核心循环包含抓取下一毛坯、定位并夹紧，覆盖本候选的装夹动作范围；具体机械手和人工动作划分待核。",
+          "countRule": "保留003原子候选，样板仅作为研究组合视图，任务数不再另加样板；使用样板循环时不得重复加003工时。",
+          "pending": [
+            "核对003是否包含抓料、夹紧确认、关门及许可握手。"
+          ]
+        },
+        {
+          "targetId": "US-MFG-CNC-005",
+          "targetTitle": "卸下完成工件并分流",
+          "relation": "contained-action-range-at-definition-level; downstream-limit-unconfirmed",
+          "sourceProcessIds": [
+            "US-P03",
+            "US-P07"
+          ],
+          "scope": "样板取出已加工件并放到可追踪输出位置，与005卸件分流重叠；005下工序交接若超出该输出位置须另划。",
+          "countRule": "保留005原子候选，样板不另增加任务；同一取出/落放/批次记录不在两处相加。",
+          "pending": [
+            "确认005分流是否仅到料盘，或包括远端下工序搬运、排序和正式放行。"
+          ]
+        },
+        {
+          "targetId": "US-MFG-CNC-001",
+          "targetTitle": "核对图纸程序与毛坯批次",
+          "relation": "linked-upstream-preparation",
+          "sourceProcessIds": [
+            "US-P01",
+            "US-P02"
+          ],
+          "scope": "样板以合格毛坯与作业版本就绪为输入，版本核对为上游。",
+          "countRule": "核心循环不重复计整批准备；增量经济测算仅分配本方案实际新增核对时间。",
+          "pending": []
+        },
+        {
+          "targetId": "US-MFG-CNC-002",
+          "targetTitle": "安装并校正刀具夹具",
+          "relation": "linked-changeover-cost; outside-normal-core",
+          "sourceProcessIds": [
+            "US-P12"
+          ],
+          "scope": "正常循环装夹毛坯不同于安装校正刀具夹具；样板换产品夹指调试与该候选部分相关。",
+          "countRule": "同次安装校正/换型按实际增量分配一次，不与样板换型成本全额重复。",
+          "pending": [
+            "区分夹具基准安装、机器人夹指更换与每件毛坯装夹。"
+          ]
+        },
+        {
+          "targetId": "US-MFG-CNC-004",
+          "targetTitle": "监控切削循环及刀具状态",
+          "relation": "excluded-cutting-process",
+          "sourceProcessIds": [],
+          "scope": "样板明确排除切削动作本体；生产切削监控和刀具状态一般属于机加工过程。",
+          "countRule": "不得把整机切削循环或全机监控时间计作装卸被替代工时。",
+          "pending": [
+            "若操作者同时监督装卸和切削，需实测并行占用，不能按历时相加。"
+          ]
+        },
+        {
+          "targetId": "US-MFG-CNC-006",
+          "targetTitle": "量测首件及抽样件尺寸",
+          "relation": "linked-quality-outside-core",
+          "sourceProcessIds": [
+            "US-P08"
+          ],
+          "scope": "尺寸首件/抽检和成品放行被样板排除为独立质量工作，夹紧定位确认不等于尺寸合格。",
+          "countRule": "相同测量事件只计一次；仅因装卸方案新增的检查进入其增量现金流。",
+          "pending": []
+        },
+        {
+          "targetId": "US-MFG-CNC-007",
+          "targetTitle": "报告加工报警并隔离疑似件",
+          "relation": "partial-conditional-exception-overlap",
+          "sourceProcessIds": [
+            "US-P08",
+            "US-P09"
+          ],
+          "scope": "样板中的装卸定位不明、停机人工排查与疑似件隔离，与007异常候选部分重叠；切削报警非全部归装卸。",
+          "countRule": "按同一报警/隔离事件与原因分配一次；保留授权和现场异常分类待核。",
+          "pending": []
+        },
+        {
+          "targetId": "US-MFG-CNC-008",
+          "targetTitle": "按授权补加工可返修件",
+          "relation": "linked-rework-outside-core",
+          "sourceProcessIds": [
+            "US-P10"
+          ],
+          "scope": "样板关联返工缓冲与派工，不含补加工切削及返修后尺寸确认。",
+          "countRule": "派工等待和实际补加工分别计量，不把补加工全额归装卸收益损失两处重复。",
+          "pending": []
+        },
+        {
+          "targetId": "US-MFG-CNC-009",
+          "targetTitle": "清洁夹具与工作区切屑",
+          "relation": "partial-action-overlap-and-shared-maintenance",
+          "sourceProcessIds": [
+            "US-P04",
+            "US-P11"
+          ],
+          "scope": "循环内必要夹持面清屑可能是样板核心，机台工作区周期清屑和维护是关联负担；009当前包含两者。",
+          "countRule": "将每次装卸必要清屑与周期停机清洁分开测量，再只分配一次。",
+          "pending": [
+            "确认清屑频次、操作者、设备状态及是否已经包括在003装夹标准时间。"
+          ]
+        },
+        {
+          "targetId": "US-MFG-CNC-010",
+          "targetTitle": "更换磨损刀具并复核偏置",
+          "relation": "excluded-tool-change; shared-cost-allocation-needed",
+          "sourceProcessIds": [
+            "US-P11"
+          ],
+          "scope": "样板明确排除刀具更换和重大维修本体；刀具维护作为关联运行条件记录。",
+          "countRule": "不得把全刀具更换时间归入装卸劳动替代；只有经验证的方案增量影响才计入其现金流。",
+          "pending": []
+        },
+        {
+          "targetId": "US-MFG-CNC-011",
+          "targetTitle": "标识包装合格机加工件",
+          "relation": "partial-identity-handoff-overlap; finished-goods-packaging-excluded",
+          "sourceProcessIds": [
+            "US-P07"
+          ],
+          "scope": "样板输出已加工件和批次去向记录，尚不代表通过成品放行。011含合格品包装，超出样板边界。",
+          "countRule": "批次标识与交接事件只计一次；成品合格包装单独核算。",
+          "pending": []
+        }
+      ],
+      "evidenceBoundary": "003/005在动作定义层面被样板组合覆盖，但这不证明样板具名客户采用清单所列全部设备/SOP，也不自动完成003/005独立逐条来源复核。",
+      "pending": [
+        "确认每件装/卸、清屑、夹紧确认、门及握手信号的现场边界。",
+        "确认双夹爪是否同时携带毛坯与成品，避免把并行动作历时相加。",
+        "测量换型、异常、人工接管、清洁和检验的增量事件；目前工时参数仍为空。"
+      ]
+    }
+  ],
+  "validation": {
+    "countriesSeparated": true,
+    "inputArtifactsRead": true,
+    "otherAgentInventoriesModified": false,
+    "externallyPublished": false,
+    "allSampleProcessNodesAreResearchDefinitions": true,
+    "requiresUpdateWhenInputsChange": true,
+    "reviewScope": "已有边界文本的去重审查；无新部署事实、无新的任务冻结。"
+  }
+}

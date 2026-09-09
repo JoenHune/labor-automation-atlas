@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-09.preview-2",
+  "version": "2026-09-09.preview-3",
   "checkedAt": "2026-09-09",
   "publishedAt": null,
   "freezeStatus": "working",
@@ -640,7 +640,9 @@
       "limitations": [
         "职业目录只支持任务存在，不支持工时、人工比例或行业统计归属。",
         "2022 年社会公示稿，非正式现行版"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-wheat-service-2024",
@@ -651,7 +653,9 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-vegetable-2021",
@@ -662,7 +666,9 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-apple-autumn-2023",
@@ -673,7 +679,9 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-apple-summer-2022",
@@ -684,7 +692,9 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-mushroom-2026",
@@ -695,7 +705,9 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-mushroom-hygiene-2023",
@@ -706,7 +718,9 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-pig-health-2023",
@@ -717,7 +731,9 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-milk-station-2009",
@@ -728,7 +744,9 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-aquaculture-summer-2023",
@@ -739,7 +757,9 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-forest-restoration-2021",
@@ -750,7 +770,9 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-ag-outsourcing-2019",
@@ -761,7 +783,22 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
+    },
+    {
+      "id": "inventory-cn-core-cn-coal-rule-2025-publication",
+      "title": "煤矿安全规程（应急管理部令第17号） · 公开页面",
+      "publisher": "应急管理部",
+      "url": "https://www.mem.gov.cn/gk/zfxxgkpt/fdzdgknr/gz11/202508/t20250804_553279.shtml",
+      "published": "2025-07-24",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "仅用于核对文件公开时间；不能证明投产、持续运行或完整流程。"
+      ]
     },
     {
       "id": "inventory-cn-core-cn-coal-rule-2025",
@@ -774,6 +811,13 @@
       "kind": "other",
       "limitations": [
         "已实施；2025修订"
+      ],
+      "dates": [],
+      "dateEvidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-coal-rule-2025-publication",
+          "locator": "文件公示／公开页面的日期标记；报告成文时间另列。"
+        }
       ]
     },
     {
@@ -788,7 +832,9 @@
       "limitations": [
         "排污许可主要生产单元表是工序覆盖线索，不是完整生产操作规程；作业方法和验收参数需现行工艺标准与企业SOP补证。",
         "2026已公布、尚未实施；仅作已公开工序结构依据，不能写成2026现行强制要求"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-steel-hj846-2026",
@@ -802,7 +848,9 @@
       "limitations": [
         "排污许可主要生产单元表是工序覆盖线索，不是完整生产操作规程；作业方法和验收参数需现行工艺标准与企业SOP补证。",
         "2026已公布、尚未实施；仅作已公开工序结构依据，不能写成2026现行强制要求"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-paper-hj1482-2026",
@@ -816,7 +864,9 @@
       "limitations": [
         "排污许可主要生产单元表是工序覆盖线索，不是完整生产操作规程；作业方法和验收参数需现行工艺标准与企业SOP补证。",
         "2026已公布、尚未实施；仅作已公开工序结构依据，不能写成2026现行强制要求"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-auto-hj971-2026",
@@ -829,8 +879,11 @@
       "kind": "other",
       "limitations": [
         "排污许可主要生产单元表是工序覆盖线索，不是完整生产操作规程；作业方法和验收参数需现行工艺标准与企业SOP补证。",
-        "2026已公布、尚未实施；仅作已公开工序结构依据，不能写成2026现行强制要求"
-      ]
+        "2026已公布、尚未实施；仅作已公开工序结构依据，不能写成2026现行强制要求",
+        "undefined其中工业固体废物排污许可管理要求已由HJ1200—2021自2022-01-01部分替代（不含固废过程废气、废水、土壤与地下水管理）；本清单引用生产工艺单元不等于沿用旧固废管理要求。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-electronics-hj1031-2019",
@@ -841,7 +894,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "undefined其中工业固体废物排污许可管理要求已由HJ1200—2021自2022-01-01部分替代（不含固废过程废气、废水、土壤与地下水管理）；本清单引用生产工艺单元不等于沿用旧固废管理要求。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-furniture-hj1027-2019",
@@ -852,7 +909,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "undefined其中工业固体废物排污许可管理要求已由HJ1200—2021自2022-01-01部分替代（不含固废过程废气、废水、土壤与地下水管理）；本清单引用生产工艺单元不等于沿用旧固废管理要求。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-wastewater-hj978-2018",
@@ -864,8 +925,11 @@
       "country": "cn",
       "kind": "other",
       "limitations": [
-        "试行；官网发布版"
-      ]
+        "试行；官网发布版",
+        "undefined其中工业固体废物排污许可管理要求已由HJ1200—2021自2022-01-01部分替代（不含固废过程废气、废水、土壤与地下水管理）；本清单引用生产工艺单元不等于沿用旧固废管理要求。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-gas-gb55009-2021",
@@ -876,7 +940,9 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-food-retail-gb31621-2014",
@@ -891,7 +957,9 @@
         "不适用于网络食品交易、餐饮、现制现售；这些经营场景不可套用其范围。",
         "本文件不生成具体温度、保质期或工时数字，按品类现行要求进一步核验。",
         "2014发布版；已核卫生部门2023目录仍收录，本研究日正式现行目录交叉复核待补"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-roadfreight-2026",
@@ -904,7 +972,9 @@
       "kind": "other",
       "limitations": [
         "2026年第5号令修正；部网站现行有效栏"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-express-rule-2023",
@@ -915,7 +985,9 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-concrete-db1832-2021",
@@ -926,7 +998,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "2021年北京地方工艺标准，用于发现动作；后续国家通用规范及现行工程设计优先，具体参数和本标准现行状态发布前待再核。未以此作为全国统一施工验收阈值。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-decoration-db1832-2022",
@@ -937,7 +1013,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "2022正式标准，官方目录显示现行；适用北京地区装饰施工。未将各材料旧引用号自动视为2026最新产品标准，材料指标发布前须依最新规范和项目设计复核。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-rural-water-ln-2013",
@@ -948,7 +1028,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "历史技术资料。网页标2025-04-17，但正文末落款2013年6月；未核定现行效力和替代文件。只用于发现辽宁农村供水建设动作；所有技术阈值须依据当前标准和设计重核。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-textile-hj861-2017",
@@ -959,7 +1043,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "SAMR目录显示现行；2017版用于核对生产单元和工艺边界，不是2026现场采用率或完整操作SOP。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-foundry-hj1115-2020",
@@ -970,7 +1058,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "正式发布稿用于核对铸造工艺及行业33归属；设备列表不能作为现场采用或人工占比证据。 其中工业固体废物排污许可管理要求已由HJ1200—2021自2022-01-01部分替代（不含固废过程废气、废水、土壤与地下水管理）；本清单引用生产工艺单元不等于沿用旧固废管理要求。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-rubber-plastic-hj1122-2020",
@@ -981,7 +1073,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "2020正式发布稿的生产单元表用于场景发现；新材料和设备SOP尚需扩展，未当作商业部署证明。 其中工业固体废物排污许可管理要求已由HJ1200—2021自2022-01-01部分替代（不含固废过程废气、废水、土壤与地下水管理）；本清单引用生产工艺单元不等于沿用旧固废管理要求。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-feed-oil-hj1110-2020",
@@ -992,7 +1088,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "正式发布稿用于核对工艺单元和场景边界；不是完整操作SOP、实际设备部署或人工投入证明，发布前需复核现行状态。 其中工业固体废物排污许可管理要求已由HJ1200—2021自2022-01-01部分替代（不含固废过程废气、废水、土壤与地下水管理）；本清单引用生产工艺单元不等于沿用旧固废管理要求。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-fish-hj1109-2020",
@@ -1003,7 +1103,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "正式发布稿用于核对工艺单元和场景边界；不是完整操作SOP、实际设备部署或人工投入证明，发布前需复核现行状态。 其中工业固体废物排污许可管理要求已由HJ1200—2021自2022-01-01部分替代（不含固废过程废气、废水、土壤与地下水管理）；本清单引用生产工艺单元不等于沿用旧固废管理要求。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-harbor-hj1107-2020",
@@ -1014,7 +1118,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "正式发布稿用于核对工艺单元和场景边界；不是完整操作SOP、实际设备部署或人工投入证明，发布前需复核现行状态。 其中工业固体废物排污许可管理要求已由HJ1200—2021自2022-01-01部分替代（不含固废过程废气、废水、土壤与地下水管理）；本清单引用生产工艺单元不等于沿用旧固废管理要求。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-cement-hj847-2017",
@@ -1025,7 +1133,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "2017正式发布稿；仅核对生产流程单元，现行替代与现场SOP发布前再核对。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-flatglass-hj856-2017",
@@ -1036,7 +1148,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "2017正式发布稿；浮法与压延分别识别，不能由设备清单推断无人生产。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-print-hj1066-2019",
@@ -1047,7 +1163,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "官方页面当前提供的PDF文件名含2024上传日期，封面仍为2019正式发布稿；不将上传日期误报为修订日期。 其中工业固体废物排污许可管理要求已由HJ1200—2021自2022-01-01部分替代（不含固废过程废气、废水、土壤与地下水管理）；本清单引用生产工艺单元不等于沿用旧固废管理要求。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-battery-hj967-2018",
@@ -1058,7 +1178,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "2018正式发布稿；不覆盖2026新电池路线的完整工步，表内自动或手动设备是可选设施而非采用率。 其中工业固体废物排污许可管理要求已由HJ1200—2021自2022-01-01部分替代（不含固废过程废气、废水、土壤与地下水管理）；本清单引用生产工艺单元不等于沿用旧固废管理要求。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-pharma-hj1063-2019",
@@ -1069,7 +1193,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "2019正式发布稿；工艺单元不是GMP批生产规程，设备类型不能作采用率依据。PDF注释跳转警告已单独记录，所引正文可读。 其中工业固体废物排污许可管理要求已由HJ1200—2021自2022-01-01部分替代（不含固废过程废气、废水、土壤与地下水管理）；本清单引用生产工艺单元不等于沿用旧固废管理要求。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-dairy-hj1030-2019",
@@ -1080,7 +1208,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "2019正式发布稿提供乳制品生产单元；生鲜乳生产归农业，含乳饮料归饮料制造，不能混为乳制品。 其中工业固体废物排污许可管理要求已由HJ1200—2021自2022-01-01部分替代（不含固废过程废气、废水、土壤与地下水管理）；本清单引用生产工艺单元不等于沿用旧固废管理要求。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-beverage-hj1028-2019",
@@ -1091,7 +1223,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "2019正式发布稿；按酒种和饮料类型区分工艺，设备清单不是实际生产采用情况。 其中工业固体废物排污许可管理要求已由HJ1200—2021自2022-01-01部分替代（不含固废过程废气、废水、土壤与地下水管理）；本清单引用生产工艺单元不等于沿用旧固废管理要求。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-fuelstation-hj1118-2020",
@@ -1102,7 +1238,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "2020正式发布稿；加油站F5265与独立油库G5941范围分开，不将其统归道路运输。污染控制引用标准的后续更新仍需复核。 其中工业固体废物排污许可管理要求已由HJ1200—2021自2022-01-01部分替代（不含固废过程废气、废水、土壤与地下水管理）；本清单引用生产工艺单元不等于沿用旧固废管理要求。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-shoe-hj1123-2020",
@@ -1113,7 +1253,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "正式发布文本，生产单元表用于场景与工艺范围。 其中工业固体废物排污许可管理要求已由HJ1200—2021自2022-01-01部分替代（不含固废过程废气、废水、土壤与地下水管理）；本清单引用生产工艺单元不等于沿用旧固废管理要求。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-shoe-xtep-eia-2022",
@@ -1124,7 +1268,18 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "2022年7月编制；公开URL含202208，未将路径当作精确发布日期。文件明确当时尚未生产，属于项目设计流程，不能证明持续商业运行。",
+        "文件成文／版本时间：2022-07；与网页发布日期分开。"
+      ],
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2022-07",
+          "note": "按资料给出的精度保留，不补造月或日。"
+        }
+      ],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-dailychem-hj1104-2020",
@@ -1135,7 +1290,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "正式发布文本，生产单元表用于场景与工艺范围。 其中工业固体废物排污许可管理要求已由HJ1200—2021自2022-01-01部分替代（不含固废过程废气、废水、土壤与地下水管理）；本清单引用生产工艺单元不等于沿用旧固废管理要求。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-fiber-hj1102-2020",
@@ -1146,7 +1305,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "正式发布文本，生产单元表用于场景与工艺范围。 其中工业固体废物排污许可管理要求已由HJ1200—2021自2022-01-01部分替代（不含固废过程废气、废水、土壤与地下水管理）；本清单引用生产工艺单元不等于沿用旧固废管理要求。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-panels-hj1032-2019",
@@ -1157,7 +1320,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "发布稿；仅人造板，不代表全部木材竹藤加工。生产单元表是流程范围依据。 其中工业固体废物排污许可管理要求已由HJ1200—2021自2022-01-01部分替代（不含固废过程废气、废水、土壤与地下水管理）；本清单引用生产工艺单元不等于沿用旧固废管理要求。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-solidwaste-hj1200-2021",
@@ -1168,7 +1335,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "本次只核对封面、前言与适用范围，未据本文件追加废物操作任务。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-aluminum-hj8632-2017",
@@ -1179,7 +1350,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "2017发布稿；用作铝冶炼工艺范围，不据2017污染管理要求作2026合规结论。已复查官方索引及定向搜索，未据未检出替代证明永续现行。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-transport-mfg-hj1124-2020",
@@ -1190,7 +1365,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "工艺单元和产品分支提供结构来源；HJ1200—2021自2022-01-01部分替代其工业固体废物排污许可管理要求，未引用旧固废条款作现行要求。制造厂返修与专业修理范围以附录注释区分，不由职业名称决定行业。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-recycling-hj1034-2019",
@@ -1201,7 +1380,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "2019发布稿提供C42废弃资源工艺结构；职业汽车和船舶分类不能替代执行者行业。HJ1200—2021前言替代名单不含HJ1034，未据名称相近误称该规范整体或部分被该名单替代；后续合规要求另核。 排污规范适用行业不能直接代替统计分类；船舶拆除在GB/T4754—2017为3736，需归37，不能因使用HJ1034归42。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-gb4754-notes-2017",
@@ -1212,7 +1395,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "2017行业注释；官网公开文件路径为202008，不能当精确出版日期。仅用于必要分类边界，不作为当前规模榜单数据；后续分类调整仍需独立复核。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-metal-nonmetal-gb16423-2020",
@@ -1223,7 +1410,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "SAMR元数据核实现行，替代GB16423—2006；2025英文版日期不是中文修订。原文件扫描图，所引页均直接视觉阅读。安全任务规范不证明工时、部署或全流程完备。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-zhangxingzhuang-iron-eia-2024",
@@ -1234,7 +1425,18 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "报批版含拟建方案与历史回顾；不得混作2026已实施的设备/SOP证明。§3.1原文批复年份与文号年份矛盾，未采信该时间。老磁选厂2019拆除属报告回顾，尚待原验收/退出文件复核，不是自动化失败证据。",
+        "文件成文／版本时间：2024-04；与网页发布日期分开。"
+      ],
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2024-04",
+          "note": "按资料给出的精度保留，不补造月或日。"
+        }
+      ],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-oil-waste-hj1461-2026",
@@ -1245,7 +1447,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "首次发布，已实施；只涉及固废环节，不能作为整个油气生产工艺的逐任务证据。场外废物专门处置/再生利用与油田自身作业须按主体另核归属。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-oil-monitor-hj1248-2022",
@@ -1256,7 +1462,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "原文界定流程范围及监测记录；仅为场景入口，不能据此称已读到钻井/采油/集输逐动作SOP。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-geothermal-bj-db2039-2022",
@@ -1267,7 +1477,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "地方标准，只用于北京市中深层水热型场景；供热体系不限于资源开采行业，因此只提取资源井观测，热力供应44/施工48/外部地质服务747等另属。已读封面发布日期2022-12-27；2023政府公报列表显示批准日期2022-12-23，两者字段不同，不混作同一日期。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-tobacco-hjt401-2007",
@@ -1278,7 +1492,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "2007年历史技术规范用于必要细分流程；全国标准信息公共服务平台截至检索仍标现行，但本研究不沿用其当年的先进等级、消耗指标或旧引用方法作为2026技术表现。适用范围仅卷烟生产企业。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-refinery-hj853-2026-forthcoming",
@@ -1289,7 +1507,11 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "已发布的新修订标准于2027-01-01才实施并替代HJ853—2017。本研究只用最新已发布资料性工艺目录建立场景范围，不把未来要求写成当下生效规则。任何合规判断须另核当前规定。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-hetaibearing-eia-2020",
@@ -1300,7 +1522,18 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "编制2020-05，原项目有2017审批验收备案回顾，但本文件所述迁建扩大产能是计划，不由此证明2026已投产或持续商业运行。正文和图内外圈对应有冲突，未擅自纠正。",
+        "文件成文／版本时间：2020-05；与网页发布日期分开。"
+      ],
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2020-05",
+          "note": "按资料给出的精度保留，不补造月或日。"
+        }
+      ],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-core-cn-bohao-pencil-eia-2025",
@@ -1311,7 +1544,147 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [
+        "封面图像明确2025年12月报批版，官方文件路径为2026年3月；没有取得网页发布日期，publishedAt留空。新建项目拟定工艺不当作持续商业运行。只提取铅笔/铅芯2412，不将同项目铝件3489和塑件2929纳入24。",
+        "文件成文／版本时间：2025-12；与网页发布日期分开。"
+      ],
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025-12",
+          "note": "按资料给出的精度保留，不补造月或日。"
+        }
+      ],
+      "dateEvidence": []
+    },
+    {
+      "id": "inventory-cn-core-cn-insight-medical-eia-2024",
+      "title": "宁波英赛迪医疗科技有限公司注射器塑料件及止血夹生产线环境影响报告表（2024年10月拟建）",
+      "publisher": "宁波英赛迪医疗科技有限公司项目资料；浙江政府公开文件存储",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3462/site/attach/0/b3f28c7ee3e34f8281e72e85c14f6bd6.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "封面图像明确2024年10月，网页发布日期未取得。项目建设及设备流程为拟建；产品表明确针筒和芯杆两个塑料件，不能据标题宣称包含药液灌装、灭菌、注册放行或2026实际投产。",
+        "文件成文／版本时间：2024-10；与网页发布日期分开。"
+      ],
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2024-10",
+          "note": "按资料给出的精度保留，不补造月或日。"
+        }
+      ],
+      "dateEvidence": []
+    },
+    {
+      "id": "inventory-cn-core-cn-medical-polymer-bj-guide-2023",
+      "title": "北京市高分子材料类医疗器械生产质量管理规范检查指南（2023版）",
+      "publisher": "北京市药品监督管理局",
+      "url": "https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/436310266/index.html",
+      "published": "2023-12-08",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "2023地方监管检查指南作为历史流程路径，原文要求引用规范变动时从新版；未将其解释为2026全国最新规范。这里是满足指南适用条件的独立场景，不宣称宁波英赛迪实际按此实施。"
+      ],
+      "dates": [],
+      "dateEvidence": []
+    },
+    {
+      "id": "inventory-cn-core-cn-oucate-pressure-eia-2023",
+      "title": "慈溪欧卡特仪表科技有限公司压力测量仪表生产线环境影响报告表（2023年11月拟建）",
+      "publisher": "慈溪欧卡特仪表科技有限公司项目资料；浙江政府公开文件存储",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3462/site/attach/0/1179dd37aab5485990adff95fbbca2b7.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "封面图像明确2023年11月；正文预计2024年投产，但没有验收/运行证据，不把预期当实际。原文将本项目归C4011；该分类仅用于此项目。",
+        "文件成文／版本时间：2023-11；与网页发布日期分开。"
+      ],
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2023-11",
+          "note": "按资料给出的精度保留，不补造月或日。"
+        }
+      ],
+      "dateEvidence": []
+    },
+    {
+      "id": "inventory-cn-core-cn-suda-prospectus-2024",
+      "title": "郑州速达工业机械服务股份有限公司首次公开发行股票并在主板上市招股说明书（2024披露版）",
+      "publisher": "郑州速达工业机械服务股份有限公司；新浪财经托管发行人原始PDF",
+      "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESZ_STOCK/2024/2024-8/2024-08-21/10392677.PDF",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "使用发行人原始招股文件，第三方财经站托管；正文流程及报告期业务为公司自报，不把2021—2023销量转成2026运行、人工占比或自动化回报。业务名称含再制造，但本项目采用企业明确C4330及独立设备修理活动边界，不能类推机床再制造。"
+      ],
+      "dates": [],
+      "dateEvidence": []
+    },
+    {
+      "id": "inventory-cn-core-cn-yisheng-mop-acceptance-2024-publication",
+      "title": "亿盛新材料科技（苏州）有限公司拖把生产项目竣工环境保护验收监测报告表（2024年1月） · 公开页面",
+      "publisher": "亿盛新材料科技（苏州）有限公司编制；苏州常卫环保科技有限公司公示",
+      "url": "http://www.szcwhb.com/wap/article_detail.asp?id=831",
+      "published": "2024-05-10",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "仅用于核对文件公开时间；不能证明投产、持续运行或完整流程。"
+      ]
+    },
+    {
+      "id": "inventory-cn-core-cn-yisheng-mop-acceptance-2024",
+      "title": "亿盛新材料科技（苏州）有限公司拖把生产项目竣工环境保护验收监测报告表（2024年1月）",
+      "publisher": "亿盛新材料科技（苏州）有限公司编制；苏州常卫环保科技有限公司公示",
+      "url": "http://www.szcwhb.com/admin/uploadfile/%E4%BA%BF%E7%9B%9B%E6%96%B0%E6%9D%90%E6%96%99%E7%A7%91%E6%8A%80%EF%BC%88%E8%8B%8F%E5%B7%9E%EF%BC%89%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20%E9%AA%8C%E6%94%B6%E6%8A%A5%E5%91%8A(1)2024510.pdf",
+      "published": "2024-05-10",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "企业自主验收报告，记载2023-12至2024-01调试监测，不等于2026持续运行或独立自动化成功验证。报告2.1局部审批年份与文号、2.2厂区地址/面积文字等有不一致；不采用人员、产能、效率等数值。只把公开工艺列为待现场核验的过程事实。",
+        "文件成文／版本时间：2024-01；与网页发布日期分开。"
+      ],
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2024-01",
+          "note": "按资料给出的精度保留，不补造月或日。"
+        }
+      ],
+      "dateEvidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-yisheng-mop-acceptance-2024-publication",
+          "locator": "文件公示／公开页面的日期标记；报告成文时间另列。"
+        }
+      ]
+    },
+    {
+      "id": "inventory-cn-core-cn-occ-2022-draft-guangyuan",
+      "title": "中华人民共和国职业分类大典（2022年版）（社会公示稿；广元人社公开副本）",
+      "publisher": "国家职业分类大典修订工作委员会；广元市人力资源和社会保障局公开副本",
+      "url": "https://srsj.cngy.gov.cn/Files/UploadFile/SiteFile/20160720104022026/2026/04/14/8a8384d8e7d34d90b1a8e191a4f585cb.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "occupation",
+      "limitations": [
+        "封面实读2022社会公示稿；2026上传路径不表示2026修订或正式版。主副本读取超时后读到此同版571页副本。"
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-services-cn-svc-hyg",
@@ -1325,7 +1698,9 @@
       "limitations": [
         "2007年旧规范；本轮作为流程发现材料，现行适用性待正式标准复核",
         "官方搜索索引正文已读；直接访问TLS失败，未宣称全文重取"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-services-cn-svc-hotel",
@@ -1338,7 +1713,9 @@
       "kind": "occupation",
       "limitations": [
         "2023公示路径中的征求意见稿；仅职责参考，未确认生效"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-services-cn-svc-food",
@@ -1351,7 +1728,9 @@
       "kind": "other",
       "limitations": [
         "2018版，发布公告明确2018-10-01实施；本轮不把规范年限当部署时间"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-services-cn-svc-cook",
@@ -1362,7 +1741,9 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "occupation",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-services-cn-svc-waiter",
@@ -1375,7 +1756,9 @@
       "kind": "occupation",
       "limitations": [
         "2020年版；单独发布日期未核，下载接口content-type异常但PDF已读取"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-services-cn-svc-occ",
@@ -1388,7 +1771,9 @@
       "kind": "occupation",
       "limitations": [
         "2022年版；官网转载单独日期未知；职业定义不决定雇主行业、不提供工时"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-services-cn-svc-cash",
@@ -1401,7 +1786,9 @@
       "kind": "other",
       "limitations": [
         "2019令第3号，2020-04-01施行；官网当前提供文本；不引用已废止2009通知"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-services-cn-svc-property",
@@ -1414,7 +1801,9 @@
       "kind": "other",
       "limitations": [
         "旧办法转载日期；作为流程资料使用，现行地方细则和合同要求待核，不声称2026新规"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-services-cn-svc-network",
@@ -1427,7 +1816,9 @@
       "kind": "other",
       "limitations": [
         "2009年办法；页面迁移年月不作为发布日；现行具体企业SOP未取得"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-services-cn-svc-ict2026",
@@ -1438,7 +1829,9 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-services-cn-svc-rent",
@@ -1451,7 +1844,9 @@
       "kind": "other",
       "limitations": [
         "2021年第17号修正文本，非2020未修正页"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-services-cn-svc-security",
@@ -1464,7 +1859,9 @@
       "kind": "other",
       "limitations": [
         "官网所载修订文本；本轮不引用处罚金额和行政权限数值"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-services-cn-svc-drink",
@@ -1477,7 +1874,9 @@
       "kind": "other",
       "limitations": [
         "原文件为历史专项监管通知；本次未从已读定位确认确切发布日期，不以2023迁移URL推定。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-services-cn-svc-pawn",
@@ -1488,7 +1887,9 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-services-cn-svc-housing2025",
@@ -1499,7 +1900,9 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-services-cn-svc-tourlocal",
@@ -1510,7 +1913,9 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-services-cn-svc-lawarch",
@@ -1521,7 +1926,9 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-cn-services-cn-svc-hr2024",
@@ -1532,7 +1939,9 @@
       "retrieved": "2026-09-09",
       "country": "cn",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-3022.00",
@@ -1545,7 +1954,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-3092.00",
@@ -1558,7 +1969,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-6031.00",
@@ -1571,7 +1984,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-6063.00",
@@ -1584,7 +1999,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-7011.00",
@@ -1597,7 +2014,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-9196.00",
@@ -1610,7 +2029,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-5112.00",
@@ -1623,7 +2044,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-8093.00",
@@ -1636,7 +2059,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-8091.00",
@@ -1649,7 +2074,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-9011.00",
@@ -1662,7 +2089,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-4072.00",
@@ -1675,7 +2104,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-4051.00",
@@ -1688,7 +2119,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-4121.00",
@@ -1701,7 +2134,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-2022.00",
@@ -1714,7 +2149,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-2092.00",
@@ -1727,7 +2164,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-9023.00",
@@ -1740,7 +2179,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-9141.00",
@@ -1753,7 +2194,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-2011.00",
@@ -1766,7 +2209,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-9081.00",
@@ -1779,7 +2224,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-9161.00",
@@ -1792,7 +2239,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-m-bls",
@@ -1803,7 +2252,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-m-poultry",
@@ -1816,7 +2267,9 @@
       "kind": "other",
       "limitations": [
         "任务目录与工艺顺序已读，不能作为食品安全数值验收规范。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-m-food",
@@ -1829,7 +2282,9 @@
       "kind": "other",
       "limitations": [
         "读取时title截至2026-09-04；法规适用范围需按食品类型核对，不套用到烟草。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-m-sew",
@@ -1842,7 +2297,9 @@
       "kind": "other",
       "limitations": [
         "人体工学流程指导，不是全部纺织生产规范。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-m-wood",
@@ -1855,7 +2312,9 @@
       "kind": "other",
       "limitations": [
         "行业工艺描述；家具具体作业指导书尚缺。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-m-paper",
@@ -1868,7 +2327,9 @@
       "kind": "other",
       "limitations": [
         "2008旧资料只作流程分类；不使用产能、技术占比或排放值。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-m-print",
@@ -1881,7 +2342,9 @@
       "kind": "other",
       "limitations": [
         "含旧行业背景，只取印前、印刷、印后和清洗动作，不采用其旧占比。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-m-refine",
@@ -1894,7 +2357,9 @@
       "kind": "other",
       "limitations": [
         "通用炼油流程；不证明2026工厂采用率。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-m-plastic",
@@ -1907,7 +2372,9 @@
       "kind": "other",
       "limitations": [
         "仅热塑性注塑；不得替代橡胶硫化/复材工艺。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-m-energy",
@@ -1920,7 +2387,9 @@
       "kind": "other",
       "limitations": [
         "本清单仅用于适用制造业设备维护，不套用到被其排除的建筑、农业、船厂等；不把一般生产一概视为维修。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-m-semi",
@@ -1933,7 +2402,9 @@
       "kind": "other",
       "limitations": [
         "1999旧工艺分类；具体产线顺序可重复，不代表当前先进制程或人工比例。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-m-air",
@@ -1946,7 +2417,9 @@
       "kind": "other",
       "limitations": [
         "FAA生产许可范围；不直接套用汽车或船舶。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-m-cnc",
@@ -1959,7 +2432,9 @@
       "kind": "other",
       "limitations": [
         "此前美国样板已独立重读；只适用Haas手册条件，非WST现厂SOP。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o35-2012.00",
@@ -1972,7 +2447,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o31-1131.00",
@@ -1985,7 +2462,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o33-2011.00",
@@ -1998,7 +2477,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o47-4051.00",
@@ -2011,7 +2492,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o43-5052.00",
@@ -2024,7 +2507,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o43-5053.00",
@@ -2037,7 +2522,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-8031.00",
@@ -2050,7 +2537,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o53-3052.00",
@@ -2063,7 +2552,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o33-3012.00",
@@ -2076,7 +2567,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o53-7065.00",
@@ -2089,7 +2582,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o25-9042.00",
@@ -2102,7 +2597,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-g-bea",
@@ -2115,7 +2612,9 @@
       "kind": "other",
       "limitations": [
         "2023分类对应表，不作为主榜规模年份；已读取官方原表政府各行。NIPA的business-sector不等于行业表private-industries。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-g-schoolfood",
@@ -2128,7 +2627,9 @@
       "kind": "other",
       "limitations": [
         "页面流程适用于学校厨房；不使用其中旧法规编号作为2026法律判断。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-g-school",
@@ -2141,7 +2642,9 @@
       "kind": "other",
       "limitations": [
         "只证明校内外移动支持范围；课堂动作来自O*NET，具体学生计划待取。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-g-va",
@@ -2154,7 +2657,9 @@
       "kind": "other",
       "limitations": [
         "VA公开流程框架，非每一医院科室现有SOP。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-g-vaapp",
@@ -2167,7 +2672,9 @@
       "kind": "other",
       "limitations": [
         "适用VA及非VA须各机构批准；并非单厂效益证据。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-g-road",
@@ -2180,7 +2687,9 @@
       "kind": "other",
       "limitations": [
         "1999旧维修方法；不取旧工时/费用/效率作为2026参数。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-g-post",
@@ -2193,7 +2702,9 @@
       "kind": "other",
       "limitations": [
         "只核对历史投递流程范围；当前完整M-41和异常件SOP尚缺，不冒充已读完整手册。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-g-water",
@@ -2206,7 +2717,9 @@
       "kind": "other",
       "limitations": [
         "处理技术条件，具体水厂组合与许可须逐场景确认。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-g-waterflow",
@@ -2219,7 +2732,9 @@
       "kind": "other",
       "limitations": [
         "旧通用工艺图，仅识别处理顺序；不作为当年全国设施技术占比。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-g-transit",
@@ -2232,7 +2747,9 @@
       "kind": "other",
       "limitations": [
         "无障碍乘降流程，不替代行车或车辆保养全部规范。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-g-bop",
@@ -2245,7 +2762,9 @@
       "kind": "other",
       "limitations": [
         "联邦接收与财物流程；州地方设施需各自规程。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-g-dla",
@@ -2258,7 +2777,9 @@
       "kind": "other",
       "limitations": [
         "仅一般物资支持任务，无武器使用、机密部署或作战步骤。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-g-dlacontract",
@@ -2271,7 +2792,9 @@
       "kind": "other",
       "limitations": [
         "明确公职与合同执行并存；未采用人数或采购额。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o31-9093.00",
@@ -2284,7 +2807,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o31-9097.00",
@@ -2297,7 +2822,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o29-2034.00",
@@ -2310,7 +2837,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o29-2055.00",
@@ -2323,7 +2852,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o31-2021.00",
@@ -2336,7 +2867,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o31-1121.00",
@@ -2349,7 +2882,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o39-9011.00",
@@ -2362,7 +2897,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o21-1093.00",
@@ -2375,7 +2912,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-h-sterile",
@@ -2388,7 +2927,9 @@
       "kind": "other",
       "limitations": [
         "网页承载2008指南及后续更新；按具体器械与厂商说明使用，非2026效果数据。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-h-clia",
@@ -2401,7 +2942,9 @@
       "kind": "other",
       "limitations": [
         "2022年版流程条目已读；2025/2026原条文访问失败，最新修订待复核，不当作现行法律结论。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-h-xray",
@@ -2414,7 +2957,9 @@
       "kind": "other",
       "limitations": [
         "只盘点影像执行/监测/质控职责；不提供个体曝光参数。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-h-child",
@@ -2427,7 +2972,9 @@
       "kind": "other",
       "limitations": [
         "州许可标准和每机构规程须补；政府幼儿园在政府而非私人624。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-h-shelter",
@@ -2440,7 +2987,9 @@
       "kind": "other",
       "limitations": [
         "仅2022版(b)紧急收容设施最低条件已读；2025 PDF未成功读取；不能将永久住房(c)旧版当2026现行规则。设施条件不证明各动作由社会服务助理执行。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o47-2061.00",
@@ -2453,7 +3002,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o47-2073.00",
@@ -2466,7 +3017,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o47-2031.00",
@@ -2479,7 +3032,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o47-2051.00",
@@ -2492,7 +3047,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o47-2171.00",
@@ -2505,7 +3062,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o47-2221.00",
@@ -2518,7 +3077,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o47-2111.00",
@@ -2531,7 +3092,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o47-2152.00",
@@ -2544,7 +3107,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o49-9021.00",
@@ -2557,7 +3122,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o47-2181.00",
@@ -2570,7 +3137,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o47-2081.00",
@@ -2583,7 +3152,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o47-2141.00",
@@ -2596,7 +3167,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-c-earth",
@@ -2609,7 +3182,9 @@
       "kind": "other",
       "limitations": [
         "加州公路工程检查手册，施工动作与政府驻地工程师审批分开；不把加州要求推为全国统一规范。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-c-concrete",
@@ -2622,7 +3197,9 @@
       "kind": "other",
       "limitations": [
         "州公路工程流程；政府验收与承包商自检是不同执行主体。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-c-steel",
@@ -2635,7 +3212,9 @@
       "kind": "other",
       "limitations": [
         "安全流程约束，不是全部建造方法；本清单不引用页面具体尺寸或事故发生率。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-c-hoist",
@@ -2648,7 +3227,9 @@
       "kind": "other",
       "limitations": [
         "页面含旧法规交叉引用；任务存在识别，不代替当前工程安全合规审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-c-frame",
@@ -2661,7 +3242,9 @@
       "kind": "other",
       "limitations": [
         "限所述高级木框架方案，未将此方案当成全部美国木结构；不采用成本或节材数字。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-c-elec",
@@ -2674,7 +3257,9 @@
       "kind": "other",
       "limitations": [
         "只支持施工电路隔离标识；不把不适用于施工的1910.147套入。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-c-heatpump",
@@ -2687,7 +3272,9 @@
       "kind": "other",
       "limitations": [
         "住宅无风管热泵流程；设备参数/经济收益均未采用。维护段已读过滤说明，其他细部须查OEM。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-c-roof",
@@ -2700,7 +3287,9 @@
       "kind": "other",
       "limitations": [
         "限既有住宅穿透点泛水，不覆盖全部低坡屋面、瓦种或商业屋面。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-c-airseal",
@@ -2713,7 +3302,9 @@
       "kind": "other",
       "limitations": [
         "节能改造清单，只支持密封接口；不是石膏板、油漆或给排水全部施工SOP。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o45-2091.00",
@@ -2726,7 +3317,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o45-2092.00",
@@ -2739,7 +3332,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o45-2093.00",
@@ -2752,7 +3347,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o45-2041.00",
@@ -2765,7 +3362,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o45-4021.00",
@@ -2778,7 +3377,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o45-4022.00",
@@ -2791,7 +3392,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o45-3031.00",
@@ -2804,7 +3407,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o45-4011.00",
@@ -2817,7 +3422,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-corn",
@@ -2830,7 +3437,9 @@
       "kind": "other",
       "limitations": [
         "明尼苏达玉米栽培建议，不把当地播深作为全国阈值。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-grain",
@@ -2843,7 +3452,9 @@
       "kind": "other",
       "limitations": [
         "限小麦大麦储藏；未采用温湿度或时间数值，不代表全部粮食品种。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-apple",
@@ -2856,7 +3467,9 @@
       "kind": "other",
       "limitations": [
         "标题西班牙文，实际读取网页所载英文视频稿；不证明任何果园工时。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-produce",
@@ -2869,7 +3482,9 @@
       "kind": "other",
       "limitations": [
         "品种和市场要求仍需具体SOP；温度/收益参数未采用。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-gap",
@@ -2882,7 +3497,9 @@
       "kind": "other",
       "limitations": [
         "173个PDF页面，正文167页。官方网页说明2025-07-03生效；本次只确认F-10.4，不声称全表已读。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-gap2024",
@@ -2895,7 +3512,9 @@
       "kind": "other",
       "limitations": [
         "2024旧版仅帮助盘点容器动作；v3.1已发布，不能视为现行审核标准已全比对。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-nursery",
@@ -2908,7 +3527,9 @@
       "kind": "other",
       "limitations": [
         "URL含2022但页面显式日期2024-04-25；仅育苗卫生，不是完整播种育苗SOP。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-milk",
@@ -2921,7 +3542,9 @@
       "kind": "other",
       "limitations": [
         "工序识别而非本项目奶牛场人时，具体数值不采用。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-milk2025",
@@ -2934,7 +3557,9 @@
       "kind": "other",
       "limitations": [
         "2025更新与2024文的挤取次数存在差异，本清单不采用次数或时长阈值，按当地奶牛场SOP验证。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-tmr",
@@ -2947,7 +3572,9 @@
       "kind": "other",
       "limitations": [
         "仅流程/条件；所有历史成本、损耗、工时和示例饲喂数字均不采用。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-manure",
@@ -2960,7 +3587,9 @@
       "kind": "other",
       "limitations": [
         "含宾州法律说明，不推为全国相同；只盘点粪污过程，未验证具体储池工程。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-egg",
@@ -2973,7 +3602,9 @@
       "kind": "other",
       "limitations": [
         "小群饲养者指导，仅已读收集清洗段；不把温度浓度等数值用为全国商用规则。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-flock",
@@ -2986,7 +3617,9 @@
       "kind": "other",
       "limitations": [
         "小规模非笼养场景；大型笼养、繁育孵化及肉禽捕捉不能由此覆盖。预算数字未采用。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-swine",
@@ -2999,7 +3632,9 @@
       "kind": "other",
       "limitations": [
         "页面含很旧预算和产量数据且更新时间未确认，不用于2026经济参数；只用来识别繁育/育肥等分支。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-log",
@@ -3012,7 +3647,9 @@
       "kind": "other",
       "limitations": [
         "目录识别全流程，不声称所有子页面都已读。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-buck",
@@ -3025,7 +3662,9 @@
       "kind": "other",
       "limitations": [
         "不转写危险操作的锯切步骤；作为条件与任务边界资料。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-tree",
@@ -3038,7 +3677,9 @@
       "kind": "other",
       "limitations": [
         "南方针叶树苗现场保管，未读完整栽植质量检查方案。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-pots",
@@ -3051,7 +3692,9 @@
       "kind": "other",
       "limitations": [
         "不同海域渔法和规则有别，不采用统一深度、绳制或渔获数量。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-longline",
@@ -3064,7 +3707,9 @@
       "kind": "other",
       "limitations": [
         "没有读取具体受保护物种解救手册，不提供替代培训的处理指令。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-catfish",
@@ -3077,7 +3722,9 @@
       "kind": "other",
       "limitations": [
         "斑点叉尾鮰池塘养殖，不推及所有美国水产；库存估计不确定性保留，未采用数量时间经济数值。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-fishfeed",
@@ -3090,7 +3737,9 @@
       "kind": "other",
       "limitations": [
         "具体饲喂取决于水质、鱼体和当地管理，不引用配方或饲喂频率数值。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-a-fishwater",
@@ -3103,7 +3752,9 @@
       "kind": "other",
       "limitations": [
         "仅特定段落；异常处置、水质采样方法和阈值仍需场站SOP。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-9195.00",
@@ -3116,7 +3767,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-9051.00",
@@ -3129,7 +3782,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-9111.00",
@@ -3142,7 +3797,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-o51-9197.00",
@@ -3155,7 +3812,9 @@
       "kind": "occupation",
       "limitations": [
         "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-m-cement",
@@ -3168,7 +3827,9 @@
       "kind": "other",
       "limitations": [
         "只用工艺识别，未采用排放因子/市场占比/温度等数字；采石矿山劳动不自动算水泥厂。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-m-glass",
@@ -3181,7 +3842,9 @@
       "kind": "other",
       "limitations": [
         "1986旧工艺，1995重排、2007排放图勘误；不证明2026产线配置，不采用其份额和产能。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-m-ceramic",
@@ -3194,7 +3857,9 @@
       "kind": "other",
       "limitations": [
         "2025版，排放因子不是许可限值；本清单不采用排放数字。产品工艺组合需逐厂确认。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-m-pharma",
@@ -3207,7 +3872,9 @@
       "kind": "other",
       "limitations": [
         "各问答有各自历史日期，不能用页面抓取时间表示制度新发布；本次只用已读流程约束。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-m-tire",
@@ -3220,7 +3887,9 @@
       "kind": "other",
       "limitations": [
         "美国行业协会流程概览，不等于任一厂家现场持续运行证明；新胎和翻新胎分清。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-m-auto",
@@ -3233,7 +3902,9 @@
       "kind": "other",
       "limitations": [
         "约2021旧厂商文章；仅确认美国工厂包含工艺段，不证明2026产能/人数或细部动作，具体装配步骤为待现场验证。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-g-fire",
@@ -3246,7 +3917,9 @@
       "kind": "other",
       "limitations": [
         "页面last reviewed日期；重点现场观察与证据保全，不是完整消防战术SOP。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-core-g-fireppe",
@@ -3259,7 +3932,9 @@
       "kind": "other",
       "limitations": [
         "历史培训资料；没有把文中NFPA版次、服役年限或检查频率作为2026现行要求。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-teller",
@@ -3272,7 +3947,9 @@
       "kind": "occupation",
       "limitations": [
         "2026-09-09在线版本；页面更新年不作为精确发布日期；不使用职业频率推算工时或行业就业"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-claims",
@@ -3285,7 +3962,9 @@
       "kind": "occupation",
       "limitations": [
         "2026-09-09在线版本；页面更新年不作为精确发布日期；不使用职业频率推算工时或行业就业"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-property",
@@ -3298,7 +3977,9 @@
       "kind": "occupation",
       "limitations": [
         "2026-09-09在线版本；页面更新年不作为精确发布日期；不使用职业频率推算工时或行业就业"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-maint",
@@ -3311,7 +3992,9 @@
       "kind": "occupation",
       "limitations": [
         "2026-09-09在线版本；页面更新年不作为精确发布日期；不使用职业频率推算工时或行业就业"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-rental",
@@ -3324,7 +4007,9 @@
       "kind": "occupation",
       "limitations": [
         "2026-09-09在线版本；页面更新年不作为精确发布日期；不使用职业频率推算工时或行业就业"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-chem",
@@ -3337,7 +4022,9 @@
       "kind": "occupation",
       "limitations": [
         "2026-09-09在线版本；页面更新年不作为精确发布日期；不使用职业频率推算工时或行业就业"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-survey",
@@ -3350,7 +4037,9 @@
       "kind": "occupation",
       "limitations": [
         "2026-09-09在线版本；页面更新年不作为精确发布日期；不使用职业频率推算工时或行业就业"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-vet",
@@ -3363,7 +4052,9 @@
       "kind": "occupation",
       "limitations": [
         "2026-09-09在线版本；页面更新年不作为精确发布日期；不使用职业频率推算工时或行业就业"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-stock",
@@ -3376,7 +4067,9 @@
       "kind": "occupation",
       "limitations": [
         "2026-09-09在线版本；页面更新年不作为精确发布日期；不使用职业频率推算工时或行业就业"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-cashier",
@@ -3389,7 +4082,9 @@
       "kind": "occupation",
       "limitations": [
         "2026-09-09在线版本；页面更新年不作为精确发布日期；不使用职业频率推算工时或行业就业"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-sales",
@@ -3402,7 +4097,9 @@
       "kind": "occupation",
       "limitations": [
         "2026-09-09在线版本；页面更新年不作为精确发布日期；不使用职业频率推算工时或行业就业"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-ship",
@@ -3415,7 +4112,9 @@
       "kind": "occupation",
       "limitations": [
         "2026-09-09在线版本；页面更新年不作为精确发布日期；不使用职业频率推算工时或行业就业"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-telecom",
@@ -3428,7 +4127,9 @@
       "kind": "occupation",
       "limitations": [
         "2026-09-09在线版本；页面更新年不作为精确发布日期；不使用职业频率推算工时或行业就业"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-tower",
@@ -3441,7 +4142,9 @@
       "kind": "occupation",
       "limitations": [
         "2026-09-09在线版本；页面更新年不作为精确发布日期；不使用职业频率推算工时或行业就业"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-broadcast",
@@ -3454,7 +4157,9 @@
       "kind": "occupation",
       "limitations": [
         "2026-09-09在线版本；页面更新年不作为精确发布日期；不使用职业频率推算工时或行业就业"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-fedcash",
@@ -3467,7 +4172,9 @@
       "kind": "other",
       "limitations": [
         "网页注明2023-11-01修订；在线流程，不是银行工时"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-fema",
@@ -3480,7 +4187,9 @@
       "kind": "other",
       "limitations": [
         "网页未标日期；培训中的NFIP照片要求，不能代替全部保险SOP"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-hud",
@@ -3493,7 +4202,9 @@
       "kind": "other",
       "limitations": [
         "V3.0"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-recall",
@@ -3504,7 +4215,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-fdalab",
@@ -3517,7 +4230,9 @@
       "kind": "other",
       "limitations": [
         "Revision 07；公开PDF要求以内部QMiS为当前正式版本，本次无法访问QMiS。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-ngs",
@@ -3528,7 +4243,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-vetsubmit",
@@ -3539,7 +4256,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-grocery",
@@ -3553,7 +4272,9 @@
       "limitations": [
         "OSHA Publication 3192（官方行业索引标2004）；当前PDF上传日期不视为原始发布日期。",
         "仅实际读取官方PDF搜索索引的第12页正文；原PDF大写/小写及旧URL直接读取均受访问错误限制，不能声称全文已读。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-kehe",
@@ -3564,7 +4285,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-osha268",
@@ -3578,7 +4301,9 @@
       "limitations": [
         "2026-09-09在线条文检索版本，未另推定具体修订日。",
         "官方页面直接读取返回403；实际读取官方搜索索引返回的各列明条文正文，未声称整份标准全文读取。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-hardware",
@@ -3591,7 +4316,9 @@
       "kind": "occupation",
       "limitations": [
         "页面标Updated 2026；确切发布日期未知。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-nist88",
@@ -3604,7 +4331,9 @@
       "kind": "other",
       "limitations": [
         "September 2025 final；元数据发布日期2025-09-26；2026 FAQ计划说明不等于Rev.2修订。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-fuelatt",
@@ -3615,7 +4344,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "occupation",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-pump",
@@ -3626,7 +4357,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "occupation",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-conveyor",
@@ -3637,7 +4370,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "occupation",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-brokerclerk",
@@ -3648,7 +4383,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "occupation",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-appraiser",
@@ -3659,7 +4396,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "occupation",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-libtech",
@@ -3670,7 +4409,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "occupation",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-camera",
@@ -3681,7 +4422,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "occupation",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-light",
@@ -3692,7 +4435,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "occupation",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-pharmtech",
@@ -3703,7 +4448,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "occupation",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-ust",
@@ -3716,7 +4463,9 @@
       "kind": "other",
       "limitations": [
         "February 2016；历史操作手册，当前适用要求另由EPA在线2015 requirements页面交叉核对。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-ustlive",
@@ -3729,7 +4478,9 @@
       "kind": "other",
       "limitations": [
         "2026-09-09读取的官方在线要求；标题2015指制度版本，非本次网页发布日期。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-grainsafe",
@@ -3742,7 +4493,9 @@
       "kind": "other",
       "limitations": [
         "实际读取官方搜索索引返回的原文段；直接OSHA页面通路在前轮受403限制。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-grainsample",
@@ -3755,7 +4508,9 @@
       "kind": "other",
       "limitations": [
         "July 2020"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-spcc",
@@ -3768,7 +4523,9 @@
       "kind": "other",
       "limitations": [
         "August 2013；官方入口2025-09-12更新仍链接本件，年份不冒充新规。"
-      ]
+      ],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-dtcc",
@@ -3779,7 +4536,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-fannieapp",
@@ -3790,7 +4549,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-pharm2026",
@@ -3801,7 +4562,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-filmsafe",
@@ -3812,7 +4575,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-lochandle",
@@ -3823,7 +4588,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-loccare",
@@ -3834,7 +4601,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-paralegal",
@@ -3845,7 +4614,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "occupation",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-ndbexhibit",
@@ -3856,7 +4627,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-accountantbound",
@@ -3867,7 +4640,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "inventory-us-services-us-svc-consultbound",
@@ -3878,7 +4653,9 @@
       "retrieved": "2026-09-09",
       "country": "us",
       "kind": "other",
-      "limitations": []
+      "limitations": [],
+      "dates": [],
+      "dateEvidence": []
     },
     {
       "id": "automation-cn-services-cn-auto-landow",
@@ -4736,6 +5513,2298 @@
       "dates": [],
       "evidenceLevel": "manufacturer-product-description",
       "readStatus": "bounded-source-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-precision",
+      "title": "USDA ERS precision adoption 2023",
+      "publisher": "USDA ERS",
+      "url": "https://ers.usda.gov/data-products/charts-of-note/110550",
+      "published": "2024-12-10",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "official-statistics",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2024-12-10",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2023调查",
+      "evidenceLevel": "official-adoption-survey",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-depth",
+      "title": "UGA seeding depth verification",
+      "publisher": "University of Georgia Extension",
+      "url": "https://precisionagirrigation.extension.uga.edu/2023/03/planter-preparation-checking-seeding-depth-settings-using-blocks/",
+      "published": "2023-03-13",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2023-03-13",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2023技术指导",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-drone",
+      "title": "UDel drones crop scouting",
+      "publisher": "University of Delaware Extension",
+      "url": "https://www.udel.edu/academics/colleges/canr/cooperative-extension/fact-sheets/drones-crop-scouting/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "网页所列为最后修改/更新日期，首次发布日期未确认。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2025-03",
+          "note": "网页所列为最后修改/更新日期，首次发布日期未确认。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "2025更新",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-sample",
+      "title": "USDA grain producer quick facts",
+      "publisher": "USDA AMS",
+      "url": "https://www.ams.usda.gov/publications/content/quick-facts-producers",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未标明数据期",
+      "evidenceLevel": "official-operational-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-aeration",
+      "title": "KSU aeration controllers",
+      "publisher": "Kansas State University Extension",
+      "url": "https://bookstore.ksre.ksu.edu/pubs/questions-and-answers-about-aeration-controllers_MF2090.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2002-05",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2002-05",
+          "note": "按原资料日期精度记录，不补造月或日；版本日期与生效日期分开。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "所读 MF2090 版本印记为2002年5月；不是2026试验。",
+      "evidenceLevel": "extension-field-experience",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-weigh",
+      "title": "USDA bulk weighing scale",
+      "publisher": "USDA AMS",
+      "url": "https://www.ams.usda.gov/resources/operation-bulk-weighing-scale",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未标明数据期",
+      "evidenceLevel": "official-mechanism-description",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-appleprototype",
+      "title": "USDA ARS apple sorting prototype",
+      "publisher": "USDA ARS",
+      "url": "https://scientificdiscoveries.ars.usda.gov/explore-our-discoveries/midwest/mi-precision-sorting-keeps-bad-apples-out-of-the-bunch",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未标明试验年份",
+      "evidenceLevel": "US-field-prototype",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-applematurity",
+      "title": "UC Davis apple produce facts",
+      "publisher": "UC Davis Postharvest Center",
+      "url": "https://postharvest.ucdavis.edu/produce-facts-sheets/apple",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "网页所列为最后修改/更新日期，首次发布日期未确认。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2015-03",
+          "note": "网页所列为最后修改/更新日期，首次发布日期未确认。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "2015 Honeycrisp指导",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-wsuchoices",
+      "title": "Choices mechanization specialty crops",
+      "publisher": "Agricultural & Applied Economics Association / WSU作者",
+      "url": "https://s3.wp.wsu.edu/uploads/sites/908/2026/01/Choices-Mechanization.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2025",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "Volume40 Quarter2；2026仅上传路径",
+      "evidenceLevel": "academic-synthesis",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-bindog",
+      "title": "Penn State Bin Dog field prototype 2017",
+      "publisher": "Penn State research repository",
+      "url": "https://pure.psu.edu/en/publications/bin-dog-a-robotic-platform-for-bin-management-in-orchards/",
+      "published": "2017-05-22",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2017-05-22",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2017原型试验",
+      "evidenceLevel": "US-field-prototype",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-harvest",
+      "title": "NC State harvesting and handling fresh produce",
+      "publisher": "NC State Extension",
+      "url": "https://content.ces.ncsu.edu/introduction-to-the-postharvest-engineering-for-fresh-fruits-and-vegetables/8-harvesting-and-handling-fresh-produce",
+      "published": "2025-05-01",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2025-05-01",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2025指导，含历史案例",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-clean",
+      "title": "UMN cleaning tools containers surfaces",
+      "publisher": "University of Minnesota Extension",
+      "url": "https://extension.umn.edu/agriculture/farm-operations-and-systems/farm-food-safety/cleaning-and-sanitizing-tools-harvest-containers-and-surfaces",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2018复核",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-transplant",
+      "title": "UF IFAS plug transplanting",
+      "publisher": "UF IFAS / Kentucky / Texas A&M",
+      "url": "https://propg.ifas.ufl.edu/04-seeds/03-germination/14-seedsgermination-transplanting.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "网页所列为最后修改/更新日期，首次发布日期未确认。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2023-02-24",
+          "note": "网页所列为最后修改/更新日期，首次发布日期未确认。"
+        }
+      ],
+      "dateEvidence": [],
+      "evidencePeriod": "网页最后修改2023",
+      "evidenceLevel": "extension-mechanism-description",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-irrigation",
+      "title": "UF nursery irrigation checklist",
+      "publisher": "UF IFAS",
+      "url": "https://ask.ifas.ufl.edu/publication/EP469",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未标明现场期",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-ams",
+      "title": "UMN milking dairy cows with robots",
+      "publisher": "University of Minnesota Extension",
+      "url": "https://extension.umn.edu/precision-dairy/milking-dairy-cows-robots",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2025复核；清洁失败例来自欧洲",
+      "evidenceLevel": "extension-survey-synthesis",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-amsecon",
+      "title": "UMN are milking robots right for you",
+      "publisher": "University of Minnesota Extension",
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/dairy/dairy-news/are-milking-robots-right-for-you",
+      "published": "2022-10-07",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2022-10-07",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2022旧指导",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-amsfetch",
+      "title": "Wisconsin fetching cows in AMS",
+      "publisher": "University of Wisconsin Madison Extension",
+      "url": "https://dairy.extension.wisc.edu/articles/best-practices-for-fetching-cows-in-automatic-milking-systems/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未标明现场期",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-amsflow",
+      "title": "Wisconsin AMS facility design",
+      "publisher": "University of Wisconsin Madison Extension",
+      "url": "https://dairy.extension.wisc.edu/articles/automated-milking-systems-facility-design-considerations/",
+      "published": "2026-01-16",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2026-01-16",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "原载2025年11月；网页2026发布",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-amslatest",
+      "title": "Robotic milking gains ground, especially among midsized dairies",
+      "publisher": "USDA ERS",
+      "url": "https://ers.usda.gov/data-products/charts-of-note/114194",
+      "published": "2026-06-02",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "official-statistics",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2026-06-02",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2016及2021调查；报告2026-01",
+      "evidenceLevel": "official-adoption-survey",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-tmr",
+      "title": "UMN feeding total mixed rations",
+      "publisher": "University of Minnesota Extension",
+      "url": "https://extension.umn.edu/agriculture/animals-and-livestock/dairy/feeding-total-mixed-rations",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未标明现场期",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-tmrvar",
+      "title": "Penn State TMR consistency",
+      "publisher": "Penn State Extension",
+      "url": "https://extension.psu.edu/tmr-management-ensuring-formulated-rations-make-it-to-the-bunk",
+      "published": "2024-12-03",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2024-12-03",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2024更新",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-scraper",
+      "title": "Missouri automated swine manure scraper",
+      "publisher": "University of Missouri Extension / USDA ARS",
+      "url": "https://extension.missouri.edu/publications/g2531",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2017-09",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-03复核；改造发生年份未给",
+      "evidenceLevel": "extension-operator-case",
+      "readStatus": "indexed-excerpt-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-eggsmall",
+      "title": "UConn NCAT small-scale egg handling",
+      "publisher": "NCAT ATTRA via UConn",
+      "url": "https://animalscience.uconn.edu/wp-content/uploads/sites/3396/2022/06/poultry-extension_2_2727663716.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "旧ATTRA资料，托管2022不等于发布年",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-eggscan",
+      "title": "USDA ARS pressure imaging egg cracks",
+      "publisher": "USDA ARS",
+      "url": "https://www.ars.usda.gov/research/publications/publication/?seqNo115=260381",
+      "published": "2012-04-25",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2012-04-25",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2012论文，网页2026修改非新试验",
+      "evidenceLevel": "US-short-field-study",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-swineplf",
+      "title": "MSU adoption of precision swine technology",
+      "publisher": "Michigan State University Extension",
+      "url": "https://www.canr.msu.edu/news/will-precision-livestock-farming-be-adopted-on-swine-farms",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。 本次及独立审查均未核完整原文；日期和样本细节不足。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "检索索引资料约2023；准确日期待补",
+      "evidenceLevel": "extension-survey-extract",
+      "readStatus": "indexed-excerpt-only; full-source-access-403-at-independent-review"
+    },
+    {
+      "id": "automation-us-agriculture-e-swinerfid",
+      "title": "UT RFID hallway feasibility",
+      "publisher": "North Carolina State University researchers; hosted by University of Tennessee",
+      "url": "https://plf.tennessee.edu/wp-content/uploads/sites/229/2024/01/Feasibility-of-a-UHF-RFID-system-to-identify-nursery-pigs-moving-through-a-hallway.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2022-12 美国仔猪通道试验；论文发表日期未知，2024托管路径不是发表日期。",
+      "evidenceLevel": "US-experimental-study",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-feller",
+      "title": "OSHA feller buncher",
+      "publisher": "OSHA",
+      "url": "https://www.osha.gov/etools/logging/mechanical-operations/feller-buncher-forwarder",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未标明现场期",
+      "evidenceLevel": "official-mechanism-description",
+      "readStatus": "indexed-excerpt-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-processor",
+      "title": "OSHA processor harvester",
+      "publisher": "OSHA",
+      "url": "https://www.osha.gov/etools/logging/mechanical-operations/processor-harvester",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未标明现场期",
+      "evidenceLevel": "official-mechanism-description",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-forwarder",
+      "title": "OSHA forwarder",
+      "publisher": "OSHA",
+      "url": "https://www.osha.gov/etools/logging/mechanical-operations/forwarder",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未标明现场期",
+      "evidenceLevel": "official-mechanism-description",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-terrain",
+      "title": "USFS mechanical felling terrain limits",
+      "publisher": "US Forest Service",
+      "url": "https://www.fs.usda.gov/t-d/pubs/pdfpubs/pdf11512815/pdf11512815dpi72.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。 本次及独立审查均未核完整原文；日期和样本细节不足。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2011",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "USFS 1151–2815资料",
+      "evidenceLevel": "official-guidance-indexed-extract",
+      "readStatus": "indexed-excerpt-only; full-source-access-403-at-independent-review"
+    },
+    {
+      "id": "automation-us-agriculture-e-planttree",
+      "title": "UF planting southern pines",
+      "publisher": "UF IFAS",
+      "url": "https://ask.ifas.ufl.edu/publication/FR456",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "南方松技术指导，准确修订日期待补",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-seedling",
+      "title": "Missouri seedling care",
+      "publisher": "Missouri Department of Conservation",
+      "url": "https://mdc.mo.gov/trees-plants/tree-seedlings/planting-methods-seedling-care",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未标明现场期",
+      "evidenceLevel": "state-operational-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-siteprep",
+      "title": "MSU mechanical site preparation",
+      "publisher": "Mississippi State University Extension",
+      "url": "https://www.extension.msstate.edu/publications/mechanical-site-preparation-for-forestry-mississippi",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2026-01",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "POD01-26版本",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-pottrial",
+      "title": "NOAA on-demand gear trial",
+      "publisher": "NOAA Fisheries",
+      "url": "https://www.fisheries.noaa.gov/new-england-mid-atlantic/science-data/2023-northeast-experimental-demand-gear-system-trials",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2023限定区试验；网页有后续更新",
+      "evidenceLevel": "US-permitted-field-trial",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-potfail",
+      "title": "May 21 2025 TRT Webinar – On Demand Gear",
+      "publisher": "NOAA Fisheries",
+      "url": "https://www.fisheries.noaa.gov/s3/2025-05/May-21-TRT-Webinar-On-Demand-Gear.pdf",
+      "published": "2025-05-21",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2025-05-21",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "试验汇总截至2025-05-14",
+      "evidenceLevel": "US-permitted-field-trial",
+      "readStatus": "indexed-excerpt-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-winch",
+      "title": "NIOSH fishing winch design",
+      "publisher": "CDC NIOSH",
+      "url": "https://www.cdc.gov/niosh/bulletin/2026/ptd-fishing.html",
+      "published": "2026-04-13",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2026-04-13",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026发布，历史事故与设计资料",
+      "evidenceLevel": "official-safety-research",
+      "readStatus": "indexed-excerpt-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-longlinegear",
+      "title": "NOAA HMS gear scoping 2024",
+      "publisher": "NOAA Fisheries",
+      "url": "https://www.fisheries.noaa.gov/s3/2024-05/0648-XD861-Scoping-5.1.24withcover508.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "封面只支持May 2024；文件名不作精确发布日期。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2024-05",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2024 scoping文档",
+      "evidenceLevel": "official-gear-description",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-smartbuoy",
+      "title": "NOAA smart buoy technology partnership",
+      "publisher": "NOAA Technology Partnerships Office / Blue Ocean Gear",
+      "url": "https://techpartnerships.noaa.gov/blue-ocean-gear-smart-buoy/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "技术转移产品页，准确发布日期待补",
+      "evidenceLevel": "commercial-product-availability-self-description",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-em",
+      "title": "NOAA electronic monitoring current programs",
+      "publisher": "NOAA Fisheries",
+      "url": "https://www.fisheries.noaa.gov/national/fisheries-observers/electronic-monitoring",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "页面含2017–2023图和已过计划时间",
+      "evidenceLevel": "official-program-description",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-emlimit",
+      "title": "NOAA longline preimplementation evaluation",
+      "publisher": "NOAA PIFSC",
+      "url": "https://www.fisheries.noaa.gov/resource/document/evaluation-electronic-monitoring-pre-implementation-hawaii-based-longline",
+      "published": "2019-11-04",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2019-11-04",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2019夏威夷预实施试验",
+      "evidenceLevel": "US-preimplementation-study",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-release",
+      "title": "NOAA sea turtle release protocols",
+      "publisher": "NOAA Fisheries",
+      "url": "https://media.fisheries.noaa.gov/dam-migration/nmfs_sefsc_sea_turtle_handling_protocols.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2019",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "NMFS-SEFSC735，钩线海龟指南",
+      "evidenceLevel": "official-tool-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-aquaharvest",
+      "title": "MSU catfish harvesting loading transport",
+      "publisher": "Mississippi State University Extension",
+      "url": "https://www.extension.msstate.edu/agriculture/catfish/harvesting-loading-and-transport",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未标明生产观察年份",
+      "evidenceLevel": "extension-operational-practice",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-aquasense",
+      "title": "USFS catfish electronic nose",
+      "publisher": "US Forest Service / USDA ARS authors",
+      "url": "https://research.fs.usda.gov/treesearch/47035",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "paper",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2013",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2013鱼片电子鼻实验",
+      "evidenceLevel": "US-experimental-study",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-a-corn",
+      "title": "Strategies for successful corn planting",
+      "publisher": "University of Minnesota Extension",
+      "url": "https://extension.umn.edu/agriculture/crop-production/corn/strategies-successful-corn-planting",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "明尼苏达玉米栽培建议，不把当地播深作为全国阈值。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2021复核",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-a-grain",
+      "title": "Storing wheat and barley",
+      "publisher": "University of Minnesota Extension",
+      "url": "https://extension.umn.edu/agriculture/crop-production/small-grains/storing-wheat-and-barley",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "限小麦大麦储藏；未采用温湿度或时间数值，不代表全部粮食品种。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2018复核",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-a-apple",
+      "title": "Guía para Mejorar la Cosecha de Manzana / Harvest success video transcript",
+      "publisher": "Penn State Extension",
+      "url": "https://extension.psu.edu/guia-para-mejorar-la-cosecha-de-manzana",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "标题西班牙文，实际读取网页所载英文视频稿；不证明任何果园工时。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "教程年份未标明",
+      "evidenceLevel": "extension-training",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-a-produce",
+      "title": "Keeping Produce Fresh: Best Practices for Producers",
+      "publisher": "Penn State Extension",
+      "url": "https://extension.psu.edu/keeping-produce-fresh-best-practices-for-producers",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "品种和市场要求仍需具体SOP；温度/收益参数未采用。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "页面年代未确认，含历史指导",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-a-nursery",
+      "title": "Tomato Transplants & Bacterial Disease",
+      "publisher": "University of Minnesota Extension",
+      "url": "https://blog-fruit-vegetable-ipm.extension.umn.edu/2022/04/tomato-transplants-bacterial-disease.html",
+      "published": "2024-04-25",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "URL含2022但页面显式日期2024-04-25；仅育苗卫生，不是完整播种育苗SOP。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2024-04-25",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2024指导",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-a-milk",
+      "title": "Standard Operating Procedure for the Milking Facility",
+      "publisher": "Penn State Extension",
+      "url": "https://extension.psu.edu/standard-operating-procedure-for-the-milking-facility",
+      "published": "2024-09-12",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "工序识别而非本项目奶牛场人时，具体数值不采用。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2024-09-12",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2024指导",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-a-milk2025",
+      "title": "Milking Management: Consistency is the Key!",
+      "publisher": "Penn State Extension",
+      "url": "https://extension.psu.edu/milking-management-consistency-is-the-key",
+      "published": "2025-12-03",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "2025更新与2024文的挤取次数存在差异，本清单不采用次数或时长阈值，按当地奶牛场SOP验证。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2025-12-03",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2025指导",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-a-tmr",
+      "title": "Total Mixed Rations for Dairy Cows",
+      "publisher": "Penn State Extension",
+      "url": "https://extension.psu.edu/total-mixed-rations-for-dairy-cows",
+      "published": "2023-09-14",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "仅流程/条件；所有历史成本、损耗、工时和示例饲喂数字均不采用。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2023-09-14",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2023更新",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-a-egg",
+      "title": "Proper Handling of Eggs: From Hen to Consumption",
+      "publisher": "Penn State Extension",
+      "url": "https://extension.psu.edu/proper-handling-of-eggs-from-hen-to-consumption",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "小群饲养者指导，仅已读收集清洗段；不把温度浓度等数值用为全国商用规则。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未标明生产观察期",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-a-flock",
+      "title": "Small-Scale Egg Production (Organic and Conventional)",
+      "publisher": "Penn State Extension",
+      "url": "https://extension.psu.edu/small-scale-egg-production-organic-and-non-organic",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "小规模非笼养场景；大型笼养、繁育孵化及肉禽捕捉不能由此覆盖。预算数字未采用。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未标明生产观察期",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-a-pots",
+      "title": "Fishing Gear: Traps and Pots",
+      "publisher": "NOAA Fisheries",
+      "url": "https://www.fisheries.noaa.gov/national/bycatch/fishing-gear-traps-and-pots",
+      "published": "2025-05-12",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "不同海域渔法和规则有别，不采用统一深度、绳制或渔获数量。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2025-05-12",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2025页面更新",
+      "evidenceLevel": "official-gear-description",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-a-longline",
+      "title": "Fishing Gear: Pelagic Longlines",
+      "publisher": "NOAA Fisheries",
+      "url": "https://www.fisheries.noaa.gov/national/bycatch/fishing-gear-pelagic-longlines",
+      "published": "2025-11-14",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "没有读取具体受保护物种解救手册，不提供替代培训的处理指令。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2025-11-14",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2025页面更新",
+      "evidenceLevel": "official-gear-description",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-a-catfish",
+      "title": "Production Phases and Systems",
+      "publisher": "Mississippi State University Extension",
+      "url": "https://extension.msstate.edu/agriculture/catfish/production-phases-and-systems",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "斑点叉尾鮰池塘养殖，不推及所有美国水产；库存估计不确定性保留，未采用数量时间经济数值。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未标明生产观察期",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-a-fishfeed",
+      "title": "Catfish Feeds and Feeding",
+      "publisher": "Mississippi State University Extension",
+      "url": "https://www.accessibility.extension.msstate.edu/agriculture/catfish/catfish-feeds-and-feeding",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "具体饲喂取决于水质、鱼体和当地管理，不引用配方或饲喂频率数值。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未标明生产观察期",
+      "evidenceLevel": "extension-operational-practice",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-a-fishwater",
+      "title": "Catfish Water Quality",
+      "publisher": "Mississippi State University Extension",
+      "url": "https://extension.msstate.edu/agriculture/catfish/catfish-water-quality",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不证明2026特定经营主体持续运行；不包含本任务工时/现金流测量，除非单列。",
+        "仅特定段落；异常处置、水质采样方法和阈值仍需场站SOP。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "未标明生产观察期",
+      "evidenceLevel": "extension-guidance",
+      "readStatus": "relevant-source-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-o45-2091.00",
+      "title": "Agricultural Equipment Operators",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/45-2091.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09访问版本；职业动作列表非采用调查",
+      "evidenceLevel": "occupation-task-description",
+      "readStatus": "full-tasks-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-o45-2092.00",
+      "title": "Farmworkers and Laborers, Crop, Nursery, and Greenhouse",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/45-2092.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09访问版本；职业动作列表非采用调查",
+      "evidenceLevel": "occupation-task-description",
+      "readStatus": "full-tasks-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-o45-2093.00",
+      "title": "Farmworkers, Farm, Ranch, and Aquacultural Animals",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/45-2093.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09访问版本；职业动作列表非采用调查",
+      "evidenceLevel": "occupation-task-description",
+      "readStatus": "full-tasks-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-o45-2041.00",
+      "title": "Graders and Sorters, Agricultural Products",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/45-2041.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09访问版本；职业动作列表非采用调查",
+      "evidenceLevel": "occupation-task-description",
+      "readStatus": "full-tasks-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-o45-4021.00",
+      "title": "Fallers",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/45-4021.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09访问版本；职业动作列表非采用调查",
+      "evidenceLevel": "occupation-task-description",
+      "readStatus": "full-tasks-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-o45-3031.00",
+      "title": "Fishing and Hunting Workers",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/45-3031.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09访问版本；职业动作列表非采用调查",
+      "evidenceLevel": "occupation-task-description",
+      "readStatus": "full-tasks-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-o45-4011.00",
+      "title": "Forest and Conservation Workers",
+      "publisher": "O*NET / U.S. Department of Labor",
+      "url": "https://www.onetonline.org/link/details/45-4011.00",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "occupation",
+      "limitations": [
+        "O*NET职责用于识别动作，不证明本机构实施、人工工时或所有制；当前清单为章节级引用，任务短句级匹配尚待独立审查。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2026-09-09访问版本；职业动作列表非采用调查",
+      "evidenceLevel": "occupation-task-description",
+      "readStatus": "full-tasks-section-read"
+    },
+    {
+      "id": "automation-us-agriculture-a-gap",
+      "title": "USDA Harmonized GAP Standard v3.1",
+      "publisher": "USDA AMS",
+      "url": "https://www.ams.usda.gov/sites/default/files/media/Harmonized_GAP_Standard_Version_3.1.pdf",
+      "published": "2025-07-03",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "standard",
+      "limitations": [
+        "仅核读F-10.1/F-10.2；全标准其他内容不在本轮复核范围。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2025-07-03",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025-07-01",
+          "note": "按原资料日期精度记录，不补造月或日；版本日期与生效日期分开。"
+        },
+        {
+          "kind": "effective",
+          "value": "2025-07-03",
+          "note": "按原资料日期精度记录，不补造月或日；版本日期与生效日期分开。"
+        }
+      ],
+      "dateEvidence": [
+        {
+          "sourceId": "automation-us-agriculture-e-gapnews",
+          "locator": "Program News 第1段；Harmonized GAP Standards and Checklists 第1段"
+        }
+      ],
+      "evidencePeriod": "PDF版本日期2025-07-01；项目官网说明新版发布/生效2025-07-03。",
+      "evidenceLevel": "audit-standard-context",
+      "readStatus": "F10.1-F10.2-read"
+    },
+    {
+      "id": "automation-us-agriculture-a-gap2024",
+      "title": "USDA Harmonized GAP Standard v3.0, historical container detail",
+      "publisher": "USDA AMS",
+      "url": "https://www.ams.usda.gov/sites/default/files/media/HarmonizedGAPStandardVersion3.0.pdf",
+      "published": "2024-02-09",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "standard",
+      "limitations": [
+        "2024旧版仅帮助盘点容器动作；v3.1已发布，不能视为现行审核标准已全比对。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "publishedLabel": "2024-02-09",
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "2024-02-09",
+      "evidenceLevel": "audit-standard-context",
+      "readStatus": "F10.1-F10.2-read"
+    },
+    {
+      "id": "automation-us-agriculture-e-gapnews",
+      "title": "Harmonized GAP — Program News",
+      "publisher": "USDA AMS",
+      "url": "https://www.ams.usda.gov/services/auditing/gap-ghp/harmonized",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "只读版本时间公告，不代表全标准核查。",
+        "来源用于美国任务研究；文中其他地区或相邻动作只能按明确边界作背景，不能计为本任务美国采用。"
+      ],
+      "dates": [],
+      "dateEvidence": [],
+      "evidencePeriod": "官网回顾2025-07-03发布生效；PDF版本日另列",
+      "evidenceLevel": "official-program-news",
+      "readStatus": "official-indexed-source-section-read"
+    },
+    {
+      "id": "automation-us-services-uss-e-glory",
+      "title": "GLR-100 Series",
+      "publisher": "Glory",
+      "url": "https://www.glory-global.com/en-us/products-and-services/hardware/teller-cash-recyclers/glr-100-series",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "不是已核型号的美国客户当前运行记录；不采用标称速度/容量。",
+        "来源适用范围：global-product-US-market",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "无发布日期的产品页面",
+      "evidenceLevel": "manufacturer-product-description",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-purdue",
+      "title": "Purdue Federal Credit Union case study",
+      "publisher": "Glory",
+      "url": "https://www.glory-global.com/en-us/resources/en_us/customer-case-studies/purdue-federal-credit-union",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "未证明 GLR-100 型号或 2026 当前在运。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "案例日期与在运时间未列",
+      "evidenceLevel": "vendor-reported-named-deployment",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-statefarm",
+      "title": "Drones",
+      "publisher": "State Farm",
+      "url": "https://goodneighborcenter.statefarm.com/our-impact/drones/index.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "只支持可见屋顶查勘；不是室内全部损伤或自动定损。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "2015 测试许可、2017 理赔飞手、2018 许可历史",
+      "evidenceLevel": "operator-historical-deployment",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-dtcc",
+      "title": "Deposits Service",
+      "publisher": "DTCC",
+      "url": "https://www.dtcc.com/asset-services/securities-processing/deposits-service",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "存款服务、FAST 与赎回/退出流程须区分。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "所读当前无日期服务说明",
+      "evidenceLevel": "operator-service-description",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-fast",
+      "title": "Fast Automated Securities Transfer",
+      "publisher": "DTCC",
+      "url": "https://www.dtcc.com/asset-services/agent-services/fast",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "不是对所有凭证或所有退出指令的机器人处理证明。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "当前无日期服务说明",
+      "evidenceLevel": "operator-service-description",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-cashvis",
+      "title": "Bringing Cash Visibility to money movement",
+      "publisher": "U.S. Bank",
+      "url": "https://www.usbank.com/about-us-bank/company-blog/article-library/bringing-cash-visibility-to-money-movement-from-armored-carriers-to-customers.html",
+      "published": "2024-05-20",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "不把押运人员劳动记入金融业，不采用交接时间收益或全美铺开推断。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "publishedLabel": "2024-05-20",
+      "dates": [],
+      "evidencePeriod": "2023 数字化、2024 芝加哥试点",
+      "evidenceLevel": "operator-reported-pilot",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-fedquality",
+      "title": "Currency Quality Program FAQ",
+      "publisher": "Federal Reserve Financial Services",
+      "url": "https://www.frbservices.org/resources/financial-services/cash/faq/currency-quality-program.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "支持设备设置条件；不证明污染钞券自动分类。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "当前无日期问答",
+      "evidenceLevel": "official-process-guidance",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-hertz",
+      "title": "Hertz and UVeye Partner to Modernize Vehicle Maintenance",
+      "publisher": "Hertz",
+      "url": "https://newsroom.hertz.com/articles/article-details/hertz-and-uveye-partner-to-modernize-vehicle-maintenance-with-ai-technology/",
+      "published": "2025-04-16",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "不得把未来扩展视为已完成或自动收费责任认定。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "publishedLabel": "2025-04-16",
+      "dates": [],
+      "evidencePeriod": "2025 亚特兰大启用；其他站点为当时计划",
+      "evidenceLevel": "operator-vendor-reported-deployment",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-zipcar",
+      "title": "NHTSA Announces Consent Order with Zipcar",
+      "publisher": "NHTSA",
+      "url": "https://www.nhtsa.gov/press-releases/nhtsa-announces-consent-order-zipcar",
+      "published": "2023-10-16",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "改进措施是 Zipcar 自述，非监管独立验证；未证明软件导致违法。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "publishedLabel": "2023-10-16",
+      "dates": [],
+      "evidencePeriod": "监管处理及 Zipcar 对自 2018 年措施的自述",
+      "evidenceLevel": "regulator-finding-plus-operator-self-report",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-getachertz",
+      "title": "Hertz Rental Car",
+      "publisher": "Getac",
+      "url": "https://www.getac.com/us/success-stories/hertz-rental-car/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "终端辅助员工，不是无人车辆验收；不采用节拍数字。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "无日期的美国站点案例",
+      "evidenceLevel": "vendor-reported-named-deployment",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-urtools",
+      "title": "Tool Solutions",
+      "publisher": "United Rentals",
+      "url": "https://www.unitedrentals.com/solutions/specialty-solutions/tool-solutions",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "不能用数字记录证明归还工具完整性、功能或维修自动验收。",
+        "来源适用范围：US-market-site-not-specified",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "无日期服务说明",
+      "evidenceLevel": "provider-service-description",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-probox",
+      "title": "ProBox OnDemand automates tool tracking",
+      "publisher": "United Rentals",
+      "url": "https://www.unitedrentals.com/project-uptime/expertise/united-rentals-probox-ondemand-automates-tool-tracking",
+      "published": "2024-10-01",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "电子借用关联不是物理返还/补件/收费证明。",
+        "来源适用范围：US-market-site-not-specified",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "publishedLabel": "2024-10-01",
+      "dates": [],
+      "evidencePeriod": "2024 服务介绍，客户站点未列",
+      "evidenceLevel": "provider-product-description",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-smartrent",
+      "title": "Timberland Partners resolves maintenance issues",
+      "publisher": "SmartRent",
+      "url": "https://smartrent.com/case-studies/timberland-partners/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "不采用自报比例/省时，不把平台记录当设备维修完成。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "2022 审计后切换；现页时间未列",
+      "evidenceLevel": "vendor-reported-named-deployment",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-fannie",
+      "title": "Property Data Collection 101",
+      "publisher": "Fannie Mae",
+      "url": "https://singlefamily.fanniemae.com/property-valuation/property-data-collection-101",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "PDC 是特定估价支持流程；执行主体/业务分类和本任务验收须另核，不是自动估价。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "当前无日期说明",
+      "evidenceLevel": "official-workflow-description",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-eurofinspdf",
+      "title": "Advancement and approach in automation, BioPharmaceutical News Spring 2026",
+      "publisher": "Eurofins",
+      "url": "https://cdnmedia.eurofins.com/corporate-eurofins/media/1ebkhxq4/biopharm-news-spring-2026.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "美国出版资料不直接确认美国某站点；封面 Lancaster 新楼为 2027 计划，不倒推机器人已运行。",
+        "来源适用范围：global-US-publication-site-not-specified",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "Spring 2026 版本；无精确发布日期",
+      "evidenceLevel": "operator-description-existing-tools-plus-plans",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-ward",
+      "title": "Ward Laboratories LIMS Modernization",
+      "publisher": "MadeLabs",
+      "url": "https://www.madelabs.io/case-studies/ward-labs",
+      "published": "2026-02-16",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "农业检测服务归专业检测；不归客户农场。采样、物理分装和授权签发未由数据接口证明。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "publishedLabel": "2026-02-16",
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2026-07-31",
+          "note": "修订日期与首发日期分开。"
+        }
+      ],
+      "evidencePeriod": "2025-07 切换；页面更新 2026-07-31",
+      "evidenceLevel": "vendor-reported-named-deployment",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-agilentqc",
+      "title": "ICP-OES Help: QC",
+      "publisher": "Agilent",
+      "url": "https://icp-oes.help.agilent.com/en/HowTo/Software/QC.htm",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "不证明自动重新取样、修复仪器或授权发报告；不是美国客户部署。",
+        "来源适用范围：global-product",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "无日期产品帮助",
+      "evidenceLevel": "manufacturer-technical-documentation",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-trimblelock",
+      "title": "Trimble Access 2025.20: GeoLock search",
+      "publisher": "Trimble",
+      "url": "https://help.fieldsystems.trimble.com/trimble-access/2025.20/en/instrument-geolock-search.htm",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "锁定棱镜不等于找回地籍控制标或自动搬放仪器。",
+        "来源适用范围：global-product",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "2025.20 软件版本",
+      "evidenceLevel": "manufacturer-technical-documentation",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-idexx",
+      "title": "SediVue Dx FAQs",
+      "publisher": "IDEXX",
+      "url": "https://www.idexx.com/en/veterinary/analyzers/sedivue-dx-analyzer/sedivue-resource-center/sedivue-faqs/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "不是自动采样或动物照护；厂商答疑不是美国客户现场记录。",
+        "来源适用范围：global-product",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "无日期产品帮助",
+      "evidenceLevel": "manufacturer-technical-documentation",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-satovet",
+      "title": "Veterinary Lab Streamlines Specimen Labeling",
+      "publisher": "SATO",
+      "url": "https://www.satoamerica.com/insights/case/veterinary-lab-streamlines-specimen-labeling-with-sato-ws2-printers/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "美国站点页面不证明客户位于美国；仅作邻近技术资料，不算美国案例。",
+        "来源适用范围：unknown",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "未列日期与客户地点",
+      "evidenceLevel": "vendor-anonymous-case",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-litsmart",
+      "title": "LitSmart Exhibit Sticker",
+      "publisher": "Kilpatrick LitSmart",
+      "url": "https://www.ktlitsmart.com/litsmart-exhibit-sticker",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "工具不等于实体标贴机器人，未核 2026 当前采用。",
+        "来源适用范围：US-firm-global-case-locations-unspecified",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "2017 开发/推广历史",
+      "evidenceLevel": "operator-historical-tool-description",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-walmartdsl",
+      "title": "How the shelf got smarter and our jobs got easier",
+      "publisher": "Walmart",
+      "url": "https://corporate.walmart.com/news/2026/03/02/how-the-shelf-got-smarter-and-our-jobs-got-easier",
+      "published": "2026-03-02",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "没有证明自主补货、完整盘点、顾客识别或损伤检查。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "publishedLabel": "2026-03-02",
+      "dates": [],
+      "evidencePeriod": "2026 已有站点实践；扩展另列计划",
+      "evidenceLevel": "operator-reported-deployment",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-badger",
+      "title": "Busy Beaver Building Centers autonomous robot case",
+      "publisher": "Badger Technologies",
+      "url": "https://www.badger-technologies.com/resource/customer-success-stories/badger-busy-beaver.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "未核当前在运；报告不是实物补货。未采用时间节省数字。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "Delmont 美国历史案例，日期未列",
+      "evidenceLevel": "vendor-reported-named-deployment",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-target",
+      "title": "Checkout improvements",
+      "publisher": "Target",
+      "url": "https://corporate.target.com/press/fact-sheet/2024/03/checkout-improvements",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "更新日不当首发日；自助结账不证明所有异常可无人处理。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2025-05-05",
+          "note": "修订日期与首发日期分开。"
+        }
+      ],
+      "evidencePeriod": "页面更新 2025-05-05；2024-03 引入",
+      "evidenceLevel": "operator-policy-and-deployment",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-dg",
+      "title": "Quarterly report for period ended May 3, 2024",
+      "publisher": "Dollar General / SEC",
+      "url": "https://www.sec.gov/Archives/edgar/data/29534/000155837024008742/dg-20240503x10q.htm",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "不能从公司说明推全部损耗因自助结账造成；仅反映当时策略。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "2024-05-03 季度，申报日期本轮未核",
+      "evidenceLevel": "operator-regulatory-filing",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-reverse",
+      "title": "ReverseLogix Case Study: Genesco",
+      "publisher": "ReverseLogix",
+      "url": "https://www.reverselogix.com/industry-updates/reverselogix-case-study-genesco/",
+      "published": "2022-09-26",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "不采用即时 ROI 自报；公司总部在美国不独立证明本案站点美国。",
+        "来源适用范围：US-company-site-not-specified",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "publishedLabel": "2022-09-26",
+      "dates": [],
+      "evidencePeriod": "2022 案例；具体 DC 地点本页未列",
+      "evidenceLevel": "vendor-reported-case",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-retailclean",
+      "title": "Convenience Retail Case Study",
+      "publisher": "CoreFacility",
+      "url": "https://corefacility.us/case-study.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只支持地面洗地，不支持柜台、现金设备清洁或全商店保洁；不采用 ROI/性能图。 正文CC1与页头CC1 Pro称谓不同，准确型号和配置待核。",
+        "来源适用范围：US-anonymous",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "日期未知、门店匿名",
+      "evidenceLevel": "vendor-anonymous-case",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-wmtsub",
+      "title": "How Walmart is Using AI to Make Smarter Substitutions",
+      "publisher": "Walmart",
+      "url": "https://corporate.walmart.com/news/2021/06/24/headline-how-walmart-is-using-a-i-to-make-smarter-substitutions-in-online-grocery-orders",
+      "published": "2021-06-24",
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "不证明当下算法性能、自动抓取或所有替代获准。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "publishedLabel": "2021-06-24",
+      "dates": [],
+      "evidencePeriod": "2021 历史运行自述",
+      "evidenceLevel": "operator-historical-deployment",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-walg25",
+      "title": "Walgreens 2025 Impact Report",
+      "publisher": "Walgreens",
+      "url": "https://corporate.walgreens.com/wp-content/uploads/2026/03/Walgreens-Impact-Report_FY25.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "未采用 MFC 总量和回报自述；具体标签/最终核验自动化须单独核读。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "FY2025：2024-09-01 至 2025-08-31；公开文件路径 2026 不作出版日",
+      "evidenceLevel": "operator-annual-report",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-werner",
+      "title": "Werner Electric zone-route order fulfillment",
+      "publisher": "Dematic",
+      "url": "https://www.dematic.com/en-us/insights/case-studies/werner-electric-implements-multi-channel-order-fulfillment/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "美国地址须另核；包件动作不自动外推整托验收或捆扎。",
+        "来源适用范围：US-country-site-detail-needs-confirmation",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "未列年月的部署案例",
+      "evidenceLevel": "vendor-reported-named-deployment",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-grainsample",
+      "title": "Operation of a Diverter-Type Sampler",
+      "publisher": "USDA AMS",
+      "url": "https://www.ams.usda.gov/resources/operation-diverter-type-sampler",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不能证明样品标签、全链交接或所有批次的代表性已达标。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "无日期官方操作说明",
+      "evidenceLevel": "official-mechanism-description",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-compuweigh",
+      "title": "Farmers Coop Elevator Co., Hemingford NE",
+      "publisher": "CompuWeigh / reproduced Grain Journal",
+      "url": "https://www.compuweigh.com/farmers-coop-case-study/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "只作为历史案例；非 2026 在运确认，采访转载层级保留。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "2009 春实施；转载原发日未列",
+      "evidenceLevel": "vendor-hosted-operator-interview",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-kasagrain",
+      "title": "Grain Facility Automation: CPI",
+      "publisher": "Kasa",
+      "url": "https://kasacontrols.com/grain-facility-automation.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "不采用产能或省工数；危险监控不独立证明每一停机/复位动作。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "案例年份未列",
+      "evidenceLevel": "integrator-reported-named-deployment",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-epaatg",
+      "title": "Release Detection for UST: Internal Methods",
+      "publisher": "US EPA",
+      "url": "https://www.epa.gov/ust/release-detection-underground-storage-tanks-internal-methods",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "用于零售地下储罐场景；法律适用须按现行完整要求及实际罐型核实。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2026-04-01",
+          "note": "修订日期与首发日期分开。"
+        }
+      ],
+      "evidencePeriod": "页面更新 2026-04-01",
+      "evidenceLevel": "official-technical-guidance",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-microsoftmedia",
+      "title": "Data-bearing device destruction",
+      "publisher": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/compliance/assurance/assurance-data-bearing-device-destruction",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "没有具体美国数据中心部署证明；不自动确认合规或碎片验收。",
+        "来源适用范围：global",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2025-09-29",
+          "note": "修订日期与首发日期分开。"
+        }
+      ],
+      "evidencePeriod": "页面更新 2025-09-29",
+      "evidenceLevel": "operator-global-policy",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-msrobot",
+      "title": "Saving the planet one hard drive at a time",
+      "publisher": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/garage/blog/2024/09/saving-the-planet-one-hard-drive-at-a-time/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "不是商业运行、完整服务器检修或美国机房部署。",
+        "来源适用范围：global-site-unspecified",
+        "正文把September 3, 2024与June 12, 2026并列；首次发布与更新各自依据未确认，保持空值。",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "2022 Hackathon 项目；网页日期呈现 2024/2026 混杂",
+      "evidenceLevel": "prototype-hackathon",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-att",
+      "title": "Storm Edouard disaster response",
+      "publisher": "AT&T",
+      "url": "https://about.att.com/pages/disaster_relief/2026/storm-edouard.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "operator",
+      "limitations": [
+        "装备可用不证明本次已飞行；不证明木杆结构强度检查和维修自动化。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [
+        {
+          "kind": "updated",
+          "value": "2026-09-03",
+          "note": "修订日期与首发日期分开。"
+        }
+      ],
+      "evidencePeriod": "2026-09-03 2:41 pm CT 更新；9 月 1 日起记录",
+      "evidenceLevel": "operator-capability-statement",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-rtc",
+      "title": "RTC Fiber Communications rugged field tablets",
+      "publisher": "Getac",
+      "url": "https://www.getac.com/us/success-stories/rtc-communications/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "现场实体装配与接线不因数字化被替代。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "日期未列，印第安纳 RTC 现场案例",
+      "evidenceLevel": "vendor-reported-named-deployment",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-ericsson",
+      "title": "Remote Electrical Tilt",
+      "publisher": "Ericsson",
+      "url": "https://www.ericsson.com/en/portfolio/networks/ericsson-radio-system/antenna-system/antenna-system-accessories/ret-components",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "不是美国站点部署证明；不采用 KPI 标称提升。",
+        "来源适用范围：global-product",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "无日期产品说明",
+      "evidenceLevel": "manufacturer-product-description",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-rossvpm",
+      "title": "VPM unifies production at its Richmond HQ",
+      "publisher": "Ross Video",
+      "url": "https://www.rossvideo.com/case-studies/vpm-unifies-production-at-its-new-downtown-richmond-hq/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "不得把别家可能延迟算本案故障；不采用 90 秒或财务效果。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "2023 起规划；此页未列确切发布时间",
+      "evidenceLevel": "vendor-reported-named-deployment",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-wbrz",
+      "title": "WBRZ-TV with Viz Mosart",
+      "publisher": "Vizrt",
+      "url": "https://www.vizrt.com/case-studies/wbrz-tv-boosts-news/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "不把部分未用画幅功能当已运行。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "2018–2019 分期集成；正文疫情报道语境，当前状态未核",
+      "evidenceLevel": "vendor-reported-named-historical-deployment",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-arri",
+      "title": "Control & Automation",
+      "publisher": "ARRI",
+      "url": "https://www.arri.com/en/solutions/workflow-innovation/control-automation",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "不证明美国剧组当前使用或自动搬运安装灯具、判断艺术质量。",
+        "来源适用范围：global-product",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "无日期全球方案",
+      "evidenceLevel": "manufacturer-product-description",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-digitops",
+      "title": "Tops Friendly Markets SM-6000AI",
+      "publisher": "DIGI America",
+      "url": "https://www.digisystem.com/us/case-studies/20231017072344/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "不证明自动搬拿、装袋和全部商品识别；不采用标称首家或速度。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "无日期案例；URL 日期不作出版日",
+      "evidenceLevel": "vendor-reported-named-deployment",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-nourish",
+      "title": "Nourish + Bloom Market autonomous shopping",
+      "publisher": "UST",
+      "url": "https://www.ust.com/en/insights/nourish-bloom-market-re-imagines-grocery-shopping-with-usts-autonomous-frictionless-solutions",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "商品年龄限制分类不等于可靠验证顾客年龄；不推当前无人值守或完全无异常。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "2022-01 首店开业的历史案例，出版日未列",
+      "evidenceLevel": "vendor-reported-named-deployment",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-ngsrecovery",
+      "title": "Survey Mark Recovery",
+      "publisher": "NOAA NGS",
+      "url": "https://www.ngs.noaa.gov/surveys/mark-recovery/index.shtml",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "other",
+      "limitations": [
+        "仅数字提交，不证明现场找标、测量和报告科学准确。",
+        "来源适用范围：US",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "无日期现行网页",
+      "evidenceLevel": "official-digital-workflow",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
+    },
+    {
+      "id": "automation-us-services-uss-e-symdist",
+      "title": "Symbotic Distribution Solution",
+      "publisher": "Symbotic",
+      "url": "https://www.symbotic.com/solutions/distribution-solution/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "us",
+      "kind": "vendor",
+      "limitations": [
+        "通用产品功能不证明 AFS 或任何特定美国批发仓装有全部模块；不采用性能数字。",
+        "来源适用范围：global-product-US-market",
+        "此国家标签表示美国任务研究关联；global/unknown 等范围不证明美国现场采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "无日期产品方案页",
+      "evidenceLevel": "manufacturer-product-description",
+      "readStatus": "bounded-review-corrections-applied-not-full-task-certification"
     }
   ],
   "industries": [
@@ -4776,7 +7845,7 @@
             "uncovered": [
               "未覆盖巷道掘进、钻爆、瓦斯通风防灭火、井下轨道和提升、露天矿、选煤；不得用本场景代表代码06全行业。",
               "正常生产的返工与事故处置不同，尚未识别可独立核算的常规返工任务。",
-              "本门类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。"
+              "本大类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。"
             ],
             "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
           },
@@ -5098,7 +8167,7 @@
             "uncovered": [
               "实木榫卯、定制板件异形、软体绷装、金属塑料竹藤玻璃家具仍分别待盘点。",
               "生产单元表不支持声称所有工厂配置机械手或自动喷涂；机器人部署研究尚未开始。",
-              "本门类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。"
+              "本大类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。"
             ],
             "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
           },
@@ -5120,7 +8189,7 @@
               "纸机穿纸、断纸事故、毛毯网部清洗和设备保养需操作标准；不得把专线已列自动生产线推断为无人。",
               "回收炉安全联锁、熔融物事故、蒸发器结垢清洗及检维修缺专项已读资料。",
               "机器换纸接纸、调版换模、糊箱堵料、废纸分拣、清洁维护尚缺已读专门SOP。",
-              "本门类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。"
+              "本大类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。"
             ],
             "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
           },
@@ -5294,7 +8363,7 @@
               "各炉型精炼分支按实际路线选择；不把LF、真空、喂线等假设为每炉必经。",
               "不合格炉次补吹、改判、回炉的现场准则待补，暂未编造统一返工流程。",
               "开浇准备、结晶器更换、漏钢处置和铸坯修磨需专项原始流程；不能把精整概称当作所有返工已识别。",
-              "本门类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。"
+              "本大类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。"
             ],
             "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
           },
@@ -5351,12 +8420,22 @@
           {
             "code": "35",
             "name": "专用设备制造业",
-            "status": "not-yet-covered",
-            "coveredScenarios": [],
-            "uncovered": [
-              "本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
+            "status": "partial",
+            "coveredScenarios": [
+              "cn-ind-medical-syringe-plastic",
+              "cn-ind-medical-syringe-assemble",
+              "cn-ind-medical-hemostatic-clip",
+              "cn-ind-medical-polymer-incoming",
+              "cn-ind-medical-polymer-clean-tools",
+              "cn-ind-medical-polymer-line-clearance"
             ],
-            "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
+            "uncovered": [
+              "采矿冶金建筑、化工木材非金属、食品饮料烟草、印刷制药日化、纺织服装、电子电工、农林牧渔等专用设备制造尚无具体双路径场景",
+              "医疗器械其他产品、设备系统集成与调试、无菌包装灭菌和质量放行等尚待独立场景；2023北京指南只补来料与卫生/清场局部",
+              "环保邮政社会公共安全等其他专用设备制造尚待",
+              "环评只证明拟定流程，正式操作规程、全部8阶段及自动化证据未完成"
+            ],
+            "classificationValidation": "报告基本情况C3589；只覆盖一拟建医疗器械产品线的局部动作，不将外购零件供应商归到本项目。"
           },
           {
             "code": "36",
@@ -5368,7 +8447,7 @@
             "uncovered": [
               "汽车冲压白车身焊接、涂装、电池模组、发动机和变速器内部装配、商用车上装及再制造仍未完整盘点。",
               "HJ流程表只证明有装配及检验单元，不能支持各车型力矩和劳动投入。",
-              "本门类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。"
+              "本大类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。"
             ],
             "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
           },
@@ -5428,29 +8507,55 @@
             "uncovered": [
               "尚缺钻污处理、棕化、化学配液槽液分析、独立电测、清洗用水和危险废物处理的详细人工作业规范。",
               "步骤按单双多层和终饰路线选择；非所有订单必经同一工序，不能求和生成单板人工工时。",
-              "本门类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。"
+              "本大类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。"
             ],
             "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
           },
           {
             "code": "40",
             "name": "仪器仪表制造业",
-            "status": "not-yet-covered",
-            "coveredScenarios": [],
-            "uncovered": [
-              "本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
+            "status": "partial",
+            "coveredScenarios": [
+              "cn-ind-pressure-head-form",
+              "cn-ind-pressure-component-clean",
+              "cn-ind-pressure-movement-test",
+              "cn-ind-pressure-final-assembly"
             ],
-            "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
+            "uncovered": [
+              "电磁流量计、温度液位分析等工业测量控制产品；所读2024三星电磁流量计环评省略具体工艺，未据其补造任务",
+              "电工、绘图计算测量、实验分析和试验机、供应用仪表及专用仪表",
+              "大类40中的钟表计时、光学仪器、眼镜等其他产品",
+              "所有场景的异常返修、检维修、完整计量质量验收与出厂交付仍待产品规程"
+            ],
+            "classificationValidation": "欧卡特项目环评明确C4011；只建立压力仪表局部路线，不覆盖所有通用或专用仪表。"
           },
           {
             "code": "41",
             "name": "其他制造业",
-            "status": "not-yet-covered",
-            "coveredScenarios": [],
-            "uncovered": [
-              "本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
+            "status": "partial",
+            "coveredScenarios": [
+              "cn-ind-mop-woven-cloth",
+              "cn-ind-mop-knit-sew",
+              "cn-ind-mop-hydro-cloth",
+              "cn-ind-mop-needle-cloth",
+              "cn-ind-mop-cloth-coating",
+              "cn-ind-mop-bristle",
+              "cn-ind-mop-final-assembly"
             ],
-            "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
+            "uncovered": [
+              "4111的鬃毛加工、牙刷、化妆刷、工业刷、其他扫具等独立产品路线未展开",
+              "4119制伞、拉链纽扣、打火机烟具、日用装饰与宠物用品等尚未展开；工艺伞另属24",
+              "4120核辐射加工尚无场景",
+              "拖把植毛/总装核心职业路径尚缺，配套塑料件路线存在混写待核；卫生维护、异常返工和产品出厂全链未完成",
+              "工序路径来自2024企业自主验收报告，局部日期/厂区描述有矛盾；不能以目录已有入口宣称全任务覆盖"
+            ],
+            "classificationValidation": "2017注释4111明确包括拖把；这里按厂内一体化清扫工具产品流程作暂定归属，统计单位/独立外售布和配件须另核。职业分类是执行动作证据，不自动决定企业行业。",
+            "classificationRefs": [
+              {
+                "sourceId": "cn-gb4754-notes-2017",
+                "locatorId": "misc-manufacturing"
+              }
+            ]
           },
           {
             "code": "42",
@@ -5483,16 +8588,32 @@
           {
             "code": "43",
             "name": "金属制品、机械和设备修理业",
-            "status": "not-yet-covered",
-            "coveredScenarios": [],
-            "uncovered": [
-              "本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
+            "status": "partial",
+            "coveredScenarios": [
+              "cn-ind-support-repair-intake",
+              "cn-ind-cylinder-repair-prep",
+              "cn-ind-cylinder-repair-finish",
+              "cn-ind-support-repair-delivery"
             ],
-            "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究",
+            "uncovered": [
+              "4310金属容器、4320通用设备、4341—4349铁路船舶航空等运输设备、4350电气、4360仪器仪表、4390其他设备专业维修仍未展开",
+              "4330只覆盖液压支架与立柱千斤顶局部，其阀类结构件具体维修和其他专用设备仍缺流程",
+              "原图的外缸体、中缸体、活柱、活塞杆、缸套修复仅登记为待拆解单元，未将父汇总作为额外原子任务计数",
+              "损伤检测、异常返修、安全隔离、工装检修、厂外运输与现场交付全链未完成"
+            ],
+            "classificationValidation": "发行人原招股书113页明确C4330，已与2017注释4330核对。机床再制造3429、返回制造厂维修与矿山自营维护等另按实际活动归属。",
             "classificationRefs": [
               {
+                "sourceId": "cn-suda-prospectus-2024",
+                "locatorId": "classification"
+              },
+              {
                 "sourceId": "cn-gb4754-notes-2017",
-                "locatorId": "repair"
+                "locatorId": "repair-scope-detailed"
+              },
+              {
+                "sourceId": "cn-gb4754-notes-2017",
+                "locatorId": "machine-remanufacture"
               }
             ]
           },
@@ -5508,7 +8629,7 @@
               "煤场自燃、粉尘防爆、采制化样、除铁、皮带撕裂等尚待专项规程；消防动作不能简化为一般清洁。",
               "装置和控制系统的实际现场/远程劳动分工尚待核实；不得把有自动控制参数当作人工需求已消失。",
               "启停并网是必要数字及设备操作；跨部门监护和许可细节待专项规程。",
-              "本门类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。"
+              "本大类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。"
             ],
             "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
           },
@@ -5523,7 +8644,7 @@
             "uncovered": [
               "气化器运行、BOG回收、装卸脱开、置换放散和受限空间检修尚缺逐项原始流程；未把设计要求当作实际人工作业时间。",
               "残液残气回收、超装倒气、阀门更换、气瓶搬运与返修须进一步核对许可边界和作业规范。",
-              "本门类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。"
+              "本大类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。"
             ],
             "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
           },
@@ -5537,13 +8658,13 @@
             "uncovered": [
               "工艺分支因来水与排放要求选择；不把A/O、SBR、MBR及多种膜法当作同一厂全部必经。",
               "清池、膜反洗化学清洗、污泥脱水运输、加药搬运、有限空间作业仍缺详细已读流程；工业废水职业不能自动代表全部城镇污水厂分工。",
-              "本门类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。"
+              "本大类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。"
             ],
             "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
           }
         ],
         "sourceFile": "research/inventories/cn-core.json",
-        "inputSha256": "b13c875562b39528d886f32d03c13c0af992d489fd4599e6d030729633376c10",
+        "inputSha256": "5388db09742709d606032d030ced3985f802a6e221441b59cd1302064ee8983e",
         "reviewStatus": "候选清单；未冻结，不代表行业全部任务已研究"
       }
     },
@@ -5582,7 +8703,7 @@
             ],
             "uncovered": [
               "只覆盖食品批零部分场景；非食品与专业贸易、线上业务和其他销售模式未完成。",
-              "按本场景gaps继续拓展，不能称本门类清单已完整。"
+              "按本场景gaps继续拓展，不能称本大类清单已完整。"
             ],
             "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
           },
@@ -5598,14 +8719,14 @@
             ],
             "uncovered": [
               "只覆盖食品批零部分场景；非食品与专业贸易、线上业务和其他销售模式未完成。",
-              "按本场景gaps继续拓展，不能称本门类清单已完整。",
+              "按本场景gaps继续拓展，不能称本大类清单已完整。",
               "已补机动车成品油零售局部场景；其他非食品零售仍大量未覆盖。"
             ],
             "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
           }
         ],
         "sourceFile": "research/inventories/cn-core.json",
-        "inputSha256": "b13c875562b39528d886f32d03c13c0af992d489fd4599e6d030729633376c10",
+        "inputSha256": "5388db09742709d606032d030ced3985f802a6e221441b59cd1302064ee8983e",
         "reviewStatus": "候选清单；未冻结，不代表行业全部任务已研究"
       }
     },
@@ -5875,7 +8996,7 @@
           }
         ],
         "sourceFile": "research/inventories/cn-core.json",
-        "inputSha256": "b13c875562b39528d886f32d03c13c0af992d489fd4599e6d030729633376c10",
+        "inputSha256": "5388db09742709d606032d030ced3985f802a6e221441b59cd1302064ee8983e",
         "reviewStatus": "候选清单；未冻结，不代表行业全部任务已研究"
       }
     },
@@ -5974,7 +9095,7 @@
           }
         ],
         "sourceFile": "research/inventories/cn-core.json",
-        "inputSha256": "b13c875562b39528d886f32d03c13c0af992d489fd4599e6d030729633376c10",
+        "inputSha256": "5388db09742709d606032d030ced3985f802a6e221441b59cd1302064ee8983e",
         "reviewStatus": "候选清单；未冻结，不代表行业全部任务已研究"
       }
     },
@@ -6574,7 +9695,7 @@
             "status": "not-yet-covered",
             "coveredScenarios": [],
             "uncovered": [
-              "本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
+              "本大类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
             ],
             "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
           },
@@ -6587,7 +9708,7 @@
               "cn-trans-freight-terminal"
             ],
             "uncovered": [
-              "本门类其他模式及具体场景未覆盖，逐场景gaps继续拓展；不计算覆盖率。"
+              "本大类其他模式及具体场景未覆盖，逐场景gaps继续拓展；不计算覆盖率。"
             ],
             "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
           },
@@ -6613,7 +9734,7 @@
             "status": "not-yet-covered",
             "coveredScenarios": [],
             "uncovered": [
-              "本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
+              "本大类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
             ],
             "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
           },
@@ -6623,7 +9744,7 @@
             "status": "not-yet-covered",
             "coveredScenarios": [],
             "uncovered": [
-              "本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
+              "本大类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
             ],
             "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
           },
@@ -6633,7 +9754,7 @@
             "status": "not-yet-covered",
             "coveredScenarios": [],
             "uncovered": [
-              "本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
+              "本大类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
             ],
             "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
           },
@@ -6643,7 +9764,7 @@
             "status": "not-yet-covered",
             "coveredScenarios": [],
             "uncovered": [
-              "本门类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
+              "本大类所有主要子行业和作业场景尚待流程规范与职业职责双路径盘点"
             ],
             "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
           },
@@ -6657,13 +9778,13 @@
               "cn-trans-express-lastmile"
             ],
             "uncovered": [
-              "本门类其他模式及具体场景未覆盖，逐场景gaps继续拓展；不计算覆盖率。"
+              "本大类其他模式及具体场景未覆盖，逐场景gaps继续拓展；不计算覆盖率。"
             ],
             "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究"
           }
         ],
         "sourceFile": "research/inventories/cn-core.json",
-        "inputSha256": "b13c875562b39528d886f32d03c13c0af992d489fd4599e6d030729633376c10",
+        "inputSha256": "5388db09742709d606032d030ced3985f802a6e221441b59cd1302064ee8983e",
         "reviewStatus": "候选清单；未冻结，不代表行业全部任务已研究"
       }
     },

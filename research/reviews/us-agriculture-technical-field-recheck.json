@@ -1,0 +1,20 @@
+{
+  "country": "US",
+  "industryId": "us-agriculture",
+  "reviewedAt": "2026-09-09",
+  "reviewer": "root semantic field review",
+  "inputSha256": "99c45dc86a0c71892f5eed2bec0a170403a236a85f930998666485cd8d957c97",
+  "decisionFile": "research/reviews/us-agriculture-technical-field-decisions.json",
+  "decisionSha256": "063ad9cf35768b7676d9843c16ace587294e7438c395553eacdd739f6a2e709e",
+  "checkedTasks": 182,
+  "status": "field-relocation-and-hypothesis-wording-reviewed",
+  "checks": [
+    "逐项读取任务名称、原技术栏和具体待验证条件；没有把提问认证为障碍事实。",
+    "旧技术栏全部引用已在替代方案中保留；导入器逐任务校验旧文本、题名和原输入哈希，不删除原始审查记录。",
+    "182项技术栏输出统一为无证据的待验证假设，原文条件与反向材料仍单独保留。"
+  ],
+  "limitations": [
+    "本次只审查字段语义；没有重复原文事实核查、查询或取得现场工时。"
+  ],
+  "canFreeze": false
+}

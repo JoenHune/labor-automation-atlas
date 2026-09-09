@@ -13,7 +13,7 @@ const barrierNames={technical:'技术条件',economic:'经济参数',adoption:'�
 const publicResearch=computed(()=>t.value.dossier?.publicResearch as Record<string,any>|undefined)
 const claim=(id:string)=>props.record.claims.find(c=>c.id===id)
 const conclusionEvidence=computed(()=>[...new Map(t.value.conclusionIds.flatMap(id=>claim(id)?.evidence??[]).map(r=>[r.sourceId+'|'+r.locator,r])).values()])
-const researchDates=computed(()=>props.record.sources.filter(s=>s.evidenceLevel).map(s=>({id:s.id,title:s.title,period:s.evidencePeriod??(s.published?s.published+' 发布':'首次发布日期未确认')})))
+const researchDates=computed(()=>props.record.sources.filter(s=>s.evidenceLevel).map(s=>({id:s.id,title:s.title,period:(s.evidencePeriod??'未注明资料时期')+' · 发布 '+(s.publishedLabel??s.published??'日期未确认')})))
 </script>
 <template>
  <article class="task-view" :data-country="t.country">

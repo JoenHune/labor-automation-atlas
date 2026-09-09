@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.0",
+  "reviewedAt": "2026-09-09",
+  "reviewType": "independent-delta-recheck",
+  "input": "research/automation/us-agriculture.json",
+  "inputSha256": "a1a7fbcbe31e32588fd4b2098ea6c347c6d2a396c382d5d0bb346733affab0d7",
+  "originalReview": "research/reviews/us-agriculture-automation-decisions.json",
+  "scope": "仅核作者 r2 修订及对应已读原文；未重复 182 项正反查询，不替代首轮独立审查，不冻结行业。",
+  "status": "repairs-mostly-confirmed-with-unresolved-field-classification",
+  "isFrozen": false,
+  "confirmed": [
+    {
+      "id": "LOCATORS",
+      "count": 46,
+      "result": "46 项修复定位逐条回读所指定原文缓存，段落与限缩后说明相符；行号与修订日志一致，已给缓存哈希均与本地文件一致。",
+      "boundaries": "定位可复查不代表完整动作自动化、2026 持续部署或工时支持。"
+    },
+    {
+      "id": "DATES",
+      "result": "GAP 版本日和发布/生效日分列；RFID 试验时间与论文发表日分列；曝气版本改为 2002-05；移栽、无人机和苹果成熟度页面更新日不再充当首发日；刮粪日期不作当前持续运行证明。"
+    },
+    {
+      "id": "ACCESS",
+      "result": "E-SWINEPLF/E-TERRAIN 明示仅索引片段与 403；未升级为已读完整原文。"
+    },
+    {
+      "id": "ADOPTION",
+      "count": 182,
+      "result": "182 项所有采用栏均为 unverified-hypothesis、sourceRefs 空且无无定位 sourceIds，并明示目标经营主体尚未核实。采用障碍未被事实性确认。"
+    },
+    {
+      "id": "WORKING-CAPITAL",
+      "result": "初始部署投入明示排除营运资金，期初占用、后续变化、期末实际回收分账；避免重复扣除，NPV 与回收期仍空。未填参数的模型只能作为计算框架。"
+    },
+    {
+      "id": "OP5",
+      "result": "身份补读允许作为残留成本核算，未把零补读设为必要条件；RFID 与刮粪独立分账。"
+    }
+  ],
+  "taskDecisions": [
+    {
+      "taskId": "US-AGR-VEG-006",
+      "wording": "confirmed",
+      "source": "O45-2092.00/task-11；A-PRODUCE/shade",
+      "finding": "已改为农产品装运和遮阴接收的有限依据，未借用容器苗木 task-23。",
+      "unresolved": [
+        "TECH-FIELD"
+      ]
+    },
+    {
+      "taskId": "US-AGR-TMR-002",
+      "wording": "confirmed",
+      "source": "A-TMR/main；E-TMR/main",
+      "finding": "已删除实验室营养分析未自动化的断言，改为完整动作未获证；外包检测归实际执行主体。",
+      "unresolved": [
+        "TECH-FIELD"
+      ]
+    },
+    {
+      "taskId": "US-AGR-FOREST-007",
+      "wording": "confirmed",
+      "source": "E-PROCESSOR/main",
+      "finding": "异常枝干处理与残留人工改待验证，未继续声称必须人工。",
+      "unresolved": [
+        "TECH-FIELD"
+      ]
+    },
+    {
+      "taskId": "US-AGR-LONGLINE-004",
+      "wording": "confirmed-with-metadata-error",
+      "source": "E-LONGLINEGEAR/main；缓存 609",
+      "finding": "文字已正确承认仅有动力起线器定义，动力布放未获本动作证据。",
+      "unresolved": [
+        "TECH-FIELD",
+        "LONGLINE-STAGE"
+      ]
+    },
+    {
+      "taskId": "US-AGR-EGG-008",
+      "wording": "confirmed",
+      "source": "E-EGGSMALL/cost-context；缓存 15",
+      "finding": "旧资料价格约束已从技术移入经济，技术栏另写明确假设；未作 2026 报价。",
+      "unresolved": []
+    },
+    {
+      "taskId": "US-AGR-MILK-010",
+      "wording": "confirmed-with-metadata-error",
+      "source": "E-AMS/detach；缓存 195",
+      "finding": "反例栏已去掉正向脱杯机制并改未获动作反例，替代方案保留正向机制。",
+      "unresolved": [
+        "TECH-FIELD"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "TECH-FIELD",
+      "taskIds": [
+        "US-AGR-VEG-006",
+        "US-AGR-TMR-002",
+        "US-AGR-FOREST-007",
+        "US-AGR-LONGLINE-004",
+        "US-AGR-MILK-010"
+      ],
+      "status": "needs-repair",
+      "finding": "barriers.technical 仍重复正向机制或本轮未核证据，statementType 为 research-judgment。正向事实不是技术障碍；未获证据也不能直接作障碍。",
+      "requiredChange": "正向事实仅留方案/机理，资料不足进入 evidenceGaps；若技术条件仍需列出，逐项写待验证条件并标 unverified-hypothesis，不能借正向事实引用证明条件已构成障碍。"
+    },
+    {
+      "id": "LONGLINE-STAGE",
+      "taskIds": [
+        "US-AGR-LONGLINE-004"
+      ],
+      "status": "needs-repair",
+      "finding": "动力布放无动作证据，但方案 deploymentStage 仍 documented-mechanism-or-guidance，positiveCounterexample.status 仍 bounded-mechanism-or-tool-only。",
+      "requiredChange": "降为候选且本动作机制未获证；正例改未确认，动力起线仅保留相邻动作背景。"
+    }
+  ],
+  "remainingEvidenceGaps": [
+    "原独立审查的未核原文、完整动作边界、拆分、现场部署、人工投入、负例与经济参数缺口继续有效。",
+    "182 条采用栏仅完成假设标注修复，不代表采访或现场采用障碍核查完成。",
+    "本次未重新取得全部 2026 现场运行证据，未新增 ROI 或冻结结论。"
+  ]
+}
