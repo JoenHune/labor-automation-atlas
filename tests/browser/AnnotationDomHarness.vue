@@ -4,8 +4,9 @@ import {createAnchor,ensureContentIds,liveBlocks,locateQuote,pageScope,rectOf,re
 import {fingerprint,normalizeText} from '../../src/annotations/anchors'
 import {ownedTargetId} from '../../src/annotations/text-targets'
 import type {Anchor} from '../../src/annotations/schema'
-const owner=ref<HTMLElement>(),heading=ref<HTMLElement>(),blank=ref<HTMLElement>(),duplicateOwner=ref<HTMLElement>()
+const owner=ref<HTMLElement>(),heading=ref<HTMLElement>(),blank=ref<HTMLElement>(),duplicateOwner=ref<HTMLElement>(),unicode=ref<HTMLElement>()
 const title=ref('父标题：独立选择与恢复'),showTitle=ref(true),reversed=ref(false),narrow=ref(false),large=ref(false),busy=ref(false)
+const unicodeText=ref('前e\u0301后😀末'),unicodeParts=ref<string[]>([])
 const results=ref<{name:string;passed:boolean;detail?:unknown}[]>([])
 const rows=[{id:'shared-qa-first',text:'第一条独立内容，验收后交接。'},{id:'shared-qa-second',text:'第二条独立内容，保持语义编号。'}]
 const repeated='前'.repeat(100)+'检查'+'后'.repeat(100)
@@ -15,12 +16,51 @@ const rectangle=(el:Element)=>rectOf(el.getBoundingClientRect())
 const rangeOf=(el:Node)=>{const range=document.createRange();range.selectNodeContents(el);return range}
 const scope=()=>pageScope('/labor-automation-atlas/')
 const capture=(range:Range)=>createAnchor(rectOf(range.getBoundingClientRect()),scope(),'qa',range)
+const unicodeRange=(start:number,end:number)=>{
+ const p=unicode.value!.querySelector('p')!,walker=document.createTreeWalker(p,NodeFilter.SHOW_TEXT),range=document.createRange()
+ let node:Node|null,offset=0,started=false
+ while((node=walker.nextNode())){
+  const length=node.textContent!.length
+  if(!started&&start<offset+length){range.setStart(node,start-offset);started=true}
+  if(started&&end<=offset+length){range.setEnd(node,end-offset);return range}
+  offset+=length
+ }
+ throw new Error('测试文字范围不存在')
+}
+const sameBox=(rects:ReturnType<typeof rectangle>[],expected:ReturnType<typeof rectangle>)=>rects.length>0&&Math.abs(Math.min(...rects.map(r=>r.x))-expected.x)<0.5&&Math.abs(Math.max(...rects.map(r=>r.x+r.width))-expected.x-expected.width)<0.5&&rects.every(r=>r.y>=expected.y-0.5&&r.y+r.height<=expected.y+expected.height+0.5)
 const expectReject=async(action:()=>Promise<unknown>,name:string)=>{let message='';try{await action()}catch(e){message=String(e)}check(/无法唯一定位|未能唯一定位|重复文字/.test(message),name,message)}
 let parentAnchor:Anchor|null=null,crossAnchor:Anchor|null=null
 async function run(){
  busy.value=true;results.value=[]
  try{
-  title.value='父标题：独立选择与恢复';showTitle.value=true;reversed.value=false;narrow.value=false;large.value=false;await nextTick();await ensureContentIds()
+  title.value='父标题：独立选择与恢复';showTitle.value=true;reversed.value=false;narrow.value=false;large.value=false;unicodeText.value='前e\u0301后😀末';unicodeParts.value=[];await nextTick();await ensureContentIds()
+  const selectedUnicode=unicodeRange(3,4)
+  const unicodeExpected=rectOf(selectedUnicode.getBoundingClientRect()),unicodeAnchor=await capture(selectedUnicode),unicodeResult=await resolveAnchor(unicodeAnchor,scope())
+  check(unicodeResult.status==='resolved'&&unicodeResult.rects.length===1&&Math.abs(unicodeResult.rects[0].x-unicodeExpected.x)<0.5&&Math.abs(unicodeResult.rects[0].width-unicodeExpected.width)<0.5,'组合字符之后的汉字准确恢复',{expected:unicodeExpected,actual:unicodeResult})
+  for(const glyph of ['e\u0301','a\u0315\u0300','가','😀','👩🏽‍🔬','🇨🇳','क्‍ष']){
+   unicodeText.value='前'+glyph+'后';await nextTick()
+   const range=unicodeRange(1,1+glyph.length),expected=rectOf(range.getBoundingClientRect()),anchor=await capture(range),resolved=await resolveAnchor(anchor,scope())
+   check(anchor.targets[0].text?.exact===normalizeText(glyph)&&resolved.status==='resolved'&&sameBox(resolved.rects,expected),'完整字素恢复：'+glyph)
+   // Inset the selection to avoid browser glyph rectangles overlapping by 1/64 px.
+   const area=await createAnchor({...expected,x:expected.x+0.1,width:expected.width-0.2},scope(),'qa'),areaResolved=await resolveAnchor(area,scope())
+   check(area.targets.length===1&&area.targets[0].textSegments?.some(s=>s.exact===normalizeText(glyph))&&areaResolved.status==='resolved'&&sameBox(areaResolved.rects,expected),'矩形按完整字素定位：'+glyph,area.targets.map(t=>t.textSegments))
+   unicodeText.value=unicodeText.value.normalize('NFC');await nextTick()
+   const normalizedRange=unicodeRange(1,1+glyph.normalize('NFC').length),normalizedResolved=await resolveAnchor(anchor,scope())
+   check(normalizedResolved.status==='resolved'&&sameBox(normalizedResolved.rects,rectOf(normalizedRange.getBoundingClientRect())),'等价字符编码改变后恢复：'+glyph)
+  }
+  unicodeParts.value=['前e','\u0301后'];await nextTick()
+  const splitRange=unicodeRange(1,3),splitAnchor=await capture(splitRange),splitResolved=await resolveAnchor(splitAnchor,scope())
+  check(splitResolved.status==='resolved'&&sameBox(splitResolved.rects,rectOf(splitRange.getBoundingClientRect())),'跨文字节点的组合字符完整定位')
+  unicodeParts.value=['前','é','后'];await nextTick()
+  const recomposed=await resolveAnchor(splitAnchor,scope())
+  check(recomposed.status==='resolved'&&sameBox(recomposed.rects,rectOf(unicodeRange(1,2).getBoundingClientRect())),'节点拆分与编码同时变化后恢复')
+  for(const glyph of ['e\u0301','😀','👩🏽‍🔬']){
+   unicodeParts.value=[];unicodeText.value='前'+glyph+'后';await nextTick()
+   let message='';try{await capture(unicodeRange(1,2))}catch(e){message=String(e)}
+   check(message.includes('完整选择字符或表情'),'不保存半个字符或表情：'+glyph,message)
+   check(locateQuote(unicode.value!,{exact:glyph.slice(0,1),prefix:'前',suffix:glyph.slice(1)+'后'})===null,'既有不完整字素锚点拒绝错挂：'+glyph)
+  }
+  unicodeText.value='前e\u0301后😀末';unicodeParts.value=[];await nextTick()
   const parentId=await ownedTargetId('shared-qa-parent','text')
   parentAnchor=await capture(rangeOf(heading.value!))
   check(parentAnchor.targets.length===1&&parentAnchor.targets[0].contentId===parentId&&parentAnchor.targets[0].text?.exact===title.value,'父标题只属于虚拟父文字目标',parentAnchor.targets.map(t=>({id:t.contentId,text:t.text?.exact})))
@@ -82,6 +122,7 @@ async function run(){
   <p>父块末尾文字。</p>
  </section>
  <div ref="blank" style="height:100px"></div>
+ <section ref="unicode" data-content-id="shared-qa-unicode" class="qa-owner"><p v-if="!unicodeParts.length">{{unicodeText}}</p><p v-else><span v-for="(part,index) in unicodeParts" :key="index">{{part}}</span></p></section>
  <section ref="duplicateOwner" data-content-id="shared-qa-duplicate-owner" class="qa-owner">
   <p>{{repeated+' '+repeated}}</p>
   <div data-content-id="shared-qa-duplicate-child">用于构成嵌套结构的子块。</div>

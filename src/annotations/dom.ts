@@ -1,6 +1,7 @@
 import {fingerprint,normalizeText,relativeRect,intersect,absoluteRect,quoteMatches,sameContentView} from './anchors'
 import {AnchorSchema,type Anchor,type Rect,type Target,type ViewState} from './schema'
 import {ownedTargetId,unambiguousTargets,quoteForSpan,assertTextCoverage} from './text-targets'
+import {normalizeTextOffsets} from './text-offsets'
 export interface LiveBlock {id:string;element:HTMLElement;rect:Rect;fingerprint:string;text:string;kind:Target['kind'];points:Target['dataPoints'];pointRects:(Target['dataPoints'][number]&{rect:Rect})[];space?:boolean;ownedContent?:boolean;virtual?:boolean}
 export const rectOf=(r:DOMRect|DOMRectReadOnly):Rect=>({x:r.x,y:r.y,width:r.width,height:r.height})
 export function contentRoot(){return document.querySelector<HTMLElement>('.VPContent')??document.querySelector<HTMLElement>('main')!}
@@ -74,43 +75,52 @@ function spaceBlock(blocks:LiveBlock[],selection:Rect):LiveBlock|null {
  const bottom=after?(after.rect.y+nearest.rect.y+nearest.rect.height)/2:bounds.bottom
  return {...nearest,id:'space:'+nearest.id,kind:'whitespace',space:true,text:'',points:[],rect:{x:bounds.x,y:top,width:bounds.width,height:Math.max(1,bottom-top)}}
 }
+interface TextPart {node:Text;start:number;end:number}
+interface TextCell {start:number;end:number;parts:TextPart[]}
 function textMap(element:HTMLElement,ownedContent=false) {
  const walker=document.createTreeWalker(element,NodeFilter.SHOW_TEXT,{acceptNode:node=>node.parentElement?.closest(ignoredText)||(ownedContent&&node.parentElement?.closest('[data-content-id]')!==element)?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT})
- let text='',node:Node|null;const positions:{node:Text;offset:number}[]=[]
+ let raw='',node:Node|null;const original:{node:Text;offset:number}[]=[]
  while((node=walker.nextNode())) {
   const value=node.textContent??''
-  for(let i=0;i<value.length;i++) {
-   const char=value[i]
-   if(/\s/.test(char)) {
-    if(text&&!text.endsWith(' ')){text+=' ';positions.push({node:node as Text,offset:i})}
-   }else{text+=char;positions.push({node:node as Text,offset:i})}
-  }
+  raw+=value
+  for(let i=0;i<value.length;i++)original.push({node:node as Text,offset:i})
  }
- while(text.endsWith(' ')){text=text.slice(0,-1);positions.pop()}
+ const {text,spans}=normalizeTextOffsets(raw),cells=new Map<string,TextCell>()
+ const positions=spans.map(span=>{
+  const key=span.start+':'+span.end,existing=cells.get(key);if(existing)return existing
+  const parts:TextPart[]=[]
+  for(let i=span.start;i<span.end;i++) {
+   const p=original[i],last=parts.at(-1)
+   if(last?.node===p.node&&last.end===p.offset)last.end=p.offset+1
+   else parts.push({node:p.node,start:p.offset,end:p.offset+1})
+  }
+  const cell={...span,parts};cells.set(key,cell);return cell
+ })
  return {text,positions}
+}
+function cellRects(cells:TextCell[]):Rect[] {
+ // Separate text-node ranges cannot accidentally include excluded descendants.
+ const parts:TextPart[]=[]
+ for(const cell of new Set(cells))for(const p of cell.parts) {
+  const last=parts.at(-1)
+  if(last?.node===p.node&&p.start<=last.end)last.end=Math.max(last.end,p.end)
+  else parts.push({...p})
+ }
+ return parts.flatMap(p=>{
+  const range=document.createRange();range.setStart(p.node,p.start);range.setEnd(p.node,p.end)
+  return Array.from(range.getClientRects()).filter(r=>r.width>0&&r.height>0).map(rectOf)
+ })
 }
 export function locateQuote(el:HTMLElement,quote:NonNullable<Target['text']>,ownedContent=false):Rect[]|null {
  const map=textMap(el,ownedContent),matches=quoteMatches(map.text,quote)
  if(matches.length!==1)return null
- const start=map.positions[matches[0]],end=map.positions[matches[0]+normalizeText(quote.exact).length-1]
+ const from=matches[0],to=from+normalizeText(quote.exact).length,start=map.positions[from],end=map.positions[to-1]
  if(!start||!end)return null
- if(ownedContent) {
-  // A DOM Range spanning an excluded child would highlight that child as well.
-  // Build ranges per owned text node instead, while retaining the unique quote.
-  const selected=map.positions.slice(matches[0],matches[0]+normalizeText(quote.exact).length),rects:Rect[]=[]
-  for(let i=0;i<selected.length;) {
-   const first=selected[i];let last=first;i++
-   while(i<selected.length&&selected[i].node===first.node)last=selected[i++]
-   const range=document.createRange();range.setStart(first.node,first.offset);range.setEnd(last.node,last.offset+1)
-   rects.push(...Array.from(range.getClientRects()).filter(r=>r.width>0&&r.height>0).map(rectOf))
-  }
-  return rects.length?rects:null
- }
- const range=document.createRange();range.setStart(start.node,start.offset);range.setEnd(end.node,end.offset+1)
- return Array.from(range.getClientRects()).filter(r=>r.width>0&&r.height>0).map(rectOf)
+ if((map.positions[from-1]?.end??0)>start.start||(map.positions[to]?.start??Infinity)<end.end)return null
+ const rects=cellRects(map.positions.slice(from,to));return rects.length?rects:null
 }
 function rectangleText(el:HTMLElement,selection:Rect,ownedContent=false):NonNullable<Target['text']>[] {
- const map=textMap(el,ownedContent),segments:NonNullable<Target['text']>[]=[],range=document.createRange()
+ const map=textMap(el,ownedContent),segments:NonNullable<Target['text']>[]=[],hits=new Map<TextCell,boolean>()
  let start=-1,last=-1
  const finish=()=>{
   if(start<0)return
@@ -123,8 +133,9 @@ function rectangleText(el:HTMLElement,selection:Rect,ownedContent=false):NonNull
   start=-1;last=-1
  }
  for(let i=0;i<map.positions.length;i++) {
-  const p=map.positions[i];range.setStart(p.node,p.offset);range.setEnd(p.node,p.offset+1)
-  const box=range.getBoundingClientRect(),hit=box.width>0&&intersect(rectOf(box),selection)
+  const p=map.positions[i]
+  if(!hits.has(p))hits.set(p,cellRects([p]).some(box=>Boolean(intersect(box,selection))))
+  const hit=hits.get(p)
   if(hit){if(start<0)start=i;last=i}else finish()
  }
  finish();return segments
@@ -137,7 +148,7 @@ function selectedTextNodes(range:Range):Map<Text,{start:number;end:number}> {
  for(const node of nodes) {
   if(node.parentElement?.closest(ignoredText)||!range.intersectsNode(node))continue
   const start=node===range.startContainer?range.startOffset:0,end=node===range.endContainer?range.endOffset:(node.textContent??'').length
-  if(normalizeText((node.textContent??'').slice(start,end)))selected.set(node as Text,{start,end})
+  if(end>start)selected.set(node as Text,{start,end})
  }
  return selected
 }
@@ -160,8 +171,12 @@ export async function createAnchor(selection:Rect,scope:{country:Anchor['country
    if(!textSelection.intersectsNode(b.element))continue
    const map=textMap(b.element,b.ownedContent),indices:number[]=[],covered=new Set<Text>()
    for(const [i,p] of map.positions.entries()) {
-    const part=selected!.get(p.node)
-    if(part&&p.offset>=part.start&&p.offset<part.end){indices.push(i);covered.add(p.node)}
+    if(/\s/.test(map.text[i]))continue
+    const overlaps=p.parts.some(part=>{const s=selected!.get(part.node);return s&&part.end>s.start&&part.start<s.end})
+    if(!overlaps)continue
+    if(!p.parts.every(part=>{const s=selected!.get(part.node);return s&&s.start<=part.start&&s.end>=part.end}))throw new Error('请完整选择字符或表情后重试；草稿正文会保留。')
+    indices.push(i)
+    for(const part of p.parts)if(normalizeText(part.node.data.slice(selected!.get(part.node)!.start,selected!.get(part.node)!.end)))covered.add(part.node)
    }
    if(!indices.length)continue
    quote=quoteForSpan(map.text,indices[0],indices[indices.length-1]+1)
@@ -173,7 +188,7 @@ export async function createAnchor(selection:Rect,scope:{country:Anchor['country
   targets.push({contentId:b.id,kind:quote?'text':b.kind,fingerprint:b.fingerprint,text:quote,textSegments,rect:relative,dataPoints:b.pointRects.filter(p=>intersect(p.rect,selection)).map(({rect,...p})=>p)})
  }
  // A partially mapped text range is also unsafe; never substitute whitespace.
- if(selected)assertTextCoverage([...selected.keys()],owners)
+ if(selected)assertTextCoverage([...selected].filter(([node,part])=>normalizeText(node.data.slice(part.start,part.end))).map(([node])=>node),owners)
  if(!targets.length) {
   const space=spaceBlock(blocks,selection),relative=space&&relativeRect(selection,space.rect)
   if(space&&relative)targets.push({contentId:space.id,kind:'whitespace',fingerprint:space.fingerprint,text:null,rect:relative,dataPoints:[]})

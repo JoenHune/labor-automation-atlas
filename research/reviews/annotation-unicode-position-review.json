@@ -1,0 +1,690 @@
+{
+  "checkedAt": "2026-09-10",
+  "researchVersion": "2026-09-10.preview-12",
+  "scope": "Local production annotation code; no new research data and no GitHub identity claims.",
+  "baseline": "bb53e5f1872f31eec4781150c4c8305d39639ab4",
+  "before": {
+    "text": "前é后😀末",
+    "selectedText": "后",
+    "expected": {
+      "x": 42.234375,
+      "y": 858.390625,
+      "width": 16.015625,
+      "height": 20
+    },
+    "actual": {
+      "status": "resolved",
+      "rects": [
+        {
+          "x": 33,
+          "y": 858.390625,
+          "width": 9.25,
+          "height": 20
+        }
+      ]
+    }
+  },
+  "desktop": {
+    "viewport": {
+      "width": 951,
+      "height": 908
+    },
+    "checks": [
+      {
+        "name": "组合字符之后的汉字准确恢复",
+        "passed": true,
+        "detail": {
+          "expected": {
+            "x": 42.234375,
+            "y": 858.390625,
+            "width": 16.015625,
+            "height": 20
+          },
+          "actual": {
+            "status": "resolved",
+            "rects": [
+              {
+                "x": 42.234375,
+                "y": 858.390625,
+                "width": 16.015625,
+                "height": 20
+              }
+            ]
+          }
+        }
+      },
+      {
+        "name": "完整字素恢复：é",
+        "passed": true
+      },
+      {
+        "name": "矩形按完整字素定位：é",
+        "passed": true,
+        "detail": [
+          [
+            {
+              "exact": "é",
+              "prefix": "前",
+              "suffix": "后"
+            }
+          ]
+        ]
+      },
+      {
+        "name": "等价字符编码改变后恢复：é",
+        "passed": true
+      },
+      {
+        "name": "完整字素恢复：à̕",
+        "passed": true
+      },
+      {
+        "name": "矩形按完整字素定位：à̕",
+        "passed": true,
+        "detail": [
+          [
+            {
+              "exact": "à̕",
+              "prefix": "前",
+              "suffix": "后"
+            }
+          ]
+        ]
+      },
+      {
+        "name": "等价字符编码改变后恢复：à̕",
+        "passed": true
+      },
+      {
+        "name": "完整字素恢复：가",
+        "passed": true
+      },
+      {
+        "name": "矩形按完整字素定位：가",
+        "passed": true,
+        "detail": [
+          [
+            {
+              "exact": "가",
+              "prefix": "前",
+              "suffix": "后"
+            }
+          ]
+        ]
+      },
+      {
+        "name": "等价字符编码改变后恢复：가",
+        "passed": true
+      },
+      {
+        "name": "完整字素恢复：😀",
+        "passed": true
+      },
+      {
+        "name": "矩形按完整字素定位：😀",
+        "passed": true,
+        "detail": [
+          [
+            {
+              "exact": "😀",
+              "prefix": "前",
+              "suffix": "后"
+            }
+          ]
+        ]
+      },
+      {
+        "name": "等价字符编码改变后恢复：😀",
+        "passed": true
+      },
+      {
+        "name": "完整字素恢复：👩🏽‍🔬",
+        "passed": true
+      },
+      {
+        "name": "矩形按完整字素定位：👩🏽‍🔬",
+        "passed": true,
+        "detail": [
+          [
+            {
+              "exact": "👩🏽‍🔬",
+              "prefix": "前",
+              "suffix": "后"
+            }
+          ]
+        ]
+      },
+      {
+        "name": "等价字符编码改变后恢复：👩🏽‍🔬",
+        "passed": true
+      },
+      {
+        "name": "完整字素恢复：🇨🇳",
+        "passed": true
+      },
+      {
+        "name": "矩形按完整字素定位：🇨🇳",
+        "passed": true,
+        "detail": [
+          [
+            {
+              "exact": "🇨🇳",
+              "prefix": "前",
+              "suffix": "后"
+            }
+          ]
+        ]
+      },
+      {
+        "name": "等价字符编码改变后恢复：🇨🇳",
+        "passed": true
+      },
+      {
+        "name": "完整字素恢复：क्‍ष",
+        "passed": true
+      },
+      {
+        "name": "矩形按完整字素定位：क्‍ष",
+        "passed": true,
+        "detail": [
+          [
+            {
+              "exact": "क्‍ष",
+              "prefix": "前",
+              "suffix": "后"
+            }
+          ]
+        ]
+      },
+      {
+        "name": "等价字符编码改变后恢复：क्‍ष",
+        "passed": true
+      },
+      {
+        "name": "跨文字节点的组合字符完整定位",
+        "passed": true
+      },
+      {
+        "name": "节点拆分与编码同时变化后恢复",
+        "passed": true
+      },
+      {
+        "name": "不保存半个字符或表情：é",
+        "passed": true,
+        "detail": "Error: 请完整选择字符或表情后重试；草稿正文会保留。"
+      },
+      {
+        "name": "既有不完整字素锚点拒绝错挂：é",
+        "passed": true
+      },
+      {
+        "name": "不保存半个字符或表情：😀",
+        "passed": true,
+        "detail": "Error: 请完整选择字符或表情后重试；草稿正文会保留。"
+      },
+      {
+        "name": "既有不完整字素锚点拒绝错挂：😀",
+        "passed": true
+      },
+      {
+        "name": "不保存半个字符或表情：👩🏽‍🔬",
+        "passed": true,
+        "detail": "Error: 请完整选择字符或表情后重试；草稿正文会保留。"
+      },
+      {
+        "name": "既有不完整字素锚点拒绝错挂：👩🏽‍🔬",
+        "passed": true
+      },
+      {
+        "name": "父标题只属于虚拟父文字目标",
+        "passed": true,
+        "detail": [
+          {
+            "id": "shared-qa-parent:own:text:c5df3984c5d2420f92dcc59a",
+            "text": "父标题：独立选择与恢复"
+          }
+        ]
+      },
+      {
+        "name": "父标题立即恢复",
+        "passed": true
+      },
+      {
+        "name": "既有叶子编号与指纹保持",
+        "passed": true
+      },
+      {
+        "name": "跨父标题与子块完整且不重复",
+        "passed": true,
+        "detail": [
+          {
+            "id": "shared-qa-parent:own:text:c5df3984c5d2420f92dcc59a",
+            "text": "父标题：独立选择与恢复"
+          },
+          {
+            "id": "shared-qa-first",
+            "text": "独立子块 shared-qa-first第一条独立内容，验收后交接。"
+          }
+        ]
+      },
+      {
+        "name": "父标题恢复矩形不包含子块",
+        "passed": true,
+        "detail": [
+          {
+            "x": 17,
+            "y": 347,
+            "width": 211.203125,
+            "height": 24
+          }
+        ]
+      },
+      {
+        "name": "只框子块不会多挂父目标",
+        "passed": true
+      },
+      {
+        "name": "对子块排序后父子锚点保持",
+        "passed": true
+      },
+      {
+        "name": "变窄并放大文字后仍按内容恢复",
+        "passed": true
+      },
+      {
+        "name": "父文字改变时整条批注停止挂载",
+        "passed": true
+      },
+      {
+        "name": "父原文删除后不转挂子块",
+        "passed": true
+      },
+      {
+        "name": "原文恢复后按相同内容匹配",
+        "passed": true
+      },
+      {
+        "name": "父块内具名图片成为独立目标",
+        "passed": true
+      },
+      {
+        "name": "图片框选与恢复不夹带父文字",
+        "passed": true
+      },
+      {
+        "name": "真正空白区域仍能恢复",
+        "passed": true
+      },
+      {
+        "name": "重复文字上下文不足时拒绝保存",
+        "passed": true,
+        "detail": "Error: 所选文字有未能唯一定位的内容，请调整选区后重试；草稿正文会保留。"
+      },
+      {
+        "name": "矩形命中重复文字时同样拒绝",
+        "passed": true,
+        "detail": "Error: 选区中的重复文字无法唯一定位，请调整选区后重试；草稿正文会保留。"
+      },
+      {
+        "name": "重复图片不能降为关联空白",
+        "passed": true,
+        "detail": "Error: 选区中的图片或文字存在重复编号，无法唯一定位；请调整选区后重试，草稿正文会保留。"
+      },
+      {
+        "name": "部分可定位区域也不能掩盖歧义内容",
+        "passed": true,
+        "detail": "Error: 选区中的图片或文字存在重复编号，无法唯一定位；请调整选区后重试，草稿正文会保留。"
+      }
+    ]
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "checks": [
+      {
+        "name": "组合字符之后的汉字准确恢复",
+        "passed": true,
+        "detail": {
+          "expected": {
+            "x": 42.234375,
+            "y": 858.390625,
+            "width": 16.015625,
+            "height": 20
+          },
+          "actual": {
+            "status": "resolved",
+            "rects": [
+              {
+                "x": 42.234375,
+                "y": 858.390625,
+                "width": 16.015625,
+                "height": 20
+              }
+            ]
+          }
+        }
+      },
+      {
+        "name": "完整字素恢复：é",
+        "passed": true
+      },
+      {
+        "name": "矩形按完整字素定位：é",
+        "passed": true,
+        "detail": [
+          [
+            {
+              "exact": "é",
+              "prefix": "前",
+              "suffix": "后"
+            }
+          ]
+        ]
+      },
+      {
+        "name": "等价字符编码改变后恢复：é",
+        "passed": true
+      },
+      {
+        "name": "完整字素恢复：à̕",
+        "passed": true
+      },
+      {
+        "name": "矩形按完整字素定位：à̕",
+        "passed": true,
+        "detail": [
+          [
+            {
+              "exact": "à̕",
+              "prefix": "前",
+              "suffix": "后"
+            }
+          ]
+        ]
+      },
+      {
+        "name": "等价字符编码改变后恢复：à̕",
+        "passed": true
+      },
+      {
+        "name": "完整字素恢复：가",
+        "passed": true
+      },
+      {
+        "name": "矩形按完整字素定位：가",
+        "passed": true,
+        "detail": [
+          [
+            {
+              "exact": "가",
+              "prefix": "前",
+              "suffix": "后"
+            }
+          ]
+        ]
+      },
+      {
+        "name": "等价字符编码改变后恢复：가",
+        "passed": true
+      },
+      {
+        "name": "完整字素恢复：😀",
+        "passed": true
+      },
+      {
+        "name": "矩形按完整字素定位：😀",
+        "passed": true,
+        "detail": [
+          [
+            {
+              "exact": "😀",
+              "prefix": "前",
+              "suffix": "后"
+            }
+          ]
+        ]
+      },
+      {
+        "name": "等价字符编码改变后恢复：😀",
+        "passed": true
+      },
+      {
+        "name": "完整字素恢复：👩🏽‍🔬",
+        "passed": true
+      },
+      {
+        "name": "矩形按完整字素定位：👩🏽‍🔬",
+        "passed": true,
+        "detail": [
+          [
+            {
+              "exact": "👩🏽‍🔬",
+              "prefix": "前",
+              "suffix": "后"
+            }
+          ]
+        ]
+      },
+      {
+        "name": "等价字符编码改变后恢复：👩🏽‍🔬",
+        "passed": true
+      },
+      {
+        "name": "完整字素恢复：🇨🇳",
+        "passed": true
+      },
+      {
+        "name": "矩形按完整字素定位：🇨🇳",
+        "passed": true,
+        "detail": [
+          [
+            {
+              "exact": "🇨🇳",
+              "prefix": "前",
+              "suffix": "后"
+            }
+          ]
+        ]
+      },
+      {
+        "name": "等价字符编码改变后恢复：🇨🇳",
+        "passed": true
+      },
+      {
+        "name": "完整字素恢复：क्‍ष",
+        "passed": true
+      },
+      {
+        "name": "矩形按完整字素定位：क्‍ष",
+        "passed": true,
+        "detail": [
+          [
+            {
+              "exact": "क्‍ष",
+              "prefix": "前",
+              "suffix": "后"
+            }
+          ]
+        ]
+      },
+      {
+        "name": "等价字符编码改变后恢复：क्‍ष",
+        "passed": true
+      },
+      {
+        "name": "跨文字节点的组合字符完整定位",
+        "passed": true
+      },
+      {
+        "name": "节点拆分与编码同时变化后恢复",
+        "passed": true
+      },
+      {
+        "name": "不保存半个字符或表情：é",
+        "passed": true,
+        "detail": "Error: 请完整选择字符或表情后重试；草稿正文会保留。"
+      },
+      {
+        "name": "既有不完整字素锚点拒绝错挂：é",
+        "passed": true
+      },
+      {
+        "name": "不保存半个字符或表情：😀",
+        "passed": true,
+        "detail": "Error: 请完整选择字符或表情后重试；草稿正文会保留。"
+      },
+      {
+        "name": "既有不完整字素锚点拒绝错挂：😀",
+        "passed": true
+      },
+      {
+        "name": "不保存半个字符或表情：👩🏽‍🔬",
+        "passed": true,
+        "detail": "Error: 请完整选择字符或表情后重试；草稿正文会保留。"
+      },
+      {
+        "name": "既有不完整字素锚点拒绝错挂：👩🏽‍🔬",
+        "passed": true
+      },
+      {
+        "name": "父标题只属于虚拟父文字目标",
+        "passed": true,
+        "detail": [
+          {
+            "id": "shared-qa-parent:own:text:c5df3984c5d2420f92dcc59a",
+            "text": "父标题：独立选择与恢复"
+          }
+        ]
+      },
+      {
+        "name": "父标题立即恢复",
+        "passed": true
+      },
+      {
+        "name": "既有叶子编号与指纹保持",
+        "passed": true
+      },
+      {
+        "name": "跨父标题与子块完整且不重复",
+        "passed": true,
+        "detail": [
+          {
+            "id": "shared-qa-parent:own:text:c5df3984c5d2420f92dcc59a",
+            "text": "父标题：独立选择与恢复"
+          },
+          {
+            "id": "shared-qa-first",
+            "text": "独立子块 shared-qa-first第一条独立内容，验收后交接。"
+          }
+        ]
+      },
+      {
+        "name": "父标题恢复矩形不包含子块",
+        "passed": true,
+        "detail": [
+          {
+            "x": 17,
+            "y": 347,
+            "width": 211.203125,
+            "height": 24
+          }
+        ]
+      },
+      {
+        "name": "只框子块不会多挂父目标",
+        "passed": true
+      },
+      {
+        "name": "对子块排序后父子锚点保持",
+        "passed": true
+      },
+      {
+        "name": "变窄并放大文字后仍按内容恢复",
+        "passed": true
+      },
+      {
+        "name": "父文字改变时整条批注停止挂载",
+        "passed": true
+      },
+      {
+        "name": "父原文删除后不转挂子块",
+        "passed": true
+      },
+      {
+        "name": "原文恢复后按相同内容匹配",
+        "passed": true
+      },
+      {
+        "name": "父块内具名图片成为独立目标",
+        "passed": true
+      },
+      {
+        "name": "图片框选与恢复不夹带父文字",
+        "passed": true
+      },
+      {
+        "name": "真正空白区域仍能恢复",
+        "passed": true
+      },
+      {
+        "name": "重复文字上下文不足时拒绝保存",
+        "passed": true,
+        "detail": "Error: 所选文字有未能唯一定位的内容，请调整选区后重试；草稿正文会保留。"
+      },
+      {
+        "name": "矩形命中重复文字时同样拒绝",
+        "passed": true,
+        "detail": "Error: 选区中的重复文字无法唯一定位，请调整选区后重试；草稿正文会保留。"
+      },
+      {
+        "name": "重复图片不能降为关联空白",
+        "passed": true,
+        "detail": "Error: 选区中的图片或文字存在重复编号，无法唯一定位；请调整选区后重试，草稿正文会保留。"
+      },
+      {
+        "name": "部分可定位区域也不能掩盖歧义内容",
+        "passed": true,
+        "detail": "Error: 选区中的图片或文字存在重复编号，无法唯一定位；请调整选区后重试，草稿正文会保留。"
+      }
+    ]
+  },
+  "draftRecovery": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "character": {
+      "x": 42.234375,
+      "y": 140.390625,
+      "width": 16.015625,
+      "height": 20
+    },
+    "selection": {
+      "x": 42.234375,
+      "y": 140.390625,
+      "width": 16.015625,
+      "height": 20
+    },
+    "dialog": {
+      "x": 0,
+      "y": 413.765625,
+      "width": 390,
+      "height": 430.234375
+    },
+    "draft": "字符定位检查：只选择组合字符之后的“后”。"
+  },
+  "tests": {
+    "unit": {
+      "passed": 478,
+      "files": 28
+    },
+    "typecheck": "passed; browser Vue harness included"
+  },
+  "limitations": [
+    "Local tests do not prove real GitHub identity, comment synchronization, D1/R2 or Webhook acceptance.",
+    "Keyboard focusing of nested content and restoration of expanded evidence sections remain separate acceptance work.",
+    "Subpixel glyph rectangles can overlap by 1/64 px; exact-glyph rectangle fixture is inset by 0.1 px."
+  ]
+}

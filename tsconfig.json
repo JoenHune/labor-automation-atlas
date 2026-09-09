@@ -12,5 +12,5 @@
     "noEmit": true,
     "types": ["node", "@cloudflare/workers-types"]
   },
-  "include": ["src/**/*.ts", "scripts/**/*.ts", "worker/**/*.ts", "tests/**/*.ts", "docs/.vitepress/**/*.ts", "docs/.vitepress/**/*.vue"]
+  "include": ["src/**/*.ts", "scripts/**/*.ts", "worker/**/*.ts", "tests/**/*.ts", "tests/**/*.vue", "docs/.vitepress/**/*.ts", "docs/.vitepress/**/*.vue"]
 }
