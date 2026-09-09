@@ -1,0 +1,88 @@
+{
+  "sourceCommit": "bb53e5f1872f31eec4781150c4c8305d39639ab4",
+  "version": "2026-09-10.preview-12",
+  "ci": 34375872070,
+  "pages": 34375901826,
+  "checkedAtUTC": "2026-09-09T16:26:49Z",
+  "pagesChecked": [
+    {
+      "path": "",
+      "status": 200,
+      "versionVisible": false
+    },
+    {
+      "path": "cn/",
+      "status": 200,
+      "versionVisible": false
+    },
+    {
+      "path": "us/",
+      "status": 200,
+      "versionVisible": false
+    },
+    {
+      "path": "cn/tasks/cn-ind-pencil-coat-print-003",
+      "status": 200,
+      "versionVisible": true
+    },
+    {
+      "path": "cn/tasks/cn-ind-wood-furniture-009",
+      "status": 200,
+      "versionVisible": true
+    },
+    {
+      "path": "us/tasks/us-con-drywall-005",
+      "status": 200,
+      "versionVisible": true
+    }
+  ],
+  "exportsChecked": [
+    {
+      "task": "cn-ind-pencil-coat-print-003",
+      "status": 200,
+      "bytes": 101093,
+      "sha256": "f90b0daf16a545e7dfd7f177a51cb1b325408a658e5a0b7c2cd653e577d297a1",
+      "matchesLocalExactly": true
+    },
+    {
+      "task": "cn-ind-wood-furniture-009",
+      "status": 200,
+      "bytes": 128556,
+      "sha256": "6f6da077469f457ba0f19c9dc16aedc35d05fcea9ee8e8ab22b8a82c3c9f01b2",
+      "matchesLocalExactly": true
+    },
+    {
+      "task": "us-con-drywall-005",
+      "status": 200,
+      "bytes": 122227,
+      "sha256": "042412a596cb49f014f090bde6b7cab3ba3d6e05d2bbfeb2603b698946fd6577",
+      "matchesLocalExactly": true
+    }
+  ],
+  "runs": [
+    {
+      "id": 34375901826,
+      "name": "Publish atlas to GitHub Pages",
+      "head_sha": "bb53e5f1872f31eec4781150c4c8305d39639ab4",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/JoenHune/labor-automation-atlas/actions/runs/34375901826"
+    },
+    {
+      "id": 34375872070,
+      "name": "Check research and application",
+      "head_sha": "bb53e5f1872f31eec4781150c4c8305d39639ab4",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/JoenHune/labor-automation-atlas/actions/runs/34375872070"
+    }
+  ],
+  "fullExport": {
+    "bytes": 111515347,
+    "sha256": "6a75cf1e02713be5131751de35782b3e7d1cc99fd336d1daf5395d28a163f202",
+    "matchesCanonicalExportExactly": true
+  },
+  "browserChecks": [
+    "公开铅笔上色003显示preview-12、跨材料研发限制与未冻结；批注工具层级87已部署。"
+  ]
+}
