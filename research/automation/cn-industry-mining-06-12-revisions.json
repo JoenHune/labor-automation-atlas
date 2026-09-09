@@ -1,0 +1,1535 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "cn-industry-mining-06-12",
+  "revisedAt": "2026-09-09",
+  "beforeSha256": "93b3ffff8cc662ff5663472b87f0826eb1cafb038b13ba5c992cd0f0b64c2ce9",
+  "afterSha256": "c9acd3e56b65d0cd0d03904c7106218bf6b778889c8e1e5329c6065e407896dc",
+  "reviewInputSha256": "93b3ffff8cc662ff5663472b87f0826eb1cafb038b13ba5c992cd0f0b64c2ce9",
+  "reviewSha256": "807c0fed43c388a07d8905f3c9f90add2ef9f3687a147cdbdc7c270968d1ae62",
+  "reviewFile": "research/reviews/cn-industry-mining-06-12-automation-decisions.json",
+  "inventorySha256": "5388db09742709d606032d030ced3985f802a6e221441b59cd1302064ee8983e",
+  "originalInputRetained": true,
+  "originalInputRetention": "private immutable revision-input snapshot; original SHA is the identifier",
+  "taskQueriesRerun": false,
+  "findings": [
+    {
+      "findingId": "E01",
+      "status": "corrected-in-research-output-awaiting-independent-recheck",
+      "affectedTaskIds": [
+        "cn-ind-coal-longwall-001",
+        "cn-ind-coal-longwall-003",
+        "cn-ind-coal-longwall-005"
+      ],
+      "changes": [
+        "将来源及煤长壁001/003/005地理字段改为中国内蒙古柳塔煤矿；保留22104、2022应用与未核2026持续运行的边界。"
+      ],
+      "boundary": "修改在研究稿内可复核，不新增任务、不把本修订当独立复检通过。"
+    },
+    {
+      "findingId": "E02",
+      "status": "corrected-in-research-output-awaiting-independent-recheck",
+      "affectedTaskIds": [
+        "cn-ind-stone-chain-core-002",
+        "cn-ind-oil-production-extraction-001",
+        "cn-ind-oil-production-extraction-004",
+        "cn-ind-oil-production-extraction-005"
+      ],
+      "changes": [
+        "分别改为可逐字找到的短锚词：数据壁垒、远程开井、智能研判、软质岩石；同步来源摘录和引用索引，不改成更强事实。"
+      ],
+      "boundary": "修改在研究稿内可复核，不新增任务、不把本修订当独立复检通过。"
+    },
+    {
+      "findingId": "E03",
+      "status": "corrected-in-research-output-awaiting-independent-recheck",
+      "affectedTaskIds": [
+        "cn-ind-oil-production-extraction-002",
+        "cn-ind-oil-production-extraction-004",
+        "cn-ind-oil-production-extraction-005",
+        "cn-ind-oil-field-separation-water-003",
+        "cn-ind-oil-field-separation-water-007"
+      ],
+      "changes": [
+        "改为《采油二厂:数字赋能老油田 实干转型见实效》，如需概括另设displaySummary；2026-07-28正文日期正确。"
+      ],
+      "boundary": "修改在研究稿内可复核，不新增任务、不把本修订当独立复检通过。"
+    },
+    {
+      "findingId": "E04",
+      "status": "corrected-in-research-output-awaiting-independent-recheck",
+      "affectedTaskIds": [
+        "cn-ind-oilservice-rig-structure-003"
+      ],
+      "changes": [
+        "将该方案移到相邻阶段线索，并把本任务匹配机制状态改为未获直接匹配；或新增经复核的安装后调试来源。不能用同论文自动支持新阶段；修改统计时重算限定机制数量。"
+      ],
+      "boundary": "修改在研究稿内可复核，不新增任务、不把本修订当独立复检通过。"
+    },
+    {
+      "findingId": "E05",
+      "status": "corrected-in-research-output-awaiting-independent-recheck",
+      "affectedTaskIds": [],
+      "changes": [
+        "OP1补test-shortfall、interference（L21、L18/20），去重state；OP2补SUNWARD现场测试L270并定义locator，去重重复引用。"
+      ],
+      "boundary": "修改在研究稿内可复核，不新增任务、不把本修订当独立复检通过。"
+    },
+    {
+      "findingId": "E06",
+      "status": "corrected-in-research-output-awaiting-independent-recheck",
+      "affectedTaskIds": [
+        "cn-ind-stone-wire-saw-001",
+        "cn-ind-stone-wire-saw-006"
+      ],
+      "changes": [
+        "001验收止于铺轨区域清洁平整和满足设备铺设条件；006验收止于记录接头状态及不合格标记/隔离；维修与复验只在007计。本轮只记inventoryDisposition，交作者修订与复检后合并，原清单保持稳定。"
+      ],
+      "boundary": "修改在研究稿内可复核，不新增任务、不把本修订当独立复检通过。"
+    },
+    {
+      "findingId": "E07",
+      "status": "corrected-in-research-output-awaiting-independent-recheck",
+      "affectedTaskIds": [
+        "cn-ind-coal-longwall-007"
+      ],
+      "changes": [
+        "依原条款改写触发条件；或明确空顶超限是待现场规程确认的额外条件并补精确来源。停止、支护治理与复工验收仍作为拟议可拆输出。"
+      ],
+      "boundary": "修改在研究稿内可复核，不新增任务、不把本修订当独立复检通过。"
+    },
+    {
+      "findingId": "G01",
+      "status": "narrow-source-boundary-correction-applied-awaiting-recheck",
+      "affectedTaskIds": [
+        "cn-ind-geothermal-resource-test-002",
+        "cn-ind-geothermal-resource-test-005",
+        "cn-ind-geothermal-resource-sampling-003"
+      ],
+      "changes": [
+        "来源claim与机制名称保留水位（压力）原含义；任务002明确量值定义、压力转水位/井口压力和仪表配置待核。回灌加压工况须另外记录压力，不自行假定同一传感器全覆盖。"
+      ],
+      "boundary": "E06/E07研究显示已纠正；原库存未改，拆分与其他库存建议仅拟议。G05/G07/G10/G11/G12/G14需继续原始资料和库存修订，未标解决。"
+    },
+    {
+      "findingId": "G03",
+      "status": "narrow-source-boundary-correction-applied-awaiting-recheck",
+      "affectedTaskIds": [
+        "cn-ind-coal-longwall-002",
+        "cn-ind-coal-longwall-006"
+      ],
+      "changes": [
+        "保持研发短板反证只用于视觉状态识别；006建议矿压测量与视觉状态分别建候选子任务，或明确矿压部分未获机制。"
+      ],
+      "boundary": "E06/E07研究显示已纠正；原库存未改，拆分与其他库存建议仅拟议。G05/G07/G10/G11/G12/G14需继续原始资料和库存修订，未标解决。"
+    },
+    {
+      "findingId": "G05",
+      "status": "partly-addressed-with-explicit-remaining-gap",
+      "affectedTaskIds": [
+        "cn-ind-coal-longwall-012",
+        "cn-ind-metal-openpit-dig-002",
+        "cn-ind-metal-openpit-dig-003",
+        "cn-ind-metal-coarse-crush-002",
+        "cn-ind-metal-coarse-crush-003",
+        "cn-ind-lake-salt-vessel-005",
+        "cn-ind-lake-salt-vessel-006",
+        "cn-ind-iron-underground-development-004",
+        "cn-ind-oil-enhanced-injection-001",
+        "cn-ind-oil-enhanced-injection-002",
+        "cn-ind-gas-field-collection-002",
+        "cn-ind-gas-field-collection-004",
+        "cn-ind-oil-field-separation-water-001",
+        "cn-ind-oilservice-tool-turnaround-001",
+        "cn-ind-oilservice-tool-turnaround-004"
+      ],
+      "changes": [
+        "将逐任务已有传统机械来源作为职业/规范/拟建层级的基线线索，并补产品或流程机制原文；不得据职业资料填写替代率或在运数字。正向检索后续增加设备名/同义词，不能只检索中文长任务句。"
+      ],
+      "boundary": "E06/E07研究显示已纠正；原库存未改，拆分与其他库存建议仅拟议。G05/G07/G10/G11/G12/G14需继续原始资料和库存修订，未标解决。"
+    },
+    {
+      "findingId": "G06",
+      "status": "partly-addressed-with-explicit-remaining-gap",
+      "affectedTaskIds": [
+        "cn-ind-coal-longwall-006",
+        "cn-ind-coal-longwall-007",
+        "cn-ind-coal-longwall-008",
+        "cn-ind-metal-openpit-slope-004",
+        "cn-ind-lake-salt-vessel-009",
+        "cn-ind-iron-underground-development-001",
+        "cn-ind-iron-underground-development-003",
+        "cn-ind-iron-underground-ventilation-002",
+        "cn-ind-iron-underground-ventilation-004",
+        "cn-ind-oil-production-extraction-001",
+        "cn-ind-oil-production-extraction-005",
+        "cn-ind-oil-production-extraction-006",
+        "cn-ind-gas-field-collection-007",
+        "cn-ind-oil-field-separation-water-007",
+        "cn-ind-oilservice-rig-structure-001",
+        "cn-ind-oilservice-rig-structure-002",
+        "cn-ind-oilservice-rig-structure-003",
+        "cn-ind-oilservice-rig-structure-004",
+        "cn-ind-oilservice-directional-drilling-005",
+        "cn-ind-oilservice-cementing-001",
+        "cn-ind-oilservice-cementing-003"
+      ],
+      "changes": [
+        "按逐任务granularity与reason落实建议，保留原ID到新候选映射；先撤销父级原子计数再统计子项，避免资本/人工重计。"
+      ],
+      "boundary": "E06/E07研究显示已纠正；原库存未改，拆分与其他库存建议仅拟议。G05/G07/G10/G11/G12/G14需继续原始资料和库存修订，未标解决。"
+    },
+    {
+      "findingId": "G07",
+      "status": "partly-addressed-with-explicit-remaining-gap",
+      "affectedTaskIds": [
+        "cn-ind-coal-longwall-013",
+        "cn-ind-metal-openpit-drill-005",
+        "cn-ind-oil-cuttings-collection-001",
+        "cn-ind-oil-cuttings-collection-003",
+        "cn-ind-oil-cuttings-collection-004",
+        "cn-ind-oilservice-tool-turnaround-006",
+        "cn-ind-geothermal-resource-test-001",
+        "cn-ind-geothermal-resource-test-007",
+        "cn-ind-geothermal-resource-sampling-002"
+      ],
+      "changes": [
+        "每任务明确流程规范直接/范围/转引和职业直接/相邻支持；研究者增加的签收、标识、放行仍拟议。补正式职业版、现场SOP或转引方法后才冻结。"
+      ],
+      "boundary": "E06/E07研究显示已纠正；原库存未改，拆分与其他库存建议仅拟议。G05/G07/G10/G11/G12/G14需继续原始资料和库存修订，未标解决。"
+    },
+    {
+      "findingId": "G09",
+      "status": "missing-cited-conditions-added-awaiting-recheck",
+      "affectedTaskIds": [
+        "cn-ind-coal-longwall-009",
+        "cn-ind-metal-coarse-crush-006",
+        "cn-ind-stone-wire-saw-005",
+        "cn-ind-stone-disc-block-004",
+        "cn-ind-oil-cuttings-collection-002",
+        "cn-ind-geothermal-resource-test-005"
+      ],
+      "changes": [
+        "补煤换齿的护帮护顶和支架禁动、清堵上方先清理/禁止从下排矿口向上、特殊岩屑类别、回灌环境温度与加压压力；保留已有的串珠锯末段手动接管和圆盘换片协作要求。只作规范条件，不推现场工时或发生过事故。"
+      ],
+      "boundary": "E06/E07研究显示已纠正；原库存未改，拆分与其他库存建议仅拟议。G05/G07/G10/G11/G12/G14需继续原始资料和库存修订，未标解决。"
+    },
+    {
+      "findingId": "G10",
+      "status": "partly-addressed-with-explicit-remaining-gap",
+      "affectedTaskIds": [
+        "cn-ind-metal-openpit-drill-001",
+        "cn-ind-stone-wire-saw-002",
+        "cn-ind-lake-salt-vessel-003"
+      ],
+      "changes": [
+        "按逐任务reason收紧验收，保留现场SOP缺口。安全许可可包含同一次必要检查，不为凑数拆开每一动作。"
+      ],
+      "boundary": "E06/E07研究显示已纠正；原库存未改，拆分与其他库存建议仅拟议。G05/G07/G10/G11/G12/G14需继续原始资料和库存修订，未标解决。"
+    },
+    {
+      "findingId": "G11",
+      "status": "partly-addressed-with-explicit-remaining-gap",
+      "affectedTaskIds": [
+        "cn-ind-metal-openpit-slope-004"
+      ],
+      "changes": [
+        "按实际场景标作业或异常处置；只有前次交付未达标且重复施工才标返工。"
+      ],
+      "boundary": "E06/E07研究显示已纠正；原库存未改，拆分与其他库存建议仅拟议。G05/G07/G10/G11/G12/G14需继续原始资料和库存修订，未标解决。"
+    },
+    {
+      "findingId": "G12",
+      "status": "partly-addressed-with-explicit-remaining-gap",
+      "affectedTaskIds": [
+        "cn-ind-lake-salt-vessel-010",
+        "cn-ind-lake-salt-vessel-008"
+      ],
+      "changes": [
+        "010、008的输入关系及场景流程标为待验证分支；不要直接替换成供应商唯一顺序。筛分与脱水仍各有独立输出。"
+      ],
+      "boundary": "E06/E07研究显示已纠正；原库存未改，拆分与其他库存建议仅拟议。G05/G07/G10/G11/G12/G14需继续原始资料和库存修订，未标解决。"
+    },
+    {
+      "findingId": "G13",
+      "status": "narrow-source-boundary-correction-applied-awaiting-recheck",
+      "affectedTaskIds": [
+        "cn-ind-oil-enhanced-injection-001",
+        "cn-ind-oil-enhanced-injection-003"
+      ],
+      "changes": [
+        "补documentOnlinePublishedAt=2016-01-04并与2016卷期、2015收稿分开；viscosity方法定位加199—203；两任务的室温模拟水范围保持。"
+      ],
+      "boundary": "E06/E07研究显示已纠正；原库存未改，拆分与其他库存建议仅拟议。G05/G07/G10/G11/G12/G14需继续原始资料和库存修订，未标解决。"
+    },
+    {
+      "findingId": "G14",
+      "status": "partly-addressed-with-explicit-remaining-gap",
+      "affectedTaskIds": [
+        "cn-ind-coal-longwall-001",
+        "cn-ind-coal-longwall-002",
+        "cn-ind-coal-longwall-003",
+        "cn-ind-coal-longwall-004",
+        "cn-ind-coal-longwall-005",
+        "cn-ind-coal-longwall-006",
+        "cn-ind-coal-longwall-007",
+        "cn-ind-coal-longwall-008",
+        "cn-ind-coal-longwall-009",
+        "cn-ind-coal-longwall-010",
+        "cn-ind-coal-longwall-011",
+        "cn-ind-coal-longwall-012",
+        "cn-ind-coal-longwall-013",
+        "cn-ind-coal-longwall-014",
+        "cn-ind-metal-openpit-drill-001",
+        "cn-ind-metal-openpit-drill-002",
+        "cn-ind-metal-openpit-drill-003",
+        "cn-ind-metal-openpit-drill-004",
+        "cn-ind-metal-openpit-drill-005",
+        "cn-ind-metal-openpit-drill-006",
+        "cn-ind-metal-openpit-dig-001",
+        "cn-ind-metal-openpit-dig-002",
+        "cn-ind-metal-openpit-dig-003",
+        "cn-ind-metal-openpit-dig-004",
+        "cn-ind-metal-openpit-dig-005",
+        "cn-ind-metal-openpit-slope-001",
+        "cn-ind-metal-openpit-slope-002",
+        "cn-ind-metal-openpit-slope-003",
+        "cn-ind-metal-openpit-slope-004",
+        "cn-ind-metal-coarse-crush-001",
+        "cn-ind-metal-coarse-crush-002",
+        "cn-ind-metal-coarse-crush-003",
+        "cn-ind-metal-coarse-crush-004",
+        "cn-ind-metal-coarse-crush-005",
+        "cn-ind-metal-coarse-crush-006",
+        "cn-ind-metal-coarse-crush-007",
+        "cn-ind-stone-wire-saw-001",
+        "cn-ind-stone-wire-saw-002",
+        "cn-ind-stone-wire-saw-003",
+        "cn-ind-stone-wire-saw-004",
+        "cn-ind-stone-wire-saw-005",
+        "cn-ind-stone-wire-saw-006",
+        "cn-ind-stone-wire-saw-007",
+        "cn-ind-stone-chain-core-001",
+        "cn-ind-stone-chain-core-002",
+        "cn-ind-stone-chain-core-003",
+        "cn-ind-stone-chain-core-004",
+        "cn-ind-stone-chain-core-005",
+        "cn-ind-stone-chain-core-006",
+        "cn-ind-stone-disc-block-001",
+        "cn-ind-stone-disc-block-002",
+        "cn-ind-stone-disc-block-003",
+        "cn-ind-stone-disc-block-004",
+        "cn-ind-stone-disc-block-005",
+        "cn-ind-stone-disc-block-006",
+        "cn-ind-lake-salt-vessel-001",
+        "cn-ind-lake-salt-vessel-002",
+        "cn-ind-lake-salt-vessel-003",
+        "cn-ind-lake-salt-vessel-004",
+        "cn-ind-lake-salt-vessel-005",
+        "cn-ind-lake-salt-vessel-006",
+        "cn-ind-lake-salt-vessel-007",
+        "cn-ind-lake-salt-vessel-010",
+        "cn-ind-lake-salt-vessel-008",
+        "cn-ind-lake-salt-vessel-009",
+        "cn-ind-iron-underground-development-001",
+        "cn-ind-iron-underground-development-002",
+        "cn-ind-iron-underground-development-003",
+        "cn-ind-iron-underground-development-004",
+        "cn-ind-iron-underground-development-005",
+        "cn-ind-iron-underground-development-006",
+        "cn-ind-iron-underground-ventilation-001",
+        "cn-ind-iron-underground-ventilation-002",
+        "cn-ind-iron-underground-ventilation-003",
+        "cn-ind-iron-underground-ventilation-004",
+        "cn-ind-oil-drilling-fluid-001",
+        "cn-ind-oil-drilling-fluid-002",
+        "cn-ind-oil-drilling-fluid-003",
+        "cn-ind-oil-drilling-fluid-004",
+        "cn-ind-oil-drilling-fluid-005",
+        "cn-ind-oil-cuttings-collection-001",
+        "cn-ind-oil-cuttings-collection-002",
+        "cn-ind-oil-cuttings-collection-003",
+        "cn-ind-oil-cuttings-collection-004",
+        "cn-ind-oil-production-extraction-001",
+        "cn-ind-oil-production-extraction-002",
+        "cn-ind-oil-production-extraction-003",
+        "cn-ind-oil-production-extraction-004",
+        "cn-ind-oil-production-extraction-005",
+        "cn-ind-oil-production-extraction-006",
+        "cn-ind-oil-enhanced-injection-001",
+        "cn-ind-oil-enhanced-injection-002",
+        "cn-ind-oil-enhanced-injection-003",
+        "cn-ind-oil-enhanced-injection-004",
+        "cn-ind-oil-enhanced-injection-005",
+        "cn-ind-gas-field-collection-001",
+        "cn-ind-gas-field-collection-002",
+        "cn-ind-gas-field-collection-003",
+        "cn-ind-gas-field-collection-004",
+        "cn-ind-gas-field-collection-005",
+        "cn-ind-gas-field-collection-006",
+        "cn-ind-gas-field-collection-007",
+        "cn-ind-oil-field-separation-water-001",
+        "cn-ind-oil-field-separation-water-002",
+        "cn-ind-oil-field-separation-water-003",
+        "cn-ind-oil-field-separation-water-004",
+        "cn-ind-oil-field-separation-water-005",
+        "cn-ind-oil-field-separation-water-006",
+        "cn-ind-oil-field-separation-water-007",
+        "cn-ind-oilservice-rig-structure-001",
+        "cn-ind-oilservice-rig-structure-002",
+        "cn-ind-oilservice-rig-structure-003",
+        "cn-ind-oilservice-rig-structure-004",
+        "cn-ind-oilservice-directional-drilling-001",
+        "cn-ind-oilservice-directional-drilling-002",
+        "cn-ind-oilservice-directional-drilling-003",
+        "cn-ind-oilservice-directional-drilling-004",
+        "cn-ind-oilservice-directional-drilling-005",
+        "cn-ind-oilservice-cementing-001",
+        "cn-ind-oilservice-cementing-002",
+        "cn-ind-oilservice-cementing-003",
+        "cn-ind-oilservice-cementing-004",
+        "cn-ind-oilservice-tool-turnaround-001",
+        "cn-ind-oilservice-tool-turnaround-002",
+        "cn-ind-oilservice-tool-turnaround-003",
+        "cn-ind-oilservice-tool-turnaround-004",
+        "cn-ind-oilservice-tool-turnaround-005",
+        "cn-ind-oilservice-tool-turnaround-006",
+        "cn-ind-geothermal-resource-test-001",
+        "cn-ind-geothermal-resource-test-002",
+        "cn-ind-geothermal-resource-test-003",
+        "cn-ind-geothermal-resource-test-004",
+        "cn-ind-geothermal-resource-test-005",
+        "cn-ind-geothermal-resource-test-006",
+        "cn-ind-geothermal-resource-test-007",
+        "cn-ind-geothermal-resource-sampling-001",
+        "cn-ind-geothermal-resource-sampling-002",
+        "cn-ind-geothermal-resource-sampling-003"
+      ],
+      "changes": [
+        "保留当前首轮已检索状态；按实际方案/设备名追加失败、退出、未采用及经济采用检索，读命中原文后才升级。19补充条仅按作者公开请求记录与结果缓存对应核对，执行请求事实未同级独立验证。"
+      ],
+      "boundary": "E06/E07研究显示已纠正；原库存未改，拆分与其他库存建议仅拟议。G05/G07/G10/G11/G12/G14需继续原始资料和库存修订，未标解决。"
+    },
+    {
+      "findingId": "G15",
+      "status": "narrow-source-boundary-correction-applied-awaiting-recheck",
+      "affectedTaskIds": [
+        "cn-ind-lake-salt-vessel-007",
+        "cn-ind-lake-salt-vessel-010",
+        "cn-ind-lake-salt-vessel-008",
+        "cn-ind-oil-drilling-fluid-002",
+        "cn-ind-oil-drilling-fluid-003"
+      ],
+      "changes": [
+        "补HANPU规范化行91—92、105—106、125—128；JKZ规范化行57—87、140，保留原网页行时标明缓存表示。源段支持不因行号表示不同自动作废。"
+      ],
+      "boundary": "E06/E07研究显示已纠正；原库存未改，拆分与其他库存建议仅拟议。G05/G07/G10/G11/G12/G14需继续原始资料和库存修订，未标解决。"
+    }
+  ],
+  "taskIdMapping": [
+    {
+      "originalTaskId": "cn-ind-coal-longwall-001",
+      "currentResearchTaskId": "cn-ind-coal-longwall-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-coal-longwall-002",
+      "currentResearchTaskId": "cn-ind-coal-longwall-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-coal-longwall-003",
+      "currentResearchTaskId": "cn-ind-coal-longwall-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-coal-longwall-004",
+      "currentResearchTaskId": "cn-ind-coal-longwall-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-coal-longwall-005",
+      "currentResearchTaskId": "cn-ind-coal-longwall-005",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-coal-longwall-006",
+      "currentResearchTaskId": "cn-ind-coal-longwall-006",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-coal-longwall-007",
+      "currentResearchTaskId": "cn-ind-coal-longwall-007",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-coal-longwall-008",
+      "currentResearchTaskId": "cn-ind-coal-longwall-008",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-coal-longwall-009",
+      "currentResearchTaskId": "cn-ind-coal-longwall-009",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-coal-longwall-010",
+      "currentResearchTaskId": "cn-ind-coal-longwall-010",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-coal-longwall-011",
+      "currentResearchTaskId": "cn-ind-coal-longwall-011",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-coal-longwall-012",
+      "currentResearchTaskId": "cn-ind-coal-longwall-012",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-coal-longwall-013",
+      "currentResearchTaskId": "cn-ind-coal-longwall-013",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-coal-longwall-014",
+      "currentResearchTaskId": "cn-ind-coal-longwall-014",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-openpit-drill-001",
+      "currentResearchTaskId": "cn-ind-metal-openpit-drill-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-openpit-drill-002",
+      "currentResearchTaskId": "cn-ind-metal-openpit-drill-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-openpit-drill-003",
+      "currentResearchTaskId": "cn-ind-metal-openpit-drill-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-openpit-drill-004",
+      "currentResearchTaskId": "cn-ind-metal-openpit-drill-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-openpit-drill-005",
+      "currentResearchTaskId": "cn-ind-metal-openpit-drill-005",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-openpit-drill-006",
+      "currentResearchTaskId": "cn-ind-metal-openpit-drill-006",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-openpit-dig-001",
+      "currentResearchTaskId": "cn-ind-metal-openpit-dig-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-openpit-dig-002",
+      "currentResearchTaskId": "cn-ind-metal-openpit-dig-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-openpit-dig-003",
+      "currentResearchTaskId": "cn-ind-metal-openpit-dig-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-openpit-dig-004",
+      "currentResearchTaskId": "cn-ind-metal-openpit-dig-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-openpit-dig-005",
+      "currentResearchTaskId": "cn-ind-metal-openpit-dig-005",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-openpit-slope-001",
+      "currentResearchTaskId": "cn-ind-metal-openpit-slope-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-openpit-slope-002",
+      "currentResearchTaskId": "cn-ind-metal-openpit-slope-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-openpit-slope-003",
+      "currentResearchTaskId": "cn-ind-metal-openpit-slope-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-openpit-slope-004",
+      "currentResearchTaskId": "cn-ind-metal-openpit-slope-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-coarse-crush-001",
+      "currentResearchTaskId": "cn-ind-metal-coarse-crush-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-coarse-crush-002",
+      "currentResearchTaskId": "cn-ind-metal-coarse-crush-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-coarse-crush-003",
+      "currentResearchTaskId": "cn-ind-metal-coarse-crush-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-coarse-crush-004",
+      "currentResearchTaskId": "cn-ind-metal-coarse-crush-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-coarse-crush-005",
+      "currentResearchTaskId": "cn-ind-metal-coarse-crush-005",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-coarse-crush-006",
+      "currentResearchTaskId": "cn-ind-metal-coarse-crush-006",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-metal-coarse-crush-007",
+      "currentResearchTaskId": "cn-ind-metal-coarse-crush-007",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-stone-wire-saw-001",
+      "currentResearchTaskId": "cn-ind-stone-wire-saw-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-stone-wire-saw-002",
+      "currentResearchTaskId": "cn-ind-stone-wire-saw-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-stone-wire-saw-003",
+      "currentResearchTaskId": "cn-ind-stone-wire-saw-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-stone-wire-saw-004",
+      "currentResearchTaskId": "cn-ind-stone-wire-saw-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-stone-wire-saw-005",
+      "currentResearchTaskId": "cn-ind-stone-wire-saw-005",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-stone-wire-saw-006",
+      "currentResearchTaskId": "cn-ind-stone-wire-saw-006",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-stone-wire-saw-007",
+      "currentResearchTaskId": "cn-ind-stone-wire-saw-007",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-stone-chain-core-001",
+      "currentResearchTaskId": "cn-ind-stone-chain-core-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-stone-chain-core-002",
+      "currentResearchTaskId": "cn-ind-stone-chain-core-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-stone-chain-core-003",
+      "currentResearchTaskId": "cn-ind-stone-chain-core-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-stone-chain-core-004",
+      "currentResearchTaskId": "cn-ind-stone-chain-core-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-stone-chain-core-005",
+      "currentResearchTaskId": "cn-ind-stone-chain-core-005",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-stone-chain-core-006",
+      "currentResearchTaskId": "cn-ind-stone-chain-core-006",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-stone-disc-block-001",
+      "currentResearchTaskId": "cn-ind-stone-disc-block-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-stone-disc-block-002",
+      "currentResearchTaskId": "cn-ind-stone-disc-block-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-stone-disc-block-003",
+      "currentResearchTaskId": "cn-ind-stone-disc-block-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-stone-disc-block-004",
+      "currentResearchTaskId": "cn-ind-stone-disc-block-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-stone-disc-block-005",
+      "currentResearchTaskId": "cn-ind-stone-disc-block-005",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-stone-disc-block-006",
+      "currentResearchTaskId": "cn-ind-stone-disc-block-006",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-lake-salt-vessel-001",
+      "currentResearchTaskId": "cn-ind-lake-salt-vessel-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-lake-salt-vessel-002",
+      "currentResearchTaskId": "cn-ind-lake-salt-vessel-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-lake-salt-vessel-003",
+      "currentResearchTaskId": "cn-ind-lake-salt-vessel-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-lake-salt-vessel-004",
+      "currentResearchTaskId": "cn-ind-lake-salt-vessel-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-lake-salt-vessel-005",
+      "currentResearchTaskId": "cn-ind-lake-salt-vessel-005",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-lake-salt-vessel-006",
+      "currentResearchTaskId": "cn-ind-lake-salt-vessel-006",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-lake-salt-vessel-007",
+      "currentResearchTaskId": "cn-ind-lake-salt-vessel-007",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-lake-salt-vessel-010",
+      "currentResearchTaskId": "cn-ind-lake-salt-vessel-010",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-lake-salt-vessel-008",
+      "currentResearchTaskId": "cn-ind-lake-salt-vessel-008",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-lake-salt-vessel-009",
+      "currentResearchTaskId": "cn-ind-lake-salt-vessel-009",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-iron-underground-development-001",
+      "currentResearchTaskId": "cn-ind-iron-underground-development-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-iron-underground-development-002",
+      "currentResearchTaskId": "cn-ind-iron-underground-development-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-iron-underground-development-003",
+      "currentResearchTaskId": "cn-ind-iron-underground-development-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-iron-underground-development-004",
+      "currentResearchTaskId": "cn-ind-iron-underground-development-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-iron-underground-development-005",
+      "currentResearchTaskId": "cn-ind-iron-underground-development-005",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-iron-underground-development-006",
+      "currentResearchTaskId": "cn-ind-iron-underground-development-006",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-iron-underground-ventilation-001",
+      "currentResearchTaskId": "cn-ind-iron-underground-ventilation-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-iron-underground-ventilation-002",
+      "currentResearchTaskId": "cn-ind-iron-underground-ventilation-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-iron-underground-ventilation-003",
+      "currentResearchTaskId": "cn-ind-iron-underground-ventilation-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-iron-underground-ventilation-004",
+      "currentResearchTaskId": "cn-ind-iron-underground-ventilation-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-drilling-fluid-001",
+      "currentResearchTaskId": "cn-ind-oil-drilling-fluid-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-drilling-fluid-002",
+      "currentResearchTaskId": "cn-ind-oil-drilling-fluid-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-drilling-fluid-003",
+      "currentResearchTaskId": "cn-ind-oil-drilling-fluid-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-drilling-fluid-004",
+      "currentResearchTaskId": "cn-ind-oil-drilling-fluid-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-drilling-fluid-005",
+      "currentResearchTaskId": "cn-ind-oil-drilling-fluid-005",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-cuttings-collection-001",
+      "currentResearchTaskId": "cn-ind-oil-cuttings-collection-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-cuttings-collection-002",
+      "currentResearchTaskId": "cn-ind-oil-cuttings-collection-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-cuttings-collection-003",
+      "currentResearchTaskId": "cn-ind-oil-cuttings-collection-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-cuttings-collection-004",
+      "currentResearchTaskId": "cn-ind-oil-cuttings-collection-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-production-extraction-001",
+      "currentResearchTaskId": "cn-ind-oil-production-extraction-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-production-extraction-002",
+      "currentResearchTaskId": "cn-ind-oil-production-extraction-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-production-extraction-003",
+      "currentResearchTaskId": "cn-ind-oil-production-extraction-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-production-extraction-004",
+      "currentResearchTaskId": "cn-ind-oil-production-extraction-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-production-extraction-005",
+      "currentResearchTaskId": "cn-ind-oil-production-extraction-005",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-production-extraction-006",
+      "currentResearchTaskId": "cn-ind-oil-production-extraction-006",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-enhanced-injection-001",
+      "currentResearchTaskId": "cn-ind-oil-enhanced-injection-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-enhanced-injection-002",
+      "currentResearchTaskId": "cn-ind-oil-enhanced-injection-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-enhanced-injection-003",
+      "currentResearchTaskId": "cn-ind-oil-enhanced-injection-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-enhanced-injection-004",
+      "currentResearchTaskId": "cn-ind-oil-enhanced-injection-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-enhanced-injection-005",
+      "currentResearchTaskId": "cn-ind-oil-enhanced-injection-005",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-gas-field-collection-001",
+      "currentResearchTaskId": "cn-ind-gas-field-collection-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-gas-field-collection-002",
+      "currentResearchTaskId": "cn-ind-gas-field-collection-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-gas-field-collection-003",
+      "currentResearchTaskId": "cn-ind-gas-field-collection-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-gas-field-collection-004",
+      "currentResearchTaskId": "cn-ind-gas-field-collection-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-gas-field-collection-005",
+      "currentResearchTaskId": "cn-ind-gas-field-collection-005",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-gas-field-collection-006",
+      "currentResearchTaskId": "cn-ind-gas-field-collection-006",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-gas-field-collection-007",
+      "currentResearchTaskId": "cn-ind-gas-field-collection-007",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-field-separation-water-001",
+      "currentResearchTaskId": "cn-ind-oil-field-separation-water-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-field-separation-water-002",
+      "currentResearchTaskId": "cn-ind-oil-field-separation-water-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-field-separation-water-003",
+      "currentResearchTaskId": "cn-ind-oil-field-separation-water-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-field-separation-water-004",
+      "currentResearchTaskId": "cn-ind-oil-field-separation-water-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-field-separation-water-005",
+      "currentResearchTaskId": "cn-ind-oil-field-separation-water-005",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-field-separation-water-006",
+      "currentResearchTaskId": "cn-ind-oil-field-separation-water-006",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oil-field-separation-water-007",
+      "currentResearchTaskId": "cn-ind-oil-field-separation-water-007",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oilservice-rig-structure-001",
+      "currentResearchTaskId": "cn-ind-oilservice-rig-structure-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oilservice-rig-structure-002",
+      "currentResearchTaskId": "cn-ind-oilservice-rig-structure-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oilservice-rig-structure-003",
+      "currentResearchTaskId": "cn-ind-oilservice-rig-structure-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oilservice-rig-structure-004",
+      "currentResearchTaskId": "cn-ind-oilservice-rig-structure-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oilservice-directional-drilling-001",
+      "currentResearchTaskId": "cn-ind-oilservice-directional-drilling-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oilservice-directional-drilling-002",
+      "currentResearchTaskId": "cn-ind-oilservice-directional-drilling-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oilservice-directional-drilling-003",
+      "currentResearchTaskId": "cn-ind-oilservice-directional-drilling-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oilservice-directional-drilling-004",
+      "currentResearchTaskId": "cn-ind-oilservice-directional-drilling-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oilservice-directional-drilling-005",
+      "currentResearchTaskId": "cn-ind-oilservice-directional-drilling-005",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oilservice-cementing-001",
+      "currentResearchTaskId": "cn-ind-oilservice-cementing-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oilservice-cementing-002",
+      "currentResearchTaskId": "cn-ind-oilservice-cementing-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oilservice-cementing-003",
+      "currentResearchTaskId": "cn-ind-oilservice-cementing-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": true,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oilservice-cementing-004",
+      "currentResearchTaskId": "cn-ind-oilservice-cementing-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oilservice-tool-turnaround-001",
+      "currentResearchTaskId": "cn-ind-oilservice-tool-turnaround-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oilservice-tool-turnaround-002",
+      "currentResearchTaskId": "cn-ind-oilservice-tool-turnaround-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oilservice-tool-turnaround-003",
+      "currentResearchTaskId": "cn-ind-oilservice-tool-turnaround-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oilservice-tool-turnaround-004",
+      "currentResearchTaskId": "cn-ind-oilservice-tool-turnaround-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oilservice-tool-turnaround-005",
+      "currentResearchTaskId": "cn-ind-oilservice-tool-turnaround-005",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-oilservice-tool-turnaround-006",
+      "currentResearchTaskId": "cn-ind-oilservice-tool-turnaround-006",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-geothermal-resource-test-001",
+      "currentResearchTaskId": "cn-ind-geothermal-resource-test-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-geothermal-resource-test-002",
+      "currentResearchTaskId": "cn-ind-geothermal-resource-test-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-geothermal-resource-test-003",
+      "currentResearchTaskId": "cn-ind-geothermal-resource-test-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-geothermal-resource-test-004",
+      "currentResearchTaskId": "cn-ind-geothermal-resource-test-004",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-geothermal-resource-test-005",
+      "currentResearchTaskId": "cn-ind-geothermal-resource-test-005",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-geothermal-resource-test-006",
+      "currentResearchTaskId": "cn-ind-geothermal-resource-test-006",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-geothermal-resource-test-007",
+      "currentResearchTaskId": "cn-ind-geothermal-resource-test-007",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-geothermal-resource-sampling-001",
+      "currentResearchTaskId": "cn-ind-geothermal-resource-sampling-001",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-geothermal-resource-sampling-002",
+      "currentResearchTaskId": "cn-ind-geothermal-resource-sampling-002",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    },
+    {
+      "originalTaskId": "cn-ind-geothermal-resource-sampling-003",
+      "currentResearchTaskId": "cn-ind-geothermal-resource-sampling-003",
+      "inventoryUnchanged": true,
+      "proposedDecomposition": false,
+      "newFrozenChildIds": []
+    }
+  ],
+  "statisticsBefore": {
+    "taskCount": 138,
+    "scenarioCount": 23,
+    "sourceCount": 33,
+    "taskQueryCount": 276,
+    "supplementalQueryCount": 19,
+    "tasksWithBoundedMechanisms": 63,
+    "tasksWithoutMatchedReadMechanism": 75,
+    "tasksWithReadNegativeOrLimitingEvidence": 11,
+    "tasksIndependentlyReviewed": 0,
+    "tasksWithComputableROI": 0
+  },
+  "statisticsAfter": {
+    "taskCount": 138,
+    "scenarioCount": 23,
+    "sourceCount": 37,
+    "taskQueryCount": 276,
+    "supplementalQueryCount": 19,
+    "tasksWithBoundedMechanisms": 62,
+    "tasksWithoutMatchedReadMechanism": 76,
+    "tasksWithReadNegativeOrLimitingEvidence": 11,
+    "tasksIndependentlyReviewed": 138,
+    "tasksWithComputableROI": 0,
+    "tasksRevisionsIndependentlyRechecked": 0
+  },
+  "independentRecheckStatus": "prior-corrections-limited-recheck-complete-followup-fields-pending",
+  "isFrozen": false,
+  "outputArtifacts": {
+    ".json": "c9acd3e56b65d0cd0d03904c7106218bf6b778889c8e1e5329c6065e407896dc",
+    ".md": "ccc3ff21e63f5350c223e32cb1b7eea7936a4734304925b5c7b098d88e5099c9",
+    "-validation.json": "ecd005ac26fa6e3b2e6dfb21b4b25bbb1a0e7c39ee52a4e44be3c7960a520efb",
+    "-search-audit.json": "8c6aa42a7bd1ce3d9770be336fc5c64c530ef6b7cc9ffd321b7e1f438dae25df"
+  },
+  "revisionPasses": [
+    {
+      "pass": 1,
+      "beforeSha256": "93b3ffff8cc662ff5663472b87f0826eb1cafb038b13ba5c992cd0f0b64c2ce9",
+      "afterSha256": "1d0d396302c812787f4a9506d07b1d83ee7bedf8723003e0e8b10625a6f1a9c2",
+      "outputArtifacts": {
+        ".json": "1d0d396302c812787f4a9506d07b1d83ee7bedf8723003e0e8b10625a6f1a9c2",
+        ".md": "791664b5c4794f48ddb78ecc331543bd758bd02724f05de0834c9e294909ab15",
+        "-validation.json": "02dbc9cb018fddf09215ed8ffe31d9af4d3797a149ef743e4475ccb6d38eaf7c",
+        "-search-audit.json": "8c6aa42a7bd1ce3d9770be336fc5c64c530ef6b7cc9ffd321b7e1f438dae25df"
+      }
+    },
+    {
+      "pass": 2,
+      "beforeSha256": "1d0d396302c812787f4a9506d07b1d83ee7bedf8723003e0e8b10625a6f1a9c2",
+      "afterSha256": "c9acd3e56b65d0cd0d03904c7106218bf6b778889c8e1e5329c6065e407896dc",
+      "reviewFile": "research/reviews/cn-industry-mining-06-12-automation-recheck.json",
+      "reviewSha256": "25db029030dff323f698acb69c9f7feb10afb5f528f0f89be53849b4a9dad66b",
+      "changes": [
+        {
+          "findingId": "E08",
+          "path": "sources[CN-MIN-GB16423].locators[wire].quote",
+          "before": "改为手动控制",
+          "after": "人工控制"
+        },
+        {
+          "findingId": "E08",
+          "path": "sources[CN-MIN-GB16423].locators[core].quote",
+          "before": "异响和振动",
+          "after": "噪音和振动"
+        },
+        {
+          "findingId": "E08",
+          "path": "sources[CN-MIN-GB16423].locators[disc].quote",
+          "before": "互相配合",
+          "after": "协同操作"
+        },
+        {
+          "findingId": "E08",
+          "path": "sources[CN-MIN-GB16423].locators[fork].quote",
+          "before": "清理行车路面",
+          "after": "进行清理"
+        },
+        {
+          "findingId": "E08",
+          "path": "sources[CN-MIN-GB16423].locators[salt-mining].quote",
+          "before": "先停给料",
+          "after": "停止上料"
+        },
+        {
+          "findingId": "R02",
+          "path": "tasks[cn-ind-coal-longwall-007].interviewQuestions[1]",
+          "before": "请按“达到安全恢复条件后方可续作”提供合格、异常和接管批次的完整记录，并说明当前破碎顶板或不安全间距规格。",
+          "after": "请按“达到安全恢复条件后方可续作”提供合格、异常和接管批次的完整记录，说明移架滞后规定距离及冒顶、片帮的触发和处置记录；破碎顶板的超前支护要求另列核验。"
+        },
+        {
+          "findingId": "R01",
+          "path": "tasks[cn-ind-geothermal-resource-test-002].alternatives[cn-ind-geothermal-resource-test-002-A1].mechanism",
+          "before": "地热取回灌流量温度水位压力监测",
+          "after": "地热取回灌流量、温度、水位（压力）监测"
+        },
+        {
+          "findingId": "R01",
+          "path": "tasks[cn-ind-geothermal-resource-test-003].alternatives[cn-ind-geothermal-resource-test-003-A1].mechanism",
+          "before": "地热取回灌流量温度水位压力监测",
+          "after": "地热取回灌流量、温度、水位（压力）监测"
+        },
+        {
+          "findingId": "R01",
+          "path": "tasks[cn-ind-geothermal-resource-test-004].alternatives[cn-ind-geothermal-resource-test-004-A1].mechanism",
+          "before": "地热取回灌流量温度水位压力监测",
+          "after": "地热取回灌流量、温度、水位（压力）监测"
+        },
+        {
+          "findingId": "R01",
+          "path": "tasks[cn-ind-geothermal-resource-test-005].alternatives[cn-ind-geothermal-resource-test-005-A1].mechanism",
+          "before": "地热取回灌流量温度水位压力监测",
+          "after": "地热取回灌流量、温度、水位（压力）监测"
+        }
+      ],
+      "E08AffectedTaskIds": [
+        "cn-ind-stone-wire-saw-002",
+        "cn-ind-stone-wire-saw-003",
+        "cn-ind-stone-wire-saw-004",
+        "cn-ind-stone-wire-saw-005",
+        "cn-ind-stone-wire-saw-007",
+        "cn-ind-stone-chain-core-004",
+        "cn-ind-stone-chain-core-005",
+        "cn-ind-stone-chain-core-006",
+        "cn-ind-stone-disc-block-001",
+        "cn-ind-stone-disc-block-002",
+        "cn-ind-stone-disc-block-003",
+        "cn-ind-stone-disc-block-004",
+        "cn-ind-stone-disc-block-005",
+        "cn-ind-stone-disc-block-006",
+        "cn-ind-lake-salt-vessel-001",
+        "cn-ind-lake-salt-vessel-002",
+        "cn-ind-lake-salt-vessel-003",
+        "cn-ind-lake-salt-vessel-004"
+      ],
+      "originalTaskSnapshotsPreserved": 138,
+      "nestedQuoteChangesRequired": 0,
+      "queriesRerun": false,
+      "status": "author-applied-awaiting-independent-limited-field-check"
+    }
+  ]
+}

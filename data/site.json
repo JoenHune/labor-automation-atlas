@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-09.preview-5",
+  "version": "2026-09-09.preview-6",
   "checkedAt": "2026-09-09",
   "publishedAt": null,
   "freezeStatus": "working",
@@ -7791,6 +7791,801 @@
       "evidencePeriod": "2021年成文、2022年生效的历史试行文件；当前效力未核实",
       "evidenceLevel": "official-historical-workflow",
       "readStatus": "original-retrieved-and-relevant-passages-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-ndrc-liuta",
+      "title": "神东首个综采成套智能化系统在柳塔煤矿成功应用",
+      "publisher": "国家发展和改革委员会运行局",
+      "url": "https://www.ndrc.gov.cn/fzggw/jgsj/yxj/sjdt/202206/t20220629_1329253.html",
+      "published": "2022-06-29",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "报道为历史应用，未核持续商业运行日志。所有效率、定位精度和成本数字不提取作本任务ROI。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国内蒙古柳塔煤矿",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2022-06-29",
+      "dates": [],
+      "evidencePeriod": "2022-06-20应用报道；2026持续情况未验证",
+      "evidenceLevel": "official-historical-application-report",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-ceic-vision",
+      "title": "隐患无处藏身——神东煤炭AI视觉识别为安全生产装上“智能安全阀”",
+      "publisher": "国家能源集团报（运营方集团媒体）",
+      "url": "https://epaper.ceic.com/pc/content/202601/09/content_19576.html",
+      "published": "2026-01-09",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "operator",
+      "limitations": [
+        "直接来源为运营方自报，未取得独立验收、漏报率、持续运行与工资数据；不将识别报警扩成实际支护修复。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国陕西锦界煤矿",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2026-01-09",
+      "dates": [],
+      "evidencePeriod": "2025年研发与测试，2026-01-06锦界煤矿31304工作面报道",
+      "evidenceLevel": "operator-self-report-named-site",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-rig-lift",
+      "title": "四单根立柱超深井钻机井架液压辅助起升机理",
+      "publisher": "石油机械（左卫东等原始研究）",
+      "url": "https://html.rhhz.net/syjxzz/html/20180801.htm",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "不把结构举升扩成地面拼装、安装底座或完全拆卸；表中数值不泛化为现场安全阈值或成本。",
+        "2018年第46卷第8期，1—5页；页面未列准确发布日期，2018-03-14是收稿日期",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国油气钻井研发；塔里木背景，现场具体井名未披露",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "2018论文中的设备研究及现场应用，非2026状态",
+      "evidenceLevel": "author-reported-field-application-and-engineering-calculation",
+      "readStatus": "original-paper-sections-0-3-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-sunward",
+      "title": "5G+智能钻机发布",
+      "publisher": "山河智能",
+      "url": "https://www.sunward.com.cn/jtdt/2566.html",
+      "published": "2021-12-02",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "仅非煤矿场景引用湖南石灰石矿测试；煤矿测试不推至08/09；不证明清场、采样或恶劣天气处置被替代。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国；湖南石灰石矿测试，另含新疆煤矿测试",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2021-12-02",
+      "dates": [],
+      "evidencePeriod": "2021发布与现场测试；未复核2026运营",
+      "evidenceLevel": "vendor-product-launch-and-field-test",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-sany-shield",
+      "title": "智能化综采｜三一液压支架电液控制系统",
+      "publisher": "三一重装",
+      "url": "https://www.sanygroup.com/activity/9084.html",
+      "published": "2021-06-30",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "功能页不证明某矿部署或全部异常自动恢复；不提取可靠性与定位参数。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国厂商产品，使用现场未给出",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2021-06-30",
+      "dates": [],
+      "evidencePeriod": "2021产品功能介绍",
+      "evidenceLevel": "vendor-product-capability",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-zmj-transfer",
+      "title": "桥式转载机",
+      "publisher": "中煤张家口煤矿机械有限责任公司",
+      "url": "https://zmj.chinacoal.com/col/col3110/art/2025/art_a7ac4f7c53954169ad61798d07ba1524.html",
+      "published": "2025-05-16",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "输送量、功率、寿命与年产数字不作为本任务测算输入。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国厂商产品",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2025-05-16",
+      "dates": [],
+      "evidencePeriod": "2025产品页面",
+      "evidenceLevel": "vendor-product-capability",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-vilidar",
+      "title": "杉维科技矿石粒度检测系统",
+      "publisher": "杉维科技",
+      "url": "https://www.vilidar.com.cn/cases-study/ore-particle-size-detection/",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "页面的“零故障”、产能、停机金额和改善率未经复核且口径不清，全部不用于研究数字；调压力不等于自动调整排矿口。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国未具名水泥企业矿山生产线，行业执行单位待核",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "页面日期03/12/2025格式未确定；未取得运行期间",
+      "evidenceLevel": "vendor-anonymous-customer-claim",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-luohe",
+      "title": "安徽马钢罗河矿业有限责任公司智能化建设典型经验材料",
+      "publisher": "国家矿山安全监察局安全基础司",
+      "url": "https://www.chinamine-safety.gov.cn/xw/zt/2018zt/mkjqryfyy/spzb/202409/t20240923_502099.shtml",
+      "published": "2024-09-23",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "公司全矿人数、投资、设备量不分摊为本任务人工与回报；不同铁矿采矿法和设备适配待核。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国安徽罗河铁矿",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2024-09-23",
+      "dates": [],
+      "evidencePeriod": "2024年发布的罗河矿经验；不证明张行庄拟建项目已投产",
+      "evidenceLevel": "official-hosted-operator-experience",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-cgs-fluid",
+      "title": "钻井液随钻在线自动配制系统及方法获国家发明专利授权",
+      "publisher": "中国地质调查局探矿工程所",
+      "url": "https://www.cgs.gov.cn/ywdt/dwdt/202512/t20251218_855321.html",
+      "published": "2025-12-17",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "网页明确地质钻探用途，未确认油气井、经营主体或连续运行；仅国内相邻动作机制。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国新疆地质钻探；不是已确认油气田自营作业",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2025-12-17",
+      "dates": [],
+      "evidencePeriod": "2025报道；URL次日不作为发布日期",
+      "evidenceLevel": "research-institute-reported-adjacent-field-application",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-reallogy",
+      "title": "REALology智能钻井液性能在线监测系统",
+      "publisher": "维泰能源集团",
+      "url": "https://www.vertechs.cn/fluids-monitoring/realology-intelligent-drilling-fluids-monitoring-system",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "测量不是自动加料调配；作业次数、小时、精度未独立核验，不用于任务人力计算。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国南海海上案例；目标陆上应用尚待核",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "2024年8月南海匿名平台案例；产品页日期未署",
+      "evidenceLevel": "vendor-product-and-anonymized-offshore-case",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-jereh-cement",
+      "title": "智能固井解决方案",
+      "publisher": "杰瑞石油装备",
+      "url": "https://www.jereh-pe.com/solutions/Automated-Cementing-Solution",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "直接打开页面部分正文未返回、后续请求超时；实际核读搜索工具返回的原站完整Solution、核心设备和创新亮点段，未把摘要当独立客户验证。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国厂商产品；具体作业国家与井名未披露",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "未署日期产品方案",
+      "evidenceLevel": "vendor-product-capability",
+      "readStatus": "indexed-original-source-selected-sections-read-direct-retry-timeout"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-zhongli-core",
+      "title": "自动/手动水平取芯钻",
+      "publisher": "江西众利超硬材料工具有限公司",
+      "url": "https://www.jxzhongli.com/cn/shengjujixiejipeijianxilie/285.html",
+      "published": "2023-08-15",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "控制台观察、对准和固定的残留工作需验证；产品性能不作实测效果。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国厂商石材矿山设备，具名矿山未给出",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2023-08-15",
+      "dates": [],
+      "evidencePeriod": "2023产品页",
+      "evidenceLevel": "vendor-product-capability",
+      "readStatus": "indexed-original-source-application-features-and-product-body-read-direct-unavailable"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-gb16423",
+      "title": "GB 16423—2020 金属非金属矿山安全规程",
+      "publisher": "国家市场监督管理总局、国家标准化管理委员会",
+      "url": "https://www.chinamine-safety.gov.cn/zfxxgk/fdzdgknr/zcfg/hybz_01/fmks/202012/P020201223408397922917.pdf",
+      "published": "2020-10-11",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "standard",
+      "limitations": [
+        "只作为规范边界和必要人工/隔离条件，不当自动化失败、部署、工时或全国人工数量证据。现行状态另由全国标准信息公共服务平台元数据核读。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国非煤矿山",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2020-10-11",
+      "dates": [],
+      "evidencePeriod": "2021-09-01实施；2026-09-09官方平台显示现行",
+      "evidenceLevel": "current-national-standard",
+      "readStatus": "official-pdf-downloaded-and-pages-62-65-visually-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-cement-sinopec",
+      "title": "“一键固井”引领固井装备智能化发展",
+      "publisher": "中石化石油机械股份有限公司",
+      "url": "https://sofe.sinopec.com/sofe/news/qyxw/2026/8/I1535676796047982593.shtml",
+      "published": "2025-05-06",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "不提取全套人员、效率、压力、台数作任务工时或ROI；2026持续运行未另核。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国川渝工区",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2025-05-06",
+      "dates": [],
+      "evidencePeriod": "页面正文发布时间2025-05-06；路径2026/8不当发布日期",
+      "evidenceLevel": "vendor-and-developer-self-report-named-region",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-shengli",
+      "title": "当花甲油田撞上AI——胜利油田数智化转型发展观察",
+      "publisher": "胜利油田",
+      "url": "https://slof.sinopec.com/slof/news/zxyw/2026/7/I1532393513742761984.shtml",
+      "published": "2026-07-30",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "operator",
+      "limitations": [
+        "仅具体注采数据核对和远程启停语境；不把员工普遍顾虑推定每项采用障碍。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国胜利油田",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2026-07-30",
+      "dates": [],
+      "evidencePeriod": "2026-07报道；部分系统预计9月上线，未确认已上线",
+      "evidenceLevel": "operator-self-report-mixed-current-and-planned",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-longdragon",
+      "title": "高水平科技自立自强：长龙号智能钻井系统投用",
+      "publisher": "中国石油报／中国石油天然气销售分公司",
+      "url": "https://trxf.cnpc.com.cn/content/h/content_40356.shtml",
+      "published": "2025-05-23",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "operator",
+      "limitations": [
+        "不把自动起下钻扩成自主定向轨迹控制或随钻仪器维修；不提取整套减人和效率比例。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国辽宁盘锦发布展示；具体长期作业井号未披露",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2025-05-23",
+      "dates": [],
+      "evidencePeriod": "2025-05-21发布会报道",
+      "evidenceLevel": "operator-self-report-launch-and-use-claim",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-jiangsu",
+      "title": "采油二厂:数字赋能老油田 实干转型见实效",
+      "publisher": "江苏油田",
+      "url": "https://jsof.sinopec.com/jsof/news/qyxw/2026/7/I1531687711725846528.shtml",
+      "published": "2026-07-28",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "operator",
+      "limitations": [
+        "不采用全厂覆盖、人员比例或节电数字作单任务参数；当前部署/单井试点/联调三种状态分别保留。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国江苏油田采油二厂侧崔15A拉油点、崔庄巡检班",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2026-07-28",
+      "dates": [],
+      "evidencePeriod": "2026上半年与7月报道",
+      "evidenceLevel": "operator-self-report-named-pilot",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-slope",
+      "title": "地质灾害监测预警系统",
+      "publisher": "中国科学院力学研究所",
+      "url": "https://www.imech.cas.cn/casls/cybj/jscg/zyrj/202303/t20230301_6687310.html",
+      "published": "2023-03-01",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "limitations": [
+        "只作露天矿边坡监测迁移候选；不能证明浮石清除、撤离执行或加固自动化。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国相邻公路和地灾边坡",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2023-03-01",
+      "dates": [],
+      "evidencePeriod": "展示历史地灾、公路边坡应用；不是2026矿山现场",
+      "evidenceLevel": "research-institute-adjacent-domain-application",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-cscy",
+      "title": "露天牙轮钻远程智能控制",
+      "publisher": "湖南创远高新机械有限责任公司",
+      "url": "https://www.cscygx.com/cyzn/20.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "全市场应用为供应方未具名自报，不认定08/09/10各矿种都已商业运行。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国供应商；客户矿种与地点未披露",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "未披露产品发布日期与具体应用期",
+      "evidenceLevel": "vendor-product-capability",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-huada",
+      "title": "永磁电驱轨道链臂锯",
+      "publisher": "泉州华大超硬工具科技有限公司",
+      "url": "https://www.huada-group.com/pro_info71.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "不推用于全部花岗岩或所有硬度矿石；无具名持续运行数据。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国供应商；未披露客户部署",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "产品无日期",
+      "evidenceLevel": "vendor-product-capability",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-fpi",
+      "title": "UWS-3000 低流量地下水洗井采样系统",
+      "publisher": "聚光科技",
+      "url": "https://www.fpi-inc.com/product_cont_12136.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "地下水采样不直接等于地热高温水样；应用领域模板混入其他水质产品的文字未采用。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国供应商；地下水相邻场景",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "产品无日期",
+      "evidenceLevel": "vendor-product-adjacent-groundwater",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-geotherm",
+      "title": "地热井监测系统解决方案",
+      "publisher": "唐山柳林自动化设备有限公司",
+      "url": "https://tangshanliulin.com/list_25/258.html",
+      "published": "2023-04-25",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "运行资源监测与规范抽水/回灌试验不同，试验阶段标识、采样频率与仪表校验须单独验证。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国供应商；未具名地热站",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2023-04-25",
+      "dates": [],
+      "evidencePeriod": "产品方案2023-04-25",
+      "evidenceLevel": "vendor-product-capability",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-etrol",
+      "title": "油田供汽SCADA系统",
+      "publisher": "ETROL 北京安控科技（在中国工控网发布）",
+      "url": "https://www.gongkong.com/article/201211/29412.html",
+      "published": "2012-11-20",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "2012资料使用位置标旧，不证明2026同样限制仍存在；不认定控制约束是已经发生的事故。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国匿名油田供汽联合站",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2012-11-20",
+      "dates": [],
+      "evidencePeriod": "2012匿名油田历史方案/应用自报",
+      "evidenceLevel": "vendor-historical-application-and-design",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-hanpu",
+      "title": "Mechanical Salt Washing and Refining Route for Raw Salt Upgrading",
+      "publisher": "Jiangsu Hanpu Mechanical Technology",
+      "url": "https://www.hanputech.com/solutions-mechnical-salt-processing",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "产品属于洗盐精制加工线；应用于采盐企业自营初处理须核实执行者与工艺，不能按矿山采盐船已部署。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国供应商；客户地域未披露",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "产品方案无日期",
+      "evidenceLevel": "vendor-product-capability",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-linxing",
+      "title": "花岗岩采矿绳锯断绳原因分析以及处理",
+      "publisher": "林兴金刚石工具原创",
+      "url": "https://cn.linxingstone.com/Industry-News/345.html",
+      "published": "2022-08-16",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "仅设备供应方机理说明；不能证明自动化故障率或现场事故因果。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国供应商；未具名矿山",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2022-08-16",
+      "dates": [],
+      "evidencePeriod": "2022供应商维护说明",
+      "evidenceLevel": "vendor-failure-mechanism-guidance",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-jkz",
+      "title": "石油钻井固控系统解决方案",
+      "publisher": "陕西捷凯洲机械设备有限公司",
+      "url": "https://www.jkzgukong.com/syf.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "只采用产品机制；无故障时数、节能比例、环保绝对承诺和匿名案例数字均不作为事实参数。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国供应商；案例自报地域混合",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "产品方案无日期",
+      "evidenceLevel": "vendor-product-capability",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-pressure",
+      "title": "井下工具水压试验系统",
+      "publisher": "济南思明特科技有限公司",
+      "url": "https://www.simingte.com/jxgjsysyxt.htm",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "页面后段其他高温装置并非该产品，人工上下料文字不跨产品引用；现场装夹、泄漏判定和验收仍未证实自动完成。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国供应商；无具名井场或维修车间",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "产品无日期",
+      "evidenceLevel": "vendor-product-capability",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-water",
+      "title": "水处理（重力除油+精细过滤）",
+      "publisher": "西安国仪测控股份有限公司",
+      "url": "https://www.xnimc.com/?a=index&aid=444&c=View&m=home",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "只采用产品结构机制；页面夹杂其他设备模板参数，所有数值和效率/费用评价不采用，具体水质边界须索取规格书。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国供应商；无具名处理站",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "产品无日期",
+      "evidenceLevel": "vendor-product-capability",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-disc",
+      "title": "圆盘锯机",
+      "publisher": "福州天石源超硬材料工具有限公司",
+      "url": "https://www.fztsy.com/product/3.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "不等于片前安全检查、异常实物排除或换片自动完成；不引用相关案例卡片作验收。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国供应商；本页未核具名矿山",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "产品正文无日期；关联案例2024日期不作为本页日期",
+      "evidenceLevel": "vendor-product-capability",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-pump",
+      "title": "智能抽水试验系统 AML918-9",
+      "publisher": "爱默里（河北）科技有限公司",
+      "url": "https://www.amlgroundwater.com/products_details/28.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "未披露高温地热适用范围或压力测量、停泵恢复程序；不采信无需值守、零基础和效率数值为现场事实。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国供应商；地下水相邻场景",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "产品无日期",
+      "evidenceLevel": "vendor-product-adjacent-groundwater",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-poly-paper",
+      "title": "油田配聚污水水质对聚合物溶液黏度的影响及其机理",
+      "publisher": "山东大学学报（工学版）胡渤等",
+      "url": "https://gxbwk.njournal.sdu.edu.cn/fileup/1672-3961/HTML/2016-1-80.htm",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "paper",
+      "limitations": [
+        "仅水质兼容性条件背景；不把实验浓度、黏度降幅外推现场或自动化收益。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国研究；模拟胜利油田孤东采出水的实验室条件",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "dates": [
+        {
+          "kind": "released",
+          "value": "2016-01-04",
+          "note": "来源所示生效与上网日期分别保留。"
+        }
+      ],
+      "evidencePeriod": "2016年第46卷第1期80—85；网络出版2016-01-04，印刷精确日期未核",
+      "evidenceLevel": "laboratory-original-study",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-injection",
+      "title": "智能注采联动系统",
+      "publisher": "西安思坦仪器股份有限公司",
+      "url": "https://www.sitan.com.cn/zhucailiandong/131.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "vendor",
+      "limitations": [
+        "优化预测为厂商功能描述，不认定增产已经发生或用户有足够需求。",
+        "PDF物理页+正文页+条款优先；网页章节+短锚词优先。注明网页行者来自本次网页解析；注明规范化文本行者为去HTML后非空行按Python splitlines()一基编号；无行号者用章节锚词。",
+        "来源范围：中国供应商；无具名部署井组",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "产品无日期",
+      "evidenceLevel": "vendor-product-capability",
+      "readStatus": "original-page-relevant-paragraphs-read"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-gas-scada",
+      "title": "四川大天池天然气开发与储运监控系统",
+      "publisher": "北京塞特雷特科技有限责任公司",
+      "url": "https://www.bjsatellite.com.cn/article-42345-61321.html",
+      "published": "2019-12-06",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "operator",
+      "limitations": [
+        "仅历史承建方工程叙述；不提取产能或覆盖数量；具体设备闭环与全动作自主程度未知。相关华讯威达页将2002安装、水厂用语和不同电台并列，未采用其验收年份和性能数字。",
+        "章节与短锚词；本次读取搜索索引保存的承建方原页面项目全文，直接打开超时。",
+        "来源范围：中国四川重庆大天池气田",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2019-12-06",
+      "dates": [],
+      "evidencePeriod": "页面2019发布，叙述1999承建与2000-10验收；历史工程",
+      "evidenceLevel": "contractor-historical-application-self-report",
+      "readStatus": "indexed-original-project-description-read-direct-page-timeout"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-liuta-geo",
+      "title": "2017年一级安全生产标准化煤矿名单（第一批）",
+      "publisher": "国家安全生产监督管理总局／国家煤矿安全监察局（应急管理部官网存档）",
+      "url": "https://www.mem.gov.cn/gk/gwgg/agwzlfl/tz_01/201711/W020171224445690725877.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "other",
+      "sha256": "d0eca83d928d3f593c33625a75424f16927f7334e89d9515ffcb721f3556b69d",
+      "limitations": [
+        "仅所引规范条件或地点元数据，不证明现场自动化、工时或2026运行。",
+        "PDF物理页从1起，另标印刷页和具体条款；短词为原文定位锚点。",
+        "来源范围：中国煤矿地理元数据",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "dates": [],
+      "evidencePeriod": "2017年名单；具体网页发布日期未重核",
+      "evidenceLevel": "official-list-geographic-metadata",
+      "readStatus": "official-pdf-relevant-pages-reread-during-author-revision"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-coal-rule",
+      "title": "煤矿安全规程（应急管理部令第17号）",
+      "publisher": "应急管理部",
+      "url": "https://www.mem.gov.cn/gk/zfxxgkpt/fdzdgknr/gz11/202508/W020250804639453346681.pdf",
+      "published": "2025-07-24",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "standard",
+      "sha256": "f1f0151530922fe8e57d22a270a9fd41642d84cd40a83144f918f218540125c2",
+      "limitations": [
+        "仅所引规范条件或地点元数据，不证明现场自动化、工时或2026运行。",
+        "PDF物理页从1起，另标印刷页和具体条款；短词为原文定位锚点。",
+        "来源范围：中国煤矿规范",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2025-07-24",
+      "dates": [
+        {
+          "kind": "effective",
+          "value": "2026-02-01",
+          "note": "来源所示生效与上网日期分别保留。"
+        },
+        {
+          "kind": "released",
+          "value": "2025-08-04",
+          "note": "来源所示生效与上网日期分别保留。"
+        }
+      ],
+      "evidencePeriod": "2025修订，2026-02-01施行；第129条与第140条相关款",
+      "evidenceLevel": "official-operating-requirement",
+      "readStatus": "official-pdf-relevant-pages-reread-during-author-revision"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-hj1461",
+      "title": "石油天然气开采业固体废物污染控制技术规范（试行）（HJ1461—2026）",
+      "publisher": "生态环境部",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/gthw/gtfwwrkzbz/202601/W020260127617660053725.pdf",
+      "published": "2026-01-19",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "standard",
+      "sha256": "0cd5bae6690033582a964b592ccfcfca60a87707c340d2a1a0324f8c825180c8",
+      "limitations": [
+        "仅所引规范条件或地点元数据，不证明现场自动化、工时或2026运行。",
+        "PDF物理页从1起，另标印刷页和具体条款；短词为原文定位锚点。",
+        "来源范围：中国陆上油气固废；按实际执行主体划界",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2026-01-19",
+      "dates": [
+        {
+          "kind": "effective",
+          "value": "2026-07-01",
+          "note": "来源所示生效与上网日期分别保留。"
+        }
+      ],
+      "evidencePeriod": "HJ1461—2026试行；2026-07-01实施",
+      "evidenceLevel": "official-operating-requirement",
+      "readStatus": "official-pdf-relevant-pages-reread-during-author-revision"
+    },
+    {
+      "id": "automation-cn-mining-cn-min-db2039",
+      "title": "中深层地热供热技术规范 水热（北京市DB11/T2039—2022）",
+      "publisher": "北京市市场监督管理局",
+      "url": "https://bzh.scjgj.beijing.gov.cn/bzh/apifile/file/2023/20230201/4c559191-940c-4460-85ed-629283c47b3c.pdf",
+      "published": "2022-12-27",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "standard",
+      "sha256": "1516bf57d2cb6afc3ad8a8c127378b9e61cab2b6a6c9a3c207a9c159c8980c82",
+      "limitations": [
+        "仅所引规范条件或地点元数据，不证明现场自动化、工时或2026运行。",
+        "PDF物理页从1起，另标印刷页和具体条款；短词为原文定位锚点。",
+        "来源范围：仅北京市中深层水热型场景",
+        "中国标签表示任务研究关联；其他地区、海外相邻机制或厂商功能不代表本任务当前采用。"
+      ],
+      "publishedLabel": "2022-12-27",
+      "dates": [
+        {
+          "kind": "effective",
+          "value": "2023-04-01",
+          "note": "来源所示生效与上网日期分别保留。"
+        }
+      ],
+      "evidencePeriod": "北京市DB11/T2039—2022；2023-04-01实施",
+      "evidenceLevel": "local-official-operating-requirement",
+      "readStatus": "official-pdf-relevant-pages-reread-during-author-revision"
     },
     {
       "id": "automation-us-services-uss-e-glory",

@@ -2,6 +2,7 @@ import {readFile,writeFile} from 'node:fs/promises'
 import {createHash} from 'node:crypto'
 import {importCnServices} from '../src/research/import-cn-services'
 import {importCnAgriculture} from '../src/research/import-cn-agriculture'
+import {importCnMining} from '../src/research/import-cn-mining'
 import {importUsAgriculture} from '../src/research/import-us-agriculture'
 import {importUsCore} from '../src/research/import-us-core'
 import {importUsServices} from '../src/research/import-us-services'
@@ -24,6 +25,10 @@ const cnAgFile='research/automation/cn-agriculture.json',cnAgAuditFile='research
 const cnAg=await read(cnAgFile),cnAgAudit=await read(cnAgAuditFile),cnAgReview=await read(cnAgReviewFile),cnAgRevision=await read('research/automation/cn-agriculture-revisions.json'),cnAgRecheck=await read('research/reviews/cn-agriculture-automation-recheck.json')
 if(cnAgRevision.data.afterSha256!==cnAg.sha256||cnAgRevision.data.reviewInputSha256!==cnAgReview.data.input.sha256||cnAgRevision.data.reviewSha256!==cnAgReview.sha256||cnAgRecheck.data.revisionSha256!==cnAgRevision.sha256)throw new Error('中国农业修订与复检输入不匹配')
 importCnAgriculture(data,cnAg.data,cnAgAudit.data,cnAgReview.data,cnAgRecheck.data,{file:cnAgFile,sha256:cnAg.sha256,auditFile:cnAgAuditFile,auditSha256:cnAgAudit.sha256,reviewFile:cnAgReviewFile,reviewSha256:cnAgReview.sha256})
+const miningFile='research/automation/cn-industry-mining-06-12.json',miningAuditFile='research/automation/cn-industry-mining-06-12-search-audit.json',miningReviewFile='research/reviews/cn-industry-mining-06-12-automation-decisions.json'
+const mining=await read(miningFile),miningAudit=await read(miningAuditFile),miningReview=await read(miningReviewFile),miningRevision=await read('research/automation/cn-industry-mining-06-12-revisions.json'),miningRecheck=await read('research/reviews/cn-industry-mining-06-12-automation-recheck.json')
+if(miningRevision.data.afterSha256!==mining.sha256||miningRevision.data.reviewSha256!==miningReview.sha256||miningRevision.data.reviewInputSha256!==mining.data.reviewedInputSha256||miningRecheck.data.followupFieldReceipt.authorRevisionReceiptSha256!==miningRevision.sha256||miningRecheck.sha256!=='e3b1f137b4c4d9343af5cac570a7737c7ec3f2895f02e3eadc7b467d5d7cd41c')throw new Error('中国矿业修订与限定复检输入不匹配')
+importCnMining(data,mining.data,miningAudit.data,miningReview.data,miningRecheck.data,{file:miningFile,sha256:mining.sha256,auditFile:miningAuditFile,auditSha256:miningAudit.sha256,reviewFile:miningReviewFile,reviewSha256:miningReview.sha256})
 const servicesFile='research/automation/us-services.json',servicesAuditFile='research/automation/us-services-search-audit.json',servicesReviewFile='research/reviews/us-services-automation-decisions.json'
 const services=await read(servicesFile),servicesAudit=await read(servicesAuditFile),servicesReview=await read(servicesReviewFile)
 const servicesRevision=await read('research/automation/us-services-revisions.json'),servicesRecheck=await read('research/reviews/us-services-automation-recheck.json')
@@ -42,3 +47,4 @@ console.log('Integrated',raw.data.tasks.length,'CN service task research records
 console.log('Integrated',us.data.tasks.length,'US agriculture task research records. Partial dates, evidence limits and unresolved task definitions retained.')
 console.log('Integrated',services.data.tasks.length,'US service task research records. Original source claims, country scope and unknown cash-flow inputs retained.')
 console.log('Integrated',cnAg.data.tasks.length,'CN agriculture task research records. Split proposals and followups remain open; no task frozen.')
+console.log('Integrated',mining.data.tasks.length,'CN mining task research records. Reviewed display corrections applied; original snapshots preserved, no task frozen.')

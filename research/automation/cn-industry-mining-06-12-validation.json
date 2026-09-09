@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "cn-industry-mining-06-12",
+  "validatedAt": "2026-09-09",
+  "validationType": "author-revision-guard-not-independent-recheck",
+  "inventorySha256": "5388db09742709d606032d030ced3985f802a6e221441b59cd1302064ee8983e",
+  "reviewSha256": "807c0fed43c388a07d8905f3c9f90add2ef9f3687a147cdbdc7c270968d1ae62",
+  "beforeSha256": "93b3ffff8cc662ff5663472b87f0826eb1cafb038b13ba5c992cd0f0b64c2ce9",
+  "outputSha256": "c9acd3e56b65d0cd0d03904c7106218bf6b778889c8e1e5329c6065e407896dc",
+  "searchAuditSha256": "8c6aa42a7bd1ce3d9770be336fc5c64c530ef6b7cc9ffd321b7e1f438dae25df",
+  "counts": {
+    "taskCount": 138,
+    "scenarioCount": 23,
+    "sourceCount": 37,
+    "taskQueryCount": 276,
+    "supplementalQueryCount": 19,
+    "tasksWithBoundedMechanisms": 62,
+    "tasksWithoutMatchedReadMechanism": 76,
+    "tasksWithReadNegativeOrLimitingEvidence": 11,
+    "tasksIndependentlyReviewed": 138,
+    "tasksWithComputableROI": 0,
+    "tasksRevisionsIndependentlyRechecked": 0
+  },
+  "checks": {
+    "stableIdsUnique": true,
+    "lockedInventoryUnchanged": true,
+    "allOriginalTaskSnapshotsPreserved": true,
+    "researchDefinitionDifferencesExplicitlyDisclosed": true,
+    "mainQueriesUnchangedNotRerun": true,
+    "sourceLocatorReferencesResolve": true,
+    "cashAllNull": true,
+    "independentRecheckCompleted": false,
+    "isFrozen": false,
+    "followupSubstantiveFieldChangesExactly10": true,
+    "linkedQuoteTaskCount18": true,
+    "nestedOldQuotesAbsentOutsideOriginalTask": true,
+    "searchAuditByteIdenticalToPreviousRevision": true
+  },
+  "disclosedResearchDefinitionDifferences": [
+    {
+      "taskId": "cn-ind-coal-longwall-007",
+      "field": "title",
+      "reasonFindingIds": [
+        "E07",
+        "G06"
+      ]
+    },
+    {
+      "taskId": "cn-ind-coal-longwall-007",
+      "field": "action",
+      "reasonFindingIds": [
+        "E07",
+        "G06"
+      ]
+    },
+    {
+      "taskId": "cn-ind-coal-longwall-007",
+      "field": "inputs",
+      "reasonFindingIds": [
+        "E07",
+        "G06"
+      ]
+    },
+    {
+      "taskId": "cn-ind-stone-wire-saw-001",
+      "field": "title",
+      "reasonFindingIds": [
+        "E06"
+      ]
+    },
+    {
+      "taskId": "cn-ind-stone-wire-saw-001",
+      "field": "acceptance",
+      "reasonFindingIds": [
+        "E06"
+      ]
+    },
+    {
+      "taskId": "cn-ind-stone-wire-saw-006",
+      "field": "title",
+      "reasonFindingIds": [
+        "E06"
+      ]
+    },
+    {
+      "taskId": "cn-ind-stone-wire-saw-006",
+      "field": "acceptance",
+      "reasonFindingIds": [
+        "E06"
+      ]
+    }
+  ],
+  "errors": [],
+  "previousRevisionSha256": "1d0d396302c812787f4a9506d07b1d83ee7bedf8723003e0e8b10625a6f1a9c2",
+  "limitedRecheckSha256": "25db029030dff323f698acb69c9f7feb10afb5f528f0f89be53849b4a9dad66b",
+  "followupFindings": [
+    "E08",
+    "R01",
+    "R02"
+  ],
+  "followupIndependentFieldRecheckCompleted": false
+}

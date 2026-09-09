@@ -1,0 +1,1290 @@
+{
+  "schemaVersion": "1.0",
+  "reviewId": "cn-industry-mining-06-12-automation-limited-recheck",
+  "reviewer": "us_data-independent-of-author",
+  "reviewedAt": "2026-09-09",
+  "reviewType": "limited-revision-recheck-not-repeat-full-task-review",
+  "inputs": [
+    {
+      "file": "research/automation/cn-industry-mining-06-12.json",
+      "private": false,
+      "role": "revision-under-recheck",
+      "sha256": "1d0d396302c812787f4a9506d07b1d83ee7bedf8723003e0e8b10625a6f1a9c2"
+    },
+    {
+      "file": "research/automation/cn-industry-mining-06-12-revisions.json",
+      "private": false,
+      "role": "author-receipts",
+      "sha256": "e4fb5a83f4cd885b8280b28c99e9ea20eff3244cff15a145328652ff1e63a1f1"
+    },
+    {
+      "file": "research/automation/cn-industry-mining-06-12-search-audit.json",
+      "private": false,
+      "role": "public-audit",
+      "sha256": "8c6aa42a7bd1ce3d9770be336fc5c64c530ef6b7cc9ffd321b7e1f438dae25df"
+    },
+    {
+      "file": "research/automation/cn-industry-mining-06-12-validation.json",
+      "private": false,
+      "role": "author-structural-validation",
+      "sha256": "02dbc9cb018fddf09215ed8ffe31d9af4d3797a149ef743e4475ccb6d38eaf7c"
+    },
+    {
+      "file": "research/automation/cn-industry-mining-06-12.md",
+      "private": false,
+      "role": "author-report",
+      "sha256": "791664b5c4794f48ddb78ecc331543bd758bd02724f05de0834c9e294909ab15"
+    },
+    {
+      "file": "research/reviews/cn-industry-mining-06-12-automation-decisions.json",
+      "private": false,
+      "role": "prior-independent-review",
+      "sha256": "807c0fed43c388a07d8905f3c9f90add2ef9f3687a147cdbdc7c270968d1ae62"
+    },
+    {
+      "file": "research/inventories/cn-core.json",
+      "private": false,
+      "role": "unchanged-inventory",
+      "sha256": "5388db09742709d606032d030ced3985f802a6e221441b59cd1302064ee8983e"
+    },
+    {
+      "file": "cn-industry-mining-06-12.json",
+      "private": true,
+      "role": "immutable-old-input",
+      "sha256": "93b3ffff8cc662ff5663472b87f0826eb1cafb038b13ba5c992cd0f0b64c2ce9"
+    },
+    {
+      "file": "cn-industry-mining-06-12-search-audit.json",
+      "private": true,
+      "role": "immutable-old-query-audit",
+      "sha256": "3f6dab1127339a33d5da170616600cb15ada9a07d0205257b19a7090303bdd6d"
+    }
+  ],
+  "isFrozen": false,
+  "taskQueriesRerun": false,
+  "scope": {
+    "existingTasks": 138,
+    "previouslyIndependentlyReviewedTasks": 138,
+    "tasksRerunOrRefrozen": 0,
+    "newSources": 4,
+    "oldSourcesRereadForCorrections": 12,
+    "sourceRecordsCheckedThisRecheck": 16,
+    "researchDisplayChangedTasks": 3,
+    "researchDisplayChangedFields": 7,
+    "notRepeated": [
+      "138项完整动作/职业/SOP的首轮裁决",
+      "全部33旧来源的完整再次核读",
+      "276主查询或19补充任务查询重新执行",
+      "全行业覆盖验收"
+    ]
+  },
+  "methods": [
+    "校验作者指定输入SHA与原93b3…私存快照。",
+    "138条原任务ID与originalTask逐一机器对比；显示字段差异另列，不把源数量或候选数当覆盖率。",
+    "逐项对照19条回执并读具体改动，重新核原短引和限制段。",
+    "四份新增官方PDF与独立缓存SHA一致；关键页文字和表格/条款页图复读。",
+    "针对G09额外重读GB16423全部已引62—65页，发现首轮漏核的五个原文quote错误。",
+    "规范元数据在线复核：应急部第17号令、生态环境部HJ1461原页及北京DB2039官方PDF。",
+    "未重跑任务查询；公开原新审计全值对比，并将主查询全文/任务/方向/日期与私存69批原请求复配。"
+  ],
+  "displayDiff": [
+    {
+      "taskId": "cn-ind-coal-longwall-007",
+      "changedFields": [
+        "title",
+        "action",
+        "inputs"
+      ],
+      "originalTaskUnchanged": true,
+      "inventoryDisposition": "research-display-corrected-inventory-owner-merge-pending"
+    },
+    {
+      "taskId": "cn-ind-stone-wire-saw-001",
+      "changedFields": [
+        "title",
+        "acceptance"
+      ],
+      "originalTaskUnchanged": true,
+      "inventoryDisposition": "research-display-corrected-inventory-owner-merge-pending"
+    },
+    {
+      "taskId": "cn-ind-stone-wire-saw-006",
+      "changedFields": [
+        "title",
+        "acceptance"
+      ],
+      "originalTaskUnchanged": true,
+      "inventoryDisposition": "research-display-corrected-inventory-owner-merge-pending"
+    }
+  ],
+  "findingRechecks": [
+    {
+      "findingId": "E01",
+      "authorReceiptStatus": "corrected-in-research-output-awaiting-independent-recheck",
+      "affectedTaskIds": [
+        "cn-ind-coal-longwall-001",
+        "cn-ind-coal-longwall-003",
+        "cn-ind-coal-longwall-005"
+      ],
+      "recheckVerdict": "correction-confirmed",
+      "independentSteps": [
+        "重新核对官方名单PDF物理1页省份合并单元格与第28行，并目视页图。",
+        "对比来源geography、geographySourceRefs和煤长壁001/003/005的countryScope。"
+      ],
+      "result": "柳塔煤矿归内蒙古；三项同步修正。2022应用和未核2026持续运行边界保留。",
+      "remaining": [],
+      "scope": "仅本项修订字段与相关原文；不重新裁决全任务、全方案或全行业覆盖"
+    },
+    {
+      "findingId": "E02",
+      "authorReceiptStatus": "corrected-in-research-output-awaiting-independent-recheck",
+      "affectedTaskIds": [
+        "cn-ind-stone-chain-core-002",
+        "cn-ind-oil-production-extraction-001",
+        "cn-ind-oil-production-extraction-004",
+        "cn-ind-oil-production-extraction-005"
+      ],
+      "recheckVerdict": "correction-confirmed",
+      "independentSteps": [
+        "逐字复读shengli规范化行54—55、78、91；jiangsu行68/73；huada行42/49—50。",
+        "核对来源quote、claim及任务引用能解析到同一locator。"
+      ],
+      "result": "四个短锚已恢复为原文；计划上线、人员最终审定、软质岩石和可选物联网边界均未升级。",
+      "remaining": [
+        "本次另外发现GB16423五个旧quote同义改写，见新E08；不是本E02四处修正失败。"
+      ],
+      "scope": "仅本项修订字段与相关原文；不重新裁决全任务、全方案或全行业覆盖"
+    },
+    {
+      "findingId": "E03",
+      "authorReceiptStatus": "corrected-in-research-output-awaiting-independent-recheck",
+      "affectedTaskIds": [
+        "cn-ind-oil-production-extraction-002",
+        "cn-ind-oil-production-extraction-004",
+        "cn-ind-oil-production-extraction-005",
+        "cn-ind-oil-field-separation-water-003",
+        "cn-ind-oil-field-separation-water-007"
+      ],
+      "recheckVerdict": "correction-confirmed",
+      "independentSteps": [
+        "复读jiangsu规范化行56—57标题与日期，并核63、66—73的联调/试点/人员残留。"
+      ],
+      "result": "来源title已恢复正文题名，概括移入displaySummary；2026-07-28发布日期与不同部署阶段分开。",
+      "remaining": [],
+      "scope": "仅本项修订字段与相关原文；不重新裁决全任务、全方案或全行业覆盖"
+    },
+    {
+      "findingId": "E04",
+      "authorReceiptStatus": "corrected-in-research-output-awaiting-independent-recheck",
+      "affectedTaskIds": [
+        "cn-ind-oilservice-rig-structure-003"
+      ],
+      "recheckVerdict": "correction-confirmed",
+      "independentSteps": [
+        "复读2018井架论文原缓存网页L154，监测发生于起升过程。",
+        "逐字段检查rig-structure-003的alternatives、adjacentStageLeads、researchStatus、deploymentEvidence、successfulCounterexamples及technical。"
+      ],
+      "result": "相邻起升监测已移出匹配方案。alternatives为空、部署未建立、无完整成功；technical为待验证条件且sourceRefs为空。限定机制任务由63减至62。",
+      "remaining": [
+        "安装后调试项目、仪表和验收方法仍需补证；动作族拆分仍拟议。"
+      ],
+      "scope": "仅本项修订字段与相关原文；不重新裁决全任务、全方案或全行业覆盖"
+    },
+    {
+      "findingId": "E05",
+      "authorReceiptStatus": "corrected-in-research-output-awaiting-independent-recheck",
+      "affectedTaskIds": [],
+      "recheckVerdict": "correction-confirmed",
+      "independentSteps": [
+        "复读CEIC网页L18、20、21、23，分别为干扰、模型测试不足和后续状态显示。",
+        "复读SUNWARD网页L259、265与图片说明L270，定位湖南石灰石矿非煤测试。",
+        "核对OP1/OP2 sourceRefs的locatorId、section和去重。"
+      ],
+      "result": "机会理由已有研发不足及现场测试的准确定位；没有将新疆煤矿测试混成非煤证据。",
+      "remaining": [],
+      "scope": "仅本项修订字段与相关原文；不重新裁决全任务、全方案或全行业覆盖"
+    },
+    {
+      "findingId": "E06",
+      "authorReceiptStatus": "corrected-in-research-output-awaiting-independent-recheck",
+      "affectedTaskIds": [
+        "cn-ind-stone-wire-saw-001",
+        "cn-ind-stone-wire-saw-006"
+      ],
+      "recheckVerdict": "correction-confirmed",
+      "independentSteps": [
+        "再次目视GB16423物理62页§7.3.9的铺轨准备、每次停机检查接头条款。",
+        "比较wire-saw-001/006的title、acceptance、executionConditions和inventoryDisposition。"
+      ],
+      "result": "001终点止于清洁平整区域；006止于接头检查记录及不合格状态处理，更换复验不再计入006。标记隔离被明确标为研究拟议管理。",
+      "remaining": [
+        "原库存保持不动；合并研究显示修订仍由库存负责人完成。"
+      ],
+      "scope": "仅本项修订字段与相关原文；不重新裁决全任务、全方案或全行业覆盖"
+    },
+    {
+      "findingId": "E07",
+      "authorReceiptStatus": "corrected-in-research-output-awaiting-independent-recheck",
+      "affectedTaskIds": [
+        "cn-ind-coal-longwall-007"
+      ],
+      "recheckVerdict": "core-correction-confirmed-editorial-sync-pending",
+      "independentSteps": [
+        "重读并目视煤规PDF45—46页第129条(四)(五)。",
+        "核对007动作、输入、规范条件及额外未验证空顶变量。"
+      ],
+      "result": "停采触发已改为移架滞后超过规程距离或冒顶片帮；破碎顶板对应超前支护，空顶超限列为另待现场规程核实。",
+      "remaining": [
+        "interviewQuestions[1]仍带旧输入措辞，见R02。停止、支护、复工许可仍是拟议动作族。"
+      ],
+      "scope": "仅本项修订字段与相关原文；不重新裁决全任务、全方案或全行业覆盖"
+    },
+    {
+      "findingId": "G01",
+      "authorReceiptStatus": "narrow-source-boundary-correction-applied-awaiting-recheck",
+      "affectedTaskIds": [
+        "cn-ind-geothermal-resource-test-002",
+        "cn-ind-geothermal-resource-test-005",
+        "cn-ind-geothermal-resource-sampling-003"
+      ],
+      "recheckVerdict": "boundary-correction-confirmed-title-sync-pending",
+      "independentSteps": [
+        "复读GEOTHERM规范化行56原量值写法，并重读DB2039物理7、14页。",
+        "核对test-002/005和sampling-003，及相同机制连带使用的test-003/004。"
+      ],
+      "result": "来源claim与方案supportBoundary已保留水位（压力）、量值定义/换算/仪表配置待核；加压压力另记录。",
+      "remaining": [
+        "test-002/003/004/005的mechanism名称仍未带括号，见R01。不是独立双通道或完整高温试验的实证。"
+      ],
+      "scope": "仅本项修订字段与相关原文；不重新裁决全任务、全方案或全行业覆盖"
+    },
+    {
+      "findingId": "G03",
+      "authorReceiptStatus": "narrow-source-boundary-correction-applied-awaiting-recheck",
+      "affectedTaskIds": [
+        "cn-ind-coal-longwall-002",
+        "cn-ind-coal-longwall-006"
+      ],
+      "recheckVerdict": "boundary-correction-confirmed",
+      "independentSteps": [
+        "复读CEIC状态显示L23与测试L18/21，核煤长壁002/006的方案和结论。"
+      ],
+      "result": "已明确视觉支架姿态不等于矿压物理量测量；006拆分仅为建议。",
+      "remaining": [],
+      "scope": "仅本项修订字段与相关原文；不重新裁决全任务、全方案或全行业覆盖"
+    },
+    {
+      "findingId": "G05",
+      "authorReceiptStatus": "partly-addressed-with-explicit-remaining-gap",
+      "affectedTaskIds": [
+        "cn-ind-coal-longwall-012",
+        "cn-ind-metal-openpit-dig-002",
+        "cn-ind-metal-openpit-dig-003",
+        "cn-ind-metal-coarse-crush-002",
+        "cn-ind-metal-coarse-crush-003",
+        "cn-ind-lake-salt-vessel-005",
+        "cn-ind-lake-salt-vessel-006",
+        "cn-ind-iron-underground-development-004",
+        "cn-ind-oil-enhanced-injection-001",
+        "cn-ind-oil-enhanced-injection-002",
+        "cn-ind-gas-field-collection-002",
+        "cn-ind-gas-field-collection-004",
+        "cn-ind-oil-field-separation-water-001",
+        "cn-ind-oilservice-tool-turnaround-001",
+        "cn-ind-oilservice-tool-turnaround-004"
+      ],
+      "recheckVerdict": "remaining-gap-explicit",
+      "independentSteps": [
+        "检查15项回执、evidenceGaps与researchPassLimitations；没有本轮重新核读全部职责和设备原文。"
+      ],
+      "result": "无匹配已限定为本轮新增证据不足，不再等同原库存没有机械。",
+      "remaining": [
+        "传统机械基线仍未逐项纳入五类比较；不得把本项标为研究完成。"
+      ],
+      "scope": "仅本项修订字段与相关原文；不重新裁决全任务、全方案或全行业覆盖"
+    },
+    {
+      "findingId": "G06",
+      "authorReceiptStatus": "partly-addressed-with-explicit-remaining-gap",
+      "affectedTaskIds": [
+        "cn-ind-coal-longwall-006",
+        "cn-ind-coal-longwall-007",
+        "cn-ind-coal-longwall-008",
+        "cn-ind-metal-openpit-slope-004",
+        "cn-ind-lake-salt-vessel-009",
+        "cn-ind-iron-underground-development-001",
+        "cn-ind-iron-underground-development-003",
+        "cn-ind-iron-underground-ventilation-002",
+        "cn-ind-iron-underground-ventilation-004",
+        "cn-ind-oil-production-extraction-001",
+        "cn-ind-oil-production-extraction-005",
+        "cn-ind-oil-production-extraction-006",
+        "cn-ind-gas-field-collection-007",
+        "cn-ind-oil-field-separation-water-007",
+        "cn-ind-oilservice-rig-structure-001",
+        "cn-ind-oilservice-rig-structure-002",
+        "cn-ind-oilservice-rig-structure-003",
+        "cn-ind-oilservice-rig-structure-004",
+        "cn-ind-oilservice-directional-drilling-005",
+        "cn-ind-oilservice-cementing-001",
+        "cn-ind-oilservice-cementing-003"
+      ],
+      "recheckVerdict": "proposal-preserved-not-closed",
+      "independentSteps": [
+        "核138个taskIdMapping与inventoryDisposition；统计proposedDecomposition及新子ID。"
+      ],
+      "result": "21项建议动作族拆分，0个新冻结子任务；原ID集合不变。",
+      "remaining": [
+        "独立输出/验收/计量细分未完成，138仍为原候选记录数量。"
+      ],
+      "scope": "仅本项修订字段与相关原文；不重新裁决全任务、全方案或全行业覆盖"
+    },
+    {
+      "findingId": "G07",
+      "authorReceiptStatus": "partly-addressed-with-explicit-remaining-gap",
+      "affectedTaskIds": [
+        "cn-ind-coal-longwall-013",
+        "cn-ind-metal-openpit-drill-005",
+        "cn-ind-oil-cuttings-collection-001",
+        "cn-ind-oil-cuttings-collection-003",
+        "cn-ind-oil-cuttings-collection-004",
+        "cn-ind-oilservice-tool-turnaround-006",
+        "cn-ind-geothermal-resource-test-001",
+        "cn-ind-geothermal-resource-test-007",
+        "cn-ind-geothermal-resource-sampling-002"
+      ],
+      "recheckVerdict": "remaining-gap-explicit",
+      "independentSteps": [
+        "核9项回执和原文支持范围提示；本轮不重认证全部流程规范/职业资料。"
+      ],
+      "result": "正式职责版、现场SOP及转引方法未被伪称已补齐。",
+      "remaining": [
+        "原首轮逐任务流程/职责缺口保持；不能据此次复检冻结任务定义。"
+      ],
+      "scope": "仅本项修订字段与相关原文；不重新裁决全任务、全方案或全行业覆盖"
+    },
+    {
+      "findingId": "G09",
+      "authorReceiptStatus": "missing-cited-conditions-added-awaiting-recheck",
+      "affectedTaskIds": [
+        "cn-ind-coal-longwall-009",
+        "cn-ind-metal-coarse-crush-006",
+        "cn-ind-stone-wire-saw-005",
+        "cn-ind-stone-disc-block-004",
+        "cn-ind-oil-cuttings-collection-002",
+        "cn-ind-geothermal-resource-test-005"
+      ],
+      "recheckVerdict": "condition-additions-confirmed",
+      "independentSteps": [
+        "重读/目视煤规53页第140条(五)，GB13页§5.3.6及62—63页石材条款。",
+        "重读/目视HJ1461物理6页§5.1—5.2和DB2039物理14页附录B.1(e)(f)。",
+        "逐项核煤009、粗碎006、串珠005、圆盘004、岩屑002、地热test005的sourceBackedRequirements及残留要求。"
+      ],
+      "result": "护帮护顶/支架禁动、先上部清堵、特殊岩屑类别、环境温度和加压压力条件已可见；已有末段人工接管/换片协作被保留。均标为规范要求，非已发生事故或自动化失败。",
+      "remaining": [
+        "GB16423的若干旧quote仍须按E08逐字修正，条款及概括条件本身支持。"
+      ],
+      "scope": "仅本项修订字段与相关原文；不重新裁决全任务、全方案或全行业覆盖"
+    },
+    {
+      "findingId": "G10",
+      "authorReceiptStatus": "partly-addressed-with-explicit-remaining-gap",
+      "affectedTaskIds": [
+        "cn-ind-metal-openpit-drill-001",
+        "cn-ind-stone-wire-saw-002",
+        "cn-ind-lake-salt-vessel-003"
+      ],
+      "recheckVerdict": "remaining-gap-explicit",
+      "independentSteps": [
+        "核回执及drill-001、wire-002、salt-003显示字段与旧版比较。"
+      ],
+      "result": "验收收紧建议保留；当前这些原字段未实际修订。",
+      "remaining": [
+        "可记录、检查完成与安全放行的终点仍需精确化；本轮不替作者修改库存。"
+      ],
+      "scope": "仅本项修订字段与相关原文；不重新裁决全任务、全方案或全行业覆盖"
+    },
+    {
+      "findingId": "G11",
+      "authorReceiptStatus": "partly-addressed-with-explicit-remaining-gap",
+      "affectedTaskIds": [
+        "cn-ind-metal-openpit-slope-004"
+      ],
+      "recheckVerdict": "remaining-gap-explicit",
+      "independentSteps": [
+        "比较openpit-slope-004的phase与inventoryDisposition。"
+      ],
+      "result": "阶段修订仍是建议，原phase未改。",
+      "remaining": [
+        "不能将所有首次边坡加固按返工事实呈现；前台须显示此项待核。"
+      ],
+      "scope": "仅本项修订字段与相关原文；不重新裁决全任务、全方案或全行业覆盖"
+    },
+    {
+      "findingId": "G12",
+      "authorReceiptStatus": "partly-addressed-with-explicit-remaining-gap",
+      "affectedTaskIds": [
+        "cn-ind-lake-salt-vessel-010",
+        "cn-ind-lake-salt-vessel-008"
+      ],
+      "recheckVerdict": "remaining-gap-explicit",
+      "independentSteps": [
+        "复读HANPU行105—106、125—128，比较salt-008/010输入与回执。"
+      ],
+      "result": "没有将供应商加工线顺序升级为湖盐船固定顺序。",
+      "remaining": [
+        "湿筛/脱水顺序仍待工艺核验，原输入未修改；前台须连同待验证分支显示。"
+      ],
+      "scope": "仅本项修订字段与相关原文；不重新裁决全任务、全方案或全行业覆盖"
+    },
+    {
+      "findingId": "G13",
+      "authorReceiptStatus": "narrow-source-boundary-correction-applied-awaiting-recheck",
+      "affectedTaskIds": [
+        "cn-ind-oil-enhanced-injection-001",
+        "cn-ind-oil-enhanced-injection-003"
+      ],
+      "recheckVerdict": "metadata-and-locator-correction-confirmed",
+      "independentSteps": [
+        "复读poly-paper行26—28和199—203；核两项注聚barriers及counterEvidence。"
+      ],
+      "result": "网络出版2016-01-04与2016卷期、2015收稿分开；室温方法段已覆盖。保持模拟水材料相容性实验，未冒充现场自动配聚失败。",
+      "remaining": [],
+      "scope": "仅本项修订字段与相关原文；不重新裁决全任务、全方案或全行业覆盖"
+    },
+    {
+      "findingId": "G14",
+      "authorReceiptStatus": "partly-addressed-with-explicit-remaining-gap",
+      "affectedTaskIds": [
+        "cn-ind-coal-longwall-001",
+        "cn-ind-coal-longwall-002",
+        "cn-ind-coal-longwall-003",
+        "cn-ind-coal-longwall-004",
+        "cn-ind-coal-longwall-005",
+        "cn-ind-coal-longwall-006",
+        "cn-ind-coal-longwall-007",
+        "cn-ind-coal-longwall-008",
+        "cn-ind-coal-longwall-009",
+        "cn-ind-coal-longwall-010",
+        "cn-ind-coal-longwall-011",
+        "cn-ind-coal-longwall-012",
+        "cn-ind-coal-longwall-013",
+        "cn-ind-coal-longwall-014",
+        "cn-ind-metal-openpit-drill-001",
+        "cn-ind-metal-openpit-drill-002",
+        "cn-ind-metal-openpit-drill-003",
+        "cn-ind-metal-openpit-drill-004",
+        "cn-ind-metal-openpit-drill-005",
+        "cn-ind-metal-openpit-drill-006",
+        "cn-ind-metal-openpit-dig-001",
+        "cn-ind-metal-openpit-dig-002",
+        "cn-ind-metal-openpit-dig-003",
+        "cn-ind-metal-openpit-dig-004",
+        "cn-ind-metal-openpit-dig-005",
+        "cn-ind-metal-openpit-slope-001",
+        "cn-ind-metal-openpit-slope-002",
+        "cn-ind-metal-openpit-slope-003",
+        "cn-ind-metal-openpit-slope-004",
+        "cn-ind-metal-coarse-crush-001",
+        "cn-ind-metal-coarse-crush-002",
+        "cn-ind-metal-coarse-crush-003",
+        "cn-ind-metal-coarse-crush-004",
+        "cn-ind-metal-coarse-crush-005",
+        "cn-ind-metal-coarse-crush-006",
+        "cn-ind-metal-coarse-crush-007",
+        "cn-ind-stone-wire-saw-001",
+        "cn-ind-stone-wire-saw-002",
+        "cn-ind-stone-wire-saw-003",
+        "cn-ind-stone-wire-saw-004",
+        "cn-ind-stone-wire-saw-005",
+        "cn-ind-stone-wire-saw-006",
+        "cn-ind-stone-wire-saw-007",
+        "cn-ind-stone-chain-core-001",
+        "cn-ind-stone-chain-core-002",
+        "cn-ind-stone-chain-core-003",
+        "cn-ind-stone-chain-core-004",
+        "cn-ind-stone-chain-core-005",
+        "cn-ind-stone-chain-core-006",
+        "cn-ind-stone-disc-block-001",
+        "cn-ind-stone-disc-block-002",
+        "cn-ind-stone-disc-block-003",
+        "cn-ind-stone-disc-block-004",
+        "cn-ind-stone-disc-block-005",
+        "cn-ind-stone-disc-block-006",
+        "cn-ind-lake-salt-vessel-001",
+        "cn-ind-lake-salt-vessel-002",
+        "cn-ind-lake-salt-vessel-003",
+        "cn-ind-lake-salt-vessel-004",
+        "cn-ind-lake-salt-vessel-005",
+        "cn-ind-lake-salt-vessel-006",
+        "cn-ind-lake-salt-vessel-007",
+        "cn-ind-lake-salt-vessel-010",
+        "cn-ind-lake-salt-vessel-008",
+        "cn-ind-lake-salt-vessel-009",
+        "cn-ind-iron-underground-development-001",
+        "cn-ind-iron-underground-development-002",
+        "cn-ind-iron-underground-development-003",
+        "cn-ind-iron-underground-development-004",
+        "cn-ind-iron-underground-development-005",
+        "cn-ind-iron-underground-development-006",
+        "cn-ind-iron-underground-ventilation-001",
+        "cn-ind-iron-underground-ventilation-002",
+        "cn-ind-iron-underground-ventilation-003",
+        "cn-ind-iron-underground-ventilation-004",
+        "cn-ind-oil-drilling-fluid-001",
+        "cn-ind-oil-drilling-fluid-002",
+        "cn-ind-oil-drilling-fluid-003",
+        "cn-ind-oil-drilling-fluid-004",
+        "cn-ind-oil-drilling-fluid-005",
+        "cn-ind-oil-cuttings-collection-001",
+        "cn-ind-oil-cuttings-collection-002",
+        "cn-ind-oil-cuttings-collection-003",
+        "cn-ind-oil-cuttings-collection-004",
+        "cn-ind-oil-production-extraction-001",
+        "cn-ind-oil-production-extraction-002",
+        "cn-ind-oil-production-extraction-003",
+        "cn-ind-oil-production-extraction-004",
+        "cn-ind-oil-production-extraction-005",
+        "cn-ind-oil-production-extraction-006",
+        "cn-ind-oil-enhanced-injection-001",
+        "cn-ind-oil-enhanced-injection-002",
+        "cn-ind-oil-enhanced-injection-003",
+        "cn-ind-oil-enhanced-injection-004",
+        "cn-ind-oil-enhanced-injection-005",
+        "cn-ind-gas-field-collection-001",
+        "cn-ind-gas-field-collection-002",
+        "cn-ind-gas-field-collection-003",
+        "cn-ind-gas-field-collection-004",
+        "cn-ind-gas-field-collection-005",
+        "cn-ind-gas-field-collection-006",
+        "cn-ind-gas-field-collection-007",
+        "cn-ind-oil-field-separation-water-001",
+        "cn-ind-oil-field-separation-water-002",
+        "cn-ind-oil-field-separation-water-003",
+        "cn-ind-oil-field-separation-water-004",
+        "cn-ind-oil-field-separation-water-005",
+        "cn-ind-oil-field-separation-water-006",
+        "cn-ind-oil-field-separation-water-007",
+        "cn-ind-oilservice-rig-structure-001",
+        "cn-ind-oilservice-rig-structure-002",
+        "cn-ind-oilservice-rig-structure-003",
+        "cn-ind-oilservice-rig-structure-004",
+        "cn-ind-oilservice-directional-drilling-001",
+        "cn-ind-oilservice-directional-drilling-002",
+        "cn-ind-oilservice-directional-drilling-003",
+        "cn-ind-oilservice-directional-drilling-004",
+        "cn-ind-oilservice-directional-drilling-005",
+        "cn-ind-oilservice-cementing-001",
+        "cn-ind-oilservice-cementing-002",
+        "cn-ind-oilservice-cementing-003",
+        "cn-ind-oilservice-cementing-004",
+        "cn-ind-oilservice-tool-turnaround-001",
+        "cn-ind-oilservice-tool-turnaround-002",
+        "cn-ind-oilservice-tool-turnaround-003",
+        "cn-ind-oilservice-tool-turnaround-004",
+        "cn-ind-oilservice-tool-turnaround-005",
+        "cn-ind-oilservice-tool-turnaround-006",
+        "cn-ind-geothermal-resource-test-001",
+        "cn-ind-geothermal-resource-test-002",
+        "cn-ind-geothermal-resource-test-003",
+        "cn-ind-geothermal-resource-test-004",
+        "cn-ind-geothermal-resource-test-005",
+        "cn-ind-geothermal-resource-test-006",
+        "cn-ind-geothermal-resource-test-007",
+        "cn-ind-geothermal-resource-sampling-001",
+        "cn-ind-geothermal-resource-sampling-002",
+        "cn-ind-geothermal-resource-sampling-003"
+      ],
+      "recheckVerdict": "audit-boundary-confirmed-research-gap-open",
+      "independentSteps": [
+        "实际比较原新taskQueries、resultPools、supplementalSearches全值，三者完全相等。",
+        "再将276条公开请求按taskId、方向、全文与69批私存queries和executedAt匹配。"
+      ],
+      "result": "主查询执行记录保持，可由私存原请求逐条连接；19补充只有作者公开请求记录与结果缓存，仍不具同级独立请求日志。",
+      "remaining": [
+        "未重新执行任何主/补任务查询；设备名、退出、未采用和经济采用的更广检索仍未完成。"
+      ],
+      "scope": "仅本项修订字段与相关原文；不重新裁决全任务、全方案或全行业覆盖"
+    },
+    {
+      "findingId": "G15",
+      "authorReceiptStatus": "narrow-source-boundary-correction-applied-awaiting-recheck",
+      "affectedTaskIds": [
+        "cn-ind-lake-salt-vessel-007",
+        "cn-ind-lake-salt-vessel-010",
+        "cn-ind-lake-salt-vessel-008",
+        "cn-ind-oil-drilling-fluid-002",
+        "cn-ind-oil-drilling-fluid-003"
+      ],
+      "recheckVerdict": "locator-correction-confirmed",
+      "independentSteps": [
+        "逐字复读hanpu-fixed行91—92、105—106、125—128；jkz行57—87、140。"
+      ],
+      "result": "规范化非空行定位已恢复；PLC仍为选配、盐精制线仍为供应商产品/场景迁移线索，未提升到具名矿山运行。",
+      "remaining": [],
+      "scope": "仅本项修订字段与相关原文；不重新裁决全任务、全方案或全行业覆盖"
+    }
+  ],
+  "newFindings": [
+    {
+      "id": "E08",
+      "severity": "confirmed-error",
+      "title": "GB16423五个旧quote仍为同义改写",
+      "detail": "本轮为新增规范条件重新目视时发现；前次独立审校漏核这五处，现明确纠正。概括可成立不等于可置于原文quote字段。",
+      "corrections": [
+        {
+          "sourceId": "CN-MIN-GB16423",
+          "locatorId": "wire",
+          "field": "quote",
+          "current": "改为手动控制",
+          "requiredExactAnchor": "人工控制",
+          "originalLocator": "PDF物理62页，§7.3.9",
+          "affectedTaskIds": [
+            "cn-ind-stone-wire-saw-002",
+            "cn-ind-stone-wire-saw-003",
+            "cn-ind-stone-wire-saw-004",
+            "cn-ind-stone-wire-saw-005",
+            "cn-ind-stone-wire-saw-007"
+          ]
+        },
+        {
+          "sourceId": "CN-MIN-GB16423",
+          "locatorId": "core",
+          "field": "quote",
+          "current": "异响和振动",
+          "requiredExactAnchor": "噪音和振动",
+          "originalLocator": "PDF物理63页，§7.3.11",
+          "affectedTaskIds": [
+            "cn-ind-stone-chain-core-004",
+            "cn-ind-stone-chain-core-005",
+            "cn-ind-stone-chain-core-006"
+          ]
+        },
+        {
+          "sourceId": "CN-MIN-GB16423",
+          "locatorId": "disc",
+          "field": "quote",
+          "current": "互相配合",
+          "requiredExactAnchor": "协同操作",
+          "originalLocator": "PDF物理63页，§7.3.12",
+          "affectedTaskIds": [
+            "cn-ind-stone-disc-block-001",
+            "cn-ind-stone-disc-block-002",
+            "cn-ind-stone-disc-block-003",
+            "cn-ind-stone-disc-block-004"
+          ]
+        },
+        {
+          "sourceId": "CN-MIN-GB16423",
+          "locatorId": "fork",
+          "field": "quote",
+          "current": "清理行车路面",
+          "requiredExactAnchor": "进行清理",
+          "originalLocator": "PDF物理63页，§7.3.13",
+          "affectedTaskIds": [
+            "cn-ind-stone-disc-block-005",
+            "cn-ind-stone-disc-block-006"
+          ]
+        },
+        {
+          "sourceId": "CN-MIN-GB16423",
+          "locatorId": "salt-mining",
+          "field": "quote",
+          "current": "先停给料",
+          "requiredExactAnchor": "停止上料",
+          "originalLocator": "PDF物理65页，§7.4.5",
+          "affectedTaskIds": [
+            "cn-ind-lake-salt-vessel-001",
+            "cn-ind-lake-salt-vessel-002",
+            "cn-ind-lake-salt-vessel-003",
+            "cn-ind-lake-salt-vessel-004"
+          ]
+        }
+      ],
+      "requiredBeforePublicWorkingImport": true,
+      "scope": "仅纠正短引；不改变规范的任务条件、不将规范变为失败或部署事实。"
+    },
+    {
+      "id": "R01",
+      "severity": "editorial-sync",
+      "title": "地热方案名称与量值边界未同步",
+      "taskIds": [
+        "cn-ind-geothermal-resource-test-002",
+        "cn-ind-geothermal-resource-test-003",
+        "cn-ind-geothermal-resource-test-004",
+        "cn-ind-geothermal-resource-test-005"
+      ],
+      "field": "alternatives[0].mechanism",
+      "current": "地热取回灌流量温度水位压力监测",
+      "required": "改为地热取回灌流量、温度、水位（压力）监测；保留现有supportBoundary的换算/井口压力/仪表配置缺口。",
+      "reason": "原文GEOTHERM行56和DB2039未证明两套独立量值；边界已修正，标题同步避免摘要丢失限定。"
+    },
+    {
+      "id": "R02",
+      "severity": "editorial-sync",
+      "title": "煤长壁007访谈提示保留旧输入措辞",
+      "taskIds": [
+        "cn-ind-coal-longwall-007"
+      ],
+      "field": "interviewQuestions[1]",
+      "currentFragment": "当前破碎顶板或不安全间距规格",
+      "required": "同步询问当前移架滞后规定距离、冒顶片帮触发及处置记录；破碎顶板超前支护与另行核实空顶变量分开。",
+      "reason": "顶层动作、输入及规范条件已正确；此项只是派生访谈文字未更新。"
+    }
+  ],
+  "sourceRechecks": [
+    {
+      "sourceId": "CN-MIN-NDRC-LIUTA",
+      "url": "https://www.ndrc.gov.cn/fzggw/jgsj/yxj/sjdt/202206/t20220629_1329253.html",
+      "cacheBasenames": [
+        "cnMiningReadCoalA.json",
+        "liuta-official-list.pdf"
+      ],
+      "passagesReread": [
+        "原报告L10；名单PDF1第28行/省份格"
+      ],
+      "result": "历史应用时期未变，地点由官方名单校正。",
+      "status": "confirmed-with-stated-boundary"
+    },
+    {
+      "sourceId": "CN-MIN-CEIC-VISION",
+      "url": "https://epaper.ceic.com/pc/content/202601/09/content_19576.html",
+      "cacheBasenames": [
+        "cnMiningReadCoalA.json"
+      ],
+      "passagesReread": [
+        "L18、20、21、23"
+      ],
+      "result": "研发干扰、测试不足与后续应用三种事实分离；不支持矿压物理量。",
+      "status": "confirmed-with-stated-boundary"
+    },
+    {
+      "sourceId": "CN-MIN-RIG-LIFT",
+      "url": "https://html.rhhz.net/syjxzz/html/20180801.htm",
+      "cacheBasenames": [
+        "cnMiningOilReadA.json"
+      ],
+      "passagesReread": [
+        "L154"
+      ],
+      "result": "监测是起升中，已排除安装后调试的直接匹配。",
+      "status": "confirmed-with-stated-boundary"
+    },
+    {
+      "sourceId": "CN-MIN-SUNWARD",
+      "url": "https://www.sunward.com.cn/jtdt/2566.html",
+      "cacheBasenames": [
+        "cnMiningRockReadA.json"
+      ],
+      "passagesReread": [
+        "L259、265、270"
+      ],
+      "result": "2021供应商发布/测试层级，非煤仅湖南石灰石矿。",
+      "status": "confirmed-with-stated-boundary"
+    },
+    {
+      "sourceId": "CN-MIN-GB16423",
+      "url": "https://www.chinamine-safety.gov.cn/zfxxgk/fdzdgknr/zcfg/hybz_01/fmks/202012/P020201223408397922917.pdf",
+      "cacheBasenames": [
+        "gb16423.pdf"
+      ],
+      "passagesReread": [
+        "物理13、62、63、64、65页；相关页图均目视"
+      ],
+      "result": "新增三条locator的条件成立；旧五个quote需修。",
+      "status": "confirmed-error-in-five-old-quote-fields"
+    },
+    {
+      "sourceId": "CN-MIN-SHENGLI",
+      "url": "https://slof.sinopec.com/slof/news/zxyw/2026/7/I1532393513742761984.shtml",
+      "cacheBasenames": [
+        "shengli.txt"
+      ],
+      "passagesReread": [
+        "规范化52—56、77—79、89—92"
+      ],
+      "result": "短锚可逐字找到；计划与初步实现未混淆。",
+      "status": "confirmed-with-stated-boundary"
+    },
+    {
+      "sourceId": "CN-MIN-JIANGSU",
+      "url": "https://jsof.sinopec.com/jsof/news/qyxw/2026/7/I1531687711725846528.shtml",
+      "cacheBasenames": [
+        "jiangsu.txt"
+      ],
+      "passagesReread": [
+        "规范化56—57、63—73"
+      ],
+      "result": "题名/正文日期及联调、单井试点、现有系统边界成立。",
+      "status": "confirmed-with-stated-boundary"
+    },
+    {
+      "sourceId": "CN-MIN-HUADA",
+      "url": "https://www.huada-group.com/pro_info71.html",
+      "cacheBasenames": [
+        "huada.txt"
+      ],
+      "passagesReread": [
+        "规范化40—50"
+      ],
+      "result": "软质岩石、PLC伺服和选配物联网范围成立。",
+      "status": "confirmed-with-stated-boundary"
+    },
+    {
+      "sourceId": "CN-MIN-GEOTHERM",
+      "url": "https://tangshanliulin.com/list_25/258.html",
+      "cacheBasenames": [
+        "geotherm.txt"
+      ],
+      "passagesReread": [
+        "规范化52—56、71—75"
+      ],
+      "result": "水位（压力）与报警/报表语义明确，四个机制名称仍需同步。",
+      "status": "confirmed-with-stated-boundary"
+    },
+    {
+      "sourceId": "CN-MIN-HANPU",
+      "url": "https://www.hanputech.com/solutions-mechnical-salt-processing",
+      "cacheBasenames": [
+        "hanpu-fixed.txt"
+      ],
+      "passagesReread": [
+        "规范化90—93、104—107、124—129"
+      ],
+      "result": "原盐加工产品，不支持湖盐船已部署或固定湿筛在脱水之前。",
+      "status": "confirmed-with-stated-boundary"
+    },
+    {
+      "sourceId": "CN-MIN-JKZ",
+      "url": "https://www.jkzgukong.com/syf.html",
+      "cacheBasenames": [
+        "jkz.txt"
+      ],
+      "passagesReread": [
+        "规范化56—87、139—141"
+      ],
+      "result": "固控模块直接相关；PLC自动控制是选配。",
+      "status": "confirmed-with-stated-boundary"
+    },
+    {
+      "sourceId": "CN-MIN-POLY-PAPER",
+      "url": "https://gxbwk.njournal.sdu.edu.cn/fileup/1672-3961/HTML/2016-1-80.htm",
+      "cacheBasenames": [
+        "poly-paper.txt"
+      ],
+      "passagesReread": [
+        "规范化24—29、199—204"
+      ],
+      "result": "网络出版与室温模拟方法定位正确；仅材料相容性实验。",
+      "status": "confirmed-with-stated-boundary"
+    },
+    {
+      "sourceId": "CN-MIN-LIUTA-GEO",
+      "url": "https://www.mem.gov.cn/gk/gwgg/agwzlfl/tz_01/201711/W020171224445690725877.pdf",
+      "cacheBasenames": [
+        "liuta-official-list.pdf"
+      ],
+      "passagesReread": [
+        "PDF1第28行与省份合并格；页图目视"
+      ],
+      "result": "仅历史名单地点，不证明2026在运；名单年份不是精确网页发布日期。",
+      "status": "confirmed-with-stated-boundary",
+      "sha256": "d0eca83d928d3f593c33625a75424f16927f7334e89d9515ffcb721f3556b69d",
+      "publishedAt": null,
+      "effectiveAt": null
+    },
+    {
+      "sourceId": "CN-MIN-COAL-RULE",
+      "url": "https://www.mem.gov.cn/gk/zfxxgkpt/fdzdgknr/gz11/202508/W020250804639453346681.pdf",
+      "cacheBasenames": [
+        "cn-coal-rule-2025.pdf"
+      ],
+      "passagesReread": [
+        "PDF45—46、53；三页图目视；应急部公开元数据L40/47/55"
+      ],
+      "result": "成文公布2025-07-24、网页2025-08-04、生效2026-02-01分离；条款不是部署案例。",
+      "status": "confirmed-with-stated-boundary",
+      "sha256": "f1f0151530922fe8e57d22a270a9fd41642d84cd40a83144f918f218540125c2",
+      "publishedAt": "2025-07-24",
+      "effectiveAt": "2026-02-01"
+    },
+    {
+      "sourceId": "CN-MIN-HJ1461",
+      "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/gthw/gtfwwrkzbz/202601/W020260127617660053725.pdf",
+      "cacheBasenames": [
+        "cn-oil-waste-hj1461-2026.pdf"
+      ],
+      "passagesReread": [
+        "PDF封面、6页；6页图目视；生态环境部原页35—41"
+      ],
+      "result": "2026-01-19发布、07-01实施；仅陆上油气固废分类与处理条件。",
+      "status": "confirmed-with-stated-boundary",
+      "sha256": "0cd5bae6690033582a964b592ccfcfca60a87707c340d2a1a0324f8c825180c8",
+      "publishedAt": "2026-01-19",
+      "effectiveAt": "2026-07-01"
+    },
+    {
+      "sourceId": "CN-MIN-DB2039",
+      "url": "https://bzh.scjgj.beijing.gov.cn/bzh/apifile/file/2023/20230201/4c559191-940c-4460-85ed-629283c47b3c.pdf",
+      "cacheBasenames": [
+        "cn-geothermal-bj-db2039-2022.pdf"
+      ],
+      "passagesReread": [
+        "PDF封面、7/14页；14页图目视；官方PDF封面在线复开"
+      ],
+      "result": "2022-12-27发布、2023-04-01实施；仅北京市中深层水热型场景。",
+      "status": "confirmed-with-stated-boundary",
+      "sha256": "1516bf57d2cb6afc3ad8a8c127378b9e61cab2b6a6c9a3c207a9c159c8980c82",
+      "publishedAt": "2022-12-27",
+      "effectiveAt": "2023-04-01"
+    }
+  ],
+  "queryAudit": {
+    "taskQueryCount": 276,
+    "positive": 138,
+    "negative": 138,
+    "privateBatchCount": 69,
+    "privateQueryMatch": true,
+    "queriesUnchanged": true,
+    "resultPoolsUnchanged": true,
+    "supplementalSearchesUnchanged": true,
+    "onlyAuditTopLevelChanges": [
+      "sourceReads",
+      "revisionAudit"
+    ],
+    "sourceReadCountBefore": 33,
+    "sourceReadCountAfter": 37,
+    "taskQueryExecutionDate": "2026-09-09",
+    "queryExecutionEvidence": "私存原请求queries + executedAt；本轮重新逐条匹配",
+    "resultAttribution": "4条查询合并返回池；不能把每个候选精确归到单条query。",
+    "supplementalQueryCount": 19,
+    "supplementalRequestIndependentlyVerified": false,
+    "supplementalBoundary": "作者公开审计的请求与结果缓存对应，私存缺独立原请求；未重跑补充查询。",
+    "newMetadataSearches": [
+      {
+        "query": "site:mem.gov.cn 煤矿安全规程 2025年7月24日 2026年2月1日 第17号",
+        "executedAt": "2026-09-09",
+        "purpose": "规范日期核对，非自动化正反任务查询"
+      }
+    ],
+    "freshOriginalUrls": [
+      "https://www.mem.gov.cn/gk/zfxxgkpt/fdzdgknr/202508/t20250804_553277.shtml",
+      "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/gthw/gtfwwrkzbz/202601/t20260127_1142729.shtml",
+      "https://bzh.scjgj.beijing.gov.cn/bzh/apifile/file/2023/20230201/4c559191-940c-4460-85ed-629283c47b3c.pdf"
+    ],
+    "failedOpenBoundary": "两条未核实的候选元数据地址先返回工具safe-open错误，未用作证据；改用库存/官方检索所得原地址核读。",
+    "continuedGap": "136条负向仍是动作长句+故障/失效/人工介入类首轮；设备别名、退出、未采用与经济采用需继续。"
+  },
+  "cashFlowRecheck": {
+    "modelUnchanged": true,
+    "allTaskCashFlowObjectsUnchanged": true,
+    "allTaskParametersNull": true,
+    "computedRoiTaskCount": 0,
+    "result": "本轮未填工时、工资、投资和回报；沿用首轮增量现金流框架。期初营运资金、后续变化与期末实际回收分开，不以本复检替代后续模型计算验证。"
+  },
+  "structureRecheck": {
+    "sourceCount": 37,
+    "taskCount": 138,
+    "scenarioCount": 23,
+    "boundedMechanismTasks": 62,
+    "insufficientMatchedEvidenceTasks": 76,
+    "limitedNegativeEvidenceTasks": 11,
+    "originalTaskObjectsUnchanged": true,
+    "inventorySha256": "5388db09742709d606032d030ced3985f802a6e221441b59cd1302064ee8983e",
+    "proposedDecompositionCount": 21,
+    "newFrozenChildTaskCount": 0,
+    "sourceRefSectionMismatchCount": 0,
+    "allAutomationSourceLocatorIdsResolve": true
+  },
+  "cacheManifest": [
+    {
+      "file": "cnMiningOilReadA.json",
+      "sha256": "f167e58f1c5be1b0874d7258662427d3ea61c2c4b7b0b99332a8d4bdf8042955",
+      "private": true
+    },
+    {
+      "file": "cnMiningReadCoalA.json",
+      "sha256": "ef2df31caa11a857541d6c6d06f452459e1a01a640787da97643a4558beac435",
+      "private": true
+    },
+    {
+      "file": "cnMiningRockReadA.json",
+      "sha256": "979d251b269396383312c6464bfd1e996a2c10ba7910eb3d2fbd17bc39286dae",
+      "private": true
+    },
+    {
+      "file": "gb16423-p62.png",
+      "sha256": "159ca6be52981b756cd8a585654f1e37f9a2ab5915bab743e930636d7403f6fc",
+      "private": true
+    },
+    {
+      "file": "gb16423-p63.png",
+      "sha256": "d5db7d73eeea75bfa7e90bbad6ff819fa80a27d6525fc0c20d7a96e40d416866",
+      "private": true
+    },
+    {
+      "file": "gb16423-tail-64.png",
+      "sha256": "42d4ab3f7dbfc88a196c7e1c592eab7c25c947b0f9e61b59468a70c661523e24",
+      "private": true
+    },
+    {
+      "file": "gb16423-tail-65.png",
+      "sha256": "eae6324a64b2d41534a2e59279397b857d5741e24d191a70b4ab1cad57d7df59",
+      "private": true
+    },
+    {
+      "file": "gb16423.pdf",
+      "sha256": "516a81d07b901d2d28bc9e3fae0d3ed5c67be9bdb19dfbb339ced69bb735c53f",
+      "private": true
+    },
+    {
+      "file": "geotherm.txt",
+      "sha256": "2527eb4dfb8253610eea4ec52f2095decea59e0e68b55df843a581ab945a8759",
+      "private": true
+    },
+    {
+      "file": "hanpu-fixed.txt",
+      "sha256": "55943163d0ccd0e1f9d10345df7a06bb5b85c04b6e3e08ff1b13e7d1d2b4a01b",
+      "private": true
+    },
+    {
+      "file": "huada.txt",
+      "sha256": "62d3fea653b81b2809c99375bc8affc4ac6675ede1f38a363d7b09353f98713f",
+      "private": true
+    },
+    {
+      "file": "jiangsu.txt",
+      "sha256": "2b751ed1c3ec2866026c11a51f3013326f07058756cbafa1689401eb66decf93",
+      "private": true
+    },
+    {
+      "file": "jkz.txt",
+      "sha256": "43ea7c0c0a64af0db5351306f46bcaa60cd06d4d72df96ed51f2468f841df8aa",
+      "private": true
+    },
+    {
+      "file": "poly-paper.txt",
+      "sha256": "9a7261b9d62e4d89d3e615f53cb8cb5e5603ca7914fc147bb42754fce9e7f8e6",
+      "private": true
+    },
+    {
+      "file": "private-source-index.json",
+      "sha256": "9452c6179b4975794e10c1b6cd881470f955e4436c140dddf2ecc47dbd1bc5a7",
+      "private": true
+    },
+    {
+      "file": "search-results-private.json",
+      "sha256": "b20cb65792b74611b59c37a9ce9a91702940abceea6e1170df98faee5bd04662",
+      "private": true
+    },
+    {
+      "file": "shengli.txt",
+      "sha256": "528408b3b0bdb0a5d4eb9d3002de922e062fb317a0e701c19dce67dec8c63bb6",
+      "private": true
+    },
+    {
+      "file": "coal-045.png",
+      "sha256": "f3f2ba5f942e18080c36ab22e792fdd4b4264e482d580e56828f82db29962e8a",
+      "private": true
+    },
+    {
+      "file": "coal-046.png",
+      "sha256": "aa59ae9cb51720e22fd0e3c8446c4b80ef9a3d999a9a85e9fff2201e0c3eee10",
+      "private": true
+    },
+    {
+      "file": "fresh-official-metadata.json",
+      "sha256": "0edc0eea5b4f06b662614f5c7e6faa48a8eed126d303f470ec4259375b80b07e",
+      "private": true
+    },
+    {
+      "file": "gb16423-p13.png",
+      "sha256": "31399a8841a968a4dcfe06eeb4826c010a6e01ab9f490aeea615d09772763b13",
+      "private": true
+    },
+    {
+      "file": "hj1461-p6.png",
+      "sha256": "0e4a8b343cde6cb8cdac98ecb3c6815a063cf53d50535afc0937084e7da26a01",
+      "private": true
+    },
+    {
+      "file": "cn-coal-rule-2025-p53.png",
+      "sha256": "d336d911e617ee9ab8e3441773780ff2f6d1dd2c5d19bf51f428844a19388a61",
+      "private": true
+    },
+    {
+      "file": "cn-coal-rule-2025.pdf",
+      "sha256": "f1f0151530922fe8e57d22a270a9fd41642d84cd40a83144f918f218540125c2",
+      "private": true
+    },
+    {
+      "file": "cn-geothermal-bj-db2039-2022-p14.png",
+      "sha256": "f76df0d0284e14a9a771e29f9d1157a478a414c7a662234591e1fb586e648186",
+      "private": true
+    },
+    {
+      "file": "cn-geothermal-bj-db2039-2022.pdf",
+      "sha256": "1516bf57d2cb6afc3ad8a8c127378b9e61cab2b6a6c9a3c207a9c159c8980c82",
+      "private": true
+    },
+    {
+      "file": "cn-oil-waste-hj1461-2026.pdf",
+      "sha256": "0cd5bae6690033582a964b592ccfcfca60a87707c340d2a1a0324f8c825180c8",
+      "private": true
+    },
+    {
+      "file": "liuta-official-list-p1.png",
+      "sha256": "6bd7212e3d46ec1724e0fe94bae2add42808b6f427e0b547e61adfbeaa25c72b",
+      "private": true
+    },
+    {
+      "file": "liuta-official-list.pdf",
+      "sha256": "d0eca83d928d3f593c33625a75424f16927f7334e89d9515ffcb721f3556b69d",
+      "private": true
+    }
+  ],
+  "conclusion": {
+    "verdict": "core-revisions-supported-new-quote-fix-required-before-working-import",
+    "workingVersionEligibleAfterRequiredFix": true,
+    "requiredFixIds": [
+      "E08"
+    ],
+    "editorialSyncIds": [
+      "R01",
+      "R02"
+    ],
+    "canFreeze": false,
+    "finalAcceptanceSatisfied": false,
+    "reason": "E01—E07核心纠正及新增官方条件有原文支持。修五个GB16423短引并同步两类文字后，可进入明确保留证据缺口的未冻结工作版；不能标全部研究验收通过。",
+    "remainingPriorGapIds": [
+      "G05",
+      "G06",
+      "G07",
+      "G10",
+      "G11",
+      "G12",
+      "G14"
+    ],
+    "reviewerCorrection": "GB16423五处原文quote为本轮发现的前次漏项；已明确报告而未追溯修改旧独立审校输入。",
+    "followupVerdict": "E08/R01/R02限定字段复检通过；c9acd3版可进入保留缺口的未冻结工作版。先前发现与输入SHA保留为历史记录，最终验收仍未完成。"
+  },
+  "authorInputFinalSha256": "1d0d396302c812787f4a9506d07b1d83ee7bedf8723003e0e8b10625a6f1a9c2",
+  "followupFieldReceipt": {
+    "reviewedAt": "2026-09-09",
+    "scope": "仅比对作者对E08/R01/R02的10个内容字段和2个复检元数据字段；不重做138项或任务查询",
+    "priorIndependentRecheckSha256": "25db029030dff323f698acb69c9f7feb10afb5f528f0f89be53849b4a9dad66b",
+    "authorInputSha256": "c9acd3e56b65d0cd0d03904c7106218bf6b778889c8e1e5329c6065e407896dc",
+    "authorRevisionReceiptSha256": "2f8f8c6dec9f7e57c55e59c17157a90c497d426773aedcf7d78a48988d3a4ad1",
+    "queryAuditSha256Unchanged": "8c6aa42a7bd1ce3d9770be336fc5c64c530ef6b7cc9ffd321b7e1f438dae25df",
+    "diffFieldCount": 12,
+    "contentFieldCount": 10,
+    "metadataFieldCount": 2,
+    "originalTasksUnchanged": 138,
+    "findings": [
+      {
+        "id": "E08",
+        "status": "confirmed-fixed",
+        "fieldCount": 5,
+        "basis": "已目视核读的GB16423物理62/63/65页对应条款，五个短锚逐字一致；18个任务通过locator引用，无嵌套quote"
+      },
+      {
+        "id": "R01",
+        "status": "confirmed-fixed",
+        "fieldCount": 4,
+        "basis": "地热取回灌流量、温度、水位（压力）监测名称与已核DB2039来源边界一致"
+      },
+      {
+        "id": "R02",
+        "status": "confirmed-fixed",
+        "fieldCount": 1,
+        "basis": "煤长壁007访谈已采用移架滞后规定距离及冒顶片帮恢复条件，另列破碎顶板超前支护"
+      }
+    ],
+    "changes": [
+      {
+        "path": "/independentReview/limitedRecheck",
+        "before": null,
+        "after": {
+          "file": "research/reviews/cn-industry-mining-06-12-automation-recheck.json",
+          "sha256": "25db029030dff323f698acb69c9f7feb10afb5f528f0f89be53849b4a9dad66b",
+          "inputSha256": "1d0d396302c812787f4a9506d07b1d83ee7bedf8723003e0e8b10625a6f1a9c2",
+          "scope": "E01—E07等上轮改动已限定复核；E08及R01/R02为本次作者修正，待独立逐字段确认。",
+          "followupCorrections": [
+            "E08",
+            "R01",
+            "R02"
+          ],
+          "currentFollowupIndependentlyRechecked": false
+        }
+      },
+      {
+        "path": "/reviewStatus",
+        "before": "author-corrected-after-independent-review-awaiting-independent-recheck",
+        "after": "author-followup-corrections-awaiting-limited-independent-field-recheck"
+      },
+      {
+        "path": "/sources/12/locators/0/quote",
+        "before": "改为手动控制",
+        "after": "人工控制"
+      },
+      {
+        "path": "/sources/12/locators/2/quote",
+        "before": "异响和振动",
+        "after": "噪音和振动"
+      },
+      {
+        "path": "/sources/12/locators/3/quote",
+        "before": "互相配合",
+        "after": "协同操作"
+      },
+      {
+        "path": "/sources/12/locators/4/quote",
+        "before": "清理行车路面",
+        "after": "进行清理"
+      },
+      {
+        "path": "/sources/12/locators/6/quote",
+        "before": "先停给料",
+        "after": "停止上料"
+      },
+      {
+        "path": "/tasks/6/interviewQuestions/1",
+        "before": "请按“达到安全恢复条件后方可续作”提供合格、异常和接管批次的完整记录，并说明当前破碎顶板或不安全间距规格。",
+        "after": "请按“达到安全恢复条件后方可续作”提供合格、异常和接管批次的完整记录，说明移架滞后规定距离及冒顶、片帮的触发和处置记录；破碎顶板的超前支护要求另列核验。"
+      },
+      {
+        "path": "/tasks/129/alternatives/0/mechanism",
+        "before": "地热取回灌流量温度水位压力监测",
+        "after": "地热取回灌流量、温度、水位（压力）监测"
+      },
+      {
+        "path": "/tasks/130/alternatives/0/mechanism",
+        "before": "地热取回灌流量温度水位压力监测",
+        "after": "地热取回灌流量、温度、水位（压力）监测"
+      },
+      {
+        "path": "/tasks/131/alternatives/0/mechanism",
+        "before": "地热取回灌流量温度水位压力监测",
+        "after": "地热取回灌流量、温度、水位（压力）监测"
+      },
+      {
+        "path": "/tasks/132/alternatives/0/mechanism",
+        "before": "地热取回灌流量温度水位压力监测",
+        "after": "地热取回灌流量、温度、水位（压力）监测"
+      }
+    ],
+    "newSourceReads": false,
+    "taskQueriesRerun": false,
+    "verdict": "eligible-for-unfrozen-working-version-with-recorded-gaps",
+    "canFreeze": false,
+    "remainingGapIds": [
+      "G05",
+      "G06",
+      "G07",
+      "G10",
+      "G11",
+      "G12",
+      "G14"
+    ]
+  }
+}
