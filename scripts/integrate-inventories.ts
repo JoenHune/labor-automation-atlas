@@ -1,4 +1,5 @@
 import {readResearch,writeResearch} from '../src/research/storage'
+import {preserveRecordOrder} from '../src/research/record-order'
 import {readFile,writeFile} from 'node:fs/promises'
 import {createHash} from 'node:crypto'
 import {validateResearch} from '../src/research/validate'
@@ -6,6 +7,7 @@ import type {Research,Task,Country} from '../src/research/schema'
 type Raw=Record<string,any>
 const root=new URL('../',import.meta.url)
 const data=await readResearch(new URL('data/research.json',root))
+const recordOrder={tasks:data.tasks.map(t=>t.id),scenarios:data.scenarios.map(s=>s.id),sources:data.sources.map(s=>s.id)}
 data.tasks=data.tasks.filter(t=>!t.discovery)
 data.scenarios=data.scenarios.filter(s=>!s.inventory)
 data.sources=data.sources.filter(s=>!s.id.startsWith('inventory-'))
@@ -72,6 +74,9 @@ for(const name of ['cn-core','cn-services','us-core','us-services']) {
   }
  }
 }
+data.tasks=preserveRecordOrder(data.tasks,recordOrder.tasks)
+data.scenarios=preserveRecordOrder(data.scenarios,recordOrder.scenarios)
+data.sources=preserveRecordOrder(data.sources,recordOrder.sources)
 const validated=validateResearch(data)
 await writeResearch(new URL('data/research.json',root),validated)
 console.log('Integrated',validated.scenarios.length,'scenarios and',validated.tasks.length,'tasks; reviewed',validated.tasks.filter(t=>t.researchStatus==='reviewed').length)

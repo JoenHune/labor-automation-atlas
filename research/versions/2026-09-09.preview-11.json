@@ -160,13 +160,16 @@
     "research/reviews/cn-trade-automation-rc01-recheck.md": "e741b4a03aa99342a146d6f5eb506efa0ceff7a1065dc73418c42dad3b4bf68c",
     "research/reviews/us-construction-automation-rc01-recheck.md": "89a47a359f6d08cdcb1bf9cfcfd0401da7821c8f53ccff9f258314a8e00e2990",
     "research/reviews/us-construction-automation-review.md": "5139a6bba73fbd49a11cc07b2a16849e5bf3a551037cbcf8e2c9bc3331534152",
-    "research/reviews/us-construction-automation-recheck.md": "4921df57055e48ec35e57c7531564d7e7544cb283edd47bcc29af96a623d186e"
+    "research/reviews/us-construction-automation-recheck.md": "4921df57055e48ec35e57c7531564d7e7544cb283edd47bcc29af96a623d186e",
+    "research/reviews/preview-11-rebuild-order-recheck.json": "66e0907e927b566353b36411b4b8cd5ad72cda77792b0b624ce10b5629c81f04",
+    "research/reviews/preview-11-rebuild-order-recheck.md": "4390b00e02784d566f22cb0009334d6c165c4db198d7efc8060176b453622c2a"
   },
   "changes": [
     "保留最新宏观数据、子行业排序、就业分母缺口与全局币种设置。",
     "研究存储迁移为带完整性校验的分片；页面和完整普通JSON导出仍由同一逻辑数据生成。",
     "接入中国批零53项和美国建筑131项既有候选，保留独审边界、历史快照及现金空值；不新增候选、不冻结。",
-    "补齐任务导出行业分类来源，并在回报说明展示具体缺失参数。"
+    "补齐任务导出行业分类来源，并在回报说明展示具体缺失参数。",
+    "修复重复导入导致全局来源/声明/查询排列改变，并增加完整构建后的数据不变检查。"
   ],
   "limitations": [
     "全部候选仍未冻结；2259为首轮研究及原稿独审记录数，不是覆盖和原子粒度最终通过数。",

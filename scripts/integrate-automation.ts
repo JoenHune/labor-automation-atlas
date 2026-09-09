@@ -1,4 +1,5 @@
 import {readResearch,writeResearch} from '../src/research/storage'
+import {preserveRecordOrder} from '../src/research/record-order'
 import {readFile,writeFile} from 'node:fs/promises'
 import {createHash} from 'node:crypto'
 import {importCnServices} from '../src/research/import-cn-services'
@@ -18,6 +19,7 @@ import {validateResearch} from '../src/research/validate'
 const root=new URL('../',import.meta.url)
 const read=async(file:string)=>{const text=await readFile(new URL(file,root),'utf8');return {data:JSON.parse(text),sha256:createHash('sha256').update(text).digest('hex')}}
 let data=await readResearch(new URL('data/research.json',root))
+const recordOrder={sources:data.sources.map(s=>s.id),claims:data.claims.map(c=>c.id),searches:data.searches.map(s=>s.id)}
 const file='research/automation/cn-services.json',auditFile='research/automation/cn-services-search-audit.json'
 const raw=await read(file),audit=await read(auditFile)
 importCnServices(data,raw.data,audit.data,{file,sha256:raw.sha256,auditFile,auditSha256:audit.sha256})
@@ -65,6 +67,9 @@ const tradeTexts=Object.fromEntries(await Promise.all(Object.values(cnTradeFiles
 data=importCnTrade(data,tradeTexts)
 const usConstructionTexts=Object.fromEntries(await Promise.all(Object.values(usConstructionFiles).map(async({file})=>[file,await readFile(new URL(file,root),'utf8')])))
 data=importUsConstruction(data,usConstructionTexts)
+data.sources=preserveRecordOrder(data.sources,recordOrder.sources)
+data.claims=preserveRecordOrder(data.claims,recordOrder.claims)
+data.searches=preserveRecordOrder(data.searches,recordOrder.searches)
 const result=validateResearch(data)
 await writeResearch(new URL('data/research.json',root),result)
 console.log('Integrated',raw.data.tasks.length,'CN service task research records. Definition revisions remain open; none are frozen.')

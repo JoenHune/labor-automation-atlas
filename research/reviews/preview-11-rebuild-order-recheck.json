@@ -1,0 +1,29 @@
+{
+  "version": "2026-09-09.preview-11",
+  "date": "2026-09-09",
+  "initialCommit": "0e55110c64456401eb8e8199aa3535c75c2c03c3",
+  "initialPagesRun": 34370665665,
+  "initialFullExportSha256": "a94c6f8df792984191581925b88ef96e6919ac869dba6e4edbdb5f7058418610",
+  "expectedFullExportSha256": "47d9f7bfe867b954813e7e35139b9dae255ca10fb56d1652957530d6a0e47b2d",
+  "fullExportBytes": 98300178,
+  "rootCause": "旧批次导入先移除自身记录再追加到数组末尾；本次新批次保留时导致重复构建改变来源、声明、检索三数组顺序。",
+  "recordLevelComparison": {
+    "sources": 1040,
+    "claims": 15168,
+    "searches": 4718,
+    "changedRecordValues": 0,
+    "otherLogicalFieldsChanged": 0
+  },
+  "repair": "导入前记录既有编号顺序，导入后恢复既有顺序，新编号按导入顺序追加；已删除编号不恢复，重复编号拒绝。",
+  "verification": {
+    "focusedTests": 5,
+    "fullGenerationChanges": [],
+    "fullGenerationExportMatchesExpectedSha256": true,
+    "trackedCanonicalAndSiteDiffEmpty": true
+  },
+  "futureGuard": "两条工作流完整构建后均检查data/research.json与data/site.json是否改变，改变则禁止继续发布。",
+  "limitations": [
+    "此补检只修复构建顺序，不更新任何研究数字或结论，不增加研究完成数。",
+    "原稿独审、资料缺口与批注服务未验收状态继续沿用。"
+  ]
+}
