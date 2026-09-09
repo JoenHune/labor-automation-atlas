@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "country": "CN",
+  "industryId": "cn-construction",
+  "revisedAt": "2026-09-09",
+  "reviewSha256": "ddab228a05226541df99ee286dec78e763c3657bc209bead72a290c99a714703",
+  "inputArchive": "research/.private/revision-input/cn-construction-baseline-2e94b9",
+  "archiveType": "exact whole bytes before revision",
+  "input": {
+    "cn-construction-baseline-followup.json": "2e94b9adc3d8332ca87297a4f35df902b3ecea5c347ba9f0393967fc238262f0",
+    "cn-construction-baseline-followup-audit.json": "557687733f5a36d90761fc0725e13f24d3d4bb58efadd48813642e432b4c2db5",
+    "cn-construction-baseline-followup.md": "8c21d8838aa9487f1dbe2ad21a7cc08e85037bf31d606065dfeb2f5423a48ed6"
+  },
+  "output": {
+    "cn-construction-baseline-followup.json": "9a40ec457e0db33edf5080ee22c51096c7f77d2f7ca90153a8e1ccb4ecb860ea",
+    "cn-construction-baseline-followup-audit.json": "a791dc60afadb2dca2293fca31c00656cfd68cb8694d0680baf2698d1ef5ea50",
+    "cn-construction-baseline-followup.md": "d3fe4f18e686be4885dc4e74e15e7db9f5a5390105bd3c6e21563ee40272bbf2"
+  },
+  "corrections": [
+    {
+      "id": "CBF-E01",
+      "applied": "source WS / E-WATER / G32 / mapping / opportunities / MD：室内分项不泛化，饮水池适配资料不足。"
+    },
+    {
+      "id": "CBF-E02",
+      "applied": "E-CLEAN 删除仅三一引用中的收集归因，保留 M16 规程支持的父任务边界。"
+    },
+    {
+      "id": "CBF-R01",
+      "applied": "M11/M20/M26/M28/M30 及对应 source locators 增独立 LF 行锚。"
+    },
+    {
+      "id": "CBF-R02",
+      "applied": "E-HAMMER / source HP / G31 / mapping / opportunities / MD 改设计证据，并写小于 4 m 室内范围。"
+    }
+  ],
+  "counts": {
+    "groups": 32,
+    "existingParentTasks": 38,
+    "sources": 18,
+    "claims": 46,
+    "queries": 69,
+    "newTasks": 0
+  },
+  "constructionMainSha256Unchanged": "e856822bd76919665d6f9d1496bad2b8c15b92751fab25ebbd957e907c6f353c",
+  "parentTaskSnapshotsUnchanged": true,
+  "queriesRerun": false,
+  "canFreeze": false,
+  "limitedRecheckStatus": "pending"
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "country": "CN",
+  "industryId": "cn-construction",
+  "revisedAt": "2026-09-09",
+  "revisionKind": "apply-independent-decisions-with-original-snapshots-preserved",
+  "reviewFile": "research/reviews/cn-construction-automation-decisions.json",
+  "reviewSHA256": "63b1904d233b0073af28bf6ec04a79ead7860fa1a98991115dba8e1fa9b77c6c",
+  "inputFiles": [
+    {
+      "path": "research/automation/cn-construction.json",
+      "sha256": "07e1a6bedf599539657998cf24321d2c6d6659a33d6b481111b937af239fbbd5"
+    },
+    {
+      "path": "research/automation/cn-construction.md",
+      "sha256": "8f1c273014c8ec6d0dbe83e3ac721302d39cd0cee0cfbffc07c52c4953f75a1f"
+    },
+    {
+      "path": "research/automation/cn-construction-search-audit.json",
+      "sha256": "a9ebb02c8290bf030d6e9f14f8cab3fdd8968e5983e351c87f788e33a4eafed3"
+    }
+  ],
+  "outputFiles": [
+    {
+      "path": "research/automation/cn-construction.json",
+      "sha256": "e856822bd76919665d6f9d1496bad2b8c15b92751fab25ebbd957e907c6f353c"
+    },
+    {
+      "path": "research/automation/cn-construction.md",
+      "sha256": "3d7a4d25bd6762a3f8359bd090b8283334b6d0c3d49f6071ac0ce083b68b15c7"
+    },
+    {
+      "path": "research/automation/cn-construction-search-audit.json",
+      "sha256": "d7cb04f16e603b31b4921b1a2ea9a7e9d37c2454ce7c07545daf41c897e4419d"
+    }
+  ],
+  "originalTasksPreserved": 207,
+  "originalTaskDeepEqualityVerified": true,
+  "inventoryModified": false,
+  "correctedErrorTaskIds": [
+    "cn-const-rebar-machining-011",
+    "cn-const-rebar-machining-012",
+    "cn-const-mortar-plaster-005",
+    "cn-const-mortar-plaster-006",
+    "cn-const-mortar-plaster-010",
+    "cn-const-light-steel-partition-012",
+    "cn-const-rural-water-tank-004",
+    "cn-const-rural-water-tank-005",
+    "cn-const-rural-water-tank-006",
+    "cn-const-rural-water-tank-008",
+    "cn-const-rural-water-tank-009"
+  ],
+  "cashFlowScope": "207tasks+method; incrementalWC differences and incremental costs",
+  "newTasksCounted": 0,
+  "unresolvedFindingIds": [
+    "G02",
+    "G03",
+    "G04"
+  ],
+  "effectiveDefinitionRule": "definitionReview.actionSupport and reviewedDefinition.sourceRefs replace archived originalTask.sourceRefs for evidence display; archived content remains for provenance only",
+  "canFreeze": false,
+  "proposedSplitParents": 25
+}

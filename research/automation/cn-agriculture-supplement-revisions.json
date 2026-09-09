@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "country": "CN",
+  "industryId": "cn-agriculture",
+  "reviewFile": "research/reviews/cn-agriculture-supplement-decisions.json",
+  "reviewSHA256": "bcb750639891934ecb8710f1195ed68598f102da0ea37ab000bc005645c8df02",
+  "reviewedAt": "2026-09-09",
+  "inputFiles": [
+    {
+      "path": "research/automation/cn-agriculture-supplement.json",
+      "sha256": "17d315e6e217a518d9bdbb14af8a704719fa8f5dba3301191e3467961f9f7cb0"
+    },
+    {
+      "path": "research/automation/cn-agriculture-supplement.md",
+      "sha256": "5f8111de9178725eca4ee4decc4433e9b21d648a030913a58e1638479a33b59c"
+    },
+    {
+      "path": "research/automation/cn-agriculture-supplement-search-audit.json",
+      "sha256": "3190b9051e47545505b30b0b25d0fa061bbce3c62efedd81b753628886da89f3"
+    }
+  ],
+  "outputFiles": [
+    {
+      "path": "research/automation/cn-agriculture-supplement.json",
+      "sha256": "bb3755ce70b40f875ea1285b10dfcd0eb0b69b2f680ae1b981a82c40bdf71612"
+    },
+    {
+      "path": "research/automation/cn-agriculture-supplement.md",
+      "sha256": "558012ba3496151791de5c1063a47f57c5c24aa7c048a8df78353a4436f5c375"
+    },
+    {
+      "path": "research/automation/cn-agriculture-supplement-search-audit.json",
+      "sha256": "8e8e7e6d9bb447ff8ae0ceef1058d4cd8a34c435cd05f007fbe4b91f1ae34beb"
+    }
+  ],
+  "requiredCorrectionIds": [
+    "SUP-E01",
+    "SUP-E02",
+    "SUP-E03",
+    "SUP-E04",
+    "SUP-E05",
+    "SUP-E06"
+  ],
+  "originalOverlapPreserved": true,
+  "originalDefinitionsArchived": 22,
+  "newTasksCounted": 0,
+  "proposedChildrenNotAdopted": 12,
+  "original164Modified": false,
+  "canFreeze": false
+}

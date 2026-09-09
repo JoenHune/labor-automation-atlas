@@ -1,0 +1,945 @@
+{
+  "schemaVersion": 1,
+  "country": "CN",
+  "industryId": "cn-construction",
+  "recheckedOn": "2026-09-09",
+  "reviewer": "parent-agent-independent-limited-recheck",
+  "status": "specified-corrections-verified-with-open-research-gaps",
+  "inputFile": "research/automation/cn-construction-baseline-followup.json",
+  "inputSha256": "9a40ec457e0db33edf5080ee22c51096c7f77d2f7ca90153a8e1ccb4ecb860ea",
+  "auditFile": "research/automation/cn-construction-baseline-followup-audit.json",
+  "auditSha256": "a791dc60afadb2dca2293fca31c00656cfd68cb8694d0680baf2698d1ef5ea50",
+  "reviewFile": "research/reviews/cn-construction-baseline-followup-decisions.json",
+  "reviewSha256": "ddab228a05226541df99ee286dec78e763c3657bc209bead72a290c99a714703",
+  "revisionFile": "research/automation/cn-construction-baseline-followup-revisions.json",
+  "revisionSha256": "524984fec6fe24be4e721dbd6b8934e2719bc440575dc9ed1a45a9fe7ee41fd1",
+  "reviewedOriginalSha256": "2e94b9adc3d8332ca87297a4f35df902b3ecea5c347ba9f0393967fc238262f0",
+  "canFreeze": false,
+  "checks": [
+    {
+      "id": "CBF-E01",
+      "passed": true,
+      "read": "原产品WATERSPRAY网页L60与L117–132重读，室内非长期浸水不扩大至全产品；产品、声明、G32映射/条件/问题均改为饮水池适配缺口。"
+    },
+    {
+      "id": "CBF-E02",
+      "passed": true,
+      "read": "三一SANYCLEAN L244–261重读；该声明移除收集动作归因，C§22.4.8(3) LF8525–8527支持M16回收处理边界。"
+    },
+    {
+      "id": "CBF-R01",
+      "passed": true,
+      "read": "M11/M20/M26/M28/M30所缺第二条款全部原文重读；五个独立LF范围同时在source.locators和claim.sourceRefs。"
+    },
+    {
+      "id": "CBF-R02",
+      "passed": true,
+      "read": "HAMMERPATENT L70与L79–102重读；设计构型、层高小于4m室内范围已进入声明/来源/G31；没有物理原型或在用效果结论。"
+    }
+  ],
+  "locatorChecks": [
+    {
+      "claimId": "CN-CBF-M11",
+      "sourceId": "CN-CBF-S-C",
+      "start": 4939,
+      "end": 4943,
+      "lineConvention": "one-based LF; form-feed is not newline",
+      "cacheSha256": "7116191a6b34a7bfbdba37da2e25fd67f27ca52103dc3e6fdc739eff11cc8de1",
+      "selectedTextSha256": "4367d375ab0c6648ce3ae14bd9991ab8b1ebe6a7783261b99bdd73c68689a03d",
+      "originalPassageReread": true,
+      "sourceAndClaimLocatorsSynchronized": true
+    },
+    {
+      "claimId": "CN-CBF-M20",
+      "sourceId": "CN-CBF-S-D",
+      "start": 330,
+      "end": 334,
+      "lineConvention": "one-based LF; form-feed is not newline",
+      "cacheSha256": "b10a4ca75ca8d10e31c166bd75a333a05e79f53330d52091d8b23329a0a56d1c",
+      "selectedTextSha256": "619f65142a86784d0ce352c40598fc9a2f1b445d198f8f8260f6a88e7e682492",
+      "originalPassageReread": true,
+      "sourceAndClaimLocatorsSynchronized": true
+    },
+    {
+      "claimId": "CN-CBF-M26",
+      "sourceId": "CN-CBF-S-D",
+      "start": 1581,
+      "end": 1585,
+      "lineConvention": "one-based LF; form-feed is not newline",
+      "cacheSha256": "b10a4ca75ca8d10e31c166bd75a333a05e79f53330d52091d8b23329a0a56d1c",
+      "selectedTextSha256": "67d728ae7c5563cfc8f047be8f74d68d598920d1757a5d51391b1b7e3ff90c99",
+      "originalPassageReread": true,
+      "sourceAndClaimLocatorsSynchronized": true
+    },
+    {
+      "claimId": "CN-CBF-M28",
+      "sourceId": "CN-CBF-S-D",
+      "start": 1589,
+      "end": 1590,
+      "lineConvention": "one-based LF; form-feed is not newline",
+      "cacheSha256": "b10a4ca75ca8d10e31c166bd75a333a05e79f53330d52091d8b23329a0a56d1c",
+      "selectedTextSha256": "ecc632591c2395d64f76f086728769a0f3787ecc83882ae02a89a962cf3295ec",
+      "originalPassageReread": true,
+      "sourceAndClaimLocatorsSynchronized": true
+    },
+    {
+      "claimId": "CN-CBF-M30",
+      "sourceId": "CN-CBF-S-D",
+      "start": 4964,
+      "end": 4965,
+      "lineConvention": "one-based LF; form-feed is not newline",
+      "cacheSha256": "b10a4ca75ca8d10e31c166bd75a333a05e79f53330d52091d8b23329a0a56d1c",
+      "selectedTextSha256": "a9ca6bfb4a1e58d540a037ddc79bb96ae948a0716b99ad3f066656ce3fec460d",
+      "originalPassageReread": true,
+      "sourceAndClaimLocatorsSynchronized": true
+    }
+  ],
+  "counts": {
+    "groups": 32,
+    "originalParentTasks": 38,
+    "sources": 18,
+    "claims": 46,
+    "mainQueries": 64,
+    "supplementaryQueries": 5,
+    "newTasks": 0,
+    "completeTaskCommercialSuccesses": 0,
+    "frozenTasks": 0
+  },
+  "invariants": {
+    "completeOriginalFilesArchivedAndMatched": true,
+    "all38ReviewedParentDefinitionsUnchanged": true,
+    "all38MatchMain207Definitions": true,
+    "main207HashUnchanged": true,
+    "original69QueryPayloadsDatesAndReturnsUnchanged": true,
+    "cashflowUnchangedNoNumericPayback": true,
+    "publicDataAndWebsiteNotModifiedByRecheck": true
+  },
+  "diff": {
+    "changedPaths": 163,
+    "oldAndNewValueHashEncoding": "canonical sorted-key JSON UTF-8, compact separators",
+    "paths": [
+      {
+        "path": "/claims/0/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/1/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/2/evidenceBoundary",
+        "oldValueSha256": "1362f5b3694762b45f0b96855aa5519f2986e54751c9385e5d78ebe2879fbde8",
+        "newValueSha256": "111dc500c52dad377751ca28dbf8a1c5456cbab66995141081e10c8febb7f1b8"
+      },
+      {
+        "path": "/claims/2/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "6d88917bf0300984b2b6646660c4f0ed88f39c3899dc3789c8088598b3c183f7"
+      },
+      {
+        "path": "/claims/2/text",
+        "oldValueSha256": "7e5e341559047660d3def79893e7e706e5b1f4c4f8414e52eacc2aefc09004eb",
+        "newValueSha256": "34fc9c57d2641589104b625998ab3ce6471c008c20c07987fdbdb1d7b8f34606"
+      },
+      {
+        "path": "/claims/3/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/4/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/5/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/6/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/7/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/8/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/9/evidenceBoundary",
+        "oldValueSha256": "e6517306b6f9bc9ac0e24d98900da0154410fb72a70a814169432655fe95f360",
+        "newValueSha256": "b74ef3a802716194ad6b752ea901c6d36afb75fd2188e64b2447379256f75e47"
+      },
+      {
+        "path": "/claims/9/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "73efb5713d7bad05b9b09d6fc97167d5f4e62608236519642012e65a2bd19b4d"
+      },
+      {
+        "path": "/claims/9/text",
+        "oldValueSha256": "456f75299b12b7ccaa7115c7e06a61dd693408639efa64d6220b4a72cc01c5d1",
+        "newValueSha256": "1987173ee003767f51015a71e4c036959b94d5a73fd500fa1fb6eabbb302a6ff"
+      },
+      {
+        "path": "/claims/10/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/11/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/12/evidenceBoundary",
+        "oldValueSha256": "6aa5ae3c7eb123fea6ef462509955c9b50fa5ca29f17f54a242c7c73c526c0d7",
+        "newValueSha256": "db56944e0a81e0d35856c585f33e4aea25408a9d658603dc06d61880e795b776"
+      },
+      {
+        "path": "/claims/12/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "df7fe14aefdc43968109ab79c04f79eed179fff7ddc5517f1d255f58af64e941"
+      },
+      {
+        "path": "/claims/12/text",
+        "oldValueSha256": "f423cb7dbff76c92a5dc2f8bff56574ca8afbf154c8f2674f1d0ecc1c3678aef",
+        "newValueSha256": "abf6654b664f39929826a51fcb41d6afc408e9751fd907ac6340d93bd43bb412"
+      },
+      {
+        "path": "/claims/13/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/14/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/15/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/16/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/17/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/18/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/19/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/20/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/21/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/22/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/23/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/24/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2541b1efdefc11d52e32d31326808abb2fe891f4d34e0057a77b4d3197411323"
+      },
+      {
+        "path": "/claims/24/sourceRefs",
+        "oldValueSha256": "f8b765f553642135e082a91cd638031d0b61243b2bd278f3d3dc24d13cd034c3",
+        "newValueSha256": "0e8d99b51e84dad897fc48d2a0520ce89cbad21432af6244f01668bc16f9aa03"
+      },
+      {
+        "path": "/claims/25/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/26/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/27/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/28/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/29/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/30/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/31/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/32/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/33/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2541b1efdefc11d52e32d31326808abb2fe891f4d34e0057a77b4d3197411323"
+      },
+      {
+        "path": "/claims/33/sourceRefs",
+        "oldValueSha256": "6b1e5af11f1ec958476e20a83f4f4fbae52502f31a6b35ae4560bbd10b0b857e",
+        "newValueSha256": "177dd98257b70f33e760f6b80331c5d5bd1afa233f652b99959d01161c002333"
+      },
+      {
+        "path": "/claims/34/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/35/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/36/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/37/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/38/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/39/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2541b1efdefc11d52e32d31326808abb2fe891f4d34e0057a77b4d3197411323"
+      },
+      {
+        "path": "/claims/39/sourceRefs",
+        "oldValueSha256": "12dad5436c526f4faf251a8948585b73cd4a450c185d89ce3dd0f380025e26c6",
+        "newValueSha256": "908fb364f43cdae8369911d2dcc099fcd89b1f3a0353a269858a03454488b7cd"
+      },
+      {
+        "path": "/claims/40/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/41/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2541b1efdefc11d52e32d31326808abb2fe891f4d34e0057a77b4d3197411323"
+      },
+      {
+        "path": "/claims/41/sourceRefs",
+        "oldValueSha256": "8d7e65c6137a0a8d4e0059e55decbb3f587fd0d5905df28f940ee7ebeff68150",
+        "newValueSha256": "4571d88ef9f1f691c4a4c6c623c81f4b3d6e5d3b4a2c64534c19e15ac3e0949b"
+      },
+      {
+        "path": "/claims/42/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/43/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2541b1efdefc11d52e32d31326808abb2fe891f4d34e0057a77b4d3197411323"
+      },
+      {
+        "path": "/claims/43/sourceRefs",
+        "oldValueSha256": "870ebdd04ee6a3f77beac5f753bcf9b109480500cdc7477f74faf9440e28ed83",
+        "newValueSha256": "5761b0e65777598820103c59be33243e759290a3ded5050353fe20017365a863"
+      },
+      {
+        "path": "/claims/44/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/claims/45/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "2ace1863d2fde06856bcd3d13bd72c43888873e31f57026648b183f5aad2f6f9"
+      },
+      {
+        "path": "/groups/0/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "53118722ae49b78ea337ee51c9c3ee378e14980f37253b1ce59f8e3aa209baab"
+      },
+      {
+        "path": "/groups/0/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/1/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "76641600176ede699b03e154b0619e8b78fdb6b0772cc30ecc3d904143107417"
+      },
+      {
+        "path": "/groups/1/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/2/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "c43912f5e0175e3ac743c44e3fb2d59ef4b77e50d05c83c9275b83858a25bb30"
+      },
+      {
+        "path": "/groups/2/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/3/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "e3e945ef3ad0ad0c1bb73971977c7c65763e77a0922dbbf8c72ba4044d68ef32"
+      },
+      {
+        "path": "/groups/3/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/4/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "0779886969aec60b16b595c015e758e1d99e9124f9e967318d0d9f393ed7b99b"
+      },
+      {
+        "path": "/groups/4/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/5/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "c1797dadc16f1f28fc235fb57d127997f714d8fd9da7eeaeddb150c21183765f"
+      },
+      {
+        "path": "/groups/5/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/6/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "be8f57b7248d22b63064f3779923d4de98ba36b06a54c19961350b043d60ddd7"
+      },
+      {
+        "path": "/groups/6/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/7/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "11389e14da530ad41c851e1887f9e537632a751e78b31b3665052896771aa865"
+      },
+      {
+        "path": "/groups/7/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/8/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "6edfa983d6c8f02eca6f86529527ee6ccfb273bd6917d29d53195897b9941018"
+      },
+      {
+        "path": "/groups/8/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/9/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "776b46233479e1e66da2235fed5ddd92e3a15fdaf131d1eb107df0a0ff33e26c"
+      },
+      {
+        "path": "/groups/9/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/10/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "5bfd091159f7981c48c86d2dd81b95e5bc9927b9be4f641dba3809847eb74af6"
+      },
+      {
+        "path": "/groups/10/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/11/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "b862cfda623572905826ca132566e405768d4ba9c0a45f1034035454c6187401"
+      },
+      {
+        "path": "/groups/11/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/12/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "9671df2ce2313081a8f5f1e65fc83c4f44ff38ac8eb7cdb27578c84014baa0b4"
+      },
+      {
+        "path": "/groups/12/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/13/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "1bb93684ee81e2fad4b5932f8f79d1448a252604b5a477c5afed3c0b28911b63"
+      },
+      {
+        "path": "/groups/13/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/14/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "b5fd1cdf39b3e40b0ca20cb91f2c3a52f24d715f7cfaf5225b414cc1d3697011"
+      },
+      {
+        "path": "/groups/14/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/15/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "a5ef6cd0b3303a1852863dee8a7d2b348cd6be4dfb872967ce148c9e146573b9"
+      },
+      {
+        "path": "/groups/15/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/16/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "01e74a550efdbff36eac4c5036ad86a8c95a75fd2072d9d2fd02c043b2c750a4"
+      },
+      {
+        "path": "/groups/16/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/17/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "52ddd4b9643b66de4f457cc063f454aca89ed9af63373071302a9d46ae131732"
+      },
+      {
+        "path": "/groups/17/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/18/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "440ee6049cea6281b24b6b2dddbd8594f4e041c0c29e96d384841b572c4ca8ca"
+      },
+      {
+        "path": "/groups/18/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/19/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "0120d2ec81d179e733a3dfcb134575135707fb49265d47ce4fc080f5cb798732"
+      },
+      {
+        "path": "/groups/19/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/20/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "05b92ae642fb9ab6c40d637381585f63eafec4e70242ab3f8385d53bc60869be"
+      },
+      {
+        "path": "/groups/20/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/21/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "0ace9aa812c3758336d231ca3e559ef45422750692482c5df357cfccd05d122f"
+      },
+      {
+        "path": "/groups/21/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/22/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "ce4b5128dcc421448f31afe46a6fe12d7593d62384bc94e0eea343512dd17d59"
+      },
+      {
+        "path": "/groups/22/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/23/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "737d36a1855d1dabb3d9cf91a135979a16922e61c0b4f1536e152b33cfaa7075"
+      },
+      {
+        "path": "/groups/23/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/24/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "d492f55554a68c015606361d0f167ad1d8ad15bd976cd61cbc511d5f8c371f7f"
+      },
+      {
+        "path": "/groups/24/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/25/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "33719a88afe54661f5b23d5bba65e6ce40b2f6e41530666ffbf1b45f7d67515f"
+      },
+      {
+        "path": "/groups/25/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/26/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "3f453165579e9f3c6c73a7dcb3226da6ff70fb373bb07b8d5ae76e4c85a52c01"
+      },
+      {
+        "path": "/groups/26/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/27/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "8832a53103658767c503fc586e447350b67284699ed76e5c3cd3cfbfba930944"
+      },
+      {
+        "path": "/groups/27/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/28/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "53b8e038b6056f9297b76583731f4d0974ff3b278550060ab35843d13a08daa1"
+      },
+      {
+        "path": "/groups/28/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/29/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "dfdac5a703f988b387804470e9aa7e16b47c7b82a155c33245b4a7a11f3586ba"
+      },
+      {
+        "path": "/groups/29/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/30/conditions/patentSpecificScope",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "1e6569904764b5b5166cb2bb218ef07b41604b933d226b8a70972f3219b22fb4"
+      },
+      {
+        "path": "/groups/30/interviewQuestions/0",
+        "oldValueSha256": "fbc967b81dc6ac9da942c8a4c262785f22f9462b008bcd13e15c59c50107f483",
+        "newValueSha256": "972629738abd2e53e84cb1e00e0d8361bc623991d20f58fa64796dbaf2f28a5e"
+      },
+      {
+        "path": "/groups/30/mapping/0/coveredActionInterpretation",
+        "oldValueSha256": "07577b325654047e80a020033f5e02e5f1d97023b7b1e338143fc29f117e467d",
+        "newValueSha256": "c303a17be66140c8a6c8548afba3e14e550c109e01f77771b20620fe9ce3c136"
+      },
+      {
+        "path": "/groups/30/mechanism/scopeInterpretation",
+        "oldValueSha256": "07577b325654047e80a020033f5e02e5f1d97023b7b1e338143fc29f117e467d",
+        "newValueSha256": "c303a17be66140c8a6c8548afba3e14e550c109e01f77771b20620fe9ce3c136"
+      },
+      {
+        "path": "/groups/30/opportunity/conditions/0",
+        "oldValueSha256": "07577b325654047e80a020033f5e02e5f1d97023b7b1e338143fc29f117e467d",
+        "newValueSha256": "c303a17be66140c8a6c8548afba3e14e550c109e01f77771b20620fe9ce3c136"
+      },
+      {
+        "path": "/groups/30/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "f68b9d3fba21303920b6a333a3355255102e522b5661aba6594346907e23e368"
+      },
+      {
+        "path": "/groups/30/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/groups/31/conditions/productApplicabilityGap",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "61a600c2033401e1c13485901580771281c6656b42057dafaad9a0c375724b56"
+      },
+      {
+        "path": "/groups/31/conditions/sourceBacked",
+        "oldValueSha256": "ca8dae39290a89a5a46f918e1e23f40da72c463036c173a4874edd924fd15040",
+        "newValueSha256": "4f36b581302c20009e9a22e597d12d9a549ef99de0bcc68b260b9724eb18764f"
+      },
+      {
+        "path": "/groups/31/counterEvidence/result",
+        "oldValueSha256": "9fdd62eaf55299cb24d23b4daca860d90b144feae01e30b314ef8cde989c3ad1",
+        "newValueSha256": "d50c172cc981800bb73694ff4b81baca7ef609c9777bf9b8a173d2a8bc726013"
+      },
+      {
+        "path": "/groups/31/interviewQuestions/0",
+        "oldValueSha256": "02b9c91dd246f5b94fd77be022068edc09cb2b8a110657ad2a9c9906c6b2482f",
+        "newValueSha256": "251f6f5dcf9220f2d7390defe33962ce907bccf03c33879b7036aa5c27ae78d6"
+      },
+      {
+        "path": "/groups/31/mapping/0/coveredActionInterpretation",
+        "oldValueSha256": "e462c6023fb0d21ebacaee5df6fd7c7317a397d42458918ae921dfd2d88b5db4",
+        "newValueSha256": "4286736d42544ce99cc9bc8d800d88e631a25b255faf8c02c102d36156d62454"
+      },
+      {
+        "path": "/groups/31/mechanism/scopeInterpretation",
+        "oldValueSha256": "e462c6023fb0d21ebacaee5df6fd7c7317a397d42458918ae921dfd2d88b5db4",
+        "newValueSha256": "4286736d42544ce99cc9bc8d800d88e631a25b255faf8c02c102d36156d62454"
+      },
+      {
+        "path": "/groups/31/opportunity/conditions/0",
+        "oldValueSha256": "e462c6023fb0d21ebacaee5df6fd7c7317a397d42458918ae921dfd2d88b5db4",
+        "newValueSha256": "4286736d42544ce99cc9bc8d800d88e631a25b255faf8c02c102d36156d62454"
+      },
+      {
+        "path": "/groups/31/resultStatus",
+        "oldValueSha256": "dd915b32b74c61ec6275766ded854321c3618290e3b07cdfc6d61b82145d08d6",
+        "newValueSha256": "5ebcc6d15a185cdb6f90c78710452e2f18477f69b64ff4c6e4d844f1e37e3d70"
+      },
+      {
+        "path": "/groups/31/reviewApplied",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "72d4ad9a350d04cc2718db22852f88c41ec2791fbbea788c73d36eb5198e8651"
+      },
+      {
+        "path": "/groups/31/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "2cf06084628e5ca473c85c79f4008358d2689b8d8334adbd9f91c0b7fe5f9540"
+      },
+      {
+        "path": "/independentReviewFile",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "e8c55525aad56f7f44c43da62c20745faebcca72ce49e219445ab23252600124"
+      },
+      {
+        "path": "/independentReviewSha256",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "beb7b5a98aed005b626ffaf5fcac7fc33156b542137f17d6276068da7393969c"
+      },
+      {
+        "path": "/publicationBoundary",
+        "oldValueSha256": "74c4f51a06d9a47627614d611f5369b2c7eeaac64a1b689712e028ca07bfac88",
+        "newValueSha256": "cb0d5ca07de596540e209f81bcbcda0500902d16a1a8c50215534fd43125bb17"
+      },
+      {
+        "path": "/researchVersion",
+        "oldValueSha256": "f35450ff2a957341a71f04fe2895416c4c992cbd483e34f3ca18b840b1462099",
+        "newValueSha256": "a000d8d58b9c9ee87c74d2e30c4193494446fcd6ef4f7dd28ac3abc23782e37d"
+      },
+      {
+        "path": "/reviewStatus",
+        "oldValueSha256": "bc5500a026964c3753e43e957b6454a33142e25473c3cb135d71c9d722645a73",
+        "newValueSha256": "b1668e4b5d5124b49a01da5c69e897c9e793009279299dd1015f33b8cb2f5b61"
+      },
+      {
+        "path": "/reviewedInputSha256",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "b8dccb7a19ded516ea5d2c87617b265d1490c9db042ef6b4058fcd7e4681551b"
+      },
+      {
+        "path": "/sources/0/independentReviewStatus",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "c349f7c6e3249bcd2aa870c6748d80258d7b9519d6c99b06392015197555ff6d"
+      },
+      {
+        "path": "/sources/0/locators",
+        "oldValueSha256": "7fcee632d9a9b5a147ba627b2a422c8ea9f551101f9877ae26f2c7e4a3c42973",
+        "newValueSha256": "8ededb78d22a3fb8d05e34d203b732b3834b04a96eeafd591dd9ab71a484443f"
+      },
+      {
+        "path": "/sources/1/independentReviewStatus",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "c349f7c6e3249bcd2aa870c6748d80258d7b9519d6c99b06392015197555ff6d"
+      },
+      {
+        "path": "/sources/1/locators",
+        "oldValueSha256": "b3672cd46d9e3a0329564ff8bde42d4a606fa95a967e7a0dc078ecc6c4146fe7",
+        "newValueSha256": "3cb1a55c99a2bca86817a76de628b83013a322014395a82bf0f0ea041f235092"
+      },
+      {
+        "path": "/sources/2/independentReviewStatus",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "c349f7c6e3249bcd2aa870c6748d80258d7b9519d6c99b06392015197555ff6d"
+      },
+      {
+        "path": "/sources/3/independentReviewStatus",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "c349f7c6e3249bcd2aa870c6748d80258d7b9519d6c99b06392015197555ff6d"
+      },
+      {
+        "path": "/sources/4/independentReviewStatus",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "c349f7c6e3249bcd2aa870c6748d80258d7b9519d6c99b06392015197555ff6d"
+      },
+      {
+        "path": "/sources/5/independentReviewStatus",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "c349f7c6e3249bcd2aa870c6748d80258d7b9519d6c99b06392015197555ff6d"
+      },
+      {
+        "path": "/sources/6/independentReviewStatus",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "c349f7c6e3249bcd2aa870c6748d80258d7b9519d6c99b06392015197555ff6d"
+      },
+      {
+        "path": "/sources/7/independentReviewStatus",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "c349f7c6e3249bcd2aa870c6748d80258d7b9519d6c99b06392015197555ff6d"
+      },
+      {
+        "path": "/sources/8/independentReviewStatus",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "c349f7c6e3249bcd2aa870c6748d80258d7b9519d6c99b06392015197555ff6d"
+      },
+      {
+        "path": "/sources/9/independentReviewStatus",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "c349f7c6e3249bcd2aa870c6748d80258d7b9519d6c99b06392015197555ff6d"
+      },
+      {
+        "path": "/sources/10/independentReviewStatus",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "c349f7c6e3249bcd2aa870c6748d80258d7b9519d6c99b06392015197555ff6d"
+      },
+      {
+        "path": "/sources/11/independentReviewStatus",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "c349f7c6e3249bcd2aa870c6748d80258d7b9519d6c99b06392015197555ff6d"
+      },
+      {
+        "path": "/sources/12/independentReviewStatus",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "c349f7c6e3249bcd2aa870c6748d80258d7b9519d6c99b06392015197555ff6d"
+      },
+      {
+        "path": "/sources/13/geographicScope",
+        "oldValueSha256": "1745bc0bc83f63b313fa70071ecbbd32897dbc1e8d3d6ac134ed2c51cac3dac1",
+        "newValueSha256": "1a154de032c4f2065084f0b7bc2b80c1a62c45c7641fe3a60e84355ebcc40fae"
+      },
+      {
+        "path": "/sources/13/independentReviewStatus",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "c349f7c6e3249bcd2aa870c6748d80258d7b9519d6c99b06392015197555ff6d"
+      },
+      {
+        "path": "/sources/14/independentReviewStatus",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "c349f7c6e3249bcd2aa870c6748d80258d7b9519d6c99b06392015197555ff6d"
+      },
+      {
+        "path": "/sources/15/independentReviewStatus",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "c349f7c6e3249bcd2aa870c6748d80258d7b9519d6c99b06392015197555ff6d"
+      },
+      {
+        "path": "/sources/16/geographicScope",
+        "oldValueSha256": "702c94fb94bfcf75d4ba91be4aa0bd7d7ea4f11ec80c5a106c539e6d404723cd",
+        "newValueSha256": "61a600c2033401e1c13485901580771281c6656b42057dafaad9a0c375724b56"
+      },
+      {
+        "path": "/sources/16/independentReviewStatus",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "c349f7c6e3249bcd2aa870c6748d80258d7b9519d6c99b06392015197555ff6d"
+      },
+      {
+        "path": "/sources/16/reviewCorrection",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "7356bbe8971b88db91dc948770854d2654c4c879940ebdc88d99b2c7875ea0d0"
+      },
+      {
+        "path": "/sources/17/independentReviewStatus",
+        "oldValueSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newValueSha256": "c349f7c6e3249bcd2aa870c6748d80258d7b9519d6c99b06392015197555ff6d"
+      }
+    ]
+  },
+  "scopeLimitations": [
+    "本次限定复检只复读四项裁决涉及的原文，不宣称重新核读所有18来源。原全面独审记录仍绑定原2e94…。",
+    "本批传统机械32组只关联原207中的38父任务，不替代G02全部工具补检或全行业覆盖。",
+    "父定义可能仍为组合项，新增和拟议子任务没有继承原检索完成状态。",
+    "新增材料和专利适配缺口不证明技术不可行；旧规范未被声明为2026全国统一现行程序。",
+    "补研现金流为无数值框架；导入须保留主稿完整部署、更新和退出成本边界，不能以简式覆盖主模型。"
+  ]
+}

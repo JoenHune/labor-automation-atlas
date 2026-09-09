@@ -1,0 +1,2205 @@
+{
+  "schemaVersion": 1,
+  "country": "CN",
+  "industryId": "cn-construction",
+  "reviewedAt": "2026-09-09",
+  "reviewType": "independent-limited-recheck-of-author-corrections",
+  "reviewer": "root",
+  "author": "sample_task_research",
+  "inputFile": "research/automation/cn-construction.json",
+  "inputSHA256": "e856822bd76919665d6f9d1496bad2b8c15b92751fab25ebbd957e907c6f353c",
+  "auditFile": "research/automation/cn-construction-search-audit.json",
+  "auditSHA256": "d7cb04f16e603b31b4921b1a2ea9a7e9d37c2454ce7c07545daf41c897e4419d",
+  "independentReviewFile": "research/reviews/cn-construction-automation-decisions.json",
+  "independentReviewSHA256": "63b1904d233b0073af28bf6ec04a79ead7860fa1a98991115dba8e1fa9b77c6c",
+  "authorRevisionReceipt": "research/automation/cn-construction-revisions.json",
+  "authorRevisionReceiptSHA256": "737bbcb7aa8eb15eb5f02bbabbfd4844b77a5e554cbb0d83baf43a3d35640334",
+  "verdict": "specified-corrections-verified-research-and-archive-gaps-remain",
+  "canFreeze": false,
+  "scope": "继承既有207项独立审校，仅复检指定修订、原快照、引用传播、查询记录和现金框架；不是重新执行全部研究或认证现行规范。",
+  "counts": {
+    "tasks": 207,
+    "sources": 25,
+    "claims": 36,
+    "mainQueries": 414,
+    "supplementQueries": 16,
+    "preservedOriginalSnapshots": 207,
+    "proposedSplitParents": 25,
+    "approvedNewTasks": 0,
+    "frozenTasks": 0
+  },
+  "findings": [
+    {
+      "id": "E01",
+      "status": "confirmed-fixed-with-stated-boundary",
+      "assessment": "源缓存分类料仓及打包段与修订后的来源、结论和逐任务引用一致，现场标签及签收未被宣称替代。"
+    },
+    {
+      "id": "E02",
+      "status": "confirmed-fixed-with-stated-boundary",
+      "assessment": "原参数表的基面限定、首型号定位及反向证据同步，投料配方适配仍未证。"
+    },
+    {
+      "id": "E03",
+      "status": "confirmed-fixed-with-stated-boundary",
+      "assessment": "目视PDF物理60/印刷54；纸面板防锈与纤维水泥板填平分开，后者在目标任务保持拟议。"
+    },
+    {
+      "id": "E04",
+      "status": "confirmed-fixed-with-stated-boundary",
+      "assessment": "目视职业公示稿PDF539及提取536页；五项有效引用已替换为防水工或乡村工匠，旧masonry只留在归档快照。"
+    },
+    {
+      "id": "E05",
+      "status": "confirmed-fixed-with-stated-boundary",
+      "assessment": "徐家汇未具名首秀与其他来源的分设备应用已分开，未拼接成完整无人链。"
+    },
+    {
+      "id": "R01",
+      "status": "confirmed-fixed-with-stated-boundary",
+      "assessment": "已回读机械臂段，来源定位、claims与任务引用补齐L44/46。"
+    },
+    {
+      "id": "R02",
+      "status": "confirmed-fixed-with-stated-boundary",
+      "assessment": "回读专利可选实施方式、武宜段使用原文及博世页38页脚；可选配置、部署自报和说明书版次日期类型分开。"
+    },
+    {
+      "id": "R03",
+      "status": "confirmed-fixed-with-stated-boundary",
+      "assessment": "207任务与method现金框架按增量营运资金相邻期差额扣减；全部现金参数、收益、回收期和门槛仍为空。"
+    },
+    {
+      "id": "R04",
+      "status": "confirmed-fixed-with-stated-boundary",
+      "assessment": "207项逐任务审校备注与建议条款已同步到有效定义；职业宽职责不作为全动作双路径已证实。原规范现行有效性仍未认证。"
+    },
+    {
+      "id": "R05",
+      "status": "confirmed-fixed-with-stated-boundary",
+      "assessment": "25父项拟拆分未增计；四项实验室结果已移为外部验收输入；泵送和接料建立互相指向的同次交接记录。"
+    },
+    {
+      "id": "G01",
+      "status": "documented-evidence-gap-remains",
+      "assessment": "207原回包哈希及414公开查询文本对照既有独立审查记录一致；原请求与UTC仍不可独立复核，未重跑查询。"
+    },
+    {
+      "id": "G02",
+      "status": "pending-research",
+      "assessment": "传统机械基线尚未逐项吸收，后续设备名和现场条件补查待做，五个类别空值不代表比较完成。"
+    },
+    {
+      "id": "G03",
+      "status": "pending-research",
+      "assessment": "137任务没有保留匹配替代机制；没有完整现金、工时及当前持续运行数据，保持首轮缺口状态。"
+    },
+    {
+      "id": "G04",
+      "status": "pending-research",
+      "assessment": "规范现行状态、正式职业版和全部建筑场景覆盖仍未完成。"
+    },
+    {
+      "id": "G05",
+      "status": "documented-evidence-gap-remains",
+      "assessment": "审计明确site.不是域名过滤，原请求如实保留；没有伪造重查记录。"
+    }
+  ],
+  "historicalArchiveGap": {
+    "oldResearchSHA256": "07e1a6bedf599539657998cf24321d2c6d6659a33d6b481111b937af239fbbd5",
+    "oldAuditSHA256": "a9ebb02c8290bf030d6e9f14f8cab3fdd8968e5983e351c87f788e33a4eafed3",
+    "oldFullFilesAvailable": false,
+    "oldWholeResearchFieldDiffVerified": false,
+    "authorReport": "作者确认未另存修订前整份研究稿和审计字节，仅保留207原始任务深拷贝与输入SHA。",
+    "independentAlternative": "当前207 originalTask逐项与哈希锁定的原清单深度相等；当前指定修订及25源缓存、207回包哈希独立核验。未用反向转换重建文件冒充历史原稿。"
+  },
+  "freshlyRereadScope": [
+    "REBAR-LINE L76/80/82/84/100",
+    "PLASTER L88/97–100/107/116–117",
+    "COATING L44–61",
+    "FORM-CLEAN L142/154/158/168",
+    "REBAR-CASE L39–46",
+    "DISTRIBUTION-CASE L338–344",
+    "DB11/T1832.10-2022 PDF物理60/印刷54页图",
+    "2022职业公示稿PDF539页图与536页文字",
+    "博世说明书PDF38页图和页脚"
+  ],
+  "taskChecks": [
+    {
+      "taskId": "cn-const-steel-wall-form-001",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-steel-wall-form-002",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-steel-wall-form-003",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-steel-wall-form-004",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-steel-wall-form-005",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-steel-wall-form-006",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-steel-wall-form-007",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-steel-wall-form-008",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-steel-wall-form-009",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-steel-wall-form-010",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-steel-wall-form-011",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-steel-wall-form-012",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-steel-wall-form-013",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-steel-wall-form-014",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-steel-wall-form-015",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-steel-wall-form-016",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-steel-wall-form-017",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-001",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-002",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-003",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-004",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-005",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-006",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-007",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-008",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-009",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-010",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-011",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-012",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-013",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-001",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-002",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-003",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-004",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-005",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-006",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-007",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-008",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-009",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-010",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-011",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-012",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-013",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-014",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-015",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-raft-001",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-raft-002",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-raft-003",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-raft-004",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-raft-005",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-raft-006",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-raft-007",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-raft-008",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-raft-009",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-raft-010",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-raft-011",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-raft-012",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-raft-013",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-pumping-001",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-pumping-002",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-pumping-003",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-pumping-004",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-pumping-005",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-pumping-006",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-pumping-007",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-pumping-008",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-pumping-009",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-pumping-010",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-pumping-011",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-pumping-012",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-pumping-013",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-pumping-014",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-frame-cast-001",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-frame-cast-002",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-frame-cast-003",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-frame-cast-004",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-frame-cast-005",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-frame-cast-006",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-frame-cast-007",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-frame-cast-008",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-frame-cast-009",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-frame-cast-010",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-frame-cast-011",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-frame-cast-012",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-frame-cast-013",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-frame-cast-014",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-frame-cast-015",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-frame-cast-016",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-external-tile-001",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-external-tile-002",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-external-tile-003",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-external-tile-004",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-external-tile-005",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-external-tile-006",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-external-tile-007",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-external-tile-008",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-external-tile-009",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-external-tile-010",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-external-tile-011",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-external-tile-012",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-external-tile-013",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-external-tile-014",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-interior-coating-001",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-interior-coating-002",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-interior-coating-003",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-interior-coating-004",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-interior-coating-005",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-interior-coating-006",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-interior-coating-007",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-interior-coating-008",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-interior-coating-009",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-interior-coating-010",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-interior-coating-011",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-interior-coating-012",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-interior-coating-013",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-interior-coating-014",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-mortar-plaster-001",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-mortar-plaster-002",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-mortar-plaster-003",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-mortar-plaster-004",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-mortar-plaster-005",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-mortar-plaster-006",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-mortar-plaster-007",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-mortar-plaster-008",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-mortar-plaster-009",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-mortar-plaster-010",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-mortar-plaster-011",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-mortar-plaster-012",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-mortar-plaster-013",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-mortar-plaster-014",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-mortar-plaster-015",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-light-steel-partition-001",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-light-steel-partition-002",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-light-steel-partition-003",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-light-steel-partition-004",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-light-steel-partition-005",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-light-steel-partition-006",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-light-steel-partition-007",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-light-steel-partition-008",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-light-steel-partition-009",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-light-steel-partition-010",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-light-steel-partition-011",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-light-steel-partition-012",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-light-steel-partition-013",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-light-steel-partition-014",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-light-steel-partition-015",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-fixed-panel-ceiling-001",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-fixed-panel-ceiling-002",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-fixed-panel-ceiling-003",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-fixed-panel-ceiling-004",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-fixed-panel-ceiling-005",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-fixed-panel-ceiling-006",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-fixed-panel-ceiling-007",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-fixed-panel-ceiling-008",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-fixed-panel-ceiling-009",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-fixed-panel-ceiling-010",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-fixed-panel-ceiling-011",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-fixed-panel-ceiling-012",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-fixed-panel-ceiling-013",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-fixed-panel-ceiling-014",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-pipe-001",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-pipe-002",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-pipe-003",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-pipe-004",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-pipe-005",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-pipe-006",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-pipe-007",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-pipe-008",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-pipe-009",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-pipe-010",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": true,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-pipe-011",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-pipe-012",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-pipe-013",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-pipe-014",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-pipe-015",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-pipe-016",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-pipe-017",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-pipe-018",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-pipe-019",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-pipe-020",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-tank-001",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-tank-002",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-tank-003",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-tank-004",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-tank-005",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-tank-006",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-tank-007",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-tank-008",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-tank-009",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-tank-010",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-water-plant-equipment-001",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-water-plant-equipment-002",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-water-plant-equipment-003",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-water-plant-equipment-004",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-water-plant-equipment-005",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-water-plant-equipment-006",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-water-plant-equipment-007",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-water-plant-equipment-008",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-water-plant-equipment-009",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-water-plant-equipment-010",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-water-plant-electrical-001",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-water-plant-electrical-002",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-water-plant-electrical-003",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-water-plant-electrical-004",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-water-plant-electrical-005",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-water-plant-electrical-006",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-water-plant-electrical-007",
+      "originalSnapshotEqualsInventory": true,
+      "decisionAndDefinitionSynchronized": true,
+      "cashInputsRemainUnknown": true,
+      "queryPairAndOriginalReturnVerified": true,
+      "rawRequestAndExecutionTimeIndependentlyVerified": false,
+      "proposedSplitUncounted": false,
+      "canFreeze": false
+    }
+  ],
+  "integrationRules": [
+    "有效定义只取reviewedDefinition与definitionReview.actionSupport，禁止把归档originalTask错误来源重新显示为当前证据。",
+    "保留componentSupport中的防锈直接支持/填平拟议、externalAcceptanceInputs和interfaceOverlap。",
+    "说明书版次日期与网上发布日期分开；旧地方规范、厂商自报和当前运行不能互相替代。",
+    "本复检允许作为未冻结工作版研究输入，不代表G02–G04或完整历史归档缺口已消除。"
+  ]
+}

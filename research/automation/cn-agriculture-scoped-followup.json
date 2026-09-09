@@ -1,0 +1,2277 @@
+{
+  "schemaVersion": 1,
+  "country": "CN",
+  "industryId": "cn-agriculture",
+  "researchVersion": "cn-agriculture-scoped-followup-2026-09-09-v2",
+  "reviewedFirstPassFile": "research/automation/cn-agriculture.json",
+  "reviewedFirstPassSHA256": "29623933f780c5236243d63e142d40a825b47273ef46dfc721133c85e90cb5d3",
+  "status": "independent-review-applied-limited-recheck-pending",
+  "auditFile": "research/automation/cn-agriculture-scoped-followup-search-audit.json",
+  "auditSHA256": "d73113e2ef246938d35310e10dcbf4e2a8328576ef2ccc56bb8c863175534e78",
+  "sourceSelection": "83个查询任务保留12个局部机制任务、1个相邻工序任务、70个无新增匹配机制任务；23份原文候选中12份保留、5份读取后排除或不足、6份本次读取失败。3个额外既有任务关联不增加被查询或任务计数。",
+  "sources": [
+    {
+      "id": "CN-AG-REVIEW-SOURCE-02-06",
+      "batchIndex": 2,
+      "candidateIndex": 6,
+      "title": "黄淮海麦玉两熟区秸秆全量还田保护性耕作全程机械化生产模式",
+      "url": "https://njhs.moa.gov.cn/qcjxhtjxd/202301/t20230113_6418791.htm",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "137036ccd0bae1c84126d1009042ba816990b2bfa0ebb415d800831e5bab4d73",
+      "numbersAdopted": false,
+      "independentReviewStatus": "original-passages-independently-reviewed",
+      "publisher": "农业农村部农业机械化管理司、总站和专家指导组",
+      "publishedAt": "2023-01-13",
+      "evidenceLevel": "official-technical-guidance",
+      "evidencePeriod": "黄淮海麦玉两熟区，包括安徽北部；2023指导",
+      "readStatus": "read-original-selected-passages",
+      "status": "retain-guidance-only",
+      "supportBoundary": "黄淮海麦玉两熟区，包括安徽北部；2023指导",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "reviewDecision": "retain-guidance-only",
+      "reviewBoundary": "原文L118明确含安徽北部；不能扩大为安徽所有麦区。",
+      "reviewedLocators": [
+        "L31–37、41、48、58–59、76–81、118"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-05-10",
+      "batchIndex": 5,
+      "candidateIndex": 10,
+      "title": "浙江机电职业技术学院：智小农团队研发高精度穴盘苗补苗移栽智能装置 助力农业现代化发展-浙江机电职业技术大学创新创业学院",
+      "url": "https://cyxy.zime.edu.cn/info/1051/1090.htm",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "68e4424efafecbf7a48eddf66fd6c9c2211dc2d204c35206e7251869156561d8",
+      "numbersAdopted": false,
+      "independentReviewStatus": "original-passages-independently-reviewed",
+      "publisher": "浙江机电职业技术大学创新创业学院（报道团队原型）",
+      "publishedAt": "2023-04-26",
+      "evidenceLevel": "research-team-prototype-report",
+      "evidencePeriod": "穴盘苗补苗移栽装置，品种和全套出圃指标未披露",
+      "readStatus": "read-original-selected-passages",
+      "status": "retain-prototype-partial",
+      "supportBoundary": "穴盘苗补苗移栽装置，品种和全套出圃指标未披露",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "reviewDecision": "retain-prototype-partial",
+      "reviewBoundary": "团队原型与测试自报，仅健壮苗识别等局部线索，不能覆盖病苗判别和出圃验收。",
+      "reviewedLocators": [
+        "L35、37、41、44、53"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-06-11",
+      "batchIndex": 6,
+      "candidateIndex": 11,
+      "title": "蔬菜移栽穴盘苗自动输送装置设计与试验",
+      "url": "https://www.j-csam.org/jcsam/article/abstract/20160715?st=search",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "021f9825998ed8e5407c834701f04340403769c5195f77ba50da13786289ea1f",
+      "numbersAdopted": false,
+      "independentReviewStatus": "failure-response-independently-checked",
+      "readStatus": "unavailable-or-open-returned-metadata-only",
+      "status": "retain-fetch-gap",
+      "note": "正文未能取得；不把标题/索引当已读原文。",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewDecision": "retain-fetch-gap",
+      "reviewBoundary": "确认该次读取超时或403；回包尾部可能并列其他来源，不能据此把本来源标为已读。未作永久不可访问判断。",
+      "reviewedLocators": [
+        "本次读取回包首个失败记录"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-08-05",
+      "batchIndex": 8,
+      "candidateIndex": 5,
+      "title": "基于模块化的叶菜精量播种机研发与应用",
+      "url": "https://www.aeeisp.com/nygc/article/doi/10.19998/j.cnki.2095-1795.202506316",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "ab838d82ea17748dd1fe1cf6abc61c844db79358aeed0754e2f66f897cd279c2",
+      "numbersAdopted": false,
+      "independentReviewStatus": "original-passages-independently-reviewed",
+      "readStatus": "read-excluded-scenario-mismatch",
+      "status": "retain-exclusion-or-insufficiency",
+      "locator": "摘要L102–103",
+      "note": "研究对象为无土栽培海绵盘，不是露地叶菜播深/排种检查；不挂到露地任务。",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewDecision": "retain-exclusion-or-insufficiency",
+      "reviewBoundary": "研究对象为无土栽培海绵盘，不是露地叶菜播深/排种检查；不挂到露地任务。",
+      "reviewedLocators": [
+        "摘要L102–103"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-11-05",
+      "batchIndex": 11,
+      "candidateIndex": 5,
+      "title": "标准化果园碎草机作业性能试验",
+      "url": "https://www.aeeisp.com/nygc/article/doi/10.19998/j.cnki.2095-1795.2023.04.004",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "1ccabe4320aaa32d47ac0059ad35068bf1f354dd4621386d929650aaf128bebe",
+      "numbersAdopted": false,
+      "independentReviewStatus": "original-passages-independently-reviewed",
+      "publisher": "《农业工程》期刊",
+      "publishedAt": null,
+      "evidenceLevel": "research-test-abstract",
+      "evidencePeriod": "标准化果园碎草试验，果树品种、试验日期未在已读摘要披露",
+      "readStatus": "read-original-selected-passages",
+      "status": "retain-test-abstract-conditional",
+      "supportBoundary": "标准化果园碎草试验，果树品种、试验日期未在已读摘要披露",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "reviewDecision": "retain-test-abstract-conditional",
+      "reviewBoundary": "只有果园行间碎草试验摘要，苹果品种和地形仍需核；发布日期保持null，不从DOI补造月日。",
+      "reviewedLocators": [
+        "L75–104"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-12-04",
+      "batchIndex": 12,
+      "candidateIndex": 4,
+      "title": "苹果园有机肥施肥机 - 山东北源机械设备有限公司",
+      "url": "https://beiyuanmachine.cn/pd.jsp?fromColId=2&id=71",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "bc1477f0a20500fddcb92218ec434bbf5bda873bf53477363f37e86a5bb0c0c1",
+      "numbersAdopted": false,
+      "independentReviewStatus": "original-passages-independently-reviewed",
+      "publisher": "山东北源机械设备有限公司",
+      "publishedAt": null,
+      "evidenceLevel": "manufacturer-product-description",
+      "evidencePeriod": "苹果/葡萄等果园有机肥机产品页，发布日期未披露",
+      "readStatus": "read-original-selected-passages",
+      "status": "retain-manufacturer-mechanism",
+      "supportBoundary": "苹果/葡萄等果园有机肥机产品页，发布日期未披露",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "reviewDecision": "retain-manufacturer-mechanism",
+      "reviewBoundary": "拖拉机动力、链输送、开沟、施肥、覆土有文字机制；现场根区位置和人工仍未知。",
+      "reviewedLocators": [
+        "L43–45"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-13-01",
+      "batchIndex": 13,
+      "candidateIndex": 1,
+      "title": "CN221768820U - 一种简易化果树拉枝整形装置 - Google Patents",
+      "url": "https://patents.google.com/patent/CN221768820U/zh",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "0ab6401a80b1604df4a098a4733f45a62d3970633c4b789b4b925b9a88110c4d",
+      "numbersAdopted": false,
+      "independentReviewStatus": "original-passages-independently-reviewed",
+      "publisher": "四川省农业科学院园艺研究所（专利申请文件，Google Patents转载）",
+      "publishedAt": "2024-09-27",
+      "evidenceLevel": "patent-mechanism-description",
+      "evidencePeriod": "CN221768820U，公开设计，未确认商业部署",
+      "readStatus": "read-original-selected-passages",
+      "status": "retain-manual-aid-patent",
+      "supportBoundary": "CN221768820U，公开设计，未确认商业部署",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "reviewDecision": "retain-manual-aid-patent",
+      "reviewBoundary": "手摇拉枝和固定限位属于人工辅助；扭簧收绳不等于自动选择枝位或自动拉枝。",
+      "reviewedLocators": [
+        "L27–40、66、79–91、109–112"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-15-10",
+      "batchIndex": 15,
+      "candidateIndex": 10,
+      "title": "果园多臂采收机器人-新产品-北京市农林科学院",
+      "url": "https://www.baafs.net.cn/kxyj/cxcg/xcp/227d6794b60d430494e5fad4ef4368bb.htm",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "004fb3526d093b95fa3b5c26d210bffa35dc556e9037c0cac9a3a01cfc066ea8",
+      "numbersAdopted": false,
+      "independentReviewStatus": "failure-response-independently-checked",
+      "readStatus": "unavailable-or-open-returned-metadata-only",
+      "status": "retain-fetch-gap",
+      "note": "正文未能取得；不把标题/索引当已读原文。",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewDecision": "retain-fetch-gap",
+      "reviewBoundary": "确认该次读取超时或403；回包尾部可能并列其他来源，不能据此把本来源标为已读。未作永久不可访问判断。",
+      "reviewedLocators": [
+        "本次读取回包首个失败记录"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-17-11",
+      "batchIndex": 17,
+      "candidateIndex": 11,
+      "title": "郑州金鹏果树碎枝机怎么干活？果园枝条资源化利用--郑州金鹏机械设备有限公司",
+      "url": "https://www.zzbpj.com/news115.html",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "19a1c50dd72f13840850f2371843acabfc33229af3bfe88c7a9655c5e3f9abcc",
+      "numbersAdopted": false,
+      "independentReviewStatus": "original-passages-independently-reviewed",
+      "publisher": "郑州金鹏机械设备有限公司",
+      "publishedAt": null,
+      "evidenceLevel": "manufacturer-process-and-limitations-description",
+      "evidencePeriod": "苹果园碎枝机厂商说明，具体现场和日期未披露",
+      "readStatus": "read-original-selected-passages",
+      "status": "retain-adjacent-process-only",
+      "supportBoundary": "苹果园碎枝机厂商说明，具体现场和日期未披露",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "reviewDecision": "retain-adjacent-process-only",
+      "reviewBoundary": "粉碎已归集枝条及出料收集不能证明病残枝叶拾取、病原控制或器具清理；原任务仅保留相邻工序线索。",
+      "reviewedLocators": [
+        "L18–27"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-19-00",
+      "batchIndex": 19,
+      "candidateIndex": 0,
+      "title": "襄垣县新裕农业年产300万菌棒自动化生产线正式投产",
+      "url": "https://www.changzhi.gov.cn/ztzl/TPGJZT/TPGJZT2/202505/t20250513_3045455.shtml",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "8e6d47962b6b6e85f4fa32a4d49901918bfb8a0f1f744e5f34b45a2dbd362f1f",
+      "numbersAdopted": false,
+      "independentReviewStatus": "original-passages-independently-reviewed",
+      "publisher": "长治市人民政府转载《长治日报》",
+      "publishedAt": "2025-05-13",
+      "evidenceLevel": "local-news-operator-production-report",
+      "evidencePeriod": "山西襄垣新裕农业一期投产报道；二期扩建为计划",
+      "readStatus": "read-original-selected-passages",
+      "status": "retain-production-report-partial",
+      "supportBoundary": "山西襄垣新裕农业一期投产报道；二期扩建为计划",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "reviewDecision": "retain-production-report-partial",
+      "reviewBoundary": "投产报道含输送上架、传感联动和专人管理；山西报道不能直接证明山东现场2026持续运行。",
+      "reviewedLocators": [
+        "L4–6、17、23、25–26"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-20-04",
+      "batchIndex": 20,
+      "candidateIndex": 4,
+      "title": "CN207340854U - 自动化香菇菌棒注水机 - Google Patents",
+      "url": "https://patents.google.com/patent/CN207340854U/zh",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "74964505de6b8187bd609b91f7e34fce8ccd0d428dfec14e3947776d0ea1c865",
+      "numbersAdopted": false,
+      "independentReviewStatus": "original-passages-independently-reviewed",
+      "publisher": "山西省农业科学院试验研究中心（专利申请文件，Google Patents转载）",
+      "publishedAt": "2018-05-11",
+      "evidenceLevel": "patent-mechanism-description",
+      "evidencePeriod": "CN207340854U，香菇出菇潮后菌棒补水设计",
+      "readStatus": "read-original-selected-passages",
+      "status": "retain-patent-conditional",
+      "supportBoundary": "CN207340854U，香菇出菇潮后菌棒补水设计",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "reviewDecision": "retain-patent-conditional",
+      "reviewBoundary": "潮后菌棒实体补水，人仍供棒；废水回流设计要求另核水质清洁，不等同空气加湿。",
+      "reviewedLocators": [
+        "L30–43、86、91、96、110"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-24-00",
+      "batchIndex": 24,
+      "candidateIndex": 0,
+      "title": "连续作业的“造林流水线”——植树机_国家林业和草原局政府网",
+      "url": "https://www.forestry.gov.cn/lyj/1/zhzs/20260615/672629.html",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "48b180db3e8b23888db1ff7c84d5e4e8fe7a858f51c1ca7cfa005bc5232a77c8",
+      "numbersAdopted": false,
+      "independentReviewStatus": "failure-response-independently-checked",
+      "readStatus": "unavailable-or-open-returned-metadata-only",
+      "status": "retain-fetch-gap",
+      "note": "正文未能取得；不把标题/索引当已读原文。",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewDecision": "retain-fetch-gap",
+      "reviewBoundary": "确认该次读取超时或403；回包尾部可能并列其他来源，不能据此把本来源标为已读。未作永久不可访问判断。",
+      "reviewedLocators": [
+        "本次读取回包首个失败记录"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-26-01",
+      "batchIndex": 26,
+      "candidateIndex": 1,
+      "title": "生猪健康识别与智能养殖装备创制与应用 | 生猪技术创新中心(重庆)",
+      "url": "https://www.nctip.cn/10752.html",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "3db04910fa487629c7ad6921b202f8afe8942542fb7fd411ea8d86c383c77336",
+      "numbersAdopted": false,
+      "independentReviewStatus": "original-passages-independently-reviewed",
+      "publisher": "国家生猪技术创新中心（重庆）",
+      "publishedAt": "2025-04-03",
+      "evidenceLevel": "research-institution-own-achievement-report",
+      "evidencePeriod": "中心介绍猪群视觉识别及饲喂装备，并自报多地示范",
+      "readStatus": "read-original-selected-passages",
+      "status": "retain-institution-self-report-partial",
+      "supportBoundary": "中心介绍猪群视觉识别及饲喂装备，并自报多地示范",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "reviewDecision": "retain-institution-self-report-partial",
+      "reviewBoundary": "生猪健康相关视觉和轨道监测自述；原任务已有局部机制，本批作为追加来源，不另算新增任务。",
+      "reviewedLocators": [
+        "L49、57–60、69"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-27-04",
+      "batchIndex": 27,
+      "candidateIndex": 4,
+      "title": "智能饮水系统-京鹏畜牧-是一家专业从事现代化畜牧场规划设计和建造的高新技术企业",
+      "url": "https://www.jpxm.com/Product/13.html",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "9fb923143d488432f7afc0adb4cf78b82da73fd9bd93254a25adb530a5d0cb87",
+      "numbersAdopted": false,
+      "independentReviewStatus": "failure-response-independently-checked",
+      "readStatus": "unavailable-or-open-returned-metadata-only",
+      "status": "retain-fetch-gap",
+      "note": "正文未能取得；不把标题/索引当已读原文。",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewDecision": "retain-fetch-gap",
+      "reviewBoundary": "确认该次读取超时或403；回包尾部可能并列其他来源，不能据此把本来源标为已读。未作永久不可访问判断。",
+      "reviewedLocators": [
+        "本次读取回包首个失败记录"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-31-02",
+      "batchIndex": 31,
+      "candidateIndex": 2,
+      "title": "数字奶厅 阿菲金（afimilk）-领先的奶牛场数字化管理解决方案提供商",
+      "url": "https://www.afimilk.com.cn/project/30",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "c78a5927892e505ec429495aa92f94d1ad1bb508d9f95f0592909837defa2080",
+      "numbersAdopted": false,
+      "independentReviewStatus": "failure-response-independently-checked",
+      "readStatus": "unavailable-or-open-returned-metadata-only",
+      "status": "retain-fetch-gap",
+      "note": "正文未能取得；不把标题/索引当已读原文。",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewDecision": "retain-fetch-gap",
+      "reviewBoundary": "确认该次读取超时或403；回包尾部可能并列其他来源，不能据此把本来源标为已读。未作永久不可访问判断。",
+      "reviewedLocators": [
+        "本次读取回包首个失败记录"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-32-02",
+      "batchIndex": 32,
+      "candidateIndex": 2,
+      "title": "佛山力淳乳业机械有限公司",
+      "url": "https://www.legendconnect.com/html/cn/",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "37e774efe8e72872e597abd0b19c79e9f59601edd92f8e72b3718568c37faba7",
+      "numbersAdopted": false,
+      "independentReviewStatus": "original-passages-independently-reviewed",
+      "readStatus": "read-catalogue-insufficient",
+      "status": "retain-exclusion-or-insufficiency",
+      "locator": "产品分类L50–80、企业介绍L131",
+      "note": "目录有制冷系统，但未读具体冷却原理与产品操作；不能将公司成立或新闻日期当产品发布时间。",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewDecision": "retain-exclusion-or-insufficiency",
+      "reviewBoundary": "目录有制冷系统，但未读具体冷却原理与产品操作；不能将公司成立或新闻日期当产品发布时间。",
+      "reviewedLocators": [
+        "产品分类L50–80、企业介绍L131"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-33-13",
+      "batchIndex": 33,
+      "candidateIndex": 13,
+      "title": "自治区畜牧站推进奶牛牧场奶样采集实现全流程智能化_宁夏回族自治区农业农村厅",
+      "url": "https://nynct.nx.gov.cn/xwzx/zwdt/202505/t20250526_4916700.html",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "045d84b8d20ec9b16698dd8cceb83d37d1d392434bcb9f1eee7e2da790dd3763",
+      "numbersAdopted": false,
+      "independentReviewStatus": "failure-response-independently-checked",
+      "readStatus": "unavailable-or-open-returned-metadata-only",
+      "status": "retain-fetch-gap",
+      "note": "正文未能取得；不把标题/索引当已读原文。",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewDecision": "retain-fetch-gap",
+      "reviewBoundary": "确认该次读取超时或403；回包尾部可能并列其他来源，不能据此把本来源标为已读。未作永久不可访问判断。",
+      "reviewedLocators": [
+        "本次读取回包首个失败记录"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-35-01",
+      "batchIndex": 35,
+      "candidateIndex": 1,
+      "title": "CN206547630U - 一种立体式自动分鱼机 - Google Patents",
+      "url": "https://patents.google.com/patent/CN206547630U/zh",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "1491917e0658d14b9d920971b31f358efaa8c60ad68a357a71cce90dad53da0e",
+      "numbersAdopted": false,
+      "independentReviewStatus": "original-passages-independently-reviewed",
+      "publisher": "中国海洋大学、青岛越洋水产科技有限公司（专利文件，Google Patents转载）",
+      "publishedAt": "2017-10-13",
+      "evidenceLevel": "patent-mechanism-description",
+      "evidencePeriod": "CN206547630U，鱼体规格分级设计，鱼种未指定",
+      "readStatus": "read-original-selected-passages",
+      "status": "retain-patent-with-rework-condition",
+      "supportBoundary": "CN206547630U，鱼体规格分级设计，鱼种未指定",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "reviewDecision": "retain-patent-with-rework-condition",
+      "reviewBoundary": "滚轴分级与导鱼斗可局部支持分池，鱼种损伤与接池验收未知；L144明确重复分级可能机械损伤并耗人工。",
+      "reviewedLocators": [
+        "L29–44、74–84、110–120、138–144"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-36-08",
+      "batchIndex": 36,
+      "candidateIndex": 8,
+      "title": "CN103004680B - 一种养殖池底、表排污及病鱼、死鱼自动收集装置 - Google Patents",
+      "url": "https://patents.google.com/patent/CN103004680B/zh",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "c2864ca89149105f745592f8f0b2e872fd451be2fcbaa854a59ed9c7d6c0878d",
+      "numbersAdopted": false,
+      "independentReviewStatus": "original-passages-independently-reviewed",
+      "publisher": "通威股份有限公司（专利申请文件，Google Patents转载）",
+      "publishedAt": "2014-09-03",
+      "evidenceLevel": "patent-mechanism-description",
+      "evidencePeriod": "CN103004680B，带中央排污口的循环水养殖池设计",
+      "readStatus": "read-original-selected-passages",
+      "status": "retain-patent-with-capture-boundary",
+      "supportBoundary": "CN103004680B，带中央排污口的循环水养殖池设计",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "reviewDecision": "retain-patent-with-capture-boundary",
+      "reviewBoundary": "循环水位差吸取吸污管附近水体中的鱼并托盘截留；不证明整池清除、自动插拔堵水件或后续隔离处置。",
+      "reviewedLocators": [
+        "L35–47、118–123、139–144"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-38-01",
+      "batchIndex": 38,
+      "candidateIndex": 1,
+      "title": "鱼虾病原检测仪检测原理、样本检测全流程以及水产一线实操使用方法_山东天研仪器有限公司",
+      "url": "https://www.instrument.com.cn/netshow/SH115357/news_926028.htm",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "19f7d31739c89b11fbf6020368c5659326a773f2dfee94d3e0421214fb186acd",
+      "numbersAdopted": false,
+      "independentReviewStatus": "original-passages-independently-reviewed",
+      "readStatus": "read-excluded-action-mismatch",
+      "status": "retain-exclusion-or-insufficiency",
+      "locator": "产品和操作L47–51",
+      "note": "设备执行样本扩增检测，而原任务为核对苗种已有检测结果；厂商处置与临床效果话术不作为养殖指导。",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewDecision": "retain-exclusion-or-insufficiency",
+      "reviewBoundary": "设备执行样本扩增检测，而原任务为核对苗种已有检测结果；厂商处置与临床效果话术不作为养殖指导。",
+      "reviewedLocators": [
+        "产品和操作L47–51"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-39-06",
+      "batchIndex": 39,
+      "candidateIndex": 6,
+      "title": "CN112159012A - 一种对虾种苗繁育源水处理系统和方法 - Google Patents",
+      "url": "https://patents.google.com/patent/CN112159012A/zh",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "a20cfa8f36b011dd9a1b0ae99697c7e68cdb5a089a8ac54ad12eb5d8e944c923",
+      "numbersAdopted": false,
+      "independentReviewStatus": "original-passages-independently-reviewed",
+      "publisher": "专利申请文件（Google Patents转载）",
+      "publishedAt": null,
+      "evidenceLevel": "patent-mechanism-description",
+      "evidencePeriod": "CN112159012A，对虾种苗繁育海水处理路线，非2023指导同一两级池工艺",
+      "readStatus": "read-original-selected-passages",
+      "status": "retain-adjacent-scenario-only",
+      "supportBoundary": "CN112159012A，对虾种苗繁育海水处理路线，非2023指导同一两级池工艺",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "reviewDecision": "retain-adjacent-scenario-only",
+      "reviewBoundary": "对象为对虾种苗繁育海水处理路线；泵阀转水可作相邻机制，未证目标两级处理池上层取水。已读窗口未含公开日，保持null。",
+      "reviewedLocators": [
+        "L215–239"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-40-08",
+      "batchIndex": 40,
+      "candidateIndex": 8,
+      "title": "CN103960113B - 全自动工厂化池塘多层分级养殖 - Google Patents",
+      "url": "https://patents.google.com/patent/CN103960113B/zh",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "fa863c3a48ba6ed0e61498261c1ddd07b4f4ca0762c3d9ab19219c738bbaf4a8",
+      "numbersAdopted": false,
+      "independentReviewStatus": "original-passages-independently-reviewed",
+      "readStatus": "read-abstract-insufficient",
+      "status": "retain-exclusion-or-insufficiency",
+      "locator": "摘要L265与背景L272–284",
+      "note": "分层养殖及环境控制设计不能仅凭摘要证明符合原分级转池或起捕动作；正文后部未完成阅读。",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewDecision": "retain-exclusion-or-insufficiency",
+      "reviewBoundary": "分层养殖及环境控制设计不能仅凭摘要证明符合原分级转池或起捕动作；正文后部未完成阅读。",
+      "reviewedLocators": [
+        "摘要L265与背景L272–284"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-41-00",
+      "batchIndex": 41,
+      "candidateIndex": 0,
+      "title": "苏州市池塘河蟹养殖智能投饵装备应用现状及发展对策",
+      "url": "https://www.aeeisp.com/njsyywx/cn/article/doi/10.14031/j.cnki.njwx.2023.04.014",
+      "retrievedAt": "2026-09-09",
+      "countryScope": "CN",
+      "sourceCountry": "CN",
+      "rawSHA256": "342b831e6f07f5462fbead6c10656d1ba96365f4a705489b3971811547b10018",
+      "numbersAdopted": false,
+      "independentReviewStatus": "original-passages-independently-reviewed",
+      "readStatus": "read-abstract-insufficient",
+      "status": "retain-exclusion-or-insufficiency",
+      "locator": "摘要L68–69",
+      "note": "摘要只说存在问题并提出发展对策，未给具体失败、退出、未采用原因；不据此生成障碍事实。",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewDecision": "retain-exclusion-or-insufficiency",
+      "reviewBoundary": "摘要只说存在问题并提出发展对策，未给具体失败、退出、未采用原因；不据此生成障碍事实。",
+      "reviewedLocators": [
+        "摘要L68–69"
+      ],
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CN-AG-REVIEW-SOURCE-02-06-seed",
+      "sourceId": "CN-AG-REVIEW-SOURCE-02-06",
+      "statement": "指导列出包衣机和拌种机进行机械种子处理。",
+      "locator": "种子处理，L58–59",
+      "kind": "source-reported-fact",
+      "taskIds": [
+        "cn-ag-wheat-field-007"
+      ],
+      "boundary": "按当地病虫害与药剂条件确定工艺，设备供料、配液与清洁尚未核实。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "independentReviewStatus": "reviewed-corrections-applied-recheck-pending",
+      "classification": "partial-mechanism-conditional",
+      "reviewDecision": "retain-with-existing-boundary",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-02-06-water",
+      "sourceId": "CN-AG-REVIEW-SOURCE-02-06",
+      "statement": "指导列出小麦滴灌、低压喷灌或微喷水肥同施。",
+      "locator": "小麦田间管理，L76–77",
+      "kind": "source-reported-fact",
+      "taskIds": [
+        "cn-ag-wheat-field-009"
+      ],
+      "boundary": "限具有灌溉条件的小麦田；灌水决策、安装、移位、维修和耗水现金成本仍未知。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "independentReviewStatus": "reviewed-corrections-applied-recheck-pending",
+      "classification": "partial-mechanism-conditional",
+      "reviewDecision": "retain-with-existing-boundary",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-02-06-straw",
+      "sourceId": "CN-AG-REVIEW-SOURCE-02-06",
+      "statement": "指导在小麦联合收获与秸秆还田环节列出秸秆粉碎抛撒还田。",
+      "locator": "技术路线L48；小麦联合收获与秸秆还田L79–81",
+      "kind": "source-reported-fact",
+      "taskIds": [
+        "cn-ag-wheat-field-013"
+      ],
+      "boundary": "仅还田路线；未证实离田归集或全国所有小麦区适用；整线节支数字不当单任务收益。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "independentReviewStatus": "reviewed-corrections-applied-recheck-pending",
+      "classification": "partial-mechanism-conditional",
+      "reviewDecision": "retain-with-wording-correction",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-05-10-seedling-vision",
+      "sourceId": "CN-AG-REVIEW-SOURCE-05-10",
+      "statement": "团队介绍机器视觉检测、仿生起苗和定位技术，并说明原型制作及多次测试。",
+      "locator": "团队介绍L37、41；原型制作测试L44；后续推广L53",
+      "kind": "source-reported-fact",
+      "taskIds": [
+        "cn-ag-vegetable-seedling-008"
+      ],
+      "boundary": "可作为健壮苗识别等局部研究线索，未给全出圃质量项目及独立准确率数据；不证明异常苗盘隔离处置。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "independentReviewStatus": "reviewed-corrections-applied-recheck-pending",
+      "classification": "partial-mechanism-conditional",
+      "reviewDecision": "retain-with-existing-boundary",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-11-05-mowing",
+      "sourceId": "CN-AG-REVIEW-SOURCE-11-05",
+      "statement": "试验选用牵引式碎草机切割果园行间草并还田。",
+      "locator": "中英文摘要L103–104",
+      "kind": "source-reported-fact",
+      "taskIds": [
+        "cn-ag-apple-orchard-001"
+      ],
+      "boundary": "苹果园行距、坡度、树盘避障及草种仍须匹配；摘要可靠性形容不能证明长期商业运行，未采用试验数值。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "independentReviewStatus": "reviewed-corrections-applied-recheck-pending",
+      "classification": "partial-mechanism-conditional",
+      "reviewDecision": "retain-with-existing-boundary",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-12-04-fertilizer",
+      "sourceId": "CN-AG-REVIEW-SOURCE-12-04",
+      "statement": "厂商描述拖拉机牵引、输送链供料及可调深度开沟、沟内施肥和覆土功能。",
+      "locator": "产品详情L43–45",
+      "kind": "source-reported-fact",
+      "taskIds": [
+        "cn-ag-apple-orchard-003"
+      ],
+      "boundary": "需验证目标施肥沟位置、地形、肥料状态；拖拉机操作、加料及维护仍未量化，不能据产品效率话术计算收益。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "independentReviewStatus": "reviewed-corrections-applied-recheck-pending",
+      "classification": "partial-mechanism-conditional",
+      "reviewDecision": "retain-with-existing-boundary",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-13-01-branch-pull",
+      "sourceId": "CN-AG-REVIEW-SOURCE-13-01",
+      "statement": "专利通过主干固定环、拉绳、手柄收线和齿槽限位辅助改变枝条角度。",
+      "locator": "工作原理L79、82；具体实施方式L109–112",
+      "kind": "source-reported-fact",
+      "taskIds": [
+        "cn-ag-apple-orchard-005"
+      ],
+      "boundary": "人仍安装固定、连接枝条、摇柄并选择角度；属于辅助工具设计，不能标成自动拉枝或已销售产品。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "independentReviewStatus": "reviewed-corrections-applied-recheck-pending",
+      "classification": "manual-assistive-tool-patent",
+      "reviewDecision": "retain-with-existing-boundary",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-17-11-branch-shred",
+      "sourceId": "CN-AG-REVIEW-SOURCE-17-11",
+      "statement": "厂商描述人工或机械手供枝、进料辊和刀片碎枝、风送收集或还田。",
+      "locator": "作业描述L18–25",
+      "kind": "source-reported-fact",
+      "taskIds": [
+        "cn-ag-apple-orchard-015"
+      ],
+      "boundary": "仅已归集枝条的粉碎/收集；未证明病残叶全部拾取、病原控制或器具清洗。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "independentReviewStatus": "reviewed-corrections-applied-recheck-pending",
+      "classification": "adjacent-process-no-direct-task-completion",
+      "reviewDecision": "retain-only-as-adjacent-process",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-17-11-wet-clog",
+      "sourceId": "CN-AG-REVIEW-SOURCE-17-11",
+      "statement": "厂商提示湿枝可能堵塞出料口，需清理，并需在不平地面调整牵引高度。",
+      "locator": "现场问题段L27",
+      "kind": "source-reported-fact",
+      "taskIds": [
+        "cn-ag-apple-orchard-015"
+      ],
+      "boundary": "为厂商工况限制说明，不是可验证的用户故障率、撤机或退出事件。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "independentReviewStatus": "reviewed-corrections-applied-recheck-pending",
+      "classification": "adjacent-process-no-direct-task-completion",
+      "reviewDecision": "retain-only-as-adjacent-process",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "evidenceRole": "source-described-limit-or-residual-human-not-confirmed-failure-event"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-19-00-rack",
+      "sourceId": "CN-AG-REVIEW-SOURCE-19-00",
+      "statement": "报道描述恒温培养阶段由皮带传送装置机械上架菌棒。",
+      "locator": "车间流程L17",
+      "kind": "source-reported-fact",
+      "taskIds": [
+        "cn-ag-mushroom-bags-008"
+      ],
+      "boundary": "只说明机械上架，不证明所有冷却/转运接口或污染菌棒识别；未作长期独立现场核查。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "independentReviewStatus": "reviewed-corrections-applied-recheck-pending",
+      "classification": "partial-mechanism-conditional",
+      "reviewDecision": "retain-with-existing-boundary",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-19-00-climate",
+      "sourceId": "CN-AG-REVIEW-SOURCE-19-00",
+      "statement": "报道描述温湿度传感偏离设定值后启动温控通风设备，同时保留每棚专人管理。",
+      "locator": "棚室系统L23、25",
+      "kind": "source-reported-fact",
+      "taskIds": [
+        "cn-ag-mushroom-bags-009"
+      ],
+      "boundary": "是山西新投产报道，不能等同山东目标场景持续采用；不同生长阶段和异常接管需另证。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "independentReviewStatus": "reviewed-corrections-applied-recheck-pending",
+      "classification": "partial-mechanism-conditional",
+      "reviewDecision": "retain-with-existing-boundary",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-20-04-bag-water",
+      "sourceId": "CN-AG-REVIEW-SOURCE-20-04",
+      "statement": "专利描述人把菌棒放上传送带，传感器与控制柜联动气缸注水针完成注水和输出。",
+      "locator": "背景L86；废水回收L91；操作过程L96、110",
+      "kind": "source-reported-fact",
+      "taskIds": [
+        "cn-ag-mushroom-bags-010"
+      ],
+      "boundary": "限定潮后菌棒补水，不能当空气加湿；供棒、设定、水质、清洁和异常人工仍需验证。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "independentReviewStatus": "reviewed-corrections-applied-recheck-pending",
+      "classification": "partial-mechanism-conditional",
+      "reviewDecision": "retain-with-additional-condition",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "verificationQuestions": [
+        {
+          "kind": "research-question-not-confirmed-barrier",
+          "question": "按原文废水回流水槽设计，回用水卫生、跨批清洗及异常接管在目标菇种阶段如何验证？",
+          "sourceId": "CN-AG-REVIEW-SOURCE-20-04",
+          "locator": "L91、110"
+        }
+      ]
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-20-04-manual-feed",
+      "sourceId": "CN-AG-REVIEW-SOURCE-20-04",
+      "statement": "设计背景讨论其他装置手工放取菌棒的风险和效率限制，本设计仍需要人员向带上放棒。",
+      "locator": "背景技术L86；本装置L96、110",
+      "kind": "source-reported-fact",
+      "taskIds": [
+        "cn-ag-mushroom-bags-010"
+      ],
+      "boundary": "属于专利作者的设计动机及操作边界，不是事故或商业失败统计；专利法律状态不用于推断设备退出。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "independentReviewStatus": "reviewed-corrections-applied-recheck-pending",
+      "classification": "partial-mechanism-conditional",
+      "reviewDecision": "retain-with-existing-boundary",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "evidenceRole": "source-described-limit-or-residual-human-not-confirmed-failure-event"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-26-01-pig-monitor",
+      "sourceId": "CN-AG-REVIEW-SOURCE-26-01",
+      "statement": "中心自述视觉算法与轨道机器人监测身份、体重及部分行为，并介绍精准饲喂和饮水装备。",
+      "locator": "成果简介L57–60；推广应用L69",
+      "kind": "source-reported-fact",
+      "taskIds": [
+        "cn-ag-pig-husbandry-005"
+      ],
+      "boundary": "补充原已保留机制的局部研究；不证明全部临床项目、料槽缺料检查、诊断、猪只隔离；自报减工数字不采用。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "independentReviewStatus": "reviewed-corrections-applied-recheck-pending",
+      "classification": "partial-mechanism-conditional",
+      "reviewDecision": "retain-with-existing-boundary",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-35-01-fish-sort",
+      "sourceId": "CN-AG-REVIEW-SOURCE-35-01",
+      "statement": "专利通过不同间距的滚轴筛分规格，用导鱼斗连接容器或养殖池；要求先喷淋再导入鱼苗。",
+      "locator": "结构L74–84；操作L110–120、138–139",
+      "kind": "source-reported-fact",
+      "taskIds": [
+        "cn-ag-pond-fish-003"
+      ],
+      "boundary": "需要供鱼、换筛、接管/水桶与供水；不能证明目标鱼种损伤率或全部分池程序。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "independentReviewStatus": "reviewed-corrections-applied-recheck-pending",
+      "classification": "partial-mechanism-conditional",
+      "reviewDecision": "retain-with-existing-boundary",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-35-01-fish-repeat",
+      "sourceId": "CN-AG-REVIEW-SOURCE-35-01",
+      "statement": "专利说明鱼苗可能并列挤过而影响分级，提出收集后重新导入再分级。 专利另提示规格差异较小时反复分级可能造成机械损伤且耗费人工。",
+      "locator": "操作注意L139；重复分级损伤与人工条件L144",
+      "kind": "source-reported-fact",
+      "taskIds": [
+        "cn-ag-pond-fish-003"
+      ],
+      "boundary": "仅设计说明中的条件和返工建议，不是测得的误分级概率。 需核目标鱼种耐受、重复次数、人工回料和损伤；不能采用专利效果保证。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "independentReviewStatus": "reviewed-corrections-applied-recheck-pending",
+      "classification": "partial-mechanism-conditional",
+      "reviewDecision": "retain-with-additional-condition",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "evidenceRole": "source-described-limit-or-residual-human-not-confirmed-failure-event"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-36-08-dead-fish",
+      "sourceId": "CN-AG-REVIEW-SOURCE-36-08",
+      "statement": "专利利用循环水和水位差，将吸污管附近水体中的病死鱼带入托盘截留，并描述插拔堵水件调水位排堵。",
+      "locator": "池结构与工作原理L118、121、123；实施方式L139—144",
+      "kind": "source-reported-fact",
+      "taskIds": [
+        "cn-ag-pond-fish-010"
+      ],
+      "boundary": "要求特定水路和池结构；不证明普通土池同样有效，也未完成后续无害化处置；未采用专利效果保证。 堵水件插拔未证明自动；托盘取鱼、隔离和去向记录未覆盖。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "independentReviewStatus": "reviewed-corrections-applied-recheck-pending",
+      "classification": "partial-mechanism-conditional",
+      "reviewDecision": "retain-with-narrowed-boundary",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    },
+    {
+      "id": "CN-AG-REVIEW-SOURCE-39-06-source-water",
+      "sourceId": "CN-AG-REVIEW-SOURCE-39-06",
+      "statement": "对虾种苗繁育海水处理专利，用泵阀水管连接储水、过滤、沉淀、消毒及监测单元。",
+      "locator": "系统配置L225–239",
+      "kind": "source-reported-fact",
+      "taskIds": [
+        "cn-ag-pond-shrimp-003",
+        "cn-ag-pond-shrimp-005"
+      ],
+      "boundary": "仅泵阀转水的相邻机制；未证明两级池上层取水、防串水、化学剂量或验收全部自动完成；不转录处理剂量为操作建议。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "independentReviewStatus": "reviewed-corrections-applied-recheck-pending",
+      "classification": "adjacent-scenario-pump-valve-only",
+      "reviewDecision": "retain-only-as-adjacent-scenario",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json"
+    }
+  ],
+  "taskOutcomes": [
+    {
+      "taskId": "cn-ag-wheat-field-001",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-001-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-001-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": true,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-wheat-field-006",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-006-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-006-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-wheat-field-007",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-007-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-007-negative"
+      ],
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-02-06-seed"
+      ],
+      "status": "partial-mechanism-with-conditions",
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。",
+      "reviewDecision": "retain-partial-mechanism-with-conditions",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-wheat-field-009",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-009-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-009-negative"
+      ],
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-02-06-water"
+      ],
+      "status": "partial-mechanism-with-conditions",
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。",
+      "reviewDecision": "retain-partial-mechanism-with-conditions",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-wheat-field-013",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-013-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-013-negative"
+      ],
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-02-06-straw"
+      ],
+      "status": "partial-mechanism-with-conditions",
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。",
+      "reviewDecision": "retain-partial-mechanism-with-conditions",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-wheat-field-016",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-016-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-016-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": true,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-wheat-field-017",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-017-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-017-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": true,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-vegetable-seedling-001",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-001-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-001-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-vegetable-seedling-002",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-002-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-002-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-vegetable-seedling-007",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-007-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-007-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": true,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-vegetable-seedling-008",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-008-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-008-negative"
+      ],
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-05-10-seedling-vision"
+      ],
+      "status": "partial-mechanism-with-conditions",
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。",
+      "reviewDecision": "retain-partial-mechanism-with-conditions",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-vegetable-seedling-009",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-009-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-009-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-vegetable-seedling-010",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-010-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-010-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-vegetable-fruiting-004",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-004-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-004-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-vegetable-fruiting-015",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-015-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-015-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": true,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-vegetable-fruiting-016",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-016-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-016-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-vegetable-fruiting-017",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-017-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-017-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-vegetable-leafy-003",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-003-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-003-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": true,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-vegetable-leafy-005",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-005-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-005-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": true,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-vegetable-leafy-006",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-006-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-006-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": true,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-vegetable-leafy-008",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-008-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-008-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": true,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-vegetable-leafy-012",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-012-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-012-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-vegetable-leafy-013",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-013-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-013-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-001",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-001-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-001-negative"
+      ],
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-11-05-mowing"
+      ],
+      "status": "partial-mechanism-with-conditions",
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。",
+      "reviewDecision": "retain-partial-mechanism-with-conditions",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-002",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-002-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-002-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-003",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-003-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-003-negative"
+      ],
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-12-04-fertilizer"
+      ],
+      "status": "partial-mechanism-with-conditions",
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。",
+      "reviewDecision": "retain-partial-mechanism-with-conditions",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-004",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-004-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-004-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-005",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-005-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-005-negative"
+      ],
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-13-01-branch-pull"
+      ],
+      "status": "partial-mechanism-with-conditions",
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。",
+      "reviewDecision": "retain-partial-mechanism-with-conditions",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-006",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-006-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-006-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-007",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-007-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-007-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-009",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-009-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-009-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-012",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-012-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-012-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-013",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-013-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-013-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-014",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-014-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-014-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-015",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-015-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-015-negative"
+      ],
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-17-11-branch-shred",
+        "CN-AG-REVIEW-SOURCE-17-11-wet-clog"
+      ],
+      "status": "adjacent-process-only",
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。",
+      "reviewDecision": "retain-adjacent-process-only",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-016",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-016-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-016-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-001",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-001-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-001-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-002",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-002-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-002-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-006",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-006-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-006-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-008",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-008-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-008-negative"
+      ],
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-19-00-rack"
+      ],
+      "status": "partial-mechanism-with-conditions",
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。",
+      "reviewDecision": "retain-partial-mechanism-with-conditions",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-009",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-009-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-009-negative"
+      ],
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-19-00-climate"
+      ],
+      "status": "partial-mechanism-with-conditions",
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。",
+      "reviewDecision": "retain-partial-mechanism-with-conditions",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-010",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-010-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-010-negative"
+      ],
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-20-04-bag-water",
+        "CN-AG-REVIEW-SOURCE-20-04-manual-feed"
+      ],
+      "status": "partial-mechanism-with-conditions",
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。",
+      "reviewDecision": "retain-partial-mechanism-with-conditions",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-012",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-012-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-012-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-014",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-014-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-014-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-015",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-015-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-015-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-016",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-016-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-016-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-001",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-001-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-001-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-002",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-002-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-002-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-004",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-004-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-004-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-006",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-006-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-006-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-007",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-007-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-007-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-008",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-008-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-008-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-010",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-010-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-010-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-001",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-001-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-001-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-003",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-003-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-003-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-006",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-006-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-006-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-007",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-007-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-007-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-008",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-008-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-008-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-010",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-010-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-010-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-011",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-011-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-011-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-014",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-014-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-014-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-016",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-016-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-016-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-dairy-milking-005",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-005-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-005-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-dairy-milking-006",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-006-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-006-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-dairy-milking-009",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-009-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-009-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": true,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-dairy-milking-012",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-012-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-012-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-dairy-milking-013",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-013-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-013-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-dairy-milking-014",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-014-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-014-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pond-fish-001",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-001-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-001-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pond-fish-002",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-002-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-002-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pond-fish-003",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-003-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-003-negative"
+      ],
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-35-01-fish-sort",
+        "CN-AG-REVIEW-SOURCE-35-01-fish-repeat"
+      ],
+      "status": "partial-mechanism-with-conditions",
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。",
+      "reviewDecision": "retain-partial-mechanism-with-conditions",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pond-fish-009",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-009-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-009-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pond-fish-010",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-010-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-010-negative"
+      ],
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-36-08-dead-fish"
+      ],
+      "status": "partial-mechanism-with-conditions",
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。",
+      "reviewDecision": "retain-partial-mechanism-with-conditions",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pond-fish-012",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-012-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-012-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pond-fish-013",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-013-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-013-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pond-fish-015",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-015-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-015-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-001",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-001-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-001-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-002",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-002-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-002-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-004",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-004-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-004-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-007",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-007-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-007-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-008",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-008-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-008-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-012",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-012-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-012-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-013",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-013-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-013-negative"
+      ],
+      "claimIds": [],
+      "status": "no-additional-retained-matching-mechanism",
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。",
+      "reviewDecision": "retain-no-additional-matching-mechanism",
+      "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+      "existingFirstPassHasClaimRefsAtReview": false,
+      "integrationRule": "append-reviewed-evidence-only-preserve-existing-research",
+      "canFreeze": false
+    }
+  ],
+  "additionalExistingTaskLinks": [
+    "cn-ag-pig-husbandry-005",
+    "cn-ag-pond-shrimp-003",
+    "cn-ag-pond-shrimp-005"
+  ],
+  "humanInput": null,
+  "economics": {
+    "currency": "CNY",
+    "paybackYears": null,
+    "netPresentValue": null,
+    "reason": "没有新增可复算现场工时与全投入现金参数。"
+  },
+  "canFreeze": false,
+  "counts": {
+    "queriedTasks": 83,
+    "executedQueries": 166,
+    "candidateOriginals": 23,
+    "originalsRead": 17,
+    "retainedSourceCandidates": 12,
+    "excludedOrInsufficientAfterRead": 5,
+    "originalsUnavailable": 6,
+    "claims": 18,
+    "newAtomicTasksCounted": 0,
+    "queriedTasksWithPartialMechanism": 12,
+    "queriedTasksWithAdjacentProcessOnly": 1,
+    "queriedTasksWithNoAdditionalMatchingMechanism": 70,
+    "additionalExistingTaskLinks": 3
+  },
+  "additionalExistingTaskDecisions": [
+    {
+      "taskId": "cn-ag-pig-husbandry-005",
+      "title": "逐栏观察猪只临床表现（异常猪只与栏位可定位）",
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-26-01-pig-monitor"
+      ],
+      "decision": "retain-existing-task-additional-partial-source",
+      "countAsQueriedTask": false,
+      "countAsNewTask": false
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-003",
+      "title": "将外源水送入一级处理池（来源批次和处理记录可查）",
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-39-06-source-water"
+      ],
+      "decision": "retain-adjacent-scenario-only",
+      "countAsQueriedTask": false,
+      "countAsNewTask": false
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-005",
+      "title": "将表层水转入二级池（转移池号和时序一致）",
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-39-06-source-water"
+      ],
+      "decision": "retain-adjacent-scenario-only",
+      "countAsQueriedTask": false,
+      "countAsNewTask": false
+    }
+  ],
+  "reviewedInputSHA256": "65008ebbe1a37ff494e51a05b8df490a0fcea98ec0f19b7093de3ac92e146909",
+  "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+  "reviewSHA256": "1283feee7d4eaabf9da7b1a82a862a1ddf252e17230ef5e199cba2e65abfc0e9",
+  "queryAuditBoundary": {
+    "versionBoundary": {
+      "auditSearchPlanningFirstPassSHA256": "50bbcc891b2380aaf75f37669d77199c831fb2931aa2d7e42e6eeb76215890d9",
+      "followupContextFirstPassSHA256": "29623933f780c5236243d63e142d40a825b47273ef46dfc721133c85e90cb5d3",
+      "decision": "retain-with-explicit-version-explanation",
+      "explanation": "查询按原50bbcc版83项未保留机制任务启动；主文件已指向296239修订稿。修订稿中10个被查询任务现已有claimRefs，空补检结论只能解释为无新增匹配机制，不能复写为总机制数为零。"
+    },
+    "candidateAttribution": "4查询合并回包（末批2条）只归属批次；不推算单条正/反查询召回数或把所有候选当反例。",
+    "mainQueriesReranDuringRevision": false,
+    "auditFileUnchanged": true
+  }
+}

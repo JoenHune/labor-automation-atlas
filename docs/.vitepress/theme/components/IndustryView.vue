@@ -4,18 +4,23 @@ import {withBase} from 'vitepress'
 import type {IndustryPage} from '../../../../src/research/site'
 import {phaseNames,taskStatus} from '../../../../src/research/site'
 import EvidenceList from './EvidenceList.vue'
+import PendingDefinitionItems from './PendingDefinitionItems.vue'
 import ObservationDetails from './ObservationDetails.vue'
 const props=defineProps<{record:IndustryPage}>()
 const industry=computed(()=>props.record.industry),observation=computed(()=>props.record.observation)
 const query=ref(''),phase=ref('all'),scenario=ref('all'),status=ref('all')
 const fields={q:query,phase,scenario,status}
 const filtered=computed(()=>props.record.tasks.filter(t=>t.country===industry.value.country&&t.industryId===industry.value.id&&(phase.value==='all'||t.phase===phase.value)&&(scenario.value==='all'||t.scenarioId===scenario.value)&&(status.value==='all'||t.researchStatus===status.value)&&(!query.value||t.title.toLocaleLowerCase().includes(query.value.trim().toLocaleLowerCase()))))
-const scenes=computed(()=>props.record.scenarios.filter(s=>scenario.value==='all'||s.id===scenario.value))
+const scenes=computed(()=>props.record.scenarios.filter(s=>(scenario.value==='all'||s.id===scenario.value)&&((!query.value&&phase.value==='all'&&status.value==='all')||filtered.value.some(t=>t.scenarioId===s.id))))
 const candidates=computed(()=>props.record.tasks.filter(t=>t.countingRole!=='composite-reference'))
 const references=computed(()=>props.record.tasks.filter(t=>t.countingRole==='composite-reference'))
 const reviewed=computed(()=>candidates.value.filter(t=>t.researchStatus==='reviewed').length)
 const phaseTasks=(id:string,p:string)=>filtered.value.filter(t=>t.scenarioId===id&&t.phase===p)
 const subsectors=computed(()=>(industry.value.inventory?.subsectorCoverage??[]) as Record<string,any>[])
+const pendingDefinitions=computed(()=>{
+ const followups=industry.value.inventory?.agricultureFollowups as Record<string,any>|undefined
+ return ((followups?.supplement?.items??[]) as Record<string,any>[]).filter(item=>item.record.country.toLowerCase()===industry.value.country&&(scenario.value==='all'||item.record.scenarioId===scenario.value)&&(!query.value||item.record.title.toLocaleLowerCase().includes(query.value.trim().toLocaleLowerCase())))
+})
 function restore(){const q=new URLSearchParams(location.search);for(const [key,value] of Object.entries(fields))value.value=q.get('filter.'+key)??(key==='q'?'':'all')}
 function sync(){const url=new URL(location.href);for(const [key,value] of Object.entries(fields)){if(value.value&&value.value!=='all')url.searchParams.set('filter.'+key,value.value);else url.searchParams.delete('filter.'+key)}history.replaceState(null,'',url);window.dispatchEvent(new CustomEvent('atlas:view-change'))}
 watch([query,phase,scenario,status],()=>{if(typeof window!=='undefined')sync()})
@@ -31,6 +36,7 @@ onBeforeUnmount(()=>window.removeEventListener('popstate',restore))
  <section :data-content-id="industry.id+'-coverage-status'" tabindex="0"><h2>场景与任务进度</h2><p>当前 {{record.scenarios.filter(s=>s.inventory).length}} 个盘点场景、{{candidates.length}} 项候选任务，{{reviewed}} 项已完成公开证据独立复核。</p><p v-if="references.length">另有 {{references.length}} 份组合流程样板，其中 {{references.filter(t=>t.researchStatus==='reviewed').length}} 份公开证据已复核。样板与所含原子任务不重复累计数量或工时。</p><p class="work-note">任务清单仍在扩展并修订粒度；数量不代表行业任务覆盖率、人工规模或自动化市场。未完成方案、反例和来源复核的任务保持待研究状态。</p></section>
  <details v-if="subsectors.length" class="method-details"><summary>子行业范围与未覆盖部分</summary><ul><li v-for="(sub,i) in subsectors" :key="i" :data-content-id="industry.id+'-subsector-'+i" tabindex="0"><strong>{{sub.name??sub.subsector??sub.code??sub.naics??sub.classification}}</strong><p>{{sub.gap??sub.uncovered??sub.coverageMeaning}}</p><small>{{sub.scope??sub.countingNote}}</small></li></ul></details>
  <div class="task-filters"><label>搜索本行业任务 <input v-model="query" type="search" placeholder="任务动作或对象"/></label><label>场景 <select v-model="scenario"><option value="all">全部场景</option><option v-for="s in record.scenarios" :value="s.id">{{s.title}}</option></select></label><label>流程阶段 <select v-model="phase"><option value="all">全部阶段</option><option v-for="(label,key) in phaseNames" :value="key">{{label}}</option></select></label><label>研究状态 <select v-model="status"><option value="all">全部状态</option><option v-for="(label,key) in taskStatus" :value="key">{{label}}</option></select></label></div>
+ <section v-if="pendingDefinitions.length" :data-content-id="industry.id+'-pending-definitions'" tabindex="0"><h2>待确认的任务边界</h2><p>以下 {{pendingDefinitions.length}} 项补研范围与当前场景、文字搜索匹配。已保留原文、方案与反例检索结果，但定义、执行者或与旧任务的重叠仍需确认，未计入候选任务数量；流程阶段和研究状态筛选仅作用于已有任务。</p><PendingDefinitionItems :items="pendingDefinitions" :country="industry.country"/></section>
  <p class="scope-note">筛选结果 {{filtered.length}} 项；筛选条件随批注分享链接保存。</p>
  <section v-for="s in scenes" :key="s.id" class="industry-scenario" :data-content-id="s.id+'-flow'" tabindex="0">
   <h2>{{s.title}}</h2><p v-if="references.some(t=>t.scenarioId===s.id)" class="historical-note">组合流程样板：用于查看完整证据链，不作为额外原子任务计数。</p><p :data-content-id="s.id+'-scope'" tabindex="0">{{s.scope}}</p>

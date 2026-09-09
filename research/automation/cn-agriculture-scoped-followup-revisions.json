@@ -1,0 +1,27 @@
+{
+  "country": "CN",
+  "industryId": "cn-agriculture",
+  "revisedOn": "2026-09-09",
+  "reviser": "root，原补检稿作者",
+  "reviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+  "reviewSHA256": "1283feee7d4eaabf9da7b1a82a862a1ddf252e17230ef5e199cba2e65abfc0e9",
+  "inputFile": "research/automation/cn-agriculture-scoped-followup.json",
+  "inputSHA256": "65008ebbe1a37ff494e51a05b8df490a0fcea98ec0f19b7093de3ac92e146909",
+  "outputSHA256": "7b5edcd935464edef49bd6c1e32612636fdc26b5462898852a4983dc71ea16f3",
+  "auditFile": "research/automation/cn-agriculture-scoped-followup-search-audit.json",
+  "auditSHA256": "d73113e2ef246938d35310e10dcbf4e2a8328576ef2ccc56bb8c863175534e78",
+  "auditBytesChanged": false,
+  "oldWholeFilesArchived": true,
+  "privateArchive": ".private/cn-agriculture-review/scoped-followup-revision-input-65008e",
+  "changes": [
+    "23源补完整JSON哈希作用域、原文读取层级与独审边界",
+    "18声明逐条应用审定正文；收窄病死鱼捕集、补重复分级损伤/人工条件与回用水待验证问题",
+    "83查询结果应用12局部、1相邻、70无新增，不覆盖旧主稿已有机制",
+    "对虾种苗繁育海水处理场景保留在声明正文；3额外关联不计查询或新任务",
+    "原166查询、42批次与UTC审计字节不变"
+  ],
+  "newTasksCounted": 0,
+  "main164Modified": false,
+  "canFreeze": false,
+  "limitedRecheckStatus": "pending"
+}

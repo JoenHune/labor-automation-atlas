@@ -1,0 +1,318 @@
+{
+  "country": "CN",
+  "industryId": "cn-agriculture",
+  "reviewedOn": "2026-09-09",
+  "reviewer": "root，原独审者；不是作者修订执行者",
+  "status": "specified-corrections-verified-research-and-archive-gaps-remain",
+  "inputs": {
+    "research/automation/cn-agriculture-supplement.json": "bb3755ce70b40f875ea1285b10dfcd0eb0b69b2f680ae1b981a82c40bdf71612",
+    "research/automation/cn-agriculture-supplement-search-audit.json": "8e8e7e6d9bb447ff8ae0ceef1058d4cd8a34c435cd05f007fbe4b91f1ae34beb",
+    "research/reviews/cn-agriculture-supplement-decisions.json": "bcb750639891934ecb8710f1195ed68598f102da0ea37ab000bc005645c8df02",
+    "research/automation/cn-agriculture-supplement-revisions.json": "7d46567b278da8bb3ec84ad2aa6fb4681d4c2cd5116eec743db1013c2346e62e"
+  },
+  "originalReviewInputSHA256": "17d315e6e217a518d9bdbb14af8a704719fa8f5dba3301191e3467961f9f7cb0",
+  "counts": {
+    "workItems": 22,
+    "retainedSources": 12,
+    "sourceClaims": 12,
+    "proposedSplitParents": 6,
+    "proposedChildren": 12,
+    "newTasksCounted": 0,
+    "frozen": 0
+  },
+  "specifiedCorrectionsVerified": [
+    "SUP-E01",
+    "SUP-E02",
+    "SUP-E03",
+    "SUP-E04",
+    "SUP-E05",
+    "SUP-E06"
+  ],
+  "sourceRecheck": {
+    "mode": "limited-selected-existing-originals-no-new-query",
+    "readThisPass": [
+      "奶站原HTML45/49/53：2022网页与2009成文分开",
+      "食用菌原HTML22/23/39—56：设备通风、接种后刺孔、空气/地面加湿边界",
+      "完整职业PDF301—307提取文字：301园艺、302食用菌、306家畜，制作打孔与接种后增氧区别",
+      "AfiControl原回包L104、116—117：逐挤奶点清洗数据与人工排查"
+    ],
+    "priorIndependentReview": "research/reviews/cn-agriculture-supplement-decisions.json",
+    "allTwelveSourcesReopenedThisPass": false
+  },
+  "queryAudit": {
+    "rawTaskResultFile": "research/automation/raw/cn-agriculture-supplement-task-searches.json",
+    "rawTaskResultSHA256": "5213d769882582308afbd9492fb67d7aca52320fcd6671bd2e2c600c1e1090ba",
+    "openedAndAdaptiveFile": "research/automation/raw/cn-agriculture-supplement-opened-and-adaptive.json",
+    "openedAndAdaptiveSHA256": "741ecfe72a2d1d5046c56135a745603db7cda35e362dd84aae70e91f2215ce24",
+    "tasksWithResultRecords": 22,
+    "authorReportedMainQueries": 44,
+    "mainRequestIndependentlyVerified": false,
+    "mainDateIndependentlyVerified": false,
+    "note": "22对旧日志仅taskId和原始回包；公开审计列查询文本及日期但缺原请求参数/UTC时刻，不能独立认证请求原样及执行日。不能将候选标题视为任务事实。",
+    "supplementalQueriesWithOriginalRequestText": 6,
+    "supplementalExecutionUTCIndependentlyVerified": false,
+    "rawCachesStillMatchOriginalReview": true,
+    "supplementalRequestTextsMatchAudit": true,
+    "reviewerReranQueries": false
+  },
+  "archiveBoundary": {
+    "oldWholeResearchFileAvailable": false,
+    "oldWholeAuditFileAvailable": false,
+    "originalWholeFileByteDiffVerified": false,
+    "currentOriginalDefinitionsInternallyConsistent": true,
+    "originalOverlapIndependentlyMatchedToPriorReview": true,
+    "note": "当前22份originalDefinition和旧独审逐项裁决可核；本轮没有找到17d315…旧整稿及3190b9…旧审计，不由当前字段重建旧字节。原定义全文件逐字段历史差分仍缺。"
+  },
+  "decisions": [
+    {
+      "workItemId": "CN-AG-SUP-apple-pad",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 0,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-apple-film-retrieve",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 0,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-apple-spray",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 0,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-apple-natural-enemy",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 2,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-apple-pheromone",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 0,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-mushroom-puncture",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 0,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-mushroom-pile-temperature",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 0,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-mushroom-pile-turn",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 0,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-mushroom-bud-thin",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 0,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-mushroom-grade",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 0,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-mushroom-precool",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 0,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-mushroom-pack",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 2,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-mushroom-cold-store",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 2,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-milk-retain-sample",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 2,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-milk-cleaning-record",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 0,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-milk-vacuum-belt-check",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 0,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-milk-pulsator-check",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 0,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-milk-regulator-clean",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 0,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-milk-sensor-check",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 0,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-milk-float-valve-service",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 2,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-milk-vacuum-line-clean",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 2,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    },
+    {
+      "workItemId": "CN-AG-SUP-milk-annual-maintenance-scope",
+      "verdict": "specified-corrections-verified-with-gaps",
+      "definitionFieldsInternallyConsistent": true,
+      "originalOverlapMatchesIndependentReview": true,
+      "occupationSupportMatchesReview": true,
+      "proposedChildren": 0,
+      "cashFlowParametersRemainNull": true,
+      "newTasksCounted": 0,
+      "canFreeze": false
+    }
+  ],
+  "remainingGaps": [
+    "仍须逐项采用/拆分/去重才可形成新的候选版本；22条未增加到164",
+    "年度专业检修仅范围待办，不计作原子任务",
+    "传统机械、未采用/退出、持续运行、残留人工及完整现金参数仍待补",
+    "旧规范现行效力、具体品种/设备SOP与执行者行业边界仍待确认",
+    "原请求与UTC缺失；不把缓存存在当作独立认证的执行日"
+  ],
+  "canFreeze": false
+}

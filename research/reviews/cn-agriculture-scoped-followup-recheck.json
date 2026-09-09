@@ -1,0 +1,1177 @@
+{
+  "schemaVersion": "1.0",
+  "country": "CN",
+  "industryId": "cn-agriculture",
+  "reviewer": "sample_task_research; independent original reviewer, not revision author",
+  "recheckedAt": "2026-09-09",
+  "reviewId": "cn-agriculture-scoped-followup-limited-recheck-2026-09-09",
+  "inputFile": "research/automation/cn-agriculture-scoped-followup.json",
+  "inputSHA256": "7b5edcd935464edef49bd6c1e32612636fdc26b5462898852a4983dc71ea16f3",
+  "revisionsSHA256": "345492dbf4d8b5e83831a27f11a99dde400e49af6a9a2dabbd37f318ed91f1ae",
+  "priorReviewFile": "research/reviews/cn-agriculture-scoped-followup-decisions.json",
+  "priorReviewSHA256": "1283feee7d4eaabf9da7b1a82a862a1ddf252e17230ef5e199cba2e65abfc0e9",
+  "auditSHA256": "d73113e2ef246938d35310e10dcbf4e2a8328576ef2ccc56bb8c863175534e78",
+  "status": "pass-limited-recheck-existing-research-gaps-open",
+  "inputsModified": false,
+  "canFreeze": false,
+  "scope": "限定核查原独审修订是否应用；不重做全部公开检索，不认证当前持续商业运行，不修改原输入或网站。",
+  "checks": {
+    "archivedWholeInputHashVerified": true,
+    "auditUnchangedByteForByte": true,
+    "priorReviewUnchangedByteForByte": true,
+    "sourceCacheFileHashesVerified": 23,
+    "claimDecisionsApplied": 18,
+    "queriedTaskDecisionsApplied": 83,
+    "additionalExistingLinksVerified": 3,
+    "newTaskCount": 0,
+    "partialQueriedTasks": 12,
+    "adjacentQueriedTasks": 1,
+    "noAdditionalMechanismQueriedTasks": 70,
+    "newNumericPaybacks": 0,
+    "existingFirstPassMechanismsProtected": true
+  },
+  "sourceChecks": [
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-02-06",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "137036ccd0bae1c84126d1009042ba816990b2bfa0ebb415d800831e5bab4d73",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-guidance-only",
+      "firstReviewTextRead": true,
+      "thisRecheckTextReread": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-05-10",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "68e4424efafecbf7a48eddf66fd6c9c2211dc2d204c35206e7251869156561d8",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-prototype-partial",
+      "firstReviewTextRead": true,
+      "thisRecheckTextReread": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-06-11",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "021f9825998ed8e5407c834701f04340403769c5195f77ba50da13786289ea1f",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-fetch-gap",
+      "firstReviewTextRead": false,
+      "thisRecheckTextReread": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-08-05",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "ab838d82ea17748dd1fe1cf6abc61c844db79358aeed0754e2f66f897cd279c2",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-exclusion-or-insufficiency",
+      "firstReviewTextRead": true,
+      "thisRecheckTextReread": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-11-05",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "1ccabe4320aaa32d47ac0059ad35068bf1f354dd4621386d929650aaf128bebe",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-test-abstract-conditional",
+      "firstReviewTextRead": true,
+      "thisRecheckTextReread": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-12-04",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "bc1477f0a20500fddcb92218ec434bbf5bda873bf53477363f37e86a5bb0c0c1",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-manufacturer-mechanism",
+      "firstReviewTextRead": true,
+      "thisRecheckTextReread": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-13-01",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "0ab6401a80b1604df4a098a4733f45a62d3970633c4b789b4b925b9a88110c4d",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-manual-aid-patent",
+      "firstReviewTextRead": true,
+      "thisRecheckTextReread": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-15-10",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "004fb3526d093b95fa3b5c26d210bffa35dc556e9037c0cac9a3a01cfc066ea8",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-fetch-gap",
+      "firstReviewTextRead": false,
+      "thisRecheckTextReread": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-17-11",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "19a1c50dd72f13840850f2371843acabfc33229af3bfe88c7a9655c5e3f9abcc",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-adjacent-process-only",
+      "firstReviewTextRead": true,
+      "thisRecheckTextReread": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-19-00",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "8e6d47962b6b6e85f4fa32a4d49901918bfb8a0f1f744e5f34b45a2dbd362f1f",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-production-report-partial",
+      "firstReviewTextRead": true,
+      "thisRecheckTextReread": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-20-04",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "74964505de6b8187bd609b91f7e34fce8ccd0d428dfec14e3947776d0ea1c865",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-patent-conditional",
+      "firstReviewTextRead": true,
+      "thisRecheckTextReread": true
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-24-00",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "48b180db3e8b23888db1ff7c84d5e4e8fe7a858f51c1ca7cfa005bc5232a77c8",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-fetch-gap",
+      "firstReviewTextRead": false,
+      "thisRecheckTextReread": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-26-01",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "3db04910fa487629c7ad6921b202f8afe8942542fb7fd411ea8d86c383c77336",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-institution-self-report-partial",
+      "firstReviewTextRead": true,
+      "thisRecheckTextReread": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-27-04",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "9fb923143d488432f7afc0adb4cf78b82da73fd9bd93254a25adb530a5d0cb87",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-fetch-gap",
+      "firstReviewTextRead": false,
+      "thisRecheckTextReread": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-31-02",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "c78a5927892e505ec429495aa92f94d1ad1bb508d9f95f0592909837defa2080",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-fetch-gap",
+      "firstReviewTextRead": false,
+      "thisRecheckTextReread": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-32-02",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "37e774efe8e72872e597abd0b19c79e9f59601edd92f8e72b3718568c37faba7",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-exclusion-or-insufficiency",
+      "firstReviewTextRead": true,
+      "thisRecheckTextReread": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-33-13",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "045d84b8d20ec9b16698dd8cceb83d37d1d392434bcb9f1eee7e2da790dd3763",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-fetch-gap",
+      "firstReviewTextRead": false,
+      "thisRecheckTextReread": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-35-01",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "1491917e0658d14b9d920971b31f358efaa8c60ad68a357a71cce90dad53da0e",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-patent-with-rework-condition",
+      "firstReviewTextRead": true,
+      "thisRecheckTextReread": true
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-36-08",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "c2864ca89149105f745592f8f0b2e872fd451be2fcbaa854a59ed9c7d6c0878d",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-patent-with-capture-boundary",
+      "firstReviewTextRead": true,
+      "thisRecheckTextReread": true
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-38-01",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "19f7d31739c89b11fbf6020368c5659326a773f2dfee94d3e0421214fb186acd",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-exclusion-or-insufficiency",
+      "firstReviewTextRead": true,
+      "thisRecheckTextReread": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-39-06",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "a20cfa8f36b011dd9a1b0ae99697c7e68cdb5a089a8ac54ad12eb5d8e944c923",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-adjacent-scenario-only",
+      "firstReviewTextRead": true,
+      "thisRecheckTextReread": true
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-40-08",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "fa863c3a48ba6ed0e61498261c1ddd07b4f4ca0762c3d9ab19219c738bbaf4a8",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-exclusion-or-insufficiency",
+      "firstReviewTextRead": true,
+      "thisRecheckTextReread": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-41-00",
+      "verdict": "pass-with-original-read-scope",
+      "cacheFileSHA256": "342b831e6f07f5462fbead6c10656d1ba96365f4a705489b3971811547b10018",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "decisionApplied": "retain-exclusion-or-insufficiency",
+      "firstReviewTextRead": true,
+      "thisRecheckTextReread": false
+    }
+  ],
+  "claimChecks": [
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-02-06-seed",
+      "verdict": "pass-with-existing-boundaries",
+      "locator": "种子处理，L58–59",
+      "classification": "partial-mechanism-conditional",
+      "note": "审定正文、对象、任务关联和局部/相邻分类已应用；未升格商业证明。"
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-02-06-water",
+      "verdict": "pass-with-existing-boundaries",
+      "locator": "小麦田间管理，L76–77",
+      "classification": "partial-mechanism-conditional",
+      "note": "审定正文、对象、任务关联和局部/相邻分类已应用；未升格商业证明。"
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-02-06-straw",
+      "verdict": "pass-with-existing-boundaries",
+      "locator": "技术路线L48；小麦联合收获与秸秆还田L79–81",
+      "classification": "partial-mechanism-conditional",
+      "note": "审定正文、对象、任务关联和局部/相邻分类已应用；未升格商业证明。"
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-05-10-seedling-vision",
+      "verdict": "pass-with-existing-boundaries",
+      "locator": "团队介绍L37、41；原型制作测试L44；后续推广L53",
+      "classification": "partial-mechanism-conditional",
+      "note": "审定正文、对象、任务关联和局部/相邻分类已应用；未升格商业证明。"
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-11-05-mowing",
+      "verdict": "pass-with-existing-boundaries",
+      "locator": "中英文摘要L103–104",
+      "classification": "partial-mechanism-conditional",
+      "note": "审定正文、对象、任务关联和局部/相邻分类已应用；未升格商业证明。"
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-12-04-fertilizer",
+      "verdict": "pass-with-existing-boundaries",
+      "locator": "产品详情L43–45",
+      "classification": "partial-mechanism-conditional",
+      "note": "审定正文、对象、任务关联和局部/相邻分类已应用；未升格商业证明。"
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-13-01-branch-pull",
+      "verdict": "pass-with-existing-boundaries",
+      "locator": "工作原理L79、82；具体实施方式L109–112",
+      "classification": "manual-assistive-tool-patent",
+      "note": "审定正文、对象、任务关联和局部/相邻分类已应用；未升格商业证明。"
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-17-11-branch-shred",
+      "verdict": "pass-with-existing-boundaries",
+      "locator": "作业描述L18–25",
+      "classification": "adjacent-process-no-direct-task-completion",
+      "note": "审定正文、对象、任务关联和局部/相邻分类已应用；未升格商业证明。"
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-17-11-wet-clog",
+      "verdict": "pass-with-existing-boundaries",
+      "locator": "现场问题段L27",
+      "classification": "adjacent-process-no-direct-task-completion",
+      "note": "审定正文、对象、任务关联和局部/相邻分类已应用；未升格商业证明。"
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-19-00-rack",
+      "verdict": "pass-with-existing-boundaries",
+      "locator": "车间流程L17",
+      "classification": "partial-mechanism-conditional",
+      "note": "审定正文、对象、任务关联和局部/相邻分类已应用；未升格商业证明。"
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-19-00-climate",
+      "verdict": "pass-with-existing-boundaries",
+      "locator": "棚室系统L23、25",
+      "classification": "partial-mechanism-conditional",
+      "note": "审定正文、对象、任务关联和局部/相邻分类已应用；未升格商业证明。"
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-20-04-bag-water",
+      "verdict": "pass-with-existing-boundaries",
+      "locator": "背景L86；废水回收L91；操作过程L96、110",
+      "classification": "partial-mechanism-conditional",
+      "note": "复读 L91、L96、L110；回用水卫生/跨批清洗仅为验证问题，未写成已证实污染障碍。"
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-20-04-manual-feed",
+      "verdict": "pass-with-existing-boundaries",
+      "locator": "背景技术L86；本装置L96、110",
+      "classification": "partial-mechanism-conditional",
+      "note": "审定正文、对象、任务关联和局部/相邻分类已应用；未升格商业证明。"
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-26-01-pig-monitor",
+      "verdict": "pass-with-existing-boundaries",
+      "locator": "成果简介L57–60；推广应用L69",
+      "classification": "partial-mechanism-conditional",
+      "note": "审定正文、对象、任务关联和局部/相邻分类已应用；未升格商业证明。"
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-35-01-fish-sort",
+      "verdict": "pass-with-existing-boundaries",
+      "locator": "结构L74–84；操作L110–120、138–139",
+      "classification": "partial-mechanism-conditional",
+      "note": "审定正文、对象、任务关联和局部/相邻分类已应用；未升格商业证明。"
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-35-01-fish-repeat",
+      "verdict": "pass-with-existing-boundaries",
+      "locator": "操作注意L139；重复分级损伤与人工条件L144",
+      "classification": "partial-mechanism-conditional",
+      "note": "复读 L139、L144，正文已补规格差异较小时反复分级的损伤可能性及人工，不作发生率。"
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-36-08-dead-fish",
+      "verdict": "pass-with-existing-boundaries",
+      "locator": "池结构与工作原理L118、121、123；实施方式L139—144",
+      "classification": "partial-mechanism-conditional",
+      "note": "复读 L118、L121—123、L139—144，限吸口附近水体和循环水结构，堵水件未证明自动，托盘取鱼/去向仍缺。"
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-39-06-source-water",
+      "verdict": "pass-with-existing-boundaries",
+      "locator": "系统配置L225–239",
+      "classification": "adjacent-scenario-pump-valve-only",
+      "note": "复读 L225—239；种苗繁育海水场景已进入正文，只是泵阀转水相邻证据。"
+    }
+  ],
+  "taskChecks": [
+    {
+      "taskId": "cn-ag-wheat-field-001",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-wheat-field-006",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-wheat-field-007",
+      "verdict": "pass-append-only-supplement",
+      "status": "partial-mechanism-with-conditions",
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-02-06-seed"
+      ],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-wheat-field-009",
+      "verdict": "pass-append-only-supplement",
+      "status": "partial-mechanism-with-conditions",
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-02-06-water"
+      ],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-wheat-field-013",
+      "verdict": "pass-append-only-supplement",
+      "status": "partial-mechanism-with-conditions",
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-02-06-straw"
+      ],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-wheat-field-016",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-wheat-field-017",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-vegetable-seedling-001",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-vegetable-seedling-002",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-vegetable-seedling-007",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-vegetable-seedling-008",
+      "verdict": "pass-append-only-supplement",
+      "status": "partial-mechanism-with-conditions",
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-05-10-seedling-vision"
+      ],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-vegetable-seedling-009",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-vegetable-seedling-010",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-vegetable-fruiting-004",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-vegetable-fruiting-015",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-vegetable-fruiting-016",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-vegetable-fruiting-017",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-vegetable-leafy-003",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-vegetable-leafy-005",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-vegetable-leafy-006",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-vegetable-leafy-008",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-vegetable-leafy-012",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-vegetable-leafy-013",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-001",
+      "verdict": "pass-append-only-supplement",
+      "status": "partial-mechanism-with-conditions",
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-11-05-mowing"
+      ],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-002",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-003",
+      "verdict": "pass-append-only-supplement",
+      "status": "partial-mechanism-with-conditions",
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-12-04-fertilizer"
+      ],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-004",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-005",
+      "verdict": "pass-append-only-supplement",
+      "status": "partial-mechanism-with-conditions",
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-13-01-branch-pull"
+      ],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-006",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-007",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-009",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-012",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-013",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-014",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-015",
+      "verdict": "pass-append-only-supplement",
+      "status": "adjacent-process-only",
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-17-11-branch-shred",
+        "CN-AG-REVIEW-SOURCE-17-11-wet-clog"
+      ],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-016",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-001",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-002",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-006",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-008",
+      "verdict": "pass-append-only-supplement",
+      "status": "partial-mechanism-with-conditions",
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-19-00-rack"
+      ],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-009",
+      "verdict": "pass-append-only-supplement",
+      "status": "partial-mechanism-with-conditions",
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-19-00-climate"
+      ],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-010",
+      "verdict": "pass-append-only-supplement",
+      "status": "partial-mechanism-with-conditions",
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-20-04-bag-water",
+        "CN-AG-REVIEW-SOURCE-20-04-manual-feed"
+      ],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-012",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-014",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-015",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-016",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-001",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-002",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-004",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-006",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-007",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-008",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-010",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-001",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-003",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-006",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-007",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-008",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-010",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-011",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-014",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-016",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-dairy-milking-005",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-dairy-milking-006",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-dairy-milking-009",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-dairy-milking-012",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-dairy-milking-013",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-dairy-milking-014",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pond-fish-001",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pond-fish-002",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pond-fish-003",
+      "verdict": "pass-append-only-supplement",
+      "status": "partial-mechanism-with-conditions",
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-35-01-fish-sort",
+        "CN-AG-REVIEW-SOURCE-35-01-fish-repeat"
+      ],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pond-fish-009",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pond-fish-010",
+      "verdict": "pass-append-only-supplement",
+      "status": "partial-mechanism-with-conditions",
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-36-08-dead-fish"
+      ],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pond-fish-012",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pond-fish-013",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pond-fish-015",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-001",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-002",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-004",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-007",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-008",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-012",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-013",
+      "verdict": "pass-append-only-supplement",
+      "status": "no-additional-retained-matching-mechanism",
+      "claimIds": [],
+      "originalQueryIdsUnchanged": true,
+      "oldMechanismsMustBePreserved": true,
+      "newTaskCount": 0
+    }
+  ],
+  "targetedOriginalRereads": [
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-35-01",
+      "locator": "L138—144",
+      "scope": "重复分级、机械损伤和人工"
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-36-08",
+      "locator": "L118—123、L139—144",
+      "scope": "吸口水体/循环水路/堵水件及未覆盖取鱼"
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-20-04",
+      "locator": "L91、L96、L110",
+      "scope": "回用水槽和人工供棒"
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-39-06",
+      "locator": "L225—239",
+      "scope": "对虾种苗繁育海水处理"
+    }
+  ],
+  "findings": [],
+  "remainingLimits": [
+    "12 局部、1 相邻、70 无新增只适用于本补检批；不得覆写旧主稿已有机制为零。",
+    "全部来源仍受原独审的物种、地域、阶段和原文读取范围限制。",
+    "原 166 查询的 42 组回包继续按组归属，不计算单条正反召回或宣称重跑。",
+    "没有一手访谈、当前独立持续商业运行、完整工时及现金流参数；不冻结行业或任务。"
+  ]
+}

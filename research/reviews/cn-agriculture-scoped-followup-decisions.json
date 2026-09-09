@@ -1,0 +1,2866 @@
+{
+  "schemaVersion": "1.0",
+  "country": "CN",
+  "industryId": "cn-agriculture",
+  "reviewedAt": "2026-09-09",
+  "reviewer": "sample_task_research; not author of scoped-followup input",
+  "status": "independent-review-complete-corrections-required-before-integration",
+  "inputFile": "research/automation/cn-agriculture-scoped-followup.json",
+  "inputSHA256": "65008ebbe1a37ff494e51a05b8df490a0fcea98ec0f19b7093de3ac92e146909",
+  "searchAuditFile": "research/automation/cn-agriculture-scoped-followup-search-audit.json",
+  "searchAuditSHA256": "d73113e2ef246938d35310e10dcbf4e2a8328576ef2ccc56bb8c863175534e78",
+  "inventorySHA256": "5388db09742709d606032d030ced3985f802a6e221441b59cd1302064ee8983e",
+  "currentFirstPassSHA256": "29623933f780c5236243d63e142d40a825b47273ef46dfc721133c85e90cb5d3",
+  "inputsModified": false,
+  "reviewMethod": [
+    "独立读取父代理缓存原文的具体段落、摘要、日期/申请人元数据；没有把父代理摘要当原文。",
+    "逐项对照库存任务动作、对象、输出和验收，核查83个任务与166查询及18声明双向关联。",
+    "校验23份原文/失败回包缓存文件SHA以及42份请求/结果文件SHA、查询正文和UTC时刻；源哈希字段实际指整个缓存JSON。",
+    "未重新测量设备或访谈，没有将专利、厂商自述或新投产报道升级为持续商业运行。"
+  ],
+  "sourceDecisions": [
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-02-06",
+      "title": "黄淮海麦玉两熟区秸秆全量还田保护性耕作全程机械化生产模式",
+      "url": "https://njhs.moa.gov.cn/qcjxhtjxd/202301/t20230113_6418791.htm",
+      "inputCacheFileSHA256": "137036ccd0bae1c84126d1009042ba816990b2bfa0ebb415d800831e5bab4d73",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": "2023-01-13",
+      "reviewedLocators": [
+        "L31–37、41、48、58–59、76–81、118"
+      ],
+      "decision": "retain-guidance-only",
+      "reason": "原文L118明确含安徽北部；不能扩大为安徽所有麦区。",
+      "sourceTextIndependentlyRead": true,
+      "readScope": "selected-passages-or-abstract",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-05-10",
+      "title": "浙江机电职业技术学院：智小农团队研发高精度穴盘苗补苗移栽智能装置 助力农业现代化发展-浙江机电职业技术大学创新创业学院",
+      "url": "https://cyxy.zime.edu.cn/info/1051/1090.htm",
+      "inputCacheFileSHA256": "68e4424efafecbf7a48eddf66fd6c9c2211dc2d204c35206e7251869156561d8",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": "2023-04-26",
+      "reviewedLocators": [
+        "L35、37、41、44、53"
+      ],
+      "decision": "retain-prototype-partial",
+      "reason": "团队原型与测试自报，仅健壮苗识别等局部线索，不能覆盖病苗判别和出圃验收。",
+      "sourceTextIndependentlyRead": true,
+      "readScope": "selected-passages-or-abstract",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-06-11",
+      "title": "蔬菜移栽穴盘苗自动输送装置设计与试验",
+      "url": "https://www.j-csam.org/jcsam/article/abstract/20160715?st=search",
+      "inputCacheFileSHA256": "021f9825998ed8e5407c834701f04340403769c5195f77ba50da13786289ea1f",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewedLocators": [
+        "本次读取回包首个失败记录"
+      ],
+      "decision": "retain-fetch-gap",
+      "reason": "确认该次读取超时或403；回包尾部可能并列其他来源，不能据此把本来源标为已读。未作永久不可访问判断。",
+      "sourceTextIndependentlyRead": false,
+      "readScope": "failure-response-only",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-08-05",
+      "title": "基于模块化的叶菜精量播种机研发与应用",
+      "url": "https://www.aeeisp.com/nygc/article/doi/10.19998/j.cnki.2095-1795.202506316",
+      "inputCacheFileSHA256": "ab838d82ea17748dd1fe1cf6abc61c844db79358aeed0754e2f66f897cd279c2",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewedLocators": [
+        "摘要L102–103"
+      ],
+      "decision": "retain-exclusion-or-insufficiency",
+      "reason": "研究对象为无土栽培海绵盘，不是露地叶菜播深/排种检查；不挂到露地任务。",
+      "sourceTextIndependentlyRead": true,
+      "readScope": "selected-passages-or-abstract",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-11-05",
+      "title": "标准化果园碎草机作业性能试验",
+      "url": "https://www.aeeisp.com/nygc/article/doi/10.19998/j.cnki.2095-1795.2023.04.004",
+      "inputCacheFileSHA256": "1ccabe4320aaa32d47ac0059ad35068bf1f354dd4621386d929650aaf128bebe",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewedLocators": [
+        "L75–104"
+      ],
+      "decision": "retain-test-abstract-conditional",
+      "reason": "只有果园行间碎草试验摘要，苹果品种和地形仍需核；发布日期保持null，不从DOI补造月日。",
+      "sourceTextIndependentlyRead": true,
+      "readScope": "selected-passages-or-abstract",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-12-04",
+      "title": "苹果园有机肥施肥机 - 山东北源机械设备有限公司",
+      "url": "https://beiyuanmachine.cn/pd.jsp?fromColId=2&id=71",
+      "inputCacheFileSHA256": "bc1477f0a20500fddcb92218ec434bbf5bda873bf53477363f37e86a5bb0c0c1",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewedLocators": [
+        "L43–45"
+      ],
+      "decision": "retain-manufacturer-mechanism",
+      "reason": "拖拉机动力、链输送、开沟、施肥、覆土有文字机制；现场根区位置和人工仍未知。",
+      "sourceTextIndependentlyRead": true,
+      "readScope": "selected-passages-or-abstract",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-13-01",
+      "title": "CN221768820U - 一种简易化果树拉枝整形装置 - Google Patents",
+      "url": "https://patents.google.com/patent/CN221768820U/zh",
+      "inputCacheFileSHA256": "0ab6401a80b1604df4a098a4733f45a62d3970633c4b789b4b925b9a88110c4d",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": "2024-09-27",
+      "reviewedLocators": [
+        "L27–40、66、79–91、109–112"
+      ],
+      "decision": "retain-manual-aid-patent",
+      "reason": "手摇拉枝和固定限位属于人工辅助；扭簧收绳不等于自动选择枝位或自动拉枝。",
+      "sourceTextIndependentlyRead": true,
+      "readScope": "selected-passages-or-abstract",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-15-10",
+      "title": "果园多臂采收机器人-新产品-北京市农林科学院",
+      "url": "https://www.baafs.net.cn/kxyj/cxcg/xcp/227d6794b60d430494e5fad4ef4368bb.htm",
+      "inputCacheFileSHA256": "004fb3526d093b95fa3b5c26d210bffa35dc556e9037c0cac9a3a01cfc066ea8",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewedLocators": [
+        "本次读取回包首个失败记录"
+      ],
+      "decision": "retain-fetch-gap",
+      "reason": "确认该次读取超时或403；回包尾部可能并列其他来源，不能据此把本来源标为已读。未作永久不可访问判断。",
+      "sourceTextIndependentlyRead": false,
+      "readScope": "failure-response-only",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-17-11",
+      "title": "郑州金鹏果树碎枝机怎么干活？果园枝条资源化利用--郑州金鹏机械设备有限公司",
+      "url": "https://www.zzbpj.com/news115.html",
+      "inputCacheFileSHA256": "19a1c50dd72f13840850f2371843acabfc33229af3bfe88c7a9655c5e3f9abcc",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewedLocators": [
+        "L18–27"
+      ],
+      "decision": "retain-adjacent-process-only",
+      "reason": "粉碎已归集枝条及出料收集不能证明病残枝叶拾取、病原控制或器具清理；原任务仅保留相邻工序线索。",
+      "sourceTextIndependentlyRead": true,
+      "readScope": "selected-passages-or-abstract",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-19-00",
+      "title": "襄垣县新裕农业年产300万菌棒自动化生产线正式投产",
+      "url": "https://www.changzhi.gov.cn/ztzl/TPGJZT/TPGJZT2/202505/t20250513_3045455.shtml",
+      "inputCacheFileSHA256": "8e6d47962b6b6e85f4fa32a4d49901918bfb8a0f1f744e5f34b45a2dbd362f1f",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": "2025-05-13",
+      "reviewedLocators": [
+        "L4–6、17、23、25–26"
+      ],
+      "decision": "retain-production-report-partial",
+      "reason": "投产报道含输送上架、传感联动和专人管理；山西报道不能直接证明山东现场2026持续运行。",
+      "sourceTextIndependentlyRead": true,
+      "readScope": "selected-passages-or-abstract",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-20-04",
+      "title": "CN207340854U - 自动化香菇菌棒注水机 - Google Patents",
+      "url": "https://patents.google.com/patent/CN207340854U/zh",
+      "inputCacheFileSHA256": "74964505de6b8187bd609b91f7e34fce8ccd0d428dfec14e3947776d0ea1c865",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": "2018-05-11",
+      "reviewedLocators": [
+        "L30–43、86、91、96、110"
+      ],
+      "decision": "retain-patent-conditional",
+      "reason": "潮后菌棒实体补水，人仍供棒；废水回流设计要求另核水质清洁，不等同空气加湿。",
+      "sourceTextIndependentlyRead": true,
+      "readScope": "selected-passages-or-abstract",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-24-00",
+      "title": "连续作业的“造林流水线”——植树机_国家林业和草原局政府网",
+      "url": "https://www.forestry.gov.cn/lyj/1/zhzs/20260615/672629.html",
+      "inputCacheFileSHA256": "48b180db3e8b23888db1ff7c84d5e4e8fe7a858f51c1ca7cfa005bc5232a77c8",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewedLocators": [
+        "本次读取回包首个失败记录"
+      ],
+      "decision": "retain-fetch-gap",
+      "reason": "确认该次读取超时或403；回包尾部可能并列其他来源，不能据此把本来源标为已读。未作永久不可访问判断。",
+      "sourceTextIndependentlyRead": false,
+      "readScope": "failure-response-only",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-26-01",
+      "title": "生猪健康识别与智能养殖装备创制与应用 | 生猪技术创新中心(重庆)",
+      "url": "https://www.nctip.cn/10752.html",
+      "inputCacheFileSHA256": "3db04910fa487629c7ad6921b202f8afe8942542fb7fd411ea8d86c383c77336",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": "2025-04-03",
+      "reviewedLocators": [
+        "L49、57–60、69"
+      ],
+      "decision": "retain-institution-self-report-partial",
+      "reason": "生猪健康相关视觉和轨道监测自述；原任务已有局部机制，本批作为追加来源，不另算新增任务。",
+      "sourceTextIndependentlyRead": true,
+      "readScope": "selected-passages-or-abstract",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-27-04",
+      "title": "智能饮水系统-京鹏畜牧-是一家专业从事现代化畜牧场规划设计和建造的高新技术企业",
+      "url": "https://www.jpxm.com/Product/13.html",
+      "inputCacheFileSHA256": "9fb923143d488432f7afc0adb4cf78b82da73fd9bd93254a25adb530a5d0cb87",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewedLocators": [
+        "本次读取回包首个失败记录"
+      ],
+      "decision": "retain-fetch-gap",
+      "reason": "确认该次读取超时或403；回包尾部可能并列其他来源，不能据此把本来源标为已读。未作永久不可访问判断。",
+      "sourceTextIndependentlyRead": false,
+      "readScope": "failure-response-only",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-31-02",
+      "title": "数字奶厅 阿菲金（afimilk）-领先的奶牛场数字化管理解决方案提供商",
+      "url": "https://www.afimilk.com.cn/project/30",
+      "inputCacheFileSHA256": "c78a5927892e505ec429495aa92f94d1ad1bb508d9f95f0592909837defa2080",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewedLocators": [
+        "本次读取回包首个失败记录"
+      ],
+      "decision": "retain-fetch-gap",
+      "reason": "确认该次读取超时或403；回包尾部可能并列其他来源，不能据此把本来源标为已读。未作永久不可访问判断。",
+      "sourceTextIndependentlyRead": false,
+      "readScope": "failure-response-only",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-32-02",
+      "title": "佛山力淳乳业机械有限公司",
+      "url": "https://www.legendconnect.com/html/cn/",
+      "inputCacheFileSHA256": "37e774efe8e72872e597abd0b19c79e9f59601edd92f8e72b3718568c37faba7",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewedLocators": [
+        "产品分类L50–80、企业介绍L131"
+      ],
+      "decision": "retain-exclusion-or-insufficiency",
+      "reason": "目录有制冷系统，但未读具体冷却原理与产品操作；不能将公司成立或新闻日期当产品发布时间。",
+      "sourceTextIndependentlyRead": true,
+      "readScope": "selected-passages-or-abstract",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-33-13",
+      "title": "自治区畜牧站推进奶牛牧场奶样采集实现全流程智能化_宁夏回族自治区农业农村厅",
+      "url": "https://nynct.nx.gov.cn/xwzx/zwdt/202505/t20250526_4916700.html",
+      "inputCacheFileSHA256": "045d84b8d20ec9b16698dd8cceb83d37d1d392434bcb9f1eee7e2da790dd3763",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewedLocators": [
+        "本次读取回包首个失败记录"
+      ],
+      "decision": "retain-fetch-gap",
+      "reason": "确认该次读取超时或403；回包尾部可能并列其他来源，不能据此把本来源标为已读。未作永久不可访问判断。",
+      "sourceTextIndependentlyRead": false,
+      "readScope": "failure-response-only",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-35-01",
+      "title": "CN206547630U - 一种立体式自动分鱼机 - Google Patents",
+      "url": "https://patents.google.com/patent/CN206547630U/zh",
+      "inputCacheFileSHA256": "1491917e0658d14b9d920971b31f358efaa8c60ad68a357a71cce90dad53da0e",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": "2017-10-13",
+      "reviewedLocators": [
+        "L29–44、74–84、110–120、138–144"
+      ],
+      "decision": "retain-patent-with-rework-condition",
+      "reason": "滚轴分级与导鱼斗可局部支持分池，鱼种损伤与接池验收未知；L144明确重复分级可能机械损伤并耗人工。",
+      "sourceTextIndependentlyRead": true,
+      "readScope": "selected-passages-or-abstract",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-36-08",
+      "title": "CN103004680B - 一种养殖池底、表排污及病鱼、死鱼自动收集装置 - Google Patents",
+      "url": "https://patents.google.com/patent/CN103004680B/zh",
+      "inputCacheFileSHA256": "c2864ca89149105f745592f8f0b2e872fd451be2fcbaa854a59ed9c7d6c0878d",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": "2014-09-03",
+      "reviewedLocators": [
+        "L35–47、118–123、139–144"
+      ],
+      "decision": "retain-patent-with-capture-boundary",
+      "reason": "循环水位差吸取吸污管附近水体中的鱼并托盘截留；不证明整池清除、自动插拔堵水件或后续隔离处置。",
+      "sourceTextIndependentlyRead": true,
+      "readScope": "selected-passages-or-abstract",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-38-01",
+      "title": "鱼虾病原检测仪检测原理、样本检测全流程以及水产一线实操使用方法_山东天研仪器有限公司",
+      "url": "https://www.instrument.com.cn/netshow/SH115357/news_926028.htm",
+      "inputCacheFileSHA256": "19f7d31739c89b11fbf6020368c5659326a773f2dfee94d3e0421214fb186acd",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewedLocators": [
+        "产品和操作L47–51"
+      ],
+      "decision": "retain-exclusion-or-insufficiency",
+      "reason": "设备执行样本扩增检测，而原任务为核对苗种已有检测结果；厂商处置与临床效果话术不作为养殖指导。",
+      "sourceTextIndependentlyRead": true,
+      "readScope": "selected-passages-or-abstract",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-39-06",
+      "title": "CN112159012A - 一种对虾种苗繁育源水处理系统和方法 - Google Patents",
+      "url": "https://patents.google.com/patent/CN112159012A/zh",
+      "inputCacheFileSHA256": "a20cfa8f36b011dd9a1b0ae99697c7e68cdb5a089a8ac54ad12eb5d8e944c923",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewedLocators": [
+        "L215–239"
+      ],
+      "decision": "retain-adjacent-scenario-only",
+      "reason": "对象为对虾种苗繁育海水处理路线；泵阀转水可作相邻机制，未证目标两级处理池上层取水。已读窗口未含公开日，保持null。",
+      "sourceTextIndependentlyRead": true,
+      "readScope": "selected-passages-or-abstract",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-40-08",
+      "title": "CN103960113B - 全自动工厂化池塘多层分级养殖 - Google Patents",
+      "url": "https://patents.google.com/patent/CN103960113B/zh",
+      "inputCacheFileSHA256": "fa863c3a48ba6ed0e61498261c1ddd07b4f4ca0762c3d9ab19219c738bbaf4a8",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewedLocators": [
+        "摘要L265与背景L272–284"
+      ],
+      "decision": "retain-exclusion-or-insufficiency",
+      "reason": "分层养殖及环境控制设计不能仅凭摘要证明符合原分级转池或起捕动作；正文后部未完成阅读。",
+      "sourceTextIndependentlyRead": true,
+      "readScope": "selected-passages-or-abstract",
+      "commercialStatusConfirmed": false
+    },
+    {
+      "sourceId": "CN-AG-REVIEW-SOURCE-41-00",
+      "title": "苏州市池塘河蟹养殖智能投饵装备应用现状及发展对策",
+      "url": "https://www.aeeisp.com/njsyywx/cn/article/doi/10.14031/j.cnki.njwx.2023.04.014",
+      "inputCacheFileSHA256": "342b831e6f07f5462fbead6c10656d1ba96365f4a705489b3971811547b10018",
+      "hashScope": "UTF-8 JSON cache file bytes, not raw-string-only",
+      "publishedAt": null,
+      "reviewedLocators": [
+        "摘要L68–69"
+      ],
+      "decision": "retain-exclusion-or-insufficiency",
+      "reason": "摘要只说存在问题并提出发展对策，未给具体失败、退出、未采用原因；不据此生成障碍事实。",
+      "sourceTextIndependentlyRead": true,
+      "readScope": "selected-passages-or-abstract",
+      "commercialStatusConfirmed": false
+    }
+  ],
+  "claimDecisions": [
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-02-06-seed",
+      "sourceId": "CN-AG-REVIEW-SOURCE-02-06",
+      "inputTaskIds": [
+        "cn-ag-wheat-field-007"
+      ],
+      "inputLocator": "种子处理，L58–59",
+      "decision": "retain-with-existing-boundary",
+      "classification": "partial-mechanism-conditional",
+      "reviewedStatement": "指导列出包衣机和拌种机进行机械种子处理。",
+      "requiredChanges": [],
+      "remainingBoundary": "按当地病虫害与药剂条件确定工艺，设备供料、配液与清洁尚未核实。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-02-06-water",
+      "sourceId": "CN-AG-REVIEW-SOURCE-02-06",
+      "inputTaskIds": [
+        "cn-ag-wheat-field-009"
+      ],
+      "inputLocator": "小麦田间管理，L76–77",
+      "decision": "retain-with-existing-boundary",
+      "classification": "partial-mechanism-conditional",
+      "reviewedStatement": "指导列出小麦滴灌、低压喷灌或微喷水肥同施。",
+      "requiredChanges": [],
+      "remainingBoundary": "限具有灌溉条件的小麦田；灌水决策、安装、移位、维修和耗水现金成本仍未知。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-02-06-straw",
+      "sourceId": "CN-AG-REVIEW-SOURCE-02-06",
+      "inputTaskIds": [
+        "cn-ag-wheat-field-013"
+      ],
+      "inputLocator": "技术路线L48；小麦联合收获与秸秆还田L79–81",
+      "decision": "retain-with-wording-correction",
+      "classification": "partial-mechanism-conditional",
+      "reviewedStatement": "指导在小麦联合收获与秸秆还田环节列出秸秆粉碎抛撒还田。",
+      "requiredChanges": [
+        "将“联合收获后”改为“联合收获与秸秆还田环节”，不人为增加独立时序。"
+      ],
+      "remainingBoundary": "仅还田路线；未证实离田归集或全国所有小麦区适用；整线节支数字不当单任务收益。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-05-10-seedling-vision",
+      "sourceId": "CN-AG-REVIEW-SOURCE-05-10",
+      "inputTaskIds": [
+        "cn-ag-vegetable-seedling-008"
+      ],
+      "inputLocator": "团队介绍L37、41；原型制作测试L44；后续推广L53",
+      "decision": "retain-with-existing-boundary",
+      "classification": "partial-mechanism-conditional",
+      "reviewedStatement": "团队介绍机器视觉检测、仿生起苗和定位技术，并说明原型制作及多次测试。",
+      "requiredChanges": [],
+      "remainingBoundary": "可作为健壮苗识别等局部研究线索，未给全出圃质量项目及独立准确率数据；不证明异常苗盘隔离处置。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-11-05-mowing",
+      "sourceId": "CN-AG-REVIEW-SOURCE-11-05",
+      "inputTaskIds": [
+        "cn-ag-apple-orchard-001"
+      ],
+      "inputLocator": "中英文摘要L103–104",
+      "decision": "retain-with-existing-boundary",
+      "classification": "partial-mechanism-conditional",
+      "reviewedStatement": "试验选用牵引式碎草机切割果园行间草并还田。",
+      "requiredChanges": [],
+      "remainingBoundary": "苹果园行距、坡度、树盘避障及草种仍须匹配；摘要可靠性形容不能证明长期商业运行，未采用试验数值。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-12-04-fertilizer",
+      "sourceId": "CN-AG-REVIEW-SOURCE-12-04",
+      "inputTaskIds": [
+        "cn-ag-apple-orchard-003"
+      ],
+      "inputLocator": "产品详情L43–45",
+      "decision": "retain-with-existing-boundary",
+      "classification": "partial-mechanism-conditional",
+      "reviewedStatement": "厂商描述拖拉机牵引、输送链供料及可调深度开沟、沟内施肥和覆土功能。",
+      "requiredChanges": [],
+      "remainingBoundary": "需验证目标施肥沟位置、地形、肥料状态；拖拉机操作、加料及维护仍未量化，不能据产品效率话术计算收益。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-13-01-branch-pull",
+      "sourceId": "CN-AG-REVIEW-SOURCE-13-01",
+      "inputTaskIds": [
+        "cn-ag-apple-orchard-005"
+      ],
+      "inputLocator": "工作原理L79、82；具体实施方式L109–112",
+      "decision": "retain-with-existing-boundary",
+      "classification": "manual-assistive-tool-patent",
+      "reviewedStatement": "专利通过主干固定环、拉绳、手柄收线和齿槽限位辅助改变枝条角度。",
+      "requiredChanges": [],
+      "remainingBoundary": "人仍安装固定、连接枝条、摇柄并选择角度；属于辅助工具设计，不能标成自动拉枝或已销售产品。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-17-11-branch-shred",
+      "sourceId": "CN-AG-REVIEW-SOURCE-17-11",
+      "inputTaskIds": [
+        "cn-ag-apple-orchard-015"
+      ],
+      "inputLocator": "作业描述L18–25",
+      "decision": "retain-only-as-adjacent-process",
+      "classification": "adjacent-process-no-direct-task-completion",
+      "reviewedStatement": "厂商描述人工或机械手供枝、进料辊和刀片碎枝、风送收集或还田。",
+      "requiredChanges": [
+        "本任务不得按直接匹配机制计数；分别标明已归集枝条粉碎与该设备工况限制，不覆盖原病残枝叶收集和器具清洁。"
+      ],
+      "remainingBoundary": "仅已归集枝条的粉碎/收集；未证明病残叶全部拾取、病原控制或器具清洗。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-17-11-wet-clog",
+      "sourceId": "CN-AG-REVIEW-SOURCE-17-11",
+      "inputTaskIds": [
+        "cn-ag-apple-orchard-015"
+      ],
+      "inputLocator": "现场问题段L27",
+      "decision": "retain-only-as-adjacent-process",
+      "classification": "adjacent-process-no-direct-task-completion",
+      "reviewedStatement": "厂商提示湿枝可能堵塞出料口，需清理，并需在不平地面调整牵引高度。",
+      "requiredChanges": [
+        "本任务不得按直接匹配机制计数；分别标明已归集枝条粉碎与该设备工况限制，不覆盖原病残枝叶收集和器具清洁。"
+      ],
+      "remainingBoundary": "为厂商工况限制说明，不是可验证的用户故障率、撤机或退出事件。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "evidenceRole": "source-described-limit-or-residual-human-not-confirmed-failure-event"
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-19-00-rack",
+      "sourceId": "CN-AG-REVIEW-SOURCE-19-00",
+      "inputTaskIds": [
+        "cn-ag-mushroom-bags-008"
+      ],
+      "inputLocator": "车间流程L17",
+      "decision": "retain-with-existing-boundary",
+      "classification": "partial-mechanism-conditional",
+      "reviewedStatement": "报道描述恒温培养阶段由皮带传送装置机械上架菌棒。",
+      "requiredChanges": [],
+      "remainingBoundary": "只说明机械上架，不证明所有冷却/转运接口或污染菌棒识别；未作长期独立现场核查。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-19-00-climate",
+      "sourceId": "CN-AG-REVIEW-SOURCE-19-00",
+      "inputTaskIds": [
+        "cn-ag-mushroom-bags-009"
+      ],
+      "inputLocator": "棚室系统L23、25",
+      "decision": "retain-with-existing-boundary",
+      "classification": "partial-mechanism-conditional",
+      "reviewedStatement": "报道描述温湿度传感偏离设定值后启动温控通风设备，同时保留每棚专人管理。",
+      "requiredChanges": [],
+      "remainingBoundary": "是山西新投产报道，不能等同山东目标场景持续采用；不同生长阶段和异常接管需另证。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-20-04-bag-water",
+      "sourceId": "CN-AG-REVIEW-SOURCE-20-04",
+      "inputTaskIds": [
+        "cn-ag-mushroom-bags-010"
+      ],
+      "inputLocator": "背景L86；操作过程L96、110",
+      "decision": "retain-with-additional-condition",
+      "classification": "partial-mechanism-conditional",
+      "reviewedStatement": "专利描述人把菌棒放上传送带，传感器与控制柜联动气缸注水针完成注水和输出。",
+      "requiredChanges": [
+        "L91、110涉及废水回收至水槽；增列回用水卫生、跨批清洗和异常接管验证问题，勿声称已证实污染障碍。"
+      ],
+      "remainingBoundary": "限定潮后菌棒补水，不能当空气加湿；供棒、设定、水质、清洁和异常人工仍需验证。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-20-04-manual-feed",
+      "sourceId": "CN-AG-REVIEW-SOURCE-20-04",
+      "inputTaskIds": [
+        "cn-ag-mushroom-bags-010"
+      ],
+      "inputLocator": "背景技术L86；本装置L96、110",
+      "decision": "retain-with-existing-boundary",
+      "classification": "partial-mechanism-conditional",
+      "reviewedStatement": "设计背景讨论其他装置手工放取菌棒的风险和效率限制，本设计仍需要人员向带上放棒。",
+      "requiredChanges": [],
+      "remainingBoundary": "属于专利作者的设计动机及操作边界，不是事故或商业失败统计；专利法律状态不用于推断设备退出。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "evidenceRole": "source-described-limit-or-residual-human-not-confirmed-failure-event"
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-26-01-pig-monitor",
+      "sourceId": "CN-AG-REVIEW-SOURCE-26-01",
+      "inputTaskIds": [
+        "cn-ag-pig-husbandry-005"
+      ],
+      "inputLocator": "成果简介L57–60；推广应用L69",
+      "decision": "retain-with-existing-boundary",
+      "classification": "partial-mechanism-conditional",
+      "reviewedStatement": "中心自述视觉算法与轨道机器人监测身份、体重及部分行为，并介绍精准饲喂和饮水装备。",
+      "requiredChanges": [],
+      "remainingBoundary": "补充原已保留机制的局部研究；不证明全部临床项目、料槽缺料检查、诊断、猪只隔离；自报减工数字不采用。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-35-01-fish-sort",
+      "sourceId": "CN-AG-REVIEW-SOURCE-35-01",
+      "inputTaskIds": [
+        "cn-ag-pond-fish-003"
+      ],
+      "inputLocator": "结构L74–84；操作L110–120、138–139",
+      "decision": "retain-with-existing-boundary",
+      "classification": "partial-mechanism-conditional",
+      "reviewedStatement": "专利通过不同间距的滚轴筛分规格，用导鱼斗连接容器或养殖池；要求先喷淋再导入鱼苗。",
+      "requiredChanges": [],
+      "remainingBoundary": "需要供鱼、换筛、接管/水桶与供水；不能证明目标鱼种损伤率或全部分池程序。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-35-01-fish-repeat",
+      "sourceId": "CN-AG-REVIEW-SOURCE-35-01",
+      "inputTaskIds": [
+        "cn-ag-pond-fish-003"
+      ],
+      "inputLocator": "操作注意L139",
+      "decision": "retain-with-additional-condition",
+      "classification": "partial-mechanism-conditional",
+      "reviewedStatement": "专利说明鱼苗可能并列挤过而影响分级，提出收集后重新导入再分级。",
+      "requiredChanges": [
+        "补定位L144并说明规格差异较小时重复分级可能机械损伤且耗人工；这是专利条件说明，不是发生率或退出记录。"
+      ],
+      "remainingBoundary": "仅设计说明中的条件和返工建议，不是测得的误分级概率。 需核目标鱼种耐受、重复次数、人工回料和损伤；不能采用专利效果保证。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false,
+      "evidenceRole": "source-described-limit-or-residual-human-not-confirmed-failure-event"
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-36-08-dead-fish",
+      "sourceId": "CN-AG-REVIEW-SOURCE-36-08",
+      "inputTaskIds": [
+        "cn-ag-pond-fish-010"
+      ],
+      "inputLocator": "工作原理L121–123；实施方式L139–144",
+      "decision": "retain-with-narrowed-boundary",
+      "classification": "partial-mechanism-conditional",
+      "reviewedStatement": "专利利用循环水和水位差，将吸污管附近水体中的病死鱼带入托盘截留，并描述插拔堵水件调水位排堵。",
+      "requiredChanges": [
+        "L118、121、123、139–144：限定吸入口附近及特定循环水池结构；堵水件动作未证明自动，托盘取鱼、隔离和去向记录仍未覆盖。"
+      ],
+      "remainingBoundary": "要求特定水路和池结构；不证明普通土池同样有效，也未完成后续无害化处置；未采用专利效果保证。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false
+    },
+    {
+      "claimId": "CN-AG-REVIEW-SOURCE-39-06-source-water",
+      "sourceId": "CN-AG-REVIEW-SOURCE-39-06",
+      "inputTaskIds": [
+        "cn-ag-pond-shrimp-003",
+        "cn-ag-pond-shrimp-005"
+      ],
+      "inputLocator": "系统配置L225–239",
+      "decision": "retain-only-as-adjacent-scenario",
+      "classification": "adjacent-scenario-pump-valve-only",
+      "reviewedStatement": "对虾种苗繁育海水处理专利，用泵阀水管连接储水、过滤、沉淀、消毒及监测单元。",
+      "requiredChanges": [
+        "在声明本句直接保留“种苗繁育海水处理”场景，不只在脚注限定；两个关联任务均不得标为全动作匹配。"
+      ],
+      "remainingBoundary": "仅泵阀转水的相邻机制；未证明两级池上层取水、防串水、化学剂量或验收全部自动完成；不转录处理剂量为操作建议。",
+      "isConfirmedFullTaskAutomation": false,
+      "isConfirmedCommercialOperation": false
+    }
+  ],
+  "taskDecisions": [
+    {
+      "taskId": "cn-ag-wheat-field-001",
+      "title": "检查机具与地块作业条件（机具状态和进出条件可核查）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-001-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-001-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        0
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": true,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-wheat-field-006",
+      "title": "开通田间排灌沟道（排灌路径畅通）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-006-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-006-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        0
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-wheat-field-007",
+      "title": "处理小麦播前种子（种子批次和处理记录可查）",
+      "inputTaskStatus": "candidate-mechanism-awaiting-independent-review",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-007-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-007-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        1
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [
+        "CN-AG-REVIEW-SOURCE-02-06-seed"
+      ],
+      "decision": "retain-partial-mechanism-with-conditions",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。"
+    },
+    {
+      "taskId": "cn-ag-wheat-field-009",
+      "title": "灌溉田间小麦（供水覆盖与积水情况经检查）",
+      "inputTaskStatus": "candidate-mechanism-awaiting-independent-review",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-009-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-009-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        1
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [
+        "CN-AG-REVIEW-SOURCE-02-06-water"
+      ],
+      "decision": "retain-partial-mechanism-with-conditions",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。"
+    },
+    {
+      "taskId": "cn-ag-wheat-field-013",
+      "title": "处理小麦秸秆并还田或归集（处置方式符合地块委托要求）",
+      "inputTaskStatus": "candidate-mechanism-awaiting-independent-review",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-013-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-013-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        2
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [
+        "CN-AG-REVIEW-SOURCE-02-06-straw"
+      ],
+      "decision": "retain-partial-mechanism-with-conditions",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。"
+    },
+    {
+      "taskId": "cn-ag-wheat-field-016",
+      "title": "诊断并排除农机运转故障（试运行满足恢复作业条件）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-016-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-016-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        2
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": true,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-wheat-field-017",
+      "title": "修正已确认的漏播或漏耕区域（复查记录确认问题关闭）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-017-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-017-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        3
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": true,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-vegetable-seedling-001",
+      "title": "检验并选取蔬菜繁殖材料（品种来源和外观可核对）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-001-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-001-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        3
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-vegetable-seedling-002",
+      "title": "清洁消毒育苗设施和容器（洗消记录及洁净状况可查）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-002-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-002-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        4
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-vegetable-seedling-007",
+      "title": "对出圃前菜苗实施炼苗（炼苗状态经检查）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-007-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-007-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        4
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": true,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-vegetable-seedling-008",
+      "title": "检查菜苗出圃质量（弱苗病苗与合格苗区分）",
+      "inputTaskStatus": "candidate-mechanism-awaiting-independent-review",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-008-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-008-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        5
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [
+        "CN-AG-REVIEW-SOURCE-05-10-seedling-vision"
+      ],
+      "decision": "retain-partial-mechanism-with-conditions",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。"
+    },
+    {
+      "taskId": "cn-ag-vegetable-seedling-009",
+      "title": "隔离并处理异常苗盘（异常苗不混入出圃批次）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-009-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-009-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        5
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-vegetable-seedling-010",
+      "title": "包装并移交合格菜苗（品种数量和完整性可核对）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-010-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-010-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        6
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-vegetable-fruiting-004",
+      "title": "接收并核对果菜种苗（品种数量与计划一致）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-004-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-004-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        6
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-vegetable-fruiting-015",
+      "title": "加固棚体并执行风雪排险（危险点处理或受控记录完整）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-015-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-015-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        7
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": true,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-vegetable-fruiting-016",
+      "title": "维护果菜修剪与环控器具（保养记录可查）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-016-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-016-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        7
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-vegetable-fruiting-017",
+      "title": "移交已分批集装果菜（数量质量条件双方可确认）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-017-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-017-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        8
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-vegetable-leafy-003",
+      "title": "调整叶菜播种机株行距和播深（试播结果符合方案）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-003-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-003-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        8
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": true,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-vegetable-leafy-005",
+      "title": "观察播种机下种连续性（故障或漏播位置可追踪）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-005-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-005-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        9
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": true,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-vegetable-leafy-006",
+      "title": "停止并修复异常排种（试播复核后可继续）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-006-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-006-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        9
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": true,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-vegetable-leafy-008",
+      "title": "检查叶菜群体采收条件（成熟一致性有检查依据）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-008-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-008-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        10
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": true,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-vegetable-leafy-012",
+      "title": "清理收菜刀具及输送机构（残留清理和运行检查记录可查）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-012-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-012-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        10
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-vegetable-leafy-013",
+      "title": "交付装箱叶菜至场边承运点（数量批次和外观双方确认）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-013-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-013-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        11
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-001",
+      "title": "刈割苹果园行间草被（行间作业和覆盖条件可查）",
+      "inputTaskStatus": "candidate-mechanism-awaiting-independent-review",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-001-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-001-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        11
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [
+        "CN-AG-REVIEW-SOURCE-11-05-mowing"
+      ],
+      "decision": "retain-partial-mechanism-with-conditions",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。"
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-002",
+      "title": "改良苹果树下土壤（施用位置和材料有记录）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-002-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-002-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        12
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-003",
+      "title": "向苹果根区施用基肥（树区与投入品记录对应）",
+      "inputTaskStatus": "candidate-mechanism-awaiting-independent-review",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-003-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-003-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        12
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [
+        "CN-AG-REVIEW-SOURCE-12-04-fertilizer"
+      ],
+      "decision": "retain-partial-mechanism-with-conditions",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。"
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-004",
+      "title": "疏除影响树形的苹果枝条（保留枝和剪口可复核）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-004-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-004-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        13
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-005",
+      "title": "拉枝固定苹果枝组（枝位稳定且无明显损伤）",
+      "inputTaskStatus": "candidate-mechanism-awaiting-independent-review",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-005-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-005-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        13
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [
+        "CN-AG-REVIEW-SOURCE-13-01-branch-pull"
+      ],
+      "decision": "retain-partial-mechanism-with-conditions",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。"
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-006",
+      "title": "按成熟安排解除苹果套袋（摘袋批次与果面状态可查）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-006-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-006-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        14
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-007",
+      "title": "调整苹果受光面与周边叶片（不造成明显果枝损伤）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-007-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-007-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        14
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-009",
+      "title": "判定苹果采收批次（采收依据和地块对应）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-009-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-009-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        15
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-012",
+      "title": "排除受涝苹果园积水（沟渠通畅且处置记录完整）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-012-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-012-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        15
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-013",
+      "title": "扶正受灾倾斜苹果树（树体稳固并记录伤损）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-013-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-013-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        16
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-014",
+      "title": "清理雹伤苹果及折损枝条（树上异常与地面残留可查）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-014-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-014-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        16
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-015",
+      "title": "收集病残枝叶并清理作业器具（病残物去向和器具状态可查）",
+      "inputTaskStatus": "candidate-mechanism-awaiting-independent-review",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-015-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-015-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        17
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [
+        "CN-AG-REVIEW-SOURCE-17-11-branch-shred",
+        "CN-AG-REVIEW-SOURCE-17-11-wet-clog"
+      ],
+      "decision": "retain-adjacent-process-only",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。"
+    },
+    {
+      "taskId": "cn-ag-apple-orchard-016",
+      "title": "核交采收苹果批次（数量与质量异议有记录）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-016-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-016-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        17
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-001",
+      "title": "检查并防潮储放菌袋原料（霉变和受潮批次分开）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-001-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-001-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        18
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-002",
+      "title": "清理消毒菌棒接种空间与器具（消毒与使用记录可查）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-002-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-002-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        18
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-006",
+      "title": "将灭菌菌袋送入受控冷却区（批次清楚且污染防护完整）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-006-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-006-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        19
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-008",
+      "title": "将接种菌袋移入培养位置（架位和菌袋批次可追溯）",
+      "inputTaskStatus": "candidate-mechanism-awaiting-independent-review",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-008-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-008-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        19
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [
+        "CN-AG-REVIEW-SOURCE-19-00-rack"
+      ],
+      "decision": "retain-partial-mechanism-with-conditions",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。"
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-009",
+      "title": "调节菌棒培养温湿度和通风（环境异常与调节可追溯）",
+      "inputTaskStatus": "candidate-mechanism-awaiting-independent-review",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-009-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-009-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        20
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [
+        "CN-AG-REVIEW-SOURCE-19-00-climate"
+      ],
+      "decision": "retain-partial-mechanism-with-conditions",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。"
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-010",
+      "title": "补充菌棒培养所需水分（方法与菌种阶段匹配）",
+      "inputTaskStatus": "candidate-mechanism-awaiting-independent-review",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-010-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-010-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        20
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [
+        "CN-AG-REVIEW-SOURCE-20-04-bag-water",
+        "CN-AG-REVIEW-SOURCE-20-04-manual-feed"
+      ],
+      "decision": "retain-partial-mechanism-with-conditions",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。"
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-012",
+      "title": "隔离受污染菌棒（异常批次不回流正常生产）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-012-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-012-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        21
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-014",
+      "title": "整理并保鲜交付鲜菇（质量和移交时间可核对）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-014-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-014-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        21
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-015",
+      "title": "加固菌棚并疏通排水沟（棚体风险和水路检查完成）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-015-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-015-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        22
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-mushroom-bags-016",
+      "title": "清理更换防虫设施（破损和污染状态经检查）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-016-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-016-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        22
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-001",
+      "title": "调查恢复地块立地条件（土壤坡面与植被现状可复核）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-001-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-001-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        23
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-002",
+      "title": "核对拟种植苗木与恢复方案（树种与地块方案相符）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-002-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-002-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        23
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-004",
+      "title": "回填并压实需恢复的土层（土层和坡面符合设计验收项）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-004-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-004-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        24
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-006",
+      "title": "运入并点交待栽苗木（树种数量及失水损伤可查）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-006-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-006-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        24
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-007",
+      "title": "将苗木栽入恢复地块（栽植姿态和覆土符合设计）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-007-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-007-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        25
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-008",
+      "title": "对幼林除草松土及补充水肥（作业范围与苗木损伤可查）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-008-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-008-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        25
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-forest-restoration-010",
+      "title": "在缺株位置补植苗木（补植范围及复查记录完整）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-010-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-010-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        26
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-001",
+      "title": "检查饲料槽与供料状态（存料和故障状态可查）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-001-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-001-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        26
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-003",
+      "title": "检查并恢复猪群饮水供给（供水状态和故障记录可查）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-003-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-003-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        27
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-006",
+      "title": "将异常猪只移入隔离栏（身份栏位及转入时间可追溯）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-006-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-006-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        27
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-007",
+      "title": "协助采集并移交猪只检测样本（样本身份和交接链一致）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-007-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-007-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        28
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-008",
+      "title": "按保存要求接收与储放疫苗（冷链与有效期检查可查）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-008-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-008-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        28
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-010",
+      "title": "核查引入猪只并转入隔离区（来源个体与健康记录一致）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-010-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-010-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        29
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-011",
+      "title": "将获准猪群按批次转栏或出猪（猪只数量身份及去向一致）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-011-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-011-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        29
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-014",
+      "title": "按流程清洗消毒进出车辆（流程各步及检测结果可核对）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-014-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-014-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        30
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pig-husbandry-016",
+      "title": "归集并移交病死猪及污染物（身份数量去向可追溯）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-016-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-016-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        30
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-dairy-milking-005",
+      "title": "挤取前奶并检查异常（异常牛只可追溯）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-005-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-005-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        31
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-dairy-milking-006",
+      "title": "分开采集和存放异常乳（不混入正常乳且有报告）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-006-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-006-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        31
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-dairy-milking-009",
+      "title": "重新调整偏位挤奶杯组（奶流与真空恢复稳定）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-009-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-009-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        32
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": true,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-dairy-milking-012",
+      "title": "将生鲜乳密闭冷却储存（温度时间与批次记录可查）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-012-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-012-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        32
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-dairy-milking-013",
+      "title": "采样编号并检查生鲜乳（样品编号对应乳批）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-013-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-013-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        33
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-dairy-milking-014",
+      "title": "将合格乳批封罐交付承运方（封识批次与数量记录一致）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-014-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-014-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        33
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pond-fish-001",
+      "title": "清理消毒放苗池塘（清塘消毒及放苗条件可查）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-001-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-001-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        34
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pond-fish-002",
+      "title": "接收并放入鱼苗批次（苗种来源数量与池号对应）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-002-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-002-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        34
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pond-fish-003",
+      "title": "将规格分化的鱼苗分池（批次池号与转移情况可追溯）",
+      "inputTaskStatus": "candidate-mechanism-awaiting-independent-review",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-003-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-003-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        35
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [
+        "CN-AG-REVIEW-SOURCE-35-01-fish-sort",
+        "CN-AG-REVIEW-SOURCE-35-01-fish-repeat"
+      ],
+      "decision": "retain-partial-mechanism-with-conditions",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。"
+    },
+    {
+      "taskId": "cn-ag-pond-fish-009",
+      "title": "送检疑似患病鱼样（样品与池塘批次一致）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-009-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-009-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        35
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pond-fish-010",
+      "title": "捞出并隔离病死鱼（数量和去向可追溯）",
+      "inputTaskStatus": "candidate-mechanism-awaiting-independent-review",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-010-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-010-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        36
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [
+        "CN-AG-REVIEW-SOURCE-36-08-dead-fish"
+      ],
+      "decision": "retain-partial-mechanism-with-conditions",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "按逐声明修订条件关联；原候选输出及验收未被全覆盖，不增加任务计数。"
+    },
+    {
+      "taskId": "cn-ag-pond-fish-012",
+      "title": "将养殖鱼批点交接收方（池号批次与数量一致）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-012-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-012-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        36
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pond-fish-013",
+      "title": "清洗消毒跨池使用的器具（不同健康区器具分开）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-013-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-013-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        37
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pond-fish-015",
+      "title": "按确认方案处置异常水体及尾水（与池号检测处置方案对应）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-015-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-015-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        37
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-001",
+      "title": "核对虾蟹苗种病原检测（样品批次和结果对应）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-001-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-001-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        38
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-002",
+      "title": "检查加固虾蟹塘堤坝和水电设施（隐患清单有处置结果）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-002-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-002-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        38
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-004",
+      "title": "对一级池水消毒并沉淀（处理时序和检测可核对）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-004-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-004-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        39
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-007",
+      "title": "将获准种苗移入标粗或养殖池（池号批次与健康检查对应）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-007-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-007-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        39
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-008",
+      "title": "将合格对虾分级转池（健康检查与目标池匹配）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-008-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-008-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        40
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-012",
+      "title": "收获达到条件的虾蟹（批次和损伤状态可核对）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-012-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-012-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        40
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-013",
+      "title": "阻断病原风险区器具混用（器具归区和洗消可追溯）",
+      "inputTaskStatus": "no-additional-retained-matching-mechanism",
+      "queryIds": [
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-013-positive",
+        "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-013-negative"
+      ],
+      "queryPairVerified": true,
+      "queryBatchIds": [
+        41
+      ],
+      "responseAttribution": "batch-results-not-assigned-to-individual-query",
+      "inputClaimIds": [],
+      "decision": "retain-no-additional-matching-mechanism",
+      "existingFirstPassHasClaimRefs": false,
+      "note": "只裁决补检新增内容；首稿已修订的机制不被本批空结果覆盖。"
+    }
+  ],
+  "additionalExistingTaskDecisions": [
+    {
+      "taskId": "cn-ag-pig-husbandry-005",
+      "title": "逐栏观察猪只临床表现（异常猪只与栏位可定位）",
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-26-01-pig-monitor"
+      ],
+      "decision": "retain-existing-task-additional-partial-source",
+      "countAsQueriedTask": false,
+      "countAsNewTask": false
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-003",
+      "title": "将外源水送入一级处理池（来源批次和处理记录可查）",
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-39-06-source-water"
+      ],
+      "decision": "retain-adjacent-scenario-only",
+      "countAsQueriedTask": false,
+      "countAsNewTask": false
+    },
+    {
+      "taskId": "cn-ag-pond-shrimp-005",
+      "title": "将表层水转入二级池（转移池号和时序一致）",
+      "claimIds": [
+        "CN-AG-REVIEW-SOURCE-39-06-source-water"
+      ],
+      "decision": "retain-adjacent-scenario-only",
+      "countAsQueriedTask": false,
+      "countAsNewTask": false
+    }
+  ],
+  "queryAudit": {
+    "verifiedBatchCount": 42,
+    "verifiedQueryCount": 166,
+    "verifiedTaskPairs": 83,
+    "batches": [
+      {
+        "batchId": 0,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-001-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-001-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-006-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-006-negative"
+        ],
+        "rawFileSHA256": "835d573b5d85bf1069f9fe706ddd1e492de9020181db685a45f848c6e423fce2",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 1,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-007-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-007-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-009-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-009-negative"
+        ],
+        "rawFileSHA256": "abe602cc3a4e90428cd40ece106a91662dd8df5cf6e70b74031f5c0be582bb91",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 2,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-013-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-013-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-016-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-016-negative"
+        ],
+        "rawFileSHA256": "f6b620a3af68885ac7b928d71f9a254cdd081a8f8422f9e741d0ab6baa915d54",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 3,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-017-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-wheat-field-017-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-001-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-001-negative"
+        ],
+        "rawFileSHA256": "222ad304b873ebd526f0a16861b6e781a779293b1c70e2da18f272f80f6914d4",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 4,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-002-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-002-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-007-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-007-negative"
+        ],
+        "rawFileSHA256": "fb2de18aea561462ebfee86745dca7e58618f6bc9ab9d10365ea336942bf51f2",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 5,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-008-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-008-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-009-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-009-negative"
+        ],
+        "rawFileSHA256": "dcd5a27fa4b950b69ffc0647aa3e30ca7f89cbb03d3dea26ec68bdb1c02b2a86",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 6,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-010-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-seedling-010-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-004-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-004-negative"
+        ],
+        "rawFileSHA256": "fda91a71f299aed3e82ac0ba71b07dbc3861e1ffeddce8d7a5a3ba8f6a5e3e41",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 7,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-015-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-015-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-016-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-016-negative"
+        ],
+        "rawFileSHA256": "99b4975cacbd24121474ee8a5cbef77f4468d571d68b5595c9a90b1d608d0add",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 8,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-017-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-fruiting-017-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-003-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-003-negative"
+        ],
+        "rawFileSHA256": "d6e92be26332b8c50793ac909d7231e8fabe1461c45ad4268f5436a6b50a4584",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 9,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-005-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-005-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-006-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-006-negative"
+        ],
+        "rawFileSHA256": "c74eb897d33247dcbfa61a068ca40e5b7ee7f5a4c05c79b6a792bd10e9007d17",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 10,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-008-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-008-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-012-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-012-negative"
+        ],
+        "rawFileSHA256": "b2a11680f5f528bbc49c1eac2b3f0af1d1b7928a8ed17fbec01990ae2a9f0e2d",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 11,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-013-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-vegetable-leafy-013-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-001-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-001-negative"
+        ],
+        "rawFileSHA256": "491ca3175082786b6282f491e5f052aa035c69d291758aefa531a755840e7e9a",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 12,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-002-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-002-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-003-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-003-negative"
+        ],
+        "rawFileSHA256": "2c4b457e930c28ee4ba3e59f0261e2f6a1b7af9534f6c2fbbd1c33b75d43868e",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 13,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-004-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-004-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-005-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-005-negative"
+        ],
+        "rawFileSHA256": "9aa91655ac5e6784220b5d46ad7539dc9af8dfbfa238c0ca253a34b4acb08b4e",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 14,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-006-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-006-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-007-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-007-negative"
+        ],
+        "rawFileSHA256": "9fab0b4df22d536083a043f7c26eaba9f4de8237ebc43f42c8343469994b287c",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 15,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-009-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-009-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-012-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-012-negative"
+        ],
+        "rawFileSHA256": "2b98f7aec3757c168177228bb2570ee6259d63bbe2fb16b93dd3ef5e1a631b79",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 16,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-013-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-013-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-014-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-014-negative"
+        ],
+        "rawFileSHA256": "d6d4158669b19dcd755992e4d9a07e9792636cf6b4c63c5f74e51d3d1ade4fe7",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 17,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-015-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-015-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-016-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-apple-orchard-016-negative"
+        ],
+        "rawFileSHA256": "e4215bcb71702ddb8cbdba3c935406c56ae2997b3b47b2ee34662faba6865904",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 18,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-001-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-001-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-002-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-002-negative"
+        ],
+        "rawFileSHA256": "7b4c98f31b4bf67dc7132592bf1ab673365421e4f906e0ea4a0c0a1293657447",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 19,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-006-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-006-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-008-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-008-negative"
+        ],
+        "rawFileSHA256": "cb8798205672e01d4a46727b0d6dbb83539e81898752bcc83e3bc438be2b1b85",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 20,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-009-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-009-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-010-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-010-negative"
+        ],
+        "rawFileSHA256": "2498aa066910f172aeaa5d163494ed2101f4d46f3264bcae88801fa68af280a0",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 21,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-012-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-012-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-014-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-014-negative"
+        ],
+        "rawFileSHA256": "490761e821633ffaad29698532f3b6ac30cb9725d4b06028555edf22fb4d4234",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 22,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-015-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-015-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-016-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-mushroom-bags-016-negative"
+        ],
+        "rawFileSHA256": "9b89e9f857fe21f993a35ab49931770082a262dce0be30156ee95fc12b55fbf4",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 23,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-001-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-001-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-002-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-002-negative"
+        ],
+        "rawFileSHA256": "70fc9c7a1a125d40b2b9c2f71a431e3539469c9c5f60a1287d0476ac48b608c2",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 24,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-004-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-004-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-006-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-006-negative"
+        ],
+        "rawFileSHA256": "17f88b8241c8abbb51c48f5e03ec02da3913510df11cbf00dbc597d9f84135f6",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 25,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-007-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-007-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-008-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-008-negative"
+        ],
+        "rawFileSHA256": "53fdf55c086747871b84f7a570f116cf8547f7db9fcd250cbd9ca4ca3ac4d829",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 26,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-010-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-forest-restoration-010-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-001-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-001-negative"
+        ],
+        "rawFileSHA256": "80cd1877d3eeacfa38cc055ffbfe09f3e723e45f8ea6cfc0ca7f5fd20e2d5379",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 27,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-003-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-003-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-006-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-006-negative"
+        ],
+        "rawFileSHA256": "6e3c74caf9819b457039a12364764ebf7bc7be7e21ed6da4a5b6256d81b7742d",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 28,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-007-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-007-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-008-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-008-negative"
+        ],
+        "rawFileSHA256": "7432a08745315c456bb9626999ae0a2d4b32c4b43c048625dc51efe5d1067319",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 29,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-010-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-010-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-011-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-011-negative"
+        ],
+        "rawFileSHA256": "e67097e4956e992888728d21fade615fedd71205689b63ac19bb29e53717722e",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 30,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-014-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-014-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-016-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pig-husbandry-016-negative"
+        ],
+        "rawFileSHA256": "032ab76b19a6aed747b31ad2e102b5b6b7c71d1aa12134182b0eb4f81dd7fc49",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 31,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-005-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-005-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-006-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-006-negative"
+        ],
+        "rawFileSHA256": "d8227948e8ca2bced0ef215d22b18cc26a8d61e73f753f23bff17f1e48d30223",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 32,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-009-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-009-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-012-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-012-negative"
+        ],
+        "rawFileSHA256": "c60419e5350a8535dc81614e8ea25aad99116520b1877fa41b9c4eb2873d126d",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 33,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-013-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-013-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-014-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-dairy-milking-014-negative"
+        ],
+        "rawFileSHA256": "05788efc010d43a25d0b7f6c600c6bd8726606239e211389ab25216fb862590e",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 34,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-001-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-001-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-002-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-002-negative"
+        ],
+        "rawFileSHA256": "47ff933fb7bb3a8c618c07df965a0c90ae94c5b5733e2456afbe420fc3f938ac",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 35,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-003-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-003-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-009-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-009-negative"
+        ],
+        "rawFileSHA256": "a69aeae5f28ac44245d525d63203babb8e0c1b80be51c53a39e91e0b3e07d75b",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 36,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-010-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-010-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-012-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-012-negative"
+        ],
+        "rawFileSHA256": "06692f60a4fe0f77b48841c62ab7928dd6bd2695b73860110c1cd369bd94193c",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 37,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-013-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-013-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-015-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-fish-015-negative"
+        ],
+        "rawFileSHA256": "2a40b6a61c604bba727aa1b1c6ca5326dc20fda080d3baadd69f2dbe51cf9a59",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 38,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-001-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-001-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-002-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-002-negative"
+        ],
+        "rawFileSHA256": "21cc12b9ff957b66c8b978e88a37e4bd9224ec7d17dbcdf83067f1bdf04fc951",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 39,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-004-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-004-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-007-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-007-negative"
+        ],
+        "rawFileSHA256": "1f7fa23c8c719bae1f0b53f3c88a425de19a48d8c81325ab9191600c79fc1c50",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 40,
+        "requestQueryCount": 4,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-008-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-008-negative",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-012-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-012-negative"
+        ],
+        "rawFileSHA256": "2fb153e76a6fd23bf4521ba3be510d734101c6e5f439899a3a191bdb6462e726",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      },
+      {
+        "batchId": 41,
+        "requestQueryCount": 2,
+        "queryIds": [
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-013-positive",
+          "CN-AG-REVIEW-SEARCH-cn-ag-pond-shrimp-013-negative"
+        ],
+        "rawFileSHA256": "eaca50a003529ecd5e42e210794330c8eaa1ec3d9ea0591b9720705098febcbf",
+        "requestAndResponseVerified": true,
+        "timestampVerified": true,
+        "resultCandidatesAssignedOnlyToBatch": true
+      }
+    ],
+    "earliestStartUTC": "2026-09-09 09:41:11 UTC",
+    "latestCompletionUTC": "2026-09-09 09:42:16 UTC",
+    "versionBoundary": {
+      "auditSearchPlanningFirstPassSHA256": "50bbcc891b2380aaf75f37669d77199c831fb2931aa2d7e42e6eeb76215890d9",
+      "followupContextFirstPassSHA256": "29623933f780c5236243d63e142d40a825b47273ef46dfc721133c85e90cb5d3",
+      "decision": "retain-with-explicit-version-explanation",
+      "explanation": "查询按原50bbcc版83项未保留机制任务启动；主文件已指向296239修订稿。修订稿中10个被查询任务现已有claimRefs，空补检结论只能解释为无新增匹配机制，不能复写为总机制数为零。"
+    },
+    "candidateAttribution": "4查询合并回包（末批2条）只归属批次；不推算单条正/反查询召回数或把所有候选当反例。"
+  },
+  "requiredAggregateChanges": [
+    "将苹果015标为相邻工序线索，不能纳入直接匹配任务数；13个查询任务关联声明，细分为12个局部机制、1个相邻工序。",
+    "按claimDecisions收窄病死鱼捕集范围，补分鱼损伤/人工条件、菌棒回用水验证问题，并将虾源水场景写入声明正文。",
+    "保留5份已读排除/不足及6份本次读取失败，不将缺口升级为技术或经济障碍。",
+    "源rawSHA256实际对完整缓存JSON求哈希，元数据需明确hashScope以便复算。"
+  ],
+  "counts": {
+    "sourceCandidatesReviewed": 23,
+    "retainedSourceTextRead": 12,
+    "excludedOrInsufficientSourceTextRead": 5,
+    "fetchFailuresChecked": 6,
+    "claimsReviewed": 18,
+    "claimsRetainedAsPartialOrBoundaryEvidence": 15,
+    "claimsRetainedOnlyAsAdjacentEvidence": 3,
+    "queriedTasksReviewed": 83,
+    "queriedTasksWithPartialMechanism": 12,
+    "queriedTasksWithAdjacentProcessOnly": 1,
+    "queriedTasksWithNoAdditionalMatchingMechanism": 70,
+    "additionalExistingTaskLinks": 3,
+    "newTasksCounted": 0,
+    "fullTaskAutomationConfirmed": 0,
+    "currentIndependentCommercialOperationConfirmed": 0,
+    "paybackCalculated": 0
+  },
+  "canFreeze": false,
+  "publicationBoundary": "此裁决仅覆盖指定补检工作版；不是农业全任务研究冻结或整行业完成。"
+}

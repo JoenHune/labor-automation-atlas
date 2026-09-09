@@ -1,8 +1,9 @@
 import {readFile,writeFile,mkdir,rm} from 'node:fs/promises'
 import {validateResearch} from '../src/research/validate'
-import type {IndustryPage,TaskPage} from '../src/research/site'
+import {createTaskPageBuilder,type IndustryPage} from '../src/research/site'
 const root=new URL('../',import.meta.url)
 const data=validateResearch(JSON.parse(await readFile(new URL('data/research.json',root),'utf8')))
+const taskPage=createTaskPageBuilder(data)
 const json=(v:unknown)=>JSON.stringify(v,null,2)+'\n'
 const put=async(path:string,body:string)=>{if(await readFile(new URL(path,root),'utf8').catch(()=>null)===body)return;await mkdir(new URL(path.slice(0,path.lastIndexOf('/'))+'/',root),{recursive:true});await writeFile(new URL(path,root),body)}
 const samples=data.tasks.filter(t=>!t.discovery)
@@ -18,11 +19,7 @@ for(const i of data.industries.filter(i=>i.selected)) {
  await put(path,page(i.name,'IndustryView','../../.generated/industries/'+i.id+'.json'))
 }
 for(const t of data.tasks) {
- const claims=data.claims.filter(c=>c.taskId===t.id),searches=data.searches.filter(s=>s.taskId===t.id)
- const refs=[...t.workflowEvidence,...t.occupationEvidence,...t.manualInputs.flatMap(m=>m.evidence),...claims.flatMap(c=>c.evidence)]
- const sourceIds=new Set([...refs.map(e=>e.sourceId),...searches.flatMap(s=>s.results)])
- const scene=data.scenarios.find(s=>s.id===t.scenarioId)!,industry=data.industries.find(i=>i.id===t.industryId)!
- const record:TaskPage={version:data.version,checkedAt:data.checkedAt,task:t,industry:{...industry,inventory:undefined},scenario:{id:scene.id,title:scene.title,scope:scene.scope},claims,searches,sources:data.sources.filter(s=>sourceIds.has(s.id))}
+ const record=taskPage(t)
  const path='docs/'+t.country+'/tasks/'+t.id+'.md';files.push(path)
  if(t.discovery){await put('docs/.generated/tasks/'+t.id+'.json',json(record));await put(path,page(t.title,'CandidateTaskView','../../.generated/tasks/'+t.id+'.json'))}
  else await put(path,'---\ntitle: '+JSON.stringify(t.title)+'\n---\n<TaskView task-id="'+t.id+'" />\n')

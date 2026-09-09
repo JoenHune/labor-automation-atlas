@@ -1,0 +1,2383 @@
+{
+  "country": "CN",
+  "industryId": "cn-construction",
+  "reviewedOn": "2026-09-09",
+  "reviewer": "root，非补研作者",
+  "status": "independent-review-complete-corrections-required",
+  "inputs": {
+    "research/automation/cn-construction-baseline-followup.json": "2e94b9adc3d8332ca87297a4f35df902b3ecea5c347ba9f0393967fc238262f0",
+    "research/automation/cn-construction-baseline-followup-audit.json": "557687733f5a36d90761fc0725e13f24d3d4bb58efadd48813642e432b4c2db5",
+    "research/.private/cn-construction-baseline-cache-map.json": "53fb4f651cefc0c894f2166f80a981b0dd97b43565b1e1fc074e2962722d754f",
+    "research/.private/cn-construction-baseline-queries.json": "dcebc0f48dc7bfc697f1c1193f6489b249a369f89413198daeb659c7ec6f4891",
+    "research/.private/cn-construction-baseline-opened.json": "acdb92fc22db860dfbab443154b8d47c4680959d81d23e5fc1bcdb37f9c4160a"
+  },
+  "counts": {
+    "equipmentGroups": 32,
+    "existingParentTasks": 38,
+    "sourcesRead": 18,
+    "claimsReviewed": 46,
+    "actualSearchQueriesVerified": 69,
+    "mainQueries": 64,
+    "adaptiveQueries": 5,
+    "approvedNewTasks": 0,
+    "frozen": 0
+  },
+  "method": [
+    "独立读32组对应规程条款、14组补充来源原文与元数据，复核全部46声明及38父任务映射。",
+    "国家目录重新打开并阅读建筑淘汰条目，查看本地第129页截图；云南本次网页重开失败，使用已保留原文回包并明确重开结果。",
+    "32条主请求和2条补充请求共69查询的实际请求、前后UTC及原回包摘要与审计逐条一致；不把合并回包归到单条正/反查询。",
+    "完整现金流参数仍空；只对限定方法做研究判断，不新增现场人时、持续商业或净收益证明。"
+  ],
+  "sourceDecisions": [
+    {
+      "sourceId": "CN-CBF-S-C",
+      "url": "https://leadingcloudread.oss-cn-beijing.aliyuncs.com/lizhengyun/1105009575860244482",
+      "readScope": "independent-selected-original-passages",
+      "locatorsRead": [
+        {
+          "sourceId": "CN-CBF-S-C",
+          "locator": "4.2.1、4.4.7—8、4.4.12(5)",
+          "cacheLocator": {
+            "file": "cn-concrete-db1832-2021.txt",
+            "lineStart": 1303,
+            "lineEnd": 1403,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-C",
+          "locator": "12.2.1、12.4.3",
+          "cacheLocator": {
+            "file": "cn-concrete-db1832-2021.txt",
+            "lineStart": 4271,
+            "lineEnd": 4340,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-C",
+          "locator": "12.4.2、12.4.4",
+          "cacheLocator": {
+            "file": "cn-concrete-db1832-2021.txt",
+            "lineStart": 4316,
+            "lineEnd": 4375,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-C",
+          "locator": "12.4.2",
+          "cacheLocator": {
+            "file": "cn-concrete-db1832-2021.txt",
+            "lineStart": 4316,
+            "lineEnd": 4324,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-C",
+          "locator": "12.4.5(3—6)",
+          "cacheLocator": {
+            "file": "cn-concrete-db1832-2021.txt",
+            "lineStart": 4394,
+            "lineEnd": 4415,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-C",
+          "locator": "12.4.5(2)、12.4.6(3—4)",
+          "cacheLocator": {
+            "file": "cn-concrete-db1832-2021.txt",
+            "lineStart": 4390,
+            "lineEnd": 4484,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-C",
+          "locator": "12.4.6(1—2)",
+          "cacheLocator": {
+            "file": "cn-concrete-db1832-2021.txt",
+            "lineStart": 4421,
+            "lineEnd": 4427,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-C",
+          "locator": "13.1.3(4)、13.2.2",
+          "cacheLocator": {
+            "file": "cn-concrete-db1832-2021.txt",
+            "lineStart": 4721,
+            "lineEnd": 4744,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-C",
+          "locator": "13.2.1、13.4.2 加工(1、3)",
+          "cacheLocator": {
+            "file": "cn-concrete-db1832-2021.txt",
+            "lineStart": 4740,
+            "lineEnd": 4791,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-C",
+          "locator": "13.4.2 加工(7)",
+          "cacheLocator": {
+            "file": "cn-concrete-db1832-2021.txt",
+            "lineStart": 4807,
+            "lineEnd": 4813,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-C",
+          "locator": "13.4.2 连接1.2—4、13.5.3(1)",
+          "cacheLocator": {
+            "file": "cn-concrete-db1832-2021.txt",
+            "lineStart": 4830,
+            "lineEnd": 4849,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-C",
+          "locator": "13.3.2、13.4.2 连接2.1",
+          "cacheLocator": {
+            "file": "cn-concrete-db1832-2021.txt",
+            "lineStart": 4751,
+            "lineEnd": 4865,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-C",
+          "locator": "13.4.2 连接1.5",
+          "cacheLocator": {
+            "file": "cn-concrete-db1832-2021.txt",
+            "lineStart": 4851,
+            "lineEnd": 4853,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-C",
+          "locator": "15.2.1、15.4.5(1—2、6—7)",
+          "cacheLocator": {
+            "file": "cn-concrete-db1832-2021.txt",
+            "lineStart": 5486,
+            "lineEnd": 5623,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-C",
+          "locator": "15.4.9(3)",
+          "cacheLocator": {
+            "file": "cn-concrete-db1832-2021.txt",
+            "lineStart": 5663,
+            "lineEnd": 5669,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-C",
+          "locator": "22.4.8",
+          "cacheLocator": {
+            "file": "cn-concrete-db1832-2021.txt",
+            "lineStart": 8515,
+            "lineEnd": 8527,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-C",
+          "locator": "23.4.3(3.7)",
+          "cacheLocator": {
+            "file": "cn-concrete-db1832-2021.txt",
+            "lineStart": 8885,
+            "lineEnd": 8889,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-C",
+          "locator": "23.2.2、23.4.3(1.3—4)",
+          "cacheLocator": {
+            "file": "cn-concrete-db1832-2021.txt",
+            "lineStart": 8778,
+            "lineEnd": 8790,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        }
+      ],
+      "metadataBoundary": "北京；2021 年版本，描述原流程，未作为 2026 年全国现行条文认定",
+      "textCacheSHA256": "7116191a6b34a7bfbdba37da2e25fd67f27ca52103dc3e6fdc739eff11cc8de1",
+      "openedAliases": [],
+      "decision": "retain-original-evidence-level",
+      "notCommercialEvidence": true
+    },
+    {
+      "sourceId": "CN-CBF-S-D",
+      "url": "https://dbba.sacinfo.org.cn/portal/download/d3c0e94118703a2dbe066b1c1247108e1d031f6ded8596e3a616df7fa417d45d",
+      "readScope": "independent-selected-original-passages",
+      "locatorsRead": [
+        {
+          "sourceId": "CN-CBF-S-D",
+          "locator": "3.2.1、3.4.6(1)",
+          "cacheLocator": {
+            "file": "cn-decoration-db1832-2022.txt",
+            "lineStart": 429,
+            "lineEnd": 430,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-D",
+          "locator": "3.2.1、3.4.3(8)",
+          "cacheLocator": {
+            "file": "cn-decoration-db1832-2022.txt",
+            "lineStart": 418,
+            "lineEnd": 419,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-D",
+          "locator": "3.4.6(2—6)",
+          "cacheLocator": {
+            "file": "cn-decoration-db1832-2022.txt",
+            "lineStart": 432,
+            "lineEnd": 451,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-D",
+          "locator": "3.4.7(1)、3.5.11表",
+          "cacheLocator": {
+            "file": "cn-decoration-db1832-2022.txt",
+            "lineStart": 508,
+            "lineEnd": 519,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-D",
+          "locator": "7.2.2—3、7.4.3",
+          "cacheLocator": {
+            "file": "cn-decoration-db1832-2022.txt",
+            "lineStart": 1696,
+            "lineEnd": 1703,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-D",
+          "locator": "7.2.6、7.4.4",
+          "cacheLocator": {
+            "file": "cn-decoration-db1832-2022.txt",
+            "lineStart": 1705,
+            "lineEnd": 1720,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-D",
+          "locator": "7.4.4、7.4.5",
+          "cacheLocator": {
+            "file": "cn-decoration-db1832-2022.txt",
+            "lineStart": 1705,
+            "lineEnd": 1733,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-D",
+          "locator": "7.2.1、7.4.5(1)",
+          "cacheLocator": {
+            "file": "cn-decoration-db1832-2022.txt",
+            "lineStart": 1722,
+            "lineEnd": 1733,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-D",
+          "locator": "7.2.2—3、7.4.5—6",
+          "cacheLocator": {
+            "file": "cn-decoration-db1832-2022.txt",
+            "lineStart": 1722,
+            "lineEnd": 1745,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-D",
+          "locator": "7.2.5、7.4.7",
+          "cacheLocator": {
+            "file": "cn-decoration-db1832-2022.txt",
+            "lineStart": 1747,
+            "lineEnd": 1763,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-D",
+          "locator": "10.4.7—9",
+          "cacheLocator": {
+            "file": "cn-decoration-db1832-2022.txt",
+            "lineStart": 2644,
+            "lineEnd": 2658,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-D",
+          "locator": "21.2.2、21.4.6(3)",
+          "cacheLocator": {
+            "file": "cn-decoration-db1832-2022.txt",
+            "lineStart": 5069,
+            "lineEnd": 5070,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        },
+        {
+          "sourceId": "CN-CBF-S-D",
+          "locator": "21.2.1、21.4.3(2)",
+          "cacheLocator": {
+            "file": "cn-decoration-db1832-2022.txt",
+            "lineStart": 5021,
+            "lineEnd": 5022,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        }
+      ],
+      "metadataBoundary": "北京；2022 年版本，项目适用性及修订仍需核查",
+      "textCacheSHA256": "b10a4ca75ca8d10e31c166bd75a333a05e79f53330d52091d8b23329a0a56d1c",
+      "openedAliases": [],
+      "decision": "retain-original-evidence-level",
+      "notCommercialEvidence": true
+    },
+    {
+      "sourceId": "CN-CBF-S-W",
+      "url": "https://slt.ln.gov.cn/slt/zfxxgk/fdzdgknr/lzyj/bbmgfxwj/2025042116584218642/index.shtml",
+      "readScope": "independent-selected-original-passages",
+      "locatorsRead": [
+        {
+          "sourceId": "CN-CBF-S-W",
+          "locator": "6.1.2(2—5)",
+          "cacheLocator": {
+            "file": "cn-rural-water-ln-2013.txt",
+            "lineStart": 612,
+            "lineEnd": 615,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        }
+      ],
+      "metadataBoundary": "成文日不明；网页日期与正文月份分开。",
+      "textCacheSHA256": "321ca2cdfa9f96d95aa7bda852c7662e599b4b026bb40e05427dd86ecf0b1fb5",
+      "openedAliases": [],
+      "decision": "retain-original-evidence-level",
+      "notCommercialEvidence": true
+    },
+    {
+      "sourceId": "CN-CBF-S-N",
+      "url": "https://www.ndrc.gov.cn/xxgk/zcfb/fzggwl/202312/P020231229553988768662.pdf",
+      "readScope": "independent-selected-original-passages",
+      "locatorsRead": [
+        {
+          "sourceId": "CN-CBF-S-N",
+          "locator": "第三类 淘汰类（十八）建筑第 2 项；PDF 第 129 页，前页分组标题；网页提取 L2726—2729；发布页 L4、L16、L22"
+        }
+      ],
+      "metadataBoundary": "publishedAt 为发布网页日；正文签署日另记。",
+      "textCacheSHA256": "12e26673fd11228218dd602bd19d01deb4217fca3242702599d35c1bf96e5ccb",
+      "openedAliases": [
+        "NDRC",
+        "NDRC-META",
+        "NDRC-BUILD"
+      ],
+      "decision": "retain-original-evidence-level",
+      "notCommercialEvidence": true
+    },
+    {
+      "sourceId": "CN-CBF-S-Y",
+      "url": "https://zfcxjst.yn.gov.cn/zhengfuwenjian8655/287490.html",
+      "readScope": "independent-selected-original-passages",
+      "locatorsRead": [
+        {
+          "sourceId": "CN-CBF-S-Y",
+          "locator": "房屋建筑工程 1.1.2；网页 L36、L63、L81—89"
+        }
+      ],
+      "metadataBoundary": "云南新开工房屋建筑和市政基础设施工程；需按目录分项范围读取",
+      "textCacheSHA256": null,
+      "openedAliases": [
+        "MOHURD-YN"
+      ],
+      "decision": "retain-original-evidence-level",
+      "notCommercialEvidence": true
+    },
+    {
+      "sourceId": "CN-CBF-S-T",
+      "url": "https://zjw.beijing.gov.cn/bjjs/xxgk/zcwj2024/gfxwj40/xxyx/543334446/index.shtml",
+      "readScope": "independent-selected-original-passages",
+      "locatorsRead": [
+        {
+          "sourceId": "CN-CBF-S-T",
+          "locator": "正文第 2 项及结尾落款；网页 L40（长单行正文）"
+        }
+      ],
+      "metadataBoundary": "北京施工现场；2010 年文件，未用作全国事故发生率",
+      "textCacheSHA256": null,
+      "openedAliases": [
+        "TOWER"
+      ],
+      "decision": "retain-original-evidence-level",
+      "notCommercialEvidence": true
+    },
+    {
+      "sourceId": "CN-CBF-S-S",
+      "url": "https://www.sanygroup.com/activity/3744.html",
+      "readScope": "independent-selected-original-passages",
+      "locatorsRead": [
+        {
+          "sourceId": "CN-CBF-S-S",
+          "locator": "清洗方法、注意事项；网页 L244—261"
+        }
+      ],
+      "metadataBoundary": "厂商面向混凝土泵管的操作资料；没有具名中国工地绩效",
+      "textCacheSHA256": null,
+      "openedAliases": [
+        "SANYCLEAN"
+      ],
+      "decision": "retain-original-evidence-level",
+      "notCommercialEvidence": true
+    },
+    {
+      "sourceId": "CN-CBF-S-H",
+      "url": "https://patents.google.com/patent/CN109894546A/zh",
+      "readScope": "independent-selected-original-passages",
+      "locatorsRead": [
+        {
+          "sourceId": "CN-CBF-S-H",
+          "locator": "摘要及说明书背景/实施方式；网页 L71、L82、L92—110"
+        }
+      ],
+      "metadataBoundary": "中国专利；已固定外露钢筋等限定场景，非商业采用证明",
+      "textCacheSHA256": null,
+      "openedAliases": [
+        "HANDSTRAIGHT"
+      ],
+      "decision": "retain-original-evidence-level",
+      "notCommercialEvidence": true
+    },
+    {
+      "sourceId": "CN-CBF-S-R",
+      "url": "https://www.hrgjjxlj.com/Products/Col23/39.html",
+      "readScope": "independent-selected-original-passages",
+      "locatorsRead": [
+        {
+          "sourceId": "CN-CBF-S-R",
+          "locator": "产品使用方法与注意事项；网页 L57—69"
+        }
+      ],
+      "metadataBoundary": "中国厂商产品资料，现场用户与销量不明",
+      "textCacheSHA256": null,
+      "openedAliases": [
+        "TORQUE"
+      ],
+      "decision": "retain-original-evidence-level",
+      "notCommercialEvidence": true
+    },
+    {
+      "sourceId": "CN-CBF-S-PR",
+      "url": "https://www.nipponpaint.com.cn/product/1275",
+      "readScope": "independent-selected-original-passages",
+      "locatorsRead": [
+        {
+          "sourceId": "CN-CBF-S-PR",
+          "locator": "施工方法/施工条件；网页 L42—44、L58—60"
+        }
+      ],
+      "metadataBoundary": "中国产品页；特定底漆材料",
+      "textCacheSHA256": null,
+      "openedAliases": [
+        "PRIMER"
+      ],
+      "decision": "retain-original-evidence-level",
+      "notCommercialEvidence": true
+    },
+    {
+      "sourceId": "CN-CBF-S-YU",
+      "url": "https://www.yuhong.com.cn/Media/Selection/2020/0604/10116.html",
+      "readScope": "independent-selected-original-passages",
+      "locatorsRead": [
+        {
+          "sourceId": "CN-CBF-S-YU",
+          "locator": "施工步骤及注意事项；网页 L89—96、L104、L110"
+        }
+      ],
+      "metadataBoundary": "页面正文日期；未用 URL 中 0604 推断发布日期。",
+      "textCacheSHA256": null,
+      "openedAliases": [
+        "YUHONGSAND"
+      ],
+      "decision": "retain-original-evidence-level",
+      "notCommercialEvidence": true
+    },
+    {
+      "sourceId": "CN-CBF-S-L",
+      "url": "https://cdn-global.laticrete.com/-/media/project/laticrete-international/china/product-documents/copy-of-ds-cn-tile--adhesive-all-in-one-plus-3.pdf",
+      "readScope": "independent-selected-original-passages",
+      "locatorsRead": [
+        {
+          "sourceId": "CN-CBF-S-L",
+          "locator": "适用范围/限制与施工；网页 L13—25、L127—139、L151"
+        }
+      ],
+      "metadataBoundary": "代码中的 0822 不解析成发布日期。",
+      "textCacheSHA256": null,
+      "openedAliases": [
+        "TILETECH"
+      ],
+      "decision": "retain-original-evidence-level",
+      "notCommercialEvidence": true
+    },
+    {
+      "sourceId": "CN-CBF-S-G",
+      "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/333/333182/333192ZH.pdf",
+      "readScope": "independent-selected-original-passages",
+      "locatorsRead": [
+        {
+          "sourceId": "CN-CBF-S-G",
+          "locator": "概述及操作/维护；网页 L0、L128—142、L162—168、L184—210；本地末页修订行"
+        }
+      ],
+      "metadataBoundary": "本地全文末页 Revision D, January 2026；版权年份不作为出版日期。",
+      "textCacheSHA256": "f9b94c4477198683f666531afc1055737c08b60188e961524c179282fd96a1d7",
+      "openedAliases": [
+        "SPRAYMANUAL",
+        "SPRAYMANUAL-END"
+      ],
+      "decision": "retain-original-evidence-level",
+      "notCommercialEvidence": true
+    },
+    {
+      "sourceId": "CN-CBF-S-HP",
+      "url": "https://patents.google.com/patent/CN211681906U/zh",
+      "readScope": "independent-selected-original-passages",
+      "locatorsRead": [
+        {
+          "sourceId": "CN-CBF-S-HP",
+          "locator": "摘要及实施方式；网页 L70、L74、L79—102"
+        }
+      ],
+      "metadataBoundary": "中国专利；限定层高室内吊杆成孔，不是整套吊顶安装",
+      "textCacheSHA256": null,
+      "openedAliases": [
+        "HAMMERPATENT"
+      ],
+      "decision": "retain-original-evidence-level",
+      "notCommercialEvidence": true
+    },
+    {
+      "sourceId": "CN-CBF-S-GP",
+      "url": "https://patents.google.com/patent/CN108687596A/zh",
+      "readScope": "independent-selected-original-passages",
+      "locatorsRead": [
+        {
+          "sourceId": "CN-CBF-S-GP",
+          "locator": "背景与实施方式；网页 L132—162"
+        }
+      ],
+      "metadataBoundary": "中国专利；滚丝后的端部毛刺处理，与加工前修平端面存在工序差异",
+      "textCacheSHA256": null,
+      "openedAliases": [
+        "GRINDPATENT"
+      ],
+      "decision": "retain-original-evidence-level",
+      "notCommercialEvidence": true
+    },
+    {
+      "sourceId": "CN-CBF-S-TC",
+      "url": "https://www.yjd78.com/chjwt/243.html",
+      "readScope": "independent-selected-original-passages",
+      "locatorsRead": [
+        {
+          "sourceId": "CN-CBF-S-TC",
+          "locator": "问题描述及排查；网页 L70—85、L102"
+        }
+      ],
+      "metadataBoundary": "厂商加工设备资料；不能证明外墙现场手持切割的故障或绩效",
+      "textCacheSHA256": null,
+      "openedAliases": [
+        "TILECUT"
+      ],
+      "decision": "retain-original-evidence-level",
+      "notCommercialEvidence": true
+    },
+    {
+      "sourceId": "CN-CBF-S-WS",
+      "url": "https://www.yuzq.com/product/57.html",
+      "readScope": "independent-selected-original-passages",
+      "locatorsRead": [
+        {
+          "sourceId": "CN-CBF-S-WS",
+          "locator": "产品说明/施工；网页 L60、L117—132"
+        }
+      ],
+      "metadataBoundary": "页面产品限定非长期浸水；不满足本次饮水池候选的直接适用证据",
+      "textCacheSHA256": null,
+      "openedAliases": [
+        "WATERSPRAY"
+      ],
+      "decision": "retain-with-scope-correction",
+      "notCommercialEvidence": true
+    },
+    {
+      "sourceId": "CN-CBF-S-GE",
+      "url": "https://www.hnglgroup.com/service_center/maintain.html",
+      "readScope": "independent-selected-original-passages",
+      "locatorsRead": [
+        {
+          "sourceId": "CN-CBF-S-GE",
+          "locator": "调直切断机与弯箍机正文（非目录）",
+          "cacheLocator": {
+            "file": "gengli-www.txt",
+            "lineStart": 1532,
+            "lineEnd": 1643,
+            "lineConvention": "UTF-8 text split on newline only; form-feed does not increment line count"
+          }
+        }
+      ],
+      "metadataBoundary": "中国厂商设备资料；弯箍机不能无条件等同一般粗钢筋弯曲设备",
+      "textCacheSHA256": "14a5c3b8d9974aab787a2d4f18e4a9fee99137af08b84ad05dfaea7e4b21eac2",
+      "openedAliases": [
+        "GENGLI-WWW",
+        "GENGLI"
+      ],
+      "decision": "retain-original-evidence-level",
+      "notCommercialEvidence": true
+    }
+  ],
+  "claimDecisions": [
+    {
+      "claimId": "CN-CBF-E-WINCH",
+      "sourceIds": [
+        "CN-CBF-S-N",
+        "CN-CBF-S-Y"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-E-TOWER",
+      "sourceIds": [
+        "CN-CBF-S-T"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-E-CLEAN",
+      "sourceIds": [
+        "CN-CBF-S-S"
+      ],
+      "decision": "retain-with-correction",
+      "requiredCorrectionIds": [
+        "CBF-E02"
+      ],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-E-HAND",
+      "sourceIds": [
+        "CN-CBF-S-H"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-E-TORQUE",
+      "sourceIds": [
+        "CN-CBF-S-R"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-E-PRIMER",
+      "sourceIds": [
+        "CN-CBF-S-PR"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-E-PUTTY",
+      "sourceIds": [
+        "CN-CBF-S-YU"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-E-TILE",
+      "sourceIds": [
+        "CN-CBF-S-L"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-E-SPRAY",
+      "sourceIds": [
+        "CN-CBF-S-G"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-E-HAMMER",
+      "sourceIds": [
+        "CN-CBF-S-HP"
+      ],
+      "decision": "retain-with-correction",
+      "requiredCorrectionIds": [
+        "CBF-R02"
+      ],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-E-GRIND",
+      "sourceIds": [
+        "CN-CBF-S-GP"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-E-TILECUT",
+      "sourceIds": [
+        "CN-CBF-S-TC"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-E-WATER",
+      "sourceIds": [
+        "CN-CBF-S-WS"
+      ],
+      "decision": "retain-with-correction",
+      "requiredCorrectionIds": [
+        "CBF-E01"
+      ],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-E-GENGLI",
+      "sourceIds": [
+        "CN-CBF-S-GE"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M01",
+      "sourceIds": [
+        "CN-CBF-S-C"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M02",
+      "sourceIds": [
+        "CN-CBF-S-C"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M03",
+      "sourceIds": [
+        "CN-CBF-S-C"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M04",
+      "sourceIds": [
+        "CN-CBF-S-C"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M05",
+      "sourceIds": [
+        "CN-CBF-S-C"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M06",
+      "sourceIds": [
+        "CN-CBF-S-C"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M07",
+      "sourceIds": [
+        "CN-CBF-S-C"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M08",
+      "sourceIds": [
+        "CN-CBF-S-C"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M09",
+      "sourceIds": [
+        "CN-CBF-S-C"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M10",
+      "sourceIds": [
+        "CN-CBF-S-C"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M11",
+      "sourceIds": [
+        "CN-CBF-S-C"
+      ],
+      "decision": "retain-with-correction",
+      "requiredCorrectionIds": [
+        "CBF-R01"
+      ],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M12",
+      "sourceIds": [
+        "CN-CBF-S-C"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M13",
+      "sourceIds": [
+        "CN-CBF-S-C"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M14",
+      "sourceIds": [
+        "CN-CBF-S-C"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M15",
+      "sourceIds": [
+        "CN-CBF-S-C"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M16",
+      "sourceIds": [
+        "CN-CBF-S-C"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M17",
+      "sourceIds": [
+        "CN-CBF-S-C"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M18",
+      "sourceIds": [
+        "CN-CBF-S-C"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M19",
+      "sourceIds": [
+        "CN-CBF-S-D"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M20",
+      "sourceIds": [
+        "CN-CBF-S-D"
+      ],
+      "decision": "retain-with-correction",
+      "requiredCorrectionIds": [
+        "CBF-R01"
+      ],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M21",
+      "sourceIds": [
+        "CN-CBF-S-D"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M22",
+      "sourceIds": [
+        "CN-CBF-S-D"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M23",
+      "sourceIds": [
+        "CN-CBF-S-D"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M24",
+      "sourceIds": [
+        "CN-CBF-S-D"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M25",
+      "sourceIds": [
+        "CN-CBF-S-D"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M26",
+      "sourceIds": [
+        "CN-CBF-S-D"
+      ],
+      "decision": "retain-with-correction",
+      "requiredCorrectionIds": [
+        "CBF-R01"
+      ],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M27",
+      "sourceIds": [
+        "CN-CBF-S-D"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M28",
+      "sourceIds": [
+        "CN-CBF-S-D"
+      ],
+      "decision": "retain-with-correction",
+      "requiredCorrectionIds": [
+        "CBF-R01"
+      ],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M29",
+      "sourceIds": [
+        "CN-CBF-S-D"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M30",
+      "sourceIds": [
+        "CN-CBF-S-D"
+      ],
+      "decision": "retain-with-correction",
+      "requiredCorrectionIds": [
+        "CBF-R01"
+      ],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M31",
+      "sourceIds": [
+        "CN-CBF-S-D"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    },
+    {
+      "claimId": "CN-CBF-M32",
+      "sourceIds": [
+        "CN-CBF-S-W"
+      ],
+      "decision": "retain-bounded-source-description",
+      "requiredCorrectionIds": [],
+      "unqualifiedAutomationOrCommercialClaimApproved": false
+    }
+  ],
+  "groupDecisions": [
+    {
+      "groupId": "CN-CBF-G01",
+      "title": "墙体钢大模板塔吊索具吊放回运",
+      "parentTaskIds": [
+        "cn-const-steel-wall-form-007",
+        "cn-const-steel-wall-form-014"
+      ],
+      "claimIds": [
+        "CN-CBF-M01",
+        "CN-CBF-E-TOWER"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "塔吊/索具只承担搬移，拉结和存放检查仍独立；2010通知是一般历史风险，不是现场发生率。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G02",
+      "title": "盘条钢筋调直机及模辊设置",
+      "parentTaskIds": [
+        "cn-const-rebar-machining-002",
+        "cn-const-rebar-machining-003",
+        "cn-const-rebar-machining-013"
+      ],
+      "claimIds": [
+        "CN-CBF-M02",
+        "CN-CBF-E-GENGLI"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "调直机模辊设置与试调可定位，耿力调直切断机保养仅覆盖相应设备；不推定全加工设备维护。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G03",
+      "title": "盘条钢筋卷扬机冷拉调直",
+      "parentTaskIds": [
+        "cn-const-rebar-machining-003"
+      ],
+      "claimIds": [
+        "CN-CBF-M03",
+        "CN-CBF-E-WINCH"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "历史卷扬机条款与2024淘汰目录、云南禁止目录相互限定；排除当前候选，保留历史证据。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G04",
+      "title": "粗钢筋局部手扳调直",
+      "parentTaskIds": [
+        "cn-const-rebar-machining-003"
+      ],
+      "claimIds": [
+        "CN-CBF-M04",
+        "CN-CBF-E-HAND"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "规程支持粗钢筋局部手扳，外露固定钢筋专利是相邻对象；不升级为盘条连续线。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G05",
+      "title": "建筑钢筋定长切断和缺陷端切除",
+      "parentTaskIds": [
+        "cn-const-rebar-machining-005",
+        "cn-const-rebar-machining-010"
+      ],
+      "claimIds": [
+        "CN-CBF-M05"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "量划、机械切断及缺陷端去除在原文有动作，但送料、握持和余料确认未证明自动。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G06",
+      "title": "钢筋试弯及芯轴弯曲成型",
+      "parentTaskIds": [
+        "cn-const-rebar-machining-004",
+        "cn-const-rebar-machining-007"
+      ],
+      "claimIds": [
+        "CN-CBF-M06",
+        "CN-CBF-E-GENGLI"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "试弯及芯轴成型可定位，弯箍机故障说明不直接外推所有钢筋弯曲设备。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G07",
+      "title": "钢筋弯曲点石笔划线",
+      "parentTaskIds": [
+        "cn-const-rebar-machining-006"
+      ],
+      "claimIds": [
+        "CN-CBF-M07"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "石笔标点为辅助工具，读图尺寸判定与重新调整均未自动化。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G08",
+      "title": "钢筋连接套筒通止塞规验收",
+      "parentTaskIds": [
+        "cn-const-rebar-thread-coupling-001"
+      ],
+      "claimIds": [
+        "CN-CBF-M08"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "塞规只判套筒内螺纹，原进场任务的证明材料和端部外观仍需别的验证。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G09",
+      "title": "钢筋丝头端面砂轮修磨去毛刺",
+      "parentTaskIds": [
+        "cn-const-rebar-thread-coupling-003"
+      ],
+      "claimIds": [
+        "CN-CBF-M09",
+        "CN-CBF-E-GRIND"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "加工前砂轮修平有规程支持，滚丝后端头打磨专利的次序另记为相邻线索。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G10",
+      "title": "加工钢筋丝头通止规目检",
+      "parentTaskIds": [
+        "cn-const-rebar-thread-coupling-006"
+      ],
+      "claimIds": [
+        "CN-CBF-M10"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "量规与每件目检分开，换轮/规格后抽检条件是旧版本条款，不复用数值为现行建议。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G11",
+      "title": "钢筋套筒力矩扳手安装与重拧",
+      "parentTaskIds": [
+        "cn-const-rebar-thread-coupling-009",
+        "cn-const-rebar-thread-coupling-013"
+      ],
+      "claimIds": [
+        "CN-CBF-M11",
+        "CN-CBF-E-TORQUE"
+      ],
+      "decision": "retain-with-corrections",
+      "note": "拧紧工具及托平对正有依据；重拧依据13.5.3(1)须补独立行范围，不当全部加固方案。",
+      "requiredCorrectionIds": [
+        "CBF-R01"
+      ],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G12",
+      "title": "钢筋套筒校核扭力扳手抽检扩检",
+      "parentTaskIds": [
+        "cn-const-rebar-thread-coupling-011",
+        "cn-const-rebar-thread-coupling-012"
+      ],
+      "claimIds": [
+        "CN-CBF-M12",
+        "CN-CBF-E-TORQUE"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "原文区分安装/校核扳手、自检、抽检和不合格后全检；该工具不自动组织检验。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G13",
+      "title": "钢筋套筒接头拧后油漆标记",
+      "parentTaskIds": [
+        "cn-const-rebar-thread-coupling-010"
+      ],
+      "claimIds": [
+        "CN-CBF-M13"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "油漆标记仅表示流程完成，不等于接头力矩合格。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G14",
+      "title": "筏板上下层钢筋网钩具绑扎",
+      "parentTaskIds": [
+        "cn-const-rebar-raft-005",
+        "cn-const-rebar-raft-008"
+      ],
+      "claimIds": [
+        "CN-CBF-M14"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "钢筋钩具与交叉点绑扎在同一章节，铺筋、接头、上层稳定非钩具独立输出。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G15",
+      "title": "基础墙柱插筋线坠定位固定",
+      "parentTaskIds": [
+        "cn-const-rebar-raft-009"
+      ],
+      "claimIds": [
+        "CN-CBF-M15"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "线坠对线与固定可定位，测量工具不自行完成绑扎或锚固。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G16",
+      "title": "建筑混凝土泵管清洗球空压机清洗",
+      "parentTaskIds": [
+        "cn-const-concrete-pumping-013"
+      ],
+      "claimIds": [
+        "CN-CBF-M16",
+        "CN-CBF-E-CLEAN"
+      ],
+      "decision": "retain-with-corrections",
+      "note": "球/水/气清洗属局部工法，泵阀料斗和余料污水收集不能省略；E-CLEAN收集动作需加规程来源。",
+      "requiredCorrectionIds": [
+        "CBF-E02"
+      ],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G17",
+      "title": "梁板施工缝空压机吹净碎渣",
+      "parentTaskIds": [
+        "cn-const-concrete-frame-cast-002"
+      ],
+      "claimIds": [
+        "CN-CBF-M17"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "空压机只吹碎渣，凿毛、剔松石、湿润及接浆仍为父任务未覆盖动作。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G18",
+      "title": "建筑柱梁板混凝土插入平板振捣",
+      "parentTaskIds": [
+        "cn-const-concrete-frame-cast-006"
+      ],
+      "claimIds": [
+        "CN-CBF-M18"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "插入式和平板振捣均有设备和人工移动描述，均匀振实不能只由设备存在推得。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G19",
+      "title": "外墙饰面砖胶搅拌机拌料",
+      "parentTaskIds": [
+        "cn-const-external-tile-007"
+      ],
+      "claimIds": [
+        "CN-CBF-M19",
+        "CN-CBF-E-TILE"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "胶粘材料机械拌合有依据；产品外墙普通玻化砖须伴侣材料，不能用通用加水配方替代。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G20",
+      "title": "外墙饰面砖洞口切割角磨机",
+      "parentTaskIds": [
+        "cn-const-external-tile-008"
+      ],
+      "claimIds": [
+        "CN-CBF-M20",
+        "CN-CBF-E-TILECUT"
+      ],
+      "decision": "retain-with-corrections",
+      "note": "切割/角磨机目录与整砖套割条款须双锚，车间切割故障不当外墙现场已观察故障。",
+      "requiredCorrectionIds": [
+        "CBF-R01"
+      ],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G21",
+      "title": "外墙饰面砖齿形抹刀定位调平",
+      "parentTaskIds": [
+        "cn-const-external-tile-008",
+        "cn-const-external-tile-010"
+      ],
+      "claimIds": [
+        "CN-CBF-M21",
+        "CN-CBF-E-TILE"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "齿形抹刀、对线压贴和允许时间内调整有依据；超时返贴不能自动由定位器完成。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G22",
+      "title": "外墙饰面砖靠尺线坠几何检查",
+      "parentTaskIds": [
+        "cn-const-external-tile-009"
+      ],
+      "claimIds": [
+        "CN-CBF-M22"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "几何检测工具支持部分验收，空鼓和粘结性能需要其他方法，未采用规范公差数值。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G23",
+      "title": "室内墙顶底漆刷具涂布",
+      "parentTaskIds": [
+        "cn-const-interior-coating-006"
+      ],
+      "claimIds": [
+        "CN-CBF-M23",
+        "CN-CBF-E-PRIMER"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "界面剂与底漆按基层分别，产品刷滚适用特定底漆；无全材料适配结论。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G24",
+      "title": "室内腻子胶皮钢片刮板",
+      "parentTaskIds": [
+        "cn-const-interior-coating-007"
+      ],
+      "claimIds": [
+        "CN-CBF-M24",
+        "CN-CBF-E-PUTTY"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "刮板分遍与间隔条件有原文，不用规范与厂商不同厚度/遍数合成单一现行操作。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G25",
+      "title": "室内干腻子砂纸打磨清尘",
+      "parentTaskIds": [
+        "cn-const-interior-coating-008",
+        "cn-const-interior-coating-010"
+      ],
+      "claimIds": [
+        "CN-CBF-M25",
+        "CN-CBF-E-PUTTY"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "砂纸只处理干层修整，坑点填补与清尘保留；没有独立节工量。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G26",
+      "title": "室内面层乳胶漆搅拌调匀",
+      "parentTaskIds": [
+        "cn-const-interior-coating-009"
+      ],
+      "claimIds": [
+        "CN-CBF-M26"
+      ],
+      "decision": "retain-with-corrections",
+      "note": "规范有搅拌器名录且用前搅匀，但动力未知；需为名录补单独行范围。",
+      "requiredCorrectionIds": [
+        "CBF-R01"
+      ],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G27",
+      "title": "室内面层漆刷排笔滚筒施工",
+      "parentTaskIds": [
+        "cn-const-interior-coating-009",
+        "cn-const-interior-coating-011"
+      ],
+      "claimIds": [
+        "CN-CBF-M27"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "刷与滚为同遍互选工法，首遍/后续遍分属父任务，不累加替代收益。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G28",
+      "title": "室内涂料无气及手持喷枪施工",
+      "parentTaskIds": [
+        "cn-const-interior-coating-009",
+        "cn-const-interior-coating-011"
+      ],
+      "claimIds": [
+        "CN-CBF-M28",
+        "CN-CBF-E-SPRAY"
+      ],
+      "decision": "retain-with-corrections",
+      "note": "设备名录与喷涂步骤需双锚；G40按型号手册独立读取，不迁移另一规范的压力/间距。",
+      "requiredCorrectionIds": [
+        "CBF-R01"
+      ],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G29",
+      "title": "轻钢隔墙龙骨抽芯铆钉紧固",
+      "parentTaskIds": [
+        "cn-const-light-steel-partition-005"
+      ],
+      "claimIds": [
+        "CN-CBF-M29"
+      ],
+      "decision": "retain-scoped-method-or-gap",
+      "note": "隔墙章节只支持铆接方式，未把吊顶工具名录借作本章动力工具证据。",
+      "requiredCorrectionIds": [],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G30",
+      "title": "固定吊顶洞口附加龙骨拉铆固定",
+      "parentTaskIds": [
+        "cn-const-fixed-panel-ceiling-006"
+      ],
+      "claimIds": [
+        "CN-CBF-M30"
+      ],
+      "decision": "retain-with-corrections",
+      "note": "附加洞口龙骨拉铆与本章拉铆枪名录可相互定位，须补工具名录行范围；不涵盖所有次龙骨连接。",
+      "requiredCorrectionIds": [
+        "CBF-R01"
+      ],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G31",
+      "title": "固定吊顶吊杆膨胀锚固冲击电锤",
+      "parentTaskIds": [
+        "cn-const-fixed-panel-ceiling-004"
+      ],
+      "claimIds": [
+        "CN-CBF-M31",
+        "CN-CBF-E-HAMMER"
+      ],
+      "decision": "retain-with-corrections",
+      "note": "电锤与伸缩支撑专利为局部方法；补专利所称小于4m室内场景，专利设计不能称已实现原型。",
+      "requiredCorrectionIds": [
+        "CBF-R02"
+      ],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    },
+    {
+      "groupId": "CN-CBF-G32",
+      "title": "农村饮水水池砂浆防水机械喷涂",
+      "parentTaskIds": [
+        "cn-const-rural-water-tank-005"
+      ],
+      "claimIds": [
+        "CN-CBF-M32",
+        "CN-CBF-E-WATER"
+      ],
+      "decision": "retain-with-corrections",
+      "note": "2013规程描述试配后的机械喷涂；产品L60并列多种应用，只能认定饮水池适配证据不足，不能据局部修饰词断言全产品禁止长期浸水。",
+      "requiredCorrectionIds": [
+        "CBF-E01"
+      ],
+      "newTasksApproved": 0,
+      "canFreeze": false
+    }
+  ],
+  "taskDecisions": [
+    {
+      "taskId": "cn-const-concrete-frame-cast-002",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G17"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-frame-cast-006",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G18"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-concrete-pumping-013",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G16"
+      ],
+      "requiredCorrectionIds": [
+        "CBF-E02"
+      ],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-external-tile-007",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G19"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-external-tile-008",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G20",
+        "CN-CBF-G21"
+      ],
+      "requiredCorrectionIds": [
+        "CBF-R01"
+      ],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-external-tile-009",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G22"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-external-tile-010",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G21"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-fixed-panel-ceiling-004",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G31"
+      ],
+      "requiredCorrectionIds": [
+        "CBF-R02"
+      ],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-fixed-panel-ceiling-006",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G30"
+      ],
+      "requiredCorrectionIds": [
+        "CBF-R01"
+      ],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-interior-coating-006",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G23"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-interior-coating-007",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G24"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-interior-coating-008",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G25"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-interior-coating-009",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G26",
+        "CN-CBF-G27",
+        "CN-CBF-G28"
+      ],
+      "requiredCorrectionIds": [
+        "CBF-R01"
+      ],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-interior-coating-010",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G25"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-interior-coating-011",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G27",
+        "CN-CBF-G28"
+      ],
+      "requiredCorrectionIds": [
+        "CBF-R01"
+      ],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-light-steel-partition-005",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G29"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-002",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G02"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-003",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G02",
+        "CN-CBF-G03",
+        "CN-CBF-G04"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-004",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G06"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-005",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G05"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-006",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G07"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-007",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G06"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-010",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G05"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-machining-013",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G02"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-raft-005",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G14"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-raft-008",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G14"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-raft-009",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G15"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-001",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G08"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-003",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G09"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-006",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G10"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-009",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G11"
+      ],
+      "requiredCorrectionIds": [
+        "CBF-R01"
+      ],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-010",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G13"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-011",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G12"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-012",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G12"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rebar-thread-coupling-013",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G11"
+      ],
+      "requiredCorrectionIds": [
+        "CBF-R01"
+      ],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-rural-water-tank-005",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G32"
+      ],
+      "requiredCorrectionIds": [
+        "CBF-E01"
+      ],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-steel-wall-form-007",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G01"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    },
+    {
+      "taskId": "cn-const-steel-wall-form-014",
+      "reviewedDefinitionMatchesParentInput": true,
+      "followupGroupIds": [
+        "CN-CBF-G01"
+      ],
+      "requiredCorrectionIds": [],
+      "decision": "append-partial-methods-after-corrections-preserve-parent-research",
+      "approvedNewTaskCount": 0,
+      "canFreeze": false
+    }
+  ],
+  "requiredCorrections": [
+    {
+      "id": "CBF-E01",
+      "severity": "confirmed-overgeneralization",
+      "sourceId": "CN-CBF-S-WS",
+      "claimIds": [
+        "CN-CBF-E-WATER"
+      ],
+      "groupIds": [
+        "CN-CBF-G32"
+      ],
+      "locator": "产品应用范围网页L60；施工L117—132",
+      "requiredChange": "将“页面产品限定非长期浸水”“已读产品不适用于长期浸水”等笼统断言改成“页面列外墙、室内非长期浸水和地下等应用；未取得饮水池长期浸水及饮用水接触适配资料，暂不保留为匹配产品”。仍保留具体材料喷涂机制与历史规程方法，不声称技术不可行。",
+      "reason": "L60的非长期浸水短语位于室内厨房/卫生间分项；其他并列分项未被证明都受同一限制。"
+    },
+    {
+      "id": "CBF-E02",
+      "severity": "citation-scope-correction",
+      "claimIds": [
+        "CN-CBF-E-CLEAN"
+      ],
+      "groupIds": [
+        "CN-CBF-G16"
+      ],
+      "locator": "三一L244—261；DB11/T1832.3—2021 §22.4.8(3)，LF8525—8527",
+      "requiredChange": "E-CLEAN的“收集”须补C源§22.4.8(3)与LF8525—8527，或从只引三一的该声明删除收集；该动作可保留在另引M16的父任务边界。",
+      "reason": "三一段落直接支持卸压、装拆、注水、观察/隔离，但所引段落未明确余料污水收集；规程有明确要求。"
+    },
+    {
+      "id": "CBF-R01",
+      "severity": "locator-completion",
+      "claimIds": [
+        "CN-CBF-M11",
+        "CN-CBF-M20",
+        "CN-CBF-M26",
+        "CN-CBF-M28",
+        "CN-CBF-M30"
+      ],
+      "groupIds": [
+        "CN-CBF-G11",
+        "CN-CBF-G20",
+        "CN-CBF-G26",
+        "CN-CBF-G28",
+        "CN-CBF-G30"
+      ],
+      "requiredChange": "保留现有条款与行范围，增补复合引用中未含在单一cacheLocator的条款行：M11 C LF4939—4943；M20 D LF330—334；M26 D LF1581—1585；M28 D LF1589—1590；M30 D LF4964—4965。同步sources[].locators和claims引用，避免复算时只落在一半证据。",
+      "reason": "文字条款编号正确但当前单个本地行范围未覆盖重拧或工具名录，机械作用可在补充段核实。"
+    },
+    {
+      "id": "CBF-R02",
+      "severity": "scenario-and-evidence-level",
+      "claimIds": [
+        "CN-CBF-E-HAMMER"
+      ],
+      "groupIds": [
+        "CN-CBF-G31"
+      ],
+      "locator": "CN211681906U 原文L70、79—102",
+      "requiredChange": "将“专利原型构型”改为“专利设计构型”；在候选条件中明确专利特别描述层高小于4m的室内吊杆成孔，不把该设计无条件外推全部层高或声称实物原型已测试。",
+      "reason": "所读为专利披露，未取得独立制作/测试记录；L70有具体场景。"
+    }
+  ],
+  "queryChecks": [
+    {
+      "requestId": "CN-CBF-Q01",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "ce0c31b3cb9be141008de4250043b040473babe874c88e995363bafa812bf80d"
+    },
+    {
+      "requestId": "CN-CBF-Q02",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "9916ca323797c9d2d5b24d57b48f1a91e3aa740cf6755b47cdacb9d6d1e0bc01"
+    },
+    {
+      "requestId": "CN-CBF-Q03",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "5ebb901c14928caa8817f35cf58cac261924f09085c8a1870de7b47b2e80d3ce"
+    },
+    {
+      "requestId": "CN-CBF-Q04",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "b13dc236087a48a356e2580e44b50a1eb2b3df41bcf44971637d091f656038d8"
+    },
+    {
+      "requestId": "CN-CBF-Q05",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "60b47bbbf1a602a33fca1b4c642370ce47194078a995243570b86bd7302b600a"
+    },
+    {
+      "requestId": "CN-CBF-Q06",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "93ed21c9ced2ca26d8eb68c189e45af00f1f6e703e74241d6ce27ffa519f0ccf"
+    },
+    {
+      "requestId": "CN-CBF-Q07",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "8a0d317c38eb56a101f3256658844d39d828e53148ed6842aa9ef5b77c9acfb6"
+    },
+    {
+      "requestId": "CN-CBF-Q08",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "c321acd69442723cf17db7480a7feaeb3e158586241c9ad2815a7d21b09b5d84"
+    },
+    {
+      "requestId": "CN-CBF-Q09",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "d2c8cefb9b2d1182c834af92b77f1c91d94b336bbce63863b91611b7c4eb5e74"
+    },
+    {
+      "requestId": "CN-CBF-Q10",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "3b334346f4d3875315e51bf56996eca7233c2b8ad9c1fc3ddb2080e680c52d2c"
+    },
+    {
+      "requestId": "CN-CBF-Q11",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "b2205bde49004e30a3d87b3c0a2759f2844c9e23e22325261375c4aee6c623a9"
+    },
+    {
+      "requestId": "CN-CBF-Q12",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "dccb508d2bec51ccce526de581fea1f6f335ddbcf372f9df6f38c320080eec4b"
+    },
+    {
+      "requestId": "CN-CBF-Q13",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "a30935026b438b2eb45c08d78eba824a167c51ddc510109a1a186600a1c45539"
+    },
+    {
+      "requestId": "CN-CBF-Q14",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "2506aa7315b140270195cedfcfdae02b6d02b01b43f95c7ad18db7d7d14cd28c"
+    },
+    {
+      "requestId": "CN-CBF-Q15",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "d3f2833923fa97742c219399125cca3bd745d981ac9743efb5d822a3670fde23"
+    },
+    {
+      "requestId": "CN-CBF-Q16",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "a3e4d3b0d4ddc215a015717b104babe84afa3aa794fdb4407f6b0a16fac6e879"
+    },
+    {
+      "requestId": "CN-CBF-Q17",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "95f333935da7f92770942d61be64992f7d81e90292cf0f5f4d1148d1dd7ec726"
+    },
+    {
+      "requestId": "CN-CBF-Q18",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "3ac0f8ac25596b50a102b4091dc88c7e830dff07815421cbeb2f4c7a27c11bf2"
+    },
+    {
+      "requestId": "CN-CBF-Q19",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "82a2e6d58522305c082734698243843b35855e5523f694b02d557667cc0e317c"
+    },
+    {
+      "requestId": "CN-CBF-Q20",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "daac66dff677c69c6e0d88f8139dea4e36d0fa68b0fbc49b629654ed007a0498"
+    },
+    {
+      "requestId": "CN-CBF-Q21",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "1ad422dec14f52c0918d3fa4a64f22d082cb9cee958ab289331ed29f0be32418"
+    },
+    {
+      "requestId": "CN-CBF-Q22",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "f14b32783165c1dc3a96a3c4039eb36a5f2fd2ecd83652f85ea9587f92c870c2"
+    },
+    {
+      "requestId": "CN-CBF-Q23",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "29119a901feec819caba4ff0e88274884ebcd7b05f027e5628b30726fad921ab"
+    },
+    {
+      "requestId": "CN-CBF-Q24",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "14109b337150f094901ec2060a56a11e98535438ed27a91d319d45644fd9e8fb"
+    },
+    {
+      "requestId": "CN-CBF-Q25",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "ce4e5081237451a27aa1debfc01c355fb10d771936b792e55c4b3da0a106a004"
+    },
+    {
+      "requestId": "CN-CBF-Q26",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "2b768d753e5ef8f337f68ee79fff87ade3c3692429f0b4415247697f239a48f6"
+    },
+    {
+      "requestId": "CN-CBF-Q27",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "9c25c7421d37351ae86e55e3b6d6e6946abe51120a218dcee53508f58a412799"
+    },
+    {
+      "requestId": "CN-CBF-Q28",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "869f3cdc69d849ba7e68c36ca919840f2fc21ac0833279c3de877f9c590b4564"
+    },
+    {
+      "requestId": "CN-CBF-Q29",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "0f91a1d95e806bec777a1b5a86b813ea54d2960edc26abdde58582d65be0f42e"
+    },
+    {
+      "requestId": "CN-CBF-Q30",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "c2623b457ece29bc364b995d943f874d7b30f45821c1c34370faeb956d47cd8d"
+    },
+    {
+      "requestId": "CN-CBF-Q31",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "0b8cac83e8c8187958348881375924dc1118974e499da5957ea95a673ab184e9"
+    },
+    {
+      "requestId": "CN-CBF-Q32",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "3839f59672a090b789daafdff60ed5e367f80805fa8b831b3d625fe1174e3c82"
+    },
+    {
+      "requestId": "CN-CBF-A01",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 2,
+      "rawResponseSHA256": "9a2dd0aef69567c627760713fff457e0294046b9277fa1395515cdb6fb497867"
+    },
+    {
+      "requestId": "CN-CBF-A02",
+      "requestAndResponseHashVerified": true,
+      "capturedBeforeAfterUtcMatches": true,
+      "queryCount": 3,
+      "rawResponseSHA256": "b5cab8aa58ee11c54e601065461d829fec7712fcf9451857acde3a79dcc7a717"
+    }
+  ],
+  "remainingGaps": [
+    "G02仍仅首批，不覆盖207任务全部传统工具/设备或整个建筑行业。",
+    "旧地方规程的项目适用性与现行修订须继续核查；设备型号、材质、执行者及采购合同仍待核。",
+    "真实运行、现场残留人工、异常次数和全现金支出缺口；不得将方法存在当商业成功。",
+    "关闭研究缺口及候选原子化仍未完成。"
+  ],
+  "canFreeze": false
+}

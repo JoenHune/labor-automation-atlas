@@ -2,6 +2,8 @@ import {readFile,writeFile} from 'node:fs/promises'
 import {createHash} from 'node:crypto'
 import {importCnServices} from '../src/research/import-cn-services'
 import {importCnAgriculture} from '../src/research/import-cn-agriculture'
+import {importCnAgricultureFollowups,cnAgricultureFollowupFiles} from '../src/research/import-cn-agriculture-followups'
+import {importCnConstruction,cnConstructionFiles} from '../src/research/import-cn-construction'
 import {importCnMining} from '../src/research/import-cn-mining'
 import {importUsAgriculture} from '../src/research/import-us-agriculture'
 import {importUsCore} from '../src/research/import-us-core'
@@ -10,7 +12,7 @@ import {importUsServices} from '../src/research/import-us-services'
 import {validateResearch} from '../src/research/validate'
 const root=new URL('../',import.meta.url)
 const read=async(file:string)=>{const text=await readFile(new URL(file,root),'utf8');return {data:JSON.parse(text),sha256:createHash('sha256').update(text).digest('hex')}}
-const data=(await read('data/research.json')).data
+let data=(await read('data/research.json')).data
 const file='research/automation/cn-services.json',auditFile='research/automation/cn-services-search-audit.json'
 const raw=await read(file),audit=await read(auditFile)
 importCnServices(data,raw.data,audit.data,{file,sha256:raw.sha256,auditFile,auditSha256:audit.sha256})
@@ -46,6 +48,10 @@ const healthFile='research/automation/us-health.json',healthAuditFile='research/
 const health=await read(healthFile),healthAudit=await read(healthAuditFile),healthReview=await read(healthReviewFile),healthRevision=await read('research/automation/us-health-revisions.json'),healthRecheck=await read('research/reviews/us-health-automation-recheck.json')
 if(healthRevision.data.afterSha256!==health.sha256||healthRevision.data.beforeSha256!==healthReview.data.input.sha256||healthRevision.data.independentReviewInput.sha256!==healthReview.sha256||healthRecheck.data.authorRevisionReceiptSHA256!==healthRevision.sha256||healthRecheck.sha256!=='49abc134eab8932af4f079707590ca2f9af1c900f1a698b7c73f209b14b50276')throw new Error('美国卫生修订与限定复检文件不匹配')
 importUsHealth(data,health.data,healthAudit.data,healthReview.data,healthRecheck.data,{file:healthFile,sha256:health.sha256,auditFile:healthAuditFile,auditSha256:healthAudit.sha256,reviewFile:healthReviewFile,reviewSha256:healthReview.sha256})
+const agricultureFollowupTexts=Object.fromEntries(await Promise.all(Object.values(cnAgricultureFollowupFiles).map(async({file})=>[file,await readFile(new URL(file,root),'utf8')])))
+data=importCnAgricultureFollowups(data,agricultureFollowupTexts)
+const constructionTexts=Object.fromEntries(await Promise.all(Object.values(cnConstructionFiles).map(async({file})=>[file,await readFile(new URL(file,root),'utf8')])))
+data=importCnConstruction(data,constructionTexts)
 const result=validateResearch(data)
 await writeFile(new URL('data/research.json',root),JSON.stringify(result,null,2)+'\n')
 console.log('Integrated',raw.data.tasks.length,'CN service task research records. Definition revisions remain open; none are frozen.')

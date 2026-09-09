@@ -1,0 +1,725 @@
+{
+  "country": "CN",
+  "industryId": "cn-agriculture",
+  "reviewedOn": "2026-09-09",
+  "reviewer": "root，非补充批次作者",
+  "input": {
+    "file": "research/automation/cn-agriculture-supplement.json",
+    "sha256": "17d315e6e217a518d9bdbb14af8a704719fa8f5dba3301191e3467961f9f7cb0",
+    "auditFile": "research/automation/cn-agriculture-supplement-search-audit.json",
+    "auditSHA256": "3190b9051e47545505b30b0b25d0fa061bbce3c62efedd81b753628886da89f3"
+  },
+  "status": "first-pass-independent-review-corrections-required",
+  "counts": {
+    "workItemsReviewed": 22,
+    "sourcesRead": 12,
+    "claimsRead": 12,
+    "splitParents": 6,
+    "proposedChildren": 12,
+    "approvedNewAtomicTaskCount": 0,
+    "frozen": 0
+  },
+  "sources": [
+    {
+      "sourceId": "CN-AG-SUP-SRC-cn-apple-autumn-2023",
+      "url": "https://jgs.moa.gov.cn/fxpg/202309/t20230928_6437593.htm",
+      "readStatus": "independent-selected-original-passages-read",
+      "note": "重读HTML44—49；保护垫与撤膜动作直接可定位。",
+      "sourceObjectSHA256": "db0b72258960428c7c074e563e53edadc77e27859204ff114c576e12f41526e8"
+    },
+    {
+      "sourceId": "CN-AG-SUP-SRC-cn-apple-summer-2022",
+      "url": "https://zzys.moa.gov.cn/gzdt/202206/t20220621_6403019.htm",
+      "readStatus": "independent-selected-original-passages-read",
+      "note": "重读HTML39—44；施药、两种天敌释放、迷向丝分别处理，不采用历史药剂/剂量推荐。",
+      "sourceObjectSHA256": "340cdf460d6a34facc7ef8090ef9b0aca3237cf1cfa0c4b76af5185e28c3923f"
+    },
+    {
+      "sourceId": "CN-AG-SUP-SRC-cn-mushroom-2026",
+      "url": "https://jnny.jinan.gov.cn/col/col553/art/2026/art_3fecf5fd25844bb39b0b87379179dc09.html",
+      "readStatus": "independent-selected-original-passages-read",
+      "note": "重读HTML18—58；水帘风机负压与其他降温设备通风不同；空气湿度和培养基补水分开。",
+      "sourceObjectSHA256": "df46c326d4d955a9a08362dcbded2df95c0892de1b9fda369f8e5c0dccc55812"
+    },
+    {
+      "sourceId": "CN-AG-SUP-SRC-cn-milk-station-2009",
+      "url": "https://nync.ln.gov.cn/nync/index/lnsnyfzfwzx/zcfg/A7B5DED1857C4FCABF7918529CBB917B/index.shtml",
+      "readStatus": "independent-selected-original-passages-read",
+      "note": "重读HTML76—83、89—105；网页2022-08-10与规范2009-03-23须分列；现行效力未核。",
+      "sourceObjectSHA256": "ae58b416117a80c2a2eacba20d4c37a2a93f8c1b7457cfa2613c2d9411523808"
+    },
+    {
+      "sourceId": "CN-AG-SUP-SRC-cn-vegetable-2021",
+      "url": "https://njhs.moa.gov.cn/tzggjzcjd/202111/t20211123_6382709.htm",
+      "readStatus": "independent-selected-original-passages-read",
+      "note": "重读HTML40—47；有吊蔓和修剪器具/移动平台，未明确修剪器具电动。",
+      "sourceObjectSHA256": "e3e6bee2a6216008479ab4543c19fbfd4bd00dd5107e5a1ef9d8edffe337a659"
+    },
+    {
+      "sourceId": "CN-AG-SUP-SRC-OCCUPATION",
+      "url": "https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf",
+      "readStatus": "independent-selected-original-passages-read",
+      "note": "完整570页PDF复读物理301、302、306、307；家畜饲养员在306页，307为其他职业，逐项缩小定位。",
+      "sourceObjectSHA256": "742867fc30843875d0f27e2cc749850b8143c269816eb6ec99d7f777db60954a"
+    },
+    {
+      "sourceId": "CN-AG-SUP-SRC-SPRAY-PRESCRIPTION",
+      "url": "https://ipp.caas.cn/kyjz/724d9d9cf23343a4a0e7cbd9a50949a7.htm",
+      "readStatus": "independent-selected-original-passages-read",
+      "note": "原缓存L94—98；2024-09-18作者单位发布，冠层处方与路径研究；没有采用喷施量减幅或效率数字。",
+      "sourceObjectSHA256": "a1f21b5abe2d917e67ba8e009e228eab6caa4c1fa14c5be9fd789a31f21737c7"
+    },
+    {
+      "sourceId": "CN-AG-SUP-SRC-SPRAYER",
+      "url": "https://www.genrobotai.net.cn/product-orchard-sprayer.html",
+      "readStatus": "independent-selected-original-passages-read",
+      "note": "原缓存L16/20/83—103；苹果园机型供方描述，日期缺失；不采纳营销数字或自主程度为现场事实。",
+      "sourceObjectSHA256": "577724e08805376dc4db5d053936de16efd846abcc687224af135f7cf10cc33a"
+    },
+    {
+      "sourceId": "CN-AG-SUP-SRC-PUNCTURE",
+      "url": "https://patents.google.com/patent/CN103262750A/zh",
+      "readStatus": "independent-selected-original-passages-read",
+      "note": "原缓存L33—34/64/71/75/84—85；2013-08-28公开，重力进出与电动针架设计，持续补棒人工明确；背景故障不是独立观察。",
+      "sourceObjectSHA256": "360071ffe0f51f4416ed5fcac3e21dc5d32a5ce7facb5f64ac2aa1cc568c8ca7"
+    },
+    {
+      "sourceId": "CN-AG-SUP-SRC-POSTHARVEST",
+      "url": "https://scs.moa.gov.cn/ccll/jszn/202302/t20230203_6419774.htm",
+      "readStatus": "independent-selected-original-passages-read",
+      "note": "原缓存L37/45—55/76—115；2023-02-03。品种、冷敏及具体设备参数分开，未采纳温度时限值。与2026指导的包装/预冷顺序不强行统一。",
+      "sourceObjectSHA256": "3a4b09237ea7aec2f8ed1de542e90bf7285f767f79c835d9367d008dbdd90647"
+    },
+    {
+      "sourceId": "CN-AG-SUP-SRC-MILK-CONTROL",
+      "url": "https://www.afimilk.com.cn/artdesc/482",
+      "readStatus": "independent-selected-original-passages-read",
+      "note": "原缓存L41—53/95—117；2022-05-13厂商网页，引用论文年份卷期互有矛盾，保留厂商层级。电导率不是完整酸碱液浓度及全管罐记录证明。",
+      "sourceObjectSHA256": "65ef44e3deb8183547e8dae4499de0a9b0553d8ab66a5c69138cb3d156049844"
+    },
+    {
+      "sourceId": "CN-AG-SUP-SRC-STACK",
+      "url": "https://patents.google.com/patent/CN217837583U/zh",
+      "readStatus": "independent-selected-original-passages-read",
+      "note": "原缓存L33—38/62—123；2022-11-18实用新型公开。错位上架设计不支持拆旧堆翻堆，也不采用法律状态判断退出。",
+      "sourceObjectSHA256": "52ff249efc9b14955064cdf66b5cb3096dbcca5ab55ecf3640d15a2815270387"
+    }
+  ],
+  "queryAudit": {
+    "rawTaskResultFile": "research/automation/raw/cn-agriculture-supplement-task-searches.json",
+    "rawTaskResultSHA256": "5213d769882582308afbd9492fb67d7aca52320fcd6671bd2e2c600c1e1090ba",
+    "openedAndAdaptiveFile": "research/automation/raw/cn-agriculture-supplement-opened-and-adaptive.json",
+    "openedAndAdaptiveSHA256": "741ecfe72a2d1d5046c56135a745603db7cda35e362dd84aae70e91f2215ce24",
+    "tasksWithResultRecords": 22,
+    "authorReportedMainQueries": 44,
+    "mainRequestIndependentlyVerified": false,
+    "mainDateIndependentlyVerified": false,
+    "note": "22对旧日志仅taskId和原始回包；公开审计列查询文本及日期但缺原请求参数/UTC时刻，不能独立认证请求原样及执行日。不能将候选标题视为任务事实。",
+    "supplementalQueriesWithOriginalRequestText": 6,
+    "supplementalExecutionUTCIndependentlyVerified": false
+  },
+  "requiredCorrections": [
+    {
+      "id": "SUP-E01",
+      "sourceId": "CN-AG-SUP-SRC-cn-milk-station-2009",
+      "field": "publishedAt",
+      "value": "2022-08-10",
+      "authoredAt": "2009-03-23",
+      "locator": "原HTML45、49、53行；不是2009年网页发布"
+    },
+    {
+      "id": "SUP-E02",
+      "workItemId": "CN-AG-SUP-mushroom-puncture",
+      "field": "occupationSupport",
+      "value": "adjacent-stage-only",
+      "reason": "职业4是制作培养基打孔；接种后增氧阶段靠2026流程原文支持。"
+    },
+    {
+      "id": "SUP-E03",
+      "patchId": "CN-AG-SUP-PATCH-MUSHROOM-WATER",
+      "field": "sourceRefs.locator",
+      "value": "HTML第23、50行；结合第22行设备通风条件",
+      "reason": "原定位22、39—44、53—56未覆盖禁止直接喷水与空气/地面加湿关键原句。"
+    },
+    {
+      "id": "SUP-E04",
+      "workItemId": "CN-AG-SUP-milk-cleaning-record",
+      "field": "mechanismBoundary",
+      "value": "逐挤奶点数据记录；未证明全管罐覆盖、酸碱液浓度、长期归档及人工审核自动完成。"
+    },
+    {
+      "id": "SUP-E05",
+      "workItemId": "CN-AG-SUP-mushroom-precool",
+      "field": "performerBoundary",
+      "value": "采用与其余采后子项相同的自营种植主体/独立冷链执行者区分。"
+    },
+    {
+      "id": "SUP-E06",
+      "field": "items[].economics.workingCapitalDefinition",
+      "value": "期初计入替代方案相对基准的营运资金增量余额；各期现金流只扣除该增量余额相对上一期的变化，终期有依据才计回收。",
+      "reason": "原“各期只计相对该基准的余额变化”可能被理解为每期累计对期初差额，须明确相邻期差分，避免重复扣减。"
+    }
+  ],
+  "globalRevisions": [
+    "职业引用逐项缩至相关职业页/工作任务，不把301—307混合范围作为精确动作依据。",
+    "将本裁决拟议拆分和原重叠关系一并保存，尚未增加或冻结任务。",
+    "2023采后规程分级→包装→预冷；2026指导分级、预冷、包装表述不同，按现场流程验证而非强行合成唯一顺序。",
+    "主查询执行标为作者记录、结果缓存存在，独立验证请求与UTC缺口保留。"
+  ],
+  "mechanismCorrectionDecisions": [
+    {
+      "patchId": "CN-AG-SUP-PATCH-MUSHROOM-ENV",
+      "status": "bounded-source-supported",
+      "newTasksCounted": 0
+    },
+    {
+      "patchId": "CN-AG-SUP-PATCH-MUSHROOM-WATER",
+      "status": "retain-with-required-locator-and-scope-corrections",
+      "newTasksCounted": 0
+    },
+    {
+      "patchId": "CN-AG-SUP-PATCH-VEG-TOOLS",
+      "status": "bounded-source-supported",
+      "newTasksCounted": 0
+    }
+  ],
+  "decisions": [
+    {
+      "workItemId": "CN-AG-SUP-apple-pad",
+      "title": "苹果垫放护果垫",
+      "country": "CN",
+      "scenarioId": "cn-ag-apple-orchard",
+      "status": "bounded-first-pass-result-or-gap",
+      "definitionAndMechanismDecision": "秋季指导L46直接支持垫果；护果垫是该人工操作的保护材料，尚未取得自动铺垫机制。园艺职责只给较宽范围。",
+      "occupationLocator": "PDF物理301页，5-01-02-02 园艺工，主要工作任务7（施药）及职业范围",
+      "occupationSupport": "broad-occupation-context-only",
+      "splitProposals": [],
+      "originalOverlap": {
+        "status": "new-scope",
+        "originalTaskIds": [],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-apple-pad",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-apple-film-retrieve",
+      "title": "采收前撤收果园反光膜",
+      "country": "CN",
+      "scenarioId": "cn-ag-apple-orchard",
+      "status": "bounded-first-pass-result-or-gap",
+      "definitionAndMechanismDecision": "秋季指导L49支持采前撤膜；与008铺膜为不同输出，应作为后续候选而非再给铺膜增加一次计数。",
+      "occupationLocator": "PDF物理301页，5-01-02-02 园艺工，主要工作任务7（施药）及职业范围",
+      "occupationSupport": "broad-occupation-context-only",
+      "splitProposals": [],
+      "originalOverlap": {
+        "status": "new-scope",
+        "originalTaskIds": [
+          "cn-ag-apple-orchard-008"
+        ],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-apple-film-retrieve",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-apple-spray",
+      "title": "按确认方案向苹果树施药",
+      "country": "CN",
+      "scenarioId": "cn-ag-apple-orchard",
+      "status": "bounded-first-pass-result-or-gap",
+      "definitionAndMechanismDecision": "夏季指导L40与园艺工PDF301页任务7支持喷洒动作；2024研究为冠层处方/路径框架，T100为无明确发布日期的供方产品功能，未独立验证苹果园全流程运行。",
+      "occupationLocator": "PDF物理301页，5-01-02-02 园艺工，主要工作任务7（施药）及职业范围",
+      "occupationSupport": "explicit-spraying-action",
+      "splitProposals": [],
+      "originalOverlap": {
+        "status": "new-scope",
+        "originalTaskIds": [],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-apple-spray",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-apple-natural-enemy",
+      "title": "按类型释放苹果园捕食螨或赤眼蜂",
+      "country": "CN",
+      "scenarioId": "cn-ag-apple-orchard",
+      "status": "bounded-first-pass-with-revisions",
+      "definitionAndMechanismDecision": "夏季指导L43区分捕食螨和赤眼蜂释放条件；交付形态及布放方法待补，两种生物制剂不可直接共享作业工时。",
+      "occupationLocator": "PDF物理301页，5-01-02-02 园艺工，主要工作任务7（施药）及职业范围",
+      "occupationSupport": "broad-occupation-context-only",
+      "splitProposals": [
+        {
+          "title": "按既定方案释放捕食螨",
+          "status": "proposed-not-adopted"
+        },
+        {
+          "title": "按既定方案释放赤眼蜂",
+          "status": "proposed-not-adopted"
+        }
+      ],
+      "originalOverlap": {
+        "status": "new-scope",
+        "originalTaskIds": [],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-apple-natural-enemy",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-apple-pheromone",
+      "title": "在苹果树冠定位悬挂迷向丝",
+      "country": "CN",
+      "scenarioId": "cn-ag-apple-orchard",
+      "status": "bounded-first-pass-result-or-gap",
+      "definitionAndMechanismDecision": "夏季指导L44直接支持树冠悬挂；枣树修剪机器人原文不支持该动作，排除正确。挂点和数量是现场待核条件，未迁移历史剂量。",
+      "occupationLocator": "PDF物理301页，5-01-02-02 园艺工，主要工作任务7（施药）及职业范围",
+      "occupationSupport": "broad-occupation-context-only",
+      "splitProposals": [],
+      "originalOverlap": {
+        "status": "new-scope",
+        "originalTaskIds": [],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-apple-pheromone",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-mushroom-puncture",
+      "title": "对适用大袋菌棒刺孔增氧",
+      "country": "CN",
+      "scenarioId": "cn-ag-mushroom-bags",
+      "status": "bounded-first-pass-with-revisions",
+      "definitionAndMechanismDecision": "2026指导L40/44是接种后大袋增氧动作；职业PDF302页食用菌生产工任务4是培养基/菌袋制作打孔，不足以直接证明同一培养阶段，应降为相邻动作。2013专利L85明确人员持续补棒。",
+      "occupationLocator": "PDF物理302页，5-01-02-03 食用菌生产工，主要工作任务4/6/9及职业范围",
+      "occupationSupport": "adjacent-stage-only",
+      "splitProposals": [],
+      "originalOverlap": {
+        "status": "new-scope",
+        "originalTaskIds": [],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-mushroom-puncture",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-mushroom-pile-temperature",
+      "title": "测读并记录菌棒堆中心温度",
+      "country": "CN",
+      "scenarioId": "cn-ag-mushroom-bags",
+      "status": "bounded-first-pass-result-or-gap",
+      "definitionAndMechanismDecision": "指导L43要求每日监测堆中心温度；记录为研究者拟定验收，不应声称规范要求记录。职业任务6棚室温湿度不是菌堆内部测温。",
+      "occupationLocator": "PDF物理302页，5-01-02-03 食用菌生产工，主要工作任务4/6/9及职业范围",
+      "occupationSupport": "broad-occupation-context-only",
+      "splitProposals": [],
+      "originalOverlap": {
+        "status": "new-or-refine-environment-task",
+        "originalTaskIds": [
+          "cn-ag-mushroom-bags-009"
+        ],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-mushroom-pile-temperature",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-mushroom-pile-turn",
+      "title": "翻调菌棒堆放位置并留出散热间隙",
+      "country": "CN",
+      "scenarioId": "cn-ag-mushroom-bags",
+      "status": "bounded-first-pass-result-or-gap",
+      "definitionAndMechanismDecision": "指导L43/44支持因温度条件触发的翻堆；2022错位叠放专利L123只给新棒上架，不证明拆取原堆再翻调，原稿已明确相邻范围。",
+      "occupationLocator": "PDF物理302页，5-01-02-03 食用菌生产工，主要工作任务4/6/9及职业范围",
+      "occupationSupport": "broad-occupation-context-only",
+      "splitProposals": [],
+      "originalOverlap": {
+        "status": "new-scope",
+        "originalTaskIds": [],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-mushroom-pile-turn",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-mushroom-bud-thin",
+      "title": "疏除过密弱小畸形菇蕾",
+      "country": "CN",
+      "scenarioId": "cn-ag-mushroom-bags",
+      "status": "bounded-first-pass-result-or-gap",
+      "definitionAndMechanismDecision": "指导L53/54明确疏除过密弱小畸形菇蕾；成年子实体采摘不是疏蕾的直接职业证据。去留规则仍按品种商品要求核对。",
+      "occupationLocator": "PDF物理302页，5-01-02-03 食用菌生产工，主要工作任务4/6/9及职业范围",
+      "occupationSupport": "broad-occupation-context-only",
+      "splitProposals": [],
+      "originalOverlap": {
+        "status": "new-scope",
+        "originalTaskIds": [],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-mushroom-bud-thin",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-mushroom-grade",
+      "title": "按鲜菇品质与规格分级",
+      "country": "CN",
+      "scenarioId": "cn-ag-mushroom-bags",
+      "status": "bounded-first-pass-result-or-gap",
+      "definitionAndMechanismDecision": "指导L56和2023采后规程L99直接支持鲜菇分级；园艺工分级职责不可不加说明转作食用菌工精确职责。原014四项子范围仍拟议，避免重复计数。",
+      "occupationLocator": "PDF物理302页，5-01-02-03 食用菌生产工，主要工作任务4/6/9及职业范围",
+      "occupationSupport": "broad-occupation-context-only",
+      "splitProposals": [],
+      "originalOverlap": {
+        "status": "replacement-child-not-additive",
+        "originalTaskIds": [
+          "cn-ag-mushroom-bags-014"
+        ],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-mushroom-grade",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-mushroom-precool",
+      "title": "对采收鲜菇预冷",
+      "country": "CN",
+      "scenarioId": "cn-ag-mushroom-bags",
+      "status": "bounded-first-pass-with-revisions",
+      "definitionAndMechanismDecision": "2026指导L56与2023规程L106支持预冷；后者L89/112说明制冷机组，冷敏品种除外。应同步其余采后子项的自营农业/独立冷链执行者边界。",
+      "occupationLocator": "PDF物理302页，5-01-02-03 食用菌生产工，主要工作任务4/6/9及职业范围",
+      "occupationSupport": "broad-occupation-context-only",
+      "splitProposals": [],
+      "originalOverlap": {
+        "status": "replacement-child-not-additive",
+        "originalTaskIds": [
+          "cn-ag-mushroom-bags-014"
+        ],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-mushroom-precool",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-mushroom-pack",
+      "title": "按等级包装鲜菇并标识批次",
+      "country": "CN",
+      "scenarioId": "cn-ag-mushroom-bags",
+      "status": "bounded-first-pass-with-revisions",
+      "definitionAndMechanismDecision": "指导L56、采后规程L102支持包装，不直接规定所写批次标识动作。标识是待验证需求，若独立验收需拆分，不把包装材料说明当包装设备功能。",
+      "occupationLocator": "PDF物理302页，5-01-02-03 食用菌生产工，主要工作任务4/6/9及职业范围",
+      "occupationSupport": "broad-occupation-context-only",
+      "splitProposals": [
+        {
+          "title": "按规格装包或封装鲜菇",
+          "status": "proposed-not-adopted"
+        },
+        {
+          "title": "核对并标识鲜菇包装批次（待补直接依据）",
+          "status": "proposed-not-adopted"
+        }
+      ],
+      "originalOverlap": {
+        "status": "replacement-child-not-additive",
+        "originalTaskIds": [
+          "cn-ag-mushroom-bags-014"
+        ],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-mushroom-pack",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-mushroom-cold-store",
+      "title": "将鲜菇入库并维持适用冷藏条件",
+      "country": "CN",
+      "scenarioId": "cn-ag-mushroom-bags",
+      "status": "bounded-first-pass-with-revisions",
+      "definitionAndMechanismDecision": "采后规程L110/112/114/115分别对应码垛、温控、异常管理与融霜；机组温控不能证明自动搬入库。宜拆开入库实物作业与连续环境控制，异常处理与融霜亦须继续发现。",
+      "occupationLocator": "PDF物理302页，5-01-02-03 食用菌生产工，主要工作任务4/6/9及职业范围",
+      "occupationSupport": "broad-occupation-context-only",
+      "splitProposals": [
+        {
+          "title": "搬运并码放鲜菇入库",
+          "status": "proposed-not-adopted"
+        },
+        {
+          "title": "设定并监测鲜菇冷藏条件",
+          "status": "proposed-not-adopted"
+        }
+      ],
+      "originalOverlap": {
+        "status": "replacement-child-not-additive",
+        "originalTaskIds": [
+          "cn-ag-mushroom-bags-014"
+        ],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-mushroom-cold-store",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-milk-retain-sample",
+      "title": "登记生鲜乳留样位置并保管样品",
+      "country": "CN",
+      "scenarioId": "cn-ag-dairy-milking",
+      "status": "bounded-first-pass-with-revisions",
+      "definitionAndMechanismDecision": "历史规范L82明确编号登记与冷冻留样；不得写成冷藏。拟扩展013原采样贴签，保管与记录子范围不独立加总；采样位置记录不是原文明确字段。",
+      "occupationLocator": "PDF物理306页，5-03-02-01 家畜饲养员，任务3挤乳及7记录；不直接支持专业检修",
+      "occupationSupport": "broad-occupation-context-only",
+      "splitProposals": [
+        {
+          "title": "核对编号并登记留样（与原013去重）",
+          "status": "proposed-not-adopted"
+        },
+        {
+          "title": "在适用条件下保管留样",
+          "status": "proposed-not-adopted"
+        }
+      ],
+      "originalOverlap": {
+        "status": "extend-existing-task-not-additive",
+        "originalTaskIds": [
+          "cn-ag-dairy-milking-013"
+        ],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-milk-retain-sample",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-milk-cleaning-record",
+      "title": "核对保存挤奶管罐清洗过程记录",
+      "country": "CN",
+      "scenarioId": "cn-ag-dairy-milking",
+      "status": "bounded-first-pass-with-revisions",
+      "definitionAndMechanismDecision": "历史规范L103为完整洗消记录，AfiControl L117只列逐挤奶点时长/温度/电导率；电导率不能直接等同酸碱液浓度，未证明贮奶罐覆盖、长期归档和人员复核自动完成。",
+      "occupationLocator": "PDF物理306页，5-03-02-01 家畜饲养员，任务3挤乳及7记录；不直接支持专业检修",
+      "occupationSupport": "broad-occupation-context-only",
+      "splitProposals": [],
+      "originalOverlap": {
+        "status": "extend-existing-task-not-additive",
+        "originalTaskIds": [
+          "cn-ag-dairy-milking-015"
+        ],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-milk-cleaning-record",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-milk-vacuum-belt-check",
+      "title": "检查挤奶真空泵皮带松紧",
+      "country": "CN",
+      "scenarioId": "cn-ag-dairy-milking",
+      "status": "bounded-first-pass-result-or-gap",
+      "definitionAndMechanismDecision": "历史规范L79直接要求检查真空泵皮带松紧；家畜饲养员只提供挤奶范围，专业机电维护职业路径尚缺。",
+      "occupationLocator": "PDF物理306页，5-03-02-01 家畜饲养员，任务3挤乳及7记录；不直接支持专业检修",
+      "occupationSupport": "broad-occupation-context-only",
+      "splitProposals": [],
+      "originalOverlap": {
+        "status": "new-scope",
+        "originalTaskIds": [],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-milk-vacuum-belt-check",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-milk-pulsator-check",
+      "title": "检查挤奶脉动器并判定是否更换",
+      "country": "CN",
+      "scenarioId": "cn-ag-dairy-milking",
+      "status": "bounded-first-pass-result-or-gap",
+      "definitionAndMechanismDecision": "历史规范L79是判定脉动器是否更换；判定输出可以保留，实际拆换不包含其中，传感器报警不可视为所有性能已测试。",
+      "occupationLocator": "PDF物理306页，5-03-02-01 家畜饲养员，任务3挤乳及7记录；不直接支持专业检修",
+      "occupationSupport": "broad-occupation-context-only",
+      "splitProposals": [],
+      "originalOverlap": {
+        "status": "new-or-refine-check-task",
+        "originalTaskIds": [
+          "cn-ag-dairy-milking-001"
+        ],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-milk-pulsator-check",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-milk-regulator-clean",
+      "title": "清洁挤奶真空调节器",
+      "country": "CN",
+      "scenarioId": "cn-ag-dairy-milking",
+      "status": "bounded-first-pass-result-or-gap",
+      "definitionAndMechanismDecision": "历史规范L79清洁真空调节器语句与传感器工作状态连写，作者已指出歧义；应依具体设备说明完善动作，不推定完整拆洗步骤。",
+      "occupationLocator": "PDF物理306页，5-03-02-01 家畜饲养员，任务3挤乳及7记录；不直接支持专业检修",
+      "occupationSupport": "broad-occupation-context-only",
+      "splitProposals": [],
+      "originalOverlap": {
+        "status": "new-scope",
+        "originalTaskIds": [],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-milk-regulator-clean",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-milk-sensor-check",
+      "title": "检查挤奶设备传感器工作状态",
+      "country": "CN",
+      "scenarioId": "cn-ag-dairy-milking",
+      "status": "bounded-first-pass-result-or-gap",
+      "definitionAndMechanismDecision": "历史规范L79和AfiControl L116/117仅支持工作状态检查及数据异常提示；与独立标定/硬件检修分开，已写明不构成标定。",
+      "occupationLocator": "PDF物理306页，5-03-02-01 家畜饲养员，任务3挤乳及7记录；不直接支持专业检修",
+      "occupationSupport": "broad-occupation-context-only",
+      "splitProposals": [],
+      "originalOverlap": {
+        "status": "new-or-refine-check-task",
+        "originalTaskIds": [
+          "cn-ag-dairy-milking-001"
+        ],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-milk-sensor-check",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-milk-float-valve-service",
+      "title": "检查并更换磨损的挤奶浮球阀",
+      "country": "CN",
+      "scenarioId": "cn-ag-dairy-milking",
+      "status": "bounded-first-pass-with-revisions",
+      "definitionAndMechanismDecision": "历史规范L79包含检查密封、识别磨损后更换及确认功能；检查和有条件拆换的触发/验收不同，需拆分并核自营/外包边界。",
+      "occupationLocator": "PDF物理306页，5-03-02-01 家畜饲养员，任务3挤乳及7记录；不直接支持专业检修",
+      "occupationSupport": "broad-occupation-context-only",
+      "splitProposals": [
+        {
+          "title": "检查浮球阀密封与磨损",
+          "status": "proposed-not-adopted"
+        },
+        {
+          "title": "更换已判定磨损的浮球阀并复检",
+          "status": "proposed-not-adopted"
+        }
+      ],
+      "originalOverlap": {
+        "status": "new-scope",
+        "originalTaskIds": [],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-milk-float-valve-service",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-milk-vacuum-line-clean",
+      "title": "冲洗挤奶真空管并清洁排泄阀",
+      "country": "CN",
+      "scenarioId": "cn-ag-dairy-milking",
+      "status": "bounded-first-pass-with-revisions",
+      "definitionAndMechanismDecision": "历史规范L79分列真空管冲洗、排泄阀清洁及密封检查；回路和部件维护输出不同，不能用同一未测工时覆盖。",
+      "occupationLocator": "PDF物理306页，5-03-02-01 家畜饲养员，任务3挤乳及7记录；不直接支持专业检修",
+      "occupationSupport": "broad-occupation-context-only",
+      "splitProposals": [
+        {
+          "title": "冲洗挤奶真空管",
+          "status": "proposed-not-adopted"
+        },
+        {
+          "title": "清洁挤奶排泄阀并复检密封",
+          "status": "proposed-not-adopted"
+        }
+      ],
+      "originalOverlap": {
+        "status": "new-scope",
+        "originalTaskIds": [],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-milk-vacuum-line-clean",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    },
+    {
+      "workItemId": "CN-AG-SUP-milk-annual-maintenance-scope",
+      "title": "界定专业工程师年度挤奶设备检修作业",
+      "country": "CN",
+      "scenarioId": "cn-ag-dairy-milking",
+      "status": "scope-gap-not-countable-task",
+      "definitionAndMechanismDecision": "L80支持年度由专业人员检修，但当前条目是研究范围待办，没有具体实物作业定义；保留为不计数清单缺口，不能当完整人工任务。",
+      "occupationLocator": "PDF物理306页，5-03-02-01 家畜饲养员，任务3挤乳及7记录；不直接支持专业检修",
+      "occupationSupport": "broad-occupation-context-only",
+      "splitProposals": [],
+      "originalOverlap": {
+        "status": "scope-gap-not-countable-task",
+        "originalTaskIds": [],
+        "countedInCurrent164": false,
+        "decision": "等待独立复核确认并替换/扩展旧任务，未把新增条目相加至164"
+      },
+      "queryAuditId": "CN-AG-SUP-SEARCH-CN-AG-SUP-milk-annual-maintenance-scope",
+      "cashFlowStatus": "parameters-missing-no-result",
+      "canFreeze": false,
+      "approvedNewAtomicTaskCount": 0
+    }
+  ],
+  "canFreeze": false
+}
