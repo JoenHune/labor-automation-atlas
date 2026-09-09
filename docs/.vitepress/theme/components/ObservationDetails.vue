@@ -9,10 +9,11 @@ const adjustment={adjusted:'经季节调整',unadjusted:'未季节调整','not-a
  <details class="observation-details">
   <summary>{{observation.measure==='real-growth'?'增速口径与来源':'数据口径与来源'}}</summary>
   <dl>
+   <dt>原始数值</dt><dd>{{observation.value??'缺失'}} {{observation.unit}} · 原币种记录，不随显示换算改写</dd>
    <dt>数据期</dt><dd>{{observation.period}}{{observation.annualized?' · 季调年率，非当期累计':''}}</dd>
    <dt>发布日期</dt><dd>{{observation.releaseDate??observation.publicationDateNote}}</dd>
    <dt>修订状态</dt><dd>{{observation.revision}}</dd>
-   <dt>单位与价格</dt><dd>{{observation.unit}} · {{basis[observation.priceBasis]}}</dd>
+   <dt>原始单位与价格</dt><dd>{{observation.unit}} · {{basis[observation.priceBasis]}}</dd>
    <dt>季节调整</dt><dd>{{adjustment[observation.seasonalAdjustment]}}</dd>
    <dt>覆盖范围</dt><dd>{{observation.coverage}}</dd>
    <template v-if="observation.computation"><dt>计算</dt><dd>{{observation.computation.expression}}<br>输入：{{observation.computation.inputs.join('，')}}<br>{{observation.computation.note}}</dd></template>

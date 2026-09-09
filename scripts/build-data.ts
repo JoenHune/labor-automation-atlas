@@ -9,6 +9,7 @@ const existing=await read('data/research.json')
 const data:Research={
  version:existing.version??'2026-09-09.working',checkedAt:'2026-09-09',publishedAt:null,freezeStatus:'working',
  countries:[],sources:[],industries:[],observations:[],scenarios:existing.scenarios??[],tasks:existing.tasks??[],claims:existing.claims??[],searches:existing.searches??[],
+ subindustryProductivity:existing.subindustryProductivity,
 }
 const locator=(v:unknown):string=> typeof v==='string'?v:Object.entries(v as Record<string,unknown>).map(([k,value])=>k+': '+value).join(' · ')
 const refs=(items:Raw[]|Raw)=>(Array.isArray(items)?items:[items]).map(e=>({sourceId:e.sourceId,locator:locator(e.locator),...(e.verbatimValue?{excerpt:String(e.verbatimValue)}:{})}))

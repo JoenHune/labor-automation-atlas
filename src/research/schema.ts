@@ -127,6 +127,31 @@ export const ScenarioSchema = z.object({
   exclusions:z.array(nonempty),
   inventory:z.record(z.string(),z.unknown()).optional(),
 })
+export const ProductivityDatasetSchema=z.object({
+  version:nonempty,checkedAt:date,sources:z.array(SourceSchema),
+  parents:z.array(z.object({
+    country:CountrySchema,parentIndustryId:ID,name:nonempty.optional(),classification:nonempty,
+    coverage:nonempty,gaps:z.array(nonempty),nonOverlapping:z.boolean(),
+    rows:z.array(z.object({
+      id:ID,stablechildId:ID.optional(),country:CountrySchema,parentIndustryId:ID,name:nonempty,nameEn:nonempty.optional(),year:z.number().int(),
+      valueAdded:z.object({
+        value:z.number().finite().nullable(),unit:nonempty,currency:z.enum(['CNY','USD']),year:z.number().int(),
+        measure:z.literal('value-added'),priceBasis:z.enum(['current','constant','unknown']),
+        coverage:nonempty,coverageKey:z.string(),releaseDate:date.nullable(),revision:nonempty,evidence:z.array(EvidenceRefSchema),
+        evidenceKind:z.enum(['fact','calculation']).optional(),
+        computation:z.object({expression:nonempty,inputs:z.array(z.number().finite()),note:nonempty}).optional(),
+      }),
+      employment:z.object({
+        value:z.number().finite().nullable(),unit:nonempty,year:z.number().int().nullable(),definition:nonempty,
+        coverage:nonempty,coverageKey:z.string(),denominatorKind:z.enum(['persons','jobs','employees','unknown']),
+        periodBasis:z.enum(['annual-average','year-end','other','unknown']),
+        releaseDate:date.nullable(),revision:nonempty,evidence:z.array(EvidenceRefSchema),
+        calculation:z.object({kind:z.enum(['direct-fact','sum-of-official-disjoint-rows']),inputs:z.array(z.number().finite()),lineCodes:z.array(z.number().int()),expression:nonempty}).optional(),
+      }),
+      comparable:z.boolean(),comparabilityReasons:z.array(nonempty),gaps:z.array(nonempty),
+    })),
+  })),
+})
 export const ResearchSchema = z.object({
   version:nonempty, checkedAt:date, publishedAt:date.nullable(),
   freezeStatus:z.enum(['working','review','frozen']),
@@ -139,6 +164,7 @@ export const ResearchSchema = z.object({
   sources:z.array(SourceSchema), industries:z.array(IndustrySchema),
   observations:z.array(ObservationSchema), scenarios:z.array(ScenarioSchema),
   tasks:z.array(TaskSchema), claims:z.array(ClaimSchema), searches:z.array(SearchSchema),
+  subindustryProductivity:ProductivityDatasetSchema.optional(),
 })
 export type Research = z.infer<typeof ResearchSchema>
 export type Observation = z.infer<typeof ObservationSchema>

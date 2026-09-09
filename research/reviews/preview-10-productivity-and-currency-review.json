@@ -1,0 +1,3096 @@
+{
+  "date": "2026-09-09",
+  "version": "2026-09-09.preview-10",
+  "reviewer": "root, independent of the CN/US data authors",
+  "decision": "Accepted for research preview with explicit denominator and coverage limitations; not a frozen or complete productivity census.",
+  "inputs": {
+    "research/cn/subindustry-productivity.json": "d1f4de65c9260199078372a3b3fe55c8e99298d3ef859c283390b127d03a4e9a",
+    "research/cn/subindustry-productivity.md": "158ee901a257e3f9ef260ba796da17d1227cb8252f1740431db45c561ead5269",
+    "research/cn/subindustry-productivity-validation.json": "5cac33fe78b664bfad59a2952719ac5b5dff735303a55898282b639dc63dfe36",
+    "research/us/subindustry-productivity.json": "2eb4a8660165a4fa3fc5cd4559c6975bd925dac72d528788ca32efa88384a937",
+    "research/us/subindustry-productivity-methods.md": "8dc118cdf87d99052b71868d007a00196bf2778905caf12af749095b428aae72",
+    "research/us/subindustry-productivity-validation.json": "f50b8d31f90f575109acbe3a781d1b2a3e05a8d2f45f2a618da1923ac76ff076"
+  },
+  "coverage": {
+    "parents": 21,
+    "yearSpecificRows": 295,
+    "sources": 29,
+    "cn": {
+      "parents": 10,
+      "rows": 45,
+      "sourceValueAddedFields": 8,
+      "calculatedValueAddedFields": 3,
+      "employmentFields": 35,
+      "comparableRows": 2
+    },
+    "us": {
+      "parents": 11,
+      "rows": 250,
+      "valueAddedFields": 220,
+      "employmentFields": 182,
+      "comparableRows": 78
+    },
+    "comparable2025Rows": 0
+  },
+  "usNumericReplay": {
+    "inputSha256": "2eb4a8660165a4fa3fc5cd4559c6975bd925dac72d528788ca32efa88384a937",
+    "numericChecks": 402,
+    "rows": 250,
+    "comparableRows": 78,
+    "checks": [
+      {
+        "id": "us-real-estate-bea-61-2021",
+        "field": "valueAdded",
+        "cell": "AB69",
+        "pass": true
+      },
+      {
+        "id": "us-real-estate-bea-61-2021",
+        "field": "employment",
+        "lineCodes": [
+          1101
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-real-estate-bea-64-2021",
+        "field": "valueAdded",
+        "cell": "AB72",
+        "pass": true
+      },
+      {
+        "id": "us-real-estate-bea-64-2021",
+        "field": "employment",
+        "lineCodes": [
+          1102,
+          1103
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-real-estate-bea-61-2022",
+        "field": "valueAdded",
+        "cell": "AC69",
+        "pass": true
+      },
+      {
+        "id": "us-real-estate-bea-61-2022",
+        "field": "employment",
+        "lineCodes": [
+          1101
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-real-estate-bea-64-2022",
+        "field": "valueAdded",
+        "cell": "AC72",
+        "pass": true
+      },
+      {
+        "id": "us-real-estate-bea-64-2022",
+        "field": "employment",
+        "lineCodes": [
+          1102,
+          1103
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-real-estate-bea-61-2023",
+        "field": "valueAdded",
+        "cell": "AD69",
+        "pass": true
+      },
+      {
+        "id": "us-real-estate-bea-61-2023",
+        "field": "employment",
+        "cell": "AC71",
+        "pass": true
+      },
+      {
+        "id": "us-real-estate-bea-64-2023",
+        "field": "valueAdded",
+        "cell": "AD72",
+        "pass": true
+      },
+      {
+        "id": "us-real-estate-bea-64-2023",
+        "field": "employment",
+        "cell": "AC72",
+        "pass": true
+      },
+      {
+        "id": "us-real-estate-bea-61-2024",
+        "field": "valueAdded",
+        "cell": "AE69",
+        "pass": true
+      },
+      {
+        "id": "us-real-estate-bea-61-2024",
+        "field": "employment",
+        "cell": "AD71",
+        "pass": true
+      },
+      {
+        "id": "us-real-estate-bea-64-2024",
+        "field": "valueAdded",
+        "cell": "AE72",
+        "pass": true
+      },
+      {
+        "id": "us-real-estate-bea-64-2024",
+        "field": "employment",
+        "cell": "AD72",
+        "pass": true
+      },
+      {
+        "id": "us-real-estate-bea-61-2025",
+        "field": "valueAdded",
+        "cell": "AF69",
+        "pass": true
+      },
+      {
+        "id": "us-real-estate-bea-64-2025",
+        "field": "valueAdded",
+        "cell": "AF72",
+        "pass": true
+      },
+      {
+        "id": "us-government-bea-90-2021",
+        "field": "valueAdded",
+        "cell": "AB98",
+        "pass": true
+      },
+      {
+        "id": "us-government-bea-90-2021",
+        "field": "employment",
+        "cell": "AA95",
+        "pass": true
+      },
+      {
+        "id": "us-government-bea-95-2021",
+        "field": "valueAdded",
+        "cell": "AB103",
+        "pass": true
+      },
+      {
+        "id": "us-government-bea-95-2021",
+        "field": "employment",
+        "cell": "AA100",
+        "pass": true
+      },
+      {
+        "id": "us-government-bea-90-2022",
+        "field": "valueAdded",
+        "cell": "AC98",
+        "pass": true
+      },
+      {
+        "id": "us-government-bea-90-2022",
+        "field": "employment",
+        "cell": "AB95",
+        "pass": true
+      },
+      {
+        "id": "us-government-bea-95-2022",
+        "field": "valueAdded",
+        "cell": "AC103",
+        "pass": true
+      },
+      {
+        "id": "us-government-bea-95-2022",
+        "field": "employment",
+        "cell": "AB100",
+        "pass": true
+      },
+      {
+        "id": "us-government-bea-90-2023",
+        "field": "valueAdded",
+        "cell": "AD98",
+        "pass": true
+      },
+      {
+        "id": "us-government-bea-90-2023",
+        "field": "employment",
+        "cell": "AC95",
+        "pass": true
+      },
+      {
+        "id": "us-government-bea-95-2023",
+        "field": "valueAdded",
+        "cell": "AD103",
+        "pass": true
+      },
+      {
+        "id": "us-government-bea-95-2023",
+        "field": "employment",
+        "cell": "AC100",
+        "pass": true
+      },
+      {
+        "id": "us-government-bea-90-2024",
+        "field": "valueAdded",
+        "cell": "AE98",
+        "pass": true
+      },
+      {
+        "id": "us-government-bea-90-2024",
+        "field": "employment",
+        "cell": "AD95",
+        "pass": true
+      },
+      {
+        "id": "us-government-bea-95-2024",
+        "field": "valueAdded",
+        "cell": "AE103",
+        "pass": true
+      },
+      {
+        "id": "us-government-bea-95-2024",
+        "field": "employment",
+        "cell": "AD100",
+        "pass": true
+      },
+      {
+        "id": "us-government-bea-90-2025",
+        "field": "valueAdded",
+        "cell": "AF98",
+        "pass": true
+      },
+      {
+        "id": "us-government-bea-95-2025",
+        "field": "valueAdded",
+        "cell": "AF103",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-14-2021",
+        "field": "valueAdded",
+        "cell": "AB22",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-14-2021",
+        "field": "employment",
+        "lineCodes": [
+          511
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-15-2021",
+        "field": "valueAdded",
+        "cell": "AB23",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-15-2021",
+        "field": "employment",
+        "lineCodes": [
+          512
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-16-2021",
+        "field": "valueAdded",
+        "cell": "AB24",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-16-2021",
+        "field": "employment",
+        "lineCodes": [
+          513
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-17-2021",
+        "field": "valueAdded",
+        "cell": "AB25",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-17-2021",
+        "field": "employment",
+        "lineCodes": [
+          514
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-18-2021",
+        "field": "valueAdded",
+        "cell": "AB26",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-18-2021",
+        "field": "employment",
+        "lineCodes": [
+          515
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-19-2021",
+        "field": "valueAdded",
+        "cell": "AB27",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-19-2021",
+        "field": "employment",
+        "lineCodes": [
+          516
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-20-2021",
+        "field": "valueAdded",
+        "cell": "AB28",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-20-2021",
+        "field": "employment",
+        "lineCodes": [
+          517
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-21-2021",
+        "field": "valueAdded",
+        "cell": "AB29",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-21-2021",
+        "field": "employment",
+        "lineCodes": [
+          518
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-22-2021",
+        "field": "valueAdded",
+        "cell": "AB30",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-22-2021",
+        "field": "employment",
+        "lineCodes": [
+          519
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-23-2021",
+        "field": "valueAdded",
+        "cell": "AB31",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-23-2021",
+        "field": "employment",
+        "lineCodes": [
+          521
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-24-2021",
+        "field": "valueAdded",
+        "cell": "AB32",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-24-2021",
+        "field": "employment",
+        "lineCodes": [
+          522
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-26-2021",
+        "field": "valueAdded",
+        "cell": "AB34",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-26-2021",
+        "field": "employment",
+        "lineCodes": [
+          531,
+          532
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-27-2021",
+        "field": "valueAdded",
+        "cell": "AB35",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-27-2021",
+        "field": "employment",
+        "lineCodes": [
+          533,
+          534
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-28-2021",
+        "field": "valueAdded",
+        "cell": "AB36",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-28-2021",
+        "field": "employment",
+        "lineCodes": [
+          535,
+          536
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-29-2021",
+        "field": "valueAdded",
+        "cell": "AB37",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-29-2021",
+        "field": "employment",
+        "lineCodes": [
+          537
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-30-2021",
+        "field": "valueAdded",
+        "cell": "AB38",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-30-2021",
+        "field": "employment",
+        "lineCodes": [
+          538
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-31-2021",
+        "field": "valueAdded",
+        "cell": "AB39",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-31-2021",
+        "field": "employment",
+        "lineCodes": [
+          539
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-32-2021",
+        "field": "valueAdded",
+        "cell": "AB40",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-32-2021",
+        "field": "employment",
+        "lineCodes": [
+          541
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-33-2021",
+        "field": "valueAdded",
+        "cell": "AB41",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-33-2021",
+        "field": "employment",
+        "lineCodes": [
+          542
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-14-2022",
+        "field": "valueAdded",
+        "cell": "AC22",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-14-2022",
+        "field": "employment",
+        "lineCodes": [
+          511
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-15-2022",
+        "field": "valueAdded",
+        "cell": "AC23",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-15-2022",
+        "field": "employment",
+        "lineCodes": [
+          512
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-16-2022",
+        "field": "valueAdded",
+        "cell": "AC24",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-16-2022",
+        "field": "employment",
+        "lineCodes": [
+          513
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-17-2022",
+        "field": "valueAdded",
+        "cell": "AC25",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-17-2022",
+        "field": "employment",
+        "lineCodes": [
+          514
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-18-2022",
+        "field": "valueAdded",
+        "cell": "AC26",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-18-2022",
+        "field": "employment",
+        "lineCodes": [
+          515
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-19-2022",
+        "field": "valueAdded",
+        "cell": "AC27",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-19-2022",
+        "field": "employment",
+        "lineCodes": [
+          516
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-20-2022",
+        "field": "valueAdded",
+        "cell": "AC28",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-20-2022",
+        "field": "employment",
+        "lineCodes": [
+          517
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-21-2022",
+        "field": "valueAdded",
+        "cell": "AC29",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-21-2022",
+        "field": "employment",
+        "lineCodes": [
+          518
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-22-2022",
+        "field": "valueAdded",
+        "cell": "AC30",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-22-2022",
+        "field": "employment",
+        "lineCodes": [
+          519
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-23-2022",
+        "field": "valueAdded",
+        "cell": "AC31",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-23-2022",
+        "field": "employment",
+        "lineCodes": [
+          521
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-24-2022",
+        "field": "valueAdded",
+        "cell": "AC32",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-24-2022",
+        "field": "employment",
+        "lineCodes": [
+          522
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-26-2022",
+        "field": "valueAdded",
+        "cell": "AC34",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-26-2022",
+        "field": "employment",
+        "lineCodes": [
+          531,
+          532
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-27-2022",
+        "field": "valueAdded",
+        "cell": "AC35",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-27-2022",
+        "field": "employment",
+        "lineCodes": [
+          533,
+          534
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-28-2022",
+        "field": "valueAdded",
+        "cell": "AC36",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-28-2022",
+        "field": "employment",
+        "lineCodes": [
+          535,
+          536
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-29-2022",
+        "field": "valueAdded",
+        "cell": "AC37",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-29-2022",
+        "field": "employment",
+        "lineCodes": [
+          537
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-30-2022",
+        "field": "valueAdded",
+        "cell": "AC38",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-30-2022",
+        "field": "employment",
+        "lineCodes": [
+          538
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-31-2022",
+        "field": "valueAdded",
+        "cell": "AC39",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-31-2022",
+        "field": "employment",
+        "lineCodes": [
+          539
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-32-2022",
+        "field": "valueAdded",
+        "cell": "AC40",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-32-2022",
+        "field": "employment",
+        "lineCodes": [
+          541
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-33-2022",
+        "field": "valueAdded",
+        "cell": "AC41",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-33-2022",
+        "field": "employment",
+        "lineCodes": [
+          542
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-14-2023",
+        "field": "valueAdded",
+        "cell": "AD22",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-14-2023",
+        "field": "employment",
+        "cell": "AC23",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-15-2023",
+        "field": "valueAdded",
+        "cell": "AD23",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-15-2023",
+        "field": "employment",
+        "cell": "AC24",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-16-2023",
+        "field": "valueAdded",
+        "cell": "AD24",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-16-2023",
+        "field": "employment",
+        "cell": "AC25",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-17-2023",
+        "field": "valueAdded",
+        "cell": "AD25",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-17-2023",
+        "field": "employment",
+        "cell": "AC26",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-18-2023",
+        "field": "valueAdded",
+        "cell": "AD26",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-18-2023",
+        "field": "employment",
+        "cell": "AC27",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-19-2023",
+        "field": "valueAdded",
+        "cell": "AD27",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-19-2023",
+        "field": "employment",
+        "cell": "AC28",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-20-2023",
+        "field": "valueAdded",
+        "cell": "AD28",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-20-2023",
+        "field": "employment",
+        "cell": "AC29",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-21-2023",
+        "field": "valueAdded",
+        "cell": "AD29",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-21-2023",
+        "field": "employment",
+        "cell": "AC30",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-22-2023",
+        "field": "valueAdded",
+        "cell": "AD30",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-22-2023",
+        "field": "employment",
+        "cell": "AC31",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-23-2023",
+        "field": "valueAdded",
+        "cell": "AD31",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-23-2023",
+        "field": "employment",
+        "cell": "AC32",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-24-2023",
+        "field": "valueAdded",
+        "cell": "AD32",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-24-2023",
+        "field": "employment",
+        "cell": "AC33",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-26-2023",
+        "field": "valueAdded",
+        "cell": "AD34",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-26-2023",
+        "field": "employment",
+        "cell": "AC35",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-27-2023",
+        "field": "valueAdded",
+        "cell": "AD35",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-27-2023",
+        "field": "employment",
+        "cell": "AC36",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-28-2023",
+        "field": "valueAdded",
+        "cell": "AD36",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-28-2023",
+        "field": "employment",
+        "cell": "AC37",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-29-2023",
+        "field": "valueAdded",
+        "cell": "AD37",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-29-2023",
+        "field": "employment",
+        "cell": "AC38",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-30-2023",
+        "field": "valueAdded",
+        "cell": "AD38",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-30-2023",
+        "field": "employment",
+        "cell": "AC39",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-31-2023",
+        "field": "valueAdded",
+        "cell": "AD39",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-31-2023",
+        "field": "employment",
+        "cell": "AC40",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-32-2023",
+        "field": "valueAdded",
+        "cell": "AD40",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-32-2023",
+        "field": "employment",
+        "cell": "AC41",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-33-2023",
+        "field": "valueAdded",
+        "cell": "AD41",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-33-2023",
+        "field": "employment",
+        "cell": "AC42",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-14-2024",
+        "field": "valueAdded",
+        "cell": "AE22",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-14-2024",
+        "field": "employment",
+        "cell": "AD23",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-15-2024",
+        "field": "valueAdded",
+        "cell": "AE23",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-15-2024",
+        "field": "employment",
+        "cell": "AD24",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-16-2024",
+        "field": "valueAdded",
+        "cell": "AE24",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-16-2024",
+        "field": "employment",
+        "cell": "AD25",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-17-2024",
+        "field": "valueAdded",
+        "cell": "AE25",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-17-2024",
+        "field": "employment",
+        "cell": "AD26",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-18-2024",
+        "field": "valueAdded",
+        "cell": "AE26",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-18-2024",
+        "field": "employment",
+        "cell": "AD27",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-19-2024",
+        "field": "valueAdded",
+        "cell": "AE27",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-19-2024",
+        "field": "employment",
+        "cell": "AD28",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-20-2024",
+        "field": "valueAdded",
+        "cell": "AE28",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-20-2024",
+        "field": "employment",
+        "cell": "AD29",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-21-2024",
+        "field": "valueAdded",
+        "cell": "AE29",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-21-2024",
+        "field": "employment",
+        "cell": "AD30",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-22-2024",
+        "field": "valueAdded",
+        "cell": "AE30",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-22-2024",
+        "field": "employment",
+        "cell": "AD31",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-23-2024",
+        "field": "valueAdded",
+        "cell": "AE31",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-23-2024",
+        "field": "employment",
+        "cell": "AD32",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-24-2024",
+        "field": "valueAdded",
+        "cell": "AE32",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-24-2024",
+        "field": "employment",
+        "cell": "AD33",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-26-2024",
+        "field": "valueAdded",
+        "cell": "AE34",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-26-2024",
+        "field": "employment",
+        "cell": "AD35",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-27-2024",
+        "field": "valueAdded",
+        "cell": "AE35",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-27-2024",
+        "field": "employment",
+        "cell": "AD36",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-28-2024",
+        "field": "valueAdded",
+        "cell": "AE36",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-28-2024",
+        "field": "employment",
+        "cell": "AD37",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-29-2024",
+        "field": "valueAdded",
+        "cell": "AE37",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-29-2024",
+        "field": "employment",
+        "cell": "AD38",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-30-2024",
+        "field": "valueAdded",
+        "cell": "AE38",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-30-2024",
+        "field": "employment",
+        "cell": "AD39",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-31-2024",
+        "field": "valueAdded",
+        "cell": "AE39",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-31-2024",
+        "field": "employment",
+        "cell": "AD40",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-32-2024",
+        "field": "valueAdded",
+        "cell": "AE40",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-32-2024",
+        "field": "employment",
+        "cell": "AD41",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-33-2024",
+        "field": "valueAdded",
+        "cell": "AE41",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-33-2024",
+        "field": "employment",
+        "cell": "AD42",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-14-2025",
+        "field": "valueAdded",
+        "cell": "AF22",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-15-2025",
+        "field": "valueAdded",
+        "cell": "AF23",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-16-2025",
+        "field": "valueAdded",
+        "cell": "AF24",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-17-2025",
+        "field": "valueAdded",
+        "cell": "AF25",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-18-2025",
+        "field": "valueAdded",
+        "cell": "AF26",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-19-2025",
+        "field": "valueAdded",
+        "cell": "AF27",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-20-2025",
+        "field": "valueAdded",
+        "cell": "AF28",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-21-2025",
+        "field": "valueAdded",
+        "cell": "AF29",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-22-2025",
+        "field": "valueAdded",
+        "cell": "AF30",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-23-2025",
+        "field": "valueAdded",
+        "cell": "AF31",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-24-2025",
+        "field": "valueAdded",
+        "cell": "AF32",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-26-2025",
+        "field": "valueAdded",
+        "cell": "AF34",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-27-2025",
+        "field": "valueAdded",
+        "cell": "AF35",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-28-2025",
+        "field": "valueAdded",
+        "cell": "AF36",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-29-2025",
+        "field": "valueAdded",
+        "cell": "AF37",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-30-2025",
+        "field": "valueAdded",
+        "cell": "AF38",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-31-2025",
+        "field": "valueAdded",
+        "cell": "AF39",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-32-2025",
+        "field": "valueAdded",
+        "cell": "AF40",
+        "pass": true
+      },
+      {
+        "id": "us-manufacturing-bea-33-2025",
+        "field": "valueAdded",
+        "cell": "AF41",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-67-2021",
+        "field": "valueAdded",
+        "cell": "AB75",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-67-2021",
+        "field": "employment",
+        "cell": "AA74",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-68-2021",
+        "field": "valueAdded",
+        "cell": "AB76",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-68-2021",
+        "field": "employment",
+        "cell": "AA75",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-69-2021",
+        "field": "valueAdded",
+        "cell": "AB77",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-69-2021",
+        "field": "employment",
+        "cell": "AA76",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-67-2022",
+        "field": "valueAdded",
+        "cell": "AC75",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-67-2022",
+        "field": "employment",
+        "cell": "AB74",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-68-2022",
+        "field": "valueAdded",
+        "cell": "AC76",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-68-2022",
+        "field": "employment",
+        "cell": "AB75",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-69-2022",
+        "field": "valueAdded",
+        "cell": "AC77",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-69-2022",
+        "field": "employment",
+        "cell": "AB76",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-67-2023",
+        "field": "valueAdded",
+        "cell": "AD75",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-67-2023",
+        "field": "employment",
+        "cell": "AC74",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-68-2023",
+        "field": "valueAdded",
+        "cell": "AD76",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-68-2023",
+        "field": "employment",
+        "cell": "AC75",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-69-2023",
+        "field": "valueAdded",
+        "cell": "AD77",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-69-2023",
+        "field": "employment",
+        "cell": "AC76",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-67-2024",
+        "field": "valueAdded",
+        "cell": "AE75",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-67-2024",
+        "field": "employment",
+        "cell": "AD74",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-68-2024",
+        "field": "valueAdded",
+        "cell": "AE76",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-68-2024",
+        "field": "employment",
+        "cell": "AD75",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-69-2024",
+        "field": "valueAdded",
+        "cell": "AE77",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-69-2024",
+        "field": "employment",
+        "cell": "AD76",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-67-2025",
+        "field": "valueAdded",
+        "cell": "AF75",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-68-2025",
+        "field": "valueAdded",
+        "cell": "AF76",
+        "pass": true
+      },
+      {
+        "id": "us-professional-bea-69-2025",
+        "field": "valueAdded",
+        "cell": "AF77",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-56-2021",
+        "field": "valueAdded",
+        "cell": "AB64",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-56-2021",
+        "field": "employment",
+        "lineCodes": [
+          1001,
+          1002
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-57-2021",
+        "field": "valueAdded",
+        "cell": "AB65",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-57-2021",
+        "field": "employment",
+        "lineCodes": [
+          1003
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-58-2021",
+        "field": "valueAdded",
+        "cell": "AB66",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-58-2021",
+        "field": "employment",
+        "lineCodes": [
+          1004
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-59-2021",
+        "field": "valueAdded",
+        "cell": "AB67",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-59-2021",
+        "field": "employment",
+        "lineCodes": [
+          1005
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-56-2022",
+        "field": "valueAdded",
+        "cell": "AC64",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-56-2022",
+        "field": "employment",
+        "lineCodes": [
+          1001,
+          1002
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-57-2022",
+        "field": "valueAdded",
+        "cell": "AC65",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-57-2022",
+        "field": "employment",
+        "lineCodes": [
+          1003
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-58-2022",
+        "field": "valueAdded",
+        "cell": "AC66",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-58-2022",
+        "field": "employment",
+        "lineCodes": [
+          1004
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-59-2022",
+        "field": "valueAdded",
+        "cell": "AC67",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-59-2022",
+        "field": "employment",
+        "lineCodes": [
+          1005
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-56-2023",
+        "field": "valueAdded",
+        "cell": "AD64",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-56-2023",
+        "field": "employment",
+        "cell": "AC66",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-57-2023",
+        "field": "valueAdded",
+        "cell": "AD65",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-57-2023",
+        "field": "employment",
+        "cell": "AC67",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-58-2023",
+        "field": "valueAdded",
+        "cell": "AD66",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-58-2023",
+        "field": "employment",
+        "cell": "AC68",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-59-2023",
+        "field": "valueAdded",
+        "cell": "AD67",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-59-2023",
+        "field": "employment",
+        "cell": "AC69",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-56-2024",
+        "field": "valueAdded",
+        "cell": "AE64",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-56-2024",
+        "field": "employment",
+        "cell": "AD66",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-57-2024",
+        "field": "valueAdded",
+        "cell": "AE65",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-57-2024",
+        "field": "employment",
+        "cell": "AD67",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-58-2024",
+        "field": "valueAdded",
+        "cell": "AE66",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-58-2024",
+        "field": "employment",
+        "cell": "AD68",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-59-2024",
+        "field": "valueAdded",
+        "cell": "AE67",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-59-2024",
+        "field": "employment",
+        "cell": "AD69",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-56-2025",
+        "field": "valueAdded",
+        "cell": "AF64",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-57-2025",
+        "field": "valueAdded",
+        "cell": "AF65",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-58-2025",
+        "field": "valueAdded",
+        "cell": "AF66",
+        "pass": true
+      },
+      {
+        "id": "us-finance-bea-59-2025",
+        "field": "valueAdded",
+        "cell": "AF67",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-77-2021",
+        "field": "valueAdded",
+        "cell": "AB85",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-77-2021",
+        "field": "employment",
+        "lineCodes": [
+          1601
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-78-2021",
+        "field": "valueAdded",
+        "cell": "AB86",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-78-2021",
+        "field": "employment",
+        "lineCodes": [
+          1602
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-79-2021",
+        "field": "valueAdded",
+        "cell": "AB87",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-79-2021",
+        "field": "employment",
+        "lineCodes": [
+          1603
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-80-2021",
+        "field": "valueAdded",
+        "cell": "AB88",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-80-2021",
+        "field": "employment",
+        "lineCodes": [
+          1604
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-77-2022",
+        "field": "valueAdded",
+        "cell": "AC85",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-77-2022",
+        "field": "employment",
+        "lineCodes": [
+          1601
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-78-2022",
+        "field": "valueAdded",
+        "cell": "AC86",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-78-2022",
+        "field": "employment",
+        "lineCodes": [
+          1602
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-79-2022",
+        "field": "valueAdded",
+        "cell": "AC87",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-79-2022",
+        "field": "employment",
+        "lineCodes": [
+          1603
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-80-2022",
+        "field": "valueAdded",
+        "cell": "AC88",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-80-2022",
+        "field": "employment",
+        "lineCodes": [
+          1604
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-77-2023",
+        "field": "valueAdded",
+        "cell": "AD85",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-77-2023",
+        "field": "employment",
+        "cell": "AC83",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-78-2023",
+        "field": "valueAdded",
+        "cell": "AD86",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-78-2023",
+        "field": "employment",
+        "cell": "AC84",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-79-2023",
+        "field": "valueAdded",
+        "cell": "AD87",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-79-2023",
+        "field": "employment",
+        "cell": "AC85",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-80-2023",
+        "field": "valueAdded",
+        "cell": "AD88",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-80-2023",
+        "field": "employment",
+        "cell": "AC86",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-77-2024",
+        "field": "valueAdded",
+        "cell": "AE85",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-77-2024",
+        "field": "employment",
+        "cell": "AD83",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-78-2024",
+        "field": "valueAdded",
+        "cell": "AE86",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-78-2024",
+        "field": "employment",
+        "cell": "AD84",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-79-2024",
+        "field": "valueAdded",
+        "cell": "AE87",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-79-2024",
+        "field": "employment",
+        "cell": "AD85",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-80-2024",
+        "field": "valueAdded",
+        "cell": "AE88",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-80-2024",
+        "field": "employment",
+        "cell": "AD86",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-77-2025",
+        "field": "valueAdded",
+        "cell": "AF85",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-78-2025",
+        "field": "valueAdded",
+        "cell": "AF86",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-79-2025",
+        "field": "valueAdded",
+        "cell": "AF87",
+        "pass": true
+      },
+      {
+        "id": "us-health-bea-80-2025",
+        "field": "valueAdded",
+        "cell": "AF88",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-36-2021",
+        "field": "valueAdded",
+        "cell": "AB44",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-36-2021",
+        "field": "employment",
+        "lineCodes": [
+          701
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-37-2021",
+        "field": "valueAdded",
+        "cell": "AB45",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-37-2021",
+        "field": "employment",
+        "lineCodes": [
+          705
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-38-2021",
+        "field": "valueAdded",
+        "cell": "AB46",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-38-2021",
+        "field": "employment",
+        "lineCodes": [
+          711
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-39-2021",
+        "field": "valueAdded",
+        "cell": "AB47",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-39-2021",
+        "field": "employment",
+        "lineCodes": [
+          702,
+          703,
+          704,
+          706,
+          707,
+          708,
+          709,
+          712,
+          713
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-36-2022",
+        "field": "valueAdded",
+        "cell": "AC44",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-36-2022",
+        "field": "employment",
+        "lineCodes": [
+          701
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-37-2022",
+        "field": "valueAdded",
+        "cell": "AC45",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-37-2022",
+        "field": "employment",
+        "lineCodes": [
+          705
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-38-2022",
+        "field": "valueAdded",
+        "cell": "AC46",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-38-2022",
+        "field": "employment",
+        "lineCodes": [
+          711
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-39-2022",
+        "field": "valueAdded",
+        "cell": "AC47",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-39-2022",
+        "field": "employment",
+        "lineCodes": [
+          702,
+          703,
+          704,
+          706,
+          707,
+          708,
+          709,
+          712,
+          713
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-36-2023",
+        "field": "valueAdded",
+        "cell": "AD44",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-36-2023",
+        "field": "employment",
+        "cell": "AC47",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-37-2023",
+        "field": "valueAdded",
+        "cell": "AD45",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-37-2023",
+        "field": "employment",
+        "cell": "AC48",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-38-2023",
+        "field": "valueAdded",
+        "cell": "AD46",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-38-2023",
+        "field": "employment",
+        "cell": "AC49",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-39-2023",
+        "field": "valueAdded",
+        "cell": "AD47",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-39-2023",
+        "field": "employment",
+        "cell": "AC50",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-36-2024",
+        "field": "valueAdded",
+        "cell": "AE44",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-36-2024",
+        "field": "employment",
+        "cell": "AD47",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-37-2024",
+        "field": "valueAdded",
+        "cell": "AE45",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-37-2024",
+        "field": "employment",
+        "cell": "AD48",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-38-2024",
+        "field": "valueAdded",
+        "cell": "AE46",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-38-2024",
+        "field": "employment",
+        "cell": "AD49",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-39-2024",
+        "field": "valueAdded",
+        "cell": "AE47",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-39-2024",
+        "field": "employment",
+        "cell": "AD50",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-36-2025",
+        "field": "valueAdded",
+        "cell": "AF44",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-37-2025",
+        "field": "valueAdded",
+        "cell": "AF45",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-38-2025",
+        "field": "valueAdded",
+        "cell": "AF46",
+        "pass": true
+      },
+      {
+        "id": "us-retail-bea-39-2025",
+        "field": "valueAdded",
+        "cell": "AF47",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-50-2021",
+        "field": "valueAdded",
+        "cell": "AB58",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-50-2021",
+        "field": "employment",
+        "lineCodes": [
+          901
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-51-2021",
+        "field": "valueAdded",
+        "cell": "AB59",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-51-2021",
+        "field": "employment",
+        "lineCodes": [
+          902
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-52-2021",
+        "field": "valueAdded",
+        "cell": "AB60",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-52-2021",
+        "field": "employment",
+        "lineCodes": [
+          903,
+          905
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-53-2021",
+        "field": "valueAdded",
+        "cell": "AB61",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-53-2021",
+        "field": "employment",
+        "lineCodes": [
+          906,
+          907
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-50-2022",
+        "field": "valueAdded",
+        "cell": "AC58",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-50-2022",
+        "field": "employment",
+        "lineCodes": [
+          901
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-51-2022",
+        "field": "valueAdded",
+        "cell": "AC59",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-51-2022",
+        "field": "employment",
+        "lineCodes": [
+          902
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-52-2022",
+        "field": "valueAdded",
+        "cell": "AC60",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-52-2022",
+        "field": "employment",
+        "lineCodes": [
+          903,
+          905
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-53-2022",
+        "field": "valueAdded",
+        "cell": "AC61",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-53-2022",
+        "field": "employment",
+        "lineCodes": [
+          906,
+          907
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-50-2023",
+        "field": "valueAdded",
+        "cell": "AD58",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-50-2023",
+        "field": "employment",
+        "cell": "AC61",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-51-2023",
+        "field": "valueAdded",
+        "cell": "AD59",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-51-2023",
+        "field": "employment",
+        "cell": "AC62",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-52-2023",
+        "field": "valueAdded",
+        "cell": "AD60",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-52-2023",
+        "field": "employment",
+        "cell": "AC63",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-53-2023",
+        "field": "valueAdded",
+        "cell": "AD61",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-53-2023",
+        "field": "employment",
+        "cell": "AC64",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-50-2024",
+        "field": "valueAdded",
+        "cell": "AE58",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-50-2024",
+        "field": "employment",
+        "cell": "AD61",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-51-2024",
+        "field": "valueAdded",
+        "cell": "AE59",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-51-2024",
+        "field": "employment",
+        "cell": "AD62",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-52-2024",
+        "field": "valueAdded",
+        "cell": "AE60",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-52-2024",
+        "field": "employment",
+        "cell": "AD63",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-53-2024",
+        "field": "valueAdded",
+        "cell": "AE61",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-53-2024",
+        "field": "employment",
+        "cell": "AD64",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-50-2025",
+        "field": "valueAdded",
+        "cell": "AF58",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-51-2025",
+        "field": "valueAdded",
+        "cell": "AF59",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-52-2025",
+        "field": "valueAdded",
+        "cell": "AF60",
+        "pass": true
+      },
+      {
+        "id": "us-information-bea-53-2025",
+        "field": "valueAdded",
+        "cell": "AF61",
+        "pass": true
+      },
+      {
+        "id": "us-construction-naics-236-2021",
+        "field": "employment",
+        "lineCode": 401,
+        "pass": true
+      },
+      {
+        "id": "us-construction-naics-237-2021",
+        "field": "employment",
+        "lineCode": 402,
+        "pass": true
+      },
+      {
+        "id": "us-construction-naics-238-2021",
+        "field": "employment",
+        "lineCode": 403,
+        "pass": true
+      },
+      {
+        "id": "us-construction-naics-236-2022",
+        "field": "employment",
+        "lineCode": 401,
+        "pass": true
+      },
+      {
+        "id": "us-construction-naics-237-2022",
+        "field": "employment",
+        "lineCode": 402,
+        "pass": true
+      },
+      {
+        "id": "us-construction-naics-238-2022",
+        "field": "employment",
+        "lineCode": 403,
+        "pass": true
+      },
+      {
+        "id": "us-agriculture-bea-4-2021",
+        "field": "valueAdded",
+        "cell": "AB12",
+        "pass": true
+      },
+      {
+        "id": "us-agriculture-bea-4-2021",
+        "field": "employment",
+        "lineCodes": [
+          70
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-agriculture-bea-5-2021",
+        "field": "valueAdded",
+        "cell": "AB13",
+        "pass": true
+      },
+      {
+        "id": "us-agriculture-bea-5-2021",
+        "field": "employment",
+        "lineCodes": [
+          100
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-agriculture-bea-4-2022",
+        "field": "valueAdded",
+        "cell": "AC12",
+        "pass": true
+      },
+      {
+        "id": "us-agriculture-bea-4-2022",
+        "field": "employment",
+        "lineCodes": [
+          70
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-agriculture-bea-5-2022",
+        "field": "valueAdded",
+        "cell": "AC13",
+        "pass": true
+      },
+      {
+        "id": "us-agriculture-bea-5-2022",
+        "field": "employment",
+        "lineCodes": [
+          100
+        ],
+        "pass": true
+      },
+      {
+        "id": "us-agriculture-bea-4-2023",
+        "field": "valueAdded",
+        "cell": "AD12",
+        "pass": true
+      },
+      {
+        "id": "us-agriculture-bea-4-2023",
+        "field": "employment",
+        "cell": "AC13",
+        "pass": true
+      },
+      {
+        "id": "us-agriculture-bea-5-2023",
+        "field": "valueAdded",
+        "cell": "AD13",
+        "pass": true
+      },
+      {
+        "id": "us-agriculture-bea-5-2023",
+        "field": "employment",
+        "cell": "AC14",
+        "pass": true
+      },
+      {
+        "id": "us-agriculture-bea-4-2024",
+        "field": "valueAdded",
+        "cell": "AE12",
+        "pass": true
+      },
+      {
+        "id": "us-agriculture-bea-4-2024",
+        "field": "employment",
+        "cell": "AD13",
+        "pass": true
+      },
+      {
+        "id": "us-agriculture-bea-5-2024",
+        "field": "valueAdded",
+        "cell": "AE13",
+        "pass": true
+      },
+      {
+        "id": "us-agriculture-bea-5-2024",
+        "field": "employment",
+        "cell": "AD14",
+        "pass": true
+      },
+      {
+        "id": "us-agriculture-bea-4-2025",
+        "field": "valueAdded",
+        "cell": "AF12",
+        "pass": true
+      },
+      {
+        "id": "us-agriculture-bea-5-2025",
+        "field": "valueAdded",
+        "cell": "AF13",
+        "pass": true
+      }
+    ],
+    "scope": "Root replay of every populated VA and employment field against source cells or disjoint official job rows; scope-method review recorded separately."
+  },
+  "cnHtmlEmploymentReplay": {
+    "inputSha256": "d1f4de65c9260199078372a3b3fe55c8e99298d3ef859c283390b127d03a4e9a",
+    "htmlEmploymentChecks": 30,
+    "checks": [
+      {
+        "rowId": "cn-prod-51-2023",
+        "employment": 2993.3,
+        "htmlCells": [
+          "批发业",
+          "551.0",
+          "2993.3"
+        ]
+      },
+      {
+        "rowId": "cn-prod-52-2023",
+        "employment": 2332.4,
+        "htmlCells": [
+          "零售业",
+          "468.8",
+          "2332.4"
+        ]
+      },
+      {
+        "rowId": "cn-prod-66-2023",
+        "employment": 415.5,
+        "htmlCells": [
+          "货币金融服务",
+          "2.9",
+          "415.5"
+        ]
+      },
+      {
+        "rowId": "cn-prod-67-2023",
+        "employment": 73.2,
+        "htmlCells": [
+          "资本市场服务",
+          "5.1",
+          "73.2"
+        ]
+      },
+      {
+        "rowId": "cn-prod-68-2023",
+        "employment": 729.8,
+        "htmlCells": [
+          "保险业",
+          "1.7",
+          "729.8"
+        ]
+      },
+      {
+        "rowId": "cn-prod-69-2023",
+        "employment": 17.1,
+        "htmlCells": [
+          "其他金融业",
+          "0.9",
+          "17.1"
+        ]
+      },
+      {
+        "rowId": "cn-prod-47-2023",
+        "employment": 2586.9,
+        "htmlCells": [
+          "房屋建筑业",
+          "79.7",
+          "2586.9"
+        ]
+      },
+      {
+        "rowId": "cn-prod-48-2023",
+        "employment": 1126.2,
+        "htmlCells": [
+          "土木工程建筑业",
+          "55.4",
+          "1126.2"
+        ]
+      },
+      {
+        "rowId": "cn-prod-49-2023",
+        "employment": 384.0,
+        "htmlCells": [
+          "建筑安装业",
+          "28.4",
+          "384.0"
+        ]
+      },
+      {
+        "rowId": "cn-prod-50-2023",
+        "employment": 1018.8,
+        "htmlCells": [
+          "建筑装饰、装修和其他建筑业",
+          "108.7",
+          "1018.8"
+        ]
+      },
+      {
+        "rowId": "cn-prod-701-2023",
+        "employment": 271.3,
+        "htmlCells": [
+          "房地产开发经营",
+          "20.6",
+          "271.3"
+        ]
+      },
+      {
+        "rowId": "cn-prod-702-2023",
+        "employment": 854.3,
+        "htmlCells": [
+          "物业管理",
+          "37.5",
+          "854.3"
+        ]
+      },
+      {
+        "rowId": "cn-prod-703-2023",
+        "employment": 186.7,
+        "htmlCells": [
+          "房地产中介服务",
+          "30.0",
+          "186.7"
+        ]
+      },
+      {
+        "rowId": "cn-prod-704-2023",
+        "employment": 120.3,
+        "htmlCells": [
+          "房地产租赁经营",
+          "15.0",
+          "120.3"
+        ]
+      },
+      {
+        "rowId": "cn-prod-709-2023",
+        "employment": 7.2,
+        "htmlCells": [
+          "其他房地产业",
+          "1.0",
+          "7.2"
+        ]
+      },
+      {
+        "rowId": "cn-prod-63-2023",
+        "employment": 157.5,
+        "htmlCells": [
+          "电信、广播电视和卫星传输服务",
+          "3.6",
+          "157.5"
+        ]
+      },
+      {
+        "rowId": "cn-prod-64-2023",
+        "employment": 242.2,
+        "htmlCells": [
+          "互联网和相关服务",
+          "27.8",
+          "242.2"
+        ]
+      },
+      {
+        "rowId": "cn-prod-65-2023",
+        "employment": 1107.1,
+        "htmlCells": [
+          "软件和信息技术服务业",
+          "137.7",
+          "1107.1"
+        ]
+      },
+      {
+        "rowId": "cn-prod-71-2023",
+        "employment": 295.6,
+        "htmlCells": [
+          "租赁业",
+          "51.0",
+          "295.6"
+        ]
+      },
+      {
+        "rowId": "cn-prod-72-2023",
+        "employment": 3562.7,
+        "htmlCells": [
+          "商务服务业",
+          "406.2",
+          "3562.7"
+        ]
+      },
+      {
+        "rowId": "cn-prod-53-2023",
+        "employment": 181.7,
+        "htmlCells": [
+          "铁路运输业",
+          "0.04",
+          "181.7"
+        ]
+      },
+      {
+        "rowId": "cn-prod-54-2023",
+        "employment": 822.9,
+        "htmlCells": [
+          "道路运输业",
+          "63.1",
+          "822.9"
+        ]
+      },
+      {
+        "rowId": "cn-prod-55-2023",
+        "employment": 46.0,
+        "htmlCells": [
+          "水上运输业",
+          "1.9",
+          "46.0"
+        ]
+      },
+      {
+        "rowId": "cn-prod-56-2023",
+        "employment": 63.9,
+        "htmlCells": [
+          "航空运输业",
+          "0.4",
+          "63.9"
+        ]
+      },
+      {
+        "rowId": "cn-prod-57-2023",
+        "employment": 4.2,
+        "htmlCells": [
+          "管道运输业",
+          "0.04",
+          "4.2"
+        ]
+      },
+      {
+        "rowId": "cn-prod-58-2023",
+        "employment": 135.0,
+        "htmlCells": [
+          "多式联运和运输代理业",
+          "14.4",
+          "135.0"
+        ]
+      },
+      {
+        "rowId": "cn-prod-59-2023",
+        "employment": 142.6,
+        "htmlCells": [
+          "装卸搬运和仓储业",
+          "10.6",
+          "142.6"
+        ]
+      },
+      {
+        "rowId": "cn-prod-60-2023",
+        "employment": 157.9,
+        "htmlCells": [
+          "邮政业",
+          "3.0",
+          "157.9"
+        ]
+      },
+      {
+        "rowId": "cn-prod-61-2023",
+        "employment": 279.4,
+        "htmlCells": [
+          "住宿业",
+          "19.1",
+          "279.4"
+        ]
+      },
+      {
+        "rowId": "cn-prod-62-2023",
+        "employment": 614.2,
+        "htmlCells": [
+          "餐饮业",
+          "52.0",
+          "614.2"
+        ]
+      }
+    ],
+    "remainingVisualChecks": "Three industrial employment figures checked in census3 prose; two agricultural employment figures checked in official image C04-02. VA image and GDP tables checked separately."
+  },
+  "cnAdditionalChecks": {
+    "industrialEmployment": [
+      469.8,
+      10481.4,
+      477.6
+    ],
+    "yearbookC0402Employment": {
+      "2023": 16882,
+      "2024": 16298
+    },
+    "gdpSourceCheck": "Read 2023 C03-06 and C03-01 images, 2024 final verification table, and official 2025 initial table cached during this execution. The last two 2025 live re-fetch attempts timed out; not reported as fresh successful fetches.",
+    "valueAddedDifferences": {
+      "2023": [
+        93967.0,
+        89169.1,
+        4797.9
+      ],
+      "2024": [
+        96976,
+        91636,
+        5340
+      ],
+      "2025": [
+        99107,
+        93347,
+        5760
+      ]
+    },
+    "ratioChecks": {
+      "2023": 52819.03802866959,
+      "2024": 56225.30371824764
+    }
+  },
+  "methodChecks": [
+    "Read BEA SPI methodology physical pages 104–105 and 112–114: jobs, annual-average employees versus any-time proprietors, exclusions and tax-address assumption.",
+    "Read NIPA chapter 2 physical pages 5–6: domestic boundary, overseas government and imputed housing.",
+    "Read NIPA chapter 10 appendix A and T60400D-A government rows: employee counts can include multiple filled positions per person; label employees, not unique persons.",
+    "Reviewed non-overlapping manufacturing leaves and government/private separation; 16 employment sums and 3 VA differences survive schema validation and exports.",
+    "CN census enterprise employment cannot be substituted for economy-wide employment. Corrected GDP classification locator to section 2.1."
+  ],
+  "publicationRecheck": {
+    "bea": {
+      "url": "https://www.bea.gov/news/schedule",
+      "checked": "2026-09-09",
+      "finding": "Next GDP Industries Q2 release scheduled 2026-09-30."
+    },
+    "cn": {
+      "url": "https://www.stats.gov.cn/sj/zxfb/",
+      "checked": "2026-09-09",
+      "finding": "Current listing contains September 9 CPI/PPI and August 17 July activity; no newer annual/quarter industry detail found in this listing."
+    }
+  },
+  "limits": [
+    "No 2025 comparable employment ratios; latest nominal VA remains available where officially published.",
+    "CN agriculture has only one comparable child group in each of 2023/2024; this is not a complete agricultural productivity ranking.",
+    "US private 2021/2022 job ratios use discontinued historical employment with a different revision vintage from VA; no extrapolation.",
+    "Unknown or incompatible values stay unranked. US government employee ratios are withheld pending timing evidence.",
+    "Real GitHub identity, R2 snapshots and service synchronization remain unconfigured; no claim of live annotation acceptance.",
+    "NIPA employee timing is unknown for 98 rows; eight government ratios removed without changing official numeric values."
+  ],
+  "independentTimingCorrection": {
+    "beforeSha256": "1006dd9bb1be63a822383e0ff6dbc9353e69a39f371afd8573f38dd1862ac731",
+    "afterSha256": "2eb4a8660165a4fa3fc5cd4559c6975bd925dac72d528788ca32efa88384a937",
+    "affectedRows": [
+      "us-real-estate-bea-61-2023",
+      "us-real-estate-bea-64-2023",
+      "us-real-estate-bea-61-2024",
+      "us-real-estate-bea-64-2024",
+      "us-government-bea-90-2021",
+      "us-government-bea-95-2021",
+      "us-government-bea-90-2022",
+      "us-government-bea-95-2022",
+      "us-government-bea-90-2023",
+      "us-government-bea-95-2023",
+      "us-government-bea-90-2024",
+      "us-government-bea-95-2024",
+      "us-manufacturing-bea-14-2023",
+      "us-manufacturing-bea-15-2023",
+      "us-manufacturing-bea-16-2023",
+      "us-manufacturing-bea-17-2023",
+      "us-manufacturing-bea-18-2023",
+      "us-manufacturing-bea-19-2023",
+      "us-manufacturing-bea-20-2023",
+      "us-manufacturing-bea-21-2023",
+      "us-manufacturing-bea-22-2023",
+      "us-manufacturing-bea-23-2023",
+      "us-manufacturing-bea-24-2023",
+      "us-manufacturing-bea-26-2023",
+      "us-manufacturing-bea-27-2023",
+      "us-manufacturing-bea-28-2023",
+      "us-manufacturing-bea-29-2023",
+      "us-manufacturing-bea-30-2023",
+      "us-manufacturing-bea-31-2023",
+      "us-manufacturing-bea-32-2023",
+      "us-manufacturing-bea-33-2023",
+      "us-manufacturing-bea-14-2024",
+      "us-manufacturing-bea-15-2024",
+      "us-manufacturing-bea-16-2024",
+      "us-manufacturing-bea-17-2024",
+      "us-manufacturing-bea-18-2024",
+      "us-manufacturing-bea-19-2024",
+      "us-manufacturing-bea-20-2024",
+      "us-manufacturing-bea-21-2024",
+      "us-manufacturing-bea-22-2024",
+      "us-manufacturing-bea-23-2024",
+      "us-manufacturing-bea-24-2024",
+      "us-manufacturing-bea-26-2024",
+      "us-manufacturing-bea-27-2024",
+      "us-manufacturing-bea-28-2024",
+      "us-manufacturing-bea-29-2024",
+      "us-manufacturing-bea-30-2024",
+      "us-manufacturing-bea-31-2024",
+      "us-manufacturing-bea-32-2024",
+      "us-manufacturing-bea-33-2024",
+      "us-professional-bea-67-2021",
+      "us-professional-bea-68-2021",
+      "us-professional-bea-69-2021",
+      "us-professional-bea-67-2022",
+      "us-professional-bea-68-2022",
+      "us-professional-bea-69-2022",
+      "us-professional-bea-67-2023",
+      "us-professional-bea-68-2023",
+      "us-professional-bea-69-2023",
+      "us-professional-bea-67-2024",
+      "us-professional-bea-68-2024",
+      "us-professional-bea-69-2024",
+      "us-finance-bea-56-2023",
+      "us-finance-bea-57-2023",
+      "us-finance-bea-58-2023",
+      "us-finance-bea-59-2023",
+      "us-finance-bea-56-2024",
+      "us-finance-bea-57-2024",
+      "us-finance-bea-58-2024",
+      "us-finance-bea-59-2024",
+      "us-health-bea-77-2023",
+      "us-health-bea-78-2023",
+      "us-health-bea-79-2023",
+      "us-health-bea-80-2023",
+      "us-health-bea-77-2024",
+      "us-health-bea-78-2024",
+      "us-health-bea-79-2024",
+      "us-health-bea-80-2024",
+      "us-retail-bea-36-2023",
+      "us-retail-bea-37-2023",
+      "us-retail-bea-38-2023",
+      "us-retail-bea-39-2023",
+      "us-retail-bea-36-2024",
+      "us-retail-bea-37-2024",
+      "us-retail-bea-38-2024",
+      "us-retail-bea-39-2024",
+      "us-information-bea-50-2023",
+      "us-information-bea-51-2023",
+      "us-information-bea-52-2023",
+      "us-information-bea-53-2023",
+      "us-information-bea-50-2024",
+      "us-information-bea-51-2024",
+      "us-information-bea-52-2024",
+      "us-information-bea-53-2024",
+      "us-agriculture-bea-4-2023",
+      "us-agriculture-bea-5-2023",
+      "us-agriculture-bea-4-2024",
+      "us-agriculture-bea-5-2024"
+    ],
+    "removedRatioRows": [
+      "us-government-bea-90-2021",
+      "us-government-bea-95-2021",
+      "us-government-bea-90-2022",
+      "us-government-bea-95-2022",
+      "us-government-bea-90-2023",
+      "us-government-bea-95-2023",
+      "us-government-bea-90-2024",
+      "us-government-bea-95-2024"
+    ],
+    "basis": "NIPA 6.4D为官方年度雇员数，但已读附录A未明确年度平均的处理，统计时点待补证；不认定为年平均人数，本版暂不计算比值。",
+    "locator": "NIPA chapter 10, Appendix A, printed 10-25–10-26; workbook T60400D-A does not state the annual averaging operation",
+    "numericValuesChanged": 0
+  }
+}

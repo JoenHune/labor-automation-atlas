@@ -6,6 +6,8 @@ import {phaseNames,taskStatus} from '../../../../src/research/site'
 import EvidenceList from './EvidenceList.vue'
 import PendingDefinitionItems from './PendingDefinitionItems.vue'
 import ObservationDetails from './ObservationDetails.vue'
+import {useCurrency} from '../../../../src/preferences/currency'
+const {amount,unit,disclosure}=useCurrency()
 const props=defineProps<{record:IndustryPage}>()
 const industry=computed(()=>props.record.industry),observation=computed(()=>props.record.observation)
 const query=ref(''),phase=ref('all'),scenario=ref('all'),status=ref('all')
@@ -32,7 +34,7 @@ onBeforeUnmount(()=>window.removeEventListener('popstate',restore))
  <a :href="withBase('/'+industry.country+'/')">← {{industry.country==='cn'?'中国':'美国'}}行业全景</a>
  <p class="eyebrow">行业流程 · {{industry.selectionReason==='sector-supplement'?'榜外产业补充':'2025 全年入选行业'}}</p>
  <h1 :data-content-id="industry.id+'-title'" tabindex="0">{{industry.name}}</h1>
- <section :data-content-id="industry.id+'-scale-2025'" tabindex="0" class="task-conclusion"><p><strong>{{observation?.value?.toLocaleString('zh-CN')}} {{observation?.unit}}</strong> · 2025 年现价增加值</p><p>{{industry.coverage}}</p><p class="scope-note">发布 {{observation?.releaseDate}} · {{observation?.revision}}</p><ObservationDetails v-if="observation" :observation="observation"/></section>
+ <section :data-content-id="industry.id+'-scale-2025'" tabindex="0" class="task-conclusion"><p><strong>{{amount(observation)}} {{unit}}</strong> · 2025 年现价增加值</p><p>{{industry.coverage}}</p><p class="scope-note">{{disclosure}}</p><p class="scope-note">发布 {{observation?.releaseDate}} · {{observation?.revision}}</p><ObservationDetails v-if="observation" :observation="observation"/></section>
  <section :data-content-id="industry.id+'-coverage-status'" tabindex="0"><h2>场景与任务进度</h2><p>当前 {{record.scenarios.filter(s=>s.inventory).length}} 个盘点场景、{{candidates.length}} 项候选任务，{{reviewed}} 项已完成公开证据独立复核。</p><p v-if="references.length">另有 {{references.length}} 份组合流程样板，其中 {{references.filter(t=>t.researchStatus==='reviewed').length}} 份公开证据已复核。样板与所含原子任务不重复累计数量或工时。</p><p class="work-note">任务清单仍在扩展并修订粒度；数量不代表行业任务覆盖率、人工规模或自动化市场。未完成方案、反例和来源复核的任务保持待研究状态。</p></section>
  <details v-if="subsectors.length" class="method-details"><summary>子行业范围与未覆盖部分</summary><ul><li v-for="(sub,i) in subsectors" :key="i" :data-content-id="industry.id+'-subsector-'+i" tabindex="0"><strong>{{sub.name??sub.subsector??sub.code??sub.naics??sub.classification}}</strong><p>{{sub.gap??sub.uncovered??sub.coverageMeaning}}</p><small>{{sub.scope??sub.countingNote}}</small></li></ul></details>
  <div class="task-filters"><label>搜索本行业任务 <input v-model="query" type="search" placeholder="任务动作或对象"/></label><label>场景 <select v-model="scenario"><option value="all">全部场景</option><option v-for="s in record.scenarios" :value="s.id">{{s.title}}</option></select></label><label>流程阶段 <select v-model="phase"><option value="all">全部阶段</option><option v-for="(label,key) in phaseNames" :value="key">{{label}}</option></select></label><label>研究状态 <select v-model="status"><option value="all">全部状态</option><option v-for="(label,key) in taskStatus" :value="key">{{label}}</option></select></label></div>

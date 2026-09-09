@@ -1,5 +1,6 @@
 import { ResearchSchema, type Research } from './schema'
 import { annualRanking } from './ranking'
+import {validateProductivityDataset} from './productivity'
 
 export function validateResearch(input: unknown) {
   const data = ResearchSchema.parse(input)
@@ -13,6 +14,12 @@ export function validateResearch(input: unknown) {
   const tasks = new Map(data.tasks.map(x=>[x.id,x]))
   const claims = new Map(data.claims.map(x=>[x.id,x]))
   const searches = new Map(data.searches.map(x=>[x.id,x]))
+  if(data.subindustryProductivity){
+    validateProductivityDataset(data.subindustryProductivity)
+    for(const parent of data.subindustryProductivity.parents){
+      if(industries.get(parent.parentIndustryId)?.country!==parent.country)errors.push('细分父行业缺失或串国：'+parent.parentIndustryId)
+    }
+  }
   const countryLinks = (owner: {id:string,country:string}, linked: {id:string,country:string}|undefined, kind:string) => {
     if (!linked) errors.push(owner.id + ': 缺失关联 ' + kind)
     else if (linked.country !== owner.country) errors.push(owner.id + ': 国家串入 ' + linked.id)

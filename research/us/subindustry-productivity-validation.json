@@ -1,0 +1,2796 @@
+{
+  "inputFiles": [
+    {
+      "file": "research/us/raw/ValueAdded.xlsx",
+      "sha256": "87b7484af9f75a06930151004f7f76a84b715e2ccb7ad20162e3c338e39b3e6c"
+    },
+    {
+      "file": "research/us/raw/industry-concordance.xlsx",
+      "sha256": "6e25267ff60ccedc0808c14153b0cdeb566a7f5e9097536c70c2b9694ef5ff47"
+    },
+    {
+      "file": "research/us/raw/productivity/Section6All.xlsx",
+      "sha256": "07fe01381f56f3cc67ce72a0c8e5497ded2efe2a71d55749c9a39e1da93c7cce"
+    },
+    {
+      "file": "research/us/raw/productivity/SAINC-0324.zip",
+      "sha256": "9b1c7cae85192ba587bedc7ffb77e8babb6c61da0ae7a3f162f434daf6bb3ab3"
+    },
+    {
+      "file": "research/us/raw/productivity/SAEMP25N_US_1998_2022.csv",
+      "sha256": "e80a62db34325867e78e185a5771b17b7a964686222736e609180efa267a9ad3"
+    },
+    {
+      "file": "research/us/raw/productivity/SAEMP25N__definition.xml",
+      "sha256": "66d52e9e97762d8ac62e40d7f0c2f288389a1cc48305959f2958f925e40b1aad"
+    },
+    {
+      "file": "research/us/raw/productivity/SAEMP25N__Footnotes.html",
+      "sha256": "bd84bdbc80e24c0d511ef345e028ea55fb318a07b90104a14c939b7d82de7e5e"
+    },
+    {
+      "file": "research/us/raw/productivity/spi-methodology-2025.pdf",
+      "sha256": "64f74e711c62528d4c7aaf60b96e022f8296c632cbf439de8a5856e672f8aa6c"
+    },
+    {
+      "file": "research/us/raw/productivity/nipa-chapter-02.pdf",
+      "sha256": "82e9efeb46ec54b2d87d2453090457863d9c0527d41ca88c01e5b5dd7a9c30b5"
+    },
+    {
+      "file": "research/us/raw/productivity/nipa-chapter-10.pdf",
+      "sha256": "176b04ebc0184e7a52097194b3843b63cd98fc6480130aeffa0b71b8c85ec396"
+    }
+  ],
+  "vaFreshDownloadSameSHA": true,
+  "counts": {
+    "parents": 11,
+    "rows": 250,
+    "vaValues": 220,
+    "comparableRows": 78
+  },
+  "vaChildAdditivity": [
+    {
+      "parentIndustryId": "us-real-estate",
+      "year": 2021,
+      "parentValue": 3152283,
+      "childSum": 3152283,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 1.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-real-estate",
+      "year": 2022,
+      "parentValue": 3472481,
+      "childSum": 3472481,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 1.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-real-estate",
+      "year": 2023,
+      "parentValue": 3807716,
+      "childSum": 3807716,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 1.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-real-estate",
+      "year": 2024,
+      "parentValue": 4052400,
+      "childSum": 4052399,
+      "differenceUSDmillion": -1,
+      "roundingToleranceUSDmillion": 1.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-real-estate",
+      "year": 2025,
+      "parentValue": 4238566,
+      "childSum": 4238566,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 1.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-government",
+      "year": 2021,
+      "parentValue": 2807928,
+      "childSum": 2807928,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 1.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-government",
+      "year": 2022,
+      "parentValue": 2925723,
+      "childSum": 2925723,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 1.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-government",
+      "year": 2023,
+      "parentValue": 3098723,
+      "childSum": 3098723,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 1.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-government",
+      "year": 2024,
+      "parentValue": 3296342,
+      "childSum": 3296342,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 1.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-government",
+      "year": 2025,
+      "parentValue": 3447010,
+      "childSum": 3447010,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 1.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "year": 2021,
+      "parentValue": 2416339,
+      "childSum": 2416341,
+      "differenceUSDmillion": 2,
+      "roundingToleranceUSDmillion": 10.0,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "year": 2022,
+      "parentValue": 2668228,
+      "childSum": 2668228,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 10.0,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "year": 2023,
+      "parentValue": 2816477,
+      "childSum": 2816479,
+      "differenceUSDmillion": 2,
+      "roundingToleranceUSDmillion": 10.0,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "year": 2024,
+      "parentValue": 2880724,
+      "childSum": 2880725,
+      "differenceUSDmillion": 1,
+      "roundingToleranceUSDmillion": 10.0,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "year": 2025,
+      "parentValue": 2896476,
+      "childSum": 2896478,
+      "differenceUSDmillion": 2,
+      "roundingToleranceUSDmillion": 10.0,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-professional",
+      "year": 2021,
+      "parentValue": 1885233,
+      "childSum": 1885233,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 2.0,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-professional",
+      "year": 2022,
+      "parentValue": 2057502,
+      "childSum": 2057501,
+      "differenceUSDmillion": -1,
+      "roundingToleranceUSDmillion": 2.0,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-professional",
+      "year": 2023,
+      "parentValue": 2220588,
+      "childSum": 2220588,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 2.0,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-professional",
+      "year": 2024,
+      "parentValue": 2355069,
+      "childSum": 2355069,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 2.0,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-professional",
+      "year": 2025,
+      "parentValue": 2494176,
+      "childSum": 2494176,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 2.0,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-finance",
+      "year": 2021,
+      "parentValue": 1862356,
+      "childSum": 1862357,
+      "differenceUSDmillion": 1,
+      "roundingToleranceUSDmillion": 2.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-finance",
+      "year": 2022,
+      "parentValue": 1982604,
+      "childSum": 1982604,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 2.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-finance",
+      "year": 2023,
+      "parentValue": 2075720,
+      "childSum": 2075721,
+      "differenceUSDmillion": 1,
+      "roundingToleranceUSDmillion": 2.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-finance",
+      "year": 2024,
+      "parentValue": 2229155,
+      "childSum": 2229154,
+      "differenceUSDmillion": -1,
+      "roundingToleranceUSDmillion": 2.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-finance",
+      "year": 2025,
+      "parentValue": 2441825,
+      "childSum": 2441825,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 2.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-health",
+      "year": 2021,
+      "parentValue": 1734179,
+      "childSum": 1734179,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 2.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-health",
+      "year": 2022,
+      "parentValue": 1863046,
+      "childSum": 1863047,
+      "differenceUSDmillion": 1,
+      "roundingToleranceUSDmillion": 2.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-health",
+      "year": 2023,
+      "parentValue": 2043659,
+      "childSum": 2043658,
+      "differenceUSDmillion": -1,
+      "roundingToleranceUSDmillion": 2.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-health",
+      "year": 2024,
+      "parentValue": 2209381,
+      "childSum": 2209382,
+      "differenceUSDmillion": 1,
+      "roundingToleranceUSDmillion": 2.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-health",
+      "year": 2025,
+      "parentValue": 2371037,
+      "childSum": 2371037,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 2.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-retail",
+      "year": 2021,
+      "parentValue": 1537411,
+      "childSum": 1537411,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 2.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-retail",
+      "year": 2022,
+      "parentValue": 1647845,
+      "childSum": 1647845,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 2.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-retail",
+      "year": 2023,
+      "parentValue": 1779566,
+      "childSum": 1779565,
+      "differenceUSDmillion": -1,
+      "roundingToleranceUSDmillion": 2.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-retail",
+      "year": 2024,
+      "parentValue": 1849039,
+      "childSum": 1849040,
+      "differenceUSDmillion": 1,
+      "roundingToleranceUSDmillion": 2.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-retail",
+      "year": 2025,
+      "parentValue": 1921751,
+      "childSum": 1921751,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 2.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-information",
+      "year": 2021,
+      "parentValue": 1312628,
+      "childSum": 1312629,
+      "differenceUSDmillion": 1,
+      "roundingToleranceUSDmillion": 2.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-information",
+      "year": 2022,
+      "parentValue": 1383492,
+      "childSum": 1383492,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 2.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-information",
+      "year": 2023,
+      "parentValue": 1491283,
+      "childSum": 1491285,
+      "differenceUSDmillion": 2,
+      "roundingToleranceUSDmillion": 2.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-information",
+      "year": 2024,
+      "parentValue": 1592692,
+      "childSum": 1592692,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 2.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-information",
+      "year": 2025,
+      "parentValue": 1695042,
+      "childSum": 1695042,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 2.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-agriculture",
+      "year": 2021,
+      "parentValue": 230723,
+      "childSum": 230723,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 1.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-agriculture",
+      "year": 2022,
+      "parentValue": 294048,
+      "childSum": 294048,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 1.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-agriculture",
+      "year": 2023,
+      "parentValue": 270441,
+      "childSum": 270441,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 1.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-agriculture",
+      "year": 2024,
+      "parentValue": 269686,
+      "childSum": 269686,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 1.5,
+      "pass": true
+    },
+    {
+      "parentIndustryId": "us-agriculture",
+      "year": 2025,
+      "parentValue": 272014,
+      "childSum": 272014,
+      "differenceUSDmillion": 0,
+      "roundingToleranceUSDmillion": 1.5,
+      "pass": true
+    }
+  ],
+  "crosswalkMappings": [
+    {
+      "parentIndustryId": "us-real-estate",
+      "line": 61,
+      "year": 2021,
+      "regionalLineCodes": [
+        1101
+      ],
+      "nationalSummaryCode": "HS+ORE",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 401, 403; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 10110200
+    },
+    {
+      "parentIndustryId": "us-real-estate",
+      "line": 64,
+      "year": 2021,
+      "regionalLineCodes": [
+        1102,
+        1103
+      ],
+      "nationalSummaryCode": "532RL",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 404; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 621000
+    },
+    {
+      "parentIndustryId": "us-real-estate",
+      "line": 61,
+      "year": 2022,
+      "regionalLineCodes": [
+        1101
+      ],
+      "nationalSummaryCode": "HS+ORE",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 401, 403; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 11138600
+    },
+    {
+      "parentIndustryId": "us-real-estate",
+      "line": 64,
+      "year": 2022,
+      "regionalLineCodes": [
+        1102,
+        1103
+      ],
+      "nationalSummaryCode": "532RL",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 404; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 693600
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 14,
+      "year": 2021,
+      "regionalLineCodes": [
+        511
+      ],
+      "nationalSummaryCode": "321",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 66; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 457300
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 15,
+      "year": 2021,
+      "regionalLineCodes": [
+        512
+      ],
+      "nationalSummaryCode": "327",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 71; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 429600
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 16,
+      "year": 2021,
+      "regionalLineCodes": [
+        513
+      ],
+      "nationalSummaryCode": "331",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 83; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 355300
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 17,
+      "year": 2021,
+      "regionalLineCodes": [
+        514
+      ],
+      "nationalSummaryCode": "332",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 94; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 1449400
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 18,
+      "year": 2021,
+      "regionalLineCodes": [
+        515
+      ],
+      "nationalSummaryCode": "333",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 120; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 1103300
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 19,
+      "year": 2021,
+      "regionalLineCodes": [
+        516
+      ],
+      "nationalSummaryCode": "334",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 155; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 1073100
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 20,
+      "year": 2021,
+      "regionalLineCodes": [
+        517
+      ],
+      "nationalSummaryCode": "335",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 178; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 408700
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 21,
+      "year": 2021,
+      "regionalLineCodes": [
+        518
+      ],
+      "nationalSummaryCode": "3361MV",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 192; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 960200
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 22,
+      "year": 2021,
+      "regionalLineCodes": [
+        519
+      ],
+      "nationalSummaryCode": "3364OT",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 207; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 694800
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 23,
+      "year": 2021,
+      "regionalLineCodes": [
+        521
+      ],
+      "nationalSummaryCode": "337",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 219; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 410900
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 24,
+      "year": 2021,
+      "regionalLineCodes": [
+        522
+      ],
+      "nationalSummaryCode": "339",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 230; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 719400
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 26,
+      "year": 2021,
+      "regionalLineCodes": [
+        531,
+        532
+      ],
+      "nationalSummaryCode": "311FT",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 241; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 2051800
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 27,
+      "year": 2021,
+      "regionalLineCodes": [
+        533,
+        534
+      ],
+      "nationalSummaryCode": "313TT",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 274; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 217200
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 28,
+      "year": 2021,
+      "regionalLineCodes": [
+        535,
+        536
+      ],
+      "nationalSummaryCode": "315AL",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 280; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 173900
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 29,
+      "year": 2021,
+      "regionalLineCodes": [
+        537
+      ],
+      "nationalSummaryCode": "322",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 282; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 356300
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 30,
+      "year": 2021,
+      "regionalLineCodes": [
+        538
+      ],
+      "nationalSummaryCode": "323",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 290; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 433000
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 31,
+      "year": 2021,
+      "regionalLineCodes": [
+        539
+      ],
+      "nationalSummaryCode": "324",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 292; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 110300
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 32,
+      "year": 2021,
+      "regionalLineCodes": [
+        541
+      ],
+      "nationalSummaryCode": "325",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 296; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 911000
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 33,
+      "year": 2021,
+      "regionalLineCodes": [
+        542
+      ],
+      "nationalSummaryCode": "326",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 317; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 734600
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 14,
+      "year": 2022,
+      "regionalLineCodes": [
+        511
+      ],
+      "nationalSummaryCode": "321",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 66; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 476800
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 15,
+      "year": 2022,
+      "regionalLineCodes": [
+        512
+      ],
+      "nationalSummaryCode": "327",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 71; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 442400
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 16,
+      "year": 2022,
+      "regionalLineCodes": [
+        513
+      ],
+      "nationalSummaryCode": "331",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 83; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 371000
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 17,
+      "year": 2022,
+      "regionalLineCodes": [
+        514
+      ],
+      "nationalSummaryCode": "332",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 94; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 1497800
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 18,
+      "year": 2022,
+      "regionalLineCodes": [
+        515
+      ],
+      "nationalSummaryCode": "333",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 120; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 1155000
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 19,
+      "year": 2022,
+      "regionalLineCodes": [
+        516
+      ],
+      "nationalSummaryCode": "334",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 155; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 1103900
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 20,
+      "year": 2022,
+      "regionalLineCodes": [
+        517
+      ],
+      "nationalSummaryCode": "335",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 178; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 424700
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 21,
+      "year": 2022,
+      "regionalLineCodes": [
+        518
+      ],
+      "nationalSummaryCode": "3361MV",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 192; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 1004200
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 22,
+      "year": 2022,
+      "regionalLineCodes": [
+        519
+      ],
+      "nationalSummaryCode": "3364OT",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 207; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 723800
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 23,
+      "year": 2022,
+      "regionalLineCodes": [
+        521
+      ],
+      "nationalSummaryCode": "337",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 219; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 412500
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 24,
+      "year": 2022,
+      "regionalLineCodes": [
+        522
+      ],
+      "nationalSummaryCode": "339",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 230; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 747100
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 26,
+      "year": 2022,
+      "regionalLineCodes": [
+        531,
+        532
+      ],
+      "nationalSummaryCode": "311FT",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 241; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 2139200
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 27,
+      "year": 2022,
+      "regionalLineCodes": [
+        533,
+        534
+      ],
+      "nationalSummaryCode": "313TT",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 274; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 220500
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 28,
+      "year": 2022,
+      "regionalLineCodes": [
+        535,
+        536
+      ],
+      "nationalSummaryCode": "315AL",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 280; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 179600
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 29,
+      "year": 2022,
+      "regionalLineCodes": [
+        537
+      ],
+      "nationalSummaryCode": "322",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 282; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 368900
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 30,
+      "year": 2022,
+      "regionalLineCodes": [
+        538
+      ],
+      "nationalSummaryCode": "323",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 290; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 449100
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 31,
+      "year": 2022,
+      "regionalLineCodes": [
+        539
+      ],
+      "nationalSummaryCode": "324",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 292; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 110900
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 32,
+      "year": 2022,
+      "regionalLineCodes": [
+        541
+      ],
+      "nationalSummaryCode": "325",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 296; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 935400
+    },
+    {
+      "parentIndustryId": "us-manufacturing",
+      "line": 33,
+      "year": 2022,
+      "regionalLineCodes": [
+        542
+      ],
+      "nationalSummaryCode": "326",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 317; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 760900
+    },
+    {
+      "parentIndustryId": "us-finance",
+      "line": 56,
+      "year": 2021,
+      "regionalLineCodes": [
+        1001,
+        1002
+      ],
+      "nationalSummaryCode": "521CI",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 388; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 3013200
+    },
+    {
+      "parentIndustryId": "us-finance",
+      "line": 57,
+      "year": 2021,
+      "regionalLineCodes": [
+        1003
+      ],
+      "nationalSummaryCode": "523",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 392; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 4754900
+    },
+    {
+      "parentIndustryId": "us-finance",
+      "line": 58,
+      "year": 2021,
+      "regionalLineCodes": [
+        1004
+      ],
+      "nationalSummaryCode": "524",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 395; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 3551000
+    },
+    {
+      "parentIndustryId": "us-finance",
+      "line": 59,
+      "year": 2021,
+      "regionalLineCodes": [
+        1005
+      ],
+      "nationalSummaryCode": "525",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 400; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 711400
+    },
+    {
+      "parentIndustryId": "us-finance",
+      "line": 56,
+      "year": 2022,
+      "regionalLineCodes": [
+        1001,
+        1002
+      ],
+      "nationalSummaryCode": "521CI",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 388; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 3040200
+    },
+    {
+      "parentIndustryId": "us-finance",
+      "line": 57,
+      "year": 2022,
+      "regionalLineCodes": [
+        1003
+      ],
+      "nationalSummaryCode": "523",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 392; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 5396200
+    },
+    {
+      "parentIndustryId": "us-finance",
+      "line": 58,
+      "year": 2022,
+      "regionalLineCodes": [
+        1004
+      ],
+      "nationalSummaryCode": "524",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 395; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 3695200
+    },
+    {
+      "parentIndustryId": "us-finance",
+      "line": 59,
+      "year": 2022,
+      "regionalLineCodes": [
+        1005
+      ],
+      "nationalSummaryCode": "525",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 400; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 850700
+    },
+    {
+      "parentIndustryId": "us-health",
+      "line": 77,
+      "year": 2021,
+      "regionalLineCodes": [
+        1601
+      ],
+      "nationalSummaryCode": "621",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 444; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 9623000
+    },
+    {
+      "parentIndustryId": "us-health",
+      "line": 78,
+      "year": 2021,
+      "regionalLineCodes": [
+        1602
+      ],
+      "nationalSummaryCode": "622",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 451; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 5129600
+    },
+    {
+      "parentIndustryId": "us-health",
+      "line": 79,
+      "year": 2021,
+      "regionalLineCodes": [
+        1603
+      ],
+      "nationalSummaryCode": "623",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 452; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 3246400
+    },
+    {
+      "parentIndustryId": "us-health",
+      "line": 80,
+      "year": 2021,
+      "regionalLineCodes": [
+        1604
+      ],
+      "nationalSummaryCode": "624",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 456; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 4991400
+    },
+    {
+      "parentIndustryId": "us-health",
+      "line": 77,
+      "year": 2022,
+      "regionalLineCodes": [
+        1601
+      ],
+      "nationalSummaryCode": "621",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 444; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 9958800
+    },
+    {
+      "parentIndustryId": "us-health",
+      "line": 78,
+      "year": 2022,
+      "regionalLineCodes": [
+        1602
+      ],
+      "nationalSummaryCode": "622",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 451; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 5158200
+    },
+    {
+      "parentIndustryId": "us-health",
+      "line": 79,
+      "year": 2022,
+      "regionalLineCodes": [
+        1603
+      ],
+      "nationalSummaryCode": "623",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 452; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 3207400
+    },
+    {
+      "parentIndustryId": "us-health",
+      "line": 80,
+      "year": 2022,
+      "regionalLineCodes": [
+        1604
+      ],
+      "nationalSummaryCode": "624",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 456; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 5221100
+    },
+    {
+      "parentIndustryId": "us-retail",
+      "line": 36,
+      "year": 2021,
+      "regionalLineCodes": [
+        701
+      ],
+      "nationalSummaryCode": "441",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 347; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 2164700
+    },
+    {
+      "parentIndustryId": "us-retail",
+      "line": 37,
+      "year": 2021,
+      "regionalLineCodes": [
+        705
+      ],
+      "nationalSummaryCode": "445",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 348; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 3309600
+    },
+    {
+      "parentIndustryId": "us-retail",
+      "line": 38,
+      "year": 2021,
+      "regionalLineCodes": [
+        711
+      ],
+      "nationalSummaryCode": "452",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 349; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 3113200
+    },
+    {
+      "parentIndustryId": "us-retail",
+      "line": 39,
+      "year": 2021,
+      "regionalLineCodes": [
+        702,
+        703,
+        704,
+        706,
+        707,
+        708,
+        709,
+        712,
+        713
+      ],
+      "nationalSummaryCode": "4A0",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 350; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 10499200
+    },
+    {
+      "parentIndustryId": "us-retail",
+      "line": 36,
+      "year": 2022,
+      "regionalLineCodes": [
+        701
+      ],
+      "nationalSummaryCode": "441",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 347; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 2192400
+    },
+    {
+      "parentIndustryId": "us-retail",
+      "line": 37,
+      "year": 2022,
+      "regionalLineCodes": [
+        705
+      ],
+      "nationalSummaryCode": "445",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 348; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 3337800
+    },
+    {
+      "parentIndustryId": "us-retail",
+      "line": 38,
+      "year": 2022,
+      "regionalLineCodes": [
+        711
+      ],
+      "nationalSummaryCode": "452",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 349; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 3146600
+    },
+    {
+      "parentIndustryId": "us-retail",
+      "line": 39,
+      "year": 2022,
+      "regionalLineCodes": [
+        702,
+        703,
+        704,
+        706,
+        707,
+        708,
+        709,
+        712,
+        713
+      ],
+      "nationalSummaryCode": "4A0",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 350; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 10833500
+    },
+    {
+      "parentIndustryId": "us-information",
+      "line": 50,
+      "year": 2021,
+      "regionalLineCodes": [
+        901
+      ],
+      "nationalSummaryCode": "511",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 369; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 1002700
+    },
+    {
+      "parentIndustryId": "us-information",
+      "line": 51,
+      "year": 2021,
+      "regionalLineCodes": [
+        902
+      ],
+      "nationalSummaryCode": "512",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 375; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 472600
+    },
+    {
+      "parentIndustryId": "us-information",
+      "line": 52,
+      "year": 2021,
+      "regionalLineCodes": [
+        903,
+        905
+      ],
+      "nationalSummaryCode": "513",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 377; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 1184400
+    },
+    {
+      "parentIndustryId": "us-information",
+      "line": 53,
+      "year": 2021,
+      "regionalLineCodes": [
+        906,
+        907
+      ],
+      "nationalSummaryCode": "514",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 383; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 893200
+    },
+    {
+      "parentIndustryId": "us-information",
+      "line": 50,
+      "year": 2022,
+      "regionalLineCodes": [
+        901
+      ],
+      "nationalSummaryCode": "511",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 369; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 1099600
+    },
+    {
+      "parentIndustryId": "us-information",
+      "line": 51,
+      "year": 2022,
+      "regionalLineCodes": [
+        902
+      ],
+      "nationalSummaryCode": "512",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 375; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 560200
+    },
+    {
+      "parentIndustryId": "us-information",
+      "line": 52,
+      "year": 2022,
+      "regionalLineCodes": [
+        903,
+        905
+      ],
+      "nationalSummaryCode": "513",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 377; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 1220400
+    },
+    {
+      "parentIndustryId": "us-information",
+      "line": 53,
+      "year": 2022,
+      "regionalLineCodes": [
+        906,
+        907
+      ],
+      "nationalSummaryCode": "514",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 383; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 981700
+    },
+    {
+      "parentIndustryId": "us-agriculture",
+      "line": 4,
+      "year": 2021,
+      "regionalLineCodes": [
+        70
+      ],
+      "nationalSummaryCode": "111CA",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 6; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 2573000
+    },
+    {
+      "parentIndustryId": "us-agriculture",
+      "line": 5,
+      "year": 2021,
+      "regionalLineCodes": [
+        100
+      ],
+      "nationalSummaryCode": "113FF",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 25; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 942200
+    },
+    {
+      "parentIndustryId": "us-agriculture",
+      "line": 4,
+      "year": 2022,
+      "regionalLineCodes": [
+        70
+      ],
+      "nationalSummaryCode": "111CA",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 6; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 2567000
+    },
+    {
+      "parentIndustryId": "us-agriculture",
+      "line": 5,
+      "year": 2022,
+      "regionalLineCodes": [
+        100
+      ],
+      "nationalSummaryCode": "113FF",
+      "mappingEvidence": {
+        "sourceId": "us-bea-productivity-concordance-2017-naics",
+        "locator": "NAICS Codes sheet / Summary columns C:D; source rows 25; 2017 NAICS column L; scope note A2"
+      },
+      "fullJobs": 966800
+    }
+  ],
+  "regionalGeographyChecks": [
+    {
+      "lineCode": 70,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 2573000,
+      "stateSumIfAllNumeric": 2573000,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 70,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 2567000,
+      "stateSumIfAllNumeric": 2567000,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 100,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 49,
+      "usPublishedJobs": 942200,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 100,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 47,
+      "usPublishedJobs": 966800,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 511,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 457300,
+      "stateSumIfAllNumeric": 457300,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 511,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 476800,
+      "stateSumIfAllNumeric": 476800,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 512,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 429600,
+      "stateSumIfAllNumeric": 429600,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 512,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 442400,
+      "stateSumIfAllNumeric": 442400,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 513,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 46,
+      "usPublishedJobs": 355300,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 513,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 46,
+      "usPublishedJobs": 371000,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 514,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 1449400,
+      "stateSumIfAllNumeric": 1449400,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 514,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 1497800,
+      "stateSumIfAllNumeric": 1497800,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 515,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 49,
+      "usPublishedJobs": 1103300,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 515,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 1155000,
+      "stateSumIfAllNumeric": 1155000,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 516,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 1073100,
+      "stateSumIfAllNumeric": 1073100,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 516,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 1103900,
+      "stateSumIfAllNumeric": 1103900,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 517,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 47,
+      "usPublishedJobs": 408700,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 517,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 47,
+      "usPublishedJobs": 424700,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 518,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 30,
+      "usPublishedJobs": 960200,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 518,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 30,
+      "usPublishedJobs": 1004200,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 519,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 34,
+      "usPublishedJobs": 694800,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 519,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 34,
+      "usPublishedJobs": 723800,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 521,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 47,
+      "usPublishedJobs": 410900,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 521,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 47,
+      "usPublishedJobs": 412500,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 522,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 49,
+      "usPublishedJobs": 719400,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 522,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 747100,
+      "stateSumIfAllNumeric": 747100,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 531,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 1730200,
+      "stateSumIfAllNumeric": 1730200,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 531,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 1795700,
+      "stateSumIfAllNumeric": 1795700,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 532,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 49,
+      "usPublishedJobs": 321600,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 532,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 49,
+      "usPublishedJobs": 343500,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 533,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 42,
+      "usPublishedJobs": 103000,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 533,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 42,
+      "usPublishedJobs": 104400,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 534,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 48,
+      "usPublishedJobs": 114200,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 534,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 48,
+      "usPublishedJobs": 116100,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 535,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 48,
+      "usPublishedJobs": 141200,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 535,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 48,
+      "usPublishedJobs": 147600,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 536,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 43,
+      "usPublishedJobs": 32700,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 536,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 45,
+      "usPublishedJobs": 32000,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 537,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 46,
+      "usPublishedJobs": 356300,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 537,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 47,
+      "usPublishedJobs": 368900,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 538,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 433000,
+      "stateSumIfAllNumeric": 433000,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 538,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 449100,
+      "stateSumIfAllNumeric": 449100,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 539,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 48,
+      "usPublishedJobs": 110300,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 539,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 47,
+      "usPublishedJobs": 110900,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 541,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 911000,
+      "stateSumIfAllNumeric": 911000,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 541,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 935400,
+      "stateSumIfAllNumeric": 935400,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 542,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 49,
+      "usPublishedJobs": 734600,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 542,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 49,
+      "usPublishedJobs": 760900,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 701,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 2164700,
+      "stateSumIfAllNumeric": 2164700,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 701,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 2192400,
+      "stateSumIfAllNumeric": 2192400,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 702,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 503100,
+      "stateSumIfAllNumeric": 503100,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 702,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 0,
+      "usPublishedJobs": 493500,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 703,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 450500,
+      "stateSumIfAllNumeric": 450500,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 703,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 0,
+      "usPublishedJobs": 444600,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 704,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 1485100,
+      "stateSumIfAllNumeric": 1485100,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 704,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 1488000,
+      "stateSumIfAllNumeric": 1488000,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 705,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 3309600,
+      "stateSumIfAllNumeric": 3309600,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 705,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 3337800,
+      "stateSumIfAllNumeric": 3337800,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 706,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 1258900,
+      "stateSumIfAllNumeric": 1258900,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 706,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 0,
+      "usPublishedJobs": 1282500,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 707,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 971300,
+      "stateSumIfAllNumeric": 971300,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 707,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 0,
+      "usPublishedJobs": 997900,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 708,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 1288200,
+      "stateSumIfAllNumeric": 1288200,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 708,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 0,
+      "usPublishedJobs": 1349600,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 709,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 719700,
+      "stateSumIfAllNumeric": 719700,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 709,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 0,
+      "usPublishedJobs": 751400,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 711,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 3113200,
+      "stateSumIfAllNumeric": 3113200,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 711,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 0,
+      "usPublishedJobs": 3146600,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 712,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 1666100,
+      "stateSumIfAllNumeric": 1666100,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 712,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 0,
+      "usPublishedJobs": 1723100,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 713,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 2156300,
+      "stateSumIfAllNumeric": 2156300,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 713,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 0,
+      "usPublishedJobs": 2302900,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 901,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 1002700,
+      "stateSumIfAllNumeric": 1002700,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 901,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 0,
+      "usPublishedJobs": 1099600,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 902,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 472600,
+      "stateSumIfAllNumeric": 472600,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 902,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 560200,
+      "stateSumIfAllNumeric": 560200,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 903,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 303600,
+      "stateSumIfAllNumeric": 303600,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 903,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 0,
+      "usPublishedJobs": 311800,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 905,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 880800,
+      "stateSumIfAllNumeric": 880800,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 905,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 908600,
+      "stateSumIfAllNumeric": 908600,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 906,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 488800,
+      "stateSumIfAllNumeric": 488800,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 906,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 580200,
+      "stateSumIfAllNumeric": 580200,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 907,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 404400,
+      "stateSumIfAllNumeric": 404400,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 907,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 401500,
+      "stateSumIfAllNumeric": 401500,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1001,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 31,
+      "usPublishedJobs": 21000,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1001,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 31,
+      "usPublishedJobs": 22000,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1002,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 49,
+      "usPublishedJobs": 2992200,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1002,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 3018200,
+      "stateSumIfAllNumeric": 3018200,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1003,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 49,
+      "usPublishedJobs": 4754900,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1003,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 49,
+      "usPublishedJobs": 5396200,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1004,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 3551000,
+      "stateSumIfAllNumeric": 3551000,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1004,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 3695200,
+      "stateSumIfAllNumeric": 3695200,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1005,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 27,
+      "usPublishedJobs": 711400,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1005,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 29,
+      "usPublishedJobs": 850700,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1101,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 10110200,
+      "stateSumIfAllNumeric": 10110200,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1101,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 11138600,
+      "stateSumIfAllNumeric": 11138600,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1102,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 49,
+      "usPublishedJobs": 592700,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1102,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 663000,
+      "stateSumIfAllNumeric": 663000,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1103,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 49,
+      "usPublishedJobs": 28300,
+      "stateSumIfAllNumeric": null,
+      "differenceIfAllNumeric": null,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1103,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 30600,
+      "stateSumIfAllNumeric": 30600,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1601,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 9623000,
+      "stateSumIfAllNumeric": 9623000,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1601,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 9958800,
+      "stateSumIfAllNumeric": 9958800,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1602,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 5129600,
+      "stateSumIfAllNumeric": 5129600,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1602,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 5158200,
+      "stateSumIfAllNumeric": 5158200,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1603,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 3246400,
+      "stateSumIfAllNumeric": 3246400,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1603,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 3207400,
+      "stateSumIfAllNumeric": 3207400,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1604,
+      "year": 2021,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 4991400,
+      "stateSumIfAllNumeric": 4991400,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    },
+    {
+      "lineCode": 1604,
+      "year": 2022,
+      "stateAndDCRowCount": 51,
+      "numericRowCount": 51,
+      "usPublishedJobs": 5221100,
+      "stateSumIfAllNumeric": 5221100,
+      "differenceIfAllNumeric": 0,
+      "note": "Use published United States row directly. Regional groups not summed; state-level suppressions not imputed."
+    }
+  ],
+  "actualVisualReading": [
+    "SPI physical19,104,105",
+    "NIPA10 physical26",
+    "NIPA02 physical5,6"
+  ],
+  "actualTextReading": [
+    "SPI §§1.39–1.44,11.1–11.8,11.27–11.44",
+    "NIPA10 Appendix A physical25–27",
+    "BEA industry concordance Summary all used group rows and 2017 NAICS metadata",
+    "SAEMP25N definition.xml relevant employment definitions and footnotes",
+    "NIPA6.4D all used labels/values plus complete footnotes",
+    "CPS2025 table18 header and final methodological notes (web tool; direct HTTP403)"
+  ],
+  "queryLimit": "Fresh official source retrievals only; no new estimates or primary interviews. Raw web and HTTP request dates are not claimed as data release dates.",
+  "outputSha256": "2eb4a8660165a4fa3fc5cd4559c6975bd925dac72d528788ca32efa88384a937",
+  "independentTimingCorrection": {
+    "beforeSha256": "1006dd9bb1be63a822383e0ff6dbc9353e69a39f371afd8573f38dd1862ac731",
+    "afterSha256": "2eb4a8660165a4fa3fc5cd4559c6975bd925dac72d528788ca32efa88384a937",
+    "affectedRows": [
+      "us-real-estate-bea-61-2023",
+      "us-real-estate-bea-64-2023",
+      "us-real-estate-bea-61-2024",
+      "us-real-estate-bea-64-2024",
+      "us-government-bea-90-2021",
+      "us-government-bea-95-2021",
+      "us-government-bea-90-2022",
+      "us-government-bea-95-2022",
+      "us-government-bea-90-2023",
+      "us-government-bea-95-2023",
+      "us-government-bea-90-2024",
+      "us-government-bea-95-2024",
+      "us-manufacturing-bea-14-2023",
+      "us-manufacturing-bea-15-2023",
+      "us-manufacturing-bea-16-2023",
+      "us-manufacturing-bea-17-2023",
+      "us-manufacturing-bea-18-2023",
+      "us-manufacturing-bea-19-2023",
+      "us-manufacturing-bea-20-2023",
+      "us-manufacturing-bea-21-2023",
+      "us-manufacturing-bea-22-2023",
+      "us-manufacturing-bea-23-2023",
+      "us-manufacturing-bea-24-2023",
+      "us-manufacturing-bea-26-2023",
+      "us-manufacturing-bea-27-2023",
+      "us-manufacturing-bea-28-2023",
+      "us-manufacturing-bea-29-2023",
+      "us-manufacturing-bea-30-2023",
+      "us-manufacturing-bea-31-2023",
+      "us-manufacturing-bea-32-2023",
+      "us-manufacturing-bea-33-2023",
+      "us-manufacturing-bea-14-2024",
+      "us-manufacturing-bea-15-2024",
+      "us-manufacturing-bea-16-2024",
+      "us-manufacturing-bea-17-2024",
+      "us-manufacturing-bea-18-2024",
+      "us-manufacturing-bea-19-2024",
+      "us-manufacturing-bea-20-2024",
+      "us-manufacturing-bea-21-2024",
+      "us-manufacturing-bea-22-2024",
+      "us-manufacturing-bea-23-2024",
+      "us-manufacturing-bea-24-2024",
+      "us-manufacturing-bea-26-2024",
+      "us-manufacturing-bea-27-2024",
+      "us-manufacturing-bea-28-2024",
+      "us-manufacturing-bea-29-2024",
+      "us-manufacturing-bea-30-2024",
+      "us-manufacturing-bea-31-2024",
+      "us-manufacturing-bea-32-2024",
+      "us-manufacturing-bea-33-2024",
+      "us-professional-bea-67-2021",
+      "us-professional-bea-68-2021",
+      "us-professional-bea-69-2021",
+      "us-professional-bea-67-2022",
+      "us-professional-bea-68-2022",
+      "us-professional-bea-69-2022",
+      "us-professional-bea-67-2023",
+      "us-professional-bea-68-2023",
+      "us-professional-bea-69-2023",
+      "us-professional-bea-67-2024",
+      "us-professional-bea-68-2024",
+      "us-professional-bea-69-2024",
+      "us-finance-bea-56-2023",
+      "us-finance-bea-57-2023",
+      "us-finance-bea-58-2023",
+      "us-finance-bea-59-2023",
+      "us-finance-bea-56-2024",
+      "us-finance-bea-57-2024",
+      "us-finance-bea-58-2024",
+      "us-finance-bea-59-2024",
+      "us-health-bea-77-2023",
+      "us-health-bea-78-2023",
+      "us-health-bea-79-2023",
+      "us-health-bea-80-2023",
+      "us-health-bea-77-2024",
+      "us-health-bea-78-2024",
+      "us-health-bea-79-2024",
+      "us-health-bea-80-2024",
+      "us-retail-bea-36-2023",
+      "us-retail-bea-37-2023",
+      "us-retail-bea-38-2023",
+      "us-retail-bea-39-2023",
+      "us-retail-bea-36-2024",
+      "us-retail-bea-37-2024",
+      "us-retail-bea-38-2024",
+      "us-retail-bea-39-2024",
+      "us-information-bea-50-2023",
+      "us-information-bea-51-2023",
+      "us-information-bea-52-2023",
+      "us-information-bea-53-2023",
+      "us-information-bea-50-2024",
+      "us-information-bea-51-2024",
+      "us-information-bea-52-2024",
+      "us-information-bea-53-2024",
+      "us-agriculture-bea-4-2023",
+      "us-agriculture-bea-5-2023",
+      "us-agriculture-bea-4-2024",
+      "us-agriculture-bea-5-2024"
+    ],
+    "removedRatioRows": [
+      "us-government-bea-90-2021",
+      "us-government-bea-95-2021",
+      "us-government-bea-90-2022",
+      "us-government-bea-95-2022",
+      "us-government-bea-90-2023",
+      "us-government-bea-95-2023",
+      "us-government-bea-90-2024",
+      "us-government-bea-95-2024"
+    ],
+    "basis": "NIPA 6.4D为官方年度雇员数，但已读附录A未明确年度平均的处理，统计时点待补证；不认定为年平均人数，本版暂不计算比值。",
+    "locator": "NIPA chapter 10, Appendix A, printed 10-25–10-26; workbook T60400D-A does not state the annual averaging operation",
+    "numericValuesChanged": 0
+  }
+}

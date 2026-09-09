@@ -1,0 +1,3598 @@
+{
+  "version": "cn-subindustry-productivity-2026-09-09-reviewed-draft-2",
+  "checkedAt": "2026-09-09",
+  "sources": [
+    {
+      "id": "cn-prod-gdp2025",
+      "title": "2025年四季度和全年国内生产总值初步核算结果",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+      "published": "2026-01-20",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "official-statistics",
+      "sha256": "2826c38fd8d232e92cb4aa3fa3ec1b7763d40d6e0f3f17bb0c2c87811c281b2f",
+      "limitations": [
+        "2025年初步核算；当前价亿元，非季度年化。"
+      ],
+      "readStatus": "原文已读取；数字按命名表格、行列核对"
+    },
+    {
+      "id": "cn-prod-gdp2024",
+      "title": "2024年国内生产总值最终核实公告",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+      "published": "2025-12-26",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "official-statistics",
+      "sha256": "b6b6b5c74b9e044818a92eb3eec356fbcd9215c9649f760db9b91eb2a282233e",
+      "limitations": [
+        "细分类仍仅单列制造业。"
+      ],
+      "readStatus": "原文已读取；数字按命名表格、行列核对"
+    },
+    {
+      "id": "cn-prod-yearbook2025-t3-6",
+      "title": "中国统计年鉴2025：表3-6 分行业增加值",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "official-statistics",
+      "sha256": "e4e58c1bd54623b04aa2c37e761e46ae65121383e4d15da88bfb6666041c5fdf",
+      "limitations": [
+        "2025版年鉴；确切发行日期未核实，不能使用HTTP修改日期替代。2023年数据为当前可核的五经普后修订历史版。"
+      ],
+      "readStatus": "原文已读取；数字按命名表格、行列核对"
+    },
+    {
+      "id": "cn-prod-census3",
+      "title": "第五次全国经济普查公报（第三号）：第二产业基本情况",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202412/t20241226_1957895.html",
+      "published": "2024-12-26",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "official-statistics",
+      "sha256": "cd46ba77cb7199be410b1a5b34554a8b2ae41a5c45d76ad8ffbe720d88973944",
+      "limitations": [
+        "2023年末企业法人从业人数；不是全行业就业，不能配全行业增加值。"
+      ],
+      "readStatus": "原文已读取；数字按命名表格、行列核对"
+    },
+    {
+      "id": "cn-prod-census4",
+      "title": "第五次全国经济普查公报（第四号）：第三产业基本情况之一",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/sj/tjgb/jjpcgb/qgjpgb/202605/t20260508_1963637.html",
+      "published": "2024-12-26",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "official-statistics",
+      "sha256": "0970b8386682b12af907dd54a6c3f03057263aab9dece2247bb2c3f888e16aaa",
+      "limitations": [
+        "页面正文发布日期为2024-12-26，URL迁移目录2026-05不作为发布日期。就业为企业法人年末人数；经济指标列为营业收入而非增加值。"
+      ],
+      "readStatus": "原文已读取；数字按命名表格、行列核对"
+    },
+    {
+      "id": "cn-prod-census-employment-definition",
+      "title": "中国经济普查年鉴2023综合卷：主要指标解释及分类规定",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/zb01.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "official-statistics",
+      "sha256": "cabe44df48b39e7f449b11c066bab774a659a80265cc5cec52bbed87f70650d4",
+      "limitations": [
+        "从业人员定义见PDF物理1页；包括在岗职工、劳务派遣及其他从业人员，是时点人数，不等于全年平均或工时。"
+      ],
+      "readStatus": "原文已读取；数字按命名表格、行列核对"
+    },
+    {
+      "id": "cn-prod-yearbook2025-io20",
+      "title": "中国统计年鉴2025：表3-21 2023年投入产出基本流量表（中间使用部分）",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-21.jpg",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "official-statistics",
+      "sha256": "6cf2691dc5c35f162f29ce4690b70601b9fabc88521bf9e60cbce33d35da7b5a",
+      "limitations": [
+        "产品部门分类，非行业分类；按当年生产者价格亿元；无从业人数。仅作被排除的候选和范围核对，不混入行业排名。"
+      ],
+      "readStatus": "原文已读取；数字按命名表格、行列核对"
+    },
+    {
+      "id": "cn-prod-census-construction-efficiency",
+      "title": "中国经济普查年鉴2023：表2-B-3.8 各行业建筑业企业主要生产效益指标",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Bb2-B-3-08.jpg",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "official-statistics",
+      "sha256": "db06435aaf084728da08ccff16a762aa0ab2350e9e3e86c033c046d90748c81f",
+      "limitations": [
+        "劳动生产率列明确按总产值计算；不能代替按增加值计算的人均产值。"
+      ],
+      "readStatus": "原文已读取；数字按命名表格、行列核对"
+    },
+    {
+      "id": "cn-prod-yearbook2025-catalog",
+      "title": "中国统计年鉴2025目录",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/left.htm",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "official-statistics",
+      "sha256": "235dfc3fbea4fd4041ffdc9b648510618d92728491fde078f5a308bcafb97cd0",
+      "limitations": [
+        "就业分行业表4-5/4-6限城镇非私营单位；工业章为规上法人；农业表12-3为总产值；批零为限上企业。均不能直接配全行业VA。"
+      ],
+      "readStatus": "原文已读取；数字按命名表格、行列核对"
+    },
+    {
+      "id": "cn-prod-census2",
+      "title": "第五次全国经济普查公报（第二号）：单位基本情况",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202412/t20241226_1957897.html",
+      "published": "2024-12-26",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "official-statistics",
+      "sha256": "bc9f3e641db793c779d19f0c129ffba5d1593a76100bafa44671e4f3600a0a43",
+      "limitations": [
+        "表2-3法人和个体分列；农业就业仅专业及辅助性活动。"
+      ],
+      "readStatus": "已读取指定原表或定义段；资料版本、范围分别核对"
+    },
+    {
+      "id": "cn-prod-io-classification",
+      "title": "投入产出产品部门与行业分类的区别：国民经济核算司答复",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1954069.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "official-statistics",
+      "sha256": "198d2e153de408ffa3bfac1111cc3b6cc79130a58d5520eb662f0ca2796f57d5",
+      "limitations": [
+        "答复时间2024-03-12；URL迁移日期不作发布日期。"
+      ],
+      "readStatus": "已读取指定原表或定义段；资料版本、范围分别核对"
+    },
+    {
+      "id": "cn-prod-gdp-faq",
+      "title": "国民经济核算常见问题",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/hd/cjwtjd/202302/t20230207_1902278.html",
+      "published": "2023-10-09",
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "official-statistics",
+      "sha256": "2b2031067231345ad322e3aee2d5620e424644cb4767fb4385e4bc1230496eaa",
+      "limitations": [
+        "只用问题14确认自有住房服务覆盖；不以该改革前问答中的旧计价方法描述2025现行核算。"
+      ],
+      "readStatus": "已读取指定原表或定义段；资料版本、范围分别核对"
+    },
+    {
+      "id": "cn-prod-employment-scope",
+      "title": "中国统计年鉴2025就业和工资简要说明",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/sm04.htm",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "official-statistics",
+      "sha256": "e5b25a94fe286e7be9d9fbdb37bf57497ef0b50f166a10c7ddf0e9936f34e931",
+      "limitations": [
+        "劳动力调查覆盖大陆城乡；单位劳动工资表与全部就业人数不是同一总体。"
+      ],
+      "readStatus": "已读取指定原表或定义段；资料版本、范围分别核对"
+    },
+    {
+      "id": "cn-prod-yearbook2025-t4-2",
+      "title": "中国统计年鉴2025：表4-2 按三次产业分就业人员数（年底数）",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C04-02.jpg",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "official-statistics",
+      "sha256": "72b4c093c48938075943302259ddecdade86194cfdd52cd12511c9edf8e11bcc",
+      "limitations": [
+        "全国年末就业人数；非全年平均人数、雇员数或工时。"
+      ],
+      "readStatus": "已读取指定原表或定义段；资料版本、范围分别核对"
+    },
+    {
+      "id": "cn-prod-yearbook2025-t3-1",
+      "title": "中国统计年鉴2025：表3-1 国内生产总值",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-01.jpg",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "official-statistics",
+      "sha256": "58c40bf49ae4fac0a62fe7238522bd778e396e29c13ef5ed96a6e0a37bc15f97",
+      "limitations": [
+        "本文件只用2023修订值；2024采用2025-12-26最终核实公告。"
+      ],
+      "readStatus": "已读取指定原表或定义段；资料版本、范围分别核对"
+    },
+    {
+      "id": "cn-prod-employment-definition",
+      "title": "中国统计年鉴2025：就业和工资主要统计指标解释",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/zb04.pdf",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "official-statistics",
+      "sha256": "7c575dd76f4d5529d0aa6e1ca1ec72aeeb8683eaf2538db94b77e2341ef1dc59",
+      "limitations": [
+        "PDF物理1页（印刷129页）区分就业人员与单位就业人员。"
+      ],
+      "readStatus": "已读取指定原表或定义段；资料版本、范围分别核对"
+    },
+    {
+      "id": "cn-prod-primary-classification",
+      "title": "关于修订《三次产业划分规定（2012）》的通知",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/t20230202_1893928.html",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "official-statistics",
+      "sha256": "895d7831dc515674a8700aa0e56502ae15983538692baeadf8a366bf9ba17932",
+      "limitations": [
+        "国统设管函〔2018〕74号，文末落款2018-03-23；A05属于第三产业。"
+      ],
+      "readStatus": "已读取指定原表或定义段；资料版本、范围分别核对"
+    },
+    {
+      "id": "cn-prod-historical-2007",
+      "title": "中国统计年鉴2008：表13-2 按行业分规模以上工业企业主要指标（2007年）",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2008/html/N1302C.HTM",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "official-statistics",
+      "sha256": "3ad07b36468df261d862e50646937d6ce88aa8c9f997bbf33f8633420056a353",
+      "limitations": [
+        "仅记录核查发现；旧年、旧分类、旧规上范围，不纳入网站年份或排序。"
+      ],
+      "readStatus": "已读取指定原表或定义段；资料版本、范围分别核对"
+    },
+    {
+      "id": "cn-prod-historical-2008",
+      "title": "中国统计年鉴2009：表13-2 按行业分规模以上工业企业主要指标（2008年）",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/sj/ndsj/2009/html/N1302C.HTM",
+      "published": null,
+      "retrieved": "2026-09-09",
+      "country": "cn",
+      "kind": "official-statistics",
+      "sha256": "05a69e4655a77e0b76ed3b0c139a5454956ccd87375553a0ecf890d359d6b245",
+      "limitations": [
+        "仅反向核对：该表已无工业增加值列。"
+      ],
+      "readStatus": "已读取指定原表或定义段；资料版本、范围分别核对"
+    }
+  ],
+  "parents": [
+    {
+      "country": "cn",
+      "parentIndustryId": "cn-industry",
+      "name": "工业",
+      "classification": "GB/T 4754—2017：B采矿、C制造、D电热气水三个非重叠门类",
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "gaps": [
+        "2025/2024只单列制造业增加值，不能形成完整三门类规模排名；2023三门类可按增加值排序，但企业法人就业范围不匹配。",
+        "更细41大类尚无已核同口径现价VA；未按规上增速或营业收入分摊。"
+      ],
+      "nonOverlapping": true,
+      "rows": [
+        {
+          "id": "cn-prod-b-2025",
+          "childId": "cn-sub-b",
+          "country": "cn",
+          "parentIndustryId": "cn-industry",
+          "name": "采矿业",
+          "year": 2025,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2025,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）采矿业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-B",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": null,
+            "unit": "万人",
+            "year": null,
+            "definition": "同年同范围就业定义待取得",
+            "coverage": "未核实",
+            "coverageKey": "unverified",
+            "denominatorKind": "unknown",
+            "periodBasis": "unknown",
+            "releaseDate": null,
+            "revision": "缺值",
+            "evidence": []
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2025年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "尚未核得同年、同统计范围的从业人数。"
+          ]
+        },
+        {
+          "id": "cn-prod-c-2025",
+          "childId": "cn-sub-c",
+          "country": "cn",
+          "parentIndustryId": "cn-industry",
+          "name": "制造业",
+          "year": 2025,
+          "valueAdded": {
+            "value": 346747,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2025,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）制造业全部常住生产单位；现价行业增加值",
+            "coverageKey": "cn-all-resident-industry-C",
+            "releaseDate": "2026-01-20",
+            "revision": "初步核算",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "GDP表；“制造业”行，全年“绝对额（亿元）”列"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": null,
+            "unit": "万人",
+            "year": null,
+            "definition": "同年同范围就业定义待取得",
+            "coverage": "未核实",
+            "coverageKey": "unverified",
+            "denominatorKind": "unknown",
+            "periodBasis": "unknown",
+            "releaseDate": null,
+            "revision": "缺值",
+            "evidence": []
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得同年、同统计范围的从业人数。"
+          ]
+        },
+        {
+          "id": "cn-prod-d-2025",
+          "childId": "cn-sub-d",
+          "country": "cn",
+          "parentIndustryId": "cn-industry",
+          "name": "电力、热力、燃气及水生产和供应业",
+          "year": 2025,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2025,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）电力、热力、燃气及水生产和供应业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-D",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": null,
+            "unit": "万人",
+            "year": null,
+            "definition": "同年同范围就业定义待取得",
+            "coverage": "未核实",
+            "coverageKey": "unverified",
+            "denominatorKind": "unknown",
+            "periodBasis": "unknown",
+            "releaseDate": null,
+            "revision": "缺值",
+            "evidence": []
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2025年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "尚未核得同年、同统计范围的从业人数。"
+          ]
+        },
+        {
+          "id": "cn-prod-b-2024",
+          "childId": "cn-sub-b",
+          "country": "cn",
+          "parentIndustryId": "cn-industry",
+          "name": "采矿业",
+          "year": 2024,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2024,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）采矿业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-B",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": null,
+            "unit": "万人",
+            "year": null,
+            "definition": "同年同范围就业定义待取得",
+            "coverage": "未核实",
+            "coverageKey": "unverified",
+            "denominatorKind": "unknown",
+            "periodBasis": "unknown",
+            "releaseDate": null,
+            "revision": "缺值",
+            "evidence": []
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2024年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "尚未核得同年、同统计范围的从业人数。"
+          ]
+        },
+        {
+          "id": "cn-prod-c-2024",
+          "childId": "cn-sub-c",
+          "country": "cn",
+          "parentIndustryId": "cn-industry",
+          "name": "制造业",
+          "year": 2024,
+          "valueAdded": {
+            "value": 334881,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2024,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）制造业全部常住生产单位；现价行业增加值",
+            "coverageKey": "cn-all-resident-industry-C",
+            "releaseDate": "2025-12-26",
+            "revision": "最终核实",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-gdp2024",
+                "locator": "附件1；“制造业”行，“现价总量（亿元）”列"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": null,
+            "unit": "万人",
+            "year": null,
+            "definition": "同年同范围就业定义待取得",
+            "coverage": "未核实",
+            "coverageKey": "unverified",
+            "denominatorKind": "unknown",
+            "periodBasis": "unknown",
+            "releaseDate": null,
+            "revision": "缺值",
+            "evidence": []
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得同年、同统计范围的从业人数。"
+          ]
+        },
+        {
+          "id": "cn-prod-d-2024",
+          "childId": "cn-sub-d",
+          "country": "cn",
+          "parentIndustryId": "cn-industry",
+          "name": "电力、热力、燃气及水生产和供应业",
+          "year": 2024,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2024,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）电力、热力、燃气及水生产和供应业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-D",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": null,
+            "unit": "万人",
+            "year": null,
+            "definition": "同年同范围就业定义待取得",
+            "coverage": "未核实",
+            "coverageKey": "unverified",
+            "denominatorKind": "unknown",
+            "periodBasis": "unknown",
+            "releaseDate": null,
+            "revision": "缺值",
+            "evidence": []
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2024年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "尚未核得同年、同统计范围的从业人数。"
+          ]
+        },
+        {
+          "id": "cn-prod-b-2023",
+          "childId": "cn-sub-b",
+          "country": "cn",
+          "parentIndustryId": "cn-industry",
+          "name": "采矿业",
+          "year": 2023,
+          "valueAdded": {
+            "value": 35613.9,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）采矿业全部常住生产单位；现价行业增加值",
+            "coverageKey": "cn-all-resident-industry-B",
+            "releaseDate": null,
+            "revision": "2025版年鉴所列修订值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-t3-6",
+                "locator": "表3-6；“采矿业”行，2023列"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 469.8,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）采矿业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-B",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census3",
+                "locator": "一、工业（一）；表3-2之前“在工业企业法人单位从业人员中”段；采矿业对应人数（万人）"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子为全行业现价增加值，分母为企业法人年末从业人数，统计主体范围不同。"
+          ],
+          "gaps": [
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-c-2023",
+          "childId": "cn-sub-c",
+          "country": "cn",
+          "parentIndustryId": "cn-industry",
+          "name": "制造业",
+          "year": 2023,
+          "valueAdded": {
+            "value": 323754.6,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）制造业全部常住生产单位；现价行业增加值",
+            "coverageKey": "cn-all-resident-industry-C",
+            "releaseDate": null,
+            "revision": "2025版年鉴所列修订值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-t3-6",
+                "locator": "表3-6；“制造业”行，2023列"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 10481.4,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）制造业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-C",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census3",
+                "locator": "一、工业（一）；表3-2之前“在工业企业法人单位从业人员中”段；制造业对应人数（万人）"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子为全行业现价增加值，分母为企业法人年末从业人数，统计主体范围不同。"
+          ],
+          "gaps": [
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-d-2023",
+          "childId": "cn-sub-d",
+          "country": "cn",
+          "parentIndustryId": "cn-industry",
+          "name": "电力、热力、燃气及水生产和供应业",
+          "year": 2023,
+          "valueAdded": {
+            "value": 32814.5,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）电力、热力、燃气及水生产和供应业全部常住生产单位；现价行业增加值",
+            "coverageKey": "cn-all-resident-industry-D",
+            "releaseDate": null,
+            "revision": "2025版年鉴所列修订值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-t3-6",
+                "locator": "表3-6；“电力、热力、燃气及水生产和供应业”行，2023列"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 477.6,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）电力、热力、燃气及水生产和供应业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-D",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census3",
+                "locator": "一、工业（一）；表3-2之前“在工业企业法人单位从业人员中”段；电力、热力、燃气及水生产和供应业对应人数（万人）"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子为全行业现价增加值，分母为企业法人年末从业人数，统计主体范围不同。"
+          ],
+          "gaps": [
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        }
+      ],
+      "availableDetailYears": [
+        2025,
+        2024,
+        2023
+      ],
+      "definitionEvidence": [
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "2.1 分类：行业分类与三次产业分类，GB/T4754—2017"
+        }
+      ]
+    },
+    {
+      "country": "cn",
+      "parentIndustryId": "cn-wholesale-retail",
+      "name": "批发和零售业",
+      "classification": "GB/T 4754—2017非重叠行业大类",
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "gaps": [
+        "2025/2024国民核算公告和2025统计年鉴未在已核表格中单列这些子行业现价增加值。",
+        "2023经济普查细分就业可核，但其经济指标为资产、负债、营业收入，不能填充VA。"
+      ],
+      "nonOverlapping": true,
+      "rows": [
+        {
+          "id": "cn-prod-51-2023",
+          "childId": "cn-sub-51",
+          "country": "cn",
+          "parentIndustryId": "cn-wholesale-retail",
+          "name": "批发业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）批发业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-51",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 2993.3,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）批发业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-51",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-1；“批发业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-52-2023",
+          "childId": "cn-sub-52",
+          "country": "cn",
+          "parentIndustryId": "cn-wholesale-retail",
+          "name": "零售业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）零售业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-52",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 2332.4,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）零售业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-52",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-1；“零售业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        }
+      ],
+      "availableDetailYears": [
+        2023
+      ],
+      "definitionEvidence": [
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "2.1 分类：行业分类与三次产业分类，GB/T4754—2017"
+        }
+      ]
+    },
+    {
+      "country": "cn",
+      "parentIndustryId": "cn-finance",
+      "name": "金融业",
+      "classification": "GB/T 4754—2017非重叠行业大类",
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "gaps": [
+        "2025/2024国民核算公告和2025统计年鉴未在已核表格中单列这些子行业现价增加值。",
+        "2023经济普查细分就业可核，但其经济指标为资产、负债、营业收入，不能填充VA。",
+        "金融公报就业覆盖央行、金融监管总局、证监会及地方普查负责的企业法人；不能与单一监管部门银行雇员数或保险代理人口径互换。"
+      ],
+      "nonOverlapping": true,
+      "rows": [
+        {
+          "id": "cn-prod-66-2023",
+          "childId": "cn-sub-66",
+          "country": "cn",
+          "parentIndustryId": "cn-finance",
+          "name": "货币金融服务",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）货币金融服务全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-66",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 415.5,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）货币金融服务企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-66",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-13；“货币金融服务”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-67-2023",
+          "childId": "cn-sub-67",
+          "country": "cn",
+          "parentIndustryId": "cn-finance",
+          "name": "资本市场服务",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）资本市场服务全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-67",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 73.2,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）资本市场服务企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-67",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-13；“资本市场服务”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-68-2023",
+          "childId": "cn-sub-68",
+          "country": "cn",
+          "parentIndustryId": "cn-finance",
+          "name": "保险业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）保险业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-68",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 729.8,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）保险业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-68",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-13；“保险业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-69-2023",
+          "childId": "cn-sub-69",
+          "country": "cn",
+          "parentIndustryId": "cn-finance",
+          "name": "其他金融业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）其他金融业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-69",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 17.1,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）其他金融业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-69",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-13；“其他金融业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        }
+      ],
+      "availableDetailYears": [
+        2023
+      ],
+      "definitionEvidence": [
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "2.1 分类：行业分类与三次产业分类，GB/T4754—2017"
+        }
+      ]
+    },
+    {
+      "country": "cn",
+      "parentIndustryId": "cn-agriculture",
+      "name": "农林牧渔业",
+      "classification": "GB/T 4754—2017：A01—A04合组与A05非重叠划分",
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "gaps": [
+        "2025可核A01—A04合组和A05计算差额，2023/2024可核第一产业合组名义人均增加值；不是农林牧渔四项的分别拆解。",
+        "A05三个年份均缺经核同范围就业，每年最多一个可比子组，不能称完整农业人均排序。"
+      ],
+      "nonOverlapping": true,
+      "rows": [
+        {
+          "id": "cn-prod-a01-a04-2025",
+          "childId": "cn-sub-a01-a04",
+          "country": "cn",
+          "parentIndustryId": "cn-agriculture",
+          "name": "农业、林业、畜牧业和渔业（A01—A04合组）",
+          "year": 2025,
+          "valueAdded": {
+            "value": 93347,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2025,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）第一产业，即A01—A04合组；现价增加值",
+            "coverageKey": "cn-all-first-industry-a01-a04",
+            "releaseDate": "2026-01-20",
+            "revision": "初步核算",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "GDP表全年“第一产业”行，93347亿元"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "2.1分类：第一产业为A01—A04，不含A05"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": null,
+            "unit": "万人",
+            "year": null,
+            "definition": "同年同范围就业定义待取得",
+            "coverage": "未核实",
+            "coverageKey": "unverified",
+            "denominatorKind": "unknown",
+            "periodBasis": "unknown",
+            "releaseDate": null,
+            "revision": "缺值",
+            "evidence": []
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得同年、同统计范围的从业人数。"
+          ]
+        },
+        {
+          "id": "cn-prod-a05-2025",
+          "childId": "cn-sub-a05",
+          "country": "cn",
+          "parentIndustryId": "cn-agriculture",
+          "name": "农林牧渔专业及辅助性活动",
+          "year": 2025,
+          "valueAdded": {
+            "value": 5760,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2025,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）A05农林牧渔专业及辅助性活动；A全门类减第一产业的現价增加值差额",
+            "coverageKey": "cn-all-resident-industry-a05",
+            "releaseDate": "2026-01-20",
+            "revision": "初步核算",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "GDP表全年农林牧渔业99107亿元、第一产业93347亿元"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "2.1 分类：A全门类由A01—A04第一产业和A05组成"
+              }
+            ],
+            "evidenceKind": "calculation",
+            "computation": {
+              "expression": "99107 - 93347",
+              "inputs": [
+                99107,
+                93347
+              ],
+              "note": "同一2025年全国现价亿元；同次年度核算公布表的A全门类减第一产业。继承公布数修约误差；标计算结果，不当作官方直接发布A05数。"
+            }
+          },
+          "employment": {
+            "value": null,
+            "unit": "万人",
+            "year": null,
+            "definition": "同年同范围就业定义待取得",
+            "coverage": "未核实",
+            "coverageKey": "unverified",
+            "denominatorKind": "unknown",
+            "periodBasis": "unknown",
+            "releaseDate": null,
+            "revision": "缺值",
+            "evidence": []
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "缺同年同范围就业分母；增加值可按显式差额公式复算。"
+          ],
+          "gaps": [
+            "A05缺经核同范围的就业分母；不拿第一产业就业或企业法人局部人数替代。",
+            "差额继承原公布数修约误差。"
+          ]
+        },
+        {
+          "id": "cn-prod-a01-a04-2024",
+          "childId": "cn-sub-a01-a04",
+          "country": "cn",
+          "parentIndustryId": "cn-agriculture",
+          "name": "农业、林业、畜牧业和渔业（A01—A04合组）",
+          "year": 2024,
+          "valueAdded": {
+            "value": 91636,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2024,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）第一产业，即A01—A04合组；现价增加值",
+            "coverageKey": "cn-all-first-industry-a01-a04",
+            "releaseDate": "2025-12-26",
+            "revision": "最终核实",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-gdp2024",
+                "locator": "附件1现价总量“第一产业”行，91636亿元"
+              },
+              {
+                "sourceId": "cn-prod-gdp2024",
+                "locator": "附件2 §2.1分类：第一产业为A01—A04，不含A05"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 16298,
+            "unit": "万人",
+            "year": 2024,
+            "definition": "全国年末第一产业就业人员；年满16岁、参考周为报酬或经营利润至少劳动一小时，或符合暂时未工作条件。含经营者，非仅法人雇员；不是全年平均人数、工时或全时当量。",
+            "coverage": "全国（不含港澳台）第一产业，即A01—A04合组；城乡全部就业人员",
+            "coverageKey": "cn-all-first-industry-a01-a04",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": null,
+            "revision": "2025版统计年鉴最新可核序列",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-t4-2",
+                "locator": "表4-2，2024年行，第一产业就业人员（万人）列16298"
+              },
+              {
+                "sourceId": "cn-prod-employment-scope",
+                "locator": "二、统计范围；三、资料来源第1项：大陆城乡劳动力调查、人口普查推算的就业总量及结构"
+              },
+              {
+                "sourceId": "cn-prod-employment-definition",
+                "locator": "PDF物理1页（印刷129页）“就业人员”定义，与下段“单位就业人员”区分"
+              },
+              {
+                "sourceId": "cn-prod-primary-classification",
+                "locator": "二、第三产业调整情况：A05专业及辅助性活动属于第三产业"
+              }
+            ]
+          },
+          "comparable": true,
+          "comparabilityReasons": [
+            "同年、同一全国第一产业A01—A04合组的现价增加值与全部年末就业人员，已排除A05。",
+            "计算结果是名义增加值/年末就业人员，不是全年平均就业或实际工时生产率。"
+          ],
+          "gaps": [
+            "只核到A01—A04合组，不能说明农/林/牧/渔各自人均水平。",
+            "同年A05缺可比就业，只有一个可比子组，不能称完整农业细分排名。"
+          ]
+        },
+        {
+          "id": "cn-prod-a05-2024",
+          "childId": "cn-sub-a05",
+          "country": "cn",
+          "parentIndustryId": "cn-agriculture",
+          "name": "农林牧渔专业及辅助性活动",
+          "year": 2024,
+          "valueAdded": {
+            "value": 5340,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2024,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）A05农林牧渔专业及辅助性活动；A全门类减第一产业的現价增加值差额",
+            "coverageKey": "cn-all-resident-industry-a05",
+            "releaseDate": "2025-12-26",
+            "revision": "最终核实",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-gdp2024",
+                "locator": "附件1现价总量农林牧渔业96976亿元、第一产业91636亿元"
+              },
+              {
+                "sourceId": "cn-prod-gdp2024",
+                "locator": "附件2 §2.1 分类：A全门类由A01—A04第一产业和A05组成"
+              }
+            ],
+            "evidenceKind": "calculation",
+            "computation": {
+              "expression": "96976 - 91636",
+              "inputs": [
+                96976,
+                91636
+              ],
+              "note": "同一2024年全国现价亿元；同次年度核算公布表的A全门类减第一产业。继承公布数修约误差；标计算结果，不当作官方直接发布A05数。"
+            }
+          },
+          "employment": {
+            "value": null,
+            "unit": "万人",
+            "year": null,
+            "definition": "同年同范围就业定义待取得",
+            "coverage": "未核实",
+            "coverageKey": "unverified",
+            "denominatorKind": "unknown",
+            "periodBasis": "unknown",
+            "releaseDate": null,
+            "revision": "缺值",
+            "evidence": []
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "缺同年同范围就业分母；增加值可按显式差额公式复算。"
+          ],
+          "gaps": [
+            "A05缺经核同范围的就业分母；不拿第一产业就业或企业法人局部人数替代。",
+            "差额继承原公布数修约误差。"
+          ]
+        },
+        {
+          "id": "cn-prod-a01-a04-2023",
+          "childId": "cn-sub-a01-a04",
+          "country": "cn",
+          "parentIndustryId": "cn-agriculture",
+          "name": "农业、林业、畜牧业和渔业（A01—A04合组）",
+          "year": 2023,
+          "valueAdded": {
+            "value": 89169.1,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）第一产业，即A01—A04合组；现价增加值",
+            "coverageKey": "cn-all-first-industry-a01-a04",
+            "releaseDate": null,
+            "revision": "2025版年鉴所列五经普后修订值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-t3-1",
+                "locator": "表3-1，2023年行，第一产业列89169.1亿元"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "2.1分类：第一产业为A01—A04，不含A05"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 16882,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "全国年末第一产业就业人员；年满16岁、参考周为报酬或经营利润至少劳动一小时，或符合暂时未工作条件。含经营者，非仅法人雇员；不是全年平均人数、工时或全时当量。",
+            "coverage": "全国（不含港澳台）第一产业，即A01—A04合组；城乡全部就业人员",
+            "coverageKey": "cn-all-first-industry-a01-a04",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": null,
+            "revision": "2025版统计年鉴最新可核序列",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-t4-2",
+                "locator": "表4-2，2023年行，第一产业就业人员（万人）列16882"
+              },
+              {
+                "sourceId": "cn-prod-employment-scope",
+                "locator": "二、统计范围；三、资料来源第1项：大陆城乡劳动力调查、人口普查推算的就业总量及结构"
+              },
+              {
+                "sourceId": "cn-prod-employment-definition",
+                "locator": "PDF物理1页（印刷129页）“就业人员”定义，与下段“单位就业人员”区分"
+              },
+              {
+                "sourceId": "cn-prod-primary-classification",
+                "locator": "二、第三产业调整情况：A05专业及辅助性活动属于第三产业"
+              }
+            ]
+          },
+          "comparable": true,
+          "comparabilityReasons": [
+            "同年、同一全国第一产业A01—A04合组的现价增加值与全部年末就业人员，已排除A05。",
+            "计算结果是名义增加值/年末就业人员，不是全年平均就业或实际工时生产率。"
+          ],
+          "gaps": [
+            "只核到A01—A04合组，不能说明农/林/牧/渔各自人均水平。",
+            "同年A05缺可比就业，只有一个可比子组，不能称完整农业细分排名。"
+          ]
+        },
+        {
+          "id": "cn-prod-a05-2023",
+          "childId": "cn-sub-a05",
+          "country": "cn",
+          "parentIndustryId": "cn-agriculture",
+          "name": "农林牧渔专业及辅助性活动",
+          "year": 2023,
+          "valueAdded": {
+            "value": 4797.9,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）A05农林牧渔专业及辅助性活动；A全门类减第一产业的現价增加值差额",
+            "coverageKey": "cn-all-resident-industry-a05",
+            "releaseDate": null,
+            "revision": "2025版年鉴所列五经普后修订值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-t3-6",
+                "locator": "表3-6，农林牧渔业行，2023列93967.0亿元"
+              },
+              {
+                "sourceId": "cn-prod-yearbook2025-t3-1",
+                "locator": "表3-1，2023年行，第一产业89169.1亿元"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "2.1 分类：A全门类由A01—A04第一产业和A05组成"
+              }
+            ],
+            "evidenceKind": "calculation",
+            "computation": {
+              "expression": "93967.0 - 89169.1",
+              "inputs": [
+                93967.0,
+                89169.1
+              ],
+              "note": "同一2023年全国现价亿元；2025版统计年鉴核算表的A全门类减第一产业。继承公布数修约误差；标计算结果，不当作官方直接发布A05数。"
+            }
+          },
+          "employment": {
+            "value": null,
+            "unit": "万人",
+            "year": null,
+            "definition": "同年同范围就业定义待取得",
+            "coverage": "未核实",
+            "coverageKey": "unverified",
+            "denominatorKind": "unknown",
+            "periodBasis": "unknown",
+            "releaseDate": null,
+            "revision": "缺值",
+            "evidence": []
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "缺同年同范围就业分母；增加值可按显式差额公式复算。"
+          ],
+          "gaps": [
+            "A05缺经核同范围的就业分母；不拿第一产业就业或企业法人局部人数替代。",
+            "差额继承原公布数修约误差。"
+          ]
+        }
+      ],
+      "availableDetailYears": [
+        2025,
+        2024,
+        2023
+      ],
+      "definitionEvidence": [
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "2.1 分类：行业分类与三次产业分类，GB/T4754—2017"
+        }
+      ]
+    },
+    {
+      "country": "cn",
+      "parentIndustryId": "cn-construction",
+      "name": "建筑业",
+      "classification": "GB/T 4754—2017非重叠行业大类",
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "gaps": [
+        "四大类公开普查经济指标为营业收入，不是增加值。",
+        "年鉴表2-B-3.8虽然同时提供平均人数和劳动生产率，但标题明确“按总产值计算”，不能作为本视图现价增加值/人。"
+      ],
+      "nonOverlapping": true,
+      "rows": [
+        {
+          "id": "cn-prod-47-2023",
+          "childId": "cn-sub-47",
+          "country": "cn",
+          "parentIndustryId": "cn-construction",
+          "name": "房屋建筑业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）房屋建筑业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-47",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census-construction-efficiency",
+                "locator": "表2-B-3.8表头：按总产值计算的劳动生产率，非增加值"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 2586.9,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）房屋建筑业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-47",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census3",
+                "locator": "表3-6；“房屋建筑业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-48-2023",
+          "childId": "cn-sub-48",
+          "country": "cn",
+          "parentIndustryId": "cn-construction",
+          "name": "土木工程建筑业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）土木工程建筑业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-48",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census-construction-efficiency",
+                "locator": "表2-B-3.8表头：按总产值计算的劳动生产率，非增加值"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 1126.2,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）土木工程建筑业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-48",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census3",
+                "locator": "表3-6；“土木工程建筑业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-49-2023",
+          "childId": "cn-sub-49",
+          "country": "cn",
+          "parentIndustryId": "cn-construction",
+          "name": "建筑安装业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）建筑安装业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-49",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census-construction-efficiency",
+                "locator": "表2-B-3.8表头：按总产值计算的劳动生产率，非增加值"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 384.0,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）建筑安装业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-49",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census3",
+                "locator": "表3-6；“建筑安装业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-50-2023",
+          "childId": "cn-sub-50",
+          "country": "cn",
+          "parentIndustryId": "cn-construction",
+          "name": "建筑装饰、装修和其他建筑业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）建筑装饰、装修和其他建筑业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-50",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census-construction-efficiency",
+                "locator": "表2-B-3.8表头：按总产值计算的劳动生产率，非增加值"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 1018.8,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）建筑装饰、装修和其他建筑业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-50",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census3",
+                "locator": "表3-6；“建筑装饰、装修和其他建筑业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        }
+      ],
+      "availableDetailYears": [
+        2023
+      ],
+      "definitionEvidence": [
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "2.1 分类：行业分类与三次产业分类，GB/T4754—2017"
+        }
+      ]
+    },
+    {
+      "country": "cn",
+      "parentIndustryId": "cn-real-estate",
+      "name": "房地产业",
+      "classification": "GB/T 4754—2017：房地产业中类",
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "gaps": [
+        "2025/2024国民核算公告和2025统计年鉴未在已核表格中单列这些子行业现价增加值。",
+        "2023经济普查细分就业可核，但其经济指标为资产、负债、营业收入，不能填充VA。",
+        "GDP房地产业还包含居民自有住房虚拟服务；企业法人五中类不覆盖这一部分，不能把父项VA按企业人数分摊。"
+      ],
+      "nonOverlapping": true,
+      "rows": [
+        {
+          "id": "cn-prod-701-2023",
+          "childId": "cn-sub-701",
+          "country": "cn",
+          "parentIndustryId": "cn-real-estate",
+          "name": "房地产开发经营",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）房地产开发经营全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-701",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-gdp-faq",
+                "locator": "问题14：房地产业增加值中的居民自有住房服务；仅确认覆盖存在"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 271.3,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）房地产开发经营企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-701",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-15；“房地产开发经营”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-702-2023",
+          "childId": "cn-sub-702",
+          "country": "cn",
+          "parentIndustryId": "cn-real-estate",
+          "name": "物业管理",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）物业管理全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-702",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-gdp-faq",
+                "locator": "问题14：房地产业增加值中的居民自有住房服务；仅确认覆盖存在"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 854.3,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）物业管理企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-702",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-15；“物业管理”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-703-2023",
+          "childId": "cn-sub-703",
+          "country": "cn",
+          "parentIndustryId": "cn-real-estate",
+          "name": "房地产中介服务",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）房地产中介服务全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-703",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-gdp-faq",
+                "locator": "问题14：房地产业增加值中的居民自有住房服务；仅确认覆盖存在"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 186.7,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）房地产中介服务企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-703",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-15；“房地产中介服务”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-704-2023",
+          "childId": "cn-sub-704",
+          "country": "cn",
+          "parentIndustryId": "cn-real-estate",
+          "name": "房地产租赁经营",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）房地产租赁经营全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-704",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-gdp-faq",
+                "locator": "问题14：房地产业增加值中的居民自有住房服务；仅确认覆盖存在"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 120.3,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）房地产租赁经营企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-704",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-15；“房地产租赁经营”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-709-2023",
+          "childId": "cn-sub-709",
+          "country": "cn",
+          "parentIndustryId": "cn-real-estate",
+          "name": "其他房地产业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）其他房地产业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-709",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-gdp-faq",
+                "locator": "问题14：房地产业增加值中的居民自有住房服务；仅确认覆盖存在"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 7.2,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）其他房地产业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-709",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-15；“其他房地产业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        }
+      ],
+      "availableDetailYears": [
+        2023
+      ],
+      "definitionEvidence": [
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "2.1 分类：行业分类与三次产业分类，GB/T4754—2017"
+        }
+      ]
+    },
+    {
+      "country": "cn",
+      "parentIndustryId": "cn-information",
+      "name": "信息传输、软件和信息技术服务业",
+      "classification": "GB/T 4754—2017非重叠行业大类",
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "gaps": [
+        "2025/2024国民核算公告和2025统计年鉴未在已核表格中单列这些子行业现价增加值。",
+        "2023经济普查细分就业可核，但其经济指标为资产、负债、营业收入，不能填充VA。"
+      ],
+      "nonOverlapping": true,
+      "rows": [
+        {
+          "id": "cn-prod-63-2023",
+          "childId": "cn-sub-63",
+          "country": "cn",
+          "parentIndustryId": "cn-information",
+          "name": "电信、广播电视和卫星传输服务",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）电信、广播电视和卫星传输服务全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-63",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 157.5,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）电信、广播电视和卫星传输服务企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-63",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-10；“电信、广播电视和卫星传输服务”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-64-2023",
+          "childId": "cn-sub-64",
+          "country": "cn",
+          "parentIndustryId": "cn-information",
+          "name": "互联网和相关服务",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）互联网和相关服务全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-64",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 242.2,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）互联网和相关服务企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-64",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-10；“互联网和相关服务”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-65-2023",
+          "childId": "cn-sub-65",
+          "country": "cn",
+          "parentIndustryId": "cn-information",
+          "name": "软件和信息技术服务业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）软件和信息技术服务业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-65",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 1107.1,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）软件和信息技术服务业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-65",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-10；“软件和信息技术服务业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        }
+      ],
+      "availableDetailYears": [
+        2023
+      ],
+      "definitionEvidence": [
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "2.1 分类：行业分类与三次产业分类，GB/T4754—2017"
+        }
+      ]
+    },
+    {
+      "country": "cn",
+      "parentIndustryId": "cn-business-services",
+      "name": "租赁和商务服务业",
+      "classification": "GB/T 4754—2017非重叠行业大类",
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "gaps": [
+        "2025/2024国民核算公告和2025统计年鉴未在已核表格中单列这些子行业现价增加值。",
+        "2023经济普查细分就业可核，但其经济指标为资产、负债、营业收入，不能填充VA。"
+      ],
+      "nonOverlapping": true,
+      "rows": [
+        {
+          "id": "cn-prod-71-2023",
+          "childId": "cn-sub-71",
+          "country": "cn",
+          "parentIndustryId": "cn-business-services",
+          "name": "租赁业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）租赁业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-71",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 295.6,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）租赁业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-71",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-18；“租赁业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-72-2023",
+          "childId": "cn-sub-72",
+          "country": "cn",
+          "parentIndustryId": "cn-business-services",
+          "name": "商务服务业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）商务服务业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-72",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 3562.7,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）商务服务业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-72",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-18；“商务服务业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        }
+      ],
+      "availableDetailYears": [
+        2023
+      ],
+      "definitionEvidence": [
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "2.1 分类：行业分类与三次产业分类，GB/T4754—2017"
+        }
+      ]
+    },
+    {
+      "country": "cn",
+      "parentIndustryId": "cn-transport",
+      "name": "交通运输、仓储和邮政业",
+      "classification": "GB/T 4754—2017非重叠行业大类",
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "gaps": [
+        "2025/2024国民核算公告和2025统计年鉴未在已核表格中单列这些子行业现价增加值。",
+        "2023经济普查细分就业可核，但其经济指标为资产、负债、营业收入，不能填充VA。"
+      ],
+      "nonOverlapping": true,
+      "rows": [
+        {
+          "id": "cn-prod-53-2023",
+          "childId": "cn-sub-53",
+          "country": "cn",
+          "parentIndustryId": "cn-transport",
+          "name": "铁路运输业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）铁路运输业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-53",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 181.7,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）铁路运输业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-53",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-4；“铁路运输业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-54-2023",
+          "childId": "cn-sub-54",
+          "country": "cn",
+          "parentIndustryId": "cn-transport",
+          "name": "道路运输业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）道路运输业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-54",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 822.9,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）道路运输业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-54",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-4；“道路运输业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-55-2023",
+          "childId": "cn-sub-55",
+          "country": "cn",
+          "parentIndustryId": "cn-transport",
+          "name": "水上运输业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）水上运输业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-55",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 46.0,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）水上运输业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-55",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-4；“水上运输业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-56-2023",
+          "childId": "cn-sub-56",
+          "country": "cn",
+          "parentIndustryId": "cn-transport",
+          "name": "航空运输业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）航空运输业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-56",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 63.9,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）航空运输业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-56",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-4；“航空运输业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-57-2023",
+          "childId": "cn-sub-57",
+          "country": "cn",
+          "parentIndustryId": "cn-transport",
+          "name": "管道运输业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）管道运输业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-57",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 4.2,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）管道运输业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-57",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-4；“管道运输业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-58-2023",
+          "childId": "cn-sub-58",
+          "country": "cn",
+          "parentIndustryId": "cn-transport",
+          "name": "多式联运和运输代理业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）多式联运和运输代理业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-58",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 135.0,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）多式联运和运输代理业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-58",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-4；“多式联运和运输代理业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-59-2023",
+          "childId": "cn-sub-59",
+          "country": "cn",
+          "parentIndustryId": "cn-transport",
+          "name": "装卸搬运和仓储业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）装卸搬运和仓储业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-59",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 142.6,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）装卸搬运和仓储业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-59",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-4；“装卸搬运和仓储业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-60-2023",
+          "childId": "cn-sub-60",
+          "country": "cn",
+          "parentIndustryId": "cn-transport",
+          "name": "邮政业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）邮政业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-60",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 157.9,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）邮政业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-60",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-4；“邮政业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        }
+      ],
+      "availableDetailYears": [
+        2023
+      ],
+      "definitionEvidence": [
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "2.1 分类：行业分类与三次产业分类，GB/T4754—2017"
+        }
+      ]
+    },
+    {
+      "country": "cn",
+      "parentIndustryId": "cn-accommodation-food",
+      "name": "住宿和餐饮业",
+      "classification": "GB/T 4754—2017非重叠行业大类",
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "gaps": [
+        "2025/2024国民核算公告和2025统计年鉴未在已核表格中单列这些子行业现价增加值。",
+        "2023经济普查细分就业可核，但其经济指标为资产、负债、营业收入，不能填充VA。"
+      ],
+      "nonOverlapping": true,
+      "rows": [
+        {
+          "id": "cn-prod-61-2023",
+          "childId": "cn-sub-61",
+          "country": "cn",
+          "parentIndustryId": "cn-accommodation-food",
+          "name": "住宿业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）住宿业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-61",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 279.4,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）住宿业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-61",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-7；“住宿业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-62-2023",
+          "childId": "cn-sub-62",
+          "country": "cn",
+          "parentIndustryId": "cn-accommodation-food",
+          "name": "餐饮业",
+          "year": 2023,
+          "valueAdded": {
+            "value": null,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2023,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）餐饮业全部常住生产单位；现价行业增加值目标口径",
+            "coverageKey": "cn-all-resident-industry-62",
+            "releaseDate": null,
+            "revision": "缺值，未推估",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-catalog",
+                "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+              },
+              {
+                "sourceId": "cn-prod-gdp2025",
+                "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": 614.2,
+            "unit": "万人",
+            "year": 2023,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "全国（不含港澳台）餐饮业企业法人单位；包括公报注释规定的执行企业会计制度等主体，不包括全部个体经营户",
+            "coverageKey": "cn-economic-census-enterprise-legal-units-62",
+            "denominatorKind": "persons",
+            "periodBasis": "year-end",
+            "releaseDate": "2024-12-26",
+            "revision": "第五次全国经济普查公布值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-census4",
+                "locator": "表4-7；“餐饮业”行，“从业人员（万人）”列"
+              },
+              {
+                "sourceId": "cn-prod-census-employment-definition",
+                "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+              },
+              {
+                "sourceId": "cn-prod-census2",
+                "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+              }
+            ]
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "分子或分母缺失。"
+          ],
+          "gaps": [
+            "尚未核得2023年该细分类全国现价增加值；营业收入、总产值和实际增速不得代填。",
+            "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        }
+      ],
+      "availableDetailYears": [
+        2023
+      ],
+      "definitionEvidence": [
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "2.1 分类：行业分类与三次产业分类，GB/T4754—2017"
+        }
+      ]
+    }
+  ],
+  "researchStatus": "指定10父行业首轮核查完成；待独立复核；全国细分覆盖不足，未冻结",
+  "notes": [
+    "主榜2025保持，细分年份就地显示。",
+    "同一父类同年不混父子行，跨年不混排。",
+    "仅农业第一产业合组2023/2024的分子分母可比；每年只有一个可比子组，不称完整农业人均排名。",
+    "不以IO产品部门配行业就业，不把缺值写作0，不以收入、总产值和实际增速代VA。",
+    "2007旧规上工业配对仅作方法核查发现，不纳入网站年份排序。"
+  ],
+  "searchAudit": {
+    "method": "本次会话实际相关查询的事后摘要，不声称完整逐调用请求日志或独立UTC调用次序证明。",
+    "queries": [
+      {
+        "id": "cn-prod-q01",
+        "parentIndustryId": "all",
+        "query": "site.stats.gov.cn 2023 投入产出表 下载 xlsx",
+        "date": "2026-09-09",
+        "resultAssessment": "当前下载入口错误；已读年鉴3-21产品表，未取得153产品细表原件。"
+      },
+      {
+        "id": "cn-prod-q02",
+        "parentIndustryId": "cn-industry",
+        "query": "site.stats.gov.cn 第五次全国经济普查 2023 分行业 企业法人单位 从业人员 工业",
+        "date": "2026-09-09",
+        "resultAssessment": "核读第三号公报；分子缺，分母仅法人。"
+      },
+      {
+        "id": "cn-prod-q03",
+        "parentIndustryId": "cn-construction",
+        "query": "site.stats.gov.cn 2025 统计年鉴 建筑业 增加值 平均人数 行业",
+        "date": "2026-09-09",
+        "resultAssessment": "普查2-B-3.8按总产值劳动生产率排除。"
+      },
+      {
+        "id": "cn-prod-q04",
+        "parentIndustryId": "cn-finance",
+        "query": "site.stats.gov.cn \"2023\" \"货币金融服务\" \"增加值\"",
+        "date": "2026-09-09",
+        "resultAssessment": "四细类仅核得法人就业与营业收入，未取得VA。"
+      },
+      {
+        "id": "cn-prod-q05",
+        "parentIndustryId": "cn-wholesale-retail",
+        "query": "site.stats.gov.cn \"2023\" \"批发业\" \"增加值\"",
+        "date": "2026-09-09",
+        "resultAssessment": "未核得全国批零分拆VA。"
+      },
+      {
+        "id": "cn-prod-q06",
+        "parentIndustryId": "all",
+        "query": "site.stats.gov.cn \"投入产出表\" \"从业人员\" \"同质\"",
+        "date": "2026-09-09",
+        "resultAssessment": "核读官方答复：产品部门不是行业。"
+      },
+      {
+        "id": "cn-prod-q07",
+        "parentIndustryId": "all",
+        "query": "\"2023年投入产出表\" \"153\"",
+        "date": "2026-09-09",
+        "resultAssessment": "旧2020与第三方下载未采用。"
+      },
+      {
+        "id": "cn-prod-q08",
+        "parentIndustryId": "all",
+        "query": "\"2023年投入产出表\" \"data.stats.gov.cn/files\"",
+        "date": "2026-09-09",
+        "resultAssessment": "原入口访问失败；未用第三方转录数。"
+      },
+      {
+        "id": "cn-prod-q09",
+        "parentIndustryId": "cn-accommodation-food",
+        "query": "site.stats.gov.cn \"2023\" \"住宿业\" \"增加值\" \"亿元\"",
+        "date": "2026-09-09",
+        "resultAssessment": "旅游住宿餐饮为专题范围，不能替代全行业细分类。"
+      },
+      {
+        "id": "cn-prod-q10",
+        "parentIndustryId": "cn-agriculture",
+        "query": "site.stats.gov.cn \"农林牧渔业\" \"增加值\" \"分行业\" \"2024\"",
+        "date": "2026-09-09",
+        "resultAssessment": "未核得A01至A04各自VA；主门类和第一产业可核。"
+      },
+      {
+        "id": "cn-prod-q11",
+        "parentIndustryId": "cn-real-estate",
+        "query": "site.stats.gov.cn \"房地产业增加值\" \"自有住房\"",
+        "date": "2026-09-09",
+        "resultAssessment": "核读问答14覆盖；不采用其旧核算方法描述当前。"
+      },
+      {
+        "id": "cn-prod-q12",
+        "parentIndustryId": "cn-finance",
+        "query": "site.stats.gov.cn \"金融业\" \"从业人员\" \"劳务派遣\" \"2023\"",
+        "date": "2026-09-09",
+        "resultAssessment": "就业定义采用经济普查年鉴物理1页，不据此推断保险销售队伍。"
+      },
+      {
+        "id": "cn-prod-q13",
+        "parentIndustryId": "cn-construction",
+        "query": "site.stats.gov.cn \"2023\" \"增加值\" \"房屋建筑业\"",
+        "date": "2026-09-09",
+        "resultAssessment": "细分总产值不作为VA。"
+      },
+      {
+        "id": "cn-prod-q14",
+        "parentIndustryId": "cn-information",
+        "query": "site.stats.gov.cn 2023 电信 广播电视 软件 信息技术服务业 增加值 亿元 从业人员",
+        "date": "2026-09-09",
+        "resultAssessment": "表4-10/4-12仅人数与营业收入。"
+      },
+      {
+        "id": "cn-prod-q15",
+        "parentIndustryId": "cn-business-services",
+        "query": "site.stats.gov.cn 2023 租赁业 商务服务业 增加值 从业人员",
+        "date": "2026-09-09",
+        "resultAssessment": "表4-18/4-20仅人数与营业收入。"
+      },
+      {
+        "id": "cn-prod-q16",
+        "parentIndustryId": "cn-transport",
+        "query": "site.stats.gov.cn 2023 铁路运输业 道路运输业 增加值 从业人员",
+        "date": "2026-09-09",
+        "resultAssessment": "表4-4/4-6八类就业可核、VA缺。"
+      },
+      {
+        "id": "cn-prod-q17",
+        "parentIndustryId": "cn-real-estate",
+        "query": "site.stats.gov.cn 2023 房地产开发经营 物业管理 增加值 从业人员",
+        "date": "2026-09-09",
+        "resultAssessment": "表4-15/4-17五中类就业可核，VA缺。"
+      },
+      {
+        "id": "cn-prod-q18",
+        "parentIndustryId": "cn-industry",
+        "query": "site.stats.gov.cn \"工业增加值\" \"全部从业人员年平均人数\" \"分行业\"",
+        "date": "2026-09-09",
+        "resultAssessment": "找到2007年同表分子分母，因过旧排除。"
+      },
+      {
+        "id": "cn-prod-q19",
+        "parentIndustryId": "cn-construction",
+        "query": "site.stats.gov.cn \"各行业\" \"建筑业增加值\" \"从业人员平均人数\"",
+        "date": "2026-09-09",
+        "resultAssessment": "未得到本任务时期的全国细行业配对。"
+      },
+      {
+        "id": "cn-prod-q20",
+        "parentIndustryId": "cn-industry",
+        "query": "site.stats.gov.cn \"2008\" \"工业增加值\" \"从业人员\" \"采矿业\"",
+        "date": "2026-09-09",
+        "resultAssessment": "2009版13-2已无增加值列。"
+      },
+      {
+        "id": "cn-prod-q21",
+        "parentIndustryId": "cn-industry",
+        "query": "site.stats.gov.cn \"2017\" \"全员劳动生产率\" \"增加值\" \"工业\"",
+        "date": "2026-09-09",
+        "resultAssessment": "地方资料、全国不变价总体生产率不纳入本表。"
+      },
+      {
+        "id": "cn-prod-q22",
+        "parentIndustryId": "cn-agriculture",
+        "query": "site.stats.gov.cn \"三次产业划分规定（2012）\" \"2018\" \"农\"",
+        "date": "2026-09-09",
+        "resultAssessment": "核读2018修订通知与现行GDP分类。"
+      },
+      {
+        "id": "cn-prod-q23",
+        "parentIndustryId": "cn-agriculture",
+        "query": "site.stats.gov.cn \"就业人员\" \"第一产业\" \"农、林、牧、渔专业及辅助性活动\"",
+        "date": "2026-09-09",
+        "resultAssessment": "结合年鉴4-2及就业章定义确认第一产业分母。"
+      }
+    ],
+    "accessGaps": [
+      {
+        "url": "https://data.stats.gov.cn/files/html/quickSearch/trcc/trcc01.html",
+        "date": "2026-09-09",
+        "result": "web工具404；ifnormal包装入口Internal Error；国家数据主页变为JavaScript站点。",
+        "consequence": "未获取2023细表XLS，不以第三方售卖/转载数替代。"
+      }
+    ],
+    "sourceReads": [
+      {
+        "sourceId": "cn-prod-gdp2025",
+        "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+        "sha256": "2826c38fd8d232e92cb4aa3fa3ec1b7763d40d6e0f3f17bb0c2c87811c281b2f",
+        "readStatus": "原文已读取；数字按命名表格、行列核对"
+      },
+      {
+        "sourceId": "cn-prod-gdp2024",
+        "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+        "sha256": "b6b6b5c74b9e044818a92eb3eec356fbcd9215c9649f760db9b91eb2a282233e",
+        "readStatus": "原文已读取；数字按命名表格、行列核对"
+      },
+      {
+        "sourceId": "cn-prod-yearbook2025-t3-6",
+        "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-06.jpg",
+        "sha256": "e4e58c1bd54623b04aa2c37e761e46ae65121383e4d15da88bfb6666041c5fdf",
+        "readStatus": "原文已读取；数字按命名表格、行列核对"
+      },
+      {
+        "sourceId": "cn-prod-census3",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202412/t20241226_1957895.html",
+        "sha256": "cd46ba77cb7199be410b1a5b34554a8b2ae41a5c45d76ad8ffbe720d88973944",
+        "readStatus": "原文已读取；数字按命名表格、行列核对"
+      },
+      {
+        "sourceId": "cn-prod-census4",
+        "url": "https://www.stats.gov.cn/sj/tjgb/jjpcgb/qgjpgb/202605/t20260508_1963637.html",
+        "sha256": "0970b8386682b12af907dd54a6c3f03057263aab9dece2247bb2c3f888e16aaa",
+        "readStatus": "原文已读取；数字按命名表格、行列核对"
+      },
+      {
+        "sourceId": "cn-prod-census-employment-definition",
+        "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/zb01.pdf",
+        "sha256": "cabe44df48b39e7f449b11c066bab774a659a80265cc5cec52bbed87f70650d4",
+        "readStatus": "原文已读取；数字按命名表格、行列核对"
+      },
+      {
+        "sourceId": "cn-prod-yearbook2025-io20",
+        "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-21.jpg",
+        "sha256": "6cf2691dc5c35f162f29ce4690b70601b9fabc88521bf9e60cbce33d35da7b5a",
+        "readStatus": "原文已读取；数字按命名表格、行列核对"
+      },
+      {
+        "sourceId": "cn-prod-census-construction-efficiency",
+        "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Bb2-B-3-08.jpg",
+        "sha256": "db06435aaf084728da08ccff16a762aa0ab2350e9e3e86c033c046d90748c81f",
+        "readStatus": "原文已读取；数字按命名表格、行列核对"
+      },
+      {
+        "sourceId": "cn-prod-yearbook2025-catalog",
+        "url": "https://www.stats.gov.cn/sj/ndsj/2025/left.htm",
+        "sha256": "235dfc3fbea4fd4041ffdc9b648510618d92728491fde078f5a308bcafb97cd0",
+        "readStatus": "原文已读取；数字按命名表格、行列核对"
+      },
+      {
+        "sourceId": "cn-prod-census2",
+        "url": "https://www.stats.gov.cn/sj/zxfb/202412/t20241226_1957897.html",
+        "sha256": "bc9f3e641db793c779d19f0c129ffba5d1593a76100bafa44671e4f3600a0a43",
+        "readStatus": "已读取指定原表或定义段；资料版本、范围分别核对"
+      },
+      {
+        "sourceId": "cn-prod-io-classification",
+        "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202405/t20240524_1954069.html",
+        "sha256": "198d2e153de408ffa3bfac1111cc3b6cc79130a58d5520eb662f0ca2796f57d5",
+        "readStatus": "已读取指定原表或定义段；资料版本、范围分别核对"
+      },
+      {
+        "sourceId": "cn-prod-gdp-faq",
+        "url": "https://www.stats.gov.cn/hd/cjwtjd/202302/t20230207_1902278.html",
+        "sha256": "2b2031067231345ad322e3aee2d5620e424644cb4767fb4385e4bc1230496eaa",
+        "readStatus": "已读取指定原表或定义段；资料版本、范围分别核对"
+      },
+      {
+        "sourceId": "cn-prod-employment-scope",
+        "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/sm04.htm",
+        "sha256": "e5b25a94fe286e7be9d9fbdb37bf57497ef0b50f166a10c7ddf0e9936f34e931",
+        "readStatus": "已读取指定原表或定义段；资料版本、范围分别核对"
+      },
+      {
+        "sourceId": "cn-prod-yearbook2025-t4-2",
+        "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C04-02.jpg",
+        "sha256": "72b4c093c48938075943302259ddecdade86194cfdd52cd12511c9edf8e11bcc",
+        "readStatus": "已读取指定原表或定义段；资料版本、范围分别核对"
+      },
+      {
+        "sourceId": "cn-prod-yearbook2025-t3-1",
+        "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/C03-01.jpg",
+        "sha256": "58c40bf49ae4fac0a62fe7238522bd778e396e29c13ef5ed96a6e0a37bc15f97",
+        "readStatus": "已读取指定原表或定义段；资料版本、范围分别核对"
+      },
+      {
+        "sourceId": "cn-prod-employment-definition",
+        "url": "https://www.stats.gov.cn/sj/ndsj/2025/html/zb04.pdf",
+        "sha256": "7c575dd76f4d5529d0aa6e1ca1ec72aeeb8683eaf2538db94b77e2341ef1dc59",
+        "readStatus": "已读取指定原表或定义段；资料版本、范围分别核对"
+      },
+      {
+        "sourceId": "cn-prod-primary-classification",
+        "url": "https://www.stats.gov.cn/xw/tjxw/tzgg/202302/t20230202_1893928.html",
+        "sha256": "895d7831dc515674a8700aa0e56502ae15983538692baeadf8a366bf9ba17932",
+        "readStatus": "已读取指定原表或定义段；资料版本、范围分别核对"
+      },
+      {
+        "sourceId": "cn-prod-historical-2007",
+        "url": "https://www.stats.gov.cn/sj/ndsj/2008/html/N1302C.HTM",
+        "sha256": "3ad07b36468df261d862e50646937d6ce88aa8c9f997bbf33f8633420056a353",
+        "readStatus": "已读取指定原表或定义段；资料版本、范围分别核对"
+      },
+      {
+        "sourceId": "cn-prod-historical-2008",
+        "url": "https://www.stats.gov.cn/sj/ndsj/2009/html/N1302C.HTM",
+        "sha256": "05a69e4655a77e0b76ed3b0c139a5454956ccd87375553a0ecf890d359d6b245",
+        "readStatus": "已读取指定原表或定义段；资料版本、范围分别核对"
+      }
+    ]
+  }
+}

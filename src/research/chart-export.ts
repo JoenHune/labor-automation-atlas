@@ -1,11 +1,12 @@
 import type {ECharts} from 'echarts/core'
 import type {Observation,Research} from './schema'
-export function chartRecord(research:Research,country:'cn'|'us',title:string,observations:(Observation|undefined)[]) {
+import {displayObservation,currencyLabels,type CurrencySettings} from './currency'
+export function chartRecord(research:Research,country:'cn'|'us',title:string,observations:(Observation|undefined)[],display?:CurrencySettings) {
  const points=observations.filter((o):o is Observation=>Boolean(o))
  if(points.some(o=>o.country!==country))throw new Error('图表导出包含其他国家数据')
  const sourceIds=new Set(points.flatMap(o=>o.evidence.map(r=>r.sourceId)))
  const industryIds=new Set(points.map(o=>o.industryId))
- return {title,country,version:research.version,checkedAt:research.checkedAt,profile:research.countries.find(p=>p.country===country),observations:points,industries:research.industries.filter(i=>industryIds.has(i.id)).map(({inventory,...i})=>i),sources:research.sources.filter(s=>sourceIds.has(s.id))}
+ return {title,country,...(display?{display:{...display,unit:currencyLabels[display.mode],exchangeRateStatus:'user-configurable-assumption-not-live-rate',values:points.map(o=>({observationId:o.id,value:displayObservation(o,display),unit:o.currency?currencyLabels[display.mode]:o.unit})),note:'observations保留原币种原值；display.values仅为指定汇率的显示换算。'}}:{}),version:research.version,checkedAt:research.checkedAt,profile:research.countries.find(p=>p.country===country),observations:points,industries:research.industries.filter(i=>industryIds.has(i.id)).map(({inventory,...i})=>i),sources:research.sources.filter(s=>sourceIds.has(s.id))}
 }
 function download(blob:Blob,name:string) {
  const link=document.createElement('a'),url=URL.createObjectURL(blob)

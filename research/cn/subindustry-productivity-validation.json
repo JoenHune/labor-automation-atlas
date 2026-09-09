@@ -1,0 +1,1008 @@
+{
+  "checkedAt": "2026-09-09",
+  "reviewType": "author-self-check-not-independent-review",
+  "datasetSha256": "d1f4de65c9260199078372a3b3fe55c8e99298d3ef859c283390b127d03a4e9a",
+  "counts": {
+    "parents": 10,
+    "rows": 45,
+    "directValueAdded": 8,
+    "calculatedValueAdded": 3,
+    "employmentValues": 35,
+    "comparableRows": 2,
+    "sources": 19,
+    "locatedReferencesChecked": 194
+  },
+  "status": "data-and-scope-self-check-passed-with-explicit-gaps",
+  "numericChecks": [
+    {
+      "rowId": "cn-prod-b-2023",
+      "field": "employment.value",
+      "value": 469.8,
+      "expected": 469.8,
+      "status": "confirmed",
+      "method": "第三号公报表3-2前正文人数段目读值复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census3",
+          "locator": "一、工业（一）；表3-2之前“在工业企业法人单位从业人员中”段；采矿业对应人数（万人）"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-c-2023",
+      "field": "employment.value",
+      "value": 10481.4,
+      "expected": 10481.4,
+      "status": "confirmed",
+      "method": "第三号公报表3-2前正文人数段目读值复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census3",
+          "locator": "一、工业（一）；表3-2之前“在工业企业法人单位从业人员中”段；制造业对应人数（万人）"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-d-2023",
+      "field": "employment.value",
+      "value": 477.6,
+      "expected": 477.6,
+      "status": "confirmed",
+      "method": "第三号公报表3-2前正文人数段目读值复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census3",
+          "locator": "一、工业（一）；表3-2之前“在工业企业法人单位从业人员中”段；电力、热力、燃气及水生产和供应业对应人数（万人）"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-51-2023",
+      "field": "employment.value",
+      "value": 2993.3,
+      "expected": 2993.3,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-1；“批发业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-52-2023",
+      "field": "employment.value",
+      "value": 2332.4,
+      "expected": 2332.4,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-1；“零售业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-66-2023",
+      "field": "employment.value",
+      "value": 415.5,
+      "expected": 415.5,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-13；“货币金融服务”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-67-2023",
+      "field": "employment.value",
+      "value": 73.2,
+      "expected": 73.2,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-13；“资本市场服务”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-68-2023",
+      "field": "employment.value",
+      "value": 729.8,
+      "expected": 729.8,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-13；“保险业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-69-2023",
+      "field": "employment.value",
+      "value": 17.1,
+      "expected": 17.1,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-13；“其他金融业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-a01-a04-2024",
+      "field": "employment.value",
+      "value": 16298,
+      "expected": 16298,
+      "status": "confirmed",
+      "method": "2025版年鉴4-2图像年末第一产业列目读值复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-yearbook2025-t4-2",
+          "locator": "表4-2，2024年行，第一产业就业人员（万人）列16298"
+        },
+        {
+          "sourceId": "cn-prod-employment-scope",
+          "locator": "二、统计范围；三、资料来源第1项：大陆城乡劳动力调查、人口普查推算的就业总量及结构"
+        },
+        {
+          "sourceId": "cn-prod-employment-definition",
+          "locator": "PDF物理1页（印刷129页）“就业人员”定义，与下段“单位就业人员”区分"
+        },
+        {
+          "sourceId": "cn-prod-primary-classification",
+          "locator": "二、第三产业调整情况：A05专业及辅助性活动属于第三产业"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-a01-a04-2023",
+      "field": "employment.value",
+      "value": 16882,
+      "expected": 16882,
+      "status": "confirmed",
+      "method": "2025版年鉴4-2图像年末第一产业列目读值复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-yearbook2025-t4-2",
+          "locator": "表4-2，2023年行，第一产业就业人员（万人）列16882"
+        },
+        {
+          "sourceId": "cn-prod-employment-scope",
+          "locator": "二、统计范围；三、资料来源第1项：大陆城乡劳动力调查、人口普查推算的就业总量及结构"
+        },
+        {
+          "sourceId": "cn-prod-employment-definition",
+          "locator": "PDF物理1页（印刷129页）“就业人员”定义，与下段“单位就业人员”区分"
+        },
+        {
+          "sourceId": "cn-prod-primary-classification",
+          "locator": "二、第三产业调整情况：A05专业及辅助性活动属于第三产业"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-47-2023",
+      "field": "employment.value",
+      "value": 2586.9,
+      "expected": 2586.9,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census3",
+          "locator": "表3-6；“房屋建筑业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-48-2023",
+      "field": "employment.value",
+      "value": 1126.2,
+      "expected": 1126.2,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census3",
+          "locator": "表3-6；“土木工程建筑业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-49-2023",
+      "field": "employment.value",
+      "value": 384.0,
+      "expected": 384.0,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census3",
+          "locator": "表3-6；“建筑安装业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-50-2023",
+      "field": "employment.value",
+      "value": 1018.8,
+      "expected": 1018.8,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census3",
+          "locator": "表3-6；“建筑装饰、装修和其他建筑业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-701-2023",
+      "field": "employment.value",
+      "value": 271.3,
+      "expected": 271.3,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-15；“房地产开发经营”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-702-2023",
+      "field": "employment.value",
+      "value": 854.3,
+      "expected": 854.3,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-15；“物业管理”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-703-2023",
+      "field": "employment.value",
+      "value": 186.7,
+      "expected": 186.7,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-15；“房地产中介服务”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-704-2023",
+      "field": "employment.value",
+      "value": 120.3,
+      "expected": 120.3,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-15；“房地产租赁经营”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-709-2023",
+      "field": "employment.value",
+      "value": 7.2,
+      "expected": 7.2,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-15；“其他房地产业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-63-2023",
+      "field": "employment.value",
+      "value": 157.5,
+      "expected": 157.5,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-10；“电信、广播电视和卫星传输服务”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-64-2023",
+      "field": "employment.value",
+      "value": 242.2,
+      "expected": 242.2,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-10；“互联网和相关服务”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-65-2023",
+      "field": "employment.value",
+      "value": 1107.1,
+      "expected": 1107.1,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-10；“软件和信息技术服务业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-71-2023",
+      "field": "employment.value",
+      "value": 295.6,
+      "expected": 295.6,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-18；“租赁业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-72-2023",
+      "field": "employment.value",
+      "value": 3562.7,
+      "expected": 3562.7,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-18；“商务服务业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-53-2023",
+      "field": "employment.value",
+      "value": 181.7,
+      "expected": 181.7,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-4；“铁路运输业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-54-2023",
+      "field": "employment.value",
+      "value": 822.9,
+      "expected": 822.9,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-4；“道路运输业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-55-2023",
+      "field": "employment.value",
+      "value": 46.0,
+      "expected": 46.0,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-4；“水上运输业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-56-2023",
+      "field": "employment.value",
+      "value": 63.9,
+      "expected": 63.9,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-4；“航空运输业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-57-2023",
+      "field": "employment.value",
+      "value": 4.2,
+      "expected": 4.2,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-4；“管道运输业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-58-2023",
+      "field": "employment.value",
+      "value": 135.0,
+      "expected": 135.0,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-4；“多式联运和运输代理业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-59-2023",
+      "field": "employment.value",
+      "value": 142.6,
+      "expected": 142.6,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-4；“装卸搬运和仓储业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-60-2023",
+      "field": "employment.value",
+      "value": 157.9,
+      "expected": 157.9,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-4；“邮政业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-61-2023",
+      "field": "employment.value",
+      "value": 279.4,
+      "expected": 279.4,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-7；“住宿业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-62-2023",
+      "field": "employment.value",
+      "value": 614.2,
+      "expected": 614.2,
+      "status": "confirmed",
+      "method": "HTML命名表格已提取单元格复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-census4",
+          "locator": "表4-7；“餐饮业”行，“从业人员（万人）”列"
+        },
+        {
+          "sourceId": "cn-prod-census-employment-definition",
+          "locator": "PDF物理1页（印刷页451）“从业人员数”定义"
+        },
+        {
+          "sourceId": "cn-prod-census2",
+          "locator": "表2-3法人单位与个体经营户分列；所涉父门类行及表注"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-c-2025",
+      "field": "valueAdded.value",
+      "value": 346747,
+      "expected": 346747,
+      "status": "confirmed",
+      "method": "官方核算HTML或2025版年鉴表3-1/3-6图像原数目读复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "GDP表；“制造业”行，全年“绝对额（亿元）”列"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-c-2024",
+      "field": "valueAdded.value",
+      "value": 334881,
+      "expected": 334881,
+      "status": "confirmed",
+      "method": "官方核算HTML或2025版年鉴表3-1/3-6图像原数目读复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-gdp2024",
+          "locator": "附件1；“制造业”行，“现价总量（亿元）”列"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-b-2023",
+      "field": "valueAdded.value",
+      "value": 35613.9,
+      "expected": 35613.9,
+      "status": "confirmed",
+      "method": "官方核算HTML或2025版年鉴表3-1/3-6图像原数目读复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-yearbook2025-t3-6",
+          "locator": "表3-6；“采矿业”行，2023列"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-c-2023",
+      "field": "valueAdded.value",
+      "value": 323754.6,
+      "expected": 323754.6,
+      "status": "confirmed",
+      "method": "官方核算HTML或2025版年鉴表3-1/3-6图像原数目读复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-yearbook2025-t3-6",
+          "locator": "表3-6；“制造业”行，2023列"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-d-2023",
+      "field": "valueAdded.value",
+      "value": 32814.5,
+      "expected": 32814.5,
+      "status": "confirmed",
+      "method": "官方核算HTML或2025版年鉴表3-1/3-6图像原数目读复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-yearbook2025-t3-6",
+          "locator": "表3-6；“电力、热力、燃气及水生产和供应业”行，2023列"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-a01-a04-2025",
+      "field": "valueAdded.value",
+      "value": 93347,
+      "expected": 93347,
+      "status": "confirmed",
+      "method": "官方核算HTML或2025版年鉴表3-1/3-6图像原数目读复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "GDP表全年“第一产业”行，93347亿元"
+        },
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "2.1分类：第一产业为A01—A04，不含A05"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-a05-2025",
+      "field": "valueAdded.value",
+      "value": 5760,
+      "expected": 5760,
+      "status": "confirmed",
+      "method": "同年同范围原数差额重算；继承原数修约",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "GDP表全年农林牧渔业99107亿元、第一产业93347亿元"
+        },
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "2.1 分类：A全门类由A01—A04第一产业和A05组成"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-a01-a04-2024",
+      "field": "valueAdded.value",
+      "value": 91636,
+      "expected": 91636,
+      "status": "confirmed",
+      "method": "官方核算HTML或2025版年鉴表3-1/3-6图像原数目读复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-gdp2024",
+          "locator": "附件1现价总量“第一产业”行，91636亿元"
+        },
+        {
+          "sourceId": "cn-prod-gdp2024",
+          "locator": "附件2 §2.1分类：第一产业为A01—A04，不含A05"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-a05-2024",
+      "field": "valueAdded.value",
+      "value": 5340,
+      "expected": 5340,
+      "status": "confirmed",
+      "method": "同年同范围原数差额重算；继承原数修约",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-gdp2024",
+          "locator": "附件1现价总量农林牧渔业96976亿元、第一产业91636亿元"
+        },
+        {
+          "sourceId": "cn-prod-gdp2024",
+          "locator": "附件2 §2.1 分类：A全门类由A01—A04第一产业和A05组成"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-a01-a04-2023",
+      "field": "valueAdded.value",
+      "value": 89169.1,
+      "expected": 89169.1,
+      "status": "confirmed",
+      "method": "官方核算HTML或2025版年鉴表3-1/3-6图像原数目读复比",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-yearbook2025-t3-1",
+          "locator": "表3-1，2023年行，第一产业列89169.1亿元"
+        },
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "2.1分类：第一产业为A01—A04，不含A05"
+        }
+      ]
+    },
+    {
+      "rowId": "cn-prod-a05-2023",
+      "field": "valueAdded.value",
+      "value": 4797.9,
+      "expected": 4797.9,
+      "status": "confirmed",
+      "method": "同年同范围原数差额重算；继承原数修约",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-yearbook2025-t3-6",
+          "locator": "表3-6，农林牧渔业行，2023列93967.0亿元"
+        },
+        {
+          "sourceId": "cn-prod-yearbook2025-t3-1",
+          "locator": "表3-1，2023年行，第一产业89169.1亿元"
+        },
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "2.1 分类：A全门类由A01—A04第一产业和A05组成"
+        }
+      ]
+    }
+  ],
+  "comparableCalculations": [
+    {
+      "rowId": "cn-prod-a01-a04-2024",
+      "year": 2024,
+      "coverageKey": "cn-all-first-industry-a01-a04",
+      "yuanPerYearEndPerson": 56225.30371824764
+    },
+    {
+      "rowId": "cn-prod-a01-a04-2023",
+      "year": 2023,
+      "coverageKey": "cn-all-first-industry-a01-a04",
+      "yuanPerYearEndPerson": 52819.03802866959
+    }
+  ],
+  "checks": [
+    "全部35就业数与已读原表/正文复比；其中30为HTML表单元格、3为工业正文、2为农业年鉴图像。",
+    "全部8个直接增加值复比原表/图像，3个A05差额同年重算。",
+    "修正官方GDP行业分类章节为2.1；2024年行使用2024公告附件2的2.1。",
+    "SourceSchema及validateProductivityDataset已通过；实际productivityView已确认两个人均值、年份回退和缺口保留。",
+    "45行唯一编号、国家、货币、同年分类、来源ID与非空定位验证通过；2007没有进入行/排序年份。",
+    "数字自查不代表所有行业已经取得可比较的细分类；不得将单个可比子组称完整排名。"
+  ],
+  "limitations": [
+    "尚未独立复核该最终数据版本。",
+    "八个服务/建筑父行业细类现价增加值缺失；工业全行业增加值与企业法人就业不可比。",
+    "A05三个年份均缺全范围就业；2025第一产业就业也未取得。",
+    "2023/2024每年仅一个农业合组可计算，不构成至少两个子类的完整人均排名。",
+    "年鉴确切出版日未核到，保留null及2025版说明。",
+    "查询日志为事后摘要，不声称完整逐调用请求或独立UTC证明。"
+  ]
+}
