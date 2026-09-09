@@ -90,10 +90,10 @@ export function researchCoverage(data:Research) {
   return (['cn','us'] as const).map(country=>({
     country,
     selectedIndustries:data.industries.filter(x=>x.country===country && x.selected).length,
-    scenarios:data.scenarios.filter(x=>x.country===country).length,
-    tasks:data.tasks.filter(x=>x.country===country).length,
-    reviewedTasks:data.tasks.filter(x=>x.country===country && x.researchStatus==='reviewed').length,
-    pendingTasks:data.tasks.filter(x=>x.country===country && ['not-started','in-progress'].includes(x.researchStatus)).length,
+    scenarios:data.scenarios.filter(x=>x.country===country&&x.inventory).length,
+    tasks:data.tasks.filter(x=>x.country===country&&x.countingRole!=='composite-reference').length,
+    compositeReferences:data.tasks.filter(x=>x.country===country&&x.countingRole==='composite-reference').length,
+    reviewedTasks:data.tasks.filter(x=>x.country===country&&x.countingRole!=='composite-reference'&&x.researchStatus==='reviewed').length,
+    pendingTasks:data.tasks.filter(x=>x.country===country&&x.countingRole!=='composite-reference'&&['not-started','in-progress'].includes(x.researchStatus)).length,
   }))
 }
-

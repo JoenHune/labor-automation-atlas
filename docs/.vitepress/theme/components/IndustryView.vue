@@ -11,7 +11,9 @@ const query=ref(''),phase=ref('all'),scenario=ref('all'),status=ref('all')
 const fields={q:query,phase,scenario,status}
 const filtered=computed(()=>props.record.tasks.filter(t=>t.country===industry.value.country&&t.industryId===industry.value.id&&(phase.value==='all'||t.phase===phase.value)&&(scenario.value==='all'||t.scenarioId===scenario.value)&&(status.value==='all'||t.researchStatus===status.value)&&(!query.value||t.title.toLocaleLowerCase().includes(query.value.trim().toLocaleLowerCase()))))
 const scenes=computed(()=>props.record.scenarios.filter(s=>scenario.value==='all'||s.id===scenario.value))
-const reviewed=computed(()=>props.record.tasks.filter(t=>t.researchStatus==='reviewed').length)
+const candidates=computed(()=>props.record.tasks.filter(t=>t.countingRole!=='composite-reference'))
+const references=computed(()=>props.record.tasks.filter(t=>t.countingRole==='composite-reference'))
+const reviewed=computed(()=>candidates.value.filter(t=>t.researchStatus==='reviewed').length)
 const phaseTasks=(id:string,p:string)=>filtered.value.filter(t=>t.scenarioId===id&&t.phase===p)
 const subsectors=computed(()=>(industry.value.inventory?.subsectorCoverage??[]) as Record<string,any>[])
 function restore(){const q=new URLSearchParams(location.search);for(const [key,value] of Object.entries(fields))value.value=q.get('filter.'+key)??(key==='q'?'':'all')}
@@ -26,12 +28,12 @@ onBeforeUnmount(()=>window.removeEventListener('popstate',restore))
  <p class="eyebrow">行业流程 · {{industry.selectionReason==='sector-supplement'?'榜外产业补充':'2025 全年入选行业'}}</p>
  <h1 :data-content-id="industry.id+'-title'" tabindex="0">{{industry.name}}</h1>
  <section :data-content-id="industry.id+'-scale-2025'" tabindex="0" class="task-conclusion"><p><strong>{{observation?.value?.toLocaleString('zh-CN')}} {{observation?.unit}}</strong> · 2025 年现价增加值</p><p>{{industry.coverage}}</p><p class="scope-note">发布 {{observation?.releaseDate}} · {{observation?.revision}}</p><ObservationDetails v-if="observation" :observation="observation"/></section>
- <section :data-content-id="industry.id+'-coverage-status'" tabindex="0"><h2>场景与任务进度</h2><p>当前 {{record.scenarios.length}} 个场景、{{record.tasks.length}} 项候选任务，{{reviewed}} 项已完成公开证据独立复核。</p><p class="work-note">任务清单仍在扩展并修订粒度；数量不代表行业任务覆盖率、人工规模或自动化市场。未完成方案、反例和来源复核的任务保持待研究状态。</p></section>
+ <section :data-content-id="industry.id+'-coverage-status'" tabindex="0"><h2>场景与任务进度</h2><p>当前 {{record.scenarios.filter(s=>s.inventory).length}} 个盘点场景、{{candidates.length}} 项候选任务，{{reviewed}} 项已完成公开证据独立复核。</p><p v-if="references.length">另有 {{references.length}} 份组合流程样板，其中 {{references.filter(t=>t.researchStatus==='reviewed').length}} 份公开证据已复核。样板与所含原子任务不重复累计数量或工时。</p><p class="work-note">任务清单仍在扩展并修订粒度；数量不代表行业任务覆盖率、人工规模或自动化市场。未完成方案、反例和来源复核的任务保持待研究状态。</p></section>
  <details v-if="subsectors.length" class="method-details"><summary>子行业范围与未覆盖部分</summary><ul><li v-for="(sub,i) in subsectors" :key="i" :data-content-id="industry.id+'-subsector-'+i" tabindex="0"><strong>{{sub.name??sub.subsector??sub.code??sub.naics??sub.classification}}</strong><p>{{sub.gap??sub.uncovered??sub.coverageMeaning}}</p><small>{{sub.scope??sub.countingNote}}</small></li></ul></details>
  <div class="task-filters"><label>搜索本行业任务 <input v-model="query" type="search" placeholder="任务动作或对象"/></label><label>场景 <select v-model="scenario"><option value="all">全部场景</option><option v-for="s in record.scenarios" :value="s.id">{{s.title}}</option></select></label><label>流程阶段 <select v-model="phase"><option value="all">全部阶段</option><option v-for="(label,key) in phaseNames" :value="key">{{label}}</option></select></label><label>研究状态 <select v-model="status"><option value="all">全部状态</option><option v-for="(label,key) in taskStatus" :value="key">{{label}}</option></select></label></div>
  <p class="scope-note">筛选结果 {{filtered.length}} 项；筛选条件随批注分享链接保存。</p>
  <section v-for="s in scenes" :key="s.id" class="industry-scenario" :data-content-id="s.id+'-flow'" tabindex="0">
-  <h2>{{s.title}}</h2><p :data-content-id="s.id+'-scope'" tabindex="0">{{s.scope}}</p>
+  <h2>{{s.title}}</h2><p v-if="references.some(t=>t.scenarioId===s.id)" class="historical-note">组合流程样板：用于查看完整证据链，不作为额外原子任务计数。</p><p :data-content-id="s.id+'-scope'" tabindex="0">{{s.scope}}</p>
   <div class="workflow-columns"><section v-for="(label,key) in phaseNames" :key="key" :data-content-id="s.id+'-phase-'+key" tabindex="0"><h3>{{label}}</h3><ul v-if="phaseTasks(s.id,key).length"><li v-for="t in phaseTasks(s.id,key)" :key="t.id" :data-content-id="t.id+'-index'" tabindex="0"><a :href="withBase('/'+industry.country+'/tasks/'+t.id)">{{t.title}}</a><small>{{taskStatus[t.researchStatus]}}</small></li></ul><p v-else class="scope-note">{{s.coverage.find(c=>c.phase===label)?.gap??'当前筛选下没有任务。'}}</p></section></div>
   <details><summary>流程发现来源与遗漏检查</summary><p>流程规范与职业职责用于交叉发现任务，条目级对应仍需复核；不据此推算工时或自动化程度。</p><EvidenceList :items="[...s.workflowSources,...s.occupationSources]"/><ul><li v-for="text in s.exclusions">{{text}}</li></ul></details>
  </section>

@@ -7,11 +7,11 @@ const json=(v:unknown)=>JSON.stringify(v,null,2)+'\n'
 const put=async(path:string,body:string)=>{if(await readFile(new URL(path,root),'utf8').catch(()=>null)===body)return;await mkdir(new URL(path.slice(0,path.lastIndexOf('/'))+'/',root),{recursive:true});await writeFile(new URL(path,root),body)}
 const samples=data.tasks.filter(t=>!t.discovery)
 await put('data/site.json',json({...data,tasks:samples,scenarios:data.scenarios.filter(s=>samples.some(t=>t.scenarioId===s.id))}))
-for(const country of ['cn','us'])await put('docs/public/exports/task-search-'+country+'.json',json({country,version:data.version,tasks:data.tasks.filter(t=>t.country===country).map(({id,title,country,industryId,scenarioId,phase,researchStatus})=>({id,title,country,industryId,scenarioId,phase,researchStatus})),industries:data.industries.filter(i=>i.country===country&&i.selected).map(({id,name})=>({id,name}))}))
+for(const country of ['cn','us'])await put('docs/public/exports/task-search-'+country+'.json',json({country,version:data.version,tasks:data.tasks.filter(t=>t.country===country).map(({id,title,country,industryId,scenarioId,phase,researchStatus,countingRole})=>({id,title,country,industryId,scenarioId,phase,researchStatus,countingRole})),industries:data.industries.filter(i=>i.country===country&&i.selected).map(({id,name})=>({id,name}))}))
 const files:string[]=[]
 function page(title:string,component:string,path:string) {return '---\ntitle: '+JSON.stringify(title)+'\n---\n<script setup>\nimport record from '+JSON.stringify(path)+'\n</script>\n<'+component+' :record="record" />\n'}
 for(const i of data.industries.filter(i=>i.selected)) {
- const record:IndustryPage={industry:i,observation:data.observations.find(o=>o.industryId===i.id&&o.period==='2025'&&o.measure==='value-added')??null,scenarios:data.scenarios.filter(s=>s.industryId===i.id),tasks:data.tasks.filter(t=>t.industryId===i.id).map(({id,title,country,industryId,scenarioId,phase,researchStatus,summary})=>({id,title,country,industryId,scenarioId,phase,researchStatus,summary}))}
+ const record:IndustryPage={industry:i,observation:data.observations.find(o=>o.industryId===i.id&&o.period==='2025'&&o.measure==='value-added')??null,scenarios:data.scenarios.filter(s=>s.industryId===i.id),tasks:data.tasks.filter(t=>t.industryId===i.id).map(({id,title,country,industryId,scenarioId,phase,researchStatus,summary,countingRole})=>({id,title,country,industryId,scenarioId,phase,researchStatus,summary,countingRole}))}
  const path='docs/'+i.country+'/industries/'+i.id+'.md';files.push(path)
  await put('docs/.generated/industries/'+i.id+'.json',json(record))
  await put(path,page(i.name,'IndustryView','../../.generated/industries/'+i.id+'.json'))

@@ -58,6 +58,7 @@ for(const filename of ['cn-injection-molding-part-removal','us-cnc-machine-tendi
  }
  const types:Record<string,Task['alternatives'][number]['category']>={traditional_mechanical:'traditional-machine',dedicated_machine:'dedicated-machine',robot:'robot',assistive_tool:'assistive-tool',digital_process:'digital-process',digital_workflow:'digital-process',programmable_robot:'robot'}
  const task:Task={
+  countingRole:'composite-reference',
   id:taskId,country,industryId,scenarioId,title:raw.title,boundary:raw.boundary.start+' → '+raw.boundary.end,
   inputs:raw.boundary.inputs,outputs:raw.boundary.outputs,acceptance:raw.boundary.acceptance,
   phase:'operation',predecessors:[],conditions:raw.scenarios.flatMap((s:Raw)=>s.conditions),

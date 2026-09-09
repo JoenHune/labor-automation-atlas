@@ -21,6 +21,7 @@ const refs=(ids:string[])=>claims.value.filter(c=>ids.map(x=>x.toLowerCase()).in
   <nav class="breadcrumbs"><a :href="withBase('/'+task.country+'/')">{{task.country==='cn'?'中国':'美国'}}</a><span> / </span><a :href="withBase('/'+task.country+'/industries/'+industry.id)">{{industry.name}}</a></nav>
   <p class="eyebrow">具体任务 · 公开资料样板 · {{research.checkedAt}}</p>
   <h1 :data-content-id="task.id+'-title'" tabindex="0">{{task.title}}</h1>
+  <p v-if="task.countingRole==='composite-reference'" class="work-note" :data-content-id="task.id+'-counting-boundary'" tabindex="0">本页研究一个包含多步动作的组合循环，用于验证完整证据链。它与组成的原子任务不能重复累计任务数量、工时或收益；单项动作仍须独立核对。</p>
   <section class="task-conclusion" :data-content-id="task.id+'-conclusion'" tabindex="0">
    <span class="tag">研究判断</span><p>{{task.summary}}</p>
    <p class="evidence-age">{{task.evidenceAge}}</p>

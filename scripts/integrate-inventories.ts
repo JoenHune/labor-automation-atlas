@@ -49,6 +49,7 @@ for(const name of ['cn-core','cn-services','us-core','us-services']) {
     const limitations=[...new Set<string>((t.sourceRefs??[]).flatMap((r:Raw)=>sourceLimitations(sourceMap.get(r.sourceId)??{})))]
     const acceptanceStatus=t.acceptanceBasis??s.acceptancePolicy??'验收为研究者提出的任务边界，现场 SOP、阈值与责任分工尚待确认。'
     data.tasks.push({
+     countingRole:'atomic-candidate',
      id:t.id.toLowerCase(),country,industryId:i.id,scenarioId:id,title:t.action??t.title,boundary:s.scope,
      inputs:list(t.inputs),outputs:list(t.outputs),acceptance:list(t.acceptance),phase:phases[t.phase],predecessors:[],conditions:[s.scope],
      workflowEvidence:refs((t.sourceRefs??[]).filter((r:Raw)=>workflowIds.has(r.sourceId))),occupationEvidence:refs((t.sourceRefs??[]).filter((r:Raw)=>occupation.has(r.sourceId))),

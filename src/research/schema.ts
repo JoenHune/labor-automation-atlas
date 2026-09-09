@@ -90,6 +90,7 @@ export const SearchSchema = z.object({
 })
 export const TaskSchema = z.object({
   id:ID, country:CountrySchema, industryId:ID, scenarioId:ID,
+  countingRole:z.enum(['atomic-candidate','composite-reference']).optional(),
   title:nonempty, boundary:nonempty, inputs:z.array(nonempty).min(1), outputs:z.array(nonempty).min(1),
   acceptance:z.array(nonempty).min(1),
   phase:z.enum(['preparation','operation','handoff','inspection','exception','rework','maintenance','delivery']),

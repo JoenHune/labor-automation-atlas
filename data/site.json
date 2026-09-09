@@ -17790,6 +17790,7 @@
       "country": "cn",
       "industryId": "cn-industry",
       "scenarioId": "cn-sample-scenario",
+      "countingRole": "composite-reference",
       "title": "注塑成型件从模具取出并交接至下道工序",
       "boundary": "生产工艺已完成冷却/开模，满足经验证的安全取件许可；工件仍在模具/顶出位置。 → 本次模腔内预期件数已全部取出，工件按批次与方向交接至指定托盘/工位，取件机构退出后向机台交还下一循环许可。",
       "inputs": [
@@ -19258,6 +19259,7 @@
       "country": "us",
       "industryId": "us-manufacturing",
       "scenarioId": "us-sample-scenario",
+      "countingRole": "composite-reference",
       "title": "CNC机床工件上下料：料盘至夹具，再交接成品",
       "boundary": "合格毛坯与作业版本已在指定料盘就绪；机床完成加工并给出允许装卸的安全状态。 → 已加工工件放至可追踪的输出位置，下一毛坯已正确定位夹紧，机构退出并交还运行许可；遇不确定状态则停止并交接。",
       "inputs": [
