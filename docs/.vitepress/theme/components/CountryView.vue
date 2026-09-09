@@ -7,6 +7,7 @@ import { GridComponent,TooltipComponent } from 'echarts/components'
 import { SVGRenderer } from 'echarts/renderers'
 import researchJson from '../../../../data/site.json'
 import { annualRanking } from '../../../../src/research/ranking'
+import {chartRecord,downloadChartData,downloadChartSvg} from '../../../../src/research/chart-export'
 import type { Country,Research } from '../../../../src/research/schema'
 import EvidenceList from './EvidenceList.vue'
 import ObservationDetails from './ObservationDetails.vue'
@@ -32,6 +33,20 @@ const focusIndustry=computed(()=>research.industries.find(i=>i.id===focus.value)
 const progress=computed(()=>research.observations.filter(o=>o.country===props.country&&(o.frequency==='month'||o.frequency==='year-to-date')))
 const latestIndustries=computed(()=>research.industries.filter(i=>i.country===props.country&&i.selected).map(industry=>({industry,value:obs(industry.id,profile.value.latestPeriod),growth:obs(industry.id,profile.value.latestPeriod,'real-growth')})))
 const trendPoints=computed(()=>[2021,2022,2023,2024,2025].map(y=>obs(focus.value,String(y))))
+const exportNotice=ref('')
+const chartId=(kind:'ranking'|'trend')=>props.country+'-'+kind+'-chart'
+function exportRecord(kind:'ranking'|'trend') {
+ return chartRecord(research,props.country,kind==='ranking'?`${profile.value.name} · ${year.value}年具名行业Top 10`:`${profile.value.name} · ${focusIndustry.value?.name} · 2021—2025`,kind==='ranking'?rank.value.top10.map(r=>r.observation):trendPoints.value)
+}
+function exportData(kind:'ranking'|'trend'){downloadChartData(exportRecord(kind),props.country+'-'+kind+'-'+(kind==='ranking'?year.value:focus.value))}
+function exportSvg(kind:'ranking'|'trend') {
+ const instance=kind==='ranking'?chart:trend;if(!instance)return
+ const record=exportRecord(kind);downloadChartSvg(instance,record.title,`${unit.value} · 现价 · 核查 ${research.checkedAt} · 口径与来源见配套数据`,props.country+'-'+kind+'-'+(kind==='ranking'?year.value:focus.value))
+}
+async function shareChart(kind:'ranking'|'trend') {
+ const url=new URL(location.href);url.hash=chartId(kind)
+ try{await navigator.clipboard.writeText(url.href);exportNotice.value='已复制图表链接，包含国家、年份和当前筛选。'}catch{history.replaceState(null,'',url);exportNotice.value='请复制地址栏中的图表链接。'}
+}
 function syncState() {
  if(typeof window==='undefined') return
  const q=new URLSearchParams(location.search);q.set('year',String(year.value));q.set('focus',focus.value);q.set('sort',sort.value)
@@ -100,12 +115,13 @@ onBeforeUnmount(()=>{chart?.dispose();trend?.dispose();resize?.disconnect();wind
   <p class="scope-note" :data-content-id="country+'-scope'" tabindex="0">{{profile.scope}} {{country==='cn'?'仅在最新官方发布的十个具名大类内排名；其他行业保留未拆分汇总。':'20 组非重叠行业构成排名范围；政府整体与私人行业分别列示。'}}</p>
   <div class="stats-row">
    <section :data-content-id="country+'-gdp-'+year" tabindex="0"><span>{{year}} 全年 GDP</span><strong>{{format(gdp?.value)}}</strong><span>{{unit}} · 现价</span><small>发布 {{gdp?.releaseDate??'年鉴未标具体日期'}}<br>{{gdp?.revision}}</small><ObservationDetails v-if="gdp" :observation="gdp"/></section>
-   <section :data-content-id="country+'-coverage-'+year" tabindex="0"><span>具名 Top 10 占 GDP</span><strong>{{coverage?.toFixed(2)}}<em>%</em></strong><span>计算：入榜行业现价之和 ÷ GDP</span><small>覆盖规模用于研究筛选，不能视为可自动化市场。</small></section>
+   <section :data-content-id="country+'-coverage-'+year" tabindex="0"><span>具名 Top 10 占 GDP</span><strong>{{coverage?.toFixed(2)}}<em>%</em></strong><span>计算：入榜行业现价之和 ÷ GDP</span><small>覆盖规模用于研究筛选，不能视为可自动化市场。</small><details class="observation-details"><summary>计算与来源</summary><p>{{year}}年，{{unit}}，现价。分子 {{rank.top10.map(r=>r.observation?.value??'缺失').join(' + ')}}；分母 {{gdp?.value}}；结果乘100并四舍五入到两位小数。</p><EvidenceList :items="[...new Map([...rank.top10.flatMap(r=>r.observation?.evidence??[]),...(gdp?.evidence??[])].map(r=>[r.sourceId+'|'+r.locator,r])).values()]"/></details></section>
    <section :data-content-id="country+'-latest-'+profile.latestPeriod" tabindex="0"><span>最新进展 · {{profile.latestPeriod}}</span><strong>{{format(latest?.value)}}</strong><span>{{unit}}{{latest?.annualized?' · 季调年率':' · 当期现价'}}</span><small>发布 {{profile.latestRelease}} · 实际增长 {{latestGrowth?.value??'—'}}%{{country==='us'?'（环比折年）':'（同比）'}}</small><ObservationDetails v-if="latest" :observation="latest"/><ObservationDetails v-if="latestGrowth" :observation="latestGrowth"/></section>
   </div>
-  <section :data-content-id="country+'-ranking-chart-'+year" tabindex="0" class="chart-section">
+  <section :id="chartId('ranking')" :data-content-id="country+'-ranking-chart-'+year" tabindex="0" class="chart-section">
    <div class="section-header"><h2>{{year}} 年行业规模</h2><span>现价增加值 · {{unit}}</span></div>
    <div ref="chartEl" :data-content-id="country+'-ranking-plot-'+year" tabindex="0" class="rank-chart" role="img" :aria-label="year+'年'+profile.name+'行业增加值，精确值见下表'"></div>
+   <div class="chart-actions"><button @click="shareChart('ranking')">分享规模图</button><button @click="exportSvg('ranking')">导出规模图 SVG</button><button @click="exportData('ranking')">导出规模数据与来源</button></div>
   </section>
   <section :data-content-id="country+'-ranking-table'" tabindex="0">
    <div class="section-header"><h2>行业榜单</h2><label>排序 <select v-model="sort" aria-label="表格排序"><option value="value">增加值</option><option value="name">名称</option></select></label></div>
@@ -117,9 +133,10 @@ onBeforeUnmount(()=>{chart?.dispose();trend?.dispose();resize?.disconnect();wind
    </tbody></table></div>
    <p class="scope-note">{{country==='cn'?'工业整体入榜，制造业为子项，不再同时排名。三次产业合计不参与行业榜。':'排名以官方行值计算；不同时列入父级汇总和子行业。'}}</p>
   </section>
-  <section :data-content-id="focus+'-trend'" tabindex="0" class="chart-section">
+  <section :id="chartId('trend')" :data-content-id="focus+'-trend'" tabindex="0" class="chart-section">
    <div class="section-header"><h2>{{focusIndustry?.name}} · 2021—2025</h2><label>趋势对象 <select v-model="focus" aria-label="趋势行业"><option :value="country+'-gdp'">GDP</option><option v-for="i in research.industries.filter(i=>i.country===country&&i.rankingUniverse)" :value="i.id">{{i.name}}</option></select></label></div>
    <div ref="trendEl" :data-content-id="focus+'-trend-plot'" tabindex="0" class="trend-chart" role="img" :aria-label="focusIndustry?.name+'近五年趋势'"></div>
+   <div class="chart-actions"><button @click="shareChart('trend')">分享趋势图</button><button @click="exportSvg('trend')">导出趋势图 SVG</button><button @click="exportData('trend')">导出趋势数据与来源</button></div>
    <div class="trend-values"><div v-for="(o,i) in trendPoints" :key="i" :data-content-id="focus+'-trend-value-'+(2021+i)" tabindex="0"><span>{{2021+i}} 年</span><strong>{{format(o?.value)}}</strong><small>{{unit}} · {{o?.releaseDate??'发布日期未注明'}}</small><ObservationDetails v-if="o" :observation="o"/></div></div>
    <p class="scope-note">{{country==='cn'?'2021—2023：2025版年鉴的修订后历史值；2024：最终核实；2025：初步核算。':'五年均采用2026-06-25版最新可获取修订序列。'}}</p>
   </section>
@@ -128,6 +145,10 @@ onBeforeUnmount(()=>{chart?.dispose();trend?.dispose();resize?.disconnect();wind
   <section v-if="progress.length" :data-content-id="country+'-monthly-progress'" tabindex="0"><h2>月度进度 · {{profile.monthlyPeriod}}</h2><p>发布 {{profile.monthlyRelease}}。这些增长指标反映进展，不用于年度规模排名。</p><ul class="progress-list"><li v-for="p in progress" :key="p.id" :data-content-id="p.id" tabindex="0">{{p.period}} · {{research.industries.find(i=>i.id===p.industryId)?.name}} · {{p.label}} <strong>{{p.value}}%</strong><ObservationDetails :observation="p"/></li></ul></section>
   <details class="method-details"><summary>统计范围、修订与当前缺口</summary><ul><li v-for="text in profile.caveats">{{text}}</li><li v-for="text in profile.gaps">{{text}}</li></ul><EvidenceList :items="profile.evidence"/></details>
   <CountryTaskSearch :country="country"/>
+  <p v-if="exportNotice" role="status">{{exportNotice}}</p>
   <p><a :href="withBase('/exports/research.json')" download>下载完整数据及来源</a> · <a :href="withBase('/methodology')">研究方法</a></p>
  </div>
 </template>
+<style scoped>
+.chart-actions{display:flex;flex-wrap:wrap;gap:14px;margin:8px 0 18px;font-size:12px;color:#245cb5}.chart-actions button{cursor:pointer;text-decoration:underline;text-underline-offset:3px}.chart-section{scroll-margin-top:112px}
+</style>

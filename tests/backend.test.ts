@@ -7,6 +7,7 @@ import type {Env} from '../worker/types'
 import {encrypt,randomToken,sha256,sign,unb64} from '../worker/security'
 import {privateKeyDer} from '../worker/github'
 import {validatePng} from '../worker/snapshots'
+import {cleanup} from '../worker/maintenance'
 import {safeMarkdown} from '../src/annotations/markdown'
 import type {GitHubIssue,GitHubComment,GitHubEvent} from '../worker/discussions'
 let sql:DatabaseSync,env:Env,siteToken:string,issues:GitHubIssue[],comments:GitHubComment[],events:GitHubEvent[],sequence:number,dropAfterCreate:boolean,postCount:number
@@ -29,7 +30,7 @@ async function fixture() {
  return {idempotencyKey:crypto.randomUUID(),body:'人工工时是否已测量？',anchor:{schema:1,id,country:'cn',page:'/cn/',researchVersion:'test-version',targets:[{contentId:'cn-gdp-2025',kind:'block',fingerprint:'a'.repeat(64),text:null,rect:{x:0,y:0,width:1,height:1},dataPoints:[]}],view:{year:2025,focus:'cn-gdp',sort:'value',filters:{}},selectedText:'',snapshotId,capturedAt:timestamp()}}
 }
 beforeEach(async()=>{
- sql=new DatabaseSync(':memory:');sql.exec(readFileSync(new URL('../worker/migrations/0001_initial.sql',import.meta.url),'utf8'));sql.exec(readFileSync(new URL('../worker/migrations/0002_tombstone.sql',import.meta.url),'utf8'))
+ sql=new DatabaseSync(':memory:');for(const name of ['0001_initial.sql','0002_tombstone.sql','0003_snapshot_recovery.sql'])sql.exec(readFileSync(new URL('../worker/migrations/'+name,import.meta.url),'utf8'))
  env={DB:fakeD1(sql),SNAPSHOTS:{} as R2Bucket,SITE_ORIGIN:'https://site.example.test',SITE_BASE_PATH:'/atlas/',API_ORIGIN:'https://api.example.test',GITHUB_OWNER:'owner',GITHUB_REPO:'atlas',GITHUB_REPOSITORY_ID:'91',GITHUB_INSTALLATION_ID:'73',GITHUB_APP_ID:'99',GITHUB_APP_PRIVATE_KEY:'',GITHUB_CLIENT_ID:'client',GITHUB_CLIENT_SECRET:'client-secret',TOKEN_ENCRYPTION_KEY:randomToken(),METADATA_SIGNING_KEY:randomToken(),GITHUB_WEBHOOK_SECRET:'webhook-secret'}
  siteToken=randomToken();const now=Math.floor(Date.now()/1000)
  sql.prepare('INSERT INTO sessions VALUES(?,?,?,?,?,?,?,?)').run(await sha256(siteToken),42,'reviewer',actor.avatar_url,await encrypt('user-access',env.TOKEN_ENCRYPTION_KEY),now,now+3600,now+3600)
@@ -150,4 +151,39 @@ it('快照拒绝伪装文件、校验损坏及尾部附加数据',()=>{
  expect(()=>validatePng(new TextEncoder().encode('<svg onload="alert(1)"/>'))).toThrow()
  const bad=png.slice();bad[16]=255;expect(()=>validatePng(bad)).toThrow()
  expect(()=>validatePng(new Uint8Array([...png,1,2,3]))).toThrow()
+})
+const snapshotPng=()=>Uint8Array.from(Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAADUlEQVQImWP4////fwAJ+wP9CNHoHgAAAABJRU5ErkJggg==','base64'))
+async function uploadSnapshot(id:string,country='cn',page='/cn/') {
+ return worker.fetch(new Request('https://api.example.test/snapshots',{method:'POST',headers:{Origin:env.SITE_ORIGIN,Authorization:'Bearer '+siteToken,'Content-Type':'image/png','X-Atlas-Snapshot-Id':id,'X-Atlas-Country':country,'X-Atlas-Page':encodeURIComponent(page)},body:snapshotPng()}),env)
+}
+it('快照存储失败保留可重试上传，未完成上传不能创建Issue',async()=>{
+ const input=await fixture();sql.prepare('DELETE FROM snapshots').run()
+ const put=vi.fn().mockRejectedValueOnce(new Error('storage unavailable')).mockResolvedValue({})
+ env.SNAPSHOTS={put} as unknown as R2Bucket
+ expect((await uploadSnapshot(input.anchor.snapshotId)).status).toBe(503)
+ expect((sql.prepare('SELECT upload_status FROM snapshots').get() as any).upload_status).toBe('pending')
+ expect((await request('/annotations',input)).status).toBe(400);expect(postCount).toBe(0)
+ expect((await uploadSnapshot(input.anchor.snapshotId)).status).toBe(201)
+ expect((sql.prepare('SELECT upload_status FROM snapshots').get() as any).upload_status).toBe('ready')
+ expect((await request('/annotations',input)).status).toBe(201)
+ expect((await uploadSnapshot(input.anchor.snapshotId)).status).toBe(200);expect(put).toHaveBeenCalledTimes(2)
+})
+it('并发争用同一快照编号时不同页面的请求不能覆盖获胜内容',async()=>{
+ const id=crypto.randomUUID(),put=vi.fn().mockResolvedValue({});env.SNAPSHOTS={put} as unknown as R2Bucket
+ const responses=await Promise.all([uploadSnapshot(id,'cn','/cn/'),uploadSnapshot(id,'us','/us/')])
+ expect(responses.map(r=>r.status).sort()).toEqual([201,409]);expect(put).toHaveBeenCalledTimes(1)
+ const row=sql.prepare('SELECT country,object_key FROM snapshots').get() as any
+ expect(put.mock.calls[0][0]).toBe(row.object_key);expect(row.object_key).toContain('/'+row.country+'/')
+})
+it('快照清理遇存储故障保留删除队列，不删除仍附着的快照',async()=>{
+ const input=await fixture();await request('/annotations',input)
+ const second=await fixture();sql.prepare('UPDATE snapshots SET expires_at=1').run()
+ const remove=vi.fn().mockRejectedValueOnce(new Error('storage unavailable')).mockResolvedValue(undefined)
+ env.SNAPSHOTS={delete:remove} as unknown as R2Bucket
+ await cleanup(env)
+ expect(sql.prepare('SELECT id FROM snapshots WHERE id=?').get(input.anchor.snapshotId)).toBeTruthy()
+ expect(sql.prepare('SELECT id FROM snapshots WHERE id=?').get(second.anchor.snapshotId)).toBeUndefined()
+ expect(sql.prepare('SELECT * FROM snapshot_gc').all()).toHaveLength(1)
+ await cleanup(env);expect(sql.prepare('SELECT * FROM snapshot_gc').all()).toHaveLength(0)
+ expect(remove).toHaveBeenCalledTimes(2)
 })

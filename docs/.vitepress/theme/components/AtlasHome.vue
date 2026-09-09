@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { withBase } from 'vitepress'
 import research from '../../../../data/site.json'
+import type {Observation} from '../../../../src/research/schema'
+import ObservationDetails from './ObservationDetails.vue'
 const labels={cn:'中国',us:'美国'}
 const latest=(country:string)=>research.observations.find(o=>o.industryId===country+'-gdp'&&o.period==='2025'&&o.measure==='value-added')
 const fmt=(n:number|null|undefined)=>n==null?'—':n.toLocaleString('zh-CN')
@@ -16,6 +18,8 @@ const fmt=(n:number|null|undefined)=>n==null?'—':n.toLocaleString('zh-CN')
     <h2>{{labels[p.country as 'cn'|'us']}}</h2>
     <p class="metric">{{fmt(latest(p.country)?.value)}}<span>{{latest(p.country)?.unit}}</span></p>
     <p>2025 全年 GDP · 现价</p>
+    <p class="scope-note">全年值发布 {{latest(p.country)?.releaseDate}} · {{latest(p.country)?.revision}}</p>
+    <ObservationDetails v-if="latest(p.country)" :observation="latest(p.country) as Observation"/>
     <dl><dt>行业最新一期</dt><dd>{{p.latestPeriod}}</dd><dt>发布日期</dt><dd>{{p.latestRelease}}</dd><dt>研究范围</dt><dd>{{p.country==='cn'?'10 个具名大类':'Top 10 ＋农林渔猎业'}}</dd></dl>
     <a class="entry-link" :href="withBase('/'+p.country+'/')">进入{{labels[p.country as 'cn'|'us']}}全景 <span aria-hidden="true">→</span></a>
    </section>
@@ -24,4 +28,3 @@ const fmt=(n:number|null|undefined)=>n==null?'—':n.toLocaleString('zh-CN')
   <a :href="withBase('/exports/research.json')" download>下载当前完整研究数据（JSON）</a>
  </div>
 </template>
-

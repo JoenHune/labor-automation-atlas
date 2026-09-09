@@ -18,7 +18,7 @@ export default {
    if(path==='/health') {
     const configured=Boolean(env.DB&&env.SNAPSHOTS&&env.SITE_ORIGIN&&env.API_ORIGIN&&env.GITHUB_REPOSITORY_ID&&env.GITHUB_CLIENT_ID&&env.GITHUB_CLIENT_SECRET&&env.GITHUB_APP_ID&&env.GITHUB_INSTALLATION_ID&&env.TOKEN_ENCRYPTION_KEY&&env.GITHUB_APP_PRIVATE_KEY&&env.METADATA_SIGNING_KEY&&env.GITHUB_WEBHOOK_SECRET)
     let databaseReady=false
-    if(env.DB)try{databaseReady=Boolean(await env.DB.prepare('SELECT COUNT(*) AS count FROM d1_migrations').first())}catch{}
+    if(env.DB)try{databaseReady=(await env.DB.prepare("SELECT COUNT(*) AS count FROM d1_migrations WHERE name IN ('0001_initial.sql','0002_tombstone.sql','0003_snapshot_recovery.sql')").first<{count:number}>())?.count===3}catch{}
     return json({service:'labor-automation-atlas',stage:configured&&databaseReady?'ready-for-integration':'integration-pending',configured,databaseReady,annotationsReady:configured&&databaseReady},200,cors)
    }
    if(request.method!=='GET'&&request.method!=='OPTIONS'&&path!=='/webhook'&&!origin)throw new HttpError(403,'origin','写入请求需要本站来源')

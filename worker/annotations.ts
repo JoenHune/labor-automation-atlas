@@ -46,7 +46,7 @@ export async function annotationRoute(request:Request,env:Env):Promise<Response|
  if(path==='/annotations'&&request.method==='POST') {
   const user=await authenticate(request,env),input=CreateAnnotationSchema.parse(await readJson(request))
   if(!input.anchor.snapshotId)throw new HttpError(400,'snapshot-required','请先保存选区快照；失败时可保留草稿重试')
-  const snapshot=await env.DB.prepare('UPDATE snapshots SET expires_at=CASE WHEN annotation_id IS NULL THEN ? ELSE NULL END WHERE id=? AND user_id=? AND country=? AND page=? AND (annotation_id IS NULL OR annotation_id=?) RETURNING id')
+  const snapshot=await env.DB.prepare("UPDATE snapshots SET expires_at=CASE WHEN annotation_id IS NULL THEN ? ELSE NULL END WHERE id=? AND user_id=? AND country=? AND page=? AND upload_status='ready' AND (annotation_id IS NULL OR annotation_id=?) RETURNING id")
    .bind(now()+3600,input.anchor.snapshotId,user.user_id,input.anchor.country,input.anchor.page,input.anchor.id).first()
   if(!snapshot)throw new HttpError(400,'snapshot-scope','选区快照不属于当前用户和页面')
   const token=await userToken(user,env)

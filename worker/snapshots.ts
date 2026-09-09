@@ -39,22 +39,29 @@ export async function snapshotRoute(request:Request,env:Env):Promise<Response|nu
   if(country!==pageScope||!/^\/(?:cn\/|us\/|methodology(?:\/|$)|$)/.test(page)||page.length>500||page.includes('..')||/[?#]/.test(page))throw new HttpError(400,'snapshot-scope','快照页面与国家不符')
   if(request.headers.get('Content-Type')!=='image/png')throw new HttpError(415,'snapshot-type','快照只接受PNG图片')
   const bytes=await readLimitedBody(request,maxBytes),{width,height}=validatePng(bytes),hash=await sha256(bytes)
-  const existing=await env.DB.prepare('SELECT user_id,sha256,country,page FROM snapshots WHERE id=?').bind(id).first<{user_id:number;sha256:string;country:string;page:string}>()
+  const existing=await env.DB.prepare('SELECT user_id,sha256,country,page,upload_status FROM snapshots WHERE id=?').bind(id).first<{user_id:number;sha256:string;country:string;page:string;upload_status:string}>()
   if(existing) {
    if(existing.user_id!==user.user_id||existing.sha256!==hash||existing.country!==country||existing.page!==page)throw new HttpError(409,'snapshot-conflict','同一快照编号对应不同内容')
-   return json({id,width,height})
+   if(existing.upload_status==='ready')return json({id,width,height})
   }
   const usage=await env.DB.prepare('SELECT COUNT(*) AS count FROM snapshots WHERE user_id=? AND created_at>?').bind(user.user_id,now()-3600).first<{count:number}>()
-  if((usage?.count??0)>=60)throw new HttpError(429,'snapshot-limit','快照上传过于频繁；草稿已保留，请稍后重试')
-  const objectKey='regions/'+country+'/'+id+'.png'
-  await env.SNAPSHOTS.put(objectKey,bytes,{httpMetadata:{contentType:'image/png'},customMetadata:{sha256:hash}})
-  await env.DB.prepare('INSERT INTO snapshots(id,user_id,country,page,object_key,sha256,bytes,width,height,created_at,expires_at) VALUES(?,?,?,?,?,?,?,?,?,?,?)')
+  if(!existing&&(usage?.count??0)>=60)throw new HttpError(429,'snapshot-limit','快照上传过于频繁；草稿已保留，请稍后重试')
+  const objectKey='regions/'+country+'/'+id+'/'+crypto.randomUUID()+'.png'
+  // Reserve identity before touching R2. Concurrent requests with a different
+  // owner or payload must never overwrite the winning snapshot object.
+  await env.DB.prepare("INSERT OR IGNORE INTO snapshots(id,user_id,country,page,object_key,sha256,bytes,width,height,created_at,expires_at,upload_status) VALUES(?,?,?,?,?,?,?,?,?,?,?,'pending')")
    .bind(id,user.user_id,country,page,objectKey,hash,bytes.length,width,height,now(),now()+86400).run()
+  const reserved=await env.DB.prepare('SELECT user_id,sha256,country,page,object_key FROM snapshots WHERE id=?').bind(id).first<{user_id:number;sha256:string;country:string;page:string;object_key:string}>()
+  if(!reserved||reserved.user_id!==user.user_id||reserved.sha256!==hash||reserved.country!==country||reserved.page!==page)throw new HttpError(409,'snapshot-conflict','同一快照编号对应不同内容')
+  const leased=await env.DB.prepare('UPDATE snapshots SET expires_at=CASE WHEN annotation_id IS NULL THEN ? ELSE NULL END WHERE id=? AND user_id=? AND sha256=? AND object_key=? RETURNING object_key').bind(now()+86400,id,user.user_id,hash,reserved.object_key).first<{object_key:string}>()
+  if(!leased)throw new HttpError(409,'snapshot-expired','此前的快照上传已过期，请重试；草稿已保留')
+  await env.SNAPSHOTS.put(leased.object_key,bytes,{httpMetadata:{contentType:'image/png'},customMetadata:{sha256:hash}})
+  await env.DB.prepare("UPDATE snapshots SET upload_status='ready' WHERE id=? AND object_key=?").bind(id,leased.object_key).run()
   return json({id,width,height},201)
  }
  const match=path.match(/^\/snapshots\/([a-f0-9-]{36})$/)
  if(match&&request.method==='GET') {
-  const row=await env.DB.prepare('SELECT * FROM snapshots WHERE id=?').bind(match[1]).first<{object_key:string;user_id:number;annotation_id:string|null}>()
+  const row=await env.DB.prepare("SELECT * FROM snapshots WHERE id=? AND upload_status='ready'").bind(match[1]).first<{object_key:string;user_id:number;annotation_id:string|null}>()
   if(!row)throw new HttpError(404,'snapshot-not-found','选区快照不存在')
   if(!row.annotation_id&&(await authenticate(request,env)).user_id!==row.user_id)throw new HttpError(403,'snapshot-permission','无权读取未发布的快照')
   const object=await env.SNAPSHOTS.get(row.object_key)

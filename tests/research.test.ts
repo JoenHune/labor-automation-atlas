@@ -3,6 +3,7 @@ import { annualRanking } from '../src/research/ranking'
 import { incrementalCashFlow, type CashFlowInput } from '../src/research/cashflow'
 import { validateResearch } from '../src/research/validate'
 import type { Industry, Observation, Research } from '../src/research/schema'
+import {chartRecord} from '../src/research/chart-export'
 
 function industry(id:string,patch:Partial<Industry>={}):Industry {
   return {id,country:'cn',code:id,name:id,classification:'test',sectors:['secondary'],parentId:null,rankingUniverse:true,unallocated:false,selected:true,selectionReason:'top10',coverage:'test',evidence:[{sourceId:'s',locator:'table row'}],...patch}
@@ -11,6 +12,15 @@ function observation(id:string,value:number,patch:Partial<Observation>={}):Obser
   return {id:'o-'+id,country:'cn',industryId:id,period:'2025',frequency:'annual',measure:'value-added',priceBasis:'current',value,unit:'亿元',currency:'CNY',annualized:false,seasonalAdjustment:'not-applicable',releaseDate:'2026-01-20',revision:'初步',coverage:'test',evidence:[{sourceId:'s',locator:'table row'}],evidenceKind:'fact',...patch}
 }
 describe('官方榜单比较规则',()=>{
+  it('图表导出保留原始修订、定位和缺值，拒绝跨国数据',()=>{
+    const point=observation('a',10),missing={...observation('a',0),id:'missing',period:'2024',value:null,missingReason:'来源未发布'}
+    const source={id:'s',title:'官方表',url:'https://example.test/table',publisher:'test',published:'2026-01-20',retrieved:'2026-09-09',country:'cn',kind:'official-statistics',limitations:[]} as const
+    const data={version:'v1',checkedAt:'2026-09-09',countries:[],industries:[industry('a')],sources:[source]} as unknown as Research
+    const result=chartRecord(data,'cn','趋势',[point,missing])
+    expect(result.observations).toEqual([point,missing]);expect(result.sources).toEqual([source])
+    expect(result.observations[0].evidence[0].locator).toBe('table row')
+    expect(()=>chartRecord(data,'cn','错误混合',[point,observation('u',4,{country:'us'})])).toThrow('其他国家')
+  })
   it('父子行业不能同榜',()=>expect(()=>annualRanking('cn',2025,[industry('industrial'),industry('manufacturing',{parentId:'industrial'})],[])).toThrow('父子'))
   it('季度年化、实际增长与其他国家值不进入年度榜',()=>{
     const rows=annualRanking('cn',2025,[industry('a'),industry('b')],[

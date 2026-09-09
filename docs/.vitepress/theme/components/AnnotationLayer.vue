@@ -70,6 +70,19 @@ function selectionBounds(rects:Rect[]):Rect {
  const x=Math.min(...rects.map(r=>r.x)),y=Math.min(...rects.map(r=>r.y))
  return {x,y,width:Math.max(...rects.map(r=>r.x+r.width))-x,height:Math.max(...rects.map(r=>r.y+r.height))-y}
 }
+async function waitForView() {
+ await nextTick()
+ await new Promise<void>(resolve=>requestAnimationFrame(()=>resolve()))
+ const root=contentRoot()
+ if(root.querySelector('[aria-busy="true"]'))await new Promise<void>((resolve,reject)=>{
+  const observer=new MutationObserver(check),timer=window.setTimeout(()=>finish(new Error('页面筛选仍在加载，草稿与原快照已保留，请稍后重试')),15000)
+  function finish(error?:Error){observer.disconnect();clearTimeout(timer);error?reject(error):resolve()}
+  function check(){if(!root.querySelector('[aria-busy="true"]'))finish()}
+  observer.observe(root,{subtree:true,attributes:true,childList:true});check()
+ })
+ if(root.querySelector('[data-view-error="true"]'))throw new Error('原页面筛选暂时无法恢复，草稿与原快照已保留，请加载任务目录后重试')
+ await nextTick();await ensureContentIds()
+}
 function schedulePositions(){clearTimeout(repositionTimer);repositionTimer=window.setTimeout(()=>refreshPositions().catch(()=>{}),80)}
 async function loadPage() {
  const token=++loadingGeneration
@@ -174,8 +187,9 @@ async function openAnnotation(id:string,scroll=false) {
   if(a.country!==scope.value.country||a.page!==scope.value.page){await router.go(shareUrl(a,site.value.base));return}
   const view=currentView()
   if(a.anchor.view.year!==view.year||a.anchor.view.focus!==view.focus||a.anchor.view.sort!==view.sort||JSON.stringify(a.anchor.view.filters)!==JSON.stringify(view.filters)) {
-   history.replaceState(null,'',shareUrl(a,site.value.base));window.dispatchEvent(new PopStateEvent('popstate'));await nextTick()
+   history.replaceState(null,'',shareUrl(a,site.value.base));window.dispatchEvent(new PopStateEvent('popstate'))
   }
+  await waitForView()
   active.value=a;warning.value=response.warning??''
   annotations.value=[...annotations.value.filter(x=>x.id!==a.id),a]
   markersVisible.value=true;filter.value='all'
@@ -210,15 +224,25 @@ async function restoreDraft(saved:Draft) {
  if(saved.annotationId)await openAnnotation(saved.annotationId)
  draft.value=saved
  if(saved.anchor) {
+  busy.value=true
+  try {
   const url=new URL(location.href),v=saved.anchor.view
   if(v.year!==null)url.searchParams.set('year',String(v.year));else url.searchParams.delete('year')
   for(const key of ['focus','sort'] as const){if(v[key])url.searchParams.set(key,v[key]);else url.searchParams.delete(key)}
   for(const key of Array.from(url.searchParams.keys()))if(key.startsWith('filter.'))url.searchParams.delete(key)
   for(const [key,value] of Object.entries(v.filters))url.searchParams.set('filter.'+key,value)
-  history.replaceState(null,'',url);window.dispatchEvent(new PopStateEvent('popstate'));await nextTick()
+  history.replaceState(null,'',url);window.dispatchEvent(new PopStateEvent('popstate'));await waitForView()
   const result=await resolveAnchor(saved.anchor,scope.value)
   rect.value=result.rects.length?selectionBounds(result.rects):null
   if(result.status==='changed')warning.value='草稿原内容已变更；保留原快照，可提交关于原内容的批注'
+  else if(result.status==='resolved') {
+   warning.value=''
+   if(result.rects[0])window.scrollBy({top:result.rects[0].y-140,behavior:'instant'})
+   const positioned=await resolveAnchor(saved.anchor,scope.value)
+   rect.value=positioned.rects.length?selectionBounds(positioned.rects):null
+  }
+  }catch(e){error.value=(e as Error).message;rect.value=null}
+  finally{busy.value=false}
  }
  draftSaved.value=true;await nextTick();textarea.value?.focus()
 }
