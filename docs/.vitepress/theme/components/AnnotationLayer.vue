@@ -7,12 +7,13 @@ import {clusterMarkers,intersect} from '../../../../src/annotations/anchors'
 import {contentRoot,currentView,pageScope,ensureContentIds,liveBlocks,createAnchor,resolveAnchor,restoreAnchorDisclosures,snapshotRegion,rectOf} from '../../../../src/annotations/dom'
 import {readDisclosureBlocks} from '../../../../src/annotations/disclosures'
 import {observeContentChanges} from '../../../../src/annotations/content-observer'
+import {captureDraftSelection} from '../../../../src/annotations/draft-capture'
 import {api,post,apiOrigin,ApiError,storedSession,beginLogin,finishLogin,shareUrl,saveDraft,draftsForPage,deleteDraft,type Draft,type SiteSession} from '../../../../src/annotations/client'
 import {safeMarkdown} from '../../../../src/annotations/markdown'
 const {site}=useData(),route=useRoute(),router=useRouter()
 const ready=ref(false),mode=ref(false),markersVisible=ref(true),filter=ref<'open'|'closed'|'mine'|'all'>('open')
 const session=shallowRef<SiteSession|null>(null),annotations=shallowRef<Annotation[]>([]),draft=shallowRef<Draft|null>(null),savedDrafts=shallowRef<Draft[]>([])
-const active=shallowRef<Annotation|null>(null),rect=ref<Rect|null>(null),textPopup=ref<Rect|null>(null),error=ref(''),warning=ref(''),notice=ref(''),busy=ref(false),draftSaved=ref(false)
+const active=shallowRef<Annotation|null>(null),rect=ref<Rect|null>(null),textPopup=ref<Rect|null>(null),error=ref(''),warning=ref(''),notice=ref(''),busy=ref(false),submitting=ref(false),draftSaved=ref(false)
 type Position=Awaited<ReturnType<typeof resolveAnchor>>
 const resolved=shallowRef<Record<string,Position>>({}),groupChoices=ref<string[]>([])
 const draftPosition=shallowRef<{id:string;status:Position['status']}|null>(null)
@@ -21,7 +22,7 @@ const textarea=ref<HTMLTextAreaElement>(),card=ref<HTMLElement>(),viewportWidth=
 const draftSnapshotUrl=ref('')
 watch(()=>draft.value?.snapshot,blob=>{if(draftSnapshotUrl.value)URL.revokeObjectURL(draftSnapshotUrl.value);draftSnapshotUrl.value=blob?URL.createObjectURL(blob):''})
 let range:Range|null=null,observer:MutationObserver|undefined,resizeObserver:ResizeObserver|undefined,poll:number|undefined,debounce:number|undefined,repositionTimer:number|undefined
-let drag:{startX:number;startY:number;original:Rect|null;edge:string}|null=null,generation=0,loadingGeneration=0
+let drag:{startX:number;startY:number;original:Rect|null;edge:string}|null=null,generation=0,loadingGeneration=0,captureGeneration=0,captureActive=false
 const scope=computed(()=>{route.path;return ready.value?pageScope(site.value.base):{country:'shared' as const,page:'/'}})
 const filtered=computed(()=>annotations.value.filter(a=>filter.value==='all'||filter.value===a.state||filter.value==='mine'&&session.value&&(a.author===session.value.user.login||a.comments.some(c=>c.author===session.value!.user.login))))
 const groups=computed(()=>clusterMarkers(filtered.value.flatMap(a=>{
@@ -56,11 +57,11 @@ async function persist() {
  catch{draftSaved.value=false;throw new Error('浏览器未能保存草稿，请复制正文后重试或保持本页打开')}
 }
 function changeBody(event:Event) {
- if(!draft.value||draft.value.submitted)return
+ if(!draft.value||draft.value.submitted||submitting.value)return
  draft.value={...draft.value,body:(event.target as HTMLTextAreaElement).value};draftSaved.value=false
  clearTimeout(debounce);debounce=window.setTimeout(()=>persist().catch(e=>error.value=e.message),200)
 }
-function updateDraft(field:'reason'|'state',value:any){if(draft.value&&!draft.value.submitted){draft.value={...draft.value,[field]:value};persist().catch(e=>error.value=e.message)}}
+function updateDraft(field:'reason'|'state',value:any){if(draft.value&&!draft.value.submitted&&!submitting.value){draft.value={...draft.value,[field]:value};persist().catch(e=>error.value=e.message)}}
 function newDraft(kind:Draft['kind'],annotationId:string|null=null,parentCommentId:number|null=null):Draft {
  return {id:crypto.randomUUID(),...scope.value,kind,body:'',updatedAt:new Date().toISOString(),anchor:null,snapshot:null,annotationId,parentCommentId,state:'closed',reason:null,submitted:false}
 }
@@ -96,6 +97,7 @@ function schedulePositions(){clearTimeout(repositionTimer);repositionTimer=windo
 function disclosureToggled(event:Event){if(event.target instanceof HTMLDetailsElement&&!event.target.closest('[data-annotation-ui]'))schedulePositions()}
 async function loadPage() {
  const token=++loadingGeneration
+ ++captureGeneration;if(captureActive){captureActive=false;busy.value=false}
  active.value=null;rect.value=null;draft.value=null;mode.value=false;groupChoices.value=[];range=null;textPopup.value=null;annotations.value=[];resolved.value={};warning.value='';error.value=''
  await nextTick();await ensureContentIds()
  savedDrafts.value=await draftsForPage(scope.value.page,scope.value.country).catch(()=>[])
@@ -129,19 +131,24 @@ function selectionChanged() {
  range=candidate.cloneRange();textPopup.value=rectOf(range.getBoundingClientRect())
 }
 async function captureArea(selection:Rect,selectedRange:Range|null=null,existing:Draft|null=null) {
+ if(busy.value)return
  if(draft.value&&draft.value!==existing)try{await persist()}catch(e){error.value=(e as Error).message;return}
+ const token=++captureGeneration;captureActive=true
  busy.value=true;error.value='';mode.value=false;active.value=null;groupChoices.value=[];textPopup.value=null
- const next=existing??newDraft('new');draft.value=next;rect.value=selection
+ const next=existing??newDraft('new');draft.value={...next,anchor:null,snapshot:null};draftSaved.value=false;rect.value=selection
  try {
-  const anchor=await createAnchor(selection,scope.value,research.version,selectedRange)
-  if(next.anchor)anchor.id=next.anchor.id
-  const masks=selectedRange?Array.from(selectedRange.getClientRects()).map(rectOf):[]
-  const snapshot=await snapshotRegion(selection,masks)
-  draft.value={...next,anchor,snapshot}
-  draftPosition.value={id:anchor.id,status:'resolved'}
+  const captured=await captureDraftSelection(next,()=>draft.value,async()=>{
+   const anchor=await createAnchor(selection,scope.value,research.version,selectedRange)
+   if(next.anchor)anchor.id=next.anchor.id
+   const masks=selectedRange?Array.from(selectedRange.getClientRects()).map(rectOf):[]
+   return {anchor,snapshot:await snapshotRegion(selection,masks)}
+  })
+  if(token!==captureGeneration||!captured)return
+  draft.value=captured
+  draftPosition.value={id:captured.anchor!.id,status:'resolved'}
   await persist();await nextTick();textarea.value?.focus()
- }catch(e){error.value=e instanceof Error?e.message:'选区保存失败；可调整范围重试'}
- finally{busy.value=false;window.getSelection()?.removeAllRanges();range=null}
+ }catch(e){if(token===captureGeneration)error.value=e instanceof Error?e.message:'选区保存失败；可调整范围重试'}
+ finally{if(token===captureGeneration){captureActive=false;busy.value=false;window.getSelection()?.removeAllRanges();range=null}}
 }
 async function captureText(){if(range&&textPopup.value)await captureArea(textPopup.value,range.cloneRange())}
 async function toggleMode() {
@@ -268,7 +275,7 @@ async function submit() {
  if(!d.body.trim()&&!(d.kind==='state'&&d.state==='open')){error.value='请先填写评论或处理说明';return}
  if(d.kind==='state'&&d.state==='closed'&&!d.reason){error.value='关闭前请选择原因并填写说明';return}
  if(d.kind==='new'&&(!d.anchor||!d.snapshot)){error.value='选区快照未完成，请调整选区重试';return}
- busy.value=true;error.value=''
+ busy.value=true;submitting.value=true;error.value=''
  try {
   await persist()
   session.value=storedSession()
@@ -287,10 +294,10 @@ async function submit() {
    if(e.status===401)session.value=null
    if([400,403,404,410,413,415,422,429].includes(e.status)&&draft.value){const old=draft.value.id;draft.value={...draft.value,id:crypto.randomUUID(),submitted:false};await persist().then(()=>deleteDraft(old)).catch(()=>{})}
   }
- }finally{busy.value=false}
+ }finally{busy.value=false;submitting.value=false}
 }
 async function copyShare(){if(active.value)try{await navigator.clipboard.writeText(shareUrl(active.value,site.value.base));notice.value='批注链接已复制'}catch{notice.value='请复制地址栏中的批注链接'}}
-function changeToRoot(){if(draft.value&&!draft.value.submitted){draft.value={...draft.value,parentCommentId:null};persist().catch(e=>error.value=e.message)}}
+function changeToRoot(){if(draft.value&&!draft.value.submitted&&!submitting.value){draft.value={...draft.value,parentCommentId:null};persist().catch(e=>error.value=e.message)}}
 async function exportDraft(){
  const captured=draft.value;if(!captured)return
  const snapshotDataUrl=captured.snapshot?await new Promise<string>((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(String(reader.result));reader.onerror=()=>reject(reader.error);reader.readAsDataURL(captured.snapshot!)}):null
@@ -316,6 +323,7 @@ onMounted(async()=>{
  poll=window.setInterval(()=>{if(!document.hidden&&!busy.value)reload()},60000)
 })
 onBeforeUnmount(()=>{
+ ++captureGeneration
  if(router.onBeforeRouteChange===routeGuard)router.onBeforeRouteChange=undefined
  document.removeEventListener('mouseup',selectionChanged);document.removeEventListener('keyup',selectionChanged);document.removeEventListener('keydown',keyboard)
  document.removeEventListener('toggle',disclosureToggled,true)
@@ -365,12 +373,13 @@ onBeforeUnmount(()=>{
    </template>
    <form v-if="draft" class="annotation-compose" @submit.prevent="submit">
     <p v-if="draft.kind==='new'" class="annotation-timestamp">首条评论提交后自动生成议题标题。评论公开，并显示你的 GitHub 身份。</p>
+    <p v-if="busy&&draft.kind==='new'&&!draft.anchor" class="annotation-timestamp" role="status">选区快照正在生成，可以继续填写评论。</p>
     <p v-if="currentDraftPosition==='changed'" class="annotation-alert" role="status">草稿原内容已变更；保留原快照，可提交关于原内容的批注。</p>
     <p v-if="currentDraftPosition==='hidden'" class="annotation-timestamp" role="status">选区内容当前折叠或隐藏，未判定为原文变更。<button type="button" :disabled="busy" @click="restoreDraft(draft)">展开并定位</button></p>
     <details v-if="draftSnapshotUrl"><summary>查看本次选区快照</summary><img :src="draftSnapshotUrl" class="annotation-snapshot" alt="仅包含当前选区的快照预览"/></details>
-    <p v-if="draft.kind==='reply'" class="annotation-parent">{{draft.parentCommentId===null?'回复首评':'回复 @'+(findComment(draft.parentCommentId)?.author??'原评论')+' · #'+draft.parentCommentId}} <button v-if="draft.parentCommentId!==null&&!draft.submitted" type="button" @click="changeToRoot">改为回复首评</button></p>
-    <label v-if="draft.kind==='state'&&draft.state==='closed'">关闭原因 <select :value="draft.reason??''" :disabled="draft.submitted" @change="updateDraft('reason',($event.target as HTMLSelectElement).value)"><option value="" disabled>请选择</option><option value="resolved">已解决</option><option value="duplicate">重复议题</option><option value="outdated">内容已更新</option><option value="not-planned">暂不处理</option></select></label>
-    <label>{{draft.kind==='state'?'处理说明':'评论正文'}}<textarea ref="textarea" :value="draft.body" :readonly="draft.submitted" :maxlength="draft.kind==='state'?4000:16000" rows="5" :placeholder="draft.kind==='state'?'说明关闭或重开的依据':'说明选区中的问题、证据或待验证条件…'" @input="changeBody"></textarea></label>
+    <p v-if="draft.kind==='reply'" class="annotation-parent">{{draft.parentCommentId===null?'回复首评':'回复 @'+(findComment(draft.parentCommentId)?.author??'原评论')+' · #'+draft.parentCommentId}} <button v-if="draft.parentCommentId!==null&&!draft.submitted" :disabled="submitting" type="button" @click="changeToRoot">改为回复首评</button></p>
+    <label v-if="draft.kind==='state'&&draft.state==='closed'">关闭原因 <select :value="draft.reason??''" :disabled="draft.submitted||submitting" @change="updateDraft('reason',($event.target as HTMLSelectElement).value)"><option value="" disabled>请选择</option><option value="resolved">已解决</option><option value="duplicate">重复议题</option><option value="outdated">内容已更新</option><option value="not-planned">暂不处理</option></select></label>
+    <label>{{draft.kind==='state'?'处理说明':'评论正文'}}<textarea ref="textarea" :value="draft.body" :readonly="draft.submitted||submitting" :maxlength="draft.kind==='state'?4000:16000" rows="5" :placeholder="draft.kind==='state'?'说明关闭或重开的依据':'说明选区中的问题、证据或待验证条件…'" @input="changeBody"></textarea></label>
     <p v-if="draft.submitted" class="annotation-alert">此草稿已发起提交。核验期间保持正文与提交编号不变；重试不会另发一条。</p>
     <p class="annotation-timestamp">{{draftSaved?'草稿已保存在此浏览器':'草稿尚未保存'}} <button type="button" @click="exportDraft">导出草稿</button></p>
     <button class="annotation-primary" type="submit" :disabled="busy">{{busy?'处理中…':draft.submitted?'核验并重试':!session?'登录 GitHub 并提交':draft.kind==='state'?draft.state==='closed'?'确认关闭':'确认重开':'提交评论'}}</button>

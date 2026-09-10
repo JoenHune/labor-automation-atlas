@@ -1,0 +1,46 @@
+{
+  "checkedAtUTC": "2026-09-10T03:30:24Z",
+  "researchVersion": "2026-09-10.preview-13",
+  "scope": "Draft text preservation during asynchronous selection capture; publication receipt follows separately",
+  "publicReproduction": {
+    "codeCommit": "b005d6713c6e8465bc8672637ec0513c6bfef8e8",
+    "page": "https://joen.site/labor-automation-atlas/cn/tasks/cn-trans-bulk-berth-006",
+    "viewport": {"width": 390, "height": 844},
+    "action": "Resize the selected area and type immediately while the new snapshot is being generated",
+    "observed": "The typed body became empty after capture finished; DOM value and screenshot agreed",
+    "cause": "The asynchronous capture completion replaced the edited draft with its earlier body",
+    "afterRetypingAndReload": {"bodyPreserved": true, "cashFlowDisclosureOpen": true, "snapshot": {"width": 311, "height": 255}, "handles": 4, "pageWidth": 390}
+  },
+  "changes": [
+    "Merge the new anchor and snapshot into the latest draft after capture completes",
+    "Discard results for a different draft, page, country, reply, submitted payload or invalidated page generation",
+    "Clear the previous selection when recapturing, so a failed capture cannot submit an old snapshot under a new rectangle",
+    "Keep comment input editable during snapshot capture; freeze the submitted payload from the start of submission and unlock after a pre-submission failure",
+    "Explain in the editor that the snapshot is being generated and typing may continue"
+  ],
+  "localValidation": {
+    "typecheck": "passed",
+    "tests": {"files": 31, "passed": 516, "durationSeconds": 93.61},
+    "newDeferredCaptureTests": 10,
+    "browser": {
+      "viewport": {"width": 390, "height": 844},
+      "newSelection": {"typedWhileCaptureInProgress": true, "inputReadOnly": false, "bodyRetainedAfterCompletion": true},
+      "resizedSelection": {"appendedWhileCaptureInProgress": true, "bodyRetainedAfterCompletion": true},
+      "reload": {"fullAppendedBodyRetained": true, "snapshot": {"width": 278, "height": 158}, "handles": 4, "alerts": [], "pageWidth": 390, "sheetWidth": 390, "sheetBottom": 844},
+      "unconfiguredLogin": {"message": "登录服务尚未配置", "bodyRetained": true, "inputEditableAfterFailure": true},
+      "normalViewportRestored": {"width": 951, "height": 908, "scrollWidth": 951, "dialogOpen": false, "heading": "中国 · 行业全景"}
+    }
+  },
+  "disclosureFollowUp": {"mobileFinalDisclosuresPassed": 39, "mobileExistingDomPassed": 48, "combined": 87, "qualification": "After reconnecting, reran the existing cached local QA page through its visible buttons. The QA file remains deleted and is not published."},
+  "releaseDirectoryRecheck": [
+    {"url": "https://www.bea.gov/data/gdp/gdp-industry", "locator": "Current release / Next release", "finding": "Q1 2026 industry detail remains June 25; next September 30"},
+    {"url": "https://www.stats.gov.cn/sj/zxfb/", "locator": "September 9 price entries; August 17 July industrial value-added entry", "finding": "No newer industry value-added release in the reviewed directory"}
+  ],
+  "limitations": [
+    "Directory checks do not establish a fresh fetch of every historical observation; the research dataset is unchanged",
+    "The interrupted-capture and failure scenarios in unit tests use deferred promises, not an R2 service failure",
+    "The unconfigured-login test does not establish expired-authorization, real GitHub author identity, permissions or two-way synchronization",
+    "No GitHub comment was posted; the full research and service acceptance remain incomplete",
+    "The full fuel-industry author revision remains pending; this turn prioritized the browser-reproduced data-loss bug"
+  ]
+}
