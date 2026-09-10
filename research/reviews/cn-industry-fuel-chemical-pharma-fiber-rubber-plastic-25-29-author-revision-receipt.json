@@ -1,0 +1,78 @@
+{
+  "recordedAtUTC": "2026-09-10T04:22:33+00:00",
+  "status": "author-revision-saved-and-ci-passed-independent-recheck-pending",
+  "commit": "039218f820263c4c8bed23318adbb554e025560d",
+  "repositoryVerification": {
+    "commit": "039218f820263c4c8bed23318adbb554e025560d",
+    "rawResearchHTTPStatus": 200,
+    "bytes": 3897925,
+    "sha256": "5cb1c701743a3053586efdea892b1327c8022328d9f87b95d7f314201d6d423c",
+    "tasks": 178,
+    "reviewStatus": "original-reviewed-author-revision-awaiting-independent-recheck",
+    "isFrozen": false,
+    "publicImportCountIncrement": 0
+  },
+  "ci": {
+    "runId": 34436377649,
+    "url": "https://github.com/JoenHune/labor-automation-atlas/actions/runs/34436377649",
+    "headSha": "039218f820263c4c8bed23318adbb554e025560d",
+    "status": "completed",
+    "conclusion": "success",
+    "updatedAt": "2026-09-10T04:19:53Z",
+    "steps": [
+      {
+        "name": "Run actions/checkout@v7.0.1",
+        "conclusion": "success"
+      },
+      {
+        "name": "Run python3 scripts/verify-cn-fuel-author-revision.py",
+        "conclusion": "success"
+      },
+      {
+        "name": "Run actions/setup-node@v7.0.0",
+        "conclusion": "success"
+      },
+      {
+        "name": "Run npm ci",
+        "conclusion": "success"
+      },
+      {
+        "name": "Run npm run typecheck",
+        "conclusion": "success"
+      },
+      {
+        "name": "Run npm test",
+        "conclusion": "success"
+      },
+      {
+        "name": "Run npm run build",
+        "conclusion": "success"
+      },
+      {
+        "name": "Run git diff --exit-code -- data/research.json data/site.json",
+        "conclusion": "success"
+      },
+      {
+        "name": "Run npm run worker:check",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "actualFileSha256": {
+    "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json": "5cb1c701743a3053586efdea892b1327c8022328d9f87b95d7f314201d6d423c",
+    "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29-search-audit.json": "e4c3183ca412187d5de660711f1bd10cbbf2446d6d42f17a9fdd5debe73584d7",
+    "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.md": "d958b4a3a4cf568ae015a47a3ed9e2b608af211cafcf1375690dc17467ee392a",
+    "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29-validation.json": "dbde9dc8ed944b19a476f3081985a26838337916ece5bc4674fe64bb31c90a03",
+    "research/reviews/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29-author-revision.json": "ade6c30626fe1a6f5044592ed2f8b4b631429c9ba79f8704ac07e59f9a1ced25",
+    "research/reviews/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29-automation-decisions.json": "9c35d7261ac175a9b622bfc492b9813719fc00b9e9fd0d2e8211aa725bb42bc8",
+    "scripts/verify-cn-fuel-author-revision.py": "3c5e19a9842437271b81b770423730997f6bdba63b955abce1fbe8e3ba0ec094"
+  },
+  "researchWebsiteVersion": "2026-09-10.preview-13",
+  "websiteDatasetChanged": false,
+  "pagesDeploymentTriggered": false,
+  "newPubliclyCountedCompletedCandidates": 0,
+  "newFrozenTasks": 0,
+  "currentDraftTaskCount": 178,
+  "currentDraftIndependentlyRechecked": false,
+  "actualGitHubIdentityAndBackendAcceptanceCompleted": false
+}

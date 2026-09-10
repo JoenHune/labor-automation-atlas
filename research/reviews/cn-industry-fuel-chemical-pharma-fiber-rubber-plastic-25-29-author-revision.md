@@ -17,3 +17,5 @@
 实际保存文件已通过 `python3 scripts/verify-cn-fuel-author-revision.py` 的双向恢复、原快照、引用、国家、查询及空参数检查。`npm run data:validate`通过；网站数据仍为preview-13，本批尚未接入生成器。先前metadata/source-repair-proposal是历史准备阶段，本记录为其后完整修订，不重复叠加变更数。
 
 剩余：修订稿独立复检；未展开产品和工艺的全流程清单；现场工时与现金参数；成功、失败、退出和未采用证据继续补齐。
+
+保存回执：提交`039218f820263c4c8bed23318adbb554e025560d`已推送，公开仓库的3,897,925字节数据与本地逐字节一致。[CI 34436377649](https://github.com/JoenHune/labor-automation-atlas/actions/runs/34436377649)成功，包含修订恢复校验、类型检查、测试、完整构建、网站规范数据不变及后台部署预检查。本次未触发Pages发布，未增加网站研究完成数。详见[保存与验证回执](cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29-author-revision-receipt.json)。
