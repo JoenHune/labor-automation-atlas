@@ -2,8 +2,8 @@
 import research from '../../../../data/site.json'
 import {evidenceLevelNames,evidenceReadNames,evidenceDateNames} from '../../../../src/research/evidence-labels'
 import type {Research} from '../../../../src/research/schema'
-defineProps<{items:{sourceId:string,locator:string,excerpt?:string}[]}>()
-const source=(id:string):Research['sources'][number]|undefined=>research.sources.find(s=>s.id===id) as Research['sources'][number]|undefined
+const props=defineProps<{items:{sourceId:string,locator:string,excerpt?:string}[];catalog?:Research['sources']}>()
+const source=(id:string):Research['sources'][number]|undefined=>(props.catalog??research.sources).find(s=>s.id===id) as Research['sources'][number]|undefined
 </script>
 <template>
  <details class="evidence-list"><summary>来源与原文定位</summary>
