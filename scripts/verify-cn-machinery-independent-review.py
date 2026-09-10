@@ -24,13 +24,21 @@ def pointer(value, path):
 
 
 review = read(f'research/reviews/{STEM}-independent-decisions.json')
+original_bytes = {}
+if (ROOT / f'research/reviews/{STEM}-author-revision.json').exists():
+    from research_revision_recovery import load_author_revision
+    _, _, _, original_bytes = load_author_revision(ROOT, STEM)
 for record in review['inputFiles']:
-    raw = (ROOT / record['path']).read_bytes()
+    raw = original_bytes.get(record['path'])
+    if raw is None:
+        raw = (ROOT / record['path']).read_bytes()
     assert len(raw) == record['bytes'], record['path']
     assert hashlib.sha256(raw).hexdigest() == record['sha256'], record['path']
 
-main = read(f'research/automation/{STEM}.json')
-audit = read(f'research/automation/{STEM}-search-audit.json')
+main_path = f'research/automation/{STEM}.json'
+audit_path = f'research/automation/{STEM}-search-audit.json'
+main = json.loads(original_bytes[main_path]) if main_path in original_bytes else read(main_path)
+audit = json.loads(original_bytes[audit_path]) if audit_path in original_bytes else read(audit_path)
 tasks = {t['id']: t for t in main['tasks']}
 sources = {s['id']: s for s in main['sources'] + main['definitionSources']}
 findings = {f['id']: f for f in review['findings']}

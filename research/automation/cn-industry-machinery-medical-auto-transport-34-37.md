@@ -1,394 +1,5809 @@
-# 中国工业34—37：机械、医疗器械、汽车和运输设备首轮研究
+# 机械、医疗器械、汽车与运输设备：作者修订稿
 
-研究日：2026-09-09。125 项已识别任务、18 场景、250 条主查询与4条补充查询；42 个自动化来源与8个定义来源。首稿待独立审查，未冻结。
+**状态：125项原任务已按独审意见修订，当前修订仍待另一轮独立复检；未冻结、未导入网站完成数。**
 
-研究 JSON SHA-256：`438c048d04f8fe6aa22391bc5a7cd821d7f670d081ab9eaddbcbac04d9682606`
-检索审计 SHA-256：`0c5b20d001c3a4f2beb3164c6adb60efb25165b0b074ac782d021afc8320b8f1`
+主研究数据与逐任务结果保存在同名JSON。保留250条主查询、4条补充查询和64个发现结果池的原始内容及时间。新增的3个工序候选尚未完成各自正反检索，不能算作已研究任务。
 
-本批覆盖24项轴承、23项医疗器械、18项汽车总装和60项运输设备局部任务。完整输入、输出、验收及原始任务保存在 JSON。统计只表示当前库存研究进度，不代表四个大类全部子行业已盘点。
+## 本次修订
 
-查询失败、无匹配及相邻证据都不证明技术不可行。拟建环评、职业公示稿和厂商目录不证明持续投产；工时与现金参数均未补造。所有验收描述仍需现场 SOP 与独立复核。
+- **E01**：粘结后封边改为当前结构胶接的邻接；单独登记封边候选，未新增计数。
+- **E02**：铁路试验要求与通用胶管夹紧拆为两个定位；69只保留铁路局部目录邻接，76保持装配缺证，77分为铁路目录和通用夹紧邻接。
+- **E03**：24明确前序分离及台账，实体收容未证；FRIESS限制仅绑定22-A2，24改为邻接排除。
+- **E04**：60改为供钉向后调的未核迁移；机会只以59为匹配任务，并登记共有事件。
+- **E05**：109改为装配测量向来件检查关口的邻接迁移，补采样、判定、放行缺口。
+- **E06**：9-A1改为功能范围目录，9-A2超声机制独立保留。原文L15确实声称自动清洗，问题是执行机构未展开；作者回应不将其描述成完全没有功能陈述。
+- **E07**：SJTU开发描述及84/88阶段改为未明确部署阶段；新增86自由边机制沿用同一阶段。
+- **E08**：记录FDA中英文原文及首发、更新日期；27/28只使用一致的预充式排除，展示口服措辞差异。
+- **E09**：43所有当前镜像改为干燥且方式未知；原快照未改。
+- **E10**：33/34/35结论、候选与反例使用处明确夹/钳混称及同一性未知；不归因临床投诉。
+- **E11**：74分列未知放件/取件与专利气缸夹紧、研磨，保留专利及维修场景边界。
+- **E12**：切断摘要改为功能范围证据，95排除说明与96候选同步；未取得收费全文或机构。
+- **M01**：保留2021-03-04 08:18:01页面可见时间，日期性质与时区未知，99/102使用处同步。
+- **G01**：86新增自由边打磨局部机制；89区分装配点焊与管焊；96/97保留切弯边界，管焊另登记候选。
+- **G02**：补图2-2装配前检验定位与未计数候选，26/27登记；保留回料资格未知。
+- **R01**：28个父候选补输入输出、验收、事件与核算拆分提案；63输出补齐原有复检验收范围，原快照保留。是否拆分待现场及独审，父子均未新增计数。
+- **R02**：4组共有事件登记产品、工位、工单、触发及起止；现场同一性未知，资本/人工/收益不得重复计。
+- **C01**：补期初切换、旧资产处置、解约和后续退出映射，增加两个空的年度参数；完整NPV及条件门槛表达式可复算，全部任务现金仍未知。
+- **M02**：37覆盖说明按实际8个场景修正，仍为局部盘点。
 
-## 研究结果计数
+## 当前范围
 
-- searched-insufficient-matched-evidence：73
-- searched-catalog：10
-- searched-partial：26
-- searched-adjacent：15
-- searched-patent：1
+43份自动化或范围来源，66处定位；8份任务定义来源。28个父候选有57个条件子候选，均未新增计数。4组可能共有事件等待现场确认。原始快照和原审查决定不改写。
 
-## 值得继续核验的中国候选
+全部人工数字、23项原现金参数、补充退出参数和回报结果仍为空。局部机制描述不表示本厂验收、持续运行或完整任务成功。
 
-### 轴承清洗与测振分档的局部替代
+## 逐任务结果
 
-洗涤与测量分档各有可核机制，输入和输出较明确，适合先核具名客户与残留人工。
+### cn-ind-bearing-ring-common-001 · 安装并调整本批套圈加工工装
 
-取得同型号正常/异常周期、换液、再检和退回人工记录，再测现金门槛。
+**结论：** 连线介绍未给本批工装自动安装调整；仍需核换型、首件确认与调节人时。
 
-轴承型号、污染与清洁度逐项验证；测振合格不能代替成品所有质量检查；共线设备和维护人员按整套流程去重。
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
 
-### 汽车合装工位的螺钉供料配套
+**边界：** 输入工装与套圈批次；输出可用工装；验收提案：适配本批套圈待首件确认。具体现场阈值未验证。
 
-有厂商描述的长螺钉送料机制及适配困难，研究范围可限定到供料接口。
+**执行条件：** 外购半成品套圈的共同加工，不覆盖套圈锻造/热处理，也不根据矛盾原文指定后续内外沟对应。 工装基准、套圈批次与首件一致；换型后必须按该型号验收。
 
-访问具名客户，核缺料卡料、换型、补料与接管现金；两任务共享供料不得重复计。
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
 
-送料不等于整车合装或力矩验收；核车型、螺钉姿态和供给窗口；客户量产为厂商自报，尚无独立日志。
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
 
-### 船体样板切割与局部表面除锈
+**残留工作及未知执行者：** 连线介绍未给本批工装自动安装调整；仍需核换型、首件确认与调节人时。
 
-学校报告样板设备验收投用，开发方报告局部除锈；两条独立动作均能继续索取验收工况。
+**技术条件：** 工装基准、套圈批次与首件一致；换型后必须按该型号验收。 是否阻止采用须实测；缺证本身不构成技术障碍。
 
-分别取得样板差错/路径修改和除锈越障/磨料回收/粉尘清理记录，保持设备与现金分表。
+**经济缺口：** 缺“安装并调整本批套圈加工工装”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
 
-样板切割不代表样箱制作及放样自动化；甲板/货舱底限制不能扩大到全部结构面；历史验收不是2026连续运行证据。
+**采用条件：** 若“安装并调整本批套圈加工工装”涉及不同操作/质量/接收责任，需要约定“适配本批套圈待首件确认”签认与异常接管；尚未证实其已阻止采用。
 
-### 民用飞机结合位置的测量辅助
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
 
-历史现场报道描述数字定位与人工迭代，适合研究测量辅助和残留工作边界。
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
 
-取得当前型号测点遮挡、转站重建坐标、重复调姿及验收的全周期记录。
+**证据缺口：**
 
-2015历史C919首架总装不代表当前型号；大部件与整机共同测量设施不重复计算；不可由对接测量推断铆接或适航验收自动化。
+- 连线介绍未给本批工装自动安装调整；仍需核换型、首件确认与调节人时。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
 
-## 逐项研究结果
+**待访谈：**
 
-### 2020年拟建流程｜深沟球轴承套圈共同加工段
+- 请按“安装并调整本批套圈加工工装”提供输入到“适配本批套圈待首件确认”验收的完整周期，区分机械运行和人的付薪时间。
+- 工装基准、套圈批次与首件一致；换型后必须按该型号验收。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：连线介绍未给本批工装自动安装调整；仍需核换型、首件确认与调节人时。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
 
-外购半成品套圈的共同加工，不覆盖套圈锻造/热处理，也不根据矛盾原文指定后续内外沟对应。
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / ring-common](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第28—29页（正文23—24）图5-1/5-2及工艺说明首段）
 
-| 任务编号 | 动作 | 研究状态与边界 |
-| --- | --- | --- |
-| cn-ind-bearing-ring-common-001 | 安装并调整本批套圈加工工装 | searched-insufficient-matched-evidence；连线介绍未给本批工装自动安装调整；仍需核换型、首件确认与调节人时。 |
-| cn-ind-bearing-ring-common-002 | 精磨套圈两端平面 | searched-catalog；来源没展开双端面精磨执行机构；2020环评双端面磨床只是拟定机械基线。 |
-| cn-ind-bearing-ring-common-003 | 向振磨设备加入本批磨料与工作液 | searched-insufficient-matched-evidence；没有获得匹配磨料及工作液自动加配的公开原文；切削液补液不能等同振磨介质投配。 |
-| cn-ind-bearing-ring-common-004 | 振磨套圈去除毛刺 | searched-insufficient-matched-evidence；环评描述振磨去毛刺，但没有本批设备自动参数控制、上下料或成品验收资料。 |
-| cn-ind-bearing-ring-common-005 | 将振磨后套圈与磨料分离 | searched-insufficient-matched-evidence；环评提分离并回用磨料；未核自动筛分、夹料清理或磨料破损剔除。 |
-| cn-ind-bearing-ring-common-006 | 精磨套圈外圆 | searched-catalog；连线材料不能单独证明外圆精磨；内外圈工序冲突不能据此补齐。 |
-| cn-ind-bearing-ring-common-007 | 精研套圈外圆表面 | searched-insufficient-matched-evidence；没有核到匹配外圆精研原文；滚道超精不能自动等同套圈外圆精研。 |
-| cn-ind-bearing-ring-common-008 | 检验加工后套圈的质量 | searched-catalog；目录仅给内外径检测和精度指标，没有逐项套圈质量验收方法。 |
+**查询记录：** CN-MACHTR-main-001-1、CN-MACHTR-main-001-2。独审原稿与当前修订的区别见同名恢复台账。
 
-仍有缺口：2020年迁建项目设计流程，不等于2026实际运行；设备自主加工、清洗时间不能作为人工时间。；后续补现场装夹、首件、异常、返工、参数和工装设备规格，当前仅源文明确或明确proposed动作。；原图与说明中的内孔、内沟、外沟所指套圈不一致；这些后续专属工序保留为证据冲突待核，不编纠正版。；职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。；没有据任务描述推断人工工时或自动化效果。
+### cn-ind-bearing-ring-common-002 · 精磨套圈两端平面
 
-### 2020年拟建流程｜深沟球轴承装配与清洗
+**结论：** 来源没展开双端面精磨执行机构；2020环评双端面磨床只是拟定机械基线。
 
-以已验收套圈、钢球和保持架为输入的装配段；自动合套等只作2020设计描述。
+**研究状态：** 功能或设备范围候选；当前作者修订未独立复检。
 
-| 任务编号 | 动作 | 研究状态与边界 |
-| --- | --- | --- |
-| cn-ind-bearing-assembly-001 | 清洗装配用内外套圈 | searched-partial；两个来源均为厂商自述；本批材质残留物及清洗剂不同仍待验证。 |
-| cn-ind-bearing-assembly-002 | 对装配套圈进行退磁 | searched-insufficient-matched-evidence；项目拟用交流退磁，但原文幅值叙述疑点未解决，不能擅改为可靠波形或自动验收。 |
-| cn-ind-bearing-assembly-003 | 将内外套圈合套 | searched-catalog；有合套工位目录；配组公差、错套处理与本批成功率未核。 |
-| cn-ind-bearing-assembly-004 | 将钢球装入套圈组件 | searched-insufficient-matched-evidence；久创主正文未展开装球动作，导航产品名不能作为装球机构或成功部署证据。 |
-| cn-ind-bearing-assembly-005 | 将保持架装到轴承组件 | searched-catalog；目录有保持架铆合，未证明保持架上料定位与全过程装配完成。 |
-| cn-ind-bearing-assembly-006 | 清洗装配后的轴承 | searched-partial；工厂自述洗涤步骤不证明本批所有内腔残留达标；碳氢介质路线另核。 |
-| cn-ind-bearing-assembly-007 | 干燥清洗后的轴承 | searched-catalog；目录甩干不同于2020环评加热干燥，未核水分或清洗剂残留验收。 |
-| cn-ind-bearing-assembly-008 | 向轴承注入规定润滑脂 | searched-catalog；目录没有该批脂种、剂量测量和异常返工数据。 |
-| cn-ind-bearing-assembly-009 | 将防尘盖压装到轴承 | searched-catalog；压盖名称支持候选范围，盖型识别、定位和压装力曲线未公开。 |
-| cn-ind-bearing-assembly-010 | 测量成品轴承振动并按结果分选 | searched-partial；仅匹配设备支持的深沟球系列；不把目录测振节拍当工时替代比例。 |
-| cn-ind-bearing-assembly-011 | 检验轴承成品质量 | searched-partial；仅振动质量参数，不能完成全部成品尺寸、密封和外观验收。 |
-| cn-ind-bearing-assembly-012 | 对合格轴承进行防锈包装 | searched-catalog；防锈涂油只是包装前局部目录，未给包装封口、标识和防护验证。 |
-| cn-ind-bearing-assembly-013 | 将轴承包装件放入成品库 | searched-insufficient-matched-evidence；理料机或连线出料不等于包装件入库；未核轴承成品库自动存取案例。 |
+**边界：** 输入套圈半成品；输出平面精磨套圈；验收提案：平面质量按产品图核验。具体现场阈值未验证。
 
-仍有缺口：2020年迁建项目设计流程，不等于2026实际运行；设备自主加工、清洗时间不能作为人工时间。；后续补现场装夹、首件、异常、返工、参数和工装设备规格，当前仅源文明确或明确proposed动作。；清洗两次是零件与成品的不同质量关口，不与套圈振磨清洗混计；设备内部烘干并不等于需要人工持续操作。；职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。；没有据任务描述推断人工工时或自动化效果。
+**执行条件：** 外购半成品套圈的共同加工，不覆盖套圈锻造/热处理，也不根据矛盾原文指定后续内外沟对应。 半成品余量、两面平行性及磨床上下料接口待核，粗磨不能算精磨完成。
 
-### 2020年拟建流程｜套圈加工工作液回用与维护
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
 
-仅厂内工作液循环及维护动作，外部废液处置企业不归本轴承制造场景。
+**替代方案：**
 
-| 任务编号 | 动作 | 研究状态与边界 |
-| --- | --- | --- |
-| cn-ind-bearing-fluid-loop-001 | 过滤沉淀本线回用加工油液 | searched-partial；都须匹配磨削液介质；不能把水基油污净化外推全部碳氢清洗剂。 |
-| cn-ind-bearing-fluid-loop-002 | 补充本线消耗的加工油液 | searched-partial；切削液浓度补配不是所有润滑油液的自动加注，原项目介质须比对。 |
-| cn-ind-bearing-fluid-loop-003 | 收集过滤分离的含油污泥与废液 | searched-partial；仅设备分离环节，含油污泥废液收容、分类暂存与移交未被替代。 |
+- **cn-ind-bearing-ring-common-002-A1** 磨加工与装配连线功能目录（catalog；vendor-reported-customer-solution-stage-ambiguous）。来源没展开双端面精磨执行机构；2020环评双端面磨床只是拟定机械基线。 连线不是每道磨削的具体机构；自动纠正宣传未有数据，未采信。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国芜湖某轴承企业，客户未具名。 [CN-MACHTR-CST-ASSEMBLY / clean](https://www.jscst.com.cn/newsinfo/5875512.html)（L7—16）
 
-仍有缺口：2020年迁建项目设计流程，不等于2026实际运行；设备自主加工、清洗时间不能作为人工时间。；后续补现场装夹、首件、异常、返工、参数和工装设备规格，当前仅源文明确或明确proposed动作。；换液/过滤沉淀的不同事件边界需进一步拆分；验收要求不借用2020预测污染物排放数。；职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。；没有据任务描述推断人工工时或自动化效果。
+**残留工作及未知执行者：** 来源没展开双端面精磨执行机构；2020环评双端面磨床只是拟定机械基线。
 
-### 注射器针筒与芯杆成型修边（2024拟建）
+**技术条件：** 半成品余量、两面平行性及磨床上下料接口待核，粗磨不能算精磨完成。 是否阻止采用须实测；缺证本身不构成技术障碍。
 
-仅医疗器械制造主体厂内注塑塑料件，不包含药液灌装和灭菌；29注塑共用工序是相同技术族、不同产品/执行主体边界。
+**经济缺口：** 缺“精磨套圈两端平面”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
 
-| 任务编号 | 动作 | 研究状态与边界 |
-| --- | --- | --- |
-| cn-ind-medical-syringe-plastic-001 | 成型注射器针筒或芯杆塑料件 | searched-catalog；医疗机型目录不能证明该预灌封PP针筒或芯杆合格成型；拟建环评不是已投产。 |
-| cn-ind-medical-syringe-plastic-002 | 修除注射器塑料件边缘余料 | searched-insufficient-matched-evidence；环评明确人工修边，未获得匹配医用塑件的自动去边与洁净度验证原文。 |
+**采用条件：** 若“精磨套圈两端平面”涉及不同操作/质量/接收责任，需要约定“平面质量按产品图核验”签认与异常接管；尚未证实其已阻止采用。
 
-仍有缺口：未读开机换模、每模取件、质量抽样、污染控制、异常停机和不合格件处置的专门SOP，未补写模板动作。；环评写有塑料回用，但医疗器械回料适用性未核，不把破碎回用当作已允许的返工任务。；职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。；没有据任务描述推断人工工时或自动化效果。
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
 
-### 注射器塑料件与胶塞装配检验包装（2024拟建）
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
 
-针筒、芯杆及外购胶塞组成的产品；只记录报告明确动作，不把标题理解为预灌药品生产。
+**证据缺口：**
 
-| 任务编号 | 动作 | 研究状态与边界 |
-| --- | --- | --- |
-| cn-ind-medical-syringe-assemble-001 | 装配注射器针筒芯杆与胶塞 | searched-partial；普通注射器或涂药器方案与本批预灌封部件不完全匹配，须核胶塞、装配力和洁净度。 |
-| cn-ind-medical-syringe-assemble-002 | 检验装配后的注射器部件 | searched-partial；仅外观/装配到位候选；UnitX针头缺陷与本产品无针部件相邻，未证明密封性能。 |
-| cn-ind-medical-syringe-assemble-003 | 包装通过检验的注射器部件 | searched-insufficient-matched-evidence；未核匹配包装规格的自动化原文；玻璃预充式灌装包装线不可直接移用塑料部件包装。 |
-| cn-ind-medical-syringe-assemble-004 | 将已包装注射器部件存入成品库 | searched-insufficient-matched-evidence；成品收集不等于已包装医疗部件入库，未核本产品自动库与受控储存实例。 |
+- 来源没展开双端面精磨执行机构；2020环评双端面磨床只是拟定机械基线。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
 
-仍有缺口：最终装配的具体插接/压合工步尚未公开，后续拆分时替换当前装配候选，不能父子相加。；气密、颗粒、无菌屏障等具体质量项目未在此流程列示，不凭医疗产品名称补写。；职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。；没有据任务描述推断人工工时或自动化效果。
+**待访谈：**
 
-### 止血夹金属塑料组件组装焊接（2024拟建）
+- 请按“精磨套圈两端平面”提供输入到“平面质量按产品图核验”验收的完整周期，区分机械运行和人的付薪时间。
+- 半成品余量、两面平行性及磨床上下料接口待核，粗磨不能算精磨完成。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：来源没展开双端面精磨执行机构；2020环评双端面磨床只是拟定机械基线。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
 
-外购牵引/外管金属组件及滑杆、滑环和支架塑料件，组装为止血夹；不覆盖组件供应商制造。
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / ring-common](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第28—29页（正文23—24）图5-1/5-2及工艺说明首段）
 
-| 任务编号 | 动作 | 研究状态与边界 |
-| --- | --- | --- |
-| cn-ind-medical-hemostatic-clip-001 | 折弯止血夹外购金属组件 | searched-insufficient-matched-evidence；未读到该外购牵引组件折弯自动化匹配原文；环评只提供拟用折弯工序。 |
-| cn-ind-medical-hemostatic-clip-002 | 将止血夹金属组件与塑料组件装配 | searched-insufficient-matched-evidence；外管牵引组件与滑杆滑环装配的自动定位/装配资料未获得。 |
-| cn-ind-medical-hemostatic-clip-003 | 检验止血夹焊接前组装件 | searched-insufficient-matched-evidence；焊前检查具体项目及自动检测原文未核，不能由整机检测或最终焊接合格倒推。 |
-| cn-ind-medical-hemostatic-clip-004 | 激光焊接止血夹指定连接部位 | searched-partial；历史厂家案例只证实相容金属连接；本厂夹型与自动定位上下料尚未核。 |
-| cn-ind-medical-hemostatic-clip-005 | 检验焊后止血夹成品 | searched-insufficient-matched-evidence；客户焊接拉力/表面要求是验收方向，未给自动检测及独立放行机制。 |
-| cn-ind-medical-hemostatic-clip-006 | 包装检验合格的止血夹 | searched-insufficient-matched-evidence；未读到与此止血夹包装范围一致的自动封包原文。 |
-| cn-ind-medical-hemostatic-clip-007 | 将已包装止血夹存入成品库 | searched-insufficient-matched-evidence；未核已包装止血夹自动入库方案，不能以产品装箱推仓储。 |
+**查询记录：** CN-MACHTR-main-001-3、CN-MACHTR-main-001-4。独审原稿与当前修订的区别见同名恢复台账。
 
-仍有缺口：折弯涉及的具体金属件与焊接位置必须由图纸确认，不能从外购清单臆测每件必做。；剥线/铆压设备虽列在表2-4，但流程正文未明确位置；设备存在不足以新建相应具体动作。；装配次序、清洁灭菌、使用性能及批次放行尚待产品专门流程，不能由环评推定。；职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。；没有据任务描述推断人工工时或自动化效果。
+### cn-ind-bearing-ring-common-003 · 向振磨设备加入本批磨料与工作液
 
-### 高分子医疗器械来料检验与清洁转运（2023北京指南）
+**结论：** 没有获得匹配磨料及工作液自动加配的公开原文；切削液补液不能等同振磨介质投配。
 
-适用2023北京指南的生产企业，其厂内来料质量检验与洁净区交接；不据此宣称其他地区企业采用。
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
 
-| 任务编号 | 动作 | 研究状态与边界 |
-| --- | --- | --- |
-| cn-ind-medical-polymer-incoming-001 | 按进货检验文件检验器械用来料 | searched-insufficient-matched-evidence；指南支持进货检验职责，未给匹配多种器械来料的自动检验机制。 |
-| cn-ind-medical-polymer-incoming-002 | 对进入洁净区的器械用物料执行清洁处理 | searched-partial；指南确认工艺类型并非部署；对产品的清洗方法不能覆盖全部外包装物料表面。 |
+**边界：** 输入套圈磨料工作液；输出振磨装料状态；验收提案：投入物料与本批要求对应。具体现场阈值未验证。
 
-仍有缺口：检验动作族需按材料和独立检验方法继续拆分；检验记录不是额外重复任务。；包装材料验证的破坏试验、环境微生物检测和进出区传递细节尚未逐项盘点。；职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。；没有据任务描述推断人工工时或自动化效果。
+**执行条件：** 外购半成品套圈的共同加工，不覆盖套圈锻造/热处理，也不根据矛盾原文指定后续内外沟对应。 分别核磨料形状、工作液成分、配比审批与交叉混料控制。
 
-### 高分子医疗器械洁净场所与清洁工具维护（2023北京指南）
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
 
-生产企业自行执行的卫生任务；第三方专门保洁执行时按其实际服务业归属，不同时计入制造企业人工。
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
 
-| 任务编号 | 动作 | 研究状态与边界 |
-| --- | --- | --- |
-| cn-ind-medical-polymer-clean-tools-001 | 清洁消毒医疗器械生产工作台 | searched-insufficient-matched-evidence；产品清洗指南不适用工作台清消；本轮未获得匹配台面覆盖与消毒验收的自动化原文。 |
-| cn-ind-medical-polymer-clean-tools-002 | 清洁消毒医疗器械洁净室建筑表面 | searched-insufficient-matched-evidence；未获得同时匹配地墙顶表面的自动清消原文；空气紫外或臭氧不证明建筑表面物理清洁。 |
-| cn-ind-medical-polymer-clean-tools-003 | 清洗医疗器械洁净区清洁工具 | searched-insufficient-matched-evidence；生产产品自动清洗不能直接证明清洁工具清洗；专间卫生要求只支持操作边界。 |
-| cn-ind-medical-polymer-clean-tools-004 | 干燥清洗后的洁净区清洁工具 | searched-insufficient-matched-evidence；规范要求洗后晾干，未核匹配工具自动干燥和残余水分验收。 |
-| cn-ind-medical-polymer-clean-tools-005 | 将洁净区清洁工具归入专用储位 | searched-insufficient-matched-evidence；专用工具储存设施要求不等于机器人归位，未得工具识别与隔离存储原文。 |
+**残留工作及未知执行者：** 没有获得匹配磨料及工作液自动加配的公开原文；切削液补液不能等同振磨介质投配。
 
-仍有缺口：墙地顶面当前为按一次分区清洁事件计的候选；若现场有不同设备/验收工序，后续拆分替换，不将父子同时求和。；职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。；没有据任务描述推断人工工时或自动化效果。
+**技术条件：** 分别核磨料形状、工作液成分、配比审批与交叉混料控制。 是否阻止采用须实测；缺证本身不构成技术障碍。
 
-### 高分子医疗器械换线清场与中断评估（2023北京指南）
+**经济缺口：** 缺“向振磨设备加入本批磨料与工作液”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
 
-生产结束、换产品或必要中断后的生产恢复条件；不是将所有中断都定义为常规返工。
+**采用条件：** 若“向振磨设备加入本批磨料与工作液”涉及不同操作/质量/接收责任，需要约定“投入物料与本批要求对应”签认与异常接管；尚未证实其已阻止采用。
 
-| 任务编号 | 动作 | 研究状态与边界 |
-| --- | --- | --- |
-| cn-ind-medical-polymer-line-clearance-001 | 清除产线遗留的前批产品物料 | searched-insufficient-matched-evidence；指南明确清前批物料；无匹配机器人清场和全部遗留物检出实例。 |
-| cn-ind-medical-polymer-line-clearance-002 | 核验医疗器械产线清场结果 | searched-insufficient-matched-evidence；清场记录或电子签名不证明物理遗留全检，也不能代替签认责任。 |
-| cn-ind-medical-polymer-line-clearance-003 | 评估生产中断对器械在制批次的影响 | searched-insufficient-matched-evidence；中断影响评估须结合产品与过程，未获得自动独立判定批次放行的原文。 |
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
 
-仍有缺口：质量评估属于必要数字/管理流程，但具体责任人职业双路径尚缺，明确proposed。；不合格产品返工允许性及具体返工动作未读到产品依据，留空而不编统一返工步骤。；职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。；没有据任务描述推断人工工时或自动化效果。
+- 系统描述浓度监测、自动补液配比、多级过滤和供回液。 需核介质适配、旧管路和污染负荷；废物分类接收及处置未自动闭环证明。 没有获得匹配磨料及工作液自动加配的公开原文；切削液补液不能等同振磨介质投配。 [CN-MACHTR-FTECH-FLUID / loop](https://chinaftech.com/cn/productline/5gxz14xgmhm)（行85—98）
 
-### 汽车底盘系统装配、整车合装及下线检查
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
 
-代码36；从已制造零部件至总装检验，不重复计发动机等零部件制造；不同动力及乘商车型按适用分支。
+**证据缺口：**
 
-| 任务编号 | 动作 | 研究状态与边界 |
-| --- | --- | --- |
-| cn-ind-auto-final-assembly-001 | 核对总装待用零部件与车型配置 | searched-insufficient-matched-evidence；车辆线尾视觉查验不等于总装上线前全部零部件与车型核配；职业也未逐述核件。 |
-| cn-ind-auto-final-assembly-002 | 装配并调整传动装置 | searched-insufficient-matched-evidence；未核匹配传动轴万向节等装配调整原文；IBC线拧紧不属于该任务。 |
-| cn-ind-auto-final-assembly-003 | 装配并调整前后桥 | searched-insufficient-matched-evidence；底盘泛称自动送钉不能直接证明车桥装配和调整。 |
-| cn-ind-auto-final-assembly-004 | 装配并调整悬架系统 | searched-adjacent；属于悬架部件生产，未证明悬架系统装到车型上并完成调整。 |
-| cn-ind-auto-final-assembly-005 | 装配车辆线束及电器 | searched-insufficient-matched-evidence；三维工艺或控制器功能测试不能替代整车柔性线束铺设及电器装配。 |
-| cn-ind-auto-final-assembly-006 | 装配并调整制动系统 | searched-adjacent；仅制动控制器部件线；未证明整车制动管路、车轮制动器安装及调整。 |
-| cn-ind-auto-final-assembly-007 | 装配并调整转向系统 | searched-insufficient-matched-evidence；未核整车转向系统装配调整自动化原文；一般电批目录不足以覆盖任务。 |
-| cn-ind-auto-final-assembly-008 | 装配车轮总成 | searched-insufficient-matched-evidence；轮胎安装到车轴的拧紧线索不同于车轮总成组装；本轮未核匹配动作原文。 |
-| cn-ind-auto-final-assembly-009 | 平衡车轮总成 | searched-insufficient-matched-evidence；未核匹配轮胎轮辋总成动平衡原文；轴承振动分档不属于轮组平衡。 |
-| cn-ind-auto-final-assembly-010 | 检验车轮总成气密状态 | searched-insufficient-matched-evidence；软管试压或轴承检测不能证明车轮总成气密测试；本轮仍缺匹配原文。 |
-| cn-ind-auto-final-assembly-011 | 铆接适用车型车架 | searched-insufficient-matched-evidence；自动送钉是螺钉供给，不是车架铆接；未核本批车架机器人铆接原文。 |
-| cn-ind-auto-final-assembly-012 | 合装车身、动力和底盘模块 | searched-partial；只支持螺钉供给与拧紧配套，车身动力底盘定位搬装及连接调整仍未支持。 |
-| cn-ind-auto-final-assembly-013 | 调整整车机械和电器连接 | searched-partial；机械紧固局部候选；不涵盖电气连接、全部机械间隙或系统调试。 |
-| cn-ind-auto-final-assembly-014 | 执行下线系统功能检验 | searched-adjacent；外观和零部件ECU检测都不直接覆盖整车系统功能验收。 |
-| cn-ind-auto-final-assembly-015 | 执行规定道路或试验场检验 | searched-insufficient-matched-evidence；无人驾驶运行或试验场导航不自动证明制造放行的规定道路检验已完成。 |
-| cn-ind-auto-final-assembly-016 | 按缺陷工单调整未通过检验的系统 | searched-insufficient-matched-evidence；视觉检出与缺陷工单生成不等于物理调整返工；未核故障闭环自动修复原文。 |
-| cn-ind-auto-final-assembly-017 | 保养汽车装调生产线设备 | searched-insufficient-matched-evidence；拧紧数据追溯不是生产线设备保养；未核当前设备自动维护原文。 |
-| cn-ind-auto-final-assembly-018 | 移交下线车辆及检验状态 | searched-partial；仅移交前信息检查，车辆实物转移和放行签认仍无替代证明。 |
+- 没有获得匹配磨料及工作液自动加配的公开原文；切削液补液不能等同振磨介质投配。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
 
-仍有缺口：汽车冲压白车身焊接、涂装、电池模组、发动机和变速器内部装配、商用车上装及再制造仍未完整盘点。；HJ流程表只证明有装配及检验单元，不能支持各车型力矩和劳动投入。；职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。；没有据任务描述推断人工工时或自动化效果。
+**待访谈：**
 
-### 铁路车辆制造厂装配与调试
+- 请按“向振磨设备加入本批磨料与工作液”提供输入到“投入物料与本批要求对应”验收的完整周期，区分机械运行和人的付薪时间。
+- 分别核磨料形状、工作液成分、配比审批与交叉混料控制。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：没有获得匹配磨料及工作液自动加配的公开原文；切削液补液不能等同振磨介质投配。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：核对并加入本批磨料；加入本批工作液。若同一次不可分周期，请指出共有设备、人员和交接点。
 
-37车辆制造厂内组装；运行段日常检查与独立专业修理不计入本场景。
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / ring-common](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第28—29页（正文23—24）图5-1/5-2及工艺说明首段）
 
-| 任务编号 | 动作 | 研究状态与边界 |
-| --- | --- | --- |
-| cn-ind-rail-vehicle-assembly-001 | 装配铁路车辆走行部分 | searched-adjacent；正文未具体证明走行部分使用该系统；数字指导不执行走行部装配。 |
-| cn-ind-rail-vehicle-assembly-002 | 调试铁路车辆走行部分 | searched-insufficient-matched-evidence；走行部试验台检索未核得相符可读原文，不能以列车运行自动化替代制造调试。 |
-| cn-ind-rail-vehicle-assembly-003 | 装配铁路车辆制动系统管路 | searched-insufficient-matched-evidence；制动软管试验设备不执行管路装配，未核自动铺管连接资料。 |
-| cn-ind-rail-vehicle-assembly-004 | 调试铁路车辆制动系统 | searched-adjacent；软管测试不能扩为整车制动系统调试；新造和运营检修适用须核。 |
-| cn-ind-rail-vehicle-assembly-005 | 检查铁路车辆电路及电器 | searched-insufficient-matched-evidence；三维并线端子工艺展示不是电路自动检测，未核全车电器检查机制。 |
-| cn-ind-rail-vehicle-assembly-006 | 装配铁路车辆安全通信辅助装置 | searched-adjacent；正文列照明雨刮等，并未逐述安全通信装置，不能认定该任务现场已采用。 |
-| cn-ind-rail-vehicle-assembly-007 | 装配铁路车辆采暖辅助装置 | searched-adjacent；运行中的温控不是工厂采暖设备安装；不计制造人工替代。 |
-| cn-ind-rail-vehicle-assembly-008 | 装配铁路车辆空调装置 | searched-adjacent；产品运行控制不能证明空调实物吊装、连接和固定自动化。 |
+**查询记录：** CN-MACHTR-main-002-1、CN-MACHTR-main-002-2。独审原稿与当前修订的区别见同名恢复台账。
 
-仍有缺口：车辆落成、转向架轮轴具体配合、车门内饰、布线端接、淋雨试验与整车试运还需具体车型流程；当前系统级动作需继续按部件拆解。；职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。；没有据任务描述推断人工工时或自动化效果。
+### cn-ind-bearing-ring-common-004 · 振磨套圈去除毛刺
 
-### 铁路车辆制动装置分装与试验
+**结论：** 环评描述振磨去毛刺，但没有本批设备自动参数控制、上下料或成品验收资料。
 
-37轨道车辆制动部件制造分装；已计本分装的软管阀件不在整车总装重复计数。
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
 
-| 任务编号 | 动作 | 研究状态与边界 |
-| --- | --- | --- |
-| cn-ind-rail-brake-subassembly-001 | 研磨适用铁路制动阀部件 | searched-patent；专利来源以制动阀维修为背景，未核新造车间或回厂维修量产；人工定位装夹仍待测。 |
-| cn-ind-rail-brake-subassembly-002 | 组装铁路制动阀 | searched-insufficient-matched-evidence；研磨机专利把组装列为后续步骤；自动研磨不支持制动阀自动组装。 |
-| cn-ind-rail-brake-subassembly-003 | 组装铁路制动软管及连接器 | searched-insufficient-matched-evidence；软管夹紧试验装置不装配软管与连接器，未核压接和装配自动化原文。 |
-| cn-ind-rail-brake-subassembly-004 | 试验铁路制动软管及连接器 | searched-partial；局部夹紧功能可核，压力程序、判定与制造场景尚未证实。 |
-| cn-ind-rail-brake-subassembly-005 | 组装铁路车辆空气压缩机 | searched-insufficient-matched-evidence；压缩机测试与运行控制不是空气压缩机装配；未得匹配装配资料。 |
-| cn-ind-rail-brake-subassembly-006 | 组装铁路车辆风泵调压器 | searched-insufficient-matched-evidence；压力调节器功能设备不直接支持风泵调压器自动组装。 |
-| cn-ind-rail-brake-subassembly-007 | 组装铁路车辆闸瓦间隙调整器 | searched-insufficient-matched-evidence；循环试验专利线索不支持闸瓦间隙调整器的实体装配。 |
-| cn-ind-rail-brake-subassembly-008 | 组装铁路车辆制动缸 | searched-insufficient-matched-evidence；制动缸试验与检修线索不能证明制动缸组装自动化。 |
+**边界：** 输入装入设备的套圈；输出去毛刺套圈；验收提案：表面状态可检验。具体现场阈值未验证。
 
-仍有缺口：空气制动机与人工制动机细分制造、各组件调试检测、密封缺陷返修和设备维护待继续核对。；职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。；没有据任务描述推断人工工时或自动化效果。
+**执行条件：** 外购半成品套圈的共同加工，不覆盖套圈锻造/热处理，也不根据矛盾原文指定后续内外沟对应。 套圈与磨料匹配、边缘完好和批次去毛刺效果须实际检查。
 
-### 民用金属船体放样下料与零件成形
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
 
-37民用金属船体零件工段，不把钢厂板材生产及运输装卸重复计入。
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
 
-| 任务编号 | 动作 | 研究状态与边界 |
-| --- | --- | --- |
-| cn-ind-ship-plate-parts-001 | 放样民用船体线型外板或构件 | searched-insufficient-matched-evidence；依据既有图纸自动切样板不等于从船体线型建立放样；未核完整放样动作原文。 |
-| cn-ind-ship-plate-parts-002 | 制作船体零件样板样箱 | searched-partial；记录为2024验收投用；样箱构造和组装未支持，2026连续性未核。 |
-| cn-ind-ship-plate-parts-003 | 对待切船用金属材料号料 | searched-adjacent；依据切割版图标识切后零件，与切割前板材号料不同，不作为已匹配机制。 |
-| cn-ind-ship-plate-parts-004 | 切割民用船体金属材料 | searched-partial；只涵盖适配型材，板材厚度、轮廓及不同切割路线仍待核。 |
-| cn-ind-ship-plate-parts-005 | 对船用板材型材边缘成形加工 | searched-adjacent；两者均是外板曲面成形，未直接证明所有板型材边缘加工。 |
-| cn-ind-ship-plate-parts-006 | 矫正待装配船体结构件 | searched-adjacent；成形板材不是已装配结构件矫正；样机不能直接挂为矫正商业案例。 |
-
-仍有缺口：材料预处理、曲板冷热弯具体分支、数控套料切割上下料、坡口检验与废料清理尚需专项规范。；职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。；没有据任务描述推断人工工时或自动化效果。
-
-### 民用金属船体分段装配焊接与检验
-
-37以已加工构件为输入，分段拼装；船坞总组的同工序不与本工段重复计数。
-
-| 任务编号 | 动作 | 研究状态与边界 |
-| --- | --- | --- |
-| cn-ind-ship-block-assemble-001 | 装配船体零部件形成分段 | searched-partial；只覆盖小组立局部，未具名船厂验收或整分段持续运行。 |
-| cn-ind-ship-block-assemble-002 | 焊接船体结构接头 | searched-partial；全球目录与中国企业验收设备清单层级不同；不可推全部接头可达或返修消除。 |
-| cn-ind-ship-block-assemble-003 | 清除船体焊缝已识别缺陷 | searched-insufficient-matched-evidence；大船打磨机器人条目未说明识别缺陷后的修磨与复检；不能将一般打磨挂为自动返修。 |
-| cn-ind-ship-block-assemble-004 | 检查船体结构或分段密性 | searched-insufficient-matched-evidence；在线焊接和图像巡检不等于分段密性检查；未读到匹配自动检漏原文。 |
-| cn-ind-ship-block-assemble-005 | 吊运民用船体构件或分段 | searched-insufficient-matched-evidence；制造数据系统或装配翻转装置不证明大型分段吊运自动化。 |
-| cn-ind-ship-block-assemble-006 | 除锈处理适用船体结构 | searched-partial；实船分段试验及历史使用陈述；仅甲板货舱底等适配平面，非全部船体。 |
-| cn-ind-ship-block-assemble-007 | 涂装适用船体结构表面 | searched-insufficient-matched-evidence；抛丸除锈不实施涂层喷涂；未核适配本分段的自动涂装原文。 |
-
-仍有缺口：返修补焊后复检、无损检测、狭舱焊接、翻身搭载、进出坞下水及系泊试验需细化；密性和无损检测不能互相代替。；职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。；没有据任务描述推断人工工时或自动化效果。
-
-### 民用船舶管路制作安装与试压
-
-37船舶机械装配中的民用管系工段；主辅机和轴舵系另列未覆盖。
-
-| 任务编号 | 动作 | 研究状态与边界 |
-| --- | --- | --- |
-| cn-ind-ship-pipe-fit-001 | 现场放样船舶管路 | searched-insufficient-matched-evidence；工厂工单或虚拟布置不是现场放样测量，未核对应动作公开原文。 |
-| cn-ind-ship-pipe-fit-002 | 按放样结果下料船舶管子 | searched-partial；论文只读摘要，切管线不证明现场放样信息传递已验收。 |
-| cn-ind-ship-pipe-fit-003 | 弯制船舶管子 | searched-insufficient-matched-evidence；已读智能管线只述直管切断与管法兰组焊，不能补出数控弯管。 |
-| cn-ind-ship-pipe-fit-004 | 校正船舶管子形状 | searched-insufficient-matched-evidence；管法兰组对不是校正弯管形状；未得匹配校管自动化原文。 |
-| cn-ind-ship-pipe-fit-005 | 对船舶管段进行泵压试验 | searched-partial；有计算机及按钮配置；上接管、放水、安全确认及最终签认未自动化验证。 |
-| cn-ind-ship-pipe-fit-006 | 安装适用船舶淡水或海水管路 | searched-insufficient-matched-evidence；预制管段生产或船上运行流量监测不能证明淡海水管系安装。 |
-| cn-ind-ship-pipe-fit-007 | 装配船舶管路阀件和附件 | searched-insufficient-matched-evidence；法兰焊接线或阀门工厂装配不是阀件装到船舶管系。 |
-| cn-ind-ship-pipe-fit-008 | 调试已安装民用船舶管路系统 | searched-adjacent；离线试压不能完成实船管系系统联调，淡海水系统全部功能仍待核。 |
-
-仍有缺口：燃油滑油、液压和液货管系材料与污染控制差异待各自展开；通球冲洗清洁、垫片紧固、泄漏返修须补具体流程。；职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。；没有据任务描述推断人工工时或自动化效果。
-
-### 民用船舶电气电缆与设备安装
-
-37民用船电设备安装；海试运营劳动归属另核。
-
-| 任务编号 | 动作 | 研究状态与边界 |
-| --- | --- | --- |
-| cn-ind-ship-electric-fit-001 | 铺设民用船舶电缆线路 | searched-insufficient-matched-evidence；线缆制造或运行监控不是船上电缆铺设；未核匹配自动牵引布线原文。 |
-| cn-ind-ship-electric-fit-002 | 定位民用船舶电器安装位置 | searched-insufficient-matched-evidence；通用三维模型定位线索未核实船电器放样定位动作。 |
-| cn-ind-ship-electric-fit-003 | 安装民用船舶电器 | searched-insufficient-matched-evidence；自动控制产品功能不能证明船上电器吊装固定，未核对应机制。 |
-| cn-ind-ship-electric-fit-004 | 连接民用船舶电器线路 | searched-insufficient-matched-evidence；产品接线图或程序部署不替代实物线头处理与连接；未获得匹配原文。 |
-| cn-ind-ship-electric-fit-005 | 调试民用船舶电器 | searched-insufficient-matched-evidence；船舶运行监测只说明控制功能，未核制造调试整项自动验收。 |
-
-仍有缺口：电缆切端压接编号、贯穿密封、绝缘接地检验、导航通信及配电柜分装差异仍待原始流程。；职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。；没有据任务描述推断人工工时或自动化效果。
-
-### 民用飞机结构铆胶装配与大部件测量
-
-37民用飞机结构装配，限定公开的一般工艺，不涉及军用或武器系统。
-
-| 任务编号 | 动作 | 研究状态与边界 |
-| --- | --- | --- |
-| cn-ind-civil-plane-structure-001 | 清点民用飞机装配材料和装配件 | searched-insufficient-matched-evidence；零件BOM或物流标签检索未核对应民机实物清点系统；不由数字装配推件数核验。 |
-| cn-ind-civil-plane-structure-002 | 检查民用飞机待装配件 | searched-partial；限几何关系，材料状态、损伤及全项来件检验没有支持。 |
-| cn-ind-civil-plane-structure-003 | 铆接民用飞机结构件 | searched-insufficient-matched-evidence；2015采访把自动钻铆列为将来能力；碰撞论文原文访问未成功，不能作已用机制。 |
-| cn-ind-civil-plane-structure-004 | 胶接民用飞机适用结构件 | searched-partial；全球产品只支持混合涂胶局部，不包括结构定位、固化和胶接强度放行。 |
-| cn-ind-civil-plane-structure-005 | 测量民用飞机大部件结合位置 | searched-partial；2015民机历史、2024摘要工程应用和2011实验分别标注；不能相互补成2026无人测量。 |
-| cn-ind-civil-plane-structure-006 | 测量民用飞机整机结合位置 | searched-partial；2015四部段对接现场不等于整架飞机所有系统验收；当前运行和工时未核。 |
-
-仍有缺口：制孔去毛刺清孔、紧固件送装、涂胶固化、蒙皮贴合间隙调整、铆接缺陷返修和检查详规待补，未从装配概称编造精度或人工时间。；飞机管件、电缆和系统装配以及发动机、复合材料与试飞流程未完成。；职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。；没有据任务描述推断人工工时或自动化效果。
-
-### 废民用船舶解体与可用设备回收
-
-37船舶拆除3736；使用HJ1034流程来源不意味着统计归42。解体后的废料加工按实际主体另归，不能重复计。
-
-| 任务编号 | 动作 | 研究状态与边界 |
-| --- | --- | --- |
-| cn-ind-ship-scrap-dismantle-001 | 清洗待拆船油舱内油垢 | searched-insufficient-matched-evidence；拆船绿色基地报道没有清舱自动化机构；职业中的清洗设备仅基线，不证明无人清油垢。 |
-| cn-ind-ship-scrap-dismantle-002 | 检测待拆船舱易燃有害气体浓度 | searched-adjacent；来源是喷漆房人员定位集成，不是待拆油舱检测或作业许可。 |
-| cn-ind-ship-scrap-dismantle-003 | 分类保管废船已识别的剩残油和溶剂 | searched-insufficient-matched-evidence；未核剩残油溶剂自动分类保管原文；普通危废标签不是实物安全分类完成。 |
-| cn-ind-ship-scrap-dismantle-004 | 拆卸废民用船可利用的通信导航设备 | searched-insufficient-matched-evidence；拆船基地回收设备类别不证明通信导航设备自动无损拆卸。 |
-| cn-ind-ship-scrap-dismantle-005 | 拆卸废民用船可利用的仪器仪表 | searched-insufficient-matched-evidence；未核仪器仪表无损拆卸自动化；切割废钢不是设备回收。 |
-| cn-ind-ship-scrap-dismantle-006 | 分类废船可利用设备与备件 | searched-insufficient-matched-evidence；回收分类条目未给自动识别可利用设备与备件的原文。 |
-| cn-ind-ship-scrap-dismantle-007 | 包装废船回收可用设备备件 | searched-insufficient-matched-evidence；标准箱码垛不能代表异形旧设备防护包装；未核本场景匹配资料。 |
-| cn-ind-ship-scrap-dismantle-008 | 将废船回收设备备件入库 | searched-insufficient-matched-evidence；未取得匹配拆船回收设备的自动入库原文，普通产品出料不等于库存接收。 |
-| cn-ind-ship-scrap-dismantle-009 | 拆除废船不可利用仪器设备 | searched-insufficient-matched-evidence；废钢剪切机不执行船上废设备分离拆除；目前仅职业动作与排污工序范围。 |
-| cn-ind-ship-scrap-dismantle-010 | 切割废船体成为船板型材废钢 | searched-adjacent；独立废钢货场加工已拆下船板，不能计为船体整体解体自动化。 |
-| cn-ind-ship-scrap-dismantle-011 | 对废船解体材料过磅 | searched-adjacent；外部再生资源车辆地磅不同于船厂解体件重；不采自报人工和回本数据。 |
-| cn-ind-ship-scrap-dismantle-012 | 分类堆放废船解体材料 | searched-insufficient-matched-evidence；回收料分类汇总不是实际分类堆码；未核船厂多形状材料自动搬放原文。 |
-
-仍有缺口：开凿登船口、船底和二次拆解差异、主机甲板机械拆卸、危险品与有害物储存装置拆除、吊运及水域污染防控待分项资料。；职业稿涵盖危险品，但本场景不提供进入条件、切割安全参数或危险设备处置程序。；职业路径暂用明确标注的 2022 社会公示稿；正式版和对应职业技能标准尚待交叉复核。；没有据任务描述推断人工工时或自动化效果。
-
-## 来源与定位
-
-- CN-MACHTR-JC-ASSEMBLY：[深沟球轴承装配检测生产线](https://cn.nbjiuchuang.com/product/automatic-bearing-assembly-line/assembly-of-deep-groove-ball-bearings.html)。网页未显示可核发布日期；检索日仍可读不等于持续运行；vendor-product-description。定位：行71—72；行79—90。无客户验收或持续运行日志；不采用页面节拍、精度、良率作任务收益。
-- CN-MACHTR-HCH-MANUFACTURE：[装配（HCH 制造与质量页面）](https://www.hchbearing.com/cn/Manuquality.aspx?Seccid=169&cid=24)。网页未显示可核发布日期；检索日仍可读不等于持续运行；manufacturer-self-reported-production。定位：行49—53；行53。网页年代与运行持续性未知；未采用全厂产线数和人工节省表述。
-- CN-MACHTR-CST-ASSEMBLY：[全自动深沟球轴承装配线](https://www.jscst.com.cn/newsinfo/5875512.html)。网页未显示可核发布日期；检索日仍可读不等于持续运行；vendor-reported-customer-solution-stage-ambiguous。定位：L7—16。同文兼用实现和将能够，不能定为已验收持续量产。
-- CN-MACHTR-YR-VIBRATION：[ZDW850A-910/BVT 单轴轴承自动测振仪](https://www.yr8.cn/product/15.html)。网页未显示可核发布日期；检索日仍可读不等于持续运行；vendor-product-mechanism。定位：L82—85。限深沟球及选定设备规格；无客户运行日志。
-- CN-MACHTR-FTECH-FLUID：[智能集中供回液系统](https://chinaftech.com/cn/productline/5gxz14xgmhm)。网页未显示可核发布日期；检索日仍可读不等于持续运行；vendor-product-mechanism。定位：行85—98。切削液系统，不自动等同本项目所有加工油与碳氢清洗剂。
-- CN-MACHTR-FRIESS-FLUID：[SMT500V 移动式切削液净化机](https://friess.cn/product/smt500v/)。网页未显示可核发布日期；检索日仍可读不等于持续运行；vendor-product-mechanism-and-explicit-limit。定位：行71—80；行120—128。只说明设备功能与工况，现场照片不定国家；不使用理论上浮表或选件参数计算。
-- CN-MACHTR-HAITIAN-MEDICAL：[医疗行业注塑成型解决方案](https://haitianinter.com/cn/solutions/industries/medical/)。网页未显示可核发布日期；检索日仍可读不等于持续运行；vendor-product-function-catalog。定位：L103—117、L128—154。医疗适用和清洁设计不等于预灌封 PP 部件成型验收。
-- CN-MACHTR-GST-SYRINGE：[注射器自动组装机：提升医疗耗材生产效率的核心装备](https://www.guanshentai.cn/xinwendongtai/1555.html)。2025-11-20；检索日仍可读不等于持续运行；vendor-product-mechanism。定位：L50、L67—78。普通注射器配针产品与本项目预灌封部件范围不同；不采用用工和产能宣传。
-- CN-MACHTR-APM-ASSEMBLY：[自动医用涂药器、注射器组装机，用于组装塑料管](https://www.apmprinter.com/zh/video/products-detail-4738445.html)。网页未显示可核发布日期；检索日仍可读不等于持续运行；vendor-product-mechanism。定位：行282。涂药器及塑料管并列，产品身份与是否无菌医疗器械未核。
-- CN-MACHTR-UNITX-SYRINGE：[注射器最终检测案例](https://www.unitxlabs.com.cn/industry/syringe-final-inspection-application/)。网页未显示可核发布日期；检索日仍可读不等于持续运行；vendor-application-demonstration。定位：行99—108；行77—79。针头、针座、针筒和柱塞完整产品，与无针预灌封塑件范围不等。
-- CN-MACHTR-HGL-MEDICAL：[华工激光焊接技术推动医疗改革进步](https://www.hglaser.com/about/news-detail-41915.htm)。2016-08-24；检索日仍可读不等于持续运行；vendor-reported-historical-customer-use。定位：行229—240；行230。原文混称组织夹、止血钳、活检钳；宁波英赛迪型号相同未核，不能推当前仍使用。
-- CN-MACHTR-BJ-CLEAN-2024：[北京市医疗器械产品清洗过程确认检查指南（2024版）](https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/543479831/index.html)。2024-12-06；检索日仍可读不等于持续运行；official-guidance-not-deployment。定位：行127—144；行180—207；行128、131—133。范围是使用前需灭菌或消毒的产品清洗，不是洁净室地面、工作台或清洁工具全部清洗流程。
-- CN-MACHTR-LEETX-ASSEMBLY：[车身、内饰、底盘三线并进：某新能源整车厂携手砺星完成总装自动化升级](https://www.leetx.com/gyinfo/157.html)。2026-07-15；检索日仍可读不等于持续运行；vendor-reported-customer-production。定位：行125—133；行117—124。匿名厂商自报量产验证，不能识别为某品牌；只涉及送钉与拧紧配套。
-- CN-MACHTR-FITOW-FINAL：[总装车间视觉检测系统](https://www.fitow.com/article-detail/bmzrlV0B)。2023-10-20；检索日仍可读不等于持续运行；vendor-product-mechanism。定位：行47—49；行52—53。不采用点位数、兼容车型比例或全覆盖宣传作为验收。
-- CN-MACHTR-DESOUTTER-DONGFENG：[马头动力工具助力东风驭新智能底盘装配：全产线扭矩闭环与数据追溯方案](https://www.desouttertools.com/zh-cn/articles/success-story-dongfeng-yuxin)。网页未显示可核发布日期；检索日仍可读不等于持续运行；vendor-reported-line-construction。定位：行184—202；行178—183。正文为基本具备能力、项目投产后；不能称持续量产。
-- CN-MACHTR-SIASUN-SUSPENSION：[一条线通吃减振器、空气弹簧、ASU｜新松的全谱系悬架装配方案](https://www.siasun.com/news-detail1000.html)。2026-06-10；检索日仍可读不等于持续运行；vendor-product-description-and-reported-deliveries。定位：行74—77。部件生产与悬架装到整车不同；不使用良率和换型效率宣传。
-- CN-MACHTR-TOSUN-EOL：[软硬协同，同星 EOL 下线测试方案重塑产线终检新体验](https://www.tosunai.com/software-hardware-synergy-tosun-eol-end-of-line-test-solution-reshapes-final-inspection-experience/)。2026-08-05；检索日仍可读不等于持续运行；vendor-product-mechanism。定位：行264—304。本文 EOL 是汽车零部件 ECU 的终检，不能扩为整车动态与制动性能检验。
-- CN-MACHTR-RAIL-KM-3D：[中车南京浦镇车辆三维可视化装配工艺设计3DAST项目](https://www.kmsoft.com.cn/a/234.html)。网页未显示可核发布日期；检索日仍可读不等于持续运行；vendor-reported-customer-software-use。定位：行93—103。不用装配工时占比等全厂估算；数字工艺不等于自动搬装。
-- CN-MACHTR-RAIL-SIEMENS：[自动化技术打造堪与世界比肩的城轨用车](https://w2.siemens.com.cn/news_events/Magazine/0903/0327_22.asp)。网页未显示可核发布日期；检索日仍可读不等于持续运行；vendor-reported-historical-product-operation。定位：行98—101；行104—105。URL 栏目 2009年3月、正文奥运时期；空调运行控制不是空调装配。
-- CN-MACHTR-SIMINGTE-HOSE：[微控软管试验台技术要求](https://www.simingte.com/weikrgsytjsyq.htm)。网页未显示可核发布日期；检索日仍可读不等于持续运行；vendor-technical-requirement-catalog。定位：行43—53。引用检修规则，设备安全条件不是现场故障；不据此宣布现行法规。
-- CN-MACHTR-RAIL-GRIND-PATENT：[铁路车辆制动阀研磨机（CN207508984U）](https://patents.google.com/patent/CN207508984U/zh)。2018-06-19；检索日仍可读不等于持续运行；patent-design-not-deployment。定位：L81—106；L83—85。只读公开说明书，Google 法律状态未核且不采用；维修背景不当新造实例。
-- CN-MACHTR-JUST-TEMPLATE：[江科大海装院承制的激光数控样板切割装备在上海外高桥造船有限公司顺利交付](https://justmeti.just.edu.cn/_t17/2024/0717/c650a348750/page.htm)。2024-07-17；检索日仍可读不等于持续运行；research-developer-reported-acceptance-and-use。定位：行29—40。记录7月10日验收投入使用，不证明2026持续运行；不采用效率倍数。
-- CN-MACHTR-SYROBOT-PROFILE：[船舶行业型材智能加工解决方案](https://www.syrobot.cn/case-studies/automatic-profile-cutting-machine/)。网页未显示可核发布日期；检索日仍可读不等于持续运行；vendor-product-mechanism。定位：行20—23。正文混用焊枪、焊接与切割措辞；只保留明确等离子切割功能。
-- CN-MACHTR-SJTU-SHIP-ASSEMBLY：[基于数字孪生的船舶小组立无人化生产线](https://cxo.sjtu.edu.cn/info/1211/9671.htm)。网页未显示可核发布日期；检索日仍可读不等于持续运行；research-developer-prototype-description。定位：行68—73；行74—80。未给验收、持续商业运行或现场厂名，不使用设备速度和产能数。
-- CN-MACHTR-DLUT-PLATE：[船体曲面外板半自动线加热成型系统](https://scidep.dlut.edu.cn/info/1093/22225.htm)。2019-11-27；检索日仍可读不等于持续运行；research-developer-reported-historical-application。定位：行72—78。正文回溯1997鉴定和2000获奖；未确认当前厂家或运行。
-- CN-MACHTR-HUST-PLATE：[船舶复杂曲面板冷热一体成形智能加工装备](https://iat.hust.edu.cn/info/1034/3322.htm)。2023-11-22；检索日仍可读不等于持续运行；laboratory-prototype。定位：行104—117；行138—146。工程化升级为后续计划，未采用成本百分比或预期尺寸性能。
-- CN-MACHTR-KRANENDONK-BLOCK：[自动化分段焊接门架](https://kranendonk.com/zh/applications/block-welding-gantry/)。网页未显示可核发布日期；检索日仍可读不等于持续运行；vendor-product-mechanism。定位：行169—189。中文页不证明中国采用；不采无人、无碰撞或一人全线估算为现场事实。
-- CN-MACHTR-DSIC-WELD：[大船集团船舶分段制造数字化车间项目通过国家验收](https://www.dsic.cn/xwzx/jtxw/9d6d8994fc9c4840b0974da67ab1d183.htm)。网页未显示可核发布日期；检索日仍可读不等于持续运行；operator-reported-project-acceptance。定位：行65—69。正文仅5月18日而无年份；不把将提高的预测当效果，未核2026持续运行。
-- CN-MACHTR-SASTIND-BLAST：[船集团甲板抛丸机器人开启甲板除锈自动化之旅](https://www.sastind.gov.cn/n10086200/n10086331/c10356600/content.html)。2023-08-30；检索日仍可读不等于持续运行；government-republished-developer-field-trial。定位：行83—85；行86。含2021应用与2023实船分段试验，不证明民用船厂持续运行；不采改善倍数。
-- CN-MACHTR-PIPE-PAPER：[船舶管系柔性智能化管加工生产线解决方案及研制](https://www.71dhj.com/zh/article/doi/10.7512/j.issn.1001-2303.2023.05.19/)。2023-05-25；检索日仍可读不等于持续运行；research-paper-abstract-only。定位：行109—110；行110。只核公开摘要，未读收费正文；不称独立现场验收。
-- CN-MACHTR-HUAHENG-PIPE：[船用管系制造](https://www.huahengrobot.com/case/126.html)。2023-10-07；检索日仍可读不等于持续运行；vendor-function-catalog。定位：行282—297。这里只列切割组对焊接等设备，不写弯制或实船管路安装。
-- CN-MACHTR-SMT-SHIP-PIPE：[船用管试水压机｜船用水压试验机](https://www.smt-y.com/cpzs/jcsyj/915.html)。网页未显示可核发布日期；检索日仍可读不等于持续运行；vendor-product-mechanism。定位：行73—93。有计算机和按钮两种控制配置，不等于每台自动运行。
-- CN-MACHTR-SH-PLANE-ASSEMBLY：[国产大飞机是怎样“拼”起来的](https://www.shkjdw.gov.cn/c/2015-03-04/499335.shtml)。2015-03-04；检索日仍可读不等于持续运行；government-republished-historical-field-interview。定位：行49—58；行55—58；行50。2015首架机时期，不证明2026工时或自动钻铆已运行。
-- CN-MACHTR-SJTU-PLANE-MEASURE：[多场融合测量驱动的飞机大部件对接质量控制](https://www.qk.sjtu.edu.cn/ktfy/CN/abstract/abstract49031.shtml)。2024-11-23；检索日仍可读不等于持续运行；research-author-reported-engineering-use-abstract。定位：L13—34。只核摘要，不扩大为所有民机或无人装配。
-- CN-MACHTR-BUAA-PLANE-DOCK：[大型飞机机身调姿与对接试验系统](https://hkxb.buaa.edu.cn/CN/abstract/abstract14158.shtml)。2011-05-19；检索日仍可读不等于持续运行；laboratory-test-paper-abstract。定位：L64—74。出版日期2011-05-25，网页发布日期2011-05-19；国家重点型号未具名，不推中国民机商业运行。
-- CN-MACHTR-VISCOTEC-AERO：[航空航天点胶应用](https://www.viscotec.com/cn/applications/aerospace/)。网页未显示可核发布日期；检索日仍可读不等于持续运行；vendor-product-mechanism。定位：行67—73。仅取民用可能相关结构部件点胶；不引用军事或航天部署。
-- CN-MACHTR-ERANN-TANK：[船舱内有毒有害易燃易爆气体浓度检测 MIC-600S-5](https://www.eranntex.com/show-8-20.html)。网页未显示可核发布日期；检索日仍可读不等于持续运行；vendor-reported-adjacent-application。定位：行62—83。船舱喷漆房监测与待拆油舱不同；匿名客户不是拆船厂。
-- CN-MACHTR-XINCJ-SCRAP：[长江村“拆”出个全国“绿色”典型](https://www.xincj.com/Index.php?a=index&aid=151&c=View&m=home)。2017-11-30；检索日仍可读不等于持续运行；operator-republished-historical-industry-context。定位：行63—68。没有具体自动拆解动作；全产业链产值及回收率不得作任务收益。
-- CN-MACHTR-ZONKIN-SCRAP：[江苏某再生资源利用有限公司](https://zonkingroup.com/mobile/ddjcase/625.html)。2024-05-30；检索日仍可读不等于持续运行；vendor-reported-adjacent-sector-use。定位：行54—62。实际执行者是收购船板料再加工货场，不是废船整体解体。
-- CN-MACHTR-HX-WEIGH：[衡信衡准自动化称重系统再生资源行业落地应用案例](https://www.hzhxhhz.cn/index.php?a=index&aid=116&c=View&m=home)。2026-06-24；检索日仍可读不等于持续运行；vendor-reported-adjacent-sector-use。定位：行43—53。车辆地磅不是船厂件重；不采自报回收期、人头或收益。
-- CN-MACHTR-MOT-SCRAP-RECORD：[关于做好老旧营运船舶拆解场景信息化手段记录工作的通知](https://xxgk.mot.gov.cn/2020/jigou/zhghs/202601/t20260115_4197531.html)。2025-08-25；检索日仍可读不等于持续运行；official-process-requirement。定位：行65—83。网页路径2026-01而正文/公开日期2025-08-25；不是所有拆解一般强制规程。
-- CN-MACHTR-FDA-CHINA-SYRINGE：[评估中国制造的塑料注射器的潜在器械故障：FDA 安全通报](https://www.fda.gov/medical-devices/safety-communications/gengxinpingguzhongguozhizaodesuliaozhusheqideqianzaiqixieguzhangmeiguoshipinyaopinjianduguanliju-fda)。2024-03-19；检索日仍可读不等于持续运行；official-foreign-market-product-quality-scope-exclusion。定位：L54—75。最后更新2024-08-16；不得认为英赛迪受影响，更不得推自动化导致缺陷。
-
-## 现金边界
-
-- full_deployment_investment - incremental_working_capital
-avoided_paid_labor + demand_confirmed_incremental_contribution + avoided_cash_losses - residual_paid_labor - maintenance - software_and_connectivity - incremental_energy_water_inputs - exception_rework_cost - downtime_cash_loss - incremental_insurance_compliance_training - incremental_cash_taxes - replacement_capital_expenditure - change_in_working_capital
-+ disposal_cash_proceeds + recovered_working_capital - decommissioning_cost
-
-增产只在需求、瓶颈释放和可用产能三个上限都有依据时计入；全部署投入不含另列初始营运资金，年度变化与期末回收不得重复。任务之间共用资本和人工也只计一次。所有参数为 null，无回收期或机会价值排名。
+**残留工作及未知执行者：** 环评描述振磨去毛刺，但没有本批设备自动参数控制、上下料或成品验收资料。
+
+**技术条件：** 套圈与磨料匹配、边缘完好和批次去毛刺效果须实际检查。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“振磨套圈去除毛刺”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“振磨套圈去除毛刺”涉及不同操作/质量/接收责任，需要约定“表面状态可检验”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 环评描述振磨去毛刺，但没有本批设备自动参数控制、上下料或成品验收资料。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“振磨套圈去除毛刺”提供输入到“表面状态可检验”验收的完整周期，区分机械运行和人的付薪时间。
+- 套圈与磨料匹配、边缘完好和批次去毛刺效果须实际检查。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：环评描述振磨去毛刺，但没有本批设备自动参数控制、上下料或成品验收资料。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / ring-common](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第28—29页（正文23—24）图5-1/5-2及工艺说明首段）
+
+**查询记录：** CN-MACHTR-main-002-3、CN-MACHTR-main-002-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-bearing-ring-common-005 · 将振磨后套圈与磨料分离
+
+**结论：** 环评提分离并回用磨料；未核自动筛分、夹料清理或磨料破损剔除。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入混合套圈与磨料；输出套圈及可回用磨料；验收提案：分离物不串入后续产品。具体现场阈值未验证。
+
+**执行条件：** 外购半成品套圈的共同加工，不覆盖套圈锻造/热处理，也不根据矛盾原文指定后续内外沟对应。 分离后套圈不夹磨料，回用磨料状态与报废责任明确。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 环评提分离并回用磨料；未核自动筛分、夹料清理或磨料破损剔除。
+
+**技术条件：** 分离后套圈不夹磨料，回用磨料状态与报废责任明确。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“将振磨后套圈与磨料分离”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“将振磨后套圈与磨料分离”涉及不同操作/质量/接收责任，需要约定“分离物不串入后续产品”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 环评提分离并回用磨料；未核自动筛分、夹料清理或磨料破损剔除。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“将振磨后套圈与磨料分离”提供输入到“分离物不串入后续产品”验收的完整周期，区分机械运行和人的付薪时间。
+- 分离后套圈不夹磨料，回用磨料状态与报废责任明确。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：环评提分离并回用磨料；未核自动筛分、夹料清理或磨料破损剔除。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / ring-common](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第28—29页（正文23—24）图5-1/5-2及工艺说明首段）
+
+**查询记录：** CN-MACHTR-main-003-1、CN-MACHTR-main-003-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-bearing-ring-common-006 · 精磨套圈外圆
+
+**结论：** 连线材料不能单独证明外圆精磨；内外圈工序冲突不能据此补齐。
+
+**研究状态：** 功能或设备范围候选；当前作者修订未独立复检。
+
+**边界：** 输入振磨后套圈；输出精磨外圆；验收提案：外圆尺寸按图核验。具体现场阈值未验证。
+
+**执行条件：** 外购半成品套圈的共同加工，不覆盖套圈锻造/热处理，也不根据矛盾原文指定后续内外沟对应。 外圆直径与形位需求、磨削余量和无心磨支承条件须核。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-bearing-ring-common-006-A1** 轴承磨加工自动连线目录（catalog；vendor-reported-customer-solution-stage-ambiguous）。连线材料不能单独证明外圆精磨；内外圈工序冲突不能据此补齐。 连线不是每道磨削的具体机构；自动纠正宣传未有数据，未采信。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国芜湖某轴承企业，客户未具名。 [CN-MACHTR-CST-ASSEMBLY / clean](https://www.jscst.com.cn/newsinfo/5875512.html)（L7—16）
+
+**残留工作及未知执行者：** 连线材料不能单独证明外圆精磨；内外圈工序冲突不能据此补齐。
+
+**技术条件：** 外圆直径与形位需求、磨削余量和无心磨支承条件须核。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“精磨套圈外圆”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“精磨套圈外圆”涉及不同操作/质量/接收责任，需要约定“外圆尺寸按图核验”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 连线材料不能单独证明外圆精磨；内外圈工序冲突不能据此补齐。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“精磨套圈外圆”提供输入到“外圆尺寸按图核验”验收的完整周期，区分机械运行和人的付薪时间。
+- 外圆直径与形位需求、磨削余量和无心磨支承条件须核。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：连线材料不能单独证明外圆精磨；内外圈工序冲突不能据此补齐。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / ring-common](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第28—29页（正文23—24）图5-1/5-2及工艺说明首段）
+
+**查询记录：** CN-MACHTR-main-003-3、CN-MACHTR-main-003-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-bearing-ring-common-007 · 精研套圈外圆表面
+
+**结论：** 没有核到匹配外圆精研原文；滚道超精不能自动等同套圈外圆精研。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入精磨套圈；输出精研套圈；验收提案：表面质量按产品要求核验。具体现场阈值未验证。
+
+**执行条件：** 外购半成品套圈的共同加工，不覆盖套圈锻造/热处理，也不根据矛盾原文指定后续内外沟对应。 外圆表面目标、磨料磨具与精研前后测量方法须分开。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 没有核到匹配外圆精研原文；滚道超精不能自动等同套圈外圆精研。
+
+**技术条件：** 外圆表面目标、磨料磨具与精研前后测量方法须分开。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“精研套圈外圆表面”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“精研套圈外圆表面”涉及不同操作/质量/接收责任，需要约定“表面质量按产品要求核验”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 没有核到匹配外圆精研原文；滚道超精不能自动等同套圈外圆精研。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“精研套圈外圆表面”提供输入到“表面质量按产品要求核验”验收的完整周期，区分机械运行和人的付薪时间。
+- 外圆表面目标、磨料磨具与精研前后测量方法须分开。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：没有核到匹配外圆精研原文；滚道超精不能自动等同套圈外圆精研。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / ring-common](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第28—29页（正文23—24）图5-1/5-2及工艺说明首段）
+
+**查询记录：** CN-MACHTR-main-004-1、CN-MACHTR-main-004-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-bearing-ring-common-008 · 检验加工后套圈的质量
+
+**结论：** 目录仅给内外径检测和精度指标，没有逐项套圈质量验收方法。
+
+**研究状态：** 功能或设备范围候选；当前作者修订未独立复检。
+
+**边界：** 输入完成其路线的套圈；输出放行或隔离判定；验收提案：测量记录对应产品图与批次。具体现场阈值未验证。
+
+**执行条件：** 外购半成品套圈的共同加工，不覆盖套圈锻造/热处理，也不根据矛盾原文指定后续内外沟对应。 尺寸、圆度、表面缺陷等检验项目分别定义，不能用一项尺寸放行全部。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-bearing-ring-common-008-A1** 内外径检测工位与选配连线（catalog；vendor-product-description）。目录仅给内外径检测和精度指标，没有逐项套圈质量验收方法。 工位名与流程支持候选范围；未逐述装球、包装或入库机制。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国厂商产品目录；未具名客户。 [CN-MACHTR-JC-ASSEMBLY / chain](https://cn.nbjiuchuang.com/product/automatic-bearing-assembly-line/assembly-of-deep-groove-ball-bearings.html)（行71—72）
+
+**残留工作及未知执行者：** 目录仅给内外径检测和精度指标，没有逐项套圈质量验收方法。
+
+**技术条件：** 尺寸、圆度、表面缺陷等检验项目分别定义，不能用一项尺寸放行全部。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“检验加工后套圈的质量”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“检验加工后套圈的质量”涉及不同操作/质量/接收责任，需要约定“测量记录对应产品图与批次”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 目录仅给内外径检测和精度指标，没有逐项套圈质量验收方法。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“检验加工后套圈的质量”提供输入到“测量记录对应产品图与批次”验收的完整周期，区分机械运行和人的付薪时间。
+- 尺寸、圆度、表面缺陷等检验项目分别定义，不能用一项尺寸放行全部。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：目录仅给内外径检测和精度指标，没有逐项套圈质量验收方法。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：执行套圈质量测量；作套圈放行或隔离判定。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / ring-common](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第28—29页（正文23—24）图5-1/5-2及工艺说明首段）
+
+**查询记录：** CN-MACHTR-main-004-3、CN-MACHTR-main-004-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-bearing-assembly-001 · 清洗装配用内外套圈
+
+**结论：** CST声称自动清洗功能但未展开机构；HCH另述超声清洗机制。两者分别核定，本批污染物、介质相容及清洁度验收仍待验证。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入内外套圈与清洗介质；输出清洁套圈；验收提案：残留控制按实际质量要求核验。具体现场阈值未验证。
+
+**执行条件：** 以已验收套圈、钢球和保持架为输入的装配段；自动合套等只作2020设计描述。 清洁度残留、清洗介质相容、换液与取放方式须核。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-bearing-assembly-001-A1** 套圈自动清洗的功能与设备条目（catalog；vendor-reported-customer-solution-stage-ambiguous）。页面明确声称自动清洗功能并列清洗机，但未展开清洗执行机构、介质与残留验收；按功能范围级候选，不能用另一厂商的超声机制补足。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国芜湖某轴承企业，客户未具名。 [CN-MACHTR-CST-ASSEMBLY / clean](https://www.jscst.com.cn/newsinfo/5875512.html)（L7—16）
+
+- **cn-ind-bearing-assembly-001-A2** 自动连线内外圈超声清洗（partial；manufacturer-self-reported-production）。HCH自述内外圈超声清洗和连线；仅此来源支持该机制，未核本批污染物、清洗剂与残留验收。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国轴承厂商自述；工厂地址未在该正文具体区分。 [CN-MACHTR-HCH-MANUFACTURE / wash](https://www.hchbearing.com/cn/Manuquality.aspx?Seccid=169&cid=24)（行49—53）
+
+**残留工作及未知执行者：** CST声称自动清洗功能但未展开机构；HCH另述超声清洗机制。两者分别核定，本批污染物、介质相容及清洁度验收仍待验证。
+
+**技术条件：** 清洁度残留、清洗介质相容、换液与取放方式须核。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“清洗装配用内外套圈”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“清洗装配用内外套圈”涉及不同操作/质量/接收责任，需要约定“残留控制按实际质量要求核验”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- CST声称自动清洗功能但未展开机构；HCH另述超声清洗机制。两者分别核定，本批污染物、介质相容及清洁度验收仍待验证。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“清洗装配用内外套圈”提供输入到“残留控制按实际质量要求核验”验收的完整周期，区分机械运行和人的付薪时间。
+- 清洁度残留、清洗介质相容、换液与取放方式须核。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：CST声称自动清洗功能但未展开机构；HCH另述超声清洗机制。两者分别核定，本批污染物、介质相容及清洁度验收仍待验证。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / assembly](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第29—30页（正文24—25）图5-3与零件/成品清洗说明）
+
+**查询记录：** CN-MACHTR-main-005-1、CN-MACHTR-main-005-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-bearing-assembly-002 · 对装配套圈进行退磁
+
+**结论：** 项目拟用交流退磁，但原文幅值叙述疑点未解决，不能擅改为可靠波形或自动验收。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入套圈；输出退磁后套圈；验收提案：剩磁验收条件待现场确认。具体现场阈值未验证。
+
+**执行条件：** 以已验收套圈、钢球和保持架为输入的装配段；自动合套等只作2020设计描述。 退磁器、测剩磁方法与合格阈值需要设备说明书和实测。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 项目拟用交流退磁，但原文幅值叙述疑点未解决，不能擅改为可靠波形或自动验收。
+
+**技术条件：** 退磁器、测剩磁方法与合格阈值需要设备说明书和实测。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“对装配套圈进行退磁”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“对装配套圈进行退磁”涉及不同操作/质量/接收责任，需要约定“剩磁验收条件待现场确认”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 项目拟用交流退磁，但原文幅值叙述疑点未解决，不能擅改为可靠波形或自动验收。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“对装配套圈进行退磁”提供输入到“剩磁验收条件待现场确认”验收的完整周期，区分机械运行和人的付薪时间。
+- 退磁器、测剩磁方法与合格阈值需要设备说明书和实测。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：项目拟用交流退磁，但原文幅值叙述疑点未解决，不能擅改为可靠波形或自动验收。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / assembly](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第29—30页（正文24—25）图5-3与零件/成品清洗说明）
+
+**查询记录：** CN-MACHTR-main-005-3、CN-MACHTR-main-005-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-bearing-assembly-003 · 将内外套圈合套
+
+**结论：** 有合套工位目录；配组公差、错套处理与本批成功率未核。
+
+**研究状态：** 功能或设备范围候选；当前作者修订未独立复检。
+
+**边界：** 输入对应内外套圈；输出合套组件；验收提案：配对型号尺寸一致。具体现场阈值未验证。
+
+**执行条件：** 以已验收套圈、钢球和保持架为输入的装配段；自动合套等只作2020设计描述。 内外圈标识、尺寸分组及游隙合格规则须绑定配对记录。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-bearing-assembly-003-A1** 电脑选配合套工位（catalog；vendor-product-description）。有合套工位目录；配组公差、错套处理与本批成功率未核。 工位名与流程支持候选范围；未逐述装球、包装或入库机制。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国厂商产品目录；未具名客户。 [CN-MACHTR-JC-ASSEMBLY / chain](https://cn.nbjiuchuang.com/product/automatic-bearing-assembly-line/assembly-of-deep-groove-ball-bearings.html)（行71—72）
+
+**残留工作及未知执行者：** 有合套工位目录；配组公差、错套处理与本批成功率未核。
+
+**技术条件：** 内外圈标识、尺寸分组及游隙合格规则须绑定配对记录。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“将内外套圈合套”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“将内外套圈合套”涉及不同操作/质量/接收责任，需要约定“配对型号尺寸一致”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 有合套工位目录；配组公差、错套处理与本批成功率未核。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“将内外套圈合套”提供输入到“配对型号尺寸一致”验收的完整周期，区分机械运行和人的付薪时间。
+- 内外圈标识、尺寸分组及游隙合格规则须绑定配对记录。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：有合套工位目录；配组公差、错套处理与本批成功率未核。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / assembly](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第29—30页（正文24—25）图5-3与零件/成品清洗说明）
+
+**查询记录：** CN-MACHTR-main-006-1、CN-MACHTR-main-006-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-bearing-assembly-004 · 将钢球装入套圈组件
+
+**结论：** 久创主正文未展开装球动作，导航产品名不能作为装球机构或成功部署证据。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入合套组件与钢球；输出装球组件；验收提案：钢球配置与产品要求一致。具体现场阈值未验证。
+
+**执行条件：** 以已验收套圈、钢球和保持架为输入的装配段；自动合套等只作2020设计描述。 钢球数、规格和漏球异物检出需独立验收，不能由保持架完成推定。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 久创主正文未展开装球动作，导航产品名不能作为装球机构或成功部署证据。
+
+**技术条件：** 钢球数、规格和漏球异物检出需独立验收，不能由保持架完成推定。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“将钢球装入套圈组件”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“将钢球装入套圈组件”涉及不同操作/质量/接收责任，需要约定“钢球配置与产品要求一致”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 久创主正文未展开装球动作，导航产品名不能作为装球机构或成功部署证据。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“将钢球装入套圈组件”提供输入到“钢球配置与产品要求一致”验收的完整周期，区分机械运行和人的付薪时间。
+- 钢球数、规格和漏球异物检出需独立验收，不能由保持架完成推定。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：久创主正文未展开装球动作，导航产品名不能作为装球机构或成功部署证据。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / assembly](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第29—30页（正文24—25）图5-3与零件/成品清洗说明）
+
+**查询记录：** CN-MACHTR-main-006-3、CN-MACHTR-main-006-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-bearing-assembly-005 · 将保持架装到轴承组件
+
+**结论：** 目录有保持架铆合，未证明保持架上料定位与全过程装配完成。
+
+**研究状态：** 功能或设备范围候选；当前作者修订未独立复检。
+
+**边界：** 输入装球组件与保持架；输出待清洗轴承；验收提案：保持架位置及装配状态可核验。具体现场阈值未验证。
+
+**执行条件：** 以已验收套圈、钢球和保持架为输入的装配段；自动合套等只作2020设计描述。 保持架形式、铆合参数与游隙验证须依具体产品。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-bearing-assembly-005-A1** 保持架铆合及游隙检测工位（catalog；vendor-product-description）。目录有保持架铆合，未证明保持架上料定位与全过程装配完成。 工位名与流程支持候选范围；未逐述装球、包装或入库机制。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国厂商产品目录；未具名客户。 [CN-MACHTR-JC-ASSEMBLY / chain](https://cn.nbjiuchuang.com/product/automatic-bearing-assembly-line/assembly-of-deep-groove-ball-bearings.html)（行71—72）
+
+**残留工作及未知执行者：** 目录有保持架铆合，未证明保持架上料定位与全过程装配完成。
+
+**技术条件：** 保持架形式、铆合参数与游隙验证须依具体产品。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“将保持架装到轴承组件”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“将保持架装到轴承组件”涉及不同操作/质量/接收责任，需要约定“保持架位置及装配状态可核验”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 目录有保持架铆合，未证明保持架上料定位与全过程装配完成。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“将保持架装到轴承组件”提供输入到“保持架位置及装配状态可核验”验收的完整周期，区分机械运行和人的付薪时间。
+- 保持架形式、铆合参数与游隙验证须依具体产品。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：目录有保持架铆合，未证明保持架上料定位与全过程装配完成。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / assembly](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第29—30页（正文24—25）图5-3与零件/成品清洗说明）
+
+**查询记录：** CN-MACHTR-main-007-1、CN-MACHTR-main-007-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-bearing-assembly-006 · 清洗装配后的轴承
+
+**结论：** 工厂自述洗涤步骤不证明本批所有内腔残留达标；碳氢介质路线另核。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入装配轴承；输出清洗轴承；验收提案：表面污染残留标准待补。具体现场阈值未验证。
+
+**执行条件：** 以已验收套圈、钢球和保持架为输入的装配段；自动合套等只作2020设计描述。 装配后污染物、清洗液循环与成品损伤需验证。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-bearing-assembly-006-A1** 成品连线喷洗（partial；manufacturer-self-reported-production）。工厂自述洗涤步骤不证明本批所有内腔残留达标；碳氢介质路线另核。 只支持洗涤与连线的厂方陈述，不能推每一装配动作无人化。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国轴承厂商自述；工厂地址未在该正文具体区分。 [CN-MACHTR-HCH-MANUFACTURE / wash](https://www.hchbearing.com/cn/Manuquality.aspx?Seccid=169&cid=24)（行49—53）
+
+**残留工作及未知执行者：** 工厂自述洗涤步骤不证明本批所有内腔残留达标；碳氢介质路线另核。
+
+**技术条件：** 装配后污染物、清洗液循环与成品损伤需验证。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“清洗装配后的轴承”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“清洗装配后的轴承”涉及不同操作/质量/接收责任，需要约定“表面污染残留标准待补”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 工厂自述洗涤步骤不证明本批所有内腔残留达标；碳氢介质路线另核。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“清洗装配后的轴承”提供输入到“表面污染残留标准待补”验收的完整周期，区分机械运行和人的付薪时间。
+- 装配后污染物、清洗液循环与成品损伤需验证。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：工厂自述洗涤步骤不证明本批所有内腔残留达标；碳氢介质路线另核。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / assembly](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第29—30页（正文24—25）图5-3与零件/成品清洗说明）
+
+**查询记录：** CN-MACHTR-main-007-3、CN-MACHTR-main-007-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-bearing-assembly-007 · 干燥清洗后的轴承
+
+**结论：** 目录甩干不同于2020环评加热干燥，未核水分或清洗剂残留验收。
+
+**研究状态：** 功能或设备范围候选；当前作者修订未独立复检。
+
+**边界：** 输入清洗轴承；输出待注脂轴承；验收提案：表面清洗介质残留待检验。具体现场阈值未验证。
+
+**执行条件：** 以已验收套圈、钢球和保持架为输入的装配段；自动合套等只作2020设计描述。 选择甩干或热干后须验证剩余介质、温升及后续润滑相容。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-bearing-assembly-007-A1** 离心甩干工位（catalog；vendor-product-description）。目录甩干不同于2020环评加热干燥，未核水分或清洗剂残留验收。 工位名与流程支持候选范围；未逐述装球、包装或入库机制。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国厂商产品目录；未具名客户。 [CN-MACHTR-JC-ASSEMBLY / chain](https://cn.nbjiuchuang.com/product/automatic-bearing-assembly-line/assembly-of-deep-groove-ball-bearings.html)（行71—72）
+
+**残留工作及未知执行者：** 目录甩干不同于2020环评加热干燥，未核水分或清洗剂残留验收。
+
+**技术条件：** 选择甩干或热干后须验证剩余介质、温升及后续润滑相容。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“干燥清洗后的轴承”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“干燥清洗后的轴承”涉及不同操作/质量/接收责任，需要约定“表面清洗介质残留待检验”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 目录甩干不同于2020环评加热干燥，未核水分或清洗剂残留验收。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“干燥清洗后的轴承”提供输入到“表面清洗介质残留待检验”验收的完整周期，区分机械运行和人的付薪时间。
+- 选择甩干或热干后须验证剩余介质、温升及后续润滑相容。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：目录甩干不同于2020环评加热干燥，未核水分或清洗剂残留验收。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / assembly](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第29—30页（正文24—25）图5-3与零件/成品清洗说明）
+
+**查询记录：** CN-MACHTR-main-008-1、CN-MACHTR-main-008-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-bearing-assembly-008 · 向轴承注入规定润滑脂
+
+**结论：** 目录没有该批脂种、剂量测量和异常返工数据。
+
+**研究状态：** 功能或设备范围候选；当前作者修订未独立复检。
+
+**边界：** 输入轴承与润滑脂；输出注脂轴承；验收提案：脂种和加注量可核验。具体现场阈值未验证。
+
+**执行条件：** 以已验收套圈、钢球和保持架为输入的装配段；自动合套等只作2020设计描述。 每种脂的批次黏度、目标量、称重校验与污染隔离待核。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-bearing-assembly-008-A1** 称重注脂工位（catalog；vendor-product-description）。目录没有该批脂种、剂量测量和异常返工数据。 工位名与流程支持候选范围；未逐述装球、包装或入库机制。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国厂商产品目录；未具名客户。 [CN-MACHTR-JC-ASSEMBLY / chain](https://cn.nbjiuchuang.com/product/automatic-bearing-assembly-line/assembly-of-deep-groove-ball-bearings.html)（行71—72）
+
+**残留工作及未知执行者：** 目录没有该批脂种、剂量测量和异常返工数据。
+
+**技术条件：** 每种脂的批次黏度、目标量、称重校验与污染隔离待核。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“向轴承注入规定润滑脂”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“向轴承注入规定润滑脂”涉及不同操作/质量/接收责任，需要约定“脂种和加注量可核验”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 目录没有该批脂种、剂量测量和异常返工数据。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“向轴承注入规定润滑脂”提供输入到“脂种和加注量可核验”验收的完整周期，区分机械运行和人的付薪时间。
+- 每种脂的批次黏度、目标量、称重校验与污染隔离待核。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：目录没有该批脂种、剂量测量和异常返工数据。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / assembly](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第29—30页（正文24—25）图5-3与零件/成品清洗说明）
+
+**查询记录：** CN-MACHTR-main-008-3、CN-MACHTR-main-008-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-bearing-assembly-009 · 将防尘盖压装到轴承
+
+**结论：** 压盖名称支持候选范围，盖型识别、定位和压装力曲线未公开。
+
+**研究状态：** 功能或设备范围候选；当前作者修订未独立复检。
+
+**边界：** 输入注脂轴承与防尘盖；输出带盖轴承；验收提案：盖的到位状态可核验。具体现场阈值未验证。
+
+**执行条件：** 以已验收套圈、钢球和保持架为输入的装配段；自动合套等只作2020设计描述。 防尘盖型号、朝向及压入后转动/密封要求需逐项验收。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-bearing-assembly-009-A1** 注脂压盖工位（catalog；vendor-product-description）。压盖名称支持候选范围，盖型识别、定位和压装力曲线未公开。 工位名与流程支持候选范围；未逐述装球、包装或入库机制。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国厂商产品目录；未具名客户。 [CN-MACHTR-JC-ASSEMBLY / chain](https://cn.nbjiuchuang.com/product/automatic-bearing-assembly-line/assembly-of-deep-groove-ball-bearings.html)（行71—72）
+
+**残留工作及未知执行者：** 压盖名称支持候选范围，盖型识别、定位和压装力曲线未公开。
+
+**技术条件：** 防尘盖型号、朝向及压入后转动/密封要求需逐项验收。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“将防尘盖压装到轴承”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“将防尘盖压装到轴承”涉及不同操作/质量/接收责任，需要约定“盖的到位状态可核验”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 压盖名称支持候选范围，盖型识别、定位和压装力曲线未公开。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“将防尘盖压装到轴承”提供输入到“盖的到位状态可核验”验收的完整周期，区分机械运行和人的付薪时间。
+- 防尘盖型号、朝向及压入后转动/密封要求需逐项验收。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：压盖名称支持候选范围，盖型识别、定位和压装力曲线未公开。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / assembly](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第29—30页（正文24—25）图5-3与零件/成品清洗说明）
+
+**查询记录：** CN-MACHTR-main-009-1、CN-MACHTR-main-009-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-bearing-assembly-010 · 测量成品轴承振动并按结果分选
+
+**结论：** 仅匹配设备支持的深沟球系列；不把目录测振节拍当工时替代比例。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入成品轴承；输出测振分组轴承；验收提案：分组选项对应本件测量值。具体现场阈值未验证。
+
+**执行条件：** 以已验收套圈、钢球和保持架为输入的装配段；自动合套等只作2020设计描述。 噪声背景、匀脂状态、传感器标定和档级阈值须锁定。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-bearing-assembly-010-A1** 振动采样与基准比较后自动分档（partial；vendor-product-mechanism）。仅匹配设备支持的深沟球系列；不把目录测振节拍当工时替代比例。 可覆盖振动测量分选；不代表全部质量检验。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国厂商产品说明；未具名部署。 [CN-MACHTR-YR-VIBRATION / sense](https://www.yr8.cn/product/15.html)（L82—85）
+
+**残留工作及未知执行者：** 仅匹配设备支持的深沟球系列；不把目录测振节拍当工时替代比例。
+
+**技术条件：** 噪声背景、匀脂状态、传感器标定和档级阈值须锁定。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“测量成品轴承振动并按结果分选”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“测量成品轴承振动并按结果分选”涉及不同操作/质量/接收责任，需要约定“分组选项对应本件测量值”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 仅匹配设备支持的深沟球系列；不把目录测振节拍当工时替代比例。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“测量成品轴承振动并按结果分选”提供输入到“分组选项对应本件测量值”验收的完整周期，区分机械运行和人的付薪时间。
+- 噪声背景、匀脂状态、传感器标定和档级阈值须锁定。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：仅匹配设备支持的深沟球系列；不把目录测振节拍当工时替代比例。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：测量成品轴承振动；按测振结果分选。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / assembly](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第29—30页（正文24—25）图5-3与零件/成品清洗说明）
+
+**查询记录：** CN-MACHTR-main-009-3、CN-MACHTR-main-009-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-bearing-assembly-011 · 检验轴承成品质量
+
+**结论：** 仅振动质量参数，不能完成全部成品尺寸、密封和外观验收。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入成品轴承；输出放行或隔离结果；验收提案：判定对应产品与批次。具体现场阈值未验证。
+
+**执行条件：** 以已验收套圈、钢球和保持架为输入的装配段；自动合套等只作2020设计描述。 成品放行项目逐项列清，重复检验与测振任务10不得双计工时。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-bearing-assembly-011-A1** 振动信号检验分档（partial；vendor-product-mechanism）。仅振动质量参数，不能完成全部成品尺寸、密封和外观验收。 可覆盖振动测量分选；不代表全部质量检验。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国厂商产品说明；未具名部署。 [CN-MACHTR-YR-VIBRATION / sense](https://www.yr8.cn/product/15.html)（L82—85）
+
+**残留工作及未知执行者：** 仅振动质量参数，不能完成全部成品尺寸、密封和外观验收。
+
+**技术条件：** 成品放行项目逐项列清，重复检验与测振任务10不得双计工时。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“检验轴承成品质量”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“检验轴承成品质量”涉及不同操作/质量/接收责任，需要约定“判定对应产品与批次”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 仅振动质量参数，不能完成全部成品尺寸、密封和外观验收。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“检验轴承成品质量”提供输入到“判定对应产品与批次”验收的完整周期，区分机械运行和人的付薪时间。
+- 成品放行项目逐项列清，重复检验与测振任务10不得双计工时。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：仅振动质量参数，不能完成全部成品尺寸、密封和外观验收。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：执行成品质量项目检验；判定成品去向。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / assembly](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第29—30页（正文24—25）图5-3与零件/成品清洗说明）
+
+**查询记录：** CN-MACHTR-main-010-1、CN-MACHTR-main-010-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-bearing-assembly-012 · 对合格轴承进行防锈包装
+
+**结论：** 防锈涂油只是包装前局部目录，未给包装封口、标识和防护验证。
+
+**研究状态：** 功能或设备范围候选；当前作者修订未独立复检。
+
+**边界：** 输入合格轴承与包装材料；输出防锈包装件；验收提案：包材与防护状态可核验。具体现场阈值未验证。
+
+**执行条件：** 以已验收套圈、钢球和保持架为输入的装配段；自动合套等只作2020设计描述。 防锈材料、包装阻隔与储运期限须一致，涂油不可计作完整包装。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-bearing-assembly-012-A1** 成品涂油工位（catalog；vendor-product-description）。防锈涂油只是包装前局部目录，未给包装封口、标识和防护验证。 工位名与流程支持候选范围；未逐述装球、包装或入库机制。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国厂商产品目录；未具名客户。 [CN-MACHTR-JC-ASSEMBLY / chain](https://cn.nbjiuchuang.com/product/automatic-bearing-assembly-line/assembly-of-deep-groove-ball-bearings.html)（行71—72）
+
+**残留工作及未知执行者：** 防锈涂油只是包装前局部目录，未给包装封口、标识和防护验证。
+
+**技术条件：** 防锈材料、包装阻隔与储运期限须一致，涂油不可计作完整包装。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“对合格轴承进行防锈包装”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“对合格轴承进行防锈包装”涉及不同操作/质量/接收责任，需要约定“包材与防护状态可核验”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 防锈涂油只是包装前局部目录，未给包装封口、标识和防护验证。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“对合格轴承进行防锈包装”提供输入到“包材与防护状态可核验”验收的完整周期，区分机械运行和人的付薪时间。
+- 防锈材料、包装阻隔与储运期限须一致，涂油不可计作完整包装。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：防锈涂油只是包装前局部目录，未给包装封口、标识和防护验证。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：完成轴承防锈处理；完成轴承包装。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / assembly](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第29—30页（正文24—25）图5-3与零件/成品清洗说明）
+
+**查询记录：** CN-MACHTR-main-010-3、CN-MACHTR-main-010-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-bearing-assembly-013 · 将轴承包装件放入成品库
+
+**结论：** 理料机或连线出料不等于包装件入库；未核轴承成品库自动存取案例。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入包装件；输出入库成品；验收提案：库位批次可对应。具体现场阈值未验证。
+
+**执行条件：** 以已验收套圈、钢球和保持架为输入的装配段；自动合套等只作2020设计描述。 库位标识、包装完整性、批号和仓储接收记录需核。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 理料机或连线出料不等于包装件入库；未核轴承成品库自动存取案例。
+
+**技术条件：** 库位标识、包装完整性、批号和仓储接收记录需核。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“将轴承包装件放入成品库”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“将轴承包装件放入成品库”涉及不同操作/质量/接收责任，需要约定“库位批次可对应”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 理料机或连线出料不等于包装件入库；未核轴承成品库自动存取案例。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“将轴承包装件放入成品库”提供输入到“库位批次可对应”验收的完整周期，区分机械运行和人的付薪时间。
+- 库位标识、包装完整性、批号和仓储接收记录需核。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：理料机或连线出料不等于包装件入库；未核轴承成品库自动存取案例。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / assembly](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第29—30页（正文24—25）图5-3与零件/成品清洗说明）
+
+**查询记录：** CN-MACHTR-main-011-1、CN-MACHTR-main-011-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-bearing-fluid-loop-001 · 过滤沉淀本线回用加工油液
+
+**结论：** 都须匹配磨削液介质；不能把水基油污净化外推全部碳氢清洗剂。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入回收油液；输出可回用油液及分离残渣；验收提案：两类去向可追溯。具体现场阈值未验证。
+
+**执行条件：** 仅厂内工作液循环及维护动作，外部废液处置企业不归本轴承制造场景。 污染粒径、游离油乳化状态与流量波动需实样试验。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-bearing-fluid-loop-001-A1** 集中供回液过滤（partial；vendor-product-mechanism）。都须匹配磨削液介质；不能把水基油污净化外推全部碳氢清洗剂。 需核介质适配、旧管路和污染负荷；废物分类接收及处置未自动闭环证明。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国供应商产品说明；未具名客户。 [CN-MACHTR-FTECH-FLUID / loop](https://chinaftech.com/cn/productline/5gxz14xgmhm)（行85—98）
+
+- **cn-ind-bearing-fluid-loop-001-A2** 旁路过滤聚结回流（partial；vendor-product-mechanism-and-explicit-limit）。都须匹配磨削液介质；不能把水基油污净化外推全部碳氢清洗剂。 磨削液可作为候选，不能扩为全部污泥与废液处置。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：全球产品中文页；未确认中国现场。 [CN-MACHTR-FRIESS-FLUID / separate](https://friess.cn/product/smt500v/)（行71—80）
+
+**残留工作及未知执行者：** 都须匹配磨削液介质；不能把水基油污净化外推全部碳氢清洗剂。
+
+**技术条件：** 污染粒径、游离油乳化状态与流量波动需实样试验。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“过滤沉淀本线回用加工油液”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“过滤沉淀本线回用加工油液”涉及不同操作/质量/接收责任，需要约定“两类去向可追溯”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 厂家明确不含杀菌装置，不适合稳定乳化油，非磁性细颗粒另配过滤。 该限制只针对FRIESS SMT500V产品；仅约束本任务A2的产品适用范围，不能归给FTECH A1。 [CN-MACHTR-FRIESS-FLUID / limit](https://friess.cn/product/smt500v/)（行120—128）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 都须匹配磨削液介质；不能把水基油污净化外推全部碳氢清洗剂。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“过滤沉淀本线回用加工油液”提供输入到“两类去向可追溯”验收的完整周期，区分机械运行和人的付薪时间。
+- 污染粒径、游离油乳化状态与流量波动需实样试验。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：都须匹配磨削液介质；不能把水基油污净化外推全部碳氢清洗剂。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / fluids](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第30页（正文25）工艺说明末段）
+
+**查询记录：** CN-MACHTR-main-011-3、CN-MACHTR-main-011-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-bearing-fluid-loop-002 · 补充本线消耗的加工油液
+
+**结论：** 切削液浓度补配不是所有润滑油液的自动加注，原项目介质须比对。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入规定油液与在用系统；输出补充后系统；验收提案：油液种类及补充量留有记录。具体现场阈值未验证。
+
+**执行条件：** 仅厂内工作液循环及维护动作，外部废液处置企业不归本轴承制造场景。 介质配方、测浓方法与消耗补加量分别校准。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-bearing-fluid-loop-002-A1** 浓度监测自动补液配比（partial；vendor-product-mechanism）。切削液浓度补配不是所有润滑油液的自动加注，原项目介质须比对。 需核介质适配、旧管路和污染负荷；废物分类接收及处置未自动闭环证明。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国供应商产品说明；未具名客户。 [CN-MACHTR-FTECH-FLUID / loop](https://chinaftech.com/cn/productline/5gxz14xgmhm)（行85—98）
+
+**残留工作及未知执行者：** 切削液浓度补配不是所有润滑油液的自动加注，原项目介质须比对。
+
+**技术条件：** 介质配方、测浓方法与消耗补加量分别校准。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“补充本线消耗的加工油液”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“补充本线消耗的加工油液”涉及不同操作/质量/接收责任，需要约定“油液种类及补充量留有记录”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 切削液浓度补配不是所有润滑油液的自动加注，原项目介质须比对。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“补充本线消耗的加工油液”提供输入到“油液种类及补充量留有记录”验收的完整周期，区分机械运行和人的付薪时间。
+- 介质配方、测浓方法与消耗补加量分别校准。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：切削液浓度补配不是所有润滑油液的自动加注，原项目介质须比对。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / fluids](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第30页（正文25）工艺说明末段）
+
+**查询记录：** CN-MACHTR-main-012-1、CN-MACHTR-main-012-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-bearing-fluid-loop-003 · 收集过滤分离的含油污泥与废液
+
+**结论：** 输入已是分离后的残渣废液。FTECH屑液分离属于前序邻接，台账可作记录辅助；已分离废物的收容、容器更换、分类暂存与移交机制未取得。
+
+**研究状态：** 邻接候选，迁移待核；当前作者修订未独立复检。
+
+**边界：** 输入过滤残渣废液；输出分类收集物；验收提案：废物身份和委托去向可追溯。具体现场阈值未验证。
+
+**执行条件：** 仅厂内工作液循环及维护动作，外部废液处置企业不归本轴承制造场景。 污泥含液状态、容器与委外接收界面需定义。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-bearing-fluid-loop-003-A1** 前序屑液分离及处置台账范围（adjacent；vendor-product-mechanism）。前序分离不是本任务实体收容；台账只描述记录辅助，操作者和录入自动化程度未明。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国供应商产品说明；未具名客户。 [CN-MACHTR-FTECH-FLUID / loop](https://chinaftech.com/cn/productline/5gxz14xgmhm)（行85—98）；[CN-MACHTR-FTECH-FLUID / waste-trace](https://chinaftech.com/cn/productline/5gxz14xgmhm)（行89—90）
+
+**残留工作及未知执行者：** 输入已是分离后的残渣废液。FTECH屑液分离属于前序邻接，台账可作记录辅助；已分离废物的收容、容器更换、分类暂存与移交机制未取得。
+
+**技术条件：** 污泥含液状态、容器与委外接收界面需定义。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“收集过滤分离的含油污泥与废液”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“收集过滤分离的含油污泥与废液”涉及不同操作/质量/接收责任，需要约定“废物身份和委托去向可追溯”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 厂家明确不含杀菌装置，不适合稳定乳化油，非磁性细颗粒另配过滤。 该限制只针对FRIESS SMT500V产品；本任务无FRIESS候选，保留为前序油液处理的邻接排除记录，不能用来限制FTECH或证明废物收容失败。 [CN-MACHTR-FRIESS-FLUID / limit](https://friess.cn/product/smt500v/)（行120—128）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 输入已是分离后的残渣废液。FTECH屑液分离属于前序邻接，台账可作记录辅助；已分离废物的收容、容器更换、分类暂存与移交机制未取得。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“收集过滤分离的含油污泥与废液”提供输入到“废物身份和委托去向可追溯”验收的完整周期，区分机械运行和人的付薪时间。
+- 污泥含液状态、容器与委外接收界面需定义。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：输入已是分离后的残渣废液。FTECH屑液分离属于前序邻接，台账可作记录辅助；已分离废物的收容、容器更换、分类暂存与移交机制未取得。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：将已分离废物收入适配容器；标识登记并移交分类收集物。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / bearing-maker](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第475—476（印刷468—469）页；该职业主要工作任务）；[cn-hetaibearing-eia-2020 / fluids](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3428/site/attach/0/5093149066f34ead8afd5afaba507ee1.pdf)（PDF第30页（正文25）工艺说明末段）
+
+**查询记录：** CN-MACHTR-main-012-3、CN-MACHTR-main-012-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-syringe-plastic-001 · 成型注射器针筒或芯杆塑料件
+
+**结论：** 医疗机型目录不能证明该预灌封PP针筒或芯杆合格成型；拟建环评不是已投产。
+
+**研究状态：** 功能或设备范围候选；当前作者修订未独立复检。
+
+**边界：** 输入新塑料粒子与指定模具；输出已成型针筒或芯杆；验收提案：零件成型并能进入修边检验，尺寸限值待产品文件。具体现场阈值未验证。
+
+**执行条件：** 仅医疗器械制造主体厂内注塑塑料件，不包含药液灌装和灭菌；29注塑共用工序是相同技术族、不同产品/执行主体边界。 树脂、模具、收缩与毛边标准及脱模取件方式需实际验证。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-medical-syringe-plastic-001-A1** 医疗注塑机型与清洁防护功能（catalog；vendor-product-function-catalog）。医疗机型目录不能证明该预灌封PP针筒或芯杆合格成型；拟建环评不是已投产。 缺针筒芯杆模具、树脂与取件路线；无自动修边陈述。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国供应商全球产品页；未给中国具体客户。 [CN-MACHTR-HAITIAN-MEDICAL / mold](https://haitianinter.com/cn/solutions/industries/medical/)（L103—117、L128—154）
+
+**残留工作及未知执行者：** 医疗机型目录不能证明该预灌封PP针筒或芯杆合格成型；拟建环评不是已投产。
+
+**技术条件：** 树脂、模具、收缩与毛边标准及脱模取件方式需实际验证。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“成型注射器针筒或芯杆塑料件”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“成型注射器针筒或芯杆塑料件”涉及不同操作/质量/接收责任，需要约定“零件成型并能进入修边检验，尺寸限值待产品文件”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 医疗机型目录不能证明该预灌封PP针筒或芯杆合格成型；拟建环评不是已投产。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“成型注射器针筒或芯杆塑料件”提供输入到“零件成型并能进入修边检验，尺寸限值待产品文件”验收的完整周期，区分机械运行和人的付薪时间。
+- 树脂、模具、收缩与毛边标准及脱模取件方式需实际验证。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：医疗机型目录不能证明该预灌封PP针筒或芯杆合格成型；拟建环评不是已投产。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / plastic](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第414（印刷407）页；该职业主要工作任务）；[cn-insight-medical-eia-2024 / syringe](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3462/site/attach/0/b3f28c7ee3e34f8281e72e85c14f6bd6.pdf)（PDF第23页（正文20）图2-2下工艺流程说明第一段及注塑(1)①）
+
+**查询记录：** CN-MACHTR-main-013-1、CN-MACHTR-main-013-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-syringe-plastic-002 · 修除注射器塑料件边缘余料
+
+**结论：** 环评明确人工修边，未获得匹配医用塑件的自动去边与洁净度验证原文。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入已成型针筒或芯杆；输出修边后的对应零件；验收提案：边缘达到后续装配要求，判据待核。具体现场阈值未验证。
+
+**执行条件：** 仅医疗器械制造主体厂内注塑塑料件，不包含药液灌装和灭菌；29注塑共用工序是相同技术族、不同产品/执行主体边界。 余料位置、切口缺陷、颗粒污染和被加工件保形需分项验收。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 环评明确人工修边，未获得匹配医用塑件的自动去边与洁净度验证原文。
+
+**技术条件：** 余料位置、切口缺陷、颗粒污染和被加工件保形需分项验收。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“修除注射器塑料件边缘余料”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“修除注射器塑料件边缘余料”涉及不同操作/质量/接收责任，需要约定“边缘达到后续装配要求，判据待核”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 环评明确人工修边，未获得匹配医用塑件的自动去边与洁净度验证原文。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+- 2024拟建流程图在修边后、组装前还有检验关口，已登记未计数候选；检验项目、操作者及合法回料适用仍待核。
+
+**待访谈：**
+
+- 请按“修除注射器塑料件边缘余料”提供输入到“边缘达到后续装配要求，判据待核”验收的完整周期，区分机械运行和人的付薪时间。
+- 余料位置、切口缺陷、颗粒污染和被加工件保形需分项验收。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：环评明确人工修边，未获得匹配医用塑件的自动去边与洁净度验证原文。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / plastic](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第414（印刷407）页；该职业主要工作任务）；[cn-insight-medical-eia-2024 / syringe](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3462/site/attach/0/b3f28c7ee3e34f8281e72e85c14f6bd6.pdf)（PDF第23页（正文20）图2-2下工艺流程说明第一段及注塑(1)①）
+
+**查询记录：** CN-MACHTR-main-013-3、CN-MACHTR-main-013-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-syringe-assemble-001 · 装配注射器针筒芯杆与胶塞
+
+**结论：** 普通注射器或涂药器方案与本批预灌封部件不完全匹配，须核胶塞、装配力和洁净度。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入针筒芯杆及外购胶塞；输出装配件；验收提案：所列组件形成待检产品，装配位置与密封要求待核。具体现场阈值未验证。
+
+**执行条件：** 针筒、芯杆及外购胶塞组成的产品；只记录报告明确动作，不把标题理解为预灌药品生产。 部件接口、胶塞润滑状态及装配后完整性不能由外形匹配推定。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-medical-syringe-assemble-001-A1** 多工位供料定位装配（partial；vendor-product-mechanism）。GST描述供料定位装配与可选外观检验；普通注射器方案对本批预灌封塑料部件、胶塞、装配力和洁净度的适配未核。 证据期：2025-11-20；检索日仍可读不等于持续运行；范围：中国供应商产品文章；未具名客户。 [CN-MACHTR-GST-SYRINGE / assemble](https://www.guanshentai.cn/xinwendongtai/1555.html)（L50、L67—78）
+
+- **cn-ind-medical-syringe-assemble-001-A2** 壳芯供料装配（adjacent；vendor-product-mechanism）。APM壳芯装配是邻接方案；未证明本任务胶塞三件装配、材料适配或性能验收。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：产品页，未具名国家或工厂。 [CN-MACHTR-APM-ASSEMBLY / assemble](https://www.apmprinter.com/zh/video/products-detail-4738445.html)（行282）
+
+**残留工作及未知执行者：** 普通注射器或涂药器方案与本批预灌封部件不完全匹配，须核胶塞、装配力和洁净度。
+
+**技术条件：** 部件接口、胶塞润滑状态及装配后完整性不能由外形匹配推定。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“装配注射器针筒芯杆与胶塞”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“装配注射器针筒芯杆与胶塞”涉及不同操作/质量/接收责任，需要约定“所列组件形成待检产品，装配位置与密封要求待核”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 通报于2024-03-19首发、2024-08-16更新；当前仅采用中英文一致的预充式排除。 中文页将口服列入普遍排除，现读英文未列该项并另述特定肠内产品；不合并成“口服局部用途”。此资料不能证明本项目受影响、获得整体豁免或自动化造成缺陷。 [CN-MACHTR-FDA-CHINA-SYRINGE / excluded](https://www.fda.gov/medical-devices/safety-communications/gengxinpingguzhongguozhizaodesuliaozhusheqideqianzaiqixieguzhangmeiguoshipinyaopinjianduguanliju-fda)（L54—75）；[CN-MACHTR-FDA-CHINA-SYRINGE-EN / scope-language-comparison](https://www.fda.gov/medical-devices/safety-communications/update-evaluating-plastic-syringes-made-china-potential-device-failures-fda-safety-communication)（L54—66（更新、首发及排除范围），L81—85（肠内产品范围））
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 普通注射器或涂药器方案与本批预灌封部件不完全匹配，须核胶塞、装配力和洁净度。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+- FDA两种语言的口服范围措辞不同；本任务只记录一致的预充式排除，不以监管通报推本项目状态。
+- 2024拟建流程图在修边后、组装前还有检验关口，已登记未计数候选；检验项目、操作者及合法回料适用仍待核。
+
+**待访谈：**
+
+- 请按“装配注射器针筒芯杆与胶塞”提供输入到“所列组件形成待检产品，装配位置与密封要求待核”验收的完整周期，区分机械运行和人的付薪时间。
+- 部件接口、胶塞润滑状态及装配后完整性不能由外形匹配推定。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：普通注射器或涂药器方案与本批预灌封部件不完全匹配，须核胶塞、装配力和洁净度。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：连接胶塞与芯杆；装入针筒形成装配件。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-insight-medical-eia-2024 / syringe](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3462/site/attach/0/b3f28c7ee3e34f8281e72e85c14f6bd6.pdf)（PDF第23页（正文20）图2-2下工艺流程说明第一段及注塑(1)①）
+
+**查询记录：** CN-MACHTR-main-014-1、CN-MACHTR-main-014-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-syringe-assemble-002 · 检验装配后的注射器部件
+
+**结论：** 仅外观/装配到位候选；UnitX针头缺陷与本产品无针部件相邻，未证明密封性能。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入待检装配件；输出检验记录及批次去向；验收提案：按产品检验文件得出结果，具体项目未知。具体现场阈值未验证。
+
+**执行条件：** 针筒、芯杆及外购胶塞组成的产品；只记录报告明确动作，不把标题理解为预灌药品生产。 缺陷样本应涵盖透明部件和目标项目；错漏检须按已知盲样核验。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-medical-syringe-assemble-002-A1** 可选胶塞芯杆外观检测（partial；vendor-product-mechanism）。GST可选胶塞芯杆外观检验支持局部候选；未证明本预灌封部件密封、清洁度或全部性能。 证据期：2025-11-20；检索日仍可读不等于持续运行；范围：中国供应商产品文章；未具名客户。 [CN-MACHTR-GST-SYRINGE / assemble](https://www.guanshentai.cn/xinwendongtai/1555.html)（L50、L67—78）
+
+- **cn-ind-medical-syringe-assemble-002-A2** 多面成像缺陷分类（adjacent；vendor-application-demonstration）。UnitX针头缺陷的多面成像属于与本无针部件相邻的视觉方案；不证明本任务密封等性能或中国投产。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：全球厂商应用案例；没有中国客户定位。 [CN-MACHTR-UNITX-SYRINGE / inspect](https://www.unitxlabs.com.cn/industry/syringe-final-inspection-application/)（行99—108）
+
+**残留工作及未知执行者：** 仅外观/装配到位候选；UnitX针头缺陷与本产品无针部件相邻，未证明密封性能。
+
+**技术条件：** 缺陷样本应涵盖透明部件和目标项目；错漏检须按已知盲样核验。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“检验装配后的注射器部件”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“检验装配后的注射器部件”涉及不同操作/质量/接收责任，需要约定“按产品检验文件得出结果，具体项目未知”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 厂商解释透明部件反射折射及不同规格检查标准的限制。 厂商技术判断，不是独立故障调查。 仅外观/装配到位候选；UnitX针头缺陷与本产品无针部件相邻，未证明密封性能。 [CN-MACHTR-UNITX-SYRINGE / limit](https://www.unitxlabs.com.cn/industry/syringe-final-inspection-application/)（行77—79）
+
+- 通报于2024-03-19首发、2024-08-16更新；当前仅采用中英文一致的预充式排除。 中文页将口服列入普遍排除，现读英文未列该项并另述特定肠内产品；不合并成“口服局部用途”。此资料不能证明本项目受影响、获得整体豁免或自动化造成缺陷。 [CN-MACHTR-FDA-CHINA-SYRINGE / excluded](https://www.fda.gov/medical-devices/safety-communications/gengxinpingguzhongguozhizaodesuliaozhusheqideqianzaiqixieguzhangmeiguoshipinyaopinjianduguanliju-fda)（L54—75）；[CN-MACHTR-FDA-CHINA-SYRINGE-EN / scope-language-comparison](https://www.fda.gov/medical-devices/safety-communications/update-evaluating-plastic-syringes-made-china-potential-device-failures-fda-safety-communication)（L54—66（更新、首发及排除范围），L81—85（肠内产品范围））
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 仅外观/装配到位候选；UnitX针头缺陷与本产品无针部件相邻，未证明密封性能。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+- FDA两种语言的口服范围措辞不同；本任务只记录一致的预充式排除，不以监管通报推本项目状态。
+
+**待访谈：**
+
+- 请按“检验装配后的注射器部件”提供输入到“按产品检验文件得出结果，具体项目未知”验收的完整周期，区分机械运行和人的付薪时间。
+- 缺陷样本应涵盖透明部件和目标项目；错漏检须按已知盲样核验。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：仅外观/装配到位候选；UnitX针头缺陷与本产品无针部件相邻，未证明密封性能。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：执行装配后检验项目；判定检验批次去向。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-insight-medical-eia-2024 / syringe](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3462/site/attach/0/b3f28c7ee3e34f8281e72e85c14f6bd6.pdf)（PDF第23页（正文20）图2-2下工艺流程说明第一段及注塑(1)①）
+
+**查询记录：** CN-MACHTR-main-014-3、CN-MACHTR-main-014-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-syringe-assemble-003 · 包装通过检验的注射器部件
+
+**结论：** 未核匹配包装规格的自动化原文；玻璃预充式灌装包装线不可直接移用塑料部件包装。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入合格部件与包装物；输出包装件；验收提案：产品受保护且待入库，包装及洁净等级待核。具体现场阈值未验证。
+
+**执行条件：** 针筒、芯杆及外购胶塞组成的产品；只记录报告明确动作，不把标题理解为预灌药品生产。 初包装或中间包装角色、批次标识与封装清洁度须先明确。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 未核匹配包装规格的自动化原文；玻璃预充式灌装包装线不可直接移用塑料部件包装。
+
+**技术条件：** 初包装或中间包装角色、批次标识与封装清洁度须先明确。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“包装通过检验的注射器部件”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“包装通过检验的注射器部件”涉及不同操作/质量/接收责任，需要约定“产品受保护且待入库，包装及洁净等级待核”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 指南明确干燥、初包装封口应另确认，但本指南未包含。 不能用来支持自动工具干燥或包装。 未核匹配包装规格的自动化原文；玻璃预充式灌装包装线不可直接移用塑料部件包装。 [CN-MACHTR-BJ-CLEAN-2024 / exclude](https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/543479831/index.html)（行128、131—133）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 未核匹配包装规格的自动化原文；玻璃预充式灌装包装线不可直接移用塑料部件包装。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“包装通过检验的注射器部件”提供输入到“产品受保护且待入库，包装及洁净等级待核”验收的完整周期，区分机械运行和人的付薪时间。
+- 初包装或中间包装角色、批次标识与封装清洁度须先明确。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：未核匹配包装规格的自动化原文；玻璃预充式灌装包装线不可直接移用塑料部件包装。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-insight-medical-eia-2024 / syringe](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3462/site/attach/0/b3f28c7ee3e34f8281e72e85c14f6bd6.pdf)（PDF第23页（正文20）图2-2下工艺流程说明第一段及注塑(1)①）
+
+**查询记录：** CN-MACHTR-main-015-1、CN-MACHTR-main-015-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-syringe-assemble-004 · 将已包装注射器部件存入成品库
+
+**结论：** 成品收集不等于已包装医疗部件入库，未核本产品自动库与受控储存实例。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入已包装部件；输出入库产品；验收提案：对应产品进入指定储位，记录要求待核。具体现场阈值未验证。
+
+**执行条件：** 针筒、芯杆及外购胶塞组成的产品；只记录报告明确动作，不把标题理解为预灌药品生产。 包装件状态、待检/合格分区及环境记录需和库位绑定。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 成品收集不等于已包装医疗部件入库，未核本产品自动库与受控储存实例。
+
+**技术条件：** 包装件状态、待检/合格分区及环境记录需和库位绑定。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“将已包装注射器部件存入成品库”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“将已包装注射器部件存入成品库”涉及不同操作/质量/接收责任，需要约定“对应产品进入指定储位，记录要求待核”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 成品收集不等于已包装医疗部件入库，未核本产品自动库与受控储存实例。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“将已包装注射器部件存入成品库”提供输入到“对应产品进入指定储位，记录要求待核”验收的完整周期，区分机械运行和人的付薪时间。
+- 包装件状态、待检/合格分区及环境记录需和库位绑定。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：成品收集不等于已包装医疗部件入库，未核本产品自动库与受控储存实例。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-insight-medical-eia-2024 / syringe](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3462/site/attach/0/b3f28c7ee3e34f8281e72e85c14f6bd6.pdf)（PDF第23页（正文20）图2-2下工艺流程说明第一段及注塑(1)①）
+
+**查询记录：** CN-MACHTR-main-015-3、CN-MACHTR-main-015-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-hemostatic-clip-001 · 折弯止血夹外购金属组件
+
+**结论：** 未读到该外购牵引组件折弯自动化匹配原文；环评只提供拟用折弯工序。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入外购牵引或外管组件；输出折弯金属组件；验收提案：形状适于装配，角度和损伤判据待核。具体现场阈值未验证。
+
+**执行条件：** 外购牵引/外管金属组件及滑杆、滑环和支架塑料件，组装为止血夹；不覆盖组件供应商制造。 组件材料、弯曲位置与功能尺寸须由产品图和检验明确。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 未读到该外购牵引组件折弯自动化匹配原文；环评只提供拟用折弯工序。
+
+**技术条件：** 组件材料、弯曲位置与功能尺寸须由产品图和检验明确。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“折弯止血夹外购金属组件”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“折弯止血夹外购金属组件”涉及不同操作/质量/接收责任，需要约定“形状适于装配，角度和损伤判据待核”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 未读到该外购牵引组件折弯自动化匹配原文；环评只提供拟用折弯工序。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“折弯止血夹外购金属组件”提供输入到“形状适于装配，角度和损伤判据待核”验收的完整周期，区分机械运行和人的付薪时间。
+- 组件材料、弯曲位置与功能尺寸须由产品图和检验明确。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：未读到该外购牵引组件折弯自动化匹配原文；环评只提供拟用折弯工序。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-insight-medical-eia-2024 / clip](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3462/site/attach/0/b3f28c7ee3e34f8281e72e85c14f6bd6.pdf)（PDF第23页（正文20）图2-3下第二段及焊接说明）
+
+**查询记录：** CN-MACHTR-main-016-1、CN-MACHTR-main-016-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-hemostatic-clip-002 · 将止血夹金属组件与塑料组件装配
+
+**结论：** 外管牵引组件与滑杆滑环装配的自动定位/装配资料未获得。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入折弯金属件与滑杆滑环支架；输出待检止血夹中间件；验收提案：列明组件完成装配，紧固及功能要求待核。具体现场阈值未验证。
+
+**执行条件：** 外购牵引/外管金属组件及滑杆、滑环和支架塑料件，组装为止血夹；不覆盖组件供应商制造。 金属塑件配合、公差链和装配损伤须分开验收。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 外管牵引组件与滑杆滑环装配的自动定位/装配资料未获得。
+
+**技术条件：** 金属塑件配合、公差链和装配损伤须分开验收。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“将止血夹金属组件与塑料组件装配”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“将止血夹金属组件与塑料组件装配”涉及不同操作/质量/接收责任，需要约定“列明组件完成装配，紧固及功能要求待核”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 外管牵引组件与滑杆滑环装配的自动定位/装配资料未获得。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“将止血夹金属组件与塑料组件装配”提供输入到“列明组件完成装配，紧固及功能要求待核”验收的完整周期，区分机械运行和人的付薪时间。
+- 金属塑件配合、公差链和装配损伤须分开验收。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：外管牵引组件与滑杆滑环装配的自动定位/装配资料未获得。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-insight-medical-eia-2024 / clip](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3462/site/attach/0/b3f28c7ee3e34f8281e72e85c14f6bd6.pdf)（PDF第23页（正文20）图2-3下第二段及焊接说明）
+
+**查询记录：** CN-MACHTR-main-016-3、CN-MACHTR-main-016-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-hemostatic-clip-003 · 检验止血夹焊接前组装件
+
+**结论：** 原网页前文称止血夹、组织夹，焊接段又称止血钳、活检钳；产品同一性未核。焊前检查具体项目及自动检测原文未核，不能由整机检测或最终焊接合格倒推。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入待检中间件；输出检验结果；验收提案：确认进入焊接或不合格处理，项目判据待核。具体现场阈值未验证。
+
+**执行条件：** 外购牵引/外管金属组件及滑杆、滑环和支架塑料件，组装为止血夹；不覆盖组件供应商制造。 应核焊前尺寸、组对、运动及待焊部位是否可见。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 原网页前文称止血夹、组织夹，焊接段又称止血钳、活检钳；产品同一性未核。焊前检查具体项目及自动检测原文未核，不能由整机检测或最终焊接合格倒推。
+
+**技术条件：** 应核焊前尺寸、组对、运动及待焊部位是否可见。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“检验止血夹焊接前组装件”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“检验止血夹焊接前组装件”涉及不同操作/质量/接收责任，需要约定“确认进入焊接或不合格处理，项目判据待核”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 工程师称初期无法同时满足拉力稳定和表面要求，后续调试才满足。 原网页前文称止血夹、组织夹，焊接段又称止血钳、活检钳；产品同一性未核。仅厂商历史研发困难，不归因临床投诉，不能推当前产品或自动化导致故障。 [CN-MACHTR-HGL-MEDICAL / difficulty](https://www.hglaser.com/about/news-detail-41915.htm)（行230）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 原网页前文称止血夹、组织夹，焊接段又称止血钳、活检钳；产品同一性未核。焊前检查具体项目及自动检测原文未核，不能由整机检测或最终焊接合格倒推。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“检验止血夹焊接前组装件”提供输入到“确认进入焊接或不合格处理，项目判据待核”验收的完整周期，区分机械运行和人的付薪时间。
+- 应核焊前尺寸、组对、运动及待焊部位是否可见。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：原网页前文称止血夹、组织夹，焊接段又称止血钳、活检钳；产品同一性未核。焊前检查具体项目及自动检测原文未核，不能由整机检测或最终焊接合格倒推。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请提供所引用夹/钳的准确器械名称、料号、材质及连接图，证明来源产品与本任务对象的同一性；再核上下料、定位和焊缝验收。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-insight-medical-eia-2024 / clip](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3462/site/attach/0/b3f28c7ee3e34f8281e72e85c14f6bd6.pdf)（PDF第23页（正文20）图2-3下第二段及焊接说明）
+
+**查询记录：** CN-MACHTR-main-017-1、CN-MACHTR-main-017-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-hemostatic-clip-004 · 激光焊接止血夹指定连接部位
+
+**结论：** 原网页前文称止血夹、组织夹，焊接段又称止血钳、活检钳；产品同一性未核。历史厂家案例只证实相容金属连接；本厂夹型与自动定位上下料尚未核。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入通过前序检验的组件；输出焊后组装件；验收提案：指定部位完成连接，焊缝质量判据待核。具体现场阈值未验证。
+
+**执行条件：** 外购牵引/外管金属组件及滑杆、滑环和支架塑料件，组装为止血夹；不覆盖组件供应商制造。 材料相容、焊点可达、表面与拉力要求须同时验证。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-medical-hemostatic-clip-004-A1** 金属激光连接（partial；vendor-reported-historical-customer-use）。原网页前文称止血夹、组织夹，焊接段又称止血钳、活检钳；产品同一性未核。保留相容金属激光连接一般候选；未核本夹型、自动上下料、工装定位或整项验收。 证据期：2016-08-24；检索日仍可读不等于持续运行；范围：中国南京微创相关历史客户报道。 [CN-MACHTR-HGL-MEDICAL / weld](https://www.hglaser.com/about/news-detail-41915.htm)（行229—240）
+
+**残留工作及未知执行者：** 原网页前文称止血夹、组织夹，焊接段又称止血钳、活检钳；产品同一性未核。历史厂家案例只证实相容金属连接；本厂夹型与自动定位上下料尚未核。
+
+**技术条件：** 材料相容、焊点可达、表面与拉力要求须同时验证。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“激光焊接止血夹指定连接部位”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“激光焊接止血夹指定连接部位”涉及不同操作/质量/接收责任，需要约定“指定部位完成连接，焊缝质量判据待核”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 工程师称初期无法同时满足拉力稳定和表面要求，后续调试才满足。 原网页前文称止血夹、组织夹，焊接段又称止血钳、活检钳；产品同一性未核。仅厂商历史研发困难，不归因临床投诉，不能推当前产品或自动化导致故障。 [CN-MACHTR-HGL-MEDICAL / difficulty](https://www.hglaser.com/about/news-detail-41915.htm)（行230）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 原网页前文称止血夹、组织夹，焊接段又称止血钳、活检钳；产品同一性未核。历史厂家案例只证实相容金属连接；本厂夹型与自动定位上下料尚未核。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“激光焊接止血夹指定连接部位”提供输入到“指定部位完成连接，焊缝质量判据待核”验收的完整周期，区分机械运行和人的付薪时间。
+- 材料相容、焊点可达、表面与拉力要求须同时验证。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：原网页前文称止血夹、组织夹，焊接段又称止血钳、活检钳；产品同一性未核。历史厂家案例只证实相容金属连接；本厂夹型与自动定位上下料尚未核。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请提供所引用夹/钳的准确器械名称、料号、材质及连接图，证明来源产品与本任务对象的同一性；再核上下料、定位和焊缝验收。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-insight-medical-eia-2024 / clip](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3462/site/attach/0/b3f28c7ee3e34f8281e72e85c14f6bd6.pdf)（PDF第23页（正文20）图2-3下第二段及焊接说明）
+
+**查询记录：** CN-MACHTR-main-017-3、CN-MACHTR-main-017-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-hemostatic-clip-005 · 检验焊后止血夹成品
+
+**结论：** 原网页前文称止血夹、组织夹，焊接段又称止血钳、活检钳；产品同一性未核。客户焊接拉力/表面要求是验收方向，未给自动检测及独立放行机制。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入焊后产品；输出检验记录与合格品；验收提案：按产品文件判定，未取得明确项目限值。具体现场阈值未验证。
+
+**执行条件：** 外购牵引/外管金属组件及滑杆、滑环和支架塑料件，组装为止血夹；不覆盖组件供应商制造。 焊缝外观、连接强度和整夹功能需不同检验，不以激光机代检验。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 原网页前文称止血夹、组织夹，焊接段又称止血钳、活检钳；产品同一性未核。客户焊接拉力/表面要求是验收方向，未给自动检测及独立放行机制。
+
+**技术条件：** 焊缝外观、连接强度和整夹功能需不同检验，不以激光机代检验。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“检验焊后止血夹成品”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“检验焊后止血夹成品”涉及不同操作/质量/接收责任，需要约定“按产品文件判定，未取得明确项目限值”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 工程师称初期无法同时满足拉力稳定和表面要求，后续调试才满足。 原网页前文称止血夹、组织夹，焊接段又称止血钳、活检钳；产品同一性未核。仅厂商历史研发困难，不归因临床投诉，不能推当前产品或自动化导致故障。 [CN-MACHTR-HGL-MEDICAL / difficulty](https://www.hglaser.com/about/news-detail-41915.htm)（行230）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 原网页前文称止血夹、组织夹，焊接段又称止血钳、活检钳；产品同一性未核。客户焊接拉力/表面要求是验收方向，未给自动检测及独立放行机制。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“检验焊后止血夹成品”提供输入到“按产品文件判定，未取得明确项目限值”验收的完整周期，区分机械运行和人的付薪时间。
+- 焊缝外观、连接强度和整夹功能需不同检验，不以激光机代检验。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：原网页前文称止血夹、组织夹，焊接段又称止血钳、活检钳；产品同一性未核。客户焊接拉力/表面要求是验收方向，未给自动检测及独立放行机制。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请提供所引用夹/钳的准确器械名称、料号、材质及连接图，证明来源产品与本任务对象的同一性；再核上下料、定位和焊缝验收。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-insight-medical-eia-2024 / clip](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3462/site/attach/0/b3f28c7ee3e34f8281e72e85c14f6bd6.pdf)（PDF第23页（正文20）图2-3下第二段及焊接说明）
+
+**查询记录：** CN-MACHTR-main-018-1、CN-MACHTR-main-018-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-hemostatic-clip-006 · 包装检验合格的止血夹
+
+**结论：** 未读到与此止血夹包装范围一致的自动封包原文。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入合格止血夹与包装材料；输出包装件；验收提案：包装完成并保护产品，包装规范待核。具体现场阈值未验证。
+
+**执行条件：** 外购牵引/外管金属组件及滑杆、滑环和支架塑料件，组装为止血夹；不覆盖组件供应商制造。 包装与灭菌责任、锐边防护、标签和批次追溯需明确。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 未读到与此止血夹包装范围一致的自动封包原文。
+
+**技术条件：** 包装与灭菌责任、锐边防护、标签和批次追溯需明确。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“包装检验合格的止血夹”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“包装检验合格的止血夹”涉及不同操作/质量/接收责任，需要约定“包装完成并保护产品，包装规范待核”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 未读到与此止血夹包装范围一致的自动封包原文。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“包装检验合格的止血夹”提供输入到“包装完成并保护产品，包装规范待核”验收的完整周期，区分机械运行和人的付薪时间。
+- 包装与灭菌责任、锐边防护、标签和批次追溯需明确。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：未读到与此止血夹包装范围一致的自动封包原文。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-insight-medical-eia-2024 / clip](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3462/site/attach/0/b3f28c7ee3e34f8281e72e85c14f6bd6.pdf)（PDF第23页（正文20）图2-3下第二段及焊接说明）
+
+**查询记录：** CN-MACHTR-main-018-3、CN-MACHTR-main-018-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-hemostatic-clip-007 · 将已包装止血夹存入成品库
+
+**结论：** 未核已包装止血夹自动入库方案，不能以产品装箱推仓储。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入已包装止血夹；输出入库产品；验收提案：置入指定储位，追溯条件待核。具体现场阈值未验证。
+
+**执行条件：** 外购牵引/外管金属组件及滑杆、滑环和支架塑料件，组装为止血夹；不覆盖组件供应商制造。 储位、合格状态、包装防护与交接签认应绑定。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 未核已包装止血夹自动入库方案，不能以产品装箱推仓储。
+
+**技术条件：** 储位、合格状态、包装防护与交接签认应绑定。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“将已包装止血夹存入成品库”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“将已包装止血夹存入成品库”涉及不同操作/质量/接收责任，需要约定“置入指定储位，追溯条件待核”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 未核已包装止血夹自动入库方案，不能以产品装箱推仓储。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“将已包装止血夹存入成品库”提供输入到“置入指定储位，追溯条件待核”验收的完整周期，区分机械运行和人的付薪时间。
+- 储位、合格状态、包装防护与交接签认应绑定。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：未核已包装止血夹自动入库方案，不能以产品装箱推仓储。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-insight-medical-eia-2024 / clip](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3462/site/attach/0/b3f28c7ee3e34f8281e72e85c14f6bd6.pdf)（PDF第23页（正文20）图2-3下第二段及焊接说明）
+
+**查询记录：** CN-MACHTR-main-019-1、CN-MACHTR-main-019-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-polymer-incoming-001 · 按进货检验文件检验器械用来料
+
+**结论：** 指南支持进货检验职责，未给匹配多种器械来料的自动检验机制。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入来料批次及检验文件；输出进货检验记录；验收提案：项目结果可对应批次，检验方法和限值待产品资料。具体现场阈值未验证。
+
+**执行条件：** 适用2023北京指南的生产企业，其厂内来料质量检验与洁净区交接；不据此宣称其他地区企业采用。 证书与实物抽检不同，按粒料、橡胶、金属和包装材料分别核项目。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 指南支持进货检验职责，未给匹配多种器械来料的自动检验机制。
+
+**技术条件：** 证书与实物抽检不同，按粒料、橡胶、金属和包装材料分别核项目。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“按进货检验文件检验器械用来料”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“按进货检验文件检验器械用来料”涉及不同操作/质量/接收责任，需要约定“项目结果可对应批次，检验方法和限值待产品资料”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 指南支持进货检验职责，未给匹配多种器械来料的自动检验机制。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“按进货检验文件检验器械用来料”提供输入到“项目结果可对应批次，检验方法和限值待产品资料”验收的完整周期，区分机械运行和人的付薪时间。
+- 证书与实物抽检不同，按粒料、橡胶、金属和包装材料分别核项目。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：指南支持进货检验职责，未给匹配多种器械来料的自动检验机制。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：执行来料检验；复核来料结果并签认去向。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-medical-polymer-bj-guide-2023 / incoming](https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/436310266/index.html)（六、采购；本批规范化HTML文本行248—274（进货检验行271））
+
+**查询记录：** CN-MACHTR-main-019-3、CN-MACHTR-main-019-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-polymer-incoming-002 · 对进入洁净区的器械用物料执行清洁处理
+
+**结论：** 指南确认工艺类型并非部署；对产品的清洗方法不能覆盖全部外包装物料表面。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入待转入物料；输出经规定清洁的物料；验收提案：按经验证方法完成处理且可追溯，详细步骤待核。具体现场阈值未验证。
+
+**执行条件：** 适用2023北京指南的生产企业，其厂内来料质量检验与洁净区交接；不据此宣称其他地区企业采用。 先分清进入洁净区物料与需末道清洗产品，核材质、污染、介质与再污染。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-medical-polymer-incoming-002-A1** 适用产品的程序超声或喷淋清洗（partial；official-guidance-not-deployment）。指南确认工艺类型并非部署；对产品的清洗方法不能覆盖全部外包装物料表面。 仅合适产品物料清洗候选；没有证实具体工厂采用。 证据期：2024-12-06；检索日仍可读不等于持续运行；范围：中国北京监管检查参考。 [CN-MACHTR-BJ-CLEAN-2024 / method](https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/543479831/index.html)（行127—144）
+
+**残留工作及未知执行者：** 指南确认工艺类型并非部署；对产品的清洗方法不能覆盖全部外包装物料表面。
+
+**技术条件：** 先分清进入洁净区物料与需末道清洗产品，核材质、污染、介质与再污染。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“对进入洁净区的器械用物料执行清洁处理”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“对进入洁净区的器械用物料执行清洁处理”涉及不同操作/质量/接收责任，需要约定“按经验证方法完成处理且可追溯，详细步骤待核”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 指南要求确认自动设备控制系统、培训、最差参数与中断影响，变更时评价再确认。 是适用条件与确认要求，不证明技术失败。 指南确认工艺类型并非部署；对产品的清洗方法不能覆盖全部外包装物料表面。 [CN-MACHTR-BJ-CLEAN-2024 / validate](https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/543479831/index.html)（行180—207）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 指南确认工艺类型并非部署；对产品的清洗方法不能覆盖全部外包装物料表面。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“对进入洁净区的器械用物料执行清洁处理”提供输入到“按经验证方法完成处理且可追溯，详细步骤待核”验收的完整周期，区分机械运行和人的付薪时间。
+- 先分清进入洁净区物料与需末道清洗产品，核材质、污染、介质与再污染。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：指南确认工艺类型并非部署；对产品的清洗方法不能覆盖全部外包装物料表面。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-medical-polymer-bj-guide-2023 / clean-product](https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/436310266/index.html)（七、生产管理 产品防护与清洁；本批文本行281—285）
+
+**查询记录：** CN-MACHTR-main-020-1、CN-MACHTR-main-020-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-polymer-clean-tools-001 · 清洁消毒医疗器械生产工作台
+
+**结论：** 产品清洗指南不适用工作台清消；本轮未获得匹配台面覆盖与消毒验收的自动化原文。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入待处理工作台及批准清洁用品；输出完成处理的工作台；验收提案：符合该工位清洁消毒程序，方法和放行判据待核。具体现场阈值未验证。
+
+**执行条件：** 生产企业自行执行的卫生任务；第三方专门保洁执行时按其实际服务业归属，不同时计入制造企业人工。 台面接触产品区域、清洁与消毒两种效果和残留分别核。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 产品清洗指南不适用工作台清消；本轮未获得匹配台面覆盖与消毒验收的自动化原文。
+
+**技术条件：** 台面接触产品区域、清洁与消毒两种效果和残留分别核。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“清洁消毒医疗器械生产工作台”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“清洁消毒医疗器械生产工作台”涉及不同操作/质量/接收责任，需要约定“符合该工位清洁消毒程序，方法和放行判据待核”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 指南区分手工与程序自动清洗，列超声和喷淋；方法应按产品和污染选择。 仅合适产品物料清洗候选；没有证实具体工厂采用。 产品清洗指南不适用工作台清消；本轮未获得匹配台面覆盖与消毒验收的自动化原文。 [CN-MACHTR-BJ-CLEAN-2024 / method](https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/543479831/index.html)（行127—144）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 产品清洗指南不适用工作台清消；本轮未获得匹配台面覆盖与消毒验收的自动化原文。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“清洁消毒医疗器械生产工作台”提供输入到“符合该工位清洁消毒程序，方法和放行判据待核”验收的完整周期，区分机械运行和人的付薪时间。
+- 台面接触产品区域、清洁与消毒两种效果和残留分别核。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：产品清洗指南不适用工作台清消；本轮未获得匹配台面覆盖与消毒验收的自动化原文。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：清洁工作台；消毒工作台。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-medical-polymer-bj-guide-2023 / clean-room](https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/436310266/index.html)（七、生产管理 洁净室卫生与清场；本批文本行287—295）
+
+**查询记录：** CN-MACHTR-main-020-3、CN-MACHTR-main-020-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-polymer-clean-tools-002 · 清洁消毒医疗器械洁净室建筑表面
+
+**结论：** 未获得同时匹配地墙顶表面的自动清消原文；空气紫外或臭氧不证明建筑表面物理清洁。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入规定区域的墙地顶面；输出已处理表面；验收提案：指定区域完成规定处理，细分工具路线待SOP。具体现场阈值未验证。
+
+**执行条件：** 生产企业自行执行的卫生任务；第三方专门保洁执行时按其实际服务业归属，不同时计入制造企业人工。 地墙顶可达面、表面材料与接触时间须分别定义。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 未获得同时匹配地墙顶表面的自动清消原文；空气紫外或臭氧不证明建筑表面物理清洁。
+
+**技术条件：** 地墙顶可达面、表面材料与接触时间须分别定义。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“清洁消毒医疗器械洁净室建筑表面”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“清洁消毒医疗器械洁净室建筑表面”涉及不同操作/质量/接收责任，需要约定“指定区域完成规定处理，细分工具路线待SOP”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 未获得同时匹配地墙顶表面的自动清消原文；空气紫外或臭氧不证明建筑表面物理清洁。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“清洁消毒医疗器械洁净室建筑表面”提供输入到“指定区域完成规定处理，细分工具路线待SOP”验收的完整周期，区分机械运行和人的付薪时间。
+- 地墙顶可达面、表面材料与接触时间须分别定义。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：未获得同时匹配地墙顶表面的自动清消原文；空气紫外或臭氧不证明建筑表面物理清洁。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：清洁规定建筑表面；消毒规定建筑表面。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-medical-polymer-bj-guide-2023 / clean-room](https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/436310266/index.html)（七、生产管理 洁净室卫生与清场；本批文本行287—295）
+
+**查询记录：** CN-MACHTR-main-021-1、CN-MACHTR-main-021-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-polymer-clean-tools-003 · 清洗医疗器械洁净区清洁工具
+
+**结论：** 生产产品自动清洗不能直接证明清洁工具清洗；专间卫生要求只支持操作边界。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入使用后的专用清洁工具；输出已洗工具；验收提案：污物按程序去除，清洁度判据待核。具体现场阈值未验证。
+
+**执行条件：** 生产企业自行执行的卫生任务；第三方专门保洁执行时按其实际服务业归属，不同时计入制造企业人工。 拖布刷具材质、污染负荷与交叉污染控制需逐类验证。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 生产产品自动清洗不能直接证明清洁工具清洗；专间卫生要求只支持操作边界。
+
+**技术条件：** 拖布刷具材质、污染负荷与交叉污染控制需逐类验证。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“清洗医疗器械洁净区清洁工具”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“清洗医疗器械洁净区清洁工具”涉及不同操作/质量/接收责任，需要约定“污物按程序去除，清洁度判据待核”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 指南区分手工与程序自动清洗，列超声和喷淋；方法应按产品和污染选择。 仅合适产品物料清洗候选；没有证实具体工厂采用。 生产产品自动清洗不能直接证明清洁工具清洗；专间卫生要求只支持操作边界。 [CN-MACHTR-BJ-CLEAN-2024 / method](https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/543479831/index.html)（行127—144）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 生产产品自动清洗不能直接证明清洁工具清洗；专间卫生要求只支持操作边界。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“清洗医疗器械洁净区清洁工具”提供输入到“污物按程序去除，清洁度判据待核”验收的完整周期，区分机械运行和人的付薪时间。
+- 拖布刷具材质、污染负荷与交叉污染控制需逐类验证。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：生产产品自动清洗不能直接证明清洁工具清洗；专间卫生要求只支持操作边界。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-medical-polymer-bj-guide-2023 / clean-room](https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/436310266/index.html)（七、生产管理 洁净室卫生与清场；本批文本行287—295）
+
+**查询记录：** CN-MACHTR-main-021-3、CN-MACHTR-main-021-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-polymer-clean-tools-004 · 干燥清洗后的洁净区清洁工具
+
+**结论：** 规范要求洗后干燥（方式未知），未核匹配工具自动干燥和残余水分验收。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入已清洗工具；输出干燥工具；验收提案：达到规定存放条件，干燥方式和终点待核。具体现场阈值未验证。
+
+**执行条件：** 生产企业自行执行的卫生任务；第三方专门保洁执行时按其实际服务业归属，不同时计入制造企业人工。 工具结构积水、温度耐受与干燥后保存方式需确认。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 规范要求洗后干燥（方式未知），未核匹配工具自动干燥和残余水分验收。
+
+**技术条件：** 工具结构积水、温度耐受与干燥后保存方式需确认。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“干燥清洗后的洁净区清洁工具”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“干燥清洗后的洁净区清洁工具”涉及不同操作/质量/接收责任，需要约定“达到规定存放条件，干燥方式和终点待核”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 指南明确干燥、初包装封口应另确认，但本指南未包含。 不能用来支持自动工具干燥或包装。 规范要求洗后干燥（方式未知），未核匹配工具自动干燥和残余水分验收。 [CN-MACHTR-BJ-CLEAN-2024 / exclude](https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/543479831/index.html)（行128、131—133）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 规范要求洗后干燥（方式未知），未核匹配工具自动干燥和残余水分验收。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“干燥清洗后的洁净区清洁工具”提供输入到“达到规定存放条件，干燥方式和终点待核”验收的完整周期，区分机械运行和人的付薪时间。
+- 工具结构积水、温度耐受与干燥后保存方式需确认。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：规范要求洗后干燥（方式未知），未核匹配工具自动干燥和残余水分验收。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-medical-polymer-bj-guide-2023 / clean-room](https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/436310266/index.html)（七、生产管理 洁净室卫生与清场；本批文本行287—295）
+
+**查询记录：** CN-MACHTR-main-022-1、CN-MACHTR-main-022-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-polymer-clean-tools-005 · 将洁净区清洁工具归入专用储位
+
+**结论：** 专用工具储存设施要求不等于机器人归位，未得工具识别与隔离存储原文。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入干燥清洁工具；输出分区储放工具；验收提案：清洁和污染工具隔离且归位。具体现场阈值未验证。
+
+**执行条件：** 生产企业自行执行的卫生任务；第三方专门保洁执行时按其实际服务业归属，不同时计入制造企业人工。 洁污标识、工具类别和专用储位验收需明确。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 专用工具储存设施要求不等于机器人归位，未得工具识别与隔离存储原文。
+
+**技术条件：** 洁污标识、工具类别和专用储位验收需明确。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“将洁净区清洁工具归入专用储位”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“将洁净区清洁工具归入专用储位”涉及不同操作/质量/接收责任，需要约定“清洁和污染工具隔离且归位”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 专用工具储存设施要求不等于机器人归位，未得工具识别与隔离存储原文。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“将洁净区清洁工具归入专用储位”提供输入到“清洁和污染工具隔离且归位”验收的完整周期，区分机械运行和人的付薪时间。
+- 洁污标识、工具类别和专用储位验收需明确。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：专用工具储存设施要求不等于机器人归位，未得工具识别与隔离存储原文。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-medical-polymer-bj-guide-2023 / clean-room](https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/436310266/index.html)（七、生产管理 洁净室卫生与清场；本批文本行287—295）
+
+**查询记录：** CN-MACHTR-main-022-3、CN-MACHTR-main-022-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-polymer-line-clearance-001 · 清除产线遗留的前批产品物料
+
+**结论：** 指南明确清前批物料；无匹配机器人清场和全部遗留物检出实例。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入已结束批次的产线与残留物；输出完成清场的产线；验收提案：现场无上一批残留且符合清场程序，细目待SOP。具体现场阈值未验证。
+
+**执行条件：** 生产结束、换产品或必要中断后的生产恢复条件；不是将所有中断都定义为常规返工。 狭缝、容器、台面及在制品停放位置都应列入本线清场边界。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 指南明确清前批物料；无匹配机器人清场和全部遗留物检出实例。
+
+**技术条件：** 狭缝、容器、台面及在制品停放位置都应列入本线清场边界。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“清除产线遗留的前批产品物料”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“清除产线遗留的前批产品物料”涉及不同操作/质量/接收责任，需要约定“现场无上一批残留且符合清场程序，细目待SOP”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 指南明确清前批物料；无匹配机器人清场和全部遗留物检出实例。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“清除产线遗留的前批产品物料”提供输入到“现场无上一批残留且符合清场程序，细目待SOP”验收的完整周期，区分机械运行和人的付薪时间。
+- 狭缝、容器、台面及在制品停放位置都应列入本线清场边界。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：指南明确清前批物料；无匹配机器人清场和全部遗留物检出实例。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-medical-polymer-bj-guide-2023 / clean-room](https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/436310266/index.html)（七、生产管理 洁净室卫生与清场；本批文本行287—295）
+
+**查询记录：** CN-MACHTR-main-023-1、CN-MACHTR-main-023-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-polymer-line-clearance-002 · 核验医疗器械产线清场结果
+
+**结论：** 清场记录或电子签名不证明物理遗留全检，也不能代替签认责任。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入完成清场的产线与记录；输出清场检查确认；验收提案：清场状态与记录对应后才转下批，权限待核。具体现场阈值未验证。
+
+**执行条件：** 生产结束、换产品或必要中断后的生产恢复条件；不是将所有中断都定义为常规返工。 清场检查表应绑定部位与批次，记录生成和检查完成分别核。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 清场记录或电子签名不证明物理遗留全检，也不能代替签认责任。
+
+**技术条件：** 清场检查表应绑定部位与批次，记录生成和检查完成分别核。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“核验医疗器械产线清场结果”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“核验医疗器械产线清场结果”涉及不同操作/质量/接收责任，需要约定“清场状态与记录对应后才转下批，权限待核”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 清场记录或电子签名不证明物理遗留全检，也不能代替签认责任。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“核验医疗器械产线清场结果”提供输入到“清场状态与记录对应后才转下批，权限待核”验收的完整周期，区分机械运行和人的付薪时间。
+- 清场检查表应绑定部位与批次，记录生成和检查完成分别核。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：清场记录或电子签名不证明物理遗留全检，也不能代替签认责任。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-medical-polymer-bj-guide-2023 / clean-room](https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/436310266/index.html)（七、生产管理 洁净室卫生与清场；本批文本行287—295）
+
+**查询记录：** CN-MACHTR-main-023-3、CN-MACHTR-main-023-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-medical-polymer-line-clearance-003 · 评估生产中断对器械在制批次的影响
+
+**结论：** 中断影响评估须结合产品与过程，未获得自动独立判定批次放行的原文。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入中断事件和在制批次记录；输出批次影响评估及处置决定；验收提案：产品去向和恢复条件有记录，需质量责任人确认。具体现场阈值未验证。
+
+**执行条件：** 生产结束、换产品或必要中断后的生产恢复条件；不是将所有中断都定义为常规返工。 中断持续时间、环境失控和在制品暴露数据需供责任人判断。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 中断影响评估须结合产品与过程，未获得自动独立判定批次放行的原文。
+
+**技术条件：** 中断持续时间、环境失控和在制品暴露数据需供责任人判断。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“评估生产中断对器械在制批次的影响”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“评估生产中断对器械在制批次的影响”涉及不同操作/质量/接收责任，需要约定“产品去向和恢复条件有记录，需质量责任人确认”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 指南要求确认自动设备控制系统、培训、最差参数与中断影响，变更时评价再确认。 是适用条件与确认要求，不证明技术失败。 中断影响评估须结合产品与过程，未获得自动独立判定批次放行的原文。 [CN-MACHTR-BJ-CLEAN-2024 / validate](https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/543479831/index.html)（行180—207）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 中断影响评估须结合产品与过程，未获得自动独立判定批次放行的原文。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“评估生产中断对器械在制批次的影响”提供输入到“产品去向和恢复条件有记录，需质量责任人确认”验收的完整周期，区分机械运行和人的付薪时间。
+- 中断持续时间、环境失控和在制品暴露数据需供责任人判断。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：中断影响评估须结合产品与过程，未获得自动独立判定批次放行的原文。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / medical-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第490（印刷483）页；该职业主要工作任务）；[cn-medical-polymer-bj-guide-2023 / interruption](https://yjj.beijing.gov.cn/yjj/ztzl48/ylqxjgfwzn/jdjczn61/436310266/index.html)（七、生产管理 工艺验证和中断；本批文本行277—279）
+
+**查询记录：** CN-MACHTR-main-024-1、CN-MACHTR-main-024-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-auto-final-assembly-001 · 核对总装待用零部件与车型配置
+
+**结论：** 车辆线尾视觉查验不等于总装上线前全部零部件与车型核配；职业也未逐述核件。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入零部件及车型单；输出配置核对结果；验收提案：错件缺件在装配前识别。具体现场阈值未验证。
+
+**执行条件：** 代码36；从已制造零部件至总装检验，不重复计发动机等零部件制造；不同动力及乘商车型按适用分支。 车型配置版本、实物标识、替代件许可与错件隔离需先固定。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 车辆线尾视觉查验不等于总装上线前全部零部件与车型核配；职业也未逐述核件。
+
+**技术条件：** 车型配置版本、实物标识、替代件许可与错件隔离需先固定。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“核对总装待用零部件与车型配置”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“核对总装待用零部件与车型配置”涉及不同操作/质量/接收责任，需要约定“错件缺件在装配前识别”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 厂商提供铭牌、随车证书和预查验系统。 属于交付前信息查验，未替代车辆交接与法定放行责任。 车辆线尾视觉查验不等于总装上线前全部零部件与车型核配；职业也未逐述核件。 [CN-MACHTR-FITOW-FINAL / release](https://www.fitow.com/article-detail/bmzrlV0B)（行52—53）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 车辆线尾视觉查验不等于总装上线前全部零部件与车型核配；职业也未逐述核件。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“核对总装待用零部件与车型配置”提供输入到“错件缺件在装配前识别”验收的完整周期，区分机械运行和人的付薪时间。
+- 车型配置版本、实物标识、替代件许可与错件隔离需先固定。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：车辆线尾视觉查验不等于总装上线前全部零部件与车型核配；职业也未逐述核件。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / autoassembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第493（印刷486）页；该职业主要工作任务）；[cn-auto-hj971-2026 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/W020260903357835401097.pdf)（物理 PDF 第7页 §4.2.1、表1；第10页表1续表（印刷7）装配及检测试验单元）
+
+**查询记录：** CN-MACHTR-main-024-3、CN-MACHTR-main-024-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-auto-final-assembly-002 · 装配并调整传动装置
+
+**结论：** 未核匹配传动轴万向节等装配调整原文；IBC线拧紧不属于该任务。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入传动零部件；输出传动组件；验收提案：连接和调节符合车型要求。具体现场阈值未验证。
+
+**执行条件：** 代码36；从已制造零部件至总装检验，不重复计发动机等零部件制造；不同动力及乘商车型按适用分支。 传动件类型、相位对正、紧固与调整验收应按车型明确。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 未核匹配传动轴万向节等装配调整原文；IBC线拧紧不属于该任务。
+
+**技术条件：** 传动件类型、相位对正、紧固与调整验收应按车型明确。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“装配并调整传动装置”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“装配并调整传动装置”涉及不同操作/质量/接收责任，需要约定“连接和调节符合车型要求”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 未核匹配传动轴万向节等装配调整原文；IBC线拧紧不属于该任务。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“装配并调整传动装置”提供输入到“连接和调节符合车型要求”验收的完整周期，区分机械运行和人的付薪时间。
+- 传动件类型、相位对正、紧固与调整验收应按车型明确。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：未核匹配传动轴万向节等装配调整原文；IBC线拧紧不属于该任务。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：装配传动装置；调整传动装置。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / autoassembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第493（印刷486）页；该职业主要工作任务）；[cn-auto-hj971-2026 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/W020260903357835401097.pdf)（物理 PDF 第7页 §4.2.1、表1；第10页表1续表（印刷7）装配及检测试验单元）
+
+**查询记录：** CN-MACHTR-main-025-1、CN-MACHTR-main-025-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-auto-final-assembly-003 · 装配并调整前后桥
+
+**结论：** 底盘泛称自动送钉不能直接证明车桥装配和调整。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入桥及关联部件；输出车桥组件；验收提案：位置连接和调整符合车型要求。具体现场阈值未验证。
+
+**执行条件：** 代码36；从已制造零部件至总装检验，不重复计发动机等零部件制造；不同动力及乘商车型按适用分支。 桥型、吊装定位、连接基准与调整结果需分别测量。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 底盘泛称自动送钉不能直接证明车桥装配和调整。
+
+**技术条件：** 桥型、吊装定位、连接基准与调整结果需分别测量。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“装配并调整前后桥”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“装配并调整前后桥”涉及不同操作/质量/接收责任，需要约定“位置连接和调整符合车型要求”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 底盘泛称自动送钉不能直接证明车桥装配和调整。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“装配并调整前后桥”提供输入到“位置连接和调整符合车型要求”验收的完整周期，区分机械运行和人的付薪时间。
+- 桥型、吊装定位、连接基准与调整结果需分别测量。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：底盘泛称自动送钉不能直接证明车桥装配和调整。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：装配前后桥；调整前后桥。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / autoassembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第493（印刷486）页；该职业主要工作任务）；[cn-auto-hj971-2026 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/W020260903357835401097.pdf)（物理 PDF 第7页 §4.2.1、表1；第10页表1续表（印刷7）装配及检测试验单元）
+
+**查询记录：** CN-MACHTR-main-025-3、CN-MACHTR-main-025-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-auto-final-assembly-004 · 装配并调整悬架系统
+
+**结论：** 属于悬架部件生产，未证明悬架系统装到车型上并完成调整。
+
+**研究状态：** 邻接候选，迁移待核；当前作者修订未独立复检。
+
+**边界：** 输入悬架零部件；输出悬架组件；验收提案：安装和调节符合车型要求。具体现场阈值未验证。
+
+**执行条件：** 代码36；从已制造零部件至总装检验，不重复计发动机等零部件制造；不同动力及乘商车型按适用分支。 钢板弹簧、空气悬架等路线互斥，应按车型和装配执行者区分。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-auto-final-assembly-004-A1** 空气弹簧与供气单元装检线（adjacent；vendor-product-description-and-reported-deliveries）。属于悬架部件生产，未证明悬架系统装到车型上并完成调整。 只能作悬架部件装配邻接线索，非全系统装車证据。 证据期：2026-06-10；检索日仍可读不等于持续运行；范围：中国厂商；国内外未具名客户。 [CN-MACHTR-SIASUN-SUSPENSION / assemble](https://www.siasun.com/news-detail1000.html)（行74—77）
+
+**残留工作及未知执行者：** 属于悬架部件生产，未证明悬架系统装到车型上并完成调整。
+
+**技术条件：** 钢板弹簧、空气悬架等路线互斥，应按车型和装配执行者区分。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“装配并调整悬架系统”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“装配并调整悬架系统”涉及不同操作/质量/接收责任，需要约定“安装和调节符合车型要求”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 属于悬架部件生产，未证明悬架系统装到车型上并完成调整。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“装配并调整悬架系统”提供输入到“安装和调节符合车型要求”验收的完整周期，区分机械运行和人的付薪时间。
+- 钢板弹簧、空气悬架等路线互斥，应按车型和装配执行者区分。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：属于悬架部件生产，未证明悬架系统装到车型上并完成调整。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：装配悬架系统；调整悬架系统。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / autoassembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第493（印刷486）页；该职业主要工作任务）；[cn-auto-hj971-2026 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/W020260903357835401097.pdf)（物理 PDF 第7页 §4.2.1、表1；第10页表1续表（印刷7）装配及检测试验单元）
+
+**查询记录：** CN-MACHTR-main-026-1、CN-MACHTR-main-026-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-auto-final-assembly-005 · 装配车辆线束及电器
+
+**结论：** 三维工艺或控制器功能测试不能替代整车柔性线束铺设及电器装配。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入线束电器及车体；输出连接完成的电器系统；验收提案：连接位置与车型线图一致。具体现场阈值未验证。
+
+**执行条件：** 代码36；从已制造零部件至总装检验，不重复计发动机等零部件制造；不同动力及乘商车型按适用分支。 线束分支、插接器到位、走线防磨及系统电气连接需验收。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 三维工艺或控制器功能测试不能替代整车柔性线束铺设及电器装配。
+
+**技术条件：** 线束分支、插接器到位、走线防磨及系统电气连接需验收。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“装配车辆线束及电器”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“装配车辆线束及电器”涉及不同操作/质量/接收责任，需要约定“连接位置与车型线图一致”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 三维工艺或控制器功能测试不能替代整车柔性线束铺设及电器装配。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“装配车辆线束及电器”提供输入到“连接位置与车型线图一致”验收的完整周期，区分机械运行和人的付薪时间。
+- 线束分支、插接器到位、走线防磨及系统电气连接需验收。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：三维工艺或控制器功能测试不能替代整车柔性线束铺设及电器装配。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：布置固定线束；连接电器与线束接口。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / autoassembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第493（印刷486）页；该职业主要工作任务）；[cn-auto-hj971-2026 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/W020260903357835401097.pdf)（物理 PDF 第7页 §4.2.1、表1；第10页表1续表（印刷7）装配及检测试验单元）
+
+**查询记录：** CN-MACHTR-main-026-3、CN-MACHTR-main-026-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-auto-final-assembly-006 · 装配并调整制动系统
+
+**结论：** 仅制动控制器部件线；未证明整车制动管路、车轮制动器安装及调整。
+
+**研究状态：** 邻接候选，迁移待核；当前作者修订未独立复检。
+
+**边界：** 输入制动零部件；输出制动系统；验收提案：安装调节按车型工艺完成。具体现场阈值未验证。
+
+**执行条件：** 代码36；从已制造零部件至总装检验，不重复计发动机等零部件制造；不同动力及乘商车型按适用分支。 接头防错、管路泄漏与系统调试需分开验证。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-auto-final-assembly-006-A1** IBC部件伺服拧紧（adjacent；vendor-reported-line-construction）。仅制动控制器部件线；未证明整车制动管路、车轮制动器安装及调整。 IBC 控制器部件线，不是整车制动管路装配。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国东风驭新线控制动 IBC 部件项目。 [CN-MACHTR-DESOUTTER-DONGFENG / tighten](https://www.desouttertools.com/zh-cn/articles/success-story-dongfeng-yuxin)（行184—202）
+
+**残留工作及未知执行者：** 仅制动控制器部件线；未证明整车制动管路、车轮制动器安装及调整。
+
+**技术条件：** 接头防错、管路泄漏与系统调试需分开验证。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“装配并调整制动系统”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“装配并调整制动系统”涉及不同操作/质量/接收责任，需要约定“安装调节按车型工艺完成”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 项目描述仍把投产作为后续事项。 仅阶段边界，不是失败或退出。 仅制动控制器部件线；未证明整车制动管路、车轮制动器安装及调整。 [CN-MACHTR-DESOUTTER-DONGFENG / stage](https://www.desouttertools.com/zh-cn/articles/success-story-dongfeng-yuxin)（行178—183）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 仅制动控制器部件线；未证明整车制动管路、车轮制动器安装及调整。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“装配并调整制动系统”提供输入到“安装调节按车型工艺完成”验收的完整周期，区分机械运行和人的付薪时间。
+- 接头防错、管路泄漏与系统调试需分开验证。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：仅制动控制器部件线；未证明整车制动管路、车轮制动器安装及调整。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：装配制动系统；调整制动系统。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / autoassembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第493（印刷486）页；该职业主要工作任务）；[cn-auto-hj971-2026 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/W020260903357835401097.pdf)（物理 PDF 第7页 §4.2.1、表1；第10页表1续表（印刷7）装配及检测试验单元）
+
+**查询记录：** CN-MACHTR-main-027-1、CN-MACHTR-main-027-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-auto-final-assembly-007 · 装配并调整转向系统
+
+**结论：** 未核整车转向系统装配调整自动化原文；一般电批目录不足以覆盖任务。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入转向零部件；输出转向系统；验收提案：安装调节按车型工艺完成。具体现场阈值未验证。
+
+**执行条件：** 代码36；从已制造零部件至总装检验，不重复计发动机等零部件制造；不同动力及乘商车型按适用分支。 转向器与拉杆定位、自由间隙及功能验收需按车型确定。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 未核整车转向系统装配调整自动化原文；一般电批目录不足以覆盖任务。
+
+**技术条件：** 转向器与拉杆定位、自由间隙及功能验收需按车型确定。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“装配并调整转向系统”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“装配并调整转向系统”涉及不同操作/质量/接收责任，需要约定“安装调节按车型工艺完成”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 未核整车转向系统装配调整自动化原文；一般电批目录不足以覆盖任务。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“装配并调整转向系统”提供输入到“安装调节按车型工艺完成”验收的完整周期，区分机械运行和人的付薪时间。
+- 转向器与拉杆定位、自由间隙及功能验收需按车型确定。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：未核整车转向系统装配调整自动化原文；一般电批目录不足以覆盖任务。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：装配转向系统；调整转向系统。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / autoassembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第493（印刷486）页；该职业主要工作任务）；[cn-auto-hj971-2026 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/W020260903357835401097.pdf)（物理 PDF 第7页 §4.2.1、表1；第10页表1续表（印刷7）装配及检测试验单元）
+
+**查询记录：** CN-MACHTR-main-027-3、CN-MACHTR-main-027-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-auto-final-assembly-008 · 装配车轮总成
+
+**结论：** 轮胎安装到车轴的拧紧线索不同于车轮总成组装；本轮未核匹配动作原文。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入轮胎轮辋相关件；输出车轮总成；验收提案：轮胎和轮辋配置匹配。具体现场阈值未验证。
+
+**执行条件：** 代码36；从已制造零部件至总装检验，不重复计发动机等零部件制造；不同动力及乘商车型按适用分支。 轮辋轮胎配合、装胎与充气边界先明确，不把整车装轮合并。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 轮胎安装到车轴的拧紧线索不同于车轮总成组装；本轮未核匹配动作原文。
+
+**技术条件：** 轮辋轮胎配合、装胎与充气边界先明确，不把整车装轮合并。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“装配车轮总成”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“装配车轮总成”涉及不同操作/质量/接收责任，需要约定“轮胎和轮辋配置匹配”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 轮胎安装到车轴的拧紧线索不同于车轮总成组装；本轮未核匹配动作原文。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“装配车轮总成”提供输入到“轮胎和轮辋配置匹配”验收的完整周期，区分机械运行和人的付薪时间。
+- 轮辋轮胎配合、装胎与充气边界先明确，不把整车装轮合并。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：轮胎安装到车轴的拧紧线索不同于车轮总成组装；本轮未核匹配动作原文。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / autoassembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第493（印刷486）页；该职业主要工作任务）；[cn-auto-hj971-2026 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/W020260903357835401097.pdf)（物理 PDF 第7页 §4.2.1、表1；第10页表1续表（印刷7）装配及检测试验单元）
+
+**查询记录：** CN-MACHTR-main-028-1、CN-MACHTR-main-028-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-auto-final-assembly-009 · 平衡车轮总成
+
+**结论：** 未核匹配轮胎轮辋总成动平衡原文；轴承振动分档不属于轮组平衡。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入已装车轮；输出平衡结果；验收提案：符合车型平衡要求。具体现场阈值未验证。
+
+**执行条件：** 代码36；从已制造零部件至总装检验，不重复计发动机等零部件制造；不同动力及乘商车型按适用分支。 平衡判据、夹持中心及配重校正、复检需分别计时。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 未核匹配轮胎轮辋总成动平衡原文；轴承振动分档不属于轮组平衡。
+
+**技术条件：** 平衡判据、夹持中心及配重校正、复检需分别计时。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“平衡车轮总成”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“平衡车轮总成”涉及不同操作/质量/接收责任，需要约定“符合车型平衡要求”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 未核匹配轮胎轮辋总成动平衡原文；轴承振动分档不属于轮组平衡。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“平衡车轮总成”提供输入到“符合车型平衡要求”验收的完整周期，区分机械运行和人的付薪时间。
+- 平衡判据、夹持中心及配重校正、复检需分别计时。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：未核匹配轮胎轮辋总成动平衡原文；轴承振动分档不属于轮组平衡。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：测量车轮平衡状态；按测量校正并复测。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / autoassembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第493（印刷486）页；该职业主要工作任务）；[cn-auto-hj971-2026 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/W020260903357835401097.pdf)（物理 PDF 第7页 §4.2.1、表1；第10页表1续表（印刷7）装配及检测试验单元）
+
+**查询记录：** CN-MACHTR-main-028-3、CN-MACHTR-main-028-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-auto-final-assembly-010 · 检验车轮总成气密状态
+
+**结论：** 软管试压或轴承检测不能证明车轮总成气密测试；本轮仍缺匹配原文。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入充气车轮；输出气密检验结果；验收提案：按车型要求确认漏气状态。具体现场阈值未验证。
+
+**执行条件：** 代码36；从已制造零部件至总装检验，不重复计发动机等零部件制造；不同动力及乘商车型按适用分支。 轮胎轮辋气门嘴组合、压力状态与允许泄漏量需以产品规程核实。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 软管试压或轴承检测不能证明车轮总成气密测试；本轮仍缺匹配原文。
+
+**技术条件：** 轮胎轮辋气门嘴组合、压力状态与允许泄漏量需以产品规程核实。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“检验车轮总成气密状态”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“检验车轮总成气密状态”涉及不同操作/质量/接收责任，需要约定“按车型要求确认漏气状态”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 软管试压或轴承检测不能证明车轮总成气密测试；本轮仍缺匹配原文。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“检验车轮总成气密状态”提供输入到“按车型要求确认漏气状态”验收的完整周期，区分机械运行和人的付薪时间。
+- 轮胎轮辋气门嘴组合、压力状态与允许泄漏量需以产品规程核实。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：软管试压或轴承检测不能证明车轮总成气密测试；本轮仍缺匹配原文。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / autoassembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第493（印刷486）页；该职业主要工作任务）；[cn-auto-hj971-2026 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/W020260903357835401097.pdf)（物理 PDF 第7页 §4.2.1、表1；第10页表1续表（印刷7）装配及检测试验单元）
+
+**查询记录：** CN-MACHTR-main-029-1、CN-MACHTR-main-029-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-auto-final-assembly-011 · 铆接适用车型车架
+
+**结论：** 自动送钉是螺钉供给，不是车架铆接；未核本批车架机器人铆接原文。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入车架构件与铆钉；输出车架总成；验收提案：铆接位置与连接状态符合图纸。具体现场阈值未验证。
+
+**执行条件：** 代码36；从已制造零部件至总装检验，不重复计发动机等零部件制造；不同动力及乘商车型按适用分支。 限适用商用车型车架，铆钉规格、接合间隙和接头验收需确认。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 自动送钉是螺钉供给，不是车架铆接；未核本批车架机器人铆接原文。
+
+**技术条件：** 限适用商用车型车架，铆钉规格、接合间隙和接头验收需确认。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“铆接适用车型车架”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“铆接适用车型车架”涉及不同操作/质量/接收责任，需要约定“铆接位置与连接状态符合图纸”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 自动送钉是螺钉供给，不是车架铆接；未核本批车架机器人铆接原文。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“铆接适用车型车架”提供输入到“铆接位置与连接状态符合图纸”验收的完整周期，区分机械运行和人的付薪时间。
+- 限适用商用车型车架，铆钉规格、接合间隙和接头验收需确认。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：自动送钉是螺钉供给，不是车架铆接；未核本批车架机器人铆接原文。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / autoassembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第493（印刷486）页；该职业主要工作任务）；[cn-auto-hj971-2026 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/W020260903357835401097.pdf)（物理 PDF 第7页 §4.2.1、表1；第10页表1续表（印刷7）装配及检测试验单元）
+
+**查询记录：** CN-MACHTR-main-029-3、CN-MACHTR-main-029-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-auto-final-assembly-012 · 合装车身、动力和底盘模块
+
+**结论：** 只支持螺钉供给与拧紧配套，车身动力底盘定位搬装及连接调整仍未支持。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入各合格模块；输出合装车辆；验收提案：模块配置与车号一致。具体现场阈值未验证。
+
+**执行条件：** 代码36；从已制造零部件至总装检验，不重复计发动机等零部件制造；不同动力及乘商车型按适用分支。 模块姿态、紧固点可达、长钉供料与工位窗口需分开验收。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-auto-final-assembly-012-A1** 合装工位螺钉供料（partial；vendor-reported-customer-production）。只支持螺钉供给与拧紧配套，车身动力底盘定位搬装及连接调整仍未支持。 只支持合装等工位的螺钉供给，不能覆盖整车模块搬运对接。 证据期：2026-07-15；检索日仍可读不等于持续运行；范围：中国匿名新能源整车厂。 [CN-MACHTR-LEETX-ASSEMBLY / feed](https://www.leetx.com/gyinfo/157.html)（行125—133）
+
+**残留工作及未知执行者：** 只支持螺钉供给与拧紧配套，车身动力底盘定位搬装及连接调整仍未支持。
+
+**技术条件：** 模块姿态、紧固点可达、长钉供料与工位窗口需分开验收。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“合装车身、动力和底盘模块”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“合装车身、动力和底盘模块”涉及不同操作/质量/接收责任，需要约定“模块配置与车号一致”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 厂家称长螺钉、多姿态和送料窗口使通用方案难直接复用。 特定项目自述约束；不能扩到没有螺钉的其他总装任务。 只支持螺钉供给与拧紧配套，车身动力底盘定位搬装及连接调整仍未支持。 [CN-MACHTR-LEETX-ASSEMBLY / limit](https://www.leetx.com/gyinfo/157.html)（行117—124）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 只支持螺钉供给与拧紧配套，车身动力底盘定位搬装及连接调整仍未支持。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“合装车身、动力和底盘模块”提供输入到“模块配置与车号一致”验收的完整周期，区分机械运行和人的付薪时间。
+- 模块姿态、紧固点可达、长钉供料与工位窗口需分开验收。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：只支持螺钉供给与拧紧配套，车身动力底盘定位搬装及连接调整仍未支持。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：定位对接车身动力底盘模块；连接紧固合装模块。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / autoassembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第493（印刷486）页；该职业主要工作任务）；[cn-auto-hj971-2026 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/W020260903357835401097.pdf)（物理 PDF 第7页 §4.2.1、表1；第10页表1续表（印刷7）装配及检测试验单元）
+
+**查询记录：** CN-MACHTR-main-030-1、CN-MACHTR-main-030-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-auto-final-assembly-013 · 调整整车机械和电器连接
+
+**结论：** 案例供钉发生在车身合装、内饰和底盘装配工位；迁入已合装车辆的后续机械、电器调整尚未核实，只作邻接候选。
+
+**研究状态：** 邻接候选，迁移待核；当前作者修订未独立复检。
+
+**边界：** 输入合装车辆；输出调整车辆；验收提案：系统调节符合下线条件。具体现场阈值未验证。
+
+**执行条件：** 代码36；从已制造零部件至总装检验，不重复计发动机等零部件制造；不同动力及乘商车型按适用分支。 按缺陷类型分清紧固、位置与电气接通，送料结束不等于调整完成。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-auto-final-assembly-013-A1** 总装螺钉供给配套（adjacent；vendor-reported-customer-production）。供钉结构在原合装场景有描述；调整或返工的触发、供钉接口及工序匹配未核。原案例约束仅绑定此邻接候选，不作为当前调整已证实障碍。 证据期：2026-07-15；检索日仍可读不等于持续运行；范围：中国匿名新能源整车厂。 [CN-MACHTR-LEETX-ASSEMBLY / feed](https://www.leetx.com/gyinfo/157.html)（行125—133）
+
+**残留工作及未知执行者：** 案例供钉发生在车身合装、内饰和底盘装配工位；迁入已合装车辆的后续机械、电器调整尚未核实，只作邻接候选。
+
+**技术条件：** 按缺陷类型分清紧固、位置与电气接通，送料结束不等于调整完成。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“调整整车机械和电器连接”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“调整整车机械和电器连接”涉及不同操作/质量/接收责任，需要约定“系统调节符合下线条件”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 厂家称长螺钉、多姿态和送料窗口使通用方案难直接复用。 原供钉案例的规格、姿态和送料窗口约束，限定于此邻接候选自身；当前后调或返工是否共用该设备未核。 [CN-MACHTR-LEETX-ASSEMBLY / limit](https://www.leetx.com/gyinfo/157.html)（行117—124）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 案例供钉发生在车身合装、内饰和底盘装配工位；迁入已合装车辆的后续机械、电器调整尚未核实，只作邻接候选。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“调整整车机械和电器连接”提供输入到“系统调节符合下线条件”验收的完整周期，区分机械运行和人的付薪时间。
+- 按缺陷类型分清紧固、位置与电气接通，送料结束不等于调整完成。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：案例供钉发生在车身合装、内饰和底盘装配工位；迁入已合装车辆的后续机械、电器调整尚未核实，只作邻接候选。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：调整机械连接；调整电器连接。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / autoassembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第493（印刷486）页；该职业主要工作任务）；[cn-auto-hj971-2026 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/W020260903357835401097.pdf)（物理 PDF 第7页 §4.2.1、表1；第10页表1续表（印刷7）装配及检测试验单元）
+
+**查询记录：** CN-MACHTR-main-030-3、CN-MACHTR-main-030-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-auto-final-assembly-014 · 执行下线系统功能检验
+
+**结论：** 外观和零部件ECU检测都不直接覆盖整车系统功能验收。
+
+**研究状态：** 邻接候选，迁移待核；当前作者修订未独立复检。
+
+**边界：** 输入调整车辆；输出功能检验记录；验收提案：动力底盘电器结果对应车号。具体现场阈值未验证。
+
+**执行条件：** 代码36；从已制造零部件至总装检验，不重复计发动机等零部件制造；不同动力及乘商车型按适用分支。 传动制动转向等系统测试、静态和动态条件及实车接口需核。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-auto-final-assembly-014-A1** 外观与装配有无视觉检查（adjacent；vendor-product-mechanism）。外观和零部件ECU检测都不直接覆盖整车系统功能验收。 仅可见外观及装配有无，不支持力矩、气密、动态功能。 证据期：2023-10-20；检索日仍可读不等于持续运行；范围：中国厂商说明；客户名单未对应每个工位。 [CN-MACHTR-FITOW-FINAL / vision](https://www.fitow.com/article-detail/bmzrlV0B)（行47—49）
+
+- **cn-ind-auto-final-assembly-014-A2** ECU程控终检（adjacent；vendor-product-mechanism）。外观和零部件ECU检测都不直接覆盖整车系统功能验收。 仅电子控制器测试相邻方案；总装整车接口、真实负载与验收另核。 证据期：2026-08-05；检索日仍可读不等于持续运行；范围：中国厂商产品说明；客户未具名。 [CN-MACHTR-TOSUN-EOL / test](https://www.tosunai.com/software-hardware-synergy-tosun-eol-end-of-line-test-solution-reshapes-final-inspection-experience/)（行264—304）
+
+**残留工作及未知执行者：** 外观和零部件ECU检测都不直接覆盖整车系统功能验收。
+
+**技术条件：** 传动制动转向等系统测试、静态和动态条件及实车接口需核。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“执行下线系统功能检验”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“执行下线系统功能检验”涉及不同操作/质量/接收责任，需要约定“动力底盘电器结果对应车号”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 外观和零部件ECU检测都不直接覆盖整车系统功能验收。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“执行下线系统功能检验”提供输入到“动力底盘电器结果对应车号”验收的完整周期，区分机械运行和人的付薪时间。
+- 传动制动转向等系统测试、静态和动态条件及实车接口需核。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：外观和零部件ECU检测都不直接覆盖整车系统功能验收。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：执行各下线功能试验；复核下线功能结果。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / autoassembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第493（印刷486）页；该职业主要工作任务）；[cn-auto-hj971-2026 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/W020260903357835401097.pdf)（物理 PDF 第7页 §4.2.1、表1；第10页表1续表（印刷7）装配及检测试验单元）
+
+**查询记录：** CN-MACHTR-main-031-1、CN-MACHTR-main-031-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-auto-final-assembly-015 · 执行规定道路或试验场检验
+
+**结论：** 无人驾驶运行或试验场导航不自动证明制造放行的规定道路检验已完成。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入满足试验条件车辆；输出行驶试验记录；验收提案：试验结果可追溯至车辆。具体现场阈值未验证。
+
+**执行条件：** 代码36；从已制造零部件至总装检验，不重复计发动机等零部件制造；不同动力及乘商车型按适用分支。 路线工况、驾驶责任、测试采集和异常安全处置需依产品验证。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 无人驾驶运行或试验场导航不自动证明制造放行的规定道路检验已完成。
+
+**技术条件：** 路线工况、驾驶责任、测试采集和异常安全处置需依产品验证。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“执行规定道路或试验场检验”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“执行规定道路或试验场检验”涉及不同操作/质量/接收责任，需要约定“试验结果可追溯至车辆”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 无人驾驶运行或试验场导航不自动证明制造放行的规定道路检验已完成。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“执行规定道路或试验场检验”提供输入到“试验结果可追溯至车辆”验收的完整周期，区分机械运行和人的付薪时间。
+- 路线工况、驾驶责任、测试采集和异常安全处置需依产品验证。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：无人驾驶运行或试验场导航不自动证明制造放行的规定道路检验已完成。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / autoassembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第493（印刷486）页；该职业主要工作任务）；[cn-auto-hj971-2026 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/W020260903357835401097.pdf)（物理 PDF 第7页 §4.2.1、表1；第10页表1续表（印刷7）装配及检测试验单元）
+
+**查询记录：** CN-MACHTR-main-031-3、CN-MACHTR-main-031-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-auto-final-assembly-016 · 按缺陷工单调整未通过检验的系统
+
+**结论：** 视觉检出与缺陷工单生成不等于物理调整返工；未核故障闭环自动修复原文。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入不合格车辆与工单；输出按缺陷工单调整并完成复检的车辆及结果；验收提案：缺陷处置并再次检验。具体现场阈值未验证。
+
+**执行条件：** 代码36；从已制造零部件至总装检验，不重复计发动机等零部件制造；不同动力及乘商车型按适用分支。 不同缺陷的拆装许可、复检点及合格状态更新需逐类核实。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 视觉检出与缺陷工单生成不等于物理调整返工；未核故障闭环自动修复原文。
+
+**技术条件：** 不同缺陷的拆装许可、复检点及合格状态更新需逐类核实。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“按缺陷工单调整未通过检验的系统”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“按缺陷工单调整未通过检验的系统”涉及不同操作/质量/接收责任，需要约定“缺陷处置并再次检验”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 视觉检出与缺陷工单生成不等于物理调整返工；未核故障闭环自动修复原文。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“按缺陷工单调整未通过检验的系统”提供输入到“缺陷处置并再次检验”验收的完整周期，区分机械运行和人的付薪时间。
+- 不同缺陷的拆装许可、复检点及合格状态更新需逐类核实。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：视觉检出与缺陷工单生成不等于物理调整返工；未核故障闭环自动修复原文。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：按工单处置系统缺陷；复检处置后的系统。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / autoassembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第493（印刷486）页；该职业主要工作任务）
+
+**查询记录：** CN-MACHTR-main-032-1、CN-MACHTR-main-032-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-auto-final-assembly-017 · 保养汽车装调生产线设备
+
+**结论：** 拧紧数据追溯不是生产线设备保养；未核当前设备自动维护原文。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入生产线设备；输出保养完成设备；验收提案：维护项目按设备要求确认。具体现场阈值未验证。
+
+**执行条件：** 代码36；从已制造零部件至总装检验，不重复计发动机等零部件制造；不同动力及乘商车型按适用分支。 设备清单、润滑校准、更换件与恢复生产验收按项目确认。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 拧紧数据追溯不是生产线设备保养；未核当前设备自动维护原文。
+
+**技术条件：** 设备清单、润滑校准、更换件与恢复生产验收按项目确认。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“保养汽车装调生产线设备”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“保养汽车装调生产线设备”涉及不同操作/质量/接收责任，需要约定“维护项目按设备要求确认”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 拧紧数据追溯不是生产线设备保养；未核当前设备自动维护原文。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“保养汽车装调生产线设备”提供输入到“维护项目按设备要求确认”验收的完整周期，区分机械运行和人的付薪时间。
+- 设备清单、润滑校准、更换件与恢复生产验收按项目确认。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：拧紧数据追溯不是生产线设备保养；未核当前设备自动维护原文。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：执行设备规定保养项目；确认保养后设备状态。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / autoassembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第493（印刷486）页；该职业主要工作任务）；[cn-auto-hj971-2026 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202609/W020260903357835401097.pdf)（物理 PDF 第7页 §4.2.1、表1；第10页表1续表（印刷7）装配及检测试验单元）
+
+**查询记录：** CN-MACHTR-main-032-3、CN-MACHTR-main-032-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-auto-final-assembly-018 · 移交下线车辆及检验状态
+
+**结论：** 仅移交前信息检查，车辆实物转移和放行签认仍无替代证明。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入完成检验车辆；输出交付车辆和记录；验收提案：车号配置和未结缺陷对应。具体现场阈值未验证。
+
+**执行条件：** 代码36；从已制造零部件至总装检验，不重复计发动机等零部件制造；不同动力及乘商车型按适用分支。 随车文件、车辆身份、合格状态及接收责任须一致。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-auto-final-assembly-018-A1** 铭牌证书与预查验信息识别（partial；vendor-product-mechanism）。仅移交前信息检查，车辆实物转移和放行签认仍无替代证明。 属于交付前信息查验，未替代车辆交接与法定放行责任。 证据期：2023-10-20；检索日仍可读不等于持续运行；范围：中国厂商说明；客户名单未对应每个工位。 [CN-MACHTR-FITOW-FINAL / release](https://www.fitow.com/article-detail/bmzrlV0B)（行52—53）
+
+**残留工作及未知执行者：** 仅移交前信息检查，车辆实物转移和放行签认仍无替代证明。
+
+**技术条件：** 随车文件、车辆身份、合格状态及接收责任须一致。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“移交下线车辆及检验状态”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“移交下线车辆及检验状态”涉及不同操作/质量/接收责任，需要约定“车号配置和未结缺陷对应”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 仅移交前信息检查，车辆实物转移和放行签认仍无替代证明。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“移交下线车辆及检验状态”提供输入到“车号配置和未结缺陷对应”验收的完整周期，区分机械运行和人的付薪时间。
+- 随车文件、车辆身份、合格状态及接收责任须一致。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：仅移交前信息检查，车辆实物转移和放行签认仍无替代证明。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：移交下线车辆；移交检验与未结缺陷状态。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / autoassembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第493（印刷486）页；该职业主要工作任务）
+
+**查询记录：** CN-MACHTR-main-033-1、CN-MACHTR-main-033-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-rail-vehicle-assembly-001 · 装配铁路车辆走行部分
+
+**结论：** 正文未具体证明走行部分使用该系统；数字指导不执行走行部装配。
+
+**研究状态：** 邻接候选，迁移待核；当前作者修订未独立复检。
+
+**边界：** 输入走行部件；输出装配走行部；验收提案：达到本车型装配要求。具体现场阈值未验证。
+
+**执行条件：** 37车辆制造厂内组装；运行段日常检查与独立专业修理不计入本场景。 轴箱轮对悬挂等路线与厂内装配、运营维修执行者需分开。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-rail-vehicle-assembly-001-A1** 轨道车辆三维工艺指导（adjacent；vendor-reported-customer-software-use）。正文未具体证明走行部分使用该系统；数字指导不执行走行部装配。 正文举例照明雨刮等，未逐项确认本库存制动、采暖、空调都使用。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国中车南京浦镇车辆。 [CN-MACHTR-RAIL-KM-3D / instructions](https://www.kmsoft.com.cn/a/234.html)（行93—103）
+
+**残留工作及未知执行者：** 正文未具体证明走行部分使用该系统；数字指导不执行走行部装配。
+
+**技术条件：** 轴箱轮对悬挂等路线与厂内装配、运营维修执行者需分开。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“装配铁路车辆走行部分”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“装配铁路车辆走行部分”涉及不同操作/质量/接收责任，需要约定“达到本车型装配要求”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 正文未具体证明走行部分使用该系统；数字指导不执行走行部装配。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“装配铁路车辆走行部分”提供输入到“达到本车型装配要求”验收的完整周期，区分机械运行和人的付薪时间。
+- 轴箱轮对悬挂等路线与厂内装配、运营维修执行者需分开。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：正文未具体证明走行部分使用该系统；数字指导不执行走行部装配。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / rail-vehicle](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第494—495（印刷487—488）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / rail](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97页表B.2（印刷页96））
+
+**查询记录：** CN-MACHTR-main-033-3、CN-MACHTR-main-033-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-rail-vehicle-assembly-002 · 调试铁路车辆走行部分
+
+**结论：** 走行部试验台检索未核得相符可读原文，不能以列车运行自动化替代制造调试。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入走行部；输出调试记录；验收提案：本车型规定项目完成。具体现场阈值未验证。
+
+**执行条件：** 37车辆制造厂内组装；运行段日常检查与独立专业修理不计入本场景。 走行部试验项目、载荷边界和出厂判据待正式规程。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 走行部试验台检索未核得相符可读原文，不能以列车运行自动化替代制造调试。
+
+**技术条件：** 走行部试验项目、载荷边界和出厂判据待正式规程。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“调试铁路车辆走行部分”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“调试铁路车辆走行部分”涉及不同操作/质量/接收责任，需要约定“本车型规定项目完成”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 走行部试验台检索未核得相符可读原文，不能以列车运行自动化替代制造调试。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“调试铁路车辆走行部分”提供输入到“本车型规定项目完成”验收的完整周期，区分机械运行和人的付薪时间。
+- 走行部试验项目、载荷边界和出厂判据待正式规程。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：走行部试验台检索未核得相符可读原文，不能以列车运行自动化替代制造调试。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / rail-vehicle](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第494—495（印刷487—488）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / rail](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97页表B.2（印刷页96））
+
+**查询记录：** CN-MACHTR-main-034-1、CN-MACHTR-main-034-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-rail-vehicle-assembly-003 · 装配铁路车辆制动系统管路
+
+**结论：** 制动软管试验设备不执行管路装配，未核自动铺管连接资料。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入系统部件及管路；输出装配系统；验收提案：对应本车型布置要求。具体现场阈值未验证。
+
+**执行条件：** 37车辆制造厂内组装；运行段日常检查与独立专业修理不计入本场景。 管路型号、连接标识、接头完整性与后续密性测试分开。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 制动软管试验设备不执行管路装配，未核自动铺管连接资料。
+
+**技术条件：** 管路型号、连接标识、接头完整性与后续密性测试分开。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“装配铁路车辆制动系统管路”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“装配铁路车辆制动系统管路”涉及不同操作/质量/接收责任，需要约定“对应本车型布置要求”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 制动软管试验设备不执行管路装配，未核自动铺管连接资料。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“装配铁路车辆制动系统管路”提供输入到“对应本车型布置要求”验收的完整周期，区分机械运行和人的付薪时间。
+- 管路型号、连接标识、接头完整性与后续密性测试分开。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：制动软管试验设备不执行管路装配，未核自动铺管连接资料。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / rail-vehicle](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第494—495（印刷487—488）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / rail](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97页表B.2（印刷页96））
+
+**查询记录：** CN-MACHTR-main-034-3、CN-MACHTR-main-034-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-rail-vehicle-assembly-004 · 调试铁路车辆制动系统
+
+**结论：** 铁路软管试验条目是局部设备目录，不能完成整车制动调试；另段通用胶管夹紧配置与铁路设备的同一性未核。
+
+**研究状态：** 邻接候选，迁移待核；当前作者修订未独立复检。
+
+**边界：** 输入已装系统；输出调试记录；验收提案：规定项目完成并记录。具体现场阈值未验证。
+
+**执行条件：** 37车辆制造厂内组装；运行段日常检查与独立专业修理不计入本场景。 整车制动系统联调、阀件状态及试验标准需具体到车型。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-rail-vehicle-assembly-004-A1** 铁路软管气水压试验目录（adjacent；vendor-technical-requirement-catalog）。仅局部软管试验的范围目录；不是整车系统调试，通用胶管夹紧也未证属于同一铁路配置。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国设备产品说明；制造/检修须区分。 [CN-MACHTR-SIMINGTE-HOSE / test](https://www.simingte.com/weikrgsytjsyq.htm)（行43—51：铁路软管试验要求）
+
+**残留工作及未知执行者：** 铁路软管试验条目是局部设备目录，不能完成整车制动调试；另段通用胶管夹紧配置与铁路设备的同一性未核。
+
+**技术条件：** 整车制动系统联调、阀件状态及试验标准需具体到车型。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“调试铁路车辆制动系统”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“调试铁路车辆制动系统”涉及不同操作/质量/接收责任，需要约定“规定项目完成并记录”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 铁路软管试验条目是局部设备目录，不能完成整车制动调试；另段通用胶管夹紧配置与铁路设备的同一性未核。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“调试铁路车辆制动系统”提供输入到“规定项目完成并记录”验收的完整周期，区分机械运行和人的付薪时间。
+- 整车制动系统联调、阀件状态及试验标准需具体到车型。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：铁路软管试验条目是局部设备目录，不能完成整车制动调试；另段通用胶管夹紧配置与铁路设备的同一性未核。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / rail-vehicle](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第494—495（印刷487—488）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / rail](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97页表B.2（印刷页96））
+
+**查询记录：** CN-MACHTR-main-035-1、CN-MACHTR-main-035-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-rail-vehicle-assembly-005 · 检查铁路车辆电路及电器
+
+**结论：** 三维并线端子工艺展示不是电路自动检测，未核全车电器检查机制。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入电路电器；输出检查结果；验收提案：规定项目完成并记录。具体现场阈值未验证。
+
+**执行条件：** 37车辆制造厂内组装；运行段日常检查与独立专业修理不计入本场景。 连续性、绝缘、接地及电器功能要分项目检查，不以模型完整替代实测。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 三维并线端子工艺展示不是电路自动检测，未核全车电器检查机制。
+
+**技术条件：** 连续性、绝缘、接地及电器功能要分项目检查，不以模型完整替代实测。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“检查铁路车辆电路及电器”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“检查铁路车辆电路及电器”涉及不同操作/质量/接收责任，需要约定“规定项目完成并记录”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 三维并线端子工艺展示不是电路自动检测，未核全车电器检查机制。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“检查铁路车辆电路及电器”提供输入到“规定项目完成并记录”验收的完整周期，区分机械运行和人的付薪时间。
+- 连续性、绝缘、接地及电器功能要分项目检查，不以模型完整替代实测。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：三维并线端子工艺展示不是电路自动检测，未核全车电器检查机制。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / rail-vehicle](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第494—495（印刷487—488）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / rail](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97页表B.2（印刷页96））
+
+**查询记录：** CN-MACHTR-main-035-3、CN-MACHTR-main-035-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-rail-vehicle-assembly-006 · 装配铁路车辆安全通信辅助装置
+
+**结论：** 正文列照明雨刮等，并未逐述安全通信装置，不能认定该任务现场已采用。
+
+**研究状态：** 邻接候选，迁移待核；当前作者修订未独立复检。
+
+**边界：** 输入装置部件；输出安装装置；验收提案：安装位置连接符合本车型要求。具体现场阈值未验证。
+
+**执行条件：** 37车辆制造厂内组装；运行段日常检查与独立专业修理不计入本场景。 通信安全设备类别、安装位置与接口责任需界定。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-rail-vehicle-assembly-006-A1** 轨道车辆三维装配工艺规划（adjacent；vendor-reported-customer-software-use）。正文列照明雨刮等，并未逐述安全通信装置，不能认定该任务现场已采用。 正文举例照明雨刮等，未逐项确认本库存制动、采暖、空调都使用。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国中车南京浦镇车辆。 [CN-MACHTR-RAIL-KM-3D / instructions](https://www.kmsoft.com.cn/a/234.html)（行93—103）
+
+**残留工作及未知执行者：** 正文列照明雨刮等，并未逐述安全通信装置，不能认定该任务现场已采用。
+
+**技术条件：** 通信安全设备类别、安装位置与接口责任需界定。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“装配铁路车辆安全通信辅助装置”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“装配铁路车辆安全通信辅助装置”涉及不同操作/质量/接收责任，需要约定“安装位置连接符合本车型要求”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 正文列照明雨刮等，并未逐述安全通信装置，不能认定该任务现场已采用。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“装配铁路车辆安全通信辅助装置”提供输入到“安装位置连接符合本车型要求”验收的完整周期，区分机械运行和人的付薪时间。
+- 通信安全设备类别、安装位置与接口责任需界定。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：正文列照明雨刮等，并未逐述安全通信装置，不能认定该任务现场已采用。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / rail-vehicle](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第494—495（印刷487—488）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / rail](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97页表B.2（印刷页96））
+
+**查询记录：** CN-MACHTR-main-036-1、CN-MACHTR-main-036-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-rail-vehicle-assembly-007 · 装配铁路车辆采暖辅助装置
+
+**结论：** 运行中的温控不是工厂采暖设备安装；不计制造人工替代。
+
+**研究状态：** 邻接候选，迁移待核；当前作者修订未独立复检。
+
+**边界：** 输入装置部件；输出安装装置；验收提案：安装位置连接符合本车型要求。具体现场阈值未验证。
+
+**执行条件：** 37车辆制造厂内组装；运行段日常检查与独立专业修理不计入本场景。 安装接线与温控运行区分，设备工位和安装后的试验分别记录。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-rail-vehicle-assembly-007-A1** 车辆采暖空调PLC运行控制（adjacent；vendor-reported-historical-product-operation）。运行中的温控不是工厂采暖设备安装；不计制造人工替代。 只作车辆产品功能相邻证据，不作制造劳动替代。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国长春客车及北京奥运地铁历史使用。 [CN-MACHTR-RAIL-SIEMENS / control](https://w2.siemens.com.cn/news_events/Magazine/0903/0327_22.asp)（行98—101）
+
+**残留工作及未知执行者：** 运行中的温控不是工厂采暖设备安装；不计制造人工替代。
+
+**技术条件：** 安装接线与温控运行区分，设备工位和安装后的试验分别记录。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“装配铁路车辆采暖辅助装置”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“装配铁路车辆采暖辅助装置”涉及不同操作/质量/接收责任，需要约定“安装位置连接符合本车型要求”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 工程师回忆部分车辆空调无法启动，查为编程与现场时钟源不一致并修改。 历史运行调试故障；非制造装配机器人失败。 运行中的温控不是工厂采暖设备安装；不计制造人工替代。 [CN-MACHTR-RAIL-SIEMENS / fault](https://w2.siemens.com.cn/news_events/Magazine/0903/0327_22.asp)（行104—105）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 运行中的温控不是工厂采暖设备安装；不计制造人工替代。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“装配铁路车辆采暖辅助装置”提供输入到“安装位置连接符合本车型要求”验收的完整周期，区分机械运行和人的付薪时间。
+- 安装接线与温控运行区分，设备工位和安装后的试验分别记录。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：运行中的温控不是工厂采暖设备安装；不计制造人工替代。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / rail-vehicle](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第494—495（印刷487—488）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / rail](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97页表B.2（印刷页96））
+
+**查询记录：** CN-MACHTR-main-036-3、CN-MACHTR-main-036-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-rail-vehicle-assembly-008 · 装配铁路车辆空调装置
+
+**结论：** 产品运行控制不能证明空调实物吊装、连接和固定自动化。
+
+**研究状态：** 邻接候选，迁移待核；当前作者修订未独立复检。
+
+**边界：** 输入空调部件；输出安装装置；验收提案：安装符合本车型要求。具体现场阈值未验证。
+
+**执行条件：** 37车辆制造厂内组装；运行段日常检查与独立专业修理不计入本场景。 空调设备安装接口与程序版本、时钟和网络联调需分别确认。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-rail-vehicle-assembly-008-A1** 空调控制柜网络化控制（adjacent；vendor-reported-historical-product-operation）。产品运行控制不能证明空调实物吊装、连接和固定自动化。 只作车辆产品功能相邻证据，不作制造劳动替代。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国长春客车及北京奥运地铁历史使用。 [CN-MACHTR-RAIL-SIEMENS / control](https://w2.siemens.com.cn/news_events/Magazine/0903/0327_22.asp)（行98—101）
+
+**残留工作及未知执行者：** 产品运行控制不能证明空调实物吊装、连接和固定自动化。
+
+**技术条件：** 空调设备安装接口与程序版本、时钟和网络联调需分别确认。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“装配铁路车辆空调装置”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“装配铁路车辆空调装置”涉及不同操作/质量/接收责任，需要约定“安装符合本车型要求”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 工程师回忆部分车辆空调无法启动，查为编程与现场时钟源不一致并修改。 历史运行调试故障；非制造装配机器人失败。 产品运行控制不能证明空调实物吊装、连接和固定自动化。 [CN-MACHTR-RAIL-SIEMENS / fault](https://w2.siemens.com.cn/news_events/Magazine/0903/0327_22.asp)（行104—105）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 产品运行控制不能证明空调实物吊装、连接和固定自动化。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“装配铁路车辆空调装置”提供输入到“安装符合本车型要求”验收的完整周期，区分机械运行和人的付薪时间。
+- 空调设备安装接口与程序版本、时钟和网络联调需分别确认。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：产品运行控制不能证明空调实物吊装、连接和固定自动化。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / rail-vehicle](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第494—495（印刷487—488）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / rail](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97页表B.2（印刷页96））
+
+**查询记录：** CN-MACHTR-main-037-1、CN-MACHTR-main-037-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-rail-brake-subassembly-001 · 研磨适用铁路制动阀部件
+
+**结论：** 专利描述定位销初定位、气缸驱动夹爪锁紧和油石往复研磨；放件与取件的执行者未明。专利以维修为背景，制造或回厂维修部署和验收未核。
+
+**研究状态：** 专利设计候选，部署未证；当前作者修订未独立复检。
+
+**边界：** 输入阀部件；输出研磨阀件；验收提案：达到本制动阀配合要求。具体现场阈值未验证。
+
+**执行条件：** 37轨道车辆制动部件制造分装；已计本分装的软管阀件不在整车总装重复计数。 阀体滑阀的具体平面、装夹与研磨后尺寸功能检验须确认。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-rail-brake-subassembly-001-A1** 定位销初定位、气缸夹爪锁紧与油石往复研磨（patent；patent-design-not-deployment）。专利设计描述机械夹紧与研磨；放件、取件执行者未知，不能把机械夹紧归为必然人工；制造/回厂维修应用尚未证实。 证据期：2018-06-19；检索日仍可读不等于持续运行；范围：中国专利公开；制造与检修未区分现场。 [CN-MACHTR-RAIL-GRIND-PATENT / grind](https://patents.google.com/patent/CN207508984U/zh)（L81—106）
+
+**残留工作及未知执行者：** 专利描述定位销初定位、气缸驱动夹爪锁紧和油石往复研磨；放件与取件的执行者未明。专利以维修为背景，制造或回厂维修部署和验收未核。
+
+- 放件至阀座板：执行者未说明。
+
+- 定位销初定位：定位销；放件执行者未知。
+
+- 夹爪锁紧：卡具气缸及连杆夹爪。
+
+- 往复研磨：研磨气缸及油石。
+
+- 研磨后取件：执行者未说明。
+
+**技术条件：** 阀体滑阀的具体平面、装夹与研磨后尺寸功能检验须确认。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“研磨适用铁路制动阀部件”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“研磨适用铁路制动阀部件”涉及不同操作/质量/接收责任，需要约定“达到本制动阀配合要求”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 背景谈人工维修研磨及少量设备效果不足。 申请人背景陈述，不是独立中国制造失败记录。 专利描述定位销初定位、气缸驱动夹爪锁紧和油石往复研磨；放件与取件的执行者未明。专利以维修为背景，制造或回厂维修部署和验收未核。 [CN-MACHTR-RAIL-GRIND-PATENT / limit](https://patents.google.com/patent/CN207508984U/zh)（L83—85）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 专利描述定位销初定位、气缸驱动夹爪锁紧和油石往复研磨；放件与取件的执行者未明。专利以维修为背景，制造或回厂维修部署和验收未核。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“研磨适用铁路制动阀部件”提供输入到“达到本制动阀配合要求”验收的完整周期，区分机械运行和人的付薪时间。
+- 阀体滑阀的具体平面、装夹与研磨后尺寸功能检验须确认。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：专利描述定位销初定位、气缸驱动夹爪锁紧和油石往复研磨；放件与取件的执行者未明。专利以维修为背景，制造或回厂维修部署和验收未核。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / rail-brake](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第495（印刷488）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / rail](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97页表B.2（印刷页96））
+
+**查询记录：** CN-MACHTR-main-037-3、CN-MACHTR-main-037-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-rail-brake-subassembly-002 · 组装铁路制动阀
+
+**结论：** 研磨机专利把组装列为后续步骤；自动研磨不支持制动阀自动组装。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入阀零部件；输出制动阀；验收提案：组件对应本型号。具体现场阈值未验证。
+
+**执行条件：** 37轨道车辆制动部件制造分装；已计本分装的软管阀件不在整车总装重复计数。 阀件洁净、密封件、装配顺序和最终功能检测需核。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 研磨机专利把组装列为后续步骤；自动研磨不支持制动阀自动组装。
+
+**技术条件：** 阀件洁净、密封件、装配顺序和最终功能检测需核。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“组装铁路制动阀”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“组装铁路制动阀”涉及不同操作/质量/接收责任，需要约定“组件对应本型号”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 专利说明定位夹紧后由气缸驱动油石往复研磨阀面。 公开设计支持研磨机构；不证明量产验收，组装仍为后续步骤。 研磨机专利把组装列为后续步骤；自动研磨不支持制动阀自动组装。 [CN-MACHTR-RAIL-GRIND-PATENT / grind](https://patents.google.com/patent/CN207508984U/zh)（L81—106）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 研磨机专利把组装列为后续步骤；自动研磨不支持制动阀自动组装。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“组装铁路制动阀”提供输入到“组件对应本型号”验收的完整周期，区分机械运行和人的付薪时间。
+- 阀件洁净、密封件、装配顺序和最终功能检测需核。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：研磨机专利把组装列为后续步骤；自动研磨不支持制动阀自动组装。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / rail-brake](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第495（印刷488）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / rail](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97页表B.2（印刷页96））
+
+**查询记录：** CN-MACHTR-main-038-1、CN-MACHTR-main-038-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-rail-brake-subassembly-003 · 组装铁路制动软管及连接器
+
+**结论：** 铁路软管试验目录和另段通用胶管夹紧均不证明软管连接器装配；未取得压接或装配自动化机制。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入软管连接器部件；输出连接组件；验收提案：连接符合本型号要求。具体现场阈值未验证。
+
+**执行条件：** 37轨道车辆制动部件制造分装；已计本分装的软管阀件不在整车总装重复计数。 软管、接头组合与连接质量须在试验前独立验收。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 铁路软管试验目录和另段通用胶管夹紧均不证明软管连接器装配；未取得压接或装配自动化机制。
+
+**技术条件：** 软管、接头组合与连接质量须在试验前独立验收。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“组装铁路制动软管及连接器”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“组装铁路制动软管及连接器”涉及不同操作/质量/接收责任，需要约定“连接符合本型号要求”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 铁路段描述试验要求；另段通用胶管描述端部夹紧，未证两者为同一配置。 试验夹紧不执行软管连接器装配；通用夹紧向铁路工况迁移未核。 [CN-MACHTR-SIMINGTE-HOSE / test](https://www.simingte.com/weikrgsytjsyq.htm)（行43—51：铁路软管试验要求）；[CN-MACHTR-SIMINGTE-HOSE / generic-hose-clamp](https://www.simingte.com/weikrgsytjsyq.htm)（行52—53：另起标题的胶管气密检测设备）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 铁路软管试验目录和另段通用胶管夹紧均不证明软管连接器装配；未取得压接或装配自动化机制。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“组装铁路制动软管及连接器”提供输入到“连接符合本型号要求”验收的完整周期，区分机械运行和人的付薪时间。
+- 软管、接头组合与连接质量须在试验前独立验收。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：铁路软管试验目录和另段通用胶管夹紧均不证明软管连接器装配；未取得压接或装配自动化机制。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / rail-brake](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第495（印刷488）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / rail](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97页表B.2（印刷页96））
+
+**查询记录：** CN-MACHTR-main-038-3、CN-MACHTR-main-038-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-rail-brake-subassembly-004 · 试验铁路制动软管及连接器
+
+**结论：** 铁路条目只支持气水压试验范围；通用胶管端部夹紧属于另段设备，向本铁路软管试验的配置迁移未核。
+
+**研究状态：** 功能或设备范围候选；当前作者修订未独立复检。
+
+**边界：** 输入连接组件；输出试验记录；验收提案：完成本产品规定项目。具体现场阈值未验证。
+
+**执行条件：** 37轨道车辆制动部件制造分装；已计本分装的软管阀件不在整车总装重复计数。 软管型号、检测介质、接头密封与试后处置需按规定检查。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-rail-brake-subassembly-004-A1** 通用胶管气动或液压端部夹紧（adjacent；vendor-generic-hose-mechanism-description）。另起标题的通用胶管检测配置，铁路软管的接口、压力介质、程序判定和制造场景适配未知。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国设备产品说明；制造/检修须区分。 [CN-MACHTR-SIMINGTE-HOSE / generic-hose-clamp](https://www.simingte.com/weikrgsytjsyq.htm)（行52—53：另起标题的胶管气密检测设备）
+
+- **cn-ind-rail-brake-subassembly-004-A2** 铁路软管试验范围目录（catalog；vendor-technical-requirement-catalog）。铁路段未展开夹紧或试验执行程序；不能借另段通用胶管机构补足。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国设备产品说明；制造/检修须区分。 [CN-MACHTR-SIMINGTE-HOSE / test](https://www.simingte.com/weikrgsytjsyq.htm)（行43—51：铁路软管试验要求）
+
+**残留工作及未知执行者：** 铁路条目只支持气水压试验范围；通用胶管端部夹紧属于另段设备，向本铁路软管试验的配置迁移未核。
+
+**技术条件：** 软管型号、检测介质、接头密封与试后处置需按规定检查。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“试验铁路制动软管及连接器”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“试验铁路制动软管及连接器”涉及不同操作/质量/接收责任，需要约定“完成本产品规定项目”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 铁路条目只支持气水压试验范围；通用胶管端部夹紧属于另段设备，向本铁路软管试验的配置迁移未核。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“试验铁路制动软管及连接器”提供输入到“完成本产品规定项目”验收的完整周期，区分机械运行和人的付薪时间。
+- 软管型号、检测介质、接头密封与试后处置需按规定检查。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：铁路条目只支持气水压试验范围；通用胶管端部夹紧属于另段设备，向本铁路软管试验的配置迁移未核。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / rail-brake](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第495（印刷488）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / rail](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97页表B.2（印刷页96））
+
+**查询记录：** CN-MACHTR-main-039-1、CN-MACHTR-main-039-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-rail-brake-subassembly-005 · 组装铁路车辆空气压缩机
+
+**结论：** 压缩机测试与运行控制不是空气压缩机装配；未得匹配装配资料。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入压缩机部件；输出压缩机；验收提案：装配对应本型号。具体现场阈值未验证。
+
+**执行条件：** 37轨道车辆制动部件制造分装；已计本分装的软管阀件不在整车总装重复计数。 零件种类、装配配合、清洁与运转测试需具体到型号。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 压缩机测试与运行控制不是空气压缩机装配；未得匹配装配资料。
+
+**技术条件：** 零件种类、装配配合、清洁与运转测试需具体到型号。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“组装铁路车辆空气压缩机”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“组装铁路车辆空气压缩机”涉及不同操作/质量/接收责任，需要约定“装配对应本型号”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 压缩机测试与运行控制不是空气压缩机装配；未得匹配装配资料。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“组装铁路车辆空气压缩机”提供输入到“装配对应本型号”验收的完整周期，区分机械运行和人的付薪时间。
+- 零件种类、装配配合、清洁与运转测试需具体到型号。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：压缩机测试与运行控制不是空气压缩机装配；未得匹配装配资料。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / rail-brake](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第495（印刷488）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / rail](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97页表B.2（印刷页96））
+
+**查询记录：** CN-MACHTR-main-039-3、CN-MACHTR-main-039-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-rail-brake-subassembly-006 · 组装铁路车辆风泵调压器
+
+**结论：** 压力调节器功能设备不直接支持风泵调压器自动组装。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入调压器部件；输出调压器；验收提案：装配对应本型号。具体现场阈值未验证。
+
+**执行条件：** 37轨道车辆制动部件制造分装；已计本分装的软管阀件不在整车总装重复计数。 弹簧、阀件与设定压力调试责任分开，避免组装与测试重复计。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 压力调节器功能设备不直接支持风泵调压器自动组装。
+
+**技术条件：** 弹簧、阀件与设定压力调试责任分开，避免组装与测试重复计。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“组装铁路车辆风泵调压器”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“组装铁路车辆风泵调压器”涉及不同操作/质量/接收责任，需要约定“装配对应本型号”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 压力调节器功能设备不直接支持风泵调压器自动组装。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“组装铁路车辆风泵调压器”提供输入到“装配对应本型号”验收的完整周期，区分机械运行和人的付薪时间。
+- 弹簧、阀件与设定压力调试责任分开，避免组装与测试重复计。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：压力调节器功能设备不直接支持风泵调压器自动组装。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / rail-brake](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第495（印刷488）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / rail](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97页表B.2（印刷页96））
+
+**查询记录：** CN-MACHTR-main-040-1、CN-MACHTR-main-040-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-rail-brake-subassembly-007 · 组装铁路车辆闸瓦间隙调整器
+
+**结论：** 循环试验专利线索不支持闸瓦间隙调整器的实体装配。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入调整器部件；输出调整器；验收提案：装配对应本型号。具体现场阈值未验证。
+
+**执行条件：** 37轨道车辆制动部件制造分装；已计本分装的软管阀件不在整车总装重复计数。 螺纹与传动件装配基准、复位和功能行程需核。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 循环试验专利线索不支持闸瓦间隙调整器的实体装配。
+
+**技术条件：** 螺纹与传动件装配基准、复位和功能行程需核。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“组装铁路车辆闸瓦间隙调整器”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“组装铁路车辆闸瓦间隙调整器”涉及不同操作/质量/接收责任，需要约定“装配对应本型号”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 循环试验专利线索不支持闸瓦间隙调整器的实体装配。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“组装铁路车辆闸瓦间隙调整器”提供输入到“装配对应本型号”验收的完整周期，区分机械运行和人的付薪时间。
+- 螺纹与传动件装配基准、复位和功能行程需核。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：循环试验专利线索不支持闸瓦间隙调整器的实体装配。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / rail-brake](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第495（印刷488）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / rail](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97页表B.2（印刷页96））
+
+**查询记录：** CN-MACHTR-main-040-3、CN-MACHTR-main-040-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-rail-brake-subassembly-008 · 组装铁路车辆制动缸
+
+**结论：** 制动缸试验与检修线索不能证明制动缸组装自动化。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入制动缸部件；输出制动缸；验收提案：装配对应本型号。具体现场阈值未验证。
+
+**执行条件：** 37轨道车辆制动部件制造分装；已计本分装的软管阀件不在整车总装重复计数。 缸体密封、活塞连接和装配后试验需给出具体流程。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 制动缸试验与检修线索不能证明制动缸组装自动化。
+
+**技术条件：** 缸体密封、活塞连接和装配后试验需给出具体流程。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“组装铁路车辆制动缸”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“组装铁路车辆制动缸”涉及不同操作/质量/接收责任，需要约定“装配对应本型号”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 制动缸试验与检修线索不能证明制动缸组装自动化。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“组装铁路车辆制动缸”提供输入到“装配对应本型号”验收的完整周期，区分机械运行和人的付薪时间。
+- 缸体密封、活塞连接和装配后试验需给出具体流程。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：制动缸试验与检修线索不能证明制动缸组装自动化。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / rail-brake](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第495（印刷488）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / rail](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97页表B.2（印刷页96））
+
+**查询记录：** CN-MACHTR-main-041-1、CN-MACHTR-main-041-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-plate-parts-001 · 放样民用船体线型外板或构件
+
+**结论：** 依据既有图纸自动切样板不等于从船体线型建立放样；未核完整放样动作原文。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入图纸与原料；输出放样结果；验收提案：形状位置对应本船图纸。具体现场阈值未验证。
+
+**执行条件：** 37民用金属船体零件工段，不把钢厂板材生产及运输装卸重复计入。 线型数据版本、实尺度转换及放样检核责任要先明确。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 依据既有图纸自动切样板不等于从船体线型建立放样；未核完整放样动作原文。
+
+**技术条件：** 线型数据版本、实尺度转换及放样检核责任要先明确。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“放样民用船体线型外板或构件”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“放样民用船体线型外板或构件”涉及不同操作/质量/接收责任，需要约定“形状位置对应本船图纸”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 校方报告设备验收投用，依设计图生成样板切割路径，并配烟尘吸附。 限样板切割，样箱装配、钢板下料与放样全流程未证。 依据既有图纸自动切样板不等于从船体线型建立放样；未核完整放样动作原文。 [CN-MACHTR-JUST-TEMPLATE / cut](https://justmeti.just.edu.cn/_t17/2024/0717/c650a348750/page.htm)（行29—40）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 依据既有图纸自动切样板不等于从船体线型建立放样；未核完整放样动作原文。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“放样民用船体线型外板或构件”提供输入到“形状位置对应本船图纸”验收的完整周期，区分机械运行和人的付薪时间。
+- 线型数据版本、实尺度转换及放样检核责任要先明确。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：依据既有图纸自动切样板不等于从船体线型建立放样；未核完整放样动作原文。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-hull](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97—98页表B.3（印刷页96—97））
+
+**查询记录：** CN-MACHTR-main-041-3、CN-MACHTR-main-041-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-plate-parts-002 · 制作船体零件样板样箱
+
+**结论：** 记录为2024验收投用；样箱构造和组装未支持，2026连续性未核。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入放样结果；输出样板样箱；验收提案：对应本零件形状。具体现场阈值未验证。
+
+**执行条件：** 37民用金属船体零件工段，不把钢厂板材生产及运输装卸重复计入。 样板材料厚度、图纸版本与切后尺寸需核，装箱样箱另有动作。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-ship-plate-parts-002-A1** 按图自动生成样板切割路径（partial；research-developer-reported-acceptance-and-use）。记录为2024验收投用；样箱构造和组装未支持，2026连续性未核。 限样板切割，样箱装配、钢板下料与放样全流程未证。 证据期：2024-07-17；检索日仍可读不等于持续运行；范围：中国上海外高桥造船。 [CN-MACHTR-JUST-TEMPLATE / cut](https://justmeti.just.edu.cn/_t17/2024/0717/c650a348750/page.htm)（行29—40）
+
+**残留工作及未知执行者：** 记录为2024验收投用；样箱构造和组装未支持，2026连续性未核。
+
+**技术条件：** 样板材料厚度、图纸版本与切后尺寸需核，装箱样箱另有动作。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“制作船体零件样板样箱”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“制作船体零件样板样箱”涉及不同操作/质量/接收责任，需要约定“对应本零件形状”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 记录为2024验收投用；样箱构造和组装未支持，2026连续性未核。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“制作船体零件样板样箱”提供输入到“对应本零件形状”验收的完整周期，区分机械运行和人的付薪时间。
+- 样板材料厚度、图纸版本与切后尺寸需核，装箱样箱另有动作。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：记录为2024验收投用；样箱构造和组装未支持，2026连续性未核。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：制作平面样板；制作空间样箱。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-hull](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97—98页表B.3（印刷页96—97））
+
+**查询记录：** CN-MACHTR-main-042-1、CN-MACHTR-main-042-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-plate-parts-003 · 对待切船用金属材料号料
+
+**结论：** 依据切割版图标识切后零件，与切割前板材号料不同，不作为已匹配机制。
+
+**研究状态：** 邻接候选，迁移待核；当前作者修订未独立复检。
+
+**边界：** 输入图纸与金属材料；输出号料材料；验收提案：标记对应本零件编号。具体现场阈值未验证。
+
+**执行条件：** 37民用金属船体零件工段，不把钢厂板材生产及运输装卸重复计入。 号料需保留材料炉批与切割布局，不能只追踪切后BOM。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-ship-plate-parts-003-A1** 切后零件自动标识（adjacent；research-developer-description-deployment-stage-unspecified）。依据切割版图标识切后零件，与切割前板材号料不同，不作为已匹配机制。 零件标识不是切割前板材号料。 开发方未明确样机或部署阶段。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国研发团队成果说明；未具名用户现场。 [CN-MACHTR-SJTU-SHIP-ASSEMBLY / mark](https://cxo.sjtu.edu.cn/info/1211/9671.htm)（行68—73）
+
+**残留工作及未知执行者：** 依据切割版图标识切后零件，与切割前板材号料不同，不作为已匹配机制。
+
+**技术条件：** 号料需保留材料炉批与切割布局，不能只追踪切后BOM。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“对待切船用金属材料号料”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“对待切船用金属材料号料”涉及不同操作/质量/接收责任，需要约定“标记对应本零件编号”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 依据切割版图标识切后零件，与切割前板材号料不同，不作为已匹配机制。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“对待切船用金属材料号料”提供输入到“标记对应本零件编号”验收的完整周期，区分机械运行和人的付薪时间。
+- 号料需保留材料炉批与切割布局，不能只追踪切后BOM。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：依据切割版图标识切后零件，与切割前板材号料不同，不作为已匹配机制。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-hull](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97—98页表B.3（印刷页96—97））
+
+**查询记录：** CN-MACHTR-main-042-3、CN-MACHTR-main-042-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-plate-parts-004 · 切割民用船体金属材料
+
+**结论：** 只涵盖适配型材，板材厚度、轮廓及不同切割路线仍待核。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入金属材料；输出切割件；验收提案：尺寸对应本零件要求。具体现场阈值未验证。
+
+**执行条件：** 37民用金属船体零件工段，不把钢厂板材生产及运输装卸重复计入。 型材截面、夹持、切口质量和程序防错需逐规格验收。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-ship-plate-parts-004-A1** 型材机器人等离子切割（partial；vendor-product-mechanism）。只涵盖适配型材，板材厚度、轮廓及不同切割路线仍待核。 只限型材，非所有厚钢板或曲板边缘成形。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国供应商；未具名船厂。 [CN-MACHTR-SYROBOT-PROFILE / cut](https://www.syrobot.cn/case-studies/automatic-profile-cutting-machine/)（行20—23）
+
+**残留工作及未知执行者：** 只涵盖适配型材，板材厚度、轮廓及不同切割路线仍待核。
+
+**技术条件：** 型材截面、夹持、切口质量和程序防错需逐规格验收。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“切割民用船体金属材料”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“切割民用船体金属材料”涉及不同操作/质量/接收责任，需要约定“尺寸对应本零件要求”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 只涵盖适配型材，板材厚度、轮廓及不同切割路线仍待核。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“切割民用船体金属材料”提供输入到“尺寸对应本零件要求”验收的完整周期，区分机械运行和人的付薪时间。
+- 型材截面、夹持、切口质量和程序防错需逐规格验收。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：只涵盖适配型材，板材厚度、轮廓及不同切割路线仍待核。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：按版图定位并切割；从余料中分离转出切割件。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-hull](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第9—10页表1、PDF第101页表B.11（印刷页8—9、100））
+
+**查询记录：** CN-MACHTR-main-043-1、CN-MACHTR-main-043-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-plate-parts-005 · 对船用板材型材边缘成形加工
+
+**结论：** SJTU开发方描述自由边双边打磨的局部机制，可对应边缘加工中的打磨部分；原两项外板曲面成形仍属邻接，不能覆盖全部板型材边缘产出。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入板型材；输出加工边缘；验收提案：边缘形状达到本装配要求。具体现场阈值未验证。
+
+**执行条件：** 37民用金属船体零件工段，不把钢厂板材生产及运输装卸重复计入。 先区分边缘坡口、局部折弯与整板曲面成形，不混计不同产出。 自由边对象、几何模型、磨具可达性和边缘质量判据另核；不把曲面成形或焊缝返修计入同一次打磨。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-ship-plate-parts-005-A1** 船体曲面外板半自动成形（adjacent；research-developer-reported-historical-application）。大连理工资料属于船体曲面外板半自动成形；与当前自由边打磨、坡口或其他边缘加工不同，保留邻接。 证据期：2019-11-27；检索日仍可读不等于持续运行；范围：中国研发成果历史说明。 [CN-MACHTR-DLUT-PLATE / form](https://scidep.dlut.edu.cn/info/1093/22225.htm)（行72—78）
+
+- **cn-ind-ship-plate-parts-005-A2** 冷热一体曲板成形样机（adjacent；laboratory-prototype）。华中科技资料属于冷热一体曲板成形样机；不能代替边缘打磨、结构校正或现场商业部署。 证据期：2023-11-22；检索日仍可读不等于持续运行；范围：中国实验室成果。 [CN-MACHTR-HUST-PLATE / form](https://iat.hust.edu.cn/info/1034/3322.htm)（行104—117）
+
+- **cn-ind-ship-plate-parts-005-A3** 按模型生成自由边轨迹并选择参数的双边打磨（partial；research-developer-description-deployment-stage-unspecified）。仅自由边打磨的局部机制；不是全部坡口、折边、整板曲面成形或已识别缺陷的返修。部署阶段未明。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国研发团队成果说明；未具名用户现场。 [CN-MACHTR-SJTU-SHIP-ASSEMBLY / free-edge-grind](https://cxo.sjtu.edu.cn/info/1211/9671.htm)（行72—73）
+
+**残留工作及未知执行者：** SJTU开发方描述自由边双边打磨的局部机制，可对应边缘加工中的打磨部分；原两项外板曲面成形仍属邻接，不能覆盖全部板型材边缘产出。
+
+**技术条件：** 先区分边缘坡口、局部折弯与整板曲面成形，不混计不同产出。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“对船用板材型材边缘成形加工”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“对船用板材型材边缘成形加工”涉及不同操作/质量/接收责任，需要约定“边缘形状达到本装配要求”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 页面希望经工程机升级后转入应用。 华中科技页面描述样机及希望工程机升级后应用，仅限定该来源阶段，不能把这一状态转给其他候选。 [CN-MACHTR-HUST-PLATE / stage](https://iat.hust.edu.cn/info/1034/3322.htm)（行138—146）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- SJTU开发方描述自由边双边打磨的局部机制，可对应边缘加工中的打磨部分；原两项外板曲面成形仍属邻接，不能覆盖全部板型材边缘产出。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“对船用板材型材边缘成形加工”提供输入到“边缘形状达到本装配要求”验收的完整周期，区分机械运行和人的付薪时间。
+- 先区分边缘坡口、局部折弯与整板曲面成形，不混计不同产出。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：SJTU开发方描述自由边双边打磨的局部机制，可对应边缘加工中的打磨部分；原两项外板曲面成形仍属邻接，不能覆盖全部板型材边缘产出。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：加工零件自由边；加工其他规定边缘形状。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-hull](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第9—10页表1、PDF第101页表B.11（印刷页8—9、100））
+
+**查询记录：** CN-MACHTR-main-043-3、CN-MACHTR-main-043-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-plate-parts-006 · 矫正待装配船体结构件
+
+**结论：** 成形板材不是已装配结构件矫正；样机不能直接挂为矫正商业案例。
+
+**研究状态：** 邻接候选，迁移待核；当前作者修订未独立复检。
+
+**边界：** 输入结构件；输出矫正件；验收提案：形状对应本装配基准。具体现场阈值未验证。
+
+**执行条件：** 37民用金属船体零件工段，不把钢厂板材生产及运输装卸重复计入。 待矫件是单板或焊接结构、残余变形与热影响验收应先界定。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-ship-plate-parts-006-A1** 实验曲板成形测量加载（adjacent；laboratory-prototype）。成形板材不是已装配结构件矫正；样机不能直接挂为矫正商业案例。 限已试验板材曲面成形，边缘/结构件矫正仅邻接。 证据期：2023-11-22；检索日仍可读不等于持续运行；范围：中国实验室成果。 [CN-MACHTR-HUST-PLATE / form](https://iat.hust.edu.cn/info/1034/3322.htm)（行104—117）
+
+**残留工作及未知执行者：** 成形板材不是已装配结构件矫正；样机不能直接挂为矫正商业案例。
+
+**技术条件：** 待矫件是单板或焊接结构、残余变形与热影响验收应先界定。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“矫正待装配船体结构件”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“矫正待装配船体结构件”涉及不同操作/质量/接收责任，需要约定“形状对应本装配基准”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 页面希望经工程机升级后转入应用。 不能定为船厂持续商业部署。 成形板材不是已装配结构件矫正；样机不能直接挂为矫正商业案例。 [CN-MACHTR-HUST-PLATE / stage](https://iat.hust.edu.cn/info/1034/3322.htm)（行138—146）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 成形板材不是已装配结构件矫正；样机不能直接挂为矫正商业案例。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“矫正待装配船体结构件”提供输入到“形状对应本装配基准”验收的完整周期，区分机械运行和人的付薪时间。
+- 待矫件是单板或焊接结构、残余变形与热影响验收应先界定。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：成形板材不是已装配结构件矫正；样机不能直接挂为矫正商业案例。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-hull](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第9—10页表1、PDF第101页表B.11（印刷页8—9、100））
+
+**查询记录：** CN-MACHTR-main-044-1、CN-MACHTR-main-044-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-block-assemble-001 · 装配船体零部件形成分段
+
+**结论：** 只覆盖小组立局部，未具名船厂验收或整分段持续运行。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入船体零部件；输出分段结构；验收提案：位置对应本装配图和基准。具体现场阈值未验证。
+
+**执行条件：** 37以已加工构件为输入，分段拼装；船坞总组的同工序不与本工段重复计数。 部件模型、BOM、定位基准和焊接变形需配套验证。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-ship-block-assemble-001-A1** 筋板抓取点焊与舱壁定位装配（partial；research-developer-description-deployment-stage-unspecified）。只覆盖小组立局部，未具名船厂验收或整分段持续运行。 局部小组立动作，不等于整船分段全部装配和返修。 开发方未明确样机或部署阶段。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国研发团队成果说明；未具名用户现场。 [CN-MACHTR-SJTU-SHIP-ASSEMBLY / assemble](https://cxo.sjtu.edu.cn/info/1211/9671.htm)（行74—80）
+
+**残留工作及未知执行者：** 只覆盖小组立局部，未具名船厂验收或整分段持续运行。
+
+**技术条件：** 部件模型、BOM、定位基准和焊接变形需配套验证。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“装配船体零部件形成分段”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“装配船体零部件形成分段”涉及不同操作/质量/接收责任，需要约定“位置对应本装配图和基准”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 只覆盖小组立局部，未具名船厂验收或整分段持续运行。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“装配船体零部件形成分段”提供输入到“位置对应本装配图和基准”验收的完整周期，区分机械运行和人的付薪时间。
+- 部件模型、BOM、定位基准和焊接变形需配套验证。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：只覆盖小组立局部，未具名船厂验收或整分段持续运行。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+- 请确认候选分解的输入、验收与核算是否独立：抓取定位组立零件；完成定位点焊；对接固定后续大部件。若同一次不可分周期，请指出共有设备、人员和交接点。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-hull](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97—98页表B.3（印刷页96—97））
+
+**查询记录：** CN-MACHTR-main-044-3、CN-MACHTR-main-044-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-block-assemble-002 · 焊接船体结构接头
+
+**结论：** 全球目录与中国企业验收设备清单层级不同；不可推全部接头可达或返修消除。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入装配结构件；输出焊接结构；验收提案：完成本批准焊接工艺。具体现场阈值未验证。
+
+**执行条件：** 37以已加工构件为输入，分段拼装；船坞总组的同工序不与本工段重复计数。 焊缝类型、可达性、装配偏差及焊后检测需逐工艺验证。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-ship-block-assemble-002-A1** CAD驱动分段机器人焊接（partial；vendor-product-mechanism）。KRANENDONK为匹配双壳分段焊缝的机器人方案；不能推全部接头可达、返修或密性检验。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：全球产品中文页；未定位中国现场。 [CN-MACHTR-KRANENDONK-BLOCK / weld](https://kranendonk.com/zh/applications/block-welding-gantry/)（行169—189）
+
+- **cn-ind-ship-block-assemble-002-A2** 小组立焊接机器人设备条目（catalog；operator-reported-project-acceptance）。DSIC验收新闻列小组立焊接机器人设备，未展开本接头执行机制；也不能由打磨设备推缺陷自动识别及修复。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国大船集团。 [CN-MACHTR-DSIC-WELD / robots](https://www.dsic.cn/xwzx/jtxw/9d6d8994fc9c4840b0974da67ab1d183.htm)（行65—69）
+
+**残留工作及未知执行者：** 全球目录与中国企业验收设备清单层级不同；不可推全部接头可达或返修消除。
+
+**技术条件：** 焊缝类型、可达性、装配偏差及焊后检测需逐工艺验证。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“焊接船体结构接头”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“焊接船体结构接头”涉及不同操作/质量/接收责任，需要约定“完成本批准焊接工艺”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 全球目录与中国企业验收设备清单层级不同；不可推全部接头可达或返修消除。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+- SJTU另述小组立装配点焊，其事件可能与88的装配点焊共有，不能直接当全部结构焊接；华恒管焊属于管系工序，另登记候选。
+
+**待访谈：**
+
+- 请按“焊接船体结构接头”提供输入到“完成本批准焊接工艺”验收的完整周期，区分机械运行和人的付薪时间。
+- 焊缝类型、可达性、装配偏差及焊后检测需逐工艺验证。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：全球目录与中国企业验收设备清单层级不同；不可推全部接头可达或返修消除。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-hull](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第9—10页表1、PDF第101页表B.11（印刷页8—9、100））
+
+**查询记录：** CN-MACHTR-main-045-1、CN-MACHTR-main-045-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-block-assemble-003 · 清除船体焊缝已识别缺陷
+
+**结论：** 大船打磨机器人条目未说明识别缺陷后的修磨与复检；不能将一般打磨挂为自动返修。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入有缺陷焊缝；输出待修复接头；验收提案：缺陷清除范围符合本返修要求。具体现场阈值未验证。
+
+**执行条件：** 37以已加工构件为输入，分段拼装；船坞总组的同工序不与本工段重复计数。 缺陷定位、去除深度、再焊权限与复验需按缺陷工单核。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 大船打磨机器人条目未说明识别缺陷后的修磨与复检；不能将一般打磨挂为自动返修。
+
+**技术条件：** 缺陷定位、去除深度、再焊权限与复验需按缺陷工单核。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“清除船体焊缝已识别缺陷”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“清除船体焊缝已识别缺陷”涉及不同操作/质量/接收责任，需要约定“缺陷清除范围符合本返修要求”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 企业自述车间验收，列写字、小组立焊接、铣边分类、打磨等机器人。 目录级设备存在陈述；不能由打磨推已识别焊缝缺陷自动清除。 大船打磨机器人条目未说明识别缺陷后的修磨与复检；不能将一般打磨挂为自动返修。 [CN-MACHTR-DSIC-WELD / robots](https://www.dsic.cn/xwzx/jtxw/9d6d8994fc9c4840b0974da67ab1d183.htm)（行65—69）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 大船打磨机器人条目未说明识别缺陷后的修磨与复检；不能将一般打磨挂为自动返修。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“清除船体焊缝已识别缺陷”提供输入到“缺陷清除范围符合本返修要求”验收的完整周期，区分机械运行和人的付薪时间。
+- 缺陷定位、去除深度、再焊权限与复验需按缺陷工单核。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：大船打磨机器人条目未说明识别缺陷后的修磨与复检；不能将一般打磨挂为自动返修。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-hull](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第9—10页表1、PDF第101页表B.11（印刷页8—9、100））
+
+**查询记录：** CN-MACHTR-main-045-3、CN-MACHTR-main-045-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-block-assemble-004 · 检查船体结构或分段密性
+
+**结论：** 在线焊接和图像巡检不等于分段密性检查；未读到匹配自动检漏原文。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入结构或分段；输出密性试验记录；验收提案：完成本部位规定试验。具体现场阈值未验证。
+
+**执行条件：** 37以已加工构件为输入，分段拼装；船坞总组的同工序不与本工段重复计数。 受检舱区、封堵、试验介质和漏点确认程序需核。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 在线焊接和图像巡检不等于分段密性检查；未读到匹配自动检漏原文。
+
+**技术条件：** 受检舱区、封堵、试验介质和漏点确认程序需核。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“检查船体结构或分段密性”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“检查船体结构或分段密性”涉及不同操作/质量/接收责任，需要约定“完成本部位规定试验”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 在线焊接和图像巡检不等于分段密性检查；未读到匹配自动检漏原文。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“检查船体结构或分段密性”提供输入到“完成本部位规定试验”验收的完整周期，区分机械运行和人的付薪时间。
+- 受检舱区、封堵、试验介质和漏点确认程序需核。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：在线焊接和图像巡检不等于分段密性检查；未读到匹配自动检漏原文。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-hull](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第9—10页表1、PDF第101页表B.11（印刷页8—9、100））
+
+**查询记录：** CN-MACHTR-main-046-1、CN-MACHTR-main-046-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-block-assemble-005 · 吊运民用船体构件或分段
+
+**结论：** 制造数据系统或装配翻转装置不证明大型分段吊运自动化。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入构件或分段；输出就位结构；验收提案：完成批准吊运和就位要求。具体现场阈值未验证。
+
+**执行条件：** 37以已加工构件为输入，分段拼装；船坞总组的同工序不与本工段重复计数。 吊点、重心、路径与接收姿态需明确，天车与装配工装分账。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 制造数据系统或装配翻转装置不证明大型分段吊运自动化。
+
+**技术条件：** 吊点、重心、路径与接收姿态需明确，天车与装配工装分账。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“吊运民用船体构件或分段”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“吊运民用船体构件或分段”涉及不同操作/质量/接收责任，需要约定“完成批准吊运和就位要求”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 制造数据系统或装配翻转装置不证明大型分段吊运自动化。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“吊运民用船体构件或分段”提供输入到“完成批准吊运和就位要求”验收的完整周期，区分机械运行和人的付薪时间。
+- 吊点、重心、路径与接收姿态需明确，天车与装配工装分账。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：制造数据系统或装配翻转装置不证明大型分段吊运自动化。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-hull](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97—98页表B.3（印刷页96—97））
+
+**查询记录：** CN-MACHTR-main-046-3、CN-MACHTR-main-046-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-block-assemble-006 · 除锈处理适用船体结构
+
+**结论：** 实船分段试验及历史使用陈述；仅甲板货舱底等适配平面，非全部船体。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入船体结构；输出除锈表面；验收提案：达到本涂装前条件。具体现场阈值未验证。
+
+**执行条件：** 37以已加工构件为输入，分段拼装；船坞总组的同工序不与本工段重复计数。 作业面平整、障碍高度、磨料回收和除锈等级需验证。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-ship-block-assemble-006-A1** 甲板导引抛丸与磨料回收（partial；government-republished-developer-field-trial）。实船分段试验及历史使用陈述；仅甲板货舱底等适配平面，非全部船体。 仅匹配甲板或货舱底；不可外推全部船体表面。 证据期：2023-08-30；检索日仍可读不等于持续运行；范围：中国船舶研发，实船未具名。 [CN-MACHTR-SASTIND-BLAST / blast](https://www.sastind.gov.cn/n10086200/n10086331/c10356600/content.html)（行83—85）
+
+**残留工作及未知执行者：** 实船分段试验及历史使用陈述；仅甲板货舱底等适配平面，非全部船体。
+
+**技术条件：** 作业面平整、障碍高度、磨料回收和除锈等级需验证。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“除锈处理适用船体结构”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“除锈处理适用船体结构”涉及不同操作/质量/接收责任，需要约定“达到本涂装前条件”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 后续仍拟完善越障并改小型轻量。 后续研发目标，非试验失败或不可行。 实船分段试验及历史使用陈述；仅甲板货舱底等适配平面，非全部船体。 [CN-MACHTR-SASTIND-BLAST / stage](https://www.sastind.gov.cn/n10086200/n10086331/c10356600/content.html)（行86）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 实船分段试验及历史使用陈述；仅甲板货舱底等适配平面，非全部船体。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“除锈处理适用船体结构”提供输入到“达到本涂装前条件”验收的完整周期，区分机械运行和人的付薪时间。
+- 作业面平整、障碍高度、磨料回收和除锈等级需验证。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：实船分段试验及历史使用陈述；仅甲板货舱底等适配平面，非全部船体。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-hull](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第9—10页表1、PDF第101页表B.11（印刷页8—9、100））
+
+**查询记录：** CN-MACHTR-main-047-1、CN-MACHTR-main-047-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-block-assemble-007 · 涂装适用船体结构表面
+
+**结论：** 抛丸除锈不实施涂层喷涂；未核适配本分段的自动涂装原文。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入结构及涂料；输出涂装结构；验收提案：完成本涂层体系规定工序。具体现场阈值未验证。
+
+**执行条件：** 37以已加工构件为输入，分段拼装；船坞总组的同工序不与本工段重复计数。 涂料配方、底材、遮蔽和膜厚验收必须独立于除锈。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 抛丸除锈不实施涂层喷涂；未核适配本分段的自动涂装原文。
+
+**技术条件：** 涂料配方、底材、遮蔽和膜厚验收必须独立于除锈。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“涂装适用船体结构表面”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“涂装适用船体结构表面”涉及不同操作/质量/接收责任，需要约定“完成本涂层体系规定工序”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 开发方说明遥控与自主导引抛丸除锈，回收丸料并收集粉尘。 仅匹配甲板或货舱底；不可外推全部船体表面。 抛丸除锈不实施涂层喷涂；未核适配本分段的自动涂装原文。 [CN-MACHTR-SASTIND-BLAST / blast](https://www.sastind.gov.cn/n10086200/n10086331/c10356600/content.html)（行83—85）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 抛丸除锈不实施涂层喷涂；未核适配本分段的自动涂装原文。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“涂装适用船体结构表面”提供输入到“完成本涂层体系规定工序”验收的完整周期，区分机械运行和人的付薪时间。
+- 涂料配方、底材、遮蔽和膜厚验收必须独立于除锈。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：抛丸除锈不实施涂层喷涂；未核适配本分段的自动涂装原文。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-hull](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第9—10页表1、PDF第101页表B.11（印刷页8—9、100））
+
+**查询记录：** CN-MACHTR-main-047-3、CN-MACHTR-main-047-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-pipe-fit-001 · 现场放样船舶管路
+
+**结论：** 工厂工单或虚拟布置不是现场放样测量，未核对应动作公开原文。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入管系图纸与现场；输出放样结果；验收提案：路径对应本系统布置。具体现场阈值未验证。
+
+**执行条件：** 37船舶机械装配中的民用管系工段；主辅机和轴舵系另列未覆盖。 船上实物基准、现场偏差和设计版本需与放样记录绑定。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 工厂工单或虚拟布置不是现场放样测量，未核对应动作公开原文。
+
+**技术条件：** 船上实物基准、现场偏差和设计版本需与放样记录绑定。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“现场放样船舶管路”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“现场放样船舶管路”涉及不同操作/质量/接收责任，需要约定“路径对应本系统布置”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 摘要提出按工单自动上料、定长切断、输送和管法兰组焊。 摘要的工单切管功能属于工厂加工范围，执行机构未展开；不构成现场放样测量机制。 [CN-MACHTR-PIPE-PAPER / cut](https://www.71dhj.com/zh/article/doi/10.7512/j.issn.1001-2303.2023.05.19/)（行109—110）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 工厂工单或虚拟布置不是现场放样测量，未核对应动作公开原文。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“现场放样船舶管路”提供输入到“路径对应本系统布置”验收的完整周期，区分机械运行和人的付薪时间。
+- 船上实物基准、现场偏差和设计版本需与放样记录绑定。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：工厂工单或虚拟布置不是现场放样测量，未核对应动作公开原文。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-mech](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97—98页表B.3（印刷页96—97））
+
+**查询记录：** CN-MACHTR-main-048-1、CN-MACHTR-main-048-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-pipe-fit-002 · 按放样结果下料船舶管子
+
+**结论：** 公开摘要列工单驱动的定长切断功能与数据流程，未展开切断执行机构。华恒切割也是范围目录；现场放样信息传递、下料及验收须另核。
+
+**研究状态：** 功能或设备范围候选；当前作者修订未独立复检。
+
+**边界：** 输入管料；输出下料管件；验收提案：长度对应本管段要求。具体现场阈值未验证。
+
+**执行条件：** 37船舶机械装配中的民用管系工段；主辅机和轴舵系另列未覆盖。 管径长度、工单识别、定长补偿与切后标识需核。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-ship-pipe-fit-002-A1** 工单驱动定长切管（catalog；research-paper-abstract-only）。摘要中的自动定长切断是功能流程陈述，执行机构未展开；属于切管范围级候选，不包含弯管、现场放样或系统安装。 证据期：2023-05-25；检索日仍可读不等于持续运行；范围：中国研究论文摘要；现场未具名。 [CN-MACHTR-PIPE-PAPER / cut](https://www.71dhj.com/zh/article/doi/10.7512/j.issn.1001-2303.2023.05.19/)（行109—110）
+
+- **cn-ind-ship-pipe-fit-002-A2** 管预制坡口切割目录（catalog；vendor-function-catalog）。华恒页面列管预制及坡口切割范围；未展开切割执行机构，焊接控制机制另列，不扩为现场放样、弯管或校管。 证据期：2023-10-07；检索日仍可读不等于持续运行；范围：中国供应商产品方案；无具名客户。 [CN-MACHTR-HUAHENG-PIPE / scope](https://www.huahengrobot.com/case/126.html)（行282—297）
+
+**残留工作及未知执行者：** 公开摘要列工单驱动的定长切断功能与数据流程，未展开切断执行机构。华恒切割也是范围目录；现场放样信息传递、下料及验收须另核。
+
+**技术条件：** 管径长度、工单识别、定长补偿与切后标识需核。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“按放样结果下料船舶管子”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“按放样结果下料船舶管子”涉及不同操作/质量/接收责任，需要约定“长度对应本管段要求”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 摘要强调离散规格的工单传递识别与换型适配难点。 作者技术分析而非退出案例。 公开摘要列工单驱动的定长切断功能与数据流程，未展开切断执行机构。华恒切割也是范围目录；现场放样信息传递、下料及验收须另核。 [CN-MACHTR-PIPE-PAPER / limit](https://www.71dhj.com/zh/article/doi/10.7512/j.issn.1001-2303.2023.05.19/)（行110）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 公开摘要列工单驱动的定长切断功能与数据流程，未展开切断执行机构。华恒切割也是范围目录；现场放样信息传递、下料及验收须另核。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+- 华恒行288的管管/管法兰焊接局部机制已另登记，不能并入切管或弯管。
+
+**待访谈：**
+
+- 请按“按放样结果下料船舶管子”提供输入到“长度对应本管段要求”验收的完整周期，区分机械运行和人的付薪时间。
+- 管径长度、工单识别、定长补偿与切后标识需核。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：公开摘要列工单驱动的定长切断功能与数据流程，未展开切断执行机构。华恒切割也是范围目录；现场放样信息传递、下料及验收须另核。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-mech](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第9—10页表1、PDF第101页表B.11（印刷页8—9、100））
+
+**查询记录：** CN-MACHTR-main-048-3、CN-MACHTR-main-048-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-pipe-fit-003 · 弯制船舶管子
+
+**结论：** 已读智能管线只述直管切断与管法兰组焊，不能补出数控弯管。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入管料；输出弯管件；验收提案：形状对应本管段要求。具体现场阈值未验证。
+
+**执行条件：** 37船舶机械装配中的民用管系工段；主辅机和轴舵系另列未覆盖。 材料壁厚、弯曲半径和回弹测量需按弯管规格定义。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 已读智能管线只述直管切断与管法兰组焊，不能补出数控弯管。
+
+**技术条件：** 材料壁厚、弯曲半径和回弹测量需按弯管规格定义。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“弯制船舶管子”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“弯制船舶管子”涉及不同操作/质量/接收责任，需要约定“形状对应本管段要求”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 供应商列直管法兰预制、坡口切割、组对、焊接、转运存储方案。 同页列切割等范围并描述管焊接程序和跟踪；焊接为独立管系动作，不能证明本任务弯管自动化。 [CN-MACHTR-HUAHENG-PIPE / scope](https://www.huahengrobot.com/case/126.html)（行282—297）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 已读智能管线只述直管切断与管法兰组焊，不能补出数控弯管。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+- 华恒行288的管管/管法兰焊接局部机制已另登记，不能并入切管或弯管。
+
+**待访谈：**
+
+- 请按“弯制船舶管子”提供输入到“形状对应本管段要求”验收的完整周期，区分机械运行和人的付薪时间。
+- 材料壁厚、弯曲半径和回弹测量需按弯管规格定义。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：已读智能管线只述直管切断与管法兰组焊，不能补出数控弯管。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-mech](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第9—10页表1、PDF第101页表B.11（印刷页8—9、100））
+
+**查询记录：** CN-MACHTR-main-049-1、CN-MACHTR-main-049-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-pipe-fit-004 · 校正船舶管子形状
+
+**结论：** 管法兰组对不是校正弯管形状；未得匹配校管自动化原文。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入管件；输出校正管件；验收提案：形状达到本安装要求。具体现场阈值未验证。
+
+**执行条件：** 37船舶机械装配中的民用管系工段；主辅机和轴舵系另列未覆盖。 检具基准、端部位置、回弹与矫后损伤需测。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 管法兰组对不是校正弯管形状；未得匹配校管自动化原文。
+
+**技术条件：** 检具基准、端部位置、回弹与矫后损伤需测。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“校正船舶管子形状”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“校正船舶管子形状”涉及不同操作/质量/接收责任，需要约定“形状达到本安装要求”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 供应商列直管法兰预制、坡口切割、组对、焊接、转运存储方案。 目录线索，不扩为现场放样、弯管校管自动化。 管法兰组对不是校正弯管形状；未得匹配校管自动化原文。 [CN-MACHTR-HUAHENG-PIPE / scope](https://www.huahengrobot.com/case/126.html)（行282—297）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 管法兰组对不是校正弯管形状；未得匹配校管自动化原文。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“校正船舶管子形状”提供输入到“形状达到本安装要求”验收的完整周期，区分机械运行和人的付薪时间。
+- 检具基准、端部位置、回弹与矫后损伤需测。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：管法兰组对不是校正弯管形状；未得匹配校管自动化原文。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-mech](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第9—10页表1、PDF第101页表B.11（印刷页8—9、100））
+
+**查询记录：** CN-MACHTR-main-049-3、CN-MACHTR-main-049-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-pipe-fit-005 · 对船舶管段进行泵压试验
+
+**结论：** 有计算机及按钮配置；上接管、放水、安全确认及最终签认未自动化验证。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入管段；输出试压记录；验收提案：完成本管段规定试验。具体现场阈值未验证。
+
+**执行条件：** 37船舶机械装配中的民用管系工段；主辅机和轴舵系另列未覆盖。 管段承压能力、试验介质、接口与检漏判据需按规程确认。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-ship-pipe-fit-005-A1** 增压控制与试压数据采集（partial；vendor-product-mechanism）。有计算机及按钮配置；上接管、放水、安全确认及最终签认未自动化验证。 仅离线管件泵压部分，接拆管、介质及整船系统调试待核。 证据期：页面可见时间2021-03-04 08:18:01（首发或更新未明）；访问日不证明持续运行；范围：中国供应商；无具名制造厂。 [CN-MACHTR-SMT-SHIP-PIPE / test](https://www.smt-y.com/cpzs/jcsyj/915.html)（行73—93）
+
+**残留工作及未知执行者：** 有计算机及按钮配置；上接管、放水、安全确认及最终签认未自动化验证。
+
+**技术条件：** 管段承压能力、试验介质、接口与检漏判据需按规程确认。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“对船舶管段进行泵压试验”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“对船舶管段进行泵压试验”涉及不同操作/质量/接收责任，需要约定“完成本管段规定试验”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 有计算机及按钮配置；上接管、放水、安全确认及最终签认未自动化验证。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“对船舶管段进行泵压试验”提供输入到“完成本管段规定试验”验收的完整周期，区分机械运行和人的付薪时间。
+- 管段承压能力、试验介质、接口与检漏判据需按规程确认。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：有计算机及按钮配置；上接管、放水、安全确认及最终签认未自动化验证。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-mech](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第9—10页表1、PDF第101页表B.11（印刷页8—9、100））
+
+**查询记录：** CN-MACHTR-main-050-1、CN-MACHTR-main-050-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-pipe-fit-006 · 安装适用船舶淡水或海水管路
+
+**结论：** 预制管段生产或船上运行流量监测不能证明淡海水管系安装。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入管路部件；输出安装管路；验收提案：连接与布置对应本系统。具体现场阈值未验证。
+
+**执行条件：** 37船舶机械装配中的民用管系工段；主辅机和轴舵系另列未覆盖。 船舱可达、支吊架、法兰对接和系统隔离界面须明确。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 预制管段生产或船上运行流量监测不能证明淡海水管系安装。
+
+**技术条件：** 船舱可达、支吊架、法兰对接和系统隔离界面须明确。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“安装适用船舶淡水或海水管路”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“安装适用船舶淡水或海水管路”涉及不同操作/质量/接收责任，需要约定“连接与布置对应本系统”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 预制管段生产或船上运行流量监测不能证明淡海水管系安装。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“安装适用船舶淡水或海水管路”提供输入到“连接与布置对应本系统”验收的完整周期，区分机械运行和人的付薪时间。
+- 船舱可达、支吊架、法兰对接和系统隔离界面须明确。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：预制管段生产或船上运行流量监测不能证明淡海水管系安装。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-mech](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97—98页表B.3（印刷页96—97））
+
+**查询记录：** CN-MACHTR-main-050-3、CN-MACHTR-main-050-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-pipe-fit-007 · 装配船舶管路阀件和附件
+
+**结论：** 法兰焊接线或阀门工厂装配不是阀件装到船舶管系。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入附件及管路；输出装配管路；验收提案：附件类型位置对应本系统。具体现场阈值未验证。
+
+**执行条件：** 37船舶机械装配中的民用管系工段；主辅机和轴舵系另列未覆盖。 阀件规格方向、连接密封与开关位置需单独验收。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 法兰焊接线或阀门工厂装配不是阀件装到船舶管系。
+
+**技术条件：** 阀件规格方向、连接密封与开关位置需单独验收。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“装配船舶管路阀件和附件”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“装配船舶管路阀件和附件”涉及不同操作/质量/接收责任，需要约定“附件类型位置对应本系统”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 法兰焊接线或阀门工厂装配不是阀件装到船舶管系。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“装配船舶管路阀件和附件”提供输入到“附件类型位置对应本系统”验收的完整周期，区分机械运行和人的付薪时间。
+- 阀件规格方向、连接密封与开关位置需单独验收。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：法兰焊接线或阀门工厂装配不是阀件装到船舶管系。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-mech](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97—98页表B.3（印刷页96—97））
+
+**查询记录：** CN-MACHTR-main-051-1、CN-MACHTR-main-051-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-pipe-fit-008 · 调试已安装民用船舶管路系统
+
+**结论：** 离线试压不能完成实船管系系统联调，淡海水系统全部功能仍待核。
+
+**研究状态：** 邻接候选，迁移待核；当前作者修订未独立复检。
+
+**边界：** 输入安装管路；输出调试记录；验收提案：完成本系统规定项目。具体现场阈值未验证。
+
+**执行条件：** 37船舶机械装配中的民用管系工段；主辅机和轴舵系另列未覆盖。 各系统运行状态、泄漏、阀门联动和测试签认需船上实证。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-ship-pipe-fit-008-A1** 离线管件压力数据采集（adjacent；vendor-product-mechanism）。离线试压不能完成实船管系系统联调，淡海水系统全部功能仍待核。 仅离线管件泵压部分，接拆管、介质及整船系统调试待核。 证据期：页面可见时间2021-03-04 08:18:01（首发或更新未明）；访问日不证明持续运行；范围：中国供应商；无具名制造厂。 [CN-MACHTR-SMT-SHIP-PIPE / test](https://www.smt-y.com/cpzs/jcsyj/915.html)（行73—93）
+
+**残留工作及未知执行者：** 离线试压不能完成实船管系系统联调，淡海水系统全部功能仍待核。
+
+**技术条件：** 各系统运行状态、泄漏、阀门联动和测试签认需船上实证。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“调试已安装民用船舶管路系统”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“调试已安装民用船舶管路系统”涉及不同操作/质量/接收责任，需要约定“完成本系统规定项目”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 离线试压不能完成实船管系系统联调，淡海水系统全部功能仍待核。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“调试已安装民用船舶管路系统”提供输入到“完成本系统规定项目”验收的完整周期，区分机械运行和人的付薪时间。
+- 各系统运行状态、泄漏、阀门联动和测试签认需船上实证。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：离线试压不能完成实船管系系统联调，淡海水系统全部功能仍待核。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-mech](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第496（印刷489）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97—98页表B.3（印刷页96—97））
+
+**查询记录：** CN-MACHTR-main-051-3、CN-MACHTR-main-051-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-electric-fit-001 · 铺设民用船舶电缆线路
+
+**结论：** 线缆制造或运行监控不是船上电缆铺设；未核匹配自动牵引布线原文。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入电缆及布置图；输出敷设线路；验收提案：路径与本系统图纸对应。具体现场阈值未验证。
+
+**执行条件：** 37民用船电设备安装；海试运营劳动归属另核。 线缆路径、最小弯曲和分隔、舱壁贯穿与损伤检查待核。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 线缆制造或运行监控不是船上电缆铺设；未核匹配自动牵引布线原文。
+
+**技术条件：** 线缆路径、最小弯曲和分隔、舱壁贯穿与损伤检查待核。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“铺设民用船舶电缆线路”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“铺设民用船舶电缆线路”涉及不同操作/质量/接收责任，需要约定“路径与本系统图纸对应”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 线缆制造或运行监控不是船上电缆铺设；未核匹配自动牵引布线原文。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“铺设民用船舶电缆线路”提供输入到“路径与本系统图纸对应”验收的完整周期，区分机械运行和人的付薪时间。
+- 线缆路径、最小弯曲和分隔、舱壁贯穿与损伤检查待核。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：线缆制造或运行监控不是船上电缆铺设；未核匹配自动牵引布线原文。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-electric](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第497（印刷490）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97—98页表B.3（印刷页96—97））
+
+**查询记录：** CN-MACHTR-main-052-1、CN-MACHTR-main-052-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-electric-fit-002 · 定位民用船舶电器安装位置
+
+**结论：** 通用三维模型定位线索未核实船电器放样定位动作。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入图纸及现场；输出定位标记；验收提案：位置与本系统布置一致。具体现场阈值未验证。
+
+**执行条件：** 37民用船电设备安装；海试运营劳动归属另核。 舱内基准、支座与设备维护空间须在安装前验收。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 通用三维模型定位线索未核实船电器放样定位动作。
+
+**技术条件：** 舱内基准、支座与设备维护空间须在安装前验收。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“定位民用船舶电器安装位置”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“定位民用船舶电器安装位置”涉及不同操作/质量/接收责任，需要约定“位置与本系统布置一致”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 通用三维模型定位线索未核实船电器放样定位动作。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“定位民用船舶电器安装位置”提供输入到“位置与本系统布置一致”验收的完整周期，区分机械运行和人的付薪时间。
+- 舱内基准、支座与设备维护空间须在安装前验收。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：通用三维模型定位线索未核实船电器放样定位动作。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-electric](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第497（印刷490）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97—98页表B.3（印刷页96—97））
+
+**查询记录：** CN-MACHTR-main-052-3、CN-MACHTR-main-052-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-electric-fit-003 · 安装民用船舶电器
+
+**结论：** 自动控制产品功能不能证明船上电器吊装固定，未核对应机制。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入电器部件；输出安装电器；验收提案：设备按本装配要求固定。具体现场阈值未验证。
+
+**执行条件：** 37民用船电设备安装；海试运营劳动归属另核。 电器尺寸重量、固定方式和环境要求需按设备清单确认。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 自动控制产品功能不能证明船上电器吊装固定，未核对应机制。
+
+**技术条件：** 电器尺寸重量、固定方式和环境要求需按设备清单确认。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“安装民用船舶电器”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“安装民用船舶电器”涉及不同操作/质量/接收责任，需要约定“设备按本装配要求固定”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 自动控制产品功能不能证明船上电器吊装固定，未核对应机制。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“安装民用船舶电器”提供输入到“设备按本装配要求固定”验收的完整周期，区分机械运行和人的付薪时间。
+- 电器尺寸重量、固定方式和环境要求需按设备清单确认。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：自动控制产品功能不能证明船上电器吊装固定，未核对应机制。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-electric](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第497（印刷490）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97—98页表B.3（印刷页96—97））
+
+**查询记录：** CN-MACHTR-main-053-1、CN-MACHTR-main-053-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-electric-fit-004 · 连接民用船舶电器线路
+
+**结论：** 产品接线图或程序部署不替代实物线头处理与连接；未获得匹配原文。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入电器及电缆；输出接线装置；验收提案：线路对应本系统图纸。具体现场阈值未验证。
+
+**执行条件：** 37民用船电设备安装；海试运营劳动归属另核。 端子标识、接头质量和连接防错须与回路检验绑定。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 产品接线图或程序部署不替代实物线头处理与连接；未获得匹配原文。
+
+**技术条件：** 端子标识、接头质量和连接防错须与回路检验绑定。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“连接民用船舶电器线路”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“连接民用船舶电器线路”涉及不同操作/质量/接收责任，需要约定“线路对应本系统图纸”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 产品接线图或程序部署不替代实物线头处理与连接；未获得匹配原文。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“连接民用船舶电器线路”提供输入到“线路对应本系统图纸”验收的完整周期，区分机械运行和人的付薪时间。
+- 端子标识、接头质量和连接防错须与回路检验绑定。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：产品接线图或程序部署不替代实物线头处理与连接；未获得匹配原文。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-electric](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第497（印刷490）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97—98页表B.3（印刷页96—97））
+
+**查询记录：** CN-MACHTR-main-053-3、CN-MACHTR-main-053-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-electric-fit-005 · 调试民用船舶电器
+
+**结论：** 船舶运行监测只说明控制功能，未核制造调试整项自动验收。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入接线装置；输出调试记录；验收提案：完成本系统规定项目。具体现场阈值未验证。
+
+**执行条件：** 37民用船电设备安装；海试运营劳动归属另核。 功能、绝缘、保护和联锁等测试项目需依设备与船级要求核。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 船舶运行监测只说明控制功能，未核制造调试整项自动验收。
+
+**技术条件：** 功能、绝缘、保护和联锁等测试项目需依设备与船级要求核。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“调试民用船舶电器”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“调试民用船舶电器”涉及不同操作/质量/接收责任，需要约定“完成本系统规定项目”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 船舶运行监测只说明控制功能，未核制造调试整项自动验收。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“调试民用船舶电器”提供输入到“完成本系统规定项目”验收的完整周期，区分机械运行和人的付薪时间。
+- 功能、绝缘、保护和联锁等测试项目需依设备与船级要求核。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：船舶运行监测只说明控制功能，未核制造调试整项自动验收。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-electric](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第497（印刷490）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第97—98页表B.3（印刷页96—97））
+
+**查询记录：** CN-MACHTR-main-054-1、CN-MACHTR-main-054-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-civil-plane-structure-001 · 清点民用飞机装配材料和装配件
+
+**结论：** 零件BOM或物流标签检索未核对应民机实物清点系统；不由数字装配推件数核验。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入材料及装配清单；输出清点记录；验收提案：物料与本装配清单对应。具体现场阈值未验证。
+
+**执行条件：** 37民用飞机结构装配，限定公开的一般工艺，不涉及军用或武器系统。 装配版本、序列号与适用状态须和实物数量对应。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 零件BOM或物流标签检索未核对应民机实物清点系统；不由数字装配推件数核验。
+
+**技术条件：** 装配版本、序列号与适用状态须和实物数量对应。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“清点民用飞机装配材料和装配件”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“清点民用飞机装配材料和装配件”涉及不同操作/质量/接收责任，需要约定“物料与本装配清单对应”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 零件BOM或物流标签检索未核对应民机实物清点系统；不由数字装配推件数核验。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“清点民用飞机装配材料和装配件”提供输入到“物料与本装配清单对应”验收的完整周期，区分机械运行和人的付薪时间。
+- 装配版本、序列号与适用状态须和实物数量对应。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：零件BOM或物流标签检索未核对应民机实物清点系统；不由数字装配推件数核验。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / plane-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第498（印刷491）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / air](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第98页表B.4（印刷页97））
+
+**查询记录：** CN-MACHTR-main-054-3、CN-MACHTR-main-054-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-civil-plane-structure-002 · 检查民用飞机待装配件
+
+**结论：** 装配测量摘要支持装配全周期几何关系管控；是否覆盖待装配件来件检查的采样、判定与放行关口未建立，现为邻接迁移候选。
+
+**研究状态：** 邻接候选，迁移待核；当前作者修订未独立复检。
+
+**边界：** 输入装配件；输出检查结果；验收提案：本装配前规定项目核对完成。具体现场阈值未验证。
+
+**执行条件：** 37民用飞机结构装配，限定公开的一般工艺，不涉及军用或武器系统。 检验项目、测量基准与拒收责任需按来件类别制定。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-civil-plane-structure-002-A1** 装配几何测量与数据管理（adjacent；research-author-reported-engineering-use-abstract）。从装配几何测量迁移到来件检查的假设待证；原摘要未明确这个检查关口，不覆盖材质、损伤或全部来件验收。 证据期：2024-11-23；检索日仍可读不等于持续运行；范围：中国飞机制造作者；摘要未列机型。 [CN-MACHTR-SJTU-PLANE-MEASURE / measure](https://www.qk.sjtu.edu.cn/ktfy/CN/abstract/abstract49031.shtml)（L13—34）
+
+**残留工作及未知执行者：** 装配测量摘要支持装配全周期几何关系管控；是否覆盖待装配件来件检查的采样、判定与放行关口未建立，现为邻接迁移候选。
+
+**技术条件：** 检验项目、测量基准与拒收责任需按来件类别制定。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“检查民用飞机待装配件”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“检查民用飞机待装配件”涉及不同操作/质量/接收责任，需要约定“本装配前规定项目核对完成”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 装配测量摘要支持装配全周期几何关系管控；是否覆盖待装配件来件检查的采样、判定与放行关口未建立，现为邻接迁移候选。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“检查民用飞机待装配件”提供输入到“本装配前规定项目核对完成”验收的完整周期，区分机械运行和人的付薪时间。
+- 检验项目、测量基准与拒收责任需按来件类别制定。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：装配测量摘要支持装配全周期几何关系管控；是否覆盖待装配件来件检查的采样、判定与放行关口未建立，现为邻接迁移候选。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / plane-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第498（印刷491）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / air](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第98页表B.4（印刷页97））
+
+**查询记录：** CN-MACHTR-main-055-1、CN-MACHTR-main-055-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-civil-plane-structure-003 · 铆接民用飞机结构件
+
+**结论：** 2015采访把自动钻铆列为将来能力；碰撞论文原文访问未成功，不能作已用机制。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入结构件及铆接件；输出铆接结构；验收提案：完成本批准装配工艺。具体现场阈值未验证。
+
+**执行条件：** 37民用飞机结构装配，限定公开的一般工艺，不涉及军用或武器系统。 铆接连接类型、铆钉和结构可达范围须取得民机实际工艺。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 2015采访把自动钻铆列为将来能力；碰撞论文原文访问未成功，不能作已用机制。
+
+**技术条件：** 铆接连接类型、铆钉和结构可达范围须取得民机实际工艺。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“铆接民用飞机结构件”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“铆接民用飞机结构件”涉及不同操作/质量/接收责任，需要约定“完成本批准装配工艺”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 报道当时将自动钻铆列为未来能力。 只作阶段限制，不能证明当前铆接替代。 2015采访把自动钻铆列为将来能力；碰撞论文原文访问未成功，不能作已用机制。 [CN-MACHTR-SH-PLANE-ASSEMBLY / rivet](https://www.shkjdw.gov.cn/c/2015-03-04/499335.shtml)（行50）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 2015采访把自动钻铆列为将来能力；碰撞论文原文访问未成功，不能作已用机制。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“铆接民用飞机结构件”提供输入到“完成本批准装配工艺”验收的完整周期，区分机械运行和人的付薪时间。
+- 铆接连接类型、铆钉和结构可达范围须取得民机实际工艺。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：2015采访把自动钻铆列为将来能力；碰撞论文原文访问未成功，不能作已用机制。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / plane-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第498（印刷491）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第9—10页表1、PDF第101页表B.11（印刷页8—9、100））
+
+**查询记录：** CN-MACHTR-main-055-3、CN-MACHTR-main-055-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-civil-plane-structure-004 · 胶接民用飞机适用结构件
+
+**结论：** 所引机制用于已粘结结构部件的封边，当前结构胶接任务仅有邻接候选；结构定位、初始胶接、固化和强度放行的直接适用未建立。
+
+**研究状态：** 邻接候选，迁移待核；当前作者修订未独立复检。
+
+**边界：** 输入结构件及胶接材料；输出胶接结构；验收提案：完成本批准胶接工艺。具体现场阈值未验证。
+
+**执行条件：** 37民用飞机结构装配，限定公开的一般工艺，不涉及军用或武器系统。 胶料适用期、界面处理、路径和固化验证需要具体材料证据。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-civil-plane-structure-004-A1** 粘结后封边的双组分分路供料、末端混合涂布（adjacent；vendor-product-mechanism）。对象为粘结后的凹槽或开放边缘；未证明同系统执行结构初始胶接或满足本批准胶接工艺。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：全球产品中文页；未确认中国客户。 [CN-MACHTR-VISCOTEC-AERO / dispense](https://www.viscotec.com/cn/applications/aerospace/)（行67—73）
+
+**残留工作及未知执行者：** 所引机制用于已粘结结构部件的封边，当前结构胶接任务仅有邻接候选；结构定位、初始胶接、固化和强度放行的直接适用未建立。
+
+**技术条件：** 胶料适用期、界面处理、路径和固化验证需要具体材料证据。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“胶接民用飞机适用结构件”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“胶接民用飞机适用结构件”涉及不同操作/质量/接收责任，需要约定“完成本批准胶接工艺”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 所引机制用于已粘结结构部件的封边，当前结构胶接任务仅有邻接候选；结构定位、初始胶接、固化和强度放行的直接适用未建立。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“胶接民用飞机适用结构件”提供输入到“完成本批准胶接工艺”验收的完整周期，区分机械运行和人的付薪时间。
+- 胶料适用期、界面处理、路径和固化验证需要具体材料证据。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：所引机制用于已粘结结构部件的封边，当前结构胶接任务仅有邻接候选；结构定位、初始胶接、固化和强度放行的直接适用未建立。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / plane-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第498（印刷491）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / units](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第9—10页表1、PDF第101页表B.11（印刷页8—9、100））
+
+**查询记录：** CN-MACHTR-main-056-1、CN-MACHTR-main-056-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-civil-plane-structure-005 · 测量民用飞机大部件结合位置
+
+**结论：** 2015民机历史、2024摘要工程应用和2011实验分别标注；不能相互补成2026无人测量。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入大部件及测量设备；输出测量结果；验收提案：规定基准与测点记录完整。具体现场阈值未验证。
+
+**执行条件：** 37民用飞机结构装配，限定公开的一般工艺，不涉及军用或武器系统。 测点可见性、转站坐标、基准与方案变更须记录。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-civil-plane-structure-005-A1** 数字测量与定位器调姿（partial；government-republished-historical-field-interview）。2015民机历史、2024摘要工程应用和2011实验分别标注；不能相互补成2026无人测量。 适用大部段几何测量定位；人工调整与测量转站仍在。 证据期：2015-03-04；检索日仍可读不等于持续运行；范围：中国 C919 首架机结构对接历史阶段。 [CN-MACHTR-SH-PLANE-ASSEMBLY / measure](https://www.shkjdw.gov.cn/c/2015-03-04/499335.shtml)（行49—58）
+
+- **cn-ind-civil-plane-structure-005-A2** 在线测控与虚拟装配（partial；research-author-reported-engineering-use-abstract）。2015民机历史、2024摘要工程应用和2011实验分别标注；不能相互补成2026无人测量。 支持几何关系测量辅助；大部件与整机适用细节及持续性待核。 证据期：2024-11-23；检索日仍可读不等于持续运行；范围：中国飞机制造作者；摘要未列机型。 [CN-MACHTR-SJTU-PLANE-MEASURE / measure](https://www.qk.sjtu.edu.cn/ktfy/CN/abstract/abstract49031.shtml)（L13—34）
+
+- **cn-ind-civil-plane-structure-005-A3** 激光跟踪试验机身测点（laboratory；laboratory-test-paper-abstract）。2015民机历史、2024摘要工程应用和2011实验分别标注；不能相互补成2026无人测量。 只作试验机制背景，不采试验精度作行业验收。 证据期：2011-05-19；检索日仍可读不等于持续运行；范围：中国试验研究；未明确民用部署。 [CN-MACHTR-BUAA-PLANE-DOCK / measure](https://hkxb.buaa.edu.cn/CN/abstract/abstract14158.shtml)（L64—74）
+
+**残留工作及未知执行者：** 2015民机历史、2024摘要工程应用和2011实验分别标注；不能相互补成2026无人测量。
+
+**技术条件：** 测点可见性、转站坐标、基准与方案变更须记录。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“测量民用飞机大部件结合位置”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“测量民用飞机大部件结合位置”涉及不同操作/质量/接收责任，需要约定“规定基准与测点记录完整”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 受访者描述测点遮挡需转站重建坐标系和反复调姿。 历史直接操作困难，不推当下所有机型。 2015民机历史、2024摘要工程应用和2011实验分别标注；不能相互补成2026无人测量。 [CN-MACHTR-SH-PLANE-ASSEMBLY / residual](https://www.shkjdw.gov.cn/c/2015-03-04/499335.shtml)（行55—58）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 2015民机历史、2024摘要工程应用和2011实验分别标注；不能相互补成2026无人测量。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“测量民用飞机大部件结合位置”提供输入到“规定基准与测点记录完整”验收的完整周期，区分机械运行和人的付薪时间。
+- 测点可见性、转站坐标、基准与方案变更须记录。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：2015民机历史、2024摘要工程应用和2011实验分别标注；不能相互补成2026无人测量。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / plane-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第498（印刷491）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / air](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第98页表B.4（印刷页97））
+
+**查询记录：** CN-MACHTR-main-056-3、CN-MACHTR-main-056-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-civil-plane-structure-006 · 测量民用飞机整机结合位置
+
+**结论：** 2015四部段对接现场不等于整架飞机所有系统验收；当前运行和工时未核。
+
+**研究状态：** 有局部机制，适用条件待核；当前作者修订未独立复检。
+
+**边界：** 输入整机及测量设备；输出测量结果；验收提案：规定基准与测点记录完整。具体现场阈值未验证。
+
+**执行条件：** 37民用飞机结构装配，限定公开的一般工艺，不涉及军用或武器系统。 与大部件测量任务5的实际对象和重复测点需去重核算。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-civil-plane-structure-006-A1** 整机结构对接几何测量（partial；government-republished-historical-field-interview）。2015四部段对接现场不等于整架飞机所有系统验收；当前运行和工时未核。 适用大部段几何测量定位；人工调整与测量转站仍在。 证据期：2015-03-04；检索日仍可读不等于持续运行；范围：中国 C919 首架机结构对接历史阶段。 [CN-MACHTR-SH-PLANE-ASSEMBLY / measure](https://www.shkjdw.gov.cn/c/2015-03-04/499335.shtml)（行49—58）
+
+**残留工作及未知执行者：** 2015四部段对接现场不等于整架飞机所有系统验收；当前运行和工时未核。
+
+**技术条件：** 与大部件测量任务5的实际对象和重复测点需去重核算。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“测量民用飞机整机结合位置”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“测量民用飞机整机结合位置”涉及不同操作/质量/接收责任，需要约定“规定基准与测点记录完整”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 受访者描述测点遮挡需转站重建坐标系和反复调姿。 历史直接操作困难，不推当下所有机型。 2015四部段对接现场不等于整架飞机所有系统验收；当前运行和工时未核。 [CN-MACHTR-SH-PLANE-ASSEMBLY / residual](https://www.shkjdw.gov.cn/c/2015-03-04/499335.shtml)（行55—58）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 2015四部段对接现场不等于整架飞机所有系统验收；当前运行和工时未核。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“测量民用飞机整机结合位置”提供输入到“规定基准与测点记录完整”验收的完整周期，区分机械运行和人的付薪时间。
+- 与大部件测量任务5的实际对象和重复测点需去重核算。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：2015四部段对接现场不等于整架飞机所有系统验收；当前运行和工时未核。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / plane-assembly](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第498（印刷491）页；该职业主要工作任务）；[cn-transport-mfg-hj1124-2020 / air](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/202004/W020200401330839548113.pdf)（PDF第98页表B.4（印刷页97））
+
+**查询记录：** CN-MACHTR-main-057-1、CN-MACHTR-main-057-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-scrap-dismantle-001 · 清洗待拆船油舱内油垢
+
+**结论：** 拆船绿色基地报道没有清舱自动化机构；职业中的清洗设备仅基线，不证明无人清油垢。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入适用油舱；输出清洗舱及污物；验收提案：完成本船获批清舱程序。具体现场阈值未验证。
+
+**执行条件：** 37船舶拆除3736；使用HJ1034流程来源不意味着统计归42。解体后的废料加工按实际主体另归，不能重复计。 油舱残留成分、可达死角、清后判据及委外边界需核。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 拆船绿色基地报道没有清舱自动化机构；职业中的清洗设备仅基线，不证明无人清油垢。
+
+**技术条件：** 油舱残留成分、可达死角、清后判据及委外边界需核。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“清洗待拆船油舱内油垢”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“清洗待拆船油舱内油垢”涉及不同操作/质量/接收责任，需要约定“完成本船获批清舱程序”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 拆船绿色基地报道没有清舱自动化机构；职业中的清洗设备仅基线，不证明无人清油垢。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“清洗待拆船油舱内油垢”提供输入到“完成本船获批清舱程序”验收的完整周期，区分机械运行和人的付薪时间。
+- 油舱残留成分、可达死角、清后判据及委外边界需核。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：拆船绿色基地报道没有清舱自动化机构；职业中的清洗设备仅基线，不证明无人清油垢。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-dismantle](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第497—498（印刷490—491）页；该职业主要工作任务）；[cn-recycling-hj1034-2019 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201908/W020190828514974076303.pdf)（PDF第31页表19（印刷页28））
+
+**查询记录：** CN-MACHTR-main-057-3、CN-MACHTR-main-057-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-scrap-dismantle-002 · 检测待拆船舱易燃有害气体浓度
+
+**结论：** 来源是喷漆房人员定位集成，不是待拆油舱检测或作业许可。
+
+**研究状态：** 邻接候选，迁移待核；当前作者修订未独立复检。
+
+**边界：** 输入舱内气体；输出检测记录；验收提案：规定测点项目完整记录。具体现场阈值未验证。
+
+**执行条件：** 37船舶拆除3736；使用HJ1034流程来源不意味着统计归42。解体后的废料加工按实际主体另归，不能重复计。 采样位置、残留物变化、仪器校验和负责签认需由现场规程给出。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-ship-scrap-dismantle-002-A1** 舱内气体感知与无线传输（adjacent；vendor-reported-adjacent-application）。来源是喷漆房人员定位集成，不是待拆油舱检测或作业许可。 只作感知传输相邻线索，不证明待拆油舱全部采样与作业许可。 证据期：网页未显示可核发布日期；检索日仍可读不等于持续运行；范围：中国上海某智能科技公司集成项目。 [CN-MACHTR-ERANN-TANK / sense](https://www.eranntex.com/show-8-20.html)（行62—83）
+
+**残留工作及未知执行者：** 来源是喷漆房人员定位集成，不是待拆油舱检测或作业许可。
+
+**技术条件：** 采样位置、残留物变化、仪器校验和负责签认需由现场规程给出。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“检测待拆船舱易燃有害气体浓度”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“检测待拆船舱易燃有害气体浓度”涉及不同操作/质量/接收责任，需要约定“规定测点项目完整记录”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 来源是喷漆房人员定位集成，不是待拆油舱检测或作业许可。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“检测待拆船舱易燃有害气体浓度”提供输入到“规定测点项目完整记录”验收的完整周期，区分机械运行和人的付薪时间。
+- 采样位置、残留物变化、仪器校验和负责签认需由现场规程给出。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：来源是喷漆房人员定位集成，不是待拆油舱检测或作业许可。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-dismantle](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第497—498（印刷490—491）页；该职业主要工作任务）；[cn-recycling-hj1034-2019 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201908/W020190828514974076303.pdf)（PDF第31页表19（印刷页28））
+
+**查询记录：** CN-MACHTR-main-058-1、CN-MACHTR-main-058-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-scrap-dismantle-003 · 分类保管废船已识别的剩残油和溶剂
+
+**结论：** 未核剩残油溶剂自动分类保管原文；普通危废标签不是实物安全分类完成。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入剩残油及溶剂；输出分类暂存物料；验收提案：按本物料适用程序隔离标识。具体现场阈值未验证。
+
+**执行条件：** 37船舶拆除3736；使用HJ1034流程来源不意味着统计归42。解体后的废料加工按实际主体另归，不能重复计。 已识别废物属性、容器相容、隔离和接收记录须逐项核。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 未核剩残油溶剂自动分类保管原文；普通危废标签不是实物安全分类完成。
+
+**技术条件：** 已识别废物属性、容器相容、隔离和接收记录须逐项核。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“分类保管废船已识别的剩残油和溶剂”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“分类保管废船已识别的剩残油和溶剂”涉及不同操作/质量/接收责任，需要约定“按本物料适用程序隔离标识”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 未核剩残油溶剂自动分类保管原文；普通危废标签不是实物安全分类完成。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“分类保管废船已识别的剩残油和溶剂”提供输入到“按本物料适用程序隔离标识”验收的完整周期，区分机械运行和人的付薪时间。
+- 已识别废物属性、容器相容、隔离和接收记录须逐项核。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：未核剩残油溶剂自动分类保管原文；普通危废标签不是实物安全分类完成。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-dismantle](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第497—498（印刷490—491）页；该职业主要工作任务）；[cn-recycling-hj1034-2019 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201908/W020190828514974076303.pdf)（PDF第31页表19（印刷页28））
+
+**查询记录：** CN-MACHTR-main-058-3、CN-MACHTR-main-058-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-scrap-dismantle-004 · 拆卸废民用船可利用的通信导航设备
+
+**结论：** 拆船基地回收设备类别不证明通信导航设备自动无损拆卸。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入适用通信导航设备；输出拆卸设备；验收提案：按本设备完整性要求拆下。具体现场阈值未验证。
+
+**执行条件：** 37船舶拆除3736；使用HJ1034流程来源不意味着统计归42。解体后的废料加工按实际主体另归，不能重复计。 先确认设备可利用、连接隔离、接口损伤与回收验收。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 拆船基地回收设备类别不证明通信导航设备自动无损拆卸。
+
+**技术条件：** 先确认设备可利用、连接隔离、接口损伤与回收验收。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“拆卸废民用船可利用的通信导航设备”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“拆卸废民用船可利用的通信导航设备”涉及不同操作/质量/接收责任，需要约定“按本设备完整性要求拆下”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 通知要求分阶段现场监督影像并明确不得以影像代替现场监督。 数字记录仅支持证据保存；不替代清舱、切割和现场监督。 拆船基地回收设备类别不证明通信导航设备自动无损拆卸。 [CN-MACHTR-MOT-SCRAP-RECORD / record](https://xxgk.mot.gov.cn/2020/jigou/zhghs/202601/t20260115_4197531.html)（行65—83）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 拆船基地回收设备类别不证明通信导航设备自动无损拆卸。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“拆卸废民用船可利用的通信导航设备”提供输入到“按本设备完整性要求拆下”验收的完整周期，区分机械运行和人的付薪时间。
+- 先确认设备可利用、连接隔离、接口损伤与回收验收。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：拆船基地回收设备类别不证明通信导航设备自动无损拆卸。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-dismantle](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第497—498（印刷490—491）页；该职业主要工作任务）；[cn-recycling-hj1034-2019 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201908/W020190828514974076303.pdf)（PDF第31页表19（印刷页28））
+
+**查询记录：** CN-MACHTR-main-059-1、CN-MACHTR-main-059-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-scrap-dismantle-005 · 拆卸废民用船可利用的仪器仪表
+
+**结论：** 未核仪器仪表无损拆卸自动化；切割废钢不是设备回收。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入适用仪器仪表；输出拆卸仪表；验收提案：按本设备完整性要求拆下。具体现场阈值未验证。
+
+**执行条件：** 37船舶拆除3736；使用HJ1034流程来源不意味着统计归42。解体后的废料加工按实际主体另归，不能重复计。 仪表残值、接口和防护包装需先确定，不以拆下即合格。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 未核仪器仪表无损拆卸自动化；切割废钢不是设备回收。
+
+**技术条件：** 仪表残值、接口和防护包装需先确定，不以拆下即合格。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“拆卸废民用船可利用的仪器仪表”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“拆卸废民用船可利用的仪器仪表”涉及不同操作/质量/接收责任，需要约定“按本设备完整性要求拆下”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 通知要求分阶段现场监督影像并明确不得以影像代替现场监督。 数字记录仅支持证据保存；不替代清舱、切割和现场监督。 未核仪器仪表无损拆卸自动化；切割废钢不是设备回收。 [CN-MACHTR-MOT-SCRAP-RECORD / record](https://xxgk.mot.gov.cn/2020/jigou/zhghs/202601/t20260115_4197531.html)（行65—83）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 未核仪器仪表无损拆卸自动化；切割废钢不是设备回收。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“拆卸废民用船可利用的仪器仪表”提供输入到“按本设备完整性要求拆下”验收的完整周期，区分机械运行和人的付薪时间。
+- 仪表残值、接口和防护包装需先确定，不以拆下即合格。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：未核仪器仪表无损拆卸自动化；切割废钢不是设备回收。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-dismantle](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第497—498（印刷490—491）页；该职业主要工作任务）；[cn-recycling-hj1034-2019 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201908/W020190828514974076303.pdf)（PDF第31页表19（印刷页28））
+
+**查询记录：** CN-MACHTR-main-059-3、CN-MACHTR-main-059-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-scrap-dismantle-006 · 分类废船可利用设备与备件
+
+**结论：** 回收分类条目未给自动识别可利用设备与备件的原文。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入拆卸设备备件；输出分类物资；验收提案：材料和设备类别被区分。具体现场阈值未验证。
+
+**执行条件：** 37船舶拆除3736；使用HJ1034流程来源不意味着统计归42。解体后的废料加工按实际主体另归，不能重复计。 型号身份、完好程度、可复用资格和去向应一物一档。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 回收分类条目未给自动识别可利用设备与备件的原文。
+
+**技术条件：** 型号身份、完好程度、可复用资格和去向应一物一档。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“分类废船可利用设备与备件”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“分类废船可利用设备与备件”涉及不同操作/质量/接收责任，需要约定“材料和设备类别被区分”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 回收分类条目未给自动识别可利用设备与备件的原文。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“分类废船可利用设备与备件”提供输入到“材料和设备类别被区分”验收的完整周期，区分机械运行和人的付薪时间。
+- 型号身份、完好程度、可复用资格和去向应一物一档。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：回收分类条目未给自动识别可利用设备与备件的原文。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-dismantle](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第497—498（印刷490—491）页；该职业主要工作任务）；[cn-recycling-hj1034-2019 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201908/W020190828514974076303.pdf)（PDF第31页表19（印刷页28））
+
+**查询记录：** CN-MACHTR-main-060-1、CN-MACHTR-main-060-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-scrap-dismantle-007 · 包装废船回收可用设备备件
+
+**结论：** 标准箱码垛不能代表异形旧设备防护包装；未核本场景匹配资料。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入可用设备备件；输出包装物资；验收提案：对应本物资保管要求。具体现场阈值未验证。
+
+**执行条件：** 37船舶拆除3736；使用HJ1034流程来源不意味着统计归42。解体后的废料加工按实际主体另归，不能重复计。 设备形状、脆弱部位、防漏和运输固定需分别验收。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 标准箱码垛不能代表异形旧设备防护包装；未核本场景匹配资料。
+
+**技术条件：** 设备形状、脆弱部位、防漏和运输固定需分别验收。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“包装废船回收可用设备备件”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“包装废船回收可用设备备件”涉及不同操作/质量/接收责任，需要约定“对应本物资保管要求”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 标准箱码垛不能代表异形旧设备防护包装；未核本场景匹配资料。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“包装废船回收可用设备备件”提供输入到“对应本物资保管要求”验收的完整周期，区分机械运行和人的付薪时间。
+- 设备形状、脆弱部位、防漏和运输固定需分别验收。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：标准箱码垛不能代表异形旧设备防护包装；未核本场景匹配资料。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-dismantle](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第497—498（印刷490—491）页；该职业主要工作任务）；[cn-recycling-hj1034-2019 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201908/W020190828514974076303.pdf)（PDF第31页表19（印刷页28））
+
+**查询记录：** CN-MACHTR-main-060-3、CN-MACHTR-main-060-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-scrap-dismantle-008 · 将废船回收设备备件入库
+
+**结论：** 未取得匹配拆船回收设备的自动入库原文，普通产品出料不等于库存接收。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入包装物资；输出入库物资；验收提案：实物位置与本记录对应。具体现场阈值未验证。
+
+**执行条件：** 37船舶拆除3736；使用HJ1034流程来源不意味着统计归42。解体后的废料加工按实际主体另归，不能重复计。 单件标识、状态、储位与存放保护要绑定。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 未取得匹配拆船回收设备的自动入库原文，普通产品出料不等于库存接收。
+
+**技术条件：** 单件标识、状态、储位与存放保护要绑定。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“将废船回收设备备件入库”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“将废船回收设备备件入库”涉及不同操作/质量/接收责任，需要约定“实物位置与本记录对应”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 未取得匹配拆船回收设备的自动入库原文，普通产品出料不等于库存接收。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“将废船回收设备备件入库”提供输入到“实物位置与本记录对应”验收的完整周期，区分机械运行和人的付薪时间。
+- 单件标识、状态、储位与存放保护要绑定。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：未取得匹配拆船回收设备的自动入库原文，普通产品出料不等于库存接收。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-dismantle](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第497—498（印刷490—491）页；该职业主要工作任务）；[cn-recycling-hj1034-2019 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201908/W020190828514974076303.pdf)（PDF第31页表19（印刷页28））
+
+**查询记录：** CN-MACHTR-main-061-1、CN-MACHTR-main-061-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-scrap-dismantle-009 · 拆除废船不可利用仪器设备
+
+**结论：** 废钢剪切机不执行船上废设备分离拆除；目前仅职业动作与排污工序范围。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入不可利用设备；输出分离设备；验收提案：按本拆船程序拆下。具体现场阈值未验证。
+
+**执行条件：** 37船舶拆除3736；使用HJ1034流程来源不意味着统计归42。解体后的废料加工按实际主体另归，不能重复计。 固定点、隔离状态、吊运与后续分类界面需现场确认。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 废钢剪切机不执行船上废设备分离拆除；目前仅职业动作与排污工序范围。
+
+**技术条件：** 固定点、隔离状态、吊运与后续分类界面需现场确认。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“拆除废船不可利用仪器设备”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“拆除废船不可利用仪器设备”涉及不同操作/质量/接收责任，需要约定“按本拆船程序拆下”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 通知要求分阶段现场监督影像并明确不得以影像代替现场监督。 数字记录仅支持证据保存；不替代清舱、切割和现场监督。 废钢剪切机不执行船上废设备分离拆除；目前仅职业动作与排污工序范围。 [CN-MACHTR-MOT-SCRAP-RECORD / record](https://xxgk.mot.gov.cn/2020/jigou/zhghs/202601/t20260115_4197531.html)（行65—83）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 废钢剪切机不执行船上废设备分离拆除；目前仅职业动作与排污工序范围。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“拆除废船不可利用仪器设备”提供输入到“按本拆船程序拆下”验收的完整周期，区分机械运行和人的付薪时间。
+- 固定点、隔离状态、吊运与后续分类界面需现场确认。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：废钢剪切机不执行船上废设备分离拆除；目前仅职业动作与排污工序范围。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-dismantle](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第497—498（印刷490—491）页；该职业主要工作任务）；[cn-recycling-hj1034-2019 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201908/W020190828514974076303.pdf)（PDF第31页表19（印刷页28））
+
+**查询记录：** CN-MACHTR-main-061-3、CN-MACHTR-main-061-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-scrap-dismantle-010 · 切割废船体成为船板型材废钢
+
+**结论：** 独立废钢货场加工已拆下船板，不能计为船体整体解体自动化。
+
+**研究状态：** 邻接候选，迁移待核；当前作者修订未独立复检。
+
+**边界：** 输入待拆船体；输出分类材料；验收提案：切割尺寸满足本后道要求。具体现场阈值未验证。
+
+**执行条件：** 37船舶拆除3736；使用HJ1034流程来源不意味着统计归42。解体后的废料加工按实际主体另归，不能重复计。 船上初割与岸上船板二次剪切分开，执行行业不能重算。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-ship-scrap-dismantle-010-A1** 回收船板料多刀剪切（adjacent；vendor-reported-adjacent-sector-use）。独立废钢货场加工已拆下船板，不能计为船体整体解体自动化。 相邻42行业，不替代待拆船体切割；不采用月产量和成本变化。 证据期：2024-05-30；检索日仍可读不等于持续运行；范围：中国江苏独立废钢再生货场。 [CN-MACHTR-ZONKIN-SCRAP / cut](https://zonkingroup.com/mobile/ddjcase/625.html)（行54—62）
+
+**残留工作及未知执行者：** 独立废钢货场加工已拆下船板，不能计为船体整体解体自动化。
+
+**技术条件：** 船上初割与岸上船板二次剪切分开，执行行业不能重算。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“切割废船体成为船板型材废钢”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“切割废船体成为船板型材废钢”涉及不同操作/质量/接收责任，需要约定“切割尺寸满足本后道要求”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+- 通知要求分阶段现场监督影像并明确不得以影像代替现场监督。 数字记录仅支持证据保存；不替代清舱、切割和现场监督。 独立废钢货场加工已拆下船板，不能计为船体整体解体自动化。 [CN-MACHTR-MOT-SCRAP-RECORD / record](https://xxgk.mot.gov.cn/2020/jigou/zhghs/202601/t20260115_4197531.html)（行65—83）
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 独立废钢货场加工已拆下船板，不能计为船体整体解体自动化。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“切割废船体成为船板型材废钢”提供输入到“切割尺寸满足本后道要求”验收的完整周期，区分机械运行和人的付薪时间。
+- 船上初割与岸上船板二次剪切分开，执行行业不能重算。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：独立废钢货场加工已拆下船板，不能计为船体整体解体自动化。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-dismantle](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第497—498（印刷490—491）页；该职业主要工作任务）；[cn-recycling-hj1034-2019 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201908/W020190828514974076303.pdf)（PDF第31页表19（印刷页28））
+
+**查询记录：** CN-MACHTR-main-062-1、CN-MACHTR-main-062-2。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-scrap-dismantle-011 · 对废船解体材料过磅
+
+**结论：** 外部再生资源车辆地磅不同于船厂解体件重；不采自报人工和回本数据。
+
+**研究状态：** 邻接候选，迁移待核；当前作者修订未独立复检。
+
+**边界：** 输入解体材料；输出称量记录；验收提案：物料与称量记录对应。具体现场阈值未验证。
+
+**执行条件：** 37船舶拆除3736；使用HJ1034流程来源不意味着统计归42。解体后的废料加工按实际主体另归，不能重复计。 计量对象为单件或车批须固定，皮重与重复过磅规则要核。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+
+- **cn-ind-ship-scrap-dismantle-011-A1** 回收基地车辆自助称重（adjacent；vendor-reported-adjacent-sector-use）。外部再生资源车辆地磅不同于船厂解体件重；不采自报人工和回本数据。 可作物流批重思路；独立42场地不计37已采用，件重方案另核。 证据期：2026-06-24；检索日仍可读不等于持续运行；范围：中国惠州综合再生资源基地，未具名。 [CN-MACHTR-HX-WEIGH / weigh](https://www.hzhxhhz.cn/index.php?a=index&aid=116&c=View&m=home)（行43—53）
+
+**残留工作及未知执行者：** 外部再生资源车辆地磅不同于船厂解体件重；不采自报人工和回本数据。
+
+**技术条件：** 计量对象为单件或车批须固定，皮重与重复过磅规则要核。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“对废船解体材料过磅”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“对废船解体材料过磅”涉及不同操作/质量/接收责任，需要约定“物料与称量记录对应”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 外部再生资源车辆地磅不同于船厂解体件重；不采自报人工和回本数据。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“对废船解体材料过磅”提供输入到“物料与称量记录对应”验收的完整周期，区分机械运行和人的付薪时间。
+- 计量对象为单件或车批须固定，皮重与重复过磅规则要核。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：外部再生资源车辆地磅不同于船厂解体件重；不采自报人工和回本数据。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-dismantle](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第497—498（印刷490—491）页；该职业主要工作任务）；[cn-recycling-hj1034-2019 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201908/W020190828514974076303.pdf)（PDF第31页表19（印刷页28））
+
+**查询记录：** CN-MACHTR-main-062-3、CN-MACHTR-main-062-4。独审原稿与当前修订的区别见同名恢复台账。
+
+### cn-ind-ship-scrap-dismantle-012 · 分类堆放废船解体材料
+
+**结论：** 回收料分类汇总不是实际分类堆码；未核船厂多形状材料自动搬放原文。
+
+**研究状态：** 已执行正反检索，匹配证据不足；当前作者修订未独立复检。
+
+**边界：** 输入解体材料；输出分类堆料；验收提案：材料身份与堆放区对应。具体现场阈值未验证。
+
+**执行条件：** 37船舶拆除3736；使用HJ1034流程来源不意味着统计归42。解体后的废料加工按实际主体另归，不能重复计。 材质分类、尺寸重量、堆放稳固及料场位置需逐项验收。
+
+**人工投入：** 未取得本任务可核工时、人数或可撤销付薪支出；职业职责及设备节拍不能代替。
+
+**替代方案：**
+尚未建立本任务匹配的原始机制证据。
+
+**残留工作及未知执行者：** 回收料分类汇总不是实际分类堆码；未核船厂多形状材料自动搬放原文。
+
+**技术条件：** 材质分类、尺寸重量、堆放稳固及料场位置需逐项验收。 是否阻止采用须实测；缺证本身不构成技术障碍。
+
+**经济缺口：** 缺“分类堆放废船解体材料”可撤销付薪工作量、完整部署和异常费用；不能计算回收期，也不能据此判经济不可行。
+
+**采用条件：** 若“分类堆放废船解体材料”涉及不同操作/质量/接收责任，需要约定“材料身份与堆放区对应”签认与异常接管；尚未证实其已阻止采用。
+
+**失败、退出或未采用检查：** 历史故障、产品边界、厂商分析和相邻流程排除分别记录；没有检得案例不代表不存在失败。
+
+**成功反例边界：** 仅列当前任务有直接局部机制描述的候选；目录、邻接和专利仍各自保留，不据此认定全任务成功或持续商业运行。
+
+**证据缺口：**
+
+- 回收料分类汇总不是实际分类堆码；未核船厂多形状材料自动搬放原文。
+- 本任务按正常/异常区分的人工基线、验收样本、维护和质量放行记录未取得。
+- 2026持续运行及客户独立验证未取得；所引历史、产品、实验和拟建证据不能补足。
+
+**待访谈：**
+
+- 请按“分类堆放废船解体材料”提供输入到“材料身份与堆放区对应”验收的完整周期，区分机械运行和人的付薪时间。
+- 材质分类、尺寸重量、堆放稳固及料场位置需逐项验收。 在这些条件下曾因何拒收、停用或改回人工？
+- 请提供对应产品型号、具名客户验收与近期异常/接管/返工记录，核对研究边界：回收料分类汇总不是实际分类堆码；未核船厂多形状材料自动搬放原文。
+- 哪些劳动现金能实际撤销？请分别提供增量能源水、耗材、维护停机、合规保险培训及营运资金差额。
+
+**任务定义来源：** [cn-occ-2022-draft / ship-dismantle](https://www.bdagh.com/upload/1/cms/content/editor/1712798188409.pdf)（物理 PDF 第497—498（印刷490—491）页；该职业主要工作任务）；[cn-recycling-hj1034-2019 / ship](https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/pwxk/201908/W020190828514974076303.pdf)（PDF第31页表19（印刷页28））
+
+**查询记录：** CN-MACHTR-main-063-1、CN-MACHTR-main-063-2。独审原稿与当前修订的区别见同名恢复台账。
+
+## 未计数的新增工序候选
+
+### CN-MACHTR-GAP-SEAL · 粘结后填充密封结构部件边缘或凹槽
+
+厂商描述双组分末端混合涂布机制；未确认中国现场、产品适配或完整任务验收。
+
+输入：已粘结结构部件的开放边缘或凹槽；输出：完成填充密封的结构部件；验收提案：密封材料、施胶路径、固化及外观/性能判据由本产品文件确认。
+
+[CN-MACHTR-VISCOTEC-AERO / dispense](https://www.viscotec.com/cn/applications/aerospace/)（行67—73）
+
+取得对象身份、流程SOP、独立验收和作业周期后，执行该候选本身的正反检索与独审；已有相邻任务的查询不代替新任务查询。
+
+### CN-MACHTR-GAP-PIPE-WELD · 焊接民用船用管管或管法兰接头
+
+华恒描述多层多道程序与激光跟踪控制；论文摘要另列工序范围，不据此补焊头机构、全任务无人化或验收。
+
+输入：按本系统要求组对的直管或管法兰；输出：焊后管接头；验收提案：本批准焊接工艺及接头质量判据须核。
+
+[CN-MACHTR-HUAHENG-PIPE / pipe-weld-control](https://www.huahengrobot.com/case/126.html)（行288）；[CN-MACHTR-PIPE-PAPER / cut](https://www.71dhj.com/zh/article/doi/10.7512/j.issn.1001-2303.2023.05.19/)（行109—110）
+
+取得对象身份、流程SOP、独立验收和作业周期后，执行该候选本身的正反检索与独审；已有相邻任务的查询不代替新任务查询。
+
+### CN-MACHTR-GAP-PREASSEMBLY-INSPECT · 检验修边后的注射器针筒与芯杆
+
+2024拟建环评图2-2明确此关口；既有28为组装后测试。当前尚无针对这个独立关口的正反检索，不冒充已研究。
+
+输入：修边后的针筒与芯杆；输出：装配前检验结果与零件去向；验收提案：具体项目、方法、限值及不合格处置路径未知。
+
+[cn-insight-medical-eia-2024 / syringe-preassembly-inspection](https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3462/site/attach/0/b3f28c7ee3e34f8281e72e85c14f6bd6.pdf)（物理PDF第23页（正文20）图2-2：修边后、针筒和芯杆进入组装前的检验方框）
+
+取得对象身份、流程SOP、独立验收和作业周期后，执行该候选本身的正反检索与独审；已有相邻任务的查询不代替新任务查询。
+
+## 条件拆分与共有事件
+
+各子候选的输入、输出、验收和事件核对字段见同名JSON的conditionalSplitProposals。没有现场独立核算依据时保留父项，不用子候选增加覆盖率。
+
+- **CN-MACHTR-SHARED-VIBRATION**：同一轴承的振动测量可能同时进入分档和成品质检。若19另有尺寸/外观等质量项目，以另一次采集事件区分；是否实际有这些项目须检验计划证明。确认同一事件时，共有资本、人员、维护、耗材和收益只归一次；设一条实际事件及唯一现金归属，其他任务保留引用。独立新事件可记增量运行现金，共用资本不重复。未确认前不累加机会收益。
+- **CN-MACHTR-SHARED-SCREW-FEED**：同一合装供钉设施可能被后调任务再次引用。若后调由新缺陷工单触发并实际再次供钉，记录新事件；若只是引用合装既有设备则只归一次。确认同一事件时，共有资本、人员、维护、耗材和收益只归一次；设一条实际事件及唯一现金归属，其他任务保留引用。独立新事件可记增量运行现金，共用资本不重复。未确认前不累加机会收益。
+- **CN-MACHTR-SHARED-TACK-WELD**：装配定位点焊可能同时被算入结构焊接。若89为后续连续焊缝或另一次批准焊接工序，凭焊缝/工单/起止区分；不能把点焊和后续焊接默认合并。确认同一事件时，共有资本、人员、维护、耗材和收益只归一次；设一条实际事件及唯一现金归属，其他任务保留引用。独立新事件可记增量运行现金，共用资本不重复。未确认前不累加机会收益。
+- **CN-MACHTR-SHARED-PLANE-MEASURE**：同一套结合位置测量可能同时服务大部件与整机装配。不同对接阶段、坐标重建或独立测量周期才分开记事件；共用设施仍按系统只归集一次资本。确认同一事件时，共有资本、人员、维护、耗材和收益只归一次；设一条实际事件及唯一现金归属，其他任务保留引用。独立新事件可记增量运行现金，共用资本不重复。未确认前不累加机会收益。
+
+## 回报计算框架
+
+全部金额均未知；下列是计算定义，不是实际项目回报。期初切换与后续退出明细见同名JSON现金模型。
+
+```text
+NPV = CF_0 + sum(CF_t/(1+r)^t, t=1..T) + terminal_extra_cash/(1+r)^T
+avoided_paid_labor + demand_confirmed_incremental_contribution + avoided_cash_losses - residual_paid_labor - maintenance - software_and_connectivity - incremental_energy_water_inputs - exception_rework_cost - downtime_cash_loss - incremental_insurance_compliance_training - incremental_cash_taxes - replacement_capital_expenditure - change_in_working_capital + interim_disposal_cash_proceeds - interim_exit_costs
+A_star = (I_0 + W_0 - sum(B_t/(1+r)^t, t=1..T) - terminal_extra_cash/(1+r)^T) / sum(1/(1+r)^t, t=1..T)
+```
+
+- T：正整数分析年数，未填
+- r：有依据且大于-1的折现率，未填
+- I_0：full_deployment_investment，期初完整部署净现金
+- W_0：incremental_working_capital，期初增量营运资金
+- CF_0：-I_0-W_0
+- CF_t：annualCashFlowFormula，按当年增量现金记录
+- terminal_extra_cash：disposal_cash_proceeds + recovered_working_capital - decommissioning_cost，排除CF_T已含的同一现金
+- A_star：假定每年相同的可避免付薪现金的代数盈亏门槛
+- B_t：CF_t-A，包含残留人工及其他增量净现金，不重复计避免劳动
+
+- 只有每年可避免付薪现金为恒定A时使用此门槛；一般项目保留逐年序列。
+- 若实际A必须非负，所需A=max(0,A_star)。负代数门槛只表示所假定其他现金已覆盖成本，不证明未知参数项目有收益。
+- 只有经核实的同口径有效现金工资w>0且A=H*w的恒定条件成立，才可求H_star=max(0,A_star)/w。职业职责或人数不能代替可撤销付薪工时。
+- 所有现金参数未知，本稿不计算任务NPV、回收期或门槛。
+
+[原稿独立审查](../reviews/cn-industry-machinery-medical-auto-transport-34-37-independent-review.md) · [作者修订恢复台账](../reviews/cn-industry-machinery-medical-auto-transport-34-37-author-revision.json)
