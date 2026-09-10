@@ -1,0 +1,112 @@
+{
+  "commit": "fc07b1795d375e7da8d3eda968b55ab08494aa55",
+  "checkedAtUTC": "2026-09-10 04:57:44 UTC",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/JoenHune/labor-automation-atlas/fc07b1795d375e7da8d3eda968b55ab08494aa55/research/automation/cn-industry-mineral-steel-nonferrous-foundry-30-33.json",
+      "status": 200,
+      "bytes": 3099134,
+      "sha256": "055d7465d79d96adc7b647b25ebd25a4f9216bb95d660d19bf431e8d4b70aa3e",
+      "localBytesMatch": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/JoenHune/labor-automation-atlas/fc07b1795d375e7da8d3eda968b55ab08494aa55/research/automation/cn-industry-mineral-steel-nonferrous-foundry-30-33-search-audit.json",
+      "status": 200,
+      "bytes": 1057361,
+      "sha256": "08915213eeea194b29ec164788ab72974b0476269c099ec3b1ac1946127cbb8a",
+      "localBytesMatch": true
+    }
+  ],
+  "status": "repository-saved-and-CI-verified-awaiting-independent-recheck",
+  "independentFactualRecheck": false,
+  "websiteDataVersionChanged": false,
+  "ci": {
+    "id": 34439140312,
+    "url": "https://github.com/JoenHune/labor-automation-atlas/actions/runs/34439140312",
+    "headSha": "fc07b1795d375e7da8d3eda968b55ab08494aa55",
+    "status": "completed",
+    "conclusion": "success",
+    "steps": [
+      {
+        "name": "Set up job",
+        "conclusion": "success",
+        "completedAt": "2026-09-10T04:57:01Z"
+      },
+      {
+        "name": "Run actions/checkout@v7.0.1",
+        "conclusion": "success",
+        "completedAt": "2026-09-10T04:57:14Z"
+      },
+      {
+        "name": "Run python3 scripts/verify-cn-fuel-author-revision.py",
+        "conclusion": "success",
+        "completedAt": "2026-09-10T04:57:14Z"
+      },
+      {
+        "name": "Run python3 scripts/verify-cn-mineral-author-revision.py",
+        "conclusion": "success",
+        "completedAt": "2026-09-10T04:57:15Z"
+      },
+      {
+        "name": "Run actions/setup-node@v7.0.0",
+        "conclusion": "success",
+        "completedAt": "2026-09-10T04:57:18Z"
+      },
+      {
+        "name": "Run npm ci",
+        "conclusion": "success",
+        "completedAt": "2026-09-10T04:57:23Z"
+      },
+      {
+        "name": "Run npm run typecheck",
+        "conclusion": "success",
+        "completedAt": "2026-09-10T04:57:29Z"
+      },
+      {
+        "name": "Run npm test",
+        "conclusion": "success",
+        "completedAt": "2026-09-10T04:59:04Z"
+      },
+      {
+        "name": "Run npm run build",
+        "conclusion": "success",
+        "completedAt": "2026-09-10T05:01:18Z"
+      },
+      {
+        "name": "Run git diff --exit-code -- data/research.json data/site.json",
+        "conclusion": "success",
+        "completedAt": "2026-09-10T05:01:19Z"
+      },
+      {
+        "name": "Run npm run worker:check",
+        "conclusion": "success",
+        "completedAt": "2026-09-10T05:01:20Z"
+      },
+      {
+        "name": "Post Run actions/setup-node@v7.0.0",
+        "conclusion": "success",
+        "completedAt": "2026-09-10T05:01:20Z"
+      },
+      {
+        "name": "Post Run actions/checkout@v7.0.1",
+        "conclusion": "success",
+        "completedAt": "2026-09-10T05:01:20Z"
+      },
+      {
+        "name": "Complete job",
+        "conclusion": "success",
+        "completedAt": "2026-09-10T05:01:20Z"
+      }
+    ]
+  },
+  "recoveryLedgerSha256": "76edf764edd1a932cfbe6b205bef86500ea2973c30412dcf99c1fd722767d522",
+  "authorStructureChecks": 34,
+  "currentSourceReferences": 1573,
+  "reversibleChanges": 6295,
+  "originalTaskCount": 133,
+  "newCountedTasks": 0,
+  "originalDraftIndependentlyReviewedTasks": 133,
+  "currentRevisionIndependentlyRecheckedTasks": 0,
+  "publicResearchVersion": "2026-09-10.preview-13",
+  "canonicalWebsiteDataUnchanged": true
+}
