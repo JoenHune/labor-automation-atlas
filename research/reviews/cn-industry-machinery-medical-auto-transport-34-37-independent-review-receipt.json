@@ -1,0 +1,188 @@
+{
+  "commit": "829f02ff4378b39d38e34bfe1e531c993306e2fc",
+  "checkedAtUTC": "2026-09-10T05:53:01.374668+00:00",
+  "status": "repository-saved-and-CI-verified-needs-author-revision",
+  "originalAuthorFilesModified": false,
+  "independentFirstPassAccepted": false,
+  "taskListFrozen": false,
+  "publicByteVerification": {
+    "commit": "829f02ff4378b39d38e34bfe1e531c993306e2fc",
+    "checkedAt": "2026-09-10T05:45:30.365716+00:00",
+    "checks": [
+      {
+        "path": "research/automation/cn-industry-machinery-medical-auto-transport-34-37.json",
+        "url": "https://raw.githubusercontent.com/JoenHune/labor-automation-atlas/829f02ff4378b39d38e34bfe1e531c993306e2fc/research/automation/cn-industry-machinery-medical-auto-transport-34-37.json",
+        "httpStatus": 200,
+        "bytes": 2005853,
+        "sha256": "438c048d04f8fe6aa22391bc5a7cd821d7f670d081ab9eaddbcbac04d9682606",
+        "matchesLocalBytes": true
+      },
+      {
+        "path": "research/reviews/cn-industry-machinery-medical-auto-transport-34-37-independent-decisions.json",
+        "url": "https://raw.githubusercontent.com/JoenHune/labor-automation-atlas/829f02ff4378b39d38e34bfe1e531c993306e2fc/research/reviews/cn-industry-machinery-medical-auto-transport-34-37-independent-decisions.json",
+        "httpStatus": 200,
+        "bytes": 312806,
+        "sha256": "859d7dc04cd85914c3bcd68eb409751e99dde1a500a788b57b70233907188ca4",
+        "matchesLocalBytes": true
+      },
+      {
+        "path": "research/reviews/cn-industry-machinery-medical-auto-transport-34-37-independent-review.md",
+        "url": "https://raw.githubusercontent.com/JoenHune/labor-automation-atlas/829f02ff4378b39d38e34bfe1e531c993306e2fc/research/reviews/cn-industry-machinery-medical-auto-transport-34-37-independent-review.md",
+        "httpStatus": 200,
+        "bytes": 17112,
+        "sha256": "29da590c2e917fb0f5786d6b9b37f4ea5818f369c77de75d4f253b81ed2fbcb9",
+        "matchesLocalBytes": true
+      }
+    ]
+  },
+  "reviewInputFiles": [
+    {
+      "path": "research/automation/cn-industry-machinery-medical-auto-transport-34-37.json",
+      "sha256": "438c048d04f8fe6aa22391bc5a7cd821d7f670d081ab9eaddbcbac04d9682606",
+      "bytes": 2005853
+    },
+    {
+      "path": "research/automation/cn-industry-machinery-medical-auto-transport-34-37-search-audit.json",
+      "sha256": "0c5b20d001c3a4f2beb3164c6adb60efb25165b0b074ac782d021afc8320b8f1",
+      "bytes": 664098
+    },
+    {
+      "path": "research/automation/cn-industry-machinery-medical-auto-transport-34-37.md",
+      "sha256": "d854c1ce7f97b62d1533814d5d98916ad05d871272378e61c68bb016209eee0f",
+      "bytes": 55745
+    },
+    {
+      "path": "research/automation/cn-industry-machinery-medical-auto-transport-34-37-validation.json",
+      "sha256": "367e7e37a09edb7be4d79be0f69670eaa3e453fb92691caf732551782533bbf2",
+      "bytes": 7004
+    }
+  ],
+  "independentDecisionSha256": "859d7dc04cd85914c3bcd68eb409751e99dde1a500a788b57b70233907188ca4",
+  "reviewSummary": {
+    "tasksReviewed": 125,
+    "scenariosReviewed": 18,
+    "automationSourcesRead": 42,
+    "automationLocatorsRead": 60,
+    "definitionSourcesRead": 8,
+    "definitionPdfPagesRead": 45,
+    "definitionHtmlSourcesRead": 1,
+    "visualPagesRead": 3,
+    "mainQueriesChecked": 250,
+    "supplementalQueriesChecked": 4,
+    "savedRequestResponsePairsChecked": 64,
+    "candidateRecordsStructurallyPresent": 1216,
+    "freshUrlsAttempted": 8,
+    "freshRelevantBodiesRead": 4,
+    "reviewOutcomeCounts": {
+      "retain-bounded-first-pass-with-unresolved-coverage": 99,
+      "revise-task-before-acceptance": 26
+    },
+    "openFindings": 19,
+    "taskListFrozen": false,
+    "newCountedTasks": 0,
+    "websiteResearchCountIncrease": 0,
+    "authorFilesModified": false,
+    "additionalContextPassagesRead": 5
+  },
+  "ci": {
+    "id": 34442265276,
+    "url": "https://github.com/JoenHune/labor-automation-atlas/actions/runs/34442265276",
+    "headSha": "829f02ff4378b39d38e34bfe1e531c993306e2fc",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "check",
+        "conclusion": "success",
+        "steps": [
+          {
+            "name": "Set up job",
+            "conclusion": "success",
+            "completedAt": "2026-09-10T05:44:20Z"
+          },
+          {
+            "name": "Run actions/checkout@v7.0.1",
+            "conclusion": "success",
+            "completedAt": "2026-09-10T05:44:36Z"
+          },
+          {
+            "name": "Run python3 scripts/verify-cn-fuel-author-revision.py",
+            "conclusion": "success",
+            "completedAt": "2026-09-10T05:44:36Z"
+          },
+          {
+            "name": "Run python3 scripts/verify-cn-mineral-author-revision.py",
+            "conclusion": "success",
+            "completedAt": "2026-09-10T05:44:37Z"
+          },
+          {
+            "name": "Run python3 scripts/verify-cn-machinery-independent-review.py",
+            "conclusion": "success",
+            "completedAt": "2026-09-10T05:44:37Z"
+          },
+          {
+            "name": "Run actions/setup-node@v7.0.0",
+            "conclusion": "success",
+            "completedAt": "2026-09-10T05:44:41Z"
+          },
+          {
+            "name": "Run npm ci",
+            "conclusion": "success",
+            "completedAt": "2026-09-10T05:44:47Z"
+          },
+          {
+            "name": "Run npm run typecheck",
+            "conclusion": "success",
+            "completedAt": "2026-09-10T05:44:55Z"
+          },
+          {
+            "name": "Run npm test",
+            "conclusion": "success",
+            "completedAt": "2026-09-10T05:46:55Z"
+          },
+          {
+            "name": "Run npm run build",
+            "conclusion": "success",
+            "completedAt": "2026-09-10T05:50:13Z"
+          },
+          {
+            "name": "Run git diff --exit-code -- data/research.json data/site.json",
+            "conclusion": "success",
+            "completedAt": "2026-09-10T05:50:14Z"
+          },
+          {
+            "name": "Run npm run worker:check",
+            "conclusion": "success",
+            "completedAt": "2026-09-10T05:50:15Z"
+          },
+          {
+            "name": "Post Run actions/setup-node@v7.0.0",
+            "conclusion": "success",
+            "completedAt": "2026-09-10T05:50:15Z"
+          },
+          {
+            "name": "Post Run actions/checkout@v7.0.1",
+            "conclusion": "success",
+            "completedAt": "2026-09-10T05:50:15Z"
+          },
+          {
+            "name": "Complete job",
+            "conclusion": "success",
+            "completedAt": "2026-09-10T05:50:16Z"
+          }
+        ]
+      }
+    ]
+  },
+  "localValidation": [
+    "portable independent review provenance verifier passed",
+    "canonical research data validation passed",
+    "staged diff whitespace validation passed",
+    "six public research artifacts scanned: no local paths, credential patterns, signed URLs or internal web references found"
+  ],
+  "publicResearchVersion": "2026-09-10.preview-13",
+  "canonicalWebsiteDataUnchanged": true,
+  "websiteResearchCountIncrease": 0,
+  "pagesDeploymentTriggered": false,
+  "nextRequired": "Revise the task-specific and batch-level findings, retain an exact recovery record for original inputs, and independently recheck the revisions before first-pass acceptance. No automatic import or freeze."
+}
