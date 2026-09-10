@@ -1,0 +1,76 @@
+{
+  "sourceCommit": "b005d6713c6e8465bc8672637ec0513c6bfef8e8",
+  "researchVersion": "2026-09-10.preview-13",
+  "checkedAtUTC": "2026-09-10T03:08:24Z",
+  "runs": [
+    {
+      "id": 34431728633,
+      "head_sha": "b005d6713c6e8465bc8672637ec0513c6bfef8e8",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/JoenHune/labor-automation-atlas/actions/runs/34431728633",
+      "updated_at": "2026-09-10T03:07:21Z"
+    },
+    {
+      "id": 34431740995,
+      "head_sha": "b005d6713c6e8465bc8672637ec0513c6bfef8e8",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/JoenHune/labor-automation-atlas/actions/runs/34431740995",
+      "updated_at": "2026-09-10T03:07:07Z"
+    }
+  ],
+  "pages": [
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 181736
+    },
+    {
+      "path": "cn/",
+      "status": 200,
+      "bytes": 272666
+    },
+    {
+      "path": "us/",
+      "status": 200,
+      "bytes": 261023
+    },
+    {
+      "path": "cn/tasks/cn-trans-bulk-berth-006",
+      "status": 200,
+      "bytes": 262569
+    }
+  ],
+  "asset": {
+    "entry": "assets/app.DieCTcYI.js",
+    "path": "assets/chunks/theme.BEEQ9iVe.js",
+    "status": 200,
+    "bytes": 7050088,
+    "sha256": "b1550d628865da4b43ec68410aacf58ed4a57e82720e582bdb96a494a06c153c",
+    "checks": {
+      "graphemeMapping": true,
+      "disclosureState": true,
+      "hiddenExplanation": true,
+      "explicitExpandControl": true,
+      "visibilityAttributeObserver": true,
+      "ancestorContentVisibility": true,
+      "ambiguousDisclosureRejection": true
+    }
+  },
+  "temporaryQARouteStatus": 404,
+  "taskExport": {
+    "id": "cn-trans-bulk-berth-006",
+    "status": 200,
+    "bytes": 105539,
+    "sha256": "53c701351506d2ec7860e211ceee79fdd7c8c17a35d5fb829fcf3407226e8405",
+    "matchesLocalExactly": true
+  },
+  "dataChanges": false,
+  "browserAcceptance": "research/reviews/annotation-disclosure-browser-acceptance.json",
+  "limitations": [
+    "Public assets and HTTP responses verified; post-deployment interactive browser checks await the in-app browser connection.",
+    "GitHub App, R2 and real author interaction acceptance remain incomplete. Research tasks are not frozen.",
+    "Full research export was not downloaded again for this code-only release; CI verified canonical data identity and the affected task export was compared exactly."
+  ]
+}
