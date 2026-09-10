@@ -1,0 +1,118 @@
+{
+  "sourceCommit": "daef4a678814faf174b89a2af9fe2ebe85424b4b",
+  "researchVersion": "2026-09-10.preview-13",
+  "checkedAtUTC": "2026-09-10T03:39:40Z",
+  "runs": [
+    {
+      "id": 34433710623,
+      "name": "Publish atlas to GitHub Pages",
+      "head_sha": "daef4a678814faf174b89a2af9fe2ebe85424b4b",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/JoenHune/labor-automation-atlas/actions/runs/34433710623",
+      "updated_at": "2026-09-10T03:38:26Z"
+    },
+    {
+      "id": 34433710637,
+      "name": "Check research and application",
+      "head_sha": "daef4a678814faf174b89a2af9fe2ebe85424b4b",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/JoenHune/labor-automation-atlas/actions/runs/34433710637",
+      "updated_at": "2026-09-10T03:38:24Z"
+    }
+  ],
+  "pages": [
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 181736
+    },
+    {
+      "path": "cn/",
+      "status": 200,
+      "bytes": 272666
+    },
+    {
+      "path": "us/",
+      "status": 200,
+      "bytes": 261023
+    },
+    {
+      "path": "cn/tasks/cn-trans-bulk-berth-006",
+      "status": 200,
+      "bytes": 262569
+    }
+  ],
+  "asset": {
+    "entry": "assets/app.C8Nc5FQV.js",
+    "path": "assets/chunks/theme.BiP-zD5g.js",
+    "status": 200,
+    "bytes": 7050774,
+    "sha256": "51a5e821fd235fb394e3efbc53b36259b549513a27f00df958d0541ddcd132f1",
+    "checks": {
+      "captureProgressMessage": true,
+      "differentAssetFromPreviousRelease": true,
+      "graphemeMapping": true,
+      "disclosureRestoration": true,
+      "attributeObserver": true
+    }
+  },
+  "temporaryQARouteStatus": 404,
+  "taskExport": {
+    "id": "cn-trans-bulk-berth-006",
+    "status": 200,
+    "bytes": 105539,
+    "sha256": "53c701351506d2ec7860e211ceee79fdd7c8c17a35d5fb829fcf3407226e8405",
+    "matchesLocalExactly": true
+  },
+  "dataChanges": false,
+  "localReview": "research/reviews/annotation-draft-capture-review.json",
+  "postDeploymentBrowser": {
+    "checkedAtUTC": "2026-09-10T03:41:52Z",
+    "page": "https://joen.site/labor-automation-atlas/cn/tasks/cn-trans-bulk-berth-006",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "newSelection": {
+      "bodyTypedWhileBusy": true,
+      "captureProgressMessageVisible": true,
+      "inputEditable": true,
+      "bodyRetainedAfterCompletion": true
+    },
+    "resizeSelection": {
+      "bodyAppendedWhileBusy": true,
+      "captureProgressMessageVisible": true,
+      "fullBodyRetainedAfterCompletion": true
+    },
+    "snapshot": {
+      "width": 299,
+      "height": 183,
+      "visuallyInspected": true,
+      "onlySelectedWebsiteContent": true
+    },
+    "reload": {
+      "fullAppendedBodyRestored": true,
+      "sameSnapshotDimensions": true,
+      "handles": 4,
+      "alerts": [],
+      "pageWidth": 390,
+      "sheetWidth": 390,
+      "sheetBottom": 844
+    },
+    "realGitHubCommentPosted": false,
+    "normalViewportRestored": {
+      "width": 951,
+      "height": 908,
+      "pageWidth": 951,
+      "dialogOpen": false,
+      "page": "http://127.0.0.1:5173/labor-automation-atlas/cn/?year=2025&focus=cn-gdp&sort=value"
+    }
+  },
+  "limitations": [
+    "This asset check is not proof of real GitHub identity, R2 failures or two-way synchronization.",
+    "The full research export was not downloaded again for this code-only fix; CI checks canonical data and this task export is byte-identical.",
+    "Research task lists remain unfrozen and the full goal is incomplete."
+  ]
+}
