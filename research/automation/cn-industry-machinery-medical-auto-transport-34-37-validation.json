@@ -1,0 +1,152 @@
+{
+  "batchId": "cn-industry-machinery-medical-auto-transport-34-37",
+  "country": "CN",
+  "inventorySha256": "5388db09742709d606032d030ced3985f802a6e221441b59cd1302064ee8983e",
+  "rawSha256": "438c048d04f8fe6aa22391bc5a7cd821d7f670d081ab9eaddbcbac04d9682606",
+  "auditSha256": "0c5b20d001c3a4f2beb3164c6adb60efb25165b0b074ac782d021afc8320b8f1",
+  "mdSha256": "d854c1ce7f97b62d1533814d5d98916ad05d871272378e61c68bb016209eee0f",
+  "counts": {
+    "industryCodes": [
+      "34",
+      "35",
+      "36",
+      "37"
+    ],
+    "identifiedTasks": 125,
+    "identifiedScenarios": 18,
+    "mainQueries": 250,
+    "supplementalQueries": 4,
+    "sources": 42,
+    "definitionSources": 8,
+    "researchStatusCounts": {
+      "searched-insufficient-matched-evidence": 73,
+      "searched-catalog": 10,
+      "searched-partial": 26,
+      "searched-adjacent": 15,
+      "searched-patent": 1
+    },
+    "splitParentCount": 0,
+    "additionalCountedTasks": 0,
+    "industries": [
+      {
+        "code": "34",
+        "name": "通用设备制造业",
+        "status": "partial",
+        "coveredScenarios": [
+          "cn-ind-bearing-ring-common",
+          "cn-ind-bearing-assembly",
+          "cn-ind-bearing-fluid-loop"
+        ],
+        "uncovered": [
+          "轴承滚动体和保持架制造、套圈锻造热处理；上述内外圈后段原文冲突待核",
+          "其他轴承类型及齿轮、减变速机、弹簧和紧固件差异",
+          "锅炉原动机、机床、物料搬运设备、电梯、泵阀压缩机、制冷、包装及文化办公机械等主要子行业仍未建立双路径场景",
+          "行业内设备总装、测试、维修返工与交付场景尚未全面覆盖"
+        ],
+        "classificationValidation": "项目基本情况C3451；仅一个轴承产品路线的3个场景，不能推作通用设备行业完整盘点",
+        "identifiedScenarioCount": 3,
+        "identifiedTaskCount": 24,
+        "firstPassSearchedTaskCount": 24,
+        "completeIndustryInventoryFrozen": false,
+        "interpretation": "仅当前已识别范围的研究计数，不是全行业任务覆盖率。"
+      },
+      {
+        "code": "35",
+        "name": "专用设备制造业",
+        "status": "partial",
+        "coveredScenarios": [
+          "cn-ind-medical-syringe-plastic",
+          "cn-ind-medical-syringe-assemble",
+          "cn-ind-medical-hemostatic-clip",
+          "cn-ind-medical-polymer-incoming",
+          "cn-ind-medical-polymer-clean-tools",
+          "cn-ind-medical-polymer-line-clearance"
+        ],
+        "uncovered": [
+          "采矿冶金建筑、化工木材非金属、食品饮料烟草、印刷制药日化、纺织服装、电子电工、农林牧渔等专用设备制造尚无具体双路径场景",
+          "医疗器械其他产品、设备系统集成与调试、无菌包装灭菌和质量放行等尚待独立场景；2023北京指南只补来料与卫生/清场局部",
+          "环保邮政社会公共安全等其他专用设备制造尚待",
+          "环评只证明拟定流程，正式操作规程、全部8阶段及自动化证据未完成"
+        ],
+        "classificationValidation": "报告基本情况C3589；只覆盖一拟建医疗器械产品线的局部动作，不将外购零件供应商归到本项目。",
+        "identifiedScenarioCount": 6,
+        "identifiedTaskCount": 23,
+        "firstPassSearchedTaskCount": 23,
+        "completeIndustryInventoryFrozen": false,
+        "interpretation": "仅当前已识别范围的研究计数，不是全行业任务覆盖率。"
+      },
+      {
+        "code": "36",
+        "name": "汽车制造业",
+        "status": "partial",
+        "coveredScenarios": [
+          "cn-ind-auto-final-assembly"
+        ],
+        "uncovered": [
+          "汽车冲压白车身焊接、涂装、电池模组、发动机和变速器内部装配、商用车上装及再制造仍未完整盘点。",
+          "HJ流程表只证明有装配及检验单元，不能支持各车型力矩和劳动投入。",
+          "本大类其他子行业和作业场景仍待盘点；partial不表示覆盖率可量化。"
+        ],
+        "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究",
+        "identifiedScenarioCount": 1,
+        "identifiedTaskCount": 18,
+        "firstPassSearchedTaskCount": 18,
+        "completeIndustryInventoryFrozen": false,
+        "interpretation": "仅当前已识别范围的研究计数，不是全行业任务覆盖率。"
+      },
+      {
+        "code": "37",
+        "name": "铁路、船舶、航空航天和其他运输设备制造业",
+        "status": "partial",
+        "coveredScenarios": [
+          "cn-ind-rail-vehicle-assembly",
+          "cn-ind-rail-brake-subassembly",
+          "cn-ind-ship-plate-parts",
+          "cn-ind-ship-block-assemble",
+          "cn-ind-ship-pipe-fit",
+          "cn-ind-ship-electric-fit",
+          "cn-ind-civil-plane-structure",
+          "cn-ind-ship-scrap-dismantle"
+        ],
+        "uncovered": [
+          "轨道机车动车牵引与网络、道岔和轮轴、整车涂装、厂内返修等未完整展开",
+          "船舶机械主辅机轴舵、非金属船、舾装内装、锚链螺旋桨、海工与试航未完整展开",
+          "航空发动机、复材和飞机各系统，航天设备、摩托自行助动休闲车与潜水救捞器具未展开",
+          "已读附录B.2—B.11建立产品分支入口，不能以七场景代表37全部行业"
+        ],
+        "classificationValidation": "待与国民经济行业分类及本项目主榜口径复核；登记不表示已研究",
+        "classificationRefs": [
+          {
+            "sourceId": "cn-gb4754-notes-2017",
+            "locatorId": "ship"
+          }
+        ],
+        "identifiedScenarioCount": 8,
+        "identifiedTaskCount": 60,
+        "firstPassSearchedTaskCount": 60,
+        "completeIndustryInventoryFrozen": false,
+        "interpretation": "仅当前已识别范围的研究计数，不是全行业任务覆盖率。"
+      }
+    ],
+    "knownIndustryTaskTotal": 1313,
+    "thisBatchNotFullIndustryInventory": true
+  },
+  "checks": {
+    "125OriginalTasksUnchanged": true,
+    "125TopLevelActionInputOutputAcceptanceUnchanged": true,
+    "250ActualQueriesRequestTaskDirectionTextAndUTCMatch": true,
+    "allRefsResolve": true,
+    "allCashParametersNull": true,
+    "sourceTextHashesAssignedPerFile": true,
+    "noSensitiveURLParametersOrLocalPaths": true,
+    "noTaskOrIndustryFrozen": true
+  },
+  "errors": [],
+  "status": "passed-structural-author-guard",
+  "independentFactualReview": "pending",
+  "limits": [
+    "原文定位和逐项机制为作者核读，不能由结构校验代替独立审校。",
+    "未将历史、目录、拟建、专利、实验室或相邻工序升为2026整项持续运行。",
+    "部分职业仅为任务族背景；现场SOP、职责和完整子行业覆盖仍有缺口。"
+  ]
+}
