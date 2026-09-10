@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29",
+  "validatedAt": "2026-09-09",
+  "inventorySha256": "5388db09742709d606032d030ced3985f802a6e221441b59cd1302064ee8983e",
+  "outputSha256": "19f105a88759355c0b7d351f581cfe429bbfd4a0ce2a8811655435e72044e25f",
+  "searchAuditSha256": "699e363f39b4aacd7e0b3c5c8a3b13dfdfb1d1981bbb5feaccd234d55ceb7fe8",
+  "counts": {
+    "taskCount": 178,
+    "scenarioCount": 32,
+    "sourceCount": 98,
+    "inventorySourceCount": 6,
+    "locatorCount": 201,
+    "taskQueryCount": 356,
+    "supplementalQueryCount": 8,
+    "tasksWithBoundedMechanisms": 63,
+    "tasksWithoutMatchedReadMechanism": 115,
+    "tasksWithReadNegativeOrLimitingEvidence": 42,
+    "tasksIndependentlyReviewed": 0,
+    "tasksWithComputableROI": 0,
+    "tasksWithCompletedPositiveAndCounterexampleResearch": 0,
+    "proposedSplitParentCount": 7,
+    "newSplitChildrenCounted": 0,
+    "evidenceSupportTierCounts": {
+      "bounded-direct-or-partial-action-mechanism": 63,
+      "equipment-or-route-scope-only": 27,
+      "insufficient-matched-evidence-after-search": 62,
+      "adjacent-evidence-only-no-current-task-mechanism": 7,
+      "provisional-application-only": 7,
+      "laboratory-only-mechanism-not-production-validation": 3,
+      "patent-design-mechanism-not-operational-validation": 9
+    },
+    "mechanismCountDefinition": "直接或局部动作机制单列；专利、实验室、暂拟迁移、目录、相邻和缺证另计，不能相加为中国现场投产。"
+  },
+  "checks": {
+    "stable178IdsAndOriginalFieldsPreserved": true,
+    "356MainQueriesMatch89PreCallUTCRequests": true,
+    "8SupplementalQueriesHavePreCallUTCRequests": true,
+    "allSourceLocatorsResolve": true,
+    "cashParametersAllNull": true,
+    "equipmentBaselinesSeparateFromAutomationMechanisms": true,
+    "patentLabScopeAdjacentTiersDistinct": true,
+    "sourcePDFSelectedPagesRead": true,
+    "2027RefineryStandardNotLabeledCurrent": true,
+    "noMachineLocalPathsInPublicFiles": true,
+    "candidateURLsSanitized": true,
+    "independentReviewCompleted": false,
+    "fullIndustryInventoryFrozen": false
+  },
+  "errors": [],
+  "scope": "作者结构核验及范围自查；逐项独立事实复核待完成。"
+}

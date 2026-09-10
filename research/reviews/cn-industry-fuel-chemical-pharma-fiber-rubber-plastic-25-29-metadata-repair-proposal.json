@@ -1,0 +1,343 @@
+{
+  "schemaVersion": "atlas-author-repair-proposal-v1",
+  "status": "prepared-not-applied-not-independently-rechecked",
+  "batchId": "cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29",
+  "author": "root",
+  "reviewBasis": "research/reviews/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29-automation-decisions.json",
+  "inputSha256": {
+    "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json": "19f105a88759355c0b7d351f581cfe429bbfd4a0ce2a8811655435e72044e25f",
+    "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29-search-audit.json": "699e363f39b4aacd7e0b3c5c8a3b13dfdfb1d1981bbb5feaccd234d55ceb7fe8",
+    "research/reviews/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29-automation-decisions.json": "9c35d7261ac175a9b622bfc492b9813719fc00b9e9fd0d2e8211aa725bb42bc8"
+  },
+  "coveredRepairCodes": [
+    "E03",
+    "E04",
+    "E10",
+    "R07"
+  ],
+  "scope": "日期/哈希表示/短引/检索时序边界/现金流定义的限定补丁；其余来源分类、任务机制和拆分修订未包含。",
+  "changes": [
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/cashFlowModels/0/parameterDefinitions/change_in_working_capital",
+      "operation": "add",
+      "after": "NWC_incremental,t = 项目营运资金余额_t − 基准方案营运资金余额_t；ΔNWC_t = NWC_incremental,t − NWC_incremental,t−1。期初新增占用只扣一次，逐期增减按差额记入，期末只按实际可回收余额计入一次，不与年度释放重复。"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/cashFlowModels/0/parameterDefinitions/decommissioning_cost",
+      "operation": "add",
+      "after": "退出时拆除、处置、场地恢复以及切换至后续基准方案的增量现金支出，按实际发生期列示；处置收益另列。已在初始切换、停机损失或净残值中计入的同一支出不得再扣。"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/sources/36/dateMetadata",
+      "operation": "add",
+      "after": {
+        "kind": "publishedAt",
+        "label": "发布日期",
+        "rawValue": "2026-03-06",
+        "timezone": null,
+        "locator": "规范化文本一基行16—18",
+        "firstPublicationConfirmed": false
+      }
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/sources/36/evidencePeriod",
+      "operation": "replace",
+      "before": "无明确发布日期；2026-09-09核读，不推定部署时间",
+      "after": "网页发布日期：2026-03-06；按页面发布时间标记，未独立确认首次发表；不是投产日或当前持续运行证明。"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/sources/36/publishedAt",
+      "operation": "replace",
+      "before": null,
+      "after": "2026-03-06"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/sources/43/dateMetadata",
+      "operation": "add",
+      "after": {
+        "kind": "updatedAt",
+        "label": "更新日期",
+        "rawValue": "2026-03-17 11:25:34",
+        "timezone": null,
+        "locator": "规范化文本一基行94—95",
+        "firstPublicationConfirmed": false
+      }
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/sources/43/evidencePeriod",
+      "operation": "replace",
+      "before": "无明确发布日期；2026-09-09核读，不推定部署时间",
+      "after": "网页更新日期：2026-03-17 11:25:34；首次发表时间未确认；不是投产日或当前持续运行证明。"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/sources/43/updatedAt",
+      "operation": "add",
+      "after": "2026-03-17"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/sources/54/dateMetadata",
+      "operation": "add",
+      "after": {
+        "kind": "publishedAt",
+        "label": "发布时间",
+        "rawValue": "2022-01-26 13:57:52",
+        "timezone": null,
+        "locator": "规范化文本一基行59—66",
+        "firstPublicationConfirmed": false
+      }
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/sources/54/evidencePeriod",
+      "operation": "replace",
+      "before": "无明确发布日期；2026-09-09核读，不推定部署时间",
+      "after": "网页发布时间：2022-01-26 13:57:52；按页面发布时间标记，未独立确认首次发表；不是投产日或当前持续运行证明。"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/sources/54/publishedAt",
+      "operation": "replace",
+      "before": null,
+      "after": "2022-01-26"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/sources/78/dateMetadata",
+      "operation": "add",
+      "after": {
+        "kind": "pageDate",
+        "label": "日期",
+        "rawValue": "2014-3-14 15:43:52",
+        "timezone": null,
+        "locator": "规范化文本一基行50—55",
+        "firstPublicationConfirmed": false
+      }
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/sources/78/evidencePeriod",
+      "operation": "replace",
+      "before": "无明确发布日期；2026-09-09核读，不推定部署时间",
+      "after": "网页日期：2014-3-14 15:43:52；首次发表时间未确认；不是投产日或当前持续运行证明。"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/sources/78/pageDate",
+      "operation": "add",
+      "after": "2014-03-14"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/sources/81/hashRepresentation",
+      "operation": "replace",
+      "before": "private-merged-web-read-output-not-original-response-bytes",
+      "after": "combined-three-page-tool-response-container-bytes"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/sources/81/locatorConvention",
+      "operation": "replace",
+      "before": "各自URL的web原文提取L行号；缓存合并保存但L行号按各源单独恢复，章节短锚辅助。",
+      "after": "SHA256对应三页合并工具回包容器shell-web-read.json；以本来源URL选择对应页面，再按原提取L行号定位。不是单页规范化TXT的一基行号，也不是网页原始响应字节。"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/sources/81/locators/2/quote",
+      "operation": "replace",
+      "before": "立管",
+      "after": "汽提塔和再生塔竖管"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/sources/82/hashRepresentation",
+      "operation": "replace",
+      "before": "private-merged-web-read-output-not-original-response-bytes",
+      "after": "combined-three-page-tool-response-container-bytes"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/sources/82/locatorConvention",
+      "operation": "replace",
+      "before": "各自URL的web原文提取L行号；缓存合并保存但L行号按各源单独恢复，章节短锚辅助。",
+      "after": "SHA256对应三页合并工具回包容器shell-web-read.json；以本来源URL选择对应页面，再按原提取L行号定位。不是单页规范化TXT的一基行号，也不是网页原始响应字节。"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/sources/83/hashRepresentation",
+      "operation": "replace",
+      "before": "private-merged-web-read-output-not-original-response-bytes",
+      "after": "combined-three-page-tool-response-container-bytes"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/sources/83/locatorConvention",
+      "operation": "replace",
+      "before": "各自URL的web原文提取L行号；缓存合并保存但L行号按各源单独恢复，章节短锚辅助。",
+      "after": "SHA256对应三页合并工具回包容器shell-web-read.json；以本来源URL选择对应页面，再按原提取L行号定位。不是单页规范化TXT的一基行号，也不是网页原始响应字节。"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/tasks/71/alternatives/0/evidencePeriod",
+      "operation": "replace",
+      "before": "无明确发布日期；2026-09-09核读，不推定部署时间",
+      "after": "网页发布日期：2026-03-06；按页面发布时间标记，未独立确认首次发表；不是投产日或当前持续运行证明。"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/tasks/88/alternatives/0/evidencePeriod",
+      "operation": "replace",
+      "before": "无明确发布日期；2026-09-09核读，不推定部署时间",
+      "after": "网页更新日期：2026-03-17 11:25:34；首次发表时间未确认；不是投产日或当前持续运行证明。"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/tasks/113/alternatives/0/evidencePeriod",
+      "operation": "replace",
+      "before": "无明确发布日期；2026-09-09核读，不推定部署时间",
+      "after": "网页发布时间：2022-01-26 13:57:52；按页面发布时间标记，未独立确认首次发表；不是投产日或当前持续运行证明。"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/tasks/114/alternatives/0/evidencePeriod",
+      "operation": "replace",
+      "before": "无明确发布日期；2026-09-09核读，不推定部署时间",
+      "after": "网页发布时间：2022-01-26 13:57:52；按页面发布时间标记，未独立确认首次发表；不是投产日或当前持续运行证明。"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/tasks/115/alternatives/0/evidencePeriod",
+      "operation": "replace",
+      "before": "无明确发布日期；2026-09-09核读，不推定部署时间",
+      "after": "网页发布时间：2022-01-26 13:57:52；按页面发布时间标记，未独立确认首次发表；不是投产日或当前持续运行证明。"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/tasks/117/alternatives/0/evidencePeriod",
+      "operation": "replace",
+      "before": "无明确发布日期；2026-09-09核读，不推定部署时间",
+      "after": "网页发布时间：2022-01-26 13:57:52；按页面发布时间标记，未独立确认首次发表；不是投产日或当前持续运行证明。"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json",
+      "path": "/tasks/118/alternatives/0/evidencePeriod",
+      "operation": "replace",
+      "before": "无明确发布日期；2026-09-09核读，不推定部署时间",
+      "after": "网页发布时间：2022-01-26 13:57:52；按页面发布时间标记，未独立确认首次发表；不是投产日或当前持续运行证明。"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29-search-audit.json",
+      "path": "/auditBoundary",
+      "operation": "replace",
+      "before": "89主批次356查询有调用前UTC请求和收到结果时间；8补充有调用前UTC。结果池不能还原单候选对单查询命中；全文缓存私存，不公开长原文。",
+      "after": "89主批次356条主查询及2组8条补充查询保留作者记录的UTC请求与结果时间。独立审查核对请求、回包与公开记录一致，但没有额外执行轨迹证明记录在调用前已持久保存。不能把合并结果池候选归因到某一单条查询；不修改原时间，也不声称检索穷尽。"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29-search-audit.json",
+      "path": "/supplementalSearches/0/requestProvenance",
+      "operation": "replace",
+      "before": "实际请求调用前保存UTC与查询，收到结果后另存；不把合并候选归到单条查询。",
+      "after": "作者说明在调用前保存UTC与查询；独立核对确认请求/回包文件与本记录一致，但未独立证实调用前持久化时序。不将合并候选归到单条查询，不重造请求时间。"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29-search-audit.json",
+      "path": "/supplementalSearches/1/querySyntaxBoundary",
+      "operation": "add",
+      "after": "前两条保留原查询site.unimat.com.cn及site.xrite.com，缺少site:运算符，且原调用无domains筛选；不是严格域名限定检索。实际核读的出版方不改变原检索语法。"
+    },
+    {
+      "file": "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29-search-audit.json",
+      "path": "/supplementalSearches/1/requestProvenance",
+      "operation": "replace",
+      "before": "实际请求调用前保存UTC与查询，收到结果后另存；不把合并候选归到单条查询。",
+      "after": "作者说明在调用前保存UTC与查询；独立核对确认请求/回包文件与本记录一致，但未独立证实调用前持久化时序。不将合并候选归到单条查询，不重造请求时间。"
+    }
+  ],
+  "cachedParagraphChecks": [
+    {
+      "sourceId": "CN-CHEM-JINZONG-LIQUID",
+      "url": "https://m.jinzong.com.cn/displaynews.html?id=6734213190009664",
+      "cacheSha256": "9fa5ea086900fb4cc42d3e920550cba962118a27d93a690e1ba6cc13d9c889ce",
+      "locator": "规范化文本一基行16—18",
+      "readSectionSha256": "6c26a255d7f3f28391caf8904c347ca10941390d9fff9965c17fdbba79c06e4f",
+      "dateLabel": "发布日期",
+      "rawDate": "2026-03-06"
+    },
+    {
+      "sourceId": "CN-CHEM-TONGMO-OIL",
+      "url": "https://www.shtongmo.com/pro/11877063.html",
+      "cacheSha256": "6364702c31aa3ef2bad561097c0d73bccb2d2796de597321da5514e7fe5a6dd8",
+      "locator": "规范化文本一基行94—95",
+      "readSectionSha256": "8692754dede4c80d437b28410c83d91e0dbc78ab55336880538fe50c4be09333",
+      "dateLabel": "更新日期",
+      "rawDate": "2026-03-17 11:25:34"
+    },
+    {
+      "sourceId": "CN-CHEM-HISCIEN-PA6",
+      "url": "https://www.hiscien.com/intro/7.html",
+      "cacheSha256": "add9922e3784c22ea36c47468294ce1958a2aafa0fb177c18bdad173d79c08a6",
+      "locator": "规范化文本一基行59—66",
+      "readSectionSha256": "32ef8ce844e892382f1e2f99cd6e19cf291bfad681ffcae511028963f879b547",
+      "dateLabel": "发布时间",
+      "rawDate": "2022-01-26 13:57:52"
+    },
+    {
+      "sourceId": "CN-CHEM-XUNJIE-LUBE",
+      "url": "https://www.xunjiecn.cn/qzdstrhygzscx.asp",
+      "cacheSha256": "0d937a78cd8ba8cf2253684ff7c80ded1875263c5ba2a8474d850c641cd152d9",
+      "locator": "规范化文本一基行50—55",
+      "readSectionSha256": "548111797582f218f0bc3f3900174cfed34d221b2df9453fc2e8ebe120affe77",
+      "dateLabel": "日期",
+      "rawDate": "2014-3-14 15:43:52"
+    },
+    {
+      "sourceId": "CN-CHEM-SHELL-FCC",
+      "url": "https://www.shell.com.cn/business-customers/catalysts-technologies/licensed-technologies/refinery-technology/fluidised-catalytic-cracking.html",
+      "cacheSha256": "4e90ca7c2cf240c01538a8468a40fc7044ae80ae0f0f76ee2ed5b9b79067d79f",
+      "hashRepresentation": "combined-three-page-tool-response-container-bytes",
+      "evidenceBasis": "既有独立审查的页面URL/L行号及本轮容器摘要核对；不称重新读取完整网页"
+    },
+    {
+      "sourceId": "CN-CHEM-SHELL-RESIDUE",
+      "url": "https://www.shell.com.cn/business-customers/catalysts-technologies/licensed-technologies/refinery-technology/residue-upgrading-technologies.html",
+      "cacheSha256": "4e90ca7c2cf240c01538a8468a40fc7044ae80ae0f0f76ee2ed5b9b79067d79f",
+      "hashRepresentation": "combined-three-page-tool-response-container-bytes",
+      "evidenceBasis": "既有独立审查的页面URL/L行号及本轮容器摘要核对；不称重新读取完整网页"
+    },
+    {
+      "sourceId": "CN-CHEM-SHELL-DEWAX",
+      "url": "https://www.shell.com.cn/business-customers/catalysts-technologies/licensed-technologies/refinery-technology/catalytic-dewaxing/base-oil-dewaxing.html",
+      "cacheSha256": "4e90ca7c2cf240c01538a8468a40fc7044ae80ae0f0f76ee2ed5b9b79067d79f",
+      "hashRepresentation": "combined-three-page-tool-response-container-bytes",
+      "evidenceBasis": "既有独立审查的页面URL/L行号及本轮容器摘要核对；不称重新读取完整网页"
+    }
+  ],
+  "validation": {
+    "forwardReplayMatchesPreparedObjects": true,
+    "reverseReplayMatchesOriginalObjects": true,
+    "tasksUnchangedExceptSourcePeriodMirrors": true,
+    "taskCount": 178,
+    "sourceCount": 98,
+    "humanAndCashValuesUnchanged": true,
+    "originalQueryRecordsAndTimesUnchanged": true
+  },
+  "preparedOutputSemanticSha256": {
+    "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29.json": "accb0dcb50d6b72e30b1da4748a9ec37ef574d29798f8aa92144325efc4eb432",
+    "research/automation/cn-industry-fuel-chemical-pharma-fiber-rubber-plastic-25-29-search-audit.json": "fc923eaffbb682badc726359ee2f09ae3bbcbe560b07a6d9da453d2d0457f16b"
+  },
+  "remaining": [
+    "E01厂房清洁与设备条款定位",
+    "E02事实与研究边界及其镜像",
+    "E05—E09定义、机制、适用条件、证据等级及相邻反例",
+    "六项机会及全部任务修订后审查",
+    "合并为完整作者稿并更新MD/验证回执后，独立复检；尚未接入网站或冻结"
+  ]
+}
