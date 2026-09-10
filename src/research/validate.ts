@@ -1,9 +1,11 @@
 import { ResearchSchema, type Research } from './schema'
 import { annualRanking } from './ranking'
 import {validateProductivityDataset} from './productivity'
+import {validateMacroStructures} from './macro-structure'
 
 export function validateResearch(input: unknown) {
   const data = ResearchSchema.parse(input)
+  if(data.macroStructures)validateMacroStructures(data.macroStructures)
   const errors: string[] = []
   const grouped = [data.sources,data.industries,data.observations,data.scenarios,data.tasks,data.claims,data.searches]
   const allIds = grouped.flatMap(g=>g.map(x=>x.id))

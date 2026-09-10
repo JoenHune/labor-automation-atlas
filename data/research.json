@@ -1,13 +1,13 @@
 {
   "format": "labor-automation-atlas-research-shards-v1",
   "metadata": {
-    "version": "2026-09-10.preview-13",
-    "checkedAt": "2026-09-09",
+    "version": "2026-09-10.preview-14",
+    "checkedAt": "2026-09-10",
     "publishedAt": null,
     "freezeStatus": "working",
     "subindustryProductivity": {
-      "version": "2026-09-10.preview-13",
-      "checkedAt": "2026-09-09",
+      "version": "2026-09-10.preview-14",
+      "checkedAt": "2026-09-10",
       "sources": [
         {
           "id": "cn-prod-gdp2025",
@@ -929,6 +929,282 @@
               ],
               "gaps": [
                 "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+              ]
+            },
+            {
+              "id": "cn-prod-b-2021",
+              "country": "cn",
+              "parentIndustryId": "cn-industry",
+              "name": "采矿业",
+              "year": 2021,
+              "valueAdded": {
+                "value": 32012.1,
+                "unit": "亿元",
+                "currency": "CNY",
+                "year": 2021,
+                "measure": "value-added",
+                "priceBasis": "current",
+                "coverage": "全国（不含港澳台）采矿业全部常住生产单位；现价行业增加值",
+                "coverageKey": "cn-all-resident-industry-B",
+                "releaseDate": null,
+                "revision": "2025版年鉴所列修订值",
+                "evidence": [
+                  {
+                    "sourceId": "cn-prod-yearbook2025-t3-6",
+                    "locator": "表3-6；“采矿业”行，“2021”列；现价亿元"
+                  }
+                ],
+                "evidenceKind": "fact"
+              },
+              "employment": {
+                "value": null,
+                "unit": "万人",
+                "year": null,
+                "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+                "coverage": "尚未核实",
+                "coverageKey": "unverified",
+                "denominatorKind": "unknown",
+                "periodBasis": "unknown",
+                "releaseDate": null,
+                "revision": "未取得同年同范围就业数",
+                "evidence": []
+              },
+              "comparable": false,
+              "comparabilityReasons": [
+                "尚未取得同年同范围就业数。"
+              ],
+              "gaps": [
+                "尚未取得同年同范围就业数。"
+              ]
+            },
+            {
+              "id": "cn-prod-c-2021",
+              "country": "cn",
+              "parentIndustryId": "cn-industry",
+              "name": "制造业",
+              "year": 2021,
+              "valueAdded": {
+                "value": 312494.4,
+                "unit": "亿元",
+                "currency": "CNY",
+                "year": 2021,
+                "measure": "value-added",
+                "priceBasis": "current",
+                "coverage": "全国（不含港澳台）制造业全部常住生产单位；现价行业增加值",
+                "coverageKey": "cn-all-resident-industry-C",
+                "releaseDate": null,
+                "revision": "2025版年鉴所列修订值",
+                "evidence": [
+                  {
+                    "sourceId": "cn-prod-yearbook2025-t3-6",
+                    "locator": "表3-6；“制造业”行，“2021”列；现价亿元"
+                  }
+                ],
+                "evidenceKind": "fact"
+              },
+              "employment": {
+                "value": null,
+                "unit": "万人",
+                "year": null,
+                "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+                "coverage": "尚未核实",
+                "coverageKey": "unverified",
+                "denominatorKind": "unknown",
+                "periodBasis": "unknown",
+                "releaseDate": null,
+                "revision": "未取得同年同范围就业数",
+                "evidence": []
+              },
+              "comparable": false,
+              "comparabilityReasons": [
+                "尚未取得同年同范围就业数。"
+              ],
+              "gaps": [
+                "尚未取得同年同范围就业数。"
+              ]
+            },
+            {
+              "id": "cn-prod-d-2021",
+              "country": "cn",
+              "parentIndustryId": "cn-industry",
+              "name": "电力、热力、燃气及水生产和供应业",
+              "year": 2021,
+              "valueAdded": {
+                "value": 25397.3,
+                "unit": "亿元",
+                "currency": "CNY",
+                "year": 2021,
+                "measure": "value-added",
+                "priceBasis": "current",
+                "coverage": "全国（不含港澳台）电力、热力、燃气及水生产和供应业全部常住生产单位；现价行业增加值",
+                "coverageKey": "cn-all-resident-industry-D",
+                "releaseDate": null,
+                "revision": "2025版年鉴所列修订值",
+                "evidence": [
+                  {
+                    "sourceId": "cn-prod-yearbook2025-t3-6",
+                    "locator": "表3-6；“电力、热力、燃气及水生产和供应业”行，“2021”列；现价亿元"
+                  }
+                ],
+                "evidenceKind": "fact"
+              },
+              "employment": {
+                "value": null,
+                "unit": "万人",
+                "year": null,
+                "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+                "coverage": "尚未核实",
+                "coverageKey": "unverified",
+                "denominatorKind": "unknown",
+                "periodBasis": "unknown",
+                "releaseDate": null,
+                "revision": "未取得同年同范围就业数",
+                "evidence": []
+              },
+              "comparable": false,
+              "comparabilityReasons": [
+                "尚未取得同年同范围就业数。"
+              ],
+              "gaps": [
+                "尚未取得同年同范围就业数。"
+              ]
+            },
+            {
+              "id": "cn-prod-b-2022",
+              "country": "cn",
+              "parentIndustryId": "cn-industry",
+              "name": "采矿业",
+              "year": 2022,
+              "valueAdded": {
+                "value": 38303.4,
+                "unit": "亿元",
+                "currency": "CNY",
+                "year": 2022,
+                "measure": "value-added",
+                "priceBasis": "current",
+                "coverage": "全国（不含港澳台）采矿业全部常住生产单位；现价行业增加值",
+                "coverageKey": "cn-all-resident-industry-B",
+                "releaseDate": null,
+                "revision": "2025版年鉴所列修订值",
+                "evidence": [
+                  {
+                    "sourceId": "cn-prod-yearbook2025-t3-6",
+                    "locator": "表3-6；“采矿业”行，“2022”列；现价亿元"
+                  }
+                ],
+                "evidenceKind": "fact"
+              },
+              "employment": {
+                "value": null,
+                "unit": "万人",
+                "year": null,
+                "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+                "coverage": "尚未核实",
+                "coverageKey": "unverified",
+                "denominatorKind": "unknown",
+                "periodBasis": "unknown",
+                "releaseDate": null,
+                "revision": "未取得同年同范围就业数",
+                "evidence": []
+              },
+              "comparable": false,
+              "comparabilityReasons": [
+                "尚未取得同年同范围就业数。"
+              ],
+              "gaps": [
+                "尚未取得同年同范围就业数。"
+              ]
+            },
+            {
+              "id": "cn-prod-c-2022",
+              "country": "cn",
+              "parentIndustryId": "cn-industry",
+              "name": "制造业",
+              "year": 2022,
+              "valueAdded": {
+                "value": 320609.1,
+                "unit": "亿元",
+                "currency": "CNY",
+                "year": 2022,
+                "measure": "value-added",
+                "priceBasis": "current",
+                "coverage": "全国（不含港澳台）制造业全部常住生产单位；现价行业增加值",
+                "coverageKey": "cn-all-resident-industry-C",
+                "releaseDate": null,
+                "revision": "2025版年鉴所列修订值",
+                "evidence": [
+                  {
+                    "sourceId": "cn-prod-yearbook2025-t3-6",
+                    "locator": "表3-6；“制造业”行，“2022”列；现价亿元"
+                  }
+                ],
+                "evidenceKind": "fact"
+              },
+              "employment": {
+                "value": null,
+                "unit": "万人",
+                "year": null,
+                "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+                "coverage": "尚未核实",
+                "coverageKey": "unverified",
+                "denominatorKind": "unknown",
+                "periodBasis": "unknown",
+                "releaseDate": null,
+                "revision": "未取得同年同范围就业数",
+                "evidence": []
+              },
+              "comparable": false,
+              "comparabilityReasons": [
+                "尚未取得同年同范围就业数。"
+              ],
+              "gaps": [
+                "尚未取得同年同范围就业数。"
+              ]
+            },
+            {
+              "id": "cn-prod-d-2022",
+              "country": "cn",
+              "parentIndustryId": "cn-industry",
+              "name": "电力、热力、燃气及水生产和供应业",
+              "year": 2022,
+              "valueAdded": {
+                "value": 29739.1,
+                "unit": "亿元",
+                "currency": "CNY",
+                "year": 2022,
+                "measure": "value-added",
+                "priceBasis": "current",
+                "coverage": "全国（不含港澳台）电力、热力、燃气及水生产和供应业全部常住生产单位；现价行业增加值",
+                "coverageKey": "cn-all-resident-industry-D",
+                "releaseDate": null,
+                "revision": "2025版年鉴所列修订值",
+                "evidence": [
+                  {
+                    "sourceId": "cn-prod-yearbook2025-t3-6",
+                    "locator": "表3-6；“电力、热力、燃气及水生产和供应业”行，“2022”列；现价亿元"
+                  }
+                ],
+                "evidenceKind": "fact"
+              },
+              "employment": {
+                "value": null,
+                "unit": "万人",
+                "year": null,
+                "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+                "coverage": "尚未核实",
+                "coverageKey": "unverified",
+                "denominatorKind": "unknown",
+                "periodBasis": "unknown",
+                "releaseDate": null,
+                "revision": "未取得同年同范围就业数",
+                "evidence": []
+              },
+              "comparable": false,
+              "comparabilityReasons": [
+                "尚未取得同年同范围就业数。"
+              ],
+              "gaps": [
+                "尚未取得同年同范围就业数。"
               ]
             }
           ]
@@ -20608,6 +20884,4583 @@
           ]
         }
       ]
+    },
+    "macroStructures": {
+      "version": "macro-2026-09-10",
+      "checkedAt": "2026-09-10",
+      "sources": [
+        {
+          "id": "macro-cn-io2023-211",
+          "title": "国家数据：2023年全国竞争型投入产出表（211产品部门）",
+          "publisher": "国家统计局",
+          "url": "https://data.stats.gov.cn/dg/website/page.html#/pc/national/home/report?reportId=41a5187ae4114d50aeb6288a54d25234&catalogId=2ab4dc96a65a4c5192478c9798c77f7b&type=inOut",
+          "published": null,
+          "retrieved": "2026-09-10",
+          "country": "cn",
+          "kind": "official-statistics",
+          "archive": "research/macro/cn-io-2023-extract.json",
+          "sha256": "aba924234250d790cca34b9cc2d245c0d594f9e2f6fbf649f38d303022d7f641",
+          "limitations": [
+            "按2023年当年生产者价格，原始单位万元；产品部门不能等同行业。",
+            "公开表未注明确切发布日期及修订状态，记录2026-09-10读取版本。",
+            "本表增加值合计不替换GDP行业核算值；占比仅在本表内计算。",
+            "哈希对应网页表头和增加值行结构化摘录，不声称为原始Excel文件哈希。"
+          ],
+          "publishedLabel": "公开页面未注明确切发布日期"
+        }
+      ],
+      "structures": [
+        {
+          "id": "cn-io2023",
+          "country": "cn",
+          "year": 2023,
+          "basis": "product",
+          "title": "2023 年产品部门结构",
+          "description": "历史结构资料 · 国家统计局211个产品部门，按当年生产者价格。图中归并名称与合计为本项目按产品代码整理；占比仅使用本表同口径金额。它不代表2025年行业增加值，也不用于人均行业排名。",
+          "unit": "万元",
+          "currency": "CNY",
+          "releaseDate": null,
+          "revision": "国家数据2026-09-10读取版本；页面未单列修订状态",
+          "coverage": "全国211产品部门；分组采用本表产品代码范围，不将产品部门与行业分类互换",
+          "nodes": [
+            {
+              "id": "cn-io-agriculture",
+              "parentId": null,
+              "name": "农林牧渔产品及服务",
+              "value": 952328615,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 01001, 01002, 02003, 03004, 03005, 04006, 04007, 05008 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "01001",
+                "01002",
+                "02003",
+                "03004",
+                "03005",
+                "04006",
+                "04007",
+                "05008"
+              ]
+            },
+            {
+              "id": "cn-io-01001",
+              "parentId": "cn-io-agriculture",
+              "name": "谷物",
+              "value": 124551280,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 01001 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "01001"
+              ]
+            },
+            {
+              "id": "cn-io-01002",
+              "parentId": "cn-io-agriculture",
+              "name": "其他农产品",
+              "value": 447342871,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 01002 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "01002"
+              ]
+            },
+            {
+              "id": "cn-io-02003",
+              "parentId": "cn-io-agriculture",
+              "name": "林产品",
+              "value": 46310967,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 02003 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "02003"
+              ]
+            },
+            {
+              "id": "cn-io-03004",
+              "parentId": "cn-io-agriculture",
+              "name": "家禽",
+              "value": 46753314,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 03004 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "03004"
+              ]
+            },
+            {
+              "id": "cn-io-03005",
+              "parentId": "cn-io-agriculture",
+              "name": "牲畜和其他畜牧产品",
+              "value": 140271297,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 03005 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "03005"
+              ]
+            },
+            {
+              "id": "cn-io-04006",
+              "parentId": "cn-io-agriculture",
+              "name": "水产养殖产品",
+              "value": 66664031,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 04006 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "04006"
+              ]
+            },
+            {
+              "id": "cn-io-04007",
+              "parentId": "cn-io-agriculture",
+              "name": "水产捕捞产品",
+              "value": 32458482,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 04007 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "04007"
+              ]
+            },
+            {
+              "id": "cn-io-05008",
+              "parentId": "cn-io-agriculture",
+              "name": "农、林、牧、渔服务产品",
+              "value": 47976373,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 05008 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "05008"
+              ]
+            },
+            {
+              "id": "cn-io-industry",
+              "parentId": null,
+              "name": "工业产品及修理服务",
+              "value": 3888631278,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 06009, 07010, 07011, 08012, 09013, 10014, 10015, 11016, 13017, 13018, 13019, 13020, 13021, 13022, 13023, 13024, 14025, 14026, 14027, 14028, 15029, 15030, 15031, 16032, 17033, 17034, 17035, 17036, 17037, 17038, 17039, 18040, 18041, 18042, 19043, 19044, 20045, 20046, 20047, 21048, 22049, 22050, 23051, 24052, 24053, 25054, 25055, 26056, 26057, 26058, 26059, 26060, 26061, 26062, 27063, 27064, 27065, 27066, 28067, 29068, 29069, 29070, 29071, 29072, 30073, 30074, 30075, 30076, 30077, 30078, 30079, 30080, 30081, 31082, 31083, 31084, 31085, 32086, 32087, 32088, 32089, 32090, 32091, 33092, 33093, 33094, 33095, 33096, 33097, 34098, 34099, 34100, 34101, 34102, 34103, 34104, 34105, 34106, 35107, 35108, 35109, 35110, 35111, 35112, 36113, 36114, 36115, 36116, 37117, 37118, 37119, 38120, 38121, 38122, 38123, 38124, 38125, 39126, 39127, 39128, 39129, 39130, 39131, 39132, 39133, 39134, 40135, 41136, 42137, 43138, 44139, 44140, 44141, 44142, 45143, 46144 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "06009",
+                "07010",
+                "07011",
+                "08012",
+                "09013",
+                "10014",
+                "10015",
+                "11016",
+                "13017",
+                "13018",
+                "13019",
+                "13020",
+                "13021",
+                "13022",
+                "13023",
+                "13024",
+                "14025",
+                "14026",
+                "14027",
+                "14028",
+                "15029",
+                "15030",
+                "15031",
+                "16032",
+                "17033",
+                "17034",
+                "17035",
+                "17036",
+                "17037",
+                "17038",
+                "17039",
+                "18040",
+                "18041",
+                "18042",
+                "19043",
+                "19044",
+                "20045",
+                "20046",
+                "20047",
+                "21048",
+                "22049",
+                "22050",
+                "23051",
+                "24052",
+                "24053",
+                "25054",
+                "25055",
+                "26056",
+                "26057",
+                "26058",
+                "26059",
+                "26060",
+                "26061",
+                "26062",
+                "27063",
+                "27064",
+                "27065",
+                "27066",
+                "28067",
+                "29068",
+                "29069",
+                "29070",
+                "29071",
+                "29072",
+                "30073",
+                "30074",
+                "30075",
+                "30076",
+                "30077",
+                "30078",
+                "30079",
+                "30080",
+                "30081",
+                "31082",
+                "31083",
+                "31084",
+                "31085",
+                "32086",
+                "32087",
+                "32088",
+                "32089",
+                "32090",
+                "32091",
+                "33092",
+                "33093",
+                "33094",
+                "33095",
+                "33096",
+                "33097",
+                "34098",
+                "34099",
+                "34100",
+                "34101",
+                "34102",
+                "34103",
+                "34104",
+                "34105",
+                "34106",
+                "35107",
+                "35108",
+                "35109",
+                "35110",
+                "35111",
+                "35112",
+                "36113",
+                "36114",
+                "36115",
+                "36116",
+                "37117",
+                "37118",
+                "37119",
+                "38120",
+                "38121",
+                "38122",
+                "38123",
+                "38124",
+                "38125",
+                "39126",
+                "39127",
+                "39128",
+                "39129",
+                "39130",
+                "39131",
+                "39132",
+                "39133",
+                "39134",
+                "40135",
+                "41136",
+                "42137",
+                "43138",
+                "44139",
+                "44140",
+                "44141",
+                "44142",
+                "45143",
+                "46144"
+              ]
+            },
+            {
+              "id": "cn-io-mining",
+              "parentId": "cn-io-industry",
+              "name": "采矿产品及辅助活动",
+              "value": 429665151,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 06009, 07010, 07011, 08012, 09013, 10014, 10015, 11016 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "06009",
+                "07010",
+                "07011",
+                "08012",
+                "09013",
+                "10014",
+                "10015",
+                "11016"
+              ]
+            },
+            {
+              "id": "cn-io-manufacturing",
+              "parentId": "cn-io-industry",
+              "name": "制造产品及修理服务",
+              "value": 3127776989,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 13017, 13018, 13019, 13020, 13021, 13022, 13023, 13024, 14025, 14026, 14027, 14028, 15029, 15030, 15031, 16032, 17033, 17034, 17035, 17036, 17037, 17038, 17039, 18040, 18041, 18042, 19043, 19044, 20045, 20046, 20047, 21048, 22049, 22050, 23051, 24052, 24053, 25054, 25055, 26056, 26057, 26058, 26059, 26060, 26061, 26062, 27063, 27064, 27065, 27066, 28067, 29068, 29069, 29070, 29071, 29072, 30073, 30074, 30075, 30076, 30077, 30078, 30079, 30080, 30081, 31082, 31083, 31084, 31085, 32086, 32087, 32088, 32089, 32090, 32091, 33092, 33093, 33094, 33095, 33096, 33097, 34098, 34099, 34100, 34101, 34102, 34103, 34104, 34105, 34106, 35107, 35108, 35109, 35110, 35111, 35112, 36113, 36114, 36115, 36116, 37117, 37118, 37119, 38120, 38121, 38122, 38123, 38124, 38125, 39126, 39127, 39128, 39129, 39130, 39131, 39132, 39133, 39134, 40135, 41136, 42137, 43138 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "13017",
+                "13018",
+                "13019",
+                "13020",
+                "13021",
+                "13022",
+                "13023",
+                "13024",
+                "14025",
+                "14026",
+                "14027",
+                "14028",
+                "15029",
+                "15030",
+                "15031",
+                "16032",
+                "17033",
+                "17034",
+                "17035",
+                "17036",
+                "17037",
+                "17038",
+                "17039",
+                "18040",
+                "18041",
+                "18042",
+                "19043",
+                "19044",
+                "20045",
+                "20046",
+                "20047",
+                "21048",
+                "22049",
+                "22050",
+                "23051",
+                "24052",
+                "24053",
+                "25054",
+                "25055",
+                "26056",
+                "26057",
+                "26058",
+                "26059",
+                "26060",
+                "26061",
+                "26062",
+                "27063",
+                "27064",
+                "27065",
+                "27066",
+                "28067",
+                "29068",
+                "29069",
+                "29070",
+                "29071",
+                "29072",
+                "30073",
+                "30074",
+                "30075",
+                "30076",
+                "30077",
+                "30078",
+                "30079",
+                "30080",
+                "30081",
+                "31082",
+                "31083",
+                "31084",
+                "31085",
+                "32086",
+                "32087",
+                "32088",
+                "32089",
+                "32090",
+                "32091",
+                "33092",
+                "33093",
+                "33094",
+                "33095",
+                "33096",
+                "33097",
+                "34098",
+                "34099",
+                "34100",
+                "34101",
+                "34102",
+                "34103",
+                "34104",
+                "34105",
+                "34106",
+                "35107",
+                "35108",
+                "35109",
+                "35110",
+                "35111",
+                "35112",
+                "36113",
+                "36114",
+                "36115",
+                "36116",
+                "37117",
+                "37118",
+                "37119",
+                "38120",
+                "38121",
+                "38122",
+                "38123",
+                "38124",
+                "38125",
+                "39126",
+                "39127",
+                "39128",
+                "39129",
+                "39130",
+                "39131",
+                "39132",
+                "39133",
+                "39134",
+                "40135",
+                "41136",
+                "42137",
+                "43138"
+              ]
+            },
+            {
+              "id": "cn-io-utilities",
+              "parentId": "cn-io-industry",
+              "name": "电热气水产品及服务",
+              "value": 331189138,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 44139, 44140, 44141, 44142, 45143, 46144 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "44139",
+                "44140",
+                "44141",
+                "44142",
+                "45143",
+                "46144"
+              ]
+            },
+            {
+              "id": "cn-io-06009",
+              "parentId": "cn-io-mining",
+              "name": "煤炭开采和洗选产品",
+              "value": 200719379,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 06009 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "06009"
+              ]
+            },
+            {
+              "id": "cn-io-group-07",
+              "parentId": "cn-io-mining",
+              "name": "石油开采产品 / 天然气开采产品",
+              "value": 131269279,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 07010, 07011 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "07010",
+                "07011"
+              ]
+            },
+            {
+              "id": "cn-io-07010",
+              "parentId": "cn-io-group-07",
+              "name": "石油开采产品",
+              "value": 96518397,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 07010 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "07010"
+              ]
+            },
+            {
+              "id": "cn-io-07011",
+              "parentId": "cn-io-group-07",
+              "name": "天然气开采产品",
+              "value": 34750882,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 07011 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "07011"
+              ]
+            },
+            {
+              "id": "cn-io-08012",
+              "parentId": "cn-io-mining",
+              "name": "黑色金属矿采选产品",
+              "value": 35454137,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 08012 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "08012"
+              ]
+            },
+            {
+              "id": "cn-io-09013",
+              "parentId": "cn-io-mining",
+              "name": "有色金属矿采选产品",
+              "value": 29554602,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 09013 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "09013"
+              ]
+            },
+            {
+              "id": "cn-io-group-10",
+              "parentId": "cn-io-mining",
+              "name": "土砂石开采产品 / 其他非金属矿采选产品",
+              "value": 22789896,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 10014, 10015 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "10014",
+                "10015"
+              ]
+            },
+            {
+              "id": "cn-io-10014",
+              "parentId": "cn-io-group-10",
+              "name": "土砂石开采产品",
+              "value": 15171201,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 10014 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "10014"
+              ]
+            },
+            {
+              "id": "cn-io-10015",
+              "parentId": "cn-io-group-10",
+              "name": "其他非金属矿采选产品",
+              "value": 7618695,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 10015 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "10015"
+              ]
+            },
+            {
+              "id": "cn-io-11016",
+              "parentId": "cn-io-mining",
+              "name": "开采辅助活动和其他采矿产品",
+              "value": 9877858,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 11016 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "11016"
+              ]
+            },
+            {
+              "id": "cn-io-group-13",
+              "parentId": "cn-io-manufacturing",
+              "name": "农副食品加工品",
+              "value": 104300768,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 13017, 13018, 13019, 13020, 13021, 13022, 13023, 13024 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "13017",
+                "13018",
+                "13019",
+                "13020",
+                "13021",
+                "13022",
+                "13023",
+                "13024"
+              ]
+            },
+            {
+              "id": "cn-io-13017",
+              "parentId": "cn-io-group-13",
+              "name": "谷物磨制品",
+              "value": 14051572,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 13017 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "13017"
+              ]
+            },
+            {
+              "id": "cn-io-13018",
+              "parentId": "cn-io-group-13",
+              "name": "饲料加工品",
+              "value": 24708643,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 13018 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "13018"
+              ]
+            },
+            {
+              "id": "cn-io-13019",
+              "parentId": "cn-io-group-13",
+              "name": "植物油加工品",
+              "value": 14906196,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 13019 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "13019"
+              ]
+            },
+            {
+              "id": "cn-io-13020",
+              "parentId": "cn-io-group-13",
+              "name": "糖及糖制品",
+              "value": 3090021,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 13020 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "13020"
+              ]
+            },
+            {
+              "id": "cn-io-13021",
+              "parentId": "cn-io-group-13",
+              "name": "屠宰及肉类加工品",
+              "value": 24570729,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 13021 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "13021"
+              ]
+            },
+            {
+              "id": "cn-io-13022",
+              "parentId": "cn-io-group-13",
+              "name": "水产加工品",
+              "value": 6313052,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 13022 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "13022"
+              ]
+            },
+            {
+              "id": "cn-io-13023",
+              "parentId": "cn-io-group-13",
+              "name": "蔬菜、菌类、水果和坚果加工品",
+              "value": 7146179,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 13023 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "13023"
+              ]
+            },
+            {
+              "id": "cn-io-13024",
+              "parentId": "cn-io-group-13",
+              "name": "其他农副食品加工品",
+              "value": 9514376,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 13024 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "13024"
+              ]
+            },
+            {
+              "id": "cn-io-group-14",
+              "parentId": "cn-io-manufacturing",
+              "name": "食品",
+              "value": 65991717,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 14025, 14026, 14027, 14028 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "14025",
+                "14026",
+                "14027",
+                "14028"
+              ]
+            },
+            {
+              "id": "cn-io-14025",
+              "parentId": "cn-io-group-14",
+              "name": "方便食品",
+              "value": 8892727,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 14025 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "14025"
+              ]
+            },
+            {
+              "id": "cn-io-14026",
+              "parentId": "cn-io-group-14",
+              "name": "乳制品",
+              "value": 8868419,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 14026 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "14026"
+              ]
+            },
+            {
+              "id": "cn-io-14027",
+              "parentId": "cn-io-group-14",
+              "name": "调味品、发酵制品",
+              "value": 10284330,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 14027 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "14027"
+              ]
+            },
+            {
+              "id": "cn-io-14028",
+              "parentId": "cn-io-group-14",
+              "name": "其他食品",
+              "value": 37946241,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 14028 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "14028"
+              ]
+            },
+            {
+              "id": "cn-io-group-15",
+              "parentId": "cn-io-manufacturing",
+              "name": "酒、饮料和精制茶",
+              "value": 79327283,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 15029, 15030, 15031 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "15029",
+                "15030",
+                "15031"
+              ]
+            },
+            {
+              "id": "cn-io-15029",
+              "parentId": "cn-io-group-15",
+              "name": "酒精和酒",
+              "value": 52345436,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 15029 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "15029"
+              ]
+            },
+            {
+              "id": "cn-io-15030",
+              "parentId": "cn-io-group-15",
+              "name": "饮料",
+              "value": 17774720,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 15030 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "15030"
+              ]
+            },
+            {
+              "id": "cn-io-15031",
+              "parentId": "cn-io-group-15",
+              "name": "精制茶",
+              "value": 9207127,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 15031 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "15031"
+              ]
+            },
+            {
+              "id": "cn-io-16032",
+              "parentId": "cn-io-manufacturing",
+              "name": "烟草制品",
+              "value": 109305405,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 16032 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "16032"
+              ]
+            },
+            {
+              "id": "cn-io-group-17",
+              "parentId": "cn-io-manufacturing",
+              "name": "纺织品",
+              "value": 72985083,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 17033, 17034, 17035, 17036, 17037, 17038, 17039 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "17033",
+                "17034",
+                "17035",
+                "17036",
+                "17037",
+                "17038",
+                "17039"
+              ]
+            },
+            {
+              "id": "cn-io-17033",
+              "parentId": "cn-io-group-17",
+              "name": "棉纺织及印染精加工品",
+              "value": 32423413,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 17033 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "17033"
+              ]
+            },
+            {
+              "id": "cn-io-17034",
+              "parentId": "cn-io-group-17",
+              "name": "毛纺织及染整精加工品",
+              "value": 2957955,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 17034 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "17034"
+              ]
+            },
+            {
+              "id": "cn-io-17035",
+              "parentId": "cn-io-group-17",
+              "name": "麻、丝绢纺织及加工品",
+              "value": 1822763,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 17035 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "17035"
+              ]
+            },
+            {
+              "id": "cn-io-17036",
+              "parentId": "cn-io-group-17",
+              "name": "化纤织造及印染精加工品",
+              "value": 8920929,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 17036 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "17036"
+              ]
+            },
+            {
+              "id": "cn-io-17037",
+              "parentId": "cn-io-group-17",
+              "name": "针织或钩针编织及其制品",
+              "value": 9500545,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 17037 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "17037"
+              ]
+            },
+            {
+              "id": "cn-io-17038",
+              "parentId": "cn-io-group-17",
+              "name": "家用纺织制成品",
+              "value": 6811079,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 17038 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "17038"
+              ]
+            },
+            {
+              "id": "cn-io-17039",
+              "parentId": "cn-io-group-17",
+              "name": "产业用纺织制成品",
+              "value": 10548399,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 17039 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "17039"
+              ]
+            },
+            {
+              "id": "cn-io-group-18",
+              "parentId": "cn-io-manufacturing",
+              "name": "服装及服饰",
+              "value": 75749682,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 18040, 18041, 18042 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "18040",
+                "18041",
+                "18042"
+              ]
+            },
+            {
+              "id": "cn-io-18040",
+              "parentId": "cn-io-group-18",
+              "name": "机织服装",
+              "value": 42139165,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 18040 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "18040"
+              ]
+            },
+            {
+              "id": "cn-io-18041",
+              "parentId": "cn-io-group-18",
+              "name": "针织或钩针编织服装",
+              "value": 18760929,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 18041 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "18041"
+              ]
+            },
+            {
+              "id": "cn-io-18042",
+              "parentId": "cn-io-group-18",
+              "name": "服饰",
+              "value": 14849588,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 18042 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "18042"
+              ]
+            },
+            {
+              "id": "cn-io-group-19",
+              "parentId": "cn-io-manufacturing",
+              "name": "皮革、毛皮、羽毛及鞋",
+              "value": 37856939,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 19043, 19044 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "19043",
+                "19044"
+              ]
+            },
+            {
+              "id": "cn-io-19043",
+              "parentId": "cn-io-group-19",
+              "name": "皮革、毛皮、羽毛及其制品",
+              "value": 9977341,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 19043 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "19043"
+              ]
+            },
+            {
+              "id": "cn-io-19044",
+              "parentId": "cn-io-group-19",
+              "name": "鞋",
+              "value": 27879598,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 19044 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "19044"
+              ]
+            },
+            {
+              "id": "cn-io-group-20",
+              "parentId": "cn-io-manufacturing",
+              "name": "木材及竹藤棕草制品",
+              "value": 47463903,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 20045, 20046, 20047 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "20045",
+                "20046",
+                "20047"
+              ]
+            },
+            {
+              "id": "cn-io-20045",
+              "parentId": "cn-io-group-20",
+              "name": "木材加工品",
+              "value": 15215663,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 20045 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "20045"
+              ]
+            },
+            {
+              "id": "cn-io-20046",
+              "parentId": "cn-io-group-20",
+              "name": "人造板制品",
+              "value": 17592294,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 20046 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "20046"
+              ]
+            },
+            {
+              "id": "cn-io-20047",
+              "parentId": "cn-io-group-20",
+              "name": "木质制品和竹、藤、棕、草制品",
+              "value": 14655946,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 20047 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "20047"
+              ]
+            },
+            {
+              "id": "cn-io-21048",
+              "parentId": "cn-io-manufacturing",
+              "name": "家具",
+              "value": 34102800,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 21048 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "21048"
+              ]
+            },
+            {
+              "id": "cn-io-group-22",
+              "parentId": "cn-io-manufacturing",
+              "name": "纸及纸制品",
+              "value": 47826306,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 22049, 22050 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "22049",
+                "22050"
+              ]
+            },
+            {
+              "id": "cn-io-22049",
+              "parentId": "cn-io-group-22",
+              "name": "纸浆和造纸",
+              "value": 23646804,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 22049 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "22049"
+              ]
+            },
+            {
+              "id": "cn-io-22050",
+              "parentId": "cn-io-group-22",
+              "name": "纸制品",
+              "value": 24179502,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 22050 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "22050"
+              ]
+            },
+            {
+              "id": "cn-io-23051",
+              "parentId": "cn-io-manufacturing",
+              "name": "印刷和记录媒介复制品",
+              "value": 30066326,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 23051 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "23051"
+              ]
+            },
+            {
+              "id": "cn-io-group-24",
+              "parentId": "cn-io-manufacturing",
+              "name": "文教工美体育娱乐用品",
+              "value": 44392359,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 24052, 24053 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "24052",
+                "24053"
+              ]
+            },
+            {
+              "id": "cn-io-24052",
+              "parentId": "cn-io-group-24",
+              "name": "工艺美术品",
+              "value": 27519094,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 24052 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "24052"
+              ]
+            },
+            {
+              "id": "cn-io-24053",
+              "parentId": "cn-io-group-24",
+              "name": "文教、体育和娱乐用品",
+              "value": 16873265,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 24053 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "24053"
+              ]
+            },
+            {
+              "id": "cn-io-group-25",
+              "parentId": "cn-io-manufacturing",
+              "name": "石油、煤炭及核燃料加工品",
+              "value": 117561802,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 25054, 25055 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "25054",
+                "25055"
+              ]
+            },
+            {
+              "id": "cn-io-25054",
+              "parentId": "cn-io-group-25",
+              "name": "精炼石油和核燃料加工品",
+              "value": 97759398,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 25054 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "25054"
+              ]
+            },
+            {
+              "id": "cn-io-25055",
+              "parentId": "cn-io-group-25",
+              "name": "煤炭加工品",
+              "value": 19802404,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 25055 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "25055"
+              ]
+            },
+            {
+              "id": "cn-io-group-26",
+              "parentId": "cn-io-manufacturing",
+              "name": "化学原料及化学制品",
+              "value": 208503559,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 26056, 26057, 26058, 26059, 26060, 26061, 26062 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "26056",
+                "26057",
+                "26058",
+                "26059",
+                "26060",
+                "26061",
+                "26062"
+              ]
+            },
+            {
+              "id": "cn-io-26056",
+              "parentId": "cn-io-group-26",
+              "name": "基础化学原料",
+              "value": 77233789,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 26056 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "26056"
+              ]
+            },
+            {
+              "id": "cn-io-26057",
+              "parentId": "cn-io-group-26",
+              "name": "肥料",
+              "value": 18686955,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 26057 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "26057"
+              ]
+            },
+            {
+              "id": "cn-io-26058",
+              "parentId": "cn-io-group-26",
+              "name": "农药",
+              "value": 6127488,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 26058 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "26058"
+              ]
+            },
+            {
+              "id": "cn-io-26059",
+              "parentId": "cn-io-group-26",
+              "name": "涂料、油墨、颜料及类似产品",
+              "value": 13036567,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 26059 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "26059"
+              ]
+            },
+            {
+              "id": "cn-io-26060",
+              "parentId": "cn-io-group-26",
+              "name": "合成材料",
+              "value": 46437514,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 26060 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "26060"
+              ]
+            },
+            {
+              "id": "cn-io-26061",
+              "parentId": "cn-io-group-26",
+              "name": "专用化学产品和炸药、火工、焰火产品",
+              "value": 32633094,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 26061 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "26061"
+              ]
+            },
+            {
+              "id": "cn-io-26062",
+              "parentId": "cn-io-group-26",
+              "name": "日用化学产品",
+              "value": 14348152,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 26062 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "26062"
+              ]
+            },
+            {
+              "id": "cn-io-group-27",
+              "parentId": "cn-io-manufacturing",
+              "name": "医药制品",
+              "value": 106306950,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 27063, 27064, 27065, 27066 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "27063",
+                "27064",
+                "27065",
+                "27066"
+              ]
+            },
+            {
+              "id": "cn-io-27063",
+              "parentId": "cn-io-group-27",
+              "name": "化学药品原料药",
+              "value": 12822960,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 27063 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "27063"
+              ]
+            },
+            {
+              "id": "cn-io-27064",
+              "parentId": "cn-io-group-27",
+              "name": "化学药品制剂",
+              "value": 33159460,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 27064 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "27064"
+              ]
+            },
+            {
+              "id": "cn-io-27065",
+              "parentId": "cn-io-group-27",
+              "name": "中药饮片及中成药",
+              "value": 28951197,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 27065 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "27065"
+              ]
+            },
+            {
+              "id": "cn-io-27066",
+              "parentId": "cn-io-group-27",
+              "name": "其他医药制品",
+              "value": 31373333,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 27066 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "27066"
+              ]
+            },
+            {
+              "id": "cn-io-28067",
+              "parentId": "cn-io-manufacturing",
+              "name": "化学纤维制品",
+              "value": 14726857,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 28067 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "28067"
+              ]
+            },
+            {
+              "id": "cn-io-group-29",
+              "parentId": "cn-io-manufacturing",
+              "name": "橡胶及塑料制品",
+              "value": 103490733,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 29068, 29069, 29070, 29071, 29072 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "29068",
+                "29069",
+                "29070",
+                "29071",
+                "29072"
+              ]
+            },
+            {
+              "id": "cn-io-29068",
+              "parentId": "cn-io-group-29",
+              "name": "轮胎",
+              "value": 9784510,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 29068 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "29068"
+              ]
+            },
+            {
+              "id": "cn-io-29069",
+              "parentId": "cn-io-group-29",
+              "name": "其他橡胶制品",
+              "value": 13864140,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 29069 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "29069"
+              ]
+            },
+            {
+              "id": "cn-io-29070",
+              "parentId": "cn-io-group-29",
+              "name": "塑料薄膜",
+              "value": 10155791,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 29070 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "29070"
+              ]
+            },
+            {
+              "id": "cn-io-29071",
+              "parentId": "cn-io-group-29",
+              "name": "日用塑料制品",
+              "value": 8838617,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 29071 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "29071"
+              ]
+            },
+            {
+              "id": "cn-io-29072",
+              "parentId": "cn-io-group-29",
+              "name": "其他塑料制品",
+              "value": 60847675,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 29072 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "29072"
+              ]
+            },
+            {
+              "id": "cn-io-group-30",
+              "parentId": "cn-io-manufacturing",
+              "name": "非金属矿物制品",
+              "value": 184039106,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 30073, 30074, 30075, 30076, 30077, 30078, 30079, 30080, 30081 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "30073",
+                "30074",
+                "30075",
+                "30076",
+                "30077",
+                "30078",
+                "30079",
+                "30080",
+                "30081"
+              ]
+            },
+            {
+              "id": "cn-io-30073",
+              "parentId": "cn-io-group-30",
+              "name": "水泥、石灰和石膏",
+              "value": 20188213,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 30073 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "30073"
+              ]
+            },
+            {
+              "id": "cn-io-30074",
+              "parentId": "cn-io-group-30",
+              "name": "石膏、水泥制品及类似制品",
+              "value": 48275651,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 30074 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "30074"
+              ]
+            },
+            {
+              "id": "cn-io-30075",
+              "parentId": "cn-io-group-30",
+              "name": "砖瓦、石材等建筑材料",
+              "value": 27506993,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 30075 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "30075"
+              ]
+            },
+            {
+              "id": "cn-io-30076",
+              "parentId": "cn-io-group-30",
+              "name": "玻璃",
+              "value": 8997597,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 30076 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "30076"
+              ]
+            },
+            {
+              "id": "cn-io-30077",
+              "parentId": "cn-io-group-30",
+              "name": "玻璃制品",
+              "value": 18512827,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 30077 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "30077"
+              ]
+            },
+            {
+              "id": "cn-io-30078",
+              "parentId": "cn-io-group-30",
+              "name": "建筑、卫生陶瓷制品",
+              "value": 12493425,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 30078 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "30078"
+              ]
+            },
+            {
+              "id": "cn-io-30079",
+              "parentId": "cn-io-group-30",
+              "name": "其他陶瓷制品",
+              "value": 8326733,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 30079 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "30079"
+              ]
+            },
+            {
+              "id": "cn-io-30080",
+              "parentId": "cn-io-group-30",
+              "name": "耐火材料制品",
+              "value": 8006397,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 30080 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "30080"
+              ]
+            },
+            {
+              "id": "cn-io-30081",
+              "parentId": "cn-io-group-30",
+              "name": "石墨及其他非金属矿物制品",
+              "value": 31731270,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 30081 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "30081"
+              ]
+            },
+            {
+              "id": "cn-io-group-31",
+              "parentId": "cn-io-manufacturing",
+              "name": "黑色金属冶炼及压延产品",
+              "value": 109443681,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 31082, 31083, 31084, 31085 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "31082",
+                "31083",
+                "31084",
+                "31085"
+              ]
+            },
+            {
+              "id": "cn-io-31082",
+              "parentId": "cn-io-group-31",
+              "name": "铁",
+              "value": 1882027,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 31082 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "31082"
+              ]
+            },
+            {
+              "id": "cn-io-31083",
+              "parentId": "cn-io-group-31",
+              "name": "钢",
+              "value": 9007601,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 31083 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "31083"
+              ]
+            },
+            {
+              "id": "cn-io-31084",
+              "parentId": "cn-io-group-31",
+              "name": "钢压延产品",
+              "value": 92315623,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 31084 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "31084"
+              ]
+            },
+            {
+              "id": "cn-io-31085",
+              "parentId": "cn-io-group-31",
+              "name": "铁合金",
+              "value": 6238430,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 31085 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "31085"
+              ]
+            },
+            {
+              "id": "cn-io-group-32",
+              "parentId": "cn-io-manufacturing",
+              "name": "有色金属冶炼及压延产品",
+              "value": 104516256,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 32086, 32087, 32088, 32089, 32090, 32091 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "32086",
+                "32087",
+                "32088",
+                "32089",
+                "32090",
+                "32091"
+              ]
+            },
+            {
+              "id": "cn-io-32086",
+              "parentId": "cn-io-group-32",
+              "name": "常用有色金属",
+              "value": 42641918,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 32086 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "32086"
+              ]
+            },
+            {
+              "id": "cn-io-32087",
+              "parentId": "cn-io-group-32",
+              "name": "贵金属和稀有金属",
+              "value": 11663240,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 32087 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "32087"
+              ]
+            },
+            {
+              "id": "cn-io-32088",
+              "parentId": "cn-io-group-32",
+              "name": "有色金属合金",
+              "value": 8278729,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 32088 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "32088"
+              ]
+            },
+            {
+              "id": "cn-io-32089",
+              "parentId": "cn-io-group-32",
+              "name": "铜压延加工品",
+              "value": 19168920,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 32089 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "32089"
+              ]
+            },
+            {
+              "id": "cn-io-32090",
+              "parentId": "cn-io-group-32",
+              "name": "铝压延加工品",
+              "value": 18207733,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 32090 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "32090"
+              ]
+            },
+            {
+              "id": "cn-io-32091",
+              "parentId": "cn-io-group-32",
+              "name": "其他有色金属压延加工品",
+              "value": 4555716,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 32091 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "32091"
+              ]
+            },
+            {
+              "id": "cn-io-group-33",
+              "parentId": "cn-io-manufacturing",
+              "name": "金属制品",
+              "value": 160961820,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 33092, 33093, 33094, 33095, 33096, 33097 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "33092",
+                "33093",
+                "33094",
+                "33095",
+                "33096",
+                "33097"
+              ]
+            },
+            {
+              "id": "cn-io-33092",
+              "parentId": "cn-io-group-33",
+              "name": "结构性金属制品",
+              "value": 53803291,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 33092 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "33092"
+              ]
+            },
+            {
+              "id": "cn-io-33093",
+              "parentId": "cn-io-group-33",
+              "name": "金属工具、金属丝绳及其制品",
+              "value": 20169072,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 33093 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "33093"
+              ]
+            },
+            {
+              "id": "cn-io-33094",
+              "parentId": "cn-io-group-33",
+              "name": "集装箱及金属包装容器",
+              "value": 8427682,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 33094 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "33094"
+              ]
+            },
+            {
+              "id": "cn-io-33095",
+              "parentId": "cn-io-group-33",
+              "name": "建筑、安全用金属制品",
+              "value": 19419044,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 33095 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "33095"
+              ]
+            },
+            {
+              "id": "cn-io-33096",
+              "parentId": "cn-io-group-33",
+              "name": "金属制日用品",
+              "value": 7733221,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 33096 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "33096"
+              ]
+            },
+            {
+              "id": "cn-io-33097",
+              "parentId": "cn-io-group-33",
+              "name": "金属处理、搪瓷制品、铸造及其他金属制品",
+              "value": 51409510,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 33097 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "33097"
+              ]
+            },
+            {
+              "id": "cn-io-group-34",
+              "parentId": "cn-io-manufacturing",
+              "name": "通用设备",
+              "value": 188613688,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 34098, 34099, 34100, 34101, 34102, 34103, 34104, 34105, 34106 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "34098",
+                "34099",
+                "34100",
+                "34101",
+                "34102",
+                "34103",
+                "34104",
+                "34105",
+                "34106"
+              ]
+            },
+            {
+              "id": "cn-io-34098",
+              "parentId": "cn-io-group-34",
+              "name": "锅炉及原动设备",
+              "value": 12500929,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 34098 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "34098"
+              ]
+            },
+            {
+              "id": "cn-io-34099",
+              "parentId": "cn-io-group-34",
+              "name": "金属加工机械",
+              "value": 21823506,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 34099 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "34099"
+              ]
+            },
+            {
+              "id": "cn-io-34100",
+              "parentId": "cn-io-group-34",
+              "name": "物料搬运设备",
+              "value": 20619838,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 34100 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "34100"
+              ]
+            },
+            {
+              "id": "cn-io-34101",
+              "parentId": "cn-io-group-34",
+              "name": "泵、阀门、压缩机及类似机械",
+              "value": 34060852,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 34101 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "34101"
+              ]
+            },
+            {
+              "id": "cn-io-34102",
+              "parentId": "cn-io-group-34",
+              "name": "轴承、齿轮和传动部件",
+              "value": 16709822,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 34102 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "34102"
+              ]
+            },
+            {
+              "id": "cn-io-34103",
+              "parentId": "cn-io-group-34",
+              "name": "烘炉、风机、包装等设备",
+              "value": 22005560,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 34103 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "34103"
+              ]
+            },
+            {
+              "id": "cn-io-34104",
+              "parentId": "cn-io-group-34",
+              "name": "文化、办公用机械",
+              "value": 3941563,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 34104 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "34104"
+              ]
+            },
+            {
+              "id": "cn-io-34105",
+              "parentId": "cn-io-group-34",
+              "name": "通用零部件",
+              "value": 40289228,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 34105 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "34105"
+              ]
+            },
+            {
+              "id": "cn-io-34106",
+              "parentId": "cn-io-group-34",
+              "name": "其他通用设备",
+              "value": 16662390,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 34106 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "34106"
+              ]
+            },
+            {
+              "id": "cn-io-group-35",
+              "parentId": "cn-io-manufacturing",
+              "name": "专用设备",
+              "value": 148408665,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 35107, 35108, 35109, 35110, 35111, 35112 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "35107",
+                "35108",
+                "35109",
+                "35110",
+                "35111",
+                "35112"
+              ]
+            },
+            {
+              "id": "cn-io-35107",
+              "parentId": "cn-io-group-35",
+              "name": "采矿、冶金、建筑专用设备",
+              "value": 24408832,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 35107 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "35107"
+              ]
+            },
+            {
+              "id": "cn-io-35108",
+              "parentId": "cn-io-group-35",
+              "name": "化工、木材、非金属加工专用设备",
+              "value": 20917975,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 35108 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "35108"
+              ]
+            },
+            {
+              "id": "cn-io-35109",
+              "parentId": "cn-io-group-35",
+              "name": "电子和电工机械专用设备",
+              "value": 26866637,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 35109 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "35109"
+              ]
+            },
+            {
+              "id": "cn-io-35110",
+              "parentId": "cn-io-group-35",
+              "name": "农、林、牧、渔专用机械",
+              "value": 7461207,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 35110 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "35110"
+              ]
+            },
+            {
+              "id": "cn-io-35111",
+              "parentId": "cn-io-group-35",
+              "name": "医疗仪器设备及器械",
+              "value": 25067410,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 35111 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "35111"
+              ]
+            },
+            {
+              "id": "cn-io-35112",
+              "parentId": "cn-io-group-35",
+              "name": "其他专用设备",
+              "value": 43686604,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 35112 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "35112"
+              ]
+            },
+            {
+              "id": "cn-io-group-36",
+              "parentId": "cn-io-manufacturing",
+              "name": "汽车整车及零部件",
+              "value": 211764026,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 36113, 36114, 36115, 36116 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "36113",
+                "36114",
+                "36115",
+                "36116"
+              ]
+            },
+            {
+              "id": "cn-io-36113",
+              "parentId": "cn-io-group-36",
+              "name": "汽柴油车整车",
+              "value": 68739074,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 36113 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "36113"
+              ]
+            },
+            {
+              "id": "cn-io-36114",
+              "parentId": "cn-io-group-36",
+              "name": "新能源车整车",
+              "value": 16805802,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 36114 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "36114"
+              ]
+            },
+            {
+              "id": "cn-io-36115",
+              "parentId": "cn-io-group-36",
+              "name": "汽车用发动机、车身、挂车和其他汽车",
+              "value": 11139836,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 36115 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "36115"
+              ]
+            },
+            {
+              "id": "cn-io-36116",
+              "parentId": "cn-io-group-36",
+              "name": "汽车零部件及配件",
+              "value": 115079314,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 36116 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "36116"
+              ]
+            },
+            {
+              "id": "cn-io-group-37",
+              "parentId": "cn-io-manufacturing",
+              "name": "铁路、船舶及其他运输设备",
+              "value": 54577521,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 37117, 37118, 37119 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "37117",
+                "37118",
+                "37119"
+              ]
+            },
+            {
+              "id": "cn-io-37117",
+              "parentId": "cn-io-group-37",
+              "name": "铁路运输和城市轨道交通设备",
+              "value": 8742294,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 37117 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "37117"
+              ]
+            },
+            {
+              "id": "cn-io-37118",
+              "parentId": "cn-io-group-37",
+              "name": "船舶及相关装置",
+              "value": 12400494,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 37118 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "37118"
+              ]
+            },
+            {
+              "id": "cn-io-37119",
+              "parentId": "cn-io-group-37",
+              "name": "其他交通运输设备",
+              "value": 33434733,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 37119 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "37119"
+              ]
+            },
+            {
+              "id": "cn-io-group-38",
+              "parentId": "cn-io-manufacturing",
+              "name": "电气机械和器材",
+              "value": 212329553,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 38120, 38121, 38122, 38123, 38124, 38125 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "38120",
+                "38121",
+                "38122",
+                "38123",
+                "38124",
+                "38125"
+              ]
+            },
+            {
+              "id": "cn-io-38120",
+              "parentId": "cn-io-group-38",
+              "name": "电机",
+              "value": 22600747,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 38120 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "38120"
+              ]
+            },
+            {
+              "id": "cn-io-38121",
+              "parentId": "cn-io-group-38",
+              "name": "输配电及控制设备",
+              "value": 69495533,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 38121 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "38121"
+              ]
+            },
+            {
+              "id": "cn-io-38122",
+              "parentId": "cn-io-group-38",
+              "name": "电线、电缆、光缆及电工器材",
+              "value": 37697333,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 38122 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "38122"
+              ]
+            },
+            {
+              "id": "cn-io-38123",
+              "parentId": "cn-io-group-38",
+              "name": "电池",
+              "value": 36765337,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 38123 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "38123"
+              ]
+            },
+            {
+              "id": "cn-io-38124",
+              "parentId": "cn-io-group-38",
+              "name": "家用器具",
+              "value": 33441174,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 38124 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "38124"
+              ]
+            },
+            {
+              "id": "cn-io-38125",
+              "parentId": "cn-io-group-38",
+              "name": "其他电气机械和器材",
+              "value": 12329429,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 38125 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "38125"
+              ]
+            },
+            {
+              "id": "cn-io-group-39",
+              "parentId": "cn-io-manufacturing",
+              "name": "计算机、通信和其他电子设备",
+              "value": 284469195,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 39126, 39127, 39128, 39129, 39130, 39131, 39132, 39133, 39134 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "39126",
+                "39127",
+                "39128",
+                "39129",
+                "39130",
+                "39131",
+                "39132",
+                "39133",
+                "39134"
+              ]
+            },
+            {
+              "id": "cn-io-39126",
+              "parentId": "cn-io-group-39",
+              "name": "计算机整机",
+              "value": 11354043,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 39126 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "39126"
+              ]
+            },
+            {
+              "id": "cn-io-39127",
+              "parentId": "cn-io-group-39",
+              "name": "计算机零部件、其他计算机及相关设备",
+              "value": 18102043,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 39127 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "39127"
+              ]
+            },
+            {
+              "id": "cn-io-39128",
+              "parentId": "cn-io-group-39",
+              "name": "通信系统设备",
+              "value": 14383476,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 39128 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "39128"
+              ]
+            },
+            {
+              "id": "cn-io-39129",
+              "parentId": "cn-io-group-39",
+              "name": "通信终端设备",
+              "value": 42073457,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 39129 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "39129"
+              ]
+            },
+            {
+              "id": "cn-io-39130",
+              "parentId": "cn-io-group-39",
+              "name": "广播电视设备和雷达及配套设备",
+              "value": 628539,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 39130 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "39130"
+              ]
+            },
+            {
+              "id": "cn-io-39131",
+              "parentId": "cn-io-group-39",
+              "name": "非专业视听设备",
+              "value": 5046297,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 39131 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "39131"
+              ]
+            },
+            {
+              "id": "cn-io-39132",
+              "parentId": "cn-io-group-39",
+              "name": "电子器件",
+              "value": 90128537,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 39132 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "39132"
+              ]
+            },
+            {
+              "id": "cn-io-39133",
+              "parentId": "cn-io-group-39",
+              "name": "电子元件及电子专用材料",
+              "value": 73178303,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 39133 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "39133"
+              ]
+            },
+            {
+              "id": "cn-io-39134",
+              "parentId": "cn-io-group-39",
+              "name": "智能消费设备和其他电子设备",
+              "value": 29574500,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 39134 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "39134"
+              ]
+            },
+            {
+              "id": "cn-io-40135",
+              "parentId": "cn-io-manufacturing",
+              "name": "仪器仪表",
+              "value": 43218566,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 40135 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "40135"
+              ]
+            },
+            {
+              "id": "cn-io-41136",
+              "parentId": "cn-io-manufacturing",
+              "name": "其他制造产品",
+              "value": 12068537,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 41136 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "41136"
+              ]
+            },
+            {
+              "id": "cn-io-42137",
+              "parentId": "cn-io-manufacturing",
+              "name": "废弃资源和废旧材料回收加工品",
+              "value": 93598209,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 42137 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "42137"
+              ]
+            },
+            {
+              "id": "cn-io-43138",
+              "parentId": "cn-io-manufacturing",
+              "name": "金属制品、机械和设备修理服务",
+              "value": 19809694,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 43138 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "43138"
+              ]
+            },
+            {
+              "id": "cn-io-group-44",
+              "parentId": "cn-io-utilities",
+              "name": "火力发电和热电联产 / 其他电力生产 / 电力供应 / 热力生产和供应",
+              "value": 276314184,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 44139, 44140, 44141, 44142 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "44139",
+                "44140",
+                "44141",
+                "44142"
+              ]
+            },
+            {
+              "id": "cn-io-44139",
+              "parentId": "cn-io-group-44",
+              "name": "火力发电和热电联产",
+              "value": 61093782,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 44139 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "44139"
+              ]
+            },
+            {
+              "id": "cn-io-44140",
+              "parentId": "cn-io-group-44",
+              "name": "其他电力生产",
+              "value": 73222962,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 44140 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "44140"
+              ]
+            },
+            {
+              "id": "cn-io-44141",
+              "parentId": "cn-io-group-44",
+              "name": "电力供应",
+              "value": 136058498,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 44141 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "44141"
+              ]
+            },
+            {
+              "id": "cn-io-44142",
+              "parentId": "cn-io-group-44",
+              "name": "热力生产和供应",
+              "value": 5938942,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 44142 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "44142"
+              ]
+            },
+            {
+              "id": "cn-io-45143",
+              "parentId": "cn-io-utilities",
+              "name": "燃气生产和供应",
+              "value": 25030397,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 45143 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "45143"
+              ]
+            },
+            {
+              "id": "cn-io-46144",
+              "parentId": "cn-io-utilities",
+              "name": "水的生产和供应",
+              "value": 29844557,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 46144 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "46144"
+              ]
+            },
+            {
+              "id": "cn-io-construction",
+              "parentId": null,
+              "name": "建筑产品及服务",
+              "value": 929245783,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 47145, 47146, 48147, 48148, 48149, 48150, 48151, 48152, 49153, 50154, 50155 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "47145",
+                "47146",
+                "48147",
+                "48148",
+                "48149",
+                "48150",
+                "48151",
+                "48152",
+                "49153",
+                "50154",
+                "50155"
+              ]
+            },
+            {
+              "id": "cn-io-47145",
+              "parentId": "cn-io-construction",
+              "name": "住宅房屋建筑",
+              "value": 374779893,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 47145 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "47145"
+              ]
+            },
+            {
+              "id": "cn-io-47146",
+              "parentId": "cn-io-construction",
+              "name": "体育场馆和其他房屋建筑",
+              "value": 98682677,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 47146 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "47146"
+              ]
+            },
+            {
+              "id": "cn-io-48147",
+              "parentId": "cn-io-construction",
+              "name": "铁路、道路、隧道和桥梁工程建筑",
+              "value": 94736337,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 48147 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "48147"
+              ]
+            },
+            {
+              "id": "cn-io-48148",
+              "parentId": "cn-io-construction",
+              "name": "水利、水运工程和海洋工程建筑",
+              "value": 19223906,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 48148 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "48148"
+              ]
+            },
+            {
+              "id": "cn-io-48149",
+              "parentId": "cn-io-construction",
+              "name": "工矿工程建筑",
+              "value": 15413551,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 48149 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "48149"
+              ]
+            },
+            {
+              "id": "cn-io-48150",
+              "parentId": "cn-io-construction",
+              "name": "架线、管道工程建筑和节能环保工程",
+              "value": 14714990,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 48150 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "48150"
+              ]
+            },
+            {
+              "id": "cn-io-48151",
+              "parentId": "cn-io-construction",
+              "name": "电力工程",
+              "value": 30128052,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 48151 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "48151"
+              ]
+            },
+            {
+              "id": "cn-io-48152",
+              "parentId": "cn-io-construction",
+              "name": "其他土木工程建筑",
+              "value": 37805136,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 48152 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "48152"
+              ]
+            },
+            {
+              "id": "cn-io-49153",
+              "parentId": "cn-io-construction",
+              "name": "建筑安装",
+              "value": 101816983,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 49153 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "49153"
+              ]
+            },
+            {
+              "id": "cn-io-50154",
+              "parentId": "cn-io-construction",
+              "name": "建筑装饰和装修",
+              "value": 65641715,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 50154 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "50154"
+              ]
+            },
+            {
+              "id": "cn-io-50155",
+              "parentId": "cn-io-construction",
+              "name": "其他建筑服务",
+              "value": 76302543,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 50155 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "50155"
+              ]
+            },
+            {
+              "id": "cn-io-wholesale-retail",
+              "parentId": null,
+              "name": "批发与零售服务",
+              "value": 1197205447,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 51156, 52157 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "51156",
+                "52157"
+              ]
+            },
+            {
+              "id": "cn-io-51156",
+              "parentId": "cn-io-wholesale-retail",
+              "name": "批发",
+              "value": 594252938,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 51156 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "51156"
+              ]
+            },
+            {
+              "id": "cn-io-52157",
+              "parentId": "cn-io-wholesale-retail",
+              "name": "零售",
+              "value": 602952509,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 52157 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "52157"
+              ]
+            },
+            {
+              "id": "cn-io-transport",
+              "parentId": null,
+              "name": "交通运输、仓储和邮政服务",
+              "value": 579670143,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 53158, 53159, 54160, 54161, 55162, 55163, 56164, 56165, 57166, 58167, 59168, 59169, 60170 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "53158",
+                "53159",
+                "54160",
+                "54161",
+                "55162",
+                "55163",
+                "56164",
+                "56165",
+                "57166",
+                "58167",
+                "59168",
+                "59169",
+                "60170"
+              ]
+            },
+            {
+              "id": "cn-io-53158",
+              "parentId": "cn-io-transport",
+              "name": "铁路旅客运输",
+              "value": 39940081,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 53158 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "53158"
+              ]
+            },
+            {
+              "id": "cn-io-53159",
+              "parentId": "cn-io-transport",
+              "name": "铁路货物运输和运输辅助活动",
+              "value": 36008280,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 53159 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "53159"
+              ]
+            },
+            {
+              "id": "cn-io-54160",
+              "parentId": "cn-io-transport",
+              "name": "城市公共交通及公路客运",
+              "value": 31634448,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 54160 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "54160"
+              ]
+            },
+            {
+              "id": "cn-io-54161",
+              "parentId": "cn-io-transport",
+              "name": "道路货物运输和运输辅助活动",
+              "value": 288920712,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 54161 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "54161"
+              ]
+            },
+            {
+              "id": "cn-io-55162",
+              "parentId": "cn-io-transport",
+              "name": "水上旅客运输",
+              "value": 671917,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 55162 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "55162"
+              ]
+            },
+            {
+              "id": "cn-io-55163",
+              "parentId": "cn-io-transport",
+              "name": "水上货物运输和运输辅助活动",
+              "value": 24269510,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 55163 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "55163"
+              ]
+            },
+            {
+              "id": "cn-io-56164",
+              "parentId": "cn-io-transport",
+              "name": "航空旅客运输",
+              "value": 10314013,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 56164 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "56164"
+              ]
+            },
+            {
+              "id": "cn-io-56165",
+              "parentId": "cn-io-transport",
+              "name": "航空货物运输和运输辅助活动",
+              "value": 12857720,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 56165 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "56165"
+              ]
+            },
+            {
+              "id": "cn-io-57166",
+              "parentId": "cn-io-transport",
+              "name": "管道运输",
+              "value": 10533403,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 57166 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "57166"
+              ]
+            },
+            {
+              "id": "cn-io-58167",
+              "parentId": "cn-io-transport",
+              "name": "多式联运和运输代理",
+              "value": 32422080,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 58167 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "58167"
+              ]
+            },
+            {
+              "id": "cn-io-59168",
+              "parentId": "cn-io-transport",
+              "name": "装卸搬运",
+              "value": 25612208,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 59168 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "59168"
+              ]
+            },
+            {
+              "id": "cn-io-59169",
+              "parentId": "cn-io-transport",
+              "name": "仓储",
+              "value": 28225230,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 59169 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "59169"
+              ]
+            },
+            {
+              "id": "cn-io-60170",
+              "parentId": "cn-io-transport",
+              "name": "邮政",
+              "value": 38260541,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 60170 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "60170"
+              ]
+            },
+            {
+              "id": "cn-io-hospitality",
+              "parentId": null,
+              "name": "住宿和餐饮服务",
+              "value": 236266636,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 61171, 62172 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "61171",
+                "62172"
+              ]
+            },
+            {
+              "id": "cn-io-61171",
+              "parentId": "cn-io-hospitality",
+              "name": "住宿",
+              "value": 43080741,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 61171 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "61171"
+              ]
+            },
+            {
+              "id": "cn-io-62172",
+              "parentId": "cn-io-hospitality",
+              "name": "餐饮",
+              "value": 193185895,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 62172 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "62172"
+              ]
+            },
+            {
+              "id": "cn-io-information",
+              "parentId": null,
+              "name": "信息传输、软件和信息技术服务",
+              "value": 584340324,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 63173, 63174, 64175, 65176, 65177 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "63173",
+                "63174",
+                "64175",
+                "65176",
+                "65177"
+              ]
+            },
+            {
+              "id": "cn-io-63173",
+              "parentId": "cn-io-information",
+              "name": "电信",
+              "value": 103238560,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 63173 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "63173"
+              ]
+            },
+            {
+              "id": "cn-io-63174",
+              "parentId": "cn-io-information",
+              "name": "广播电视及卫星传输服务",
+              "value": 5996136,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 63174 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "63174"
+              ]
+            },
+            {
+              "id": "cn-io-64175",
+              "parentId": "cn-io-information",
+              "name": "互联网和相关服务",
+              "value": 153191019,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 64175 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "64175"
+              ]
+            },
+            {
+              "id": "cn-io-65176",
+              "parentId": "cn-io-information",
+              "name": "软件服务",
+              "value": 135561569,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 65176 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "65176"
+              ]
+            },
+            {
+              "id": "cn-io-65177",
+              "parentId": "cn-io-information",
+              "name": "信息技术服务",
+              "value": 186353040,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 65177 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "65177"
+              ]
+            },
+            {
+              "id": "cn-io-finance",
+              "parentId": null,
+              "name": "金融服务",
+              "value": 939268851,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 66178, 66179, 67180, 68181, 69182 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "66178",
+                "66179",
+                "67180",
+                "68181",
+                "69182"
+              ]
+            },
+            {
+              "id": "cn-io-66178",
+              "parentId": "cn-io-finance",
+              "name": "中央银行、货币银行和银行监管服务",
+              "value": 668395606,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 66178 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "66178"
+              ]
+            },
+            {
+              "id": "cn-io-66179",
+              "parentId": "cn-io-finance",
+              "name": "非货币银行和银行理财服务",
+              "value": 61576552,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 66179 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "66179"
+              ]
+            },
+            {
+              "id": "cn-io-67180",
+              "parentId": "cn-io-finance",
+              "name": "资本市场服务",
+              "value": 68147051,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 67180 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "67180"
+              ]
+            },
+            {
+              "id": "cn-io-68181",
+              "parentId": "cn-io-finance",
+              "name": "保险",
+              "value": 90789195,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 68181 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "68181"
+              ]
+            },
+            {
+              "id": "cn-io-69182",
+              "parentId": "cn-io-finance",
+              "name": "其他金融服务",
+              "value": 50360447,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 69182 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "69182"
+              ]
+            },
+            {
+              "id": "cn-io-real-estate",
+              "parentId": null,
+              "name": "房地产服务",
+              "value": 833215777,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 70183 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "70183"
+              ]
+            },
+            {
+              "id": "cn-io-70183",
+              "parentId": "cn-io-real-estate",
+              "name": "房地产",
+              "value": 833215777,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 70183 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "70183"
+              ]
+            },
+            {
+              "id": "cn-io-business",
+              "parentId": null,
+              "name": "租赁和商务服务",
+              "value": 525448794,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 71184, 72185, 72186 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "71184",
+                "72185",
+                "72186"
+              ]
+            },
+            {
+              "id": "cn-io-71184",
+              "parentId": "cn-io-business",
+              "name": "租赁",
+              "value": 67473654,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 71184 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "71184"
+              ]
+            },
+            {
+              "id": "cn-io-72185",
+              "parentId": "cn-io-business",
+              "name": "法律、咨询、广告和人力资源服务",
+              "value": 247811394,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 72185 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "72185"
+              ]
+            },
+            {
+              "id": "cn-io-72186",
+              "parentId": "cn-io-business",
+              "name": "其他商务服务",
+              "value": 210163746,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 72186 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "72186"
+              ]
+            },
+            {
+              "id": "cn-io-science",
+              "parentId": null,
+              "name": "科学研究和技术服务",
+              "value": 476588976,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 73187, 74188, 74189, 74190, 74191, 75192, 75193 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "73187",
+                "74188",
+                "74189",
+                "74190",
+                "74191",
+                "75192",
+                "75193"
+              ]
+            },
+            {
+              "id": "cn-io-73187",
+              "parentId": "cn-io-science",
+              "name": "研究和试验发展",
+              "value": 242235843,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 73187 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "73187"
+              ]
+            },
+            {
+              "id": "cn-io-74188",
+              "parentId": "cn-io-science",
+              "name": "气象、地震、海洋、环境和地质服务",
+              "value": 17094137,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 74188 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "74188"
+              ]
+            },
+            {
+              "id": "cn-io-74189",
+              "parentId": "cn-io-science",
+              "name": "质检技术服务",
+              "value": 18206117,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 74189 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "74189"
+              ]
+            },
+            {
+              "id": "cn-io-74190",
+              "parentId": "cn-io-science",
+              "name": "工程技术与设计服务",
+              "value": 98256838,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 74190 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "74190"
+              ]
+            },
+            {
+              "id": "cn-io-74191",
+              "parentId": "cn-io-science",
+              "name": "工业与专业设计及其他专业技术服务",
+              "value": 29943057,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 74191 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "74191"
+              ]
+            },
+            {
+              "id": "cn-io-75192",
+              "parentId": "cn-io-science",
+              "name": "技术推广服务",
+              "value": 45308433,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 75192 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "75192"
+              ]
+            },
+            {
+              "id": "cn-io-75193",
+              "parentId": "cn-io-science",
+              "name": "其他科技推广和应用服务",
+              "value": 25544551,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 75193 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "75193"
+              ]
+            },
+            {
+              "id": "cn-io-environment",
+              "parentId": null,
+              "name": "水利、环境和公共设施管理服务",
+              "value": 74900657,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 76194, 77195, 78196, 79197 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "76194",
+                "77195",
+                "78196",
+                "79197"
+              ]
+            },
+            {
+              "id": "cn-io-76194",
+              "parentId": "cn-io-environment",
+              "name": "水利管理",
+              "value": 10915993,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 76194 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "76194"
+              ]
+            },
+            {
+              "id": "cn-io-77195",
+              "parentId": "cn-io-environment",
+              "name": "生态保护与环境治理",
+              "value": 12011925,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 77195 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "77195"
+              ]
+            },
+            {
+              "id": "cn-io-78196",
+              "parentId": "cn-io-environment",
+              "name": "公共设施管理",
+              "value": 45619913,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 78196 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "78196"
+              ]
+            },
+            {
+              "id": "cn-io-79197",
+              "parentId": "cn-io-environment",
+              "name": "土地管理",
+              "value": 6352826,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 79197 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "79197"
+              ]
+            },
+            {
+              "id": "cn-io-household",
+              "parentId": null,
+              "name": "居民、修理和其他服务",
+              "value": 273077974,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 80198, 81199, 82200 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "80198",
+                "81199",
+                "82200"
+              ]
+            },
+            {
+              "id": "cn-io-80198",
+              "parentId": "cn-io-household",
+              "name": "居民服务",
+              "value": 153236487,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 80198 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "80198"
+              ]
+            },
+            {
+              "id": "cn-io-81199",
+              "parentId": "cn-io-household",
+              "name": "机动车、电子产品和日用品修理服务",
+              "value": 62603616,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 81199 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "81199"
+              ]
+            },
+            {
+              "id": "cn-io-82200",
+              "parentId": "cn-io-household",
+              "name": "其他服务",
+              "value": 57237871,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 82200 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "82200"
+              ]
+            },
+            {
+              "id": "cn-io-education",
+              "parentId": null,
+              "name": "教育服务",
+              "value": 459806688,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 83201 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "83201"
+              ]
+            },
+            {
+              "id": "cn-io-83201",
+              "parentId": "cn-io-education",
+              "name": "教育",
+              "value": 459806688,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 83201 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "83201"
+              ]
+            },
+            {
+              "id": "cn-io-health",
+              "parentId": null,
+              "name": "卫生和社会工作服务",
+              "value": 324465155,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 84202, 85203 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "84202",
+                "85203"
+              ]
+            },
+            {
+              "id": "cn-io-84202",
+              "parentId": "cn-io-health",
+              "name": "卫生",
+              "value": 309704340,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 84202 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "84202"
+              ]
+            },
+            {
+              "id": "cn-io-85203",
+              "parentId": "cn-io-health",
+              "name": "社会工作",
+              "value": 14760815,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 85203 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "85203"
+              ]
+            },
+            {
+              "id": "cn-io-culture",
+              "parentId": null,
+              "name": "文化、体育和娱乐服务",
+              "value": 103658270,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 86204, 87205, 88206, 89207, 90208 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "86204",
+                "87205",
+                "88206",
+                "89207",
+                "90208"
+              ]
+            },
+            {
+              "id": "cn-io-86204",
+              "parentId": "cn-io-culture",
+              "name": "新闻和出版",
+              "value": 9777011,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 86204 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "86204"
+              ]
+            },
+            {
+              "id": "cn-io-87205",
+              "parentId": "cn-io-culture",
+              "name": "广播、电视、电影和影视录音制作",
+              "value": 13150465,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 87205 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "87205"
+              ]
+            },
+            {
+              "id": "cn-io-88206",
+              "parentId": "cn-io-culture",
+              "name": "文化艺术",
+              "value": 25307405,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 88206 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "88206"
+              ]
+            },
+            {
+              "id": "cn-io-89207",
+              "parentId": "cn-io-culture",
+              "name": "体育",
+              "value": 16866299,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 89207 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "89207"
+              ]
+            },
+            {
+              "id": "cn-io-90208",
+              "parentId": "cn-io-culture",
+              "name": "娱乐",
+              "value": 38557090,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 90208 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "90208"
+              ]
+            },
+            {
+              "id": "cn-io-public",
+              "parentId": null,
+              "name": "公共管理、社会保障及组织服务",
+              "value": 631532625,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 91209, 94210, 95211 列；单位万元"
+                }
+              ],
+              "evidenceKind": "calculation",
+              "memberCodes": [
+                "91209",
+                "94210",
+                "95211"
+              ]
+            },
+            {
+              "id": "cn-io-91209",
+              "parentId": "cn-io-public",
+              "name": "中国共产党机关、国家机构、人民政协和民主党派",
+              "value": 576179170,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 91209 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "91209"
+              ]
+            },
+            {
+              "id": "cn-io-94210",
+              "parentId": "cn-io-public",
+              "name": "社会保障",
+              "value": 10946630,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 94210 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "94210"
+              ]
+            },
+            {
+              "id": "cn-io-95211",
+              "parentId": "cn-io-public",
+              "name": "群众团体、社会团体、其他成员组织及基层群众自治组织",
+              "value": 44406825,
+              "evidence": [
+                {
+                  "sourceId": "macro-cn-io2023-211",
+                  "locator": "增加值合计（TVA）行；产品代码 95211 列；单位万元"
+                }
+              ],
+              "evidenceKind": "fact",
+              "memberCodes": [
+                "95211"
+              ]
+            }
+          ]
+        }
+      ]
     }
   },
   "keyOrder": [
@@ -20623,7 +25476,8 @@
     "tasks",
     "claims",
     "searches",
-    "subindustryProductivity"
+    "subindustryProductivity",
+    "macroStructures"
   ],
   "totalRecords": 28772,
   "totalShards": 36,

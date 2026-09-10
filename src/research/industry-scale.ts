@@ -13,7 +13,7 @@ export interface ScaleNode {
 }
 export interface ScaleRow {node:ScaleNode;depth:number;expanded:boolean}
 export function scaleSources(research:Research,country:Country):Research['sources']{
- return [...new Map([...research.sources,...(research.subindustryProductivity?.sources??[])].filter(s=>s.country===country||s.country==='global').map(s=>[s.id,s])).values()]
+ return [...new Map([...research.sources,...(research.subindustryProductivity?.sources??[]),...(research.macroStructures?.sources??[])].filter(s=>s.country===country||s.country==='global').map(s=>[s.id,s])).values()]
 }
 const childAliases:Record<string,string>={'cn-prod-b':'cn-mining','cn-prod-c':'cn-manufacturing','cn-prod-d':'cn-utilities'}
 const childKey=(row:ProductivityRow)=>(childAliases[row.id.replace(/-\d{4}$/,'')]??row.id.replace(/-\d{4}$/,''))

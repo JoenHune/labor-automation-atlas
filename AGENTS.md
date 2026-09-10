@@ -1,5 +1,7 @@
 # 人力与自动化图谱
-本项目以用户 2026-09-09 完整替换计划为唯一产品范围，见 research/accepted-plan.md。旧方案不适用。
+当前执行目标为用户 2026-09-10 确认的宏观行业规模补数，见 research/current-goal.md。research/accepted-plan.md 保留原方案及范围变更；当前目标优先。
+
+- 只继续宏观行业层级、规模数据、来源与图谱接入；人工任务、自动化案例、回报、逐任务审校与整合暂停，未经用户重新指示不得恢复。
 
 - 中文正文；白底、深色文字、蓝色强调。
 - VitePress/Vue/TypeScript/ECharts、GitHub Actions → GitHub Pages；Cloudflare Workers + D1 + R2。用户指定的技术与托管优先于通用 Sites 脚手架。
@@ -11,4 +13,3 @@
 - GitHub App/Cloudflare 账号配置遵从用户指令用 Computer Use，在可运行代码、配置和测试准备完成后进行。
 - 密钥、令牌、Cookie、会话、私人账号内容严禁写入公开仓库或日志；只提交 .example 占位名称。
 - 发布和完工须由 evidence / acceptance 清单支持，模拟测试不能标为真实身份联调通过。
-

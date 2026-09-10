@@ -1,6 +1,6 @@
 {
   "version": "cn-subindustry-productivity-2026-09-09-reviewed-draft-2",
-  "checkedAt": "2026-09-09",
+  "checkedAt": "2026-09-10",
   "sources": [
     {
       "id": "cn-prod-gdp2025",
@@ -781,6 +781,288 @@
           ],
           "gaps": [
             "已列就业只覆盖企业法人单位；缺个体经营和其他统计主体对应范围，不能充当全行业分母。"
+          ]
+        },
+        {
+          "id": "cn-prod-b-2021",
+          "childId": "cn-sub-b",
+          "country": "cn",
+          "parentIndustryId": "cn-industry",
+          "name": "采矿业",
+          "year": 2021,
+          "valueAdded": {
+            "value": 32012.1,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2021,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）采矿业全部常住生产单位；现价行业增加值",
+            "coverageKey": "cn-all-resident-industry-B",
+            "releaseDate": null,
+            "revision": "2025版年鉴所列修订值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-t3-6",
+                "locator": "表3-6；“采矿业”行，“2021”列；现价亿元"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": null,
+            "unit": "万人",
+            "year": null,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "尚未核实",
+            "coverageKey": "unverified",
+            "denominatorKind": "unknown",
+            "periodBasis": "unknown",
+            "releaseDate": null,
+            "revision": "未取得同年同范围就业数",
+            "evidence": []
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "尚未取得同年同范围就业数。"
+          ],
+          "gaps": [
+            "尚未取得同年同范围就业数。"
+          ]
+        },
+        {
+          "id": "cn-prod-c-2021",
+          "childId": "cn-sub-c",
+          "country": "cn",
+          "parentIndustryId": "cn-industry",
+          "name": "制造业",
+          "year": 2021,
+          "valueAdded": {
+            "value": 312494.4,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2021,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）制造业全部常住生产单位；现价行业增加值",
+            "coverageKey": "cn-all-resident-industry-C",
+            "releaseDate": null,
+            "revision": "2025版年鉴所列修订值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-t3-6",
+                "locator": "表3-6；“制造业”行，“2021”列；现价亿元"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": null,
+            "unit": "万人",
+            "year": null,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "尚未核实",
+            "coverageKey": "unverified",
+            "denominatorKind": "unknown",
+            "periodBasis": "unknown",
+            "releaseDate": null,
+            "revision": "未取得同年同范围就业数",
+            "evidence": []
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "尚未取得同年同范围就业数。"
+          ],
+          "gaps": [
+            "尚未取得同年同范围就业数。"
+          ]
+        },
+        {
+          "id": "cn-prod-d-2021",
+          "childId": "cn-sub-d",
+          "country": "cn",
+          "parentIndustryId": "cn-industry",
+          "name": "电力、热力、燃气及水生产和供应业",
+          "year": 2021,
+          "valueAdded": {
+            "value": 25397.3,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2021,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）电力、热力、燃气及水生产和供应业全部常住生产单位；现价行业增加值",
+            "coverageKey": "cn-all-resident-industry-D",
+            "releaseDate": null,
+            "revision": "2025版年鉴所列修订值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-t3-6",
+                "locator": "表3-6；“电力、热力、燃气及水生产和供应业”行，“2021”列；现价亿元"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": null,
+            "unit": "万人",
+            "year": null,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "尚未核实",
+            "coverageKey": "unverified",
+            "denominatorKind": "unknown",
+            "periodBasis": "unknown",
+            "releaseDate": null,
+            "revision": "未取得同年同范围就业数",
+            "evidence": []
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "尚未取得同年同范围就业数。"
+          ],
+          "gaps": [
+            "尚未取得同年同范围就业数。"
+          ]
+        },
+        {
+          "id": "cn-prod-b-2022",
+          "childId": "cn-sub-b",
+          "country": "cn",
+          "parentIndustryId": "cn-industry",
+          "name": "采矿业",
+          "year": 2022,
+          "valueAdded": {
+            "value": 38303.4,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2022,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）采矿业全部常住生产单位；现价行业增加值",
+            "coverageKey": "cn-all-resident-industry-B",
+            "releaseDate": null,
+            "revision": "2025版年鉴所列修订值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-t3-6",
+                "locator": "表3-6；“采矿业”行，“2022”列；现价亿元"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": null,
+            "unit": "万人",
+            "year": null,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "尚未核实",
+            "coverageKey": "unverified",
+            "denominatorKind": "unknown",
+            "periodBasis": "unknown",
+            "releaseDate": null,
+            "revision": "未取得同年同范围就业数",
+            "evidence": []
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "尚未取得同年同范围就业数。"
+          ],
+          "gaps": [
+            "尚未取得同年同范围就业数。"
+          ]
+        },
+        {
+          "id": "cn-prod-c-2022",
+          "childId": "cn-sub-c",
+          "country": "cn",
+          "parentIndustryId": "cn-industry",
+          "name": "制造业",
+          "year": 2022,
+          "valueAdded": {
+            "value": 320609.1,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2022,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）制造业全部常住生产单位；现价行业增加值",
+            "coverageKey": "cn-all-resident-industry-C",
+            "releaseDate": null,
+            "revision": "2025版年鉴所列修订值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-t3-6",
+                "locator": "表3-6；“制造业”行，“2022”列；现价亿元"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": null,
+            "unit": "万人",
+            "year": null,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "尚未核实",
+            "coverageKey": "unverified",
+            "denominatorKind": "unknown",
+            "periodBasis": "unknown",
+            "releaseDate": null,
+            "revision": "未取得同年同范围就业数",
+            "evidence": []
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "尚未取得同年同范围就业数。"
+          ],
+          "gaps": [
+            "尚未取得同年同范围就业数。"
+          ]
+        },
+        {
+          "id": "cn-prod-d-2022",
+          "childId": "cn-sub-d",
+          "country": "cn",
+          "parentIndustryId": "cn-industry",
+          "name": "电力、热力、燃气及水生产和供应业",
+          "year": 2022,
+          "valueAdded": {
+            "value": 29739.1,
+            "unit": "亿元",
+            "currency": "CNY",
+            "year": 2022,
+            "measure": "value-added",
+            "priceBasis": "current",
+            "coverage": "全国（不含港澳台）电力、热力、燃气及水生产和供应业全部常住生产单位；现价行业增加值",
+            "coverageKey": "cn-all-resident-industry-D",
+            "releaseDate": null,
+            "revision": "2025版年鉴所列修订值",
+            "evidence": [
+              {
+                "sourceId": "cn-prod-yearbook2025-t3-6",
+                "locator": "表3-6；“电力、热力、燃气及水生产和供应业”行，“2022”列；现价亿元"
+              }
+            ],
+            "evidenceKind": "fact"
+          },
+          "employment": {
+            "value": null,
+            "unit": "万人",
+            "year": null,
+            "definition": "年度最后一日在本单位工作并取得劳动报酬的在岗职工、劳务派遣人员及其他从业人员；企业法人统计，不是全国唯一自然人数或全时当量。",
+            "coverage": "尚未核实",
+            "coverageKey": "unverified",
+            "denominatorKind": "unknown",
+            "periodBasis": "unknown",
+            "releaseDate": null,
+            "revision": "未取得同年同范围就业数",
+            "evidence": []
+          },
+          "comparable": false,
+          "comparabilityReasons": [
+            "尚未取得同年同范围就业数。"
+          ],
+          "gaps": [
+            "尚未取得同年同范围就业数。"
           ]
         }
       ],

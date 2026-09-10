@@ -31,4 +31,5 @@ for(const path of old)if(!files.includes(path)&&/^docs\/(cn|us)\/(industries|tas
 await put('docs/.generated/pages-manifest.json',json(files))
 await put('docs/public/exports/research.json',json(data))
 await put('docs/methodology.md',await readFile(new URL('research/methodology.md',root),'utf8'))
+await put('docs/macro-data.md',await readFile(new URL('research/macro/methodology.md',root),'utf8'))
 console.log('Generated',data.industries.filter(i=>i.selected).length,'industry pages and',data.tasks.length,'task pages. Detailed records load with their own page.')

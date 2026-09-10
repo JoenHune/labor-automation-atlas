@@ -152,6 +152,16 @@ export const ProductivityDatasetSchema=z.object({
     })),
   })),
 })
+export const MacroDatasetSchema=z.object({
+ version:nonempty,checkedAt:date,sources:z.array(SourceSchema),
+ structures:z.array(z.object({
+  id:ID,country:CountrySchema,year:z.number().int(),basis:z.literal('product'),title:nonempty,description:nonempty,
+  unit:nonempty,currency:z.enum(['CNY','USD']),releaseDate:date.nullable(),revision:nonempty,coverage:nonempty,
+  nodes:z.array(z.object({id:ID,parentId:ID.nullable(),name:nonempty,value:z.number().finite(),
+   evidence:z.array(EvidenceRefSchema).min(1),evidenceKind:z.enum(['fact','calculation']),memberCodes:z.array(nonempty).min(1),
+  })).min(1),
+ })),
+})
 export const ResearchSchema = z.object({
   version:nonempty, checkedAt:date, publishedAt:date.nullable(),
   freezeStatus:z.enum(['working','review','frozen']),
@@ -165,6 +175,7 @@ export const ResearchSchema = z.object({
   observations:z.array(ObservationSchema), scenarios:z.array(ScenarioSchema),
   tasks:z.array(TaskSchema), claims:z.array(ClaimSchema), searches:z.array(SearchSchema),
   subindustryProductivity:ProductivityDatasetSchema.optional(),
+  macroStructures:MacroDatasetSchema.optional(),
 })
 export type Research = z.infer<typeof ResearchSchema>
 export type Observation = z.infer<typeof ObservationSchema>
