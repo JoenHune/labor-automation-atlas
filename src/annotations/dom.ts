@@ -3,6 +3,7 @@ import {AnchorSchema,type Anchor,type Rect,type Target,type ViewState} from './s
 import {ownedTargetId,unambiguousTargets,quoteForSpan,assertTextCoverage} from './text-targets'
 import {normalizeTextOffsets} from './text-offsets'
 import {captureDisclosures,closedDisclosures,disclosurePlan,readDisclosureBlocks,renderedElement,hiddenTextNode,type DisclosureBlock} from './disclosures'
+import {prepareKeyboardTargets} from './keyboard'
 export interface LiveBlock {id:string;element:HTMLElement;rect:Rect;fingerprint:string;text:string;kind:Target['kind'];points:Target['dataPoints'];pointRects:(Target['dataPoints'][number]&{rect:Rect})[];space?:boolean;ownedContent?:boolean;virtual?:boolean;hidden?:boolean}
 export const rectOf=(r:DOMRect|DOMRectReadOnly):Rect=>({x:r.x,y:r.y,width:r.width,height:r.height})
 export function contentRoot(){return document.querySelector<HTMLElement>('.VPContent')??document.querySelector<HTMLElement>('main')!}
@@ -29,6 +30,7 @@ export async function ensureContentIds() {
   if(root.querySelector('[data-content-id="'+id+'"]'))continue
   el.dataset.contentId=id;el.tabIndex=0
  }
+ prepareKeyboardTargets(root)
 }
 const ignoredText='script,style,[data-annotation-ui],[data-zr-dom-id],.echarts-tooltip'
 function contentText(el:HTMLElement,ownedContent=false) {

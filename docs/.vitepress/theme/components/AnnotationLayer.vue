@@ -8,6 +8,7 @@ import {contentRoot,currentView,pageScope,ensureContentIds,liveBlocks,createAnch
 import {readDisclosureBlocks} from '../../../../src/annotations/disclosures'
 import {observeContentChanges} from '../../../../src/annotations/content-observer'
 import {captureDraftSelection} from '../../../../src/annotations/draft-capture'
+import {isAnnotationShortcut,keyboardAnnotationTarget} from '../../../../src/annotations/keyboard'
 import {api,post,apiOrigin,ApiError,storedSession,beginLogin,finishLogin,shareUrl,saveDraft,draftsForPage,deleteDraft,type Draft,type SiteSession} from '../../../../src/annotations/client'
 import {safeMarkdown} from '../../../../src/annotations/markdown'
 const {site}=useData(),route=useRoute(),router=useRouter()
@@ -187,8 +188,9 @@ async function endDraw() {
 }
 async function keyboard(event:KeyboardEvent) {
  if(event.key==='Escape') {mode.value=false;textPopup.value=null;if(showCard.value)await closeCard();return}
- const el=(event.target as HTMLElement).closest<HTMLElement>('[data-content-id]')
- if(event.altKey&&event.shiftKey&&event.key.toLowerCase()==='a'&&el&&!el.closest('[data-annotation-ui]')) {
+ if(!isAnnotationShortcut(event))return
+ const el=keyboardAnnotationTarget(event.target,contentRoot())
+ if(el) {
   event.preventDefault();await captureArea(rectOf(el.getBoundingClientRect()))
  }
 }

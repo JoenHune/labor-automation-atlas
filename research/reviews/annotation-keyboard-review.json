@@ -1,0 +1,49 @@
+{
+  "checkedAtUTC": "2026-09-10T06:42:27Z",
+  "researchVersion": "2026-09-10.preview-13",
+  "baselineCommit": "049e3450da6a5aef1d0007bb062450d4cc911e56",
+  "scope": "Keyboard selection of nested content blocks; publication verification recorded separately",
+  "reproduction": {
+    "page": "/cn/?year=2025&focus=cn-gdp&sort=value&filter.currency=usd-million&filter.fx=6.71",
+    "viewport": {"width": 951, "height": 908},
+    "action": "Open the GDP source disclosure, focus its summary, then use Alt+Shift+A",
+    "observed": "The selection covered the whole GDP card instead of the focused disclosure title",
+    "cardAndSelection": {"width": 295.65625, "height": 652.328125},
+    "focusedSummary": {"width": 273.65625, "height": 19.796875},
+    "qualification": "The initial browser keyboard action reported a focus-command timeout; the resulting dialog, selection and snapshot were subsequently observed. The reported selection dimensions come from the actual rendered DOM."
+  },
+  "changes": [
+    "Select the closest semantic content block, including nested paragraphs, headings, table rows, data definitions, images and disclosure summaries",
+    "Make nested content keyboard-focusable while retaining existing persistent content IDs and semantic fingerprints",
+    "Expose the shortcut through aria-keyshortcuts and preserve explicitly assigned focus order",
+    "Use the physical A key as well as the character so macOS Option-modified characters work",
+    "Ignore composition, repeat, unrelated modifier combinations, input/editable fields and the annotation UI"
+  ],
+  "validation": {
+    "typecheck": "passed",
+    "unitTests": {"files": 32, "passed": 524},
+    "browserDomChecks": {"keyboard": 15, "existingPositioning": 48, "disclosureRestoration": 39, "allPassed": true},
+    "realPage": {
+      "keyboardAction": "Browser keyboard input with Alt, Shift and A after focusing the source summary",
+      "selection": {"width": 273.65625, "height": 19.796875},
+      "matchesFocusedSummary": true,
+      "snapshot": {"width": 274, "height": 20, "visuallyInspected": true, "onlySelectedWebsiteContent": true},
+      "reload": {
+        "bodyRetained": true,
+        "sourceDisclosureRestored": true,
+        "snapshotRetained": true,
+        "highlightResolvedToTitleText": true,
+        "resolvedHighlight": {"width": 84, "height": 15},
+        "alerts": []
+      }
+    },
+    "temporaryQAPageRemoved": true,
+    "researchDataChanged": false
+  },
+  "limitations": [
+    "This turn checked the keyboard change on a desktop viewport. The earlier mobile draft tests remain separately documented; no new mobile keyboard acceptance is claimed.",
+    "No GitHub comment was posted. Real identity, permissions, R2 and bidirectional synchronization remain incomplete.",
+    "The full research inventory remains unfrozen; these application checks do not count additional researched or independently reviewed tasks.",
+    "No new macroeconomic source update is claimed for this code-only change."
+  ]
+}
