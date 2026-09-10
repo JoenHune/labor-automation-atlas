@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "cn-industry-mineral-steel-nonferrous-foundry-30-33",
+  "validationType": "author-structure-provenance-and-algebra-check-not-independent-factual-recheck",
+  "validatedAtUTC": "2026-09-10 04:54:34 UTC",
+  "originalMainSha256": "f753ed3090657493530afe30d6360e4c7e36fcc8cec2a6a321983416f55c179e",
+  "outputSha256": "055d7465d79d96adc7b647b25ebd25a4f9216bb95d660d19bf431e8d4b70aa3e",
+  "searchAuditSha256": "08915213eeea194b29ec164788ab72974b0476269c099ec3b1ac1946127cbb8a",
+  "markdownSha256": "08ed350425bef929d01807c84268d89e4b531c9c2d424cdea0fb4e2570ef240e",
+  "renderedTaskSectionCount": 133,
+  "resolvedCurrentContentReferenceCount": 1573,
+  "counts": {
+    "searched-direct": 67,
+    "searched-adjacent": 23,
+    "searched-insufficient-matched-evidence": 21,
+    "searched-scope": 18,
+    "searched-provisional": 3,
+    "searched-lab": 1
+  },
+  "checks": {
+    "exactOriginalTaskIDsAndSnapshots": true,
+    "taskCount133AndSceneCount16": true,
+    "humanInputsUnchanged": true,
+    "original23CashParametersAndNullResultsPreserved": true,
+    "additionalCashParametersUnknown": true,
+    "counterRecordCountsPreserved": true,
+    "266OriginalQueryRowsUnchanged": true,
+    "supplementalQueryRowsAndTimesUnchanged": true,
+    "allTasksTwoOppositeQueries": true,
+    "countryAndUnfrozenStates": true,
+    "statusCountsDerived": true,
+    "onlyG01ChangedAggregateVersusOriginalReview": true,
+    "alternativeAndAuditMirrors": true,
+    "noWholeTaskCommercialOrAcceptanceUpgrade": true,
+    "successReferencesOnlyDirectPartialMechanisms": true,
+    "splitProposalsUncounted": true,
+    "scopeExpansionUncounted": true,
+    "sharedEventsUnconfirmed": true,
+    "allCurrentSourceReferencesResolve": true,
+    "61Sources118Locators6Definitions": true,
+    "fiveEmbeddedLabelConventionsAlreadyCorrectUnchanged": true,
+    "publicationAndUpdateDatesSeparated": true,
+    "manualDiagnosisRemovedFromAlternatives": true,
+    "noDifferentSystemRequirementsInherited": true,
+    "laboratoryDeviceNotTrialResult": true,
+    "historicalNewSourceAndFailedFreshReadVisible": true,
+    "opportunityCountryAndEconomicUnknown": true,
+    "rejectedLeadsTraceable": true,
+    "thresholdIdentityIncludingNegativeAlgebraicCase": true,
+    "modelOriginalParametersPreserved": true,
+    "interimAndTerminalExitCostsBothRepresented": true,
+    "transitionBreakdownAmountsUnknownAndNotAdditionalTotals": true,
+    "forwardReplayRecoversRevisedBytes": true,
+    "reverseReplayRecoversOriginalBytes": true
+  },
+  "syntheticAlgebraChecks": [
+    {
+      "case": "synthetic-algebra-1",
+      "npvAtAlgebraicThresholdIsZero": true,
+      "isObservedTaskData": false
+    },
+    {
+      "case": "synthetic-algebra-2",
+      "npvAtAlgebraicThresholdIsZero": true,
+      "isObservedTaskData": false
+    },
+    {
+      "case": "synthetic-algebra-3",
+      "npvAtAlgebraicThresholdIsZero": true,
+      "isObservedTaskData": false
+    }
+  ],
+  "errors": [],
+  "independentFinalAcceptance": false,
+  "publicImportReady": false,
+  "remaining": [
+    "修订后的事实、结论和新增证据关联待独立复检。",
+    "行业遗漏、作业边界和一手访谈仍待完成。",
+    "没有可计算的实际回报参数。"
+  ]
+}

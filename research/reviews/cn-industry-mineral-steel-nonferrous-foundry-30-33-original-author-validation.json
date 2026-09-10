@@ -1,0 +1,607 @@
+{
+  "batchId": "cn-industry-mineral-steel-nonferrous-foundry-30-33",
+  "validatedAt": "2026-09-09",
+  "status": "machine-checks-passed-author-review-still-pending",
+  "inventorySha256": "5388db09742709d606032d030ced3985f802a6e221441b59cd1302064ee8983e",
+  "outputSha256": "f753ed3090657493530afe30d6360e4c7e36fcc8cec2a6a321983416f55c179e",
+  "auditSha256": "79ae47fbb2f7bff6a2884e3460a2081ba78f395489c4c68558c08b03e20a4922",
+  "checks": {
+    "taskCount": 133,
+    "uniqueTaskCount": 133,
+    "originalTaskDeepEquality": true,
+    "idAndPhaseInputOutputAcceptancePreserved": true,
+    "mainQueryCount": 266,
+    "mainRequestResponseMetadataEqual": true,
+    "mainBatchCount": 67,
+    "everyTaskPositiveNegativeExecuted": true,
+    "supplementalQueryCount": 12,
+    "sourceCount": 60,
+    "sourceLocatorCount": 113,
+    "definitionSourceCount": 6,
+    "definitionSelectedPhysicalPageCount": 31,
+    "definitionVisualPageCount": 4,
+    "allCashParametersNull": true,
+    "allUnfrozen": true,
+    "noCrossCountryTaskIds": true,
+    "noLocalPathsOrRawExcerpts": true,
+    "noCredentialURLParameters": true,
+    "proposedSplitParents": 7,
+    "newCountedTasks": 0,
+    "literalShortAnchorsVerifiedWithinDeclaredRanges": 113,
+    "allSourceReferencesResolve": true,
+    "sourceReferenceOccurrencesChecked": 1405,
+    "sourceCacheHashesMatch": true
+  },
+  "limitations": [
+    "机器检查不代替来源含义与定位人工复审。",
+    "没有参数故未计算回收期；没有独立验收故未认定完整持续投产。",
+    "规范使用版本仅说明本批读取范围，正式现行职业文本和完整企业SOP待补。"
+  ],
+  "sourceLocatorChecks": [
+    {
+      "sourceId": "CN-METAL-FANGDA",
+      "locatorId": "stage",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-FANGDA",
+      "locatorId": "sampling",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-ANSTEEL",
+      "locatorId": "lab",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-ANSTEEL",
+      "locatorId": "retest",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-JIUCHANG",
+      "locatorId": "shred",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-JIUCHANG",
+      "locatorId": "operator",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-TSZJJX",
+      "locatorId": "cut",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CUT-FAULT",
+      "locatorId": "cut",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CUT-FAULT",
+      "locatorId": "failure",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CUT-FAULT",
+      "locatorId": "repair",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CSM-IRON",
+      "locatorId": "transport",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CSM-IRON",
+      "locatorId": "constraint",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CSM-IRON",
+      "locatorId": "stage",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CERI",
+      "locatorId": "blow",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CERI",
+      "locatorId": "alloy",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CERI",
+      "locatorId": "tap",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CERI",
+      "locatorId": "lining",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CERI",
+      "locatorId": "exceptions",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-BAOSIGHT",
+      "locatorId": "control",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-HBIS-CHARGE",
+      "locatorId": "charge",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-BAORUI",
+      "locatorId": "sample",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-XIYE-LF",
+      "locatorId": "heat",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-XIYE-LF",
+      "locatorId": "argon",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-XIYE-LF",
+      "locatorId": "wire",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-XIYE-LF",
+      "locatorId": "alloy",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-XIYE-VD",
+      "locatorId": "vacuum",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-XIYE-VD",
+      "locatorId": "human",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CSYEJIN",
+      "locatorId": "argon",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-HINNER",
+      "locatorId": "pour",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-HINNER",
+      "locatorId": "stage",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-BAODING-MOLD",
+      "locatorId": "mold",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-BAODING-MOLD",
+      "locatorId": "assembly",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-BAODING-MOLD",
+      "locatorId": "pour",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-BAODING-SAND",
+      "locatorId": "return",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-BAODING-SAND",
+      "locatorId": "mix",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-SANXIN-CORE",
+      "locatorId": "planning",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-IMPRO",
+      "locatorId": "scope",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-SINOTEC",
+      "locatorId": "scope",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-PENGFEI-LINE",
+      "locatorId": "raw",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-PENGFEI-LINE",
+      "locatorId": "kiln",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-PENGFEI-LINE",
+      "locatorId": "gypsum",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-PENGFEI-LINE",
+      "locatorId": "grind",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-LEJUN",
+      "locatorId": "classify",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-ROCKWELL-AL",
+      "locatorId": "calcine",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-ROCKWELL-AL",
+      "locatorId": "limits",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-JIUGANG-AL",
+      "locatorId": "transfer",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-JIUGANG-AL",
+      "locatorId": "tap",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-JIUGANG-AL",
+      "locatorId": "exception",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CHALCO-SINTER",
+      "locatorId": "sinter",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CHALCO-CELL",
+      "locatorId": "control",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CHALCO-LAB",
+      "locatorId": "analysis",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-BOYI-LIFT",
+      "locatorId": "lift",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-BOYI-LIFT",
+      "locatorId": "manual",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-AST-INGOT",
+      "locatorId": "cast",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-AST-INGOT",
+      "locatorId": "pack",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-AST-INGOT",
+      "locatorId": "manual",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-HOLLYSYS-GLASS",
+      "locatorId": "scope",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-HOLLYSYS-GLASS",
+      "locatorId": "stage",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CGE-GLASS",
+      "locatorId": "batch",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CGE-GLASS",
+      "locatorId": "feed",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CHUDA",
+      "locatorId": "adjacent",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-RENSHI",
+      "locatorId": "fill",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-RENSHI",
+      "locatorId": "limits",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-WITIUM",
+      "locatorId": "diagnose",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-BOLE-LOAD",
+      "locatorId": "load",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-HUASHUN",
+      "locatorId": "bale",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-HUASHUN",
+      "locatorId": "manual",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-PEOPLE-TAP",
+      "locatorId": "blow",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-PEOPLE-TAP",
+      "locatorId": "sample",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-PEOPLE-TAP",
+      "locatorId": "tap",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-PEOPLE-TAP",
+      "locatorId": "slag",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-PEOPLE-TAP",
+      "locatorId": "human",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-ISRA-FLOAT",
+      "locatorId": "inspect",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-ISRA-FLOAT",
+      "locatorId": "human",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-POLYTEC",
+      "locatorId": "measure",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-ZEISS-CAST",
+      "locatorId": "dimensions",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-ZEISS-CAST",
+      "locatorId": "internal",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-ZEISS-CAST",
+      "locatorId": "mould",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-LIUJING",
+      "locatorId": "reclaim",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-NOLTEC",
+      "locatorId": "convey",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-NOLTEC",
+      "locatorId": "mix",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-NOLTEC",
+      "locatorId": "manual",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-PENGFEI-GRIND",
+      "locatorId": "grind",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-PENGFEI-GRIND",
+      "locatorId": "stage",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-VEGA-COOL",
+      "locatorId": "sense",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-WANCHENG-CEMS",
+      "locatorId": "sense",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-WANCHENG-CEMS",
+      "locatorId": "fouling",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-NMS",
+      "locatorId": "crush",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-NMS",
+      "locatorId": "scope",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-MEM-DEEPCAST",
+      "locatorId": "adjacent-failure",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-XANWAY",
+      "locatorId": "dispatch",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-ZIPPE-BATCH",
+      "locatorId": "weigh-mix",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-ZIPPE-BATCH",
+      "locatorId": "manual",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-ZIPPE-AUTO",
+      "locatorId": "integration",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-ZIPPE-FEED",
+      "locatorId": "feed",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-ZIPPE-FEED",
+      "locatorId": "cool",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-AL-CRUST",
+      "locatorId": "crust",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-AL-CRUST",
+      "locatorId": "feed",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-AL-CRUST",
+      "locatorId": "adjacent-anode",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-GREN-LEHR",
+      "locatorId": "anneal",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-GREN-LEHR",
+      "locatorId": "replace",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-GREN-LEHR",
+      "locatorId": "future",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-GREN-PATTERN",
+      "locatorId": "roll",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-GREN-PATTERN",
+      "locatorId": "scope",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-GREN-CUT",
+      "locatorId": "cut",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-GREN-CUT",
+      "locatorId": "reject",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CHALCO-EVAP",
+      "locatorId": "evap",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-RAMON-OXYGEN",
+      "locatorId": "guide",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-RAMON-ARGON",
+      "locatorId": "argon",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-RAMON-SURFACE",
+      "locatorId": "inspect",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CHALCO-CONTROL",
+      "locatorId": "scope",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CHALCO-CONTROL",
+      "locatorId": "lab",
+      "shortAnchorInDeclaredRange": true
+    },
+    {
+      "sourceId": "CN-METAL-CHALCO-ACS",
+      "locatorId": "control",
+      "shortAnchorInDeclaredRange": true
+    }
+  ]
+}
