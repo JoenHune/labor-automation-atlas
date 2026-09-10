@@ -1,0 +1,96 @@
+{
+  "sourceCommit": "1abf31c279df499276e0335dc4cbea770a6a0a85",
+  "researchVersion": "2026-09-10.preview-13",
+  "checkedAtUTC": "2026-09-10T06:53:31.974223+00:00",
+  "runs": [
+    {
+      "id": 34446534623,
+      "name": "Publish atlas to GitHub Pages",
+      "head_sha": "1abf31c279df499276e0335dc4cbea770a6a0a85",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/JoenHune/labor-automation-atlas/actions/runs/34446534623",
+      "updated_at": "2026-09-10T06:50:43Z"
+    },
+    {
+      "id": 34446512425,
+      "name": "Check research and application",
+      "head_sha": "1abf31c279df499276e0335dc4cbea770a6a0a85",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/JoenHune/labor-automation-atlas/actions/runs/34446512425",
+      "updated_at": "2026-09-10T06:49:39Z"
+    }
+  ],
+  "pages": [
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 181736
+    },
+    {
+      "path": "cn/",
+      "status": 200,
+      "bytes": 272666
+    },
+    {
+      "path": "us/",
+      "status": 200,
+      "bytes": 261023
+    },
+    {
+      "path": "methodology/annotation-qa",
+      "status": 404,
+      "bytes": 171079
+    }
+  ],
+  "asset": {
+    "path": "assets/chunks/theme.BxBBFIT2.js",
+    "status": 200,
+    "bytes": 7051535,
+    "sha256": "f2dddc75dabfd7648e700202258761a783735a38a1c918000f8805a8812495a7",
+    "checks": {
+      "keyboardShortcutMetadata": true,
+      "macPhysicalAKey": true,
+      "compositionGuard": true,
+      "nestedSemanticTargets": true,
+      "differentFromPreviousTheme": true
+    }
+  },
+  "localReview": "research/reviews/annotation-keyboard-review.json",
+  "researchDataChanged": false,
+  "realGitHubCommentPosted": false,
+  "postDeploymentBrowser": {
+    "checkedAtUTC": "2026-09-10T06:54:45Z",
+    "page": "https://joen.site/labor-automation-atlas/cn/?year=2025&focus=cn-gdp&sort=value&filter.currency=usd-million&filter.fx=6.71",
+    "viewport": {
+      "width": 951,
+      "height": 908
+    },
+    "shortcutInputObserved": true,
+    "resolvedHighlight": {
+      "width": 84,
+      "height": 15
+    },
+    "snapshot": {
+      "width": 274,
+      "height": 20,
+      "visuallyInspected": true,
+      "onlySelectedWebsiteContent": true
+    },
+    "reload": {
+      "bodyRetained": true,
+      "snapshotRetained": true,
+      "sourceDisclosureRestored": true,
+      "highlightStaysOnSummaryText": true,
+      "alerts": []
+    },
+    "realGitHubCommentPosted": false,
+    "originalLocalPageRestored": true
+  },
+  "limitations": [
+    "Desktop keyboard selection and draft restoration were tested; no new mobile keyboard acceptance is claimed.",
+    "The research export was not downloaded again for this code-only change. CI checks canonical data remains unchanged.",
+    "Real GitHub identity, permissions, R2 and bidirectional synchronization remain incomplete. The full research goal remains active and unfrozen."
+  ]
+}
