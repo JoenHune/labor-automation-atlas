@@ -1,0 +1,23 @@
+{
+  "checkedAtUTC": "2026-09-10T02:52:07Z",
+  "researchVersion": "2026-09-10.preview-13",
+  "scope": "Local browser acceptance of disclosure restoration and visibility refresh; not full service acceptance",
+  "localTests": {"files": 30, "passed": 506, "durationSeconds": 102.02, "typecheck": "passed"},
+  "browserChecks": {
+    "desktop": {"viewport": {"width": 1280, "height": 900}, "disclosuresPassed": 39, "existingDomPassed": 48},
+    "mobile": {"viewport": {"width": 390, "height": 844}, "disclosuresPassed": 39, "existingDomPassed": 48, "qualification": "39 checks passed before two equivalent DOM insertion calls in the harness were changed for TypeScript compatibility. The final repeat timed out and is not counted as a pass."},
+    "oldDraft": {"page": "/cn/tasks/cn-trans-bulk-berth-006", "bodyPreserved": true, "disclosureRestored": true, "manualCollapseShowsHiddenStatus": true, "handlesWhileHidden": 0, "explicitExpandRestoresPosition": true},
+    "newMobileDraft": {"page": "/cn/tasks/cn-trans-bulk-berth-006", "selectionAdjustedFrom": {"width": 280, "height": 160}, "snapshot": {"width": 309, "height": 199}, "snapshotVisuallyInspected": true, "reloadRestoresBody": true, "reloadRestoresSnapshot": true, "reloadOpensCashFlowDisclosure": true, "bottomSheet": {"width": 390, "height": 430.234375, "bottom": 844}, "pageScrollWidth": 390, "pageClientWidth": 390}
+  },
+  "officialReleaseDirectoryCheck": [
+    {"source": "https://www.bea.gov/data/gdp/gdp-industry", "locator": "Current release / Next release; statistics release note", "finding": "Industry data remains Q1 2026 released June 25; next release September 30. Industry data accompanies the third GDP estimate."},
+    {"source": "https://www.stats.gov.cn/sj/zxfb/", "locator": "Data release list: September 9 prices and August 17 July industrial value-added", "finding": "The reviewed directory shows no newer industry value-added release than the July progress already included. Prices and profits are not substituted for value-added."}
+  ],
+  "limitations": [
+    "Directory checks do not establish that every historical observation was re-fetched or revised today; research checkedAt is unchanged.",
+    "Second in-app browser disconnection prevented confirmation of viewport reset and final navigation. No alternative browser was used.",
+    "Chart disclosure checks use a semantic bar-chart fixture, not every asynchronous ECharts layout.",
+    "Full keyboard path, all legacy opaque block anchors and full exception matrix remain open.",
+    "GitHub App and R2 configuration and real-author two-way interaction acceptance remain incomplete. No real GitHub comment was submitted in these checks."
+  ]
+}

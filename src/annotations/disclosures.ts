@@ -21,14 +21,17 @@ export function closedDisclosures(node:Node):HTMLDetailsElement[] {
 }
 export function renderedElement(el:Element):boolean {
  const style=getComputedStyle(el),box=el.getBoundingClientRect()
- return !closedDisclosures(el).length&&style.visibility!=='hidden'&&style.visibility!=='collapse'&&style.display!=='none'&&box.width>0&&box.height>0
+ return !closedDisclosures(el).length&&style.visibility!=='hidden'&&style.visibility!=='collapse'&&!hiddenByAncestorStyle(el)&&box.width>0&&box.height>0
+}
+function hiddenByAncestorStyle(element:Element):boolean {
+ for(let el:Element|null=element;el;el=el.parentElement){const s=getComputedStyle(el);if(s.display==='none'||s.contentVisibility==='hidden')return true}
+ return false
 }
 export function hiddenTextNode(node:Text):boolean {
  const parent=node.parentElement
  if(!parent||closedDisclosures(node).length)return true
  if(['hidden','collapse'].includes(getComputedStyle(parent).visibility))return true
- for(let el:Element|null=parent;el;el=el.parentElement){const s=getComputedStyle(el);if(s.display==='none'||s.contentVisibility==='hidden')return true}
- return false
+ return hiddenByAncestorStyle(parent)
 }
 function semanticPart(el:Element) {
  const clone=el.cloneNode(true) as Element

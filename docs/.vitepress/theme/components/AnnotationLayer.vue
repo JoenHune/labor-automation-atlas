@@ -6,6 +6,7 @@ import type {Annotation,Rect,Anchor,ThreadComment} from '../../../../src/annotat
 import {clusterMarkers,intersect} from '../../../../src/annotations/anchors'
 import {contentRoot,currentView,pageScope,ensureContentIds,liveBlocks,createAnchor,resolveAnchor,restoreAnchorDisclosures,snapshotRegion,rectOf} from '../../../../src/annotations/dom'
 import {readDisclosureBlocks} from '../../../../src/annotations/disclosures'
+import {observeContentChanges} from '../../../../src/annotations/content-observer'
 import {api,post,apiOrigin,ApiError,storedSession,beginLogin,finishLogin,shareUrl,saveDraft,draftsForPage,deleteDraft,type Draft,type SiteSession} from '../../../../src/annotations/client'
 import {safeMarkdown} from '../../../../src/annotations/markdown'
 const {site}=useData(),route=useRoute(),router=useRouter()
@@ -310,8 +311,7 @@ onMounted(async()=>{
  await loadPage()
  if(returning&&savedDrafts.value[0])await restoreDraft(savedDrafts.value[0])
  if(loginError)error.value=loginError
- observer=new MutationObserver(()=>{ensureContentIds().then(schedulePositions)})
- observer.observe(contentRoot(),{childList:true,subtree:true,characterData:true})
+ observer=observeContentChanges(contentRoot(),needsIds=>{if(needsIds)ensureContentIds().then(schedulePositions);else schedulePositions()})
  resizeObserver=new ResizeObserver(schedulePositions);resizeObserver.observe(contentRoot())
  poll=window.setInterval(()=>{if(!document.hidden&&!busy.value)reload()},60000)
 })
