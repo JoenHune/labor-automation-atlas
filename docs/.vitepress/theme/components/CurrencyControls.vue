@@ -24,6 +24,7 @@ onBeforeUnmount(()=>window.removeEventListener('popstate',restore))
  </div>
 </template>
 <style scoped>
+:global(.VPNav:has(.currency-panel)){z-index:89}
 .currency-panel{white-space:normal;overflow-wrap:anywhere}
 .currency-settings{position:relative;margin-left:14px;font-size:12px;line-height:1.5;color:#334155}.currency-toggle{cursor:pointer;border:1px solid #cbd5e1;border-radius:6px;padding:5px 9px;background:white;white-space:nowrap}.currency-panel{position:absolute;right:0;top:calc(100% + 12px);width:292px;max-width:calc(100vw - 28px);padding:18px;border:1px solid #d5deeb;border-radius:10px;background:white;box-shadow:0 12px 36px #15273b22;z-index:80}.currency-panel label{display:grid;gap:6px;margin-bottom:12px;font-weight:600}.currency-panel input,.currency-panel select{border:1px solid #cbd5e1;border-radius:6px;padding:8px;background:white;width:100%;color:#17243a}.actions{display:flex;gap:14px;flex-wrap:wrap}.actions button{color:#245cb5;cursor:pointer;text-decoration:underline}.currency-panel p{margin:12px 0 0;color:#64748b;font-size:12px;font-weight:400}.currency-panel [role=alert]{color:#b42318}@media(max-width:540px){.currency-settings{margin-left:6px}.currency-toggle{font-size:11px;padding:5px 6px}.currency-panel{position:fixed;right:12px;top:64px}}
 </style>
