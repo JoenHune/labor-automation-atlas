@@ -15,7 +15,7 @@ function download(blob:Blob,name:string) {
 export function downloadChartData(record:ReturnType<typeof chartRecord>,name:string) {
  download(new Blob([JSON.stringify(record,null,2)],{type:'application/json'}),name+'.json')
 }
-export function downloadChartSvg(instance:ECharts,title:string,subtitle:string,name:string) {
+export function downloadChartSvg(instance:ECharts,title:string,subtitle:string,name:string,legend:{label:string;detail:string;color:string}[]=[]) {
  const data=instance.getSvgDataURL(),comma=data.indexOf(',')
  const xml=data.slice(0,comma).includes(';base64')?atob(data.slice(comma+1)):decodeURIComponent(data.slice(comma+1))
  const chart=new DOMParser().parseFromString(xml,'image/svg+xml').documentElement
@@ -27,8 +27,20 @@ export function downloadChartSvg(instance:ECharts,title:string,subtitle:string,n
   if(line){lines.push({text:line,size,y});y+=size+7}
  }
  const headingHeight=y+8
- svg.setAttribute('width',String(width));svg.setAttribute('height',String(height+headingHeight));svg.setAttribute('viewBox',`0 0 ${width} ${height+headingHeight}`)
- const background=document.createElementNS(ns,'rect');background.setAttribute('width','100%');background.setAttribute('height','100%');background.setAttribute('fill','white');svg.appendChild(background)
+ const legendLines:{text:string;x:number;y:number;size:number}[]=[];let legendY=height+headingHeight+24
+ for(const item of legend){
+  const dot=document.createElementNS(ns,'circle');dot.setAttribute('cx','14');dot.setAttribute('cy',String(legendY-4));dot.setAttribute('r','4');dot.setAttribute('fill',item.color);svg.appendChild(dot)
+  for(const [text,size] of [[item.label,12],[item.detail,10]] as const){
+   let line='',used=0
+   for(const char of text){const weight=/[\u0000-\u007f]/.test(char)?.65:1;if(used+weight>(width-42)/size&&line){legendLines.push({text:line,x:28,y:legendY,size});legendY+=size+5;line='';used=0}line+=char;used+=weight}
+   if(line){legendLines.push({text:line,x:28,y:legendY,size});legendY+=size+6}
+  }
+  legendY+=10
+ }
+ const fullHeight=legend.length?legendY:height+headingHeight
+ svg.setAttribute('width',String(width));svg.setAttribute('height',String(fullHeight));svg.setAttribute('viewBox',`0 0 ${width} ${fullHeight}`)
+ const background=document.createElementNS(ns,'rect');background.setAttribute('width','100%');background.setAttribute('height','100%');background.setAttribute('fill','white');svg.insertBefore(background,svg.firstChild)
+ for(const {text,x,y,size} of legendLines){const line=document.createElementNS(ns,'text');line.textContent=text;line.setAttribute('x',String(x));line.setAttribute('y',String(y));line.setAttribute('font-size',String(size));line.setAttribute('font-family','system-ui,sans-serif');line.setAttribute('fill','#344b63');svg.appendChild(line)}
  for(const {text,y,size} of lines) {
   const line=document.createElementNS(ns,'text');line.textContent=text;line.setAttribute('x','8');line.setAttribute('y',String(y));line.setAttribute('font-size',String(size));line.setAttribute('font-family','system-ui,sans-serif');line.setAttribute('fill','#263548');svg.appendChild(line)
  }

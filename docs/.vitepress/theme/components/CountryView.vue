@@ -13,7 +13,7 @@ import EvidenceList from './EvidenceList.vue'
 import ObservationDetails from './ObservationDetails.vue'
 import CountryTaskSearch from './CountryTaskSearch.vue'
 import {useCurrency} from '../../../../src/preferences/currency'
-import IndustryScaleChart from './IndustryScaleChart.vue'
+import IndustryScaleChart from './IndustryOrbitChart.vue'
 echarts.use([LineChart,GridComponent,TooltipComponent,SVGRenderer])
 const props=defineProps<{country:Country}>()
 const research=researchJson as Research
@@ -96,10 +96,12 @@ onBeforeUnmount(()=>{trend?.dispose();resize?.disconnect();window.removeEventLis
 </script>
 <template>
  <div class="atlas-country" :data-country="country">
-  <div class="page-top"><div><p class="eyebrow">{{country==='cn'?'CHINA':'UNITED STATES'}} · 数据核查 {{profile.checkedAt}}</p><h1>{{profile.name}} · 行业全景</h1></div>
+  <div class="page-top"><div><h1>{{profile.name}}经济图谱<span class="atlas-title-period">.</span></h1><p class="country-deck">从经济全景，逐层看见行业的组成。</p></div>
    <label class="year-control">查看年份 <select v-model="year" aria-label="查看年份"><option v-for="y in [2025,2024,2023,2022,2021]" :value="y">{{y}}{{y===2025?' · 最新全年':''}}</option></select></label>
   </div>
   <p v-if="year!==2025" class="historical-note" :data-content-id="country+'-historical-notice'" tabindex="0">正在查看 {{year}} 年历史数据。最新完整年度为 2025 年，最新行业进展为 {{profile.latestPeriod}}。</p>
+  <IndustryScaleChart ref="scaleView" :research="research" :country="country" :year="year"/>
+  <p class="scope-note">{{country==='cn'?'CHINA':'UNITED STATES'}} · 数据核查 {{profile.checkedAt}}</p>
   <p class="scope-note" :data-content-id="country+'-scope'" tabindex="0">{{profile.scope}} {{country==='cn'?'仅在最新官方发布的十个具名大类内排名；其他行业保留未拆分汇总。':'20 组非重叠行业构成排名范围；政府整体与私人行业分别列示。'}}</p>
   <p class="scope-note" :data-content-id="country+'-currency-display'" tabindex="0">{{currencyNote}}</p>
   <div class="stats-row">
@@ -107,7 +109,6 @@ onBeforeUnmount(()=>{trend?.dispose();resize?.disconnect();window.removeEventLis
    <section :data-content-id="country+'-coverage-'+year" tabindex="0"><span>具名 Top 10 占 GDP</span><strong>{{coverage?.toFixed(2)}}<em>%</em></strong><span>计算：入榜行业现价之和 ÷ GDP</span><small>覆盖规模用于研究筛选，不能视为可自动化市场。</small><details class="observation-details"><summary>计算与来源</summary><p>{{year}}年，{{unit}}，现价。分子 {{rank.top10.map(r=>amount(r.observation)).join(' + ')}}；分母 {{amount(gdp)}}；结果乘100并四舍五入到两位小数。</p><EvidenceList :items="[...new Map([...rank.top10.flatMap(r=>r.observation?.evidence??[]),...(gdp?.evidence??[])].map(r=>[r.sourceId+'|'+r.locator,r])).values()]"/></details></section>
    <section :data-content-id="country+'-latest-'+profile.latestPeriod" tabindex="0"><span>最新进展 · {{profile.latestPeriod}}</span><strong>{{amount(latest)}}</strong><span>{{unit}}{{latest?.annualized?' · 季调年率':' · 当期现价'}}</span><small>发布 {{profile.latestRelease}} · 实际增长 {{latestGrowth?.value??'—'}}%{{country==='us'?'（环比折年）':'（同比）'}}</small><ObservationDetails v-if="latest" :observation="latest"/><ObservationDetails v-if="latestGrowth" :observation="latestGrowth"/></section>
   </div>
-  <IndustryScaleChart ref="scaleView" :research="research" :country="country" :year="year" @year="year=$event"/>
   <section :data-content-id="country+'-ranking-table'" tabindex="0">
    <div class="section-header"><h2>行业榜单</h2><label>排序 <select v-model="sort" aria-label="表格排序"><option value="value">增加值</option><option value="name">名称</option></select></label></div>
    <div class="table-scroll"><table class="atlas-table"><thead><tr><th>排名</th><th>行业</th><th class="numeric">{{year}} 年 · {{unit}}</th><th>证据与趋势</th></tr></thead><tbody>
@@ -135,5 +136,7 @@ onBeforeUnmount(()=>{trend?.dispose();resize?.disconnect();window.removeEventLis
  </div>
 </template>
 <style scoped>
-.chart-actions{display:flex;flex-wrap:wrap;gap:14px;margin:8px 0 18px;font-size:12px;color:#245cb5}.chart-actions button{cursor:pointer;text-decoration:underline;text-underline-offset:3px}.chart-section{scroll-margin-top:112px}
+
+.country-switch{display:flex;gap:25px;margin:0 0 20px;border-bottom:0;font-size:12px}.country-switch a{text-decoration:none;color:#9ba6b1;padding-bottom:7px}.country-switch a[aria-current]{color:#274d78;border-bottom:1px solid #274d78}.country-switch span{font-size:9px;margin-left:7px;letter-spacing:.06em}.page-top h1{font-size:42px;font-weight:450;letter-spacing:-.05em}.atlas-title-period{color:#4678ac;margin-left:3px}.country-deck{font-size:12px;color:#667b8f;letter-spacing:.02em;margin:12px 0 0!important}.page-top .eyebrow{font-size:9px;letter-spacing:.14em;color:#9ba6b1;margin-bottom:10px!important}.year-control{font-size:10px;color:#93a1af}.year-control select{border:0;border-bottom:1px solid #d8e1e9;border-radius:0;padding:7px 24px 7px 0;color:#425e7b;background:transparent;font-size:13px}.atlas-country>.scope-note{font-size:11px}.stats-row{margin-top:24px}.chart-actions{display:flex;flex-wrap:wrap;gap:14px;margin:8px 0 18px;font-size:12px;color:#245cb5}.chart-actions button{cursor:pointer;text-decoration:underline;text-underline-offset:3px}.chart-section{scroll-margin-top:112px}
+@media(max-width:700px){.country-switch{margin-bottom:22px}.page-top h1{font-size:32px}.country-deck{font-size:11px}.page-top{align-items:center;gap:10px}.year-control select{font-size:11px;padding-right:5px}.country-switch span{font-size:8px}}
 </style>
