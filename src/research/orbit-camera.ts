@@ -8,7 +8,7 @@ export function orbitRadii(count:number,depth:number){
  const inner=count===1?48:count===2?32:24,step=(80-inner)/count
  return {inner:inner+depth*step,outer:inner+(depth+1)*step-1}
 }
-/** Terminal siblings form a slim arc; its thickness is shared, so their area ratios remain exact. */
+/** Terminal siblings stay substantial beside their parent, with equal radii for faithful comparisons. */
 export function orbitBandRadii(bands:OrbitSector[][],depth:number){
  const base=orbitRadii(bands.length,depth),band=bands[depth]
  if(depth===0||depth!==bands.length-1||!band?.length||band.some(s=>canDrill(s.node)))return base
@@ -17,7 +17,7 @@ export function orbitBandRadii(bands:OrbitSector[][],depth:number){
  const parent=bands[depth-1].find(s=>s.node.id===parentId)
  if(!parent)return base
  const arcLength=base.inner*parent.share*2*Math.PI
- const thickness=Math.min(base.outer-base.inner,Math.max(.4,arcLength*.23))
+ const thickness=Math.min(base.outer-base.inner,Math.max((base.outer-base.inner)*.72,arcLength*.23))
  const previous=orbitRadii(bands.length,depth-1)
  const inner=previous.outer+Math.min(base.inner-previous.outer,thickness*.12)
  return {inner,outer:inner+thickness}
@@ -44,9 +44,17 @@ export function orbitCamera(bands:OrbitSector[][],id:string,width:number,height:
  }
  const childBand=bands[sector.depth+1]?.some(s=>s.node.parentId===sector!.node.id)
  const radius=orbitBandRadii(bands,sector.depth+(childBand?1:0)),unit=Math.min(width,height)/200
- // Include a little of the parent rim so the next level still reads as an extension.
- const inner=(radius.inner-(childBand?(radius.outer-radius.inner)*.16:0))*unit
+ const terminal=childBand&&bands[sector.depth+1].every(s=>!canDrill(s.node))
+ const parentRadius=orbitBandRadii(bands,sector.depth)
+ // Frame part of the parent and its children together, rather than fitting a thin outer strip.
+ const inset=terminal?(parentRadius.outer-parentRadius.inner)*.65:childBand?(radius.outer-radius.inner)*.16:0
+ const inner=(radius.inner-inset)*unit
  const bounds=wedgeBounds(sector.start,sector.share,inner,radius.outer*unit),padding=width<500?32:44
- const zoom=Math.min(orbitMaxZoom,Math.max(1,Math.min((width-2*padding)/Math.max(1,bounds.width),(height-2*padding)/Math.max(1,bounds.height))))
- return {zoom,x:-bounds.cx*zoom/width,y:-bounds.cy*zoom/height}
+ // Very small terminal angles must not drive an extreme zoom that erases the circular context.
+ const previous=terminal&&sector.depth>0?orbitCamera(bands.slice(0,sector.depth+1),sector.node.parentId!,width,height):null
+ const ceiling=previous?previous.zoom*2.2:orbitMaxZoom
+ const zoom=Math.min(orbitMaxZoom,ceiling,Math.max(1,Math.min((width-2*padding)/Math.max(1,bounds.width),(height-2*padding)/Math.max(1,bounds.height))))
+ // Shift the pair slightly outward, leaving room toward the circle center for its ancestor.
+ const angle=(sector.start+sector.share/2)*2*Math.PI,offset=terminal?Math.min(width,height)*.08:0
+ return {zoom,x:(-bounds.cx*zoom+Math.sin(angle)*offset)/width,y:(-bounds.cy*zoom-Math.cos(angle)*offset)/height}
 }

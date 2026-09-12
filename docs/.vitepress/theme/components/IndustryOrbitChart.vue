@@ -53,7 +53,15 @@ const nodeColor=(n:ScaleNode)=>{const sector=visibleSectors.value.find(s=>s.node
 function setZoom(value:number){cameraMode.value='manual';const before=viewZoom.value;viewZoom.value=Math.min(orbitMaxZoom,Math.max(1,value));panX.value*=viewZoom.value/before;panY.value*=viewZoom.value/before;if(viewZoom.value===1){panX.value=0;panY.value=0}sync();void nextTick(anchors)}
 function reframe(){if(!chart||cameraMode.value!=='focus')return;const camera=orbitCamera(bands.value,active.value.id,chart.getWidth(),chart.getHeight());viewZoom.value=camera.zoom;panX.value=camera.x;panY.value=camera.y;void nextTick(anchors)}
 function focusCamera(){cameraMode.value='focus';reframe();sync()}
-const opacityFor=(s:OrbitSector)=>{if(active.value.id===root.value.id)return 1;if(s.node.parentId===focus.value.id&&terminalLayer.value)return !detail.value||s.node.id===detail.value.id?1:.58;if(s.node.id===active.value.id)return terminalLayer.value ? .18 : 1;if(s.node.parentId===active.value.id)return 1;return activePath.value.has(s.node.id) ? .18 : .08}
+const opacityFor=(s:OrbitSector)=>{
+ if(active.value.id===root.value.id)return 1
+ if(terminalLayer.value){
+  if(s.node.id===focus.value.id)return .9
+  if(s.node.parentId===focus.value.id)return !detail.value||s.node.id===detail.value.id?1:.58
+ }
+ if(s.node.id===active.value.id||s.node.parentId===active.value.id)return 1
+ return activePath.value.has(s.node.id) ? (terminalLayer.value?.3:.18) : .08
+}
 function panKey(e:KeyboardEvent){if(e.target!==viewport.value||viewZoom.value<=1)return;const delta:Record<string,[number,number]>={ArrowLeft:[-.1,0],ArrowRight:[.1,0],ArrowUp:[0,-.1],ArrowDown:[0,.1]},d=delta[e.key];if(!d)return;e.preventDefault();cameraMode.value='manual';const limit=(viewZoom.value-1)/2;panX.value=Math.max(-limit,Math.min(limit,panX.value+d[0]));panY.value=Math.max(-limit,Math.min(limit,panY.value+d[1]));sync();void nextTick(anchors)}
 function startPan(e:PointerEvent){if(document.querySelector('.annotation-draw-plane')||viewZoom.value<=1||e.button!==0||(e.target as HTMLElement).closest('button'))return;drag={x:e.clientX,y:e.clientY,panX:panX.value,panY:panY.value,id:e.pointerId}}
 function movePan(e:PointerEvent){if(!drag||!viewport.value)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;if(Math.hypot(dx,dy)<5)return;panning.value=true;cameraMode.value='manual';viewport.value.setPointerCapture(e.pointerId);const box=viewport.value.getBoundingClientRect(),limit=(viewZoom.value-1)/2;panX.value=Math.max(-limit,Math.min(limit,drag.panX+dx/box.width));panY.value=Math.max(-limit,Math.min(limit,drag.panY+dy/box.height));ignoreClickUntil=Date.now()+250;clearHover();anchors()}
