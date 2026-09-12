@@ -15,11 +15,17 @@ function download(blob:Blob,name:string) {
 export function downloadChartData(record:ReturnType<typeof chartRecord>,name:string) {
  download(new Blob([JSON.stringify(record,null,2)],{type:'application/json'}),name+'.json')
 }
-export function downloadChartSvg(instance:ECharts,title:string,subtitle:string,name:string,legend:{label:string;detail:string;color:string}[]=[]) {
+export function downloadChartSvg(instance:ECharts,title:string,subtitle:string,name:string,legend:{label:string;detail:string;color:string}[]=[],camera?:{zoom:number;x:number;y:number}) {
  const data=instance.getSvgDataURL(),comma=data.indexOf(',')
  const xml=data.slice(0,comma).includes(';base64')?atob(data.slice(comma+1)):decodeURIComponent(data.slice(comma+1))
  const chart=new DOMParser().parseFromString(xml,'image/svg+xml').documentElement
  const ns='http://www.w3.org/2000/svg',svg=document.createElementNS(ns,'svg'),width=instance.getWidth(),height=instance.getHeight()
+ if(camera){
+  const group=document.createElementNS(ns,'g')
+  group.setAttribute('transform',`translate(${width/2+camera.x} ${height/2+camera.y}) scale(${camera.zoom}) translate(${-width/2} ${-height/2})`)
+  while(chart.firstChild)group.appendChild(chart.firstChild)
+  chart.appendChild(group);chart.setAttribute('overflow','hidden')
+ }
  const lines:{text:string;size:number;y:number}[]=[];let y=24
  for(const [text,size] of [[title,17],[subtitle,11]] as const) {
   let line='',used=0
