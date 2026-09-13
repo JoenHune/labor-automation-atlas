@@ -33,4 +33,13 @@
 
 ## 公开发布
 
-本地检查完成。公开部署及上线复核结果待追加；此记录不声称 GitHub 真实身份批注或 Cloudflare 服务已验收。
+公开部署成功，发布代码提交为 `28bcb3a7b2756c2e363df76d7fca54aa666bb4ed`。
+
+- [Pages 发布 34771487198](https://github.com/JoenHune/labor-automation-atlas/actions/runs/34771487198)：success。
+- [应用与研究检查 34771486801](https://github.com/JoenHune/labor-automation-atlas/actions/runs/34771486801)：success。
+- [公网年度数据下载](https://joen.site/labor-automation-atlas/exports/annual-details.json)：HTTP 200，版本 2026-09-14.preview-15，与本地成品逐字节一致，含 22 个国家/年度/父行业分支。
+- 公网浏览器确认 2024 建筑 8 项，父值 1305402 百万美元；细表质量提示与核查日期已更新。
+- 公网 2025 年“政府 → 联邦政府 → 联邦一般政府 → 国防”分享地址恢复成功，国防 569724 百万美元、占本层 55.36%。
+- 中国页 2025 年制造业 346747 亿元及未取得同年细分金额说明已核验。
+
+此版本是宏观公开资料研究更新，不能称为中国与美国所有细分金额均已补齐，也不声称 GitHub 真实身份批注或 Cloudflare 服务已验收。
