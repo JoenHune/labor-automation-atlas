@@ -2,6 +2,7 @@ import type {Country, Observation, Research} from './schema'
 import {annualRanking} from './ranking'
 import {moneyInBaseUnits, convertMoney, type CurrencySettings} from './currency'
 import {productivityView, type ProductivityDataset, type ProductivityRow} from './productivity'
+import {applyAnnualDetails} from './annual-details'
 
 export interface ScaleNode {
  id:string; name:string; country:Country; parentId:string|null; year:number
@@ -10,10 +11,11 @@ export interface ScaleNode {
  evidence:{sourceId:string;locator:string;excerpt?:string}[]
  children:ScaleNode[]; gap:string; kind:'industry'|'remainder'
  original?:Observation|ProductivityRow
+ qualityNote?:string
 }
 export interface ScaleRow {node:ScaleNode;depth:number;expanded:boolean}
 export function scaleSources(research:Research,country:Country):Research['sources']{
- return [...new Map([...research.sources,...(research.subindustryProductivity?.sources??[]),...(research.macroStructures?.sources??[])].filter(s=>s.country===country||s.country==='global').map(s=>[s.id,s])).values()]
+ return [...new Map([...research.sources,...(research.subindustryProductivity?.sources??[]),...(research.macroStructures?.sources??[]),...(research.annualDetails?.sources??[])].filter(s=>s.country===country||s.country==='global').map(s=>[s.id,s])).values()]
 }
 const childAliases:Record<string,string>={'cn-prod-b':'cn-mining','cn-prod-c':'cn-manufacturing','cn-prod-d':'cn-utilities'}
 const childKey=(row:ProductivityRow)=>(childAliases[row.id.replace(/-\d{4}$/,'')]??row.id.replace(/-\d{4}$/,''))
@@ -60,7 +62,7 @@ export function industryScale(research:Research,country:Country,year:number):Sca
    }))
   }
  }
- return roots
+ return applyAnnualDetails(roots,research,country,year)
 }
 
 export function scaleIndex(roots:ScaleNode[]):Map<string,ScaleNode>{

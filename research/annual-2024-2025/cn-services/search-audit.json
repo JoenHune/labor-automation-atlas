@@ -1,0 +1,229 @@
+{
+  "checkedAt": "2026-09-14",
+  "method": "本次实际查询的相关摘要，非完整逐工具调用日志；搜索无匹配不证明数据永久未公开。来源下载后核读相关段落或视读原表判定。",
+  "queries": [
+    {
+      "id": "cn-services-q01",
+      "parentIndustryId": "cn-agriculture",
+      "query": "site.stats.gov.cn 2025 \"农林牧渔业增加值\" \"农业\"",
+      "assessment": "主GDP合组可核；农业相关产业专题不能等同于A门类细分"
+    },
+    {
+      "id": "cn-services-q02",
+      "parentIndustryId": "cn-agriculture",
+      "query": "2024 全国 农业 林业 牧业 渔业 增加值 亿元",
+      "assessment": "找到农业及相关产业、渔业公报，后者指标为总产值"
+    },
+    {
+      "id": "cn-services-q03",
+      "parentIndustryId": "cn-agriculture",
+      "query": "2025 全国 农业 林业 牧业 渔业 增加值 亿元",
+      "assessment": "2025农业成就报告与渔业公报细分是总产值"
+    },
+    {
+      "id": "cn-services-q04",
+      "parentIndustryId": "cn-wholesale-retail",
+      "query": "site.stats.gov.cn 2024 \"批发业\" \"增加值\"",
+      "assessment": "全国结果主要为批零合组；地区值不使用"
+    },
+    {
+      "id": "cn-services-q05",
+      "parentIndustryId": "cn-wholesale-retail",
+      "query": "site.stats.gov.cn \"2024\" \"批发业增加值\"",
+      "assessment": "未取得全国2024批发业单项VA"
+    },
+    {
+      "id": "cn-services-q06",
+      "parentIndustryId": "cn-wholesale-retail",
+      "query": "site.stats.gov.cn \"2025\" \"批发业增加值\"",
+      "assessment": "未取得全国2025批发业单项VA"
+    },
+    {
+      "id": "cn-services-q07",
+      "parentIndustryId": "cn-wholesale-retail",
+      "query": "site.mofcom.gov.cn \"2024\" \"批发业\" \"增加值\"",
+      "assessment": "核读商务部2024解读，VA合组且为初值"
+    },
+    {
+      "id": "cn-services-q08",
+      "parentIndustryId": "cn-wholesale-retail",
+      "query": "site.mofcom.gov.cn \"2025\" \"零售业\" \"增加值\"",
+      "assessment": "核读商务部2025解读；分业是交易额/零售额"
+    },
+    {
+      "id": "cn-services-q09",
+      "parentIndustryId": "cn-transport",
+      "query": "\"2024\" \"邮政业\" \"增加值\" \"全国\"",
+      "assessment": "结果主为交通仓储邮政合组VA"
+    },
+    {
+      "id": "cn-services-q10",
+      "parentIndustryId": "cn-transport",
+      "query": "\"2025\" \"邮政业\" \"增加值\" \"全国\"",
+      "assessment": "结果主为交通仓储邮政合组VA"
+    },
+    {
+      "id": "cn-services-q11",
+      "parentIndustryId": "cn-transport",
+      "query": "\"2024\" \"铁路运输业\" \"增加值\" \"全国\"",
+      "assessment": "未取得全国分项VA，运输量排除"
+    },
+    {
+      "id": "cn-services-q12",
+      "parentIndustryId": "cn-transport",
+      "query": "\"2025\" \"铁路运输业\" \"增加值\" \"全国\"",
+      "assessment": "未取得全国分项VA，运输量排除"
+    },
+    {
+      "id": "cn-services-q13",
+      "parentIndustryId": "cn-transport",
+      "query": "site.spb.gov.cn \"2024年邮政行业发展统计公报\"",
+      "assessment": "已读全国公报：业务收入不是增加值"
+    },
+    {
+      "id": "cn-services-q14",
+      "parentIndustryId": "cn-transport",
+      "query": "site.spb.gov.cn \"2025年邮政行业发展统计公报\"",
+      "assessment": "已读全国公报：业务收入不是增加值"
+    },
+    {
+      "id": "cn-services-q15",
+      "parentIndustryId": "cn-transport",
+      "query": "site.mot.gov.cn \"2025年交通运输行业发展统计公报\"",
+      "assessment": "已读公报，设备运输量和投资不能替代VA"
+    },
+    {
+      "id": "cn-services-q16",
+      "parentIndustryId": "cn-information",
+      "query": "site.miit.gov.cn \"2024年通信业统计公报\"",
+      "assessment": "已读，电信业务收入和不变价业务总量"
+    },
+    {
+      "id": "cn-services-q17",
+      "parentIndustryId": "cn-information",
+      "query": "site.miit.gov.cn \"2025年通信业统计公报\"",
+      "assessment": "已读，电信业务收入和不变价业务总量"
+    },
+    {
+      "id": "cn-services-q18",
+      "parentIndustryId": "cn-information",
+      "query": "site.miit.gov.cn \"2024年软件业运行情况\"",
+      "assessment": "找到并读2024年软件业运行良好，收入和利润"
+    },
+    {
+      "id": "cn-services-q19",
+      "parentIndustryId": "cn-information",
+      "query": "site.miit.gov.cn \"2025年软件业运行情况\"",
+      "assessment": "已读，收入和利润非VA"
+    },
+    {
+      "id": "cn-services-q20",
+      "parentIndustryId": "cn-information",
+      "query": "site.miit.gov.cn \"2024年互联网和相关服务业运行情况\"",
+      "assessment": "找到并读2024年运行平稳，规上业务收入"
+    },
+    {
+      "id": "cn-services-q21",
+      "parentIndustryId": "cn-information",
+      "query": "site.miit.gov.cn \"2025年互联网和相关服务业运行情况\"",
+      "assessment": "已读，规上业务收入非全行业VA"
+    },
+    {
+      "id": "cn-services-q22",
+      "parentIndustryId": "cn-accommodation-food",
+      "query": "site.stats.gov.cn \"2024\" \"旅游住宿\" \"增加值\"",
+      "assessment": "取得2024旅游住宿3869、旅游餐饮9223，但游客活动范围不同"
+    },
+    {
+      "id": "cn-services-q23",
+      "parentIndustryId": "cn-accommodation-food",
+      "query": "site.stats.gov.cn \"2025\" \"住宿业\" \"增加值\" \"全国\"",
+      "assessment": "主GDP仍为住宿餐饮合组"
+    },
+    {
+      "id": "cn-services-q24",
+      "parentIndustryId": "cn-accommodation-food",
+      "query": "site.stats.gov.cn \"2024\" \"住宿业\" \"餐饮业\" \"增加值\" \"分行业\"",
+      "assessment": "年鉴17-2/17-4限上营业额/财务表，已视读"
+    },
+    {
+      "id": "cn-services-q25",
+      "parentIndustryId": "cn-construction",
+      "query": "site.gov.cn \"2024\" \"房屋建筑业\" \"增加值\" \"全国\"",
+      "assessment": "未取到分项VA；年鉴14-8已读为总产值"
+    },
+    {
+      "id": "cn-services-q26",
+      "parentIndustryId": "cn-construction",
+      "query": "site.gov.cn \"2025\" \"房屋建筑业\" \"增加值\" \"全国\"",
+      "assessment": "未取到分项VA；企业指标不能配全社会父项"
+    },
+    {
+      "id": "cn-services-q27",
+      "parentIndustryId": "cn-finance",
+      "query": "site.stats.gov.cn 2024 \"金融业\" \"货币金融服务\" \"增加值\"",
+      "assessment": "找到旧方法答复确认四大类，未取得2024分项金额"
+    },
+    {
+      "id": "cn-services-q28",
+      "parentIndustryId": "cn-finance",
+      "query": "\"2024\" \"货币金融服务\" \"增加值\" \"全国\"",
+      "assessment": "未取得全国2024分项金额"
+    },
+    {
+      "id": "cn-services-q29",
+      "parentIndustryId": "cn-finance",
+      "query": "\"2025\" \"保险业增加值\" \"全国\"",
+      "assessment": "未取得全国2025分项金额；保费不能代替"
+    },
+    {
+      "id": "cn-services-q30",
+      "parentIndustryId": "cn-real-estate",
+      "query": "site.stats.gov.cn \"2024\" \"房地产业\" \"自有住房\" \"增加值\"",
+      "assessment": "确认现有企业指标不是完整GDP房地产业，旧方法不用于推算"
+    },
+    {
+      "id": "cn-services-q31",
+      "parentIndustryId": "cn-real-estate",
+      "query": "site.stats.gov.cn \"2025\" \"房地产业\" \"物业管理\" \"增加值\"",
+      "assessment": "全年公报仍为门类合计，物业投资等非VA"
+    },
+    {
+      "id": "cn-services-q32",
+      "parentIndustryId": "cn-business-services",
+      "query": "site.stats.gov.cn \"2024\" \"商务服务业\" \"增加值\" \"亿元\"",
+      "assessment": "现代服务业解读合并租赁商务VA，商务服务细项为营业收入"
+    },
+    {
+      "id": "cn-services-q33",
+      "parentIndustryId": "cn-business-services",
+      "query": "site.stats.gov.cn \"2025\" \"租赁业\" \"增加值\" \"亿元\"",
+      "assessment": "未取得全国2025租赁单项金额"
+    },
+    {
+      "id": "cn-services-q34",
+      "parentIndustryId": "cn-agriculture",
+      "query": "site.forestry.gov.cn \"2024年\" \"林业\" \"增加值\" \"全国\"",
+      "assessment": "主管部门结果为林草产业总产值且跨一二三产业，不能替代A02VA"
+    },
+    {
+      "id": "cn-services-q35",
+      "parentIndustryId": "cn-agriculture",
+      "query": "site.forestry.gov.cn \"2025年\" \"林业\" \"增加值\" \"全国\"",
+      "assessment": "未取得A02全国VA，跨产业林草/木材加工数据排除"
+    }
+  ],
+  "sourceReadCount": 31,
+  "databaseWork": "主代理实读国家数据新入口年度库，本分支已交叉读取 ../nbs-annual-industry-dom.json；表内未列这些服务细分；原页面读取和归档由主代理负责。",
+  "imageReads": [
+    "yearbook2025-12-03",
+    "yearbook2025-14-08",
+    "yearbook2025-15-02",
+    "yearbook2025-15-04",
+    "yearbook2025-17-02",
+    "yearbook2025-17-04",
+    "yearbook2025-18-19",
+    "yearbook2025-19-13"
+  ],
+  "numericExtractionCheck": "build_candidates.py成功逐年校验20个直接值和2个A05计算值；没有新增细分金额。"
+}

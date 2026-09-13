@@ -1,0 +1,6088 @@
+{
+  "researchVersion": "2026-09-10.preview-14",
+  "scope": "图谱中已识别的行业分类及2024/2025金额接入状态；分类清单不构成完整官方统计层级证明，未接入数值不等于官方未公开。",
+  "summary": [
+    {
+      "country": "cn",
+      "year": 2024,
+      "rootCount": 10,
+      "identifiedChildren": 76,
+      "childrenWithValue": 3,
+      "childrenWithoutValue": 73
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "rootCount": 10,
+      "identifiedChildren": 76,
+      "childrenWithValue": 3,
+      "childrenWithoutValue": 73
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "rootCount": 11,
+      "identifiedChildren": 50,
+      "childrenWithValue": 44,
+      "childrenWithoutValue": 6
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "rootCount": 11,
+      "identifiedChildren": 50,
+      "childrenWithValue": 44,
+      "childrenWithoutValue": 6
+    }
+  ],
+  "rows": [
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-industry",
+      "parentId": null,
+      "name": "工业",
+      "depth": 0,
+      "value": 404519,
+      "unit": "亿元",
+      "revision": "最终核实",
+      "releaseDate": "2025-12-26",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "locator": "table: 附件1：2024年GDP最终核实数 · row: 工业 · column: 现价总量（亿元）",
+          "excerpt": "404519"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-manufacturing",
+      "parentId": "cn-industry",
+      "name": "制造业",
+      "depth": 1,
+      "value": 334881,
+      "unit": "亿元",
+      "revision": "最终核实",
+      "releaseDate": "2025-12-26",
+      "coverage": "全国（不含港澳台）制造业全部常住生产单位；现价行业增加值",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-gdp2024",
+          "locator": "附件1；“制造业”行，“现价总量（亿元）”列"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-13",
+      "parentId": "cn-manufacturing",
+      "name": "农副食品加工业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 13：农副食品加工业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-14",
+      "parentId": "cn-manufacturing",
+      "name": "食品制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 14：食品制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-15",
+      "parentId": "cn-manufacturing",
+      "name": "酒、饮料和精制茶制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 15：酒、饮料和精制茶制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-16",
+      "parentId": "cn-manufacturing",
+      "name": "烟草制品业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 16：烟草制品业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-17",
+      "parentId": "cn-manufacturing",
+      "name": "纺织业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 17：纺织业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-18",
+      "parentId": "cn-manufacturing",
+      "name": "纺织服装、服饰业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 18：纺织服装、服饰业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-19",
+      "parentId": "cn-manufacturing",
+      "name": "皮革、毛皮、羽毛及其制品和制鞋业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 19：皮革、毛皮、羽毛及其制品和制鞋业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-20",
+      "parentId": "cn-manufacturing",
+      "name": "木材加工和木、竹、藤、棕、草制品业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 20：木材加工和木、竹、藤、棕、草制品业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-21",
+      "parentId": "cn-manufacturing",
+      "name": "家具制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 21：家具制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-22",
+      "parentId": "cn-manufacturing",
+      "name": "造纸和纸制品业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 22：造纸和纸制品业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-23",
+      "parentId": "cn-manufacturing",
+      "name": "印刷和记录媒介复制业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 23：印刷和记录媒介复制业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-24",
+      "parentId": "cn-manufacturing",
+      "name": "文教、工美、体育和娱乐用品制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 24：文教、工美、体育和娱乐用品制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-25",
+      "parentId": "cn-manufacturing",
+      "name": "石油、煤炭及其他燃料加工业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 25：石油、煤炭及其他燃料加工业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-26",
+      "parentId": "cn-manufacturing",
+      "name": "化学原料和化学制品制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 26：化学原料和化学制品制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-27",
+      "parentId": "cn-manufacturing",
+      "name": "医药制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 27：医药制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-28",
+      "parentId": "cn-manufacturing",
+      "name": "化学纤维制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 28：化学纤维制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-29",
+      "parentId": "cn-manufacturing",
+      "name": "橡胶和塑料制品业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 29：橡胶和塑料制品业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-30",
+      "parentId": "cn-manufacturing",
+      "name": "非金属矿物制品业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 30：非金属矿物制品业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-31",
+      "parentId": "cn-manufacturing",
+      "name": "黑色金属冶炼和压延加工业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 31：黑色金属冶炼和压延加工业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-32",
+      "parentId": "cn-manufacturing",
+      "name": "有色金属冶炼和压延加工业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 32：有色金属冶炼和压延加工业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-33",
+      "parentId": "cn-manufacturing",
+      "name": "金属制品业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 33：金属制品业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-34",
+      "parentId": "cn-manufacturing",
+      "name": "通用设备制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 34：通用设备制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-35",
+      "parentId": "cn-manufacturing",
+      "name": "专用设备制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 35：专用设备制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-36",
+      "parentId": "cn-manufacturing",
+      "name": "汽车制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 36：汽车制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-37",
+      "parentId": "cn-manufacturing",
+      "name": "铁路、船舶、航空航天和其他运输设备制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 37：铁路、船舶、航空航天和其他运输设备制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-38",
+      "parentId": "cn-manufacturing",
+      "name": "电气机械和器材制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 38：电气机械和器材制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-39",
+      "parentId": "cn-manufacturing",
+      "name": "计算机、通信和其他电子设备制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 39：计算机、通信和其他电子设备制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-40",
+      "parentId": "cn-manufacturing",
+      "name": "仪器仪表制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 40：仪器仪表制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-41",
+      "parentId": "cn-manufacturing",
+      "name": "其他制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 41：其他制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-42",
+      "parentId": "cn-manufacturing",
+      "name": "废弃资源综合利用业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 42：废弃资源综合利用业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-43",
+      "parentId": "cn-manufacturing",
+      "name": "金属制品、机械和设备修理业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 43：金属制品、机械和设备修理业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-mining",
+      "parentId": "cn-industry",
+      "name": "采矿业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "缺值，未推估",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）采矿业全部常住生产单位；现价行业增加值目标口径",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-yearbook2025-catalog",
+          "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+        },
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+        }
+      ],
+      "gap": "尚无可比较的 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-06",
+      "parentId": "cn-mining",
+      "name": "煤炭开采和洗选业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "采矿业对应大类 06：煤炭开采和洗选业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-07",
+      "parentId": "cn-mining",
+      "name": "石油和天然气开采业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "采矿业对应大类 07：石油和天然气开采业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-08",
+      "parentId": "cn-mining",
+      "name": "黑色金属矿采选业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "采矿业对应大类 08：黑色金属矿采选业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-09",
+      "parentId": "cn-mining",
+      "name": "有色金属矿采选业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "采矿业对应大类 09：有色金属矿采选业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-10",
+      "parentId": "cn-mining",
+      "name": "非金属矿采选业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "采矿业对应大类 10：非金属矿采选业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-11",
+      "parentId": "cn-mining",
+      "name": "开采专业及辅助性活动",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "采矿业对应大类 11：开采专业及辅助性活动（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-12",
+      "parentId": "cn-mining",
+      "name": "其他采矿业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "采矿业对应大类 12：其他采矿业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-utilities",
+      "parentId": "cn-industry",
+      "name": "电力、热力、燃气及水生产和供应业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "缺值，未推估",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）电力、热力、燃气及水生产和供应业全部常住生产单位；现价行业增加值目标口径",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-yearbook2025-catalog",
+          "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+        },
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+        }
+      ],
+      "gap": "尚无可比较的 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-44",
+      "parentId": "cn-utilities",
+      "name": "电力、热力生产和供应业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "电力、热力、燃气及水生产和供应业对应大类 44：电力、热力生产和供应业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-45",
+      "parentId": "cn-utilities",
+      "name": "燃气生产和供应业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "电力、热力、燃气及水生产和供应业对应大类 45：燃气生产和供应业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-gbt2017-46",
+      "parentId": "cn-utilities",
+      "name": "水的生产和供应业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "电力、热力、燃气及水生产和供应业对应大类 46：水的生产和供应业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-wholesale-retail",
+      "parentId": null,
+      "name": "批发和零售业",
+      "depth": 0,
+      "value": 139192,
+      "unit": "亿元",
+      "revision": "最终核实",
+      "releaseDate": "2025-12-26",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "locator": "table: 附件1：2024年GDP最终核实数 · row: 批发和零售业 · column: 现价总量（亿元）",
+          "excerpt": "139192"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-51",
+      "parentId": "cn-wholesale-retail",
+      "name": "批发业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-52",
+      "parentId": "cn-wholesale-retail",
+      "name": "零售业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-agriculture",
+      "parentId": null,
+      "name": "农林牧渔业",
+      "depth": 0,
+      "value": 96976,
+      "unit": "亿元",
+      "revision": "最终核实",
+      "releaseDate": "2025-12-26",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "locator": "table: 附件1：2024年GDP最终核实数 · row: 农林牧渔业 · column: 现价总量（亿元）",
+          "excerpt": "96976"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-a01-a04",
+      "parentId": "cn-agriculture",
+      "name": "农业、林业、畜牧业和渔业（A01—A04合组）",
+      "depth": 1,
+      "value": 91636,
+      "unit": "亿元",
+      "revision": "最终核实",
+      "releaseDate": "2025-12-26",
+      "coverage": "全国（不含港澳台）第一产业，即A01—A04合组；现价增加值",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-gdp2024",
+          "locator": "附件1现价总量“第一产业”行，91636亿元"
+        },
+        {
+          "sourceId": "cn-prod-gdp2024",
+          "locator": "附件2 §2.1分类：第一产业为A01—A04，不含A05"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-a05",
+      "parentId": "cn-agriculture",
+      "name": "农林牧渔专业及辅助性活动",
+      "depth": 1,
+      "value": 5340,
+      "unit": "亿元",
+      "revision": "最终核实",
+      "releaseDate": "2025-12-26",
+      "coverage": "全国（不含港澳台）A05农林牧渔专业及辅助性活动；A全门类减第一产业的現价增加值差额",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-gdp2024",
+          "locator": "附件1现价总量农林牧渔业96976亿元、第一产业91636亿元"
+        },
+        {
+          "sourceId": "cn-prod-gdp2024",
+          "locator": "附件2 §2.1 分类：A全门类由A01—A04第一产业和A05组成"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-finance",
+      "parentId": null,
+      "name": "金融业",
+      "depth": 0,
+      "value": 96956,
+      "unit": "亿元",
+      "revision": "最终核实",
+      "releaseDate": "2025-12-26",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "locator": "table: 附件1：2024年GDP最终核实数 · row: 金融业 · column: 现价总量（亿元）",
+          "excerpt": "96956"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-66",
+      "parentId": "cn-finance",
+      "name": "货币金融服务",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-67",
+      "parentId": "cn-finance",
+      "name": "资本市场服务",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-68",
+      "parentId": "cn-finance",
+      "name": "保险业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-69",
+      "parentId": "cn-finance",
+      "name": "其他金融业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-construction",
+      "parentId": null,
+      "name": "建筑业",
+      "depth": 0,
+      "value": 88863,
+      "unit": "亿元",
+      "revision": "最终核实",
+      "releaseDate": "2025-12-26",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "locator": "table: 附件1：2024年GDP最终核实数 · row: 建筑业 · column: 现价总量（亿元）",
+          "excerpt": "88863"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-47",
+      "parentId": "cn-construction",
+      "name": "房屋建筑业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-48",
+      "parentId": "cn-construction",
+      "name": "土木工程建筑业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-49",
+      "parentId": "cn-construction",
+      "name": "建筑安装业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-50",
+      "parentId": "cn-construction",
+      "name": "建筑装饰、装修和其他建筑业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-real-estate",
+      "parentId": null,
+      "name": "房地产业",
+      "depth": 0,
+      "value": 84047,
+      "unit": "亿元",
+      "revision": "最终核实",
+      "releaseDate": "2025-12-26",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "locator": "table: 附件1：2024年GDP最终核实数 · row: 房地产业 · column: 现价总量（亿元）",
+          "excerpt": "84047"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-701",
+      "parentId": "cn-real-estate",
+      "name": "房地产开发经营",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-702",
+      "parentId": "cn-real-estate",
+      "name": "物业管理",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-703",
+      "parentId": "cn-real-estate",
+      "name": "房地产中介服务",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-704",
+      "parentId": "cn-real-estate",
+      "name": "房地产租赁经营",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-709",
+      "parentId": "cn-real-estate",
+      "name": "其他房地产业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-information",
+      "parentId": null,
+      "name": "信息传输、软件和信息技术服务业",
+      "depth": 0,
+      "value": 63958,
+      "unit": "亿元",
+      "revision": "最终核实",
+      "releaseDate": "2025-12-26",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "locator": "table: 附件1：2024年GDP最终核实数 · row: 信息传输、软件和信息技术服务业 · column: 现价总量（亿元）",
+          "excerpt": "63958"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-63",
+      "parentId": "cn-information",
+      "name": "电信、广播电视和卫星传输服务",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-64",
+      "parentId": "cn-information",
+      "name": "互联网和相关服务",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-65",
+      "parentId": "cn-information",
+      "name": "软件和信息技术服务业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-transport",
+      "parentId": null,
+      "name": "交通运输、仓储和邮政业",
+      "depth": 0,
+      "value": 59045,
+      "unit": "亿元",
+      "revision": "最终核实",
+      "releaseDate": "2025-12-26",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "locator": "table: 附件1：2024年GDP最终核实数 · row: 交通运输、仓储和邮政业 · column: 现价总量（亿元）",
+          "excerpt": "59045"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-53",
+      "parentId": "cn-transport",
+      "name": "铁路运输业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-54",
+      "parentId": "cn-transport",
+      "name": "道路运输业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-55",
+      "parentId": "cn-transport",
+      "name": "水上运输业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-56",
+      "parentId": "cn-transport",
+      "name": "航空运输业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-57",
+      "parentId": "cn-transport",
+      "name": "管道运输业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-58",
+      "parentId": "cn-transport",
+      "name": "多式联运和运输代理业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-59",
+      "parentId": "cn-transport",
+      "name": "装卸搬运和仓储业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-60",
+      "parentId": "cn-transport",
+      "name": "邮政业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-business-services",
+      "parentId": null,
+      "name": "租赁和商务服务业",
+      "depth": 0,
+      "value": 56941,
+      "unit": "亿元",
+      "revision": "最终核实",
+      "releaseDate": "2025-12-26",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "locator": "table: 附件1：2024年GDP最终核实数 · row: 租赁和商务服务业 · column: 现价总量（亿元）",
+          "excerpt": "56941"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-71",
+      "parentId": "cn-business-services",
+      "name": "租赁业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-72",
+      "parentId": "cn-business-services",
+      "name": "商务服务业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-accommodation-food",
+      "parentId": null,
+      "name": "住宿和餐饮业",
+      "depth": 0,
+      "value": 24894,
+      "unit": "亿元",
+      "revision": "最终核实",
+      "releaseDate": "2025-12-26",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2024-final",
+          "locator": "table: 附件1：2024年GDP最终核实数 · row: 住宿和餐饮业 · column: 现价总量（亿元）",
+          "excerpt": "24894"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-61",
+      "parentId": "cn-accommodation-food",
+      "name": "住宿业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2024,
+      "id": "cn-prod-62",
+      "parentId": "cn-accommodation-food",
+      "name": "餐饮业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2024 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-industry",
+      "parentId": null,
+      "name": "工业",
+      "depth": 0,
+      "value": 416826,
+      "unit": "亿元",
+      "revision": "初步核算",
+      "releaseDate": "2026-01-20",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "locator": "table: 表1：2025年四季度和全年GDP初步核算数据 · row: 工业 · column: 全年绝对额（亿元）",
+          "excerpt": "416826"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-manufacturing",
+      "parentId": "cn-industry",
+      "name": "制造业",
+      "depth": 1,
+      "value": 346747,
+      "unit": "亿元",
+      "revision": "初步核算",
+      "releaseDate": "2026-01-20",
+      "coverage": "全国（不含港澳台）制造业全部常住生产单位；现价行业增加值",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "GDP表；“制造业”行，全年“绝对额（亿元）”列"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-13",
+      "parentId": "cn-manufacturing",
+      "name": "农副食品加工业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 13：农副食品加工业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-14",
+      "parentId": "cn-manufacturing",
+      "name": "食品制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 14：食品制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-15",
+      "parentId": "cn-manufacturing",
+      "name": "酒、饮料和精制茶制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 15：酒、饮料和精制茶制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-16",
+      "parentId": "cn-manufacturing",
+      "name": "烟草制品业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 16：烟草制品业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-17",
+      "parentId": "cn-manufacturing",
+      "name": "纺织业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 17：纺织业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-18",
+      "parentId": "cn-manufacturing",
+      "name": "纺织服装、服饰业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 18：纺织服装、服饰业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-19",
+      "parentId": "cn-manufacturing",
+      "name": "皮革、毛皮、羽毛及其制品和制鞋业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 19：皮革、毛皮、羽毛及其制品和制鞋业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-20",
+      "parentId": "cn-manufacturing",
+      "name": "木材加工和木、竹、藤、棕、草制品业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 20：木材加工和木、竹、藤、棕、草制品业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-21",
+      "parentId": "cn-manufacturing",
+      "name": "家具制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 21：家具制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-22",
+      "parentId": "cn-manufacturing",
+      "name": "造纸和纸制品业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 22：造纸和纸制品业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-23",
+      "parentId": "cn-manufacturing",
+      "name": "印刷和记录媒介复制业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 23：印刷和记录媒介复制业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-24",
+      "parentId": "cn-manufacturing",
+      "name": "文教、工美、体育和娱乐用品制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 24：文教、工美、体育和娱乐用品制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-25",
+      "parentId": "cn-manufacturing",
+      "name": "石油、煤炭及其他燃料加工业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 25：石油、煤炭及其他燃料加工业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-26",
+      "parentId": "cn-manufacturing",
+      "name": "化学原料和化学制品制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 26：化学原料和化学制品制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-27",
+      "parentId": "cn-manufacturing",
+      "name": "医药制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 27：医药制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-28",
+      "parentId": "cn-manufacturing",
+      "name": "化学纤维制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 28：化学纤维制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-29",
+      "parentId": "cn-manufacturing",
+      "name": "橡胶和塑料制品业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 29：橡胶和塑料制品业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-30",
+      "parentId": "cn-manufacturing",
+      "name": "非金属矿物制品业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 30：非金属矿物制品业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-31",
+      "parentId": "cn-manufacturing",
+      "name": "黑色金属冶炼和压延加工业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 31：黑色金属冶炼和压延加工业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-32",
+      "parentId": "cn-manufacturing",
+      "name": "有色金属冶炼和压延加工业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 32：有色金属冶炼和压延加工业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-33",
+      "parentId": "cn-manufacturing",
+      "name": "金属制品业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 33：金属制品业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-34",
+      "parentId": "cn-manufacturing",
+      "name": "通用设备制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 34：通用设备制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-35",
+      "parentId": "cn-manufacturing",
+      "name": "专用设备制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 35：专用设备制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-36",
+      "parentId": "cn-manufacturing",
+      "name": "汽车制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 36：汽车制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-37",
+      "parentId": "cn-manufacturing",
+      "name": "铁路、船舶、航空航天和其他运输设备制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 37：铁路、船舶、航空航天和其他运输设备制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-38",
+      "parentId": "cn-manufacturing",
+      "name": "电气机械和器材制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 38：电气机械和器材制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-39",
+      "parentId": "cn-manufacturing",
+      "name": "计算机、通信和其他电子设备制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 39：计算机、通信和其他电子设备制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-40",
+      "parentId": "cn-manufacturing",
+      "name": "仪器仪表制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 40：仪器仪表制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-41",
+      "parentId": "cn-manufacturing",
+      "name": "其他制造业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 41：其他制造业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-42",
+      "parentId": "cn-manufacturing",
+      "name": "废弃资源综合利用业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 42：废弃资源综合利用业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-43",
+      "parentId": "cn-manufacturing",
+      "name": "金属制品、机械和设备修理业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "制造业对应大类 43：金属制品、机械和设备修理业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-mining",
+      "parentId": "cn-industry",
+      "name": "采矿业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "缺值，未推估",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）采矿业全部常住生产单位；现价行业增加值目标口径",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-yearbook2025-catalog",
+          "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+        },
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+        }
+      ],
+      "gap": "尚无可比较的 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-06",
+      "parentId": "cn-mining",
+      "name": "煤炭开采和洗选业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "采矿业对应大类 06：煤炭开采和洗选业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-07",
+      "parentId": "cn-mining",
+      "name": "石油和天然气开采业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "采矿业对应大类 07：石油和天然气开采业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-08",
+      "parentId": "cn-mining",
+      "name": "黑色金属矿采选业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "采矿业对应大类 08：黑色金属矿采选业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-09",
+      "parentId": "cn-mining",
+      "name": "有色金属矿采选业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "采矿业对应大类 09：有色金属矿采选业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-10",
+      "parentId": "cn-mining",
+      "name": "非金属矿采选业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "采矿业对应大类 10：非金属矿采选业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-11",
+      "parentId": "cn-mining",
+      "name": "开采专业及辅助性活动",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "采矿业对应大类 11：开采专业及辅助性活动（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-12",
+      "parentId": "cn-mining",
+      "name": "其他采矿业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "采矿业对应大类 12：其他采矿业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-utilities",
+      "parentId": "cn-industry",
+      "name": "电力、热力、燃气及水生产和供应业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "缺值，未推估",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）电力、热力、燃气及水生产和供应业全部常住生产单位；现价行业增加值目标口径",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-yearbook2025-catalog",
+          "locator": "国民经济核算表3-6及所涉行业章目录；未列该细分类VA"
+        },
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "全年核算表只公布11主行业及制造业；未列该细类现价金额"
+        }
+      ],
+      "gap": "尚无可比较的 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-44",
+      "parentId": "cn-utilities",
+      "name": "电力、热力生产和供应业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "电力、热力、燃气及水生产和供应业对应大类 44：电力、热力生产和供应业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-45",
+      "parentId": "cn-utilities",
+      "name": "燃气生产和供应业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "电力、热力、燃气及水生产和供应业对应大类 45：燃气生产和供应业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-gbt2017-46",
+      "parentId": "cn-utilities",
+      "name": "水的生产和供应业",
+      "depth": 2,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "GB/T 4754—2017 分类名称；金额未取得",
+      "evidence": [
+        {
+          "sourceId": "inventory-cn-core-cn-gb4754-notes-2017",
+          "locator": "电力、热力、燃气及水生产和供应业对应大类 46：水的生产和供应业（仅分类名称）"
+        }
+      ],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-wholesale-retail",
+      "parentId": null,
+      "name": "批发和零售业",
+      "depth": 0,
+      "value": 145808,
+      "unit": "亿元",
+      "revision": "初步核算",
+      "releaseDate": "2026-01-20",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "locator": "table: 表1：2025年四季度和全年GDP初步核算数据 · row: 批发和零售业 · column: 全年绝对额（亿元）",
+          "excerpt": "145808"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-51",
+      "parentId": "cn-wholesale-retail",
+      "name": "批发业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-52",
+      "parentId": "cn-wholesale-retail",
+      "name": "零售业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-finance",
+      "parentId": null,
+      "name": "金融业",
+      "depth": 0,
+      "value": 101337,
+      "unit": "亿元",
+      "revision": "初步核算",
+      "releaseDate": "2026-01-20",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "locator": "table: 表1：2025年四季度和全年GDP初步核算数据 · row: 金融业 · column: 全年绝对额（亿元）",
+          "excerpt": "101337"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-66",
+      "parentId": "cn-finance",
+      "name": "货币金融服务",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-67",
+      "parentId": "cn-finance",
+      "name": "资本市场服务",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-68",
+      "parentId": "cn-finance",
+      "name": "保险业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-69",
+      "parentId": "cn-finance",
+      "name": "其他金融业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-agriculture",
+      "parentId": null,
+      "name": "农林牧渔业",
+      "depth": 0,
+      "value": 99107,
+      "unit": "亿元",
+      "revision": "初步核算",
+      "releaseDate": "2026-01-20",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "locator": "table: 表1：2025年四季度和全年GDP初步核算数据 · row: 农林牧渔业 · column: 全年绝对额（亿元）",
+          "excerpt": "99107"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-a01-a04",
+      "parentId": "cn-agriculture",
+      "name": "农业、林业、畜牧业和渔业（A01—A04合组）",
+      "depth": 1,
+      "value": 93347,
+      "unit": "亿元",
+      "revision": "初步核算",
+      "releaseDate": "2026-01-20",
+      "coverage": "全国（不含港澳台）第一产业，即A01—A04合组；现价增加值",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "GDP表全年“第一产业”行，93347亿元"
+        },
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "2.1分类：第一产业为A01—A04，不含A05"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-a05",
+      "parentId": "cn-agriculture",
+      "name": "农林牧渔专业及辅助性活动",
+      "depth": 1,
+      "value": 5760,
+      "unit": "亿元",
+      "revision": "初步核算",
+      "releaseDate": "2026-01-20",
+      "coverage": "全国（不含港澳台）A05农林牧渔专业及辅助性活动；A全门类减第一产业的現价增加值差额",
+      "evidence": [
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "GDP表全年农林牧渔业99107亿元、第一产业93347亿元"
+        },
+        {
+          "sourceId": "cn-prod-gdp2025",
+          "locator": "2.1 分类：A全门类由A01—A04第一产业和A05组成"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-construction",
+      "parentId": null,
+      "name": "建筑业",
+      "depth": 0,
+      "value": 86425,
+      "unit": "亿元",
+      "revision": "初步核算",
+      "releaseDate": "2026-01-20",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "locator": "table: 表1：2025年四季度和全年GDP初步核算数据 · row: 建筑业 · column: 全年绝对额（亿元）",
+          "excerpt": "86425"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-47",
+      "parentId": "cn-construction",
+      "name": "房屋建筑业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-48",
+      "parentId": "cn-construction",
+      "name": "土木工程建筑业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-49",
+      "parentId": "cn-construction",
+      "name": "建筑安装业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-50",
+      "parentId": "cn-construction",
+      "name": "建筑装饰、装修和其他建筑业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-real-estate",
+      "parentId": null,
+      "name": "房地产业",
+      "depth": 0,
+      "value": 83024,
+      "unit": "亿元",
+      "revision": "初步核算",
+      "releaseDate": "2026-01-20",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "locator": "table: 表1：2025年四季度和全年GDP初步核算数据 · row: 房地产业 · column: 全年绝对额（亿元）",
+          "excerpt": "83024"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-701",
+      "parentId": "cn-real-estate",
+      "name": "房地产开发经营",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-702",
+      "parentId": "cn-real-estate",
+      "name": "物业管理",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-703",
+      "parentId": "cn-real-estate",
+      "name": "房地产中介服务",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-704",
+      "parentId": "cn-real-estate",
+      "name": "房地产租赁经营",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-709",
+      "parentId": "cn-real-estate",
+      "name": "其他房地产业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-information",
+      "parentId": null,
+      "name": "信息传输、软件和信息技术服务业",
+      "depth": 0,
+      "value": 70599,
+      "unit": "亿元",
+      "revision": "初步核算",
+      "releaseDate": "2026-01-20",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "locator": "table: 表1：2025年四季度和全年GDP初步核算数据 · row: 信息传输、软件和信息技术服务业 · column: 全年绝对额（亿元）",
+          "excerpt": "70599"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-63",
+      "parentId": "cn-information",
+      "name": "电信、广播电视和卫星传输服务",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-64",
+      "parentId": "cn-information",
+      "name": "互联网和相关服务",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-65",
+      "parentId": "cn-information",
+      "name": "软件和信息技术服务业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-business-services",
+      "parentId": null,
+      "name": "租赁和商务服务业",
+      "depth": 0,
+      "value": 63666,
+      "unit": "亿元",
+      "revision": "初步核算",
+      "releaseDate": "2026-01-20",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "locator": "table: 表1：2025年四季度和全年GDP初步核算数据 · row: 租赁和商务服务业 · column: 全年绝对额（亿元）",
+          "excerpt": "63666"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-71",
+      "parentId": "cn-business-services",
+      "name": "租赁业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-72",
+      "parentId": "cn-business-services",
+      "name": "商务服务业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-transport",
+      "parentId": null,
+      "name": "交通运输、仓储和邮政业",
+      "depth": 0,
+      "value": 62092,
+      "unit": "亿元",
+      "revision": "初步核算",
+      "releaseDate": "2026-01-20",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "locator": "table: 表1：2025年四季度和全年GDP初步核算数据 · row: 交通运输、仓储和邮政业 · column: 全年绝对额（亿元）",
+          "excerpt": "62092"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-53",
+      "parentId": "cn-transport",
+      "name": "铁路运输业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-54",
+      "parentId": "cn-transport",
+      "name": "道路运输业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-55",
+      "parentId": "cn-transport",
+      "name": "水上运输业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-56",
+      "parentId": "cn-transport",
+      "name": "航空运输业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-57",
+      "parentId": "cn-transport",
+      "name": "管道运输业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-58",
+      "parentId": "cn-transport",
+      "name": "多式联运和运输代理业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-59",
+      "parentId": "cn-transport",
+      "name": "装卸搬运和仓储业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-60",
+      "parentId": "cn-transport",
+      "name": "邮政业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-accommodation-food",
+      "parentId": null,
+      "name": "住宿和餐饮业",
+      "depth": 0,
+      "value": 26403,
+      "unit": "亿元",
+      "revision": "初步核算",
+      "releaseDate": "2026-01-20",
+      "coverage": "中国国家统计局全国GDP核算范围；不包括香港、澳门特别行政区和台湾省地区生产总值",
+      "evidence": [
+        {
+          "sourceId": "cn-nbs-2025-preliminary",
+          "locator": "table: 表1：2025年四季度和全年GDP初步核算数据 · row: 住宿和餐饮业 · column: 全年绝对额（亿元）",
+          "excerpt": "26403"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-61",
+      "parentId": "cn-accommodation-food",
+      "name": "住宿业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "id": "cn-prod-62",
+      "parentId": "cn-accommodation-food",
+      "name": "餐饮业",
+      "depth": 1,
+      "value": null,
+      "unit": "亿元",
+      "revision": "未取得同年现价增加值",
+      "releaseDate": null,
+      "coverage": "全国（不含港澳台）；细分列表按同年同层级组织。可列值与可比计算分别审核。",
+      "evidence": [],
+      "gap": "尚无 2025 年现价增加值"
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-real-estate",
+      "parentId": null,
+      "name": "房地产及租赁业",
+      "depth": 0,
+      "value": 4052400,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 60 · cell: AE68 · periodHeaderCell: AE8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-real-estate-bea-61",
+      "parentId": "us-real-estate",
+      "name": "房地产（含住房服务）",
+      "depth": 1,
+      "value": 3684230,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 61 / AE69; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-housing-scope",
+          "locator": "FAQ answer: housing services, owner-occupied housing and real estate industry; also NIPA Chapter2 physical5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 401, 403; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-real-estate-bea-64",
+      "parentId": "us-real-estate",
+      "name": "租赁服务及无形资产出租",
+      "depth": 1,
+      "value": 368169,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 64 / AE72; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 404; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-government",
+      "parentId": null,
+      "name": "政府",
+      "depth": 0,
+      "value": 3296342,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 89 · cell: AE97 · periodHeaderCell: AE8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-government-bea-95",
+      "parentId": "us-government",
+      "name": "州和地方政府",
+      "depth": 1,
+      "value": 2231485,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA政府生产机构，含一般政府及政府企业；联邦含驻外军事基地与使领馆。政府学校、医院在此类。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 95 / AE103; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 495, 498; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-government-bea-90",
+      "parentId": "us-government",
+      "name": "联邦政府",
+      "depth": 1,
+      "value": 1064857,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA政府生产机构，含一般政府及政府企业；联邦含驻外军事基地与使领馆。政府学校、医院在此类。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 90 / AE98; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 490, 491, 492; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-manufacturing",
+      "parentId": null,
+      "name": "制造业",
+      "depth": 0,
+      "value": 2880724,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 12 · cell: AE20 · periodHeaderCell: AE8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-manufacturing-bea-32",
+      "parentId": "us-manufacturing",
+      "name": "化学品",
+      "depth": 1,
+      "value": 554021,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 32 / AE40; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 296; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-manufacturing-bea-26",
+      "parentId": "us-manufacturing",
+      "name": "食品、饮料与烟草制品",
+      "depth": 1,
+      "value": 360176,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 26 / AE34; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 241; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-manufacturing-bea-19",
+      "parentId": "us-manufacturing",
+      "name": "计算机与电子产品",
+      "depth": 1,
+      "value": 299783,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 19 / AE27; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 155; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-manufacturing-bea-18",
+      "parentId": "us-manufacturing",
+      "name": "机械",
+      "depth": 1,
+      "value": 208621,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 18 / AE26; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 120; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-manufacturing-bea-22",
+      "parentId": "us-manufacturing",
+      "name": "其他运输设备",
+      "depth": 1,
+      "value": 197330,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 22 / AE30; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 207; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-manufacturing-bea-31",
+      "parentId": "us-manufacturing",
+      "name": "石油与煤制品",
+      "depth": 1,
+      "value": 195712,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 31 / AE39; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 292; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-manufacturing-bea-17",
+      "parentId": "us-manufacturing",
+      "name": "金属制品",
+      "depth": 1,
+      "value": 190535,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 17 / AE25; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 94; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-manufacturing-bea-21",
+      "parentId": "us-manufacturing",
+      "name": "汽车、车身、挂车与零部件",
+      "depth": 1,
+      "value": 185854,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 21 / AE29; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 192; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-manufacturing-bea-24",
+      "parentId": "us-manufacturing",
+      "name": "其他制造业",
+      "depth": 1,
+      "value": 113897,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 24 / AE32; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 230; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-manufacturing-bea-33",
+      "parentId": "us-manufacturing",
+      "name": "塑料与橡胶制品",
+      "depth": 1,
+      "value": 101471,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 33 / AE41; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 317; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-manufacturing-bea-20",
+      "parentId": "us-manufacturing",
+      "name": "电气设备、家电与零部件",
+      "depth": 1,
+      "value": 80171,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 20 / AE28; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 178; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-manufacturing-bea-15",
+      "parentId": "us-manufacturing",
+      "name": "非金属矿物制品",
+      "depth": 1,
+      "value": 77516,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 15 / AE23; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 71; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-manufacturing-bea-16",
+      "parentId": "us-manufacturing",
+      "name": "初级金属",
+      "depth": 1,
+      "value": 76516,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 16 / AE24; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 83; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-manufacturing-bea-29",
+      "parentId": "us-manufacturing",
+      "name": "纸制品",
+      "depth": 1,
+      "value": 74433,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 29 / AE37; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 282; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-manufacturing-bea-14",
+      "parentId": "us-manufacturing",
+      "name": "木制品",
+      "depth": 1,
+      "value": 60171,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 14 / AE22; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 66; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-manufacturing-bea-30",
+      "parentId": "us-manufacturing",
+      "name": "印刷及相关支持",
+      "depth": 1,
+      "value": 41301,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 30 / AE38; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 290; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-manufacturing-bea-23",
+      "parentId": "us-manufacturing",
+      "name": "家具及相关产品",
+      "depth": 1,
+      "value": 34448,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 23 / AE31; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 219; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-manufacturing-bea-27",
+      "parentId": "us-manufacturing",
+      "name": "纺织厂与纺织制品",
+      "depth": 1,
+      "value": 16316,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 27 / AE35; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 274; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-manufacturing-bea-28",
+      "parentId": "us-manufacturing",
+      "name": "服装、皮革及相关制品",
+      "depth": 1,
+      "value": 12453,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 28 / AE36; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 280; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-professional",
+      "parentId": null,
+      "name": "专业、科学和技术服务业",
+      "depth": 0,
+      "value": 2355069,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 66 · cell: AE74 · periodHeaderCell: AE8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-professional-bea-69",
+      "parentId": "us-professional",
+      "name": "其他专业、科学和技术服务",
+      "depth": 1,
+      "value": 1445101,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 69 / AE77; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 414; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-professional-bea-68",
+      "parentId": "us-professional",
+      "name": "计算机系统设计及相关服务",
+      "depth": 1,
+      "value": 522249,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 68 / AE76; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 410; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-professional-bea-67",
+      "parentId": "us-professional",
+      "name": "法律服务",
+      "depth": 1,
+      "value": 387719,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 67 / AE75; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 409; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-finance",
+      "parentId": null,
+      "name": "金融和保险业",
+      "depth": 0,
+      "value": 2229155,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 55 · cell: AE63 · periodHeaderCell: AE8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-finance-bea-56",
+      "parentId": "us-finance",
+      "name": "联储银行、信贷中介及相关活动",
+      "depth": 1,
+      "value": 1013285,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 56 / AE64; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-nipa-chapter-02-2024-12",
+          "locator": "physical5 / printed2-5: financial institutions imputed services"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 388; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-finance-bea-58",
+      "parentId": "us-finance",
+      "name": "保险机构及相关活动",
+      "depth": 1,
+      "value": 791806,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 58 / AE66; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 395; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-finance-bea-57",
+      "parentId": "us-finance",
+      "name": "证券、商品合约与投资",
+      "depth": 1,
+      "value": 396082,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 57 / AE65; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 392; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-finance-bea-59",
+      "parentId": "us-finance",
+      "name": "基金、信托及其他金融工具",
+      "depth": 1,
+      "value": 27981,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 59 / AE67; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 400; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-health",
+      "parentId": null,
+      "name": "医疗保健和社会援助",
+      "depth": 0,
+      "value": 2209381,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 76 · cell: AE84 · periodHeaderCell: AE8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-health-bea-77",
+      "parentId": "us-health",
+      "name": "门诊医疗服务",
+      "depth": 1,
+      "value": 1078954,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 77 / AE85; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 444; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-health-bea-78",
+      "parentId": "us-health",
+      "name": "医院",
+      "depth": 1,
+      "value": 691481,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 78 / AE86; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 451; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-health-bea-80",
+      "parentId": "us-health",
+      "name": "社会援助",
+      "depth": 1,
+      "value": 226633,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 80 / AE88; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 456; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-health-bea-79",
+      "parentId": "us-health",
+      "name": "护理与住宿照护设施",
+      "depth": 1,
+      "value": 212314,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 79 / AE87; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 452; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-retail",
+      "parentId": null,
+      "name": "零售业",
+      "depth": 0,
+      "value": 1849039,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 35 · cell: AE43 · periodHeaderCell: AE8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-retail-bea-39",
+      "parentId": "us-retail",
+      "name": "其他零售",
+      "depth": 1,
+      "value": 1031973,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 39 / AE47; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 350; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-retail-bea-36",
+      "parentId": "us-retail",
+      "name": "汽车及零部件经销商",
+      "depth": 1,
+      "value": 356851,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 36 / AE44; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 347; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-retail-bea-37",
+      "parentId": "us-retail",
+      "name": "食品和饮料商店",
+      "depth": 1,
+      "value": 236132,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 37 / AE45; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 348; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-retail-bea-38",
+      "parentId": "us-retail",
+      "name": "综合商品商店",
+      "depth": 1,
+      "value": 224084,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 38 / AE46; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 349; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-wholesale",
+      "parentId": null,
+      "name": "批发业",
+      "depth": 0,
+      "value": 1706289,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 34 · cell: AE42 · periodHeaderCell: AE8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-wholesale-naics-423",
+      "parentId": "us-wholesale",
+      "name": "耐用品商人批发",
+      "depth": 1,
+      "value": null,
+      "unit": "USD million",
+      "revision": "not available",
+      "releaseDate": null,
+      "coverage": "2017 NAICS批发具名分类；不含BEA42ID关税调整项。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes / A:D327:335, L:M327:335"
+        },
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "TVA105-A / line34 Wholesale trade: no child rows before line35 Retail trade"
+        }
+      ],
+      "gap": "尚无可比较的 2024 年现价增加值"
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-wholesale-naics-424",
+      "parentId": "us-wholesale",
+      "name": "非耐用品商人批发",
+      "depth": 1,
+      "value": null,
+      "unit": "USD million",
+      "revision": "not available",
+      "releaseDate": null,
+      "coverage": "2017 NAICS批发具名分类；不含BEA42ID关税调整项。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes / A:D336:344, L:M336:344"
+        },
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "TVA105-A / line34 Wholesale trade: no child rows before line35 Retail trade"
+        }
+      ],
+      "gap": "尚无可比较的 2024 年现价增加值"
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-wholesale-naics-425",
+      "parentId": "us-wholesale",
+      "name": "电子批发市场、代理与经纪",
+      "depth": 1,
+      "value": null,
+      "unit": "USD million",
+      "revision": "not available",
+      "releaseDate": null,
+      "coverage": "2017 NAICS批发具名分类；不含BEA42ID关税调整项。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes / A:M345"
+        },
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "TVA105-A / line34 Wholesale trade: no child rows before line35 Retail trade"
+        }
+      ],
+      "gap": "尚无可比较的 2024 年现价增加值"
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-information",
+      "parentId": null,
+      "name": "信息业",
+      "depth": 0,
+      "value": 1592692,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 49 · cell: AE57 · periodHeaderCell: AE8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-information-bea-53",
+      "parentId": "us-information",
+      "name": "数据处理、互联网出版及其他信息服务",
+      "depth": 1,
+      "value": 529056,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 53 / AE61; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 383; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-information-bea-52",
+      "parentId": "us-information",
+      "name": "广播和电信",
+      "depth": 1,
+      "value": 501545,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 52 / AE60; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 377; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-information-bea-50",
+      "parentId": "us-information",
+      "name": "出版业（不含互联网，含软件）",
+      "depth": 1,
+      "value": 442706,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 50 / AE58; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 369; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-information-bea-51",
+      "parentId": "us-information",
+      "name": "电影与录音",
+      "depth": 1,
+      "value": 119385,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 51 / AE59; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 375; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-construction",
+      "parentId": null,
+      "name": "建筑业",
+      "depth": 0,
+      "value": 1305402,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 11 · cell: AE19 · periodHeaderCell: AE8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-construction-naics-236",
+      "parentId": "us-construction",
+      "name": "房屋建筑",
+      "depth": 1,
+      "value": null,
+      "unit": "USD million",
+      "revision": "not available",
+      "releaseDate": null,
+      "coverage": "BEA官方NAICS施工机构细分；未取得匹配年度现价VA。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "TVA105-A / BEA line11 Construction: no child rows before line12 Manufacturing"
+        },
+        {
+          "sourceId": "us-bea-saemp25n-2023-09-29",
+          "locator": "SAEMP25N LineCode 401; IndustryClassification 236"
+        }
+      ],
+      "gap": "尚无可比较的 2024 年现价增加值"
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-construction-naics-237",
+      "parentId": "us-construction",
+      "name": "重型与土木工程建筑",
+      "depth": 1,
+      "value": null,
+      "unit": "USD million",
+      "revision": "not available",
+      "releaseDate": null,
+      "coverage": "BEA官方NAICS施工机构细分；未取得匹配年度现价VA。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "TVA105-A / BEA line11 Construction: no child rows before line12 Manufacturing"
+        },
+        {
+          "sourceId": "us-bea-saemp25n-2023-09-29",
+          "locator": "SAEMP25N LineCode 402; IndustryClassification 237"
+        }
+      ],
+      "gap": "尚无可比较的 2024 年现价增加值"
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-construction-naics-238",
+      "parentId": "us-construction",
+      "name": "专业承包工程",
+      "depth": 1,
+      "value": null,
+      "unit": "USD million",
+      "revision": "not available",
+      "releaseDate": null,
+      "coverage": "BEA官方NAICS施工机构细分；未取得匹配年度现价VA。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "TVA105-A / BEA line11 Construction: no child rows before line12 Manufacturing"
+        },
+        {
+          "sourceId": "us-bea-saemp25n-2023-09-29",
+          "locator": "SAEMP25N LineCode 403; IndustryClassification 238"
+        }
+      ],
+      "gap": "尚无可比较的 2024 年现价增加值"
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-agriculture",
+      "parentId": null,
+      "name": "农业、林业、渔业和狩猎业",
+      "depth": 0,
+      "value": 269686,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 3 · cell: AE11 · periodHeaderCell: AE8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-agriculture-bea-4",
+      "parentId": "us-agriculture",
+      "name": "农场（作物和畜牧）",
+      "depth": 1,
+      "value": 215830,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 4 / AE12; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 6; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "id": "us-agriculture-bea-5",
+      "parentId": "us-agriculture",
+      "name": "林业、渔业及相关活动",
+      "depth": 1,
+      "value": 53856,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 5 / AE13; year AE8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 25; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-real-estate",
+      "parentId": null,
+      "name": "房地产及租赁业",
+      "depth": 0,
+      "value": 4238566,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 60 · cell: AF68 · periodHeaderCell: AF8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-real-estate-bea-61",
+      "parentId": "us-real-estate",
+      "name": "房地产（含住房服务）",
+      "depth": 1,
+      "value": 3854228,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 61 / AF69; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-housing-scope",
+          "locator": "FAQ answer: housing services, owner-occupied housing and real estate industry; also NIPA Chapter2 physical5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 401, 403; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-real-estate-bea-64",
+      "parentId": "us-real-estate",
+      "name": "租赁服务及无形资产出租",
+      "depth": 1,
+      "value": 384338,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 64 / AF72; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 404; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-government",
+      "parentId": null,
+      "name": "政府",
+      "depth": 0,
+      "value": 3447010,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 89 · cell: AF97 · periodHeaderCell: AF8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-government-bea-95",
+      "parentId": "us-government",
+      "name": "州和地方政府",
+      "depth": 1,
+      "value": 2339450,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA政府生产机构，含一般政府及政府企业；联邦含驻外军事基地与使领馆。政府学校、医院在此类。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 95 / AF103; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 495, 498; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-government-bea-90",
+      "parentId": "us-government",
+      "name": "联邦政府",
+      "depth": 1,
+      "value": 1107560,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA政府生产机构，含一般政府及政府企业；联邦含驻外军事基地与使领馆。政府学校、医院在此类。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 90 / AF98; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 490, 491, 492; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-manufacturing",
+      "parentId": null,
+      "name": "制造业",
+      "depth": 0,
+      "value": 2896476,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 12 · cell: AF20 · periodHeaderCell: AF8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-manufacturing-bea-32",
+      "parentId": "us-manufacturing",
+      "name": "化学品",
+      "depth": 1,
+      "value": 577741,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 32 / AF40; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 296; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-manufacturing-bea-26",
+      "parentId": "us-manufacturing",
+      "name": "食品、饮料与烟草制品",
+      "depth": 1,
+      "value": 354474,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 26 / AF34; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 241; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-manufacturing-bea-19",
+      "parentId": "us-manufacturing",
+      "name": "计算机与电子产品",
+      "depth": 1,
+      "value": 318028,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 19 / AF27; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 155; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-manufacturing-bea-22",
+      "parentId": "us-manufacturing",
+      "name": "其他运输设备",
+      "depth": 1,
+      "value": 210259,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 22 / AF30; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 207; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-manufacturing-bea-18",
+      "parentId": "us-manufacturing",
+      "name": "机械",
+      "depth": 1,
+      "value": 205135,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 18 / AF26; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 120; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-manufacturing-bea-17",
+      "parentId": "us-manufacturing",
+      "name": "金属制品",
+      "depth": 1,
+      "value": 192851,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 17 / AF25; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 94; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-manufacturing-bea-21",
+      "parentId": "us-manufacturing",
+      "name": "汽车、车身、挂车与零部件",
+      "depth": 1,
+      "value": 183970,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 21 / AF29; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 192; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-manufacturing-bea-31",
+      "parentId": "us-manufacturing",
+      "name": "石油与煤制品",
+      "depth": 1,
+      "value": 161002,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 31 / AF39; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 292; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-manufacturing-bea-24",
+      "parentId": "us-manufacturing",
+      "name": "其他制造业",
+      "depth": 1,
+      "value": 116496,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 24 / AF32; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 230; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-manufacturing-bea-33",
+      "parentId": "us-manufacturing",
+      "name": "塑料与橡胶制品",
+      "depth": 1,
+      "value": 101395,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 33 / AF41; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 317; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-manufacturing-bea-20",
+      "parentId": "us-manufacturing",
+      "name": "电气设备、家电与零部件",
+      "depth": 1,
+      "value": 82467,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 20 / AF28; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 178; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-manufacturing-bea-16",
+      "parentId": "us-manufacturing",
+      "name": "初级金属",
+      "depth": 1,
+      "value": 77714,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 16 / AF24; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 83; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-manufacturing-bea-15",
+      "parentId": "us-manufacturing",
+      "name": "非金属矿物制品",
+      "depth": 1,
+      "value": 76293,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 15 / AF23; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 71; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-manufacturing-bea-29",
+      "parentId": "us-manufacturing",
+      "name": "纸制品",
+      "depth": 1,
+      "value": 75191,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 29 / AF37; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 282; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-manufacturing-bea-14",
+      "parentId": "us-manufacturing",
+      "name": "木制品",
+      "depth": 1,
+      "value": 58578,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 14 / AF22; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 66; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-manufacturing-bea-30",
+      "parentId": "us-manufacturing",
+      "name": "印刷及相关支持",
+      "depth": 1,
+      "value": 41499,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 30 / AF38; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 290; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-manufacturing-bea-23",
+      "parentId": "us-manufacturing",
+      "name": "家具及相关产品",
+      "depth": 1,
+      "value": 34554,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 23 / AF31; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 219; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-manufacturing-bea-27",
+      "parentId": "us-manufacturing",
+      "name": "纺织厂与纺织制品",
+      "depth": 1,
+      "value": 16559,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 27 / AF35; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 274; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-manufacturing-bea-28",
+      "parentId": "us-manufacturing",
+      "name": "服装、皮革及相关制品",
+      "depth": 1,
+      "value": 12272,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 28 / AF36; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 280; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-professional",
+      "parentId": null,
+      "name": "专业、科学和技术服务业",
+      "depth": 0,
+      "value": 2494176,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 66 · cell: AF74 · periodHeaderCell: AF8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-professional-bea-69",
+      "parentId": "us-professional",
+      "name": "其他专业、科学和技术服务",
+      "depth": 1,
+      "value": 1518505,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 69 / AF77; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 414; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-professional-bea-68",
+      "parentId": "us-professional",
+      "name": "计算机系统设计及相关服务",
+      "depth": 1,
+      "value": 553797,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 68 / AF76; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 410; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-professional-bea-67",
+      "parentId": "us-professional",
+      "name": "法律服务",
+      "depth": 1,
+      "value": 421874,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 67 / AF75; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 409; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-finance",
+      "parentId": null,
+      "name": "金融和保险业",
+      "depth": 0,
+      "value": 2441825,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 55 · cell: AF63 · periodHeaderCell: AF8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-finance-bea-56",
+      "parentId": "us-finance",
+      "name": "联储银行、信贷中介及相关活动",
+      "depth": 1,
+      "value": 1093345,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 56 / AF64; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-nipa-chapter-02-2024-12",
+          "locator": "physical5 / printed2-5: financial institutions imputed services"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 388; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-finance-bea-58",
+      "parentId": "us-finance",
+      "name": "保险机构及相关活动",
+      "depth": 1,
+      "value": 842755,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 58 / AF66; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 395; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-finance-bea-57",
+      "parentId": "us-finance",
+      "name": "证券、商品合约与投资",
+      "depth": 1,
+      "value": 466565,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 57 / AF65; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 392; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-finance-bea-59",
+      "parentId": "us-finance",
+      "name": "基金、信托及其他金融工具",
+      "depth": 1,
+      "value": 39160,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 59 / AF67; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 400; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-health",
+      "parentId": null,
+      "name": "医疗保健和社会援助",
+      "depth": 0,
+      "value": 2371037,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 76 · cell: AF84 · periodHeaderCell: AF8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-health-bea-77",
+      "parentId": "us-health",
+      "name": "门诊医疗服务",
+      "depth": 1,
+      "value": 1152957,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 77 / AF85; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 444; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-health-bea-78",
+      "parentId": "us-health",
+      "name": "医院",
+      "depth": 1,
+      "value": 741201,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 78 / AF86; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 451; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-health-bea-80",
+      "parentId": "us-health",
+      "name": "社会援助",
+      "depth": 1,
+      "value": 249466,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 80 / AF88; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 456; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-health-bea-79",
+      "parentId": "us-health",
+      "name": "护理与住宿照护设施",
+      "depth": 1,
+      "value": 227413,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 79 / AF87; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 452; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-retail",
+      "parentId": null,
+      "name": "零售业",
+      "depth": 0,
+      "value": 1921751,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 35 · cell: AF43 · periodHeaderCell: AF8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-retail-bea-39",
+      "parentId": "us-retail",
+      "name": "其他零售",
+      "depth": 1,
+      "value": 1077608,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 39 / AF47; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 350; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-retail-bea-36",
+      "parentId": "us-retail",
+      "name": "汽车及零部件经销商",
+      "depth": 1,
+      "value": 371676,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 36 / AF44; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 347; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-retail-bea-37",
+      "parentId": "us-retail",
+      "name": "食品和饮料商店",
+      "depth": 1,
+      "value": 241266,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 37 / AF45; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 348; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-retail-bea-38",
+      "parentId": "us-retail",
+      "name": "综合商品商店",
+      "depth": 1,
+      "value": 231201,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 38 / AF46; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 349; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-wholesale",
+      "parentId": null,
+      "name": "批发业",
+      "depth": 0,
+      "value": 1905380,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 34 · cell: AF42 · periodHeaderCell: AF8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-wholesale-naics-423",
+      "parentId": "us-wholesale",
+      "name": "耐用品商人批发",
+      "depth": 1,
+      "value": null,
+      "unit": "USD million",
+      "revision": "not available",
+      "releaseDate": null,
+      "coverage": "2017 NAICS批发具名分类；不含BEA42ID关税调整项。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes / A:D327:335, L:M327:335"
+        },
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "TVA105-A / line34 Wholesale trade: no child rows before line35 Retail trade"
+        }
+      ],
+      "gap": "尚无可比较的 2025 年现价增加值"
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-wholesale-naics-424",
+      "parentId": "us-wholesale",
+      "name": "非耐用品商人批发",
+      "depth": 1,
+      "value": null,
+      "unit": "USD million",
+      "revision": "not available",
+      "releaseDate": null,
+      "coverage": "2017 NAICS批发具名分类；不含BEA42ID关税调整项。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes / A:D336:344, L:M336:344"
+        },
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "TVA105-A / line34 Wholesale trade: no child rows before line35 Retail trade"
+        }
+      ],
+      "gap": "尚无可比较的 2025 年现价增加值"
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-wholesale-naics-425",
+      "parentId": "us-wholesale",
+      "name": "电子批发市场、代理与经纪",
+      "depth": 1,
+      "value": null,
+      "unit": "USD million",
+      "revision": "not available",
+      "releaseDate": null,
+      "coverage": "2017 NAICS批发具名分类；不含BEA42ID关税调整项。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes / A:M345"
+        },
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "TVA105-A / line34 Wholesale trade: no child rows before line35 Retail trade"
+        }
+      ],
+      "gap": "尚无可比较的 2025 年现价增加值"
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-information",
+      "parentId": null,
+      "name": "信息业",
+      "depth": 0,
+      "value": 1695042,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 49 · cell: AF57 · periodHeaderCell: AF8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-information-bea-53",
+      "parentId": "us-information",
+      "name": "数据处理、互联网出版及其他信息服务",
+      "depth": 1,
+      "value": 590506,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 53 / AF61; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 383; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-information-bea-52",
+      "parentId": "us-information",
+      "name": "广播和电信",
+      "depth": 1,
+      "value": 506426,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 52 / AF60; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 377; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-information-bea-50",
+      "parentId": "us-information",
+      "name": "出版业（不含互联网，含软件）",
+      "depth": 1,
+      "value": 479094,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 50 / AF58; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 369; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-information-bea-51",
+      "parentId": "us-information",
+      "name": "电影与录音",
+      "depth": 1,
+      "value": 119016,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 51 / AF59; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 375; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-construction",
+      "parentId": null,
+      "name": "建筑业",
+      "depth": 0,
+      "value": 1341322,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 11 · cell: AF19 · periodHeaderCell: AF8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-construction-naics-236",
+      "parentId": "us-construction",
+      "name": "房屋建筑",
+      "depth": 1,
+      "value": null,
+      "unit": "USD million",
+      "revision": "not available",
+      "releaseDate": null,
+      "coverage": "BEA官方NAICS施工机构细分；未取得匹配年度现价VA。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "TVA105-A / BEA line11 Construction: no child rows before line12 Manufacturing"
+        },
+        {
+          "sourceId": "us-bea-saemp25n-2023-09-29",
+          "locator": "SAEMP25N LineCode 401; IndustryClassification 236"
+        }
+      ],
+      "gap": "尚无可比较的 2025 年现价增加值"
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-construction-naics-237",
+      "parentId": "us-construction",
+      "name": "重型与土木工程建筑",
+      "depth": 1,
+      "value": null,
+      "unit": "USD million",
+      "revision": "not available",
+      "releaseDate": null,
+      "coverage": "BEA官方NAICS施工机构细分；未取得匹配年度现价VA。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "TVA105-A / BEA line11 Construction: no child rows before line12 Manufacturing"
+        },
+        {
+          "sourceId": "us-bea-saemp25n-2023-09-29",
+          "locator": "SAEMP25N LineCode 402; IndustryClassification 237"
+        }
+      ],
+      "gap": "尚无可比较的 2025 年现价增加值"
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-construction-naics-238",
+      "parentId": "us-construction",
+      "name": "专业承包工程",
+      "depth": 1,
+      "value": null,
+      "unit": "USD million",
+      "revision": "not available",
+      "releaseDate": null,
+      "coverage": "BEA官方NAICS施工机构细分；未取得匹配年度现价VA。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "TVA105-A / BEA line11 Construction: no child rows before line12 Manufacturing"
+        },
+        {
+          "sourceId": "us-bea-saemp25n-2023-09-29",
+          "locator": "SAEMP25N LineCode 403; IndustryClassification 238"
+        }
+      ],
+      "gap": "尚无可比较的 2025 年现价增加值"
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-agriculture",
+      "parentId": null,
+      "name": "农业、林业、渔业和狩猎业",
+      "depth": 0,
+      "value": 272014,
+      "unit": "百万美元",
+      "revision": "截至 2026-06-25 最新可获取修订版；BEA后续可修订",
+      "releaseDate": "2026-06-25",
+      "coverage": "美国境内生产；BEA行业核算口径",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "file: ValueAdded.xlsx · sheet: TVA105-A · beaLine: 3 · cell: AF11 · periodHeaderCell: AF8 · titleCell: A1 · unitCell: A2 · releaseDateCell: A5"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-agriculture-bea-4",
+      "parentId": "us-agriculture",
+      "name": "农场（作物和畜牧）",
+      "depth": 1,
+      "value": 220747,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 4 / AF12; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 6; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "id": "us-agriculture-bea-5",
+      "parentId": "us-agriculture",
+      "name": "林业、渔业及相关活动",
+      "depth": 1,
+      "value": 51267,
+      "unit": "USD million",
+      "revision": "latest available vintage; subject to BEA revision",
+      "releaseDate": "2026-06-25",
+      "coverage": "BEA美国国内私人生产机构，政府及政府企业单列；不含美国企业的外国工厂。",
+      "evidence": [
+        {
+          "sourceId": "us-bea-value-added-2026-06-25",
+          "locator": "ValueAdded.xlsx / TVA105-A / BEA line 5 / AF13; year AF8; unit A2; publication A5"
+        },
+        {
+          "sourceId": "us-bea-productivity-concordance-2017-naics",
+          "locator": "NAICS Codes sheet / Summary columns C:D; source rows 25; 2017 NAICS column L; scope note A2"
+        }
+      ],
+      "gap": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-09-14",
+  "rawCellChecks": 210,
+  "legacy2024And2025RowsUnchanged": 88,
+  "officialFileHashesMatch": true,
+  "countryYearCurrencyAndHierarchyChecks": true,
+  "construction2024ChildSum": 1305402,
+  "wholesale2024ChildSum": 1706289,
+  "customsDuties2024": 83587,
+  "new2025NodesExcludingOptionalManufacturingGroups": [
+    "us-government-bea-91",
+    "us-government-bea-92",
+    "us-government-bea-93",
+    "us-government-bea-94",
+    "us-government-bea-96",
+    "us-government-bea-97",
+    "us-real-estate-bea-62",
+    "us-real-estate-bea-63"
+  ],
+  "classificationSeparationChecked": [
+    "BEA construction types vs NAICS 236/237/238",
+    "wholesale customs duties accounting component",
+    "private health vs government health",
+    "government general government vs government enterprises"
+  ]
+}

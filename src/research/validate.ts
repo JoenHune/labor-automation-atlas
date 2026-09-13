@@ -2,10 +2,18 @@ import { ResearchSchema, type Research } from './schema'
 import { annualRanking } from './ranking'
 import {validateProductivityDataset} from './productivity'
 import {validateMacroStructures} from './macro-structure'
+import {validateAnnualDetails} from './annual-details'
 
 export function validateResearch(input: unknown) {
   const data = ResearchSchema.parse(input)
   if(data.macroStructures)validateMacroStructures(data.macroStructures)
+  if(data.annualDetails){
+    validateAnnualDetails(data.annualDetails)
+    for(const branch of data.annualDetails.branches){
+      const parent=data.observations.find(o=>o.country===branch.country&&o.industryId===branch.parentId&&o.period===String(branch.year)&&o.frequency==='annual'&&o.measure==='value-added'&&o.priceBasis==='current'&&!o.annualized)
+      if(!parent||parent.value!==branch.parentValue||parent.unit!==branch.unit||parent.currency!==branch.currency)throw new Error('年度细分总值与主榜不匹配：'+branch.parentId)
+    }
+  }
   const errors: string[] = []
   const grouped = [data.sources,data.industries,data.observations,data.scenarios,data.tasks,data.claims,data.searches]
   const allIds = grouped.flatMap(g=>g.map(x=>x.id))

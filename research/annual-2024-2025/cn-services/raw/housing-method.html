@@ -1,0 +1,2881 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8" />
+			<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<title>五、国民经济核算（16） - 国家统计局</title>
+			<link href="../../../images/gtj2023_base.css" rel="stylesheet" />
+			<link href="../../../images/gtj2023_pc_common.css" rel="stylesheet" />
+			<link href="../../../images/gtj2023_index.css" rel="stylesheet" />
+			<link href="../../../images/gtj2023_pc_detail.css" rel="stylesheet" />
+
+			<link rel="stylesheet" type="text/css" href="../../../images/gtj2023_mobile_public.css" media="screen and (max-width:767px) and (orientation:portrait)" />
+			<link rel="stylesheet" type="text/css" href="../../../images/gtj2023_mobile_index.css" media="screen and (max-width:767px) and (orientation:portrait)" />
+			<link rel="stylesheet" type="text/css" href="../../../images/gtj2023_mobile_detail.css" media="screen and (max-width:767px) and (orientation:portrait)" />
+			<link rel="stylesheet" media="screen and (min-width:1680px)" href="../../../images/gtj2023_pc_common_1600.css" />
+			<link rel="stylesheet" media="screen and (min-width:1680px)" href="../../../images/gtj2023_index-1600.css" />
+			<link rel="stylesheet" media="screen and (min-width:1680px)" href="../../../images/gtj2023_pc_detail_1600.css" />
+
+			<script type="text/javascript" src="../../../images/gtj2023_jquery-1.11.3.min.js"></script>
+			<script src="../../../images/jquery.qrcode_20240109.js?t=20240517020512"></script>
+			<script type="text/javascript" src="../../../images/gtj2023_h5.js"></script>
+			<script type="text/javascript" src="../../../images/gtj2023_resize.js"></script>
+		</head>
+		<body>
+			<style>
+				.mobile-news-content table{
+					max-width: 100%;
+				}
+				.mobile-news-content td,.mobile-news-content tr{
+					width: auto !important;
+					height: auto !important;
+				}
+				.mobile-news-content p, .mobile-news-content div{
+					text-indent: 0 !important;
+				}
+			</style>
+			<div class="wrapper">
+				<style>
+        .icon-list ul {
+                width: 225px;
+                margin-left: 37px;
+        }
+</style>
+               <a href="https://www.stats.gov.cn/znwd/" target="_black " style="display:block;position:fixed;top:50%;right:-1px;width:87px;margin-top:78px;z-index:11" title="AI问">
+                        <img src="/images/aiwen_logo_20251203.gif" alt="" style="width:100%" />
+                        <img src="/images/aiwen_logo2_20251203.png" alt="" style="position:absolute;left:-17px;top:47px;width:39px" />
+                </a>
+<div class="wrapper-header">
+	<div class="logo">
+		<img src="/images/gtj2023_logo.png" alt="" />
+	</div>
+	<div class="search-content">
+		<div class="icon-list mhide">
+			<ul>
+				<li>
+					<a href="/hd/xmt/" target="_blank" title="新媒体">
+						<img src="/images/gtj2023_header-icon7.png" alt="" />
+					</a>
+				</li>
+				<li>
+					<a href="/wzgl/rss/" target="_blank" title="RSS">
+						<img src="/images/gtj2023_header-icon2.png" alt="" />
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;" id="toolbarSwitch" title="无障碍">
+						<img src="/images/gtj2023_header-icon3.png" alt="" />
+					</a>
+				</li>
+				<li>
+					<a href="http://wsxf.stats.gov.cn/" target="_blank" title="信访">
+						<img src="/images/gtj2023_header-icon1.png" alt="" />
+					</a>
+				</li>
+				<!--<li>
+					<a href="/hd/xmt/" target="_blank" title="新媒体">
+						<img src="/images/gtj2023_header-icon4.png" alt="" />
+					</a>
+				</li>
+				<li>
+					<a href="/znwd/" target="_blank" title="智能问答">
+						<img src="/images/gtj2023_header-icon5.png" alt="" />
+					</a>
+				</li>
+				<li>
+					<a href="http://weibo.com/nbsstatistics" target="_blank" title="中国统计">
+						<img src="/images/gtj2023_header-icon6.png" alt="" />
+					</a>
+				</li>-->
+				<li>
+					<a href="/english/" target="_blank" title="英文版"> EN </a>
+				</li>
+			</ul>
+		</div>
+		<form name="searchform" action="" target="_blank" onsubmit="return false">
+		<div class="search-input">
+			<!-- <input type="text" placeholder="请输入关键字" /> -->
+				<input oninput="replaceText(event)" placeholder="请输入关键字" name="qt" class="input1" id="search" value="" onfocus="if(value=='') {value='';}" onblur="if(value=='') {value='';}" type="text" autocomplete="off" />
+			<button onclick="submitFormT();">搜索</button>
+		</div>
+		</form>
+		<script type="text/javascript">
+			// 搜索
+			function submitFormT() {
+				var temp = searchform.qt.value;
+				if (temp == null || temp == "") {
+					alert("请输入搜索条件");
+				} else {
+					var url = '/search/s?qt=' + encodeURIComponent(temp);
+					window.open(url);
+				}
+			}
+			//回车执行查询
+			document.getElementById("search").onkeypress = function() {
+				if (event.keyCode == "13") {
+					submitFormT();
+				}
+			};
+        function scriptReplace(str) {
+		if (new RegExp(".*?script[^>]*?.*?(<\/.*?script.*?>)*", "ig").test(str)) {//包含
+			var str1 = str.replace('script', '</*script*/>');//替换的内容
+			 return str1
+		}if (new RegExp(".*?details[^>]*?.*?(<\/.*?details.*?>)*", "ig").test(str)) {//包含
+			var str1 = str.replace('details', '</*details*/>');//替换的内容
+			 return str1
+		}else{
+			return str
+		}
+	}
+        function replaceText(event) {
+          var textBox = event.target;
+          var originalText = textBox.value;
+          var replacedText = scriptReplace(originalText);
+          textBox.value = replacedText;
+        }
+		</script>
+	</div>
+</div>
+<div class="wrapper-nav">
+	<div class="wrapper-nav-left mhide"></div>
+	<div class="wrapper-content">
+		<div class="wrapper-nav-left-square mhide"></div>
+		<div class="wrapper-nav-left-circle mhide">
+			<img class="mhide" src="/images/gtj2023_nav_circle.png" alt="" />
+		</div>
+		<ul class="nav_menu_list" id="nav_menu_list_pc">
+			<li class="lis">
+				<a class="active" href="/">首页</a>
+			</li>
+			<li class="lis">
+				<a href="https://www.stats.gov.cn/jg/">机构</a>
+			</li>
+			<li class="lis">
+				<a href="javascript:;">新闻</a>
+				<div>
+					<img class="pchide" src="/images/mobile_arrow_icon.png" alt="" />
+					<ul class="menu_list_ul">
+						<li>
+							<a href="https://www.stats.gov.cn/xw/szyw/">
+								时政要闻
+							</a>
+						</li>
+						<li>
+							<a href="https://www.stats.gov.cn/xw/tjxw/">
+								统计新闻
+							</a>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li class="lis">
+				<a href="https://www.stats.gov.cn/sj/">数据</a>
+			</li>
+			<li class="lis">
+				<a href="https://www.stats.gov.cn/gk/">公开</a>
+			</li>
+			<li class="lis">
+				<a href="https://www.stats.gov.cn/fw/">服务</a>
+			</li>
+			<li class="lis">
+				<a href="https://www.stats.gov.cn/hd/">互动</a>
+			</li>
+			<li class="lis">
+				<a target="_blank" href="https://www.stats.gov.cn/zs/">知识</a>
+			</li>
+			<li class="lis">
+				<a href="https://www.stats.gov.cn/zt_18555/">专题</a>
+			</li>
+		</ul>
+	</div>
+	<script>
+		$(function(){
+			var url = window.location.href;
+			if (url.indexOf("/jg/") > 0) {
+				$("#nav_menu_list_pc .lis").eq(1).find('a').addClass("active").parent().siblings().find('a').removeClass("active");
+			}
+			if (url.indexOf("/xw/") > 0) {
+				$("#nav_menu_list_pc .lis").eq(2).find('a').addClass("active").parent().siblings().find('a').removeClass("active");
+			}
+			if (url.indexOf("/sj/") > 0) {
+				$("#nav_menu_list_pc .lis").eq(3).find('a').addClass("active").parent().siblings().find('a').removeClass("active");
+			}
+			if (url.indexOf("/gk/") > 0) {
+				$("#nav_menu_list_pc .lis").eq(4).find('a').addClass("active").parent().siblings().find('a').removeClass("active");
+			}
+			if (url.indexOf("/fw/") > 0) {
+				$("#nav_menu_list_pc .lis").eq(5).find('a').addClass("active").parent().siblings().find('a').removeClass("active");
+			}
+			if (url.indexOf("/hd/") > 0) {
+				$("#nav_menu_list_pc .lis").eq(6).find('a').addClass("active").parent().siblings().find('a').removeClass("active");
+			}
+			if (url.indexOf("/zt") > 0) {
+				$("#nav_menu_list_pc .lis").eq(8).find('a').addClass("active").parent().siblings().find('a').removeClass("active");
+			}
+		})
+	</script>
+	<!-- <div class="nav-list"></div> -->
+	<div class="wrapper-nav-right mhide"></div>
+</div>
+				<div class="wrapper-content">
+					<div class="detail-content">
+						<div class="detail-title">
+							<h1>
+								五、国民经济核算（16）
+							</h1>
+							<div class="detail-title-des">
+								<h2>
+									<p>
+										2023/10/09 12:10
+									</p>
+									<!-- <span>来源: 国家统计局</span> -->
+									<script>
+										var lay = '国家统计局';
+										if(lay.length > 0){
+											document.write('<span>来源：国家统计局</span>');
+										}
+									</script>
+									<div class="mhide">|</div>
+								</h2>
+								<h2>
+									<p class="ft">Aa</p>
+									<span>字体：</span>
+									<a class="small active" href="javascript:;">
+										小
+									</a>
+									<a class="middle" href="javascript:;">
+										中
+									</a>
+									<a class="big" href="javascript:;">
+										大
+									</a>
+									<div class="mhide">|</div>
+									<p class="share">分享到：</p>
+									<!-- <img src="../../../images/gtj2023_weixin.png" alt="" />
+									<img src="../../../images/gtj2023_weibo.png" alt="" />
+									<img src="../../../images/gtj2023_link.png" alt="" />
+									<img src="../../../images/gtj2023_phone.png" alt="" /> -->
+									<div class="bshare-custom" id="bshare-custom-ID" style="display: flex;">
+										<a title="分享到微信" class="bshare_a bshare-weixin" id="bshare-weixin-ID"> </a>
+										<!-- <a title="分享到新浪微博" class="bshare_a bshare-sinaminiblog"> </a> -->
+										<a target="_blank" href="http://service.weibo.com/share/share.php?url=http://www.stats.gov.cn/hd/cjwtjd/202302/t20230207_1902278.html&title=五、国民经济核算（16）" class="bshare_a" style="left: 0;background: url(/images/gtj2023_weibo.png) no-repeat center center;background-size: 100% 100%;"> </a>
+										<!-- <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script>
+										<script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script> -->
+									</div>  
+									<!-- <a title="分享到QQ空间" class="bshare-qzone"></a> -->
+								</h2>
+
+							</div>
+						</div>
+						<div class="detail-text-content mhide">
+
+							<div class="txt-content">
+								<p>
+									<div class=TRS_Editor><div class="TRS_PreAppend" style="overflow-x: hidden; word-break: break-all">
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：国内生产总值（</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span></b><b><span style="font-size: 12pt; font-family: 宋体">）是如何进行核算的？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：国内生产总值（</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">）核算有三种方法，即生产法、收入法和支出法，三种方法从不同角度反映国民经济生产活动最终成果。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1. </span><span style="font-size: 12pt; font-family: 宋体">生产法是从常住单位在生产过程中创造新增价值的角度，衡量核算期内生产活动最终成果的方法。即从生产过程中创造的货物和服务价值中，扣除生产过程中投入的中间货物和服务价值，得到增加值。将国民经济各行业生产法增加值相加，得到生产法国内生产总值。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　生产法核算公式：</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p align="center" class="MsoNormal" style="text-align: center"><span lang="EN-US"><img width="454" height="42" alt="" oldsrc="W020231009437460135392.jpg" v:shapes="图片_x0020_1" src="./W020231009437460135392.jpg" /></span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2. </span><span style="font-size: 12pt; font-family: 宋体">收入法是从常住单位在生产过程中形成收入角度来反映核算期内生产活动最终成果的方法。按照这种核算方法，增加值由劳动者报酬、生产税净额、固定资产折旧和营业盈余四部分相加得到。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　收入法核算公式：</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP=</span><span style="font-size: 12pt; font-family: 宋体">劳动者报酬</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">+</span><span style="font-size: 12pt; font-family: 宋体">生产税净额</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">+</span><span style="font-size: 12pt; font-family: 宋体">固定资产折旧</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">+</span><span style="font-size: 12pt; font-family: 宋体">营业盈余</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">3. </span><span style="font-size: 12pt; font-family: 宋体">支出法是从货物和服务最终使用的角度，衡量所有常住单位核算期内生产活动最终成果的方法。包括最终消费支出、资本形成总额、货物和服务净出口三部分。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　支出法核算公式：</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP=</span><span style="font-size: 12pt; font-family: 宋体">最终消费支出</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">+</span><span style="font-size: 12pt; font-family: 宋体">资本形成总额</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">+</span><span style="font-size: 12pt; font-family: 宋体">货物和服务净出口</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　理论上，通过三种不同方法核算的国内生产总值结果应当一致，但在实际操作过程中，由于资料来源不同，不同计算方法所得出的结果会出现差异，这种差异称为统计误差，统计误差在可接受的范围内允许存在。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：我国如何核算季度</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span></b><b><span style="font-size: 12pt; font-family: 宋体">？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：我国季度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">核算是采取分行业核算的方式，即先核算《国民经济行业分类》中各行业的季度现价增加值和不变价增加值，再分别加总得到季度现价</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">和不变价</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">。季度现价增加值核算主要采用增加率法、相关价值量指标推算法以及利用不变价推算现价等方法。季度不变价增加值核算主要采用价格指数缩减法和相关物量指数外推法。具体核算方法可以参考每季度发布的季度核算说明。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">3 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：季度和年度国民经济核算的数据如何查找？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：季度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">初步核算数一般于季后</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">15</span><span style="font-size: 12pt; font-family: 宋体">日左右在季度国民经济运行情况新闻发布会、国家统计局官方网站（</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">www.stats.gov.cn</span><span style="font-size: 12pt; font-family: 宋体">）、《中国经济景气月报》上发布，具体日期参考当年《国家统计局主要统计信息发布日程表》。季度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">最终核实数于隔年</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1</span><span style="font-size: 12pt; font-family: 宋体">月份在国家统计数据发布库（</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">http://data.stats.gov.cn/</span><span style="font-size: 12pt; font-family: 宋体">）、《中国经济景气月报》上发布。对于</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1992</span><span style="font-size: 12pt; font-family: 宋体">年</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1</span><span style="font-size: 12pt; font-family: 宋体">季度以来的季度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据时间序列，可以通过国家统计数据发布库进行查询。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　年度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">初步核算数一般于次年</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1</span><span style="font-size: 12pt; font-family: 宋体">月</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">20</span><span style="font-size: 12pt; font-family: 宋体">日左右，在年度国民经济运行情况新闻发布会、国家统计局官方网站、《中国经济景气月报》上发布。年度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">最终核实数于隔年的</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1</span><span style="font-size: 12pt; font-family: 宋体">月份，在国家统计局官方网站以公告的形式发布；同时，年度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">最终核实数还在隔年的《中国统计摘要》和《中国统计年鉴》上发布。国家统计数据发布库将同步更新年度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">最终核实数，并提供历史数据。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">4 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span></b><b><span style="font-size: 12pt; font-family: 宋体">增长率是如何计算的？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">增长率通常指的是</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">不变价增长速度，它等于当期的不变价</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">除以上年同期同基期不变价</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">再减去</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">100%</span><span style="font-size: 12pt; font-family: 宋体">。其中，我国不变价</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">采取分行业核算的方法，即先核算各行业不变价增加值，再将各行业不变价增加值加总得到不变价</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">。不同行业的不变价增加值核算方法也有所不同，如物量指数外推法、价格指数缩减法等，具体核算方法可以参考年度和季度核算说明。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">5 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：为什么要对</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span></b><b><span style="font-size: 12pt; font-family: 宋体">进行修订？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：对</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据进行修订是国际上的通行做法。世界各国</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据都不是一锤定音，一次核算就固定不变，必须根据更加完整、可靠的基础数据不断修订。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据需要大量的基础资料进行核算，基础资料获得的越充分、质量越好，</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据的准确性越高，越能比较好地反映国民经济发展的实际情况。</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">初步核算时，各国主要利用进度统计资料，采用相关指标推算的方法进行，是因为初步核算数据通常更注重时效性，一定程度上牺牲了基础资料的完整性、详细性和可靠性。当之后获得了比较健全的基础资料时，就需要对以前核算的</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据进行修订，使其更加准确地反映经济发展实际情况。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　此外，</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">核算的某些概念、分类和计算方法的变化往往引起</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据的变动，如果不对历史数据做相应的修订，这些概念、分类和计算方法变化前后的</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据就失去可比性和一致性。比如，全国经济普查提供了比较全面系统的基础资料，利用这些资料计算出来的</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据与利用经常性资料来源计算的</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;"> GDP</span><span style="font-size: 12pt; font-family: 宋体">数据往往有一定的出入，就需要对一定时期的历史数据进行修订，以保持相应时期的</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;"> GDP</span><span style="font-size: 12pt; font-family: 宋体">数据的可比性和一致性。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">6 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：二手交易是否计入</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span></b><b><span style="font-size: 12pt; font-family: 宋体">？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：二手交易的增值不计入</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">，但为完成二手交易所提供的服务价值计入</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">。以房产销售为例，二手房的增值不计入</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">，因为此活动并未创造新的生产成果；但是中介机构（如果有）提供的信息咨询服务要计入增加值，因为这部分服务具有其相应的产出与价值。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">7 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：投入产出表应该如何查找？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：全国投入产出表（或投入产出延长表）可以通过以下三种方式查找：一是出版物《中国投入产出表》。可查询</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1987</span><span style="font-size: 12pt; font-family: 宋体">年以来逢</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2</span><span style="font-size: 12pt; font-family: 宋体">、逢</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">7</span><span style="font-size: 12pt; font-family: 宋体">年份的全国投入产出表，资料较为丰富。二是在历年《中国统计年鉴》的“国民经济核算”章节，可查询</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1987</span><span style="font-size: 12pt; font-family: 宋体">年以来逢</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2</span><span style="font-size: 12pt; font-family: 宋体">、逢</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">7</span><span style="font-size: 12pt; font-family: 宋体">年份的全国投入产出表，逢</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">0</span><span style="font-size: 12pt; font-family: 宋体">、逢</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">5</span><span style="font-size: 12pt; font-family: 宋体">年份的全国投入产出延长表。三是国家统计数据发布库。可查询</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2002</span><span style="font-size: 12pt; font-family: 宋体">年以来的全国投入产出表和全国投入产出延长表。具体链接如下：</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">http://data.stats.gov.cn/</span><span style="font-size: 12pt; font-family: 宋体">。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">8 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：年度</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span></b><b><span style="font-size: 12pt; font-family: 宋体">数据发布后，需要对季度数据做什么样的调整？如何调整？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：按照国家统计局最新改革的</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">核算和数据发布制度规定，中国季度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">核算分为初步核算和最终核实两个步骤。通常，年度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">最终核实后，要对季度数据进行修订，称为常规修订；在开展全国经济普查，发现对</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据有较大影响的新的基础资料，或计算方法及分类标准发生变化后而对年度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">历史数据进行修订后，也要对季度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">历史数据进行相应修订，称为全面修订。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　中国目前对季度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据修订的方法是比例衔接法，即利用年度基准值与年内四个季度汇总数的差率调整季度数据的方法。主要步骤是：首先利用比例衔接法对国民经济各行业现价和不变价增加值分别进行衔接，将衔接后的现价和不变价分行业增加值分别加总得到</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">和三次产业的现价和不变价数据。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">9 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：在哪儿能查到“中国居民储蓄率”，该指标如何计算？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：我局未发布“中国居民储蓄率”，但居民储蓄率可通过“中国资金流量表”相关数据计算，具体公式如下：</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　居民储蓄率</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">=</span><span style="font-size: 12pt; font-family: 宋体">住户部门总储蓄</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;"> / </span><span style="font-size: 12pt; font-family: 宋体">住户部门可支配收入</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　其中，住户部门总储蓄</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">=</span><span style="font-size: 12pt; font-family: 宋体">住户部门可支配收入—住户部门最终消费。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">10 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：在哪儿可以查到我国总产出数据？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：分行业总产出数据暂未公布。有关年度的投入产出表中可以查到该年度分产品部门总产出数据。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">11 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：第一、二、三产业对</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span></b><b><span style="font-size: 12pt; font-family: 宋体">的贡献率如何计算？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：三次产业贡献率是指三次产业对国内生产总值增长的贡献率，等于各产业增加值增量与</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">增量之比。增加值增量均按不变价格计算。这就要求计算增量的前后两个年份应该是以同一个年份为不变价基期的，这样才能保证两个数据的可比性。我国自开始核算国内生产总值以来，共有</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1952</span><span style="font-size: 12pt; font-family: 宋体">年、</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1957</span><span style="font-size: 12pt; font-family: 宋体">年、</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1970</span><span style="font-size: 12pt; font-family: 宋体">年、</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1980</span><span style="font-size: 12pt; font-family: 宋体">年、</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1990</span><span style="font-size: 12pt; font-family: 宋体">年、</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2000</span><span style="font-size: 12pt; font-family: 宋体">年、</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2005</span><span style="font-size: 12pt; font-family: 宋体">年、</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2010</span><span style="font-size: 12pt; font-family: 宋体">年、</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2015</span><span style="font-size: 12pt; font-family: 宋体">年、</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2020</span><span style="font-size: 12pt; font-family: 宋体">年</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">10</span><span style="font-size: 12pt; font-family: 宋体">个不变价基期，因此计算三次产业贡献率时也应采用分段基期。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">12 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：支出法国内生产总值与社会消费品零售总额、固定资产投资、货物进出口三个数据之间有何差别？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：按支出法核算的国内生产总值可分为最终消费支出、资本形成总额、货物和服务净出口。我局发布的统计数据中，有社会消费品零售总额、固定资产投资和进出口顺（逆）差等指标。在使用这些数据时，需要注意分清各指标之间的差别。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1. </span><span style="font-size: 12pt; font-family: 宋体">最终消费支出中的居民消费支出与社会消费品零售总额的差别。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　居民消费支出指常住住户为了直接满足生活需要在国内外市场上购买和使用货物及服务的消费支出，包括直接用货币购买的货物和服务，也包括通过实物报酬形式得到的货物和服务以及居民自产自用的货物，还包括虚拟计算的自有住房服务和间接计算的金融中介服务。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　社会消费品零售总额是指企业（单位、个体户）通过交易直接售给个人和社会集团非生产、非经营用的实物商品金额，以及提供餐饮服务所取得的收入金额。个人包括城乡居民和入境人员，社会集团包括机关、社会团体、部队、学校、企事业单位、居委会或村委会等。社会消费品零售总额中销售给居民的部分直接构成居民消费支出中的货物消费及餐饮服务消费，是计算居民消费支出的资料来源之一。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　二者的区别主要表现在五个方面：一是居民消费支出不仅包括居民对货物的最终消费支出，还包括对服务的最终消费支出，社会消费品零售总额中仅统计货物零售和餐饮服务消费，不包括除餐饮服务外的其他服务消费。二是居民消费支出包括住户以实物报酬形式获得的货物和服务以及其他虚拟消费支出，社会消费品零售总额只统计以货币形式实现的商品交易。三是居民消费支出核算我国常住住户在国内和国外的最终消费支出，社会消费品零售总额统计的是常住住户和非常住住户在我国境内所购买的消费品。四是社会消费品零售总额中包括售给机关、团体、学校、部队、企业、事业单位等社会集团的各种办公用品等，居民消费支出中不包括。五是社会消费品零售总额中包括居民自建房用建筑材料，居民消费支出不包括。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2. </span><span style="font-size: 12pt; font-family: 宋体">固定资本形成总额与固定资产投资的差别。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　固定资本形成总额是指常住单位在核算期内固定资产获得减处置的价值总额。固定资产是通过生产活动生产出来的，且使用年限在一年以上，单位价值在规定标准以上的资产。固定资本形成总额包括住宅、其他建筑和构筑物、机器和设备、培育性生物资源、知识产权产品等固定资产的获得减处置和非生产资产所有权转移费用等。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　全社会固定资产投资完成额是指以货币形式表现的，在一定时期内全社会建造和购置固定资产的工作量以及与此有关的费用总称。全社会固定资产投资完成额是计算固定资本形成总额的重要基础资料。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　二者的区别主要体现在以下两个方面。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　一是范围不同。一方面，有些固定资本形成总额并未纳入全社会固定资产投资完成额统计范围，例如，总投资</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">500</span><span style="font-size: 12pt; font-family: 宋体">万元以下的建设项目完成的投资，未经过正式立项的土地改良支出，非生产资产的所有权转移费用等，这些都没有纳入全社会固定资产投资完成额统计中，在核算固定资本形成总额时需要加以补充。另一方面，全社会固定资产投资完成额中还包括购买旧建筑、旧设备的价值和土地购置费，这些内容不是核算期内所增加的固定资产，因此核算固定资本形成总额时需要将其扣除。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　二是指标性质不同。固定资本形成总额是一个核算指标，在核算全国固定资本形成总额时，除了按照上述范围口径差异对全社会固定资产投资额进行调整外，还要利用建筑业总产值、建筑业营业税、钢材生产量、水泥生产量、大型机器设备生产量、机器设备增值税抵扣额等相关资料，对全社会固定资产投资额进行评估和调整。而全社会固定资产投资额是一个统计指标，是根据统计调查资料进行汇总得到，一般不进行调整。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">3. </span><span style="font-size: 12pt; font-family: 宋体">货物和服务净出口与海关统计的贸易顺（逆）差额的差别。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　支出法国内生产总值中的货物和服务净出口是出口减去进口后的净额，出口是常住单位向非常住单位出售或无偿转让的各种货物和服务的全部价值；进口是常住单位从非常住单位购买或无偿得到的各种货物和服务的价值。其中服务活动的提供与使用是同时发生的，一般把常住单位从非常住单位得到的服务作为进口，非常住单位从常住单位得到的服务作为出口。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　海关进出口是统计指标，指实际进出我国关境的货物总金额。按贸易方式包括一般贸易，国家间、国际组织无偿援助和赠送的物资，其他捐赠物资，来料加工装配贸易，进料加工贸易，边境小额贸易，加工贸易进口设备，租赁贸易，外商投资企业作为投资进口的设备、物品，出料加工贸易，免税外汇商品，免税品，保税监管场所进出境货物，海关特殊监管区域物流货物，海关特殊监管区域进口设备，以及其他进出口货物。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　海关进出口是计算支出法</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">中净出口的重要依据，但两者不相等，其差异主要体现在以下几方面。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　一是口径范围不同。支出法</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">中的进出口既包括货物的进出口，也包括服务的进出口；海关的进出口只包括货物的进出口。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　二是计算价格不同。支出法</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">中货物出口和进口价值都按离岸价格计算（服务出口和进口价值按交易发生时的市场价格计算）；海关进出口贸易额中的进口按到岸价格计算，出口按离岸价格计算。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　三是确认标准不同。支出法</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">中的进出口以经济所有权的转移作为衡量标准，海关进出口统计以货物进出关境为依据。例如，对于来料加工，由于货物的经济所有权没有发生变化，在支出法</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">中不计入货物进出口，只将获得的加工费记为加工服务出口；海关的货物进出口则包括来料加工的货物进出口。又如支出法</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">中的出口包括非常住单位在我国境内直接购买的货物和服务，进口包括我国常住单位在国外直接购买的货物和服务；海关的进出口贸易额则不包括上述相关货物和服务。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">13 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：没有法人资格的分公司的增加值是计入总公司所在地的地区生产总值，还是计入该分公司所在地的地区生产总值？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：地区生产总值核算采用在地原则，对于满足产业活动单位条件的分公司，其增加值应计入分公司所在地的地区生产总值。统计部门在经济普查年度各省区市地区生产总值核算中，利用普查获取的产业活动单位信息，在先按法人单位进行初步核算的基础上，将产业活动单位增加值调整到其实际经营地的地区生产总值中。对于非经济普查的常规年度，在无法获取详细的产业活动单位信息时，利用上一个经济普查年度的相关比例，对按法人单位核算的初步结果进行相应调整，以得到符合在地原则的核算结果。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">14 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：房地产业增加值中居民自有住房服务的增加值如何计算？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：自有住房服务的增加值等于自有住房服务的产出减去中间投入。自有住房服务的产出即自有住房服务的价值，由于居民自有住房服务没有发生实际的租赁行为，也不存在实际市场价格，因此需要虚拟计算其服务价值。目前世界各国会根据本国国情采用不同方法核算居民自有住房服务价值，主要分为租金法和成本法。租金法，是指利用租用可比大小、位置、质量和类型的房屋所支付的租金来核算居民自有住房服务价值的方法。成本法，是指用当期自有住房的成本来核算居民自有住房服务价值的方法，自有住房的成本包括折旧、维修维护费、资金成本和房产税等，并根据住房可能获得的收益进行相应的调整。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　目前，我国居民自有住房服务价值采用成本法核算，按城镇居民和农村居民分别核算。其中，城镇居民自有住房服务价值的核算方法是，首先利用城镇住宅单位面积造价和建筑面积等资料测算出全国城镇居民住房总价值，然后按使用年限计算住房折旧，再加上修理维护费、物业管理费等中间投入，得到城镇居民自有住房服务价值，即城镇居民自有住房服务总产出。农村居民自有住房服务价值的核算方法类似，只是住房折旧率因城乡住房质量不同而有所差别，且没有物业管理费。居民自有住房服务的增加值，只包括了住房折旧价值，不虚拟计算劳动者报酬、生产税净额和营业盈余。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">15 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：地区生产总值统一核算如何进行？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：从核算</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2019</span><span style="font-size: 12pt; font-family: 宋体">年地区生产总值全年数据起，我国开始正式实施地区生产总值统一核算改革。省级地区生产总值统一核算由国家统计局统一领导、组织和实施，各省（区、市）统计局参与核算方法研究和数据核算工作，依据统一的核算方法，按照基础数据搜集、集中统一核算、核算结果反馈三个主要业务流程，共同核算地区生产总值，实现地区生产总值汇总数与全国数基本衔接。市、县级生产总值统一核算由上一级统计部门参照国家地区生产总值统一核算实施方案自行开展。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">16 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：什么是存量与流量？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：存量与流量是反映经济状况的两类指标。存量是某一时点结存的量，体现了某一时点上持有的经济价值或物量；流量是一段时期内累计发生的量，反映了一段时期内经济价值或物量的产生、转换、交换、转移和消失，体现一个时期内经济价值或物量的变化。期初存量与本期对应的流量之和形成期末存量。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　经济运行过程中的许多流量都有与其直接对应的存量，如本期存款与存款余额、本期贷款与贷款余额，但也有一些流量没有与其直接对应的存量，如劳动者报酬、进出口额等。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+</div></div>
+								</p>
+							</div>
+						</div>
+						<div class="mobile-content pchide">
+							<div class="mobile_video" style="display: none;">
+								<!-- <video width="658" height="370" controls>
+									<source src="movie.mp4" type="video/mp4">
+									<source src="movie.ogg" type="video/ogg">
+									您的浏览器不支持Video标签。
+								</video> -->
+							</div>
+							<div class="mobile-news-content">
+								<p>
+									<div class=TRS_Editor><div class="TRS_PreAppend" style="overflow-x: hidden; word-break: break-all">
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：国内生产总值（</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span></b><b><span style="font-size: 12pt; font-family: 宋体">）是如何进行核算的？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：国内生产总值（</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">）核算有三种方法，即生产法、收入法和支出法，三种方法从不同角度反映国民经济生产活动最终成果。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1. </span><span style="font-size: 12pt; font-family: 宋体">生产法是从常住单位在生产过程中创造新增价值的角度，衡量核算期内生产活动最终成果的方法。即从生产过程中创造的货物和服务价值中，扣除生产过程中投入的中间货物和服务价值，得到增加值。将国民经济各行业生产法增加值相加，得到生产法国内生产总值。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　生产法核算公式：</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p align="center" class="MsoNormal" style="text-align: center"><span lang="EN-US"><img width="454" height="42" alt="" oldsrc="W020231009437460135392.jpg" v:shapes="图片_x0020_1" src="./W020231009437460135392.jpg" /></span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2. </span><span style="font-size: 12pt; font-family: 宋体">收入法是从常住单位在生产过程中形成收入角度来反映核算期内生产活动最终成果的方法。按照这种核算方法，增加值由劳动者报酬、生产税净额、固定资产折旧和营业盈余四部分相加得到。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　收入法核算公式：</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP=</span><span style="font-size: 12pt; font-family: 宋体">劳动者报酬</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">+</span><span style="font-size: 12pt; font-family: 宋体">生产税净额</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">+</span><span style="font-size: 12pt; font-family: 宋体">固定资产折旧</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">+</span><span style="font-size: 12pt; font-family: 宋体">营业盈余</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">3. </span><span style="font-size: 12pt; font-family: 宋体">支出法是从货物和服务最终使用的角度，衡量所有常住单位核算期内生产活动最终成果的方法。包括最终消费支出、资本形成总额、货物和服务净出口三部分。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　支出法核算公式：</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP=</span><span style="font-size: 12pt; font-family: 宋体">最终消费支出</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">+</span><span style="font-size: 12pt; font-family: 宋体">资本形成总额</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">+</span><span style="font-size: 12pt; font-family: 宋体">货物和服务净出口</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　理论上，通过三种不同方法核算的国内生产总值结果应当一致，但在实际操作过程中，由于资料来源不同，不同计算方法所得出的结果会出现差异，这种差异称为统计误差，统计误差在可接受的范围内允许存在。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：我国如何核算季度</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span></b><b><span style="font-size: 12pt; font-family: 宋体">？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：我国季度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">核算是采取分行业核算的方式，即先核算《国民经济行业分类》中各行业的季度现价增加值和不变价增加值，再分别加总得到季度现价</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">和不变价</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">。季度现价增加值核算主要采用增加率法、相关价值量指标推算法以及利用不变价推算现价等方法。季度不变价增加值核算主要采用价格指数缩减法和相关物量指数外推法。具体核算方法可以参考每季度发布的季度核算说明。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">3 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：季度和年度国民经济核算的数据如何查找？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：季度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">初步核算数一般于季后</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">15</span><span style="font-size: 12pt; font-family: 宋体">日左右在季度国民经济运行情况新闻发布会、国家统计局官方网站（</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">www.stats.gov.cn</span><span style="font-size: 12pt; font-family: 宋体">）、《中国经济景气月报》上发布，具体日期参考当年《国家统计局主要统计信息发布日程表》。季度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">最终核实数于隔年</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1</span><span style="font-size: 12pt; font-family: 宋体">月份在国家统计数据发布库（</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">http://data.stats.gov.cn/</span><span style="font-size: 12pt; font-family: 宋体">）、《中国经济景气月报》上发布。对于</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1992</span><span style="font-size: 12pt; font-family: 宋体">年</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1</span><span style="font-size: 12pt; font-family: 宋体">季度以来的季度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据时间序列，可以通过国家统计数据发布库进行查询。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　年度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">初步核算数一般于次年</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1</span><span style="font-size: 12pt; font-family: 宋体">月</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">20</span><span style="font-size: 12pt; font-family: 宋体">日左右，在年度国民经济运行情况新闻发布会、国家统计局官方网站、《中国经济景气月报》上发布。年度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">最终核实数于隔年的</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1</span><span style="font-size: 12pt; font-family: 宋体">月份，在国家统计局官方网站以公告的形式发布；同时，年度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">最终核实数还在隔年的《中国统计摘要》和《中国统计年鉴》上发布。国家统计数据发布库将同步更新年度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">最终核实数，并提供历史数据。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">4 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span></b><b><span style="font-size: 12pt; font-family: 宋体">增长率是如何计算的？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">增长率通常指的是</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">不变价增长速度，它等于当期的不变价</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">除以上年同期同基期不变价</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">再减去</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">100%</span><span style="font-size: 12pt; font-family: 宋体">。其中，我国不变价</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">采取分行业核算的方法，即先核算各行业不变价增加值，再将各行业不变价增加值加总得到不变价</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">。不同行业的不变价增加值核算方法也有所不同，如物量指数外推法、价格指数缩减法等，具体核算方法可以参考年度和季度核算说明。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">5 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：为什么要对</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span></b><b><span style="font-size: 12pt; font-family: 宋体">进行修订？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：对</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据进行修订是国际上的通行做法。世界各国</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据都不是一锤定音，一次核算就固定不变，必须根据更加完整、可靠的基础数据不断修订。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据需要大量的基础资料进行核算，基础资料获得的越充分、质量越好，</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据的准确性越高，越能比较好地反映国民经济发展的实际情况。</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">初步核算时，各国主要利用进度统计资料，采用相关指标推算的方法进行，是因为初步核算数据通常更注重时效性，一定程度上牺牲了基础资料的完整性、详细性和可靠性。当之后获得了比较健全的基础资料时，就需要对以前核算的</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据进行修订，使其更加准确地反映经济发展实际情况。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　此外，</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">核算的某些概念、分类和计算方法的变化往往引起</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据的变动，如果不对历史数据做相应的修订，这些概念、分类和计算方法变化前后的</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据就失去可比性和一致性。比如，全国经济普查提供了比较全面系统的基础资料，利用这些资料计算出来的</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据与利用经常性资料来源计算的</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;"> GDP</span><span style="font-size: 12pt; font-family: 宋体">数据往往有一定的出入，就需要对一定时期的历史数据进行修订，以保持相应时期的</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;"> GDP</span><span style="font-size: 12pt; font-family: 宋体">数据的可比性和一致性。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">6 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：二手交易是否计入</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span></b><b><span style="font-size: 12pt; font-family: 宋体">？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：二手交易的增值不计入</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">，但为完成二手交易所提供的服务价值计入</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">。以房产销售为例，二手房的增值不计入</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">，因为此活动并未创造新的生产成果；但是中介机构（如果有）提供的信息咨询服务要计入增加值，因为这部分服务具有其相应的产出与价值。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">7 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：投入产出表应该如何查找？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：全国投入产出表（或投入产出延长表）可以通过以下三种方式查找：一是出版物《中国投入产出表》。可查询</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1987</span><span style="font-size: 12pt; font-family: 宋体">年以来逢</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2</span><span style="font-size: 12pt; font-family: 宋体">、逢</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">7</span><span style="font-size: 12pt; font-family: 宋体">年份的全国投入产出表，资料较为丰富。二是在历年《中国统计年鉴》的“国民经济核算”章节，可查询</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1987</span><span style="font-size: 12pt; font-family: 宋体">年以来逢</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2</span><span style="font-size: 12pt; font-family: 宋体">、逢</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">7</span><span style="font-size: 12pt; font-family: 宋体">年份的全国投入产出表，逢</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">0</span><span style="font-size: 12pt; font-family: 宋体">、逢</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">5</span><span style="font-size: 12pt; font-family: 宋体">年份的全国投入产出延长表。三是国家统计数据发布库。可查询</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2002</span><span style="font-size: 12pt; font-family: 宋体">年以来的全国投入产出表和全国投入产出延长表。具体链接如下：</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">http://data.stats.gov.cn/</span><span style="font-size: 12pt; font-family: 宋体">。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">8 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：年度</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span></b><b><span style="font-size: 12pt; font-family: 宋体">数据发布后，需要对季度数据做什么样的调整？如何调整？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：按照国家统计局最新改革的</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">核算和数据发布制度规定，中国季度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">核算分为初步核算和最终核实两个步骤。通常，年度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">最终核实后，要对季度数据进行修订，称为常规修订；在开展全国经济普查，发现对</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据有较大影响的新的基础资料，或计算方法及分类标准发生变化后而对年度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">历史数据进行修订后，也要对季度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">历史数据进行相应修订，称为全面修订。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　中国目前对季度</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">数据修订的方法是比例衔接法，即利用年度基准值与年内四个季度汇总数的差率调整季度数据的方法。主要步骤是：首先利用比例衔接法对国民经济各行业现价和不变价增加值分别进行衔接，将衔接后的现价和不变价分行业增加值分别加总得到</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">和三次产业的现价和不变价数据。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">9 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：在哪儿能查到“中国居民储蓄率”，该指标如何计算？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：我局未发布“中国居民储蓄率”，但居民储蓄率可通过“中国资金流量表”相关数据计算，具体公式如下：</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　居民储蓄率</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">=</span><span style="font-size: 12pt; font-family: 宋体">住户部门总储蓄</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;"> / </span><span style="font-size: 12pt; font-family: 宋体">住户部门可支配收入</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　其中，住户部门总储蓄</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">=</span><span style="font-size: 12pt; font-family: 宋体">住户部门可支配收入—住户部门最终消费。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">10 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：在哪儿可以查到我国总产出数据？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：分行业总产出数据暂未公布。有关年度的投入产出表中可以查到该年度分产品部门总产出数据。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">11 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：第一、二、三产业对</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span></b><b><span style="font-size: 12pt; font-family: 宋体">的贡献率如何计算？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：三次产业贡献率是指三次产业对国内生产总值增长的贡献率，等于各产业增加值增量与</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">增量之比。增加值增量均按不变价格计算。这就要求计算增量的前后两个年份应该是以同一个年份为不变价基期的，这样才能保证两个数据的可比性。我国自开始核算国内生产总值以来，共有</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1952</span><span style="font-size: 12pt; font-family: 宋体">年、</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1957</span><span style="font-size: 12pt; font-family: 宋体">年、</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1970</span><span style="font-size: 12pt; font-family: 宋体">年、</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1980</span><span style="font-size: 12pt; font-family: 宋体">年、</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1990</span><span style="font-size: 12pt; font-family: 宋体">年、</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2000</span><span style="font-size: 12pt; font-family: 宋体">年、</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2005</span><span style="font-size: 12pt; font-family: 宋体">年、</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2010</span><span style="font-size: 12pt; font-family: 宋体">年、</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2015</span><span style="font-size: 12pt; font-family: 宋体">年、</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2020</span><span style="font-size: 12pt; font-family: 宋体">年</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">10</span><span style="font-size: 12pt; font-family: 宋体">个不变价基期，因此计算三次产业贡献率时也应采用分段基期。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">12 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：支出法国内生产总值与社会消费品零售总额、固定资产投资、货物进出口三个数据之间有何差别？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：按支出法核算的国内生产总值可分为最终消费支出、资本形成总额、货物和服务净出口。我局发布的统计数据中，有社会消费品零售总额、固定资产投资和进出口顺（逆）差等指标。在使用这些数据时，需要注意分清各指标之间的差别。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">1. </span><span style="font-size: 12pt; font-family: 宋体">最终消费支出中的居民消费支出与社会消费品零售总额的差别。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　居民消费支出指常住住户为了直接满足生活需要在国内外市场上购买和使用货物及服务的消费支出，包括直接用货币购买的货物和服务，也包括通过实物报酬形式得到的货物和服务以及居民自产自用的货物，还包括虚拟计算的自有住房服务和间接计算的金融中介服务。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　社会消费品零售总额是指企业（单位、个体户）通过交易直接售给个人和社会集团非生产、非经营用的实物商品金额，以及提供餐饮服务所取得的收入金额。个人包括城乡居民和入境人员，社会集团包括机关、社会团体、部队、学校、企事业单位、居委会或村委会等。社会消费品零售总额中销售给居民的部分直接构成居民消费支出中的货物消费及餐饮服务消费，是计算居民消费支出的资料来源之一。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　二者的区别主要表现在五个方面：一是居民消费支出不仅包括居民对货物的最终消费支出，还包括对服务的最终消费支出，社会消费品零售总额中仅统计货物零售和餐饮服务消费，不包括除餐饮服务外的其他服务消费。二是居民消费支出包括住户以实物报酬形式获得的货物和服务以及其他虚拟消费支出，社会消费品零售总额只统计以货币形式实现的商品交易。三是居民消费支出核算我国常住住户在国内和国外的最终消费支出，社会消费品零售总额统计的是常住住户和非常住住户在我国境内所购买的消费品。四是社会消费品零售总额中包括售给机关、团体、学校、部队、企业、事业单位等社会集团的各种办公用品等，居民消费支出中不包括。五是社会消费品零售总额中包括居民自建房用建筑材料，居民消费支出不包括。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2. </span><span style="font-size: 12pt; font-family: 宋体">固定资本形成总额与固定资产投资的差别。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　固定资本形成总额是指常住单位在核算期内固定资产获得减处置的价值总额。固定资产是通过生产活动生产出来的，且使用年限在一年以上，单位价值在规定标准以上的资产。固定资本形成总额包括住宅、其他建筑和构筑物、机器和设备、培育性生物资源、知识产权产品等固定资产的获得减处置和非生产资产所有权转移费用等。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　全社会固定资产投资完成额是指以货币形式表现的，在一定时期内全社会建造和购置固定资产的工作量以及与此有关的费用总称。全社会固定资产投资完成额是计算固定资本形成总额的重要基础资料。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　二者的区别主要体现在以下两个方面。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　一是范围不同。一方面，有些固定资本形成总额并未纳入全社会固定资产投资完成额统计范围，例如，总投资</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">500</span><span style="font-size: 12pt; font-family: 宋体">万元以下的建设项目完成的投资，未经过正式立项的土地改良支出，非生产资产的所有权转移费用等，这些都没有纳入全社会固定资产投资完成额统计中，在核算固定资本形成总额时需要加以补充。另一方面，全社会固定资产投资完成额中还包括购买旧建筑、旧设备的价值和土地购置费，这些内容不是核算期内所增加的固定资产，因此核算固定资本形成总额时需要将其扣除。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　二是指标性质不同。固定资本形成总额是一个核算指标，在核算全国固定资本形成总额时，除了按照上述范围口径差异对全社会固定资产投资额进行调整外，还要利用建筑业总产值、建筑业营业税、钢材生产量、水泥生产量、大型机器设备生产量、机器设备增值税抵扣额等相关资料，对全社会固定资产投资额进行评估和调整。而全社会固定资产投资额是一个统计指标，是根据统计调查资料进行汇总得到，一般不进行调整。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">3. </span><span style="font-size: 12pt; font-family: 宋体">货物和服务净出口与海关统计的贸易顺（逆）差额的差别。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　支出法国内生产总值中的货物和服务净出口是出口减去进口后的净额，出口是常住单位向非常住单位出售或无偿转让的各种货物和服务的全部价值；进口是常住单位从非常住单位购买或无偿得到的各种货物和服务的价值。其中服务活动的提供与使用是同时发生的，一般把常住单位从非常住单位得到的服务作为进口，非常住单位从常住单位得到的服务作为出口。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　海关进出口是统计指标，指实际进出我国关境的货物总金额。按贸易方式包括一般贸易，国家间、国际组织无偿援助和赠送的物资，其他捐赠物资，来料加工装配贸易，进料加工贸易，边境小额贸易，加工贸易进口设备，租赁贸易，外商投资企业作为投资进口的设备、物品，出料加工贸易，免税外汇商品，免税品，保税监管场所进出境货物，海关特殊监管区域物流货物，海关特殊监管区域进口设备，以及其他进出口货物。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　海关进出口是计算支出法</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">中净出口的重要依据，但两者不相等，其差异主要体现在以下几方面。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　一是口径范围不同。支出法</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">中的进出口既包括货物的进出口，也包括服务的进出口；海关的进出口只包括货物的进出口。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　二是计算价格不同。支出法</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">中货物出口和进口价值都按离岸价格计算（服务出口和进口价值按交易发生时的市场价格计算）；海关进出口贸易额中的进口按到岸价格计算，出口按离岸价格计算。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　三是确认标准不同。支出法</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">中的进出口以经济所有权的转移作为衡量标准，海关进出口统计以货物进出关境为依据。例如，对于来料加工，由于货物的经济所有权没有发生变化，在支出法</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">中不计入货物进出口，只将获得的加工费记为加工服务出口；海关的货物进出口则包括来料加工的货物进出口。又如支出法</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">GDP</span><span style="font-size: 12pt; font-family: 宋体">中的出口包括非常住单位在我国境内直接购买的货物和服务，进口包括我国常住单位在国外直接购买的货物和服务；海关的进出口贸易额则不包括上述相关货物和服务。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">13 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：没有法人资格的分公司的增加值是计入总公司所在地的地区生产总值，还是计入该分公司所在地的地区生产总值？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：地区生产总值核算采用在地原则，对于满足产业活动单位条件的分公司，其增加值应计入分公司所在地的地区生产总值。统计部门在经济普查年度各省区市地区生产总值核算中，利用普查获取的产业活动单位信息，在先按法人单位进行初步核算的基础上，将产业活动单位增加值调整到其实际经营地的地区生产总值中。对于非经济普查的常规年度，在无法获取详细的产业活动单位信息时，利用上一个经济普查年度的相关比例，对按法人单位核算的初步结果进行相应调整，以得到符合在地原则的核算结果。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">14 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：房地产业增加值中居民自有住房服务的增加值如何计算？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：自有住房服务的增加值等于自有住房服务的产出减去中间投入。自有住房服务的产出即自有住房服务的价值，由于居民自有住房服务没有发生实际的租赁行为，也不存在实际市场价格，因此需要虚拟计算其服务价值。目前世界各国会根据本国国情采用不同方法核算居民自有住房服务价值，主要分为租金法和成本法。租金法，是指利用租用可比大小、位置、质量和类型的房屋所支付的租金来核算居民自有住房服务价值的方法。成本法，是指用当期自有住房的成本来核算居民自有住房服务价值的方法，自有住房的成本包括折旧、维修维护费、资金成本和房产税等，并根据住房可能获得的收益进行相应的调整。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　目前，我国居民自有住房服务价值采用成本法核算，按城镇居民和农村居民分别核算。其中，城镇居民自有住房服务价值的核算方法是，首先利用城镇住宅单位面积造价和建筑面积等资料测算出全国城镇居民住房总价值，然后按使用年限计算住房折旧，再加上修理维护费、物业管理费等中间投入，得到城镇居民自有住房服务价值，即城镇居民自有住房服务总产出。农村居民自有住房服务价值的核算方法类似，只是住房折旧率因城乡住房质量不同而有所差别，且没有物业管理费。居民自有住房服务的增加值，只包括了住房折旧价值，不虚拟计算劳动者报酬、生产税净额和营业盈余。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">15 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：地区生产总值统一核算如何进行？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：从核算</span><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">2019</span><span style="font-size: 12pt; font-family: 宋体">年地区生产总值全年数据起，我国开始正式实施地区生产总值统一核算改革。省级地区生产总值统一核算由国家统计局统一领导、组织和实施，各省（区、市）统计局参与核算方法研究和数据核算工作，依据统一的核算方法，按照基础数据搜集、集中统一核算、核算结果反馈三个主要业务流程，共同核算地区生产总值，实现地区生产总值汇总数与全国数基本衔接。市、县级生产总值统一核算由上一级统计部门参照国家地区生产总值统一核算实施方案自行开展。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: 宋体">　　</span></b><b><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">16 </span></b><b><span style="font-size: 12pt; font-family: 宋体">问：什么是存量与流量？</span></b></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　答：存量与流量是反映经济状况的两类指标。存量是某一时点结存的量，体现了某一时点上持有的经济价值或物量；流量是一段时期内累计发生的量，反映了一段时期内经济价值或物量的产生、转换、交换、转移和消失，体现一个时期内经济价值或物量的变化。期初存量与本期对应的流量之和形成期末存量。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><span style="font-size: 12pt; font-family: 宋体">　　经济运行过程中的许多流量都有与其直接对应的存量，如本期存款与存款余额、本期贷款与贷款余额，但也有一些流量没有与其直接对应的存量，如劳动者报酬、进出口额等。</span></p>
+<p class="MsoNormal"><span lang="EN-US" style="font-size: 12pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;">&nbsp;</span></p>
+</div></div>
+								</p>
+
+								<p class="editor">
+									[责任编辑:]
+								</p>
+							</div>
+						</div>
+						<div class="detail-text-xgfj—w">
+							<div class="detail-text-xgfj">
+								<ul>
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 相关链接点击显示隐藏修改 -->
+<!-- 2024年6月7日切换上线 -->
+<style>
+	.select-item-list {
+		bottom: 67px;
+	}
+</style>
+<script>
+	$(function(){
+		$('.select-list-item-w').hover(function(){},function(){
+			index = undefined;
+			$('.select-item-list-w .select-item-list').slideUp();
+			// $('.select-item-list ul').slideUp();
+			$('.select-list ul li').removeClass('select-active');
+			$('.select-list-item-w .select-list-item .select-list ul li div').removeClass('select-active-icon');
+		})
+	})
+</script>
+<div class="footer">
+	<div class="footer-select-list">
+		<div class="wrapper-content select-list-item-w">
+			<div class="select-list-item">
+				<span>相关链接</span>
+				<div class="select-list mhide">
+					<ul>
+						<li>
+							<div>
+								政府机构网站
+							</div>
+						</li>
+						<li>
+							<div>
+								地方政府网站
+							</div>
+						</li>
+						<li>
+							<div>
+								地方统计网站
+							</div>
+						</li>
+						<li>
+							<div>
+								社会团体网站
+							</div>
+						</li>
+						<li>
+							<div>
+								国际组织网站
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="select-list1 pchide">
+					<ul>
+						<li>
+							<div>
+								政府机构网站
+							</div>
+						</li>
+						<li>
+							<div>
+								地方政府网站
+							</div>
+						</li>
+						<li>
+							<div>
+								地方统计网站
+							</div>
+						</li>
+						<li>
+							<div>
+								社会团体网站
+							</div>
+						</li>
+						<li>
+							<div>
+								国际组织网站
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-rel mhide select-item-list-w">
+				<div class="select-item-list">
+					<ul style="display: block;">
+						
+							<li>
+								<a href="http://www.gov.cn/" target="_blank">
+									中央人民政府门户网站
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.fmprc.gov.cn/" target="_blank">
+									外交部
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.mod.gov.cn/" target="_blank">
+									国防部
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.ndrc.gov.cn/" target="_blank">
+									国家发展改革委
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.moe.gov.cn/" target="_blank">
+									教育部
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.most.gov.cn/" target="_blank">
+									科技部
+								</a>
+							</li>
+						
+							<li>
+								<a href="https://www.miit.gov.cn/" target="_blank">
+									工业和信息化部
+								</a>
+							</li>
+						
+							<li>
+								<a href="https://www.neac.gov.cn/" target="_blank">
+									国家民委
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.mps.gov.cn/n16/index.html" target="_blank">
+									公安部
+								</a>
+							</li>
+						
+							<li>
+								<a href="#" target="_blank">
+									国家安全部
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.mca.gov.cn/" target="_blank">
+									民政部
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.moj.gov.cn/" target="_blank">
+									司法部
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.mof.gov.cn/" target="_blank">
+									财政部
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.mohrss.gov.cn/" target="_blank">
+									人力资源社会保障部
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.mnr.gov.cn/" target="_blank">
+									自然资源部
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.mee.gov.cn/" target="_blank">
+									生态环境部
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.mohurd.gov.cn/" target="_blank">
+									住房城乡建设部
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.mot.gov.cn/" target="_blank">
+									交通运输部
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.mwr.gov.cn/" target="_blank">
+									水利部
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.moa.gov.cn/" target="_blank">
+									农业农村部
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.mofcom.gov.cn/" target="_blank">
+									商务部
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.mct.gov.cn/" target="_blank">
+									文化和旅游部
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.nhc.gov.cn/" target="_blank">
+									国家卫生健康委
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.mva.gov.cn/" target="_blank">
+									退役军人事务部
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.mem.gov.cn/" target="_blank">
+									应急管理部
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.pbc.gov.cn/" target="_blank">
+									中国人民银行
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.audit.gov.cn/" target="_blank">
+									审计署
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.sasac.gov.cn/" target="_blank">
+									国务院国资委
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.customs.gov.cn/" target="_blank">
+									海关总署
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.chinatax.gov.cn/" target="_blank">
+									税务总局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.samr.gov.cn/" target="_blank">
+									市场监管总局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.cbirc.gov.cn/" target="_blank">
+									金融监管总局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.csrc.gov.cn/pub/newsite/" target="_blank">
+									中国证监会
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.nrta.gov.cn/" target="_blank">
+									广电总局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.sport.gov.cn/" target="_blank">
+									体育总局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.gjxfj.gov.cn/" target="_blank">
+									国家信访局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.stats.gov.cn/" target="_blank">
+									国家统计局
+								</a>
+							</li>
+						
+							<li>
+								<a href="https://www.cnipa.gov.cn/" target="_blank">
+									国家知识产权局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.cidca.gov.cn/" target="_blank">
+									国家国际发展合作署
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.nhsa.gov.cn/" target="_blank">
+									国家医保局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.counsellor.gov.cn/" target="_blank">
+									国务院参事室
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.ggj.gov.cn/" target="_blank">
+									国管局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.gov.cn/guoqing/2005-12/26/content_2652073.htm" target="_blank">
+									国务院研究室
+								</a>
+							</li>
+						
+							<li>
+								<a href="https://www.gqb.gov.cn/" target="_blank">
+									国务院侨办
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.hmo.gov.cn/" target="_blank">
+									国务院港澳办
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.gwytb.gov.cn/" target="_blank">
+									国务院台办
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.cac.gov.cn/" target="_blank">
+									国家网信办
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.scio.gov.cn/" target="_blank">
+									国务院新闻办
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://203.192.6.89/xhs/" target="_blank">
+									新华社
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.cas.cn/" target="_blank">
+									中国科学院
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.cssn.cn/" target="_blank">
+									中国社科院
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.cae.cn/cae/html/main/index.html" target="_blank">
+									中国工程院
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.drc.gov.cn/" target="_blank">
+									国务院发展研究中心
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.cnr.cn/" target="_blank">
+									中央广电总台
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.cma.gov.cn/" target="_blank">
+									中国气象局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.lswz.gov.cn/" target="_blank">
+									国家粮食和物资储备局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.nea.gov.cn/" target="_blank">
+									国家能源局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.sastind.gov.cn/" target="_blank">
+									国家国防科工局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.tobacco.gov.cn/gjyc/index.shtml" target="_blank">
+									国家烟草局
+								</a>
+							</li>
+						
+							<li>
+								<a href="https://www.nia.gov.cn/" target="_blank">
+									国家移民局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.forestry.gov.cn/" target="_blank">
+									国家林草局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.nra.gov.cn/" target="_blank">
+									国家铁路局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.caac.gov.cn/" target="_blank">
+									中国民航局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.spb.gov.cn/" target="_blank">
+									国家邮政局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.ncha.gov.cn/" target="_blank">
+									国家文物局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.natcm.gov.cn/" target="_blank">
+									国家中医药局
+								</a>
+							</li>
+						
+							<li>
+								<a href="#" target="_blank">
+									国家疾控局
+								</a>
+							</li>
+						
+							<li>
+								<a href="https://www.chinamine-safety.gov.cn/?ivk_sa=1024320u" target="_blank">
+									国家矿山安监局
+								</a>
+							</li>
+						
+							<li>
+								<a href="https://www.119.gov.cn/" target="_blank">
+									国家消防救援局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.safe.gov.cn/" target="_blank">
+									国家外汇局
+								</a>
+							</li>
+						
+							<li>
+								<a href="https://www.nmpa.gov.cn/" target="_blank">
+									国家药监局
+								</a>
+							</li>
+						
+					</ul>
+				</div>
+				<div class="select-item-list">
+					<ul style="display: block;">
+						
+							<li>
+								<a href="http://www.beijing.gov.cn/" target="_blank">
+									北京
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.tj.gov.cn/" target="_blank">
+									天津
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.hebei.gov.cn/" target="_blank">
+									河北
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.shanxi.gov.cn/" target="_blank">
+									山西
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.nmg.gov.cn" target="_blank">
+									内蒙古
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.ln.gov.cn/" target="_blank">
+									辽宁
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.jl.gov.cn/" target="_blank">
+									吉林
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.hlj.gov.cn/" target="_blank">
+									黑龙江
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.shanghai.gov.cn/" target="_blank">
+									上海
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.jiangsu.gov.cn/" target="_blank">
+									江苏
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.zj.gov.cn/" target="_blank">
+									浙江
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.ah.gov.cn/" target="_blank">
+									安徽
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.fujian.gov.cn/" target="_blank">
+									福建
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.jiangxi.gov.cn/" target="_blank">
+									江西
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.shandong.gov.cn/" target="_blank">
+									山东
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.henan.gov.cn/" target="_blank">
+									河南
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.hubei.gov.cn/" target="_blank">
+									湖北
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.hunan.gov.cn/" target="_blank">
+									湖南
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.gd.gov.cn/" target="_blank">
+									广东
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.gxzf.gov.cn/" target="_blank">
+									广西
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.hainan.gov.cn/" target="_blank">
+									海南
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.cq.gov.cn/" target="_blank">
+									重庆
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.sc.gov.cn/" target="_blank">
+									四川
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.guizhou.gov.cn/" target="_blank">
+									贵州
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.yn.gov.cn/" target="_blank">
+									云南
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.xizang.gov.cn/" target="_blank">
+									西藏
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.shaanxi.gov.cn/" target="_blank">
+									陕西
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.gansu.gov.cn/" target="_blank">
+									甘肃
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.qinghai.gov.cn/" target="_blank">
+									青海
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.nx.gov.cn/" target="_blank">
+									宁夏
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.xinjiang.gov.cn/" target="_blank">
+									新疆
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.xjbt.gov.cn/" target="_blank">
+									兵团
+								</a>
+							</li>
+						
+					</ul>
+				</div>
+				<div class="select-item-list">
+					<ul style="display: block;">
+						
+							<li>
+								<a href="https://tjj.beijing.gov.cn/" target="_blank">
+									北京局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://stats.tj.gov.cn" target="_blank">
+									天津局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.hebei.gov.cn/" target="_blank">
+									河北局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.shanxi.gov.cn/" target="_blank">
+									山西局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tj.nmg.gov.cn/" target="_blank">
+									内蒙古局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.ln.gov.cn/" target="_blank">
+									辽宁局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.jl.gov.cn/" target="_blank">
+									吉林局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.hlj.gov.cn/" target="_blank">
+									黑龙江局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.sh.gov.cn/" target="_blank">
+									上海局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tj.jiangsu.gov.cn/index.html" target="_blank">
+									江苏局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.zj.gov.cn/" target="_blank">
+									浙江局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.ah.gov.cn/" target="_blank">
+									安徽局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.fujian.gov.cn/" target="_blank">
+									福建局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.jiangxi.gov.cn/" target="_blank">
+									江西局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.shandong.gov.cn/" target="_blank">
+									山东局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.henan.gov.cn/" target="_blank">
+									河南局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.hubei.gov.cn" target="_blank">
+									湖北局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.hunan.gov.cn/" target="_blank">
+									湖南局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://stats.gd.gov.cn/" target="_blank">
+									广东局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.gxzf.gov.cn/" target="_blank">
+									广西局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://stats.hainan.gov.cn" target="_blank">
+									海南局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.cq.gov.cn/" target="_blank">
+									重庆局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.sc.gov.cn/" target="_blank">
+									四川局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://stjj.guizhou.gov.cn/" target="_blank">
+									贵州局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://stats.yn.gov.cn/" target="_blank">
+									云南局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.xizang.gov.cn/" target="_blank">
+									西藏局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.shaanxi.gov.cn/" target="_blank">
+									陕西局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.gansu.gov.cn/" target="_blank">
+									甘肃局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.qinghai.gov.cn/" target="_blank">
+									青海局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tj.nx.gov.cn/" target="_blank">
+									宁夏局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.xinjiang.gov.cn/" target="_blank">
+									新疆局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjj.xjbt.gov.cn/" target="_blank">
+									兵团局
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://tjzd.stats.gov.cn/" target="_blank">
+									天津总队
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://sxzd.stats.gov.cn/" target="_blank">
+									山西总队
+								</a>
+							</li>
+						
+							<li>
+								<a href="https://jszd.stats.gov.cn/" target="_blank">
+									江苏总队
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://zjzd.stats.gov.cn/" target="_blank">
+									浙江总队
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://ahzd.stats.gov.cn" target="_blank">
+									安徽总队
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://hazd.stats.gov.cn/" target="_blank">
+									河南总队
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://hnzd.stats.gov.cn/" target="_blank">
+									湖南总队
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://gdzd.stats.gov.cn/" target="_blank">
+									广东总队
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://ynzd.stats.gov.cn/" target="_blank">
+									云南总队
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://snzd.stats.gov.cn" target="_blank">
+									陕西总队
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://xjzd.stats.gov.cn/" target="_blank">
+									新疆总队
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://dczd.xjbt.gov.cn/" target="_blank">
+									兵团总队
+								</a>
+							</li>
+						
+					</ul>
+				</div>
+				<div class="select-item-list">
+					<ul style="display: block;">
+						
+							<li>
+								<a href="http://www.nssc.stats.gov.cn" target="_blank">
+									中国统计学会
+								</a>
+							</li>
+						
+					</ul>
+				</div>
+				<div class="select-item-list">
+					<ul style="display: block;">
+						
+							<li>
+								<a href="https://www.un.org/zh/" target="_blank">
+									联合国
+								</a>
+							</li>
+						
+							<li>
+								<a href="https://www.un.org/zh/desa" target="_blank">
+									联合国经济和社会事务部
+								</a>
+							</li>
+						
+							<li>
+								<a href="https://unstats.un.org/UNSDWebsite/" target="_blank">
+									联合国统计司
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.wto.org/" target="_blank">
+									世贸组织
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.fao.org/" target="_blank">
+									粮农组织
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.ilo.org/global/lang--en/index.htm" target="_blank">
+									劳工组织
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.imf.org/external/chinese/index.htm" target="_blank">
+									基金组织
+								</a>
+							</li>
+						
+							<li>
+								<a href="https://www.unido.org/" target="_blank">
+									工发组织
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://en.unesco.org/" target="_blank">
+									教科文组织
+								</a>
+							</li>
+						
+							<li>
+								<a href="https://www.who.int/" target="_blank">
+									世卫组织
+								</a>
+							</li>
+						
+							<li>
+								<a href="https://www.worldbank.org/en/home" target="_blank">
+									世界银行
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://europa.eu/index_en.htm" target="_blank">
+									欧盟
+								</a>
+							</li>
+						
+							<li>
+								<a href="https://www.oecd.org/" target="_blank">
+									经合组织
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.undp.org/content/undp/en/home.html" target="_blank">
+									联合国开发署
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.unfpa.org/public/" target="_blank">
+									联合国人口基金
+								</a>
+							</li>
+						
+							<li>
+								<a href="https://www.unenvironment.org/" target="_blank">
+									联合国环境署
+								</a>
+							</li>
+						
+							<li>
+								<a href="https://www.unicef.org/" target="_blank">
+									联合国儿童基金
+								</a>
+							</li>
+						
+							<li>
+								<a href="http://www.wfp.org/" target="_blank">
+									世界粮食计划署
+								</a>
+							</li>
+						
+							<li>
+								<a href="https://www.stats.gov.cn/xglj/gjzz/202302/t20230219_1913504.html" target="_blank">
+									国际组织网站
+								</a>
+							</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer_xh">
+			<!-- <a target="_blank" href="https://www.stats.gov.cn/zt_18555/xhwz/zgtjxh/">
+				中国统计学会
+			</a> -->
+			<!--<a target="_blank" href="https://www.stats.gov.cn/zt_18555/xhwz/hsyjh1/">
+				中国国民经济核算研究会
+			</a>
+			<a target="_blank" href="https://www.stats.gov.cn/zt_18555/xhwz/tjjyxh/">
+				中国统计教育学会
+			</a>-->
+		</div>
+	</div>
+	<div class="site-address">
+		<div class="ddjg">
+			<!-- <img src="/images/gtj2023_gtj2023_002.png" alt="" /> -->
+			<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='https://dcs.conac.cn/js/33/000/0000/60409131/CA330000000604091310003.js' type='text/javascript'%3E%3C/script%3E"));</script>
+		</div>
+		<div class="address">
+			<div>
+				<p>版权所有: 国家统计局&emsp;&emsp;<a href="/wzgl/202302/t20230217_1912858.html" target="_blank">联系我们</a>&emsp;&emsp;<a href="/wzgl/202302/t20230217_1912857.html" target="_blank">服务条款</a>&emsp;&emsp;<a href="/wzgl/wzdt/" target="_blank">网站地图</a></p>
+				<p>地址: 北京市西城区月坛南街57号 (100826)</p>
+				<p>
+					<span class="bbh"> <a href="https://beian.miit.gov.cn" target="_blank">京ICP备05034670号-2</a> </span>
+					<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040102700142">
+					<img class="gh" src="/images/gh.png" alt="" />
+					<span> 京公网安备 11040102700142号 </span>
+					</a>
+				</p>
+				<p>
+					<span class="bsm">网站标识码bm36000002</span>
+					<!--<span>联系方式: 010-68783311</span>-->
+				</p>
+			</div>
+		</div>
+		<div class="zfzc">
+			<!-- <img src="/images/gtj2023_zc.png" alt="" /> -->
+			<!--<script id="_jiucuo_" sitecode='bm36000002' src='../../images/jiucuo.js'></script>-->
+                         <script id="_jiucuo_" sitecode='bm36000002' src='/images/jiucuo.js'></script>
+		</div>
+	</div>
+</div>
+
+<div class="listbox pchide" id="newgwybmbox">
+	<div class="select_con" style="display: none;">
+		
+			<div class="select_con1">
+				<a href="http://www.gov.cn/" target="_blank">
+					中央人民政府门户网站
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.fmprc.gov.cn/" target="_blank">
+					外交部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.mod.gov.cn/" target="_blank">
+					国防部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.ndrc.gov.cn/" target="_blank">
+					国家发展改革委
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.moe.gov.cn/" target="_blank">
+					教育部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.most.gov.cn/" target="_blank">
+					科技部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="https://www.miit.gov.cn/" target="_blank">
+					工业和信息化部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="https://www.neac.gov.cn/" target="_blank">
+					国家民委
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.mps.gov.cn/n16/index.html" target="_blank">
+					公安部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="#" target="_blank">
+					国家安全部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.mca.gov.cn/" target="_blank">
+					民政部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.moj.gov.cn/" target="_blank">
+					司法部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.mof.gov.cn/" target="_blank">
+					财政部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.mohrss.gov.cn/" target="_blank">
+					人力资源社会保障部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.mnr.gov.cn/" target="_blank">
+					自然资源部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.mee.gov.cn/" target="_blank">
+					生态环境部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.mohurd.gov.cn/" target="_blank">
+					住房城乡建设部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.mot.gov.cn/" target="_blank">
+					交通运输部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.mwr.gov.cn/" target="_blank">
+					水利部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.moa.gov.cn/" target="_blank">
+					农业农村部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.mofcom.gov.cn/" target="_blank">
+					商务部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.mct.gov.cn/" target="_blank">
+					文化和旅游部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.nhc.gov.cn/" target="_blank">
+					国家卫生健康委
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.mva.gov.cn/" target="_blank">
+					退役军人事务部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.mem.gov.cn/" target="_blank">
+					应急管理部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.pbc.gov.cn/" target="_blank">
+					中国人民银行
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.audit.gov.cn/" target="_blank">
+					审计署
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.sasac.gov.cn/" target="_blank">
+					国务院国资委
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.customs.gov.cn/" target="_blank">
+					海关总署
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.chinatax.gov.cn/" target="_blank">
+					税务总局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.samr.gov.cn/" target="_blank">
+					市场监管总局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.cbirc.gov.cn/" target="_blank">
+					金融监管总局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.csrc.gov.cn/pub/newsite/" target="_blank">
+					中国证监会
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.nrta.gov.cn/" target="_blank">
+					广电总局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.sport.gov.cn/" target="_blank">
+					体育总局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.gjxfj.gov.cn/" target="_blank">
+					国家信访局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.stats.gov.cn/" target="_blank">
+					国家统计局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="https://www.cnipa.gov.cn/" target="_blank">
+					国家知识产权局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.cidca.gov.cn/" target="_blank">
+					国家国际发展合作署
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.nhsa.gov.cn/" target="_blank">
+					国家医保局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.counsellor.gov.cn/" target="_blank">
+					国务院参事室
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.ggj.gov.cn/" target="_blank">
+					国管局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.gov.cn/guoqing/2005-12/26/content_2652073.htm" target="_blank">
+					国务院研究室
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="https://www.gqb.gov.cn/" target="_blank">
+					国务院侨办
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.hmo.gov.cn/" target="_blank">
+					国务院港澳办
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.gwytb.gov.cn/" target="_blank">
+					国务院台办
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.cac.gov.cn/" target="_blank">
+					国家网信办
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.scio.gov.cn/" target="_blank">
+					国务院新闻办
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://203.192.6.89/xhs/" target="_blank">
+					新华社
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.cas.cn/" target="_blank">
+					中国科学院
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.cssn.cn/" target="_blank">
+					中国社科院
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.cae.cn/cae/html/main/index.html" target="_blank">
+					中国工程院
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.drc.gov.cn/" target="_blank">
+					国务院发展研究中心
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.cnr.cn/" target="_blank">
+					中央广电总台
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.cma.gov.cn/" target="_blank">
+					中国气象局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.lswz.gov.cn/" target="_blank">
+					国家粮食和物资储备局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.nea.gov.cn/" target="_blank">
+					国家能源局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.sastind.gov.cn/" target="_blank">
+					国家国防科工局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.tobacco.gov.cn/gjyc/index.shtml" target="_blank">
+					国家烟草局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="https://www.nia.gov.cn/" target="_blank">
+					国家移民局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.forestry.gov.cn/" target="_blank">
+					国家林草局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.nra.gov.cn/" target="_blank">
+					国家铁路局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.caac.gov.cn/" target="_blank">
+					中国民航局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.spb.gov.cn/" target="_blank">
+					国家邮政局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.ncha.gov.cn/" target="_blank">
+					国家文物局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.natcm.gov.cn/" target="_blank">
+					国家中医药局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="#" target="_blank">
+					国家疾控局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="https://www.chinamine-safety.gov.cn/?ivk_sa=1024320u" target="_blank">
+					国家矿山安监局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="https://www.119.gov.cn/" target="_blank">
+					国家消防救援局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.safe.gov.cn/" target="_blank">
+					国家外汇局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="https://www.nmpa.gov.cn/" target="_blank">
+					国家药监局
+				</a>
+			</div>
+		
+	</div>
+	<div class="select_con" style="display: none;">
+		
+			<div class="select_con1">
+				<a href="http://www.beijing.gov.cn/" target="_blank">
+					北京
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.tj.gov.cn/" target="_blank">
+					天津
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.hebei.gov.cn/" target="_blank">
+					河北
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.shanxi.gov.cn/" target="_blank">
+					山西
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.nmg.gov.cn" target="_blank">
+					内蒙古
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.ln.gov.cn/" target="_blank">
+					辽宁
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.jl.gov.cn/" target="_blank">
+					吉林
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.hlj.gov.cn/" target="_blank">
+					黑龙江
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.shanghai.gov.cn/" target="_blank">
+					上海
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.jiangsu.gov.cn/" target="_blank">
+					江苏
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.zj.gov.cn/" target="_blank">
+					浙江
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.ah.gov.cn/" target="_blank">
+					安徽
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.fujian.gov.cn/" target="_blank">
+					福建
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.jiangxi.gov.cn/" target="_blank">
+					江西
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.shandong.gov.cn/" target="_blank">
+					山东
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.henan.gov.cn/" target="_blank">
+					河南
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.hubei.gov.cn/" target="_blank">
+					湖北
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.hunan.gov.cn/" target="_blank">
+					湖南
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.gd.gov.cn/" target="_blank">
+					广东
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.gxzf.gov.cn/" target="_blank">
+					广西
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.hainan.gov.cn/" target="_blank">
+					海南
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.cq.gov.cn/" target="_blank">
+					重庆
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.sc.gov.cn/" target="_blank">
+					四川
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.guizhou.gov.cn/" target="_blank">
+					贵州
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.yn.gov.cn/" target="_blank">
+					云南
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.xizang.gov.cn/" target="_blank">
+					西藏
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.shaanxi.gov.cn/" target="_blank">
+					陕西
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.gansu.gov.cn/" target="_blank">
+					甘肃
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.qinghai.gov.cn/" target="_blank">
+					青海
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.nx.gov.cn/" target="_blank">
+					宁夏
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.xinjiang.gov.cn/" target="_blank">
+					新疆
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.xjbt.gov.cn/" target="_blank">
+					兵团
+				</a>
+			</div>
+		
+	</div>
+	<div class="select_con" style="display: none;">
+		
+			<div class="select_con1">
+				<a href="https://tjj.beijing.gov.cn/" target="_blank">
+					北京局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://stats.tj.gov.cn" target="_blank">
+					天津局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.hebei.gov.cn/" target="_blank">
+					河北局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.shanxi.gov.cn/" target="_blank">
+					山西局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tj.nmg.gov.cn/" target="_blank">
+					内蒙古局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.ln.gov.cn/" target="_blank">
+					辽宁局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.jl.gov.cn/" target="_blank">
+					吉林局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.hlj.gov.cn/" target="_blank">
+					黑龙江局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.sh.gov.cn/" target="_blank">
+					上海局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tj.jiangsu.gov.cn/index.html" target="_blank">
+					江苏局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.zj.gov.cn/" target="_blank">
+					浙江局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.ah.gov.cn/" target="_blank">
+					安徽局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.fujian.gov.cn/" target="_blank">
+					福建局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.jiangxi.gov.cn/" target="_blank">
+					江西局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.shandong.gov.cn/" target="_blank">
+					山东局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.henan.gov.cn/" target="_blank">
+					河南局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.hubei.gov.cn" target="_blank">
+					湖北局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.hunan.gov.cn/" target="_blank">
+					湖南局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://stats.gd.gov.cn/" target="_blank">
+					广东局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.gxzf.gov.cn/" target="_blank">
+					广西局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://stats.hainan.gov.cn" target="_blank">
+					海南局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.cq.gov.cn/" target="_blank">
+					重庆局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.sc.gov.cn/" target="_blank">
+					四川局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://stjj.guizhou.gov.cn/" target="_blank">
+					贵州局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://stats.yn.gov.cn/" target="_blank">
+					云南局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.xizang.gov.cn/" target="_blank">
+					西藏局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.shaanxi.gov.cn/" target="_blank">
+					陕西局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.gansu.gov.cn/" target="_blank">
+					甘肃局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.qinghai.gov.cn/" target="_blank">
+					青海局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tj.nx.gov.cn/" target="_blank">
+					宁夏局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.xinjiang.gov.cn/" target="_blank">
+					新疆局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjj.xjbt.gov.cn/" target="_blank">
+					兵团局
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://tjzd.stats.gov.cn/" target="_blank">
+					天津总队
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://sxzd.stats.gov.cn/" target="_blank">
+					山西总队
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="https://jszd.stats.gov.cn/" target="_blank">
+					江苏总队
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://zjzd.stats.gov.cn/" target="_blank">
+					浙江总队
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://ahzd.stats.gov.cn" target="_blank">
+					安徽总队
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://hazd.stats.gov.cn/" target="_blank">
+					河南总队
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://hnzd.stats.gov.cn/" target="_blank">
+					湖南总队
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://gdzd.stats.gov.cn/" target="_blank">
+					广东总队
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://ynzd.stats.gov.cn/" target="_blank">
+					云南总队
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://snzd.stats.gov.cn" target="_blank">
+					陕西总队
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://xjzd.stats.gov.cn/" target="_blank">
+					新疆总队
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://dczd.xjbt.gov.cn/" target="_blank">
+					兵团总队
+				</a>
+			</div>
+		
+	</div>
+	<div class="select_con" style="display: none;">
+		
+			<div class="select_con1">
+				<a href="http://www.nssc.stats.gov.cn" target="_blank">
+					中国统计学会
+				</a>
+			</div>
+		
+	</div>
+	<div class="select_con" style="display: none;">
+		
+			<div class="select_con1">
+				<a href="https://www.un.org/zh/" target="_blank">
+					联合国
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="https://www.un.org/zh/desa" target="_blank">
+					联合国经济和社会事务部
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="https://unstats.un.org/UNSDWebsite/" target="_blank">
+					联合国统计司
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.wto.org/" target="_blank">
+					世贸组织
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.fao.org/" target="_blank">
+					粮农组织
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.ilo.org/global/lang--en/index.htm" target="_blank">
+					劳工组织
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.imf.org/external/chinese/index.htm" target="_blank">
+					基金组织
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="https://www.unido.org/" target="_blank">
+					工发组织
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://en.unesco.org/" target="_blank">
+					教科文组织
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="https://www.who.int/" target="_blank">
+					世卫组织
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="https://www.worldbank.org/en/home" target="_blank">
+					世界银行
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://europa.eu/index_en.htm" target="_blank">
+					欧盟
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="https://www.oecd.org/" target="_blank">
+					经合组织
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.undp.org/content/undp/en/home.html" target="_blank">
+					联合国开发署
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.unfpa.org/public/" target="_blank">
+					联合国人口基金
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="https://www.unenvironment.org/" target="_blank">
+					联合国环境署
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="https://www.unicef.org/" target="_blank">
+					联合国儿童基金
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="http://www.wfp.org/" target="_blank">
+					世界粮食计划署
+				</a>
+			</div>
+		
+			<div class="select_con1">
+				<a href="https://www.stats.gov.cn/xglj/gjzz/202302/t20230219_1913504.html" target="_blank">
+					国际组织网站
+				</a>
+			</div>
+		
+	</div>
+</div>
+<script src="/images/esdToolsInit.js" type="text/javascript"></script>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=6267" async="async" defer="defer"></script>
+				<script src="../../../images/gtj2023_publish.js"></script>
+			</div>
+			<script>
+				var fontSize;
+				$(".big").click(function(e) {
+					$('.big').addClass('active');
+					$('.big').siblings().removeClass('active');
+					fontSize = 24;
+					$(".txt-content p").each(function(i,e){
+						$(this).css('fontSize',parseInt(fontSize) +"px");
+						$(this).find('span').css('fontSize',parseInt(fontSize) +"px");
+					});
+					$(".txt-content section,.txt-content div").each(function(i,e){
+						$(this).css('fontSize',parseInt(fontSize) +"px");
+						$(this).find('p').css('fontSize',parseInt(fontSize) +"px");
+						$(this).find('span').css('fontSize',parseInt(fontSize) +"px");
+					});
+					$(".mobile-news-content p").each(function(i,e){
+						$(this).css('fontSize',parseInt(fontSize) +"px");
+						$(this).find('span').css('fontSize',parseInt(fontSize) +"px");
+					});
+					$(".mobile-news-content section,.mobile-news-content div").each(function(i,e){
+						$(this).css('fontSize',parseInt(fontSize) +"px");
+						$(this).find('p').css('fontSize',parseInt(fontSize) +"px");
+						$(this).find('span').css('fontSize',parseInt(fontSize) +"px");
+					});
+				});
+				$(".middle").click(function(e) {
+					$('.middle').addClass('active');
+					$('.middle').siblings().removeClass('active');
+					fontSize = 20;
+					$(".txt-content p").each(function(i,e){
+						$(this).css('fontSize',parseInt(fontSize) +"px");
+						$(this).find('span').css('fontSize',parseInt(fontSize) +"px");
+					});
+					$(".txt-content section,.txt-content div").each(function(i,e){
+						$(this).css('fontSize',parseInt(fontSize) +"px");
+						$(this).find('p').css('fontSize',parseInt(fontSize) +"px");
+						$(this).find('span').css('fontSize',parseInt(fontSize) +"px");
+					});
+					$(".mobile-news-content p").each(function(i,e){
+						$(this).css('fontSize',parseInt(fontSize) +"px");
+						$(this).find('span').css('fontSize',parseInt(fontSize) +"px");
+					});
+					$(".mobile-news-content section,.mobile-news-content div").each(function(i,e){
+						$(this).css('fontSize',parseInt(fontSize) +"px");
+						$(this).find('p').css('fontSize',parseInt(fontSize) +"px");
+						$(this).find('span').css('fontSize',parseInt(fontSize) +"px");
+					});
+				});
+				$(".small").click(function(e){
+					$('.small').addClass('active');
+					$('.small').siblings().removeClass('active');
+					fontSize = 16;
+					$(".txt-content p").each(function(i,e){
+						$(this).css('fontSize',parseInt(fontSize) +"px");
+						$(this).find('span').css('fontSize',parseInt(fontSize) +"px");
+					});
+					$(".txt-content section,.txt-content div").each(function(i,e){
+						$(this).css('fontSize',parseInt(fontSize) +"px");
+						$(this).find('p').css('fontSize',parseInt(fontSize) +"px");
+						$(this).find('span').css('fontSize',parseInt(fontSize) +"px");
+					});
+					$(".mobile-news-content p").each(function(i,e){
+						$(this).css('fontSize',parseInt(fontSize) +"px");
+						$(this).find('span').css('fontSize',parseInt(fontSize) +"px");
+					});
+					$(".mobile-news-content section,.mobile-news-content div").each(function(i,e){
+						$(this).css('fontSize',parseInt(fontSize) +"px");
+						$(this).find('p').css('fontSize',parseInt(fontSize) +"px");
+						$(this).find('span').css('fontSize',parseInt(fontSize) +"px");
+					});
+				});
+				/*
+				$(".big").click(function(e) {
+					$('.big').addClass('active')
+					$('.big').siblings().removeClass('active')
+					$(".detail-text-content-title").css({
+						"font-size": "24px"
+					});
+					$('.s-title').css({
+						"font-size": "24px"
+					});
+					$('.txt-content').children().css({
+						"font-size": "18px"
+					});
+					$('.mobile-news-content').children().css({
+						"font-size": "24px"
+					});
+					e.preventDefault();
+				})
+				$(".middle").click(function(e) {
+					$('.middle').addClass('active')
+					$('.middle').siblings().removeClass('active')
+					$(".detail-text-content-title").css({
+						"font-size": "22px"
+					});
+					$('.s-title').css({
+						"font-size": "22px"
+					});
+					$('.txt-content').children().css({
+						"font-size": "16px"
+					});
+					$('.mobile-news-content').children().css({
+						"font-size": "22px"
+					});
+					e.preventDefault();
+				})
+				$(".small").click(function(e) {
+					$('.small').addClass('active')
+					$('.small').siblings().removeClass('active')
+					$(".detail-text-content-title").css({
+						"font-size": "20px"
+					});
+					$('.s-title').css({
+						"font-size": "20px"
+					});
+					$('.mobile-news-content').children().css({
+						"font-size": "20px"
+					});
+					$('.txt-content').children().css({
+						"font-size": "14px"
+					});
+					e.preventDefault();
+				})
+				*/ 
+			</script>
+
+		</body>
+
+	</html>

@@ -30,6 +30,7 @@ const old:string[]=JSON.parse(await readFile(new URL('docs/.generated/pages-mani
 for(const path of old)if(!files.includes(path)&&/^docs\/(cn|us)\/(industries|tasks)\/[a-z0-9.-]+\.md$/.test(path))await rm(new URL(path,root),{force:true})
 await put('docs/.generated/pages-manifest.json',json(files))
 await put('docs/public/exports/research.json',json(data))
+if(data.annualDetails)await put('docs/public/exports/annual-details.json',json(data.annualDetails))
 await put('docs/methodology.md',await readFile(new URL('research/methodology.md',root),'utf8'))
 await put('docs/macro-data.md',await readFile(new URL('research/macro/methodology.md',root),'utf8'))
 console.log('Generated',data.industries.filter(i=>i.selected).length,'industry pages and',data.tasks.length,'task pages. Detailed records load with their own page.')

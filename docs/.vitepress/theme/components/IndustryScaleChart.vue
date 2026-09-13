@@ -192,6 +192,7 @@ onBeforeUnmount(()=>{chart?.dispose();resize?.disconnect();window.removeEventLis
    <p v-if="selected.gap" class="scale-gap">{{selected.gap}}；占比保留为空。</p>
    <div v-if="selectedShare!==null" class="scale-share-track" role="img" :aria-label="'占'+parent?.name+' '+pct(selectedShare)"><span :style="{width:Math.max(0,Math.min(100,selectedShare))+'%'}"></span></div>
    <p class="drawer-meta">{{selected.revision}} · 发布 {{selected.releaseDate??'未注明具体日期'}}</p>
+   <p v-if="selected.qualityNote" class="drawer-meta">{{selected.qualityNote}}</p>
    <button v-if="!structure&&country==='cn'&&['cn-industry','cn-manufacturing','cn-mining','cn-utilities'].includes(trail[1]?.id??selected.id)" class="expand-in-chart" @click="historicalDetails">查看 2023 年相关产品结构与金额</button>
    <section class="drawer-children"><div class="children-heading"><h3>下一级组成</h3><span v-if="selected.children.length">{{selected.children.length}} 项</span></div>
     <p v-if="!selected.children.length" class="scale-footnote">当前资料尚未提供下一级分类与同年增加值。</p>

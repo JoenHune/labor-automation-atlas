@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "1.0",
+  "country": "CN",
+  "checkedAt": "2026-09-14",
+  "newDirectValueCount": 0,
+  "reverifiedDirectValueCount": 4,
+  "publicationReady": false,
+  "reason": "This is an independent research candidate packet. Parent must review and integrate. Parent checked National Data; see parent-crosscheck.json for greater precision on industrial totals, with no new industrial child values.",
+  "observations": [
+    {
+      "country": "CN",
+      "nodeId": "cn-industry",
+      "parentId": null,
+      "name": "工业",
+      "industryCode": "B+C+D",
+      "classification": "GB/T 4754-2017",
+      "year": 2024,
+      "value": 404519,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国全国常住生产单位；不含港澳台；工业为B+C+D门类，制造业为C门类，不局限规模以上企业",
+      "revisionStatus": "最终核实",
+      "publishedAt": "2025-12-26",
+      "checkedAt": "2026-09-14",
+      "evidenceType": "direct_fact",
+      "status": "existing_value_reverified",
+      "evidence": [
+        {
+          "sourceId": "cn-industry-gdp2024-final",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+          "locator": {
+            "table": "附件1：2024年GDP最终核实数",
+            "row": "工业",
+            "column": "现价总量（亿元）"
+          },
+          "verbatimValue": "404519",
+          "rawCells": [
+            "工业",
+            "404519",
+            "5.5",
+            "30.0"
+          ],
+          "archive": "originals/gdp2024-final.html",
+          "sha256": "b6b6b5c74b9e044818a92eb3eec356fbcd9215c9649f760db9b91eb2a282233e"
+        }
+      ]
+    },
+    {
+      "country": "CN",
+      "nodeId": "cn-manufacturing",
+      "parentId": "cn-industry",
+      "name": "制造业",
+      "industryCode": "C",
+      "classification": "GB/T 4754-2017",
+      "year": 2024,
+      "value": 334881,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国全国常住生产单位；不含港澳台；工业为B+C+D门类，制造业为C门类，不局限规模以上企业",
+      "revisionStatus": "最终核实",
+      "publishedAt": "2025-12-26",
+      "checkedAt": "2026-09-14",
+      "evidenceType": "direct_fact",
+      "status": "existing_value_reverified",
+      "evidence": [
+        {
+          "sourceId": "cn-industry-gdp2024-final",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+          "locator": {
+            "table": "附件1：2024年GDP最终核实数",
+            "row": "制造业",
+            "column": "现价总量（亿元）"
+          },
+          "verbatimValue": "334881",
+          "rawCells": [
+            "制造业",
+            "334881",
+            "5.8",
+            "24.8"
+          ],
+          "archive": "originals/gdp2024-final.html",
+          "sha256": "b6b6b5c74b9e044818a92eb3eec356fbcd9215c9649f760db9b91eb2a282233e"
+        }
+      ]
+    },
+    {
+      "country": "CN",
+      "nodeId": "cn-industry",
+      "parentId": null,
+      "name": "工业",
+      "industryCode": "B+C+D",
+      "classification": "GB/T 4754-2017",
+      "year": 2025,
+      "value": 416826,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国全国常住生产单位；不含港澳台；工业为B+C+D门类，制造业为C门类，不局限规模以上企业",
+      "revisionStatus": "初步核算",
+      "publishedAt": "2026-01-20",
+      "checkedAt": "2026-09-14",
+      "evidenceType": "direct_fact",
+      "status": "existing_value_reverified",
+      "evidence": [
+        {
+          "sourceId": "cn-industry-gdp2025-preliminary",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+          "locator": {
+            "table": "表1：2025年四季度和全年GDP初步核算数据",
+            "row": "工业",
+            "column": "绝对额（亿元）／全年"
+          },
+          "verbatimValue": "416826",
+          "rawCells": [
+            "工业",
+            "111455",
+            "416826",
+            "5.0",
+            "5.8"
+          ],
+          "archive": "originals/gdp2025-preliminary.html",
+          "sha256": "2826c38fd8d232e92cb4aa3fa3ec1b7763d40d6e0f3f17bb0c2c87811c281b2f"
+        }
+      ]
+    },
+    {
+      "country": "CN",
+      "nodeId": "cn-manufacturing",
+      "parentId": "cn-industry",
+      "name": "制造业",
+      "industryCode": "C",
+      "classification": "GB/T 4754-2017",
+      "year": 2025,
+      "value": 346747,
+      "unit": "亿元",
+      "currency": "CNY",
+      "priceBasis": "current",
+      "annualized": false,
+      "coverage": "中国全国常住生产单位；不含港澳台；工业为B+C+D门类，制造业为C门类，不局限规模以上企业",
+      "revisionStatus": "初步核算",
+      "publishedAt": "2026-01-20",
+      "checkedAt": "2026-09-14",
+      "evidenceType": "direct_fact",
+      "status": "existing_value_reverified",
+      "evidence": [
+        {
+          "sourceId": "cn-industry-gdp2025-preliminary",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+          "locator": {
+            "table": "表1：2025年四季度和全年GDP初步核算数据",
+            "row": "制造业",
+            "column": "绝对额（亿元）／全年"
+          },
+          "verbatimValue": "346747",
+          "rawCells": [
+            "#制造业",
+            "92467",
+            "346747",
+            "5.1",
+            "6.1"
+          ],
+          "archive": "originals/gdp2025-preliminary.html",
+          "sha256": "2826c38fd8d232e92cb4aa3fa3ec1b7763d40d6e0f3f17bb0c2c87811c281b2f"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "cn-industry-gdp2024-final",
+      "file": "gdp2024-final.html",
+      "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251226_1962144.html",
+      "year": 2024,
+      "publishedAt": "2025-12-26",
+      "revisionStatus": "最终核实",
+      "valueColumn": 1,
+      "table": "附件1：2024年GDP最终核实数",
+      "column": "现价总量（亿元）",
+      "sha256": "b6b6b5c74b9e044818a92eb3eec356fbcd9215c9649f760db9b91eb2a282233e",
+      "checkedAt": "2026-09-14"
+    },
+    {
+      "id": "cn-industry-gdp2025-preliminary",
+      "file": "gdp2025-preliminary.html",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202601/t20260120_1962349.html",
+      "year": 2025,
+      "publishedAt": "2026-01-20",
+      "revisionStatus": "初步核算",
+      "valueColumn": 2,
+      "table": "表1：2025年四季度和全年GDP初步核算数据",
+      "column": "绝对额（亿元）／全年",
+      "sha256": "2826c38fd8d232e92cb4aa3fa3ec1b7763d40d6e0f3f17bb0c2c87811c281b2f",
+      "checkedAt": "2026-09-14"
+    }
+  ]
+}

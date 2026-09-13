@@ -1,0 +1,1773 @@
+{
+  "checkedAt": "2026-09-14",
+  "overlappingRowsCompared": 96,
+  "allOverlapEqual": true,
+  "overlap": [
+    {
+      "nameEn": "Private industries",
+      "path": "Private industries",
+      "year": 2024,
+      "mainCell": "AE10",
+      "detailCell": "AE10",
+      "mainValue": 26001672,
+      "detailValue": 26001672,
+      "equal": true
+    },
+    {
+      "nameEn": "Agriculture, forestry, fishing, and hunting",
+      "path": "Private industries/Agriculture, forestry, fishing, and hunting",
+      "year": 2024,
+      "mainCell": "AE11",
+      "detailCell": "AE11",
+      "mainValue": 269686,
+      "detailValue": 269686,
+      "equal": true
+    },
+    {
+      "nameEn": "Farms",
+      "path": "Private industries/Agriculture, forestry, fishing, and hunting/Farms",
+      "year": 2024,
+      "mainCell": "AE12",
+      "detailCell": "AE12",
+      "mainValue": 215830,
+      "detailValue": 215830,
+      "equal": true
+    },
+    {
+      "nameEn": "Forestry, fishing, and related activities",
+      "path": "Private industries/Agriculture, forestry, fishing, and hunting/Forestry, fishing, and related activities",
+      "year": 2024,
+      "mainCell": "AE13",
+      "detailCell": "AE15",
+      "mainValue": 53856,
+      "detailValue": 53856,
+      "equal": true
+    },
+    {
+      "nameEn": "Mining",
+      "path": "Private industries/Mining",
+      "year": 2024,
+      "mainCell": "AE14",
+      "detailCell": "AE16",
+      "mainValue": 404248,
+      "detailValue": 404248,
+      "equal": true
+    },
+    {
+      "nameEn": "Oil and gas extraction",
+      "path": "Private industries/Mining/Oil and gas extraction",
+      "year": 2024,
+      "mainCell": "AE15",
+      "detailCell": "AE17",
+      "mainValue": 252608,
+      "detailValue": 252608,
+      "equal": true
+    },
+    {
+      "nameEn": "Mining, except oil and gas",
+      "path": "Private industries/Mining/Mining, except oil and gas",
+      "year": 2024,
+      "mainCell": "AE16",
+      "detailCell": "AE18",
+      "mainValue": 80799,
+      "detailValue": 80799,
+      "equal": true
+    },
+    {
+      "nameEn": "Support activities for mining",
+      "path": "Private industries/Mining/Support activities for mining",
+      "year": 2024,
+      "mainCell": "AE17",
+      "detailCell": "AE19",
+      "mainValue": 70840,
+      "detailValue": 70840,
+      "equal": true
+    },
+    {
+      "nameEn": "Utilities",
+      "path": "Private industries/Utilities",
+      "year": 2024,
+      "mainCell": "AE18",
+      "detailCell": "AE20",
+      "mainValue": 454357,
+      "detailValue": 454357,
+      "equal": true
+    },
+    {
+      "nameEn": "Construction",
+      "path": "Private industries/Construction",
+      "year": 2024,
+      "mainCell": "AE19",
+      "detailCell": "AE23",
+      "mainValue": 1305402,
+      "detailValue": 1305402,
+      "equal": true
+    },
+    {
+      "nameEn": "Manufacturing",
+      "path": "Private industries/Manufacturing",
+      "year": 2024,
+      "mainCell": "AE20",
+      "detailCell": "AE32",
+      "mainValue": 2880724,
+      "detailValue": 2880724,
+      "equal": true
+    },
+    {
+      "nameEn": "Durable goods",
+      "path": "Private industries/Manufacturing/Durable goods",
+      "year": 2024,
+      "mainCell": "AE21",
+      "detailCell": "AE33",
+      "mainValue": 1524841,
+      "detailValue": 1524841,
+      "equal": true
+    },
+    {
+      "nameEn": "Wood products",
+      "path": "Private industries/Manufacturing/Durable goods/Wood products",
+      "year": 2024,
+      "mainCell": "AE22",
+      "detailCell": "AE34",
+      "mainValue": 60171,
+      "detailValue": 60171,
+      "equal": true
+    },
+    {
+      "nameEn": "Nonmetallic mineral products",
+      "path": "Private industries/Manufacturing/Durable goods/Nonmetallic mineral products",
+      "year": 2024,
+      "mainCell": "AE23",
+      "detailCell": "AE35",
+      "mainValue": 77516,
+      "detailValue": 77516,
+      "equal": true
+    },
+    {
+      "nameEn": "Primary metals",
+      "path": "Private industries/Manufacturing/Durable goods/Primary metals",
+      "year": 2024,
+      "mainCell": "AE24",
+      "detailCell": "AE36",
+      "mainValue": 76516,
+      "detailValue": 76516,
+      "equal": true
+    },
+    {
+      "nameEn": "Fabricated metal products",
+      "path": "Private industries/Manufacturing/Durable goods/Fabricated metal products",
+      "year": 2024,
+      "mainCell": "AE25",
+      "detailCell": "AE39",
+      "mainValue": 190535,
+      "detailValue": 190535,
+      "equal": true
+    },
+    {
+      "nameEn": "Machinery",
+      "path": "Private industries/Manufacturing/Durable goods/Machinery",
+      "year": 2024,
+      "mainCell": "AE26",
+      "detailCell": "AE40",
+      "mainValue": 208621,
+      "detailValue": 208621,
+      "equal": true
+    },
+    {
+      "nameEn": "Computer and electronic products",
+      "path": "Private industries/Manufacturing/Durable goods/Computer and electronic products",
+      "year": 2024,
+      "mainCell": "AE27",
+      "detailCell": "AE45",
+      "mainValue": 299783,
+      "detailValue": 299783,
+      "equal": true
+    },
+    {
+      "nameEn": "Electrical equipment, appliances, and components",
+      "path": "Private industries/Manufacturing/Durable goods/Electrical equipment, appliances, and components",
+      "year": 2024,
+      "mainCell": "AE28",
+      "detailCell": "AE51",
+      "mainValue": 80171,
+      "detailValue": 80171,
+      "equal": true
+    },
+    {
+      "nameEn": "Motor vehicles, bodies and trailers, and parts",
+      "path": "Private industries/Manufacturing/Durable goods/Motor vehicles, bodies and trailers, and parts",
+      "year": 2024,
+      "mainCell": "AE29",
+      "detailCell": "AE52",
+      "mainValue": 185854,
+      "detailValue": 185854,
+      "equal": true
+    },
+    {
+      "nameEn": "Other transportation equipment",
+      "path": "Private industries/Manufacturing/Durable goods/Other transportation equipment",
+      "year": 2024,
+      "mainCell": "AE30",
+      "detailCell": "AE57",
+      "mainValue": 197330,
+      "detailValue": 197330,
+      "equal": true
+    },
+    {
+      "nameEn": "Furniture and related products",
+      "path": "Private industries/Manufacturing/Durable goods/Furniture and related products",
+      "year": 2024,
+      "mainCell": "AE31",
+      "detailCell": "AE60",
+      "mainValue": 34448,
+      "detailValue": 34448,
+      "equal": true
+    },
+    {
+      "nameEn": "Miscellaneous manufacturing",
+      "path": "Private industries/Manufacturing/Durable goods/Miscellaneous manufacturing",
+      "year": 2024,
+      "mainCell": "AE32",
+      "detailCell": "AE61",
+      "mainValue": 113897,
+      "detailValue": 113897,
+      "equal": true
+    },
+    {
+      "nameEn": "Nondurable goods",
+      "path": "Private industries/Manufacturing/Nondurable goods",
+      "year": 2024,
+      "mainCell": "AE33",
+      "detailCell": "AE64",
+      "mainValue": 1355884,
+      "detailValue": 1355884,
+      "equal": true
+    },
+    {
+      "nameEn": "Food and beverage and tobacco products",
+      "path": "Private industries/Manufacturing/Nondurable goods/Food and beverage and tobacco products",
+      "year": 2024,
+      "mainCell": "AE34",
+      "detailCell": "AE65",
+      "mainValue": 360176,
+      "detailValue": 360176,
+      "equal": true
+    },
+    {
+      "nameEn": "Textile mills and textile product mills",
+      "path": "Private industries/Manufacturing/Nondurable goods/Textile mills and textile product mills",
+      "year": 2024,
+      "mainCell": "AE35",
+      "detailCell": "AE69",
+      "mainValue": 16316,
+      "detailValue": 16316,
+      "equal": true
+    },
+    {
+      "nameEn": "Apparel and leather and allied products",
+      "path": "Private industries/Manufacturing/Nondurable goods/Apparel and leather and allied products",
+      "year": 2024,
+      "mainCell": "AE36",
+      "detailCell": "AE70",
+      "mainValue": 12453,
+      "detailValue": 12453,
+      "equal": true
+    },
+    {
+      "nameEn": "Paper products",
+      "path": "Private industries/Manufacturing/Nondurable goods/Paper products",
+      "year": 2024,
+      "mainCell": "AE37",
+      "detailCell": "AE71",
+      "mainValue": 74433,
+      "detailValue": 74433,
+      "equal": true
+    },
+    {
+      "nameEn": "Printing and related support activities",
+      "path": "Private industries/Manufacturing/Nondurable goods/Printing and related support activities",
+      "year": 2024,
+      "mainCell": "AE38",
+      "detailCell": "AE72",
+      "mainValue": 41301,
+      "detailValue": 41301,
+      "equal": true
+    },
+    {
+      "nameEn": "Petroleum and coal products",
+      "path": "Private industries/Manufacturing/Nondurable goods/Petroleum and coal products",
+      "year": 2024,
+      "mainCell": "AE39",
+      "detailCell": "AE73",
+      "mainValue": 195712,
+      "detailValue": 195712,
+      "equal": true
+    },
+    {
+      "nameEn": "Chemical products",
+      "path": "Private industries/Manufacturing/Nondurable goods/Chemical products",
+      "year": 2024,
+      "mainCell": "AE40",
+      "detailCell": "AE74",
+      "mainValue": 554021,
+      "detailValue": 554021,
+      "equal": true
+    },
+    {
+      "nameEn": "Plastics and rubber products",
+      "path": "Private industries/Manufacturing/Nondurable goods/Plastics and rubber products",
+      "year": 2024,
+      "mainCell": "AE41",
+      "detailCell": "AE79",
+      "mainValue": 101471,
+      "detailValue": 101471,
+      "equal": true
+    },
+    {
+      "nameEn": "Wholesale trade",
+      "path": "Private industries/Wholesale trade",
+      "year": 2024,
+      "mainCell": "AE42",
+      "detailCell": "AE80",
+      "mainValue": 1706289,
+      "detailValue": 1706289,
+      "equal": true
+    },
+    {
+      "nameEn": "Retail trade",
+      "path": "Private industries/Retail trade",
+      "year": 2024,
+      "mainCell": "AE43",
+      "detailCell": "AE92",
+      "mainValue": 1849039,
+      "detailValue": 1849039,
+      "equal": true
+    },
+    {
+      "nameEn": "Motor vehicle and parts dealers",
+      "path": "Private industries/Retail trade/Motor vehicle and parts dealers",
+      "year": 2024,
+      "mainCell": "AE44",
+      "detailCell": "AE93",
+      "mainValue": 356851,
+      "detailValue": 356851,
+      "equal": true
+    },
+    {
+      "nameEn": "Food and beverage stores",
+      "path": "Private industries/Retail trade/Food and beverage stores",
+      "year": 2024,
+      "mainCell": "AE45",
+      "detailCell": "AE94",
+      "mainValue": 236132,
+      "detailValue": 236132,
+      "equal": true
+    },
+    {
+      "nameEn": "General merchandise stores",
+      "path": "Private industries/Retail trade/General merchandise stores",
+      "year": 2024,
+      "mainCell": "AE46",
+      "detailCell": "AE95",
+      "mainValue": 224084,
+      "detailValue": 224084,
+      "equal": true
+    },
+    {
+      "nameEn": "Other retail",
+      "path": "Private industries/Retail trade/Other retail",
+      "year": 2024,
+      "mainCell": "AE47",
+      "detailCell": "AE96",
+      "mainValue": 1031973,
+      "detailValue": 1031973,
+      "equal": true
+    },
+    {
+      "nameEn": "Transportation and warehousing",
+      "path": "Private industries/Transportation and warehousing",
+      "year": 2024,
+      "mainCell": "AE48",
+      "detailCell": "AE103",
+      "mainValue": 987302,
+      "detailValue": 987302,
+      "equal": true
+    },
+    {
+      "nameEn": "Air transportation",
+      "path": "Private industries/Transportation and warehousing/Air transportation",
+      "year": 2024,
+      "mainCell": "AE49",
+      "detailCell": "AE104",
+      "mainValue": 175712,
+      "detailValue": 175712,
+      "equal": true
+    },
+    {
+      "nameEn": "Rail transportation",
+      "path": "Private industries/Transportation and warehousing/Rail transportation",
+      "year": 2024,
+      "mainCell": "AE50",
+      "detailCell": "AE105",
+      "mainValue": 53169,
+      "detailValue": 53169,
+      "equal": true
+    },
+    {
+      "nameEn": "Water transportation",
+      "path": "Private industries/Transportation and warehousing/Water transportation",
+      "year": 2024,
+      "mainCell": "AE51",
+      "detailCell": "AE106",
+      "mainValue": 24335,
+      "detailValue": 24335,
+      "equal": true
+    },
+    {
+      "nameEn": "Truck transportation",
+      "path": "Private industries/Transportation and warehousing/Truck transportation",
+      "year": 2024,
+      "mainCell": "AE52",
+      "detailCell": "AE107",
+      "mainValue": 257356,
+      "detailValue": 257356,
+      "equal": true
+    },
+    {
+      "nameEn": "Transit and ground passenger transportation",
+      "path": "Private industries/Transportation and warehousing/Transit and ground passenger transportation",
+      "year": 2024,
+      "mainCell": "AE53",
+      "detailCell": "AE108",
+      "mainValue": 83850,
+      "detailValue": 83850,
+      "equal": true
+    },
+    {
+      "nameEn": "Pipeline transportation",
+      "path": "Private industries/Transportation and warehousing/Pipeline transportation",
+      "year": 2024,
+      "mainCell": "AE54",
+      "detailCell": "AE109",
+      "mainValue": 48501,
+      "detailValue": 48501,
+      "equal": true
+    },
+    {
+      "nameEn": "Other transportation and support activities",
+      "path": "Private industries/Transportation and warehousing/Other transportation and support activities",
+      "year": 2024,
+      "mainCell": "AE55",
+      "detailCell": "AE110",
+      "mainValue": 216231,
+      "detailValue": 216231,
+      "equal": true
+    },
+    {
+      "nameEn": "Warehousing and storage",
+      "path": "Private industries/Transportation and warehousing/Warehousing and storage",
+      "year": 2024,
+      "mainCell": "AE56",
+      "detailCell": "AE113",
+      "mainValue": 128148,
+      "detailValue": 128148,
+      "equal": true
+    },
+    {
+      "nameEn": "Information",
+      "path": "Private industries/Information",
+      "year": 2024,
+      "mainCell": "AE57",
+      "detailCell": "AE114",
+      "mainValue": 1592692,
+      "detailValue": 1592692,
+      "equal": true
+    },
+    {
+      "nameEn": "Publishing industries, except internet (includes software)",
+      "path": "Private industries/Information/Publishing industries, except internet (includes software)",
+      "year": 2024,
+      "mainCell": "AE58",
+      "detailCell": "AE115",
+      "mainValue": 442706,
+      "detailValue": 442706,
+      "equal": true
+    },
+    {
+      "nameEn": "Motion picture and sound recording industries",
+      "path": "Private industries/Information/Motion picture and sound recording industries",
+      "year": 2024,
+      "mainCell": "AE59",
+      "detailCell": "AE118",
+      "mainValue": 119385,
+      "detailValue": 119385,
+      "equal": true
+    },
+    {
+      "nameEn": "Broadcasting and telecommunications",
+      "path": "Private industries/Information/Broadcasting and telecommunications",
+      "year": 2024,
+      "mainCell": "AE60",
+      "detailCell": "AE119",
+      "mainValue": 501545,
+      "detailValue": 501545,
+      "equal": true
+    },
+    {
+      "nameEn": "Data processing, internet publishing, and other information services",
+      "path": "Private industries/Information/Data processing, internet publishing, and other information services",
+      "year": 2024,
+      "mainCell": "AE61",
+      "detailCell": "AE124",
+      "mainValue": 529056,
+      "detailValue": 529056,
+      "equal": true
+    },
+    {
+      "nameEn": "Finance, insurance, real estate, rental, and leasing",
+      "path": "Private industries/Finance, insurance, real estate, rental, and leasing",
+      "year": 2024,
+      "mainCell": "AE62",
+      "detailCell": "AE127",
+      "mainValue": 6281555,
+      "detailValue": 6281555,
+      "equal": true
+    },
+    {
+      "nameEn": "Finance and insurance",
+      "path": "Private industries/Finance, insurance, real estate, rental, and leasing/Finance and insurance",
+      "year": 2024,
+      "mainCell": "AE63",
+      "detailCell": "AE128",
+      "mainValue": 2229155,
+      "detailValue": 2229155,
+      "equal": true
+    },
+    {
+      "nameEn": "Federal Reserve banks, credit intermediation, and related activities",
+      "path": "Private industries/Finance, insurance, real estate, rental, and leasing/Finance and insurance/Federal Reserve banks, credit intermediation, and related activities",
+      "year": 2024,
+      "mainCell": "AE64",
+      "detailCell": "AE129",
+      "mainValue": 1013285,
+      "detailValue": 1013285,
+      "equal": true
+    },
+    {
+      "nameEn": "Securities, commodity contracts, and investments",
+      "path": "Private industries/Finance, insurance, real estate, rental, and leasing/Finance and insurance/Securities, commodity contracts, and investments",
+      "year": 2024,
+      "mainCell": "AE65",
+      "detailCell": "AE130",
+      "mainValue": 396082,
+      "detailValue": 396082,
+      "equal": true
+    },
+    {
+      "nameEn": "Insurance carriers and related activities",
+      "path": "Private industries/Finance, insurance, real estate, rental, and leasing/Finance and insurance/Insurance carriers and related activities",
+      "year": 2024,
+      "mainCell": "AE66",
+      "detailCell": "AE131",
+      "mainValue": 791806,
+      "detailValue": 791806,
+      "equal": true
+    },
+    {
+      "nameEn": "Funds, trusts, and other financial vehicles",
+      "path": "Private industries/Finance, insurance, real estate, rental, and leasing/Finance and insurance/Funds, trusts, and other financial vehicles",
+      "year": 2024,
+      "mainCell": "AE67",
+      "detailCell": "AE135",
+      "mainValue": 27981,
+      "detailValue": 27981,
+      "equal": true
+    },
+    {
+      "nameEn": "Real estate and rental and leasing",
+      "path": "Private industries/Finance, insurance, real estate, rental, and leasing/Real estate and rental and leasing",
+      "year": 2024,
+      "mainCell": "AE68",
+      "detailCell": "AE136",
+      "mainValue": 4052400,
+      "detailValue": 4052400,
+      "equal": true
+    },
+    {
+      "nameEn": "Real estate",
+      "path": "Private industries/Finance, insurance, real estate, rental, and leasing/Real estate and rental and leasing/Real estate",
+      "year": 2024,
+      "mainCell": "AE69",
+      "detailCell": "AE137",
+      "mainValue": 3684230,
+      "detailValue": 3684230,
+      "equal": true
+    },
+    {
+      "nameEn": "Housing",
+      "path": "Private industries/Finance, insurance, real estate, rental, and leasing/Real estate and rental and leasing/Real estate/Housing",
+      "year": 2024,
+      "mainCell": "AE70",
+      "detailCell": "AE138",
+      "mainValue": 2853988,
+      "detailValue": 2853988,
+      "equal": true
+    },
+    {
+      "nameEn": "Other real estate",
+      "path": "Private industries/Finance, insurance, real estate, rental, and leasing/Real estate and rental and leasing/Real estate/Other real estate",
+      "year": 2024,
+      "mainCell": "AE71",
+      "detailCell": "AE141",
+      "mainValue": 830242,
+      "detailValue": 830242,
+      "equal": true
+    },
+    {
+      "nameEn": "Rental and leasing services and lessors of intangible assets",
+      "path": "Private industries/Finance, insurance, real estate, rental, and leasing/Real estate and rental and leasing/Rental and leasing services and lessors of intangible assets",
+      "year": 2024,
+      "mainCell": "AE72",
+      "detailCell": "AE142",
+      "mainValue": 368169,
+      "detailValue": 368169,
+      "equal": true
+    },
+    {
+      "nameEn": "Professional and business services",
+      "path": "Private industries/Professional and business services",
+      "year": 2024,
+      "mainCell": "AE73",
+      "detailCell": "AE143",
+      "mainValue": 3811104,
+      "detailValue": 3811104,
+      "equal": true
+    },
+    {
+      "nameEn": "Professional, scientific, and technical services",
+      "path": "Private industries/Professional and business services/Professional, scientific, and technical services",
+      "year": 2024,
+      "mainCell": "AE74",
+      "detailCell": "AE144",
+      "mainValue": 2355069,
+      "detailValue": 2355069,
+      "equal": true
+    },
+    {
+      "nameEn": "Legal services",
+      "path": "Private industries/Professional and business services/Professional, scientific, and technical services/Legal services",
+      "year": 2024,
+      "mainCell": "AE75",
+      "detailCell": "AE145",
+      "mainValue": 387719,
+      "detailValue": 387719,
+      "equal": true
+    },
+    {
+      "nameEn": "Computer systems design and related services",
+      "path": "Private industries/Professional and business services/Professional, scientific, and technical services/Computer systems design and related services",
+      "year": 2024,
+      "mainCell": "AE76",
+      "detailCell": "AE146",
+      "mainValue": 522249,
+      "detailValue": 522249,
+      "equal": true
+    },
+    {
+      "nameEn": "Miscellaneous professional, scientific, and technical services",
+      "path": "Private industries/Professional and business services/Professional, scientific, and technical services/Miscellaneous professional, scientific, and technical services",
+      "year": 2024,
+      "mainCell": "AE77",
+      "detailCell": "AE147",
+      "mainValue": 1445101,
+      "detailValue": 1445101,
+      "equal": true
+    },
+    {
+      "nameEn": "Management of companies and enterprises",
+      "path": "Private industries/Professional and business services/Management of companies and enterprises",
+      "year": 2024,
+      "mainCell": "AE78",
+      "detailCell": "AE154",
+      "mainValue": 544333,
+      "detailValue": 544333,
+      "equal": true
+    },
+    {
+      "nameEn": "Administrative and waste management services",
+      "path": "Private industries/Professional and business services/Administrative and waste management services",
+      "year": 2024,
+      "mainCell": "AE79",
+      "detailCell": "AE155",
+      "mainValue": 911703,
+      "detailValue": 911703,
+      "equal": true
+    },
+    {
+      "nameEn": "Administrative and support services",
+      "path": "Private industries/Professional and business services/Administrative and waste management services/Administrative and support services",
+      "year": 2024,
+      "mainCell": "AE80",
+      "detailCell": "AE156",
+      "mainValue": 823102,
+      "detailValue": 823102,
+      "equal": true
+    },
+    {
+      "nameEn": "Waste management and remediation services",
+      "path": "Private industries/Professional and business services/Administrative and waste management services/Waste management and remediation services",
+      "year": 2024,
+      "mainCell": "AE81",
+      "detailCell": "AE160",
+      "mainValue": 88601,
+      "detailValue": 88601,
+      "equal": true
+    },
+    {
+      "nameEn": "Educational services, health care, and social assistance",
+      "path": "Private industries/Educational services, health care, and social assistance",
+      "year": 2024,
+      "mainCell": "AE82",
+      "detailCell": "AE161",
+      "mainValue": 2544166,
+      "detailValue": 2544166,
+      "equal": true
+    },
+    {
+      "nameEn": "Educational services",
+      "path": "Private industries/Educational services, health care, and social assistance/Educational services",
+      "year": 2024,
+      "mainCell": "AE83",
+      "detailCell": "AE162",
+      "mainValue": 334785,
+      "detailValue": 334785,
+      "equal": true
+    },
+    {
+      "nameEn": "Health care and social assistance",
+      "path": "Private industries/Educational services, health care, and social assistance/Health care and social assistance",
+      "year": 2024,
+      "mainCell": "AE84",
+      "detailCell": "AE163",
+      "mainValue": 2209381,
+      "detailValue": 2209381,
+      "equal": true
+    },
+    {
+      "nameEn": "Ambulatory health care services",
+      "path": "Private industries/Educational services, health care, and social assistance/Health care and social assistance/Ambulatory health care services",
+      "year": 2024,
+      "mainCell": "AE85",
+      "detailCell": "AE164",
+      "mainValue": 1078954,
+      "detailValue": 1078954,
+      "equal": true
+    },
+    {
+      "nameEn": "Hospitals",
+      "path": "Private industries/Educational services, health care, and social assistance/Health care and social assistance/Hospitals",
+      "year": 2024,
+      "mainCell": "AE86",
+      "detailCell": "AE170",
+      "mainValue": 691481,
+      "detailValue": 691481,
+      "equal": true
+    },
+    {
+      "nameEn": "Nursing and residential care facilities",
+      "path": "Private industries/Educational services, health care, and social assistance/Health care and social assistance/Nursing and residential care facilities",
+      "year": 2024,
+      "mainCell": "AE87",
+      "detailCell": "AE171",
+      "mainValue": 212314,
+      "detailValue": 212314,
+      "equal": true
+    },
+    {
+      "nameEn": "Social assistance",
+      "path": "Private industries/Educational services, health care, and social assistance/Health care and social assistance/Social assistance",
+      "year": 2024,
+      "mainCell": "AE88",
+      "detailCell": "AE172",
+      "mainValue": 226633,
+      "detailValue": 226633,
+      "equal": true
+    },
+    {
+      "nameEn": "Arts, entertainment, recreation, accommodation, and food services",
+      "path": "Private industries/Arts, entertainment, recreation, accommodation, and food services",
+      "year": 2024,
+      "mainCell": "AE89",
+      "detailCell": "AE173",
+      "mainValue": 1287121,
+      "detailValue": 1287121,
+      "equal": true
+    },
+    {
+      "nameEn": "Arts, entertainment, and recreation",
+      "path": "Private industries/Arts, entertainment, recreation, accommodation, and food services/Arts, entertainment, and recreation",
+      "year": 2024,
+      "mainCell": "AE90",
+      "detailCell": "AE174",
+      "mainValue": 326765,
+      "detailValue": 326765,
+      "equal": true
+    },
+    {
+      "nameEn": "Performing arts, spectator sports, museums, and related activities",
+      "path": "Private industries/Arts, entertainment, recreation, accommodation, and food services/Arts, entertainment, and recreation/Performing arts, spectator sports, museums, and related activities",
+      "year": 2024,
+      "mainCell": "AE91",
+      "detailCell": "AE175",
+      "mainValue": 190761,
+      "detailValue": 190761,
+      "equal": true
+    },
+    {
+      "nameEn": "Amusements, gambling, and recreation industries",
+      "path": "Private industries/Arts, entertainment, recreation, accommodation, and food services/Arts, entertainment, and recreation/Amusements, gambling, and recreation industries",
+      "year": 2024,
+      "mainCell": "AE92",
+      "detailCell": "AE176",
+      "mainValue": 136004,
+      "detailValue": 136004,
+      "equal": true
+    },
+    {
+      "nameEn": "Accommodation and food services",
+      "path": "Private industries/Arts, entertainment, recreation, accommodation, and food services/Accommodation and food services",
+      "year": 2024,
+      "mainCell": "AE93",
+      "detailCell": "AE177",
+      "mainValue": 960356,
+      "detailValue": 960356,
+      "equal": true
+    },
+    {
+      "nameEn": "Accommodation",
+      "path": "Private industries/Arts, entertainment, recreation, accommodation, and food services/Accommodation and food services/Accommodation",
+      "year": 2024,
+      "mainCell": "AE94",
+      "detailCell": "AE178",
+      "mainValue": 257248,
+      "detailValue": 257248,
+      "equal": true
+    },
+    {
+      "nameEn": "Food services and drinking places",
+      "path": "Private industries/Arts, entertainment, recreation, accommodation, and food services/Accommodation and food services/Food services and drinking places",
+      "year": 2024,
+      "mainCell": "AE95",
+      "detailCell": "AE179",
+      "mainValue": 703108,
+      "detailValue": 703108,
+      "equal": true
+    },
+    {
+      "nameEn": "Other services, except government",
+      "path": "Private industries/Other services, except government",
+      "year": 2024,
+      "mainCell": "AE96",
+      "detailCell": "AE180",
+      "mainValue": 627985,
+      "detailValue": 627985,
+      "equal": true
+    },
+    {
+      "nameEn": "Government",
+      "path": "Government",
+      "year": 2024,
+      "mainCell": "AE97",
+      "detailCell": "AE185",
+      "mainValue": 3296342,
+      "detailValue": 3296342,
+      "equal": true
+    },
+    {
+      "nameEn": "Federal",
+      "path": "Government/Federal",
+      "year": 2024,
+      "mainCell": "AE98",
+      "detailCell": "AE186",
+      "mainValue": 1064857,
+      "detailValue": 1064857,
+      "equal": true
+    },
+    {
+      "nameEn": "General government",
+      "path": "Government/Federal/General government",
+      "year": 2024,
+      "mainCell": "AE99",
+      "detailCell": "AE187",
+      "mainValue": 986778,
+      "detailValue": 986778,
+      "equal": true
+    },
+    {
+      "nameEn": "National defense",
+      "path": "Government/Federal/General government/National defense",
+      "year": 2024,
+      "mainCell": "AE100",
+      "detailCell": "AE188",
+      "mainValue": 549405,
+      "detailValue": 549405,
+      "equal": true
+    },
+    {
+      "nameEn": "Nondefense",
+      "path": "Government/Federal/General government/Nondefense",
+      "year": 2024,
+      "mainCell": "AE101",
+      "detailCell": "AE189",
+      "mainValue": 437373,
+      "detailValue": 437373,
+      "equal": true
+    },
+    {
+      "nameEn": "Government enterprises",
+      "path": "Government/Federal/Government enterprises",
+      "year": 2024,
+      "mainCell": "AE102",
+      "detailCell": "AE190",
+      "mainValue": 78079,
+      "detailValue": 78079,
+      "equal": true
+    },
+    {
+      "nameEn": "State and local",
+      "path": "Government/State and local",
+      "year": 2024,
+      "mainCell": "AE103",
+      "detailCell": "AE191",
+      "mainValue": 2231485,
+      "detailValue": 2231485,
+      "equal": true
+    },
+    {
+      "nameEn": "General government",
+      "path": "Government/State and local/General government",
+      "year": 2024,
+      "mainCell": "AE104",
+      "detailCell": "AE192",
+      "mainValue": 2073333,
+      "detailValue": 2073333,
+      "equal": true
+    },
+    {
+      "nameEn": "Government enterprises",
+      "path": "Government/State and local/Government enterprises",
+      "year": 2024,
+      "mainCell": "AE105",
+      "detailCell": "AE196",
+      "mainValue": 158152,
+      "detailValue": 158152,
+      "equal": true
+    }
+  ],
+  "gdp2024Match": {
+    "mainCell": "TVA105-A!AE9",
+    "detailCell": "UVA205-A!AE9",
+    "value": 29298013
+  },
+  "parentChildChecks": [
+    {
+      "parentId": "us-agriculture",
+      "year": 2024,
+      "parentValue": 269686,
+      "childIds": [
+        "us-agriculture-bea-4",
+        "us-agriculture-bea-5"
+      ],
+      "childSum": 269686,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-agriculture",
+      "year": 2025,
+      "parentValue": 272014,
+      "childIds": [
+        "us-agriculture-bea-4",
+        "us-agriculture-bea-5"
+      ],
+      "childSum": 272014,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-agriculture-bea-4",
+      "year": 2024,
+      "parentValue": 215830,
+      "childIds": [
+        "us-agriculture-uva-5",
+        "us-agriculture-uva-6"
+      ],
+      "childSum": 215830,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-construction",
+      "year": 2024,
+      "parentValue": 1305402,
+      "childIds": [
+        "us-construction-uva-16",
+        "us-construction-uva-17",
+        "us-construction-uva-18",
+        "us-construction-uva-19",
+        "us-construction-uva-20",
+        "us-construction-uva-21",
+        "us-construction-uva-22",
+        "us-construction-uva-23"
+      ],
+      "childSum": 1305402,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 4.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-manufacturing",
+      "year": 2024,
+      "parentValue": 2880724,
+      "childIds": [
+        "us-manufacturing-bea-13",
+        "us-manufacturing-bea-25"
+      ],
+      "childSum": 2880725,
+      "delta": 1,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-manufacturing",
+      "year": 2025,
+      "parentValue": 2896476,
+      "childIds": [
+        "us-manufacturing-bea-13",
+        "us-manufacturing-bea-25"
+      ],
+      "childSum": 2896476,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-manufacturing-bea-13",
+      "year": 2024,
+      "parentValue": 1524841,
+      "childIds": [
+        "us-manufacturing-bea-14",
+        "us-manufacturing-bea-15",
+        "us-manufacturing-bea-16",
+        "us-manufacturing-bea-17",
+        "us-manufacturing-bea-18",
+        "us-manufacturing-bea-19",
+        "us-manufacturing-bea-20",
+        "us-manufacturing-bea-21",
+        "us-manufacturing-bea-22",
+        "us-manufacturing-bea-23",
+        "us-manufacturing-bea-24"
+      ],
+      "childSum": 1524842,
+      "delta": 1,
+      "unit": "USD million",
+      "roundingBound": 6.0,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-manufacturing-bea-13",
+      "year": 2025,
+      "parentValue": 1556344,
+      "childIds": [
+        "us-manufacturing-bea-14",
+        "us-manufacturing-bea-15",
+        "us-manufacturing-bea-16",
+        "us-manufacturing-bea-17",
+        "us-manufacturing-bea-18",
+        "us-manufacturing-bea-19",
+        "us-manufacturing-bea-20",
+        "us-manufacturing-bea-21",
+        "us-manufacturing-bea-22",
+        "us-manufacturing-bea-23",
+        "us-manufacturing-bea-24"
+      ],
+      "childSum": 1556345,
+      "delta": 1,
+      "unit": "USD million",
+      "roundingBound": 6.0,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-manufacturing-bea-16",
+      "year": 2024,
+      "parentValue": 76516,
+      "childIds": [
+        "us-manufacturing-uva-29",
+        "us-manufacturing-uva-30"
+      ],
+      "childSum": 76516,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-manufacturing-bea-18",
+      "year": 2024,
+      "parentValue": 208621,
+      "childIds": [
+        "us-manufacturing-uva-33",
+        "us-manufacturing-uva-34",
+        "us-manufacturing-uva-35",
+        "us-manufacturing-uva-36"
+      ],
+      "childSum": 208622,
+      "delta": 1,
+      "unit": "USD million",
+      "roundingBound": 2.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-manufacturing-bea-19",
+      "year": 2024,
+      "parentValue": 299783,
+      "childIds": [
+        "us-manufacturing-uva-38",
+        "us-manufacturing-uva-39",
+        "us-manufacturing-uva-40",
+        "us-manufacturing-uva-41",
+        "us-manufacturing-uva-42"
+      ],
+      "childSum": 299783,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 3.0,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-manufacturing-bea-21",
+      "year": 2024,
+      "parentValue": 185854,
+      "childIds": [
+        "us-manufacturing-uva-45",
+        "us-manufacturing-uva-46",
+        "us-manufacturing-uva-47",
+        "us-manufacturing-uva-48"
+      ],
+      "childSum": 185854,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 2.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-manufacturing-bea-22",
+      "year": 2024,
+      "parentValue": 197330,
+      "childIds": [
+        "us-manufacturing-uva-50",
+        "us-manufacturing-uva-51"
+      ],
+      "childSum": 197330,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-manufacturing-bea-24",
+      "year": 2024,
+      "parentValue": 113897,
+      "childIds": [
+        "us-manufacturing-uva-54",
+        "us-manufacturing-uva-55"
+      ],
+      "childSum": 113897,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-manufacturing-bea-25",
+      "year": 2024,
+      "parentValue": 1355884,
+      "childIds": [
+        "us-manufacturing-bea-26",
+        "us-manufacturing-bea-27",
+        "us-manufacturing-bea-28",
+        "us-manufacturing-bea-29",
+        "us-manufacturing-bea-30",
+        "us-manufacturing-bea-31",
+        "us-manufacturing-bea-32",
+        "us-manufacturing-bea-33"
+      ],
+      "childSum": 1355883,
+      "delta": -1,
+      "unit": "USD million",
+      "roundingBound": 4.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-manufacturing-bea-25",
+      "year": 2025,
+      "parentValue": 1340132,
+      "childIds": [
+        "us-manufacturing-bea-26",
+        "us-manufacturing-bea-27",
+        "us-manufacturing-bea-28",
+        "us-manufacturing-bea-29",
+        "us-manufacturing-bea-30",
+        "us-manufacturing-bea-31",
+        "us-manufacturing-bea-32",
+        "us-manufacturing-bea-33"
+      ],
+      "childSum": 1340133,
+      "delta": 1,
+      "unit": "USD million",
+      "roundingBound": 4.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-manufacturing-bea-26",
+      "year": 2024,
+      "parentValue": 360176,
+      "childIds": [
+        "us-manufacturing-uva-58",
+        "us-manufacturing-uva-59",
+        "us-manufacturing-uva-60"
+      ],
+      "childSum": 360176,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 2.0,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-manufacturing-bea-32",
+      "year": 2024,
+      "parentValue": 554021,
+      "childIds": [
+        "us-manufacturing-uva-67",
+        "us-manufacturing-uva-68",
+        "us-manufacturing-uva-69",
+        "us-manufacturing-uva-70"
+      ],
+      "childSum": 554021,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 2.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-wholesale",
+      "year": 2024,
+      "parentValue": 1706289,
+      "childIds": [
+        "us-wholesale-uva-73",
+        "us-wholesale-uva-74",
+        "us-wholesale-uva-75",
+        "us-wholesale-uva-76",
+        "us-wholesale-uva-77",
+        "us-wholesale-uva-78",
+        "us-wholesale-uva-79",
+        "us-wholesale-uva-80",
+        "us-wholesale-uva-81",
+        "us-wholesale-uva-82",
+        "us-wholesale-uva-83"
+      ],
+      "childSum": 1706289,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 6.0,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-retail",
+      "year": 2024,
+      "parentValue": 1849039,
+      "childIds": [
+        "us-retail-bea-36",
+        "us-retail-bea-37",
+        "us-retail-bea-38",
+        "us-retail-bea-39"
+      ],
+      "childSum": 1849040,
+      "delta": 1,
+      "unit": "USD million",
+      "roundingBound": 2.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-retail",
+      "year": 2025,
+      "parentValue": 1921751,
+      "childIds": [
+        "us-retail-bea-36",
+        "us-retail-bea-37",
+        "us-retail-bea-38",
+        "us-retail-bea-39"
+      ],
+      "childSum": 1921751,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 2.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-retail-bea-39",
+      "year": 2024,
+      "parentValue": 1031973,
+      "childIds": [
+        "us-retail-uva-89",
+        "us-retail-uva-90",
+        "us-retail-uva-91",
+        "us-retail-uva-92",
+        "us-retail-uva-93",
+        "us-retail-uva-94"
+      ],
+      "childSum": 1031973,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 3.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-information",
+      "year": 2024,
+      "parentValue": 1592692,
+      "childIds": [
+        "us-information-bea-50",
+        "us-information-bea-51",
+        "us-information-bea-52",
+        "us-information-bea-53"
+      ],
+      "childSum": 1592692,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 2.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-information",
+      "year": 2025,
+      "parentValue": 1695042,
+      "childIds": [
+        "us-information-bea-50",
+        "us-information-bea-51",
+        "us-information-bea-52",
+        "us-information-bea-53"
+      ],
+      "childSum": 1695042,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 2.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-information-bea-50",
+      "year": 2024,
+      "parentValue": 442706,
+      "childIds": [
+        "us-information-uva-108",
+        "us-information-uva-109"
+      ],
+      "childSum": 442707,
+      "delta": 1,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-information-bea-52",
+      "year": 2024,
+      "parentValue": 501545,
+      "childIds": [
+        "us-information-uva-112",
+        "us-information-uva-113",
+        "us-information-uva-114",
+        "us-information-uva-115"
+      ],
+      "childSum": 501545,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 2.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-information-bea-53",
+      "year": 2024,
+      "parentValue": 529056,
+      "childIds": [
+        "us-information-uva-117",
+        "us-information-uva-118"
+      ],
+      "childSum": 529056,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-finance",
+      "year": 2024,
+      "parentValue": 2229155,
+      "childIds": [
+        "us-finance-bea-56",
+        "us-finance-bea-57",
+        "us-finance-bea-58",
+        "us-finance-bea-59"
+      ],
+      "childSum": 2229154,
+      "delta": -1,
+      "unit": "USD million",
+      "roundingBound": 2.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-finance",
+      "year": 2025,
+      "parentValue": 2441825,
+      "childIds": [
+        "us-finance-bea-56",
+        "us-finance-bea-57",
+        "us-finance-bea-58",
+        "us-finance-bea-59"
+      ],
+      "childSum": 2441825,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 2.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-finance-bea-58",
+      "year": 2024,
+      "parentValue": 791806,
+      "childIds": [
+        "us-finance-uva-124",
+        "us-finance-uva-125",
+        "us-finance-uva-126"
+      ],
+      "childSum": 791806,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 2.0,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-real-estate",
+      "year": 2024,
+      "parentValue": 4052400,
+      "childIds": [
+        "us-real-estate-bea-61",
+        "us-real-estate-bea-64"
+      ],
+      "childSum": 4052399,
+      "delta": -1,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-real-estate",
+      "year": 2025,
+      "parentValue": 4238566,
+      "childIds": [
+        "us-real-estate-bea-61",
+        "us-real-estate-bea-64"
+      ],
+      "childSum": 4238566,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-real-estate-bea-61",
+      "year": 2024,
+      "parentValue": 3684230,
+      "childIds": [
+        "us-real-estate-bea-62",
+        "us-real-estate-bea-63"
+      ],
+      "childSum": 3684230,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-real-estate-bea-61",
+      "year": 2025,
+      "parentValue": 3854228,
+      "childIds": [
+        "us-real-estate-bea-62",
+        "us-real-estate-bea-63"
+      ],
+      "childSum": 3854228,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-real-estate-bea-62",
+      "year": 2024,
+      "parentValue": 2853988,
+      "childIds": [
+        "us-real-estate-uva-131",
+        "us-real-estate-uva-132"
+      ],
+      "childSum": 2853989,
+      "delta": 1,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-professional",
+      "year": 2024,
+      "parentValue": 2355069,
+      "childIds": [
+        "us-professional-bea-67",
+        "us-professional-bea-68",
+        "us-professional-bea-69"
+      ],
+      "childSum": 2355069,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 2.0,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-professional",
+      "year": 2025,
+      "parentValue": 2494176,
+      "childIds": [
+        "us-professional-bea-67",
+        "us-professional-bea-68",
+        "us-professional-bea-69"
+      ],
+      "childSum": 2494176,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 2.0,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-professional-bea-69",
+      "year": 2024,
+      "parentValue": 1445101,
+      "childIds": [
+        "us-professional-uva-140",
+        "us-professional-uva-141",
+        "us-professional-uva-142",
+        "us-professional-uva-143",
+        "us-professional-uva-144",
+        "us-professional-uva-145"
+      ],
+      "childSum": 1445101,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 3.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-health",
+      "year": 2024,
+      "parentValue": 2209381,
+      "childIds": [
+        "us-health-bea-77",
+        "us-health-bea-78",
+        "us-health-bea-79",
+        "us-health-bea-80"
+      ],
+      "childSum": 2209382,
+      "delta": 1,
+      "unit": "USD million",
+      "roundingBound": 2.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-health",
+      "year": 2025,
+      "parentValue": 2371037,
+      "childIds": [
+        "us-health-bea-77",
+        "us-health-bea-78",
+        "us-health-bea-79",
+        "us-health-bea-80"
+      ],
+      "childSum": 2371037,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 2.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-health-bea-77",
+      "year": 2024,
+      "parentValue": 1078954,
+      "childIds": [
+        "us-health-uva-157",
+        "us-health-uva-158",
+        "us-health-uva-159",
+        "us-health-uva-160",
+        "us-health-uva-161"
+      ],
+      "childSum": 1078954,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 3.0,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-government",
+      "year": 2024,
+      "parentValue": 3296342,
+      "childIds": [
+        "us-government-bea-90",
+        "us-government-bea-95"
+      ],
+      "childSum": 3296342,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-government",
+      "year": 2025,
+      "parentValue": 3447010,
+      "childIds": [
+        "us-government-bea-90",
+        "us-government-bea-95"
+      ],
+      "childSum": 3447010,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-government-bea-90",
+      "year": 2024,
+      "parentValue": 1064857,
+      "childIds": [
+        "us-government-bea-91",
+        "us-government-bea-94"
+      ],
+      "childSum": 1064857,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-government-bea-90",
+      "year": 2025,
+      "parentValue": 1107560,
+      "childIds": [
+        "us-government-bea-91",
+        "us-government-bea-94"
+      ],
+      "childSum": 1107560,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-government-bea-91",
+      "year": 2024,
+      "parentValue": 986778,
+      "childIds": [
+        "us-government-bea-92",
+        "us-government-bea-93"
+      ],
+      "childSum": 986778,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-government-bea-91",
+      "year": 2025,
+      "parentValue": 1029191,
+      "childIds": [
+        "us-government-bea-92",
+        "us-government-bea-93"
+      ],
+      "childSum": 1029192,
+      "delta": 1,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-government-bea-95",
+      "year": 2024,
+      "parentValue": 2231485,
+      "childIds": [
+        "us-government-bea-96",
+        "us-government-bea-97"
+      ],
+      "childSum": 2231485,
+      "delta": 0,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-government-bea-95",
+      "year": 2025,
+      "parentValue": 2339450,
+      "childIds": [
+        "us-government-bea-96",
+        "us-government-bea-97"
+      ],
+      "childSum": 2339449,
+      "delta": -1,
+      "unit": "USD million",
+      "roundingBound": 1.5,
+      "withinRoundingBound": true
+    },
+    {
+      "parentId": "us-government-bea-96",
+      "year": 2024,
+      "parentValue": 2073333,
+      "childIds": [
+        "us-government-uva-185",
+        "us-government-uva-186",
+        "us-government-uva-187"
+      ],
+      "childSum": 2073332,
+      "delta": -1,
+      "unit": "USD million",
+      "roundingBound": 2.0,
+      "withinRoundingBound": true
+    }
+  ],
+  "allParentChildChecksWithinRounding": true,
+  "availability": {
+    "2024": {
+      "nodesWithValue": 145
+    },
+    "2025": {
+      "nodesWithValue": 65,
+      "unpublishedDetailNodes": 80
+    }
+  },
+  "note": "空值子项没有伪装成合计通过；仅比对数值完整且非重叠的官方直接父子组。"
+}

@@ -1,0 +1,2120 @@
+{
+  "reviewedOn": "2026-09-14",
+  "method": "父代理直接打开已下载官方工作簿，逐项核对接入成品的数字、年份表头、单位及发布时间；缺失观测验证实际末年，不复用子代理校验结果。",
+  "checkedNodes": 264,
+  "numericNodes": 184,
+  "rows": [
+    {
+      "id": "us-agriculture-bea-4",
+      "year": 2024,
+      "value": 215830,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE12; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-agriculture-uva-5",
+      "year": 2024,
+      "value": 101933,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE13; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-agriculture-uva-6",
+      "year": 2024,
+      "value": 113897,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE14; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-agriculture-bea-5",
+      "year": 2024,
+      "value": 53856,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE13; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-construction-uva-16",
+      "year": 2024,
+      "value": 125100,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE24; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-construction-uva-17",
+      "year": 2024,
+      "value": 190658,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE25; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-construction-uva-18",
+      "year": 2024,
+      "value": 120584,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE26; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-construction-uva-19",
+      "year": 2024,
+      "value": 244043,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE27; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-construction-uva-20",
+      "year": 2024,
+      "value": 206580,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE28; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-construction-uva-21",
+      "year": 2024,
+      "value": 98267,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE29; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-construction-uva-22",
+      "year": 2024,
+      "value": 216784,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE30; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-construction-uva-23",
+      "year": 2024,
+      "value": 103386,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE31; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-14",
+      "year": 2024,
+      "value": 60171,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE22; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-15",
+      "year": 2024,
+      "value": 77516,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE23; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-16",
+      "year": 2024,
+      "value": 76516,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE24; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-29",
+      "year": 2024,
+      "value": 38663,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE37; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-30",
+      "year": 2024,
+      "value": 37853,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE38; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-17",
+      "year": 2024,
+      "value": 190535,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE25; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-18",
+      "year": 2024,
+      "value": 208621,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE26; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-33",
+      "year": 2024,
+      "value": 20084,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE41; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-34",
+      "year": 2024,
+      "value": 20180,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE42; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-35",
+      "year": 2024,
+      "value": 6464,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE43; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-36",
+      "year": 2024,
+      "value": 161894,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE44; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-19",
+      "year": 2024,
+      "value": 299783,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE27; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-38",
+      "year": 2024,
+      "value": 26107,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE46; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-39",
+      "year": 2024,
+      "value": 24476,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE47; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-40",
+      "year": 2024,
+      "value": 111443,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE48; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-41",
+      "year": 2024,
+      "value": 132881,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE49; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-42",
+      "year": 2024,
+      "value": 4876,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE50; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-20",
+      "year": 2024,
+      "value": 80171,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE28; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-21",
+      "year": 2024,
+      "value": 185854,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE29; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-45",
+      "year": 2024,
+      "value": 14172,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE53; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-46",
+      "year": 2024,
+      "value": 65248,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE54; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-47",
+      "year": 2024,
+      "value": 6940,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE55; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-48",
+      "year": 2024,
+      "value": 99494,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE56; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-22",
+      "year": 2024,
+      "value": 197330,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE30; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-50",
+      "year": 2024,
+      "value": 151569,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE58; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-51",
+      "year": 2024,
+      "value": 45761,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE59; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-23",
+      "year": 2024,
+      "value": 34448,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE31; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-24",
+      "year": 2024,
+      "value": 113897,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE32; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-54",
+      "year": 2024,
+      "value": 74760,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE62; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-55",
+      "year": 2024,
+      "value": 39137,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE63; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-26",
+      "year": 2024,
+      "value": 360176,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE34; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-58",
+      "year": 2024,
+      "value": 256628,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE66; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-59",
+      "year": 2024,
+      "value": 56202,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE67; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-60",
+      "year": 2024,
+      "value": 47346,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE68; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-27",
+      "year": 2024,
+      "value": 16316,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE35; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-28",
+      "year": 2024,
+      "value": 12453,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE36; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-29",
+      "year": 2024,
+      "value": 74433,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE37; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-30",
+      "year": 2024,
+      "value": 41301,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE38; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-31",
+      "year": 2024,
+      "value": 195712,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE39; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-32",
+      "year": 2024,
+      "value": 554021,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE40; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-67",
+      "year": 2024,
+      "value": 134418,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE75; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-68",
+      "year": 2024,
+      "value": 42994,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE76; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-69",
+      "year": 2024,
+      "value": 247105,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE77; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-70",
+      "year": 2024,
+      "value": 129504,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE78; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-33",
+      "year": 2024,
+      "value": 101471,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE41; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-73",
+      "year": 2024,
+      "value": 112314,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE81; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-74",
+      "year": 2024,
+      "value": 175937,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE82; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-75",
+      "year": 2024,
+      "value": 183715,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE83; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-76",
+      "year": 2024,
+      "value": 162386,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE84; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-77",
+      "year": 2024,
+      "value": 226232,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE85; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-78",
+      "year": 2024,
+      "value": 174549,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE86; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-79",
+      "year": 2024,
+      "value": 135498,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE87; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-80",
+      "year": 2024,
+      "value": 160167,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE88; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-81",
+      "year": 2024,
+      "value": 260029,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE89; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-82",
+      "year": 2024,
+      "value": 31875,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE90; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-83",
+      "year": 2024,
+      "value": 83587,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE91; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-retail-bea-36",
+      "year": 2024,
+      "value": 356851,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE44; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-retail-bea-37",
+      "year": 2024,
+      "value": 236132,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE45; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-retail-bea-38",
+      "year": 2024,
+      "value": 224084,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE46; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-retail-bea-39",
+      "year": 2024,
+      "value": 1031973,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE47; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-retail-uva-89",
+      "year": 2024,
+      "value": 154535,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE97; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-retail-uva-90",
+      "year": 2024,
+      "value": 98895,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE98; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-retail-uva-91",
+      "year": 2024,
+      "value": 93408,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE99; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-retail-uva-92",
+      "year": 2024,
+      "value": 87468,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE100; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-retail-uva-93",
+      "year": 2024,
+      "value": 421411,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE101; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-retail-uva-94",
+      "year": 2024,
+      "value": 176256,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE102; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-information-bea-50",
+      "year": 2024,
+      "value": 442706,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE58; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-information-uva-108",
+      "year": 2024,
+      "value": 62472,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE116; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-information-uva-109",
+      "year": 2024,
+      "value": 380235,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE117; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-information-bea-51",
+      "year": 2024,
+      "value": 119385,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE59; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-information-bea-52",
+      "year": 2024,
+      "value": 501545,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE60; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-information-uva-112",
+      "year": 2024,
+      "value": 113383,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE120; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-information-uva-113",
+      "year": 2024,
+      "value": 188294,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE121; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-information-uva-114",
+      "year": 2024,
+      "value": 170199,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE122; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-information-uva-115",
+      "year": 2024,
+      "value": 29669,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE123; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-information-bea-53",
+      "year": 2024,
+      "value": 529056,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE61; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-information-uva-117",
+      "year": 2024,
+      "value": 279616,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE125; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-information-uva-118",
+      "year": 2024,
+      "value": 249440,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE126; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-finance-bea-56",
+      "year": 2024,
+      "value": 1013285,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE64; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-finance-bea-57",
+      "year": 2024,
+      "value": 396082,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE65; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-finance-bea-58",
+      "year": 2024,
+      "value": 791806,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE66; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-finance-uva-124",
+      "year": 2024,
+      "value": 65574,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE132; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-finance-uva-125",
+      "year": 2024,
+      "value": 410920,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE133; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-finance-uva-126",
+      "year": 2024,
+      "value": 315312,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE134; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-finance-bea-59",
+      "year": 2024,
+      "value": 27981,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE67; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-real-estate-bea-61",
+      "year": 2024,
+      "value": 3684230,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE69; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-real-estate-bea-62",
+      "year": 2024,
+      "value": 2853988,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE70; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-real-estate-uva-131",
+      "year": 2024,
+      "value": 2122063,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE139; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-real-estate-uva-132",
+      "year": 2024,
+      "value": 731926,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE140; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-real-estate-bea-63",
+      "year": 2024,
+      "value": 830242,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE71; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-real-estate-bea-64",
+      "year": 2024,
+      "value": 368169,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE72; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-professional-bea-67",
+      "year": 2024,
+      "value": 387719,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE75; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-professional-bea-68",
+      "year": 2024,
+      "value": 522249,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE76; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-professional-bea-69",
+      "year": 2024,
+      "value": 1445101,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE77; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-professional-uva-140",
+      "year": 2024,
+      "value": 189494,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE148; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-professional-uva-141",
+      "year": 2024,
+      "value": 316907,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE149; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-professional-uva-142",
+      "year": 2024,
+      "value": 353891,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE150; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-professional-uva-143",
+      "year": 2024,
+      "value": 233235,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE151; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-professional-uva-144",
+      "year": 2024,
+      "value": 142665,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE152; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-professional-uva-145",
+      "year": 2024,
+      "value": 208909,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE153; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-health-bea-77",
+      "year": 2024,
+      "value": 1078954,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE85; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-health-uva-157",
+      "year": 2024,
+      "value": 432690,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE165; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-health-uva-158",
+      "year": 2024,
+      "value": 139909,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE166; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-health-uva-159",
+      "year": 2024,
+      "value": 141568,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE167; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-health-uva-160",
+      "year": 2024,
+      "value": 164918,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE168; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-health-uva-161",
+      "year": 2024,
+      "value": 199869,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE169; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-health-bea-78",
+      "year": 2024,
+      "value": 691481,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE86; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-health-bea-79",
+      "year": 2024,
+      "value": 212314,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE87; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-health-bea-80",
+      "year": 2024,
+      "value": 226633,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE88; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-government-bea-90",
+      "year": 2024,
+      "value": 1064857,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE98; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-government-bea-91",
+      "year": 2024,
+      "value": 986778,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE99; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-government-bea-92",
+      "year": 2024,
+      "value": 549405,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE100; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-government-bea-93",
+      "year": 2024,
+      "value": 437373,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE101; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-government-bea-94",
+      "year": 2024,
+      "value": 78079,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE102; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-government-bea-95",
+      "year": 2024,
+      "value": 2231485,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE103; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-government-bea-96",
+      "year": 2024,
+      "value": 2073333,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE104; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-government-uva-185",
+      "year": 2024,
+      "value": 1062228,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE193; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-government-uva-186",
+      "year": 2024,
+      "value": 213925,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE194; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-government-uva-187",
+      "year": 2024,
+      "value": 797179,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!AE195; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-government-bea-97",
+      "year": 2024,
+      "value": 158152,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AE105; year AE8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-agriculture-bea-4",
+      "year": 2025,
+      "value": 220747,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF12; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-agriculture-uva-5",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-agriculture-uva-6",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-agriculture-bea-5",
+      "year": 2025,
+      "value": 51267,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF13; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-construction-uva-16",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-construction-uva-17",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-construction-uva-18",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-construction-uva-19",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-construction-uva-20",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-construction-uva-21",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-construction-uva-22",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-construction-uva-23",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-14",
+      "year": 2025,
+      "value": 58578,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF22; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-15",
+      "year": 2025,
+      "value": 76293,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF23; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-16",
+      "year": 2025,
+      "value": 77714,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF24; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-29",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-30",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-17",
+      "year": 2025,
+      "value": 192851,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF25; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-18",
+      "year": 2025,
+      "value": 205135,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF26; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-33",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-34",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-35",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-36",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-19",
+      "year": 2025,
+      "value": 318028,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF27; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-38",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-39",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-40",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-41",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-42",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-20",
+      "year": 2025,
+      "value": 82467,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF28; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-21",
+      "year": 2025,
+      "value": 183970,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF29; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-45",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-46",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-47",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-48",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-22",
+      "year": 2025,
+      "value": 210259,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF30; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-50",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-51",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-23",
+      "year": 2025,
+      "value": 34554,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF31; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-24",
+      "year": 2025,
+      "value": 116496,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF32; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-54",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-55",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-26",
+      "year": 2025,
+      "value": 354474,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF34; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-58",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-59",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-60",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-27",
+      "year": 2025,
+      "value": 16559,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF35; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-28",
+      "year": 2025,
+      "value": 12272,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF36; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-29",
+      "year": 2025,
+      "value": 75191,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF37; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-30",
+      "year": 2025,
+      "value": 41499,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF38; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-31",
+      "year": 2025,
+      "value": 161002,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF39; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-32",
+      "year": 2025,
+      "value": 577741,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF40; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-67",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-68",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-69",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-uva-70",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-manufacturing-bea-33",
+      "year": 2025,
+      "value": 101395,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF41; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-73",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-74",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-75",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-76",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-77",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-78",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-79",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-80",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-81",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-82",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-wholesale-uva-83",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-retail-bea-36",
+      "year": 2025,
+      "value": 371676,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF44; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-retail-bea-37",
+      "year": 2025,
+      "value": 241266,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF45; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-retail-bea-38",
+      "year": 2025,
+      "value": 231201,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF46; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-retail-bea-39",
+      "year": 2025,
+      "value": 1077608,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF47; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-retail-uva-89",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-retail-uva-90",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-retail-uva-91",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-retail-uva-92",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-retail-uva-93",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-retail-uva-94",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-information-bea-50",
+      "year": 2025,
+      "value": 479094,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF58; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-information-uva-108",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-information-uva-109",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-information-bea-51",
+      "year": 2025,
+      "value": 119016,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF59; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-information-bea-52",
+      "year": 2025,
+      "value": 506426,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF60; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-information-uva-112",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-information-uva-113",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-information-uva-114",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-information-uva-115",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-information-bea-53",
+      "year": 2025,
+      "value": 590506,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF61; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-information-uva-117",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-information-uva-118",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-finance-bea-56",
+      "year": 2025,
+      "value": 1093345,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF64; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-finance-bea-57",
+      "year": 2025,
+      "value": 466565,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF65; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-finance-bea-58",
+      "year": 2025,
+      "value": 842755,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF66; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-finance-uva-124",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-finance-uva-125",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-finance-uva-126",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-finance-bea-59",
+      "year": 2025,
+      "value": 39160,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF67; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-real-estate-bea-61",
+      "year": 2025,
+      "value": 3854228,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF69; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-real-estate-bea-62",
+      "year": 2025,
+      "value": 3005348,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF70; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-real-estate-uva-131",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-real-estate-uva-132",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-real-estate-bea-63",
+      "year": 2025,
+      "value": 848880,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF71; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-real-estate-bea-64",
+      "year": 2025,
+      "value": 384338,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF72; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-professional-bea-67",
+      "year": 2025,
+      "value": 421874,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF75; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-professional-bea-68",
+      "year": 2025,
+      "value": 553797,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF76; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-professional-bea-69",
+      "year": 2025,
+      "value": 1518505,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF77; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-professional-uva-140",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-professional-uva-141",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-professional-uva-142",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-professional-uva-143",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-professional-uva-144",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-professional-uva-145",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-health-bea-77",
+      "year": 2025,
+      "value": 1152957,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF85; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-health-uva-157",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-health-uva-158",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-health-uva-159",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-health-uva-160",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-health-uva-161",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-health-bea-78",
+      "year": 2025,
+      "value": 741201,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF86; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-health-bea-79",
+      "year": 2025,
+      "value": 227413,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF87; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-health-bea-80",
+      "year": 2025,
+      "value": 249466,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF88; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-government-bea-90",
+      "year": 2025,
+      "value": 1107560,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF98; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-government-bea-91",
+      "year": 2025,
+      "value": 1029191,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF99; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-government-bea-92",
+      "year": 2025,
+      "value": 569724,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF100; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-government-bea-93",
+      "year": 2025,
+      "value": 459468,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF101; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-government-bea-94",
+      "year": 2025,
+      "value": 78369,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF102; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-government-bea-95",
+      "year": 2025,
+      "value": 2339450,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF103; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-government-bea-96",
+      "year": 2025,
+      "value": 2171244,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF104; year AF8; unit A2; release A5",
+      "passed": true
+    },
+    {
+      "id": "us-government-uva-185",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-government-uva-186",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-government-uva-187",
+      "year": 2025,
+      "value": null,
+      "source": "us-bea-detail-value-added-2025-09-25",
+      "locator": "UVA205-A!A3 + D8:AE8 (latest year 2024; 2025 not present)",
+      "passed": true
+    },
+    {
+      "id": "us-government-bea-97",
+      "year": 2025,
+      "value": 168205,
+      "source": "us-bea-main-value-added-2026-06-25",
+      "locator": "TVA105-A!AF105; year AF8; unit A2; release A5",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "parent-nbs-annual-industry-dom",
+  "url": "https://data.stats.gov.cn/dg/website/page.html#/pc/national/yearData",
+  "archive": "../nbs-annual-industry-dom.json",
+  "sha256": "96ede2547231784affad1ce391748aa18d47d3239e3a323d24a106fce20f2429",
+  "checkedAt": "2026-09-14",
+  "reviewerAction": "read parent browser DOM extraction; not independent second browser retrieval",
+  "locator": "rows[1] numeric body, third row industrial; rows[3] row names; 2025 then2024 headers",
+  "values": {
+    "2024": 404518.5,
+    "2025": 416826.0
+  },
+  "note": "precision crosscheck of existing totals; no new industrial child VA"
+}

@@ -162,6 +162,20 @@ export const MacroDatasetSchema=z.object({
   })).min(1),
  })),
 })
+/** Annual industry details are separate from historical IO product structures. */
+export const AnnualDetailsSchema=z.object({
+ version:nonempty,checkedAt:date,sources:z.array(SourceSchema),
+ gaps:z.array(z.object({country:CountrySchema,year:z.number().int(),nodeId:ID,gap:nonempty,evidence:z.array(EvidenceRefSchema).min(1)})).default([]),
+ branches:z.array(z.object({
+  country:CountrySchema,year:z.number().int(),parentId:ID,parentValue:z.number().finite(),
+  unit:nonempty,currency:z.enum(['CNY','USD']),classification:nonempty,
+  nodes:z.array(z.object({
+   id:ID,parentId:ID,name:nonempty,nameEn:nonempty.optional(),code:nonempty,
+   value:z.number().finite().nullable(),coverage:nonempty,releaseDate:date.nullable(),revision:nonempty,
+   evidence:z.array(EvidenceRefSchema).min(1),qualityNote:z.string(),gap:z.string(),
+  })).min(1),
+ })),
+})
 export const ResearchSchema = z.object({
   version:nonempty, checkedAt:date, publishedAt:date.nullable(),
   freezeStatus:z.enum(['working','review','frozen']),
@@ -176,6 +190,7 @@ export const ResearchSchema = z.object({
   tasks:z.array(TaskSchema), claims:z.array(ClaimSchema), searches:z.array(SearchSchema),
   subindustryProductivity:ProductivityDatasetSchema.optional(),
   macroStructures:MacroDatasetSchema.optional(),
+  annualDetails:AnnualDetailsSchema.optional(),
 })
 export type Research = z.infer<typeof ResearchSchema>
 export type Observation = z.infer<typeof ObservationSchema>
