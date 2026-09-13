@@ -1,0 +1,67 @@
+{
+  "checkedDate": "2026-09-14",
+  "scope": "Public book catalogue and preview discovery only; search-engine absence is not publication absence.",
+  "queryGroups": [
+    {
+      "target": "National accounts yearbook title and editions",
+      "queries": [
+        "\"中国国民经济核算统计年鉴2025\"",
+        "\"中国国民经济核算统计年鉴2026\"",
+        "\"中国国民经济核算统计年鉴\"",
+        "\"国民经济核算\" \"年鉴2025\"",
+        "site:zgtjcbs.com \"国民经济核算\" \"年鉴\"",
+        "site:stats.gov.cn \"国民经济核算年鉴\" \"2025\"",
+        "\"中国国民经济核算年鉴2025\"",
+        "中国国民经济核算 2025 年鉴 出版 ISBN",
+        "\"中国国民经济核算年鉴\" \"2024\""
+      ],
+      "result": "No exact current edition verified; historical title in Tsinghua library record and publisher textbooks obtained.",
+      "followedSources": ["tsinghua-yearbooks", "publisher-accounts-search", "publisher-accounts2025-search", "publisher-accounts2026-search"]
+    },
+    {
+      "target": "China Industry Statistical Yearbook 2025",
+      "queries": [
+        "\"中国工业统计年鉴2025\" 出版社",
+        "\"中国工业统计年鉴2025\" \"目录\" \"折旧\"",
+        "site:zgtjcbs.com \"工业统计年鉴2025\"",
+        "\"9787523010266\" 目录",
+        "\"中国工业统计年鉴2025\" \"增加值\"",
+        "\"中国工业统计年鉴2025\" site:gov.cn",
+        "\"中国工业统计年鉴\" \"2025\" \"目录\" site:edu.cn",
+        "中国工业统计年鉴 2025 目录 中国统计出版社",
+        "中国工业统计年鉴 2025 原价 折旧 应付",
+        "\"中国工业统计年鉴2025\" site:mp.weixin.qq.com",
+        "\"中国工业统计年鉴 2025\" \"出版社\" \"目录\" -site:stats.gov.cn -site:wikipedia.org"
+      ],
+      "result": "Publication established through public library metadata; no official or issuer interior acquired. A third-party catalogue is excluded from conclusions about contents.",
+      "followedSources": ["ndl-industrial2025", "cinii-industrial2025", "publisher-industrial-search", "publisher-industrial2025-search"],
+      "excludedLead": {
+        "url": "https://shujuxiaomaibu.com/books-directory-44301.html",
+        "observedIn": "search result",
+        "whyExcluded": "Third-party transcription, not the required official/issuer readable original; no numerical contents used."
+      }
+    },
+    {
+      "target": "China Statistical Abstract 2026 preview",
+      "queries": [
+        "\"中国统计摘要2026\" \"3-1\"",
+        "\"中国统计摘要2026\" \"国内生产总值\" \"制造业\"",
+        "\"中国统计摘要2026\" \"23\" pdf",
+        "\"中国统计摘要2026\" site:stats.gov.cn",
+        "\"中国统计摘要\" \"2026\" \"试读\"",
+        "中国统计摘要 2026 国内生产总值 制造业 采矿业",
+        "\"中国统计摘要2026\" site:mp.weixin.qq.com"
+      ],
+      "result": "Publisher catalogue and all visible links read; no GDP interior preview acquired. Publisher-linked shop public open failed without login.",
+      "followedSources": ["publisher-abstract2026", "publisher-home", "publisher-digital-arm"],
+      "accessAttempts": "access-attempts.json"
+    },
+    {
+      "target": "Industrial yearbook 2024 publication clarification",
+      "method": "Followed the public NBS industrial-products consultation index link, not a new consultation submission.",
+      "from": "https://www.stats.gov.cn/hd/lyzx/zxgk/gycpcl/",
+      "followedSources": ["nbs-industrial2024-nonpublication"],
+      "result": "Official answer explicitly confirms 2024 edition was not published; statement concerns edition, not absence of all 2024 data."
+    }
+  ]
+}

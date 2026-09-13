@@ -1,0 +1,2486 @@
+{
+  "checkedAt": "2026-09-14",
+  "scope": "80 missing US 2025 detail nodes only; no site edits or re-estimation",
+  "underlyingDirectVA": {
+    "title": "U.Value Added by Industry",
+    "unit": "[Millions of dollars]",
+    "revisionText": "Last Revised on: September 25, 2025",
+    "displayedYears": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "maximumSelectableYear": 2024,
+    "has2025Column": false,
+    "rawResponse": "itable-uva-current-response.json",
+    "requestFile": "itable-uva-current-request.json",
+    "locator": "Steps[0].Prompts: TheTable.Data_Rows[0]; First_Year and Last_Year.PromtData.Table"
+  },
+  "currentComponents": {
+    "title": "Components of Value Added by Industry",
+    "unit": "[Millions of dollars]",
+    "revisionText": "Last Revised on: June 25, 2026",
+    "displayedYears": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "maximumSelectableYear": 2024,
+    "has2025Column": false,
+    "rawResponse": "itable-components-current-response.json",
+    "requestFile": "itable-components-current-request.json",
+    "locator": "Steps[0].Prompts: TheTable.Data_Rows[0]; First_Year and Last_Year.PromtData.Table"
+  },
+  "archivedComponentsHeaders": [
+    {
+      "sheet": "UVCT1-A",
+      "title": "Value Added",
+      "unit": "[Millions of dollars]",
+      "availableYears": "Annual data from 1998 to 2023",
+      "releaseText": "Data published September 26, 2024",
+      "latestYear": 2023,
+      "latestYearCell": "AC8",
+      "contains2025": false
+    },
+    {
+      "sheet": "UVCT2-A",
+      "title": "Compensation of employees",
+      "unit": "[Millions of dollars]",
+      "availableYears": "Annual data from 1998 to 2023",
+      "releaseText": "Data published September 26, 2024",
+      "latestYear": 2023,
+      "latestYearCell": "AC8",
+      "contains2025": false
+    },
+    {
+      "sheet": "UVCT21-A",
+      "title": "Wages and salaries",
+      "unit": "[Millions of dollars]",
+      "availableYears": "Annual data from 1998 to 2023",
+      "releaseText": "Data published September 26, 2024",
+      "latestYear": 2023,
+      "latestYearCell": "AC8",
+      "contains2025": false
+    },
+    {
+      "sheet": "UVCT22-A",
+      "title": "Supplements to wages and salaries",
+      "unit": "[Millions of dollars]",
+      "availableYears": "Annual data from 1998 to 2023",
+      "releaseText": "Data published September 26, 2024",
+      "latestYear": 2023,
+      "latestYearCell": "AC8",
+      "contains2025": false
+    },
+    {
+      "sheet": "UVCT3-A",
+      "title": "Taxes on production and imports, less subsidies",
+      "unit": "[Millions of dollars]",
+      "availableYears": "Annual data from 1998 to 2023",
+      "releaseText": "Data published September 26, 2024",
+      "latestYear": 2023,
+      "latestYearCell": "AC8",
+      "contains2025": false
+    },
+    {
+      "sheet": "UVCT31-A",
+      "title": "Taxes on production and imports",
+      "unit": "[Millions of dollars]",
+      "availableYears": "Annual data from 1998 to 2023",
+      "releaseText": "Data published September 26, 2024",
+      "latestYear": 2023,
+      "latestYearCell": "AC8",
+      "contains2025": false
+    },
+    {
+      "sheet": "UVCT32-A",
+      "title": "Subsidies",
+      "unit": "[Millions of dollars]",
+      "availableYears": "Annual data from 1998 to 2023",
+      "releaseText": "Data published September 26, 2024",
+      "latestYear": 2023,
+      "latestYearCell": "AC8",
+      "contains2025": false
+    },
+    {
+      "sheet": "UVCT40-A",
+      "title": "Gross operating surplus",
+      "unit": "[Millions of dollars]",
+      "availableYears": "Annual data from 1998 to 2023",
+      "releaseText": "Data published September 26, 2024",
+      "latestYear": 2023,
+      "latestYearCell": "AC8",
+      "contains2025": false
+    },
+    {
+      "sheet": "UVCT41-A",
+      "title": "Net operating surplus",
+      "unit": "[Millions of dollars]",
+      "availableYears": "Annual data from 1998 to 2023",
+      "releaseText": "Data published September 26, 2024",
+      "latestYear": 2023,
+      "latestYearCell": "AC8",
+      "contains2025": false
+    },
+    {
+      "sheet": "UVCT411-A",
+      "title": "Business current transfer payments",
+      "unit": "[Millions of dollars]",
+      "availableYears": "Annual data from 1998 to 2023",
+      "releaseText": "Data published September 26, 2024",
+      "latestYear": 2023,
+      "latestYearCell": "AC8",
+      "contains2025": false
+    },
+    {
+      "sheet": "UVCT412-A",
+      "title": "Current surplus of government enterprises",
+      "unit": "[Millions of dollars]",
+      "availableYears": "Annual data from 1998 to 2023",
+      "releaseText": "Data published September 26, 2024",
+      "latestYear": 2023,
+      "latestYearCell": "AC8",
+      "contains2025": false
+    },
+    {
+      "sheet": "UVCT413-A",
+      "title": "Other net operating surplus",
+      "unit": "[Millions of dollars]",
+      "availableYears": "Annual data from 1998 to 2023",
+      "releaseText": "Data published September 26, 2024",
+      "latestYear": 2023,
+      "latestYearCell": "AC8",
+      "contains2025": false
+    },
+    {
+      "sheet": "UVCT42-A",
+      "title": "Consumption of fixed capital",
+      "unit": "[Millions of dollars]",
+      "availableYears": "Annual data from 1998 to 2023",
+      "releaseText": "Data published September 26, 2024",
+      "latestYear": 2023,
+      "latestYearCell": "AC8",
+      "contains2025": false
+    }
+  ],
+  "continuingWorkbookHeaders": [
+    {
+      "sourceFile": "../us/ValueAdded-2026-09-14.xlsx",
+      "sheet": "TVA112-A",
+      "title": "Components of Value Added by Industry as a Percentage of Value Added",
+      "periodText": "Annual data from 1997 to 2024",
+      "releaseText": "Data published June 25, 2026",
+      "latestYear": 2024,
+      "contains2025": false,
+      "locator": "A1,A3,A5,D8:AE8"
+    },
+    {
+      "sourceFile": "../us/ValueAdded-2026-09-14.xlsx",
+      "sheet": "TVA113-A",
+      "title": "Components of Value Added by Industry",
+      "periodText": "Annual data from 1997 to 2024",
+      "releaseText": "Data published June 25, 2026",
+      "latestYear": 2024,
+      "contains2025": false,
+      "locator": "A1,A3,A5,D8:AE8"
+    }
+  ],
+  "forced2025Probe": {
+    "requestFile": "itable-2025-request.json",
+    "responseFile": "itable-2025-response.json",
+    "valid2025Table": false,
+    "malformedTableJSON": true,
+    "maximumYearStill2024": true,
+    "warning": "The out-of-range response contains residual 2024 values but lacks a valid 2025 year header. Reject it; requested year is not proof of observed year."
+  },
+  "publicAPI": {
+    "status": "authentication-unavailable",
+    "actualResponse": {
+      "APIErrorCode": "1",
+      "APIErrorDescription": "Invalid Request - Invalid API UserId."
+    },
+    "file": "api-empty-userid-response.txt",
+    "interpretation": "API Year metadata not verified with an authenticated API request; this error proves no data-availability claim. Official iTable data and year lists independently provide the availability evidence."
+  },
+  "archivedComponentsDiscontinued": {
+    "announced": "2025-09-25",
+    "lastPublished": "2024-09-26",
+    "latestDataYear": 2023,
+    "source": "https://www.bea.gov/data/discontinued-or-delayed-statistics",
+    "locator": "National / Industry / Underlying detail Components of Value Added row",
+    "excerpt": " Discontinued Table nat 9/25/2025 National Industry Underlying detail Components of Value Added Discontinued Table nat 12/5/2025 International Frequently Requested Table – Sel"
+  },
+  "componentsMethod": {
+    "expression": "VA = compensation of employees + taxes on production and imports less subsidies + gross operating surplus",
+    "validCondition": "same year, industry, geography, price basis, and vintage for all three components; use GOS including consumption of fixed capital, not net surplus",
+    "sourceFile": "ComponentsOfVaInfo.xlsx",
+    "locator": "Definitions!A4:B15 (hierarchy); A27,A29,A35,A37 (definitions)",
+    "2025Computable": false,
+    "reason": "No 2025 component observations in continuing table TVA113 or discontinued detailed archive; cannot replace absent GOS or taxes with old shares or profits."
+  },
+  "nextScheduledIndustryUpdate": {
+    "date": "2026-09-30",
+    "source": "https://www.bea.gov/information-updates-national-regional-economic-accounts",
+    "locator": "Data availability / On September 30, 2026 / All Industry Economic Accounts tables, including underlying detail",
+    "isAlreadyReleased": false,
+    "isGuaranteeOfEveryRequested2025Node": false
+  },
+  "unblockConditions": [
+    "BEA releases 2025 observations in UVA205 / UnderlyingGDPbyIndustry with matching industry codes, current-dollar units, year headers and revision metadata.",
+    "Alternatively, BEA publishes all three 2025 VA components at those exact industry codes, with compatible scope and vintage; then compute VA as an explicitly labelled calculation.",
+    "The scheduled date arriving, an API key becoming available, or a network retry alone is not evidence that the missing 2025 data have been published.",
+    "The discontinued component archive requires an explicit resumption/new official series; the ordinary September 30 schedule does not imply its revival."
+  ],
+  "missingNodes": [
+    {
+      "nodeId": "us-agriculture-uva-5",
+      "name": "种植业",
+      "nameEn": "Crop production",
+      "parentIndustryId": "us-agriculture",
+      "officialIndustryCode": "111",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-agriculture-uva-6",
+      "name": "畜牧业与水产养殖",
+      "nameEn": "Animal production and aquaculture",
+      "parentIndustryId": "us-agriculture",
+      "officialIndustryCode": "112",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-construction-uva-16",
+      "name": "教育、医院与医疗建筑",
+      "nameEn": "Education, hospital, and health structures",
+      "parentIndustryId": "us-construction",
+      "officialIndustryCode": "23EH",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-construction-uva-17",
+      "name": "建筑维修与维护",
+      "nameEn": "Maintenance and repair construction",
+      "parentIndustryId": "us-construction",
+      "officialIndustryCode": "23MR",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-construction-uva-18",
+      "name": "办公与商业建筑",
+      "nameEn": "Office and commercial structures",
+      "parentIndustryId": "us-construction",
+      "officialIndustryCode": "23OC",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-construction-uva-19",
+      "name": "其他住宅建设",
+      "nameEn": "Other residential construction",
+      "parentIndustryId": "us-construction",
+      "officialIndustryCode": "23OR",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-construction-uva-20",
+      "name": "其他非住宅建筑",
+      "nameEn": "Other nonresidential structures",
+      "parentIndustryId": "us-construction",
+      "officialIndustryCode": "23OT",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-construction-uva-21",
+      "name": "电力与通信设施建设",
+      "nameEn": "Power and communication structures",
+      "parentIndustryId": "us-construction",
+      "officialIndustryCode": "23PC",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-construction-uva-22",
+      "name": "独户住宅建设",
+      "nameEn": "Single-family residential structures",
+      "parentIndustryId": "us-construction",
+      "officialIndustryCode": "23SF",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-construction-uva-23",
+      "name": "交通设施、公路与街道建设",
+      "nameEn": "Transportation structures and highways and streets",
+      "parentIndustryId": "us-construction",
+      "officialIndustryCode": "23TH",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-29",
+      "name": "钢铁冶炼与购入钢材加工",
+      "nameEn": "Iron and steel mills and manufacturing from purchased steel",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "3311IS",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-30",
+      "name": "有色金属生产加工与铸造",
+      "nameEn": "Nonferrous metal production and processing and foundries",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "3313NF",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-33",
+      "name": "农业机械制造",
+      "nameEn": "Agricultural implement manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "33311",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-34",
+      "name": "建筑机械制造",
+      "nameEn": "Construction machinery manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "33312",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-35",
+      "name": "采矿与油气田机械制造",
+      "nameEn": "Mining and oil and gas field machinery manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "33313",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-36",
+      "name": "其他机械制造",
+      "nameEn": "Other machinery",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "3332OM",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-38",
+      "name": "计算机及外围设备制造",
+      "nameEn": "Computer and peripheral equipment manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "3341",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-39",
+      "name": "通信设备制造",
+      "nameEn": "Communications equipment manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "3342",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-40",
+      "name": "半导体与其他电子元件制造",
+      "nameEn": "Semiconductor and other electronic component manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "3344",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-41",
+      "name": "导航、测量、医用电子及控制仪器制造",
+      "nameEn": "Navigational, measuring, electromedical, and control instruments manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "3345",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-42",
+      "name": "其他计算机与电子产品制造",
+      "nameEn": "Other computer and electronic product manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "334X",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-45",
+      "name": "轿车制造",
+      "nameEn": "Automobile manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "336111",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-46",
+      "name": "轻型卡车与多用途车辆制造",
+      "nameEn": "Light truck and utility vehicle manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "336112",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-47",
+      "name": "重型卡车制造",
+      "nameEn": "Heavy duty truck manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "33612",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-48",
+      "name": "汽车车身、挂车与零部件制造",
+      "nameEn": "Motor vehicle body, trailer, and parts manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "3362BP",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-50",
+      "name": "航空航天产品与零部件制造",
+      "nameEn": "Aerospace product and parts manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "3364",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-51",
+      "name": "其余交通运输设备制造",
+      "nameEn": "All other transportation equipment manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "3365AO",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-54",
+      "name": "医疗设备与用品制造",
+      "nameEn": "Medical equipment and supplies manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "3391",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-55",
+      "name": "其他杂项制造",
+      "nameEn": "Other miscellaneous manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "3399",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-58",
+      "name": "食品制造",
+      "nameEn": "Food manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "311",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-59",
+      "name": "饮料制造",
+      "nameEn": "Beverage manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "3121",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-60",
+      "name": "烟草制品制造",
+      "nameEn": "Tobacco product manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "3122",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-67",
+      "name": "基础化学品制造",
+      "nameEn": "Basic chemical manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "3251",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-68",
+      "name": "树脂、橡胶与人造纤维制造",
+      "nameEn": "Resin, rubber, and artificial fibers manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "3252",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-69",
+      "name": "药品与医药制造",
+      "nameEn": "Pharmaceutical and medicine manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "3254",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-manufacturing-uva-70",
+      "name": "其他化学品制造",
+      "nameEn": "Other chemical manufacturing",
+      "parentIndustryId": "us-manufacturing",
+      "officialIndustryCode": "325X",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-wholesale-uva-73",
+      "name": "汽车、汽车零部件及用品批发",
+      "nameEn": "Motor vehicle and motor vehicle parts and supplies merchant wholesalers",
+      "parentIndustryId": "us-wholesale",
+      "officialIndustryCode": "4231",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-wholesale-uva-74",
+      "name": "专业与商业设备及用品批发",
+      "nameEn": "Professional and commercial equipment and supplies merchant wholesalers",
+      "parentIndustryId": "us-wholesale",
+      "officialIndustryCode": "4234",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-wholesale-uva-75",
+      "name": "家电、电气与电子产品批发",
+      "nameEn": "Household appliances and electrical and electronic goods merchant wholesalers",
+      "parentIndustryId": "us-wholesale",
+      "officialIndustryCode": "4236",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-wholesale-uva-76",
+      "name": "机械设备及用品批发",
+      "nameEn": "Machinery, equipment, and supplies merchant wholesalers",
+      "parentIndustryId": "us-wholesale",
+      "officialIndustryCode": "4238",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-wholesale-uva-77",
+      "name": "其他耐用品批发",
+      "nameEn": "Other durable goods merchant wholesalers",
+      "parentIndustryId": "us-wholesale",
+      "officialIndustryCode": "423X",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-wholesale-uva-78",
+      "name": "药品及相关用品批发",
+      "nameEn": "Drugs and druggists sundries merchant wholesalers",
+      "parentIndustryId": "us-wholesale",
+      "officialIndustryCode": "4242",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-wholesale-uva-79",
+      "name": "食品及相关产品批发",
+      "nameEn": "Grocery and related products merchant wholesalers",
+      "parentIndustryId": "us-wholesale",
+      "officialIndustryCode": "4244",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-wholesale-uva-80",
+      "name": "石油及石油产品批发",
+      "nameEn": "Petroleum and petroleum products merchant wholesalers",
+      "parentIndustryId": "us-wholesale",
+      "officialIndustryCode": "4247",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-wholesale-uva-81",
+      "name": "其他非耐用品批发",
+      "nameEn": "Other nondurable goods merchant wholesalers",
+      "parentIndustryId": "us-wholesale",
+      "officialIndustryCode": "424X",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-wholesale-uva-82",
+      "name": "批发电子市场、代理与经纪",
+      "nameEn": "Wholesale electronic markets and agents and brokers",
+      "parentIndustryId": "us-wholesale",
+      "officialIndustryCode": "425",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-wholesale-uva-83",
+      "name": "海关关税（BEA 批发业核算项）",
+      "nameEn": "Customs duties",
+      "parentIndustryId": "us-wholesale",
+      "officialIndustryCode": "42ID",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-retail-uva-89",
+      "name": "建材、园艺设备与用品零售",
+      "nameEn": "Building material and garden equipment and supplies dealers",
+      "parentIndustryId": "us-retail",
+      "officialIndustryCode": "444",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-retail-uva-90",
+      "name": "健康与个人护理用品零售",
+      "nameEn": "Health and personal care stores",
+      "parentIndustryId": "us-retail",
+      "officialIndustryCode": "446",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-retail-uva-91",
+      "name": "加油站",
+      "nameEn": "Gasoline stations",
+      "parentIndustryId": "us-retail",
+      "officialIndustryCode": "447",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-retail-uva-92",
+      "name": "服装与配饰零售",
+      "nameEn": "Clothing and clothing accessories stores",
+      "parentIndustryId": "us-retail",
+      "officialIndustryCode": "448",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-retail-uva-93",
+      "name": "无店铺零售",
+      "nameEn": "Nonstore retailers",
+      "parentIndustryId": "us-retail",
+      "officialIndustryCode": "454",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-retail-uva-94",
+      "name": "其余零售",
+      "nameEn": "All other retail",
+      "parentIndustryId": "us-retail",
+      "officialIndustryCode": "4A0X",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-information-uva-108",
+      "name": "报纸、期刊、图书与目录出版",
+      "nameEn": "Newspaper, periodical, book, and directory publishers",
+      "parentIndustryId": "us-information",
+      "officialIndustryCode": "5111",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-information-uva-109",
+      "name": "软件出版",
+      "nameEn": "Software publishers",
+      "parentIndustryId": "us-information",
+      "officialIndustryCode": "5112",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-information-uva-112",
+      "name": "广播电视（互联网除外）",
+      "nameEn": "Broadcasting (except Internet)",
+      "parentIndustryId": "us-information",
+      "officialIndustryCode": "515",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-information-uva-113",
+      "name": "有线电信运营",
+      "nameEn": "Wired telecommunications carriers",
+      "parentIndustryId": "us-information",
+      "officialIndustryCode": "5171",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-information-uva-114",
+      "name": "无线电信运营（卫星除外）",
+      "nameEn": "Wireless telecommunications carriers (except satellites)",
+      "parentIndustryId": "us-information",
+      "officialIndustryCode": "5172",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-information-uva-115",
+      "name": "其他电信（含卫星）",
+      "nameEn": "Other telecommunications, including satellite",
+      "parentIndustryId": "us-information",
+      "officialIndustryCode": "5174OT",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-information-uva-117",
+      "name": "数据处理、托管与相关服务",
+      "nameEn": "Data processing, hosting, and related services",
+      "parentIndustryId": "us-information",
+      "officialIndustryCode": "518",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-information-uva-118",
+      "name": "其他信息服务",
+      "nameEn": "Other information services",
+      "parentIndustryId": "us-information",
+      "officialIndustryCode": "519",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-finance-uva-124",
+      "name": "直接人寿保险",
+      "nameEn": "Direct life insurance carriers",
+      "parentIndustryId": "us-finance",
+      "officialIndustryCode": "524113",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-finance-uva-125",
+      "name": "其他保险承保",
+      "nameEn": "Insurance carriers, except direct life insurance",
+      "parentIndustryId": "us-finance",
+      "officialIndustryCode": "5241XX",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-finance-uva-126",
+      "name": "保险代理、经纪与相关服务",
+      "nameEn": "Agencies, brokerages, and other insurance related activities",
+      "parentIndustryId": "us-finance",
+      "officialIndustryCode": "5242",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-real-estate-uva-131",
+      "name": "业主自住住房服务",
+      "nameEn": "Owner-occupied housing",
+      "parentIndustryId": "us-real-estate",
+      "officialIndustryCode": "HSO",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-real-estate-uva-132",
+      "name": "出租住房服务",
+      "nameEn": "Tenant-occupied housing",
+      "parentIndustryId": "us-real-estate",
+      "officialIndustryCode": "HST",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-professional-uva-140",
+      "name": "会计、报税、记账与工资服务",
+      "nameEn": "Accounting, tax preparation, bookkeeping, and payroll services",
+      "parentIndustryId": "us-professional",
+      "officialIndustryCode": "5412",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-professional-uva-141",
+      "name": "建筑、工程及相关专业服务",
+      "nameEn": "Architectural, engineering, and related services",
+      "parentIndustryId": "us-professional",
+      "officialIndustryCode": "5413",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-professional-uva-142",
+      "name": "管理、科学与技术咨询",
+      "nameEn": "Management, scientific, and technical consulting services",
+      "parentIndustryId": "us-professional",
+      "officialIndustryCode": "5416",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-professional-uva-143",
+      "name": "科学研发服务",
+      "nameEn": "Scientific research and development services",
+      "parentIndustryId": "us-professional",
+      "officialIndustryCode": "5417",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-professional-uva-144",
+      "name": "广告、公关及相关服务",
+      "nameEn": "Advertising, public relations, and related services",
+      "parentIndustryId": "us-professional",
+      "officialIndustryCode": "5418",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-professional-uva-145",
+      "name": "专业设计及其他专业科技服务",
+      "nameEn": "Specialized design services and other professional, scientific, and technical services",
+      "parentIndustryId": "us-professional",
+      "officialIndustryCode": "541X",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-health-uva-157",
+      "name": "医师诊所",
+      "nameEn": "Offices of physicians",
+      "parentIndustryId": "us-health",
+      "officialIndustryCode": "6211",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-health-uva-158",
+      "name": "牙医诊所",
+      "nameEn": "Offices of dentists",
+      "parentIndustryId": "us-health",
+      "officialIndustryCode": "6212",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-health-uva-159",
+      "name": "其他健康从业者诊所",
+      "nameEn": "Offices of other health practitioners",
+      "parentIndustryId": "us-health",
+      "officialIndustryCode": "6213",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-health-uva-160",
+      "name": "门诊护理中心",
+      "nameEn": "Outpatient care centers",
+      "parentIndustryId": "us-health",
+      "officialIndustryCode": "6214",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-health-uva-161",
+      "name": "其他门诊医疗服务",
+      "nameEn": "Other ambulatory health care services",
+      "parentIndustryId": "us-health",
+      "officialIndustryCode": "6215OH",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-government-uva-185",
+      "name": "州与地方公立教育服务",
+      "nameEn": "State and local government educational services",
+      "parentIndustryId": "us-government",
+      "officialIndustryCode": "GSLGE",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-government-uva-186",
+      "name": "州与地方公立医院及医疗服务",
+      "nameEn": "State and local government hospitals and health services",
+      "parentIndustryId": "us-government",
+      "officialIndustryCode": "GSLGH",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    },
+    {
+      "nodeId": "us-government-uva-187",
+      "name": "州与地方政府其他服务",
+      "nameEn": "State and local government other services",
+      "parentIndustryId": "us-government",
+      "officialIndustryCode": "GSLGO",
+      "year": 2025,
+      "directValueAdded": null,
+      "compensation": null,
+      "netProductionTaxes": null,
+      "grossOperatingSurplus": null,
+      "status": "official-target-year-not-published",
+      "checkedAt": "2026-09-14",
+      "evidence": [
+        {
+          "file": "itable-uva-current-response.json",
+          "locator": "First_Year/Last_Year option maximum 2024; TheTable year header max 2024"
+        },
+        {
+          "file": "itable-components-current-response.json",
+          "locator": "TVA113 year header and option maximum 2024"
+        },
+        {
+          "file": "ComponentsOfVA.xlsx",
+          "locator": "UVCT2-A, UVCT3-A, UVCT40-A: A3/A5 and D8:AC8, latest 2023"
+        }
+      ]
+    }
+  ]
+}

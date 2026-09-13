@@ -1,0 +1,57 @@
+{
+  "checkedDate": "2026-09-14",
+  "statusVocabulary": {
+    "interior_not_obtained": "Publication or catalogue verified; required statistical table interior not acquired. No assertion about all contents.",
+    "edition_not_verified": "Exact current title/ISBN/publication unverified. No assertion of nonexistence.",
+    "edition_explicitly_not_published": "Agency explicitly confirms a particular edition was not published; this does not imply its data year has no public statistics."
+  },
+  "records": [
+    {
+      "title": "中国工业统计年鉴2025",
+      "editionYear": 2025,
+      "dataYearsVerified": [],
+      "publicationMonth": "2026-01",
+      "ISBN": "9787523010266",
+      "status": "interior_not_obtained",
+      "bibliographicSources": ["ndl-industrial2025", "cinii-industrial2025"],
+      "scope": "Exact coverage must be confirmed from this edition's editor notes and tables.",
+      "incomeMethodComponents": {"laborCompensation": null, "netTaxesOnProduction": null, "consumptionOfFixedCapital": null, "operatingSurplus": null},
+      "next": "Obtain legally public issuer preview of industry table all continuation columns, editor notes and indicator definitions; verify data year, total versus above-designated coverage and revision."
+    },
+    {
+      "title": "中国统计摘要2026",
+      "editionYear": 2026,
+      "publicationMonth": "2026-05",
+      "ISBN": "978-7-5230-1048-8",
+      "status": "interior_not_obtained",
+      "sourceIds": ["publisher-abstract2026", "publisher-digital-arm"],
+      "priorityPages": [23,24,25],
+      "secondaryPages": [123,124,125],
+      "next": "Read the GDP table's actual industry rows and 2024/2025 columns before deciding whether B, C, D or finer values exist."
+    },
+    {
+      "requestedTitle": "中国国民经济核算统计年鉴2025",
+      "editionYear": 2025,
+      "ISBN": null,
+      "status": "edition_not_verified",
+      "sourceIds": ["publisher-accounts2025-search", "publisher-accounts-search", "tsinghua-yearbooks"],
+      "next": "Establish exact contemporary title and ISBN from official issuer bibliography before looking for table values."
+    },
+    {
+      "requestedTitle": "中国国民经济核算统计年鉴2026",
+      "editionYear": 2026,
+      "ISBN": null,
+      "status": "edition_not_verified",
+      "sourceIds": ["publisher-accounts2026-search", "publisher-accounts-search", "tsinghua-yearbooks"],
+      "next": "Establish exact contemporary title and ISBN from official issuer bibliography before looking for table values."
+    },
+    {
+      "title": "中国工业统计年鉴2024",
+      "editionYear": 2024,
+      "status": "edition_explicitly_not_published",
+      "sourceIds": ["nbs-industrial2024-nonpublication"],
+      "officialAnswerDate": "2025-03-14",
+      "statementScope": "Edition skipped because 2023 was an economic census year. Does not say all 2024 industrial data are unavailable; does not apply to the 2025 edition."
+    }
+  ]
+}

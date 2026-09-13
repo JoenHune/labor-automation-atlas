@@ -1,0 +1,19 @@
+{
+  "checkedDate": "2026-09-14",
+  "attempts": [
+    {
+      "url": "https://item.taobao.com/item.htm?id=1054261837520",
+      "discoveredFrom": "https://www.zgtjcbs.com/xinshushangshi/5918",
+      "method": "web.open, without login",
+      "result": "URL cannot be opened (non-retryable error)",
+      "interiorObtained": false,
+      "retryPolicy": "No login, purchase or contact attempted; do not infer book contents from access failure."
+    },
+    {
+      "url": "https://www.zgtjcbs.com/xinshushangshi/5918",
+      "method": "web.open then public HTTPS GET",
+      "result": "web.open timed out; public HTTPS GET succeeded and HTML/visible text/links are archived",
+      "interiorObtained": false
+    }
+  ]
+}

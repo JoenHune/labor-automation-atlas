@@ -1,0 +1,14 @@
+{
+  "url": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.NAD,DSD_NAMAIN10@DF_TABLE1_OUTPUT,2.0/A.CHN..........?startPeriod=2024&endPeriod=2025&format=csvfilewithlabels",
+  "status": 200,
+  "headers": {
+    "Date": "Sun, 13 Sep 2026 17:40:50 GMT",
+    "Content-Type": "application/vnd.sdmx.data+csv; version=2; charset=utf-8; labels=name",
+    "Cache-Control": "public,max-age=7200",
+    "Last-Modified": "2024-09-25",
+    "Content-Disposition": "attachment; filename=\"OECD.SDD.NAD,DSD_NAMAIN10@DF_TABLE1_OUTPUT,2.0,filtered,2026-09-13 19-40-50.csv\""
+  },
+  "bytes": 18111,
+  "sha256": "7e13d02a03d66886026be771fe5196c2634dc32a4a776219d19d99c3577f39f7",
+  "retrieved": "2026-09-14"
+}

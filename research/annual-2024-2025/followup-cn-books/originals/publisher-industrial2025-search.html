@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>内容搜索</title>
+    <link href="/templates/default/static/js/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
+    <link href="/templates/default/static/css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/templates/default/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/templates/default/static/js/swiper/swiper-bundle.min.js"></script></head>
+
+<body>
+    <div class="app">
+        <!--头部-->
+<style>
+    header nav ul li {
+    flex: unset;
+}
+</style>
+    <header>
+            <section class="container">
+                <div class="head flex-between">
+                    <a href="/" class="logo"><img src="/templates/default/static/images/index_03.jpg" /></a>
+                    <div class="tpright flex-center-y">
+                      <div class="search flex">
+                        <form method="get" class="f-1 flex search_one" action="/search" style="overflow: auto;">
+                            <!-- <div class="selectbox flex">
+                                <div class="select-ui">
+                                    <select class="mod-select" id="autoSizingSelect">
+                                        <option value="新闻">新闻</option>
+                                        <option value="图书">图书</option>
+                                        <option value="期刊">期刊</option>
+                                    </select>
+                                </div>
+                            </div> -->
+                            <input type="text" name="keyword" class="input f-1" autocomplete="" placeholder="请输入关键字" />
+                            <button class="ui-button serachBtn" type="submit">搜索</button>
+                        </form>
+                        <div class="keys">
+                            <span>关键字：</span><a target="_blank" href="/search?keyword=发展报告">发展报告</a><a href="/search?keyword=统计年鉴"  target="_blank">统计年鉴</a><a  target="_blank" href="/search?keyword=年鉴">年鉴</a>
+                        </div>
+                       </div>
+                       <span class="search_4 search_ico"><img src="/templates/default/static/images/search1.png" /></span>
+                       <div class="menubtn">
+                        <div class="navbar-icons"><span></span><span></span><span></span></div>
+                    </div>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="/" class="icon1" >首页</a></li>
+                        <!--<li><a href="#" class="icon2 active">本社介绍</a></li>
+                        <li><a href="#" class="icon3">统计年鉴</a></li>
+                        <li><a href="#" class="icon4">统计资料</a></li>
+                        <li><a href="#" class="icon5">统计教材</a></li>
+                        <li><a href="#" class="icon6">中国统计</a></li>
+                        <li><a href="#" class="icon7">统计材料编委会</a></li>-->
+                        <li><a  href="/benshenjieshao" class="icon2 ">
+                          <!--<img src="/static/upload/e6926644-c5cf-42c5-8aa4-5ca18c257382.png" />-->
+                          <span>本社介绍</span>
+                        </a></li>
+                        <li><a  href="/tongjinianjian" class="icon3 ">
+                          <!--<img src="/static/upload/928fd0e1-b156-4ffc-beb6-a635af6db7a9.png" />-->
+                          <span>统计年鉴</span>
+                        </a></li>
+                        <li><a  href="/tongjiziliao" class="icon4 ">
+                          <!--<img src="/static/upload/eeba8747-91ba-41ca-993e-15664ad27c55.png" />-->
+                          <span>统计资料</span>
+                        </a></li>
+                        <li><a  href="/tongjijiaocai" class="icon5 ">
+                          <!--<img src="/static/upload/f946dcca-6456-4436-9db0-f29bfb33b419.png" />-->
+                          <span>统计教材</span>
+                        </a></li>
+                        <li><a  href="/zhongguotongji" class="icon6 ">
+                          <!--<img src="/static/upload/60739ec7-29a4-409f-821a-7fd7a9a7576a.png" />-->
+                          <span>中国统计</span>
+                        </a></li>
+                        <li><a target="_blank" href="/bianweihui" class="icon7 ">
+                          <!--<img src="/static/upload/71a6ebf3-fbb6-4e57-b10e-41b3011c0091.png" />-->
+                          <span>全国统计教材编审委员会</span>
+                        </a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+         <!--移动端菜单-->
+    <div class="menu-mc">
+        <div class="list">
+            <ul>
+                <li><a href="/">首页</a></li>
+                		
+                        <li><a href="/benshenjieshao" >
+                          <!--<img src="/static/upload/e6926644-c5cf-42c5-8aa4-5ca18c257382.png" />-->
+                          <span>本社介绍</span>
+                        </a></li>
+                		
+                        <li><a href="/tongjinianjian" >
+                          <!--<img src="/static/upload/928fd0e1-b156-4ffc-beb6-a635af6db7a9.png" />-->
+                          <span>统计年鉴</span>
+                        </a></li>
+                		
+                        <li><a href="/tongjiziliao" >
+                          <!--<img src="/static/upload/eeba8747-91ba-41ca-993e-15664ad27c55.png" />-->
+                          <span>统计资料</span>
+                        </a></li>
+                		
+                        <li><a href="/tongjijiaocai" >
+                          <!--<img src="/static/upload/f946dcca-6456-4436-9db0-f29bfb33b419.png" />-->
+                          <span>统计教材</span>
+                        </a></li>
+                		
+                        <li><a href="/zhongguotongji" >
+                          <!--<img src="/static/upload/60739ec7-29a4-409f-821a-7fd7a9a7576a.png" />-->
+                          <span>中国统计</span>
+                        </a></li>
+                		
+                        <li><a href="/bianweihui" >
+                          <!--<img src="/static/upload/71a6ebf3-fbb6-4e57-b10e-41b3011c0091.png" />-->
+                          <span>全国统计教材编审委员会</span>
+                        </a></li>
+            </ul>
+            
+        </div>
+    </div>            
+        <!--中间内容-->
+        <div class="book_lab no1">
+            <div class="container flex-center">
+                <div class="tpleft flex-center-y"> <a href="#" class="back"><img src="/templates/default/static/images/arrow3.png"></a>
+                    <img src="/templates/default/static/images/newico.png" class="icon">
+                    结果
+                </div>
+
+            </div>
+        </div>
+        <!--中间内容-->
+        <main class="index-main no1">
+            <div class="container">
+                
+                <div class="local flex-center-y no1">
+                    
+                </div>
+                
+                <div class="new_top head">
+                    <!--<form action="" method="get">
+                        <input class="" name="keyword" value="中国工业统计年鉴2025">
+                    </form>-->
+                    <div class="search flex" style="margin:0 auto;">
+                        <form  name="form1" method="get" class="f-1 flex search_one" action="/search" style="overflow: auto;">
+                            <!-- <div class="selectbox flex">
+                                <div class="select-ui">
+                                    <select class="mod-select" id="autoSizingSelect" name="categoryId">
+                                        <option value="2"  >新闻</option>
+                                        <option value="1"  >图书</option>
+                                        <option value="1147">期刊</option>
+                                    </select>
+                                </div>
+                            </div> -->
+                            <input type="text" name="keyword" class="input f-1" autocomplete="" value="中国工业统计年鉴2025" />
+                            <input type="hidden" id="pageNumber" name="pageNumber" class="input f-1" autocomplete="" value="" />
+                            <button class="ui-button serachBtn" type="submit">搜索</button>
+                        </form>
+                        <!--<div class="keys">
+                            <span>关键字：</span><a href="#">发展报告</a><a href="#">统计年鉴</a><a href="#">年鉴</a>
+                        </div>-->
+                       </div>
+                </div>
+<!--totalPageStart(0)totalPageEnd-->                <div class="new_list">
+                    <ul>
+                    </ul>
+                </div>
+                <!--翻页-->
+                <div class="fany">
+                    <!--<div class="divid-a"><a href="javascript:;">&lt;
+                        </a> <a href="javascript:;" class="active">1</a><a href="javascript:;">2</a> <a
+                            href="javascript:;">3</a> <a href="javascript:;">4</a> <a href="javascript:;">...</a><a
+                            href="javascript:;">8</a><a href="javascript:;">&gt;</a>
+                    </div>-->
+                    <!-- page start -->
+                    <!-- page end -->
+                </div>
+
+                
+            </div>
+            
+	
+
+            <!--图书排行版-->
+            
+            <!--推荐图书-->
+            
+            <!--友情链接-->
+            
+
+        </main>
+        <!--底部-->
+<footer>
+            <div class="container flex">
+                <div class="left f-1">
+                    <div class="footlink"><a href="/shutongdianzi/5833">数通电子</a>|<a href="/jingxiaoshangminglu/2638">经销商信息</a> |<a href="/weizhi">联系我们</a>|<a href="/banquan">版权声明</a></div>
+                    <div class="copyright">
+                        <p>版权所有：中国统计出版社有限公司   <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">京ICP备17030470号-2</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://beian.mps.gov.cn/img/logo01.dd7ff50e.png" width="18" height="20"><a href="https://beian.mps.gov.cn/#/query/webSearch?code=11010602200794" target="_blank">京公网安备11010602200794</a></p>
+                        <!--<p>技术支持：北京北大方正电子有限公司   </p>-->
+                    </div>
+                </div>
+                <div class="right">
+                    <p>电话：010-63376840</p>
+                    <P>传真：010-63376840</P>
+                    <p>地址：北京市西城区月坛南街57号</p>
+                </div>
+            </div>
+        </footer>    </div>
+    <script>
+        new Swiper('.focus', {
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 15,
+            autoplay: {
+                delay: 3000,
+                stopOnLastSlide: false,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.focus-pagination',
+                clickable: true,
+                bulletActiveClass: "active"
+            },
+            navigation: {
+                nextEl: '.pro-next',
+                prevEl: '.pro-prev',
+            },
+        });
+    </script>
+
+
+    <script type="text/javascript">
+
+        //搜索翻页
+        function per_submit(page)
+        {
+        
+          
+          if(page){
+              // var action=$('form').attr('action');
+              // console.log(action);
+
+              // $('form').attr('action',"/search?keyword=中国工业统计年鉴2025&pageNumber=" + page);
+              // return false;
+              $("#pageNumber").val(page);
+          }
+          document.form1.submit(); 
+        //   $('form').attr('action', 'https://example.com/submit');
+        }
+    </script>    
+    <script type="text/javascript" src="/templates/default/static/js/main.js"></script>
+</body>
+
+</html>

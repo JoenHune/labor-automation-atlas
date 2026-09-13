@@ -1,0 +1,58 @@
+[
+  {
+    "id": "undata-table2-4",
+    "publisher": "United Nations Statistics Division",
+    "title": "National Accounts Official Country Data, Table 2.4 Value added by industries at current prices (ISIC Rev.4), China",
+    "url": "https://data.un.org/Data.aspx?d=SNA&f=group_code%3A204%3Bcountry_code%3A156&q=china",
+    "rawFile": "raw/undata-china-table2-4.csv",
+    "downloadUrl": "https://data.un.org/Handlers/DownloadHandler.ashx?DataFilter=group_code%3A204%3Bcountry_code%3A156&DataMartId=SNA&Format=csv",
+    "lastUpdate": "2025-10-14",
+    "nextScheduledUpdate": "2026-10-01",
+    "publicationDate": null,
+    "locator": "HTML line 882; CSV lines 2-12 for 2024; country_code=156",
+    "checkedAt": "2026-09-14"
+  },
+  {
+    "id": "adb-ki2026",
+    "publisher": "Asian Development Bank / ERDI",
+    "title": "Key Indicators for Asia and the Pacific 2026 Economy Tables, PRC",
+    "url": "https://www.adb.org/sites/default/files/publication/1172491/ki2026-economy-tables.xlsx",
+    "publicationPage": "https://www.adb.org/publications/key-indicators-asia-and-pacific-2026",
+    "metadataPage": "https://data.adb.org/dataset/china-peoples-republic-key-indicators",
+    "rawFile": "raw/adb-all-2026.xlsx",
+    "edition": "2026",
+    "publicationMonth": "2026-08",
+    "datasetUpdated": "2026-08-31",
+    "upstreamSourceDate": "2026-03-11",
+    "locator": "PRC!AA7/AB7; B88-B110; footnotes B556-B558; source C635",
+    "checkedAt": "2026-09-14"
+  },
+  {
+    "id": "oecd-table6",
+    "publisher": "OECD.SDD.NAD",
+    "title": "Annual value added and its components by economic activity",
+    "url": "https://sdmx.oecd.org/public/rest/dataflow/OECD.SDD.NAD/DSD_NAMAIN10%40DF_TABLE6/2.0?references=all",
+    "rawFile": "raw/oecd-table6-structure.xml",
+    "chinaQueryUrl": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.NAD,DSD_NAMAIN10@DF_TABLE6,2.0/A.CHN..........?startPeriod=2024&endPeriod=2025&format=csvfilewithlabels",
+    "queryStatus": 404,
+    "queryResponse": "NoRecordsFound",
+    "version": "2.0",
+    "actualConstraintValidFrom": "2026-09-13T01:31:52Z",
+    "publicationDate": null,
+    "locator": "ContentConstraint type=Actual, id=CR_A_DSD_NAMAIN10@DF_TABLE6, KeyValue id=REF_AREA",
+    "checkedAt": "2026-09-14"
+  },
+  {
+    "id": "oecd-table1-output",
+    "publisher": "OECD.SDD.NAD",
+    "title": "Annual GDP and components - output approach, CHN",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.NAD,DSD_NAMAIN10@DF_TABLE1_OUTPUT,2.0/A.CHN..........?startPeriod=2024&endPeriod=2025&format=csvfilewithlabels",
+    "rawFile": "raw/oecd-table1-output-china-2024-2025.csv",
+    "structureUrl": "https://sdmx.oecd.org/public/rest/dataflow/OECD.SDD.NAD/DSD_NAMAIN10%40DF_TABLE1_OUTPUT/2.0?references=all",
+    "version": "2.0",
+    "actualConstraintValidFrom": "2026-09-13T01:31:52Z",
+    "publicationDate": null,
+    "locator": "2024-2025 request, 30 data rows, TIME_PERIOD is 2024 in every row; 10 XDC/V records",
+    "checkedAt": "2026-09-14"
+  }
+]

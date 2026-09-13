@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-09-14",
+  "researchVersionUnchanged": "2026-09-14.preview-15",
+  "sourceArchiveHashesVerified": 54,
+  "independentWorkbookChecks": "ADB PRC years, units, current prices, footnotes, source date and absent child cells",
+  "independentRevisionCheck": "UN 2024 industry is 405442.1; latest NBS/ADB is 404518.5 CNY 100 million; not mixed",
+  "nbsQuarterlyIndicatorRows": 32,
+  "usMissingNodesMatchedToCanonicalData": 80,
+  "coverage": [
+    {
+      "country": "cn",
+      "year": 2024,
+      "rootCount": 10,
+      "identifiedChildren": 76,
+      "childrenWithValue": 3,
+      "childrenWithoutValue": 73
+    },
+    {
+      "country": "cn",
+      "year": 2025,
+      "rootCount": 10,
+      "identifiedChildren": 76,
+      "childrenWithValue": 3,
+      "childrenWithoutValue": 73
+    },
+    {
+      "country": "us",
+      "year": 2024,
+      "rootCount": 11,
+      "identifiedChildren": 132,
+      "childrenWithValue": 132,
+      "childrenWithoutValue": 0
+    },
+    {
+      "country": "us",
+      "year": 2025,
+      "rootCount": 11,
+      "identifiedChildren": 132,
+      "childrenWithValue": 52,
+      "childrenWithoutValue": 80
+    }
+  ],
+  "newEligibleAmounts": 0,
+  "allRequestedAmountsCompleted": false,
+  "passed": true
+}

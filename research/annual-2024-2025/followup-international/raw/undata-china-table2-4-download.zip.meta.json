@@ -1,0 +1,14 @@
+{
+  "url": "https://data.un.org/Handlers/DownloadHandler.ashx?DataFilter=group_code%3A204%3Bcountry_code%3A156&DataMartId=SNA&Format=csv",
+  "status": 200,
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Type": "application/zip",
+    "Content-Disposition": "attachment; filename=UNdata_Export_20260913_183942354.zip",
+    "Date": "Sun, 13 Sep 2026 17:39:41 GMT",
+    "Content-Length": "1746"
+  },
+  "bytes": 1746,
+  "sha256": "e97379ba9d0567c2c24eb03b83c347f6de3f0f4758294da74065bee57ed9f2f0",
+  "retrieved": "2026-09-14"
+}

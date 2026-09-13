@@ -1,0 +1,137 @@
+[
+  {
+    "file": "ComponentsOfVA.xlsx",
+    "bytes": 224681,
+    "sha256": "428180994831044838f13e08e8a77044e63f360418959cf8c3b43e2364eef13e"
+  },
+  {
+    "file": "ComponentsOfVAAppendix.xlsx",
+    "bytes": 60514,
+    "sha256": "8c949b353a7008201287a83b9efd9f7b27b3de2342eaedffb63835065d32ae70"
+  },
+  {
+    "file": "ComponentsOfVaInfo.xlsx",
+    "bytes": 59221,
+    "sha256": "a3caba3f6cc33dcacac180e5c217990894479ff36be7989a63e6da15a9330873"
+  },
+  {
+    "file": "README.md",
+    "bytes": 5784,
+    "sha256": "9c024df398cf7e3bbd1a6106b5af3426e6185865104c61efd303787620c8a849"
+  },
+  {
+    "file": "annual-update-source.json",
+    "bytes": 199,
+    "sha256": "bb7bc17910b46cc60eccb445b5a9dded3c8de7153b2b38772f02832cee6d6eb6"
+  },
+  {
+    "file": "annual-update.html",
+    "bytes": 61492,
+    "sha256": "380687fc5b45b894a8907e662e853b58018847882147eeb6c21e89ffa165a9b2"
+  },
+  {
+    "file": "api-empty-userid-request.json",
+    "bytes": 246,
+    "sha256": "b3d5bcbc9dad0780f79b7a24d6100be157e767e0bfe29191abb6a45f4aedde47"
+  },
+  {
+    "file": "api-empty-userid-response.txt",
+    "bytes": 446,
+    "sha256": "d737e00d7c32b682cfc7f496926a1add6b920f26fbb928a478300e84c5f3f905"
+  },
+  {
+    "file": "api-no-key-request.json",
+    "bytes": 197,
+    "sha256": "a625d7a69b0d8272e3ed55d6fbec5be334dabb0838ae3d47062a7caf679622ce"
+  },
+  {
+    "file": "api-no-key-response.empty.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "api-signup-source.json",
+    "bytes": 156,
+    "sha256": "075e74d13947b0c44f49b47326855004650c0a7ee4bc714af0058486b66b708a"
+  },
+  {
+    "file": "api-signup.html",
+    "bytes": 44995,
+    "sha256": "1fef9ab9c27baf542ac2cae9e05b0c7e13f19d6dd53c67881fd8bc6451e2cdcc"
+  },
+  {
+    "file": "audit.py",
+    "bytes": 9152,
+    "sha256": "b1baa59c2d48f307a1977a0bfe5cd5b4439978da15af608f2e1a95e833493ae4"
+  },
+  {
+    "file": "availability-audit.json",
+    "bytes": 86713,
+    "sha256": "5239c4f001cba7131f68839333325e5dbd78e703f8afb794a2fb7c5af2461cb4"
+  },
+  {
+    "file": "discontinued-statistics-source.json",
+    "bytes": 183,
+    "sha256": "123b6754607b965dfb3bada3fb09483b899f6d9f708f15f5805e2b000c93fc4d"
+  },
+  {
+    "file": "discontinued-statistics.html",
+    "bytes": 163662,
+    "sha256": "fbaa7bd081521b3b459de45c4330e23f0d107fdbf7464124609bf41e8e3381aa"
+  },
+  {
+    "file": "gdp-release-status-source.json",
+    "bytes": 165,
+    "sha256": "105a44188ec23a06261844703c5f27382070b827a883d6ba52230f7d0391cb50"
+  },
+  {
+    "file": "gdp-release-status.html",
+    "bytes": 46052,
+    "sha256": "63762723bea0e137ade54e246cea5e38d53c93b42f3038fc5f4518361eb61dfa"
+  },
+  {
+    "file": "industry-tables-no-longer-published.html",
+    "bytes": 36011,
+    "sha256": "7fb57f2d52c685a35a5b6f7d6549ab00de9ae97144b577177a28b0f0721ade63"
+  },
+  {
+    "file": "itable-2025-request.json",
+    "bytes": 326,
+    "sha256": "e919a6b2870d2af7d1fc236a872a79266a5df0e6c59114cb35026b417fec9930"
+  },
+  {
+    "file": "itable-2025-response.json",
+    "bytes": 119768,
+    "sha256": "a9d7be0f1bbdc569c26af440050b742397cc9284650d2e65cf55318887602ecc"
+  },
+  {
+    "file": "itable-components-current-request.json",
+    "bytes": 234,
+    "sha256": "c59142866db0a204f18e1dc336df3fa33ea81830ffae9919e5e9fd3bf182a290"
+  },
+  {
+    "file": "itable-components-current-response.json",
+    "bytes": 649308,
+    "sha256": "4d6e33955f3a4143a4c76f2ad070117a531baebdb94d429e031bfdacef29c05a"
+  },
+  {
+    "file": "itable-uva-current-request.json",
+    "bytes": 235,
+    "sha256": "24d2316879195e4bcc51321d9c10f7a83e8a8dde3d53e8bee9695d25afb14699"
+  },
+  {
+    "file": "itable-uva-current-response.json",
+    "bytes": 319145,
+    "sha256": "36ce33ef6a64b196284e12792b4025acc2fe50ba1afaba4f70228e8abee21dc5"
+  },
+  {
+    "file": "underlying-va-components-download.json",
+    "bytes": 190,
+    "sha256": "eb88c140ad7fcd08a5be9d3508a1a257b1d2565ad88a1e8ea9cc42d3f7733d0b"
+  },
+  {
+    "file": "underlying-va-components.zip",
+    "bytes": 327148,
+    "sha256": "ee98b06680aebdae532f2bef337981fbae21f719af35ab93349e56c684ccb2cf"
+  }
+]

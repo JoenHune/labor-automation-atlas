@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>北京数通电子出版社</title>
+<link href="/templates/default/static/js/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
+    <link href="/templates/default/static/css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/templates/default/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/templates/default/static/js/swiper/swiper-bundle.min.js"></script></head>
+
+<body>
+    <div class="app">
+        <!--头部-->
+<style>
+    header nav ul li {
+    flex: unset;
+}
+</style>
+    <header>
+            <section class="container">
+                <div class="head flex-between">
+                    <a href="/" class="logo"><img src="/templates/default/static/images/index_03.jpg" /></a>
+                    <div class="tpright flex-center-y">
+                      <div class="search flex">
+                        <form method="get" class="f-1 flex search_one" action="/search" style="overflow: auto;">
+                            <!-- <div class="selectbox flex">
+                                <div class="select-ui">
+                                    <select class="mod-select" id="autoSizingSelect">
+                                        <option value="新闻">新闻</option>
+                                        <option value="图书">图书</option>
+                                        <option value="期刊">期刊</option>
+                                    </select>
+                                </div>
+                            </div> -->
+                            <input type="text" name="keyword" class="input f-1" autocomplete="" placeholder="请输入关键字" />
+                            <button class="ui-button serachBtn" type="submit">搜索</button>
+                        </form>
+                        <div class="keys">
+                            <span>关键字：</span><a target="_blank" href="/search?keyword=发展报告">发展报告</a><a href="/search?keyword=统计年鉴"  target="_blank">统计年鉴</a><a  target="_blank" href="/search?keyword=年鉴">年鉴</a>
+                        </div>
+                       </div>
+                       <span class="search_4 search_ico"><img src="/templates/default/static/images/search1.png" /></span>
+                       <div class="menubtn">
+                        <div class="navbar-icons"><span></span><span></span><span></span></div>
+                    </div>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="/" class="icon1" >首页</a></li>
+                        <!--<li><a href="#" class="icon2 active">本社介绍</a></li>
+                        <li><a href="#" class="icon3">统计年鉴</a></li>
+                        <li><a href="#" class="icon4">统计资料</a></li>
+                        <li><a href="#" class="icon5">统计教材</a></li>
+                        <li><a href="#" class="icon6">中国统计</a></li>
+                        <li><a href="#" class="icon7">统计材料编委会</a></li>-->
+                        <li><a  href="/benshenjieshao" class="icon2 ">
+                          <!--<img src="/static/upload/e6926644-c5cf-42c5-8aa4-5ca18c257382.png" />-->
+                          <span>本社介绍</span>
+                        </a></li>
+                        <li><a  href="/tongjinianjian" class="icon3 ">
+                          <!--<img src="/static/upload/928fd0e1-b156-4ffc-beb6-a635af6db7a9.png" />-->
+                          <span>统计年鉴</span>
+                        </a></li>
+                        <li><a  href="/tongjiziliao" class="icon4 ">
+                          <!--<img src="/static/upload/eeba8747-91ba-41ca-993e-15664ad27c55.png" />-->
+                          <span>统计资料</span>
+                        </a></li>
+                        <li><a  href="/tongjijiaocai" class="icon5 ">
+                          <!--<img src="/static/upload/f946dcca-6456-4436-9db0-f29bfb33b419.png" />-->
+                          <span>统计教材</span>
+                        </a></li>
+                        <li><a  href="/zhongguotongji" class="icon6 ">
+                          <!--<img src="/static/upload/60739ec7-29a4-409f-821a-7fd7a9a7576a.png" />-->
+                          <span>中国统计</span>
+                        </a></li>
+                        <li><a target="_blank" href="/bianweihui" class="icon7 ">
+                          <!--<img src="/static/upload/71a6ebf3-fbb6-4e57-b10e-41b3011c0091.png" />-->
+                          <span>全国统计教材编审委员会</span>
+                        </a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+         <!--移动端菜单-->
+    <div class="menu-mc">
+        <div class="list">
+            <ul>
+                <li><a href="/">首页</a></li>
+                		
+                        <li><a href="/benshenjieshao" >
+                          <!--<img src="/static/upload/e6926644-c5cf-42c5-8aa4-5ca18c257382.png" />-->
+                          <span>本社介绍</span>
+                        </a></li>
+                		
+                        <li><a href="/tongjinianjian" >
+                          <!--<img src="/static/upload/928fd0e1-b156-4ffc-beb6-a635af6db7a9.png" />-->
+                          <span>统计年鉴</span>
+                        </a></li>
+                		
+                        <li><a href="/tongjiziliao" >
+                          <!--<img src="/static/upload/eeba8747-91ba-41ca-993e-15664ad27c55.png" />-->
+                          <span>统计资料</span>
+                        </a></li>
+                		
+                        <li><a href="/tongjijiaocai" >
+                          <!--<img src="/static/upload/f946dcca-6456-4436-9db0-f29bfb33b419.png" />-->
+                          <span>统计教材</span>
+                        </a></li>
+                		
+                        <li><a href="/zhongguotongji" >
+                          <!--<img src="/static/upload/60739ec7-29a4-409f-821a-7fd7a9a7576a.png" />-->
+                          <span>中国统计</span>
+                        </a></li>
+                		
+                        <li><a href="/bianweihui" >
+                          <!--<img src="/static/upload/71a6ebf3-fbb6-4e57-b10e-41b3011c0091.png" />-->
+                          <span>全国统计教材编审委员会</span>
+                        </a></li>
+            </ul>
+            
+        </div>
+    </div>            
+        <!--中间内容-->
+        <div class="book_lab no1">
+            <div class="container flex-center">
+                <div class="tpleft flex-center-y"> <a href="#" class="back"><img src="/templates/default/static/images/arrow3.png"></a>
+                    <img src="/templates/default/static/images/newico.png" class="icon">
+                    新闻详情
+                </div>
+
+            </div>
+        </div>
+        <!--中间内容-->
+        <main class="index-main no1">
+            <div class="container">
+                <!--<div class="local flex-center-y no1">
+                    <span class="icon"><img src="/templates/default/static/images/icon2_03.png"></span>
+                    <a href="#">首页</a> <span class="line">/</span> <a href="#">中国统计</a> <span class="line">/</span>
+                    <span class="green">宣传工作暨新闻宣传培训会议在北海召开</span>
+                </div>-->
+<div class="local flex-center-y no1">
+                    <span class="icon"><img src="/templates/default/static/images/icon2_03.png"></span>
+                    <!--<a href="#">首页</a> <span class="line">/</span> <span class="green">统计年鉴</span>-->
+                    <a href="/">首页</a> <span class="line">/</span>
+                    <a href="/null">项目合作</a><span class="line">/</span>
+                    
+                    <a class="green" href="/shutongdianzi">数通电子</a>
+                </div>                <div class="new_show border_1">
+                    <div class="new_title">北京数通电子出版社</div>
+                    <div class="date">发布时间：2011-07-08 12:09:19</div>
+                    <div class="show_2">
+                        <p style="text-align: center;"><img src="/static/upload/5272dfd6-4237-4278-b2b0-2b5e1f257dcb.jpg"/></p>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+            <!--图书排行版-->
+            <div class="tujian-book product-new">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-title flex-center"><span class="txt f-1">图书排行版</span>
+                            <a href="/reshupaixing" class="link-more flex-center-y">更多</a>
+                        </div>
+                        <div class="list no1">
+                            <ul class="flex">
+                                                                <li class="f-1">
+                                    <div class="lab_1">NO.1</div>
+                                    <a href="/reshupaixing/5846" target="_blank" class="photo">
+                                        <img src="/data/attachement/piclinks/site2/20241128/1732760361833.jpg" class="full" />
+                                    </a>
+                                    <div class="info">
+                                        <div class="title ellipsis">工程项目组织与管理 2024修订版咨询工程师(投资)职业资格考试参考教材</div>
+                                        <!--<div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>-->
+                                    </div>
+                                </li>
+                                <li class="f-1">
+                                    <div class="lab_1">NO.2</div>
+                                    <a href="/reshupaixing/5845" target="_blank" class="photo">
+                                        <img src="/data/attachement/piclinks/site2/20231227/1703656283813.jpg" class="full" />
+                                    </a>
+                                    <div class="info">
+                                        <div class="title ellipsis">咨询工程师（投资）职业资格考试大纲（2024版）</div>
+                                        <!--<div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>-->
+                                    </div>
+                                </li>
+                                <li class="f-1">
+                                    <div class="lab_1">NO.3</div>
+                                    <a href="/reshupaixing/5768" target="_blank" class="photo">
+                                        <img src="/data/attachement/piclinks/site2/20250122/1737528056954.jpg" class="full" />
+                                    </a>
+                                    <div class="info">
+                                        <div class="title ellipsis">金融统计学（第二版）</div>
+                                        <!--<div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>-->
+                                    </div>
+                                </li>
+                                <li class="f-1">
+                                    <div class="lab_1">NO.4</div>
+                                    <a href="/reshupaixing/5765" target="_blank" class="photo">
+                                        <img src="/data/attachement/piclinks/site2/20241224/1735020909556.jpg" class="full" />
+                                    </a>
+                                    <div class="info">
+                                        <div class="title ellipsis">中国农村统计年鉴2024</div>
+                                        <!--<div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>-->
+                                    </div>
+                                </li>
+                                <!--<li class="f-1">
+                                    <div class="lab_1">NO.02</div>
+                                    <a href="#" class="photo">
+                                        <img src="/templates/default/static/images/index_56.jpg" class="full" />
+                                    </a>
+                                    <div class="info">
+                                        <div class="title ellipsis">中国式现代化的统计测度</div>
+                                        <div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>
+                                    </div>
+                                </li>
+                                <li class="f-1">
+                                    <div class="lab_1">NO.03</div>
+                                    <a href="#" class="photo">
+                                        <img src="/templates/default/static/images/index_56.jpg" class="full" />
+                                    </a>
+                                    <div class="info">
+                                        <div class="title ellipsis">中国式现代化的统计测度</div>
+                                        <div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>
+                                    </div>
+                                </li>
+                                <li class="f-1">
+                                    <div class="lab_1">NO.04</div>
+                                    <a href="#" class="photo">
+                                        <img src="/templates/default/static/images/index_56.jpg" class="full" />
+                                    </a>
+                                    <div class="info">
+                                        <div class="title ellipsis">中国式现代化的统计测度</div>
+                                        <div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>
+                                    </div>
+                                </li>-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            <!--推荐图书-->
+            <div class="tujian-book product-new">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-title flex-center"><span class="txt f-1">推荐图书</span>
+                            <a href="/tuijiantushu" class="link-more flex-center-y">更多</a>
+                        </div>
+                        <div class="list">
+                            <ul class="flex">
+                                                                <li class="f-1">
+                                    <a href="/tuijiantushu/5928" target="_blank" class="photo">
+                                        <img src="/static/upload/7b3335a3-261f-4bde-91ea-3ec8b4c61fe3.jpg" class="full" />
+                                    </a>
+                                    <div class="info">
+                                        <!--<div class="title ellipsis">中国式现代化的统计测度</div>-->
+                                        <div class="title">非凡“十四五” 奋进新征程</div>
+                                        <!--<div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>-->
+                                    </div>
+                                </li>
+                                <li class="f-1">
+                                    <a href="/tuijiantushu/5922" target="_blank" class="photo">
+                                        <img src="/static/upload/443868d2-4518-40d3-b617-f9db2878d913.jpg" class="full" />
+                                    </a>
+                                    <div class="info">
+                                        <!--<div class="title ellipsis">中国式现代化的统计测度</div>-->
+                                        <div class="title">2025中国宏观经济</div>
+                                        <!--<div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>-->
+                                    </div>
+                                </li>
+                                <li class="f-1">
+                                    <a href="/tuijiantushu/5918" target="_blank" class="photo">
+                                        <img src="/static/upload/db3c73a2-1419-4d1d-bdd5-c0f7cd9e100f.jpg" class="full" />
+                                    </a>
+                                    <div class="info">
+                                        <!--<div class="title ellipsis">中国式现代化的统计测度</div>-->
+                                        <div class="title">中国统计摘要2026</div>
+                                        <!--<div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>-->
+                                    </div>
+                                </li>
+                                <li class="f-1">
+                                    <a href="/tuijiantushu/5915" target="_blank" class="photo">
+                                        <img src="/static/upload/6290db1c-5a24-4eb5-9b6c-bb3e133c09a4.jpg" class="full" />
+                                    </a>
+                                    <div class="info">
+                                        <!--<div class="title ellipsis">中国式现代化的统计测度</div>-->
+                                        <div class="title">挑大学 选专业——2026高考志愿填报指南(民办大学和独立学院版)</div>
+                                        <!--<div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>-->
+                                    </div>
+                                </li>
+					            
+                                <!--<li class="f-1">
+                                    <a href="#" class="photo">
+                                        <img src="/templates/default/static/images/index_56.jpg" class="full" />
+                                    </a>
+                                    <div class="info">
+                                        <div class="title ellipsis">中国式现代化的统计测度</div>
+                                        <div class="title">全国统计建模大赛获奖论文选</div>
+                                        <div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>
+                                    </div>
+                                </li>
+                                <li class="f-1">
+                                    <a href="#" class="photo">
+                                        <img src="/templates/default/static/images/index_56.jpg" class="full" />
+                                    </a>
+                                    <div class="info">
+                                        <div class="title ellipsis">中国式现代化的统计测度</div>
+                                        <div class="title">全国统计建模大赛获奖论文选</div>
+                                        <div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>
+                                    </div>
+                                </li>
+                                <li class="f-1">
+                                    <a href="#" class="photo">
+                                        <img src="/templates/default/static/images/index_56.jpg" class="full" />
+                                    </a>
+                                    <div class="info">
+                                        <div class="title ellipsis">中国式现代化的统计测度</div>
+                                        <div class="title">全国统计建模大赛获奖论文选</div>
+                                        <div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>
+                                    </div>
+                                </li>-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+            <!--友情链接-->
+            
+
+        </main>
+        <!--底部-->
+<footer>
+            <div class="container flex">
+                <div class="left f-1">
+                    <div class="footlink"><a href="/shutongdianzi/5833">数通电子</a>|<a href="/jingxiaoshangminglu/2638">经销商信息</a> |<a href="/weizhi">联系我们</a>|<a href="/banquan">版权声明</a></div>
+                    <div class="copyright">
+                        <p>版权所有：中国统计出版社有限公司   <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">京ICP备17030470号-2</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://beian.mps.gov.cn/img/logo01.dd7ff50e.png" width="18" height="20"><a href="https://beian.mps.gov.cn/#/query/webSearch?code=11010602200794" target="_blank">京公网安备11010602200794</a></p>
+                        <!--<p>技术支持：北京北大方正电子有限公司   </p>-->
+                    </div>
+                </div>
+                <div class="right">
+                    <p>电话：010-63376840</p>
+                    <P>传真：010-63376840</P>
+                    <p>地址：北京市西城区月坛南街57号</p>
+                </div>
+            </div>
+        </footer>    </div>
+    <script type="text/javascript" src="/templates/default/static/js/main.js"></script>
+
+</body>
+
+</html>

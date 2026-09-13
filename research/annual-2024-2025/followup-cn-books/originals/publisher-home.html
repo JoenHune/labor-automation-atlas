@@ -1,0 +1,2063 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>首页</title>
+    <link href="/templates/default/static/js/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
+    <link href="/templates/default/static/css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/templates/default/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/templates/default/static/js/swiper/swiper-bundle.min.js"></script></head>
+
+<body>
+    <div class="app">
+        <!--头部-->
+<style>
+    header nav ul li {
+    flex: unset;
+}
+</style>
+    <header>
+            <section class="container">
+                <div class="head flex-between">
+                    <a href="/" class="logo"><img src="/templates/default/static/images/index_03.jpg" /></a>
+                    <div class="tpright flex-center-y">
+                      <div class="search flex">
+                        <form method="get" class="f-1 flex search_one" action="/search" style="overflow: auto;">
+                            <!-- <div class="selectbox flex">
+                                <div class="select-ui">
+                                    <select class="mod-select" id="autoSizingSelect">
+                                        <option value="新闻">新闻</option>
+                                        <option value="图书">图书</option>
+                                        <option value="期刊">期刊</option>
+                                    </select>
+                                </div>
+                            </div> -->
+                            <input type="text" name="keyword" class="input f-1" autocomplete="" placeholder="请输入关键字" />
+                            <button class="ui-button serachBtn" type="submit">搜索</button>
+                        </form>
+                        <div class="keys">
+                            <span>关键字：</span><a target="_blank" href="/search?keyword=发展报告">发展报告</a><a href="/search?keyword=统计年鉴"  target="_blank">统计年鉴</a><a  target="_blank" href="/search?keyword=年鉴">年鉴</a>
+                        </div>
+                       </div>
+                       <span class="search_4 search_ico"><img src="/templates/default/static/images/search1.png" /></span>
+                       <div class="menubtn">
+                        <div class="navbar-icons"><span></span><span></span><span></span></div>
+                    </div>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="/" class="icon1" >首页</a></li>
+                        <!--<li><a href="#" class="icon2 active">本社介绍</a></li>
+                        <li><a href="#" class="icon3">统计年鉴</a></li>
+                        <li><a href="#" class="icon4">统计资料</a></li>
+                        <li><a href="#" class="icon5">统计教材</a></li>
+                        <li><a href="#" class="icon6">中国统计</a></li>
+                        <li><a href="#" class="icon7">统计材料编委会</a></li>-->
+                        <li><a  href="/benshenjieshao" class="icon2 ">
+                          <!--<img src="/static/upload/e6926644-c5cf-42c5-8aa4-5ca18c257382.png" />-->
+                          <span>本社介绍</span>
+                        </a></li>
+                        <li><a  href="/tongjinianjian" class="icon3 ">
+                          <!--<img src="/static/upload/928fd0e1-b156-4ffc-beb6-a635af6db7a9.png" />-->
+                          <span>统计年鉴</span>
+                        </a></li>
+                        <li><a  href="/tongjiziliao" class="icon4 ">
+                          <!--<img src="/static/upload/eeba8747-91ba-41ca-993e-15664ad27c55.png" />-->
+                          <span>统计资料</span>
+                        </a></li>
+                        <li><a  href="/tongjijiaocai" class="icon5 ">
+                          <!--<img src="/static/upload/f946dcca-6456-4436-9db0-f29bfb33b419.png" />-->
+                          <span>统计教材</span>
+                        </a></li>
+                        <li><a  href="/zhongguotongji" class="icon6 ">
+                          <!--<img src="/static/upload/60739ec7-29a4-409f-821a-7fd7a9a7576a.png" />-->
+                          <span>中国统计</span>
+                        </a></li>
+                        <li><a target="_blank" href="/bianweihui" class="icon7 ">
+                          <!--<img src="/static/upload/71a6ebf3-fbb6-4e57-b10e-41b3011c0091.png" />-->
+                          <span>全国统计教材编审委员会</span>
+                        </a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+         <!--移动端菜单-->
+    <div class="menu-mc">
+        <div class="list">
+            <ul>
+                <li><a href="/">首页</a></li>
+                		
+                        <li><a href="/benshenjieshao" >
+                          <!--<img src="/static/upload/e6926644-c5cf-42c5-8aa4-5ca18c257382.png" />-->
+                          <span>本社介绍</span>
+                        </a></li>
+                		
+                        <li><a href="/tongjinianjian" >
+                          <!--<img src="/static/upload/928fd0e1-b156-4ffc-beb6-a635af6db7a9.png" />-->
+                          <span>统计年鉴</span>
+                        </a></li>
+                		
+                        <li><a href="/tongjiziliao" >
+                          <!--<img src="/static/upload/eeba8747-91ba-41ca-993e-15664ad27c55.png" />-->
+                          <span>统计资料</span>
+                        </a></li>
+                		
+                        <li><a href="/tongjijiaocai" >
+                          <!--<img src="/static/upload/f946dcca-6456-4436-9db0-f29bfb33b419.png" />-->
+                          <span>统计教材</span>
+                        </a></li>
+                		
+                        <li><a href="/zhongguotongji" >
+                          <!--<img src="/static/upload/60739ec7-29a4-409f-821a-7fd7a9a7576a.png" />-->
+                          <span>中国统计</span>
+                        </a></li>
+                		
+                        <li><a href="/bianweihui" >
+                          <!--<img src="/static/upload/71a6ebf3-fbb6-4e57-b10e-41b3011c0091.png" />-->
+                          <span>全国统计教材编审委员会</span>
+                        </a></li>
+            </ul>
+            
+        </div>
+    </div>        
+        <!--中间内容-->
+        <main class="index-main">
+            <div class="container">
+                <div class="topnews flex">
+                    <div class="focus swiper">
+                        <ul class="swiper-wrapper">
+			                     
+			                <li class="swiper-slide">
+                                <a href="/guanggaodatu/5929" target="_blank"><img src="/static/upload/634714ef-d751-4cc3-9a91-d98ce3db3784.jpg" /></a><!--/templates/default/static/images/index_33.jpg-->
+                                <!--<div class="txt">-->
+                                    <!--<div class="y">2024</div>-->
+                                    <!--<div class="title">非凡“十四五” 奋进新征程</div>
+                                    <div class="en"></div>-->
+                                    <!--<div class="author"></div>-->
+                                    <!--<br><br><br><br><br><br><br><br><br><br><br><br><br>-->
+                                    <!--<a href="/guanggaodatu/5929" class="button-more">了解更多</a>-->
+                                <!--</div>-->
+                            </li>
+                            
+			                     
+			                <li class="swiper-slide">
+                                <a href="/guanggaodatu/5934" target="_blank"><img src="/static/upload/d05348df-3495-4b31-90a7-4838e8b08822.jpg" /></a><!--/templates/default/static/images/index_33.jpg-->
+                                <!--<div class="txt">-->
+                                    <!--<div class="y">2024</div>-->
+                                    <!--<div class="title">中国统计摘要2026</div>
+                                    <div class="en"></div>-->
+                                    <!--<div class="author"></div>-->
+                                    <!--<br><br><br><br><br><br><br><br><br><br><br><br><br>-->
+                                    <!--<a href="/guanggaodatu/5934" class="button-more">了解更多</a>-->
+                                <!--</div>-->
+                            </li>
+                            
+			                     
+			                <li class="swiper-slide">
+                                <a href="/guanggaodatu/5933" target="_blank"><img src="/static/upload/5aacedb4-87c3-44b2-aaa3-084a94f157e2.jpg" /></a><!--/templates/default/static/images/index_33.jpg-->
+                                <!--<div class="txt">-->
+                                    <!--<div class="y">2024</div>-->
+                                    <!--<div class="title">2025中国宏观经济</div>
+                                    <div class="en"></div>-->
+                                    <!--<div class="author"></div>-->
+                                    <!--<br><br><br><br><br><br><br><br><br><br><br><br><br>-->
+                                    <!--<a href="/guanggaodatu/5933" class="button-more">了解更多</a>-->
+                                <!--</div>-->
+                            </li>
+                            
+			                     
+			                <li class="swiper-slide">
+                                <a href="/guanggaodatu/5916" target="_blank"><img src="/static/upload/f895029a-aef6-49fb-b477-c9c214f29302.jpg" /></a><!--/templates/default/static/images/index_33.jpg-->
+                                <!--<div class="txt">-->
+                                    <!--<div class="y">2024</div>-->
+                                    <!--<div class="title">挑大学 选专业</div>
+                                    <div class="en"></div>-->
+                                    <!--<div class="author"></div>-->
+                                    <!--<br><br><br><br><br><br><br><br><br><br><br><br><br>-->
+                                    <!--<a href="/guanggaodatu/5916" class="button-more">了解更多</a>-->
+                                <!--</div>-->
+                            </li>
+                            
+                            <!--<li class="swiper-slide">
+                                <a href="#"><img src="/templates/default/static/images/index_33.jpg" /></a>
+                                <div class="txt">
+                                    <div class="y">2024</div>
+                                    <div class="title">中国统计年鉴</div>
+                                    <div class="en">CHINA STATISTICAL YEARBOOK</div>
+                                    <div class="author">国家统计局·编</div>
+                                    <a href="#" class="button-more">了解更多</a>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#"><img src="/templates/default/static/images/index_33.jpg" /></a>
+                                <div class="txt">
+                                    <div class="y">2024</div>
+                                    <div class="title">中国统计年鉴</div>
+                                    <div class="en">CHINA STATISTICAL YEARBOOK</div>
+                                    <div class="author">国家统计局·编</div>
+                                    <a href="#" class="button-more">了解更多</a>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#"><img src="/templates/default/static/images/index_33.jpg" /></a>
+                                <div class="txt">
+                                    <div class="y">2024</div>
+                                    <div class="title">中国统计年鉴</div>
+                                    <div class="en">CHINA STATISTICAL YEARBOOK</div>
+                                    <div class="author">国家统计局·编</div>
+                                    <a href="#" class="button-more">了解更多</a>
+                                </div>
+                            </li>-->
+                        </ul>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="tabs f-1">
+
+                        <div class="tabbtn flex">
+                            <span class="btn f-1 active">快讯</span>
+                            <!-- <span class="btn f-1">行业咨询</span>
+                            <span class="btn f-1">通知公告</span>-->
+                            <span class="btn f-1">在线下载</span> 
+                            <!-- <a href="/kuaixun" target="_blank">更多</a> -->
+                        </div>
+                        <!-- <div class="card-title flex-center"><span class="txt f-1">快讯</span><a href="/kuaixun" class="link-more" target="_blank">更多</a></div> -->
+                        <div class="tabcontent">
+                            <div class="content">
+                                   <!-- 135 -->
+                                <div class="photonews">
+                                    <div class="info">
+                                        
+                                        <div class="flex-center-y">
+                                            <div class="title">
+                                                <a target="_blank" href="/kuaixun/5941" class="ellipsis">中国统计出版社有限公司《统计手册（2027）（2028）》（笔记本制作）印制项目 中标公告</a><i class="ico"></i>
+                                            </div>
+                                        </div>
+                                        <div class="desc multi-ellipsis">
+                                            项目名称: 《统计手册（2027）（2028）》（笔记本制作...</div>
+                                        <!-- <div class="ft"><a target="_blank" href="/kuaixun/5941" class="more">更多</a></div> -->
+                                        
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <ul>
+			                            <li><a target="_blank" href="/kuaixun/5939">招标公告</a><span class="dt">2026.08.20</span>
+                                        </li>
+                                        
+			                            <li><a target="_blank" href="/kuaixun/5931">关于征集“十五五”全国统计规划教材第一批选题的通知</a><span class="dt">2026.07.23</span>
+                                        </li>
+                                        
+			                            <li><a target="_blank" href="/kuaixun/5887">中国统计出版社有限公司《2026-2027年度中国统计（月刊）》印制项目中标公告</a><span class="dt">2025.11.25</span>
+                                        </li>
+                                        
+			                            <li><a target="_blank" href="/kuaixun/5886">喜讯：我社荣获经济学领域最具学术影响力出版社</a><span class="dt">2025.11.19</span>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                                <p class="card-title" style="margin-top: -20px; margin-bottom: unset; "><a target="_blank" href="/kuaixun" class="link-more">查看更多</a></p>
+                            </div>
+                            
+                            <!-- <div class="content">
+                                <div class="photonews">
+                                    <div class="info">
+                                        
+                                        <div class="flex-center-y">
+                                            <div class="title">
+                                                <a target="_blank" href="/kuaixun/5941" class="ellipsis">中国统计出版社有限公司《统计手册（2027）（2028）》（笔记本制作）印制项目 中标公告</a><i class="ico"></i>
+                                            </div>
+                                        </div>
+                                        <div class="desc multi-ellipsis">
+                                            项目名称: 《统计手册（2027）（2028）》（笔记本制作...</div>
+                                        <div class="ft"><a target="_blank" href="/kuaixun/5941" class="more">更多</a></div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <ul>
+			                            <li><a target="_blank" href="/kuaixun/5939">招标公告</a><span class="dt">2026.08.20</span>
+                                        </li>
+                                        
+			                            <li><a target="_blank" href="/kuaixun/5931">关于征集“十五五”全国统计规划教材第一批选题的通知</a><span class="dt">2026.07.23</span>
+                                        </li>
+                                        
+			                            <li><a target="_blank" href="/kuaixun/5887">中国统计出版社有限公司《2026-2027年度中国统计（月刊）》印制项目中标公告</a><span class="dt">2025.11.25</span>
+                                        </li>
+                                        
+			                            <li><a target="_blank" href="/kuaixun/5886">喜讯：我社荣获经济学领域最具学术影响力出版社</a><span class="dt">2025.11.19</span>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div> -->
+                            
+                            <!-- <div class="content">
+                                <div class="photonews">
+                                    <div class="info">
+                                        
+                                        <div class="flex-center-y">
+                                            <div class="title">
+                                                <a target="_blank" href="/shouyegundongxinwen/4005" class="ellipsis">《挑大学 选专业：2015高考志愿填报指南》正式出版发行</a><i class="ico"></i>
+                                            </div>
+                                        </div>
+                                        <div class="desc multi-ellipsis">
+                                              中国大学综合实力一目了然 中国大学学科强弱一目了然 中国...</div>
+                                        <div class="ft"><a target="_blank" href="/shouyegundongxinwen/4005" class="more">更多</a></div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <ul>
+			                            <li><a target="_blank" href="/shouyegundongxinwen/3782">十二五规划教材第二批入选教材公告</a><span class="dt">2014.09.29</span>
+                                        </li>
+                                        
+			                            <li><a target="_blank" href="/shouyegundongxinwen/3661">《挑大学&nbsp;选专业：2014高考志愿填报指南》正式出版发行</a><span class="dt">2014.01.14</span>
+                                        </li>
+                                        
+			                            <li><a target="_blank" href="/shouyegundongxinwen/3519">统计建模大赛系列参考书正在热销！！</a><span class="dt">2013.05.16</span>
+                                        </li>
+                                        
+			                            <li><a target="_blank" href="/shouyegundongxinwen/3429">春节假期暂停发书公告</a><span class="dt">2013.02.07</span>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div> -->
+                            
+                            <div class="content">
+                                <div class="photonews">
+                                    <div class="info">
+                                        
+                                        <div class="flex-center-y">
+                                            <div class="title">
+                                                <a target="_blank" href="/zaixianxiazailiebiao/5932" class="ellipsis">《经济统计案例分析》课件</a><i class="ico"></i>
+                                            </div>
+                                        </div>
+                                        <div class="desc multi-ellipsis">
+                                            《经济统计案例分析》课件</div>
+                                        <!-- <div class="ft"><a target="_blank" href="/zaixianxiazailiebiao/5932" class="more">更多</a></div> -->
+                                        
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <ul>
+			                            <li><a target="_blank" href="/zaixianxiazailiebiao/5919">应用多元统计分析电子附件</a><span class="dt">2026.06.16</span>
+                                        </li>
+                                        
+			                            <li><a target="_blank" href="/zaixianxiazailiebiao/5917">《2024年第十四届全国大学生市场调查与分析大赛获奖作品选》附录</a><span class="dt">2026.05.08</span>
+                                        </li>
+                                        
+			                            <li><a target="_blank" href="/zaixianxiazailiebiao/5911">魏瑾瑞《统计学（第二版）》书后习题参考答案</a><span class="dt">2026.04.10</span>
+                                        </li>
+                                        
+			                            <li><a target="_blank" href="/zaixianxiazailiebiao/5909">《统计相关知识（2025版）》勘误表</a><span class="dt">2026.04.02</span>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                                <p class="card-title" style="margin-top: -20px; margin-bottom: unset; "><a target="_blank" href="/zaixianxiazailiebiao" class="link-more">查看更多</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--最新图书-->
+            <div class="product-new">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-title flex-center"><span class="txt f-1">最新图书</span><a href="/xinshushangshi" class="link-more">更多</a></div>
+                        <div class="card-list flex">
+                            <div class="ad">
+                                <img src="/templates/default/static/images/index_44.jpg" class="full" />
+                                <div class="txt full">
+                                    <div class="title">新书上市</div>
+                                    <div class="desc">总有一个适合您，快来看看</div>
+                                    <a href="/xinshushangshi" class="button-more">前往专场</a>
+                                </div>
+                            </div>
+                            <div class="list f-1">
+                                <span class="slide-btn btn-prev"></span>
+                                <span class="slide-btn btn-next"></span>
+                                <div class="swiper swiper1">
+                                    <ul class="swiper-wrapper">
+                                        <li class="swiper-slide">
+                                            <a href="/xinshushangshi/5942" class="photo">
+                                                <img src="/static/upload/85d10cf5-7b85-4103-8ed1-d831e2ada971.jpg" class="full" />  <!--/templates/default/static/images/index_47.jpg-->
+                                            </a>
+                                            <div class="info">
+                                                <div class="title ellipsis">社会统计（第二版）</div>
+                                                <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                            </div>
+                                        </li>
+                                        <li class="swiper-slide">
+                                            <a href="/xinshushangshi/5940" class="photo">
+                                                <img src="/static/upload/63848acf-1225-4d25-90fd-4778b0a1f778.jpg" class="full" />  <!--/templates/default/static/images/index_47.jpg-->
+                                            </a>
+                                            <div class="info">
+                                                <div class="title ellipsis">质量管理统计方法(第三版)</div>
+                                                <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                            </div>
+                                        </li>
+                                        <li class="swiper-slide">
+                                            <a href="/xinshushangshi/5938" class="photo">
+                                                <img src="/static/upload/ef8c6691-abda-46a5-af83-bd21aff446f8.jpg" class="full" />  <!--/templates/default/static/images/index_47.jpg-->
+                                            </a>
+                                            <div class="info">
+                                                <div class="title ellipsis">应用计量经济学</div>
+                                                <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                            </div>
+                                        </li>
+                                        <li class="swiper-slide">
+                                            <a href="/xinshushangshi/5937" class="photo">
+                                                <img src="/static/upload/29eb09aa-8486-4f8d-9e3a-b8a61eabe523.jpg" class="full" />  <!--/templates/default/static/images/index_47.jpg-->
+                                            </a>
+                                            <div class="info">
+                                                <div class="title ellipsis">人工智能导论</div>
+                                                <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                            </div>
+                                        </li>
+                                        <li class="swiper-slide">
+                                            <a href="/xinshushangshi/5936" class="photo">
+                                                <img src="/static/upload/34403ff1-f41a-4739-95a6-3d72a87a442d.jpg" class="full" />  <!--/templates/default/static/images/index_47.jpg-->
+                                            </a>
+                                            <div class="info">
+                                                <div class="title ellipsis">公共卫生事业数字化管理</div>
+                                                <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                            </div>
+                                        </li>
+                                        <li class="swiper-slide">
+                                            <a href="/xinshushangshi/5930" class="photo">
+                                                <img src="/static/upload/6a476b5d-a545-4264-93d7-25f5851a74c5.jpg" class="full" />  <!--/templates/default/static/images/index_47.jpg-->
+                                            </a>
+                                            <div class="info">
+                                                <div class="title ellipsis">中国能源统计年鉴2025</div>
+                                                <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                            </div>
+                                        </li>
+                                        <li class="swiper-slide">
+                                            <a href="/xinshushangshi/5928" class="photo">
+                                                <img src="/static/upload/7b3335a3-261f-4bde-91ea-3ec8b4c61fe3.jpg" class="full" />  <!--/templates/default/static/images/index_47.jpg-->
+                                            </a>
+                                            <div class="info">
+                                                <div class="title ellipsis">非凡“十四五” 奋进新征程</div>
+                                                <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                            </div>
+                                        </li>
+                                        <li class="swiper-slide">
+                                            <a href="/xinshushangshi/5927" class="photo">
+                                                <img src="/static/upload/34f64899-78da-48e7-b39c-3d0c565016d4.jpg" class="full" />  <!--/templates/default/static/images/index_47.jpg-->
+                                            </a>
+                                            <div class="info">
+                                                <div class="title ellipsis">地区购买力平价测算方法与中国实践研究</div>
+                                                <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                            </div>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--推荐图书-->
+            <div class="tujian-book product-new">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-title flex-center"><span class="txt f-1">推荐图书</span><a href="/tuijiantushu" class="link-more">更多</a></div>
+                        <div class="list">
+                            <ul class="flex">
+                                <li class="f-1">
+                                    <a href="/tuijiantushu/5928" class="photo">
+                                        <img src="/static/upload/7b3335a3-261f-4bde-91ea-3ec8b4c61fe3.jpg" class="full" />  <!--/templates/default/static/images/index_56.jpg-->
+                                    </a>
+                                    <div class="info">
+                                        <!--<div class="title ellipsis">非凡“十四五” 奋进新征程</div>-->
+                                        <div class="title">非凡“十四五” 奋进新征程</div>
+                                        <!--<div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>-->
+                                    </div>
+                                </li>
+                                <li class="f-1">
+                                    <a href="/tuijiantushu/5922" class="photo">
+                                        <img src="/static/upload/443868d2-4518-40d3-b617-f9db2878d913.jpg" class="full" />  <!--/templates/default/static/images/index_56.jpg-->
+                                    </a>
+                                    <div class="info">
+                                        <!--<div class="title ellipsis">2025中国宏观经济</div>-->
+                                        <div class="title">2025中国宏观经济</div>
+                                        <!--<div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>-->
+                                    </div>
+                                </li>
+                                <li class="f-1">
+                                    <a href="/tuijiantushu/5918" class="photo">
+                                        <img src="/static/upload/db3c73a2-1419-4d1d-bdd5-c0f7cd9e100f.jpg" class="full" />  <!--/templates/default/static/images/index_56.jpg-->
+                                    </a>
+                                    <div class="info">
+                                        <!--<div class="title ellipsis">中国统计摘要2026</div>-->
+                                        <div class="title">中国统计摘要2026</div>
+                                        <!--<div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>-->
+                                    </div>
+                                </li>
+                                <li class="f-1">
+                                    <a href="/tuijiantushu/5915" class="photo">
+                                        <img src="/static/upload/6290db1c-5a24-4eb5-9b6c-bb3e133c09a4.jpg" class="full" />  <!--/templates/default/static/images/index_56.jpg-->
+                                    </a>
+                                    <div class="info">
+                                        <!--<div class="title ellipsis">挑大学 选专业——2026高考志愿填报指南(民办大学和独立学院版)</div>-->
+                                        <div class="title">挑大学 选专业——2026高考志愿填报指南(民办大学和独立学院版)</div>
+                                        <!--<div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>-->
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--推荐图书-->
+            <div class="tujian-book product-new">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-title flex-center"><span class="txt f-1">中国统计</span><a href="/zhongguotongji" class="link-more">更多</a></div>
+                        <div class="list">
+                            <ul class="flex">
+                                <!--li class="f-1" style="font-size: 16px;text-align: left;">
+                                    《中国统计》是国家统计局主管、中国统计出版社主办的机关刊物，是国家统计局党组指导全国统计工作的重要宣传阵地，担负着宣传国家统计方针政策，传达国家统计局党组工作决策部署，弘扬统计核心价值观，推广统计科普知识等方面的重要任务。<br><br>
+
+《中国统计》创办于1953年，创刊之初名为《统计工作通讯》。1957年改名为《统计工作》。1979年9月更名为《统计》。1989年更名为《中国统计》沿用至今。2016年，《中国统计》内页增至80页，由黑白印刷改为全彩色印刷。每月出版1期，月底出刊。16开本，定价为15元/册。
+                                </li-->
+                                <li class="f-1">
+                                    <a href="/quanbuqikan/5925" class="photo">
+                                        <img src="/static/upload/13a035a1-d394-44fc-b1ce-5beaabffea1c.jpg" class="full" />  <!--/templates/default/static/images/index_56.jpg-->
+                                    </a>
+                                    <div class="info">
+                                        <!--<div class="title ellipsis">2026.06总534期</div>-->
+                                        <div class="title">2026.06总534期</div>
+                                        <!--<div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>-->
+                                    </div>
+                                </li>
+                                <li class="f-1">
+                                    <a href="/quanbuqikan/5924" class="photo">
+                                        <img src="/static/upload/d9286ea2-1e8d-4c62-ad4f-2a166174b8b3.jpg" class="full" />  <!--/templates/default/static/images/index_56.jpg-->
+                                    </a>
+                                    <div class="info">
+                                        <!--<div class="title ellipsis">2026.05总533期</div>-->
+                                        <div class="title">2026.05总533期</div>
+                                        <!--<div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>-->
+                                    </div>
+                                </li>
+                                <li class="f-1">
+                                    <a href="/quanbuqikan/5923" class="photo">
+                                        <img src="/static/upload/79fde1a6-cc5e-492a-9404-de3c1849efdb.jpg" class="full" />  <!--/templates/default/static/images/index_56.jpg-->
+                                    </a>
+                                    <div class="info">
+                                        <!--<div class="title ellipsis">2026.04总532期</div>-->
+                                        <div class="title">2026.04总532期</div>
+                                        <!--<div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>-->
+                                    </div>
+                                </li>
+                                <li class="f-1">
+                                    <a href="/quanbuqikan/5913" class="photo">
+                                        <img src="/static/upload/305963f0-a337-498a-b1ee-b24f19ea6c18.jpg" class="full" />  <!--/templates/default/static/images/index_56.jpg-->
+                                    </a>
+                                    <div class="info">
+                                        <!--<div class="title ellipsis">2026.03总531期</div>-->
+                                        <div class="title">2026.03总531期</div>
+                                        <!--<div class="price">会员价：<span class="red">￥<i class="n">72</i></span></div>-->
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--热书排行-->
+            <div class="product-hot product-new">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-title flex-center"><span class="txt f-1">热书排行</span><a href="/reshupaixing" class="link-more">更多</a></div>
+                        <div class="card-list flex">
+                            <div class="top11">
+                                <ul>
+                                    <li class="flex-center">
+                                        <span class="num">1</span>
+                                        <a href="/reshupaixing/5846" target="_blank" class="photo"><img src="/data/attachement/piclinks/site2/20241128/1732760361833.jpg" /></a>
+                                        <!--/templates/default/static/images/index_64.jpg-->
+                                        <a href="/reshupaixing/5846" target="_blank" class="title ellipsis">工程项目组织与管理 2024修订版咨询工程师(投资)职业资格考试参考教材</a>
+                                    </li>
+                                    <li class="flex-center">
+                                        <span class="num">2</span>
+                                        <a href="/reshupaixing/5845" target="_blank" class="photo"><img src="/data/attachement/piclinks/site2/20231227/1703656283813.jpg" /></a>
+                                        <!--/templates/default/static/images/index_64.jpg-->
+                                        <a href="/reshupaixing/5845" target="_blank" class="title ellipsis">咨询工程师（投资）职业资格考试大纲（2024版）</a>
+                                    </li>
+                                    <li class="flex-center">
+                                        <span class="num">3</span>
+                                        <a href="/reshupaixing/5768" target="_blank" class="photo"><img src="/data/attachement/piclinks/site2/20250122/1737528056954.jpg" /></a>
+                                        <!--/templates/default/static/images/index_64.jpg-->
+                                        <a href="/reshupaixing/5768" target="_blank" class="title ellipsis">金融统计学（第二版）</a>
+                                    </li>
+                                    <li class="flex-center">
+                                        <span class="num">4</span>
+                                        <a href="/reshupaixing/5765" target="_blank" class="photo"><img src="/data/attachement/piclinks/site2/20241224/1735020909556.jpg" /></a>
+                                        <!--/templates/default/static/images/index_64.jpg-->
+                                        <a href="/reshupaixing/5765" target="_blank" class="title ellipsis">中国农村统计年鉴2024</a>
+                                    </li>
+                                    <li class="flex-center">
+                                        <span class="num">5</span>
+                                        <a href="/reshupaixing/5742" target="_blank" class="photo"><img src="/data/attachement/piclinks/site2/20241128/1732760696786.jpg" /></a>
+                                        <!--/templates/default/static/images/index_64.jpg-->
+                                        <a href="/reshupaixing/5742" target="_blank" class="title ellipsis">现代咨询方法与实务 2024修订版咨询工程(投资)职业资格考试参考教材</a>
+                                    </li>
+                                    <li class="flex-center">
+                                        <span class="num">6</span>
+                                        <a href="/reshupaixing/5741" target="_blank" class="photo"><img src="/data/attachement/piclinks/site2/20241128/1732760526130.jpg" /></a>
+                                        <!--/templates/default/static/images/index_64.jpg-->
+                                        <a href="/reshupaixing/5741" target="_blank" class="title ellipsis">项目决策分析与评价 2024修订版咨询工程师(投资)职业资格考试参考教材</a>
+                                    </li>
+                                    <li class="flex-center">
+                                        <span class="num">7</span>
+                                        <a href="/reshupaixing/5739" target="_blank" class="photo"><img src="/data/attachement/piclinks/site2/20241128/1732760060942.jpg" /></a>
+                                        <!--/templates/default/static/images/index_64.jpg-->
+                                        <a href="/reshupaixing/5739" target="_blank" class="title ellipsis">宏观经济政策与发展规划 2024修订版咨询工程师(投资)职业资格考试参考教材</a>
+                                    </li>
+                                    <li class="flex-center">
+                                        <span class="num">8</span>
+                                        <a href="/reshupaixing/5728" target="_blank" class="photo"><img src="/data/attachement/piclinks/site2/20241015/1728958969807.jpg" /></a>
+                                        <!--/templates/default/static/images/index_64.jpg-->
+                                        <a href="/reshupaixing/5728" target="_blank" class="title ellipsis">中国统计年鉴2024</a>
+                                    </li>
+                                    <li class="flex-center">
+                                        <span class="num">9</span>
+                                        <a href="/reshupaixing/5705" target="_blank" class="photo"><img src="/data/attachement/piclinks/site2/20240725/1721869175370.jpg" /></a>
+                                        <!--/templates/default/static/images/index_64.jpg-->
+                                        <a href="/reshupaixing/5705" target="_blank" class="title ellipsis">抽样理论与方法</a>
+                                    </li>
+                                    <li class="flex-center">
+                                        <span class="num">10</span>
+                                        <a href="/reshupaixing/5702" target="_blank" class="photo"><img src="/data/attachement/piclinks/site2/20240709/1720508544528.jpg" /></a>
+                                        <!--/templates/default/static/images/index_64.jpg-->
+                                        <a href="/reshupaixing/5702" target="_blank" class="title ellipsis">大数据分析综合实验</a>
+                                    </li>
+                                    <li class="flex-center">
+                                        <span class="num">11</span>
+                                        <a href="/reshupaixing/5671" target="_blank" class="photo"><img src="/data/attachement/piclinks/site2/20240605/1717568694807.jpg" /></a>
+                                        <!--/templates/default/static/images/index_64.jpg-->
+                                        <a href="/reshupaixing/5671" target="_blank" class="title ellipsis">面向统计学的Python语言实践</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="list f-1">
+                                <div class="tabs">
+                                    <div class="tabbtn">
+                                        <span class="btn active">统计年鉴</span>
+                                        <span class="btn">统计资料</span>
+                                        <span class="btn">统计教材</span>
+                                        <span class="btn">统计普及读物</span>
+                                        <span class="btn">统计制度方法</span>
+                                        <span class="btn">统计转专译论证</span>
+                                        <span class="btn">统计电子出版</span>
+                                        <span class="btn">统计专题报告</span>
+                                        <span class="btn">其他图书</span>
+                                    </div>
+                                    <div class="tabcontent">
+                                        <div class="content">
+                                            <ul>
+                                                <li>
+                                                    <a  href="/zonghetongjinianjian/5918" target="_blank" class="photo">
+                                                        <img src="/static/upload/db3c73a2-1419-4d1d-bdd5-c0f7cd9e100f.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/zonghetongjinianjian/5918" target="_blank" class="title ellipsis">中国统计摘要2026</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/zonghetongjinianjian/5889" target="_blank" class="photo">
+                                                        <img src="/static/upload/08c72332-2a49-4658-ae87-8c83a620b77f.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/zonghetongjinianjian/5889" target="_blank" class="title ellipsis">中国农村统计年鉴2025</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/zonghetongjinianjian/5882" target="_blank" class="photo">
+                                                        <img src="/static/upload/d8f34847-b17e-47ac-afce-74abb61a8e9c.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/zonghetongjinianjian/5882" target="_blank" class="title ellipsis">中国统计年鉴2025</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/zonghetongjinianjian/5728" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20241015/1728958969807.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/zonghetongjinianjian/5728" target="_blank" class="title ellipsis">中国统计年鉴2024</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/zonghetongjinianjian/5665" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20240523/1716427484867.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/zonghetongjinianjian/5665" target="_blank" class="title ellipsis">中国统计摘要2024</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/zonghetongjinianjian/5581" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20231016/1697419845691.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/zonghetongjinianjian/5581" target="_blank" class="title ellipsis">中国统计年鉴2023</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/zonghetongjinianjian/5540" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20230601/1685583211694.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/zonghetongjinianjian/5540" target="_blank" class="title ellipsis">中国统计摘要2023</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/zonghetongjinianjian/5386" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20221009/1665280097198.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/zonghetongjinianjian/5386" target="_blank" class="title ellipsis">中国统计年鉴-2022</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/zonghetongjinianjian/5327" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20220613/1655080973991.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/zonghetongjinianjian/5327" target="_blank" class="title ellipsis">中国人口普查年鉴-2020</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/zonghetongjinianjian/5293" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20220329/1648529679587.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/zonghetongjinianjian/5293" target="_blank" class="title ellipsis">中国县域统计年鉴(乡镇卷、县市卷)－2021</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/zonghetongjinianjian/5177" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20211011/1633911568367.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/zonghetongjinianjian/5177" target="_blank" class="title ellipsis">中国统计年鉴-2021</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/zonghetongjinianjian/5026" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20210226/1614306925168.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/zonghetongjinianjian/5026" target="_blank" class="title ellipsis">国际统计年鉴-2020</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/zonghetongjinianjian/4931" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20200928/1601278925201.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/zonghetongjinianjian/4931" target="_blank" class="title ellipsis">中国统计年鉴-2020</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/zonghetongjinianjian/4868" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20200513/1589334597086.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/zonghetongjinianjian/4868" target="_blank" class="title ellipsis">国际统计年鉴-2019</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/zonghetongjinianjian/4788" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20190918/1568766864839.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/zonghetongjinianjian/4788" target="_blank" class="title ellipsis">中国统计年鉴-2019</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/zonghetongjinianjian/4756" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20190613/1560394063768.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/zonghetongjinianjian/4756" target="_blank" class="title ellipsis">中国县域统计年鉴—2018</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                        
+                                        <div class="content">
+                                            <ul>
+                                                <li>
+                                                    <a  href="/qitaziliao/5918" target="_blank" class="photo">
+                                                        <img src="/static/upload/db3c73a2-1419-4d1d-bdd5-c0f7cd9e100f.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/qitaziliao/5918" target="_blank" class="title ellipsis">中国统计摘要2026</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/qitaziliao/5869" target="_blank" class="photo">
+                                                        <img src="/static/upload/646bbbc7-1845-4f22-b4f9-1952e318c425.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/qitaziliao/5869" target="_blank" class="title ellipsis">中国统计摘要2025</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/qitaziliao/5551" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20230706/1688627024391.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/qitaziliao/5551" target="_blank" class="title ellipsis">2022中国宏观经济</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/renkoupucha/5394" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20221014/1665731615396.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/renkoupucha/5394" target="_blank" class="title ellipsis">中国人口分县资料2020</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/qitaziliao/5376" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20220921/1663759691454.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/qitaziliao/5376" target="_blank" class="title ellipsis">奋进新时代 谱写新篇章——从十八大到二十大</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/qitaziliao/5336" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20220622/1655867218844.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/qitaziliao/5336" target="_blank" class="title ellipsis">中国统计摘要-2022</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/qitaziliao/5099" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20210601/1622512166113.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/qitaziliao/5099" target="_blank" class="title ellipsis">中国统计摘要-2021</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/qitaziliao/5063" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20210329/1617004203939.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/qitaziliao/5063" target="_blank" class="title ellipsis">中华人民共和国2020年国民经济和社会发展统计公报</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/qitaziliao/4926" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20200923/1600845686450.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/qitaziliao/4926" target="_blank" class="title ellipsis">中国地区投入产出表-2017</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/qitaziliao/4881" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20200515/1589510925992.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/qitaziliao/4881" target="_blank" class="title ellipsis">中国统计摘要-2020</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/qitaziliao/4740" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20190521/1558401971445.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/qitaziliao/4740" target="_blank" class="title ellipsis">中国统计摘要-2019</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/qitaziliao/4734" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20190506/1557103673002.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/qitaziliao/4734" target="_blank" class="title ellipsis">世界经济运行报告2018/19</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/qitaziliao/4576" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20180531/1527736123822.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/qitaziliao/4576" target="_blank" class="title ellipsis">中国统计摘要-2018</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/qitaziliao/4560" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20180516/1526434361120.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/qitaziliao/4560" target="_blank" class="title ellipsis">中国地区投入产出表-2012</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/qitaziliao/4559" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20180516/1526434403901.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/qitaziliao/4559" target="_blank" class="title ellipsis">中国2012年投入产出表</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/qitaziliao/4558" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20180516/1526434445136.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/qitaziliao/4558" target="_blank" class="title ellipsis">2012年中国31省区市区域间投入产出表</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="content">
+                                            <ul>
+                                                <li>
+                                                    <a  href="/tongjijiaocai/5942" target="_blank" class="photo">
+                                                        <img src="/static/upload/85d10cf5-7b85-4103-8ed1-d831e2ada971.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjijiaocai/5942" target="_blank" class="title ellipsis">社会统计（第二版）</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/shehuijingjitongjixue/5942" target="_blank" class="photo">
+                                                        <img src="/static/upload/85d10cf5-7b85-4103-8ed1-d831e2ada971.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/shehuijingjitongjixue/5942" target="_blank" class="title ellipsis">社会统计（第二版）</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjijiaocai/5940" target="_blank" class="photo">
+                                                        <img src="/static/upload/63848acf-1225-4d25-90fd-4778b0a1f778.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjijiaocai/5940" target="_blank" class="title ellipsis">质量管理统计方法(第三版)</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjijiaocai/5938" target="_blank" class="photo">
+                                                        <img src="/static/upload/ef8c6691-abda-46a5-af83-bd21aff446f8.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjijiaocai/5938" target="_blank" class="title ellipsis">应用计量经济学</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/yingyongtongji/5938" target="_blank" class="photo">
+                                                        <img src="/static/upload/ef8c6691-abda-46a5-af83-bd21aff446f8.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/yingyongtongji/5938" target="_blank" class="title ellipsis">应用计量经济学</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjijiaocai/5937" target="_blank" class="photo">
+                                                        <img src="/static/upload/29eb09aa-8486-4f8d-9e3a-b8a61eabe523.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjijiaocai/5937" target="_blank" class="title ellipsis">人工智能导论</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/yingyongtongji/5937" target="_blank" class="photo">
+                                                        <img src="/static/upload/29eb09aa-8486-4f8d-9e3a-b8a61eabe523.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/yingyongtongji/5937" target="_blank" class="title ellipsis">人工智能导论</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjijiaocai/5936" target="_blank" class="photo">
+                                                        <img src="/static/upload/34403ff1-f41a-4739-95a6-3d72a87a442d.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjijiaocai/5936" target="_blank" class="title ellipsis">公共卫生事业数字化管理</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/shengwuweishengtongji/5936" target="_blank" class="photo">
+                                                        <img src="/static/upload/34403ff1-f41a-4739-95a6-3d72a87a442d.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/shengwuweishengtongji/5936" target="_blank" class="title ellipsis">公共卫生事业数字化管理</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/qitajiaocai/5921" target="_blank" class="photo">
+                                                        <img src="/static/upload/a675910a-cbe7-4eac-b256-b5dbea4ec454.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/qitajiaocai/5921" target="_blank" class="title ellipsis">经济统计案例分析</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/qitajiaocai/5920" target="_blank" class="photo">
+                                                        <img src="/static/upload/b0557726-398a-4f16-a2e8-e70f95f6aa4b.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/qitajiaocai/5920" target="_blank" class="title ellipsis">应用多元统计分析</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/shengwuweishengtongji/5908" target="_blank" class="photo">
+                                                        <img src="/static/upload/694f1632-9b08-4798-914b-894d65e0a3b5.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/shengwuweishengtongji/5908" target="_blank" class="title ellipsis">医学科研设计与统计分析（第二版）</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/qitajiaocai/5888" target="_blank" class="photo">
+                                                        <img src="/static/upload/5ed4c42e-3f81-4cbf-a6bc-ff502a8bebb2.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/qitajiaocai/5888" target="_blank" class="title ellipsis">旅游统计</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/shulitongjixue/5880" target="_blank" class="photo">
+                                                        <img src="/static/upload/b6369863-c799-47fb-8e78-bf9039110fce.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/shulitongjixue/5880" target="_blank" class="title ellipsis">宏观经济统计分析与写作</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/yingyongtongji/5875" target="_blank" class="photo">
+                                                        <img src="/static/upload/b70bed47-fb1a-4b8d-8e17-6c6c8238aff5.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/yingyongtongji/5875" target="_blank" class="title ellipsis">寿险精算学</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/qitajiaocai/5796" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20250506/1746519027759.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/qitajiaocai/5796" target="_blank" class="title ellipsis">统计业务知识学习指导与习题（2025版）</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="content">
+                                            <ul>
+                                                <li>
+                                                    <a  href="/tongjipujiduwu/5915" target="_blank" class="photo">
+                                                        <img src="/static/upload/6290db1c-5a24-4eb5-9b6c-bb3e133c09a4.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjipujiduwu/5915" target="_blank" class="title ellipsis">挑大学 选专业——2026高考志愿填报指南(民办大学和独立学院版)</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjipujiduwu/5914" target="_blank" class="photo">
+                                                        <img src="/static/upload/c922f1cb-cdf3-4d64-a8e0-68e4d8d8bf1b.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjipujiduwu/5914" target="_blank" class="title ellipsis">挑大学 选专业——2026高考志愿填报指南</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjipujiduwu/5901" target="_blank" class="photo">
+                                                        <img src="/static/upload/beb5975b-7df7-4a7d-bb38-1e016a751ea5.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjipujiduwu/5901" target="_blank" class="title ellipsis">2024年第十四届全国大学生市场调查与分析大赛获奖作品选</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjipujiduwu/5878" target="_blank" class="photo">
+                                                        <img src="/static/upload/1d2e38bf-d1ab-4a80-8e34-511d42d9bb1b.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjipujiduwu/5878" target="_blank" class="title ellipsis">统统告诉你</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjipujiduwu/5877" target="_blank" class="photo">
+                                                        <img src="/static/upload/4948ecba-bf09-488d-adb6-0a8df471e7cb.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjipujiduwu/5877" target="_blank" class="title ellipsis">统计热点问题解读（第⼆辑）</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjipujiduwu/5872" target="_blank" class="photo">
+                                                        <img src="/static/upload/cfaa762d-be09-4b55-8c4e-80dfd32f437d.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjipujiduwu/5872" target="_blank" class="title ellipsis">带着“锦囊”做调查</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjipujiduwu/5841" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20250303/1740956981593.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjipujiduwu/5841" target="_blank" class="title ellipsis">挑大学 选专业——2025高考志愿填报指南（民办大学和独立学院版）</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjipujiduwu/5840" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20250303/1740956883781.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjipujiduwu/5840" target="_blank" class="title ellipsis">挑大学 选专业——2025高考志愿填报指南</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjipujiduwu/5713" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20240919/1726714679011.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjipujiduwu/5713" target="_blank" class="title ellipsis">统计热点问题解读</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjipujiduwu/5695" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20240709/1720507307699.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjipujiduwu/5695" target="_blank" class="title ellipsis">领导干部应知应会主要统计指标诠释</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjipujiduwu/5694" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20240709/1720507197213.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjipujiduwu/5694" target="_blank" class="title ellipsis">领导干部应知应会统计法律法规</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjipujiduwu/5693" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20240709/1720507034608.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjipujiduwu/5693" target="_blank" class="title ellipsis">领导干部基本统计知识问答</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjipujiduwu/5269" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20220209/1644372611706.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjipujiduwu/5269" target="_blank" class="title ellipsis">统计数据发布日程手册2022</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjipujiduwu/5160" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20210908/1631084060740.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjipujiduwu/5160" target="_blank" class="title ellipsis">中国国民经济核算知识读本</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjipujiduwu/5133" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20210713/1626136918848.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjipujiduwu/5133" target="_blank" class="title ellipsis">调查与研究中的数据收集</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjipujiduwu/5087" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20210506/1620289238659.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjipujiduwu/5087" target="_blank" class="title ellipsis">挑大学 选专业—2021高考志愿填报指南(民办大学和独立学院版)</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="content">
+                                            <ul>
+                                                <li>
+                                                    <a  href="/tongjizhidufangfa/5052" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20210315/1615789792704.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhidufangfa/5052" target="_blank" class="title ellipsis">统计公文写作及会议办理实用手册</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhidufangfa/4665" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20181203/1543818794043.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhidufangfa/4665" target="_blank" class="title ellipsis">2017国民经济行业分类注释</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhidufangfa/4446" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20170720/1500516218278.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhidufangfa/4446" target="_blank" class="title ellipsis">中华人民共和国统计法  中华人民共和国统计法实施条例</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhidufangfa/3694" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20140324/1395641077458.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhidufangfa/3694" target="_blank" class="title ellipsis">中国2012年投入产出表编制方法</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhidufangfa/3560" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20130801/1375345496431.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhidufangfa/3560" target="_blank" class="title ellipsis">企业一套表联网直报工作手册</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhidufangfa/3541" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20130702/1372747106265.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhidufangfa/3541" target="_blank" class="title ellipsis">统计基层基础建设经验交流材料汇编</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhidufangfa/3384" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20121210/1355112504059.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhidufangfa/3384" target="_blank" class="title ellipsis">实用工业统计工作手册</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhidufangfa/3369" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20121207/1354866138013.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhidufangfa/3369" target="_blank" class="title ellipsis">2008年国民账户体系</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhidufangfa/3368" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20121207/1354865789763.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhidufangfa/3368" target="_blank" class="title ellipsis">2012年全国投入产出调查培训手册</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhidufangfa/3361" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20121123/1353635249303.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhidufangfa/3361" target="_blank" class="title ellipsis">旅游城市统计合作平台</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="content">
+                                            <ul>
+                                                <li>
+                                                    <a  href="/tongjizhuanyilunzhu/5927" target="_blank" class="photo">
+                                                        <img src="/static/upload/34f64899-78da-48e7-b39c-3d0c565016d4.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuanyilunzhu/5927" target="_blank" class="title ellipsis">地区购买力平价测算方法与中国实践研究</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuanyilunzhu/5902" target="_blank" class="photo">
+                                                        <img src="/static/upload/7ba77331-ee26-40f8-a57c-be9e6220d7b4.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuanyilunzhu/5902" target="_blank" class="title ellipsis">非参数Behrens-Fisher问题的统计推断方法研究</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuanyilunzhu/5890" target="_blank" class="photo">
+                                                        <img src="/static/upload/b2ab804f-4eea-47d9-83ba-eb8e3ac2802f.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuanyilunzhu/5890" target="_blank" class="title ellipsis">西部地区农村扶贫脱贫的绩效评估与可持续性机制建设研究</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuanyilunzhu/5871" target="_blank" class="photo">
+                                                        <img src="/static/upload/72148e89-ebd0-4230-9c2b-ada7d860caa8.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuanyilunzhu/5871" target="_blank" class="title ellipsis">2024中国宏观经济</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuanyilunzhu/5720" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20240926/1727319803422.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuanyilunzhu/5720" target="_blank" class="title ellipsis">中国城市高质量发展监测报告2024</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuanyilunzhu/5690" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20240705/1720164671557.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuanyilunzhu/5690" target="_blank" class="title ellipsis">宏观算大账新篇&nbsp;:&nbsp;与中国发展同频共振的经济统计</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuanyilunzhu/5689" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20240705/1720164338755.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuanyilunzhu/5689" target="_blank" class="title ellipsis">宏观算大账新篇:&nbsp;与中国发展同频共振的经济统计</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuanyilunzhu/5630" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20240115/1705307913323.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuanyilunzhu/5630" target="_blank" class="title ellipsis">沿着高质量发展之路稳步前行——2022年全国优秀统计分析报告集</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuanyilunzhu/5340" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20220630/1656571664175.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuanyilunzhu/5340" target="_blank" class="title ellipsis">《关于更加有效发挥统计监督职能作用的意见》解读</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuanyilunzhu/5296" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20220329/1648540996420.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuanyilunzhu/5296" target="_blank" class="title ellipsis">数据新动能的统计测度研究:2021年(第七届)全国大学生统计建模大赛获奖论文选</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuanyilunzhu/5175" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20210929/1632893422795.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuanyilunzhu/5175" target="_blank" class="title ellipsis">大维均值向量和协方差矩阵的检验</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuanyilunzhu/5173" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20210929/1632892686445.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuanyilunzhu/5173" target="_blank" class="title ellipsis">在线社交网络用户行为分析与应用：从个人行为到社会预测</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuanyilunzhu/5152" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20210901/1630465307566.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuanyilunzhu/5152" target="_blank" class="title ellipsis">从分享到共享：迈向共同富裕的中国经验</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuanyilunzhu/4942" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20201014/1602642825283.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuanyilunzhu/4942" target="_blank" class="title ellipsis">经济结构优化升级与中国能源消费研究</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuanyilunzhu/4932" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20200929/1601344110051.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuanyilunzhu/4932" target="_blank" class="title ellipsis">公共教育投入与居民教育决策研究</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuanyilunzhu/4898" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20200728/1595902449769.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuanyilunzhu/4898" target="_blank" class="title ellipsis">测度世界经济的真实规模——操作指南与步骤：2011年轮国际比较项目</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="content">
+                                            <ul>
+                                                <li>
+                                                    <a  href="/tongjidianzichuban/3260" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20120612/1339481753065.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjidianzichuban/3260" target="_blank" class="title ellipsis">概率统计模拟试验(光盘)</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjidianzichuban/3259" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20120612/1339481642362.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjidianzichuban/3259" target="_blank" class="title ellipsis">探访随机世界(光盘)</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjidianzichuban/3258" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20120612/1339481470565.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjidianzichuban/3258" target="_blank" class="title ellipsis">漫游数据王国(光盘)</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="content">
+                                            <ul>
+                                                <li>
+                                                    <a  href="/tongjizhuantibaogao/5928" target="_blank" class="photo">
+                                                        <img src="/static/upload/7b3335a3-261f-4bde-91ea-3ec8b4c61fe3.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuantibaogao/5928" target="_blank" class="title ellipsis">非凡“十四五” 奋进新征程</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuantibaogao/5922" target="_blank" class="photo">
+                                                        <img src="/static/upload/443868d2-4518-40d3-b617-f9db2878d913.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuantibaogao/5922" target="_blank" class="title ellipsis">2025中国宏观经济</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuantibaogao/5910" target="_blank" class="photo">
+                                                        <img src="/static/upload/1a58a482-9fb9-4a88-a58a-650ed20e32e0.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuantibaogao/5910" target="_blank" class="title ellipsis">统计创新应用　数据引领未来 : 2025年（第十一届）全国大学生统计建模大赛获奖论文选</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuantibaogao/5723" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20240926/1727325488203.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuantibaogao/5723" target="_blank" class="title ellipsis">中国乡村振兴监测报告2024</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuantibaogao/5717" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20240919/1726729609246.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuantibaogao/5717" target="_blank" class="title ellipsis">新中国75年——新中国经济社会发展成就（1949-2024）</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuantibaogao/5127" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20210705/1625453545749.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuantibaogao/5127" target="_blank" class="title ellipsis">人间奇迹——中国脱贫攻坚统计监测报告</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuantibaogao/5120" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20210622/1624325177810.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuantibaogao/5120" target="_blank" class="title ellipsis">迈向高质量发展：“十三五”经济社会发展成就报告</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuantibaogao/4794" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20190923/1569213571230.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuantibaogao/4794" target="_blank" class="title ellipsis">辉煌70年——新中国经济社会发展成就(1949-2019)</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuantibaogao/4676" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20190115/1547518692158.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuantibaogao/4676" target="_blank" class="title ellipsis">迈向高质量发展的中国经济——2017年全国优秀统计分析报告集</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuantibaogao/4633" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20181015/1539561444806.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuantibaogao/4633" target="_blank" class="title ellipsis">2017年度中国对外直接投资统计公报</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuantibaogao/4616" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20180920/1537426626408.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuantibaogao/4616" target="_blank" class="title ellipsis">改革开放40年</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuantibaogao/4364" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20170210/1486708611899.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuantibaogao/4364" target="_blank" class="title ellipsis">中国温室气体排放基础统计制度和能力建设研究</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuantibaogao/4317" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20160927/1474957576062.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuantibaogao/4317" target="_blank" class="title ellipsis">2015年度中国对外直接投资统计公报</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuantibaogao/4314" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20160920/1474337000236.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuantibaogao/4314" target="_blank" class="title ellipsis">首届应用统计专业硕士优秀案例选</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuantibaogao/3974" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20141223/1419298916410.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuantibaogao/3974" target="_blank" class="title ellipsis">2014中国零售业发展报告</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a  href="/tongjizhuantibaogao/3731" target="_blank" class="photo">
+                                                        <img src="/data/attachement/piclinks/site2/20140609/1402295307780.jpg" class="full" />
+                                                        <!--/templates/default/static/images/index_67.jpg-->
+                                                    </a>
+                                                    <div class="info">
+                                                        <a  href="/tongjizhuantibaogao/3731" target="_blank" class="title ellipsis">中国人才资源统计报告2012</a>
+                                                        <!--<div class="price">定价：<span class="red">￥62</span></div>
+                                                        <div class="price">会员价：<span class="red">￥52</span></div>-->
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="content">
+                                            <ul>
+                                            </ul>
+                                        </div>
+                                        
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--精品教材发布-->
+            <div class="footad">
+                <div class="container">
+                    <img src="/templates/default/static/images/index_72.jpg" class="full" />
+                    <div class="txt">
+                        <div class="title">精品教材发布</div>
+                        <div class="desc">总有一本书让你从中汲取力量</div>
+                        <a href="/tongjijiaocai" class="button-more">查看更多</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--友情链接-->
+            <div class="friendlink">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-title flex-center"><span class="txt f-1">友情链接</span></div>
+                        <div class="card-list">
+                            <div class="item f-1">
+                                <div class="label flex-center"><a target="_blank" href="https://www.stats.gov.cn/">国家统计局</a></div>
+                                <!-- <dl class="submenu">
+                                    <dd><a href="#">链接地址一</a></dd>
+                                    <dd><a href="#">链接地址一</a></dd>
+                                    <dd><a href="#">链接地址一</a></dd>
+                                    <dd><a href="#">链接地址一</a></dd>
+                                    <dd><a href="#">链接地址一</a></dd>
+                                </dl> -->
+                            </div>
+                            <div class="item f-1">   <!-- no1 二级样式-->
+                                <div class="label flex-center"><a target="_blank" href="http://www.mof.gov.cn/">中华人民共和国财政部</a></div>
+                                <!-- <dl class="submenu">
+                                    <dd><a href="#">链接地址一</a></dd>
+                                    <dd><a href="#">链接地址一</a></dd>
+                                    <dd><a href="#">链接地址一</a></dd>
+                                    <dd><a href="#">链接地址一</a></dd>
+                                    <dd><a href="#">链接地址一</a></dd>
+                                </dl> -->
+                            </div>
+                            <div class="item f-1">
+                                <div class="label flex-center"><a target="_blank" href="https://shop279810864.taobao.com/">中国统计出版社官方自营店</a></div>
+                                <!-- <dl class="submenu">
+                                    <dd><a href="#">链接地址一</a></dd>
+                                    <dd><a href="#">链接地址一</a></dd>
+                                    <dd><a href="#">链接地址一</a></dd>
+                                    <dd><a href="#">链接地址一</a></dd>
+                                    <dd><a href="#">链接地址一</a></dd>
+                                </dl> -->
+                            </div>
+                            <!-- <div class="item f-1 ">
+                                <div class="label flex-center"><a target="_blank" href="http://www.statsdatabank.com/">统计年鉴数据库</a></div>
+                                <dl class="submenu">
+                                    <dd><a href="#">链接地址一</a></dd>
+                                    <dd><a href="#">链接地址一</a></dd>
+                                    <dd><a href="#">链接地址一</a></dd>
+                                    <dd><a href="#">链接地址一</a></dd>
+                                    <dd><a href="#">链接地址一</a></dd>
+                                </dl>
+                            </div> -->
+                            <!-- <div class="item f-1 ">
+                                <div class="label flex-center"><a target="_blank" href="http://www.founder.com.cn/zh-cn/">北京北大方正电子有限公司</a></div> -->
+                                <!-- <dl class="submenu">
+                                    <dd><a href="#">链接地址一</a></dd>
+                                    <dd><a href="#">链接地址一</a></dd>
+                                    <dd><a href="#">链接地址一</a></dd>
+                                    <dd><a href="#">链接地址一</a></dd>
+                                    <dd><a href="#">链接地址一</a></dd>
+                                </dl> -->
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <!--底部-->
+<footer>
+            <div class="container flex">
+                <div class="left f-1">
+                    <div class="footlink"><a href="/shutongdianzi/5833">数通电子</a>|<a href="/jingxiaoshangminglu/2638">经销商信息</a> |<a href="/weizhi">联系我们</a>|<a href="/banquan">版权声明</a></div>
+                    <div class="copyright">
+                        <p>版权所有：中国统计出版社有限公司   <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">京ICP备17030470号-2</a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://beian.mps.gov.cn/img/logo01.dd7ff50e.png" width="18" height="20"><a href="https://beian.mps.gov.cn/#/query/webSearch?code=11010602200794" target="_blank">京公网安备11010602200794</a></p>
+                        <!--<p>技术支持：北京北大方正电子有限公司   </p>-->
+                    </div>
+                </div>
+                <div class="right">
+                    <p>电话：010-63376840</p>
+                    <P>传真：010-63376840</P>
+                    <p>地址：北京市西城区月坛南街57号</p>
+                </div>
+            </div>
+        </footer>    </div>
+    <script type="text/javascript" src="/templates/default/static/js/main.js"></script>
+    <script>
+        new Swiper('.focus', {
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 15,
+            autoplay: {
+                delay: 3000,
+                stopOnLastSlide: false,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                bulletActiveClass: "active"
+            },
+            navigation: {
+                nextEl: '.pro-next',
+                prevEl: '.pro-prev',
+            },
+        });
+        new Swiper('.swiper1', {
+            slidesPerView: 2,
+            spaceBetween:"10%",
+            autoplay: {
+                delay: 3000,
+                stopOnLastSlide: false,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: '.product-new .btn-next',
+                prevEl: '.product-new .btn-prev',
+            },
+            breakpoints: { 
+                640: { 
+                    slidesPerView: 3,
+                },
+                1200: {
+                    slidesPerView: 4,
+                }
+            }
+        });
+        
+    </script>
+</body>
+
+</html>

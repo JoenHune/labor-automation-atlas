@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-09-14",
+  "scope": "Only international official channels, no new NBS browsing",
+  "actions": [
+    {
+      "query": "site.sdmx.oecd.org DSD_NAMAIN10 DF_TABLE6",
+      "finding": "Official Table6 2.0 Data Explorer API syntax located; then downloaded full structure and queried CHN."
+    },
+    {
+      "query": "site.oecd.org DSD_NAMAIN10 DF_TABLE6 API China",
+      "finding": "OECD API documentation and annual Table6 located; generic activity indicators only shares were not used as amounts."
+    },
+    {
+      "channel": "UNdata",
+      "action": "Download current-price Table2.4, group_code=204; country_code=156; no year restriction",
+      "finding": "110 China rows, 2015-2024; 11 latest-year rows; 2025 absent; published item filter does not imply China child coverage."
+    },
+    {
+      "channel": "OECD",
+      "action": "Read actual-coverage constraint for Table6 2.0 and request A.CHN with startPeriod=2024/endPeriod=2025",
+      "finding": "57 actual areas, CHN absent, HTTP404 NoRecordsFound. HKG not substituted."
+    },
+    {
+      "channel": "OECD",
+      "action": "Download Table1_OUTPUT structure and complete CHN 2024-2025 CSV",
+      "finding": "30 rows only in 2024; no fine industries or newer-vintage amounts."
+    },
+    {
+      "channel": "ADB",
+      "action": "Open China Key Indicators metadata and 2026 publication; follow country XLSX/PDF and economy-tables XLSX links",
+      "finding": "Country direct downloads HTTP403; full economy-table XLSX HTTP200, 7765146 bytes. PRC sheet read with 2024/2025 columns and country footnotes."
+    }
+  ]
+}
