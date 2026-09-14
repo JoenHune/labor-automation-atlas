@@ -1,0 +1,1275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/tjj/xhtml/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/tjj/xhtml/css/index.css" rel="stylesheet" type="text/css" />
+
+<meta name="SiteName" content="新疆维吾尔自治区统计局"/>
+<meta name="SiteDomain" content="http://tjj.xinjiang.gov.cn"/>
+<meta name="SiteIDCode" content="6500000007"/>
+
+<meta name="others" content="ttmp:1789385955574" />
+<title>新疆维吾尔自治区统计局</title>
+<!--<script type="text/javascript" src="/tjj/xhtml/js/jquery.js"></script>-->
+<script type="text/javascript" src="/tjj/xhtml/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/tjj/xhtml/js/jquery.migrate.min.js"></script>
+<script type="text/javascript" src="/tjj/xhtml/js/index.js"></script>
+<script type="text/javascript" src="/tjj/xhtml/hdjl/js/sy_hdjl.js"></script>
+<script type="text/javascript" src="/tjj/xhtml/js/jquery.min.js"></script>
+
+  
+<!--0315 新加的css开始 -->
+
+<style> 
+    
+  .jzxxpos ul{
+    float: left;
+  }
+  .jzxxpos {
+    width: 1198px;
+    height: 90px; 
+  }
+  .jzxx{
+    padding-top: 10px;
+    display: flex;
+    height: 90px; 
+  }
+  .jzxxpos ul div {
+    float: left; 
+  }
+  .jzxxpos ul div  img{  
+    float: left; 
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .jzxximg-1 {
+    width: 90px;
+    height: 68px;
+  }
+  .jzxximg-2 {
+    width: 288px;
+    height: 68px;
+  }
+  .jzxximg-3 {
+    width: 300px;
+    height: 70px;
+    margin-top: 7px !important;
+  }
+  .news0311{
+    background: #fff;
+  
+    
+    border:1px solid #eee;
+    border-radius:10px;
+    box-shadow:2px 5px 8px 2px rgba(0,0,0,0.1);
+    width: 385px;
+    height: 295px;
+    margin-right: 18px;
+    padding-bottom: 15px; 
+  } 
+  #tabs11{
+    
+    margin-top: -1px;
+  }
+  #tabs11 li {
+    float: left;
+    font-size: 14px;
+     
+    
+  }
+ 
+  
+  #tabs11 li a{
+font-size: 18px !important; 
+    
+    
+
+
+  } 
+  .title-tj{
+  width: 50px; 
+  height: 60px;
+  line-height: 30px;
+  margin-top: 10px;
+ 
+  border-right: 5px solid #144eae;
+  
+  border-top: none !important;
+} 
+</style>
+
+<!--0315 新加的css结束 -->
+  
+  
+  
+<script>
+var isOpenMobie = 2;
+var isOpenPad = 2;
+if(isOpenMobie == 1){
+	if(isOpenPad == 1){
+		$("body").css("width","auto");
+	}else{
+		//是否手机端判断
+		var ua = navigator.userAgent;
+		var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+		isIphone =!ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+		isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+		isMobile = isIphone || isAndroid;
+		if(isMobile){
+			$("body").css("width","1280px");
+		}else{
+			$("body").css("width","auto");
+		}
+	}
+}else{
+	$("body").css("width","auto");
+	//是否手机端判断
+	var ua = navigator.userAgent;
+	var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+	isIphone =!ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+	isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+	isMobile = isIphone || isAndroid;
+	if(isMobile){
+		$("head").append("<meta content='width=320,user-scalable=no' name='viewport'>");
+	}else{
+		$("head").append("<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport' />");
+	}
+}
+</script>
+
+
+
+<script type="text/javascript">
+
+$(function()
+
+{
+$("#mostrar").click(function(event) {
+
+event.preventDefault();
+
+$("#caja").slideToggle();
+
+});
+$("#caja a").click(function(event) {
+
+event.preventDefault();
+
+$("#caja").slideUp();
+
+});
+
+});
+
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	
+	jQuery.jqtab = function(tabtit,tab_conbox,shijian) {
+		$(tab_conbox).find("li").hide();
+		$(tabtit).find("li:first").addClass("thistab").show(); 
+		$(tab_conbox).find("li:first").show();
+	
+		$(tabtit).find("li").bind(shijian,function(){
+		  $(this).addClass("thistab").siblings("li").removeClass("thistab"); 
+			var activeindex = $(tabtit).find("li").index(this);
+			$(tab_conbox).children().eq(activeindex).show().siblings().hide();
+			return false;
+		});
+	
+	};
+	/*调用方法如下：*/
+	$.jqtab("#tabs1","#tab1_conbox","mouseenter");
+	$.jqtab("#tabs2","#tab2_conbox","mouseenter");
+    $.jqtab("#tabs3","#tab3_conbox","mouseenter");
+  
+});
+</script>
+
+<style type="text/css">
+  
+#caja {display: none;}
+
+#mostrar{display:block;}
+  
+  
+
+</style>
+</head>
+
+<body>
+<style>
+/*esd*/
+  .esd-lb{width:100%;height:250px;margin:0 auto;text-align:center;}
+  .esd-lb img{width:100%;height:250px;text-align:center;}
+</style>
+
+
+
+
+  <div  class="gray0404">
+<!--通用头-->
+<!-- 顶部日期开始-->
+<div class="top">
+        	<div class="date f_l" id="riqi"></div>
+  <iframe id="weather" allowtransparency="" frameborder="0" style="padding-top:5px;padding-left:15px;" height="25" scrolling="no" src="http://i.tianqi.com/index.php?c=code&amp;id=26&amp;icon=1&amp;py=wulumuqi&amp;color=%23FFFFFF" width="250"></iframe>
+            <div class="toplink f_r"><a onclick="SetHome(this,window.location)" href="javascript:void(0)">设为首页</a> | <a onclick="shoucang(document.title,window.location)" href="javascript:void(0)">加入收藏</a></div>
+            <script type="text/javascript" language="javascript" src="/tjj/xhtml/public/js/common.js"></script>
+  
+
+<div class="h_login" style="float:right;padding-right:25px"><a href="http://www.xinjiang.gov.cn" target="_self"  class="h_dl">登录</a>
+	 <!--<a href="http://www.xinjiang.gov.cn" target="_self" class="h_dl"></a>--> | <a href="https://zwfw.xinjiang.gov.cn/xjwwrz/pages/login/personalRegister?client_id=8a436e25-5395-43c5-a78b-73e2f94f01e4&redirect_uri=http://www.xinjiang.gov.cn/usercenter/home" target="_blank" class="h_zc">注册</a>
+</div>
+  <script type="text/javascript" src="/tjj/xhtml/js/yhzx.js"></script>
+</div>
+<!-- 顶部日期结束-->    
+<!-- 标题开始-->
+<div class="header" align="center">
+  <div class="logo">
+    		<img src="/tjj/xhtml/img/tm3.png"></div>
+</div>
+<!-- 标题结束-->
+<div class="clear"></div>
+<!-- 搜索框开始-->
+<div class="search">
+<div class="searchbox">
+<form action="/guestweb5/html/searchResult.html" method="post" name="form1" target="_blank" id="form1" style="margin-bottom:0px;">
+<input name="searchWord" class="input_text" type="text" id="searchWord" size="50" value="请输入搜索词" onblur="if(this.value==''){this.value='请输入搜索词'}" onfocus="this.value=''">
+<input name="uc" type="hidden" id="uc" value="1">
+<input name="siteCode" type="hidden" id="siteCode" size="50" value="6500000007">
+<input name="column" type="hidden" id="siteCode" size="50" value="全部">
+  <button id="button" class="input_but search-btn"></button>
+</form>
+  </div>
+  
+</div>
+<!-- 搜索框结束-->
+<div class="clear"></div>
+<!-- 导航栏开始-->
+<div class="nav">
+        <div class="navbox">
+                    <ul>
+                      <li class="nav01"><a href="/tjj/index.shtml" target="_blank">首 页</a></li>
+                      <li class="nav06"><a href="/tjj/bjzn/202002/3417ebe0df5d42ac9adbaaaa0a82e3b0.shtml" target="_blank">本局概况</a></li>
+                      <!--<li class="nav06">
+<a href="/tjj/bjzn/202002/3417ebe0df5d42ac9adbaaaa0a82e3b0.shtml">本局概况</a>
+</li>-->
+                      
+                      <li class="nav06"><a href="/tjj/zwdt/ist.shtml" target="_blank">时政要闻</a></li>
+                      <li class="nav06"><a href="/tjj/zcfg/jump.shtml" target="_blank">政策法规</a></li>
+                      <li class="nav06"><a href="/tjj/tjfw/list_tjfw.shtml" target="_blank">数据资料</a></li>
+                      <li class="nav06"><a href="/tjj/zcjd/zfxxgk_xxgkzd.shtml" target="_blank">政策解读</a></li>
+                      <li class="nav06"><a href="https://zwfw.xinjiang.gov.cn/xjzwfw2021/departmentnew.html?orgcode=116500000101836998&orgname=%E8%87%AA%E6%B2%BB%E5%8C%BA%E7%BB%9F%E8%AE%A1%E5%B1%80&orgshortname=%E8%87%AA%E6%B2%BB%E5%8C%BA%E7%BB%9F%E8%AE%A1%E5%B1%80" target="_blank">政务服务</a></li>
+
+       
+                      
+                      
+                      
+                      
+                      
+                      
+                      <li class="nav06"><a href="/tjj/zmhd/list_hd.shtml" target="_blank">政民互动</a></li>
+                      <li class="nav07"><a href="/tjj/zwgk/list_zwgk.shtml" target="_blank">政务公开</a></li>
+                    </ul>           
+            <div class="clear"></div>
+        </div>
+</div>
+<!-- 导航栏结束-->
+<script>
+$('button.search-btn').click(function(){
+  	$('#form1').attr('onsubmit','return false;');
+	var searchWord = $('input[name="searchWord"]')[0].value;
+searchWord = searchWord.trim();
+if(searchWord == ''){
+  alert("请输入搜索内容！")
+}else{
+  var url="/guestweb5/html/searchResult.html?column="+encodeURIComponent(encodeURIComponent("全部"))+"&uc=1&searchWord="+encodeURIComponent(encodeURIComponent(searchWord))+"&siteCode=6500000007";
+  window.open(url);
+}
+})
+</script>
+<!--通用头-->
+<div class="clear"></div>
+	<!--第一模块-->
+<div class="index_block">
+	<div class="newsbox">
+	<!--轮播图--开始-->
+	<div class="newsimg f_l">
+    	<div class="index_focus">
+            <div class="lft_pic">
+                <div class="slider-carousel">
+					 
+                    <div  class="item">
+                    	<div class="pannel-image">
+							<a href="https://liuyan.www.gov.cn/2025wwzfgzbgtjy/bmdf.html?q=xjwwe" target="_blank">
+								<img border=0 src="/tjj/tpxx/202412/ae3abdaea9784e66af34e3942c24a05f/images/d3df74fcf017461aa1b75508b16396cd.jpg
+">
+							</a>
+						</div>
+                    	<div class="titBg"></div>
+                    	<div class="subtitle">
+                    		<h6>
+								<a href="https://liuyan.www.gov.cn/2025wwzfgzbgtjy/bmdf.html?q=xjwwe"   target="_blank">
+								@国务院 我为政府工作报告提建议
+								</a>
+							</h6>
+                        </div>
+                    </div>
+                    <div  class="item">
+                    	<div class="pannel-image">
+							<a href="http://cpc.people.com.cn/n1/2026/0903/c64094-40791603.html" target="_blank">
+								<img border=0 src="/tjj/zwdt/202609/bd4598a0f0a34b87868e8d2e3fb7a258/images/fed73bc297fe4d8c9baf46bdb8b4ee9a.jpg
+">
+							</a>
+						</div>
+                    	<div class="titBg"></div>
+                    	<div class="subtitle">
+                    		<h6>
+								<a href="http://cpc.people.com.cn/n1/2026/0903/c64094-40791603.html"   target="_blank">
+								习近平同埃及总统塞西会谈
+								</a>
+							</h6>
+                        </div>
+                    </div>
+                    <div  class="item">
+                    	<div class="pannel-image">
+							<a href="http://cpc.people.com.cn/n1/2026/0716/c64094-40761559.html" target="_blank">
+								<img border=0 src="/tjj/zwdt/202608/8f63711eded047d5bb6319c17c3fe653/images/31333de9fc754b8daba0099c13848e47.jpg
+">
+							</a>
+						</div>
+                    	<div class="titBg"></div>
+                    	<div class="subtitle">
+                    		<h6>
+								<a href="http://cpc.people.com.cn/n1/2026/0716/c64094-40761559.html"   target="_blank">
+								习近平在上海考察时强调全面践行人民城市理念 高质量推进城市更新...
+								</a>
+							</h6>
+                        </div>
+                    </div>
+                    <div  class="item">
+                    	<div class="pannel-image">
+							<a href="http://cpc.people.com.cn/n1/2026/0625/c64094-40746955.html" target="_blank">
+								<img border=0 src="/tjj/zwdt/202608/2018ba03b8104d419454a798998b7693/images/049a1e7b30e7449e805e04b01f76a63f.jpg
+">
+							</a>
+						</div>
+                    	<div class="titBg"></div>
+                    	<div class="subtitle">
+                    		<h6>
+								<a href="http://cpc.people.com.cn/n1/2026/0625/c64094-40746955.html"   target="_blank">
+								习近平在山东德州考察时强调以扎实举措推进农业农村现代化 用勤劳...
+								</a>
+							</h6>
+                        </div>
+                    </div>
+                    <div  class="item">
+                    	<div class="pannel-image">
+							<a href="http://cpc.people.com.cn/n1/2026/0526/c64094-40727344.html" target="_blank">
+								<img border=0 src="/tjj/zwdt/202606/f26350e7657f4fe4b2e8dc1489664b16/images/c693eb4b8d8041958467076db1bae00f.jpg
+">
+							</a>
+						</div>
+                    	<div class="titBg"></div>
+                    	<div class="subtitle">
+                    		<h6>
+								<a href="http://cpc.people.com.cn/n1/2026/0526/c64094-40727344.html"   target="_blank">
+								习近平为塞尔维亚总统武契奇举行“友谊勋章”颁授仪式
+								</a>
+							</h6>
+                        </div>
+                    </div>
+
+                </div>
+             </div>
+           <div class="clear"></div>
+		 </div>
+    </div>
+      </div>
+  </div>
+    </div>
+	<!--轮播图--结束-->
+	<!--右侧列表--开始-->
+    <div class="newscontent wid480 f_l">   
+                    <ul class="tabs" id="tabs1">
+ <li class="thistab">
+						    <a href="/tjj/zxfb/ist.shtml" target="_blank">最新信息</a>
+					   </li>
+                       
+                       <li>
+						   <a href="/tjj/wjtz/ist.shtml" target="_blank">通知公告</a>
+					   </li> 
+                       <li>
+						   <a href="/tjj/zwdt/ist.shtml" target="_blank">时政要闻</a>
+					   </li> 
+					   
+        			</ul>
+                	<div class="clear"></div>
+                	<ul class="tab_conbox  pb15 pl15 pr15" id="tab1_conbox">
+						
+                      <li class="tab_con">
+                         
+
+							<a href="http://cpc.people.com.cn/n1/2026/0904/c64094-40792313.html"   target="_blank" title="习近平回到北京">
+							   习近平回到北京</a>
+                          <span>09-08</span>
+
+							<a href="http://cpc.people.com.cn/n1/2026/0903/c64094-40791603.html"   target="_blank" title="习近平同埃及总统塞西会谈">
+							   习近平同埃及总统塞西会谈</a>
+                          <span>09-08</span>
+
+							<a href="http://cpc.people.com.cn/n1/2026/0902/c64094-40790878.html"   target="_blank" title="习近平圆满结束出席2026年上海合作组织峰会和对吉尔吉斯斯坦的国事访问">
+							   习近平圆满结束出席2026年上海合作组织峰...</a>
+                          <span>09-08</span>
+
+							<a href="http://cpc.people.com.cn/n1/2026/0831/c64094-40789220.html"   target="_blank" title="习近平抵达比什凯克">
+							   习近平抵达比什凯克</a>
+                          <span>08-31</span>
+
+							<a href="http://cpc.people.com.cn/n1/2026/0829/c64094-40788417.html"   target="_blank" title="研究部署西藏日喀则市吉隆县泥石流灾害抢险救援工作">
+							   研究部署西藏日喀则市吉隆县泥石流灾害抢...</a>
+                          <span>08-29</span>
+
+							<a href="/tjj/tjfx/202608/1ab2826857184d0193854b4e0b6b640d.shtml"   target="_blank" title="1-7月份全疆规模以上工业企业效益情况">
+							   1-7月份全疆规模以上工业企业效益情况</a>
+                          <span>08-28</span>
+
+							<a href="http://cpc.people.com.cn/n1/2026/0827/c64094-40787015.html"   target="_blank" title="习近平将出席2026年上海合作组织峰会并对吉尔吉斯斯坦、埃及进行国事访问">
+							   习近平将出席2026年上海合作组织峰会并对...</a>
+                          <span>08-28</span>
+
+							<a href="http://cpc.people.com.cn/n1/2026/0825/c64094-40785567.html"   target="_blank" title="巩固拓展树立和践行正确政绩观学习教育成果 努力创造经得起实践人民历史检验的实绩">
+							   巩固拓展树立和践行正确政绩观学习教育成...</a>
+                          <span>08-26</span>
+
+							<a href="http://cpc.people.com.cn/n1/2026/0819/c64094-40782217.html"   target="_blank" title="朱镕基同志遗体在京火化">
+							   朱镕基同志遗体在京火化</a>
+                          <span>08-20</span>
+
+						</li>
+                      
+                      
+                        <li class="tab_con">
+                         
+
+							<a href="/tjj/wjtz/202607/03e5e614f49c4548b429b3899f5c283c.shtml"   target="_blank" title="自治区统计局所属事业单位2026年面向社会公开招聘工作人员拟聘用人员公示">
+							   自治区统计局所属事业单位2026年面向社会...</a>
+                          <span>07-28</span>
+
+							<a href="/tjj/wjtz/202606/ed1480e1869e407e9de17d3eab4ce40b.shtml"   target="_blank" title="新疆维吾尔自治区统计局2026年度面向社会公开招聘事业单位工作人员面试安排通知">
+							   新疆维吾尔自治区统计局2026年度面向社会...</a>
+                          <span>06-18</span>
+
+							<a href="/tjj/wjtz/202606/aece645fe77045269245a521fedcd107.shtml"   target="_blank" title="新疆维吾尔自治区统计局2026年度面向社会公开招聘事业单位工作人员资格审查的通知">
+							   新疆维吾尔自治区统计局2026年度面向社会...</a>
+                          <span>06-05</span>
+
+							<a href="/tjj/wjtz/202604/1f9017a1c2224e69801580781634f668.shtml"   target="_blank" title="关于开展2026年度统计专业技术人员继续教育培训的通知">
+							   关于开展2026年度统计专业技术人员继续教...</a>
+                          <span>04-16</span>
+
+							<a href="/tjj/wjtz/202602/ab6cae864fab492385aea8cfe577705e.shtml"   target="_blank" title="关于《新疆维吾尔自治区统计行政处罚裁量权基准实施办法（2025版）（征求意见稿）》社会公众意见的说明">
+							   关于《新疆维吾尔自治区统计行政处罚裁量...</a>
+                          <span>01-27</span>
+
+							<a href="/tjj/wjtz/202511/5e2f5c51a19a44aab6528a69d343b861.shtml"   target="_blank" title="2025年自治区统计专业高级统计师职称评审拟通过人员公示">
+							   2025年自治区统计专业高级统计师职称评审...</a>
+                          <span>11-17</span>
+
+							<a href="/tjj/wjtz/202510/f93bb02135ab421990d83c678052dbd1.shtml"   target="_blank" title="国家统计局新疆调查总队  新疆维吾尔自治区统计局关于开展劳动力调查大样本轮换工作的通知">
+							   国家统计局新疆调查总队  新疆维吾尔自治...</a>
+                          <span>10-17</span>
+
+							<a href="/tjj/wjtz/202509/47e5f5c53f424f69b44d5581d4765f01.shtml"   target="_blank" title="关于公开征求《新疆维吾尔自治区统计行政处罚裁量权基准实施办法（2025版）（征求意见稿）》意见的公告">
+							   关于公开征求《新疆维吾尔自治区统计行政...</a>
+                          <span>09-30</span>
+
+							<a href="/tjj/wjtz/202509/9e310679ff6449b2981dd651a786c761.shtml"   target="_blank" title="关于开展2025年度自治区统计系列高级职称评审工作的通知">
+							   关于开展2025年度自治区统计系列高级职称...</a>
+                          <span>09-18</span>
+
+						</li>
+                      
+                      
+                      
+<li class="tab_con">
+                         
+
+							<a href="http://cpc.people.com.cn/n1/2026/0904/c64094-40792313.html"   target="_blank" title="习近平回到北京">
+							   习近平回到北京</a>
+                          <span>09-08</span>
+
+							<a href="http://cpc.people.com.cn/n1/2026/0903/c64094-40791603.html"   target="_blank" title="习近平同埃及总统塞西会谈">
+							   习近平同埃及总统塞西会谈</a>
+                          <span>09-08</span>
+
+							<a href="http://cpc.people.com.cn/n1/2026/0902/c64094-40790878.html"   target="_blank" title="习近平圆满结束出席2026年上海合作组织峰会和对吉尔吉斯斯坦的国事访问">
+							   习近平圆满结束出席2026年上海合作组织峰...</a>
+                          <span>09-08</span>
+
+							<a href="http://cpc.people.com.cn/n1/2026/0831/c64094-40789220.html"   target="_blank" title="习近平抵达比什凯克">
+							   习近平抵达比什凯克</a>
+                          <span>08-31</span>
+
+							<a href="http://cpc.people.com.cn/n1/2026/0829/c64094-40788417.html"   target="_blank" title="研究部署西藏日喀则市吉隆县泥石流灾害抢险救援工作">
+							   研究部署西藏日喀则市吉隆县泥石流灾害抢...</a>
+                          <span>08-29</span>
+
+							<a href="http://cpc.people.com.cn/n1/2026/0827/c64094-40787015.html"   target="_blank" title="习近平将出席2026年上海合作组织峰会并对吉尔吉斯斯坦、埃及进行国事访问">
+							   习近平将出席2026年上海合作组织峰会并对...</a>
+                          <span>08-28</span>
+
+							<a href="http://cpc.people.com.cn/n1/2026/0825/c64094-40785567.html"   target="_blank" title="巩固拓展树立和践行正确政绩观学习教育成果 努力创造经得起实践人民历史检验的实绩">
+							   巩固拓展树立和践行正确政绩观学习教育成...</a>
+                          <span>08-26</span>
+
+							<a href="http://cpc.people.com.cn/n1/2026/0819/c64094-40782217.html"   target="_blank" title="朱镕基同志遗体在京火化">
+							   朱镕基同志遗体在京火化</a>
+                          <span>08-20</span>
+
+							<a href="http://cpc.people.com.cn/n1/2026/0818/c64094-40781550.html"   target="_blank" title="在纪念江泽民同志诞辰100周年大会上的讲话">
+							   在纪念江泽民同志诞辰100周年大会上的讲话</a>
+                          <span>08-19</span>
+
+						</li>
+       				</ul>
+        </div>
+		<!--右侧列表--结束-->
+      <div class="clear"></div>  
+	
+
+
+<!--第二板块--开始-->
+     <div class="index_block pt20">
+
+   <div class="wid387  news0311  f_l">
+      <!--信息发布-->
+     
+        <div class="box bmyw pb15">
+          <div class="boxtop">
+            <a class="title f_l" href="/tjj/xxfb/ist.shtml" target="_blank">
+              信息发布
+            </a>
+            <a class="more f_r" href="/tjj/xxfb/ist.shtml" target="_blank">更多+</a>
+          </div>
+          <ul class="list" style="margin:5px;">
+             
+
+              <li> <a href="/tjj/xxfb/202608/9120312f0ec0413190f51a3f772aabae.shtml" target="_blank">
+                  2026年1—7月份全疆消费品市场运...<span>
+                    08-19
+                  </span>
+                </a> </li>
+
+              <li> <a href="/tjj/xxfb/202608/352e5499d729483583e090b54f2a29c4.shtml" target="_blank">
+                  2026年1-7月份能源生产情况<span>
+                    08-19
+                  </span>
+                </a> </li>
+
+              <li> <a href="/tjj/xxfb/202608/66e3558d6afd458e898b641e00711205.shtml" target="_blank">
+                  1-6月份全疆规模以上服务业运行情...<span>
+                    08-19
+                  </span>
+                </a> </li>
+
+              <li> <a href="/tjj/xxfb/202608/296e0eeaf8764ab6bbb3ed38613bfc6c.shtml" target="_blank">
+                  2026年1-7月份全疆房地产市场基本...<span>
+                    08-19
+                  </span>
+                </a> </li>
+
+              <li> <a href="/tjj/xxfb/202608/cc2c492e92854664bd149dc4b9e88627.shtml" target="_blank">
+                  2026年1-7月份全疆固定资产投资（...<span>
+                    08-19
+                  </span>
+                </a> </li>
+
+              <li> <a href="/tjj/xxfb/202608/ee8f01561c8542ecb5eab88009b5db30.shtml" target="_blank">
+                  2026年1-7月份规上工业生产平稳增...<span>
+                    08-19
+                  </span>
+                </a> </li>
+
+              <li> <a href="/tjj/xxfb/202607/8cf1ec4afa3748f4844d63ffd8411a40.shtml" target="_blank">
+                  2026年上半年全疆消费品市场运行...<span>
+                    07-24
+                  </span>
+                </a> </li>
+
+          </ul>
+        </div>
+      </div>
+     <!-- 新添加板块 修改开始 -->
+    <!--<div class="index_block pt20">
+
+   <div class="wid387  news0311  f_l">
+        <ul class="tabs" id="tabs3">
+           <li class="thistab">
+            <a href="/tjj/xxfb/ist.shtml" target="_blank">信息发布</a><li>
+            <a href="" target="_blank">数据解读</a>
+          </li>
+          <li>
+            <a href="/tjj/fbjh/ist.shtml" target="_blank">发布计划</a>
+          </li>
+
+        </ul>
+        <div class="clear"></div>
+        <ul class="tab_conbox  pb15 pl15 pr15" id="tab3_conbox">
+          <li class="tab_con">
+             
+
+              <a href="/tjj/xxfb/202608/9120312f0ec0413190f51a3f772aabae.shtml" target="_blank"
+                title="2026年1—7月份全疆消费品市场运行情况">
+                2026年1—7月份全疆消费品市场...
+              </a>
+              <span>
+                08-19
+              </span>
+
+              <a href="/tjj/xxfb/202608/352e5499d729483583e090b54f2a29c4.shtml" target="_blank"
+                title="2026年1-7月份能源生产情况">
+                2026年1-7月份能源生产情况
+              </a>
+              <span>
+                08-19
+              </span>
+
+              <a href="/tjj/xxfb/202608/66e3558d6afd458e898b641e00711205.shtml" target="_blank"
+                title="1-6月份全疆规模以上服务业运行情况">
+                1-6月份全疆规模以上服务业运行...
+              </a>
+              <span>
+                08-19
+              </span>
+
+              <a href="/tjj/xxfb/202608/296e0eeaf8764ab6bbb3ed38613bfc6c.shtml" target="_blank"
+                title="2026年1-7月份全疆房地产市场基本情况">
+                2026年1-7月份全疆房地产市场基...
+              </a>
+              <span>
+                08-19
+              </span>
+
+              <a href="/tjj/xxfb/202608/cc2c492e92854664bd149dc4b9e88627.shtml" target="_blank"
+                title="2026年1-7月份全疆固定资产投资（不含农户）完成情况">
+                2026年1-7月份全疆固定资产投资...
+              </a>
+              <span>
+                08-19
+              </span>
+
+              <a href="/tjj/xxfb/202608/ee8f01561c8542ecb5eab88009b5db30.shtml" target="_blank"
+                title="2026年1-7月份规上工业生产平稳增长">
+                2026年1-7月份规上工业生产平稳...
+              </a>
+              <span>
+                08-19
+              </span>
+
+              <a href="/tjj/xxfb/202607/8cf1ec4afa3748f4844d63ffd8411a40.shtml" target="_blank"
+                title="2026年上半年全疆消费品市场运行情况">
+                2026年上半年全疆消费品市场运...
+              </a>
+              <span>
+                07-24
+              </span>
+
+          </li>
+          <li class="tab_con">
+             
+
+          </li>
+          <li class="tab_con">
+             
+
+              <a href="/tjj/fbjh/202306/fa52918366e7459593a162875fd55424.shtml" target="_blank"
+                title="2023年一季度新疆“四上”企业就业简况">
+                2023年一季度新疆“四上”企业...
+              </a>
+              <span>
+                06-13
+              </span>
+
+          </li>
+        </ul>
+      </div>-->
+
+    <!-- 新添加板块 修改结束 -->
+
+    
+    
+
+    <div >
+      <!--统计分析-->
+      <div class="wid387 f_l">
+        <div class="box bmyw pb15">
+          <div class="boxtop">
+            <a class="title f_l" href="/tjj/tjfx/ist.shtml" target="_blank">
+              统计分析
+            </a>
+            <a class="more f_r" href="/tjj/tjfx/ist.shtml" target="_blank">更多+</a>
+          </div>
+          <ul class="list" style="margin:5px;">
+             
+
+              <li> <a href="/tjj/tjfx/202608/1ab2826857184d0193854b4e0b6b640d.shtml" target="_blank">
+                  1-7月份全疆规模以上工业企业效益...<span>
+                    08-28
+                  </span>
+                </a> </li>
+
+              <li> <a href="/tjj/tjfx/202608/e7f7cd2be9e648c59c5f89e41d210f67.shtml" target="_blank">
+                  1-6月份全疆规模以上工业企业效益...<span>
+                    08-05
+                  </span>
+                </a> </li>
+
+              <li> <a href="/tjj/tjfx/202607/d1b293d80b6341949fe4b2e47e7fa237.shtml" target="_blank">
+                  1-5月份全疆规模以上工业企业效益...<span>
+                    06-30
+                  </span>
+                </a> </li>
+
+              <li> <a href="/tjj/tjfx/202606/1ddcde803315431dafb78e98018871a3.shtml" target="_blank">
+                  1-4月份全疆规模以上工业企业效益...<span>
+                    06-01
+                  </span>
+                </a> </li>
+
+              <li> <a href="/tjj/tjfx/202605/514864f7bc994147866e1b6d6504f979.shtml" target="_blank">
+                  1-3月份全疆规模以上工业企业效益...<span>
+                    05-07
+                  </span>
+                </a> </li>
+
+              <li> <a href="/tjj/tjfx/202603/ce644c5fcae34246abff7c8ab3a8b324.shtml" target="_blank">
+                  1-2月份全疆规模以上工业企业效益...<span>
+                    03-26
+                  </span>
+                </a> </li>
+
+              <li> <a href="/tjj/tjfx/202602/5da07b9f3eb44b579c1734cb4c2ac817.shtml" target="_blank">
+                  1-12月份全疆规模以上工业企业效...<span>
+                    02-05
+                  </span>
+                </a> </li>
+
+          </ul>
+        </div>
+      </div>
+      <!--老页面举报信箱--> 
+      <!-- <div class="wid387 jzxxpos f_l pl20">
+        <div class="box jzxx pb15">
+          <div class="boxtop"><a class="title f_l" href="/tjj/jbxx/jump.shtml"
+              target="_blank"> 统计举报</a><a class="more f_r"
+              href="/tjj/jbxx/jump.shtml" target="_blank">更多+</a></div>
+          <ul class="jzxx_but">
+            <li class="jzxx_but01"><a style="width:160px;padding-left: 100px;"> 举报电话：</a><a
+                style="float:  left;padding-left: 100px;">举报信箱：</a></li>
+            <li style="border: 0;"><a style="padding-left:10px;">0991-2667286</a><br><a
+                style="padding-left:10px;">xjtj_wfjb@163.com</a></li>
+          </ul>
+          <ul style="margin:0px 10px 10px 10px;">
+            <div style="width:100%;"> <a href="https://tousu.www.gov.cn/dc/6wen6bao/index.htm" tagret="_blank"><img
+                  width="100%" src="/tjj/xhtml/img/6b6w.png"></a></div>
+            <div style="width: 100%; margin-top:5px;"><a href="https://xinjiang.12388.gov.cn/" tagret="_blank"><img
+                  width="100%" src="/tjj/xhtml/img/12388.png"></a> </div>
+            <div style="width:100%;"> <a href="https://tousu.www.gov.cn/dc/index.htm" tagret="_blank"><img width="100%"
+                  src="/tjj/xhtml/img/hlwdc.jpg"></a></div>
+          </ul>
+        </div>
+      </div> -->
+         <!--统计学会-->
+        <div class="wid387 tzggpos f_r">
+        	<div class="box tzgg pb15">
+               	<div class="boxtop"><a class="title f_l" href="/tjj/tjxh/ist.shtml" target="_blank"> 统计学会</a><a class="more f_r" href="/tjj/tjxh/ist.shtml" target="_blank">更多+</a></div>
+                <div class="boxcontent">
+                	<ul>
+                     
+
+                	<li>
+                    <div><span class="year">2026-06</span><span class="date">15</span></div>
+                    <a href="/tjj/tjxh/202606/0b2cf45991d24dafa161614c879bee80.shtml" target="_blank" title='转发《第二十一次全国中青年统计科学研讨会征文通知》的通知'  >转发《第二十一次全国中青年统计科学研讨会征文通知》的通知</a>
+                    </li>
+
+                	<li>
+                    <div><span class="year">2026-06</span><span class="date">02</span></div>
+                    <a href="/tjj/tjxh/202606/688a096200714b8fac9c30b378888357.shtml" target="_blank" title='转发《关于开展2026年度国家统计局重大统计专项申请工作的通知》的通知'  >转发《关于开展2026年度国家统计局重大统计专项申请工作的通知》的通...</a>
+                    </li>
+
+                	<li>
+                    <div><span class="year">2026-05</span><span class="date">13</span></div>
+                    <a href="/tjj/tjxh/202605/2f81e767805a4dc5b2f4c9f6d263d84c.shtml" target="_blank" title='转发《关于开展2026年度全国统计科学研究项目申请工作的通知》的通知'  >转发《关于开展2026年度全国统计科学研究项目申请工作的通知》的通知</a>
+                    </li>
+
+                	</ul>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+</div>  
+<!--第二板块--结束-->
+    
+<div class="clear"></div>
+
+  
+<!--第三块开始-->
+  <div class="index_block pt20">
+        <div class="ldzcpos">
+            <div class="box p20">
+  <!--领导简介-->
+   <div class="wid366 f_l">
+        	<div class="ldzc pb15">
+            	<div class="box1top">
+                  <a class="title f_l" href="/tjj/ldjj/list_ld.shtml" target="_blank">
+                    领导简介</a>
+                  <a class="more f_r" href="/tjj/ldjj/list_ld.shtml" target="_blank">更多+</a>
+              </div>
+                <div class="boxcontent pt20">
+                 
+           	    <div class="ld_img f_l"><a href="/tjj/ldjj/202002/12f82df53f6448a381264dd0dc36c5ee.shtml" target="_blank">
+                  <img src="/tjj/ldjj/202002/12f82df53f6448a381264dd0dc36c5ee/images/b99fe97a01c04c2990a0c36116f52fc3.jpg
+">
+                  </a>
+                  </div>
+                <div class="ld_detail f_r">
+                    <span class="ld_name"><a href="/tjj/ldjj/202002/12f82df53f6448a381264dd0dc36c5ee.shtml" target="_blank" title='徐建辉'  >徐建辉</a></span>
+                    <p><a href="/tjj/ldjj/202002/12f82df53f6448a381264dd0dc36c5ee.shtml" target="_blank" title='党组书记、副局长'  >党组书记、副局长</a></p>
+                    <div class="ld_gz"><div class="gztop"><a href="/tjj/ldjj/202002/12f82df53f6448a381264dd0dc36c5ee.shtml" target="_blank">分管工作</a></div><p><a href="/tjj/ldjj/202002/12f82df53f6448a381264dd0dc36c5ee.shtml" target="_blank"><a href="/tjj/ldjj/202002/12f82df53f6448a381264dd0dc36c5ee.shtml" target="_blank" title='主持统计局全面工作。分管离退休干部工作处、统计调查监测中心。'  >主持统计局全面工作。分管离退休干部工作处、统计调查监测中心。</a></a></p></div>
+                </div>
+
+                </div>
+                
+            </div>
+        </div> 
+              
+               <!--法规文件-->
+                <div class="wid376 f_l pl20">
+                    <ul class="tabs1" id="tabs2">
+                       <li class="thistab"><a href="/tjj/fgwj/list_y.shtml" target="_blank">法规文件</a></li>        		   
+        			</ul>    
+       	  <div class="clear"></div>
+                	<ul class="tab_conbox1 pt20" id="tab2_conbox">
+                  <li class="tab_con" style="display: list-item;"> 
+                         
+
+                          <a href="/tjj/fgwj/202411/408ea495d32d433cbcb5625068df9be2.shtml">中华人民共和国统计法</a>
+                          <span>03-19</span>
+
+                          <a href="/tjj/fgwj/202312/c14d68d3cee84b92bc06f848b11216e1.shtml">减轻企业负担政策汇编（2023）</a>
+                          <span>12-05</span>
+
+                          <a href="/tjj/fgwj/202111/86fd912b42454f7fac5e6c6d2153c1ad.shtml">减轻企业负担政策汇编（2021）</a>
+                          <span>11-19</span>
+
+                          <a href="/tjj/fgwj/201509/ea6da6d02e5847baa6c7e4817fa19412.shtml">  企业信息公示暂行条例  </a>
+                          <span>09-02</span>
+
+                          <a href="/tjj/fgwj/201509/d8d847576fcc416792118c266564fc68.shtml">  社会信用体系建设规划纲要  </a>
+                          <span>09-02</span>
+
+                      </li>               
+		  </ul>
+                </div>
+              
+              <!--权责清单-->
+                <div class="wid376 f_r butpos">
+                    <ul class="but">
+                        <li class="but01">
+                            <a href="https://zwfw.xinjiang.gov.cn/xjzwfw2021/departmentnew.html?orgcode=116500000101836998&orgname=%E8%87%AA%E6%B2%BB%E5%8C%BA%E7%BB%9F%E8%AE%A1%E5%B1%80&orgshortname=%E8%87%AA%E6%B2%BB%E5%8C%BA%E7%BB%9F%E8%AE%A1%E5%B1%80" target="_blank">政务服务</a>
+                        </li>
+                        <li class="but02">
+                          <a href="/tjj/sxqy/jump.shtml" target="_blank">
+                                统计上失信企业公示
+                            </a>
+                        </li>
+                        <li class="but03">
+                          <a href="/tjj/sqxzjcgszl/ist.shtml" target="_blank">涉企行政检查公示专栏</a>
+                        </li>
+                        <li class="but04">
+                            <a href="/tjj/xxgknb/zfxxgk_xxgkzd.shtml" target="_blank">政府信息公开年报</a>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear">
+                </div>
+            </div>
+        </div>
+    </div>
+  
+<!--第三块结束-->
+
+
+ <div class="clear"></div> 
+
+    <!-- 新的举报信息开始 -->
+    <div class="index_block jzxxpos   " style="height: 90px !important; margin-top: 10px !important;">
+      <div class="box jzxx pb15 ">
+        <div class="boxtop"><a class="title  title-tj f_l" href="/tjj/jbxx/jump.shtml"
+            target="_blank"> 统计举报</a> </div>
+        <ul class="jzxx_but">
+          <li class="jzxx_but01"><a class="jbdh" style="width:170px;padding-left: 1px;"> 统计专项纠治举报电话：</a><a
+              style="float:  left;padding-left: 100px; " class="jbxxx">举报信箱：</a></li>
+          <li style="border: 0;"><a style="padding-left:10px;">0991-2667286</a><br><a
+              style="padding-left:10px;">xjtj_wfjb@163.com</a></li>
+        </ul>
+        <ul style="margin:0px 10px 10px 10px;">
+          <div> <a href="https://tousu.www.gov.cn/dc/6wen6bao/index.htm" tagret="_blank"><img class="jzxximg-1"  
+               src="http://tjj.xinjiang.gov.cn/tjj/xhtml/img/6b6w.png"  ></a></div>
+          <div><a href="https://xinjiang.12388.gov.cn/" tagret="_blank"><img   class="jzxximg-2" width="250" height="70"
+                src="http://tjj.xinjiang.gov.cn/tjj/xhtml/img/12388.png"></a> </div>
+          <div> <a href="https://tousu.www.gov.cn/dc/index.htm" tagret="_blank"><img  class="jzxximg-3" width="260" height="70" 
+                src="http://tjj.xinjiang.gov.cn/tjj/xhtml/img/hlwdc.jpg"></a></div>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 新的举报信息结束 -->
+
+
+<!--通用尾-->
+<div class="link">
+	 <div class="link-box">
+      <div class="link-menu">
+       <ul>
+          <li class="menu-open"></li>
+        </ul>
+      </div>
+    </div>
+<div class="link-content">
+   
+      <ul class="linkpos" style="display: block;">
+       <div class="link1 f_l"><h3>友情链接:</h3></div>
+                <div class="link2 f_l">
+        <h3>自治区政府机构网站</h3>
+   <div class="link3box">     
+  <a href="http://www.xinjiang.gov.cn/">新疆维吾尔自治区人民政府网站</a>
+<a href="http://xjdrc.xinjiang.gov.cn" target="_blank">发展和改革委员会</a>
+<a href="http://jyt.xinjiang.gov.cn/" target="_blank">教育厅</a>
+<a href="http://kjt.xinjiang.gov.cn/" target="_blank">科技厅</a>
+<a href="http://gxt.xinjiang.gov.cn/" target="_blank">工业和信息化厅</a>
+<a href="http://mwzjswj.xinjiang.gov.cn/" target="_blank">民族事务委员会</a>
+<a href="http://gat.xinjiang.gov.cn/" target="_blank">公安厅</a>
+<a href="http://mzt.xinjiang.gov.cn/" target="_blank">民政厅</a>
+<a href="http://sft.xinjiang.gov.cn/" target="_blank">司法厅</a>
+<a href="http://czt.xinjiang.gov.cn/" target="_blank">财政厅</a>
+<a href="http://rst.xinjiang.gov.cn/" target="_blank">人力资源和社会保障厅</a>
+<a href="http://zrzyt.xinjiang.gov.cn/" target="_blank">自然资源厅</a>
+<a href="http://sthjt.xinjiang.gov.cn/" target="_blank">生态环境厅</a>
+<a href="http://zjt.xinjiang.gov.cn " target="_blank">住房和城乡建设厅</a>
+<a href="http://jtyst.xinjiang.gov.cn/" target="_blank">交通厅</a>
+<a href="http://slt.xinjiang.gov.cn/" target="_blank">水利厅</a>
+<a href="http://nynct.xinjiang.gov.cn/" target="_blank">农业农村厅</a>
+<a href="http://swt.xinjiang.gov.cn" target="_blank">商务厅</a>
+<a href="http://wlt.xinjiang.gov.cn/" target="_blank">文化和旅游厅</a>
+<a href="http://wjw.xinjiang.gov.cn/" target="_blank">卫生健康委员会</a>
+<!--dd><a href="#" target="_blank" >退役军人事务厅</a></dd-->
+<a href="http://yjgl.xinjiang.gov.cn/" target="_blank">应急管理厅</a>
+<a href="http://sjt.xinjiang.gov.cn/" target="_blank">审计厅</a>
+<a href="http://fao.xinjiang.gov.cn/" target="_blank">外事办公室</a>
+<!--<a target="_blank" href="#">研究室</a>-->
+<a target="_blank" href="http://scjgj.xinjiang.gov.cn/">市场监督管理局</a>
+<a target="_blank" href="http://gdj.xinjiang.gov.cn/">广播电视局</a>
+<!--<a target="_blank" href="#">体育局</a>-->
+<a target="_blank" href="http://tjj.xinjiang.gov.cn/">统计局</a>
+<a target="_blank" href="http://ylbzj.xinjiang.gov.cn">医疗保障局</a>
+<a target="_blank" href="http://sgj.xinjiang.gov.cn/" se_prerender_url="loading">机关事务管理局 </a>
+<!--<a target="_blank" href="#">地方金融监督管理局</a>-->
+<a target="_blank" href="http://xfj.xinjiang.gov.cn/">信访局</a>
+<a target="_blank" href="http://lcj.xinjiang.gov.cn/">林业和草原局</a>
+<a target="_blank" href="http://fpb.xinjiang.gov.cn/">扶贫开发办公室</a>
+<a target="_blank" href="http://rfb.xinjiang.gov.cn">人民政府人民防空办公室 </a>
+<a target="_blank" href="http://jrjgj.xinjiang.gov.cn">地方金融监督管理局</a>
+<a target="_blank" href="http://lswz.xinjiang.gov.cn/">粮食和物资储备局</a>
+<a target="_blank" href="http://jdglj.xinjiang.gov.cn/">戒毒管理局</a>
+<a target="_blank" href="http://jyglj.xinjiang.gov.cn">监狱管理局</a>
+<a target="_blank" href="http://xmsyj.xinjiang.gov.cn/">畜牧兽医局</a>
+<a target="_blank" href="http://mpa.xinjiang.gov.cn/">药品监督管理局</a>
+<a target="_blank" href="https://xjdzj.gov.cn" se_prerender_url="complete">新疆维吾尔自治区地震局</a>
+<a target="_blank" href="http://xj.spb.gov.cn/">新疆维吾尔自治区邮政局</a>
+<a target="_blank" href="http://urumqi.customs.gov.cn">乌鲁木齐海关</a>
+<a target="_blank" href="http://xj.caac.gov.cn/">民航新疆管理局</a>
+<a target="_blank" href="http://xjca.miit.gov.cn/">新疆维吾尔自治区通信管理局</a>
+<a target="_blank" href="http://www.csrc.gov.cn/pub/newsite/">中国证券监督管理委员会新疆监管局</a>
+<a target="_blank" href="http://wulumuqi.pbc.gov.cn/">中国人民银行乌鲁木齐中心支行</a>
+<a target="_blank" href="http://www.cbirc.gov.cn/branch/xinjiang/view/pages/index/index.html">中国银行业监督管理委员会新疆监管局</a>
+<a target="_blank" href="http://xj.mof.gov.cn">财政部驻新疆专员办</a>
+<a target="_blank" href="http://xj.cma.gov.cn/">新疆维吾尔自治区气象局</a>
+</div>
+</div>
+<div class="link3 f_l"><h3>全国统计站点</h3><div class="link2box">  
+<a href="http://www.stats.gov.cn/" target="_blank">国家统计局</a>
+<a href="http://tjj.beijing.gov.cn/" target="_blank">北京市统计局</a>
+<a href="http://stats.tj.gov.cn" target="_blank">天津市统计局</a>
+<a href="http://tjj.hebei.gov.cn/" target="_blank">河北省统计局</a>
+<a href="http://tjj.shanxi.gov.cn" target="_blank">山西省统计局</a>
+<a href="http://tj.nmg.gov.cn/" target="_blank">内蒙古统计局</a>
+<a href="http://tjj.ln.gov.cn" target="_blank">辽宁省统计局</a>
+<a href="http://tjj.jl.gov.cn/" target="_blank">吉林省统计局</a>
+<a href="http://tjj.sh.gov.cn/" target="_blank">上海市统计局</a>
+<a href="http://tj.jiangsu.gov.cn/index.html" target="_blank">江苏省统计局</a>
+<a href="http://tjj.zj.gov.cn/" target="_blank">浙江省统计局</a>
+  <a href="http://tjj.ah.gov.cn/" target="_blank">安徽省统计局</a>
+<a href="http://tjj.fujian.gov.cn/" target="_blank">福建省统计局</a>
+<a href="http://tjj.jiangxi.gov.cn/" target="_blank">江西省统计局</a>
+<a href="http://tjj.shandong.gov.cn" target="_blank">山东省统计局</a>
+<a href="http://tjj.henan.gov.cn" target="_blank">河南省统计局</a>
+<a href="http://stats.hainan.gov.cn/tjj/index.html" target="_blank">海南省统计局</a> 
+<a href="http://tjj.hubei.gov.cn/" target="_blank">湖北省统计局</a>
+<a href="http://tjj.hunan.gov.cn/" target="_blank">湖南省统计局</a> 
+<a href="http://stats.gd.gov.cn/" target="_blank">广东省统计局</a> 
+<a href="http://tjj.gxzf.gov.cn/" target="_blank">广西统计局</a> 
+<a href="http://tjj.hlj.gov.cn/" target="_blank">黑龙江省统计局</a> 
+<a href="http://tjj.cq.gov.cn/" target="_blank">重庆市统计局</a> 
+<a href="http://tjj.sc.gov.cn" target="_blank">四川省统计局</a> 
+<a href="http://stjj.guizhou.gov.cn/" target="_blank">贵州省统计局</a> 
+<a href="http://stats.yn.gov.cn" target="_blank">云南省统计局</a> 
+<a href="http://tjj.shaanxi.gov.cn/" target="_blank">陕西省统计局</a> 
+<a href="http://tjj.gansu.gov.cn" target="_blank">甘肃省统计局</a> 
+<a href="http://tjj.qinghai.gov.cn/" target="_blank">青海省统计局</a> 
+<a href="http://tj.nx.gov.cn/" target="_blank">宁夏统计局</a> 
+<a href="http://tjj.xjbt.gov.cn" target="_blank">新疆生产建设兵团</a> 
+    	</div></div>
+
+
+<div class="link4 f_l">
+        <h3>地州政府网站</h3>
+   <div class="link4box">     
+  <a href="http://www.wlmq.gov.cn/">乌鲁木齐市</a>
+                        <a href="http://www.xjyl.gov.cn/">伊犁哈萨克自治州</a>
+                        <a href="http://www.xjtc.gov.cn/">塔城地区</a>
+                        <a href="http://www.xjalt.gov.cn/">阿勒泰地区</a>
+                        <a href="http://www.klmy.gov.cn/">克拉玛依市</a>
+                        <a href="http://www.xjboz.gov.cn/">博尔塔拉蒙古自治州</a>
+                        <a href="http://www.cj.gov.cn/">昌吉回族自治州</a>
+                        <a href="http://www.tlf.gov.cn/">吐鲁番市</a>
+                        <a href="http://www.xjbz.gov.cn/">巴音郭楞蒙古自治州</a>
+                        <a href="http://www.aks.gov.cn/">阿克苏地区</a>
+                        <a href="http://www.hami.gov.cn/">哈密市</a>
+                        <a href="http://www.kashi.gov.cn/">喀什地区</a>
+                        <a href="http://www.xjkz.gov.cn/">克孜勒苏柯尔克孜自治州</a>
+                        <a href="http://www.xjht.gov.cn/">和田地区</a>
+                        <a href="http://www.ale.gov.cn/">阿拉尔市</a>
+</div>
+</div>
+
+<div class="link5 f_l"><h3>其他网站</h3><div class="link5box"> 
+						<a href="http://www.ts.cn/">天山网</a>
+                        <a href="http://www.xjkunlun.cn">昆仑网</a>
+                        <!--<a href="http://www.xjdaily.com/">新疆日报网</a>-->
+                        <a href="http://www.weather.com.cn/xinjiang/">天气预报</a>
+                        </div>  </div>
+
+ </ul>
+         
+    </div>
+</div>
+
+<div class="clear"></div>
+	<div class="copyright mt15">
+    	<div class="copyright_text">
+       <div class="wid700 copyright_text1 f_l">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开办单位：新疆维吾尔自治区统计局&nbsp;&nbsp;&nbsp;&nbsp;主办单位：新疆维吾尔自治区统计局办公室&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;承办单位：新疆维吾尔自治区统计局统计信息中心&nbsp;&nbsp;&nbsp;&nbsp;网站标识码：6500000007&nbsp;&nbsp;联系电话：0991-8873074
+<br><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?&#10;&#10;recordcode=65010202000050" style="color:#fff"><img src="/tjj/xhtml/images/wzba.png" style="float:left;">新公网安备 
+
+         65010202000050号</a> <a target="_blank" href="https://beian.miit.gov.cn/" style="color:#fff">新ICP备14002050号</a> </div>
+<div class="copyright_but f_l">
+    	<ul>
+            <li class="copyright_but3" style="margin-left: 20px;"><a href="/tjj/wzdt/wzdt.shtml">网站地图</a></li>
+  <li style="margin-top: 10px; width:110px">
+          	<script id="_jiucuo_" sitecode='6500000007' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script>
+          </li>
+        </ul>
+    </div>
+     <div class="wid220 copyright_link f_l">
+    	<ul>
+        	<li class="copyright_link1"><a href="http://bszs.conac.cn/sitename?method=show&id=56244402ED4E584CE053022819AC5EE8"><img src="/tjj/xhtml/images/dzjg.png" width="56" height="67" /></a></li>
+          <li class="copyright_link2"><img src="/tjj/xhtml/img/ipv6.jpg" height="55" style="margin-top:5px;"></li>
+        </ul>
+
+    </div>
+
+</div>
+</div>
+
+<!--云分析-->
+<!-- PHPStat Start -->
+<script language="JavaScript">var _trackDataType = 'web';var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="phpstat_js_id_10000001" src="//www.xinjiang.gov.cn/phpstat/count/10000001/10000001.js"></script><noscript>< img src="//www.xinjiang.gov.cn/phpstat/count/10000001/10000001.php" alt="PHPStat Analytics"/></noscript>
+<!--/PHPStat End -->
+<!--通用尾-->
+
+<SCRIPT type=text/javascript src="/tjj/xhtml/js/slides.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+<!--
+$(function(){   
+    /*focus*/
+    var sliderElement = $('.slider-carousel');
+    sliderElement.slidesjs({
+        play: {
+            auto: true,
+            effect: 'fade'
+        },
+        navigation: {
+            effect: "fade"
+        },
+        pagination: {
+            effect: "fade"
+        },
+        effect: {
+            slide: {
+                speed: 400
+            }
+        }
+    });
+   
+
+})
+-->
+</SCRIPT>
+  </div>
+  
+    <div id="16042" dragable="true" module="true">
+  <script type="text/javascript"> 
+function addEvent(obj,evtType,func,cap){ 
+cap=cap||false; 
+if(obj.addEventListener){ 
+obj.addEventListener(evtType,func,cap); 
+return true; 
+}else if(obj.attachEvent){ 
+if(cap){ 
+obj.setCapture(); 
+return true; 
+}else{ 
+return obj.attachEvent("on" + evtType,func); 
+} 
+}else{ 
+return false; 
+} 
+} 
+function getPageScroll(){ 
+var xScroll,yScroll; 
+if (self.pageXOffset) { 
+xScroll = self.pageXOffset; 
+} else if (document.documentElement && document.documentElement.scrollLeft){ 
+xScroll = document.documentElement.scrollLeft; 
+} else if (document.body) { 
+xScroll = document.body.scrollLeft; 
+} 
+if (self.pageYOffset) { 
+yScroll = self.pageYOffset; 
+} else if (document.documentElement && document.documentElement.scrollTop){ 
+yScroll = document.documentElement.scrollTop; 
+} else if (document.body) { 
+yScroll = document.body.scrollTop; 
+} 
+arrayPageScroll = new Array(xScroll,yScroll); 
+return arrayPageScroll; 
+} 
+function closead(){
+document.getElementById("ad1").style.display = "none";
+
+}
+function GetPageSize(){ 
+var xScroll, yScroll; 
+if (window.innerHeight && window.scrollMaxY) { 
+xScroll = document.body.scrollWidth; 
+yScroll = window.innerHeight + window.scrollMaxY; 
+} else if (document.body.scrollHeight > document.body.offsetHeight){ 
+xScroll = document.body.scrollWidth; 
+yScroll = document.body.scrollHeight; 
+} else { 
+xScroll = document.body.offsetWidth; 
+yScroll = document.body.offsetHeight; 
+} 
+var windowWidth, windowHeight; 
+if (self.innerHeight) { 
+windowWidth = self.innerWidth; 
+windowHeight = self.innerHeight; 
+} else if (document.documentElement && document.documentElement.clientHeight) { 
+windowWidth = document.documentElement.clientWidth; 
+windowHeight = document.documentElement.clientHeight; 
+} else if (document.body) { 
+windowWidth = document.body.clientWidth; 
+windowHeight = document.body.clientHeight; 
+} 
+if(yScroll < windowHeight){ 
+pageHeight = windowHeight; 
+} else { 
+pageHeight = yScroll; 
+} 
+if(xScroll < windowWidth){ 
+pageWidth = windowWidth; 
+} else { 
+pageWidth = xScroll; 
+} 
+arrayPageSize = new Array(pageWidth,pageHeight,windowWidth,windowHeight) 
+return arrayPageSize; 
+} 
+
+var AdMoveConfig=new Object(); 
+AdMoveConfig.IsInitialized=false; 
+AdMoveConfig.ScrollX=0; 
+AdMoveConfig.ScrollY=0; 
+AdMoveConfig.MoveWidth=0; 
+AdMoveConfig.MoveHeight=0; 
+AdMoveConfig.Resize=function(){ 
+var winsize=GetPageSize(); 
+AdMoveConfig.MoveWidth=winsize[2]; 
+AdMoveConfig.MoveHeight=winsize[3]; 
+AdMoveConfig.Scroll(); 
+} 
+AdMoveConfig.Scroll=function(){ 
+var winscroll=getPageScroll(); 
+AdMoveConfig.ScrollX=winscroll[0]; 
+AdMoveConfig.ScrollY=winscroll[1]; 
+} 
+addEvent(window,"resize",AdMoveConfig.Resize); 
+addEvent(window,"scroll",AdMoveConfig.Scroll); 
+function AdMove(id){ 
+if(!AdMoveConfig.IsInitialized){ 
+AdMoveConfig.Resize(); 
+AdMoveConfig.IsInitialized=true; 
+} 
+var obj=document.getElementById(id); 
+obj.style.position="absolute"; 
+var W=AdMoveConfig.MoveWidth-obj.offsetWidth; 
+var H=AdMoveConfig.MoveHeight-obj.offsetHeight; 
+var x = W*Math.random(),y = H*Math.random(); 
+var rad=(Math.random()+1)*Math.PI/6; 
+var kx=Math.sin(rad),ky=Math.cos(rad); 
+var dirx = (Math.random()<0.5?1:-1), diry = (Math.random()<0.5?1:-1); 
+var step = 1; 
+var interval; 
+this.SetLocation=function(vx,vy){x=vx;y=vy;} 
+this.SetDirection=function(vx,vy){dirx=vx;diry=vy;} 
+obj.CustomMethod=function(){ 
+obj.style.left = (x + AdMoveConfig.ScrollX) + "px"; 
+obj.style.top = (y + AdMoveConfig.ScrollY) + "px"; 
+rad=(Math.random()+1)*Math.PI/6; 
+W=AdMoveConfig.MoveWidth-obj.offsetWidth; 
+H=AdMoveConfig.MoveHeight-obj.offsetHeight; 
+x = x + step*kx*dirx; 
+if (x < 0){dirx = 1;x = 0;kx=Math.sin(rad);ky=Math.cos(rad);} 
+if (x > W){dirx = -1;x = W;kx=Math.sin(rad);ky=Math.cos(rad);} 
+y = y + step*ky*diry; 
+if (y < 0){diry = 1;y = 0;kx=Math.sin(rad);ky=Math.cos(rad);} 
+if (y > H){diry = -1;y = H;kx=Math.sin(rad);ky=Math.cos(rad);} 
+} 
+this.Run=function(){ 
+var delay = 10; 
+interval=setInterval(obj.CustomMethod,delay); 
+obj.onmouseover=function(){clearInterval(interval);} 
+obj.onmouseout=function(){interval=setInterval(obj.CustomMethod, delay);} 
+} 
+} 
+   
+</script>
+  </div>
+      
+      </body>
+</html>

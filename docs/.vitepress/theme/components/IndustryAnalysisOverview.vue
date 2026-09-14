@@ -41,7 +41,7 @@ onBeforeUnmount(()=>window.removeEventListener('popstate',restore))
   <p class="audit-stamp">核查于 {{data.checkedAt}} · {{data.version}}</p>
   <button class="overview-share" @click="share">分享当前指标与筛选 ↗</button><p v-if="message" class="audit-stamp" role="status">{{message}}</p>
   <section v-if="table" data-content-id="cn-analysis-official-comparison">
-   <h2>全国电子行业：同一统计表内比较</h2>
+   <h2>全国统计：同一统计表内比较</h2>
    <label class="overview-control">指标<select v-model="selected" aria-label="全国分析指标"><option v-for="t in tables" :value="t.id" :key="t.id">{{t.title}} · {{t.period}}</option></select></label>
    <p>{{table.period}} · {{table.coverageLabel}} · {{analysisUnit(table,settings)}}</p><p class="scope-note">{{table.coverage}}</p>
    <div class="official-rows">
@@ -62,6 +62,7 @@ onBeforeUnmount(()=>window.removeEventListener('popstate',restore))
   <section data-content-id="cn-analysis-coverage">
    <h2>资料探索到了哪里</h2>
    <p>“已取得”只描述这条记录中的资料，不代表该渠道已被穷尽。每个缺口保留下一步。</p>
+   <p><a href="./exports/industry-reading-log.json" download>下载实际读页、读表范围与修订记录 ↗</a>。找到入口、取得文件与读到内容分别记录。</p>
    <div class="coverage-controls"><label class="overview-control">资料范围<select v-model="group" aria-label="资料覆盖范围"><option value="all">全部范围</option><option v-for="g in groups" :key="g" :value="g">{{g}}</option></select></label><label class="overview-control">状态<select v-model="status" aria-label="资料覆盖状态"><option value="all">全部状态</option><option v-for="(name,key) in labels" :key="key" :value="key">{{name}}</option></select></label></div>
    <p class="audit-stamp">当前 {{coverage.length}} 条记录</p>
    <details v-for="c in coverage" :key="c.id" class="coverage-row" :data-content-id="c.id" tabindex="0">

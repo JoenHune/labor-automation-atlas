@@ -82,7 +82,7 @@ onBeforeUnmount(()=>window.removeEventListener('popstate',restoreNavigation))
    <label class="analysis-metric">比较指标<select v-model="metric" aria-label="分析指标"><option v-for="item in tables" :key="item.id" :value="item.id">{{item.title}} · {{item.period}}</option></select></label>
    <p class="analysis-context">{{table.period}} · {{table.coverageLabel}} · {{displayUnit}}</p>
    <p class="analysis-note">{{table.coverage}}</p>
-   <div class="comparison-toolbar"><span>{{rows.filter(r=>r.value!==null).length}} / {{rows.length}} 项有值</span><label>排序<select v-model="sort" aria-label="分析排序"><option value="value">数值</option><option value="name">名称</option></select></label></div>
+   <div class="comparison-toolbar"><span>{{rows.filter(r=>r.value!==null).length}} / {{rows.length}} 项有值</span><label v-if="rows.length>1">排序<select v-model="sort" aria-label="分析排序"><option value="value">数值</option><option value="name">名称</option></select></label></div>
    <div class="analysis-comparison" role="group" :aria-label="table.title+'比较'">
     <details v-for="r in rows" :key="r.id" class="analysis-row" :data-content-id="table.id+'-'+r.id" tabindex="0">
      <summary><span class="comparison-name">{{r.name}}</span><strong>{{formatAmount(analysisRowAmount(r,table,settings),1)}}</strong><span class="comparison-track"><i class="zero-line" :style="{left:comparisonScale.zero+'%'}"></i><span v-if="r.value!==null" :style="{left:comparisonScale.bar(analysisRowAmount(r,table,settings)!).left+'%',width:comparisonScale.bar(analysisRowAmount(r,table,settings)!).width+'%'}"></span></span></summary>

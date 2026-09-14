@@ -1,0 +1,88 @@
+[
+  {
+    "source": "Bb1-D-03",
+    "parent": [
+      133541,
+      59052432,
+      617246770,
+      245412488
+    ],
+    "childrenSum": [
+      133404,
+      59052431,
+      617246770,
+      245412489
+    ],
+    "residualParentMinusChildren": [
+      137,
+      1,
+      0,
+      -1
+    ],
+    "note": "逐格目核后检查原表差额；零表示衔接，非零保留且不推断原因。"
+  },
+  {
+    "source": "Bb1-E-03",
+    "parent": [
+      271007,
+      160017,
+      652396,
+      215119,
+      6527
+    ],
+    "childrenSum": [
+      271007,
+      160017,
+      652396,
+      215119,
+      6527
+    ],
+    "residualParentMinusChildren": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "note": "逐格目核后检查原表差额；零表示衔接，非零保留且不推断原因。"
+  },
+  {
+    "source": "A2-12",
+    "parent": 173480,
+    "childrenSum": 173472,
+    "residualParentMinusChildren": 8,
+    "note": "五列标记为其中项，不是完整控股类型分类。"
+  },
+  {
+    "source": "A2-13",
+    "parent": 10308607,
+    "childrenSum": 10304576,
+    "residualParentMinusChildren": 4031,
+    "note": "五列标记为其中项，不是完整控股类型分类。"
+  },
+  {
+    "source": "miit-economics-image",
+    "parent": [
+      41800,
+      211433.7,
+      9031.5,
+      1163.9,
+      275459.6
+    ],
+    "childrenSum": [
+      41800,
+      211433.7,
+      9031.5,
+      1163.9,
+      275459.6
+    ],
+    "residualParentMinusChildren": [
+      0,
+      0.0,
+      -0.0,
+      0.0,
+      0.0
+    ],
+    "note": "五项汇总均衔接；未据此调整任一分项。"
+  }
+]

@@ -1,0 +1,153 @@
+全省统计年鉴--湖北省统计局
+今天是：
+var sysdate = new Date();
+    var year = sysdate.getFullYear();
+    var month = sysdate.getMonth();
+    var date = sysdate.getDate();
+    var day = sysdate.getDay();
+    var week = ['日', '一', '二', '三', '四', '五', '六'];
+    document.write(year + "年" + (month + 1) + "月" + date + "日 星期" + week[day]);
+中国政府网
+|
+无障碍阅读
+|
+登录
+|
+注册
+搜索
+热门搜索：
+湖北数据
+统计图表
+经济运行
+新闻发布会
+// 热门搜索点击
+		function hotSearch(keyword) {
+			$('#textfield').val(keyword);
+			chkSearch();
+		}
+
+		// 搜索跳转
+		function chkSearch() {
+			var keyword = $('#textfield').val().trim();
+			if (keyword == '') {
+				alert('请输入关键字');
+				return false;
+			}
+			var keywords = encodeURI(keyword);
+			// 跳转到省政府网站检索页面
+			var $url = 'http://www.hubei.gov.cn/site/hb/#/all?type=所有&siteId=12&name=湖北省统计局&sitename=湖北省统计局&sitetype=省直部门&searchWord=' + keywords;
+			window.open($url, '_blank');
+		}
+
+		// 回车搜索
+		$('#textfield').on('keypress', function (event) {
+			if (event.keyCode === 13) {
+				chkSearch();
+			}
+		});
+首页
+机构简介
+统计数据
+信息公开
+互动交流
+办事服务
+专题专栏
+网上直报
+首页
+机构简介
+统计数据
+信息公开
+互动交流
+办事服务
+专题专栏
+网上直报
+统计年鉴
+全省统计年鉴
+各市州统计年鉴
+全省统计年鉴
+2025年统计年鉴
+2025-12-31
+2024年统计年鉴
+2024-12-31
+2023年统计年鉴
+2023-12-29
+2022年统计年鉴
+2022-11-21
+2021年统计年鉴
+2021-10-13
+2020年统计年鉴
+2020-10-20
+2019年统计年鉴
+2019-12-10
+2018年统计年鉴
+2018-09-12
+2017年统计年鉴
+2017-09-15
+2016年统计年鉴
+2016-09-14
+2015年统计年鉴
+2015-11-04
+2014年统计年鉴
+2014-11-04
+2013年统计年鉴
+2013-11-04
+2012年统计年鉴
+2012-11-04
+2011年统计年鉴
+2011-11-04
+createPageHTML(2, 0,"index", "shtml",  "black2",26);
+友情链接：
+中国政府网
+国家统计局
+湖北省人民政府
+邮编：430071
+|
+网站地图
+|
+新媒体矩阵
+版权所有：湖北省统计局　地址：武汉市武昌区水果湖东一路19-2号　电话：027-87813435
+鄂ICP备05011090号-1
+鄂公网安备 42010602001880号
+网站标识码：4200000001
+政务微信
+微博
+手机版
+×
+您访问的链接即将离开“湖北省统计局”门户网站 是否继续？
+放弃
+继续访问
+×
+您访问的链接即将离开“湖北省统计局”门户网站 是否继续？
+放弃
+继续访问
+// 平台访问统计
+		(function () {
+			var serverUrl = "/wasp-api";
+			var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+			g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = serverUrl + '/js/ta.js';
+			g.id = "visit-js-id";
+			g.onload = function () {
+				window.Tracker.setCrossSubDomain();
+				window.Tracker.setSiteId('22');
+			}
+			s.parentNode.insertBefore(g, s);
+		})();
+//dom effect
+    $(document).ready(function() {
+
+        //隐藏空白图片
+        $('.pic').each(function() {
+            if ($(this).html()=="") {
+                $(this).remove();
+            }
+            if (!$(this).html== "") {
+                $(this).siblings("h4").css("margin-top","10px")
+            }
+        });
+//当前高亮
+        $("#2266").addClass("active").siblings().removeClass("active");
+    });
+19
+2265
+2266
+全省统计年鉴

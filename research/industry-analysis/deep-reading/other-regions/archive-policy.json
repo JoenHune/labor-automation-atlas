@@ -1,0 +1,81 @@
+{
+  "wholeArchivePolicy": "ZIP整包、云南整本PDF和全文文本保留本地缓存、不提交。版本库保存目标XLS/XLSX/图片、读取定位、URL及SHA-256；fetch.py可按batch恢复。",
+  "archives": [
+    {
+      "filename": "hn-census2023.zip",
+      "url": "https://tjj.hunan.gov.cn/hntj/tjfx/hntjnj/202601/33889590/files/e52badb7403c496b876d9fa88c874a10.zip",
+      "retrieved": "2026-09-14",
+      "finalUrl": "https://tjj.hunan.gov.cn/hntj/tjfx/hntjnj/202601/33889590/files/e52badb7403c496b876d9fa88c874a10.zip",
+      "contentType": "application/zip",
+      "status": "downloaded",
+      "archive": "research/industry-analysis/deep-reading/other-regions/originals/hn-census2023.zip",
+      "bytes": 13668265,
+      "sha256": "37aa8bac2785ff59654e9213061e5c96c480b7a14807e372022e1854b3005bd8",
+      "commitPolicy": "local-cache-only",
+      "restore": "python3 research/industry-analysis/deep-reading/other-regions/fetch.py research/industry-analysis/deep-reading/other-regions/batch1.json",
+      "verification": "sha256 exact bytes; selected member originals remain versioned"
+    },
+    {
+      "filename": "yn2024.zip",
+      "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjnj/202505/P020260723391990334904.zip",
+      "retrieved": "2026-09-14",
+      "finalUrl": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjnj/202505/P020260723391990334904.zip",
+      "contentType": "application/zip",
+      "status": "downloaded",
+      "archive": "research/industry-analysis/deep-reading/other-regions/originals/yn2024.zip",
+      "bytes": 133832945,
+      "sha256": "dc237ff6d4930da9f0593d203098ddc27c5258a5adcc17f1dd909f48b3a4e4b0",
+      "commitPolicy": "local-cache-only",
+      "restore": "python3 research/industry-analysis/deep-reading/other-regions/fetch.py research/industry-analysis/deep-reading/other-regions/batch2.json",
+      "verification": "sha256 exact bytes; selected member originals remain versioned"
+    },
+    {
+      "filename": "hb2025.zip",
+      "url": "http://tjj.hubei.gov.cn/tjsj/sjkscx/tjnj/qstjnj/202601/P020260114553839802144.zip",
+      "retrieved": "2026-09-14",
+      "finalUrl": "http://tjj.hubei.gov.cn/tjsj/sjkscx/tjnj/qstjnj/202601/P020260114553839802144.zip",
+      "contentType": "application/zip",
+      "status": "downloaded",
+      "archive": "research/industry-analysis/deep-reading/other-regions/originals/hb2025.zip",
+      "bytes": 6389929,
+      "sha256": "be4c83cc4378b5987f8eac669683bee244e9091d1f502a1a4efa6e4e5cd6c9b2",
+      "commitPolicy": "local-cache-only",
+      "restore": "python3 research/industry-analysis/deep-reading/other-regions/fetch.py research/industry-analysis/deep-reading/other-regions/batch5.json",
+      "verification": "sha256 exact bytes; selected member originals remain versioned"
+    },
+    {
+      "filename": "hb2024.zip",
+      "url": "http://tjj.hubei.gov.cn/tjsj/sjkscx/tjnj/qstjnj/202501/P020250114330164457869.zip",
+      "retrieved": "2026-09-14",
+      "finalUrl": "http://tjj.hubei.gov.cn/tjsj/sjkscx/tjnj/qstjnj/202501/P020250114330164457869.zip",
+      "contentType": "application/zip",
+      "status": "downloaded",
+      "archive": "research/industry-analysis/deep-reading/other-regions/originals/hb2024.zip",
+      "bytes": 4681088,
+      "sha256": "831b1e76fcfc29dab1db540819ea97638fb48bfa34f62baffaa5d1f8b8a12058",
+      "commitPolicy": "local-cache-only",
+      "restore": "python3 research/industry-analysis/deep-reading/other-regions/fetch.py research/industry-analysis/deep-reading/other-regions/batch5.json",
+      "verification": "sha256 exact bytes; selected member originals remain versioned"
+    },
+    {
+      "filename": "yn2025.zip",
+      "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjnj/202605/P020260723540390408353.zip",
+      "retrieved": "2026-09-14",
+      "finalUrl": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjnj/202605/P020260723540390408353.zip",
+      "contentType": "application/zip",
+      "status": "downloaded",
+      "archive": "research/industry-analysis/deep-reading/other-regions/originals/yn2025.zip",
+      "bytes": 10743751,
+      "sha256": "ba620e59757e7114a3515b13c0536cd7a47783b0dce519d6e9969a8a2ea47bbb",
+      "commitPolicy": "local-cache-only",
+      "restore": "python3 research/industry-analysis/deep-reading/other-regions/fetch.py research/industry-analysis/deep-reading/other-regions/batch7.json",
+      "verification": "sha256 exact bytes; selected member originals remain versioned"
+    }
+  ],
+  "excludedFiles": [
+    "originals/*.zip",
+    "originals/*-full.pdf",
+    "extracted/*-full.txt",
+    ".deps/"
+  ]
+}

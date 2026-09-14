@@ -1,0 +1,3172 @@
+{
+  "checkedAt": "2026-09-14",
+  "reports": [
+    {
+      "companyId": "inspur",
+      "period": "2025",
+      "pdfPagesRead": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        29,
+        30,
+        109,
+        110,
+        117,
+        118,
+        119,
+        123,
+        141,
+        146,
+        147,
+        150,
+        151,
+        152,
+        158
+      ],
+      "topics": {
+        "inventory": "117—118：原材料、发出商品及跌价准备；16：资产占比",
+        "cash": "109—110应收账款、146—147净利润到经营现金调节",
+        "subsidies": "141、158：专项补助进入其他收益和财务费用",
+        "capital": "16、123：固定资产/在建工程及移动5G项目",
+        "scope": "14、150—152：元脉网络同一控制合并与其他新设处置",
+        "labor": "29—30期末员工、生产人员增加解释、劳务外包栏；150研发人力成本"
+      },
+      "notCovered": [
+        "未通读全部业务技术叙述、金融工具风险/关联交易明细、应收单项客户全部后续页；17—19附带金融投资内容不作为覆盖六主题的新增证据",
+        "员工表此前已读，本轮复读其范围和原因；未取得平均员工/供应链外包人数"
+      ]
+    },
+    {
+      "companyId": "inspur",
+      "period": "2026-H1",
+      "pdfPagesRead": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        87,
+        88,
+        93,
+        102,
+        115,
+        116,
+        120,
+        125
+      ],
+      "topics": {
+        "inventory": "87—88：预付款、原材料及发出商品变动",
+        "cash": "12、115—116：备货占用解释及现金调节完整跨页表",
+        "subsidies": "125：专项补助当期损益，财务费用格空白不补零",
+        "capital": "13、93：固定资产/在建工程",
+        "scope": "120：新增8家子公司，仅部分子公司表首段",
+        "labor": "102：应付职工薪酬确认和结算口径，不以期末应付款代员工成本"
+      },
+      "notCovered": [
+        "未通读全部应收账款及信用风险附注、全部新设子公司名单、投资估值细节；未取得H1平均员工及外包人数",
+        "9—11的技术性能和领先地位均为厂商自报，未转化为已独立验证结论"
+      ]
+    },
+    {
+      "companyId": "smic",
+      "period": "2025",
+      "pdfPagesRead": [
+        26,
+        27,
+        28,
+        29,
+        61,
+        62,
+        162,
+        163,
+        170,
+        171,
+        198,
+        199,
+        203,
+        210,
+        211
+      ],
+      "topics": {
+        "inventory": "162—163存货及可变现净值依据",
+        "cash": "29信用期调整；198—199现金桥接/债务变动",
+        "subsidies": "210—211政府补助确认与递延收益",
+        "capital": "28、170—171扩产、在建工程增加/转固",
+        "scope": "27、203合并变化不适用，未读全部后续页",
+        "labor": "61—62员工口径/劳务外包；203研发薪酬"
+      },
+      "notCovered": [
+        "未通读所有技术平台介绍、借款条款与关联交易附注；合并变化后续204页尚未读",
+        "期末主要子公司人数不等于平均员工；直接人工不含制造费用内潜在人工分摊"
+      ]
+    },
+    {
+      "companyId": "smic",
+      "period": "2026-H1",
+      "pdfPagesRead": [
+        14,
+        15,
+        16,
+        17,
+        22,
+        23,
+        24,
+        25,
+        105,
+        113,
+        114,
+        137,
+        142,
+        149
+      ],
+      "topics": {
+        "inventory": "105存货分类与减值变化",
+        "cash": "22—25公司解释；137经营现金桥接",
+        "subsidies": "149当期计入损益与递延收益",
+        "capital": "24产能扩充，113—114在建工程减少的转固与其他变动",
+        "scope": "142新设上海芯三维；24联营公允价值收益不持续说明",
+        "labor": "17研发人数薪酬；未取得集团平均人数"
+      },
+      "notCovered": [
+        "未读完整应收账款97—100页、全部投资估值附注、完整子公司明细",
+        "技术平台量产/领先自报未单独验证；未取得外包人数"
+      ]
+    },
+    {
+      "companyId": "boe",
+      "period": "2025",
+      "pdfPagesRead": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        48,
+        49,
+        155,
+        156,
+        162,
+        163,
+        184,
+        190,
+        191,
+        193,
+        198
+      ],
+      "topics": {
+        "inventory": "155—156存货准备期初、计提、转回或转销",
+        "cash": "25—26管理层现金解释；190—191少数股权购买、经营现金调节",
+        "subsidies": "184其他收益中补助与增值税抵减分别列示",
+        "capital": "26、162—163两条新建产线及投入",
+        "scope": "21事业板块成本含负抵销且材料人工不拆；193仅新设/注销",
+        "labor": "48—49员工表分项与合计不衔接，已渲染目核；193人工及日常经费不是纯工资"
+      },
+      "notCovered": [
+        "未通读所有研发项目之外的完整经营综述、应收账款所有账龄表、子公司/关联交易全部名单",
+        "员工合计109895与母公司2939+主要子公司67979差38977，原页未解释，不能自行更正",
+        "22—24研发项目为附带实读，技术领先/性能自报未独立核实"
+      ]
+    },
+    {
+      "companyId": "boe",
+      "period": "2026-H1",
+      "pdfPagesRead": [
+        15,
+        16,
+        126,
+        127,
+        134,
+        135,
+        136,
+        146,
+        147,
+        180,
+        184,
+        187,
+        188,
+        224
+      ],
+      "topics": {
+        "inventory": "134—136完整存货分类及计提表",
+        "cash": "184政府补助现金、187—188现金调节",
+        "subsidies": "180损益政府补助与其他收入，184现金收款不同",
+        "capital": "16、146—147在建工程及重点产线",
+        "scope": "15分部负抵销；224六类分部定义；188收购净现金零不等于范围不变",
+        "labor": "180研发Labor and daily expenses为混合项；未取得平均员工"
+      },
+      "notCovered": [
+        "未读合并范围192—201全部表、新增/处置完整名单；未据收购净现金为零认定没有范围变化",
+        "未补H1员工总数/供应链外包、全部应收账款坏账附注；使用B股英文版，人民币合并数据，同一集团只计一次"
+      ]
+    },
+    {
+      "companyId": "luxshare",
+      "period": "2025",
+      "pdfPagesRead": [
+        18,
+        19,
+        20,
+        65,
+        66,
+        192,
+        193,
+        200,
+        230,
+        238,
+        239,
+        240,
+        264
+      ],
+      "topics": {
+        "inventory": "192—193存货、跌价准备及合并范围增加说明",
+        "cash": "230净利润到经营现金调节",
+        "subsidies": "264政府补助及信用控制",
+        "capital": "200在建工程；238—240收购成本与资产边界（横跨复杂表，未采用股权比例异常单元格）",
+        "scope": "18—20增长解释；238购买日/收购后收入/现金；193准备增加含并购",
+        "labor": "65—66期末母子人数与生产类别；20薪资及合并范围费用解释"
+      },
+      "notCovered": [
+        "未通读全部研发项目、在建流转201以后、购买日公允价值跨页表241后、关联交易/估值说明",
+        "238页股权比例有10000%等异常展示，本轮不采用该列；仅以购买日与经营贡献解释可比边界",
+        "员工表复读不声称此前未读，未取得平均员工或外包人数"
+      ]
+    },
+    {
+      "companyId": "luxshare",
+      "period": "2026-H1",
+      "pdfPagesRead": [
+        12,
+        13,
+        14,
+        15,
+        126,
+        127,
+        134,
+        146,
+        164,
+        171,
+        188
+      ],
+      "topics": {
+        "inventory": "13备料解释；126—127预付款、存货和减值",
+        "cash": "12、164供应商支付与经营现金桥接",
+        "subsidies": "188补助损益与递延收益",
+        "capital": "14、134在建和其他非流动预付款说明",
+        "scope": "171无本期非同控收购、存在新设；2025年7月并购使H1同期范围仍有差异",
+        "labor": "14应付薪酬结算说明；146确认/支付流转，非平均用工"
+      },
+      "notCovered": [
+        "未读全部应收账款逾期/减值细分、全部投资收益组成、H1新设名单续页与剩余关联附注",
+        "不能因2026H1未发生新收购，就将同比当有机增长；尚无管理层剔并购可比增速"
+      ]
+    },
+    {
+      "companyId": "goer",
+      "period": "2025",
+      "pdfPagesRead": [
+        20,
+        46,
+        145,
+        146,
+        152,
+        175,
+        181,
+        182,
+        189,
+        190
+      ],
+      "topics": {
+        "inventory": "145—146存货原值和跌价准备",
+        "cash": "20、175折旧摊销及经营现金调节",
+        "subsidies": "189—190补助进入其他收益和资产处置收益",
+        "capital": "152生产测试设备减值及在建工程",
+        "scope": "181—182歌尔光学失控转权益法及余股重估",
+        "labor": "46劳务外包栏复核；本轮未重读员工数量表"
+      },
+      "notCovered": [
+        "未读所有应收客户账龄与风险、完整业务技术讨论、全部新设子公司及员工平均口径",
+        "投资收益中歌尔光学余股重估不能当产品销售毛利"
+      ]
+    },
+    {
+      "companyId": "goer",
+      "period": "2026-H1",
+      "pdfPagesRead": [
+        12,
+        13,
+        108,
+        112,
+        135,
+        139,
+        140,
+        146
+      ],
+      "topics": {
+        "inventory": "108分类及部分跌价表；12备货解释",
+        "cash": "12、135现金转负和营运资金调节（上半段134未读）",
+        "subsidies": "146损益补助",
+        "capital": "112固定资产增加/处置与减值余额；140资本化研发",
+        "scope": "140新设两家，无新增收购处置",
+        "labor": "12支付职工增加；139研发职工薪酬，缺平均员工"
+      },
+      "notCovered": [
+        "108减值流转续页109未读；现金桥接134上段未读",
+        "12研发投入23.60亿元与139研发支出合计26.03亿元未衔接；本轮不发布统一H1研发投入指标，待核其范围",
+        "未通读H1员工/外包边界、完整关联交易与投资收益附注"
+      ]
+    },
+    {
+      "companyId": "kaifa",
+      "period": "2025",
+      "pdfPagesRead": [
+        30,
+        31,
+        54,
+        144,
+        154,
+        177,
+        181,
+        189,
+        190
+      ],
+      "topics": {
+        "inventory": "存货净额、准备余额及委托加工存货",
+        "cash": "经营现金桥；投资赎回与子公司上市筹资不能混入经营现金",
+        "subsidies": "直接计入损益补助13,201,970.96元与递延摊销26,149,369.51元分列，前者不是全口径补助",
+        "capital": "重大工程转固及期末在建工程",
+        "scope": "附注非同控/同控合并均无；处置泰中开发现金",
+        "labor": "外包栏不适用，研发职工薪酬仅研发范围"
+      },
+      "notCovered": [
+        "员工职业构成已在冻结首轮查阅，本轮未重读；其余合并范围详细处置表未读",
+        "补助总口径需按列示项目重组，不直接采用“计入当期损益合计”作为全部政府支持"
+      ]
+    },
+    {
+      "companyId": "kaifa",
+      "period": "2026-H1",
+      "pdfPagesRead": [
+        15,
+        91,
+        101,
+        118,
+        120,
+        125,
+        126
+      ],
+      "topics": {
+        "inventory": "存货净额；准备变动合计与分项不勾稽，未采用问题合计",
+        "cash": "管理层说明客户要求增加元器件备货；现金桥库存占款",
+        "subsidies": "补助和递延收益明细，现金与当期损益区分",
+        "capital": "重大工程追加、转固及期末余额",
+        "scope": "合并范围变更四类均无",
+        "labor": "研发薪酬披露不等于全公司人工成本"
+      },
+      "notCovered": [
+        "其他应收信用风险客户明细未读",
+        "存货准备变动表总转销130,324,324.21元与分项18,094,910.39元不勾稽，需公司澄清，未用作事实指标"
+      ]
+    },
+    {
+      "companyId": "haige",
+      "period": "2025",
+      "pdfPagesRead": [
+        26,
+        46,
+        120,
+        124,
+        147,
+        150,
+        153,
+        154
+      ],
+      "topics": {
+        "inventory": "合同履约成本包含在存货；跌价准备",
+        "cash": "净亏损、减值加回与应收占款；供应链融资延长付款3—9个月",
+        "subsidies": "其他收益政府补助及财政贴息分列",
+        "capital": "房屋建筑为主要在建工程",
+        "scope": "吸收合并广东聚城收入贡献为零",
+        "labor": "研发人工与外部研发分列；劳务外包不适用"
+      },
+      "notCovered": [
+        "应收客户坏账详细证据、商誉减值假设和其他合并范围变动页未读"
+      ]
+    },
+    {
+      "companyId": "haige",
+      "period": "2026-H1",
+      "pdfPagesRead": [
+        17,
+        18,
+        20,
+        87,
+        92,
+        112,
+        115,
+        117
+      ],
+      "topics": {
+        "inventory": "存货略减，包含合同履约成本",
+        "cash": "应收/应付现金桥；货币资金转其他流动资产是分类调整",
+        "subsidies": "其他收益、营业外收入、财政贴息三项分列",
+        "capital": "信息产业基地工程进度与转固",
+        "scope": "注销重庆子公司",
+        "labor": "研发人工与委外研发分列，未取得全员平均人数"
+      },
+      "notCovered": [
+        "应收客户明细和信用减值估计未逐项复核；未读取全员员工结构"
+      ]
+    },
+    {
+      "companyId": "hisense",
+      "period": "2025",
+      "pdfPagesRead": [
+        30,
+        51,
+        142,
+        143,
+        156,
+        187,
+        191,
+        201
+      ],
+      "topics": {
+        "inventory": "存货净额和准备余额",
+        "cash": "应收释放抵消应付减少，经营现金改善不是利润变化等额",
+        "subsidies": "与资产和收益相关补助分列，递延与收益区分",
+        "capital": "在建工程余额及项目开头",
+        "scope": "非同控合并不适用；未读完整后续变动",
+        "labor": "外包栏不适用，研发人数属于研发口径"
+      },
+      "notCovered": [
+        "完整在建工程转固桥、其余合并范围变动页、补助表续页未读"
+      ]
+    },
+    {
+      "companyId": "hisense",
+      "period": "2026-H1",
+      "pdfPagesRead": [
+        18,
+        97,
+        98,
+        112,
+        119,
+        139,
+        143,
+        151
+      ],
+      "topics": {
+        "inventory": "原材料储备增幅及存货准备变动",
+        "cash": "管理层备货解释；应收和应付释放抵消部分库存占款",
+        "subsidies": "损益政府补助131,558,124.22元及递延收益分列",
+        "capital": "在建工程项目列表，未读后续转固明细",
+        "scope": "同控/非同控合并均不适用；其余变动未读",
+        "labor": "研发总支出表未拆员工，全员平均人数缺口仍在"
+      },
+      "notCovered": [
+        "其余合并范围变动页、在建工程续页、全员劳动投入明细未读"
+      ]
+    },
+    {
+      "companyId": "sytech",
+      "period": "2025",
+      "pdfPagesRead": [
+        14,
+        49,
+        152,
+        163,
+        193,
+        199,
+        205
+      ],
+      "topics": {
+        "inventory": "开发成本和开发产品也是集团存货；备抵变动存在内部类别转移",
+        "cash": "应收/存货占款与应付增长共同影响经营现金",
+        "subsidies": "补助损益及递延收益分列",
+        "capital": "东城工厂、泰国工厂等投入；在建工程余额",
+        "scope": "合并含生益电子和房地产；小额新增物业子公司",
+        "labor": "劳务外包不适用，薪酬政策不是劳动数量"
+      },
+      "notCovered": [
+        "完整在建工程项目续表、其他合并变动续页、逐客户应收款未读"
+      ]
+    },
+    {
+      "companyId": "sytech",
+      "period": "2026-H1",
+      "pdfPagesRead": [
+        10,
+        110,
+        120,
+        121,
+        148,
+        153,
+        159
+      ],
+      "topics": {
+        "inventory": "开发成本/产品减值新增，与电子材料库存必须分开",
+        "cash": "销售回款增加；应收占款和应付融资同步增加",
+        "subsidies": "损益补助较上年同期减少；递延摊销与现金分开",
+        "capital": "在建工程增长及首三个工程转固",
+        "scope": "同控/非同控合并不适用，其余范围变动未读",
+        "labor": "研发薪酬和股权激励分列，不等于全员劳动成本"
+      },
+      "notCovered": [
+        "全部工程续页、其余合并范围变动页、可转债完整估值模型未读"
+      ]
+    },
+    {
+      "companyId": "wus",
+      "period": "2025",
+      "pdfPagesRead": [
+        25,
+        56,
+        132,
+        142,
+        158,
+        165,
+        168
+      ],
+      "topics": {
+        "inventory": "存货包含房地产开发成本/产品",
+        "cash": "存货应收占款与应付增长；股权支付单列",
+        "subsidies": "政府补助与增值税加计抵减、手续费返还分列",
+        "capital": "在建工程净额，项目详细转固未读",
+        "scope": "污水处理子公司2025年6月并表",
+        "labor": "研发职工薪酬与股份支付、劳务费独立列示；外包栏不适用"
+      },
+      "notCovered": [
+        "在建工程详细转固、备抵转销续页、逐客户应收款未读"
+      ]
+    },
+    {
+      "companyId": "wus",
+      "period": "2026-H1",
+      "pdfPagesRead": [
+        15,
+        92,
+        101,
+        118,
+        124,
+        127
+      ],
+      "topics": {
+        "inventory": "库存增加且房地产存货退出；期末减少准备不能直接等同风险改善",
+        "cash": "管理层称订单饱满备货，现金桥应收和库存占款明显",
+        "subsidies": "补助与税费优惠分开",
+        "capital": "在建工程余额增加，长期资产现金支付增加见管理层",
+        "scope": "处置黄石供应链，6月纳入普江仓储；合并范围改变",
+        "labor": "研发职工薪酬与股份支付分开，没有新增全员平均人数"
+      },
+      "notCovered": [
+        "在建工程明细续页、存货准备变动和客户应收明细未读"
+      ]
+    },
+    {
+      "companyId": "suncreate",
+      "period": "2025",
+      "pdfPagesRead": [
+        22,
+        42,
+        130,
+        131,
+        138,
+        162,
+        163,
+        167,
+        170,
+        171
+      ],
+      "topics": {
+        "inventory": "较大在产品及合同履约成本准备；转销来自耗用/售出，不是全部转回盈利",
+        "cash": "净亏损与正经营现金并存，应收回收和非现金费用支撑",
+        "subsidies": "补助表含增值税减免，另有贷款贴息，不同口径不能混总",
+        "capital": "在建工程栏目不适用，不解释为资本现金支出为零",
+        "scope": "同控/非同控/反向购买不适用，续页未读",
+        "labor": "劳务外包不适用；委托加工存货另有列示"
+      },
+      "notCovered": [
+        "完整应收账龄、其他合并范围变动、研发人员投入未系统重读"
+      ]
+    },
+    {
+      "companyId": "suncreate",
+      "period": "2026-H1",
+      "pdfPagesRead": [
+        12,
+        13,
+        94,
+        95,
+        102,
+        124,
+        128,
+        132,
+        133
+      ],
+      "topics": {
+        "inventory": "存货准备主要集中在在产品；本期计提和转销",
+        "cash": "合同支撑不足的管理层解释；经营现金改善主要购货付现减少",
+        "subsidies": "递延收益、当期损益与其他变动分列",
+        "capital": "在建工程不适用；研发开发支出余额增加需独立观察",
+        "scope": "同控和非同控合并不适用，其余变动未读",
+        "labor": "管理层称管理人员薪酬下降，未取得全员平均人数"
+      },
+      "notCovered": [
+        "应收逐客户回款和减值估计、其他合并范围变动页、资本化研发项目验收未读"
+      ]
+    },
+    {
+      "companyId": "transsion",
+      "period": "2025",
+      "pdfPagesRead": [
+        34,
+        60,
+        164,
+        172,
+        200,
+        205,
+        210
+      ],
+      "topics": {
+        "inventory": "原材料及委托加工物资；准备余额不是当期损失",
+        "cash": "收入减少、采购付现增加；现金桥应收和库存影响",
+        "subsidies": "表列与收益相关补助及资产递延摊销分列，未作为统一总额",
+        "capital": "在建工程和境外宿舍、租出资产说明",
+        "scope": "同控/非同控/处置子公司均不适用，其他变动未读",
+        "labor": "外包栏不适用仍有委托加工存货，不能推断供应链全部自制"
+      },
+      "notCovered": [
+        "其他合并范围变动、研发薪酬费用明细与存货转销续页未读"
+      ]
+    },
+    {
+      "companyId": "transsion",
+      "period": "2026-H1",
+      "pdfPagesRead": [
+        31,
+        32,
+        115,
+        125,
+        149,
+        154,
+        159
+      ],
+      "topics": {
+        "inventory": "存储涨价备货、历史库存成本滞后；存货结构及准备",
+        "cash": "库存与应收占款，应付部分抵消；理财赎回不能算经营回款",
+        "subsidies": "收益及资产相关当期补助分开",
+        "capital": "在建零星工程余额",
+        "scope": "同控/非同控/反向购买不适用，其他范围变动未读",
+        "labor": "研发费用化，并未新增全员平均人数或制造工时"
+      },
+      "notCovered": [
+        "管理层资产表续页、其他合并范围变动页、完整研发薪酬明细未读"
+      ]
+    },
+    {
+      "companyId": "zte",
+      "period": "2025",
+      "pdfPagesRead": [
+        30,
+        70,
+        153,
+        161,
+        185,
+        186,
+        192,
+        197
+      ],
+      "topics": {
+        "inventory": "原材料与委托加工合列，合同履约成本单列；计提和转销分开",
+        "cash": "采购付现增加；集团金融业务影响不可随时支付货币资金现金桥",
+        "subsidies": "其他收益只有经营相关及其他两类，未从所读附注取得纯补助拆分",
+        "capital": "总部和科创中心工程追加转固",
+        "scope": "新设7家、注销6家；并非单一境内制造工厂",
+        "labor": "集团薪酬约数与成本费用性质职工薪酬不同范围；研发薪酬分列"
+      },
+      "notCovered": [
+        "详细政府补助项目和成本冲减未取得；外包供应商生产人员、平均人数未读到；应收客户信用细表未读"
+      ]
+    },
+    {
+      "companyId": "zte",
+      "period": "2026-H1",
+      "pdfPagesRead": [
+        25,
+        112,
+        120,
+        144,
+        145,
+        151,
+        157
+      ],
+      "topics": {
+        "inventory": "原材料及委托加工和合同履约成本变化，准备转销与汇兑区分",
+        "cash": "集团财务公司法定存款准备金净释放影响，不能都当制造经营效率",
+        "subsidies": "其他收益未纯拆补助，未冒用总额",
+        "capital": "重要工程追加及转固",
+        "scope": "新设3家和注销2家，境内外合并范围",
+        "labor": "成本费用性质薪酬13,496,164千元与研发薪酬不同范围；全员工时仍缺"
+      },
+      "notCovered": [
+        "纯政府补助明细、分部间现金及抵销未取得；应收客户和外包制造人员未系统读完"
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "id": "dr-inspur-2025-inventory-net",
+      "companyId": "inspur",
+      "period": "2025",
+      "metric": "inventory-net",
+      "value": 46507849654.21,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 117,
+      "row": "存货分类，合计/账面价值",
+      "note": "",
+      "previous": {
+        "period": "2024-12-31",
+        "value": 40678930775.3
+      }
+    },
+    {
+      "id": "dr-inspur-2025-inventory-allowance",
+      "companyId": "inspur",
+      "period": "2025",
+      "metric": "inventory-allowance",
+      "value": 1344208315.83,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 117,
+      "row": "存货分类，合计/跌价准备",
+      "note": "",
+      "previous": null
+    },
+    {
+      "id": "dr-inspur-2025-goods-dispatched",
+      "companyId": "inspur",
+      "period": "2025",
+      "metric": "goods-dispatched",
+      "value": 16701466597.48,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 117,
+      "row": "存货分类，发出商品/账面价值",
+      "note": "",
+      "previous": null
+    },
+    {
+      "id": "dr-inspur-2025-cashflow-inventory-change",
+      "companyId": "inspur",
+      "period": "2025",
+      "metric": "cashflow-inventory-change",
+      "value": -6110152664.41,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 147,
+      "row": "存货的减少（增加以负号填列）",
+      "note": "",
+      "previous": null
+    },
+    {
+      "id": "dr-inspur-2025-cashflow-receivables-change",
+      "companyId": "inspur",
+      "period": "2025",
+      "metric": "cashflow-receivables-change",
+      "value": -3585132159.32,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 147,
+      "row": "经营性应收项目的减少",
+      "note": "",
+      "previous": null
+    },
+    {
+      "id": "dr-inspur-2025-cashflow-payables-change",
+      "companyId": "inspur",
+      "period": "2025",
+      "metric": "cashflow-payables-change",
+      "value": 10935462696.14,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 147,
+      "row": "经营性应付项目的增加",
+      "note": "",
+      "previous": null
+    },
+    {
+      "id": "dr-inspur-2025-subsidy-other-income",
+      "companyId": "inspur",
+      "period": "2025",
+      "metric": "subsidy-other-income",
+      "value": 95854514.96,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 158,
+      "row": "计入当期损益的专项补助，其他收益",
+      "note": "",
+      "previous": null
+    },
+    {
+      "id": "dr-inspur-2025-subsidy-finance-cost",
+      "companyId": "inspur",
+      "period": "2025",
+      "metric": "subsidy-finance-cost",
+      "value": 263384528.46,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 158,
+      "row": "计入当期损益的专项补助，财务费用",
+      "note": "报表单独称专项补助；不将合计全部叫作其他收益",
+      "previous": null
+    },
+    {
+      "id": "dr-inspur-2026-h1-prepayments",
+      "companyId": "inspur",
+      "period": "2026-H1",
+      "metric": "prepayments",
+      "value": 16540479069.02,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 87,
+      "row": "预付款项按账龄列示，合计",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 3018323071.1
+      }
+    },
+    {
+      "id": "dr-inspur-2026-h1-inventory-net",
+      "companyId": "inspur",
+      "period": "2026-H1",
+      "metric": "inventory-net",
+      "value": 52678711722.38,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 88,
+      "row": "存货分类续页，合计/账面价值",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 46507849654.21
+      }
+    },
+    {
+      "id": "dr-inspur-2026-h1-raw-materials-net",
+      "companyId": "inspur",
+      "period": "2026-H1",
+      "metric": "raw-materials-net",
+      "value": 44090345940.09,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 87,
+      "row": "存货分类，原材料/账面价值",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 24951126627.32
+      }
+    },
+    {
+      "id": "dr-inspur-2026-h1-goods-dispatched",
+      "companyId": "inspur",
+      "period": "2026-H1",
+      "metric": "goods-dispatched",
+      "value": 3611566264.99,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 87,
+      "row": "存货分类，发出商品/账面价值",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 16701466597.48
+      }
+    },
+    {
+      "id": "dr-inspur-2026-h1-operating-cash-flow",
+      "companyId": "inspur",
+      "period": "2026-H1",
+      "metric": "operating-cash-flow",
+      "value": -7492771178.12,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 116,
+      "row": "经营活动产生的现金流量净额",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": -5575567202.05
+      }
+    },
+    {
+      "id": "dr-inspur-2026-h1-net-profit",
+      "companyId": "inspur",
+      "period": "2026-H1",
+      "metric": "net-profit",
+      "value": 2955588370.17,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 115,
+      "row": "现金流量表补充资料，净利润",
+      "note": "合并净利润，非归母净利润",
+      "previous": null
+    },
+    {
+      "id": "dr-inspur-2026-h1-contract-liabilities",
+      "companyId": "inspur",
+      "period": "2026-H1",
+      "metric": "contract-liabilities",
+      "value": 28368751961.28,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 102,
+      "row": "合同负债，合计",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 19506229928.27
+      }
+    },
+    {
+      "id": "dr-inspur-2026-h1-payroll-additions",
+      "companyId": "inspur",
+      "period": "2026-H1",
+      "metric": "payroll-additions",
+      "value": 3089542634.08,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 102,
+      "row": "应付职工薪酬，合计/本期增加",
+      "note": "包含短期薪酬、设定提存计划和辞退福利，不等于当期现金工资或生产直接人工",
+      "previous": null
+    },
+    {
+      "id": "dr-smic-2025-inventory-net",
+      "companyId": "smic",
+      "period": "2025",
+      "metric": "inventory-net",
+      "value": 25534929,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 162,
+      "row": "存货分类合计/账面价值",
+      "note": "",
+      "previous": {
+        "period": "2024-12-31",
+        "value": 21267282
+      }
+    },
+    {
+      "id": "dr-smic-2025-inventory-allowance",
+      "companyId": "smic",
+      "period": "2025",
+      "metric": "inventory-allowance",
+      "value": 3203595,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 162,
+      "row": "存货分类合计/跌价准备",
+      "note": "",
+      "previous": {
+        "period": "2024-12-31",
+        "value": 2660548
+      }
+    },
+    {
+      "id": "dr-smic-2025-accounts-receivable-net",
+      "companyId": "smic",
+      "period": "2025",
+      "metric": "accounts-receivable-net",
+      "value": 6167839,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 29,
+      "row": "资产负债变动，应收账款",
+      "note": "",
+      "previous": {
+        "period": "2024-12-31",
+        "value": 2922670
+      }
+    },
+    {
+      "id": "dr-smic-2025-construction-net",
+      "companyId": "smic",
+      "period": "2025",
+      "metric": "construction-net",
+      "value": 92619139,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 170,
+      "row": "在建工程，合计",
+      "note": "",
+      "previous": {
+        "period": "2024-12-31",
+        "value": 88275170
+      }
+    },
+    {
+      "id": "dr-smic-2025-construction-additions",
+      "companyId": "smic",
+      "period": "2025",
+      "metric": "construction-additions",
+      "value": 57749231,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 171,
+      "row": "重要在建工程合计/本期增加",
+      "note": "",
+      "previous": null
+    },
+    {
+      "id": "dr-smic-2025-construction-transferred",
+      "companyId": "smic",
+      "period": "2025",
+      "metric": "construction-transferred",
+      "value": 51418070,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 171,
+      "row": "重要在建工程合计/转入固定资产",
+      "note": "",
+      "previous": null
+    },
+    {
+      "id": "dr-smic-2025-government-grants-pnl",
+      "companyId": "smic",
+      "period": "2025",
+      "metric": "government-grants-pnl",
+      "value": 3359158,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 211,
+      "row": "计入当期损益的政府补助，合计",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 2850058
+      }
+    },
+    {
+      "id": "dr-smic-2025-depreciation-cash-reconciliation",
+      "companyId": "smic",
+      "period": "2025",
+      "metric": "depreciation-cash-reconciliation",
+      "value": 27013145,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 199,
+      "row": "固定资产等折旧",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 22687973
+      }
+    },
+    {
+      "id": "dr-smic-2026-h1-inventory-net",
+      "companyId": "smic",
+      "period": "2026-H1",
+      "metric": "inventory-net",
+      "value": 29730328,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 105,
+      "row": "存货分类合计/账面价值",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 25534929
+      }
+    },
+    {
+      "id": "dr-smic-2026-h1-construction-net",
+      "companyId": "smic",
+      "period": "2026-H1",
+      "metric": "construction-net",
+      "value": 69893385,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 113,
+      "row": "在建工程，合计",
+      "note": "本期增加/转固是权责发生制流转，不等于购建现金",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 92619139
+      }
+    },
+    {
+      "id": "dr-smic-2026-h1-construction-additions",
+      "companyId": "smic",
+      "period": "2026-H1",
+      "metric": "construction-additions",
+      "value": 23399147,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 114,
+      "row": "重要在建工程合计/本期增加",
+      "note": "本期增加/转固是权责发生制流转，不等于购建现金",
+      "previous": null
+    },
+    {
+      "id": "dr-smic-2026-h1-construction-transferred",
+      "companyId": "smic",
+      "period": "2026-H1",
+      "metric": "construction-transferred",
+      "value": 38627490,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 114,
+      "row": "重要在建工程合计/转入固定资产",
+      "note": "本期增加/转固是权责发生制流转，不等于购建现金",
+      "previous": null
+    },
+    {
+      "id": "dr-smic-2026-h1-construction-other-change",
+      "companyId": "smic",
+      "period": "2026-H1",
+      "metric": "construction-other-change",
+      "value": -7521985,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 114,
+      "row": "重要在建工程合计/其他",
+      "note": "本期增加/转固是权责发生制流转，不等于购建现金",
+      "previous": null
+    },
+    {
+      "id": "dr-smic-2026-h1-government-grants-pnl",
+      "companyId": "smic",
+      "period": "2026-H1",
+      "metric": "government-grants-pnl",
+      "value": 1052119,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 149,
+      "row": "计入当期损益的政府补助，合计",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 1240138
+      }
+    },
+    {
+      "id": "dr-smic-2026-h1-operating-cash-flow",
+      "companyId": "smic",
+      "period": "2026-H1",
+      "metric": "operating-cash-flow",
+      "value": 20759511,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 137,
+      "row": "经营活动产生现金流净额",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 5897793
+      }
+    },
+    {
+      "id": "dr-smic-2026-h1-affiliate-fair-value-income",
+      "companyId": "smic",
+      "period": "2026-H1",
+      "metric": "affiliate-fair-value-income",
+      "value": 1495083,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 24,
+      "row": "享有联营/合营企业所持金融资产公允价值变动收益",
+      "note": "",
+      "previous": null
+    },
+    {
+      "id": "dr-boe-2025-inventory-net",
+      "companyId": "boe",
+      "period": "2025",
+      "metric": "inventory-net",
+      "value": 27748526136,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 155,
+      "row": "存货合计/账面价值",
+      "note": "",
+      "previous": {
+        "period": "2024-12-31",
+        "value": 23313464392
+      }
+    },
+    {
+      "id": "dr-boe-2025-inventory-allowance",
+      "companyId": "boe",
+      "period": "2025",
+      "metric": "inventory-allowance",
+      "value": 5995514115,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 155,
+      "row": "存货合计/跌价准备",
+      "note": "",
+      "previous": {
+        "period": "2024-12-31",
+        "value": 6822909950
+      }
+    },
+    {
+      "id": "dr-boe-2025-inventory-provision-charge",
+      "companyId": "boe",
+      "period": "2025",
+      "metric": "inventory-provision-charge",
+      "value": 5698374770,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 156,
+      "row": "存货跌价准备合计/本年计提",
+      "note": "",
+      "previous": null
+    },
+    {
+      "id": "dr-boe-2025-inventory-provision-release",
+      "companyId": "boe",
+      "period": "2025",
+      "metric": "inventory-provision-release",
+      "value": 6525770605,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 156,
+      "row": "存货跌价准备合计/本年转回或转销",
+      "note": "",
+      "previous": null
+    },
+    {
+      "id": "dr-boe-2025-construction-net",
+      "companyId": "boe",
+      "period": "2025",
+      "metric": "construction-net",
+      "value": 52943124120,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 162,
+      "row": "在建工程合计/账面价值",
+      "note": "",
+      "previous": {
+        "period": "2024-12-31",
+        "value": 30159016097
+      }
+    },
+    {
+      "id": "dr-boe-2025-grants-asset-income",
+      "companyId": "boe",
+      "period": "2025",
+      "metric": "grants-asset-income",
+      "value": 1254718699,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 184,
+      "row": "其他收益/与资产相关政府补助",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 576945669
+      }
+    },
+    {
+      "id": "dr-boe-2025-grants-revenue-income",
+      "companyId": "boe",
+      "period": "2025",
+      "metric": "grants-revenue-income",
+      "value": 1154981122,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 184,
+      "row": "其他收益/与收益相关政府补助",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 1220232805
+      }
+    },
+    {
+      "id": "dr-boe-2025-depreciation-cash-reconciliation",
+      "companyId": "boe",
+      "period": "2025",
+      "metric": "depreciation-cash-reconciliation",
+      "value": 37378926183,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 191,
+      "row": "固定资产、投资性房地产及使用权资产折旧",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 37154186708
+      }
+    },
+    {
+      "id": "dr-boe-2025-employees-parent",
+      "companyId": "boe",
+      "period": "2025",
+      "metric": "employees-parent",
+      "value": 2939,
+      "unit": "人",
+      "currency": null,
+      "scope": "合并集团；境内外",
+      "pdfPage": 48,
+      "row": "员工数量表/employees-parent",
+      "note": "原报告实图核对；前两项之和与所列总数不衔接，范围待澄清",
+      "previous": null
+    },
+    {
+      "id": "dr-boe-2025-employees-major-subsidiaries",
+      "companyId": "boe",
+      "period": "2025",
+      "metric": "employees-major-subsidiaries",
+      "value": 67979,
+      "unit": "人",
+      "currency": null,
+      "scope": "合并集团；境内外",
+      "pdfPage": 48,
+      "row": "员工数量表/employees-major-subsidiaries",
+      "note": "原报告实图核对；前两项之和与所列总数不衔接，范围待澄清",
+      "previous": null
+    },
+    {
+      "id": "dr-boe-2025-employees-reported-total",
+      "companyId": "boe",
+      "period": "2025",
+      "metric": "employees-reported-total",
+      "value": 109895,
+      "unit": "人",
+      "currency": null,
+      "scope": "合并集团；境内外",
+      "pdfPage": 48,
+      "row": "员工数量表/employees-reported-total",
+      "note": "原报告实图核对；前两项之和与所列总数不衔接，范围待澄清",
+      "previous": null
+    },
+    {
+      "id": "dr-boe-2026-h1-inventory-net",
+      "companyId": "boe",
+      "period": "2026-H1",
+      "metric": "inventory-net",
+      "value": 26880611634,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 135,
+      "row": "Inventory/Total/Carrying value",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 27748526136
+      }
+    },
+    {
+      "id": "dr-boe-2026-h1-inventory-allowance",
+      "companyId": "boe",
+      "period": "2026-H1",
+      "metric": "inventory-allowance",
+      "value": 5093869776,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 135,
+      "row": "Inventory/Total/Falling price reserves",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 5995514115
+      }
+    },
+    {
+      "id": "dr-boe-2026-h1-construction-net",
+      "companyId": "boe",
+      "period": "2026-H1",
+      "metric": "construction-net",
+      "value": 58925351259,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 146,
+      "row": "Construction in Progress/Total",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 52943124120
+      }
+    },
+    {
+      "id": "dr-boe-2026-h1-other-offset-revenue",
+      "companyId": "boe",
+      "period": "2026-H1",
+      "metric": "other-offset-revenue",
+      "value": -5406513666,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 15,
+      "row": "Operating revenue/Others and offset",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": -6633336290
+      }
+    },
+    {
+      "id": "dr-boe-2026-h1-grants-asset-income",
+      "companyId": "boe",
+      "period": "2026-H1",
+      "metric": "grants-asset-income",
+      "value": 800423954,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 180,
+      "row": "Other Income/Government grants related to assets",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 442970202
+      }
+    },
+    {
+      "id": "dr-boe-2026-h1-grants-revenue-income",
+      "companyId": "boe",
+      "period": "2026-H1",
+      "metric": "grants-revenue-income",
+      "value": 800872497,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 180,
+      "row": "Other Income/Government grants related to income",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 696884877
+      }
+    },
+    {
+      "id": "dr-boe-2026-h1-government-grants-cash",
+      "companyId": "boe",
+      "period": "2026-H1",
+      "metric": "government-grants-cash",
+      "value": 1066616212,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 184,
+      "row": "Cash generated from other operating activities/Government grants",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 3694269499
+      }
+    },
+    {
+      "id": "dr-boe-2026-h1-operating-cash-flow",
+      "companyId": "boe",
+      "period": "2026-H1",
+      "metric": "operating-cash-flow",
+      "value": 22744634093,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 187,
+      "row": "Net cash inflow from operating activities",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 22736307086
+      }
+    },
+    {
+      "id": "dr-luxshare-2025-inventory-net",
+      "companyId": "luxshare",
+      "period": "2025",
+      "metric": "inventory-net",
+      "value": 42332782449.47,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 193,
+      "row": "存货分类合计/账面价值",
+      "note": "",
+      "previous": {
+        "period": "2024-12-31",
+        "value": 31702675549.03
+      }
+    },
+    {
+      "id": "dr-luxshare-2025-inventory-allowance",
+      "companyId": "luxshare",
+      "period": "2025",
+      "metric": "inventory-allowance",
+      "value": 1915242860.58,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 193,
+      "row": "存货跌价准备合计/期末",
+      "note": "",
+      "previous": {
+        "period": "2024-12-31",
+        "value": 1216144002.47
+      }
+    },
+    {
+      "id": "dr-luxshare-2025-inventory-allowance-acquisition",
+      "companyId": "luxshare",
+      "period": "2025",
+      "metric": "inventory-allowance-acquisition",
+      "value": 609098123.66,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 193,
+      "row": "存货跌价准备/本期增加其他；文字指合并范围变更",
+      "note": "",
+      "previous": null
+    },
+    {
+      "id": "dr-luxshare-2025-construction-net",
+      "companyId": "luxshare",
+      "period": "2025",
+      "metric": "construction-net",
+      "value": 4290260998.33,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 200,
+      "row": "在建工程合计",
+      "note": "",
+      "previous": {
+        "period": "2024-12-31",
+        "value": 5379186127.71
+      }
+    },
+    {
+      "id": "dr-luxshare-2025-government-grants-pnl",
+      "companyId": "luxshare",
+      "period": "2025",
+      "metric": "government-grants-pnl",
+      "value": 827502791.66,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 264,
+      "row": "计入当期损益政府补助合计",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 933988071.97
+      }
+    },
+    {
+      "id": "dr-luxshare-2025-cashflow-payables-change",
+      "companyId": "luxshare",
+      "period": "2025",
+      "metric": "cashflow-payables-change",
+      "value": -13515955076.68,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 230,
+      "row": "经营性应付项目增加（减少以负号）",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 26857164714.81
+      }
+    },
+    {
+      "id": "dr-luxshare-2026-h1-inventory-net",
+      "companyId": "luxshare",
+      "period": "2026-H1",
+      "metric": "inventory-net",
+      "value": 50367311994.53,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 127,
+      "row": "存货分类合计/账面价值",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 42332782449.47
+      }
+    },
+    {
+      "id": "dr-luxshare-2026-h1-inventory-allowance",
+      "companyId": "luxshare",
+      "period": "2026-H1",
+      "metric": "inventory-allowance",
+      "value": 1968029600.82,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 127,
+      "row": "存货分类合计/跌价准备",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 1915242860.58
+      }
+    },
+    {
+      "id": "dr-luxshare-2026-h1-construction-net",
+      "companyId": "luxshare",
+      "period": "2026-H1",
+      "metric": "construction-net",
+      "value": 5206085858.83,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 134,
+      "row": "在建工程合计",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 4290260998.33
+      }
+    },
+    {
+      "id": "dr-luxshare-2026-h1-government-grants-pnl",
+      "companyId": "luxshare",
+      "period": "2026-H1",
+      "metric": "government-grants-pnl",
+      "value": 585318449.67,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 188,
+      "row": "计入当期损益政府补助合计",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 374721088.12
+      }
+    },
+    {
+      "id": "dr-luxshare-2026-h1-operating-cash-flow",
+      "companyId": "luxshare",
+      "period": "2026-H1",
+      "metric": "operating-cash-flow",
+      "value": -2445863006.32,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 164,
+      "row": "经营活动产生现金流净额",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": -1657810282.39
+      }
+    },
+    {
+      "id": "dr-luxshare-2026-h1-cashflow-inventory-change",
+      "companyId": "luxshare",
+      "period": "2026-H1",
+      "metric": "cashflow-inventory-change",
+      "value": -8087316285.3,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 164,
+      "row": "存货减少（增加以负号）",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": -2301605435.52
+      }
+    },
+    {
+      "id": "dr-luxshare-2026-h1-payroll-additions",
+      "companyId": "luxshare",
+      "period": "2026-H1",
+      "metric": "payroll-additions",
+      "value": 19551656161.94,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 146,
+      "row": "应付职工薪酬/合计/本期增加",
+      "note": "",
+      "previous": null
+    },
+    {
+      "id": "dr-goer-2025-inventory-net",
+      "companyId": "goer",
+      "period": "2025",
+      "metric": "inventory-net",
+      "value": 13077174310.75,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 146,
+      "row": "存货合计/账面价值",
+      "note": "",
+      "previous": {
+        "period": "2024-12-31",
+        "value": 10478868878.63
+      }
+    },
+    {
+      "id": "dr-goer-2025-government-grants-pnl",
+      "companyId": "goer",
+      "period": "2025",
+      "metric": "government-grants-pnl",
+      "value": 203672060.18,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 190,
+      "row": "计入损益政府补助合计",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 196923255.19
+      }
+    },
+    {
+      "id": "dr-goer-2025-optics-remeasurement-gain",
+      "companyId": "goer",
+      "period": "2025",
+      "metric": "optics-remeasurement-gain",
+      "value": 2140199197.76,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 182,
+      "row": "歌尔光学剩余股权重估利得",
+      "note": "",
+      "previous": null
+    },
+    {
+      "id": "dr-goer-2026-h1-inventory-net",
+      "companyId": "goer",
+      "period": "2026-H1",
+      "metric": "inventory-net",
+      "value": 18680790460.96,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 108,
+      "row": "存货合计/账面价值",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 13077174310.75
+      }
+    },
+    {
+      "id": "dr-goer-2026-h1-operating-cash-flow",
+      "companyId": "goer",
+      "period": "2026-H1",
+      "metric": "operating-cash-flow",
+      "value": -244774769.69,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 135,
+      "row": "经营现金净额",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 1870809910.02
+      }
+    },
+    {
+      "id": "dr-goer-2026-h1-cashflow-inventory-change",
+      "companyId": "goer",
+      "period": "2026-H1",
+      "metric": "cashflow-inventory-change",
+      "value": -5611614095.32,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 135,
+      "row": "存货减少（增加以负号）",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": -3104716058.35
+      }
+    },
+    {
+      "id": "dr-goer-2026-h1-government-grants-pnl",
+      "companyId": "goer",
+      "period": "2026-H1",
+      "metric": "government-grants-pnl",
+      "value": 75823240.89,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 146,
+      "row": "政府补助合计",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 110197582.65
+      }
+    },
+    {
+      "id": "dr-kaifa-2025-inventory-net",
+      "companyId": "kaifa",
+      "period": "2025",
+      "metric": "inventory-net",
+      "value": 2428301058.9,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 144,
+      "row": "存货合计账面价值",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 2629809717.77
+      }
+    },
+    {
+      "id": "dr-kaifa-2026-h1-inventory-net",
+      "companyId": "kaifa",
+      "period": "2026-H1",
+      "metric": "inventory-net",
+      "value": 3521808931.8,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 91,
+      "row": "存货合计账面价值",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 2428301058.9
+      }
+    },
+    {
+      "id": "dr-kaifa-2025-ocf",
+      "companyId": "kaifa",
+      "period": "2025",
+      "metric": "ocf",
+      "value": 1764618556.72,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 177,
+      "row": "经营活动产生的现金流量净额",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 2428401907.74
+      }
+    },
+    {
+      "id": "dr-kaifa-2026-h1-ocf",
+      "companyId": "kaifa",
+      "period": "2026-H1",
+      "metric": "ocf",
+      "value": 117896779.98,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 118,
+      "row": "经营活动产生的现金流量净额",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 1456332557.47
+      }
+    },
+    {
+      "id": "dr-kaifa-2026-h1-inventory-cash-use",
+      "companyId": "kaifa",
+      "period": "2026-H1",
+      "metric": "inventory-cash-use",
+      "value": 1093507872.9,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 118,
+      "row": "存货的减少：负数为占款",
+      "note": "",
+      "previous": null
+    },
+    {
+      "id": "dr-kaifa-2026-h1-net-profit",
+      "companyId": "kaifa",
+      "period": "2026-H1",
+      "metric": "net-profit",
+      "value": 665308271.34,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 118,
+      "row": "净利润",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 600230676.48
+      }
+    },
+    {
+      "id": "dr-kaifa-2025-cip-net",
+      "companyId": "kaifa",
+      "period": "2025",
+      "metric": "cip-net",
+      "value": 26850202.6,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 154,
+      "row": "在建工程",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 169803245.93
+      }
+    },
+    {
+      "id": "dr-kaifa-2026-h1-cip-net",
+      "companyId": "kaifa",
+      "period": "2026-H1",
+      "metric": "cip-net",
+      "value": 25698172.99,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 101,
+      "row": "在建工程",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 26850202.6
+      }
+    },
+    {
+      "id": "dr-haige-2025-inventory-net",
+      "companyId": "haige",
+      "period": "2025",
+      "metric": "inventory-net",
+      "value": 1291110478.7,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 120,
+      "row": "存货合计账面价值",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 1338836336.11
+      }
+    },
+    {
+      "id": "dr-haige-2026-h1-inventory-net",
+      "companyId": "haige",
+      "period": "2026-H1",
+      "metric": "inventory-net",
+      "value": 1271769326.28,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 87,
+      "row": "存货合计账面价值",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 1291110478.7
+      }
+    },
+    {
+      "id": "dr-haige-2025-ocf",
+      "companyId": "haige",
+      "period": "2025",
+      "metric": "ocf",
+      "value": -644706900.54,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 26,
+      "row": "经营活动产生的现金流量净额",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": -755845359.12
+      }
+    },
+    {
+      "id": "dr-haige-2026-h1-ocf",
+      "companyId": "haige",
+      "period": "2026-H1",
+      "metric": "ocf",
+      "value": -252495739.52,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 112,
+      "row": "经营活动产生的现金流量净额",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": -532252918.15
+      }
+    },
+    {
+      "id": "dr-haige-2026-h1-net-profit",
+      "companyId": "haige",
+      "period": "2026-H1",
+      "metric": "net-profit",
+      "value": -175943426.34,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 112,
+      "row": "净利润",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 6627361.37
+      }
+    },
+    {
+      "id": "dr-haige-2026-h1-cip-net",
+      "companyId": "haige",
+      "period": "2026-H1",
+      "metric": "cip-net",
+      "value": 1071925160.02,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 92,
+      "row": "在建工程",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 998871704.69
+      }
+    },
+    {
+      "id": "dr-haige-2026-h1-receivables-net",
+      "companyId": "haige",
+      "period": "2026-H1",
+      "metric": "receivables-net",
+      "value": 5369325285.63,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 18,
+      "row": "应收账款",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 5390888965.78
+      }
+    },
+    {
+      "id": "dr-hisense-2025-inventory-net",
+      "companyId": "hisense",
+      "period": "2025",
+      "metric": "inventory-net",
+      "value": 5772573802.44,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 143,
+      "row": "存货合计账面价值",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 5646621877.5
+      }
+    },
+    {
+      "id": "dr-hisense-2026-h1-inventory-net",
+      "companyId": "hisense",
+      "period": "2026-H1",
+      "metric": "inventory-net",
+      "value": 8687783799.12,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 97,
+      "row": "存货合计账面价值",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 5772573802.44
+      }
+    },
+    {
+      "id": "dr-hisense-2025-ocf",
+      "companyId": "hisense",
+      "period": "2025",
+      "metric": "ocf",
+      "value": 4583216212.72,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 187,
+      "row": "经营活动产生的现金流量净额",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 3596618663.15
+      }
+    },
+    {
+      "id": "dr-hisense-2026-h1-ocf",
+      "companyId": "hisense",
+      "period": "2026-H1",
+      "metric": "ocf",
+      "value": 1134391237.54,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 139,
+      "row": "经营活动产生的现金流量净额",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 1801622520.56
+      }
+    },
+    {
+      "id": "dr-hisense-2026-h1-net-profit",
+      "companyId": "hisense",
+      "period": "2026-H1",
+      "metric": "net-profit",
+      "value": 1428176446.45,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 139,
+      "row": "净利润",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 1233858906.72
+      }
+    },
+    {
+      "id": "dr-hisense-2026-h1-cip-net",
+      "companyId": "hisense",
+      "period": "2026-H1",
+      "metric": "cip-net",
+      "value": 95445373.63,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 112,
+      "row": "在建工程",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 128553476.61
+      }
+    },
+    {
+      "id": "dr-hisense-2026-h1-grant-pnl",
+      "companyId": "hisense",
+      "period": "2026-H1",
+      "metric": "grant-pnl",
+      "value": 131558124.22,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 151,
+      "row": "计入当期损益政府补助合计",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 147651028.74
+      }
+    },
+    {
+      "id": "dr-sytech-2025-inventory-net",
+      "companyId": "sytech",
+      "period": "2025",
+      "metric": "inventory-net",
+      "value": 5786018859.23,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 152,
+      "row": "存货合计账面价值",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 5119492461.54
+      }
+    },
+    {
+      "id": "dr-sytech-2026-h1-inventory-net",
+      "companyId": "sytech",
+      "period": "2026-H1",
+      "metric": "inventory-net",
+      "value": 7521866985.72,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 110,
+      "row": "存货合计账面价值",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 5786018859.23
+      }
+    },
+    {
+      "id": "dr-sytech-2025-ocf",
+      "companyId": "sytech",
+      "period": "2025",
+      "metric": "ocf",
+      "value": 5273633309.36,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 193,
+      "row": "经营活动产生的现金流量净额",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 1456120554.83
+      }
+    },
+    {
+      "id": "dr-sytech-2026-h1-ocf",
+      "companyId": "sytech",
+      "period": "2026-H1",
+      "metric": "ocf",
+      "value": 2983205422.39,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 148,
+      "row": "经营活动产生的现金流量净额",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 1944214879.42
+      }
+    },
+    {
+      "id": "dr-sytech-2026-h1-net-profit",
+      "companyId": "sytech",
+      "period": "2026-H1",
+      "metric": "net-profit",
+      "value": 3717825241.13,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 148,
+      "row": "净利润",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 1622705495.92
+      }
+    },
+    {
+      "id": "dr-sytech-2026-h1-cip-net",
+      "companyId": "sytech",
+      "period": "2026-H1",
+      "metric": "cip-net",
+      "value": 2141390581.52,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 120,
+      "row": "在建工程",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 1353617739.54
+      }
+    },
+    {
+      "id": "dr-sytech-2026-h1-grant-pnl",
+      "companyId": "sytech",
+      "period": "2026-H1",
+      "metric": "grant-pnl",
+      "value": 46470238.13,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 159,
+      "row": "计入当期损益政府补助合计",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 58919694.32
+      }
+    },
+    {
+      "id": "dr-sytech-2026-h1-property-development-cost-impairment",
+      "companyId": "sytech",
+      "period": "2026-H1",
+      "metric": "property-development-cost-impairment",
+      "value": 35579824.68,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 110,
+      "row": "开发成本本期计提",
+      "note": "",
+      "previous": null
+    },
+    {
+      "id": "dr-sytech-2026-h1-property-development-product-impairment",
+      "companyId": "sytech",
+      "period": "2026-H1",
+      "metric": "property-development-product-impairment",
+      "value": 30614552.85,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 110,
+      "row": "开发产品本期计提",
+      "note": "",
+      "previous": null
+    },
+    {
+      "id": "dr-wus-2025-inventory-net",
+      "companyId": "wus",
+      "period": "2025",
+      "metric": "inventory-net",
+      "value": 4245940570,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 132,
+      "row": "存货合计账面价值",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 2436102152
+      }
+    },
+    {
+      "id": "dr-wus-2026-h1-inventory-net",
+      "companyId": "wus",
+      "period": "2026-H1",
+      "metric": "inventory-net",
+      "value": 6041283966,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 92,
+      "row": "存货合计账面价值",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 4245940570
+      }
+    },
+    {
+      "id": "dr-wus-2025-ocf",
+      "companyId": "wus",
+      "period": "2025",
+      "metric": "ocf",
+      "value": 3871967792,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 165,
+      "row": "经营活动产生的现金流量净额",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 2325184965
+      }
+    },
+    {
+      "id": "dr-wus-2026-h1-ocf",
+      "companyId": "wus",
+      "period": "2026-H1",
+      "metric": "ocf",
+      "value": 1150686191,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 124,
+      "row": "经营活动产生的现金流量净额",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 2097416668
+      }
+    },
+    {
+      "id": "dr-wus-2026-h1-net-profit",
+      "companyId": "wus",
+      "period": "2026-H1",
+      "metric": "net-profit",
+      "value": 2923159728,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 124,
+      "row": "净利润",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 1678314457
+      }
+    },
+    {
+      "id": "dr-wus-2026-h1-cip-net",
+      "companyId": "wus",
+      "period": "2026-H1",
+      "metric": "cip-net",
+      "value": 3570866866,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 101,
+      "row": "在建工程",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 2459951800
+      }
+    },
+    {
+      "id": "dr-suncreate-2025-inventory-net",
+      "companyId": "suncreate",
+      "period": "2025",
+      "metric": "inventory-net",
+      "value": 1101373327.91,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 131,
+      "row": "存货合计账面价值",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 1232581548.57
+      }
+    },
+    {
+      "id": "dr-suncreate-2026-h1-inventory-net",
+      "companyId": "suncreate",
+      "period": "2026-H1",
+      "metric": "inventory-net",
+      "value": 1160868330.14,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 95,
+      "row": "存货合计账面价值",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 1101373327.91
+      }
+    },
+    {
+      "id": "dr-suncreate-2025-ocf",
+      "companyId": "suncreate",
+      "period": "2025",
+      "metric": "ocf",
+      "value": 183511474.57,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 163,
+      "row": "经营活动产生的现金流量净额",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 244695836.4
+      }
+    },
+    {
+      "id": "dr-suncreate-2026-h1-ocf",
+      "companyId": "suncreate",
+      "period": "2026-H1",
+      "metric": "ocf",
+      "value": -252790234.37,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 124,
+      "row": "经营活动产生的现金流量净额",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": -325486567.3
+      }
+    },
+    {
+      "id": "dr-suncreate-2026-h1-net-profit",
+      "companyId": "suncreate",
+      "period": "2026-H1",
+      "metric": "net-profit",
+      "value": -133551690.25,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 124,
+      "row": "净利润",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": -43149551.69
+      }
+    },
+    {
+      "id": "dr-suncreate-2026-h1-inventory-allowance",
+      "companyId": "suncreate",
+      "period": "2026-H1",
+      "metric": "inventory-allowance",
+      "value": 600366785.55,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 95,
+      "row": "存货合计跌价准备/合同履约成本减值准备",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 589255543.5
+      }
+    },
+    {
+      "id": "dr-suncreate-2026-h1-grant-pnl",
+      "companyId": "suncreate",
+      "period": "2026-H1",
+      "metric": "grant-pnl",
+      "value": 8473070.32,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 133,
+      "row": "计入当期损益政府补助合计",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 9476680.22
+      }
+    },
+    {
+      "id": "dr-transsion-2025-inventory-net",
+      "companyId": "transsion",
+      "period": "2025",
+      "metric": "inventory-net",
+      "value": 8902898048.55,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 164,
+      "row": "存货合计账面价值",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 8663358678.31
+      }
+    },
+    {
+      "id": "dr-transsion-2026-h1-inventory-net",
+      "companyId": "transsion",
+      "period": "2026-H1",
+      "metric": "inventory-net",
+      "value": 18935295883.72,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 115,
+      "row": "存货合计账面价值",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 8902898048.55
+      }
+    },
+    {
+      "id": "dr-transsion-2025-ocf",
+      "companyId": "transsion",
+      "period": "2025",
+      "metric": "ocf",
+      "value": 1420209653.41,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 200,
+      "row": "经营活动产生的现金流量净额",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 2847782802.38
+      }
+    },
+    {
+      "id": "dr-transsion-2026-h1-ocf",
+      "companyId": "transsion",
+      "period": "2026-H1",
+      "metric": "ocf",
+      "value": -5861283333.1,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 149,
+      "row": "经营活动产生的现金流量净额",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 10351390.7
+      }
+    },
+    {
+      "id": "dr-transsion-2026-h1-net-profit",
+      "companyId": "transsion",
+      "period": "2026-H1",
+      "metric": "net-profit",
+      "value": 1832751375.12,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 149,
+      "row": "净利润",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 1241772127.88
+      }
+    },
+    {
+      "id": "dr-transsion-2026-h1-cip-net",
+      "companyId": "transsion",
+      "period": "2026-H1",
+      "metric": "cip-net",
+      "value": 64413737.33,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 125,
+      "row": "在建工程",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 41250572.43
+      }
+    },
+    {
+      "id": "dr-transsion-2026-h1-grant-pnl",
+      "companyId": "transsion",
+      "period": "2026-H1",
+      "metric": "grant-pnl",
+      "value": 86749199.87,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 159,
+      "row": "计入当期损益政府补助合计",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 127563545.62
+      }
+    },
+    {
+      "id": "dr-transsion-2026-h1-raw-material-net",
+      "companyId": "transsion",
+      "period": "2026-H1",
+      "metric": "raw-material-net",
+      "value": 9968825602.49,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 115,
+      "row": "原材料账面价值",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 3719593784.77
+      }
+    },
+    {
+      "id": "dr-transsion-2026-h1-receivables-net",
+      "companyId": "transsion",
+      "period": "2026-H1",
+      "metric": "receivables-net",
+      "value": 4974049822.39,
+      "unit": "元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 32,
+      "row": "应收账款",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 3726267327.36
+      }
+    },
+    {
+      "id": "dr-zte-2025-inventory-net",
+      "companyId": "zte",
+      "period": "2025",
+      "metric": "inventory-net",
+      "value": 47017122,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 153,
+      "row": "存货合计账面价值",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 41257657
+      }
+    },
+    {
+      "id": "dr-zte-2026-h1-inventory-net",
+      "companyId": "zte",
+      "period": "2026-H1",
+      "metric": "inventory-net",
+      "value": 54645606,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 112,
+      "row": "存货合计账面价值",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 47017122
+      }
+    },
+    {
+      "id": "dr-zte-2025-ocf",
+      "companyId": "zte",
+      "period": "2025",
+      "metric": "ocf",
+      "value": 3918746,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 192,
+      "row": "经营活动产生的现金流量净额",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 11479844
+      }
+    },
+    {
+      "id": "dr-zte-2026-h1-ocf",
+      "companyId": "zte",
+      "period": "2026-H1",
+      "metric": "ocf",
+      "value": -126600,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 151,
+      "row": "经营活动产生的现金流量净额",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 1299408
+      }
+    },
+    {
+      "id": "dr-zte-2026-h1-net-profit",
+      "companyId": "zte",
+      "period": "2026-H1",
+      "metric": "net-profit",
+      "value": 2785053,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 151,
+      "row": "净利润",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 5056583
+      }
+    },
+    {
+      "id": "dr-zte-2026-h1-cip-net",
+      "companyId": "zte",
+      "period": "2026-H1",
+      "metric": "cip-net",
+      "value": 845733,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 120,
+      "row": "在建工程合计",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 798207
+      }
+    },
+    {
+      "id": "dr-zte-2026-h1-cost-expense-employee-pay",
+      "companyId": "zte",
+      "period": "2026-H1",
+      "metric": "cost-expense-employee-pay",
+      "value": 13496164,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 144,
+      "row": "费用按性质分类：职工薪酬",
+      "note": "",
+      "previous": {
+        "period": "2025-H1",
+        "value": 15706257
+      }
+    },
+    {
+      "id": "dr-zte-2025-cost-expense-employee-pay",
+      "companyId": "zte",
+      "period": "2025",
+      "metric": "cost-expense-employee-pay",
+      "value": 27787253,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 185,
+      "row": "费用按性质分类：职工薪酬",
+      "note": "",
+      "previous": {
+        "period": "2024",
+        "value": 30188372
+      }
+    },
+    {
+      "id": "dr-zte-2026-h1-receivables-net",
+      "companyId": "zte",
+      "period": "2026-H1",
+      "metric": "receivables-net",
+      "value": 30619910,
+      "unit": "千元",
+      "currency": "CNY",
+      "scope": "合并集团；境内外",
+      "pdfPage": 25,
+      "row": "应收账款",
+      "note": "",
+      "previous": {
+        "period": "2025-12-31",
+        "value": 21670066
+      }
+    }
+  ],
+  "interpretations": [
+    {
+      "companyId": "inspur",
+      "type": "qualification",
+      "text": "低购建长期资产现金/收入比不表示业务不占资金。2026H1公司说明备货增加、经营资金占用；预付款和净存货上升，合并净利润为正而经营现金净额为负。账面期初期末差额与现金调节表不能机械逐项勾稽；新设/同一控制合并、非现金及结算因素需保留。",
+      "pages": {
+        "2025": [
+          16,
+          147,
+          151
+        ],
+        "2026-H1": [
+          12,
+          87,
+          88,
+          115,
+          116
+        ]
+      },
+      "amends": "cn-c39-company-finding-assets",
+      "amendmentKind": "补充成立条件，原现金支出比率本身不变"
+    },
+    {
+      "companyId": "smic",
+      "type": "qualification",
+      "text": "中芯2025应收账款增长的公司解释包含客户信用期调整，收入增长不能单独解释现金转化。2026H1在建工程净额下降，但当期仍有在建工程增加额并大量转固，不能把在建余额下降理解为停止扩产；该期联营金融资产估值收益还被公司明确列为不可持续，应与晶圆经营改善分开。",
+      "pages": {
+        "2025": [
+          28,
+          29,
+          170,
+          171
+        ],
+        "2026-H1": [
+          22,
+          24,
+          113,
+          114
+        ]
+      },
+      "amends": "cn-c39-company-finding-assets",
+      "amendmentKind": "补充解释和成立条件；不改变冻结原值"
+    },
+    {
+      "companyId": "boe",
+      "type": "qualification",
+      "text": "京东方2025存货减值准备余额下降，并不等于当年未发生减值：仍有56.98亿元计提，同时65.26亿元转回或转销，后者两类不能当作全部减值收益。经营现金桥接有大额折旧加回，须与净利润和后续更新扩产支出分别看。公司明确因商业秘密只按事业板块合并披露材料/人工/折旧成本，不能由缺少直接人工字段推断其占比。",
+      "pages": {
+        "2025": [
+          21,
+          155,
+          156,
+          163,
+          191
+        ],
+        "2026-H1": [
+          135,
+          136,
+          187
+        ]
+      },
+      "amends": "cn-c39-company-finding-assets",
+      "amendmentKind": "补充解释和成立条件；不改变冻结原值"
+    },
+    {
+      "companyId": "boe",
+      "type": "qualification",
+      "text": "2025员工表母公司与主要子公司之和为70918，列示总数为109895，专业与学历两组合计亦为109895。该差异可能涉及主要与全体范围，未取得原页解释；应在员工规模、生产比例和人均收入代理旁显示范围未衔接，保留原披露数、不擅自替换分母。",
+      "pages": {
+        "2025": [
+          48,
+          49
+        ]
+      },
+      "amends": "boe-2025-revenue_per_year_end_employee",
+      "amendmentKind": "补充解释和成立条件；不改变冻结原值"
+    },
+    {
+      "companyId": "luxshare",
+      "type": "qualification",
+      "text": "立讯2025年7月取得Leoni和闻泰二期控制权，因此即使2026H1附注没有新增非同控收购，2026H1对2025H1仍不是完全相同合并范围。2025存货跌价准备的新增中有6.09亿元来自合并范围变化，不能把准备余额增长全归因当年产品滞销。2026H1经营现金净额为负，公司解释为支付供应商到期货款；现金桥接同时显示存货资金占用，收入增速不能单独代表回款。",
+      "pages": {
+        "2025": [
+          18,
+          193,
+          238
+        ],
+        "2026-H1": [
+          12,
+          127,
+          164,
+          171
+        ]
+      },
+      "amends": "cn-c39-company-finding-scope",
+      "amendmentKind": "补充解释和成立条件；不改变冻结原值"
+    },
+    {
+      "companyId": "goer",
+      "type": "qualification",
+      "text": "歌尔2025投资收益含歌尔光学丧失控制权后的余股重估，不能用净利润改善替代主营盈利。2026H1收入增长但经营现金转负，管理层说明采购、备货和职工支付增加，存货现金占用提供进一步依据；这是经营资金周期信号，不能单独推出订单坏转或员工效率下降。",
+      "pages": {
+        "2025": [
+          20,
+          182
+        ],
+        "2026-H1": [
+          12,
+          108,
+          135
+        ]
+      },
+      "amends": null,
+      "amendmentKind": null
+    },
+    {
+      "companyId": "kaifa",
+      "type": "qualification",
+      "text": "2026H1经营现金流下降有具体备货背景：公司称重要客户为应对元器件供应紧张要求增加备货额度，期末存货和现金桥库存占款同时增加；不能仅从经营现金下降推出需求下降。2025子公司上市收到的现金属于筹资。政府补助表将直接计入损益补助和递延摊销分开，不能以小计当作全部补助。",
+      "pages": {
+        "2025": [
+          30,
+          189,
+          190
+        ],
+        "2026-H1": [
+          15,
+          91,
+          118
+        ]
+      },
+      "amends": null,
+      "amendmentKind": null
+    },
+    {
+      "companyId": "haige",
+      "type": "qualification",
+      "text": "海格2026H1总收入下降但工业收入增长2.00%、服务业下降15.12%，不能把集团变化一律解释为电子制造收缩。货币资金下降部分来自定期存款产品重分类，并非全部现金消耗；经营现金仍为负，需另看应收和应付桥。",
+      "pages": {
+        "2025": [
+          150
+        ],
+        "2026-H1": [
+          17,
+          18,
+          112
+        ]
+      },
+      "amends": null,
+      "amendmentKind": null
+    },
+    {
+      "companyId": "hisense",
+      "type": "qualification",
+      "text": "海信视像2026H1经营现金减少37.04%，管理层归因于存货储备增加；附注可见主要原材料储备增加，同时应收释放抵消部分占款。收入增长、现金回流和库存规模应分开阅读，不能仅凭存货增长判断滞销。",
+      "pages": {
+        "2025": [
+          187
+        ],
+        "2026-H1": [
+          18,
+          97,
+          98,
+          139
+        ]
+      },
+      "amends": null,
+      "amendmentKind": null
+    },
+    {
+      "companyId": "sytech",
+      "type": "qualification",
+      "text": "生益科技2026H1收入和经营现金都增长，但附注显示集团存货还包括房地产开发成本和开发产品。管理层将本期资产减值增加主要归因于房地产子公司，不能据此判断覆铜板或PCB产品减值恶化。可转债公允价值变动也不等于电子产品经营利润。",
+      "pages": {
+        "2025": [
+          152
+        ],
+        "2026-H1": [
+          10,
+          110,
+          148
+        ]
+      },
+      "amends": null,
+      "amendmentKind": null
+    },
+    {
+      "companyId": "wus",
+      "type": "qualification",
+      "text": "沪电2026H1收入增长61.17%而经营现金下降45.14%，公司称订单饱满并增加原材料采购；库存、应收占款与应付增长共同解释现金桥。处置房地产业务改变了存货构成，比较集团准备率须先隔离业务退出。以上支持跟踪交付与回款，不能仅用现金或存货方向否定其结构性需求说明。",
+      "pages": {
+        "2025": [
+          132
+        ],
+        "2026-H1": [
+          15,
+          92,
+          124,
+          127
+        ]
+      },
+      "amends": null,
+      "amendmentKind": null
+    },
+    {
+      "companyId": "suncreate",
+      "type": "qualification",
+      "text": "四创2026H1收入下降的管理层解释是合同支撑不足，同时经营现金净流出收窄，不能把现金改善当作需求复苏。存货准备集中在在产品和合同履约成本，须核项目验收与交付而非套用消费电子周转标准；有正现金流的2025全年也仍为净亏损。",
+      "pages": {
+        "2025": [
+          131,
+          162,
+          163
+        ],
+        "2026-H1": [
+          12,
+          13,
+          95,
+          124
+        ]
+      },
+      "amends": null,
+      "amendmentKind": null
+    },
+    {
+      "companyId": "transsion",
+      "type": "qualification",
+      "text": "传音2026H1毛利改善有成本时滞条件：公司称调价推升手机均价，而历史库存令存储涨价进入成本有所滞后；同时备货推高库存并导致负经营现金。因而毛利改善不能直接外推为持久产品议价能力，需跟踪新成本入账与终端价格。外包栏目不适用也不等于没有委托制造：附注存在委托加工物资。",
+      "pages": {
+        "2025": [
+          60,
+          164
+        ],
+        "2026-H1": [
+          31,
+          32,
+          115,
+          149
+        ]
+      },
+      "amends": null,
+      "amendmentKind": null
+    },
+    {
+      "companyId": "zte",
+      "type": "qualification",
+      "text": "中兴集团经营现金包含财务公司准备金变动。2026H1公司明确指出法定存款准备金净释放减少影响现金流，附注同时显示存货和应收增加、应付增加相互抵消。集团经营现金净流量/营业收入可作为资金观察指标，却不能直接与纯制造商比较工厂效率。费用性质职工薪酬也不是管理层薪酬总额约数的同义字段。",
+      "pages": {
+        "2025": [
+          70,
+          185,
+          192
+        ],
+        "2026-H1": [
+          25,
+          144,
+          151
+        ]
+      },
+      "amends": null,
+      "amendmentKind": null
+    }
+  ]
+}

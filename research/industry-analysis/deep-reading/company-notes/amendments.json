@@ -1,0 +1,1565 @@
+[
+  {
+    "collection": "comparisons",
+    "id": "cn-c39-company-2025-employees-year-end",
+    "reason": "实际核对京东方员工原表后发现分项与总数范围未勾稽；保留原值并限制解释。",
+    "replacement": {
+      "id": "cn-c39-company-2025-employees-year-end",
+      "country": "cn",
+      "section": "companies",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39",
+        "cn-io-39126",
+        "cn-io-39127",
+        "cn-io-39128",
+        "cn-io-39132",
+        "cn-io-39129",
+        "cn-io-39131",
+        "cn-io-39134",
+        "cn-io-39133",
+        "cn-io-39130"
+      ],
+      "title": "期末员工规模",
+      "metric": "employees_year_end",
+      "period": "2025",
+      "unit": "人",
+      "currency": null,
+      "coverage": "13家分层目的样本；各行是公司合并口径，含境内外及跨行业业务；仅在点击产品后筛选关联样本。",
+      "comparisonKey": "cn-companies-2025-employees_year_end",
+      "coverageLabel": "企业样本，非行业总量",
+      "notes": [
+        "员工表的集团/主要子公司边界并非完全一致；没有当作年平均从业人数。",
+        "不将企业营业收入或人均收入替代图谱增加值，不计算全国行业市场份额。",
+        "补读待核：2025员工表母公司2939+主要子公司67979=70918，与表列总人数109895未能勾稽；不擅自替换原总数。涉及总人数作分母的比例与人均收入仅保留原口径代理，暂不作效率比较。"
+      ],
+      "rows": [
+        {
+          "id": "inspur-2025-employees_year_end",
+          "name": "浪潮信息",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39126",
+            "cn-io-39127",
+            "cn-io-39128"
+          ],
+          "value": 6896.0,
+          "evidence": [
+            {
+              "sourceId": "inspur-ar2025",
+              "locator": "PDF第29页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-04-11",
+          "revision": "2025年报披露同一控制下企业合并，2024年比较数已追溯调整；使用调整后合并报表（PDF第7页）。",
+          "notes": [
+            "服务器产品为主要分部；存储/交换业务同时相关，不能把该分部全额重复分配。",
+            "期末人数，不是全年平均人数；境内外及劳务派遣覆盖以年报定义为准。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-11/1225096638.PDF#page=29"
+        },
+        {
+          "id": "kaifa-2025-employees_year_end",
+          "name": "深科技",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39127",
+            "cn-io-39132"
+          ],
+          "value": 29330.0,
+          "evidence": [
+            {
+              "sourceId": "kaifa-ar2025",
+              "locator": "PDF第52页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-04-29",
+          "revision": "采用2025年报合并报表所列2024年可比数；不另拼接旧年报。",
+          "notes": [
+            "高端制造包含硬盘零部件及多种电子产品；计量智能终端保留为非C39纯口径业务。",
+            "期末人数，不是全年平均人数；境内外及劳务派遣覆盖以年报定义为准。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225227167.PDF#page=52"
+        },
+        {
+          "id": "zte-2025-employees_year_end",
+          "name": "中兴通讯",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39126",
+            "cn-io-39128",
+            "cn-io-39129"
+          ],
+          "value": 65095.0,
+          "evidence": [
+            {
+              "sourceId": "zte-ar2025",
+              "locator": "PDF第69页，本集团员工共"
+            }
+          ],
+          "releaseDate": "2026-03-07",
+          "revision": "采用2025年报合并报表所列2024年可比数；不另拼接旧年报。",
+          "notes": [
+            "运营商网络、政企、消费者按市场划分，均可能含硬件与服务；外包生产商存在。",
+            "2025年末员工总数；PDF页69，印刷页68。"
+          ],
+          "missingReason": null,
+          "url": "https://www.zte.com.cn/content/dam/zte-site/investorrelations/cn_annual_report/2025%E5%B9%B4%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A.pdf#page=69"
+        },
+        {
+          "id": "transsion-2025-employees_year_end",
+          "name": "传音控股",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39129"
+          ],
+          "value": 24025.0,
+          "evidence": [
+            {
+              "sourceId": "transsion-ar2025",
+              "locator": "PDF第59页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-03-28",
+          "revision": "采用2025年报合并报表所列2024年可比数；不另拼接旧年报。",
+          "notes": [
+            "手机相关样本，其他业务没有强行归入智能消费；合并集团不等于境内手机生产。",
+            "期末人数，不是全年平均人数；境内外及劳务派遣覆盖以年报定义为准。"
+          ],
+          "missingReason": null,
+          "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-3/2026-03-28/12032847.PDF#page=59"
+        },
+        {
+          "id": "haige-2025-employees_year_end",
+          "name": "海格通信",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39128",
+            "cn-io-39129"
+          ],
+          "value": 7874.0,
+          "evidence": [
+            {
+              "sourceId": "haige-ar2025",
+              "locator": "PDF第45页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-03-28",
+          "revision": "采用2025年报合并报表所列2024年可比数；不另拼接旧年报。",
+          "notes": [
+            "按业务分部关联。公司工业收入仅占41.68%、服务业58.32%，不能将集团全额当制造业。",
+            "期末人数，不是全年平均人数；境内外及劳务派遣覆盖以年报定义为准。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225044009.PDF#page=45"
+        },
+        {
+          "id": "hisense-2025-employees_year_end",
+          "name": "海信视像",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39131"
+          ],
+          "value": 15041.0,
+          "evidence": [
+            {
+              "sourceId": "hisense-ar2025",
+              "locator": "PDF第50页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-03-31",
+          "revision": "2025年报列示2024年调整前/调整后数；使用调整后合并报表数（PDF第8页）。",
+          "notes": [
+            "智慧显示终端与非专业视听相关，但新显示和商显等混合业务不归入单一产品。",
+            "期末人数，不是全年平均人数；境内外及劳务派遣覆盖以年报定义为准。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225051157.PDF#page=50"
+        },
+        {
+          "id": "boe-2025-employees_year_end",
+          "name": "京东方A",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39132",
+            "cn-io-39126",
+            "cn-io-39131",
+            "cn-io-39134"
+          ],
+          "value": 109895.0,
+          "evidence": [
+            {
+              "sourceId": "boe-ar2025",
+              "locator": "PDF第48页，在职员工的数量合计"
+            },
+            {
+              "sourceId": "boe-ar2025",
+              "locator": "PDF第48页，员工分项与总数口径待核"
+            }
+          ],
+          "releaseDate": "2026-04-01",
+          "revision": "采用2025年报合并报表所列2024年可比数；不另拼接旧年报。 补读待核：2025员工表母公司2939+主要子公司67979=70918，与表列总人数109895未能勾稽；不擅自替换原总数。涉及总人数作分母的比例与人均收入仅保留原口径代理，暂不作效率比较。",
+          "notes": [
+            "显示器件为主要分部；物联网创新业务跨类且有内部抵销，A/B股合为一个集团样本。",
+            "期末人数，不是全年平均人数；境内外及劳务派遣覆盖以年报定义为准。",
+            "补读待核：2025员工表母公司2939+主要子公司67979=70918，与表列总人数109895未能勾稽；不擅自替换原总数。涉及总人数作分母的比例与人均收入仅保留原口径代理，暂不作效率比较。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-01/1225068510.PDF#page=48"
+        },
+        {
+          "id": "smic-2025-employees_year_end",
+          "name": "中芯国际",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39132"
+          ],
+          "value": 19952.0,
+          "evidence": [
+            {
+              "sourceId": "smic-ar2025",
+              "locator": "PDF第61页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-03-27",
+          "revision": "采用2025年报合并报表所列2024年可比数；不另拼接旧年报。",
+          "notes": [
+            "使用A股企业会计准则人民币财报，A/H股不重复计数；客户地域不等于生产地域。",
+            "期末人数，不是全年平均人数；境内外及劳务派遣覆盖以年报定义为准。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225037057.PDF#page=61"
+        },
+        {
+          "id": "luxshare-2025-employees_year_end",
+          "name": "立讯精密",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39129",
+            "cn-io-39133",
+            "cn-io-39134",
+            "cn-io-39128"
+          ],
+          "value": 416197.0,
+          "evidence": [
+            {
+              "sourceId": "luxshare-ar2025",
+              "locator": "PDF第65页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-04-15",
+          "revision": "2025年包含新增Leoni及通讯ODM业务合并范围，2024比较数不代表恒定企业边界（PDF第18页）。",
+          "notes": [
+            "消费电子分部混合零件与整机，另含汽车电子。2025新增Leoni与通讯ODM范围。",
+            "期末人数，不是全年平均人数；境内外及劳务派遣覆盖以年报定义为准。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225104908.PDF#page=65"
+        },
+        {
+          "id": "sytech-2025-employees_year_end",
+          "name": "生益科技",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39133"
+          ],
+          "value": 14523.0,
+          "evidence": [
+            {
+              "sourceId": "sytech-ar2025",
+              "locator": "PDF第48页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-04-25",
+          "revision": "采用2025年报合并报表所列2024年可比数；不另拼接旧年报。",
+          "notes": [
+            "覆铜板/粘结片与PCB均相关；已合并上市子公司生益电子，后者不再单列。",
+            "期末人数，不是全年平均人数；境内外及劳务派遣覆盖以年报定义为准。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-25/1225195409.PDF#page=48"
+        },
+        {
+          "id": "goer-2025-employees_year_end",
+          "name": "歌尔股份",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39133",
+            "cn-io-39131",
+            "cn-io-39134"
+          ],
+          "value": 111585.0,
+          "evidence": [
+            {
+              "sourceId": "goer-ar2025",
+              "locator": "PDF第44页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-04-24",
+          "revision": "采用2025年报合并报表所列2024年可比数；不另拼接旧年报。",
+          "notes": [
+            "智能声学整机和智能硬件可能跨产品分类；境外生产和品牌客户外包结构影响比较。",
+            "期末人数，不是全年平均人数；境内外及劳务派遣覆盖以年报定义为准。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225160177.PDF#page=44"
+        },
+        {
+          "id": "wus-2025-employees_year_end",
+          "name": "沪电股份",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39133"
+          ],
+          "value": 15243.0,
+          "evidence": [
+            {
+              "sourceId": "wus-ar2025",
+              "locator": "PDF第55页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-03-25",
+          "revision": "采用2025年报合并报表所列2024年可比数；不另拼接旧年报。",
+          "notes": [
+            "数据通讯、智能汽车为PCB用途分组，不把通讯用途PCB归为通信系统设备。",
+            "期末人数，不是全年平均人数；境内外及劳务派遣覆盖以年报定义为准。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-25/1225027832.PDF#page=55"
+        },
+        {
+          "id": "suncreate-2025-employees_year_end",
+          "name": "四创电子",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39130"
+          ],
+          "value": 2343.0,
+          "evidence": [
+            {
+              "sourceId": "suncreate-ar2025",
+              "locator": "PDF第41页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-04-23",
+          "revision": "采用2025年报合并报表所列2024年可比数；不另拼接旧年报。",
+          "notes": [
+            "仅雷达及配套分部直接关联，公共安全、电源和机动保障未一并当雷达制造。",
+            "期末人数，不是全年平均人数；境内外及劳务派遣覆盖以年报定义为准。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-23/1225155845.PDF#page=41"
+        }
+      ]
+    }
+  },
+  {
+    "collection": "comparisons",
+    "id": "cn-c39-company-2025-production-employee-pct",
+    "reason": "实际核对京东方员工原表后发现分项与总数范围未勾稽；保留原值并限制解释。",
+    "replacement": {
+      "id": "cn-c39-company-2025-production-employee-pct",
+      "country": "cn",
+      "section": "companies",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39",
+        "cn-io-39126",
+        "cn-io-39127",
+        "cn-io-39128",
+        "cn-io-39132",
+        "cn-io-39129",
+        "cn-io-39131",
+        "cn-io-39134",
+        "cn-io-39133",
+        "cn-io-39130"
+      ],
+      "title": "生产类员工占期末员工比例",
+      "metric": "production_employee_pct",
+      "period": "2025",
+      "unit": "%",
+      "currency": null,
+      "coverage": "13家分层目的样本；各行是公司合并口径，含境内外及跨行业业务；仅在点击产品后筛选关联样本。",
+      "comparisonKey": "cn-companies-2025-production_employee_pct",
+      "coverageLabel": "企业样本，非行业总量",
+      "notes": [
+        "公司专业类别不同；不是人工成本、工时或可替代比例。",
+        "不将企业营业收入或人均收入替代图谱增加值，不计算全国行业市场份额。",
+        "补读待核：2025员工表母公司2939+主要子公司67979=70918，与表列总人数109895未能勾稽；不擅自替换原总数。涉及总人数作分母的比例与人均收入仅保留原口径代理，暂不作效率比较。"
+      ],
+      "rows": [
+        {
+          "id": "inspur-2025-production_employee_pct",
+          "name": "浪潮信息",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39126",
+            "cn-io-39127",
+            "cn-io-39128"
+          ],
+          "value": 30.829466357308583,
+          "evidence": [
+            {
+              "sourceId": "inspur-ar2025",
+              "locator": "PDF第29页，生产人员"
+            },
+            {
+              "sourceId": "inspur-ar2025",
+              "locator": "PDF第29页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-04-11",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "服务器产品为主要分部；存储/交换业务同时相关，不能把该分部全额重复分配。",
+            "期末员工专业分类，不代表劳动成本或工时占比。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-11/1225096638.PDF#page=29",
+          "computation": {
+            "expression": "期末员工专业分类，不代表劳动成本或工时占比。",
+            "inputs": [
+              2126.0,
+              6896.0
+            ],
+            "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+          }
+        },
+        {
+          "id": "kaifa-2025-production_employee_pct",
+          "name": "深科技",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39127",
+            "cn-io-39132"
+          ],
+          "value": 84.84486873508354,
+          "evidence": [
+            {
+              "sourceId": "kaifa-ar2025",
+              "locator": "PDF第53页，生产人员"
+            },
+            {
+              "sourceId": "kaifa-ar2025",
+              "locator": "PDF第52页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-04-29",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "高端制造包含硬盘零部件及多种电子产品；计量智能终端保留为非C39纯口径业务。",
+            "期末员工专业分类，不代表劳动成本或工时占比。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225227167.PDF#page=53",
+          "computation": {
+            "expression": "期末员工专业分类，不代表劳动成本或工时占比。",
+            "inputs": [
+              24885.0,
+              29330.0
+            ],
+            "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+          }
+        },
+        {
+          "id": "zte-2025-production_employee_pct",
+          "name": "中兴通讯",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39126",
+            "cn-io-39128",
+            "cn-io-39129"
+          ],
+          "value": 20.12136108764114,
+          "evidence": [
+            {
+              "sourceId": "zte-ar2025",
+              "locator": "PDF第69页，生产人员"
+            },
+            {
+              "sourceId": "zte-ar2025",
+              "locator": "PDF第69页，本集团员工共"
+            }
+          ],
+          "releaseDate": "2026-03-07",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "运营商网络、政企、消费者按市场划分，均可能含硬件与服务；外包生产商存在。",
+            "期末员工专业分类，不代表劳动成本或工时占比。"
+          ],
+          "missingReason": null,
+          "url": "https://www.zte.com.cn/content/dam/zte-site/investorrelations/cn_annual_report/2025%E5%B9%B4%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A.pdf#page=69",
+          "computation": {
+            "expression": "期末员工专业分类，不代表劳动成本或工时占比。",
+            "inputs": [
+              13098.0,
+              65095.0
+            ],
+            "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+          }
+        },
+        {
+          "id": "transsion-2025-production_employee_pct",
+          "name": "传音控股",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39129"
+          ],
+          "value": 24.22476586888658,
+          "evidence": [
+            {
+              "sourceId": "transsion-ar2025",
+              "locator": "PDF第59页，生产人员"
+            },
+            {
+              "sourceId": "transsion-ar2025",
+              "locator": "PDF第59页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-03-28",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "手机相关样本，其他业务没有强行归入智能消费；合并集团不等于境内手机生产。",
+            "期末员工专业分类，不代表劳动成本或工时占比。"
+          ],
+          "missingReason": null,
+          "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-3/2026-03-28/12032847.PDF#page=59",
+          "computation": {
+            "expression": "期末员工专业分类，不代表劳动成本或工时占比。",
+            "inputs": [
+              5820.0,
+              24025.0
+            ],
+            "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+          }
+        },
+        {
+          "id": "haige-2025-production_employee_pct",
+          "name": "海格通信",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39128",
+            "cn-io-39129"
+          ],
+          "value": 58.445516891033776,
+          "evidence": [
+            {
+              "sourceId": "haige-ar2025",
+              "locator": "PDF第45页，生产人员"
+            },
+            {
+              "sourceId": "haige-ar2025",
+              "locator": "PDF第45页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-03-28",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "按业务分部关联。公司工业收入仅占41.68%、服务业58.32%，不能将集团全额当制造业。",
+            "期末员工专业分类，不代表劳动成本或工时占比。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225044009.PDF#page=45",
+          "computation": {
+            "expression": "期末员工专业分类，不代表劳动成本或工时占比。",
+            "inputs": [
+              4602.0,
+              7874.0
+            ],
+            "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+          }
+        },
+        {
+          "id": "hisense-2025-production_employee_pct",
+          "name": "海信视像",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39131"
+          ],
+          "value": 36.387208297320655,
+          "evidence": [
+            {
+              "sourceId": "hisense-ar2025",
+              "locator": "PDF第50页，生产人员"
+            },
+            {
+              "sourceId": "hisense-ar2025",
+              "locator": "PDF第50页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-03-31",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "智慧显示终端与非专业视听相关，但新显示和商显等混合业务不归入单一产品。",
+            "期末员工专业分类，不代表劳动成本或工时占比。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225051157.PDF#page=50",
+          "computation": {
+            "expression": "期末员工专业分类，不代表劳动成本或工时占比。",
+            "inputs": [
+              5473.0,
+              15041.0
+            ],
+            "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+          }
+        },
+        {
+          "id": "boe-2025-production_employee_pct",
+          "name": "京东方A",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39132",
+            "cn-io-39126",
+            "cn-io-39131",
+            "cn-io-39134"
+          ],
+          "value": 66.2159333909641,
+          "evidence": [
+            {
+              "sourceId": "boe-ar2025",
+              "locator": "PDF第48页，生产人员"
+            },
+            {
+              "sourceId": "boe-ar2025",
+              "locator": "PDF第48页，在职员工的数量合计"
+            },
+            {
+              "sourceId": "boe-ar2025",
+              "locator": "PDF第48页，员工分项与总数口径待核"
+            }
+          ],
+          "releaseDate": "2026-04-01",
+          "revision": "按引用原值复算；同年比较。 补读待核：2025员工表母公司2939+主要子公司67979=70918，与表列总人数109895未能勾稽；不擅自替换原总数。涉及总人数作分母的比例与人均收入仅保留原口径代理，暂不作效率比较。",
+          "notes": [
+            "显示器件为主要分部；物联网创新业务跨类且有内部抵销，A/B股合为一个集团样本。",
+            "期末员工专业分类，不代表劳动成本或工时占比。",
+            "补读待核：2025员工表母公司2939+主要子公司67979=70918，与表列总人数109895未能勾稽；不擅自替换原总数。涉及总人数作分母的比例与人均收入仅保留原口径代理，暂不作效率比较。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-01/1225068510.PDF#page=48",
+          "computation": {
+            "expression": "期末员工专业分类，不代表劳动成本或工时占比。",
+            "inputs": [
+              72768.0,
+              109895.0
+            ],
+            "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+          }
+        },
+        {
+          "id": "smic-2025-production_employee_pct",
+          "name": "中芯国际",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39132"
+          ],
+          "value": 80.75882117080995,
+          "evidence": [
+            {
+              "sourceId": "smic-ar2025",
+              "locator": "PDF第61页，生产人员"
+            },
+            {
+              "sourceId": "smic-ar2025",
+              "locator": "PDF第61页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-03-27",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "使用A股企业会计准则人民币财报，A/H股不重复计数；客户地域不等于生产地域。",
+            "期末员工专业分类，不代表劳动成本或工时占比。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225037057.PDF#page=61",
+          "computation": {
+            "expression": "期末员工专业分类，不代表劳动成本或工时占比。",
+            "inputs": [
+              16113.0,
+              19952.0
+            ],
+            "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+          }
+        },
+        {
+          "id": "luxshare-2025-production_employee_pct",
+          "name": "立讯精密",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39129",
+            "cn-io-39133",
+            "cn-io-39134",
+            "cn-io-39128"
+          ],
+          "value": 80.73989000401252,
+          "evidence": [
+            {
+              "sourceId": "luxshare-ar2025",
+              "locator": "PDF第66页，生产人员"
+            },
+            {
+              "sourceId": "luxshare-ar2025",
+              "locator": "PDF第65页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-04-15",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "消费电子分部混合零件与整机，另含汽车电子。2025新增Leoni与通讯ODM范围。",
+            "期末员工专业分类，不代表劳动成本或工时占比。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225104908.PDF#page=66",
+          "computation": {
+            "expression": "期末员工专业分类，不代表劳动成本或工时占比。",
+            "inputs": [
+              336037.0,
+              416197.0
+            ],
+            "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+          }
+        },
+        {
+          "id": "sytech-2025-production_employee_pct",
+          "name": "生益科技",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39133"
+          ],
+          "value": 58.50719548302692,
+          "evidence": [
+            {
+              "sourceId": "sytech-ar2025",
+              "locator": "PDF第48页，生产人员"
+            },
+            {
+              "sourceId": "sytech-ar2025",
+              "locator": "PDF第48页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-04-25",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "覆铜板/粘结片与PCB均相关；已合并上市子公司生益电子，后者不再单列。",
+            "期末员工专业分类，不代表劳动成本或工时占比。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-25/1225195409.PDF#page=48",
+          "computation": {
+            "expression": "期末员工专业分类，不代表劳动成本或工时占比。",
+            "inputs": [
+              8497.0,
+              14523.0
+            ],
+            "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+          }
+        },
+        {
+          "id": "goer-2025-production_employee_pct",
+          "name": "歌尔股份",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39133",
+            "cn-io-39131",
+            "cn-io-39134"
+          ],
+          "value": 75.45637854550343,
+          "evidence": [
+            {
+              "sourceId": "goer-ar2025",
+              "locator": "PDF第44页，生产人员"
+            },
+            {
+              "sourceId": "goer-ar2025",
+              "locator": "PDF第44页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-04-24",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "智能声学整机和智能硬件可能跨产品分类；境外生产和品牌客户外包结构影响比较。",
+            "期末员工专业分类，不代表劳动成本或工时占比。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225160177.PDF#page=44",
+          "computation": {
+            "expression": "期末员工专业分类，不代表劳动成本或工时占比。",
+            "inputs": [
+              84198.0,
+              111585.0
+            ],
+            "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+          }
+        },
+        {
+          "id": "wus-2025-production_employee_pct",
+          "name": "沪电股份",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39133"
+          ],
+          "value": 74.73594436790658,
+          "evidence": [
+            {
+              "sourceId": "wus-ar2025",
+              "locator": "PDF第55页，生产人员"
+            },
+            {
+              "sourceId": "wus-ar2025",
+              "locator": "PDF第55页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-03-25",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "数据通讯、智能汽车为PCB用途分组，不把通讯用途PCB归为通信系统设备。",
+            "期末员工专业分类，不代表劳动成本或工时占比。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-25/1225027832.PDF#page=55",
+          "computation": {
+            "expression": "期末员工专业分类，不代表劳动成本或工时占比。",
+            "inputs": [
+              11392.0,
+              15243.0
+            ],
+            "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+          }
+        },
+        {
+          "id": "suncreate-2025-production_employee_pct",
+          "name": "四创电子",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39130"
+          ],
+          "value": 30.174989329918905,
+          "evidence": [
+            {
+              "sourceId": "suncreate-ar2025",
+              "locator": "PDF第41页，生产人员"
+            },
+            {
+              "sourceId": "suncreate-ar2025",
+              "locator": "PDF第41页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-04-23",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "仅雷达及配套分部直接关联，公共安全、电源和机动保障未一并当雷达制造。",
+            "期末员工专业分类，不代表劳动成本或工时占比。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-23/1225155845.PDF#page=41",
+          "computation": {
+            "expression": "期末员工专业分类，不代表劳动成本或工时占比。",
+            "inputs": [
+              707.0,
+              2343.0
+            ],
+            "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "collection": "comparisons",
+    "id": "cn-c39-company-2025-revenue-per-year-end-employee",
+    "reason": "实际核对京东方员工原表后发现分项与总数范围未勾稽；保留原值并限制解释。",
+    "replacement": {
+      "id": "cn-c39-company-2025-revenue-per-year-end-employee",
+      "country": "cn",
+      "section": "companies",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39",
+        "cn-io-39126",
+        "cn-io-39127",
+        "cn-io-39128",
+        "cn-io-39132",
+        "cn-io-39129",
+        "cn-io-39131",
+        "cn-io-39134",
+        "cn-io-39133",
+        "cn-io-39130"
+      ],
+      "title": "全年收入／年末员工（代理）",
+      "metric": "revenue_per_year_end_employee",
+      "period": "2025",
+      "unit": "元/年末员工",
+      "currency": "CNY",
+      "coverage": "13家分层目的样本；各行是公司合并口径，含境内外及跨行业业务；仅在点击产品后筛选关联样本。",
+      "comparisonKey": "cn-companies-2025-revenue_per_year_end_employee",
+      "coverageLabel": "企业样本，非行业总量",
+      "notes": [
+        "全年合并收入÷年末员工表人数；不等于人均增加值。平均人数、外包和并购边界不足，不能由高低判断劳动生产率。",
+        "不将企业营业收入或人均收入替代图谱增加值，不计算全国行业市场份额。",
+        "补读待核：2025员工表母公司2939+主要子公司67979=70918，与表列总人数109895未能勾稽；不擅自替换原总数。涉及总人数作分母的比例与人均收入仅保留原口径代理，暂不作效率比较。"
+      ],
+      "rows": [
+        {
+          "id": "inspur-2025-revenue_per_year_end_employee",
+          "name": "浪潮信息",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39126",
+            "cn-io-39127",
+            "cn-io-39128"
+          ],
+          "value": 23895301.284546115,
+          "evidence": [
+            {
+              "sourceId": "inspur-ar2025",
+              "locator": "PDF第61页，营业收入"
+            },
+            {
+              "sourceId": "inspur-ar2025",
+              "locator": "PDF第29页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-04-11",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "服务器产品为主要分部；存储/交换业务同时相关，不能把该分部全额重复分配。",
+            "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-11/1225096638.PDF#page=61",
+          "computation": {
+            "expression": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。",
+            "inputs": [
+              164781997658.23,
+              6896.0
+            ],
+            "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          }
+        },
+        {
+          "id": "kaifa-2025-revenue_per_year_end_employee",
+          "name": "深科技",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39127",
+            "cn-io-39132"
+          ],
+          "value": 536903.9581486533,
+          "evidence": [
+            {
+              "sourceId": "kaifa-ar2025",
+              "locator": "PDF第105页，营业收入"
+            },
+            {
+              "sourceId": "kaifa-ar2025",
+              "locator": "PDF第52页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-04-29",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "高端制造包含硬盘零部件及多种电子产品；计量智能终端保留为非C39纯口径业务。",
+            "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225227167.PDF#page=105",
+          "computation": {
+            "expression": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。",
+            "inputs": [
+              15747393092.5,
+              29330.0
+            ],
+            "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          }
+        },
+        {
+          "id": "zte-2025-revenue_per_year_end_employee",
+          "name": "中兴通讯",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39126",
+            "cn-io-39128",
+            "cn-io-39129"
+          ],
+          "value": 2056923.880482372,
+          "evidence": [
+            {
+              "sourceId": "zte-ar2025",
+              "locator": "PDF第102页，营业收入"
+            },
+            {
+              "sourceId": "zte-ar2025",
+              "locator": "PDF第69页，本集团员工共"
+            }
+          ],
+          "releaseDate": "2026-03-07",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "运营商网络、政企、消费者按市场划分，均可能含硬件与服务；外包生产商存在。",
+            "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          ],
+          "missingReason": null,
+          "url": "https://www.zte.com.cn/content/dam/zte-site/investorrelations/cn_annual_report/2025%E5%B9%B4%E5%B9%B4%E5%BA%A6%E6%8A%A5%E5%91%8A.pdf#page=102",
+          "computation": {
+            "expression": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。",
+            "inputs": [
+              133895460000.0,
+              65095.0
+            ],
+            "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          }
+        },
+        {
+          "id": "transsion-2025-revenue_per_year_end_employee",
+          "name": "传音控股",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39129"
+          ],
+          "value": 2730124.2874988555,
+          "evidence": [
+            {
+              "sourceId": "transsion-ar2025",
+              "locator": "PDF第110页，营业收入"
+            },
+            {
+              "sourceId": "transsion-ar2025",
+              "locator": "PDF第59页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-03-28",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "手机相关样本，其他业务没有强行归入智能消费；合并集团不等于境内手机生产。",
+            "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          ],
+          "missingReason": null,
+          "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2026/2026-3/2026-03-28/12032847.PDF#page=110",
+          "computation": {
+            "expression": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。",
+            "inputs": [
+              65591236007.16,
+              24025.0
+            ],
+            "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          }
+        },
+        {
+          "id": "haige-2025-revenue_per_year_end_employee",
+          "name": "海格通信",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39128",
+            "cn-io-39129"
+          ],
+          "value": 557279.733475997,
+          "evidence": [
+            {
+              "sourceId": "haige-ar2025",
+              "locator": "PDF第77页，营业收入"
+            },
+            {
+              "sourceId": "haige-ar2025",
+              "locator": "PDF第45页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-03-28",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "按业务分部关联。公司工业收入仅占41.68%、服务业58.32%，不能将集团全额当制造业。",
+            "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225044009.PDF#page=77",
+          "computation": {
+            "expression": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。",
+            "inputs": [
+              4388020621.39,
+              7874.0
+            ],
+            "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          }
+        },
+        {
+          "id": "hisense-2025-revenue_per_year_end_employee",
+          "name": "海信视像",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39131"
+          ],
+          "value": 3834799.876453693,
+          "evidence": [
+            {
+              "sourceId": "hisense-ar2025",
+              "locator": "PDF第89页，营业收入"
+            },
+            {
+              "sourceId": "hisense-ar2025",
+              "locator": "PDF第50页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-03-31",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "智慧显示终端与非专业视听相关，但新显示和商显等混合业务不归入单一产品。",
+            "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225051157.PDF#page=89",
+          "computation": {
+            "expression": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。",
+            "inputs": [
+              57679224941.74,
+              15041.0
+            ],
+            "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          }
+        },
+        {
+          "id": "boe-2025-revenue_per_year_end_employee",
+          "name": "京东方A",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39132",
+            "cn-io-39126",
+            "cn-io-39131",
+            "cn-io-39134"
+          ],
+          "value": 1861688.1831566496,
+          "evidence": [
+            {
+              "sourceId": "boe-ar2025",
+              "locator": "PDF第100页，营业收入"
+            },
+            {
+              "sourceId": "boe-ar2025",
+              "locator": "PDF第48页，在职员工的数量合计"
+            },
+            {
+              "sourceId": "boe-ar2025",
+              "locator": "PDF第48页，员工分项与总数口径待核"
+            }
+          ],
+          "releaseDate": "2026-04-01",
+          "revision": "按引用原值复算；同年比较。 补读待核：2025员工表母公司2939+主要子公司67979=70918，与表列总人数109895未能勾稽；不擅自替换原总数。涉及总人数作分母的比例与人均收入仅保留原口径代理，暂不作效率比较。",
+          "notes": [
+            "显示器件为主要分部；物联网创新业务跨类且有内部抵销，A/B股合为一个集团样本。",
+            "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。",
+            "补读待核：2025员工表母公司2939+主要子公司67979=70918，与表列总人数109895未能勾稽；不擅自替换原总数。涉及总人数作分母的比例与人均收入仅保留原口径代理，暂不作效率比较。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-01/1225068510.PDF#page=100",
+          "computation": {
+            "expression": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。",
+            "inputs": [
+              204590222888.0,
+              109895.0
+            ],
+            "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          }
+        },
+        {
+          "id": "smic-2025-revenue_per_year_end_employee",
+          "name": "中芯国际",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39132"
+          ],
+          "value": 3374257.8187650363,
+          "evidence": [
+            {
+              "sourceId": "smic-ar2025",
+              "locator": "PDF第127页，营业收入"
+            },
+            {
+              "sourceId": "smic-ar2025",
+              "locator": "PDF第61页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-03-27",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "使用A股企业会计准则人民币财报，A/H股不重复计数；客户地域不等于生产地域。",
+            "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225037057.PDF#page=127",
+          "computation": {
+            "expression": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。",
+            "inputs": [
+              67323192000.0,
+              19952.0
+            ],
+            "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          }
+        },
+        {
+          "id": "luxshare-2025-revenue_per_year_end_employee",
+          "name": "立讯精密",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39129",
+            "cn-io-39133",
+            "cn-io-39134",
+            "cn-io-39128"
+          ],
+          "value": 798526.7629112897,
+          "evidence": [
+            {
+              "sourceId": "luxshare-ar2025",
+              "locator": "PDF第121页，营业收入"
+            },
+            {
+              "sourceId": "luxshare-ar2025",
+              "locator": "PDF第65页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-04-15",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "消费电子分部混合零件与整机，另含汽车电子。2025新增Leoni与通讯ODM范围。",
+            "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-15/1225104908.PDF#page=121",
+          "computation": {
+            "expression": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。",
+            "inputs": [
+              332344443143.39,
+              416197.0
+            ],
+            "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          }
+        },
+        {
+          "id": "sytech-2025-revenue_per_year_end_employee",
+          "name": "生益科技",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39133"
+          ],
+          "value": 1957662.9112056736,
+          "evidence": [
+            {
+              "sourceId": "sytech-ar2025",
+              "locator": "PDF第91页，营业收入"
+            },
+            {
+              "sourceId": "sytech-ar2025",
+              "locator": "PDF第48页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-04-25",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "覆铜板/粘结片与PCB均相关；已合并上市子公司生益电子，后者不再单列。",
+            "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-25/1225195409.PDF#page=91",
+          "computation": {
+            "expression": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。",
+            "inputs": [
+              28431138459.44,
+              14523.0
+            ],
+            "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          }
+        },
+        {
+          "id": "goer-2025-revenue_per_year_end_employee",
+          "name": "歌尔股份",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39133",
+            "cn-io-39131",
+            "cn-io-39134"
+          ],
+          "value": 865261.1875723439,
+          "evidence": [
+            {
+              "sourceId": "goer-ar2025",
+              "locator": "PDF第82页，营业收入"
+            },
+            {
+              "sourceId": "goer-ar2025",
+              "locator": "PDF第44页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-04-24",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "智能声学整机和智能硬件可能跨产品分类；境外生产和品牌客户外包结构影响比较。",
+            "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225160177.PDF#page=82",
+          "computation": {
+            "expression": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。",
+            "inputs": [
+              96550169615.26,
+              111585.0
+            ],
+            "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          }
+        },
+        {
+          "id": "wus-2025-revenue_per_year_end_employee",
+          "name": "沪电股份",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39133"
+          ],
+          "value": 1242880.0488748935,
+          "evidence": [
+            {
+              "sourceId": "wus-ar2025",
+              "locator": "PDF第87页，营业收入"
+            },
+            {
+              "sourceId": "wus-ar2025",
+              "locator": "PDF第55页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-03-25",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "数据通讯、智能汽车为PCB用途分组，不把通讯用途PCB归为通信系统设备。",
+            "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-25/1225027832.PDF#page=87",
+          "computation": {
+            "expression": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。",
+            "inputs": [
+              18945220585.0,
+              15243.0
+            ],
+            "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          }
+        },
+        {
+          "id": "suncreate-2025-revenue_per_year_end_employee",
+          "name": "四创电子",
+          "nodeIds": [
+            "cn-io-group-39",
+            "cn-gbt2017-39",
+            "cn-io-39130"
+          ],
+          "value": 744937.5527315408,
+          "evidence": [
+            {
+              "sourceId": "suncreate-ar2025",
+              "locator": "PDF第73页，营业收入"
+            },
+            {
+              "sourceId": "suncreate-ar2025",
+              "locator": "PDF第41页，在职员工的数量合计"
+            }
+          ],
+          "releaseDate": "2026-04-23",
+          "revision": "按引用原值复算；同年比较。",
+          "notes": [
+            "仅雷达及配套分部直接关联，公共安全、电源和机动保障未一并当雷达制造。",
+            "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          ],
+          "missingReason": null,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-23/1225155845.PDF#page=73",
+          "computation": {
+            "expression": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。",
+            "inputs": [
+              1745388686.05,
+              2343.0
+            ],
+            "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "collection": "findings",
+    "id": "cn-c39-company-finding-assets",
+    "reason": "保留2025原比例，加上营运资金、转固与折旧条件，防止将低付现当低资金需求。",
+    "replacement": {
+      "id": "cn-c39-company-finding-assets",
+      "country": "cn",
+      "section": "companies",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39",
+        "cn-io-39132",
+        "cn-io-39126"
+      ],
+      "period": "2025",
+      "title": "长期资产投入与营运资金需要一起读",
+      "body": "按购建长期资产现金/收入计算，中芯国际2025年为89.05%，京东方为19.60%，浪潮信息为0.14%。这是晶圆、面板、系统产品三个企业样本的差异，提示要结合制造环节、扩产周期和外包边界看规模。",
+      "evidenceKind": "calculation",
+      "evidence": [
+        {
+          "sourceId": "smic-ar2025",
+          "locator": "PDF第129页，购建固定资产"
+        },
+        {
+          "sourceId": "smic-ar2025",
+          "locator": "PDF第127页，营业收入"
+        },
+        {
+          "sourceId": "boe-ar2025",
+          "locator": "PDF第104页，购建固定资产"
+        },
+        {
+          "sourceId": "boe-ar2025",
+          "locator": "PDF第100页，营业收入"
+        },
+        {
+          "sourceId": "inspur-ar2025",
+          "locator": "PDF第66页，购建固定资产"
+        },
+        {
+          "sourceId": "inspur-ar2025",
+          "locator": "PDF第61页，营业收入"
+        },
+        {
+          "sourceId": "inspur-h12026",
+          "locator": "PDF第87—88、116页，预付、存货及现金桥"
+        },
+        {
+          "sourceId": "smic-h12026",
+          "locator": "PDF第113—114页，在建工程转固及其他减少"
+        },
+        {
+          "sourceId": "boe-ar2025",
+          "locator": "PDF第191页，现金流补充资料"
+        }
+      ],
+      "conditions": [
+        "含无形资产及其他长期资产；不等于完整资本开支或自动化投资。",
+        "浪潮信息低购建长期资产付现比例不能推断资金需求低：2026H1预付款和存货显著增加，经营现金为负。",
+        "中芯国际在建工程余额下降含大额转固和其他减少，不能据此判断扩产停止；京东方现金桥有大额折旧等非现金加回。"
+      ]
+    }
+  },
+  {
+    "collection": "findings",
+    "id": "cn-c39-company-finding-scope",
+    "reason": "补足购买日期以及2026H1同比仍受并表影响的条件。",
+    "replacement": {
+      "id": "cn-c39-company-finding-scope",
+      "country": "cn",
+      "section": "companies",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39",
+        "cn-io-39129",
+        "cn-io-39133",
+        "cn-io-39134",
+        "cn-io-39128"
+      ],
+      "period": "2025",
+      "title": "集团增长需要拆开并购与自身业务",
+      "body": "立讯2025年消费电子收入2,642.66亿元、汽车电子392.55亿元、通讯及数据中心245.68亿元；报告说明汽车业务增加包含并入Leoni，内销增加包含通讯ODM并表。将集团增长一概理解为同口径产量增长会失真。",
+      "evidenceKind": "calculation",
+      "evidence": [
+        {
+          "sourceId": "luxshare-ar2025",
+          "locator": "PDF第17页，消费电子"
+        },
+        {
+          "sourceId": "luxshare-ar2025",
+          "locator": "PDF第17页，汽车电子"
+        },
+        {
+          "sourceId": "luxshare-ar2025",
+          "locator": "PDF第17页，通讯及数据中心"
+        },
+        {
+          "sourceId": "luxshare-ar2025",
+          "locator": "PDF第18页：同比变动原因，Leoni及通讯ODM"
+        },
+        {
+          "sourceId": "luxshare-ar2025",
+          "locator": "PDF第238页，收购日"
+        },
+        {
+          "sourceId": "luxshare-h12026",
+          "locator": "PDF第171页，合并范围变更"
+        }
+      ],
+      "conditions": [
+        "年末员工也受合并范围变动影响；人均收入仅作代理。",
+        "Leoni及相关ODM收购在2025年7月发生，故2026H1即使无新并购，其同比2025H1仍非恒定合并范围；未取得同口径备考数据前不称为有机增长。"
+      ]
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-company-coverage-headcount",
+    "reason": "将已实际发现的员工范围疑点加入总体员工口径缺口。",
+    "replacement": {
+      "id": "cn-company-coverage-headcount",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "平均员工与外包边界",
+      "period": "2025",
+      "status": "checked-no-metric",
+      "detail": "所读员工表以期末人数为主；统一全年平均人数、派遣和供应链外包人数未取得。劳务外包栏“不适用”不证明全产业链没有外包。 补读待核：2025员工表母公司2939+主要子公司67979=70918，与表列总人数109895未能勾稽；不擅自替换原总数。涉及总人数作分母的比例与人均收入仅保留原口径代理，暂不作效率比较。",
+      "evidence": [
+        {
+          "sourceId": "zte-ar2025",
+          "locator": "PDF第28页：供应商包括外包生产商；第69页：集团员工"
+        },
+        {
+          "sourceId": "inspur-ar2025",
+          "locator": "PDF第29—30页：员工与劳务外包栏"
+        },
+        {
+          "sourceId": "boe-ar2025",
+          "locator": "PDF第48页，员工分项与总数范围"
+        }
+      ],
+      "nextStep": "取得各企业平均用工定义、主要子公司范围、境内外及外包口径，后再比较人均增加值。 向京东方确认70918与109895的范围调节。"
+    }
+  }
+]

@@ -1,0 +1,427 @@
+{
+  "checkedAt": "2026-09-14",
+  "structuredComparisons": [
+    {
+      "id": "deep-region-bj-2024-enterprise-count-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 350.0,
+      "locator": "bj-2025-c1205.xls row46 col2"
+    },
+    {
+      "id": "deep-region-bj-2024-average-workers-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 10.8866,
+      "locator": "bj-2025-c1205.xls row46 col5"
+    },
+    {
+      "id": "deep-region-bj-2024-revenue-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 6317.514,
+      "locator": "bj-2025-c1205.xls row46 col17"
+    },
+    {
+      "id": "deep-region-bj-2024-assets-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 11929.9806,
+      "locator": "bj-2025-c1205.xls row46 col6"
+    },
+    {
+      "id": "deep-region-bj-2024-profit-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 390.2336,
+      "locator": "bj-2025-c1205.xls row46 col23"
+    },
+    {
+      "id": "deep-region-bj-2024-cost-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 5478.922,
+      "locator": "bj-2025-c1205.xls row46 col18"
+    },
+    {
+      "id": "deep-region-bj-2024-gross-output-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 3910.9923,
+      "locator": "bj-2025-c1205.xls row46 col4"
+    },
+    {
+      "id": "deep-region-bj-2023-enterprise-count-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 334.0,
+      "locator": "bj-2024-c12-05.xls row46 col2"
+    },
+    {
+      "id": "deep-region-bj-2023-average-workers-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 10.8193,
+      "locator": "bj-2024-c12-05.xls row46 col5"
+    },
+    {
+      "id": "deep-region-bj-2023-revenue-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 5305.4397,
+      "locator": "bj-2024-c12-05.xls row46 col17"
+    },
+    {
+      "id": "deep-region-bj-2023-assets-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 10551.28,
+      "locator": "bj-2024-c12-05.xls row46 col6"
+    },
+    {
+      "id": "deep-region-bj-2023-profit-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 108.0869,
+      "locator": "bj-2024-c12-05.xls row46 col23"
+    },
+    {
+      "id": "deep-region-bj-2023-cost-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 4551.7217,
+      "locator": "bj-2024-c12-05.xls row46 col18"
+    },
+    {
+      "id": "deep-region-bj-2023-gross-output-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 3342.5127,
+      "locator": "bj-2024-c12-05.xls row46 col4"
+    },
+    {
+      "id": "deep-region-zj-2023-enterprise-count-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 2553.0,
+      "locator": "zj-2024-7-5 data C39 col2"
+    },
+    {
+      "id": "deep-region-zj-2023-loss-enterprise-count-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 695.0,
+      "locator": "zj-2024-7-5 data C39 col3"
+    },
+    {
+      "id": "deep-region-zj-2023-gross-output-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 8964.34,
+      "locator": "zj-2024-7-5 data C39 col4"
+    },
+    {
+      "id": "deep-region-zj-2023-assets-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 14203.03,
+      "locator": "zj-2024-7-5 data C39 col5"
+    },
+    {
+      "id": "deep-region-zj-2023-liabilities-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 7219.68,
+      "locator": "zj-2024-7-5 data C39 col6"
+    },
+    {
+      "id": "deep-region-zj-2023-revenue-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 9562.68,
+      "locator": "zj-2024-7-5 data C39 col9"
+    },
+    {
+      "id": "deep-region-zj-2023-cost-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 7932.44,
+      "locator": "zj-2024-7-5 data C39 col10"
+    },
+    {
+      "id": "deep-region-zj-2023-profit-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 599.77,
+      "locator": "zj-2024-7-5 data C39 col15"
+    },
+    {
+      "id": "deep-region-zj-2023-average-workers-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 64.06,
+      "locator": "zj-2024-7-5 data C39 col18"
+    },
+    {
+      "id": "deep-region-gd-2023-enterprise-count-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 9966.0,
+      "locator": "gd-2024-12-11 Sheet1 row61 col3"
+    },
+    {
+      "id": "deep-region-gd-2023-gross-output-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 47168.02,
+      "locator": "gd-2024-12-11 Sheet1 row61 col4"
+    },
+    {
+      "id": "deep-region-gd-2023-assets-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 62221.23,
+      "locator": "gd-2024-12-11 Sheet1 row61 col7"
+    },
+    {
+      "id": "deep-region-gd-2023-revenue-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 47689.96,
+      "locator": "gd-2024-12-11 Sheet1 row61 col9"
+    },
+    {
+      "id": "deep-region-gd-2023-cost-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 38846.36,
+      "locator": "gd-2024-12-11 Sheet1 row61 col10"
+    },
+    {
+      "id": "deep-region-gd-2023-profit-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 3628.09,
+      "locator": "gd-2024-12-11 Sheet1 row61 col12"
+    },
+    {
+      "id": "deep-region-gd-2023-average-employment-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 317.53,
+      "locator": "gd-2024-12-11 Sheet1 row61 col15"
+    },
+    {
+      "id": "deep-region-sh-2023-gross-output-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 4611.57,
+      "locator": "sh-2024-C1201E row40 col1"
+    },
+    {
+      "id": "deep-region-sh-2023-assets-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 7673.48,
+      "locator": "sh-2024-C1201E row40 col2"
+    },
+    {
+      "id": "deep-region-sh-2023-liabilities-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 3564.51,
+      "locator": "sh-2024-C1201E row40 col4"
+    },
+    {
+      "id": "deep-region-sh-2023-revenue-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 4997.64,
+      "locator": "sh-2024-C1201E row40 col5"
+    },
+    {
+      "id": "deep-region-sh-2023-profit-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 109.43,
+      "locator": "sh-2024-C1201E row40 col6"
+    },
+    {
+      "id": "deep-region-js-2023-enterprise-count-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 4175.0,
+      "locator": "js-2024-11-6 selected DOM C39"
+    },
+    {
+      "id": "deep-region-js-2023-assets-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 25926.57,
+      "locator": "js-2024-11-6 selected DOM C39"
+    },
+    {
+      "id": "deep-region-js-2023-liabilities-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 13173.3,
+      "locator": "js-2024-11-6 selected DOM C39"
+    },
+    {
+      "id": "deep-region-js-2023-revenue-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 23766.82,
+      "locator": "js-2024-11-6 selected DOM C39"
+    },
+    {
+      "id": "deep-region-js-2023-cost-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 21049.41,
+      "locator": "js-2024-11-6 selected DOM C39"
+    },
+    {
+      "id": "deep-region-js-2023-profit-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 963.62,
+      "locator": "js-2024-11-6 selected DOM C39"
+    },
+    {
+      "id": "deep-region-js-2023-average-workers-yb2024",
+      "passed": true,
+      "sourceValueNormalized": 151.1,
+      "locator": "js-2024-11-6 selected DOM C39"
+    },
+    {
+      "id": "deep-region-zj-2024-enterprise-count-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 2870.0,
+      "locator": "zj-2025-7-5 data C39 col2"
+    },
+    {
+      "id": "deep-region-zj-2024-loss-enterprise-count-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 837.0,
+      "locator": "zj-2025-7-5 data C39 col3"
+    },
+    {
+      "id": "deep-region-zj-2024-gross-output-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 10109.88,
+      "locator": "zj-2025-7-5 data C39 col4"
+    },
+    {
+      "id": "deep-region-zj-2024-assets-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 16205.8,
+      "locator": "zj-2025-7-5 data C39 col5"
+    },
+    {
+      "id": "deep-region-zj-2024-liabilities-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 8488.48,
+      "locator": "zj-2025-7-5 data C39 col6"
+    },
+    {
+      "id": "deep-region-zj-2024-revenue-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 10659.39,
+      "locator": "zj-2025-7-5 data C39 col9"
+    },
+    {
+      "id": "deep-region-zj-2024-cost-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 8953.76,
+      "locator": "zj-2025-7-5 data C39 col10"
+    },
+    {
+      "id": "deep-region-zj-2024-profit-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 486.92,
+      "locator": "zj-2025-7-5 data C39 col15"
+    },
+    {
+      "id": "deep-region-zj-2024-average-workers-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 70.34,
+      "locator": "zj-2025-7-5 data C39 col18"
+    },
+    {
+      "id": "deep-region-gd-2024-enterprise-count-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 10574.0,
+      "locator": "gd-2025-12-11 Sheet1 row61 col3"
+    },
+    {
+      "id": "deep-region-gd-2024-gross-output-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 52470.18,
+      "locator": "gd-2025-12-11 Sheet1 row61 col4"
+    },
+    {
+      "id": "deep-region-gd-2024-assets-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 66064.35,
+      "locator": "gd-2025-12-11 Sheet1 row61 col7"
+    },
+    {
+      "id": "deep-region-gd-2024-revenue-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 53787.2,
+      "locator": "gd-2025-12-11 Sheet1 row61 col9"
+    },
+    {
+      "id": "deep-region-gd-2024-cost-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 44065.49,
+      "locator": "gd-2025-12-11 Sheet1 row61 col10"
+    },
+    {
+      "id": "deep-region-gd-2024-profit-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 2944.59,
+      "locator": "gd-2025-12-11 Sheet1 row61 col12"
+    },
+    {
+      "id": "deep-region-gd-2024-average-employment-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 319.34,
+      "locator": "gd-2025-12-11 Sheet1 row61 col15"
+    },
+    {
+      "id": "deep-region-sh-2024-gross-output-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 4936.47,
+      "locator": "sh-2025-C1201E row40 col1"
+    },
+    {
+      "id": "deep-region-sh-2024-assets-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 9079.76,
+      "locator": "sh-2025-C1201E row40 col2"
+    },
+    {
+      "id": "deep-region-sh-2024-liabilities-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 4118.08,
+      "locator": "sh-2025-C1201E row40 col4"
+    },
+    {
+      "id": "deep-region-sh-2024-revenue-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 5350.3,
+      "locator": "sh-2025-C1201E row40 col5"
+    },
+    {
+      "id": "deep-region-sh-2024-profit-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 119.45,
+      "locator": "sh-2025-C1201E row40 col6"
+    },
+    {
+      "id": "deep-region-js-2024-enterprise-count-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 4500.0,
+      "locator": "js-2025-11-6 selected DOM C39"
+    },
+    {
+      "id": "deep-region-js-2024-assets-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 28455.89,
+      "locator": "js-2025-11-6 selected DOM C39"
+    },
+    {
+      "id": "deep-region-js-2024-liabilities-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 15018.65,
+      "locator": "js-2025-11-6 selected DOM C39"
+    },
+    {
+      "id": "deep-region-js-2024-revenue-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 24930.83,
+      "locator": "js-2025-11-6 selected DOM C39"
+    },
+    {
+      "id": "deep-region-js-2024-cost-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 22231.43,
+      "locator": "js-2025-11-6 selected DOM C39"
+    },
+    {
+      "id": "deep-region-js-2024-profit-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 1042.0,
+      "locator": "js-2025-11-6 selected DOM C39"
+    },
+    {
+      "id": "deep-region-js-2024-average-workers-yb2025",
+      "passed": true,
+      "sourceValueNormalized": 149.33,
+      "locator": "js-2025-11-6 selected DOM C39"
+    }
+  ],
+  "count": 70,
+  "manualScope": "重庆两版PDF同序C39行、四川两版原图及上海/浙江就业明细另行人工目读；不把这部分计作程序原值复算。"
+}

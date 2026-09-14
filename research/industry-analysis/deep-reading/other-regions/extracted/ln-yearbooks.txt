@@ -1,0 +1,708 @@
+辽宁省统计局年鉴数据下载
+var _speedMark = new Date();
+辽宁省人民政府
+无障碍浏览
+首页
+统计数据
+统计工作
+信息公开
+统计服务
+统计知识
+政务服务
+公共模板
+视频宣传
+辽宁省统计局
+无障碍浏览
+首页
+首页统计专题
+统计数据
+数据发布
+省情资讯
+月度数据
+统计年鉴
+辽宁统计年鉴
+年鉴数据下载
+普查数据
+经济普查
+人口普查
+农业普查
+统计公报
+年度统计公报
+经济普查公报
+人口普查公报
+农业普查公报
+统计工作
+通知通告
+统计要闻
+统计专题
+归档专题
+辽宁省2025年全国1%人口抽样调查
+最新消息
+文件通知
+调查动态
+答疑解惑
+下载中心
+辽宁省第五次全国经济普查
+公告栏
+普查要闻
+各地动态
+普查知识
+普查宣传
+第十三届全国统计开放日
+辽宁经济社会发展成就
+图话辽宁
+开放日要闻
+历届统计开放日主题回顾
+banner
+第十二届中国统计开放日
+辽宁统计大事记
+辽宁经济社会发展成就
+我为群众办实事、争做贡献促振兴
+历届统计开放日
+第十届中国统计开放日
+历史的记忆
+庆祝中华人民共和国成立70周年
+第十届中国统计开放日要闻
+纪念中国改革开始40周年
+编者
+辽宁经济社会发展成就综述
+辽宁城镇居民消费情况
+地区
+第九届中国统计开放日
+“经普”要闻
+解读“四经普”
+流程图解
+应知应会
+“经普”纪行
+统计开放日主题回顾
+第八届中国统计开放日
+新闻报道
+“三新”视线
+一分钟读懂“三新”
+“三新”统计面面观
+“三新”风采辽宁行
+图片新闻
+时政要闻
+信息公开
+统计服务
+职称评审
+公开招聘
+统计调查项目审批目录
+失信企业信息
+法规文件
+栏目介绍
+违法举报
+意见征集
+统计执法监督
+局长信箱
+回音壁
+统计知识
+政务服务
+公共模板
+视频宣传
+$(".ph_icon").click(function(){
+    $(".gov_header_main").toggle();
+    $(".hideNav").toggle();
+})
+$('.hideNav').click(function(e) {
+    $(".gov_header_main").toggle();
+    $(".hideNav").toggle();
+});
+$(".toOpen").click(function(){
+    var hasOpen = $(this).hasClass("isOpen");
+    if(hasOpen){
+        $(this).next().hide();
+        $(this).removeClass("isOpen");
+    }else{
+        $(this).next().show();
+        $(this).addClass("isOpen");
+    }
+})
+var startUrl = window.location.pathname;
+var startPram = location.search;
+$("#wzayd").attr("href","/AiWza/index.html#" + startUrl + startPram);
+.nav-item{float:left;}
+#wzayd{
+    padding-left: 30px;
+    color: #fff;
+}
+// 修改gov_navu_two里a文字为栏目介绍的 href链接
+    $('.gov_navu_two li a').each(function () {
+        if ($(this).text() == '栏目介绍') {
+            $(this).attr('href', '/tjj/gb/tjfw/lmjs/2023111516200074052/index.shtml')
+        }
+    })
+
+    // 修改gov_navu_two里a文字为违法举报的 href链接
+    $('.gov_navu_two li a').each(function () {
+        if ($(this).text() == '违法举报') {
+            $(this).attr('href', '/tjj/gb/tjfw/wfjb/2023111010361565756/index.shtml')
+        }
+    })
+首页
+统计数据
+统计工作
+信息公开
+统计服务
+统计知识
+政务服务
+isIE();
+		$(function () {
+
+			//无障碍
+			var startUrl = window.location.pathname;
+			var startPram = location.search;
+			$("#wza").attr("href", "/AiWza/index.html#" + startUrl + startPram);
+
+			var list = $(".nav .nav-item");
+			var navw = $(".nav").width()
+			for (var i = 0; i < list.length; i++) {
+				var items = list.eq(i).find(".nav-cons")
+				var itemwi = items.width()
+				var itemle = list.eq(i).position().left
+				var itemwis = list.eq(i).width()
+				var itemri = navw - itemwis - itemle
+				if (itemwi / 2 > itemle) {
+					items.attr("style", "left:5px");
+				} else if (itemwi / 2 < itemri) {
+					var left = itemle + itemwis / 2 - itemwi / 2
+					items.attr("style", "left:" + left + "px");
+				} else {
+					items.attr("style", "left:auto;right:5px;");
+				}
+			}
+		})
+		function isIE() {
+			if (!!window.ActiveXObject || "ActiveXObject" in window) {
+				$(".isIEDiv").show();
+				$("#FlashID").hide();
+			} else {
+				$(".isIEDiv").hide();
+				$("#FlashID").show();
+			}
+		}
+$(".phone-img").click(function () {
+			console.log("Sssssssssss")
+			$(".phone-list").toggle();
+			$(".hideNav").toggle();
+		})
+		$('.hideNav').click(function (e) {
+			$(".phone-list").toggle();
+			$(".hideNav").toggle();
+		});
+		$(".toOpen").click(function () {
+			var hasOpen = $(this).parent().hasClass("isOpen");
+			if (hasOpen) {
+				$(this).parent().next(".phone-nav-e-list").hide();
+				$(this).parent().removeClass("isOpen").addClass("hasChild");
+			} else {
+				$(this).parent().next(".phone-nav-e-list").show();
+				$(this).parent().removeClass("hasChild").addClass("isOpen");
+			}
+		})
+// 只保留六个nav-item移除多余的nav-item
+var navItem = $('.nav-item');
+for (var i = 0; i < navItem.length; i++) {
+    if (i > 6) {
+        navItem[i].remove();
+    }
+}
+.general-lngov,
+	.general-bg-search,
+	.general-menu li.sp4 {
+		margin-top: 3px;
+	}
+
+	.gov_navu_two li a {
+		line-height: 44px;
+	}
+.nav-item:last-child a{ border:none; }
+首页
+>
+统计数据
+>
+统计年鉴
+>
+年鉴数据下载
+统计数据
+数据发布
+省情资讯
+月度数据
+统计年鉴
+辽宁统计年鉴
+年鉴数据下载
+普查数据
+经济普查
+人口普查
+农业普查
+统计公报
+年度统计公报
+经济普查公报
+人口普查公报
+农业普查公报
+/*左侧导航*/
+.leftNav .twoUl li.twoyes a{ color:#006cc7; }
+.leftNav{width: 100%; margin-top:15px;}
+.leftNav a{}
+.leftNav .navLi{box-shadow: 0 0 3px rgba(0,0,0,0.2);height: 70px;background-color: #fff;overflow: hidden;margin-bottom: 15px;border-radius: 3px; padding-left:12%;}
+.leftNav .navLi.slideToggle{background: #edf5fd url(/tjj/imageDir/2023/11/2023110811011189214.png) 90% center no-repeat;}
+.leftNav .navLi.slideToggle:hover{background:#006cc7 url(/tjj/imageDir/2023/11/2023110811082947835.png) 90% center no-repeat;}
+.leftNav .navLi img{float: left;width: 40px;margin-top: 12px;margin-left: 20px;}
+.leftNav .navLi .large{display:none;}
+.leftNav .navLi>a{ line-height:66px; font-size: 23px;color: #3e3a39;font-family:思源黑体,Microsoft YaHei;} 
+.leftNav .navLi:hover,.leftNav .yes .navLi{background-color: #a52e2d;box-shadow: 0 0 3px rgba(0,0,0,0.2);}
+.leftNav .navLi:hover a,.leftNav .yes .navLi a{color:#fff;}
+
+.leftNav .yes .navLi.slideToggle{background:#006cc7 url(/tjj/imageDir/2023/11/2023110811004391022.png) 90% center no-repeat;}
+.leftNav .yes .twoUl{display:block;}
+.leftNav .yes .navLi .large,.leftNav .navLi:hover .large{display:block;}
+.leftNav .yes .navLi .small,.leftNav .navLi:hover .small{display:none;}
+.leftNav .aaa.jianPic .large{display: block;}
+.leftNav .aaa.jianPic .small{display: none;}
+
+.leftNav .aaa.jianPic{background: #006cc7 url(/tjj/imageDir/2023/11/2023110811082947835.png) 90% center no-repeat !important;}
+.leftNav .jianPic a{color:#fff;}
+.leftNav .bbb.jianPic{    background: #006cc7 url(/tjj/imageDir/2023/11/2023110811004391022.png) 90% center no-repeat;}
+.leftNav .bbb.jianPic a,.leftNav .bbb.jianPic:hover a{color:#fff;}
+.leftNav .bbb.jianPic .large,.leftNav .bbb.jianPic:hover .large{display:block;}
+.leftNav .bbb.jianPic .small,.leftNav .bbb.jianPic:hover .small{display:none;} 
+
+.leftNav .twoUl{background-color:#fff;padding: 15px 0;display:none;box-shadow: 0 0 3px rgba(0,0,0,0.2); }
+.leftNav .twoUl li a{line-height: 43px;text-indent: 60px;font-family: 思源黑体,Microsoft YaHei; font-weight:bold;text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+.leftNav .twoUl li a{color:#3e3a39;display:block;font-size: 18px;}
+.leftNav .twoUl li:hover a.ccc, .leftNav .twoUl li.twoyes a.ccc{background: #fff;} 
+.leftNav .twoUl li:hover a.ccc, .leftNav .twoUl li.twoyes a.ccc{color: #a52e2d;}
+.leftNav .twoUl .navTwoLi .threeUl {display: none;}
+.leftNav .twoUl li.twoyes .slideToggle.ccc{background: url(/uiFramework/commonResource/image/2021073009342870746.png);background-repeat: no-repeat;background-position: 15%;background-color: #ffe6e9;}
+.leftNav .twoUl li.navTwoLi:hover a.slideToggle, .leftNav .twoUl li.twoyes a.slideToggle {background: #a52e2d url(/uiFramework/commonResource/image/2021073009342870746.png) 40px center no-repeat;}
+.leftNav .twoUl li.navThreeLi a {text-indent: 56px;font-size: 14px;height:43px;overflow:hidden;}
+.leftNav .twoUl li.navThreeLi.threeyes a {background-color: #ffe6e9;}
+.leftNav .twoUl .navTwoLi.twoyes ul { display: block;}
+.leftNav .twoUl li a.slideToggle:hover {color: #3e3a39;}
+.leftNav .twoUl li a:hover {background: #ffe6e9 url(/uiFramework/commonResource/image/2021073009342870746.png) 40px center no-repeat; color: #a52e2d;}
+.leftNav .twoUl li.navTwoLi a.twojianPic.slideToggle, .leftNav .twoUl li.navTwoLi:hover a.twojianPic.slideToggle {background: url(/uiFramework/commonResource/image/2021073009342870746.png);background-repeat: no-repeat;background-position: 15%;background-color: #ffe6e9;}
+.leftNav .twoUl li.navThreeLi a.fs13 { font-size: 13px;}
+.leftNav .liBox .ysqgk01 a{font-size:22px;line-height:30px;padding-top: 5px; text-align: center;margin-left: 15px}
+.leftNav .ysqgk01{height: 96px;}
+.leftNav .liBox .ysqgk a{font-size:22px;line-height:32px; text-align: center;margin-left: 15px}
+.twoyes a{background: #fff; color: #006cc7;}
+.leftNav .twoUl li:hover,.leftNav .twoUl li.twoyes{background: #fff; display:block;color:#006cc7;}
+
+.leftNav .twoUl li:hover a{color:#006cc7;background: #fff;}
+
+.leftNav .twoUl li:nth-child(1) a{line-height: 43px;letter-spacing:0px;}
+.leftNav .twoUl li .change{background: #ffe6e9 url(/uiFramework/commonResource/image/2021073009342870746.png) 40px center no-repeat;
+    color: #a52e2d;    display: block;
+    font-size: 15px;}
+
+.leftNav .lalala li:hover a, .leftNav .lalala li.twoyes a { color: #000;}
+
+
+
+@media screen and (max-width: 1025px){
+
+.nav-l {
+    display: flex;
+    float: left;
+    width: 100%;
+    margin:0;
+}
+.leftNav {
+    position: relative;
+    float:left;
+}
+.leftNav ul {
+    clear: both;
+    /*display: flex;*/
+    justify-content: space-around;
+margin-left:-2px;
+}
+.leftNav>ul li{
+    float: left;
+margin-left: 2px;
+}
+  .zf_xxgkl {
+        float: left;
+        width: 100%;
+        margin: 0;}
+    .leftNav .navLi {
+        box-shadow: 0 0 3px rgba(0,0,0,0.2);
+        height: 95px !important;
+        background-color: #fff;
+        overflow: hidden;
+        margin-top: 0px;
+        border-radius: 3px;
+    }
+    .leftNav .navLi img {
+        float: left;
+        width: 30px;
+        margin-top: 12px;
+        margin-left: 20px;
+    }
+    .leftNav .navLi>a {
+        line-height: 88px;
+        padding-top: 3px;
+    }
+    .leftNav li .ysqgk{width:80px;}
+    .leftNav .liBox .ysqgk img{margin-left: 26px;}
+    .leftNav .liBox .ysqgk a {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        width: 70px;
+    margin-left: 3px;
+    }
+    .leftNav .yes .twoUl {
+        position: absolute;
+     width:101%;
+    }
+    .leftNav .yes .twoUl li{
+        width: 100%;
+    }
+    .leftNav .twoUl {
+        display: none;
+        position: absolute;
+        z-index:100;
+width:98%;
+    }
+    .leftNav .twoUl li{
+        width: 100%;
+    }
+
+.leftNav{
+    margin-left: 0% !important;
+}
+.leftNav .yes .navLi.slideToggle{ background: #006cc7 url(/tjj/imageDir/2023/11/2023110811004391022.png) 90% center no-repeat; }
+
+}
+
+
+@media screen and (max-width:760px) {
+.leftNav .navLi{ height: 50px !important; }
+.leftNav .navLi>a{ line-height:50px !important; }
+.leftNav .yes .twoUl li{ width:99% !important; }
+}
+$(function(){
+    $(".slideToggle").click(function() {
+        $(this).siblings().slideToggle();
+    })
+    $(".slideToggle.aaa").click(function(){
+        $(this).toggleClass("jianPic");
+    })
+    $(".slideToggle.bbb").click(function(){
+        $(this).toggleClass("jianPic");
+    })
+    $(".slideToggle.ccc").click(function(){
+        $(this).toggleClass("twojianPic");
+    })
+    $(".slideToggle.ddd").click(function(){
+        $(this).toggleClass("twojianPic");
+    })
+
+
+
+
+       /* $(".slideToggle").click(function() {
+            $(this).siblings().stop().slideToggle();
+        })
+
+        $(".slideToggle.aaa").click(function(){
+            $(this).toggleClass("jianPic");
+        })
+        $(".slideToggle.bbb").click(function(){
+            $(this).toggleClass("jianPic");
+        })*/
+    })
+
+
+//清除twoUl中的空格并且删除无内容的twoUl
+$('.twoUl').each(function(){
+    if($(this).html().trim()==''){
+        $(this).remove();
+    }
+})
+年鉴数据下载
+2020年辽宁统计年鉴数据（Excel）下载
+2018-2019年辽宁统计年鉴数据（Excel）下载
+历年辽宁统计年鉴浏览使用说明
+2012-2017年辽宁统计年鉴下载
+首页
+上一页
+1
+下一页
+尾页
+共1页
+网站链接
+省政府部门网站
+各省统计局网站
+各市统计局网站
+.wzlj-box {
+            display: flex;
+            justify-content: left;
+            flex-wrap: wrap;
+            margin: 20px auto 50px;
+        }
+
+        .wzlj-box a {
+            width: 25%;
+            font-size: 16px;
+            font-weight: bold;
+            font-family: 思源黑体, Microsoft YaHei;
+            color: #333;
+            line-height: 32px;
+        }
+省教育厅
+省科技厅
+省工业和信息化厅
+省民族和宗教委
+省公安厅
+省民政厅
+省司法厅
+省财政厅
+省人力资源社会保障厅
+省自然资源厅
+省生态环境厅
+省住房城乡建设厅
+省交通运输厅
+省水利厅
+省农业农村厅
+省商务厅
+省文化和旅游厅
+省卫生健康委
+省退役军人事务厅
+省应急厅
+省审计厅
+省政府外办
+省国资委
+省市场监管局
+省广电局
+省体育局
+省统计局
+省金融监管局
+省国动办
+省营商环境建设局（大数据管理局）
+省医保局
+省机关事务局
+省粮食和物资储备局
+省监狱管理局
+省林草局
+省地方矿山安全监督管理局
+省药监局
+省知识产权局
+省沈抚示范区
+北京局
+天津局
+河北局
+山西局
+内蒙古局
+辽宁局
+吉林局
+黑龙江局
+上海局
+江苏局
+浙江局
+安徽局
+福建局
+江西局
+山东局
+河南局
+湖北局
+湖南局
+广东局
+广西局
+海南局
+重庆局
+四川局
+贵州局
+云南局
+西藏局
+陕西局
+甘肃局
+青海局
+宁夏局
+新疆局
+兵团局
+沈阳市统计局
+大连市统计局
+鞍山市统计局
+抚顺市统计局
+本溪市统计局
+丹东市统计局
+锦州市统计局
+营口市统计局
+阜新市统计局
+辽阳市统计局
+铁岭市统计局
+朝阳市统计局
+盘锦市统计局
+葫芦岛市统计局
+tab_down("#tab_2>li", "#content_2>li", "click");
+			tab_down("#tab_2>li", "#content_2>li", "mouseenter");
+        // 鼠标移出mb3 移除tab-content里的li的show类
+        $(".mb3").mouseleave(function () {
+            $("#content_2>li").removeClass("show");
+        })
+.fixed-right-ico:hover {
+        background: #014a9b;
+    }
+
+    .fixed-right-tab-btn-show {
+        display: none;
+    }
+
+    .wx-code,
+    .dy-code {
+        position: relative;
+    }
+
+    .wx-code-img,
+    .dy-code-img {
+        display: none;
+        position: absolute;
+        left: -100%;
+        top: 0;
+        max-width: 100% !important;
+    }
+// 点击关闭按钮给fixed-right添加fadeOutRight动画
+    $('.fixed-right-tab-btn-close').click(function () {
+        $('.fixed-right-content').addClass('fadeOutRight');
+        $('.fixed-right-tab-btn-show').css('display', 'block');
+        $('.fixed-right-tab-btn-close').css('display', 'none');
+    });
+    // 点击显示按钮给fixed-right添加fadeInRight动画
+    $('.fixed-right-tab-btn-show').click(function () {
+        // 移除fadeOutRight动画
+        $('.fixed-right-content').removeClass('fadeOutRight');
+        $('.fixed-right-content').addClass('fadeInRight');
+        $('.fixed-right-tab-btn-show').css('display', 'none');
+        $('.fixed-right-tab-btn-close').css('display', 'block');
+    });
+    // 鼠标进入微信二维码显示
+    $('.wx-code').mouseenter(function () {
+        $('.wx-code-img').css('display', 'block');
+    });
+    // 鼠标离开微信二维码隐藏
+    $('.wx-code').mouseleave(function () {
+        $('.wx-code-img').css('display', 'none');
+    });
+    // 鼠标进入抖音二维码显示
+    $('.dy-code').mouseenter(function () {
+        $('.dy-code-img').css('display', 'block');
+    });
+    // 鼠标离开抖音二维码隐藏
+    $('.dy-code').mouseleave(function () {
+        $('.dy-code-img').css('display', 'none');
+    });
+body {
+        background: none;
+    }
+
+    .footer-box {
+        background-color: #0c7cdb;
+        width: 100%;
+    }
+
+    .footer-top {
+        width: 380px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 18px 0;
+        margin: 0 auto;
+    }
+
+    .footer-top a {
+        width: 22%;
+        text-align: center;
+        color: #fff;
+        border-right: 1px solid #fff;
+        font-family: 思源黑体, Microsoft YaHei;
+        font-size: 16px;
+        padding-right: 1%;
+    }
+
+    .footer-top a:last-child {
+        border-right: none;
+    }
+
+    .footer-bottom-box {
+        width: 100%;
+        background-color: #0064b8;
+        padding: 60px 0 40px 0;
+    }
+
+    .footer-bottom {
+        width: 42%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .footer-bottom-left {
+        width: 160px;
+        margin-top: 15px;
+    }
+
+    .footer-bottom-right {
+        width: 220px;
+        margin-top: 20px;
+    }
+
+    .footer-bottom-middle {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-bottom-middle p {
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+        font-family: 思源黑体, Microsoft YaHei;
+        line-height: 32px;
+        padding-left: 10px;
+    }
+
+    /* 小于780 */
+    @media screen and (max-width: 780px) {
+        .footer-bottom {
+            width: 100%;
+        }
+    }
+版本说明
+关于本站
+网站地图
+联系我们
+版权所有：辽宁省统计局
+ICP备案序号：辽ICP备2021006546号-2
+统计违法举报电话：024-86892042
+政务公开电话：024-86892591
+网站标识码：2100000052
+辽公网安备 21010502000400号
+$(function () {
+		//qs_xt("tab1","_x","tab_y","tab_n","tab_x_y","tab_x_n",1,1,4);  //点击
+		qs_xt("tab1", "_x", "tab_y", "tab_n", "tab_x_y", "tab_x_n", 2, 1, 4); //经过
+		qs_xt("tab2", "_x", "tab_y", "tab_n", "tab_x_y", "tab_x_n", 2, 1, 4); //经过
+		qs_xt("tab3", "_x", "tab_y", "tab_n", "tab_x_y", "tab_x_n", 2, 1, 4); //经过
+		qs_xt("tab4", "_x", "tab_y", "tab_n", "tab_x_y", "tab_x_n", 2, 1, 4); //经过
+		qs_xt("tab5", "_x", "tab_y", "tab_n", "tab_x_y", "tab_x_n", 2, 1, 4); //经过
+		qs_xt("tab6", "_x", "tab_y", "tab_n", "tab_x_y", "tab_x_n", 2, 1, 4); //经过
+	});
+//运行1
+	//var pdq1 = new AdMove("pdq1");
+	//pdq1.Run();
+
+	//关闭运行1函数
+	function closewindow1() {
+		document.getElementById('pdq1').style.display = "none";
+	}
+
+	//运行2
+	//var pdq2 = new AdMove("pdq2");
+	//pdq2.Run();
+
+	//关闭运行2函数
+	function closewindow2() {
+		document.getElementById('pdq2').style.display = "none";
+	}

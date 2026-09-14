@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-09-14",
+  "status": "frozen-for-parent-integration",
+  "scope": "13家公司26份报告，262个列明页；限定六主题，非全文读完",
+  "files": [
+    {
+      "path": "amendments.json",
+      "sha256": "2a99d514711ff5ce26c01fb0e349fd05b02be80482ab42822aff6b7d1afb330e"
+    },
+    {
+      "path": "analysis.md",
+      "sha256": "5b25061abf1207de8581ef234738b66c0771b519418e473fd508c95d1a529e85"
+    },
+    {
+      "path": "build.py",
+      "sha256": "135c0733642ba11c289f5afafee16457bc2e307fd85652b8f604f820351b942f"
+    },
+    {
+      "path": "observations.json",
+      "sha256": "62b6dcd9625713a7ebc4e305b4504795229dee3bcec0e7d79e558dab1e097f73"
+    },
+    {
+      "path": "page-candidates.json",
+      "sha256": "781e4559841ea6c4b9c6e2ee69a675051445486f0d52fe72f550aac0b0b955f7"
+    },
+    {
+      "path": "panel-data.json",
+      "sha256": "d5bcb748756c03850daa1bc4c50671630d2c23e3412bcfd9e98d229091a08966"
+    },
+    {
+      "path": "quality-issues.json",
+      "sha256": "ea9843be40528b16472f187b1db68a08a5bbc3e8dc520a70ba44cad9aa656a00"
+    },
+    {
+      "path": "read-log.json",
+      "sha256": "d365882fb010521e51c514b2c96617a83e6ad93272c35708de2a305d8f2526af"
+    },
+    {
+      "path": "read_pages.py",
+      "sha256": "5c2c2f8be0305d9f6373e3c75608ccb1b17ebaee3025094e395e4316db0c2fa5"
+    },
+    {
+      "path": "record.py",
+      "sha256": "54f9a753e9361de42f7ce2d0ccd5c8e89d131a3eb9648db27552e37fe6dd0e0e"
+    },
+    {
+      "path": "research-notes.json",
+      "sha256": "c48fe67a6ee98c87ba4f888266eddec045310426a726c493bcea9ea7bb0c4ee8"
+    },
+    {
+      "path": "verification.json",
+      "sha256": "d62e3294653a8a3acd232eb40dc09731b2a5c960de9ee0de2bfce88ece413a12"
+    },
+    {
+      "path": "verify.py",
+      "sha256": "5e814de6e67d02e0d119189fbeff1d93af112946779a6c0bbb20e6dd801da70f"
+    }
+  ]
+}

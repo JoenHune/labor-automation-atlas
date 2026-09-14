@@ -1,0 +1,4973 @@
+{
+  "checkedAt": "2026-09-14",
+  "records": [
+    {
+      "id": "dr-or-he-2024-39-enterprise-count-1",
+      "country": "cn",
+      "region": "河北",
+      "regionId": "he",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "enterprise-count",
+      "value": 277,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-he-2024-he2025-1202",
+          "locator": "12-2 按行业分规模以上工业企业主要指标（2024），C39“计算机、通信和其他电子设备制造业”行，企业单位数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-he-2024-39-assets-2",
+      "country": "cn",
+      "region": "河北",
+      "regionId": "he",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "assets",
+      "value": 1806.36,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-he-2024-he2025-1202",
+          "locator": "12-2 按行业分规模以上工业企业主要指标（2024），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-he-2024-39-revenue-3",
+      "country": "cn",
+      "region": "河北",
+      "regionId": "he",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "revenue",
+      "value": 883.35,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-he-2024-he2025-1202",
+          "locator": "12-2 按行业分规模以上工业企业主要指标（2024），C39“计算机、通信和其他电子设备制造业”行，营业收入列"
+        },
+        {
+          "sourceId": "dr-or-he-2024-he2025-1202",
+          "locator": "12-2 按行业分规模以上工业企业主要指标（2024），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        },
+        {
+          "sourceId": "dr-or-he-2024-he2025-1202",
+          "locator": "12-2 按行业分规模以上工业企业主要指标（2024），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        },
+        {
+          "sourceId": "dr-or-he-2024-he2025-1202",
+          "locator": "12-2 按行业分规模以上工业企业主要指标（2024），C39“计算机、通信和其他电子设备制造业”行，平均用工人数列"
+        }
+      ],
+      "notes": [
+        "资产总计：1806.36亿元人民币（原表单位）。",
+        "利润总额：23.05亿元人民币（原表单位）。",
+        "平均用工人数：70797人（原表单位）。"
+      ]
+    },
+    {
+      "id": "dr-or-he-2024-39-cost-4",
+      "country": "cn",
+      "region": "河北",
+      "regionId": "he",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "cost",
+      "value": 757.31,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-he-2024-he2025-1202",
+          "locator": "12-2 按行业分规模以上工业企业主要指标（2024），C39“计算机、通信和其他电子设备制造业”行，营业成本列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-he-2024-39-profit-5",
+      "country": "cn",
+      "region": "河北",
+      "regionId": "he",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "profit",
+      "value": 23.05,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-he-2024-he2025-1202",
+          "locator": "12-2 按行业分规模以上工业企业主要指标（2024），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-he-2024-39-average-workers-6",
+      "country": "cn",
+      "region": "河北",
+      "regionId": "he",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "average-workers",
+      "value": 70797,
+      "unit": "人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-he-2024-he2025-1202",
+          "locator": "12-2 按行业分规模以上工业企业主要指标（2024），C39“计算机、通信和其他电子设备制造业”行，平均用工人数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-he-2023-39-enterprise-count-7",
+      "country": "cn",
+      "region": "河北",
+      "regionId": "he",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "enterprise-count",
+      "value": 266,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-he-2023-he2024-1202",
+          "locator": "12-2 按行业分规模以上工业企业主要指标（2023），C39“计算机、通信和其他电子设备制造业”行，企业单位数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-he-2023-39-assets-8",
+      "country": "cn",
+      "region": "河北",
+      "regionId": "he",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "assets",
+      "value": 1577.07,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-he-2023-he2024-1202",
+          "locator": "12-2 按行业分规模以上工业企业主要指标（2023），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-he-2023-39-revenue-9",
+      "country": "cn",
+      "region": "河北",
+      "regionId": "he",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "revenue",
+      "value": 760.34,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-he-2023-he2024-1202",
+          "locator": "12-2 按行业分规模以上工业企业主要指标（2023），C39“计算机、通信和其他电子设备制造业”行，营业收入列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-he-2023-39-cost-10",
+      "country": "cn",
+      "region": "河北",
+      "regionId": "he",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "cost",
+      "value": 656.84,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-he-2023-he2024-1202",
+          "locator": "12-2 按行业分规模以上工业企业主要指标（2023），C39“计算机、通信和其他电子设备制造业”行，营业成本列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-he-2023-39-profit-11",
+      "country": "cn",
+      "region": "河北",
+      "regionId": "he",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "profit",
+      "value": 14.97,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-he-2023-he2024-1202",
+          "locator": "12-2 按行业分规模以上工业企业主要指标（2023），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-he-2023-39-average-workers-12",
+      "country": "cn",
+      "region": "河北",
+      "regionId": "he",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "average-workers",
+      "value": 67892,
+      "unit": "人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-he-2023-he2024-1202",
+          "locator": "12-2 按行业分规模以上工业企业主要指标（2023），C39“计算机、通信和其他电子设备制造业”行，平均用工人数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2024-39-enterprise-count-13",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "enterprise-count",
+      "value": 1126,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-19",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-2024-hn2025-13-03",
+          "locator": "13-3 规模以上工业企业行业大类主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，企业单位数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2024-39-assets-14",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "assets",
+      "value": 4440.34,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-19",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-2024-hn2025-13-03",
+          "locator": "13-3 规模以上工业企业行业大类主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2024-39-revenue-15",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "revenue",
+      "value": 3307.61,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-19",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-2024-hn2025-13-03",
+          "locator": "13-3 规模以上工业企业行业大类主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，营业收入列"
+        },
+        {
+          "sourceId": "dr-or-hn-2024-hn2025-13-03",
+          "locator": "13-3 规模以上工业企业行业大类主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        },
+        {
+          "sourceId": "dr-or-hn-2024-hn2025-13-03",
+          "locator": "13-3 规模以上工业企业行业大类主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        },
+        {
+          "sourceId": "dr-or-hn-2024-hn2025-13-03",
+          "locator": "13-3 规模以上工业企业行业大类主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，平均用工人数列"
+        }
+      ],
+      "notes": [
+        "资产总计：4440.34亿元人民币（原表单位）。",
+        "利润总额：180.93亿元人民币（原表单位）。",
+        "平均用工人数：29.96万人（原表单位）。"
+      ]
+    },
+    {
+      "id": "dr-or-hn-2024-39-cost-16",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "cost",
+      "value": 2797.82,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-19",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-2024-hn2025-13-03",
+          "locator": "13-3 规模以上工业企业行业大类主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，营业成本列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2024-39-profit-17",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "profit",
+      "value": 180.93,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-19",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-2024-hn2025-13-03",
+          "locator": "13-3 规模以上工业企业行业大类主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2024-39-average-workers-18",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "average-workers",
+      "value": 29.96,
+      "unit": "万人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-19",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-2024-hn2025-13-03",
+          "locator": "13-3 规模以上工业企业行业大类主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，平均用工人数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-tj-2024-39-enterprise-count-19",
+      "country": "cn",
+      "region": "天津",
+      "regionId": "tj",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "enterprise-count",
+      "value": 267,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-tj-2024-tj2025-13-04",
+          "locator": "13-4 按行业分规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，企业单位数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-tj-2024-39-assets-20",
+      "country": "cn",
+      "region": "天津",
+      "regionId": "tj",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "assets",
+      "value": 24831855,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-tj-2024-tj2025-13-04",
+          "locator": "13-4 按行业分规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-tj-2024-39-revenue-21",
+      "country": "cn",
+      "region": "天津",
+      "regionId": "tj",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "revenue",
+      "value": 21460628,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-tj-2024-tj2025-13-04",
+          "locator": "13-4 按行业分规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，营业收入列"
+        },
+        {
+          "sourceId": "dr-or-tj-2024-tj2025-13-04",
+          "locator": "13-4 按行业分规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        },
+        {
+          "sourceId": "dr-or-tj-2024-tj2025-13-04",
+          "locator": "13-4 按行业分规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        },
+        {
+          "sourceId": "dr-or-tj-2024-tj2025-13-04",
+          "locator": "13-4 按行业分规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，平均用工人数列"
+        }
+      ],
+      "notes": [
+        "资产总计：24831855万元人民币（原表单位）。",
+        "利润总额：993098万元人民币（原表单位）。",
+        "平均用工人数：85913人（原表单位）。"
+      ]
+    },
+    {
+      "id": "dr-or-tj-2024-39-profit-22",
+      "country": "cn",
+      "region": "天津",
+      "regionId": "tj",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "profit",
+      "value": 993098,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-tj-2024-tj2025-13-04",
+          "locator": "13-4 按行业分规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-tj-2024-39-average-workers-23",
+      "country": "cn",
+      "region": "天津",
+      "regionId": "tj",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "average-workers",
+      "value": 85913,
+      "unit": "人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-tj-2024-tj2025-13-04",
+          "locator": "13-4 按行业分规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，平均用工人数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-sd-2024-39-enterprise-count-24",
+      "country": "cn",
+      "region": "山东",
+      "regionId": "sd",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "enterprise-count",
+      "value": 1086,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-sd-2024-sd2025-14-01",
+          "locator": "14-1 规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，企业单位数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-sd-2024-39-assets-25",
+      "country": "cn",
+      "region": "山东",
+      "regionId": "sd",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "assets",
+      "value": 7125.7,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-sd-2024-sd2025-14-01",
+          "locator": "14-1 规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-sd-2024-39-revenue-26",
+      "country": "cn",
+      "region": "山东",
+      "regionId": "sd",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "revenue",
+      "value": 6168.0,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-sd-2024-sd2025-14-01",
+          "locator": "14-1 规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，营业收入列"
+        },
+        {
+          "sourceId": "dr-or-sd-2024-sd2025-14-01",
+          "locator": "14-1 规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        },
+        {
+          "sourceId": "dr-or-sd-2024-sd2025-14-01",
+          "locator": "14-1 规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        },
+        {
+          "sourceId": "dr-or-sd-2024-sd2025-14-01",
+          "locator": "14-1 规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，平均用工人数列"
+        }
+      ],
+      "notes": [
+        "资产总计：7125.7亿元人民币（原表单位）。",
+        "利润总额：119.4亿元人民币（原表单位）。",
+        "平均用工人数：29.4万人（原表单位）。"
+      ]
+    },
+    {
+      "id": "dr-or-sd-2024-39-cost-27",
+      "country": "cn",
+      "region": "山东",
+      "regionId": "sd",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "cost",
+      "value": 5598.5,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-sd-2024-sd2025-14-01",
+          "locator": "14-1 规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，营业成本列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-sd-2024-39-profit-28",
+      "country": "cn",
+      "region": "山东",
+      "regionId": "sd",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "profit",
+      "value": 119.4,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-sd-2024-sd2025-14-01",
+          "locator": "14-1 规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-sd-2024-39-average-workers-29",
+      "country": "cn",
+      "region": "山东",
+      "regionId": "sd",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "average-workers",
+      "value": 29.4,
+      "unit": "万人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-sd-2024-sd2025-14-01",
+          "locator": "14-1 规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，平均用工人数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-gz-2024-39-enterprise-count-30",
+      "country": "cn",
+      "region": "贵州",
+      "regionId": "gz",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "enterprise-count",
+      "value": 142,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-gz-2024-gz2025-14-11",
+          "locator": "14-11 规模以上工业企业分行业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，企业单位数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-gz-2024-39-assets-31",
+      "country": "cn",
+      "region": "贵州",
+      "regionId": "gz",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "assets",
+      "value": 1208.15,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-gz-2024-gz2025-14-11",
+          "locator": "14-11 规模以上工业企业分行业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-gz-2024-39-revenue-32",
+      "country": "cn",
+      "region": "贵州",
+      "regionId": "gz",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "revenue",
+      "value": 666.94,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-gz-2024-gz2025-14-11",
+          "locator": "14-11 规模以上工业企业分行业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，营业收入列"
+        },
+        {
+          "sourceId": "dr-or-gz-2024-gz2025-14-11",
+          "locator": "14-11 规模以上工业企业分行业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        },
+        {
+          "sourceId": "dr-or-gz-2024-gz2025-14-11",
+          "locator": "14-11 规模以上工业企业分行业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        }
+      ],
+      "notes": [
+        "资产总计：1208.15亿元人民币（原表单位）。",
+        "利润总额：12.64亿元人民币（原表单位）。"
+      ]
+    },
+    {
+      "id": "dr-or-gz-2024-39-profit-33",
+      "country": "cn",
+      "region": "贵州",
+      "regionId": "gz",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "profit",
+      "value": 12.64,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-gz-2024-gz2025-14-11",
+          "locator": "14-11 规模以上工业企业分行业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-gz-2024-39-output-34",
+      "country": "cn",
+      "region": "贵州",
+      "regionId": "gz",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "output",
+      "value": 672.58,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-gz-2024-gz2025-14-11",
+          "locator": "14-11 规模以上工业企业分行业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，工业总产值列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-gz-2023-39-enterprise-count-35",
+      "country": "cn",
+      "region": "贵州",
+      "regionId": "gz",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "enterprise-count",
+      "value": 145,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-gz-2023-gz2024-14-11",
+          "locator": "14-11 规模以上工业企业分行业主要经济指标（2023），C39“计算机、通信和其他电子设备制造业”行，企业单位数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-gz-2023-39-assets-36",
+      "country": "cn",
+      "region": "贵州",
+      "regionId": "gz",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "assets",
+      "value": 1024.08,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-gz-2023-gz2024-14-11",
+          "locator": "14-11 规模以上工业企业分行业主要经济指标（2023），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-gz-2023-39-revenue-37",
+      "country": "cn",
+      "region": "贵州",
+      "regionId": "gz",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "revenue",
+      "value": 704.43,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-gz-2023-gz2024-14-11",
+          "locator": "14-11 规模以上工业企业分行业主要经济指标（2023），C39“计算机、通信和其他电子设备制造业”行，营业收入列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-gz-2023-39-profit-38",
+      "country": "cn",
+      "region": "贵州",
+      "regionId": "gz",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "profit",
+      "value": 49.41,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-gz-2023-gz2024-14-11",
+          "locator": "14-11 规模以上工业企业分行业主要经济指标（2023），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-gz-2023-39-output-39",
+      "country": "cn",
+      "region": "贵州",
+      "regionId": "gz",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "output",
+      "value": 675.15,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-gz-2023-gz2024-14-11",
+          "locator": "14-11 规模以上工业企业分行业主要经济指标（2023），C39“计算机、通信和其他电子设备制造业”行，工业总产值列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hl-2024-39-enterprise-count-40",
+      "country": "cn",
+      "region": "黑龙江",
+      "regionId": "hl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "enterprise-count",
+      "value": 26,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hl-2024-hl2025-12-02",
+          "locator": "12-2 工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，企业单位数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hl-2024-39-assets-41",
+      "country": "cn",
+      "region": "黑龙江",
+      "regionId": "hl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "assets",
+      "value": 1140481,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hl-2024-hl2025-12-02",
+          "locator": "12-2 工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hl-2024-39-revenue-42",
+      "country": "cn",
+      "region": "黑龙江",
+      "regionId": "hl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "revenue",
+      "value": 258555,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hl-2024-hl2025-12-02",
+          "locator": "12-2 工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，营业收入列"
+        },
+        {
+          "sourceId": "dr-or-hl-2024-hl2025-12-02",
+          "locator": "12-2 工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        },
+        {
+          "sourceId": "dr-or-hl-2024-hl2025-12-02",
+          "locator": "12-2 工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        }
+      ],
+      "notes": [
+        "资产总计：1140481万元人民币（原表单位）。",
+        "利润总额：1646万元人民币（原表单位）。"
+      ]
+    },
+    {
+      "id": "dr-or-hl-2024-39-cost-43",
+      "country": "cn",
+      "region": "黑龙江",
+      "regionId": "hl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "cost",
+      "value": 192456,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hl-2024-hl2025-12-02",
+          "locator": "12-2 工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，营业成本列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hl-2024-39-profit-44",
+      "country": "cn",
+      "region": "黑龙江",
+      "regionId": "hl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "profit",
+      "value": 1646,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hl-2024-hl2025-12-02",
+          "locator": "12-2 工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hl-2023-39-enterprise-count-45",
+      "country": "cn",
+      "region": "黑龙江",
+      "regionId": "hl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "enterprise-count",
+      "value": 22,
+      "unit": "个",
+      "currency": null,
+      "scope": "本表工业企业；标题未重复规模门槛，章内范围仍待核",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hl-2023-hl2024-12-02",
+          "locator": "12-2 工业企业主要经济指标（2023），C39“计算机、通信和其他电子设备制造业”行，企业单位数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hl-2023-39-assets-46",
+      "country": "cn",
+      "region": "黑龙江",
+      "regionId": "hl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "assets",
+      "value": 921040,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "本表工业企业；标题未重复规模门槛，章内范围仍待核",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hl-2023-hl2024-12-02",
+          "locator": "12-2 工业企业主要经济指标（2023），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hl-2023-39-revenue-47",
+      "country": "cn",
+      "region": "黑龙江",
+      "regionId": "hl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "revenue",
+      "value": 173956,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "本表工业企业；标题未重复规模门槛，章内范围仍待核",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hl-2023-hl2024-12-02",
+          "locator": "12-2 工业企业主要经济指标（2023），C39“计算机、通信和其他电子设备制造业”行，营业收入列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hl-2023-39-cost-48",
+      "country": "cn",
+      "region": "黑龙江",
+      "regionId": "hl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "cost",
+      "value": 126437,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "本表工业企业；标题未重复规模门槛，章内范围仍待核",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hl-2023-hl2024-12-02",
+          "locator": "12-2 工业企业主要经济指标（2023），C39“计算机、通信和其他电子设备制造业”行，营业成本列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hl-2023-39-profit-49",
+      "country": "cn",
+      "region": "黑龙江",
+      "regionId": "hl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "profit",
+      "value": 27,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "本表工业企业；标题未重复规模门槛，章内范围仍待核",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hl-2023-hl2024-12-02",
+          "locator": "12-2 工业企业主要经济指标（2023），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-sn-2024-39-enterprise-count-50",
+      "country": "cn",
+      "region": "陕西",
+      "regionId": "sn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "enterprise-count",
+      "value": 304,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-sn-2024-sn2025-1304",
+          "locator": "13-4 规模以上工业企业分行业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，企业单位数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-sn-2024-39-assets-51",
+      "country": "cn",
+      "region": "陕西",
+      "regionId": "sn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "assets",
+      "value": 35571858,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-sn-2024-sn2025-1304",
+          "locator": "13-4 规模以上工业企业分行业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-sn-2024-39-revenue-52",
+      "country": "cn",
+      "region": "陕西",
+      "regionId": "sn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "revenue",
+      "value": 20334609,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-sn-2024-sn2025-1304",
+          "locator": "13-4 规模以上工业企业分行业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，营业收入列"
+        },
+        {
+          "sourceId": "dr-or-sn-2024-sn2025-1304",
+          "locator": "13-4 规模以上工业企业分行业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        },
+        {
+          "sourceId": "dr-or-sn-2024-sn2025-1304",
+          "locator": "13-4 规模以上工业企业分行业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        },
+        {
+          "sourceId": "dr-or-sn-2024-sn2025-1304",
+          "locator": "13-4 规模以上工业企业分行业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，平均用工人数列"
+        }
+      ],
+      "notes": [
+        "资产总计：35571858万元人民币（原表单位）。",
+        "利润总额：1556172万元人民币（原表单位）。",
+        "平均用工人数：82489人（原表单位）。"
+      ]
+    },
+    {
+      "id": "dr-or-sn-2024-39-cost-53",
+      "country": "cn",
+      "region": "陕西",
+      "regionId": "sn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "cost",
+      "value": 17521827,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-sn-2024-sn2025-1304",
+          "locator": "13-4 规模以上工业企业分行业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，营业成本列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-sn-2024-39-profit-54",
+      "country": "cn",
+      "region": "陕西",
+      "regionId": "sn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "profit",
+      "value": 1556172,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-sn-2024-sn2025-1304",
+          "locator": "13-4 规模以上工业企业分行业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-sn-2024-39-average-workers-55",
+      "country": "cn",
+      "region": "陕西",
+      "regionId": "sn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "average-workers",
+      "value": 82489,
+      "unit": "人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-sn-2024-sn2025-1304",
+          "locator": "13-4 规模以上工业企业分行业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，平均用工人数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jx-2024-39-enterprise-count-56",
+      "country": "cn",
+      "region": "江西",
+      "regionId": "jx",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "enterprise-count",
+      "value": 1780,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-30",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jx-2024-jx2025-1306",
+          "locator": "13-6 规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，企业单位数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jx-2024-39-assets-57",
+      "country": "cn",
+      "region": "江西",
+      "regionId": "jx",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "assets",
+      "value": 61930253,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-30",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jx-2024-jx2025-1306",
+          "locator": "13-6 规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jx-2024-39-revenue-58",
+      "country": "cn",
+      "region": "江西",
+      "regionId": "jx",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "revenue",
+      "value": 64358301,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-30",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jx-2024-jx2025-1306",
+          "locator": "13-6 规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，营业收入列"
+        },
+        {
+          "sourceId": "dr-or-jx-2024-jx2025-1306",
+          "locator": "13-6 规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        },
+        {
+          "sourceId": "dr-or-jx-2024-jx2025-1306",
+          "locator": "13-6 规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        },
+        {
+          "sourceId": "dr-or-jx-2024-jx2025-1306",
+          "locator": "13-6 规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，全部从业人员年平均人数列"
+        }
+      ],
+      "notes": [
+        "资产总计：61930253万元人民币（原表单位）。",
+        "利润总额：2574535万元人民币（原表单位）。",
+        "全部从业人员年平均人数：427488人（原表单位）。"
+      ]
+    },
+    {
+      "id": "dr-or-jx-2024-39-cost-59",
+      "country": "cn",
+      "region": "江西",
+      "regionId": "jx",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "cost",
+      "value": 58217816,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-30",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jx-2024-jx2025-1306",
+          "locator": "13-6 规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，营业成本列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jx-2024-39-profit-60",
+      "country": "cn",
+      "region": "江西",
+      "regionId": "jx",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "profit",
+      "value": 2574535,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-30",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jx-2024-jx2025-1306",
+          "locator": "13-6 规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jx-2024-39-annual-all-employees-61",
+      "country": "cn",
+      "region": "江西",
+      "regionId": "jx",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "annual-all-employees",
+      "value": 427488,
+      "unit": "人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-30",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jx-2024-jx2025-1306",
+          "locator": "13-6 规模以上工业企业主要经济指标（2024），C39“计算机、通信和其他电子设备制造业”行，全部从业人员年平均人数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jx-2023-39-enterprise-count-62",
+      "country": "cn",
+      "region": "江西",
+      "regionId": "jx",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "enterprise-count",
+      "value": 1512,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2025-03-04",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jx-2023-jx2024-1306",
+          "locator": "13-6 规模以上工业企业主要经济指标（2023），C39“计算机、通信和其他电子设备制造业”行，企业单位数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jx-2023-39-assets-63",
+      "country": "cn",
+      "region": "江西",
+      "regionId": "jx",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "assets",
+      "value": 52212473,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2025-03-04",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jx-2023-jx2024-1306",
+          "locator": "13-6 规模以上工业企业主要经济指标（2023），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jx-2023-39-revenue-64",
+      "country": "cn",
+      "region": "江西",
+      "regionId": "jx",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "revenue",
+      "value": 55823572,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2025-03-04",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jx-2023-jx2024-1306",
+          "locator": "13-6 规模以上工业企业主要经济指标（2023），C39“计算机、通信和其他电子设备制造业”行，营业收入列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jx-2023-39-cost-65",
+      "country": "cn",
+      "region": "江西",
+      "regionId": "jx",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "cost",
+      "value": 49731875,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2025-03-04",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jx-2023-jx2024-1306",
+          "locator": "13-6 规模以上工业企业主要经济指标（2023），C39“计算机、通信和其他电子设备制造业”行，营业成本列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jx-2023-39-profit-66",
+      "country": "cn",
+      "region": "江西",
+      "regionId": "jx",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "profit",
+      "value": 2561557,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2025-03-04",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jx-2023-jx2024-1306",
+          "locator": "13-6 规模以上工业企业主要经济指标（2023），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jx-2023-39-annual-all-employees-67",
+      "country": "cn",
+      "region": "江西",
+      "regionId": "jx",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "annual-all-employees",
+      "value": 381853,
+      "unit": "人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2025-03-04",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jx-2023-jx2024-1306",
+          "locator": "13-6 规模以上工业企业主要经济指标（2023），C39“计算机、通信和其他电子设备制造业”行，全部从业人员年平均人数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jx-2023-39-real-va-growth-68",
+      "country": "cn",
+      "region": "江西",
+      "regionId": "jx",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "real-va-growth",
+      "value": 9.2,
+      "unit": "%",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-30",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jx2025-growth",
+          "locator": "表13-1，C39行，2023年比上年增长列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jx-2024-39-real-va-growth-69",
+      "country": "cn",
+      "region": "江西",
+      "regionId": "jx",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "real-va-growth",
+      "value": 10.6,
+      "unit": "%",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-30",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jx2025-growth",
+          "locator": "表13-1，C39行，2024年比上年增长列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-ln-2024-39-enterprise-count-70",
+      "country": "cn",
+      "region": "辽宁",
+      "regionId": "ln",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "enterprise-count",
+      "value": 182,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-ln-2024-ln2025-14-04",
+          "locator": "14-4 按行业分规模以上工业企业主要指标（2024），C39“计算机、通信和其他电子设备制造业”行，企业单位数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-ln-2024-39-assets-71",
+      "country": "cn",
+      "region": "辽宁",
+      "regionId": "ln",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "assets",
+      "value": 663.4,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-ln-2024-ln2025-14-04",
+          "locator": "14-4 按行业分规模以上工业企业主要指标（2024），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-ln-2024-39-revenue-72",
+      "country": "cn",
+      "region": "辽宁",
+      "regionId": "ln",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "revenue",
+      "value": 605.3,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-ln-2024-ln2025-14-04",
+          "locator": "14-4 按行业分规模以上工业企业主要指标（2024），C39“计算机、通信和其他电子设备制造业”行，营业收入列"
+        },
+        {
+          "sourceId": "dr-or-ln-2024-ln2025-14-04",
+          "locator": "14-4 按行业分规模以上工业企业主要指标（2024），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        },
+        {
+          "sourceId": "dr-or-ln-2024-ln2025-14-04",
+          "locator": "14-4 按行业分规模以上工业企业主要指标（2024），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        }
+      ],
+      "notes": [
+        "资产总计：663.4亿元人民币（原表单位）。",
+        "利润总额：31.4亿元人民币（原表单位）。"
+      ]
+    },
+    {
+      "id": "dr-or-ln-2024-39-cost-73",
+      "country": "cn",
+      "region": "辽宁",
+      "regionId": "ln",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "cost",
+      "value": 509.7,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-ln-2024-ln2025-14-04",
+          "locator": "14-4 按行业分规模以上工业企业主要指标（2024），C39“计算机、通信和其他电子设备制造业”行，营业成本列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-ln-2024-39-profit-74",
+      "country": "cn",
+      "region": "辽宁",
+      "regionId": "ln",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "profit",
+      "value": 31.4,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-ln-2024-ln2025-14-04",
+          "locator": "14-4 按行业分规模以上工业企业主要指标（2024），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-ln-2023-39-enterprise-count-75",
+      "country": "cn",
+      "region": "辽宁",
+      "regionId": "ln",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "enterprise-count",
+      "value": 170,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-ln-2023-ln2024-14-04",
+          "locator": "14-4 按行业分规模以上工业企业主要指标（2023），C39“计算机、通信和其他电子设备制造业”行，企业单位数列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-ln-2023-39-assets-76",
+      "country": "cn",
+      "region": "辽宁",
+      "regionId": "ln",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "assets",
+      "value": 576.4,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-ln-2023-ln2024-14-04",
+          "locator": "14-4 按行业分规模以上工业企业主要指标（2023），C39“计算机、通信和其他电子设备制造业”行，资产总计列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-ln-2023-39-revenue-77",
+      "country": "cn",
+      "region": "辽宁",
+      "regionId": "ln",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "revenue",
+      "value": 733.8,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-ln-2023-ln2024-14-04",
+          "locator": "14-4 按行业分规模以上工业企业主要指标（2023），C39“计算机、通信和其他电子设备制造业”行，营业收入列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-ln-2023-39-cost-78",
+      "country": "cn",
+      "region": "辽宁",
+      "regionId": "ln",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "cost",
+      "value": 632.9,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-ln-2023-ln2024-14-04",
+          "locator": "14-4 按行业分规模以上工业企业主要指标（2023），C39“计算机、通信和其他电子设备制造业”行，营业成本列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-ln-2023-39-profit-79",
+      "country": "cn",
+      "region": "辽宁",
+      "regionId": "ln",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "profit",
+      "value": 34.9,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-ln-2023-ln2024-14-04",
+          "locator": "14-4 按行业分规模以上工业企业主要指标（2023），C39“计算机、通信和其他电子设备制造业”行，利润总额列"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-fj-2024-39-enterprise-count-80",
+      "country": "cn",
+      "region": "福建",
+      "regionId": "fj",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "enterprise-count",
+      "value": 856.0,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-fj2025-1105",
+          "locator": "11-05.xls，Sheet1，Excel第111行，第2列（企业单位数）；表头第1、4、5行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-fj-2024-39-assets-81",
+      "country": "cn",
+      "region": "福建",
+      "regionId": "fj",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "assets",
+      "value": 66452423.1,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-fj2025-1105",
+          "locator": "11-05.xls，Sheet1，Excel第111行，第3列（资产总计）；表头第1、4、5行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-fj-2024-39-revenue-82",
+      "country": "cn",
+      "region": "福建",
+      "regionId": "fj",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "revenue",
+      "value": 44855401.4,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-fj2025-1105",
+          "locator": "11-05.xls，Sheet1，Excel第111行，第8列（营业收入）；表头第1、4、5行"
+        },
+        {
+          "sourceId": "dr-or-fj2025-1105",
+          "locator": "11-05.xls，Sheet1，Excel第111行，第3列（资产总计）；表头第1、4、5行"
+        },
+        {
+          "sourceId": "dr-or-fj2025-1105",
+          "locator": "11-05.xls，Sheet1，Excel第111行，第10列（利润总额）；表头第1、4、5行"
+        }
+      ],
+      "notes": [
+        "资产总计：66452423.1万元人民币（原表单位）。",
+        "利润总额：1695302.5万元人民币（原表单位）。"
+      ]
+    },
+    {
+      "id": "dr-or-fj-2024-39-profit-83",
+      "country": "cn",
+      "region": "福建",
+      "regionId": "fj",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "profit",
+      "value": 1695302.5,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-fj2025-1105",
+          "locator": "11-05.xls，Sheet1，Excel第111行，第10列（利润总额）；表头第1、4、5行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jl-2024-39-enterprise-count-84",
+      "country": "cn",
+      "region": "吉林",
+      "regionId": "jl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "enterprise-count",
+      "value": 56.0,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jl2025-132",
+          "locator": "表13-2，HTML第41个tr，C39行，第2个td（企业单位数）"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jl-2024-39-assets-85",
+      "country": "cn",
+      "region": "吉林",
+      "regionId": "jl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "assets",
+      "value": 3479118.0,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jl2025-132",
+          "locator": "表13-2，HTML第41个tr，C39行，第5个td（资产总计）"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jl-2024-39-revenue-86",
+      "country": "cn",
+      "region": "吉林",
+      "regionId": "jl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "revenue",
+      "value": 2914974.0,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jl2025-132",
+          "locator": "表13-2，HTML第41个tr，C39行，第10个td（营业收入）"
+        },
+        {
+          "sourceId": "dr-or-jl2025-132",
+          "locator": "表13-2，HTML第41个tr，C39行，第5个td（资产总计）"
+        },
+        {
+          "sourceId": "dr-or-jl2025-132",
+          "locator": "表13-2，HTML第41个tr，C39行，第16个td（利润总额）"
+        },
+        {
+          "sourceId": "dr-or-jl2025-132",
+          "locator": "表13-2，HTML第41个tr，C39行，第18个td（从业人员平均人数）"
+        }
+      ],
+      "notes": [
+        "资产总计：3479118.0万元人民币（原表单位）。",
+        "利润总额：304218.0万元人民币（原表单位）。",
+        "从业人员平均人数：17873.0人（原表单位）。"
+      ]
+    },
+    {
+      "id": "dr-or-jl-2024-39-cost-87",
+      "country": "cn",
+      "region": "吉林",
+      "regionId": "jl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "cost",
+      "value": 2173507.0,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jl2025-132",
+          "locator": "表13-2，HTML第41个tr，C39行，第11个td（营业成本）"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jl-2024-39-profit-88",
+      "country": "cn",
+      "region": "吉林",
+      "regionId": "jl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "profit",
+      "value": 304218.0,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jl2025-132",
+          "locator": "表13-2，HTML第41个tr，C39行，第16个td（利润总额）"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jl-2024-39-average-employees-89",
+      "country": "cn",
+      "region": "吉林",
+      "regionId": "jl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "average-employees",
+      "value": 17873.0,
+      "unit": "人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jl2025-132",
+          "locator": "表13-2，HTML第41个tr，C39行，第18个td（从业人员平均人数）"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jl-2024-39-official-revenue-per-person-90",
+      "country": "cn",
+      "region": "吉林",
+      "regionId": "jl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "official-revenue-per-person",
+      "value": 161.1,
+      "unit": "万元人民币/人",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jl2025-132",
+          "locator": "表13-2，HTML第41个tr，C39行，官方人均营业收入列"
+        }
+      ],
+      "notes": [
+        "原表该列与营业收入÷从业人员平均人数并不相等；未以自行计算覆盖原数，也不作跨省效率排名。"
+      ]
+    },
+    {
+      "id": "dr-or-jl-2023-39-enterprise-count-91",
+      "country": "cn",
+      "region": "吉林",
+      "regionId": "jl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "enterprise-count",
+      "value": 40.0,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jl2024-132",
+          "locator": "表13-2，HTML第41个tr，C39行，第2个td（企业单位数）"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jl-2023-39-assets-92",
+      "country": "cn",
+      "region": "吉林",
+      "regionId": "jl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "assets",
+      "value": 2418017.0,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jl2024-132",
+          "locator": "表13-2，HTML第41个tr，C39行，第5个td（资产总计）"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jl-2023-39-revenue-93",
+      "country": "cn",
+      "region": "吉林",
+      "regionId": "jl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "revenue",
+      "value": 1474224.0,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jl2024-132",
+          "locator": "表13-2，HTML第41个tr，C39行，第10个td（营业收入）"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jl-2023-39-cost-94",
+      "country": "cn",
+      "region": "吉林",
+      "regionId": "jl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "cost",
+      "value": 1089584.0,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jl2024-132",
+          "locator": "表13-2，HTML第41个tr，C39行，第11个td（营业成本）"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jl-2023-39-profit-95",
+      "country": "cn",
+      "region": "吉林",
+      "regionId": "jl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "profit",
+      "value": 159310.0,
+      "unit": "万元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jl2024-132",
+          "locator": "表13-2，HTML第41个tr，C39行，第16个td（利润总额）"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jl-2023-39-average-employees-96",
+      "country": "cn",
+      "region": "吉林",
+      "regionId": "jl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "average-employees",
+      "value": 14550.0,
+      "unit": "人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jl2024-132",
+          "locator": "表13-2，HTML第41个tr，C39行，第18个td（从业人员平均人数）"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-jl-2023-39-official-revenue-per-person-97",
+      "country": "cn",
+      "region": "吉林",
+      "regionId": "jl",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "official-revenue-per-person",
+      "value": 100.2,
+      "unit": "万元人民币/人",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": null,
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-jl2024-132",
+          "locator": "表13-2，HTML第41个tr，C39行，官方人均营业收入列"
+        }
+      ],
+      "notes": [
+        "原表该列与营业收入÷从业人员平均人数并不相等；未以自行计算覆盖原数，也不作跨省效率排名。"
+      ]
+    },
+    {
+      "id": "dr-or-hb-2023-39-enterprise-count-98",
+      "country": "cn",
+      "region": "湖北",
+      "regionId": "hb",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "enterprise-count",
+      "value": 664.0,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2024-12-31",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hb2024-132-7",
+          "locator": "13-2续7，Excel第43行第3列（企业单位数）；原始单位/合并表头第3—8行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hb-2023-39-assets-99",
+      "country": "cn",
+      "region": "湖北",
+      "regionId": "hb",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "assets",
+      "value": 7345.5,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2024-12-31",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hb2024-132-7",
+          "locator": "13-2续7，Excel第43行第4列（资产总计）；原始单位/合并表头第3—8行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hb-2023-39-revenue-100",
+      "country": "cn",
+      "region": "湖北",
+      "regionId": "hb",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "revenue",
+      "value": 3867.5,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2024-12-31",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hb2024-132-10",
+          "locator": "13-2续10，Excel第44行第3列（营业收入）；原始单位/合并表头第3—8行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hb-2023-39-cost-101",
+      "country": "cn",
+      "region": "湖北",
+      "regionId": "hb",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "cost",
+      "value": 3430.49,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2024-12-31",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hb2024-132-10",
+          "locator": "13-2续10，Excel第44行第5列（营业成本）；原始单位/合并表头第3—8行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hb-2023-39-profit-102",
+      "country": "cn",
+      "region": "湖北",
+      "regionId": "hb",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "profit",
+      "value": -129.47,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2024-12-31",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hb2024-132-12",
+          "locator": "13-2续12，Excel第42行第7列（利润总额）；原始单位/合并表头第3—8行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hb-2023-39-wages-payable-103",
+      "country": "cn",
+      "region": "湖北",
+      "regionId": "hb",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "wages-payable",
+      "value": 373.76,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2024-12-31",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hb2024-132-13",
+          "locator": "13-2续13，Excel第43行第4列（本年应付职工薪酬）；原始单位/合并表头第3—8行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hb-2023-39-annual-all-employees-104",
+      "country": "cn",
+      "region": "湖北",
+      "regionId": "hb",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2024年统计年鉴",
+      "metric": "annual-all-employees",
+      "value": 23.84,
+      "unit": "万人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2024-12-31",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hb2024-132-13",
+          "locator": "13-2续13，Excel第43行第6列（全部从业人员年平均人数）；原始单位/合并表头第3—8行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hb-2024-39-enterprise-count-105",
+      "country": "cn",
+      "region": "湖北",
+      "regionId": "hb",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "enterprise-count",
+      "value": 752.0,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2025-12-31",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hb2025-132-7",
+          "locator": "13-2续7，Excel第43行第3列（企业单位数）；原始单位/合并表头第3—8行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hb-2024-39-assets-106",
+      "country": "cn",
+      "region": "湖北",
+      "regionId": "hb",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "assets",
+      "value": 7858.96,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2025-12-31",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hb2025-132-7",
+          "locator": "13-2续7，Excel第43行第4列（资产总计）；原始单位/合并表头第3—8行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hb-2024-39-revenue-107",
+      "country": "cn",
+      "region": "湖北",
+      "regionId": "hb",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "revenue",
+      "value": 4678.56,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2025-12-31",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hb2025-132-10",
+          "locator": "13-2续10，Excel第44行第3列（营业收入）；原始单位/合并表头第3—8行"
+        },
+        {
+          "sourceId": "dr-or-hb2025-132-7",
+          "locator": "13-2续7，Excel第43行第4列（资产总计）；原始单位/合并表头第3—8行"
+        },
+        {
+          "sourceId": "dr-or-hb2025-132-12",
+          "locator": "13-2续12，Excel第42行第7列（利润总额）；原始单位/合并表头第3—8行"
+        },
+        {
+          "sourceId": "dr-or-hb2025-132-13",
+          "locator": "13-2续13，Excel第43行第6列（全部从业人员年平均人数）；原始单位/合并表头第3—8行"
+        }
+      ],
+      "notes": [
+        "资产总计：7858.96亿元人民币（原表单位）。",
+        "利润总额：147.69亿元人民币（原表单位）。",
+        "全部从业人员年平均人数：25.58万人（原表单位）。"
+      ]
+    },
+    {
+      "id": "dr-or-hb-2024-39-cost-108",
+      "country": "cn",
+      "region": "湖北",
+      "regionId": "hb",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "cost",
+      "value": 4049.03,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2025-12-31",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hb2025-132-10",
+          "locator": "13-2续10，Excel第44行第5列（营业成本）；原始单位/合并表头第3—8行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hb-2024-39-profit-109",
+      "country": "cn",
+      "region": "湖北",
+      "regionId": "hb",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "profit",
+      "value": 147.69,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2025-12-31",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hb2025-132-12",
+          "locator": "13-2续12，Excel第42行第7列（利润总额）；原始单位/合并表头第3—8行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hb-2024-39-wages-payable-110",
+      "country": "cn",
+      "region": "湖北",
+      "regionId": "hb",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "wages-payable",
+      "value": 413.13,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2025-12-31",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hb2025-132-13",
+          "locator": "13-2续13，Excel第43行第4列（本年应付职工薪酬）；原始单位/合并表头第3—8行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hb-2024-39-annual-all-employees-111",
+      "country": "cn",
+      "region": "湖北",
+      "regionId": "hb",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "annual-all-employees",
+      "value": 25.58,
+      "unit": "万人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2025-12-31",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hb2025-132-13",
+          "locator": "13-2续13，Excel第43行第6列（全部从业人员年平均人数）；原始单位/合并表头第3—8行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-39-enterprise-count-112",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "enterprise-count",
+      "value": 1155.0,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-20",
+          "locator": "1-A-06-20.xls，第34行第2列；计算机、通信和其他电子设备制造业（C39），企业单位数；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-39-assets-113",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "assets",
+      "value": 3962.17,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-20",
+          "locator": "1-A-06-20.xls，第34行第3列；计算机、通信和其他电子设备制造业（C39），资产总计；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-39-revenue-114",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "revenue",
+      "value": 3094.26,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-44",
+          "locator": "1-A-06-44.xls，第34行第13列；计算机、通信和其他电子设备制造业（C39），营业收入；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-39-cost-115",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "cost",
+      "value": 2551.77,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-68",
+          "locator": "1-A-06-68.xls，第34行第2列；计算机、通信和其他电子设备制造业（C39），营业成本；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-39-profit-116",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "profit",
+      "value": 176.32,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-68",
+          "locator": "1-A-06-68.xls，第34行第11列；计算机、通信和其他电子设备制造业（C39），利润总额；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-39-average-workers-117",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "average-workers",
+      "value": 29.94,
+      "unit": "万人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-68",
+          "locator": "1-A-06-68.xls，第34行第13列；计算机、通信和其他电子设备制造业（C39），平均用工人数；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-391-enterprise-count-118",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "391",
+      "industryName": "计算机制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "enterprise-count",
+      "value": 68.0,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-20",
+          "locator": "1-A-06-20.xls，第35行第2列；计算机制造（C391），企业单位数；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-391-assets-119",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "391",
+      "industryName": "计算机制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "assets",
+      "value": 175.09,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-20",
+          "locator": "1-A-06-20.xls，第35行第3列；计算机制造（C391），资产总计；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-391-revenue-120",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "391",
+      "industryName": "计算机制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "revenue",
+      "value": 246.61,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-44",
+          "locator": "1-A-06-44.xls，第35行第13列；计算机制造（C391），营业收入；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-391-cost-121",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "391",
+      "industryName": "计算机制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "cost",
+      "value": 206.36,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-68",
+          "locator": "1-A-06-68.xls，第35行第2列；计算机制造（C391），营业成本；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-391-profit-122",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "391",
+      "industryName": "计算机制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "profit",
+      "value": 4.26,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-68",
+          "locator": "1-A-06-68.xls，第35行第11列；计算机制造（C391），利润总额；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-391-average-workers-123",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "391",
+      "industryName": "计算机制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "average-workers",
+      "value": 1.27,
+      "unit": "万人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-68",
+          "locator": "1-A-06-68.xls，第35行第13列；计算机制造（C391），平均用工人数；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-392-enterprise-count-124",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "392",
+      "industryName": "通信设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "enterprise-count",
+      "value": 81.0,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-21",
+          "locator": "1-A-06-21.xls，第7行第2列；通信设备制造（C392），企业单位数；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-392-assets-125",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "392",
+      "industryName": "通信设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "assets",
+      "value": 264.17,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-21",
+          "locator": "1-A-06-21.xls，第7行第3列；通信设备制造（C392），资产总计；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-392-revenue-126",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "392",
+      "industryName": "通信设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "revenue",
+      "value": 430.08,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-45",
+          "locator": "1-A-06-45.xls，第7行第13列；通信设备制造（C392），营业收入；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-392-cost-127",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "392",
+      "industryName": "通信设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "cost",
+      "value": 399.67,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第7行第2列；通信设备制造（C392），营业成本；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-392-profit-128",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "392",
+      "industryName": "通信设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "profit",
+      "value": 11.46,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第7行第11列；通信设备制造（C392），利润总额；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-392-average-workers-129",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "392",
+      "industryName": "通信设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "average-workers",
+      "value": 2.82,
+      "unit": "万人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第7行第13列；通信设备制造（C392），平均用工人数；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-393-enterprise-count-130",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "393",
+      "industryName": "广播电视设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "enterprise-count",
+      "value": 20.0,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-21",
+          "locator": "1-A-06-21.xls，第10行第2列；广播电视设备制造（C393），企业单位数；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-393-assets-131",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "393",
+      "industryName": "广播电视设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "assets",
+      "value": 16.4,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-21",
+          "locator": "1-A-06-21.xls，第10行第3列；广播电视设备制造（C393），资产总计；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-393-revenue-132",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "393",
+      "industryName": "广播电视设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "revenue",
+      "value": 13.47,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-45",
+          "locator": "1-A-06-45.xls，第10行第13列；广播电视设备制造（C393），营业收入；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-393-cost-133",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "393",
+      "industryName": "广播电视设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "cost",
+      "value": 10.46,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第10行第2列；广播电视设备制造（C393），营业成本；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-393-profit-134",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "393",
+      "industryName": "广播电视设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "profit",
+      "value": 0.52,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第10行第11列；广播电视设备制造（C393），利润总额；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-393-average-workers-135",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "393",
+      "industryName": "广播电视设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "average-workers",
+      "value": 0.2,
+      "unit": "万人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第10行第13列；广播电视设备制造（C393），平均用工人数；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-394-enterprise-count-136",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "394",
+      "industryName": "雷达及配套设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "enterprise-count",
+      "value": 7.0,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-21",
+          "locator": "1-A-06-21.xls，第16行第2列；雷达及配套设备制造（C394），企业单位数；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-394-assets-137",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "394",
+      "industryName": "雷达及配套设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "assets",
+      "value": 11.69,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-21",
+          "locator": "1-A-06-21.xls，第16行第3列；雷达及配套设备制造（C394），资产总计；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-394-revenue-138",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "394",
+      "industryName": "雷达及配套设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "revenue",
+      "value": 6.84,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-45",
+          "locator": "1-A-06-45.xls，第16行第13列；雷达及配套设备制造（C394），营业收入；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-394-cost-139",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "394",
+      "industryName": "雷达及配套设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "cost",
+      "value": 2.89,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第16行第2列；雷达及配套设备制造（C394），营业成本；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-394-profit-140",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "394",
+      "industryName": "雷达及配套设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "profit",
+      "value": 1.89,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第16行第11列；雷达及配套设备制造（C394），利润总额；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-394-average-workers-141",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "394",
+      "industryName": "雷达及配套设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "average-workers",
+      "value": 0.08,
+      "unit": "万人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第16行第13列；雷达及配套设备制造（C394），平均用工人数；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-395-enterprise-count-142",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "395",
+      "industryName": "非专业视听设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "enterprise-count",
+      "value": 39.0,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-21",
+          "locator": "1-A-06-21.xls，第17行第2列；非专业视听设备制造（C395），企业单位数；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-395-assets-143",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "395",
+      "industryName": "非专业视听设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "assets",
+      "value": 31.74,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-21",
+          "locator": "1-A-06-21.xls，第17行第3列；非专业视听设备制造（C395），资产总计；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-395-revenue-144",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "395",
+      "industryName": "非专业视听设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "revenue",
+      "value": 58.65,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-45",
+          "locator": "1-A-06-45.xls，第17行第13列；非专业视听设备制造（C395），营业收入；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-395-cost-145",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "395",
+      "industryName": "非专业视听设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "cost",
+      "value": 47.29,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第17行第2列；非专业视听设备制造（C395），营业成本；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-395-profit-146",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "395",
+      "industryName": "非专业视听设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "profit",
+      "value": 4.97,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第17行第11列；非专业视听设备制造（C395），利润总额；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-395-average-workers-147",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "395",
+      "industryName": "非专业视听设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "average-workers",
+      "value": 0.47,
+      "unit": "万人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第17行第13列；非专业视听设备制造（C395），平均用工人数；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-396-enterprise-count-148",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "396",
+      "industryName": "智能消费设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "enterprise-count",
+      "value": 51.0,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-21",
+          "locator": "1-A-06-21.xls，第21行第2列；智能消费设备制造（C396），企业单位数；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-396-assets-149",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "396",
+      "industryName": "智能消费设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "assets",
+      "value": 62.25,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-21",
+          "locator": "1-A-06-21.xls，第21行第3列；智能消费设备制造（C396），资产总计；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-396-revenue-150",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "396",
+      "industryName": "智能消费设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "revenue",
+      "value": 63.25,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-45",
+          "locator": "1-A-06-45.xls，第21行第13列；智能消费设备制造（C396），营业收入；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-396-cost-151",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "396",
+      "industryName": "智能消费设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "cost",
+      "value": 51.5,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第21行第2列；智能消费设备制造（C396），营业成本；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-396-profit-152",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "396",
+      "industryName": "智能消费设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "profit",
+      "value": 1.55,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第21行第11列；智能消费设备制造（C396），利润总额；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-396-average-workers-153",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "396",
+      "industryName": "智能消费设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "average-workers",
+      "value": 0.89,
+      "unit": "万人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第21行第13列；智能消费设备制造（C396），平均用工人数；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-397-enterprise-count-154",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "397",
+      "industryName": "电子器件制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "enterprise-count",
+      "value": 282.0,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-21",
+          "locator": "1-A-06-21.xls，第27行第2列；电子器件制造（C397），企业单位数；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-397-assets-155",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "397",
+      "industryName": "电子器件制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "assets",
+      "value": 1763.17,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-21",
+          "locator": "1-A-06-21.xls，第27行第3列；电子器件制造（C397），资产总计；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-397-revenue-156",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "397",
+      "industryName": "电子器件制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "revenue",
+      "value": 797.24,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-45",
+          "locator": "1-A-06-45.xls，第27行第13列；电子器件制造（C397），营业收入；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-397-cost-157",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "397",
+      "industryName": "电子器件制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "cost",
+      "value": 645.75,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第27行第2列；电子器件制造（C397），营业成本；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-397-profit-158",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "397",
+      "industryName": "电子器件制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "profit",
+      "value": 57.62,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第27行第11列；电子器件制造（C397），利润总额；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-397-average-workers-159",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "397",
+      "industryName": "电子器件制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "average-workers",
+      "value": 11.95,
+      "unit": "万人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第27行第13列；电子器件制造（C397），平均用工人数；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-398-enterprise-count-160",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "398",
+      "industryName": "电子元件及电子专用材料制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "enterprise-count",
+      "value": 524.0,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-21",
+          "locator": "1-A-06-21.xls，第35行第2列；电子元件及电子专用材料制造（C398），企业单位数；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-398-assets-161",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "398",
+      "industryName": "电子元件及电子专用材料制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "assets",
+      "value": 1467.72,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-21",
+          "locator": "1-A-06-21.xls，第35行第3列；电子元件及电子专用材料制造（C398），资产总计；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-398-revenue-162",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "398",
+      "industryName": "电子元件及电子专用材料制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "revenue",
+      "value": 1287.77,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-45",
+          "locator": "1-A-06-45.xls，第35行第13列；电子元件及电子专用材料制造（C398），营业收入；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-398-cost-163",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "398",
+      "industryName": "电子元件及电子专用材料制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "cost",
+      "value": 1041.43,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第35行第2列；电子元件及电子专用材料制造（C398），营业成本；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-398-profit-164",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "398",
+      "industryName": "电子元件及电子专用材料制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "profit",
+      "value": 80.57,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第35行第11列；电子元件及电子专用材料制造（C398），利润总额；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-398-average-workers-165",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "398",
+      "industryName": "电子元件及电子专用材料制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "average-workers",
+      "value": 10.13,
+      "unit": "万人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-69",
+          "locator": "1-A-06-69.xls，第35行第13列；电子元件及电子专用材料制造（C398），平均用工人数；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-399-enterprise-count-166",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "399",
+      "industryName": "其他电子设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "enterprise-count",
+      "value": 83.0,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-22",
+          "locator": "1-A-06-22.xls，第7行第2列；其他电子设备制造（C399），企业单位数；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-399-assets-167",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "399",
+      "industryName": "其他电子设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "assets",
+      "value": 169.94,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-22",
+          "locator": "1-A-06-22.xls，第7行第3列；其他电子设备制造（C399），资产总计；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-399-revenue-168",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "399",
+      "industryName": "其他电子设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "revenue",
+      "value": 190.35,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-46",
+          "locator": "1-A-06-46.xls，第7行第13列；其他电子设备制造（C399），营业收入；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-399-cost-169",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "399",
+      "industryName": "其他电子设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "cost",
+      "value": 146.42,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-70",
+          "locator": "1-A-06-70.xls，第7行第2列；其他电子设备制造（C399），营业成本；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-399-profit-170",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "399",
+      "industryName": "其他电子设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "profit",
+      "value": 13.48,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-70",
+          "locator": "1-A-06-70.xls，第7行第11列；其他电子设备制造（C399），利润总额；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2023-399-average-workers-171",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "399",
+      "industryName": "其他电子设备制造",
+      "period": "2023",
+      "publicationEdition": "湖南经济普查年鉴2023（2026-01-09上线）",
+      "metric": "average-workers",
+      "value": 2.13,
+      "unit": "万人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-01-09",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn-census-1a6-70",
+          "locator": "1-A-06-70.xls，第7行第13列；其他电子设备制造（C399），平均用工人数；规模门槛见1-A-06-00.xls标题"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-yn-2024-39-enterprise-count-172",
+      "country": "cn",
+      "region": "云南",
+      "regionId": "yn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "enterprise-count",
+      "value": 125,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-05-07",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-4-2规模以上工业企业主要经济数据-续表2，第42行第6列；表头第3—5行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-yn-2024-39-loss-enterprises-173",
+      "country": "cn",
+      "region": "云南",
+      "regionId": "yn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "loss-enterprises",
+      "value": 62,
+      "unit": "个",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-05-07",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-4-2规模以上工业企业主要经济数据-续表2，第42行第7列；表头第3—5行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-yn-2024-39-output-174",
+      "country": "cn",
+      "region": "云南",
+      "regionId": "yn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "output",
+      "value": 1596.27,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-05-07",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-4-2规模以上工业企业主要经济数据-续表2，第42行第8列；表头第3—5行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-yn-2024-39-assets-175",
+      "country": "cn",
+      "region": "云南",
+      "regionId": "yn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "assets",
+      "value": 2090.12,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-05-07",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-4-2规模以上工业企业主要经济数据-续表2，第42行第9列；表头第3—5行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-yn-2024-39-principal-revenue-176",
+      "country": "cn",
+      "region": "云南",
+      "regionId": "yn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "principal-revenue",
+      "value": 1398.6,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-05-07",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-4-3规模以上工业企业主要经济数据-续表3，第41行第7列；表头第3—5行"
+        },
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-4-2规模以上工业企业主要经济数据-续表2，第42行第9列；表头第3—5行"
+        },
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-4-3规模以上工业企业主要经济数据-续表3，第41行第11列；表头第3—5行"
+        },
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-4-3规模以上工业企业主要经济数据-续表3，第41行第15列；表头第3—5行"
+        }
+      ],
+      "notes": [
+        "资产总计：2090.12亿元人民币（原表单位）。",
+        "利润总额：-61.35亿元人民币（原表单位）。",
+        "从业人员平均人数：6.24万人（原表单位）。"
+      ]
+    },
+    {
+      "id": "dr-or-yn-2024-39-profit-177",
+      "country": "cn",
+      "region": "云南",
+      "regionId": "yn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "profit",
+      "value": -61.35,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-05-07",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-4-3规模以上工业企业主要经济数据-续表3，第41行第11列；表头第3—5行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-yn-2024-39-average-employees-178",
+      "country": "cn",
+      "region": "云南",
+      "regionId": "yn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "average-employees",
+      "value": 6.24,
+      "unit": "万人",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-05-07",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-4-3规模以上工业企业主要经济数据-续表3，第41行第15列；表头第3—5行"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-yn-2020-39-real-va-growth-179",
+      "country": "cn",
+      "region": "云南",
+      "regionId": "yn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2020",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "real-va-growth",
+      "value": 43.1,
+      "unit": "%",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-05-07",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-2规模以上工业增加值（2020-2024年），第48行第3列；表头第4—7行，2020年比上年增长"
+        },
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-3规模以上工业发展指数（2013-2024年）工作表，A4：按可比价格计算，上年=100；第45行C39，2024年M45=122，与8-2的22%衔接"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-yn-2020-39-industry-share-180",
+      "country": "cn",
+      "region": "云南",
+      "regionId": "yn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2020",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "industry-share",
+      "value": 3.7,
+      "unit": "%",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-05-07",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-2规模以上工业增加值（2020-2024年），第48行第4列；表头第4—7行，2020年占比"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-yn-2021-39-real-va-growth-181",
+      "country": "cn",
+      "region": "云南",
+      "regionId": "yn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2021",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "real-va-growth",
+      "value": 45.3,
+      "unit": "%",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-05-07",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-2规模以上工业增加值（2020-2024年），第48行第5列；表头第4—7行，2021年比上年增长"
+        },
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-3规模以上工业发展指数（2013-2024年）工作表，A4：按可比价格计算，上年=100；第45行C39，2024年M45=122，与8-2的22%衔接"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-yn-2021-39-industry-share-182",
+      "country": "cn",
+      "region": "云南",
+      "regionId": "yn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2021",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "industry-share",
+      "value": 6.4,
+      "unit": "%",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-05-07",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-2规模以上工业增加值（2020-2024年），第48行第6列；表头第4—7行，2021年占比"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-yn-2022-39-real-va-growth-183",
+      "country": "cn",
+      "region": "云南",
+      "regionId": "yn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2022",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "real-va-growth",
+      "value": 58,
+      "unit": "%",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-05-07",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-2规模以上工业增加值（2020-2024年），第48行第7列；表头第4—7行，2022年比上年增长"
+        },
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-3规模以上工业发展指数（2013-2024年）工作表，A4：按可比价格计算，上年=100；第45行C39，2024年M45=122，与8-2的22%衔接"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-yn-2022-39-industry-share-184",
+      "country": "cn",
+      "region": "云南",
+      "regionId": "yn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2022",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "industry-share",
+      "value": 9.3,
+      "unit": "%",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-05-07",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-2规模以上工业增加值（2020-2024年），第48行第8列；表头第4—7行，2022年占比"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-yn-2023-39-real-va-growth-185",
+      "country": "cn",
+      "region": "云南",
+      "regionId": "yn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "real-va-growth",
+      "value": 27.7,
+      "unit": "%",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-05-07",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-2规模以上工业增加值（2020-2024年），第48行第9列；表头第4—7行，2023年比上年增长"
+        },
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-3规模以上工业发展指数（2013-2024年）工作表，A4：按可比价格计算，上年=100；第45行C39，2024年M45=122，与8-2的22%衔接"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-yn-2023-39-industry-share-186",
+      "country": "cn",
+      "region": "云南",
+      "regionId": "yn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2023",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "industry-share",
+      "value": 9.3,
+      "unit": "%",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-05-07",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-2规模以上工业增加值（2020-2024年），第48行第10列；表头第4—7行，2023年占比"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-yn-2024-39-real-va-growth-187",
+      "country": "cn",
+      "region": "云南",
+      "regionId": "yn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "real-va-growth",
+      "value": 22,
+      "unit": "%",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-05-07",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-2规模以上工业增加值（2020-2024年），第48行第11列；表头第4—7行，2024年比上年增长"
+        },
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-3规模以上工业发展指数（2013-2024年）工作表，A4：按可比价格计算，上年=100；第45行C39，2024年M45=122，与8-2的22%衔接"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-yn-2024-39-industry-share-188",
+      "country": "cn",
+      "region": "云南",
+      "regionId": "yn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2024",
+      "publicationEdition": "2025年统计年鉴",
+      "metric": "industry-share",
+      "value": 8.4,
+      "unit": "%",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-05-07",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-yn2025-industry",
+          "locator": "8-2规模以上工业增加值（2020-2024年），第48行第12列；表头第4—7行，2024年占比"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2025-39-profit-189",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2025",
+      "publicationEdition": "2025年统计公报",
+      "metric": "profit",
+      "value": 159.6,
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-03-25",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn2025-bulletin",
+          "locator": "工业利润段落：“计算机、通信和其他电子设备制造业利润159.6亿元，下降10.7%”"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "dr-or-hn-2025-39-profit-growth-comparable-190",
+      "country": "cn",
+      "region": "湖南",
+      "regionId": "hn",
+      "industryCode": "39",
+      "industryName": "计算机、通信和其他电子设备制造业",
+      "period": "2025",
+      "publicationEdition": "2025年统计公报",
+      "metric": "profit-growth-comparable",
+      "value": -10.7,
+      "unit": "%",
+      "currency": null,
+      "scope": "规模以上工业企业",
+      "releaseDate": "2026-03-25",
+      "revision": "原表出版版本值；未见该表独立修订日期，不与不同版本直接计算可比增长",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "dr-or-hn2025-bulletin",
+          "locator": "同上，按公报直接公布下降10.7%保留"
+        }
+      ],
+      "notes": [
+        "公报给出的同比；不拿159.6与2025年鉴中2024年180.93直接重算。"
+      ]
+    }
+  ],
+  "notes": [
+    "这是原始观察集；同地区、同年、不同出版版次不自动覆写。",
+    "本轮未取得24地2025年鉴之外更全面现价增加值；经营数据不补GDP扇区。"
+  ]
+}

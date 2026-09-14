@@ -1,0 +1,987 @@
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:等线;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-char-type:none;
+	display:none;}
+-->
+tr
+	{mso-height-source:auto;
+	mso-ruby-visibility:none;}
+col
+	{mso-width-source:auto;
+	mso-ruby-visibility:none;}
+br
+	{mso-data-placement:same-cell;}
+ruby
+	{ruby-align:left;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:等线;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:常规;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:等线;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl65
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl66
+	{mso-style-parent:style0;
+	font-weight:700;
+	mso-number-format:"0_ ";
+	text-align:right;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;}
+.xl67
+	{mso-style-parent:style0;
+	mso-number-format:"0_ ";
+	text-align:right;}
+.xl68
+	{mso-style-parent:style0;
+	mso-number-format:"0_ ";
+	text-align:right;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl69
+	{mso-style-parent:style0;
+	font-weight:700;
+	text-align:left;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:#FFFF99;
+	mso-pattern:black none;}
+.xl70
+	{mso-style-parent:style0;
+	text-align:left;
+	background:#FFFF99;
+	mso-pattern:black none;}
+.xl71
+	{mso-style-parent:style0;
+	text-align:left;
+	background:#FFFF99;
+	mso-pattern:black none;
+	padding-left:60px;
+	mso-char-indent-count:5;}
+.xl72
+	{mso-style-parent:style0;
+	text-align:left;
+	background:#FFFF99;
+	mso-pattern:black none;
+	padding-left:24px;
+	mso-char-indent-count:2;}
+.xl73
+	{mso-style-parent:style0;
+	text-align:left;
+	background:#FFFF99;
+	mso-pattern:black none;
+	padding-left:48px;
+	mso-char-indent-count:4;}
+.xl74
+	{mso-style-parent:style0;
+	text-align:left;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#FFFF99;
+	mso-pattern:black none;}
+.xl75
+	{mso-style-parent:style0;
+	text-align:center;
+	border:.5pt solid windowtext;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl76
+	{mso-style-parent:style0;
+	font-weight:700;
+	mso-number-format:"0\.0_ ";
+	text-align:right;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;}
+.xl77
+	{mso-style-parent:style0;
+	mso-number-format:"0\.0_ ";
+	text-align:right;}
+.xl78
+	{mso-style-parent:style0;
+	mso-number-format:"0\.0_ ";
+	text-align:right;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl79
+	{mso-style-parent:style0;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl80
+	{mso-style-parent:style0;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl81
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl82
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl83
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl84
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl85
+	{mso-style-parent:style0;
+	text-align:center;
+	white-space:normal;}
+.xl86
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl87
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl88
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl89
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl90
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl91
+	{mso-style-parent:style0;
+	font-size:14.0pt;
+	font-weight:700;
+	text-align:center;}
+.xl92
+	{mso-style-parent:style0;
+	text-align:center;}
+.xl93
+	{mso-style-parent:style0;
+	text-align:right;}
+13-1 规模以上工业企业主要指标（2024年）
+单位：万元
+指标
+企业单位数(个)
+产成品
+资产总计
+负债合计
+所有者权益合计
+营业收入
+营业成本
+销售费用
+管理费用
+财务费用
+利润总额
+亏损企业亏损总额
+从业人员平均人数(人)
+资产负债率(％)
+营业收入利润率(％)
+人均营业收入(万元/人)
+#亏损企业
+#流动资产合计
+#利息费用
+#应收账款
+总计
+3427
+1211
+4875941
+211507697
+97451098
+24879484
+122353186
+88871374
+131183770
+113227463
+2517235
+5606361
+1187473
+1164353
+5956116
+3627439
+690872
+57.8
+4.5
+187.9
+在总计中:1国有企业
+5
+4
+85
+205499
+30524
+9589
+190343
+15156
+61928
+66012
+448
+2906
+644
+590
+-6494
+6594
+1086
+92.6
+-10.5
+57.8
+2集体企业
+2
+1
+679
+19874
+17956
+6871
+11991
+7883
+6403
+5574
+22
+563
+27
+21
+167
+28
+132
+60.3
+2.6
+48.1
+3股份合作制企业
+1
+1
+81
+3097
+2811
+1590
+1634
+1463
+289
+298
+363
+-2
+-321
+321
+19
+52.8
+-110.9
+36.2
+4联营企业
+5有限责任公司
+2967
+1065
+2893997
+101064533
+46192698
+12959645
+66224582
+34538665
+60119092
+51653178
+1384814
+2689309
+861873
+667040
+1416899
+1814470
+428520
+65.5
+2.4
+135.9
+6股份有限公司
+214
+80
+1268973
+75088127
+29902073
+6885976
+33933699
+41169462
+28226260
+25245233
+791875
+1166033
+314595
+368815
+1567651
+1333613
+163133
+45.2
+5.6
+181.0
+7私营企业
+2173
+762
+1617657
+35136361
+20359505
+5244223
+22032288
+13071225
+21308773
+17896664
+851278
+1270316
+375831
+219734
+667537
+604875
+217074
+62.7
+3.1
+96.8
+8外商及港澳台投资企业
+227
+55
+706772
+35035857
+21242784
+4998156
+21933237
+13105736
+42711145
+36209809
+339229
+1740571
+10124
+127878
+2975242
+470778
+97196
+62.6
+7.0
+437.6
+9其他企业
+1
+2613
+3202
+1924
+1303
+1899
+2701
+2142
+41
+251
+175
+13
+40.7
+6.5
+207.7
+在总计中:亏损企业
+1211
+1211
+1644065
+68028300
+25314837
+5616288
+54206741
+13613649
+34402357
+32534874
+732810
+2000226
+784328
+625918
+-3627439
+3627439
+256645
+79.7
+-10.5
+128.9
+在总计中:国有控股企业
+469
+162
+1746423
+127336408
+53401870
+13060719
+70265301
+57066302
+78550261
+68503995
+815142
+2788203
+364974
+597119
+4210245
+1843318
+295729
+55.2
+5.4
+268.2
+其中:亏损企业
+162
+162
+584860
+36851093
+11961296
+2961141
+29462318
+7391762
+22135027
+20854399
+271843
+918384
+301412
+305557
+-1843318
+1843318
+138202
+79.9
+-8.3
+156.2
+其中:中央企业
+32
+32
+419353
+26181044
+8000297
+2194391
+19566096
+6618612
+19051157
+17535103
+204920
+689623
+146633
+200198
+-1148285
+1148285
+101480
+74.7
+-6.0
+188.6
+在总计中:新建企业
+59
+25
+7511
+4169971
+672258
+121664
+3524881
+645089
+539558
+480261
+5669
+309299
+31480
+33358
+-290921
+350548
+5542
+84.5
+-53.9
+76.8
+在总计中:大中型工业
+402
+117
+2813799
+150540164
+67154960
+15544984
+82384569
+68116037
+98874163
+85404985
+1552011
+3908283
+521018
+728024
+5093967
+2427222
+464223
+54.7
+5.2
+214.2
+其中:国有控股企业
+127
+44
+1572531
+109272951
+47463578
+10648545
+58440062
+50832888
+71742870
+62508119
+723795
+2568770
+163150
+417254
+3927097
+1509661
+269135
+53.5
+5.5
+271.1
+其中:亏损企业
+44
+44
+511038
+32407757
+10319332
+2523425
+25625009
+6782747
+21007613
+19679782
+227788
+809744
+243367
+260368
+-1509661
+1509661
+126636
+79.1
+-7.2
+163.8
+在总计中:1国有控股
+469
+162
+1746423
+127336408
+53401870
+13060719
+70265301
+57066302
+78550261
+68503995
+815142
+2788203
+364974
+597119
+4210245
+1843318
+295729
+55.2
+5.4
+268.2
+2集体控股
+38
+20
+65134
+2881019
+1430218
+431667
+1039071
+1841948
+1214706
+781500
+112278
+86481
+193
+6349
+128488
+86108
+12254
+36.1
+10.6
+99.3
+3私人控股
+2723
+981
+2666485
+66875082
+35042946
+8495967
+41855224
+24783864
+38212873
+32878216
+1272019
+1900940
+706922
+437550
+1047690
+1237142
+322326
+62.6
+2.7
+115.9
+4港澳台商控股
+49
+11
+149863
+4128461
+2043447
+526084
+3107455
+1012184
+3131114
+2686349
+75895
+119026
+84249
+83073
+145265
+89829
+15544
+75.3
+4.6
+202.5
+5外商控股
+148
+37
+248037
+10286727
+5532616
+2365047
+6086135
+4167076
+10074817
+8377403
+241900
+711711
+31134
+40262
+424428
+371042
+45019
+59.2
+4.2
+211.5
+6其他
+在总计中:轻工业
+1211
+440
+1604582
+35764284
+19221155
+3916079
+18954326
+16630688
+23498982
+17337985
+1513956
+1099385
+267448
+245357
+1431386
+643567
+188108
+53.0
+6.1
+124.5
+重工业
+2216
+771
+3271359
+175743414
+78229943
+20963405
+103398860
+72240686
+107684788
+95889478
+1003279
+4506976
+920025
+918996
+4524730
+2983872
+502764
+58.8
+4.2
+211.4
+在总计中:大型企业
+83
+22
+1914993
+115796367
+51156523
+11606383
+58664298
+57132068
+76985699
+67051881
+992203
+2631520
+157686
+421776
+4412722
+1444277
+298738
+50.7
+5.7
+260.8
+中型企业
+319
+95
+898806
+34743797
+15998437
+3938600
+23720271
+10983969
+21888464
+18353104
+559807
+1276764
+363332
+306247
+681245
+982946
+165485
+68.3
+3.1
+131.6
+小型企业
+2340
+821
+1853955
+49677285
+25525212
+7563136
+31665679
+18023545
+29038347
+24910822
+928852
+1561521
+500466
+355424
+841564
+971850
+216840
+63.7
+2.9
+130.9
+微型企业
+685
+273
+208188
+11290248
+4770926
+1771365
+8302937
+2731792
+3271260
+2911656
+36372
+136557
+165989
+80906
+20584
+228366
+9809
+73.5
+0.6
+224.1
+在总计中:中央企业
+162
+32
+1207720
+95640384
+39971429
+9905384
+49758205
+45885842
+61768612
+55105449
+307398
+2015001
+105258
+373659
+3598588
+1148285
+189869
+52.0
+5.8
+329.7
+地方企业
+3265
+1179
+3668221
+115867314
+57479669
+14974100
+72594980
+42985532
+69415158
+58122014
+2209837
+3591360
+1082214
+790695
+2357528
+2479154
+501003
+62.7
+3.4
+135.9
+在总计中:民营工业
+2761
+1001
+2731619
+69756101
+36473164
+8927633
+42894295
+26625812
+39427579
+33659716
+1384297
+1987421
+707116
+443899
+1176178
+1323250
+334580
+61.5
+3.0
+115.3
+在总计中:非公有工业
+2920
+1029
+3064385
+81290270
+42619009
+11387098
+51048814
+29963124
+51418804
+43941967
+1589815
+2731677
+822305
+560885
+1617383
+1698013
+382889
+62.8
+3.1
+130.9

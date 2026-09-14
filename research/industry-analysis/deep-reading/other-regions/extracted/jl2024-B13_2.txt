@@ -1,0 +1,1367 @@
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+.font52258
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.xl152258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl222258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:white;
+	mso-pattern:white none;
+	white-space:nowrap;}
+.xl232258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:right;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:white;
+	mso-pattern:white none;
+	white-space:nowrap;}
+.xl242258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:right;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:1pt solid windowtext;
+	border-left:none;
+	background:white;
+	mso-pattern:white none;
+	white-space:nowrap;}
+.xl252258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:right;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:white;
+	mso-pattern:white none;
+	white-space:nowrap;}
+.xl262258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:white;
+	mso-pattern:white none;
+	white-space:nowrap;}
+.xl272258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:right;
+	vertical-align:middle;
+	background:white;
+	mso-pattern:white none;
+	white-space:nowrap;}
+.xl282258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl292258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	border-top:1pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:#FFCAB0;
+	mso-pattern:#CCFFFF none;
+	white-space:normal;}
+.xl302258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:1pt solid windowtext;
+	border-left:none;
+	background:#FFCAB0;
+	mso-pattern:#CCFFFF none;
+	mso-protection:unlocked visible;
+	white-space:normal;}
+.xl312258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1pt solid windowtext;
+	border-right:none;
+	border-bottom:1pt solid windowtext;
+	border-left:1pt solid windowtext;
+	background:#90FFFF;
+	mso-pattern:#FFFF99 none;
+	white-space:normal;}
+.xl322258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#CCFFCC;
+	mso-pattern:#FFFF99 none;
+	white-space:normal;}
+.xl332258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1pt solid windowtext;
+	border-right:none;
+	border-bottom:1pt solid windowtext;
+	border-left:none;
+	background:#90FFFF;
+	mso-pattern:#FFFF99 none;
+	white-space:normal;}
+.xl342258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#CCFFCC;
+	mso-pattern:#FFFF99 none;
+	white-space:normal;}
+.xl352258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#CCFFCC;
+	mso-pattern:#FFFF99 none;
+	white-space:normal;}
+.xl362258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1pt solid windowtext;
+	border-right:none;
+	border-bottom:1pt solid windowtext;
+	border-left:1pt solid windowtext;
+	background:#90FFFF;
+	mso-pattern:#FFFF99 none;
+	white-space:normal;}
+.xl372258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:黑体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:121;
+	vertical-align:middle;
+	background:#FFFF99;
+	mso-pattern:auto none;
+	mso-protection:unlocked visible;
+	white-space:normal;}
+.xl382258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:121;
+	vertical-align:middle;
+	background:#FFFF99;
+	mso-pattern:#CCFFFF none;
+	mso-protection:unlocked visible;
+	white-space:normal;}
+.xl392258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:14.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:黑体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	background:white;
+	mso-pattern:white none;
+	white-space:normal;}
+.xl402258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:#FF99FF;
+	mso-pattern:#CCFFFF none;
+	white-space:normal;}
+.xl412258
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:8.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:1pt solid windowtext;
+	border-left:none;
+	background:#FF99FF;
+	mso-pattern:#CCFFFF none;
+	mso-protection:unlocked visible;
+	white-space:normal;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-char-type:none;}
+-->
+13-2 按行业分规模以上工业企业主要指标（2023年）
+单位：万元
+项目
+企业单位数（个）
+产成品
+资产总计
+负债合计
+所有者权益合计
+营业收入
+营业成本
+销售费用
+管理费用
+财务费用
+利润总额
+亏损企业亏损总额
+从业人员平均人数
+资产负债率（%）
+营业收入利润率（%）
+人均营业收入（万元/人）
+#亏损企业
+流动资产合计
+利息费用
+应收账款
+总计
+3234
+1031
+5273495
+202753372
+94806609
+20887139
+115000348
+87768805
+140253832
+119337489
+2595965
+5389287
+1246605
+1400821
+8066456
+2866304
+715153
+56.7
+5.8
+194.0
+煤炭开采和洗选业
+29
+19
+29953
+2648842
+904080
+45113
+2210685
+438157
+653451
+570900
+5609
+97277
+35620
+40959
+-57738
+76845
+16467
+83.5
+-8.8
+33.9
+石油和天然气开采业
+8
+5
+15582
+4572148
+45830
+19111
+3751942
+820207
+1991572
+1221372
+21130
+204371
+74411
+73336
+26119
+53726
+25756
+82.1
+1.3
+77.4
+黑色金属矿采选业
+26
+10
+37681
+1221404
+463032
+196842
+578108
+643295
+490832
+420913
+9883
+32376
+6656
+5754
+15232
+15252
+3846
+47.3
+3.1
+120.7
+有色金属矿采选业
+24
+10
+28056
+1718334
+647343
+82705
+1004855
+713479
+744097
+387869
+1503
+71950
+25139
+24758
+223338
+29610
+8246
+58.5
+30.0
+89.7
+非金属矿采选业
+27
+9
+21604
+251552
+103009
+30308
+169649
+81903
+132395
+91038
+8056
+20053
+2659
+2679
+4318
+3002
+1478
+67.4
+3.3
+82.6
+开采辅助活动
+15
+4
+43211
+712601
+290554
+132739
+668290
+44311
+828552
+783877
+2
+36191
+9777
+9652
+5605
+1139
+11674
+93.8
+0.7
+69.8
+其他采矿业
+农副食品加工业
+443
+143
+607614
+7698159
+5191020
+1045976
+5019929
+2678226
+9770703
+9228285
+186784
+166610
+98051
+85217
+37465
+203031
+39255
+65.2
+0.4
+248.8
+食品制造业
+112
+45
+124026
+3052848
+1663361
+276154
+1845027
+1207820
+1904300
+1619909
+72671
+85550
+43155
+39756
+242358
+28000
+18361
+60.4
+12.7
+104.3
+酒、饮料和精制茶制造业
+54
+18
+152292
+2916923
+1135638
+135754
+1715689
+1201234
+2205149
+1840150
+99981
+115217
+33212
+32346
+49013
+109406
+12815
+58.8
+2.2
+170.6
+烟草制品业
+3
+37978
+1188288
+817368
+22783
+427026
+761262
+2069449
+556695
+28618
+163718
+-3380
+46
+100715
+3616
+35.9
+4.9
+572.3
+纺织业
+18
+8
+16740
+235674
+122606
+32055
+179468
+56206
+97294
+88774
+2575
+6984
+785
+857
+-2215
+5638
+2327
+76.2
+-2.3
+41.9
+纺织服装、服饰业
+61
+17
+31339
+571417
+428022
+170177
+388236
+183181
+509162
+417742
+11900
+30468
+623
+178
+42096
+3959
+24676
+67.9
+8.3
+20.7
+皮革、毛皮、羽毛及其制品和制鞋业
+7
+23857
+71088
+55184
+12968
+53478
+17610
+73030
+68571
+283
+2939
+272
+149
+899
+1347
+75.2
+1.2
+54.1
+木材加工和木、竹、藤、棕、草制品业
+56
+15
+66824
+400259
+320346
+48898
+253207
+147051
+292272
+253895
+8404
+15629
+1332
+3512
+1703
+9936
+5244
+63.3
+0.6
+55.9
+家具制造业
+10
+5
+2485
+52676
+20812
+3313
+47196
+5479
+23092
+20544
+970
+2259
+1445
+97
+-2291
+2846
+836
+89.6
+-9.9
+27.0
+造纸和纸制品业
+32
+15
+12557
+550068
+236717
+107014
+342533
+207535
+396867
+374269
+7369
+15605
+4422
+3846
+-2462
+7802
+3362
+62.3
+-0.6
+115.9
+印刷和记录媒介复制业
+18
+5
+13742
+261011
+156259
+45035
+149045
+111966
+137860
+112677
+2732
+13567
+1373
+1512
+6237
+2718
+2215
+57.1
+4.5
+62.0
+文教、工美、体育和娱乐用品制造业
+8
+3
+4590
+38421
+30966
+9322
+22896
+15525
+21737
+17758
+1309
+2303
+589
+150
+-1793
+2180
+1189
+59.6
+-8.3
+17.5
+石油加工、炼焦和核燃料加工业
+20
+7
+83928
+3572236
+1171740
+18250
+2215781
+1356455
+7325660
+6135869
+18461
+98315
+23196
+25315
+-30560
+41102
+23930
+62.0
+-0.4
+306.1
+化学原料和化学制品制造业
+176
+77
+262956
+6864080
+3573794
+509625
+5308665
+1555414
+3814612
+3397960
+100235
+194287
+114946
+92234
+-42303
+189299
+20735
+77.3
+-1.1
+184.1
+医药制造业
+258
+77
+446289
+15148867
+8621412
+1731339
+6238565
+8910301
+5649182
+2259427
+1012663
+390814
+90299
+79689
+1435671
+167776
+58765
+41.2
+25.4
+96.1
+化学纤维制造业
+6
+4
+101050
+2939114
+1236505
+296783
+2040550
+898564
+1382231
+1214647
+24439
+33855
+61518
+51991
+20390
+5937
+12332
+69.4
+1.5
+112.3
+橡胶和塑料制品业
+87
+23
+102770
+2212987
+975863
+238406
+1085157
+1127828
+1378744
+1273093
+21267
+73418
+12584
+11484
+7908
+29142
+10843
+49.0
+0.6
+117.9
+非金属矿物制品业
+314
+110
+205461
+7292676
+4330215
+1525087
+4942531
+2350140
+3308899
+2968721
+110312
+180210
+86232
+78802
+-83105
+220328
+27458
+67.8
+-2.5
+117.8
+黑色金属冶炼和压延加工业
+41
+15
+222905
+8568090
+2035219
+191224
+5478636
+3089454
+8121948
+8109389
+58935
+100507
+97710
+87851
+-262869
+324060
+22772
+63.9
+-3.2
+333.7
+有色金属冶炼和压延加工业
+31
+12
+70483
+1727178
+1000365
+163041
+783565
+943612
+2004513
+1897037
+9085
+40197
+10994
+13766
+3134
+32547
+6702
+45.4
+0.2
+285.5
+金属制品业
+75
+25
+117503
+1638866
+949716
+352692
+1004849
+634016
+1090589
+992550
+15932
+67939
+16341
+11484
+-37004
+52833
+10677
+61.3
+-3.4
+99.2
+通用设备制造业
+100
+28
+75212
+1356955
+1029938
+389848
+848856
+508098
+786250
+633972
+33725
+61794
+12665
+10762
+20697
+19078
+9411
+62.6
+2.6
+83.5
+专用设备制造业
+120
+29
+193619
+3331703
+2341631
+640896
+2061088
+1257770
+1797771
+1402455
+85824
+108097
+11627
+15113
+109459
+78653
+18798
+61.9
+6.1
+97.1
+汽车制造业
+447
+104
+1830909
+74112023
+37756479
+6265135
+32993123
+41118896
+59386841
+51542226
+337106
+1992728
+-119825
+114300
+5771864
+398525
+168726
+44.5
+9.7
+351.6
+铁路、船舶、航空航天和其他运输设备制造业
+46
+5
+50831
+7832063
+5754808
+2189186
+4754734
+3106155
+3330315
+2595502
+141618
+168937
+-15447
+9530
+244474
+33825
+21790
+60.7
+7.3
+149.6
+电气机械和器材制造业
+61
+15
+95535
+2041211
+1517342
+787159
+1203606
+837604
+1821805
+1595587
+31514
+69599
+12793
+10865
+84543
+8573
+6539
+59.0
+4.6
+275.5
+计算机、通信和其他电子设备制造业
+40
+12
+90297
+2418017
+1385420
+408613
+967623
+1450394
+1474224
+1089584
+37200
+95811
+5681
+12473
+159310
+17713
+14550
+40.0
+10.8
+100.2
+仪器仪表制造业
+31
+5
+17084
+506981
+315520
+86583
+183784
+323027
+197158
+127855
+9434
+24750
+1249
+974
+27658
+1596
+4060
+36.3
+14.0
+49.3
+其他制造业
+6
+2
+3777
+327116
+237139
+36700
+163081
+164034
+119147
+89614
+787
+16001
+-2138
+59
+-3610
+4620
+1916
+49.9
+-3.0
+62.2
+废弃资源综合利用业
+18
+4
+3917
+258017
+139990
+38006
+148352
+109664
+430730
+423238
+3306
+10306
+814
+380
+-5628
+10314
+1746
+57.5
+-1.3
+248.3
+金属制品、机械和设备修理业
+9
+1
+3926
+703769
+322041
+65755
+546255
+157514
+346151
+296659
+2873
+25634
+7181
+6912
+12115
+9
+6050
+77.6
+3.5
+57.6
+电力、热力生产和供应业
+320
+115
+11239
+28453339
+6480882
+2350709
+21120845
+7332492
+12568687
+11815049
+8622
+463732
+457046
+413395
+-56456
+633393
+70045
+74.2
+-0.5
+179.4
+燃气生产和供应业
+51
+17
+11746
+1881661
+560883
+115400
+1205605
+676056
+1313166
+1209714
+36321
+45415
+17131
+18287
+3938
+28538
+5905
+64.1
+0.3
+219.7
+水的生产和供应业
+26
+13
+1928
+1404711
+437560
+70438
+877837
+526874
+263398
+192104
+26530
+43876
+7864
+10357
+-1768
+13355
+8693
+62.5
+-0.7
+30.4

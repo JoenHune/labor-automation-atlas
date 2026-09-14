@@ -1,0 +1,620 @@
+贵州省统计局门户网站
+var layer;
+			layui.use('layer', function(){
+			  	layer = layui.layer;
+			});
+			//微信
+			function alertwx(){
+				var imgs = 'http://stjj.guizhou.gov.cn/zmhd/zwwx/images/P020250101729871438001.jpg';
+				if(imgs!=""){
+					if(window_Width>410){
+						layer.open({
+							type: 1,
+							area: ['410px', '410px'],
+							title: false, //不显示标题
+							shadeClose: true,
+							content: '<img src='+imgs+' style="width:400px;" />'
+						});
+					}else{
+						var tpgd=window_Width - 20;
+						var tpgds=window_Width - 30;
+						layer.open({
+							type: 1,
+							area: [tpgd+'px', tpgd+'px'],
+							title: false, //不显示标题
+							shadeClose: true,
+							content: '<img src='+imgs+' style="width:'+tpgds+'px;" />'
+						});
+					}
+				}else{
+					layer.msg('暂无微信！');
+				}
+			}
+			function alertwb(){
+				var imgs = '';
+				if(imgs!=""){
+					if(window_Width>410){
+						layer.open({
+							type: 1,
+							area: ['410px', '410px'],
+							title: false, //不显示标题
+							shadeClose: true,
+							content: '<img src='+imgs+' style="width:400px;" />'
+						});
+					}else{
+						var tpgd=window_Width - 20;
+						var tpgds=window_Width - 30;
+						layer.open({
+							type: 1,
+							area: [tpgd+'px', tpgd+'px'],
+							title: false, //不显示标题
+							shadeClose: true,
+							content: '<img src='+imgs+' style="width:'+tpgds+'px;" />'
+						});
+					}
+				}else{
+					layer.msg('暂无微博！');
+				}
+			}
+.hf img{
+width:1540px
+}
+@media only screen and (max-width: 750px) {
+
+.hf img{
+width: 100%;
+   
+    object-fit: cover;
+}
+}
+5964631
+中国政府网
+|
+贵州省人民政府网
+无障碍浏览
+关怀版
+个人中心
+官方微博二维码
+微信公众号二维码
+搜索
+首页
+政务公开
+政务服务
+政民互动
+统计数据
+专题专栏
+习近平抵达新德里出席金砖国家领导人第十八次会晤
+习近平同缅甸总统敏昂莱会谈
+习近平同美国总统特朗普会谈
+习近平同莫桑比克总统查波会谈
+习近平在全军高级干部培训班开班式上发表重要讲话强调 开展思想整风 深化政治整训 以崭新政治面貌迎接建军一百周年
+if (!isMobile) {
+                                    jQuery(".Focus").slide({
+                                        titCell: ".num li",
+                                        mainCell: ".pic",
+                                        effect: "fold",
+                                        autoPlay: true,
+                                        prevCell: ".prev",
+                                        nextCell: ".next",
+                                        targetCell: ".txt ul li"
+                                    });
+                                } else {
+                                    TouchSlide({
+                                        slideCell: "#Focus",
+                                        titCell: ".num li",
+                                        mainCell: ".pic",
+                                        autoPlay: true,
+                                        effect: "left",
+                                        // autoPage: true, //自动分页
+                                        switchLoad: "_src", //切换加载，真实图片路径为"_src" 
+                                        startFun: function (i) {
+                                            $("#Focus .txt li").eq(i).show().siblings().hide();
+                                        }
+                                    });
+                                }
+时政要闻
+习近平抵达新德里出席金砖国家领导人第十八次会晤
+2026-09-13
+当地时间9月12日中午，国家主席习近平乘专机抵达新德里，应印度总理莫迪邀请，出席金砖国家领导人第十八次会晤。习近平抵达新德里帕拉姆空军基地时，印度...
+李强主持召开国务院常务会议 对加强安全生产工作作出进一步部署
+2026-09-12
+李强主持召开国务院常务会议 学习贯彻习近平总书记在中央政治局会议研究部署西藏日喀则市吉隆县泥石流灾害抢险救援工作时的重要讲话精神
+2026-09-01
+李强主持召开国务院常务会议 听取新一代通信网建设情况汇报等
+2026-08-22
+李强主持召开国务院常务会议 学习贯彻习近平总书记关于上半年经济形势和做好下半年经济工作的重要讲话精神
+2026-08-01
+李强主持召开国务院常务会议 听取对服务业扩能提质和“六张网”规划建设督查情况汇报等
+2026-07-21
+$(function(){
+					var nr=$(".first>.cont").html();
+					nr=nr.trim().replace(/\s*/g,"");
+					$(".first>.cont").html(nr);
+				})
+国务院信息
+国务院文件
+省政府文件
+统计要闻
+各地要事
+统计要闻
+省委第十二巡视组巡视省统计局党组工作动员会召开
+省统计局召开树立和践行正确政绩观学习教育总结会议
+贵州省第四次全国农业普查普查方案培训班在黔南都匀市举办
+王朝晖局长赴数据宝公司调研
+全省统计部门半年工作会议在贵阳召开
+1
+/5
+省委第十二巡视组巡视公告
+2026-07-16
+省委第十二巡视组巡视省统计局党组工作动员会召开
+2026-07-16
+省统计局召开树立和践行正确政绩观学习教育总结会议
+2026-09-09
+贵州省第四次全国农业普查普查方案培训班在黔南都匀市举办
+2026-09-09
+王朝晖局长赴数据宝公司调研
+2026-08-24
+各地要事
+镇宁县举办第四次全国农业普查方案培训班
+2026-09-14
+铜仁市举办第四次全国农业普查清查摸底暨 普查方案培训班
+2026-09-14
+黔东南州举办第四次全国农业普查普查方案暨清查摸底业务培训班
+2026-09-14
+六盘水市举办第四次全国农业普查清查摸底 业务培训班
+2026-09-14
+毕节市统计局赴赫章县核查指导统计工作
+2026-09-10
+紫云县统计局持续推进统计法进党校
+2026-09-10
+贵阳市统计局举办劳动工资统计业务专题讲座
+2026-09-10
+西秀区召开第四次全国农业普查领导小组协调会议
+2026-09-01
+六盘水市统计局举办 2026 年全市科技创新统计业务培训班
+2026-09-01
+贵阳市统计局召开贵阳贵安统计部门主要负责人座谈会
+2026-08-28
+毕节市农普办到赫章县指导四农普工作
+2026-08-28
+安顺市召开全市农普办主任会议
+2026-08-11
+安顺市开展第四次全国农业普查区域划分暨清查摸底业务培训
+2026-08-11
+南明区召开第四次全国农业普查区域划分和建筑物标绘业务培训会
+2026-08-11
+西秀区开展经济部门统计业务专题培训
+2026-08-06
+if (!isMobile) {
+							$(".tj_tab").slide({ titCell: ".hd>ul li", mainCell: ".bd", effect: "fade", defaultIndex: 0 })
+							jQuery(".Focus_tab1").slide({mainCell: ".pic",effect: "fold",autoPlay: true,prevCell: ".prevs",nextCell: ".nexts",targetCell: ".txt ul li",pageStateCell:".pageStates"});
+						}else {
+							TouchSlide({
+								slideCell: "#Focus_tab1",
+								mainCell: ".pic",
+								effect: "left",
+								pageStateCell:".pageStates",
+								//autoPage: true, //自动分页
+								switchLoad: "_src", //切换加载，真实图片路径为"_src" 
+								startFun: function (i) {
+									$("#Focus_tab1 .txt li").eq(i).show().siblings().hide();
+								}
+							});
+						}
+统计发布与解读
+1—7月全省经济运行情况
+2026-08-20
+上半年农业经济延续稳定发展态势
+2026-07-28
+贵州省2026年上半年经济运行情况
+2026-07-23
+1—5月全省经济运行情况
+2026-06-22
+1—4月全省经济运行情况
+2026-05-22
+一季度全省地区生产总值增长4.7%
+2026-04-30
+一季度全省农业经济稳定向好
+2026-04-24
+贵州省2026年一季度经济运行情况
+2026-04-23
+贵州省2025年国民经济和社会发展统计公报
+2026-04-15
+1-2月全省经济运行情况
+2026-03-19
+2025年贵州省地区生产总值增长4.9%
+2026-01-28
+2025年农业经济实现稳定增长
+2026-01-25
+2025年全省消费市场稳中向好
+2026-01-23
+贵州省2025年经济运行情况
+2026-01-21
+1—11月份全省经济运行情况
+2025-12-19
+领导之窗
+机构设置
+统计规范性文件库
+人事信息
+重点领域信息公开
+通知公告
+省委第十二巡视组巡视公告
+2026-07-16
+贵州省2026年度统计专业技术资格考试成绩合格人员公示
+2026-09-04
+关于申请复核2026年度统计专业技术资格考试成绩的通知
+2026-08-25
+省统计局办公室关于举办全省2026年上半年能耗数据联审培训班的通知
+2026-08-06
+贵州省统计局公布2026年第2季度地方统计调查项目
+2026-07-13
+贵州省统计局2026年8月政府采购意向
+2026-06-25
+政策法规
+政策解读
+统计标准和制度
+文件查找
+function zcwjsub() {
+                                                var title = $("#title").val();
+                                                if (title == "") {
+                                                    layer.msg("请输入关键字进行查询！");
+                                                    return false;
+                                                } else {
+                                                    window.open("http://stjj.guizhou.gov.cn/zwgk/zcfg//search.html?title=" + title);
+                                                    return false;
+                                                }
+                                            }
+规范性文件备案情况表
+2026-01-28
+贵州省统计局  国家统计局贵州调查总队关于印发《贵州省统计行政处罚裁量基准（2025年版）》的通知（​黔统字〔2025〕51号）
+2026-01-23
+规范性文件备案情况表
+2023-12-22
+贵州省统计局关于废止部分文件的通知
+2023-11-23
+贵州省统计局  国家统计局贵州调查总队关于印发《贵州省统计行政处罚裁量基准》的通知
+2023-11-14
+省统计局关于印发《贵州省统计从业人员统计信用档案管理实施细则（试行）》的通知
+2018-11-15
+省统计局关于印发《贵州省企业统计信用管理实施细则（试行）》的通知
+2018-04-26
+省统计局关于加强统计领域信用建设的通知
+2018-04-26
+贵州省统计管理条例
+2017-04-10
+《贵州省统计行政处罚裁量基准（2025年版）》解读
+2026-01-23
+《贵州省统计行政处罚裁量基准》政策解读
+2023-11-14
+图解:《贵州省统计行政处罚裁量基准》
+2023-11-14
+《省人民政府关于开展全省第五次全国经济普查的通知》解读
+2023-03-08
+一图知晓《贯彻落实
+<
+关于更加有效发挥统计监督职能作用的意见>的实施意见》出炉
+2022-10-10
+最全！一图读懂2020年《政府工作报告》
+2020-05-22
+$(".zcfg ul li[type='失效']").remove();
+                            	$(".zcfg ul li[type='否']").remove();
+			                    $(".zcfg ul li").show().each(function(index){
+			                        if(index>5){
+			                            $(this).remove();
+			                        }
+			                    })
+                                if (!isMobile) {
+                                    $(".zc_tab").slide({ titCell: ".hd>ul li.s", mainCell: ".bd", effect: "fade", defaultIndex: 0 })
+                                } else {
+                                    calcUlWidth("#zc_tab .hd ul");
+                                    TouchSlide({
+                                        slideCell: "#zc_tab", titCell: ".hd>ul li", mainCell: ".bd", effect: "left", defaultIndex: 0,
+                                        endFun: function (i) {
+                                            $("#zc_tab .hd li.s").eq(i).addClass("on").siblings("li").removeClass("on");
+                                            if (i >= 2) {
+                                                $("#zc_tab .hd").animate({ scrollLeft: $("#zc_tab .hd ul").scrollLeft() + $("#zc_tab .hd li").eq(i).position().left }, 200);
+                                            } else {
+                                                $("#zc_tab .hd").animate({ scrollLeft: 0 }, 200);
+                                            }
+                                        }
+                                    });
+                                }
+政府信息
+公开专栏
+政府信息公开指南
+政府信息公开制度
+法定主动公开内容
+政府信息公开年报
+统计数据
+数据查询
+2026年7月统计月报
+2026-08-24
+2026年6月统计月报
+2026-07-27
+2026年5月统计月报
+2026-06-29
+2026年4月统计月报
+2026-05-28
+2026年3月统计月报
+2026-04-27
+2026年2月统计月报
+2026-03-23
+2026年1月统计月报
+2026-03-04
+2025年12月统计月报
+2026-01-29
+贵州数据
+国家数据
+国际数据
+普查公报
+统计公报
+贵州统计年鉴
+贵州省主要统计数据新闻发布会
+数据开放平台
+政务服务
+我要办
+我要看
+我要问
+我要查
+我要评
+我要盯
+网上报名
+联网直报
+办事依据
+事项表格
+政民互动
+局长信箱
+统计违法举报
+调查征集
+一张表举报投诉
+回应关切
+常见问题知识库
+专题
+.notice {width: 350px;height: auto;border: 1px solid;position: fixed;right: 0px;bottom: 0px;background:white;  z-index: 9999;}
+	.notice_title {background: #226ebc;}
+    .notice_title p {width: 100%;text-align: center;height: 50px;line-height: 50px;display: inline-block;font-size: 20px;font-weight:bold;color:white;}
+	.notice_title span {font-size: 18px;color: black;cursor: pointer;}
+	.notice_btn button {background: #226ebc; border: none;width: 55px;height: 50px;outline: none;cursor: pointer;color:white;line-height: 50px;}
+	.notice_content {text-align: justify;padding: 10px;box-sizing: content-box;}
+	.notice_content p {line-height: 25px;margin-top: 12px;}
+	.notice_btn{position: absolute; top: 0px;  right: 0;}
+@media screen and (max-width:750px ) {
+.notice {width: calc(100% - 20px); right: 10pxpx;  z-index: 9999;}
+}
+$(document).ready(function(){
+	  	$(".button").click(function(){
+	    	$(".notice").hide();
+	  	});
+	});
+网站链接：
+中国政府网
+贵州省人民政府网
+国家及外省统计局
+国家统计局
+北京
+天津
+河北
+山西
+内蒙古
+辽宁
+吉林
+黑龙江
+上海
+江苏
+浙江
+安徽
+福建
+江西
+山东
+河南
+湖北
+湖南
+广东
+广西
+海南
+重庆
+四川
+云南
+西藏自治区
+陕西
+甘肃
+青海
+宁夏
+新疆
+兵团
+市州统计局
+贵阳市统计局
+遵义市统计局
+六盘水市统计局
+安顺市统计局
+毕节市统计局
+铜仁市统计局
+黔东南州统计局
+黔南州统计局
+黔西南州统计局
+网站地图
+|
+联系我们
+|
+网站年报
+主办：贵州省统计局
+网站标识码:5200000070
+贵公网安备 52010302002144
+黔ICP备19000889号
+建议您使用IE10及以上版本、Chrome、Firefox、360等主流浏览器浏览本网站
+新媒体矩阵
+网站官方微信
+网站官方微博
+电脑版
+|
+移动版
+function NowisMobile() {
+			return navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
+		}
+		console.log(NowisMobile())
+		if (!NowisMobile()) {
+			$(".Footer .VersionPart").remove();
+		} else if (!isMobile) {
+			$(".Footer p.VersionPart .m").remove();
+			$(".Footer").after($("p.VersionPart"));
+		}
+function addWzaScriptToHeader(id) {
+        var script = document.createElement('script');
+        script.src = 'https://wza.gogbh.cn/wza/wza.min.js';
+        script.id = 'wzaScript';
+        script.setAttribute('data', 'f1c49ad5b1740e48903b3f63e41bba27'); // 自定义属性
+
+        if (document.querySelector('script[id="wzaScript"]')) {
+            console.log('已经附加过');
+        } else {
+            document.head.appendChild(script);
+            script.onload = function() {
+                var button = document.querySelector(id);
+                if (button) {
+                    $(id).click();
+                }
+            };
+        }
+    }
+    $(function() {
+        $("#assist-open").click(function() {
+            addWzaScriptToHeader('#assist-open');
+        })
+        $("#bh_oldFixed").click(function() {
+            addWzaScriptToHeader('#bh_oldFixed');
+        })
+        var bhAria = JSON.parse(localStorage.getItem('bh-aria'));
+        var bh_useOldFixed = localStorage.getItem('bh_useOldFixed')
+        if (bhAria && bhAria.isShow) {
+            // 执行相应的操作
+            if (bh_useOldFixed == 'true') {
+                addWzaScriptToHeader('#bh_oldFixed');
+            } else {
+                addWzaScriptToHeader('#assist-open');
+            }
+        }
+    })
+/*添加归档图章*/
+function SetIsArchive() {
+    let DocIsArchive = ($("meta[name='DocIsArchive']").length > 0) ? ($("meta[name='DocIsArchive']").attr("content").split("|")) : [0, 0];
+    let ChannelIsArchive = ($("meta[name='ChannelIsArchive']").length > 0) ? ($("meta[name='ChannelIsArchive']").attr("content").split("|")) : [0, 0];
+    if (parseInt(DocIsArchive[0]) == 1) {
+        AddArchiveHtml(DocIsArchive[1]);
+    } else if (parseInt(ChannelIsArchive[0]) == 1) {
+        //AddArchiveHtml(ChannelIsArchive[1]);
+        if (ChannelIsArchive[1] && ChannelIsArchive[1].indexOf('归档时间【') > -1) {
+            let gdsj = ChannelIsArchive[1].substring(ChannelIsArchive[1].indexOf('归档时间【') + 5, ChannelIsArchive[1].indexOf('】'));
+            AddArchiveHtml(gdsj);
+        } else {
+            AddArchiveHtml(ChannelIsArchive[2]);
+        }
+    }
+}
+/*填充图章html结构，根据图章情况编写*/
+function AddArchiveHtml(date) {
+    if (date.indexOf('-') > -1) {
+        date = date.replace("-", "年").replace("-", "月") + "日";
+    }
+    $("body").append('<div class="ArchiveGdPart"><p>' + date + '</p><style type="text/css">.ArchiveGdPart{position: absolute;width: 200px;background: url(/images/gd_red.png) no-repeat center top;padding: 120px 0 25px;z-index: 99;top: 480px;right: 50%; margin-right: -600px; transform: rotateZ(-20deg);}.ArchiveGdPart p{ font-size: 12px; color: #F00; display: block; text-align: center; line-height: 20px; letter-spacing: -1px;}@media screen and (max-width:750px ) {.ArchiveGdPart{margin-right: 0px;right: 0;zoom: 0.7;top: 50%;}}</style></div>');
+    $(".ArchiveGdPart p").arctext({
+        dir: 0,
+        radius: 80
+    });
+    // 执行文字弯曲
+}
+
+// 加载归档图章
+ SetIsArchive();
+var j=0;
+    
+    for (var i=1;i<=j;i++){
+        var ad = new AdMove("floatadv"+i, true);
+        ad.Run();
+    }
+// 横幅
+        var hf_swiper = new Swiper('.hf_swiper', {
+            slidesPerView: 1,
+            speed: 1000,//匀速时间
+            effect: "fade",
+            autoplay: {
+                delay: 5000, // 间隔时长
+                disableOnInteraction: false, // 用户操作后是否停止播放
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            loop: false,
+            pagination: {
+                el: '.hf_swiper .swiper-pagination',
+                clickable: true,
+            },
+            on: {
+                slideChange: function () {
+
+                },
+                paginationRender: function () {
+                    console.log('paginationRender')
+                    const pages = document.getElementsByClassName('swiper-pagination-bullet')
+                    for (let i = 0; i < pages.length; i++) {
+                        pages[i].onmouseover = function (e) {
+                            e.target.click()
+                        }
+                    }
+                }
+            }
+        });
+
+        //鼠标覆盖停止自动切换
+        hf_swiper.el.onmouseover = function () {
+            hf_swiper.autoplay.stop();
+        }
+        //鼠标离开开始自动切换
+        hf_swiper.el.onmouseout = function () {
+            hf_swiper.autoplay.start();
+        }
+        // 专题专栏
+        var ztzl_swiper = new Swiper('.ztzl_swiper', {
+            slidesPerView: !isMobile ? 5 : 1,
+            slidesPerGroup: !isMobile ? 5 : 1,
+            spaceBetween: !isMobile ? 16 : 10,//间距
+            autoplay: !isMobile ? false : true,
+            speed: 1000,//匀速时间
+            /*  autoplay: {
+                 delay: 5000, // 间隔时长
+                 disableOnInteraction: false, // 用户操作后是否停止播放
+            },
+            */
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            loop: false,
+            pagination: {
+                el: '.ztzl_box .swiper-pagination',
+                clickable: true,
+            },
+            on: {
+                slideChange: function () {
+
+                },
+                paginationRender: function () {
+                    console.log('paginationRender')
+                    const pages = document.getElementsByClassName('swiper-pagination-bullet')
+                    for (let i = 0; i < pages.length; i++) {
+                        pages[i].onmouseover = function (e) {
+                            e.target.click()
+                        }
+                    }
+                }
+            }
+        });
+
+        //鼠标覆盖停止自动切换
+        ztzl_swiper.el.onmouseover = function () {
+            ztzl_swiper.autoplay.stop();
+        }
+        //鼠标离开开始自动切换
+        ztzl_swiper.el.onmouseout = function () {
+            ztzl_swiper.autoplay.start();
+        }

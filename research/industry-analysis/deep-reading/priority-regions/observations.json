@@ -1,0 +1,3463 @@
+[
+  {
+    "id": "deep-region-bj-2024-enterprise-count-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 350,
+    "unit": "个",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "北京市C39规模以上法人工业企业；年主营业务收入2000万元及以上；GB/T4754-2017。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-bj-yb2025-c39",
+        "locator": "Sheet1 第46—47行C39；B企业数/E平均用工/Q收入/R成本/F资产/W利润；表头第3—8行，金额万元、人数人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "企业单位数",
+    "regionId": "bj",
+    "metric": "enterprise-count",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-bj-2024-average-workers-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 10.8866,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "北京市C39规模以上法人工业企业；年主营业务收入2000万元及以上；GB/T4754-2017。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-bj-yb2025-c39",
+        "locator": "Sheet1 第46—47行C39；B企业数/E平均用工/Q收入/R成本/F资产/W利润；表头第3—8行，金额万元、人数人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "平均用工人数",
+    "regionId": "bj",
+    "metric": "average-workers",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-bj-2024-revenue-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "revenue",
+    "priceBasis": "current",
+    "value": 6317.514,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "北京市C39规模以上法人工业企业；年主营业务收入2000万元及以上；GB/T4754-2017。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-bj-yb2025-c39",
+        "locator": "Sheet1 第46—47行C39；B企业数/E平均用工/Q收入/R成本/F资产/W利润；表头第3—8行，金额万元、人数人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业收入",
+    "regionId": "bj",
+    "metric": "revenue",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-bj-2024-cost-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 5478.922,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "北京市C39规模以上法人工业企业；年主营业务收入2000万元及以上；GB/T4754-2017。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-bj-yb2025-c39",
+        "locator": "Sheet1 第46—47行C39；B企业数/E平均用工/Q收入/R成本/F资产/W利润；表头第3—8行，金额万元、人数人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业成本",
+    "regionId": "bj",
+    "metric": "cost",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-bj-2024-assets-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 11929.9806,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "北京市C39规模以上法人工业企业；年主营业务收入2000万元及以上；GB/T4754-2017。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-bj-yb2025-c39",
+        "locator": "Sheet1 第46—47行C39；B企业数/E平均用工/Q收入/R成本/F资产/W利润；表头第3—8行，金额万元、人数人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "资产总计",
+    "regionId": "bj",
+    "metric": "assets",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-bj-2024-profit-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 390.2336,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "北京市C39规模以上法人工业企业；年主营业务收入2000万元及以上；GB/T4754-2017。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-bj-yb2025-c39",
+        "locator": "Sheet1 第46—47行C39；B企业数/E平均用工/Q收入/R成本/F资产/W利润；表头第3—8行，金额万元、人数人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "利润总额",
+    "regionId": "bj",
+    "metric": "profit",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-bj-2024-gross-output-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 3910.9923,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "北京市C39规模以上法人工业企业；年主营业务收入2000万元及以上；GB/T4754-2017。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-bj-yb2025-c39",
+        "locator": "Sheet1 第46—47行C39；B企业数/E平均用工/Q收入/R成本/F资产/W利润；表头第3—8行，金额万元、人数人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "工业总产值",
+    "regionId": "bj",
+    "metric": "gross-output",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-bj-2023-enterprise-count-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 334,
+    "unit": "个",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "北京市C39规模以上法人工业企业；年主营业务收入2000万元及以上；GB/T4754-2017。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-bj-yb2024-c39",
+        "locator": "Sheet1 第46—47行C39；B企业数/E平均用工/Q收入/R成本/F资产/W利润；表头第3—8行，金额万元、人数人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "企业单位数",
+    "regionId": "bj",
+    "metric": "enterprise-count",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-bj-2023-average-workers-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 10.8193,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "北京市C39规模以上法人工业企业；年主营业务收入2000万元及以上；GB/T4754-2017。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-bj-yb2024-c39",
+        "locator": "Sheet1 第46—47行C39；B企业数/E平均用工/Q收入/R成本/F资产/W利润；表头第3—8行，金额万元、人数人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "平均用工人数",
+    "regionId": "bj",
+    "metric": "average-workers",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-bj-2023-revenue-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "revenue",
+    "priceBasis": "current",
+    "value": 5305.4397,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "北京市C39规模以上法人工业企业；年主营业务收入2000万元及以上；GB/T4754-2017。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-bj-yb2024-c39",
+        "locator": "Sheet1 第46—47行C39；B企业数/E平均用工/Q收入/R成本/F资产/W利润；表头第3—8行，金额万元、人数人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业收入",
+    "regionId": "bj",
+    "metric": "revenue",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-bj-2023-cost-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 4551.7217,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "北京市C39规模以上法人工业企业；年主营业务收入2000万元及以上；GB/T4754-2017。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-bj-yb2024-c39",
+        "locator": "Sheet1 第46—47行C39；B企业数/E平均用工/Q收入/R成本/F资产/W利润；表头第3—8行，金额万元、人数人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业成本",
+    "regionId": "bj",
+    "metric": "cost",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-bj-2023-assets-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 10551.28,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "北京市C39规模以上法人工业企业；年主营业务收入2000万元及以上；GB/T4754-2017。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-bj-yb2024-c39",
+        "locator": "Sheet1 第46—47行C39；B企业数/E平均用工/Q收入/R成本/F资产/W利润；表头第3—8行，金额万元、人数人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "资产总计",
+    "regionId": "bj",
+    "metric": "assets",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-bj-2023-profit-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 108.0869,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "北京市C39规模以上法人工业企业；年主营业务收入2000万元及以上；GB/T4754-2017。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-bj-yb2024-c39",
+        "locator": "Sheet1 第46—47行C39；B企业数/E平均用工/Q收入/R成本/F资产/W利润；表头第3—8行，金额万元、人数人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "利润总额",
+    "regionId": "bj",
+    "metric": "profit",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-bj-2023-gross-output-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 3342.5127,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "北京市C39规模以上法人工业企业；年主营业务收入2000万元及以上；GB/T4754-2017。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-bj-yb2024-c39",
+        "locator": "Sheet1 第46—47行C39；B企业数/E平均用工/Q收入/R成本/F资产/W利润；表头第3—8行，金额万元、人数人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "工业总产值",
+    "regionId": "bj",
+    "metric": "gross-output",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sh-2024-revenue-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "revenue",
+    "priceBasis": "current",
+    "value": 5350.3,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "上海市C39规模以上工业企业，表12.1；就业表2.16另为规上工业企业期末人数，不能当年度平均用工。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sh-yb2025-c39",
+        "locator": "C1201A标题、C1201C第2行列头、C1201D第40行C39；C1201E第40行第1/2/5/6列：产值/资产/收入/利润，单位亿元"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业收入",
+    "regionId": "sh",
+    "metric": "revenue",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sh-2024-assets-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 9079.76,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "上海市C39规模以上工业企业，表12.1；就业表2.16另为规上工业企业期末人数，不能当年度平均用工。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sh-yb2025-c39",
+        "locator": "C1201A标题、C1201C第2行列头、C1201D第40行C39；C1201E第40行第1/2/5/6列：产值/资产/收入/利润，单位亿元"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "资产总计",
+    "regionId": "sh",
+    "metric": "assets",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sh-2024-profit-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 119.45,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "上海市C39规模以上工业企业，表12.1；就业表2.16另为规上工业企业期末人数，不能当年度平均用工。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sh-yb2025-c39",
+        "locator": "C1201A标题、C1201C第2行列头、C1201D第40行C39；C1201E第40行第1/2/5/6列：产值/资产/收入/利润，单位亿元"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "利润总额",
+    "regionId": "sh",
+    "metric": "profit",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sh-2024-gross-output-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 4936.47,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "上海市C39规模以上工业企业，表12.1；就业表2.16另为规上工业企业期末人数，不能当年度平均用工。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sh-yb2025-c39",
+        "locator": "C1201A标题、C1201C第2行列头、C1201D第40行C39；C1201E第40行第1/2/5/6列：产值/资产/收入/利润，单位亿元"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "工业总产值",
+    "regionId": "sh",
+    "metric": "gross-output",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sh-2024-liabilities-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 4118.08,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "上海市C39规模以上工业企业，表12.1；就业表2.16另为规上工业企业期末人数，不能当年度平均用工。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sh-yb2025-c39",
+        "locator": "C1201A标题、C1201C第2行列头、C1201D第40行C39；C1201E第40行第1/2/5/6列：产值/资产/收入/利润，单位亿元"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "负债合计",
+    "regionId": "sh",
+    "metric": "liabilities",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sh-2023-revenue-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "revenue",
+    "priceBasis": "current",
+    "value": 4997.64,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "上海市C39规模以上工业企业，表12.1；就业表2.16另为规上工业企业期末人数，不能当年度平均用工。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sh-yb2024-c39",
+        "locator": "C1201A标题、C1201C第2行列头、C1201D第40行C39；C1201E第40行第1/2/5/6列：产值/资产/收入/利润，单位亿元"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业收入",
+    "regionId": "sh",
+    "metric": "revenue",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sh-2023-assets-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 7673.48,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "上海市C39规模以上工业企业，表12.1；就业表2.16另为规上工业企业期末人数，不能当年度平均用工。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sh-yb2024-c39",
+        "locator": "C1201A标题、C1201C第2行列头、C1201D第40行C39；C1201E第40行第1/2/5/6列：产值/资产/收入/利润，单位亿元"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "资产总计",
+    "regionId": "sh",
+    "metric": "assets",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sh-2023-profit-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 109.43,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "上海市C39规模以上工业企业，表12.1；就业表2.16另为规上工业企业期末人数，不能当年度平均用工。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sh-yb2024-c39",
+        "locator": "C1201A标题、C1201C第2行列头、C1201D第40行C39；C1201E第40行第1/2/5/6列：产值/资产/收入/利润，单位亿元"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "利润总额",
+    "regionId": "sh",
+    "metric": "profit",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sh-2023-gross-output-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 4611.57,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "上海市C39规模以上工业企业，表12.1；就业表2.16另为规上工业企业期末人数，不能当年度平均用工。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sh-yb2024-c39",
+        "locator": "C1201A标题、C1201C第2行列头、C1201D第40行C39；C1201E第40行第1/2/5/6列：产值/资产/收入/利润，单位亿元"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "工业总产值",
+    "regionId": "sh",
+    "metric": "gross-output",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sh-2023-liabilities-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 3564.51,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "上海市C39规模以上工业企业，表12.1；就业表2.16另为规上工业企业期末人数，不能当年度平均用工。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sh-yb2024-c39",
+        "locator": "C1201A标题、C1201C第2行列头、C1201D第40行C39；C1201E第40行第1/2/5/6列：产值/资产/收入/利润，单位亿元"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "负债合计",
+    "regionId": "sh",
+    "metric": "liabilities",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-js-2024-enterprise-count-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 4500,
+    "unit": "个",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "江苏C39规上工业统计；工业章说明明确2021年起包括年主营收入2000万元及以上工业法人单位和个体经营户。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-js-yb2025-c39",
+        "locator": "浏览器实际渲染DOM第83行C39：企业/资产；第187行C39：收入/成本/费用/利润/平均用工；第113、163行列头，单位亿元、万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "企业单位数",
+    "regionId": "js",
+    "metric": "enterprise-count",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-js-2024-average-workers-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 149.33,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "江苏C39规上工业统计；工业章说明明确2021年起包括年主营收入2000万元及以上工业法人单位和个体经营户。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-js-yb2025-c39",
+        "locator": "浏览器实际渲染DOM第83行C39：企业/资产；第187行C39：收入/成本/费用/利润/平均用工；第113、163行列头，单位亿元、万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "平均用工人数",
+    "regionId": "js",
+    "metric": "average-workers",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-js-2024-revenue-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "revenue",
+    "priceBasis": "current",
+    "value": 24930.83,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "江苏C39规上工业统计；工业章说明明确2021年起包括年主营收入2000万元及以上工业法人单位和个体经营户。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-js-yb2025-c39",
+        "locator": "浏览器实际渲染DOM第83行C39：企业/资产；第187行C39：收入/成本/费用/利润/平均用工；第113、163行列头，单位亿元、万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业收入",
+    "regionId": "js",
+    "metric": "revenue",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-js-2024-cost-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 22231.43,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "江苏C39规上工业统计；工业章说明明确2021年起包括年主营收入2000万元及以上工业法人单位和个体经营户。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-js-yb2025-c39",
+        "locator": "浏览器实际渲染DOM第83行C39：企业/资产；第187行C39：收入/成本/费用/利润/平均用工；第113、163行列头，单位亿元、万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业成本",
+    "regionId": "js",
+    "metric": "cost",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-js-2024-assets-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 28455.89,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "江苏C39规上工业统计；工业章说明明确2021年起包括年主营收入2000万元及以上工业法人单位和个体经营户。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-js-yb2025-c39",
+        "locator": "浏览器实际渲染DOM第83行C39：企业/资产；第187行C39：收入/成本/费用/利润/平均用工；第113、163行列头，单位亿元、万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "资产总计",
+    "regionId": "js",
+    "metric": "assets",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-js-2024-profit-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 1042.0,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "江苏C39规上工业统计；工业章说明明确2021年起包括年主营收入2000万元及以上工业法人单位和个体经营户。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-js-yb2025-c39",
+        "locator": "浏览器实际渲染DOM第83行C39：企业/资产；第187行C39：收入/成本/费用/利润/平均用工；第113、163行列头，单位亿元、万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "利润总额",
+    "regionId": "js",
+    "metric": "profit",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-js-2024-liabilities-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 15018.65,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "江苏C39规上工业统计；工业章说明明确2021年起包括年主营收入2000万元及以上工业法人单位和个体经营户。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-js-yb2025-c39",
+        "locator": "浏览器实际渲染DOM第83行C39：企业/资产；第187行C39：收入/成本/费用/利润/平均用工；第113、163行列头，单位亿元、万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "负债合计",
+    "regionId": "js",
+    "metric": "liabilities",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-js-2023-enterprise-count-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 4175,
+    "unit": "个",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "江苏C39规上工业统计；工业章说明明确2021年起包括年主营收入2000万元及以上工业法人单位和个体经营户。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-js-yb2024-c39",
+        "locator": "2024版11-6，DOM第59行C39，第3行表头；企业4175、收入23766.82亿元、平均用工151.10万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "企业单位数",
+    "regionId": "js",
+    "metric": "enterprise-count",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-js-2023-average-workers-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 151.1,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "江苏C39规上工业统计；工业章说明明确2021年起包括年主营收入2000万元及以上工业法人单位和个体经营户。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-js-yb2024-c39",
+        "locator": "2024版11-6，DOM第59行C39，第3行表头；企业4175、收入23766.82亿元、平均用工151.10万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "平均用工人数",
+    "regionId": "js",
+    "metric": "average-workers",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-js-2023-revenue-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "revenue",
+    "priceBasis": "current",
+    "value": 23766.82,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "江苏C39规上工业统计；工业章说明明确2021年起包括年主营收入2000万元及以上工业法人单位和个体经营户。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-js-yb2024-c39",
+        "locator": "2024版11-6，DOM第59行C39，第3行表头；企业4175、收入23766.82亿元、平均用工151.10万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业收入",
+    "regionId": "js",
+    "metric": "revenue",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-js-2023-cost-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 21049.41,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "江苏C39规上工业统计；工业章说明明确2021年起包括年主营收入2000万元及以上工业法人单位和个体经营户。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-js-yb2024-c39",
+        "locator": "2024版11-6，DOM第59行C39，第3行表头；企业4175、收入23766.82亿元、平均用工151.10万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业成本",
+    "regionId": "js",
+    "metric": "cost",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-js-2023-assets-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 25926.57,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "江苏C39规上工业统计；工业章说明明确2021年起包括年主营收入2000万元及以上工业法人单位和个体经营户。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-js-yb2024-c39",
+        "locator": "2024版11-6，DOM第59行C39，第3行表头；企业4175、收入23766.82亿元、平均用工151.10万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "资产总计",
+    "regionId": "js",
+    "metric": "assets",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-js-2023-profit-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 963.62,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "江苏C39规上工业统计；工业章说明明确2021年起包括年主营收入2000万元及以上工业法人单位和个体经营户。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-js-yb2024-c39",
+        "locator": "2024版11-6，DOM第59行C39，第3行表头；企业4175、收入23766.82亿元、平均用工151.10万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "利润总额",
+    "regionId": "js",
+    "metric": "profit",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-js-2023-liabilities-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 13173.3,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "江苏C39规上工业统计；工业章说明明确2021年起包括年主营收入2000万元及以上工业法人单位和个体经营户。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-js-yb2024-c39",
+        "locator": "2024版11-6，DOM第59行C39，第3行表头；企业4175、收入23766.82亿元、平均用工151.10万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "负债合计",
+    "regionId": "js",
+    "metric": "liabilities",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2024-enterprise-count-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 2870,
+    "unit": "个",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江省C39规模以上工业企业，表7-5；非私营单位就业表2-22为另一个统计总体。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-yb2025-c39",
+        "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "企业单位数",
+    "regionId": "zj",
+    "metric": "enterprise-count",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2024-loss-enterprise-count-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 837,
+    "unit": "个",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江省C39规模以上工业企业，表7-5；非私营单位就业表2-22为另一个统计总体。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-yb2025-c39",
+        "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "亏损企业单位数",
+    "regionId": "zj",
+    "metric": "loss-enterprise-count",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2024-average-workers-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 70.34,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江省C39规模以上工业企业，表7-5；非私营单位就业表2-22为另一个统计总体。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-yb2025-c39",
+        "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "平均用工人数",
+    "regionId": "zj",
+    "metric": "average-workers",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2024-revenue-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "revenue",
+    "priceBasis": "current",
+    "value": 10659.39,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江省C39规模以上工业企业，表7-5；非私营单位就业表2-22为另一个统计总体。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-yb2025-c39",
+        "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业收入",
+    "regionId": "zj",
+    "metric": "revenue",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2024-cost-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 8953.76,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江省C39规模以上工业企业，表7-5；非私营单位就业表2-22为另一个统计总体。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-yb2025-c39",
+        "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业成本",
+    "regionId": "zj",
+    "metric": "cost",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2024-assets-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 16205.8,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江省C39规模以上工业企业，表7-5；非私营单位就业表2-22为另一个统计总体。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-yb2025-c39",
+        "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "资产总计",
+    "regionId": "zj",
+    "metric": "assets",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2024-profit-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 486.92,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江省C39规模以上工业企业，表7-5；非私营单位就业表2-22为另一个统计总体。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-yb2025-c39",
+        "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "利润总额",
+    "regionId": "zj",
+    "metric": "profit",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2024-gross-output-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 10109.88,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江省C39规模以上工业企业，表7-5；非私营单位就业表2-22为另一个统计总体。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-yb2025-c39",
+        "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "工业总产值",
+    "regionId": "zj",
+    "metric": "gross-output",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2024-liabilities-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 8488.48,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江省C39规模以上工业企业，表7-5；非私营单位就业表2-22为另一个统计总体。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-yb2025-c39",
+        "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "负债合计",
+    "regionId": "zj",
+    "metric": "liabilities",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2023-enterprise-count-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 2553,
+    "unit": "个",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江省C39规模以上工业企业，表7-5；非私营单位就业表2-22为另一个统计总体。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-yb2024-c39",
+        "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "企业单位数",
+    "regionId": "zj",
+    "metric": "enterprise-count",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2023-loss-enterprise-count-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 695,
+    "unit": "个",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江省C39规模以上工业企业，表7-5；非私营单位就业表2-22为另一个统计总体。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-yb2024-c39",
+        "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "亏损企业单位数",
+    "regionId": "zj",
+    "metric": "loss-enterprise-count",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2023-average-workers-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 64.06,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江省C39规模以上工业企业，表7-5；非私营单位就业表2-22为另一个统计总体。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-yb2024-c39",
+        "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "平均用工人数",
+    "regionId": "zj",
+    "metric": "average-workers",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2023-revenue-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "revenue",
+    "priceBasis": "current",
+    "value": 9562.68,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江省C39规模以上工业企业，表7-5；非私营单位就业表2-22为另一个统计总体。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-yb2024-c39",
+        "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业收入",
+    "regionId": "zj",
+    "metric": "revenue",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2023-cost-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 7932.44,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江省C39规模以上工业企业，表7-5；非私营单位就业表2-22为另一个统计总体。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-yb2024-c39",
+        "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业成本",
+    "regionId": "zj",
+    "metric": "cost",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2023-assets-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 14203.03,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江省C39规模以上工业企业，表7-5；非私营单位就业表2-22为另一个统计总体。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-yb2024-c39",
+        "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "资产总计",
+    "regionId": "zj",
+    "metric": "assets",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2023-profit-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 599.77,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江省C39规模以上工业企业，表7-5；非私营单位就业表2-22为另一个统计总体。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-yb2024-c39",
+        "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "利润总额",
+    "regionId": "zj",
+    "metric": "profit",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2023-gross-output-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 8964.34,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江省C39规模以上工业企业，表7-5；非私营单位就业表2-22为另一个统计总体。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-yb2024-c39",
+        "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "工业总产值",
+    "regionId": "zj",
+    "metric": "gross-output",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2023-liabilities-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 7219.68,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江省C39规模以上工业企业，表7-5；非私营单位就业表2-22为另一个统计总体。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-yb2024-c39",
+        "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "负债合计",
+    "regionId": "zj",
+    "metric": "liabilities",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-gd-2024-enterprise-count-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 10574,
+    "unit": "个",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "广东省C39规模以上工业企业，官方光盘表12-11；分母为同表全部就业人员年平均人数。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-gd-yb2025-c39",
+        "locator": "官方ZIP内 directory/12/excel/12-11.xls，Sheet1第61行C39；C企业、G资产、I收入、J成本、L利润、O全部就业人员年平均人数；表头第3—10行"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "企业单位数",
+    "regionId": "gd",
+    "metric": "enterprise-count",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-gd-2024-average-employment-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 319.34,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "广东省C39规模以上工业企业，官方光盘表12-11；分母为同表全部就业人员年平均人数。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-gd-yb2025-c39",
+        "locator": "官方ZIP内 directory/12/excel/12-11.xls，Sheet1第61行C39；C企业、G资产、I收入、J成本、L利润、O全部就业人员年平均人数；表头第3—10行"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "从业/就业人员年度平均人数",
+    "regionId": "gd",
+    "metric": "average-employment",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-gd-2024-revenue-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "revenue",
+    "priceBasis": "current",
+    "value": 53787.2,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "广东省C39规模以上工业企业，官方光盘表12-11；分母为同表全部就业人员年平均人数。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-gd-yb2025-c39",
+        "locator": "官方ZIP内 directory/12/excel/12-11.xls，Sheet1第61行C39；C企业、G资产、I收入、J成本、L利润、O全部就业人员年平均人数；表头第3—10行"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业收入",
+    "regionId": "gd",
+    "metric": "revenue",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-gd-2024-cost-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 44065.49,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "广东省C39规模以上工业企业，官方光盘表12-11；分母为同表全部就业人员年平均人数。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-gd-yb2025-c39",
+        "locator": "官方ZIP内 directory/12/excel/12-11.xls，Sheet1第61行C39；C企业、G资产、I收入、J成本、L利润、O全部就业人员年平均人数；表头第3—10行"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业成本",
+    "regionId": "gd",
+    "metric": "cost",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-gd-2024-assets-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 66064.35,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "广东省C39规模以上工业企业，官方光盘表12-11；分母为同表全部就业人员年平均人数。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-gd-yb2025-c39",
+        "locator": "官方ZIP内 directory/12/excel/12-11.xls，Sheet1第61行C39；C企业、G资产、I收入、J成本、L利润、O全部就业人员年平均人数；表头第3—10行"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "资产总计",
+    "regionId": "gd",
+    "metric": "assets",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-gd-2024-profit-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 2944.59,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "广东省C39规模以上工业企业，官方光盘表12-11；分母为同表全部就业人员年平均人数。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-gd-yb2025-c39",
+        "locator": "官方ZIP内 directory/12/excel/12-11.xls，Sheet1第61行C39；C企业、G资产、I收入、J成本、L利润、O全部就业人员年平均人数；表头第3—10行"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "利润总额",
+    "regionId": "gd",
+    "metric": "profit",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-gd-2024-gross-output-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 52470.18,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "广东省C39规模以上工业企业，官方光盘表12-11；分母为同表全部就业人员年平均人数。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-gd-yb2025-c39",
+        "locator": "官方ZIP内 directory/12/excel/12-11.xls，Sheet1第61行C39；C企业、G资产、I收入、J成本、L利润、O全部就业人员年平均人数；表头第3—10行"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "工业总产值",
+    "regionId": "gd",
+    "metric": "gross-output",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-gd-2023-enterprise-count-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 9966,
+    "unit": "个",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "广东省C39规模以上工业企业，官方光盘表12-11；分母为同表全部就业人员年平均人数。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-gd-yb2024-c39",
+        "locator": "官方ZIP内 directory/12/excel/12-11.xls，Sheet1第61行C39；C企业、G资产、I收入、J成本、L利润、O全部就业人员年平均人数；表头第3—10行"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "企业单位数",
+    "regionId": "gd",
+    "metric": "enterprise-count",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-gd-2023-average-employment-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 317.53,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "广东省C39规模以上工业企业，官方光盘表12-11；分母为同表全部就业人员年平均人数。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-gd-yb2024-c39",
+        "locator": "官方ZIP内 directory/12/excel/12-11.xls，Sheet1第61行C39；C企业、G资产、I收入、J成本、L利润、O全部就业人员年平均人数；表头第3—10行"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "从业/就业人员年度平均人数",
+    "regionId": "gd",
+    "metric": "average-employment",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-gd-2023-revenue-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "revenue",
+    "priceBasis": "current",
+    "value": 47689.96,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "广东省C39规模以上工业企业，官方光盘表12-11；分母为同表全部就业人员年平均人数。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-gd-yb2024-c39",
+        "locator": "官方ZIP内 directory/12/excel/12-11.xls，Sheet1第61行C39；C企业、G资产、I收入、J成本、L利润、O全部就业人员年平均人数；表头第3—10行"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业收入",
+    "regionId": "gd",
+    "metric": "revenue",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-gd-2023-cost-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 38846.36,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "广东省C39规模以上工业企业，官方光盘表12-11；分母为同表全部就业人员年平均人数。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-gd-yb2024-c39",
+        "locator": "官方ZIP内 directory/12/excel/12-11.xls，Sheet1第61行C39；C企业、G资产、I收入、J成本、L利润、O全部就业人员年平均人数；表头第3—10行"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业成本",
+    "regionId": "gd",
+    "metric": "cost",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-gd-2023-assets-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 62221.23,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "广东省C39规模以上工业企业，官方光盘表12-11；分母为同表全部就业人员年平均人数。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-gd-yb2024-c39",
+        "locator": "官方ZIP内 directory/12/excel/12-11.xls，Sheet1第61行C39；C企业、G资产、I收入、J成本、L利润、O全部就业人员年平均人数；表头第3—10行"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "资产总计",
+    "regionId": "gd",
+    "metric": "assets",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-gd-2023-profit-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 3628.09,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "广东省C39规模以上工业企业，官方光盘表12-11；分母为同表全部就业人员年平均人数。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-gd-yb2024-c39",
+        "locator": "官方ZIP内 directory/12/excel/12-11.xls，Sheet1第61行C39；C企业、G资产、I收入、J成本、L利润、O全部就业人员年平均人数；表头第3—10行"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "利润总额",
+    "regionId": "gd",
+    "metric": "profit",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-gd-2023-gross-output-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 47168.02,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "广东省C39规模以上工业企业，官方光盘表12-11；分母为同表全部就业人员年平均人数。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-gd-yb2024-c39",
+        "locator": "官方ZIP内 directory/12/excel/12-11.xls，Sheet1第61行C39；C企业、G资产、I收入、J成本、L利润、O全部就业人员年平均人数；表头第3—10行"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "工业总产值",
+    "regionId": "gd",
+    "metric": "gross-output",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-cq-2024-enterprise-count-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 537,
+    "unit": "个",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "重庆C39规模以上工业企业；本章说明规模门槛为年主营业务收入2000万元及以上。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-cq-yb2025-c39",
+        "locator": "PDF第248—255页表12-6；C39名称/企业数见250页，第251页第19数据行平均从业22.26万人；第255页第19数据行收入56770946.5万元、利润1527947.3万元"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "企业单位数",
+    "regionId": "cq",
+    "metric": "enterprise-count",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-cq-2024-average-employment-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 22.26,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "重庆C39规模以上工业企业；本章说明规模门槛为年主营业务收入2000万元及以上。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-cq-yb2025-c39",
+        "locator": "PDF第248—255页表12-6；C39名称/企业数见250页，第251页第19数据行平均从业22.26万人；第255页第19数据行收入56770946.5万元、利润1527947.3万元"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "从业/就业人员年度平均人数",
+    "regionId": "cq",
+    "metric": "average-employment",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-cq-2024-revenue-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "revenue",
+    "priceBasis": "current",
+    "value": 5677.09465,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "重庆C39规模以上工业企业；本章说明规模门槛为年主营业务收入2000万元及以上。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-cq-yb2025-c39",
+        "locator": "PDF第248—255页表12-6；C39名称/企业数见250页，第251页第19数据行平均从业22.26万人；第255页第19数据行收入56770946.5万元、利润1527947.3万元"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业收入",
+    "regionId": "cq",
+    "metric": "revenue",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-cq-2024-cost-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 5283.59919,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "重庆C39规模以上工业企业；本章说明规模门槛为年主营业务收入2000万元及以上。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-cq-yb2025-c39",
+        "locator": "PDF第248—255页表12-6；C39名称/企业数见250页，第251页第19数据行平均从业22.26万人；第255页第19数据行收入56770946.5万元、利润1527947.3万元"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业成本",
+    "regionId": "cq",
+    "metric": "cost",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-cq-2024-assets-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 4199.31116,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "重庆C39规模以上工业企业；本章说明规模门槛为年主营业务收入2000万元及以上。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-cq-yb2025-c39",
+        "locator": "PDF第248—255页表12-6；C39名称/企业数见250页，第251页第19数据行平均从业22.26万人；第255页第19数据行收入56770946.5万元、利润1527947.3万元"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "资产总计",
+    "regionId": "cq",
+    "metric": "assets",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-cq-2024-profit-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 152.79473,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "重庆C39规模以上工业企业；本章说明规模门槛为年主营业务收入2000万元及以上。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-cq-yb2025-c39",
+        "locator": "PDF第248—255页表12-6；C39名称/企业数见250页，第251页第19数据行平均从业22.26万人；第255页第19数据行收入56770946.5万元、利润1527947.3万元"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "利润总额",
+    "regionId": "cq",
+    "metric": "profit",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-cq-2024-gross-output-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 5568.20592,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "重庆C39规模以上工业企业；本章说明规模门槛为年主营业务收入2000万元及以上。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-cq-yb2025-c39",
+        "locator": "PDF第248—255页表12-6；C39名称/企业数见250页，第251页第19数据行平均从业22.26万人；第255页第19数据行收入56770946.5万元、利润1527947.3万元"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "工业总产值",
+    "regionId": "cq",
+    "metric": "gross-output",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-cq-2024-liabilities-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 2346.93154,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "重庆C39规模以上工业企业；本章说明规模门槛为年主营业务收入2000万元及以上。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-cq-yb2025-c39",
+        "locator": "PDF第248—255页表12-6；C39名称/企业数见250页，第251页第19数据行平均从业22.26万人；第255页第19数据行收入56770946.5万元、利润1527947.3万元"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "负债合计",
+    "regionId": "cq",
+    "metric": "liabilities",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-cq-2023-enterprise-count-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 520,
+    "unit": "个",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "重庆C39规模以上工业企业；本章说明规模门槛为年主营业务收入2000万元及以上。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-cq-yb2024-c39",
+        "locator": "PDF第253—260页表12-6；255页C39名称/企业数，第256/260页第19数据行，金额万元、平均从业万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "企业单位数",
+    "regionId": "cq",
+    "metric": "enterprise-count",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-cq-2023-average-employment-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 24.02,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "重庆C39规模以上工业企业；本章说明规模门槛为年主营业务收入2000万元及以上。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-cq-yb2024-c39",
+        "locator": "PDF第253—260页表12-6；255页C39名称/企业数，第256/260页第19数据行，金额万元、平均从业万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "从业/就业人员年度平均人数",
+    "regionId": "cq",
+    "metric": "average-employment",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-cq-2023-revenue-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "revenue",
+    "priceBasis": "current",
+    "value": 5659.76838,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "重庆C39规模以上工业企业；本章说明规模门槛为年主营业务收入2000万元及以上。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-cq-yb2024-c39",
+        "locator": "PDF第253—260页表12-6；255页C39名称/企业数，第256/260页第19数据行，金额万元、平均从业万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业收入",
+    "regionId": "cq",
+    "metric": "revenue",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-cq-2023-cost-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 5189.01315,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "重庆C39规模以上工业企业；本章说明规模门槛为年主营业务收入2000万元及以上。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-cq-yb2024-c39",
+        "locator": "PDF第253—260页表12-6；255页C39名称/企业数，第256/260页第19数据行，金额万元、平均从业万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业成本",
+    "regionId": "cq",
+    "metric": "cost",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-cq-2023-assets-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 4436.75007,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "重庆C39规模以上工业企业；本章说明规模门槛为年主营业务收入2000万元及以上。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-cq-yb2024-c39",
+        "locator": "PDF第253—260页表12-6；255页C39名称/企业数，第256/260页第19数据行，金额万元、平均从业万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "资产总计",
+    "regionId": "cq",
+    "metric": "assets",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-cq-2023-profit-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 229.33222,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "重庆C39规模以上工业企业；本章说明规模门槛为年主营业务收入2000万元及以上。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-cq-yb2024-c39",
+        "locator": "PDF第253—260页表12-6；255页C39名称/企业数，第256/260页第19数据行，金额万元、平均从业万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "利润总额",
+    "regionId": "cq",
+    "metric": "profit",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-cq-2023-gross-output-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 5775.37253,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "重庆C39规模以上工业企业；本章说明规模门槛为年主营业务收入2000万元及以上。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-cq-yb2024-c39",
+        "locator": "PDF第253—260页表12-6；255页C39名称/企业数，第256/260页第19数据行，金额万元、平均从业万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "工业总产值",
+    "regionId": "cq",
+    "metric": "gross-output",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-cq-2023-liabilities-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 2606.08799,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "重庆C39规模以上工业企业；本章说明规模门槛为年主营业务收入2000万元及以上。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-cq-yb2024-c39",
+        "locator": "PDF第253—260页表12-6；255页C39名称/企业数，第256/260页第19数据行，金额万元、平均从业万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "负债合计",
+    "regionId": "cq",
+    "metric": "liabilities",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sc-2024-enterprise-count-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 1045,
+    "unit": "个",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "四川省C39规模以上工业企业，表14-3；平均用工与年末非私营就业表4-7不同。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sc-yb2025-c39",
+        "locator": "整张原图14-3，C39行（电气机械下、仪器仪表上）；企业/资产/营业收入/成本/利润/平均用工列；金额亿元、人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "企业单位数",
+    "regionId": "sc",
+    "metric": "enterprise-count",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sc-2024-average-workers-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 42.69,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "四川省C39规模以上工业企业，表14-3；平均用工与年末非私营就业表4-7不同。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sc-yb2025-c39",
+        "locator": "整张原图14-3，C39行（电气机械下、仪器仪表上）；企业/资产/营业收入/成本/利润/平均用工列；金额亿元、人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "平均用工人数",
+    "regionId": "sc",
+    "metric": "average-workers",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sc-2024-revenue-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "revenue",
+    "priceBasis": "current",
+    "value": 8142.46,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "四川省C39规模以上工业企业，表14-3；平均用工与年末非私营就业表4-7不同。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sc-yb2025-c39",
+        "locator": "整张原图14-3，C39行（电气机械下、仪器仪表上）；企业/资产/营业收入/成本/利润/平均用工列；金额亿元、人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业收入",
+    "regionId": "sc",
+    "metric": "revenue",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sc-2024-cost-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 7465.81,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "四川省C39规模以上工业企业，表14-3；平均用工与年末非私营就业表4-7不同。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sc-yb2025-c39",
+        "locator": "整张原图14-3，C39行（电气机械下、仪器仪表上）；企业/资产/营业收入/成本/利润/平均用工列；金额亿元、人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业成本",
+    "regionId": "sc",
+    "metric": "cost",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sc-2024-assets-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 8674.13,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "四川省C39规模以上工业企业，表14-3；平均用工与年末非私营就业表4-7不同。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sc-yb2025-c39",
+        "locator": "整张原图14-3，C39行（电气机械下、仪器仪表上）；企业/资产/营业收入/成本/利润/平均用工列；金额亿元、人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "资产总计",
+    "regionId": "sc",
+    "metric": "assets",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sc-2024-profit-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 213.83,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "四川省C39规模以上工业企业，表14-3；平均用工与年末非私营就业表4-7不同。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sc-yb2025-c39",
+        "locator": "整张原图14-3，C39行（电气机械下、仪器仪表上）；企业/资产/营业收入/成本/利润/平均用工列；金额亿元、人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "利润总额",
+    "regionId": "sc",
+    "metric": "profit",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sc-2024-liabilities-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 5095.17,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "四川省C39规模以上工业企业，表14-3；平均用工与年末非私营就业表4-7不同。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sc-yb2025-c39",
+        "locator": "整张原图14-3，C39行（电气机械下、仪器仪表上）；企业/资产/营业收入/成本/利润/平均用工列；金额亿元、人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "负债合计",
+    "regionId": "sc",
+    "metric": "liabilities",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sc-2023-enterprise-count-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 956,
+    "unit": "个",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "四川省C39规模以上工业企业，表14-3；平均用工与年末非私营就业表4-7不同。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sc-yb2024-c39",
+        "locator": "整张原图14-3，C39行（电气机械下、仪器仪表上）；企业/资产/营业收入/成本/利润/平均用工列；金额亿元、人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "企业单位数",
+    "regionId": "sc",
+    "metric": "enterprise-count",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sc-2023-average-workers-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 43.35,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "四川省C39规模以上工业企业，表14-3；平均用工与年末非私营就业表4-7不同。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sc-yb2024-c39",
+        "locator": "整张原图14-3，C39行（电气机械下、仪器仪表上）；企业/资产/营业收入/成本/利润/平均用工列；金额亿元、人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "平均用工人数",
+    "regionId": "sc",
+    "metric": "average-workers",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sc-2023-revenue-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "revenue",
+    "priceBasis": "current",
+    "value": 8537.38,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "四川省C39规模以上工业企业，表14-3；平均用工与年末非私营就业表4-7不同。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sc-yb2024-c39",
+        "locator": "整张原图14-3，C39行（电气机械下、仪器仪表上）；企业/资产/营业收入/成本/利润/平均用工列；金额亿元、人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业收入",
+    "regionId": "sc",
+    "metric": "revenue",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sc-2023-cost-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 7802.45,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "四川省C39规模以上工业企业，表14-3；平均用工与年末非私营就业表4-7不同。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sc-yb2024-c39",
+        "locator": "整张原图14-3，C39行（电气机械下、仪器仪表上）；企业/资产/营业收入/成本/利润/平均用工列；金额亿元、人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业成本",
+    "regionId": "sc",
+    "metric": "cost",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sc-2023-assets-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 8394.15,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "四川省C39规模以上工业企业，表14-3；平均用工与年末非私营就业表4-7不同。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sc-yb2024-c39",
+        "locator": "整张原图14-3，C39行（电气机械下、仪器仪表上）；企业/资产/营业收入/成本/利润/平均用工列；金额亿元、人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "资产总计",
+    "regionId": "sc",
+    "metric": "assets",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sc-2023-profit-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 275.22,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "四川省C39规模以上工业企业，表14-3；平均用工与年末非私营就业表4-7不同。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sc-yb2024-c39",
+        "locator": "整张原图14-3，C39行（电气机械下、仪器仪表上）；企业/资产/营业收入/成本/利润/平均用工列；金额亿元、人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "利润总额",
+    "regionId": "sc",
+    "metric": "profit",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sc-2023-liabilities-yb2024",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 4872.89,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2024版；目标内表未注明独立发布日期",
+    "revision": "2024版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "四川省C39规模以上工业企业，表14-3；平均用工与年末非私营就业表4-7不同。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sc-yb2024-c39",
+        "locator": "整张原图14-3，C39行（电气机械下、仪器仪表上）；企业/资产/营业收入/成本/利润/平均用工列；金额亿元、人数万人"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "负债合计",
+    "regionId": "sc",
+    "metric": "liabilities",
+    "edition": 2024,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sh-2024-yearend-employment-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 20.69,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "上海C39规模以上工业企业，期末从业人员，职业类型分组。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sh-employment-2-16",
+        "locator": "2.16标题、表头及行业行；表头及第44行C39：期末20.69万人；管理1.36、技术4.72、办事2.04、服务0.39、生产制造12.19万人。"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "期末从业人员",
+    "regionId": "sh",
+    "metric": "yearend-employment",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-sh-2024-occupation-management-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 1.36,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "上海C39规模以上工业企业，期末从业人员，职业类型分组。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sh-employment-2-16",
+        "locator": "2.16标题、表头及行业行；表头及第44行C39：期末20.69万人；管理1.36、技术4.72、办事2.04、服务0.39、生产制造12.19万人。"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "occupation-management",
+    "regionId": "sh",
+    "metric": "occupation-management",
+    "edition": 2025,
+    "notes": [
+      "中层及以上管理人员",
+      "分项取位之和20.70与总量20.69的0.01万人差额未机械调整。"
+    ]
+  },
+  {
+    "id": "deep-region-sh-2024-occupation-professional-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 4.72,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "上海C39规模以上工业企业，期末从业人员，职业类型分组。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sh-employment-2-16",
+        "locator": "2.16标题、表头及行业行；表头及第44行C39：期末20.69万人；管理1.36、技术4.72、办事2.04、服务0.39、生产制造12.19万人。"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "occupation-professional",
+    "regionId": "sh",
+    "metric": "occupation-professional",
+    "edition": 2025,
+    "notes": [
+      "专业技术人员",
+      "分项取位之和20.70与总量20.69的0.01万人差额未机械调整。"
+    ]
+  },
+  {
+    "id": "deep-region-sh-2024-occupation-clerical-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 2.04,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "上海C39规模以上工业企业，期末从业人员，职业类型分组。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sh-employment-2-16",
+        "locator": "2.16标题、表头及行业行；表头及第44行C39：期末20.69万人；管理1.36、技术4.72、办事2.04、服务0.39、生产制造12.19万人。"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "occupation-clerical",
+    "regionId": "sh",
+    "metric": "occupation-clerical",
+    "edition": 2025,
+    "notes": [
+      "办事及有关人员",
+      "分项取位之和20.70与总量20.69的0.01万人差额未机械调整。"
+    ]
+  },
+  {
+    "id": "deep-region-sh-2024-occupation-service-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 0.39,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "上海C39规模以上工业企业，期末从业人员，职业类型分组。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sh-employment-2-16",
+        "locator": "2.16标题、表头及行业行；表头及第44行C39：期末20.69万人；管理1.36、技术4.72、办事2.04、服务0.39、生产制造12.19万人。"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "occupation-service",
+    "regionId": "sh",
+    "metric": "occupation-service",
+    "edition": 2025,
+    "notes": [
+      "社会生产服务和生活服务人员",
+      "分项取位之和20.70与总量20.69的0.01万人差额未机械调整。"
+    ]
+  },
+  {
+    "id": "deep-region-sh-2024-occupation-production-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 12.19,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "上海C39规模以上工业企业，期末从业人员，职业类型分组。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-sh-employment-2-16",
+        "locator": "2.16标题、表头及行业行；表头及第44行C39：期末20.69万人；管理1.36、技术4.72、办事2.04、服务0.39、生产制造12.19万人。"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "occupation-production",
+    "regionId": "sh",
+    "metric": "occupation-production",
+    "edition": 2025,
+    "notes": [
+      "生产制造及有关人员",
+      "分项取位之和20.70与总量20.69的0.01万人差额未机械调整。"
+    ]
+  },
+  {
+    "id": "deep-region-zj-2024-yearend-employment-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2024",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 45.23,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江C39非私营单位工业企业，年底就业人数；不同于规上全体单位。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-employment-2-22",
+        "locator": "2-22标题、表头及行业行；非私营工业/建筑业年末就业；C39行2022/2023/2024分别38.64/41.61/45.23万人。"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "期末从业人员",
+    "regionId": "zj",
+    "metric": "yearend-employment",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2022-yearend-employment-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2022",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 38.64,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江C39非私营单位工业企业，年底就业人数；不同于规上全体单位。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-employment-2-22",
+        "locator": "2-22标题、表头及行业行；非私营工业/建筑业年末就业；C39行2022/2023/2024分别38.64/41.61/45.23万人。"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "期末从业人员",
+    "regionId": "zj",
+    "metric": "yearend-employment",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2023-yearend-employment-yb2025",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 41.61,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": null,
+    "publicationDateNote": "2025版；目标内表未注明独立发布日期",
+    "revision": "2025版年鉴披露原值；未把跨版现值差额解释为可比增长",
+    "coverage": "浙江C39非私营单位工业企业，年底就业人数；不同于规上全体单位。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-employment-2-22",
+        "locator": "2-22标题、表头及行业行；非私营工业/建筑业年末就业；C39行2022/2023/2024分别38.64/41.61/45.23万人。"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "期末从业人员",
+    "regionId": "zj",
+    "metric": "yearend-employment",
+    "edition": 2025,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2023-enterprise-count",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 13797,
+    "unit": "个",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": "2025-03-13",
+    "publicationDateNote": "来源页明确标注日期",
+    "revision": "本次读取的官方原表；未见目标行独立修订说明",
+    "coverage": "浙江全部C39工业企业法人单位；企业及就业为2023年末，营业收入为2023全年。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-census2023-official",
+        "locator": "表3-2“计算机、通信和其他电子设备制造业”行；结构化HTML提取第42/84行"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "企业单位数",
+    "regionId": "zj",
+    "metric": "enterprise-count",
+    "edition": null,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2023-yearend-employment",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "not-applicable",
+    "value": 75.3,
+    "unit": "万人",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": "2025-03-13",
+    "publicationDateNote": "来源页明确标注日期",
+    "revision": "本次读取的官方原表；未见目标行独立修订说明",
+    "coverage": "浙江全部C39工业企业法人单位；企业及就业为2023年末，营业收入为2023全年。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-census2023-official",
+        "locator": "表3-2“计算机、通信和其他电子设备制造业”行；结构化HTML提取第42/84行"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "期末从业人员",
+    "regionId": "zj",
+    "metric": "yearend-employment",
+    "edition": null,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2023-assets",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 16247.8,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": "2025-03-13",
+    "publicationDateNote": "来源页明确标注日期",
+    "revision": "本次读取的官方原表；未见目标行独立修订说明",
+    "coverage": "浙江全部C39工业企业法人单位；企业及就业为2023年末，营业收入为2023全年。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-census2023-official",
+        "locator": "表3-3“计算机、通信和其他电子设备制造业”行；结构化HTML提取第42/84行"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "资产总计",
+    "regionId": "zj",
+    "metric": "assets",
+    "edition": null,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2023-liabilities",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "other",
+    "priceBasis": "current",
+    "value": 8213.9,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": "2025-03-13",
+    "publicationDateNote": "来源页明确标注日期",
+    "revision": "本次读取的官方原表；未见目标行独立修订说明",
+    "coverage": "浙江全部C39工业企业法人单位；企业及就业为2023年末，营业收入为2023全年。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-census2023-official",
+        "locator": "表3-3“计算机、通信和其他电子设备制造业”行；结构化HTML提取第42/84行"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "负债合计",
+    "regionId": "zj",
+    "metric": "liabilities",
+    "edition": null,
+    "notes": []
+  },
+  {
+    "id": "deep-region-zj-2023-revenue",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2023",
+    "frequency": "annual",
+    "measure": "revenue",
+    "priceBasis": "current",
+    "value": 10123.4,
+    "unit": "亿元人民币",
+    "currency": "CNY",
+    "annualized": false,
+    "seasonalAdjustment": "not-applicable",
+    "releaseDate": "2025-03-13",
+    "publicationDateNote": "来源页明确标注日期",
+    "revision": "本次读取的官方原表；未见目标行独立修订说明",
+    "coverage": "浙江全部C39工业企业法人单位；企业及就业为2023年末，营业收入为2023全年。",
+    "evidence": [
+      {
+        "sourceId": "deep-region-zj-census2023-official",
+        "locator": "表3-3“计算机、通信和其他电子设备制造业”行；结构化HTML提取第42/84行"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "营业收入",
+    "regionId": "zj",
+    "metric": "revenue",
+    "edition": null,
+    "notes": []
+  },
+  {
+    "id": "deep-region-gd-c39-growth2026-jul",
+    "regionId": "gd",
+    "country": "cn",
+    "industryId": "cn-gbt2017-39",
+    "period": "2026-01—2026-07",
+    "frequency": "year-to-date",
+    "measure": "real-growth",
+    "priceBasis": "constant",
+    "value": 11.5,
+    "unit": "%",
+    "currency": null,
+    "annualized": false,
+    "seasonalAdjustment": "unadjusted",
+    "releaseDate": "2026-08-21",
+    "revision": "本次读取官方月度简况；未见目标数独立修订说明",
+    "coverage": "广东规模以上C39工业企业；累计实际增加值同比",
+    "evidence": [
+      {
+        "sourceId": "deep-region-gd-2026-jul",
+        "locator": "分行业看，计算机、通信和其他电子设备制造业增加值同比增长11.5%；附注指标解释/范围"
+      }
+    ],
+    "evidenceKind": "fact",
+    "label": "C39实际增加值同比增长"
+  }
+]

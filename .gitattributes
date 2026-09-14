@@ -5,3 +5,7 @@ research/industry-analysis/official/originals/** -text -diff
 research/industry-analysis/regions/raw/** -text -diff
 research/industry-analysis/regions/extracted/** -text
 research/industry-analysis/regions/extracted/*.txt -diff
+# Supplementary reading archives retain official bytes for reproducible hashes.
+research/industry-analysis/deep-reading/**/originals/** -text -diff
+research/industry-analysis/deep-reading/**/raw/** -text -diff
+research/industry-analysis/deep-reading/**/extracted/** -text -diff

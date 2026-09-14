@@ -1,0 +1,193 @@
+湖南省统计局 -
+        湖南统计年鉴2024
+var doclink = "http://222.240.193.190/2024tjnj/zk/indexch.htm";
+      var doctype = "2";
+      var filelink = "".split(',')[0];
+      if((doctype ==="2" || doctype ==="链接型文档") && doclink!=""){
+          window.location.href=doclink;
+      }else if((doctype ==="3" || doctype ==="文件型文档") && filelink!=""){
+          window.location.href=filelink;
+          $("body").html("");
+      }
+中国政府网
+|
+国家统计局
+|
+省政府门户网
+|
+湖南调查总队
+|
+湘办通
+无障碍浏览
+|
+简体
+繁體
+|
+政务邮箱
+|
+English
+|
+登录
+|
+注册
+欢迎您！
+|
+省直窗口
+省直单位
+站内
+站群
+图片
+视频
+文件
+互动
+服务
+国家数据
+首页
+机构职能
+动态要闻
+数据解读
+政务公开
+政务服务
+互动交流
+专题专栏
+首页
+>
+数据解读
+>
+统计年鉴
+湖南统计年鉴2024
+发布机构：
+湖南省统计局
+发布时间：2025-03-31
+打印本页
+|
+字体大小：
+扫一扫
+在手机打开当前页
+分享
+关闭
+相关附件
+相关阅读
+主办单位：湖南省统计局
+承办单位：湖南省统计局宣传中心
+湖南省统计局 湖南统计信息网 版权所有（C）
+document.write("2001-"+new Date().getFullYear());
+地址：湖南省长沙市五一大道351号
+工作联系邮箱：
+hntjjbgs@163.com
+统计违法案件举报邮箱：
+hntjzfjb@vip.sina.com
+工作联系电话: 0731-82212567, 0731-82212644 (传真)
+数据咨询电话：0731-82213581, 82212549
+网站业务电话：0731-82212257, 82212672
+统计联网直报平台咨询：0731-82212513
+统计违法案件举报：0731-82801000 (自动接听)
+备案号：湘ICP备2021002359号-2
+湘公网安备 43010202000995号
+政府网站标识码：4300000028
+站点地图
+var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1271274139'%3E%3C/span%3E%3Cscript src='/hntj/xhtml/" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1271274139' type='text/javascript'%3E%3C/script%3E"));
+document.getElementById("cnzz_stat_icon_1271274139").innerHTML = "";
+(function(){
+
+		var canonicalURL, curProtocol;
+
+		//Get the <link> tag
+
+		var x=document.getElementsByTagName("link");
+
+		//Find the last canonical URL
+
+		if(x.length > 0){
+
+			for (i=0;i<x.length;i++){
+
+				if(x[i].rel.toLowerCase() == 'canonical' && x[i].href){
+
+					canonicalURL=x[i].href;
+
+				}
+
+			}
+
+		}
+
+		//Get protocol
+
+	    if (!canonicalURL){
+
+	    	curProtocol = window.location.protocol.split(':')[0];
+
+	    }
+
+	    else{
+
+	    	curProtocol = canonicalURL.split(':')[0];
+
+	    }
+
+	    //Get current URL if the canonical URL does not exist
+
+	    if (!canonicalURL) canonicalURL = window.location.href;
+
+	    //Assign script content. Replace current URL with the canonical URL
+
+    	!function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=canonicalURL,t=document.referrer;if(!e.test(r)){var n=(String(curProtocol).toLowerCase() === 'https')?"https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif":"//api.share.baidu.com/s.gif";t?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var i=new Image;i.src=n}}(window);})();
+var _trackDataType = 'web';var _trackData = _trackData || [];
+$(function () {
+        $(".article-title").each(function(){
+            var maxwidth1 = 38;
+            var maxwidth2 = 45;
+   			var maxwidth3 = 49;
+            console.log($(this).text().trim().length)
+            if ($(this).text().trim().length > maxwidth1) {
+                $(this).css("font-Size", "24px");
+            }
+            if ($(this).text().trim().length > maxwidth2) {
+                $(this).css("font-Size", "22px");
+            }
+            if ($(this).text().trim().length > maxwidth3) {
+                $(this).css("font-Size", "30px");
+            }
+        });
+    });
+$(function() {
+            $(".dozoom a").click(function() {
+                $(".dozoom a").removeClass("on");
+                $(this).addClass("on");
+                //获取para的字体大小
+                var thisEle = $(".d_detailContent *").css("font-size");
+                //parseFloat的第二个参数表示转化的进制，10就表示转为10进制
+                var textFontSize = parseFloat(thisEle, 10);
+                //javascript自带方法
+                var unit = thisEle.slice(-2); //获取单位
+                var cName = $(this).attr("class");
+                if (cName == "bigger on") {
+                    if (textFontSize <= 30) {
+                        textFontSize += 2;
+                    }
+                } else if (cName == "smaller on") {
+                    textFontSize -= 2;
+                }
+                //设置para的字体大小
+                $(".d_detailContent *").css({
+                    "font-size": textFontSize + unit,
+                    "line-height": "2"
+                });
+            });
+            $(".dozoom .medium").click(function() {
+                $(".d_detailContent *").css({
+                    "font-size": "14px",
+                    "line-height": "2"
+                });
+            })
+            if ($(".fujian-box a").text() == 0) {
+                $(".fujian-box").hide();
+            }
+            if ($("#zuozhe").text() == 0) {
+                $("#zuozhe").parent().hide();
+            }
+            if ($(".article-link li").text() == 0) {
+                $(".article-link").hide();
+            }
+        })

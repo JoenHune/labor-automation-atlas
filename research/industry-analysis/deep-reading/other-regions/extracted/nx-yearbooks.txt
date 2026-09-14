@@ -1,0 +1,194 @@
+宁夏数据
+function publish(pbIndexList,cn){
+	//获取出版物的分组
+	$.each(pbIndexList,function(i,pbIndex){
+		var moreHref = pbIndex.morehref,
+			code	 = pbIndex.code,
+			html = '<div class="publicationL">'+
+					'<img src="/files_nx_pub/pics/publish/'+pbIndex.picfile+'.jpg" width="150" height="212"></div>'+
+					'<div class="publicationR"><h2 class="f14 fb pl10 pr">'+pbIndex.ctitle;
+		
+		html += moreHref == "" ? '</h2>' : (moreHref.indexOf("publish.htm?m=getMorePublish")>0 ? '<a href="'+pbIndex.morehref+'" class="more pa">更多 >></a></h2>' : '<a href="'+pbIndex.morehref+'" class="more pa" target="_blank">更多 >></a></h2>');
+		
+		html += '<div class="publicationText t2 p15">'+pbIndex.cexp+'</div>';
+				
+		//获取出版物每组的年份
+		var index="'"+pbIndex.ctitle+"'";
+		if(pbIndex.isgroup == "1"){
+			html += '<ul class="pl10 pr10 clearfix">';
+			$.each(pbIndex.publishGroupList,function(i,data){
+				$.each(data.publishList,function(i,list){
+					var hrf="'"+list.href+"'";
+					var ctitle="'"+list.ctitle+"'";
+					html += '<li><div class="publishline"><a href="javascript:getPublish(' + hrf + ','+index+','+ctitle+',true)">'+ list.ctitle +'</a></div></li>';
+				});
+			});
+
+			html += '</ul>';
+		}
+		else{
+			html += '<ul class="pl10 pr10 clearfix">';
+			
+			$.each(pbIndex.publishGroupList,function(i,data){
+				$.each(data.publishList,function(i,list){
+					var hrf="'"+list.href+"'";
+					var ctitle="'"+list.ctitle+"'";
+					
+					html += '<li><div class="publishline"><a href="javascript:getPublish(' + hrf + ','+index+','+ctitle+',true)">'+ list.ctitle +'</a></div></li>';
+				});
+			});
+			html += '</ul>';
+		}
+		
+		//var IEInfo = '';
+		/* if(pbIndex.ctitle.indexOf("年鉴") != -1){
+			//html += '<div class="left ieinfo">注：建议使用IE7以上版本普通模式(非“兼容性视图”)，或360浏览器极速模式浏览。</div>';
+		} */
+		html += '</div>';
+		$(".publication").append('<div class="publicationList pr pb20">' + html + '</div>');
+	});
+};
+
+$(document).ready(function() {
+	var pData=[{"cexp":"《宁夏统计年鉴》是由宁夏回族自治区统计局、国家统计局宁夏调查总队联合编纂，中国统计出版社公开出版发行的一部全面记录宁夏回族自治区经济建设和社会发展情况的大型资料性年刊。\r\n","code":"A01","colcount":"0","ctitle":"统计年鉴","height":"0","id":1,"isgroup":"0","morehref":"/publish.htm?m=getMorePublish&bc=A01&cn=G01","picfile":"publish_1762419640829","publishGroupList":[{"cname":"分组1","colnumber":4,"id":201,"indexid":1,"publishList":[{"ctitle":"2025","height":"0","href":"\t /files_nx_pub/html/tjnj/2025/zk/indexch.htm?1=1&h=0","id":489,"procode":"A01","publishgroupid":201,"sortcode":"2026-01-08","updatetime":"2026-01-08 09:35:27.0"},{"ctitle":"2024","height":"0","href":"/files_nx_pub/html/tjnj/2024/zk/indexch.htm?1=1&h=0","id":487,"procode":"A01","publishgroupid":201,"sortcode":"2024","updatetime":"2025-11-06 16:53:57.0"},{"ctitle":"2023","height":"0","href":"/files_nx_pub/html/tjnj/2023/indexfiles/indexch.htm?1=1&h=0","id":484,"procode":"A01","publishgroupid":201,"sortcode":"2023","updatetime":"2023-12-22 16:35:08.0"},{"ctitle":"2022","height":"","href":"/files_nx_pub/html/tjnj/2022/indexfiles/indexch.htm?1=1","id":479,"procode":"A01","publishgroupid":201,"sortcode":"2022","updatetime":""},{"ctitle":"2021","height":"","href":"/files_nx_pub/html/tjnj/2021/indexfiles/indexch.htm?1=1","id":476,"procode":"A01","publishgroupid":201,"sortcode":"2021","updatetime":""},{"ctitle":"2020","height":"","href":"/files_nx_pub/html/tjnj/2020/indexfiles/indexch.htm?1=1","id":474,"procode":"A01","publishgroupid":201,"sortcode":"2020","updatetime":""},{"ctitle":"2019","height":"","href":"/files_nx_pub/html/tjnj/2019/indexfiles/indexch.htm?1=1","id":472,"procode":"A01","publishgroupid":201,"sortcode":"2019","updatetime":""},{"ctitle":"2018","height":"","href":"/files_nx_pub/html/tjnj/2018/indexfiles/indexch.htm?1=1","id":470,"procode":"A01","publishgroupid":201,"sortcode":"2018","updatetime":""},{"ctitle":"2017","height":"","href":"/files_nx_pub/html/tjnj/2017/indexfiles/indexch.htm?1=1","id":467,"procode":"A01","publishgroupid":201,"sortcode":"2017","updatetime":""},{"ctitle":"2016","height":"","href":"/files_nx_pub/html/tjnj/2016/indexfiles/indexch.htm?1=1","id":458,"procode":"A01","publishgroupid":201,"sortcode":"2016","updatetime":"2018-05-04 15:02:36.0"},{"ctitle":"2015","height":"","href":"/files_nx_pub/html/tjnj/2015/indexch.htm?1=1","id":457,"procode":"A01","publishgroupid":201,"sortcode":"2015","updatetime":"2016-12-13 10:10:31.0"},{"ctitle":"2014","height":"","href":"/files_nx_pub/html/tjnj/2014/indexch.htm?1=1","id":454,"procode":"A01","publishgroupid":201,"sortcode":"2014","updatetime":""},{"ctitle":"2013","height":"","href":"/files_nx_pub/html/tjnj/2013/indexch.html?1=1","id":441,"procode":"A01","publishgroupid":201,"sortcode":"2013","updatetime":""},{"ctitle":"2012","height":"","href":"/files_nx_pub/html/tjnj/2012/indexch.htm?1=1","id":442,"procode":"A01","publishgroupid":201,"sortcode":"2012","updatetime":""},{"ctitle":"2011","height":"","href":"/files_nx_pub/html/tjnj/2011/indexch.htm?1=1","id":443,"procode":"A01","publishgroupid":201,"sortcode":"2011","updatetime":""},{"ctitle":"2010","height":"","href":"/files_nx_pub/html/tjnj/2010/indexch.htm?1=1","id":444,"procode":"A01","publishgroupid":201,"sortcode":"2010","updatetime":""},{"ctitle":"2009","height":"","href":"/files_nx_pub/html/tjnj/2009/indexch.htm?1=1","id":445,"procode":"A01","publishgroupid":201,"sortcode":"2009","updatetime":"2018-05-04 15:02:04.0"},{"ctitle":"2008","height":"","href":"/files_nx_pub/html/tjnj/2008/indexch.htm?1=1","id":446,"procode":"A01","publishgroupid":201,"sortcode":"2008","updatetime":"2018-05-04 14:59:43.0"},{"ctitle":"2007","height":"0","href":"/files_nx_pub/html/tjnj/2007/indexch.html?1=1&h=0","id":460,"procode":"A01","publishgroupid":201,"sortcode":"2007","updatetime":"2018-06-08 17:05:17.0"},{"ctitle":"2006","height":"0","href":"/files_nx_pub/html/tjnj/2006/indexch.html?1=1&h=0","id":461,"procode":"A01","publishgroupid":201,"sortcode":"2006","updatetime":"2018-06-08 17:05:33.0"}],"sortcode":"1"}],"publishsortid":1,"rowcount":"5","sortcode":"01","updatetime":"2025-11-06 17:00:40.0"},{"cexp":"《宁夏回族自治区国民经济和社会发展统计公报》每年3月中旬发布，发布上年度国民经济、农业、工业和建筑业、投资、贸易、对外经济、交通、邮电和旅游、财政、金融、城市建设、教育科技、文化、卫生和体育、人口、人民生活和社会保障、移民与扶贫、资源、环境和安全生产等内容。","code":"A02","colcount":"0","ctitle":"统计公报","height":"","id":2,"isgroup":"0","morehref":"/publish.htm?m=getMorePublish&bc=A02&cn=G01","picfile":"002","publishGroupList":[{"cname":"默认分组","colnumber":3,"id":202,"indexid":2,"publishList":[{"ctitle":"2025","height":"0","href":"http://tj.nx.gov.cn/tjsj_htr/tjgb_htr/202604/t20260409_5213277.html?h=0&h=0","id":491,"procode":"A02","publishgroupid":202,"sortcode":"2026-04-09","updatetime":"2026-04-14 15:08:46.0"},{"ctitle":"2024","height":"0","href":"https://tj.nx.gov.cn/tjsj_htr/tjgb_htr/202504/t20250425_4892031.html?h=0&h=0","id":488,"procode":"A02","publishgroupid":202,"sortcode":"2024","updatetime":"2025-05-07 15:07:22.0"},{"ctitle":"2023","height":"0","href":"https://tj.nx.gov.cn/tjsj_htr/tjgb_htr/202404/t20240429_4526210.html?1=1&h=0&h=0","id":486,"procode":"A02","publishgroupid":202,"sortcode":"2023","updatetime":"2024-06-12 10:39:32.0"},{"ctitle":"2022","height":"0","href":"https://tj.nx.gov.cn/tjsj_htr/tjgb_htr/202304/t20230426_4046882.html?1=1&h=0","id":482,"procode":"A02","publishgroupid":202,"sortcode":"2022","updatetime":"2023-05-16 13:45:08.0"},{"ctitle":"2021","height":"0","href":"http://tj.nx.gov.cn/tjsj_htr/tjgb_htr/202204/t20220414_3453045.html?1=1&h=0","id":477,"procode":"A02","publishgroupid":202,"sortcode":"2021","updatetime":"2022-04-18 15:24:35.0"},{"ctitle":"2020","height":"0","href":"http://tj.nx.gov.cn/tjsj_htr/tjgb_htr/202105/t20210524_2852265.html?1=1&h=0","id":475,"procode":"A02","publishgroupid":202,"sortcode":"2020","updatetime":"2021-06-24 13:31:18.0"},{"ctitle":"2019","height":"0","href":"http://tj.nx.gov.cn/tjsj_htr/tjgb_htr/202004/t20200430_2054423.html?1=1&h=0","id":473,"procode":"A02","publishgroupid":202,"sortcode":"2019","updatetime":"2020-05-06 13:37:41.0"},{"ctitle":"2018","height":"0","href":"http://tj.nx.gov.cn/tjsj_htr/tjgb_htr/201904/t20190430_1470251.html?1=1&h=0","id":471,"procode":"A02","publishgroupid":202,"sortcode":"2018","updatetime":"2019-08-08 10:22:45.0"},{"ctitle":"2017","height":"0","href":"http://tj.nx.gov.cn/tjsj_htr/tjgb_htr/201805/t20180510_1470250.html?1=1&h=0","id":469,"procode":"A02","publishgroupid":202,"sortcode":"2017","updatetime":"2019-08-08 10:24:56.0"}],"sortcode":"1"}],"publishsortid":1,"rowcount":"3","sortcode":"02","updatetime":""},{"cexp":"《经济普查年鉴》是经济普查成果的充分展现，宁夏回族自治区经济普查办公室编辑出版的宁夏经济普查年鉴共分为3册，第一册为综合卷，第二册为第二产业卷，第三册为第三产业卷。","code":"A04","colcount":"0","ctitle":"经济普查年鉴","height":"","id":3,"isgroup":"0","morehref":"","picfile":"003","publishGroupList":[{"cname":"经普默认分组","colnumber":3,"id":203,"indexid":3,"publishList":[{"ctitle":"第五次经济普查","height":"0","href":"/files_nx_pub/html/jjpc/2023/zk/indexch.htm?1=1&h=0","id":490,"procode":"A04","publishgroupid":203,"sortcode":"2026-01-29","updatetime":"2026-01-29 09:50:18.0"},{"ctitle":"第四次经济普查","height":"0","href":"/files_nx_pub/html/jjpc/2018/indexch.htm?1=1&h=0","id":478,"procode":"A04","publishgroupid":203,"sortcode":"2018","updatetime":"2026-01-29 09:44:46.0"},{"ctitle":"第三次经济普查","height":"0","href":"/files_nx_pub/html/jjpc/2013/indexch.htm?1=1&h=0","id":24,"procode":"A04","publishgroupid":203,"sortcode":"2013","updatetime":"2026-01-29 09:44:57.0"},{"ctitle":"第二次经济普查","height":"0","href":"/files_nx_pub/html/jjpc/2008/indexch.htm?1=1&h=0","id":23,"procode":"A04","publishgroupid":203,"sortcode":"2008","updatetime":"2026-01-29 09:45:23.0"}],"sortcode":"2"}],"publishsortid":1,"rowcount":"3","sortcode":"03","updatetime":""},{"cexp":"《人口普查年鉴》是人口普查成果的充分展现，宁夏回族自治区人口普查办公室编辑出版的宁夏人口普查年鉴共分为三部分：第一部分是全部人口数据，主要反映人口的基本状况；第二部分是普查长表数据，主要反映人口的各种结构情况；第三部分是附录，主要是普查的有关规定和技术文件等。","code":"A03","colcount":"0","ctitle":"人口普查年鉴","height":"","id":4,"isgroup":"0","morehref":"","picfile":"004","publishGroupList":[{"cname":"默认分组","colnumber":3,"id":204,"indexid":4,"publishList":[{"ctitle":"第七次人口普查","height":"","href":"ifnormal.htm?u=/files_nx_pub/content/pdfview/web/viewer.html?file=/files_nx_pub/pdf/pdf/rkpc2021/rkpc2021.pdf","id":481,"procode":"A03","publishgroupid":204,"sortcode":"02","updatetime":"2023-01-24 15:20:31.0"},{"ctitle":"第六次人口普查","height":"0","href":"ifnormal.htm?u=/files_nx_pub/pdf/html/rkpc2010.html&1=1&h=700&h=0","id":433,"procode":"A03","publishgroupid":204,"sortcode":"01","updatetime":"2017-03-06 15:20:18.0"}],"sortcode":"1"}],"publishsortid":1,"rowcount":"3","sortcode":"04","updatetime":""}];
+	var cn="";
+	publish(pData,cn);
+});
+
+function getPublish(hrf,lm,zb,isblank){
+	if(isblank){
+		window.open(hrf);
+	}else{
+		window.location.href=hrf;
+	}
+	
+	//采集出版物点击日志信息
+	$.ajax({
+		type:"post",
+		url:"/actLog.htm",
+		data:{"m":"focusVchartLog","lm":lm,"detailm":lm,"prolm":"cbw","act":"ll","zb":zb}
+	});
+}
+为了获得更好的用户体验，请使用火狐、谷歌、或IE10及以上版本的浏览器。
+宁夏数据
+GDP
+工业增加值
+人口
+社会消费品零售总额
+粮食产量
+城镇居民人均可支配收入
+农村居民家庭人均纯收入
+城镇居民人均现金消费支出
+各项存款
+各项贷款
+生产总值
+2014
+财政收入
+社会消费品零售总额
+固定资产
+价格指数
+总人口
+国内生产总值
+城镇居民人均现金消费支出
+出口
+登录
+注册
+首页
+宁夏数据
+市县数据
+部门数据
+统计出版物
+数据可视化
+帮助
+autoExperience();
+	function autoExperience() {
+		var _l = Math.ceil($(".header").offset().left);
+		$(".experience").css({
+			left : _l
+		});
+	}
+	if ($.cookie("experience") != "show") {
+		$(".experience").show();
+	}
+
+	function search() {
+		var str = $("#keyword").val();
+		if ($.trim(str) != "" && str != "如：2014年 宁夏 CPI") {
+			window.location = "/search.htm?s=" + str;
+		}
+	}
+	$("#keyword").focus(function() {
+		$(this).val() == "如：2014年 宁夏 CPI" && $(this).val("");
+	}).blur(function() {
+		$.trim($("#keyword").val()) == "" && $(this).val("如：2014年 宁夏 CPI");
+	}).keydown(function(e) {
+		e.keyCode == 13 && search();
+	});
+//获取屏幕分辨率
+	function getHVGA() {
+		var wd = screen.width;
+		var ht = screen.height;
+		return wd + "*" + ht;
+	}
+
+	$(function() {
+		var listprars = window.location.href;
+		if (listprars.indexOf("easyquery.htm") > 0) {
+			$(".dfj_bg").addClass("on");
+			$("#sm_query").addClass("on");
+		}
+		if (listprars.indexOf("adv.htm") > 0) {
+			$(".gj_bg").addClass("on");
+			$("#advs_query").addClass("on");
+		}
+		/*导航菜单*/
+		autoExperience();
+		$(window).resize(function() {
+			autoExperience();
+		});
+		$(".experience .close").click(function() {
+			$(this).parent().hide();
+			$.cookie("experience", "show");
+		});
+
+		//请求处理屏幕日志信息
+		$.ajax({
+			type : "post",
+			url : "/actLog.htm",
+			data : {
+				"m" : "screenLog",
+				"screen" : getHVGA()
+			}
+		});
+
+		if($('body').height() < $(window).height()){
+			$('.bottom').css({'position': 'fixed'});
+			$('body').css({'padding-bottom': '250px'});
+		}
+	});
+出版物
+《统计法》
+人口普查条例
+经济普查条例
+统计违法违纪行为处分规定
+统计调查证管理办法
+涉外调查管理办法
+国民经济行业分类
+统计单位基本情况统计报表制度
+农林牧渔业统计报表制度
+工业统计调查制度
+流通和消费价格统计报表制度
+更多制度>>
+统计标准>>
+国内生产总值（GDP）
+居民消费者价格指数（CPI）
+生产者价格指数（PPI）
+工业生产增长速度
+固定资产投资
+社会消费品零售总额
+粮食产量
+邮政编码：750002
+电话：0951-5677011
+通信地址：银川市开发区雪绒巷聚和6号楼统计大厦
+版权所有：宁夏回族自治区统计局
+宁ICP备09000128号

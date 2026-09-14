@@ -1,0 +1,56 @@
+[
+  {
+    "collection": "coverage",
+    "id": "ia-official-coverage-miit-yearbook",
+    "reason": "从入口定位推进为限定范围内表实读，保留其余未读边界。",
+    "replacement": {
+      "id": "ia-official-coverage-miit-yearbook",
+      "country": "cn",
+      "group": "全国官方资料",
+      "title": "工信部2024年度统计数据内表",
+      "period": "2024",
+      "status": "obtained",
+      "detail": "已实读2024年度主要经济指标原图的完整表头、总计和12个行业行，转录企业数、收入、利润、平均用工和资产五指标。发现统计范围含C39以外类别。仅阅读本表，不代表全套年度数据读完。",
+      "evidence": [
+        {
+          "sourceId": "ia-deep-national-miit-economics-image",
+          "locator": "主要经济指标完整原图"
+        }
+      ],
+      "nextStep": "继续定位产品产量、分省市产量等其他章节；本表省份行未逐格转录复核。"
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "ia-official-coverage-census-other-tables",
+    "reason": "从入口定位推进为限定范围内表实读，保留其余未读边界。",
+    "replacement": {
+      "id": "ia-official-coverage-census-other-tables",
+      "country": "cn",
+      "group": "全国官方资料",
+      "title": "经济普查其他经营及研发详表",
+      "period": "2023",
+      "status": "obtained",
+      "detail": "已补读1-D-3新产品、1-E-3自主知识产权C39及全部九中类；2-12、2-13控股分类C39行；1-A-7国有控股工业C39关键列和科技指标解释。仍未完整读取所有普查附表。",
+      "evidence": [
+        {
+          "sourceId": "ia-deep-national-bb1-d-03",
+          "locator": "C39及9中类"
+        },
+        {
+          "sourceId": "ia-deep-national-bb1-e-03",
+          "locator": "C39及9中类"
+        },
+        {
+          "sourceId": "ia-deep-national-a2-12",
+          "locator": "C39"
+        },
+        {
+          "sourceId": "ia-deep-national-a2-13",
+          "locator": "C39"
+        }
+      ],
+      "nextStep": "继续其他登记注册分类、科技经费外部支出及地区细项；既有未衔接差额保留。"
+    }
+  }
+]

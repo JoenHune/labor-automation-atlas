@@ -1,0 +1,25 @@
+{
+  "status": "frozen",
+  "version": "2026-09-14.priority-regions-2",
+  "frozenDate": "2026-09-14",
+  "files": {
+    "panel-data.json": "97aa50f6fcac07319cf79f5a264ed8f3d55fa031d6b4ff033364f819da62d94a",
+    "read-log.json": "54e35ae08518fb2b71ac742ba4a48b9df3a7b121a69d1197e4bef3bd79085033",
+    "observations.json": "cc6efeef270867d04e649d1dab54ae12d9e38a8579d1ddf55026cbf15fd06a21",
+    "amendments.json": "f975ae4200838724a7d8a6810969c60a643d054fd0732e0f1ab0ba1eb0b36475",
+    "sources.json": "4430b6f3f1a03e34824e5b5f0af2fd732162e73e68b9a414cbba7ce8ce704239",
+    "source-manifest.json": "d5e791fe2969884baf22da17b1aca0c97ec08bb1ca5b4f3c4affdce44f575773",
+    "analysis.md": "7747dab36d7c0f7cb3b963c85302e9e3e3f790a250c387000625885198cc1b6c",
+    "README.md": "a5c6abaca6a747eaa064e14c5af652f1ad9fb1861a71ee58e7ea6ab929f3b132",
+    "validation.json": "293b9f1acee607862178bb92143c191af9dbd7bc2203569a5571237c14fb106b",
+    "value-checks.json": "ff661bc42d73934a5a7fce4991abc32a2b04442224cd735d546378fe10ec805b"
+  },
+  "independentReview": [
+    "Company agent independently verified recovered Zhejiang census HTML and all three amendments; other six provinces unchanged.",
+    "Official coverage agent independently verified recovered Zhejiang and seven Jiangsu 2024 fields; no blocking issue."
+  ],
+  "remaining": [
+    "Other six provinces latest 2026 pages not read in this round.",
+    "Other industrial/employment tables and sub-provincial/C39 sub-class detail remain for targeted follow-up."
+  ]
+}

@@ -1,0 +1,1414 @@
+{
+  "version": "2026-09-14.priority-regions-2",
+  "checkedAt": "2026-09-14",
+  "sources": [
+    {
+      "id": "deep-region-bj-yb2025-c39",
+      "title": "北京统计年鉴2025：12-5 C39主要经济指标（2024年）",
+      "publisher": "北京市统计局",
+      "url": "https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C1205.xls",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/bj-2025-c1205.xls",
+      "sha256": "f3ffac52e0a36d5e93974e95fe4b795d18071e180872151fdf5cff242343700d",
+      "evidencePeriod": "2024",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "只读取工业目标表C39行及表头；未读完本书全部章节。",
+        "营业收入、工业总产值、资产均不是增加值。"
+      ],
+      "publishedLabel": "2025版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-bj-yb2024-c39",
+      "title": "北京统计年鉴2024：12-5 C39主要经济指标（2023年）",
+      "publisher": "北京市统计局",
+      "url": "https://hgk.tjj.beijing.gov.cn/2024tjnj/tjnj/zk/html/C12-05.xls",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/bj-2024-c12-05.xls",
+      "sha256": "24dd3bb49378703a0a4d9e9f3d06839497d04ee7ab5de5b18c5a7c9612b6bc3e",
+      "evidencePeriod": "2023",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "只读取工业目标表C39行及表头；未读完本书全部章节。",
+        "营业收入、工业总产值、资产均不是增加值。",
+        "这是2024版对2023年的历史披露；不替换既有全国五经普表的最新修订2023值，也不用于计算可比增速。"
+      ],
+      "publishedLabel": "2024版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2024",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-sh-yb2025-c39",
+      "title": "上海统计年鉴2025：12.1 C39主要经济指标（2024年）",
+      "publisher": "上海市统计局",
+      "url": "https://tjj.sh.gov.cn/tjnj/2025tjnj/C1201.htm",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/sh-2025-c1201e.html",
+      "sha256": "6ee39336e26d6e16419635c9ed68eba6faf5a2a16cb38d0ecde561889029b922",
+      "evidencePeriod": "2024",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "只读取工业目标表C39行及表头；未读完本书全部章节。",
+        "营业收入、工业总产值、资产均不是增加值。",
+        "标题、表头、行业名、数字分帧；同版C1201A/C/D/E均已另行保存并列入来源清单。"
+      ],
+      "publishedLabel": "2025版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-sh-yb2024-c39",
+      "title": "上海统计年鉴2024：12.1 C39主要经济指标（2023年）",
+      "publisher": "上海市统计局",
+      "url": "https://tjj.sh.gov.cn/tjnj/2024tjnj/C1201.htm",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/sh-2024-c1201e.html",
+      "sha256": "ff37310759c0eb98b48e1479ea66dd93ea0e9ebb9e1f7f5b9433acb270b0578c",
+      "evidencePeriod": "2023",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "只读取工业目标表C39行及表头；未读完本书全部章节。",
+        "营业收入、工业总产值、资产均不是增加值。",
+        "这是2024版对2023年的历史披露；不替换既有全国五经普表的最新修订2023值，也不用于计算可比增速。",
+        "标题、表头、行业名、数字分帧；同版C1201A/C/D/E均已另行保存并列入来源清单。"
+      ],
+      "publishedLabel": "2024版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2024",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-js-yb2025-c39",
+      "title": "江苏统计年鉴2025：11-6 C39主要经济指标（2024年）",
+      "publisher": "江苏省统计局",
+      "url": "https://tj.jiangsu.gov.cn/2025/nj11/nj1106.htm",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/js-2025-11-6-selected-dom.json",
+      "sha256": "fd0c16dfd44f3ba2e6753cb6249a6715de1771826cef1d5615022ab1d4e56a79",
+      "evidencePeriod": "2024",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "只读取工业目标表C39行及表头；未读完本书全部章节。",
+        "营业收入、工业总产值、资产均不是增加值。",
+        "原始直连返回403；保存浏览器实际渲染的目标表头和行，不把截断的整页DOM当完整原件。"
+      ],
+      "publishedLabel": "2025版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-js-yb2024-c39",
+      "title": "江苏统计年鉴2024：11-6 C39主要经济指标（2023年）",
+      "publisher": "江苏省统计局",
+      "url": "https://tj.jiangsu.gov.cn/2024/nj11/nj1106.htm",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/js-2024-11-6-selected-dom.json",
+      "sha256": "e03c74ec19af35118026a4f1d4e5a929203c8a566fde4ad7eb99714ca10f2332",
+      "evidencePeriod": "2023",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "只读取工业目标表C39行及表头；未读完本书全部章节。",
+        "营业收入、工业总产值、资产均不是增加值。",
+        "这是2024版对2023年的历史披露；不替换既有全国五经普表的最新修订2023值，也不用于计算可比增速。",
+        "原始直连返回403；保存浏览器实际渲染的目标表头和行，不把截断的整页DOM当完整原件。"
+      ],
+      "publishedLabel": "2024版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2024",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-zj-yb2025-c39",
+      "title": "浙江统计年鉴2025：7-5 C39主要经济指标（2024年）",
+      "publisher": "浙江省统计局",
+      "url": "https://zjjcmspublicnew.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/cms_files/jcms1/web3077/site/flash/tjj/Reports1/2025%E6%B5%99%E6%B1%9F%E7%BB%9F%E8%AE%A1%E5%B9%B4%E9%89%B4/cn/html/7-5%20%E6%8C%89%E8%A1%8C%E4%B8%9A%E5%88%86%E7%9A%84%E8%A7%84%E6%A8%A1%E4%BB%A5%E4%B8%8A%E5%B7%A5%E4%B8%9A%E4%BC%81%E4%B8%9A%E4%B8%BB%E8%A6%81%E7%BB%8F%E6%B5%8E%E6%8C%87%E6%A0%87%EF%BC%882024%E5%B9%B4%EF%BC%89.html",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/zj-2025-7-5.html",
+      "sha256": "c94798dd6bee16cfb5642f4ba4c6db99511d6c1754ff2c8ba81fb4577a7f8b96",
+      "evidencePeriod": "2024",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "只读取工业目标表C39行及表头；未读完本书全部章节。",
+        "营业收入、工业总产值、资产均不是增加值。"
+      ],
+      "publishedLabel": "2025版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-zj-yb2024-c39",
+      "title": "浙江统计年鉴2024：7-5 C39主要经济指标（2023年）",
+      "publisher": "浙江省统计局",
+      "url": "https://zjjcmspublicnew.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/cms_files/jcms1/web3077/site/flash/tjj/Reports1/2024%E6%B5%99%E6%B1%9F%E7%BB%9F%E8%AE%A1%E5%B9%B4%E9%89%B4/cn/html/7-5%20%E6%8C%89%E8%A1%8C%E4%B8%9A%E5%88%86%E7%9A%84%E8%A7%84%E6%A8%A1%E4%BB%A5%E4%B8%8A%E5%B7%A5%E4%B8%9A%E4%BC%81%E4%B8%9A%E4%B8%BB%E8%A6%81%E7%BB%8F%E6%B5%8E%E6%8C%87%E6%A0%87%EF%BC%882023%E5%B9%B4%EF%BC%89.html",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/zj-2024-7-5.html",
+      "sha256": "df44718b09fa5060eaf0da1f3075f13768030701d00f97569cb8dd985265e62a",
+      "evidencePeriod": "2023",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "只读取工业目标表C39行及表头；未读完本书全部章节。",
+        "营业收入、工业总产值、资产均不是增加值。",
+        "这是2024版对2023年的历史披露；不替换既有全国五经普表的最新修订2023值，也不用于计算可比增速。"
+      ],
+      "publishedLabel": "2024版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2024",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-gd-yb2025-c39",
+      "title": "广东统计年鉴2025：12-11 C39主要经济指标（2024年）",
+      "publisher": "广东省统计局",
+      "url": "https://stats.gd.gov.cn/attachment/0/615/615394/4810393.zip",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/gd-2025-cd.zip",
+      "sha256": "1415924265864a3039a2a2758082b3e3def48dcdcc38f8da3415e91b24d6a94e",
+      "evidencePeriod": "2024",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "只读取工业目标表C39行及表头；未读完本书全部章节。",
+        "营业收入、工业总产值、资产均不是增加值。"
+      ],
+      "publishedLabel": "2025版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-gd-yb2024-c39",
+      "title": "广东统计年鉴2024：12-11 C39主要经济指标（2023年）",
+      "publisher": "广东省统计局",
+      "url": "https://stats.gd.gov.cn/attachment/0/619/619073/4626161.zip",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/gd-2024-cd.zip",
+      "sha256": "202a990c308ea844755da60920fde3dd71aff992d1ce07e68e44a6924f7d453f",
+      "evidencePeriod": "2023",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "只读取工业目标表C39行及表头；未读完本书全部章节。",
+        "营业收入、工业总产值、资产均不是增加值。",
+        "这是2024版对2023年的历史披露；不替换既有全国五经普表的最新修订2023值，也不用于计算可比增速。"
+      ],
+      "publishedLabel": "2024版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2024",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-cq-yb2025-c39",
+      "title": "重庆统计年鉴2025：12-6 C39主要经济指标（2024年）",
+      "publisher": "重庆市统计局",
+      "url": "https://tjj.cq.gov.cn/cslm/tjsjzl/202603/P020260330529346889373.pdf",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/cq-2025-yearbook.pdf",
+      "sha256": "6c7219649073ed7106f654f8b26afc6205ad94c6dcd06276a3075b5f8ebda2bd",
+      "evidencePeriod": "2024",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "只读取工业目标表C39行及表头；未读完本书全部章节。",
+        "营业收入、工业总产值、资产均不是增加值。"
+      ],
+      "publishedLabel": "2025版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-cq-yb2024-c39",
+      "title": "重庆统计年鉴2024：12-6 C39主要经济指标（2023年）",
+      "publisher": "重庆市统计局",
+      "url": "https://tjj.cq.gov.cn/cslm/tjsjzl/202505/P020250506570204048748.pdf",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/cq-2024-yearbook.pdf",
+      "sha256": "593999555cd73b1660f3041df4cd217d8887df307bcc44171b2cbe13cf9ae3b3",
+      "evidencePeriod": "2023",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "只读取工业目标表C39行及表头；未读完本书全部章节。",
+        "营业收入、工业总产值、资产均不是增加值。",
+        "这是2024版对2023年的历史披露；不替换既有全国五经普表的最新修订2023值，也不用于计算可比增速。"
+      ],
+      "publishedLabel": "2024版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2024",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-sc-yb2025-c39",
+      "title": "四川统计年鉴2025：14-3 C39主要经济指标（2024年）",
+      "publisher": "四川省统计局",
+      "url": "https://tjj.sc.gov.cn/scstjj/tjnjnew/2025/zk/html/14-03.jpg",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/sc-2025-14-03.jpg",
+      "sha256": "a6b67229d66298a26fd662a0e24ccee8074358460531982a04f6151d2f9e8517",
+      "evidencePeriod": "2024",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "只读取工业目标表C39行及表头；未读完本书全部章节。",
+        "营业收入、工业总产值、资产均不是增加值。"
+      ],
+      "publishedLabel": "2025版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-sc-yb2024-c39",
+      "title": "四川统计年鉴2024：14-3 C39主要经济指标（2023年）",
+      "publisher": "四川省统计局",
+      "url": "https://tjj.sc.gov.cn/scstjj/tjnjnew/2024/zk/html/14-03.jpg",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/sc-2024-14-03.jpg",
+      "sha256": "9313e75743d41badac1787d0b1965847b09f0b7ca798e81965693daf1f9705a3",
+      "evidencePeriod": "2023",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "只读取工业目标表C39行及表头；未读完本书全部章节。",
+        "营业收入、工业总产值、资产均不是增加值。",
+        "这是2024版对2023年的历史披露；不替换既有全国五经普表的最新修订2023值，也不用于计算可比增速。"
+      ],
+      "publishedLabel": "2024版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2024",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-bj-employment-3-13",
+      "title": "北京统计年鉴2025：就业表3-13",
+      "publisher": "北京市统计局",
+      "url": "https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C0313.xls",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/bj-2025-c0313.xls",
+      "sha256": "59a24d1c743ac3de74ad21f588d2d17e68d9904c4327ae1572716d03f42bd28f",
+      "evidencePeriod": "2024",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "就业时点和单位范围按此表独立定义，不作为其他经营表的人均分母。"
+      ],
+      "publishedLabel": "2025版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-sh-employment-2-16",
+      "title": "上海统计年鉴2025：就业表2.16",
+      "publisher": "上海市统计局",
+      "url": "https://tjj.sh.gov.cn/tjnj/2025tjnj/C0216.htm",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/sh-2025-c0216b.html",
+      "sha256": "b456093a31089fbe5e72201e3299e4b4e5e6bb1dde6561df479777dc03d73e5a",
+      "evidencePeriod": "2024",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "就业时点和单位范围按此表独立定义，不作为其他经营表的人均分母。"
+      ],
+      "publishedLabel": "2025版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-js-employment-3-14",
+      "title": "江苏统计年鉴2025：就业表3-14",
+      "publisher": "江苏省统计局",
+      "url": "https://tj.jiangsu.gov.cn/2025/nj03/nj0314.htm",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/js-2025-3-14-browser.html",
+      "sha256": "020a8093c19b0135ab6aa32766199c89fdd9efba31cb44b8ba3493c02161d0df",
+      "evidencePeriod": "2024",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "就业时点和单位范围按此表独立定义，不作为其他经营表的人均分母。"
+      ],
+      "publishedLabel": "2025版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-zj-employment-2-23",
+      "title": "浙江统计年鉴2025：就业表2-23",
+      "publisher": "浙江省统计局",
+      "url": "https://zjjcmspublicnew.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/cms_files/jcms1/web3077/site/flash/tjj/Reports1/2025%E6%B5%99%E6%B1%9F%E7%BB%9F%E8%AE%A1%E5%B9%B4%E9%89%B4/cn/html/2-23%20%E5%88%86%E8%A1%8C%E4%B8%9A%E8%A7%84%E4%B8%8A%E5%8D%95%E4%BD%8D%E5%B0%B1%E4%B8%9A%E4%BA%BA%E5%91%98%E4%BA%BA%E6%95%B0%EF%BC%88%E5%B9%B4%E5%BA%95%E6%95%B0%EF%BC%89.html",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/zj-2025-2-23.html",
+      "sha256": "4ec78bc7b98367f04bffa1a1e79fadd9bcb346bfae52a11ad40cb8e636103977",
+      "evidencePeriod": "2024",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "就业时点和单位范围按此表独立定义，不作为其他经营表的人均分母。"
+      ],
+      "publishedLabel": "2025版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-zj-employment-2-22",
+      "title": "浙江统计年鉴2025：就业表2-22",
+      "publisher": "浙江省统计局",
+      "url": "https://zjjcmspublicnew.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/cms_files/jcms1/web3077/site/flash/tjj/Reports1/2025%E6%B5%99%E6%B1%9F%E7%BB%9F%E8%AE%A1%E5%B9%B4%E9%89%B4/cn/html/2-22%20%E6%8C%89%E8%A1%8C%E4%B8%9A%E5%88%86%E7%9A%84%E9%9D%9E%E7%A7%81%E8%90%A5%E5%8D%95%E4%BD%8D%E5%B7%A5%E4%B8%9A%E3%80%81%E5%BB%BA%E7%AD%91%E4%B8%9A%E4%BC%81%E4%B8%9A%E5%B0%B1%E4%B8%9A%E4%BA%BA%E5%91%98%E4%BA%BA%E6%95%B0%EF%BC%88%E5%B9%B4%E5%BA%95%E6%95%B0%EF%BC%89.html",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/zj-2025-2-22.html",
+      "sha256": "6a1051ceadda1988ac4e6d3fc7f2c1341e9e7a461d24775565e2f6898a28c133",
+      "evidencePeriod": "2024",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "就业时点和单位范围按此表独立定义，不作为其他经营表的人均分母。"
+      ],
+      "publishedLabel": "2025版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-gd-employment-4-7",
+      "title": "广东统计年鉴2025：就业表4-7",
+      "publisher": "广东省统计局",
+      "url": "https://stats.gd.gov.cn/attachment/0/615/615394/4810393.zip",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/gd-2025-04-07.xls",
+      "sha256": "eb6d8a7664dbe2ca9af64448b4bc7036f2d66c3c7145896fc23ae959c2e51a53",
+      "evidencePeriod": "2024",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "就业时点和单位范围按此表独立定义，不作为其他经营表的人均分母。"
+      ],
+      "publishedLabel": "2025版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-cq-employment-3-17",
+      "title": "重庆统计年鉴2025：就业表3-17（PDF第96页，印刷第74页）",
+      "publisher": "重庆市统计局",
+      "url": "https://tjj.cq.gov.cn/cslm/tjsjzl/202603/P020260330529346889373.pdf",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/cq-2025-yearbook.pdf",
+      "sha256": "6c7219649073ed7106f654f8b26afc6205ad94c6dcd06276a3075b5f8ebda2bd",
+      "evidencePeriod": "2024",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "就业时点和单位范围按此表独立定义，不作为其他经营表的人均分母。"
+      ],
+      "publishedLabel": "2025版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-sc-employment-4-7",
+      "title": "四川统计年鉴2025：就业表4-7",
+      "publisher": "四川省统计局",
+      "url": "https://tjj.sc.gov.cn/scstjj/tjnjnew/2025/zk/html/04-07.jpg",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/sc-2025-04-07.jpg",
+      "sha256": "90948ed617dba2d3b4dd53195db048126818f12f4bf7a132e1421c772b16accb",
+      "evidencePeriod": "2024",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "就业时点和单位范围按此表独立定义，不作为其他经营表的人均分母。"
+      ],
+      "publishedLabel": "2025版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-gd-employment-yb2024",
+      "title": "广东统计年鉴2024：就业内表复核",
+      "publisher": "广东省统计局",
+      "url": "https://stats.gd.gov.cn/attachment/0/619/619073/4626161.zip",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/gd-2024-04-07.xls",
+      "sha256": "52aaaf50a95228f756e6797bfcf7cf37a04da791f4d6ce87ebbcc763f06bbf47",
+      "evidencePeriod": "2023",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [],
+      "publishedLabel": "2024版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2024",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-zj-employment-yb2024",
+      "title": "浙江统计年鉴2024：就业内表复核",
+      "publisher": "浙江省统计局",
+      "url": "https://zjjcmspublicnew.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/cms_files/jcms1/web3077/site/flash/tjj/Reports1/2024%E6%B5%99%E6%B1%9F%E7%BB%9F%E8%AE%A1%E5%B9%B4%E9%89%B4/cn/html/2-25%20%E5%88%86%E8%A1%8C%E4%B8%9A%E8%A7%84%E4%B8%8A%E5%8D%95%E4%BD%8D%E5%B0%B1%E4%B8%9A%E4%BA%BA%E5%91%98%E4%BA%BA%E6%95%B0%EF%BC%88%E5%B9%B4%E5%BA%95%E6%95%B0%EF%BC%89.html",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/zj-2024-2-25.html",
+      "sha256": "ceece313bb82cce24bbd772ebe910708913e20959f61a069a03330dd48090b55",
+      "evidencePeriod": "2023",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [],
+      "publishedLabel": "2024版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2024",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-bj-scope",
+      "title": "北京统计年鉴2025：工业章简要说明",
+      "publisher": "北京市统计局",
+      "url": "https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/sm12.pdf",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/bj-2025-industrial-notes.pdf",
+      "sha256": "b7355a1b3bfac29ab1852779fd517340c14742e4a922ef58daef3370c7c477ef",
+      "evidencePeriod": "2024",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [],
+      "publishedLabel": "2025版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-js-scope",
+      "title": "江苏统计年鉴2025：工业章简要说明",
+      "publisher": "江苏省统计局",
+      "url": "https://tj.jiangsu.gov.cn/2025/nj11/nj1100.htm",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/js-2025-industrial-notes.txt",
+      "sha256": "d0221ef0d697be8b27108395bcfd6459068e2485f006f45b86bdb1fa8e83ba6a",
+      "evidencePeriod": "2024",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [],
+      "publishedLabel": "2025版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-js-definitions",
+      "title": "江苏统计年鉴2025：工业章指标解释",
+      "publisher": "江苏省统计局",
+      "url": "https://tj.jiangsu.gov.cn/2025/nj11/nj1119.htm",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/js-2025-industrial-definitions.txt",
+      "sha256": "f877fad486e20cc3706bc856a575cfbf4bddd553f3dd056bf51efea214a480d3",
+      "evidencePeriod": "2024",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [],
+      "publishedLabel": "2025版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-gd-definitions",
+      "title": "广东统计年鉴2025：工业章指标解释",
+      "publisher": "广东省统计局",
+      "url": "https://stats.gd.gov.cn/attachment/0/615/615394/4810393.zip",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/gd-2025-indicators.html",
+      "sha256": "0c22f720f31cebc32d1f954d040e56e86772da4666441b29f274f9d2d8ad8083",
+      "evidencePeriod": "2024",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [],
+      "publishedLabel": "2025版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-cq-scope",
+      "title": "重庆统计年鉴2025：工业章简要说明",
+      "publisher": "重庆市统计局",
+      "url": "https://tjj.cq.gov.cn/cslm/tjsjzl/202603/P020260330529346889373.pdf",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/cq-2025-yearbook.pdf",
+      "sha256": "6c7219649073ed7106f654f8b26afc6205ad94c6dcd06276a3075b5f8ebda2bd",
+      "evidencePeriod": "2024",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [],
+      "publishedLabel": "2025版；目标内表未注明独立发布日期",
+      "dates": [
+        {
+          "kind": "document-version",
+          "value": "2025",
+          "note": "年鉴版次；不是数据年度或精确上线日期"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-zj-census2023-official",
+      "title": "浙江省第五次全国经济普查公报（第三号）——第二产业基本情况",
+      "publisher": "浙江省统计局、浙江省第五次全国经济普查领导小组办公室",
+      "url": "https://tjj.zj.gov.cn/art/2025/3/13/art_1229856888_58963443.html",
+      "published": "2025-03-13",
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/zj-census-third-official.html",
+      "sha256": "179cf0e3f47f9856320c0e3dde591394ac8da51380a9a81a5ec6fbaee89cd9dc",
+      "evidencePeriod": "2023",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "全部工业企业法人单位口径；期末从业，非规模以上年度平均用工。"
+      ]
+    },
+    {
+      "id": "deep-region-gd-2026-jul",
+      "title": "2026年1—7月广东规模以上工业生产运行简况",
+      "publisher": "广东省统计局",
+      "url": "https://stats.gd.gov.cn/tjkx185/content/post_4945291.html",
+      "published": "2026-08-21",
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "archive": "research/industry-analysis/deep-reading/priority-regions/originals/gd-2026-jul.html",
+      "sha256": "faf440135b23cc3eecb16a7a5bddcc203f6ac54a8f30e3375d056cd5874be773",
+      "evidencePeriod": "2026-01—2026-07",
+      "readStatus": "本轮指定目标已实际读取，具体范围见read-log；非全书阅读",
+      "limitations": [
+        "累计实际增加值同比；没有给出当期现价增加值，不据此推算规模。"
+      ]
+    }
+  ],
+  "distributions": [],
+  "comparisons": [
+    {
+      "id": "deep-region-bj-revenue2024",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "北京：2024年电子设备制造业营业收入",
+      "metric": "revenue",
+      "period": "2024",
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "coverage": "北京市C39规模以上法人工业企业；年主营业务收入2000万元及以上；GB/T4754-2017。",
+      "comparisonKey": "bj-c39-own-annual-reported-revenue-2024",
+      "coverageLabel": "北京单地区 · 2025版年鉴 · 已读取内表",
+      "notes": [
+        "这是单地区经营数据卡；地区间统计总体与分母定义需逐项核齐后才可另建排行榜。",
+        "收入不得代替增加值；未提供人均增加值。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-bj-2024",
+          "name": "北京",
+          "nodeIds": [],
+          "value": 6317.514,
+          "evidence": [
+            {
+              "sourceId": "deep-region-bj-yb2025-c39",
+              "locator": "Sheet1 第46—47行C39；B企业数/E平均用工/Q收入/R成本/F资产/W利润；表头第3—8行，金额万元、人数人"
+            },
+            {
+              "sourceId": "deep-region-bj-scope",
+              "locator": "PDF第1页：二、统计范围；三、行业分类；四、历史资料修订"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "2025版年鉴原表；未注明目标行独立修订日期",
+          "notes": [
+            "平均用工人数 10.8866 万人（原表108866人）。金额原表为万元，本包除以10000转为亿元。",
+            "资产总计 11930 亿元人民币；利润总额 390.234 亿元人民币。",
+            "仅展示本地区年度披露值；不组成七地严格同口径排名，不占全国增加值分母。",
+            "2024版年鉴中的2023值已另行归档，尚未建立跨版同样本修订桥接，因此这里不显示同比。",
+            "同表企业单位数 350 个。"
+          ],
+          "missingReason": null,
+          "url": "https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/html/C1205.xls"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-sh-revenue2024",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "上海：2024年电子设备制造业营业收入",
+      "metric": "revenue",
+      "period": "2024",
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "coverage": "上海市C39规模以上工业企业，表12.1；就业表2.16另为规上工业企业期末人数，不能当年度平均用工。",
+      "comparisonKey": "sh-c39-own-annual-reported-revenue-2024",
+      "coverageLabel": "上海单地区 · 2025版年鉴 · 已读取内表",
+      "notes": [
+        "这是单地区经营数据卡；地区间统计总体与分母定义需逐项核齐后才可另建排行榜。",
+        "收入不得代替增加值；未提供人均增加值。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-sh-2024",
+          "name": "上海",
+          "nodeIds": [],
+          "value": 5350.3,
+          "evidence": [
+            {
+              "sourceId": "deep-region-sh-yb2025-c39",
+              "locator": "C1201A标题、C1201C第2行列头、C1201D第40行C39；C1201E第40行第1/2/5/6列：产值/资产/收入/利润，单位亿元"
+            },
+            {
+              "sourceId": "deep-region-sh-employment-2-16",
+              "locator": "2.16标题、表头及行业行；表头及第44行C39：期末20.69万人；管理1.36、技术4.72、办事2.04、服务0.39、生产制造12.19万人。"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "2025版年鉴原表；未注明目标行独立修订日期",
+          "notes": [
+            "另表2.16规上C39期末从业20.69万人；原表未给对应年度平均用工，未计算人均营收。",
+            "资产总计 9079.76 亿元人民币；利润总额 119.45 亿元人民币。",
+            "仅展示本地区年度披露值；不组成七地严格同口径排名，不占全国增加值分母。",
+            "2024版年鉴中的2023值已另行归档，尚未建立跨版同样本修订桥接，因此这里不显示同比。"
+          ],
+          "missingReason": null,
+          "url": "https://tjj.sh.gov.cn/tjnj/2025tjnj/C1201.htm"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-js-revenue2024",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "江苏：2024年电子设备制造业营业收入",
+      "metric": "revenue",
+      "period": "2024",
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "coverage": "江苏C39规上工业统计；工业章说明明确2021年起包括年主营收入2000万元及以上工业法人单位和个体经营户。",
+      "comparisonKey": "js-c39-own-annual-reported-revenue-2024",
+      "coverageLabel": "江苏单地区 · 2025版年鉴 · 已读取内表",
+      "notes": [
+        "这是单地区经营数据卡；地区间统计总体与分母定义需逐项核齐后才可另建排行榜。",
+        "收入不得代替增加值；未提供人均增加值。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-js-2024",
+          "name": "江苏",
+          "nodeIds": [],
+          "value": 24930.83,
+          "evidence": [
+            {
+              "sourceId": "deep-region-js-yb2025-c39",
+              "locator": "浏览器实际渲染DOM第83行C39：企业/资产；第187行C39：收入/成本/费用/利润/平均用工；第113、163行列头，单位亿元、万人"
+            },
+            {
+              "sourceId": "deep-region-js-scope",
+              "locator": "二、统计范围；四、数据使用注意事项"
+            },
+            {
+              "sourceId": "deep-region-js-definitions",
+              "locator": "平均用工人数定义"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "2025版年鉴原表；未注明目标行独立修订日期",
+          "notes": [
+            "平均用工人数149.33万人。江苏统计范围明确含符合门槛的个体经营户，本轮不与仅法人口径组成严格排名。",
+            "资产总计 28455.9 亿元人民币；利润总额 1042 亿元人民币。",
+            "仅展示本地区年度披露值；不组成七地严格同口径排名，不占全国增加值分母。",
+            "2024版年鉴中的2023值已另行归档，尚未建立跨版同样本修订桥接，因此这里不显示同比。",
+            "同表企业单位数 4500 个。"
+          ],
+          "missingReason": null,
+          "url": "https://tj.jiangsu.gov.cn/2025/nj11/nj1106.htm"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-zj-revenue2024",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "浙江：2024年电子设备制造业营业收入",
+      "metric": "revenue",
+      "period": "2024",
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "coverage": "浙江省C39规模以上工业企业，表7-5；非私营单位就业表2-22为另一个统计总体。",
+      "comparisonKey": "zj-c39-own-annual-reported-revenue-2024",
+      "coverageLabel": "浙江单地区 · 2025版年鉴 · 已读取内表",
+      "notes": [
+        "这是单地区经营数据卡；地区间统计总体与分母定义需逐项核齐后才可另建排行榜。",
+        "收入不得代替增加值；未提供人均增加值。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-zj-2024",
+          "name": "浙江",
+          "nodeIds": [],
+          "value": 10659.39,
+          "evidence": [
+            {
+              "sourceId": "deep-region-zj-yb2025-c39",
+              "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+            },
+            {
+              "sourceId": "deep-region-zj-employment-2-22",
+              "locator": "2-22标题、表头及行业行；非私营工业/建筑业年末就业；C39行2022/2023/2024分别38.64/41.61/45.23万人。"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "2025版年鉴原表；未注明目标行独立修订日期",
+          "notes": [
+            "平均用工人数70.34万人。非私营C39单位2024年末就业45.23万人另表披露，两数不作相减或替代。",
+            "资产总计 16205.8 亿元人民币；利润总额 486.92 亿元人民币。",
+            "仅展示本地区年度披露值；不组成七地严格同口径排名，不占全国增加值分母。",
+            "2024版年鉴中的2023值已另行归档，尚未建立跨版同样本修订桥接，因此这里不显示同比。",
+            "同表企业单位数 2870 个。"
+          ],
+          "missingReason": null,
+          "url": "https://zjjcmspublicnew.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/cms_files/jcms1/web3077/site/flash/tjj/Reports1/2025%E6%B5%99%E6%B1%9F%E7%BB%9F%E8%AE%A1%E5%B9%B4%E9%89%B4/cn/html/7-5%20%E6%8C%89%E8%A1%8C%E4%B8%9A%E5%88%86%E7%9A%84%E8%A7%84%E6%A8%A1%E4%BB%A5%E4%B8%8A%E5%B7%A5%E4%B8%9A%E4%BC%81%E4%B8%9A%E4%B8%BB%E8%A6%81%E7%BB%8F%E6%B5%8E%E6%8C%87%E6%A0%87%EF%BC%882024%E5%B9%B4%EF%BC%89.html"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-gd-revenue2024",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "广东：2024年电子设备制造业营业收入",
+      "metric": "revenue",
+      "period": "2024",
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "coverage": "广东省C39规模以上工业企业，官方光盘表12-11；分母为同表全部就业人员年平均人数。",
+      "comparisonKey": "gd-c39-own-annual-reported-revenue-2024",
+      "coverageLabel": "广东单地区 · 2025版年鉴 · 已读取内表",
+      "notes": [
+        "这是单地区经营数据卡；地区间统计总体与分母定义需逐项核齐后才可另建排行榜。",
+        "收入不得代替增加值；未提供人均增加值。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-gd-2024",
+          "name": "广东",
+          "nodeIds": [],
+          "value": 53787.2,
+          "evidence": [
+            {
+              "sourceId": "deep-region-gd-yb2025-c39",
+              "locator": "官方ZIP内 directory/12/excel/12-11.xls，Sheet1第61行C39；C企业、G资产、I收入、J成本、L利润、O全部就业人员年平均人数；表头第3—10行"
+            },
+            {
+              "sourceId": "deep-region-gd-definitions",
+              "locator": "工业统计调查单位；全部职工平均人数定义"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "2025版年鉴原表；未注明目标行独立修订日期",
+          "notes": [
+            "全部就业人员年平均人数319.34万人。该项保留原指标名称，不改称期末就业。",
+            "资产总计 66064.4 亿元人民币；利润总额 2944.59 亿元人民币。",
+            "仅展示本地区年度披露值；不组成七地严格同口径排名，不占全国增加值分母。",
+            "2024版年鉴中的2023值已另行归档，尚未建立跨版同样本修订桥接，因此这里不显示同比。",
+            "同表企业单位数 10574 个。"
+          ],
+          "missingReason": null,
+          "url": "https://stats.gd.gov.cn/attachment/0/615/615394/4810393.zip"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-cq-revenue2024",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "重庆：2024年电子设备制造业营业收入",
+      "metric": "revenue",
+      "period": "2024",
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "coverage": "重庆C39规模以上工业企业；本章说明规模门槛为年主营业务收入2000万元及以上。",
+      "comparisonKey": "cq-c39-own-annual-reported-revenue-2024",
+      "coverageLabel": "重庆单地区 · 2025版年鉴 · 已读取内表",
+      "notes": [
+        "这是单地区经营数据卡；地区间统计总体与分母定义需逐项核齐后才可另建排行榜。",
+        "收入不得代替增加值；未提供人均增加值。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-cq-2024",
+          "name": "重庆",
+          "nodeIds": [],
+          "value": 5677.09465,
+          "evidence": [
+            {
+              "sourceId": "deep-region-cq-yb2025-c39",
+              "locator": "PDF第248—255页表12-6；C39名称/企业数见250页，第251页第19数据行平均从业22.26万人；第255页第19数据行收入56770946.5万元、利润1527947.3万元"
+            },
+            {
+              "sourceId": "deep-region-cq-scope",
+              "locator": "PDF第238页、印刷216页，年主营业务收入2000万元门槛"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "2025版年鉴原表；未注明目标行独立修订日期",
+          "notes": [
+            "从业人员平均人数22.26万人。金额原表为万元，本包除以10000转为亿元；利润按中文列名“利润总额”。",
+            "资产总计 4199.31 亿元人民币；利润总额 152.795 亿元人民币。",
+            "仅展示本地区年度披露值；不组成七地严格同口径排名，不占全国增加值分母。",
+            "2024版年鉴中的2023值已另行归档，尚未建立跨版同样本修订桥接，因此这里不显示同比。",
+            "同表企业单位数 537 个。"
+          ],
+          "missingReason": null,
+          "url": "https://tjj.cq.gov.cn/cslm/tjsjzl/202603/P020260330529346889373.pdf"
+        }
+      ]
+    },
+    {
+      "id": "deep-region-sc-revenue2024",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "四川：2024年电子设备制造业营业收入",
+      "metric": "revenue",
+      "period": "2024",
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "coverage": "四川省C39规模以上工业企业，表14-3；平均用工与年末非私营就业表4-7不同。",
+      "comparisonKey": "sc-c39-own-annual-reported-revenue-2024",
+      "coverageLabel": "四川单地区 · 2025版年鉴 · 已读取内表",
+      "notes": [
+        "这是单地区经营数据卡；地区间统计总体与分母定义需逐项核齐后才可另建排行榜。",
+        "收入不得代替增加值；未提供人均增加值。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-sc-2024",
+          "name": "四川",
+          "nodeIds": [],
+          "value": 8142.46,
+          "evidence": [
+            {
+              "sourceId": "deep-region-sc-yb2025-c39",
+              "locator": "整张原图14-3，C39行（电气机械下、仪器仪表上）；企业/资产/营业收入/成本/利润/平均用工列；金额亿元、人数万人"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "2025版年鉴原表；未注明目标行独立修订日期",
+          "notes": [
+            "平均用工人数42.69万人。4-7就业表只到制造业门类，未据此估计C39从业。",
+            "资产总计 8674.13 亿元人民币；利润总额 213.83 亿元人民币。",
+            "仅展示本地区年度披露值；不组成七地严格同口径排名，不占全国增加值分母。",
+            "2024版年鉴中的2023值已另行归档，尚未建立跨版同样本修订桥接，因此这里不显示同比。",
+            "同表企业单位数 1045 个。"
+          ],
+          "missingReason": null,
+          "url": "https://tjj.sc.gov.cn/scstjj/tjnjnew/2025/zk/html/14-03.jpg"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "deep-region-annual2024-obtained",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "period": "2024",
+      "title": "七地已补到2024年度经营原值",
+      "body": "北京、上海、江苏、浙江、广东、重庆、四川的2025版年鉴工业内表均已实读C39行；七地2024版对应2023内表也已实读。2024年的营业收入、资产与利润可以作为地区经营背景，但这些金额不等于增加值。",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "deep-region-bj-yb2025-c39",
+          "locator": "Sheet1 第46—47行C39；B企业数/E平均用工/Q收入/R成本/F资产/W利润；表头第3—8行，金额万元、人数人"
+        },
+        {
+          "sourceId": "deep-region-sh-yb2025-c39",
+          "locator": "C1201A标题、C1201C第2行列头、C1201D第40行C39；C1201E第40行第1/2/5/6列：产值/资产/收入/利润，单位亿元"
+        },
+        {
+          "sourceId": "deep-region-js-yb2025-c39",
+          "locator": "浏览器实际渲染DOM第83行C39：企业/资产；第187行C39：收入/成本/费用/利润/平均用工；第113、163行列头，单位亿元、万人"
+        },
+        {
+          "sourceId": "deep-region-zj-yb2025-c39",
+          "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+        },
+        {
+          "sourceId": "deep-region-gd-yb2025-c39",
+          "locator": "官方ZIP内 directory/12/excel/12-11.xls，Sheet1第61行C39；C企业、G资产、I收入、J成本、L利润、O全部就业人员年平均人数；表头第3—10行"
+        },
+        {
+          "sourceId": "deep-region-cq-yb2025-c39",
+          "locator": "PDF第248—255页表12-6；C39名称/企业数见250页，第251页第19数据行平均从业22.26万人；第255页第19数据行收入56770946.5万元、利润1527947.3万元"
+        },
+        {
+          "sourceId": "deep-region-sc-yb2025-c39",
+          "locator": "整张原图14-3，C39行（电气机械下、仪器仪表上）；企业/资产/营业收入/成本/利润/平均用工列；金额亿元、人数万人"
+        }
+      ],
+      "conditions": [
+        "只审读目标表，不表示七本年鉴全部章节已审读完。",
+        "2024版历史值保留版本，不覆盖原有2023五经普统一地区表。"
+      ]
+    },
+    {
+      "id": "deep-region-scope-and-time",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "period": "2024",
+      "title": "统计范围与就业时点限制跨省比较",
+      "body": "江苏工业章明确2021年起纳入符合门槛的工业法人和个体经营户，北京说明使用法人工业企业。上海就业表是期末人数；浙江另有非私营单位期末就业。因范围与时点不同，新取得的2024经营值按地区分别展示，不生成七地人均增加值排名。",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "deep-region-js-scope",
+          "locator": "二、统计范围"
+        },
+        {
+          "sourceId": "deep-region-bj-scope",
+          "locator": "二、统计范围"
+        },
+        {
+          "sourceId": "deep-region-sh-employment-2-16",
+          "locator": "标题及C39行"
+        },
+        {
+          "sourceId": "deep-region-zj-employment-2-22",
+          "locator": "标题及C39行"
+        }
+      ],
+      "conditions": [
+        "年度平均用工、年度平均就业、期末就业保留原指标名。",
+        "营业收入除以任何就业数都不是人均增加值。"
+      ]
+    },
+    {
+      "id": "deep-region-zj-census-restored",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "period": "2023",
+      "title": "浙江全部法人数据的缺口已修复",
+      "body": "重新定位统计局官方公报后，核实浙江2023年C39工业企业法人13797个、年末从业75.3万人、全年营业收入10123.4亿元；三项由原来的待核空值转为正式值。",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "deep-region-zj-census2023-official",
+          "locator": "第三号表3-2、3-3 C39行"
+        }
+      ],
+      "conditions": [
+        "原报纸PDF仍404；新增证据来自统计局完整HTML，而不是搜索摘要。"
+      ]
+    },
+    {
+      "id": "deep-region-gd-latest2026",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "period": "2026-01—2026-07",
+      "title": "广东最新进展已推进到2026年1—7月",
+      "body": "广东2026年1—7月规模以上C39增加值同比增长11.5%。这是价格因素经处理后的增长指标，和2024年鉴营收并列用于理解近期方向，不换算为现价增加值。",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "deep-region-gd-2026-jul",
+          "locator": "分行业看及附注1"
+        }
+      ],
+      "conditions": [
+        "未取得其他六地同期间完整原文，不作同期跨省排名。"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "id": "deep-region-bj-yearbook-inner-tables",
+      "country": "cn",
+      "group": "地方年鉴实读",
+      "title": "北京：2024、2025两版工业C39内表已读",
+      "period": "2023—2024",
+      "status": "obtained",
+      "detail": "两版12-5的C39行及表头单位均已读取；2025版就业相关目标表已读。尚未逐表读完全部工业与就业章节。",
+      "evidence": [
+        {
+          "sourceId": "deep-region-bj-yb2025-c39",
+          "locator": "Sheet1 第46—47行C39；B企业数/E平均用工/Q收入/R成本/F资产/W利润；表头第3—8行，金额万元、人数人"
+        },
+        {
+          "sourceId": "deep-region-bj-yb2024-c39",
+          "locator": "Sheet1 第46—47行C39；B企业数/E平均用工/Q收入/R成本/F资产/W利润；表头第3—8行，金额万元、人数人"
+        }
+      ],
+      "nextStep": "按需读取市内地区、C39细类及经济效益内表；若构建跨省2024榜，先统一法人/个体范围与用工定义。"
+    },
+    {
+      "id": "deep-region-sh-yearbook-inner-tables",
+      "country": "cn",
+      "group": "地方年鉴实读",
+      "title": "上海：2024、2025两版工业C39内表已读",
+      "period": "2023—2024",
+      "status": "obtained",
+      "detail": "两版12.1的C39行及表头单位均已读取；2025版就业相关目标表已读。尚未逐表读完全部工业与就业章节。",
+      "evidence": [
+        {
+          "sourceId": "deep-region-sh-yb2025-c39",
+          "locator": "C1201A标题、C1201C第2行列头、C1201D第40行C39；C1201E第40行第1/2/5/6列：产值/资产/收入/利润，单位亿元"
+        },
+        {
+          "sourceId": "deep-region-sh-yb2024-c39",
+          "locator": "C1201A标题、C1201C第2行列头、C1201D第40行C39；C1201E第40行第1/2/5/6列：产值/资产/收入/利润，单位亿元"
+        }
+      ],
+      "nextStep": "按需读取市内地区、C39细类及经济效益内表；若构建跨省2024榜，先统一法人/个体范围与用工定义。"
+    },
+    {
+      "id": "deep-region-js-yearbook-inner-tables",
+      "country": "cn",
+      "group": "地方年鉴实读",
+      "title": "江苏：2024、2025两版工业C39内表已读",
+      "period": "2023—2024",
+      "status": "obtained",
+      "detail": "两版11-6的C39行及表头单位均已读取；2025版就业相关目标表已读。尚未逐表读完全部工业与就业章节。",
+      "evidence": [
+        {
+          "sourceId": "deep-region-js-yb2025-c39",
+          "locator": "浏览器实际渲染DOM第83行C39：企业/资产；第187行C39：收入/成本/费用/利润/平均用工；第113、163行列头，单位亿元、万人"
+        },
+        {
+          "sourceId": "deep-region-js-yb2024-c39",
+          "locator": "2024版11-6，DOM第59行C39，第3行表头；企业4175、收入23766.82亿元、平均用工151.10万人"
+        }
+      ],
+      "nextStep": "按需读取市内地区、C39细类及经济效益内表；若构建跨省2024榜，先统一法人/个体范围与用工定义。"
+    },
+    {
+      "id": "deep-region-zj-yearbook-inner-tables",
+      "country": "cn",
+      "group": "地方年鉴实读",
+      "title": "浙江：2024、2025两版工业C39内表已读",
+      "period": "2023—2024",
+      "status": "obtained",
+      "detail": "两版7-5的C39行及表头单位均已读取；2025版就业相关目标表已读。尚未逐表读完全部工业与就业章节。",
+      "evidence": [
+        {
+          "sourceId": "deep-region-zj-yb2025-c39",
+          "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+        },
+        {
+          "sourceId": "deep-region-zj-yb2024-c39",
+          "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+        }
+      ],
+      "nextStep": "按需读取市内地区、C39细类及经济效益内表；若构建跨省2024榜，先统一法人/个体范围与用工定义。"
+    },
+    {
+      "id": "deep-region-gd-yearbook-inner-tables",
+      "country": "cn",
+      "group": "地方年鉴实读",
+      "title": "广东：2024、2025两版工业C39内表已读",
+      "period": "2023—2024",
+      "status": "obtained",
+      "detail": "两版12-11的C39行及表头单位均已读取；2025版就业相关目标表已读。尚未逐表读完全部工业与就业章节。",
+      "evidence": [
+        {
+          "sourceId": "deep-region-gd-yb2025-c39",
+          "locator": "官方ZIP内 directory/12/excel/12-11.xls，Sheet1第61行C39；C企业、G资产、I收入、J成本、L利润、O全部就业人员年平均人数；表头第3—10行"
+        },
+        {
+          "sourceId": "deep-region-gd-yb2024-c39",
+          "locator": "官方ZIP内 directory/12/excel/12-11.xls，Sheet1第61行C39；C企业、G资产、I收入、J成本、L利润、O全部就业人员年平均人数；表头第3—10行"
+        }
+      ],
+      "nextStep": "按需读取市内地区、C39细类及经济效益内表；若构建跨省2024榜，先统一法人/个体范围与用工定义。"
+    },
+    {
+      "id": "deep-region-cq-yearbook-inner-tables",
+      "country": "cn",
+      "group": "地方年鉴实读",
+      "title": "重庆：2024、2025两版工业C39内表已读",
+      "period": "2023—2024",
+      "status": "obtained",
+      "detail": "两版12-6的C39行及表头单位均已读取；2025版就业相关目标表已读。尚未逐表读完全部工业与就业章节。",
+      "evidence": [
+        {
+          "sourceId": "deep-region-cq-yb2025-c39",
+          "locator": "PDF第248—255页表12-6；C39名称/企业数见250页，第251页第19数据行平均从业22.26万人；第255页第19数据行收入56770946.5万元、利润1527947.3万元"
+        },
+        {
+          "sourceId": "deep-region-cq-yb2024-c39",
+          "locator": "PDF第253—260页表12-6；255页C39名称/企业数，第256/260页第19数据行，金额万元、平均从业万人"
+        }
+      ],
+      "nextStep": "按需读取市内地区、C39细类及经济效益内表；若构建跨省2024榜，先统一法人/个体范围与用工定义。"
+    },
+    {
+      "id": "deep-region-sc-yearbook-inner-tables",
+      "country": "cn",
+      "group": "地方年鉴实读",
+      "title": "四川：2024、2025两版工业C39内表已读",
+      "period": "2023—2024",
+      "status": "obtained",
+      "detail": "两版14-3的C39行及表头单位均已读取；2025版就业相关目标表已读。尚未逐表读完全部工业与就业章节。",
+      "evidence": [
+        {
+          "sourceId": "deep-region-sc-yb2025-c39",
+          "locator": "整张原图14-3，C39行（电气机械下、仪器仪表上）；企业/资产/营业收入/成本/利润/平均用工列；金额亿元、人数万人"
+        },
+        {
+          "sourceId": "deep-region-sc-yb2024-c39",
+          "locator": "整张原图14-3，C39行（电气机械下、仪器仪表上）；企业/资产/营业收入/成本/利润/平均用工列；金额亿元、人数万人"
+        }
+      ],
+      "nextStep": "按需读取市内地区、C39细类及经济效益内表；若构建跨省2024榜，先统一法人/个体范围与用工定义。"
+    },
+    {
+      "id": "deep-region-2026-local-progress",
+      "country": "cn",
+      "group": "地方最新进展",
+      "title": "七地2026最新一期：广东已读，其他六地仍待补齐",
+      "period": "2026",
+      "status": "pending",
+      "detail": "本轮实读广东2026年1—7月原文；未宣称七地2026公告已全部探索完。",
+      "evidence": [
+        {
+          "sourceId": "deep-region-gd-2026-jul",
+          "locator": "2026年1—7月分行业段落"
+        }
+      ],
+      "nextStep": "读取其他六地2026最近一期C39公告，并分别标出实际覆盖月份。"
+    }
+  ]
+}

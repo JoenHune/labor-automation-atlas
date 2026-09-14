@@ -1,0 +1,430 @@
+云南省统计局-统计年鉴
+网站无障碍
+适老版
+政府信息公开
+function zzms() {
+        var h = window.location.href;
+        window.location.href = "https://stats.yn.gov.cn//old.html?u=" + h
+    }
+政策文件
+或政策
+行政规范性文件
+其他文件
+政府信息公开指南
+政府信息公开制度
+法定主动
+公开内容
+机构职能
+基本信息
+法定职责
+领导信息
+内设机构
+下属单位
+人事管理
+招考遴选
+统计职称工作
+政策法规
+地方性法规和规章
+政策文件
+政策解读
+统计业务
+统计培训
+统计管理
+统计制度
+统计标准
+地方统计调查项目
+统计数据
+数据发布
+数据解读
+进度数据
+统计公报
+统计年鉴
+云南统计
+决策公开
+重大政策预公开
+重大行政决策议定事项
+执行公开
+重点改革任务
+督查和审计
+执法证公示
+行政处罚和行政强制
+失信人员、失信企业信息
+服务公开
+权责清单
+办事记录和监督管理
+结果公开
+“双随机、一公开”情况公开
+落实党中央国务院和省委省政府决策部署情况
+人大代表建议政协提案办理情况
+行政许可
+重点领域与职责业务信息
+规划计划
+财政资金
+重大建设项目批准和实施
+非公开信息指南
+采购信息
+政府采购
+内部采购
+政府信息公开年报
+依申请公开
+政策法规
+政策解读
+$(function(){
+
+    //left驻留
+    var Chid=$("#Chid").val();
+    var PChid=$("#PChid").val();
+    var PChid2=$("#PChid2").val();
+    var PChid3=$("#PChid3").val();
+    var PChid3=$("#PChid4").val();
+
+    /*一级*/
+    $(".lzy-gov-left-nav .nav-info").each(function(){
+        if($(this).attr("channelid") == Chid){
+            $(this).addClass("cur");
+        }
+    });
+    /*二级*/
+    $(".lzy-gov-left-nav .second-item").each(function(){
+        var curChannelid = $(this).find(".second-title").attr("channelid");
+        if(curChannelid == Chid){
+            $(this).parents(".second-con").siblings(".nav-info").addClass("cur");
+            $(this).parents(".second-con").show();
+            $(this).addClass("cur");
+            $(this).find(".third-con").show();
+        }
+    });
+
+
+    $(".lzy-gov-left-nav .third-con").each(function(){
+        /*没有子元素 删除*/
+        if($(this).find("a").length<1){
+            $(this).hide();
+            $(this).siblings(".second-self").find(".small-plus").hide();
+        }
+    });
+
+    $(".lzy-gov-left-nav .third-item").each(function(){
+        var curChannelid = $(this).find(".third-title").attr("channelid");
+        if(curChannelid == Chid){
+            $(this).addClass("cur");
+            $(this).parents(".second-item").addClass("cur");
+            $(this).parents(".third-con").show();
+            $(this).parents(".second-con").show();
+            $(this).parents(".second-con").siblings(".nav-info").addClass("cur");
+            
+        }
+    });
+
+    /*法定点击*/
+    $("#fdzdgknr").click(function(){
+        //$(".gov-left-nav .nav-info").removeClass("cur");
+        if($(this).hasClass("cur")){
+            $(this).removeClass("cur");
+            $(".second-law.second-con").hide();
+        }else{
+            $(this).addClass("cur");  
+            $(".second-law.second-con").show();
+        }
+    });
+        $("#zcwj").click(function(){
+        //$(".gov-left-nav .nav-info").removeClass("cur");
+        if($(this).hasClass("cur")){
+            $(this).removeClass("cur");
+            $(".second-law.second-con").hide();
+        }else{
+            $(this).addClass("cur");  
+            $(".second-law.second-con").show();
+        }
+    });
+
+    $(".small-plus").click(function(){
+        $(this).parents(".second-item").siblings().removeClass("cur");
+        $(this).parents(".second-item").siblings().find(".third-con").hide();
+        if($(this).parents(".second-item").hasClass("cur")){
+            $(this).parents(".second-item").removeClass("cur");
+            $(this).parents(".second-self").siblings(".third-con").hide();
+        }else{
+            $(this).parents(".second-item").addClass("cur");
+            $(this).parents(".second-self").siblings(".third-con").show();
+        }
+        
+    });
+
+})
+统计年鉴
+2020云南省人口普查年鉴-Excel
+2026-07-16
+2021年云南统计年鉴
+2026-07-16
+2022年云南统计年鉴
+2026-07-16
+2025云南统计年鉴
+2026-05-07
+云南经济普查年鉴2023（PDF版）
+2026-02-27
+云南经济普查年鉴2023（excel版）
+2025-12-30
+2024云南统计年鉴
+2025-05-23
+2023云南统计年鉴
+2024-03-29
+2020云南省人口普查年鉴-PDF
+2024-02-04
+2020云南统计年鉴
+2021-05-20
+2019云南统计年鉴
+2020-05-14
+2018云南统计年鉴
+2019-12-05
+2017云南统计年鉴
+2019-01-29
+2016云南统计年鉴
+2019-01-27
+2015云南统计年鉴
+2019-01-27
+2014云南统计年鉴
+2019-01-26
+2013云南统计年鉴
+2019-01-25
+2012云南统计年鉴
+2019-01-24
+2011云南统计年鉴
+2019-01-23
+2010云南统计年鉴
+2019-01-23
+//wcm分页，总记录：28
+createPage(2, 0, "index", "html");
+function createPage(_nPageCount, _nCurrIndex, _sPageName, _sPageExt) {
+    
+    var page="";
+    <!-- 总页数小于一页不显示 -->
+    if (_nPageCount == null || _nPageCount <= 1) {
+        return false;
+    } 
+
+
+    page += '<span class="number">共 '+28+' 条数据</span>';
+    <!--  当前页是首页  -->
+    if (_nCurrIndex == 0){
+        page += '<a class="pageprv disabled" href="javascript:;" target="_self"><</a>';
+        page += '<a class="mobile pageprv disabled" href="javascript:;" target="_self">上一页</a>';
+        page += '<span class="mobile current-show">'+'1/'+_nPageCount+'</span>';
+    }
+    <!-- 上一页 -->
+    if (_nCurrIndex > 0){
+        if (_nCurrIndex == 1){
+            var prePage = _sPageName + "." + _sPageExt;
+        } else {
+            var prePage = _sPageName + "_" + (_nCurrIndex - 1) + "." + _sPageExt;
+        }
+        page += '<a class="pageprv" href="' + prePage + '" target="_self"><</a>';
+        page += '<a class="mobile pageprv" href="'+prePage+'" target="_self">上一页</a>';
+        page += '<span class="mobile current-show">'+(_nCurrIndex+1)+'/'+_nPageCount+'</span>';
+    }
+    
+    <!-- 前面大于三页 -->
+    if (_nCurrIndex > 2) {
+        page+='<a class="" href="' + _sPageName + "." + _sPageExt  + '" target="_self">1</a>'; 
+    }
+    
+    <!-- 前面大于四页省略 -->
+    if (_nCurrIndex > 3) {
+        page+='<a target="_self">...</a>';
+    }
+    
+    <!-- 列表 -->
+    for(var i = 0; i < _nPageCount; i++){
+        var sPageName;
+        <!-- 前两页 -->
+        if ((_nCurrIndex - 2) >= 0) { 
+            if (i == (_nCurrIndex - 2)){
+             if (i == 0) {
+                 sPageName = _sPageName + "." + _sPageExt;
+             } else {
+                 sPageName = _sPageName + "_" + (_nCurrIndex - 2) + "." + _sPageExt;
+             }
+             page+='<a class="" href="' + sPageName + '" target="_self">' + ( i + 1 ) +'</a>';
+            } 
+        }
+        if ((_nCurrIndex - 1) >= 0) {
+             if (i == (_nCurrIndex - 1)){
+                 if (i == 0) {
+                     sPageName = _sPageName + "." + _sPageExt;
+                 } else {
+                     sPageName = _sPageName + "_" + (_nCurrIndex - 1) + "." + _sPageExt;
+                 }
+                 page+='<a class="" href="' + sPageName + '" target="_self">' + ( i + 1 ) +'</a>';
+             } 
+        }
+        
+        <!-- 当前页 -->
+        if(i == _nCurrIndex){
+            page+='<a class="cur">' + (i + 1) + '</a>';
+        }
+        
+        <!-- 后两页 -->
+        if ((_nCurrIndex + 1) <= (_nPageCount - 1)) { 
+             if (i == (_nCurrIndex + 1)){                               
+                 sPageName = _sPageName + "_" + (_nCurrIndex + 1) + "." + _sPageExt;
+                 page+='<a class="" href="' + sPageName + '" target="_self">' + ( i + 1 ) +'</a>';
+             } 
+        }
+        if ((_nCurrIndex + 2) <= (_nPageCount - 1)) {
+             if (i == (_nCurrIndex + 2)){
+                 sPageName = _sPageName + "_" + (_nCurrIndex + 2) + "." + _sPageExt;
+                 page+='<a class="" href="' + sPageName + '" target="_self">' + ( i + 1 ) +'</a>';
+             } 
+        }  
+    }
+
+    for(var j = _nCurrIndex+3 ;j<( _nPageCount>5?5:_nPageCount); j++){
+         sPageName = _sPageName + "_" + j + "." + _sPageExt;
+     page+='<a class="" href="' + sPageName + '" target="_self">' + (j+1) +'</a>';
+                
+    }
+
+
+        
+    <!-- 后面大于四页省略 -->
+    if (_nCurrIndex < (_nPageCount - 4)&&_nPageCount>6) {
+        page+='<a>...</a>';
+    }
+    
+    <!-- 后面大于三页 -->
+    if (_nCurrIndex <_nPageCount-3&&_nPageCount>5) {
+        page+='<a class="" href="' + _sPageName + "_" + (_nPageCount - 1) + "." + _sPageExt  + '" target="_self">'+_nPageCount+'</a>'; 
+    }
+
+    <!-- 下一页 -->
+    if (_nCurrIndex < (_nPageCount - 1)){
+        var prePage = _sPageName + "_" + (_nCurrIndex + 1) + "." + _sPageExt;
+        page+='<a class="pagenext" href="' + prePage + '" target="_self">></a>';
+        page += '<a class="mobile pagenext" href="'+prePage+'" target="_self">下一页</a>';
+    }
+
+    <!-- 当前页是尾页 -->
+    if (_nCurrIndex == (_nPageCount - 1)){
+        page+='<a class="pagenext disabled" href="javascript:;" target="_self">></a>';
+        page += '<a class="mobile pagenext disabled" href="javascript:;" target="_self">下一页</a>';
+    }
+
+    
+    <!-- 打印页码 -->
+    $("#page").html(page);
+}
+首页
+>
+政务公开
+>
+政府信息公开
+>
+法定主动公开内容
+>
+统计数据
+>
+统计年鉴
+//顶部导航
+	if ($('.dqwz a').length == 1) {
+		$('.lf a').eq(0).addClass("cur");
+	} else {
+		var text1 = $('.dqwz a').eq(1).text();
+		$('.lf a').each(function () {
+			if ($(this).text().trim() === text1) {
+				$('.lf a').removeClass('cur')
+				$(this).addClass('cur');
+			}
+		});
+	}
+
+	//左侧导航
+	var text2 = $('.dqwz a:last').text();
+	$('.nav-pc li').each(function () {
+		if ($(this).find('a').text().trim() === text2) {
+			$('.nav-pc li').removeClass('cur')
+			$(this).addClass('cur');
+		}
+	});
+
+    //收缩展开效果
+    $('.colname').each(function(index) {
+    if (!$(this).hasClass('cur')) {
+        $('.colname').eq(index).click(function() {
+            $('.colname').eq(index).toggleClass('cur');
+        });
+    }
+    });
+$('.clickBox').click(function() {
+    $('.inner-list').eq($('.clickBox').index(this)).toggle();
+    $('.clickBox>.plus').eq($('.clickBox').index(this)).toggleClass('close');
+});
+
+
+
+//信息公开左侧
+var text4 = $('.dqwz a').eq(2).text();
+                $('.fdzdgk-content-lf a').each(function () {
+			if ($(this).find(".tit").text().trim()=== text4) {
+				$('.fdzdgk-content-lf a').removeClass('cur')
+				$(this).addClass('cur');
+			}
+		});
+
+//信息公开左侧法定
+ var text5 = $('.dqwz a').eq(3).text();
+		$('.inner-list a').each(function () {
+			if ($(this).text().trim() === text5) {
+				$('.inner-list a').removeClass('cur')
+				$(this).addClass('cur');
+			}
+
+		});
+.lzy-gov-left-nav .cur {
+    background-color: #026AB6 !important;
+}
+.lzy-gov-left-nav .cur a {
+    color: #fff !important;
+}
+政府机构网站
+云南省人民政府研究室
+云南省林业和草原局
+云南省地方金融监...
+云南省乡村振兴局
+云南省机关事务管理局
+云南省人民政府国...
+云南省医疗保障局
+云南省粮食和物资...
+云南省监狱管理局
+云南省戒毒管理局
+地方政府网站
+昆明市人民政府
+昭通市人民政府
+曲靖市人民政府
+玉溪市人民政府
+保山市人民政府
+楚雄彝族自治州人...
+红河哈尼族彝族自...
+文山壮族苗族自治...
+普洱市人民政府
+西双版纳傣族自治...
+大理白族自治州人...
+德宏傣族景颇族自...
+丽江市人民政府
+怒江傈僳族自治州...
+迪庆藏族自治州人...
+临沧市人民政府
+地方统计网站
+昆明市统计局
+楚雄州统计局
+其他
+云南省政府采购网
+云南省对外投资合作网
+联系我们
+网站地图
+主办单位：云南省统计局
+地址：昆明市穿金路193号至195号
+联系电话：0871-65108420
+网站标识码：5300000026
+滇ICP备18010677号-2
+滇公网安备53010302000855号
+网站支持IPV6

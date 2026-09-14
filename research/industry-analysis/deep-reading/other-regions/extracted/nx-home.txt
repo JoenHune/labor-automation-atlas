@@ -1,0 +1,343 @@
+宁夏回族自治区统计局
+#floatdivids{position: absolute;top: 0;left: 0;z-index: 1000;}
+#floatdivids img{ vertical-align: bottom; width:300px;}
+X
+var isinter;var millisec=20;var xflo=0;var yflo=0;var yistop=false;var xisleft=true;function floatadfun(){kwidth=$(window).width();kheight=$(window).height();divwidth=$('#floatdivids').width();divheight=$('#floatdivids').height();hstop=jQuery(window).scrollTop();wsleft=jQuery(window).scrollLeft();offwidth=(kwidth-divwidth);offheight=(kheight-divheight);if(!yistop){yflo++;if(yflo>=offheight){yistop=true}}else{yflo--;if(yflo<=0){yistop=false}}if(xisleft){xflo++;if(xflo>=offwidth){xisleft=false}}else{xflo--;if(xflo<=0){xisleft=true}}$('#floatdivids').css({'top':yflo+hstop,'left':xflo+wsleft})}$(function(){isinter=setInterval("floatadfun()",millisec);$('#floatdivids').mouseover(function(){clearInterval(isinter)}).mouseout(function(){isinter=setInterval("floatadfun()",millisec)});$('#ClickRemoveFlo').click(function(){$(this).parents("#floatdivids").slideUp(500,function(){clearInterval(isinter);$(this).remove()})})});
+$(function(){
+var floatdivids='';
+    if(floatdivids == ''){
+      $('#floatdivids').css('display','none'); 
+}
+});
+无障碍阅读
+长者模式
+登录个人中心
+扫描二维码
+关注宁夏统计局公众号
+.logo {
+    margin: 5% 0 0 0;
+    height: 150px;
+}
+
+.search{
+	    width: 500px;
+    margin: -50px 300px 0 0;
+    float: right;
+}
+.search-in{
+	width: 100%;
+	height: 46px;
+	border-radius: 22px;
+	background: #fff;
+}
+.search-in input{
+	color: #acacac;
+	font-size: 14px;
+	height: 46px;
+	width: 270px;
+	margin-left: 20px;
+}
+.search-in button{
+	float: right;
+	width: 100px;
+	height: 46px;
+	/*background: url(http://www.nxaas.com.cn//images/nx-icon2.png);*/
+background: #ff8d00;color: #fff;font-size: 18px;    border-radius: 22px;
+}
+.search-w{
+    margin-top: 7px;
+    margin-left: 22px;
+}
+.search-w span,.search-w a{
+	color: #fff;
+	font-size: 14px;
+}
+.search-w span{
+	font-weight: bold;
+}
+.search-w a{
+	margin-right: 8px;
+}
+.search input, button {
+    vertical-align: top;
+    outline: none;
+    border: none;
+}
+搜索
+$(function() {
+		//重置检索词
+		$("#reset-btn").click(function() {
+			$('#textfield').val('');
+		});
+	});
+
+	//检索
+	function submitsearch(){
+
+		var result = $("#textfield").val(); //获取检索词
+		result = $.trim(result); //去掉空格
+
+		//判断检索词
+		var reg = /[`~!@#$%^&*_+<>{}\/'[\]]/im;
+		if (reg.test(result)) {
+			alert('您输入的信息包含非法字符!');
+			return false;
+		}
+		if (result == "请输入关键字" || result == "" || result == null) {
+			alert("请输入检索条件!");
+			return false;
+		} else {
+			result = result.replace("-", "\-");
+			result = result.replace("(", "\(");
+			result = result.replace(")", "\)");
+		}
+
+		//跳转搜索页面
+		//window.location.href = "https://tj.nx.gov.cn/qwjs/index.html?channelid=216879&searchword=" + encodeURI(result);
+window.open("/nxsearch/search.html?code=17c794505a5&tenantId=42&searchWord="+encodeURI(result),'_blank');
+	}
+宁夏回族自治区统计局
+统计职责
+主要职责
+领导介绍
+机构设置
+统计数据
+宁夏数据
+统计信息
+统计公报
+统计年鉴
+信息公开
+公开指南
+公开目录
+组织机构信息
+自治区统计局职责
+自治区统计局局领导
+行政单位
+事业单位
+自治区统计局联系方式
+政策法规规章
+统计法律
+地方性法规
+统计行政法规
+统计法规
+规范性文件
+统计标准和制度
+统计标准
+统计调查制度
+政府统计调查项目审批
+部门项目
+市县项目
+数据发布
+最新发布
+统计公报
+解读
+政策解读
+财务信息
+部门预算
+部门决算
+其他财务信息
+建议提案答复
+政协委员提案
+行政许可
+行政许可事项
+行政许可信息
+执法证公示
+公开规定
+公开年报
+依法申请公开
+统计工作
+时政要闻
+通知公告
+工作动态
+统计服务
+领导信箱
+网上办事
+失信企业公示
+统计职责
+主要职责
+领导介绍
+机构设置
+统计数据
+宁夏数据
+统计信息
+统计公报
+统计年鉴
+政府信息公开
+政府信息公开指南
+政府信息公开制度
+法定主动公开内容
+政府信息公开年报
+依法申请公开
+统计工作
+时政要闻
+通知公告
+工作动态
+统计服务
+领导信箱
+网上办事
+行政处罚信息公示
+失信企业公示
+意见征集
+本
+网头条
+：
+2026年1-7月宁夏主要经济指标
+自治区统计局召开2026年上半年重点工作暨“统计改革推进年”开展情况汇报会
+自治区统计局开展“不忘初心使命 传承红色基因”  “七一”主题党日活动
+自治区统计局召开树立和践行正确政绩观学习教育青年干部座谈会
+2026年全区统计法治工作会议在银川召开
+自治区第四次全国农业普查办公室主任会议在银川召开
+jQuery(".carousel-inner .item:eq(0)").addClass('active');
+时政要闻
+MORE>>
+在第四十二个教师节到来之际 习近平向全国广大教师和...
+2026-09-10
+在第四十二个教师节到来之际 习近平向全国广大教师和...
+2026-09-09
+习近平抵达比什凯克出席2026年上海合作组织峰会并对...
+2026-08-31
+通知公告
+MORE>>
+关于开展2026年高级统计师评审工作的通知
+2026-07-03
+自治区统计局2026年公开遴选公务员拟转任人员
+2026-06-03
+自治区统计局2026年区直机关公开遴选公务员综合得分
+2026-05-13
+工作动态
+MORE>>
+自治区农普办全覆盖开展四农普普查区划分及建筑物标...
+2026-08-25
+自治区统计局圆满完成2026年全国公众生态环境和基本...
+2026-08-10
+自治区农普办举办全区第四次全国农业普查人员管理和...
+2026-07-23
+jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true});
+.sy_banner{width: 1200px; margin: 0 auto; margin-top: 20px; margin-bottom:20px;float: left;}
+.sy_banner_pic{width: 390px; height: 120px; float: left; margin-left: 15px;}
+.sy_banner_pic img{width: 390px; height: 120px;}
+月度数据
+季度数据
+年度数据
+市县数据
+统计公报
+统计年鉴
+可视化产品
+统计信息
+MORE>>
+2026年1-7月份全区规模以上工业企业利润增长31.4%
+26-09-04
+2026年1-7月全区规模以上工业增加值增长7.5%
+26-08-31
+2026年1-6月全区规模以上工业增加值增长7.5%
+26-08-31
+2026年1-7月份全区固定资产投资增长8.0%
+26-08-31
+2026年1-7月份全区房地产市场情况
+26-08-31
+2026年1-7月份全区能源生产情况
+26-08-24
+1-7月份全区经济运行稳中有进、进中向好
+26-08-21
+2026年上半年全区房地产市场情况
+26-08-10
+.jjz h3{margin:0;}
+.jjz ul li{margin:0;}
+机关作风投诉举报
+宁夏回族自治区统计局
+举报电话：
+                （0951）5677026
+举报邮箱：
+                ningxia02@stats.gov.cn
+统计违法违纪线索举报
+宁夏回族自治区统计局
+举报电话：
+               （0951）5168110
+举报邮箱：
+                 ningxia05@stats.gov.cn
+国家统计局宁夏调查总队
+举报电话：
+               （0951）5677172
+举报邮箱：
+                zdzfjb.nx@dcd.stats.gov.cn
+经济走势图
+MORE>>
+2026年1-7月份经济走...
+2026年1-6月份经济走...
+2026年1-5月份经济走...
+2026年1-4月份经济走...
+2026年1-3月份经济走...
+2026年1-2月份经济走...
+jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:3,trigger:"click"});
+进度数据
+MORE>>
+信息公开
+公开指南
+公开规定
+公开目录
+公开年报
+依法申请公开
+互动交流
+领导信箱
+网上办事
+意见征集
+统计上
+失信企业公示
+统计知识
+统计百科
+统计词典
+常见问题解答
+统计刊物
+友情链接
+document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript   src='https://dcs.conac.cn/js/30/000/0000/40705624/CA300000000407056240001.js' type='text/javascript'%3E%3C/script%3E"));
+主办单位：宁夏回族自治区统计局     联系电话：0951-5677011
+网站地图
+ICP备案编号：宁ICP备09000128号-1
+宁公网安备 64010602000177号
+网站标识码：6400000013
+$("#echartsnav").niceScroll({  
+  cursorcolor:"#5cb3ff",  
+  cursoropacitymax:1,  
+  touchbehavior:false,  
+  cursorwidth:"5px",  
+  cursorborder:"0",  
+  cursorborderradius:"5px"  
+});
+$(function() {
+        $('nav#mobilmenu').mmenu({
+          extensions  : [ 'effect-slide-menu', 'pageshadow' ],
+          searchfield : true,
+          counters  : true,
+          navbar    : {
+            title   : '宁夏回族自治区统计局'
+          },
+          navbars   : [
+            {
+              position  : 'top',
+              content   : [ 'searchfield' ]
+            }, {
+              position  : 'top',
+              content   : [
+                'prev',
+                'title',
+                'close'
+              ]
+            }, {
+              position  : 'bottom',
+              content   : [
+                ' WordPress plugin '
+              ]
+            }
+          ]
+        });
+      });
+function szf_close(n){
+    document.getElementById("szf_pic_0"+n).style.display="none";
+  }
+关闭
+$(function(){
+var ycxcw='';
+    if(ycxcw == ''){
+      $('#ycxcw').css('display','none'); 
+}
+});

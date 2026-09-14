@@ -1,0 +1,1738 @@
+<html>
+<head>
+<title></title>
+<style type="text/css"> 
+	body{font-size:14px;}
+	*{backgound:#c7daf7;}
+	#M00 tr{height:24px;}
+	a{color:black;text-decoration:none;}
+	a:hover{color:#1e7cad;} 
+	a:active{color:#3988b2;}
+</style>
+<script type="text/javascript"> 
+var menuNum = 1;
+var currentActiveRow;
+function setBackground(flag) {
+		var obj = event.srcElement;
+		if (obj == null)
+			return false;
+		var tabs = obj.parentNode.parentNode;
+		var rowno = obj.parentNode.rowIndex + 2;
+		if (tabs.rows[rowno].style.display == ""){
+		    if (flag && event.srcElement == obj) {
+			  obj.background = "./images/other/menubg_1.gif";
+			} else {
+		obj.background = "./images/other/menubg_.gif";
+			}
+		}
+		else {
+		    if (flag && event.srcElement == obj) {
+			  obj.background = "./images/other/menubg1.gif";
+			} else {
+		obj.background = "./images/other/menubg.gif";
+			}
+		}
+}
+function   changeActiveRow(obj)    {   
+	  if(currentActiveRow != null)   {
+	    currentActiveRow.style.backgroundColor="";   
+		currentActiveRow.parentNode.cells[0].style.backgroundColor="";
+	  }
+	  currentActiveRow=obj;   
+	  obj.style.backgroundColor="#FAF1D4";   
+	  obj.parentNode.cells[0].style.backgroundColor="#FBC334";
+	  parent.window.frames["topFrame"].setActiveMenu(null, false);
+  } 
+ 
+function turnit(obj, cname){
+	var rowno = obj.parentNode.rowIndex;
+	var tables = obj.parentNode.parentNode;
+	for (i = rowno + 2; i < tables.rows.length; i += 2)
+		if (tables.rows[i].id.length != 0 && tables.rows[i].id == cname)
+			break;
+	rowno = i;
+	for (i = 0; i < tables.rows.length; i += 1){
+		if (tables.rows[i].id.length != 0 && tables.rows[i].id == cname){
+			if (i == rowno){
+				if (tables.rows[rowno].style.display == ""){
+					tables.rows[i].style.display = "none";
+				}
+				else{
+					tables.rows[i].style.display = "";
+				}
+			}
+		}
+	}
+	obj.onClick = "turnit(obj, 'Content')";
+}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"><style type="text/css">
+<!--
+body,td,th {
+	font-size: 12px;
+}
+-->
+</style></head>
+<body vLINK="#000000" LINK="#000000" alink="800080"  background="../image/g5.jpg" bgproperties="fixed" style="font-size:12px">
+<a href=indexe.htm target="_parent"><img src="../image/yw.jpg" BORDER="1"></a>
+<hr color="red">
+<table border="0" cellpadding="0" width="999" cellspacing="0" id ="menutable" >
+<tbody>
+	<tr row_id='00'>
+		<td height="26" align="left" class="hand" name="menu" id="m00" onClick="turnit(this, 'Content');">
+			<a href="./fp1.html" target="right"> 
+				<span id="Out1" class="Outline" style="cursor: hand; ">
+					<img src="../image/image2.gif" valign="middle" BORDER="0">
+				 </span>
+				<span id="Out1" class="Outline" style="cursor: hand; ">第1章  综合</span >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="2"></td>
+	</tr>
+	<tr id="Content" style="display:none">
+		<td>
+			<table id="M00" cellSpacing=0 cellPadding=0 style="border-collapse: collapse;" border=0>
+				<tbody >
+					<tr>
+						<td>
+							<a href="../html/1-1.html" target="right"><dd>1-1 行政区划(2024年底)</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/1-2.html" target="right"><dd>1-2 自然资源状况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/1-3.html" target="right"><dd>1-3 主要城市平均气温（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/1-4.html" target="right"><dd>1-4 主要城市降水量（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/1-5.html" target="right"><dd>1-5 按国民经济行业大类分组的法人单位、产业活动单位数</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/1-6.html" target="right"><dd>1-6 按地区、机构类型分组的全部法人单位数</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/1-7.html" target="right"><dd>1-7 按登记注册统计类别分组的法人单位、产业活动单位数</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/1-8.html" target="right"><dd>1-8 按三次产业、行业分组的全部法人单位数</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/1-9.html" target="right"><dd>1-9 国民经济和社会发展总量与速度指标</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/1-10.html" target="right"><dd>1-10 吉林的一天</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/1-11.html" target="right"><dd>1-11 国民经济主要比例关系</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="./zbjs1.html" target="right"><dd>主要统计指标解释</dd></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr row_id='00'>
+		<td height="26" align="left" class="hand" name="menu" id="m00" onClick="turnit(this, 'Content');">
+			<a href="./fp2.html" target="right"> 
+				<span id="Out1" class="Outline" style="cursor: hand; ">
+					<img src="../image/image2.gif" valign="middle" BORDER="0">
+				 </span>
+				<span id="Out1" class="Outline" style="cursor: hand; ">第2章  国民经济核算</span >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="2"></td>
+	</tr>
+	<tr id="Content" style="display:none">
+		<td>
+			<table id="M00" cellSpacing=0 cellPadding=0 style="border-collapse: collapse;" border=0>
+				<tbody >
+					<tr>
+						<td>
+							<a href="../html/2-1.html" target="right"><dd>2-1 历年地区生产总值</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/2-2.html" target="right"><dd>2-2 历年地区生产总值指数</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/2-3.html" target="right"><dd>2-3 历年地区生产总值指数</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/2-4.html" target="right"><dd>2-4 三次产业构成</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/2-5.html" target="right"><dd>2-5 分行业增加值</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/2-6.html" target="right"><dd>2-6 分行业增加值构成</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/2-7.html" target="right"><dd>2-7 三次产业贡献率</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/2-8.html" target="right"><dd>2-8 三次产业对地区生产总值增长的拉动</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="./zbjs2.html" target="right"><dd>主要统计指标解释</dd></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr row_id='00'>
+		<td height="26" align="left" class="hand" name="menu" id="m00" onClick="turnit(this, 'Content');">
+			<a href="./fp3.html" target="right"> 
+				<span id="Out1" class="Outline" style="cursor: hand; ">
+					<img src="../image/image2.gif" valign="middle" BORDER="0">
+				 </span>
+				<span id="Out1" class="Outline" style="cursor: hand; ">第3章  人口</span >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="2"></td>
+	</tr>
+	<tr id="Content" style="display:none">
+		<td>
+			<table id="M00" cellSpacing=0 cellPadding=0 style="border-collapse: collapse;" border=0>
+				<tbody >
+					<tr>
+						<td>
+							<a href="../html/3-1.html" target="right"><dd>3-1 历年全省人口数及构成</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/3-2.html" target="right"><dd>3-2 全省人口情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/3-3.html" target="right"><dd>3-3 各地区人口情况(2024年末)</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="./zbjs3.html" target="right"><dd>主要统计指标解释</dd></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr row_id='00'>
+		<td height="26" align="left" class="hand" name="menu" id="m00" onClick="turnit(this, 'Content');">
+			<a href="./fp4.html" target="right"> 
+				<span id="Out1" class="Outline" style="cursor: hand; ">
+					<img src="../image/image2.gif" valign="middle" BORDER="0">
+				 </span>
+				<span id="Out1" class="Outline" style="cursor: hand; ">第4章  从业人员和职工工资</span >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="2"></td>
+	</tr>
+	<tr id="Content" style="display:none">
+		<td>
+			<table id="M00" cellSpacing=0 cellPadding=0 style="border-collapse: collapse;" border=0>
+				<tbody >
+					<tr>
+						<td>
+							<a href="../html/4-1.html" target="right"><dd>4-1 全省就业人数</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/4-2.html" target="right"><dd>4-2 各地区就业人数(2024年末)</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/4-3.html" target="right"><dd>4-3 城镇非私营单位就业人员人数、工资总额、平均工资（2024年末）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/4-4.html" target="right"><dd>4-4 按登记注册统计类别和行业分城镇非私营单位就业人员人数、平均工资（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/4-5.html" target="right"><dd>4-5 各地区城镇非私营单位就业人员人数、工资总额和平均工资(2024年末)</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/4-6.html" target="right"><dd>4-6 城镇登记失业人员情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/4-7.html" target="right"><dd>4-7 历年城镇非私营单位就业人员工资总额、平均工资和指数</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/4-8.html" target="right"><dd>4-8 按行业分城镇非私营单位就业人员工资总额（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="./zbjs4.html" target="right"><dd>主要统计指标解释</dd></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr row_id='00'>
+		<td height="26" align="left" class="hand" name="menu" id="m00" onClick="turnit(this, 'Content');">
+			<a href="./fp5.html" target="right"> 
+				<span id="Out1" class="Outline" style="cursor: hand; ">
+					<img src="../image/image2.gif" valign="middle" BORDER="0">
+				 </span>
+				<span id="Out1" class="Outline" style="cursor: hand; ">第5章  固定资产投资</span >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="2"></td>
+	</tr>
+	<tr id="Content" style="display:none">
+		<td>
+			<table id="M00" cellSpacing=0 cellPadding=0 style="border-collapse: collapse;" border=0>
+				<tbody >
+					<tr>
+						<td>
+							<a href="../html/5-1.html" target="right"><dd>5-1 固定资产投资（不含农户）增长情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/5-2.html" target="right"><dd>5-2 固定资产投资（不含农户）构成情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/5-3.html" target="right"><dd>5-3 房地产开发投资主要指标</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/5-4.html" target="right"><dd>5-4 房地产开发企业从业人员数</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/5-5.html" target="right"><dd>5-5 房地产开发完成投资额</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/5-6.html" target="right"><dd>5-6 房地产开发建设按工程用途分的投资额和新增固定资产</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/5-7.html" target="right"><dd>5-7 房地产开发建设房屋施工面积</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/5-8.html" target="right"><dd>5-8 房地产开发建设房屋建筑面积和造价</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/5-9.html" target="right"><dd>5-9 商品房屋销售情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="./zbjs5.html" target="right"><dd>主要统计指标解释</dd></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr row_id='00'>
+		<td height="26" align="left" class="hand" name="menu" id="m00" onClick="turnit(this, 'Content');">
+			<a href="./fp6.html" target="right"> 
+				<span id="Out1" class="Outline" style="cursor: hand; ">
+					<img src="../image/image2.gif" valign="middle" BORDER="0">
+				 </span>
+				<span id="Out1" class="Outline" style="cursor: hand; ">第6章  对外经济贸易和旅游业</span >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="2"></td>
+	</tr>
+	<tr id="Content" style="display:none">
+		<td>
+			<table id="M00" cellSpacing=0 cellPadding=0 style="border-collapse: collapse;" border=0>
+				<tbody >
+					<tr>
+						<td>
+							<a href="../html/6-1.html" target="right"><dd>6-1 历年进出口贸易总额</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/6-2.html" target="right"><dd>6-2 海关主要商品出口总值(2024年)</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/6-3.html" target="right"><dd>6-3 海关主要商品进口总值(2024年)</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/6-4.html" target="right"><dd>6-4 按贸易方式分全部企业进出口总值（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/6-5.html" target="right"><dd>6-5 按主要国家（地区）分全部企业进出口总值（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/6-6.html" target="right"><dd>6-6 对外经济合作情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/6-7.html" target="right"><dd>6-7 入境旅游事业发展情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/6-8.html" target="right"><dd>6-8 按国别(地区)分入境旅游人数</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="./zbjs6.html" target="right"><dd>主要统计指标解释</dd></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr row_id='00'>
+		<td height="26" align="left" class="hand" name="menu" id="m00" onClick="turnit(this, 'Content');">
+			<a href="./fp7.html" target="right"> 
+				<span id="Out1" class="Outline" style="cursor: hand; ">
+					<img src="../image/image2.gif" valign="middle" BORDER="0">
+				 </span>
+				<span id="Out1" class="Outline" style="cursor: hand; ">第7章  能源生产和消费</span >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="2"></td>
+	</tr>
+	<tr id="Content" style="display:none">
+		<td>
+			<table id="M00" cellSpacing=0 cellPadding=0 style="border-collapse: collapse;" border=0>
+				<tbody >
+					<tr>
+						<td>
+							<a href="../html/7-1.html" target="right"><dd>7-1 历年能源生产总量及构成</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/7-2.html" target="right"><dd>7-2 历年能源消费总量及构成</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/7-3.html" target="right"><dd>7-3 地区能源平衡表（实物量）（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/7-4.html" target="right"><dd>7-4 地区能源平衡表（标准量）（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/7-5.html" target="right"><dd>7-5 综合能源平衡表（标准量）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/7-6.html" target="right"><dd>7-6 煤炭能源平衡表</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/7-7.html" target="right"><dd>7-7 石油能源平衡表</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/7-8.html" target="right"><dd>7-8 电力能源平衡表</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="./zbjs7.html" target="right"><dd>主要统计指标解释</dd></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr row_id='00'>
+		<td height="26" align="left" class="hand" name="menu" id="m00" onClick="turnit(this, 'Content');">
+			<a href="./fp8.html" target="right"> 
+				<span id="Out1" class="Outline" style="cursor: hand; ">
+					<img src="../image/image2.gif" valign="middle" BORDER="0">
+				 </span>
+				<span id="Out1" class="Outline" style="cursor: hand; ">第8章  财政、金融和保险</span >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="2"></td>
+	</tr>
+	<tr id="Content" style="display:none">
+		<td>
+			<table id="M00" cellSpacing=0 cellPadding=0 style="border-collapse: collapse;" border=0>
+				<tbody >
+					<tr>
+						<td>
+							<a href="../html/8-1.html" target="right"><dd>8-1 历年财政收支额</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/8-2.html" target="right"><dd>8-2 分项目一般公共预算收入</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/8-3.html" target="right"><dd>8-3 分项目一般公共预算支出</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/8-4.html" target="right"><dd>8-4 分级一般公共预算收入</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/8-5.html" target="right"><dd>8-5 分级一般公共预算支出</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/8-6.html" target="right"><dd>8-6 历年银行各项存款和各项贷款余额</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/8-7.html" target="right"><dd>8-7 农合机构本外币存贷款年末余额</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/8-8.html" target="right"><dd>8-8 保险业务主要指标</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/8-9.html" target="right"><dd>8-9 金融机构人员数</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/8-10.html" target="right"><dd>8-10 保险公司机构数（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="./zbjs8.html" target="right"><dd>主要统计指标解释</dd></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr row_id='00'>
+		<td height="26" align="left" class="hand" name="menu" id="m00" onClick="turnit(this, 'Content');">
+			<a href="./fp9.html" target="right"> 
+				<span id="Out1" class="Outline" style="cursor: hand; ">
+					<img src="../image/image2.gif" valign="middle" BORDER="0">
+				 </span>
+				<span id="Out1" class="Outline" style="cursor: hand; ">第9章  价格指数</span >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="2"></td>
+	</tr>
+	<tr id="Content" style="display:none">
+		<td>
+			<table id="M00" cellSpacing=0 cellPadding=0 style="border-collapse: collapse;" border=0>
+				<tbody >
+					<tr>
+						<td>
+							<a href="../html/9-1.html" target="right"><dd>9-1 各种价格指数</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/9-2.html" target="right"><dd>9-2 居民消费价格分类指数（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/9-3.html" target="right"><dd>9-3 主要原材料、燃料、动力购进价格指数</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/9-4.html" target="right"><dd>9-4 工业生产者出厂价格分类指数</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/9-5.html" target="right"><dd>9-5 工业生产者购进价格分类指数</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/9-6.html" target="right"><dd>9-6 农产品生产者价格指数</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="./zbjs9.html" target="right"><dd>主要统计指标解释</dd></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr row_id='00'>
+		<td height="26" align="left" class="hand" name="menu" id="m00" onClick="turnit(this, 'Content');">
+			<a href="./fp10.html" target="right"> 
+				<span id="Out1" class="Outline" style="cursor: hand; ">
+					<img src="../image/image2.gif" valign="middle" BORDER="0">
+				 </span>
+				<span id="Out1" class="Outline" style="cursor: hand; ">第10章  人民生活</span >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="2"></td>
+	</tr>
+	<tr id="Content" style="display:none">
+		<td>
+			<table id="M00" cellSpacing=0 cellPadding=0 style="border-collapse: collapse;" border=0>
+				<tbody >
+					<tr>
+						<td>
+							<a href="../html/10-1.html" target="right"><dd>10-1 历年人民生活基本情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/10-2.html" target="right"><dd>10-2 城镇居民家庭基本情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/10-3.html" target="right"><dd>10-3 城镇居民人均可支配收入及总支出</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/10-4.html" target="right"><dd>10-4 城镇居民人均总支出</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/10-5.html" target="right"><dd>10-5 城镇居民人均生活消费支出</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/10-6.html" target="right"><dd>10-6 城镇居民人均主要食品消费量</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/10-7.html" target="right"><dd>10-7 城镇居民平均每百户年末耐用消费品拥有量</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/10-8.html" target="right"><dd>10-8 城镇居民家庭居住情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/10-9.html" target="right"><dd>10-9 各地区城镇常住居民人均可支配收入</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/10-10.html" target="right"><dd>10-10 各地区农村常住居民人均可支配收入</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/10-11.html" target="right"><dd>10-11 农村居民家庭基本情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/10-12.html" target="right"><dd>10-12 农村居民人均可支配收入</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/10-13.html" target="right"><dd>10-13 农村居民人均消费总支出</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/10-14.html" target="right"><dd>10-14 农村居民人均生活消费支出</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/10-15.html" target="right"><dd>10-15 农村居民人均现金支出</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/10-16.html" target="right"><dd>10-16 农村居民人均现金收入</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/10-17.html" target="right"><dd>10-17 农村居民平均每百户年末耐用消费品拥有量</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/10-18.html" target="right"><dd>10-18 农村居民人均主要食品消费量</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/10-19.html" target="right"><dd>10-19 农村居民每百户拥有主要农业生产性固定资产数量</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="./zbjs10.html" target="right"><dd>主要统计指标解释</dd></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr row_id='00'>
+		<td height="26" align="left" class="hand" name="menu" id="m00" onClick="turnit(this, 'Content');">
+			<a href="./fp11.html" target="right"> 
+				<span id="Out1" class="Outline" style="cursor: hand; ">
+					<img src="../image/image2.gif" valign="middle" BORDER="0">
+				 </span>
+				<span id="Out1" class="Outline" style="cursor: hand; ">第11章  市政公用事业</span >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="2"></td>
+	</tr>
+	<tr id="Content" style="display:none">
+		<td>
+			<table id="M00" cellSpacing=0 cellPadding=0 style="border-collapse: collapse;" border=0>
+				<tbody >
+					<tr>
+						<td>
+							<a href="../html/11-1.html" target="right"><dd>11-1 市政公用事业基本情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/11-2.html" target="right"><dd>11-2 城市基本情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/11-3.html" target="right"><dd>11-3 城市供水（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/11-4.html" target="right"><dd>11-4 城市市政设施（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/11-5.html" target="right"><dd>11-5 城市绿地和园林（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/11-6.html" target="right"><dd>11-6 城市市容环境卫生（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/11-7.html" target="right"><dd>11-7 城市设施水平（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/11-8.html" target="right"><dd>11-8 城市集中供热情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/11-9.html" target="right"><dd>11-9 城市燃气用气户数和供气总量</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/11-10.html" target="right"><dd>11-10 城市环境卫生情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/11-11.html" target="right"><dd>11-11 城市燃气设备能力</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="./zbjs11.html" target="right"><dd>主要统计指标解释</dd></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr row_id='00'>
+		<td height="26" align="left" class="hand" name="menu" id="m00" onClick="turnit(this, 'Content');">
+			<a href="./fp12.html" target="right"> 
+				<span id="Out1" class="Outline" style="cursor: hand; ">
+					<img src="../image/image2.gif" valign="middle" BORDER="0">
+				 </span>
+				<span id="Out1" class="Outline" style="cursor: hand; ">第12章  农业</span >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="2"></td>
+	</tr>
+	<tr id="Content" style="display:none">
+		<td>
+			<table id="M00" cellSpacing=0 cellPadding=0 style="border-collapse: collapse;" border=0>
+				<tbody >
+					<tr>
+						<td>
+							<a href="../html/12-1.html" target="right"><dd>12-1 农业生产条件</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/12-2.html" target="right"><dd>12-2 各地区设施农业生产情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/12-3.html" target="right"><dd>12-3 特种作物生产情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/12-4.html" target="right"><dd>12-4 历年农林牧渔业总产值和指数</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/12-5.html" target="right"><dd>12-5 农林牧渔业分项产值</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/12-6.html" target="right"><dd>12-6 历年农作物播种面积</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/12-7.html" target="right"><dd>12-7 历年主要农产品产量</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/12-8.html" target="right"><dd>12-8 主要畜牧业产品产量和大牲畜饲养量</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/12-9.html" target="right"><dd>12-9 主要农作物播种面积和产量</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/12-10.html" target="right"><dd>12-10 林业、渔业和其他畜牧业生产情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/12-11.html" target="right"><dd>12-11 畜牧业生产情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/12-12.html" target="right"><dd>12-12 农业自然灾害受灾情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="./zbjs12.html" target="right"><dd>主要统计指标解释</dd></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr row_id='00'>
+		<td height="26" align="left" class="hand" name="menu" id="m00" onClick="turnit(this, 'Content');">
+			<a href="./fp13.html" target="right"> 
+				<span id="Out1" class="Outline" style="cursor: hand; ">
+					<img src="../image/image2.gif" valign="middle" BORDER="0">
+				 </span>
+				<span id="Out1" class="Outline" style="cursor: hand; ">第13章  工业</span >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="2"></td>
+	</tr>
+	<tr id="Content" style="display:none">
+		<td>
+			<table id="M00" cellSpacing=0 cellPadding=0 style="border-collapse: collapse;" border=0>
+				<tbody >
+					<tr>
+						<td>
+							<a href="../html/13-1.html" target="right"><dd>13-1 规模以上工业企业主要指标（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/13-2.html" target="right"><dd>13-2 按行业分规模以上工业企业主要指标（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/13-3.html" target="right"><dd>13-3 按行业分大中型工业企业主要指标（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/13-4.html" target="right"><dd>13-4 按行业分国有控股工业企业主要指标（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/13-5.html" target="right"><dd>13-5 按行业分私人控股工业企业主要指标（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/13-6.html" target="right"><dd>13-6 按行业分外商控股和港澳台商控股工业企业主要指标（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/13-7.html" target="right"><dd>13-7 按行业分集体控股工业企业主要指标（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/13-8.html" target="right"><dd>13-8 主要工业企业产品产量</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/13-9.html" target="right"><dd>13-9 各地区主要工业产品产量（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="./zbjs13.html" target="right"><dd>主要统计指标解释</dd></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr row_id='00'>
+		<td height="26" align="left" class="hand" name="menu" id="m00" onClick="turnit(this, 'Content');">
+			<a href="./fp14.html" target="right"> 
+				<span id="Out1" class="Outline" style="cursor: hand; ">
+					<img src="../image/image2.gif" valign="middle" BORDER="0">
+				 </span>
+				<span id="Out1" class="Outline" style="cursor: hand; ">第14章  建筑业</span >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="2"></td>
+	</tr>
+	<tr id="Content" style="display:none">
+		<td>
+			<table id="M00" cellSpacing=0 cellPadding=0 style="border-collapse: collapse;" border=0>
+				<tbody >
+					<tr>
+						<td>
+							<a href="../html/14-1.html" target="right"><dd>14-1 建筑业企业概况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/14-2.html" target="right"><dd>14-2 建筑业企业生产情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/14-3.html" target="right"><dd>14-3 各地区建筑业基本情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/14-4.html" target="right"><dd>14-4 各地区的建筑业企业房屋竣工价值（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="./zbjs14.html" target="right"><dd>主要统计指标解释</dd></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr row_id='00'>
+		<td height="26" align="left" class="hand" name="menu" id="m00" onClick="turnit(this, 'Content');">
+			<a href="./fp15.html" target="right"> 
+				<span id="Out1" class="Outline" style="cursor: hand; ">
+					<img src="../image/image2.gif" valign="middle" BORDER="0">
+				 </span>
+				<span id="Out1" class="Outline" style="cursor: hand; ">第15章  交通运输和邮电通信业</span >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="2"></td>
+	</tr>
+	<tr id="Content" style="display:none">
+		<td>
+			<table id="M00" cellSpacing=0 cellPadding=0 style="border-collapse: collapse;" border=0>
+				<tbody >
+					<tr>
+						<td>
+							<a href="../html/15-1.html" target="right"><dd>15-1 历年交通运输业基本情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/15-2.html" target="right"><dd>15-2 历年旅客周转量和货物周转量</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/15-3.html" target="right"><dd>15-3 交通运输里程</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/15-4.html" target="right"><dd>15-4 客运量及旅客周转量</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/15-5.html" target="right"><dd>15-5 货运量及货物周转量</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/15-6.html" target="right"><dd>15-6 各地区公路客货运输量</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/15-7.html" target="right"><dd>15-7 历年邮电通信业务情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/15-8.html" target="right"><dd>15-8 邮电业务总量</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="./zbjs15.html" target="right"><dd>主要统计指标解释</dd></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr row_id='00'>
+		<td height="26" align="left" class="hand" name="menu" id="m00" onClick="turnit(this, 'Content');">
+			<a href="./fp16.html" target="right"> 
+				<span id="Out1" class="Outline" style="cursor: hand; ">
+					<img src="../image/image2.gif" valign="middle" BORDER="0">
+				 </span>
+				<span id="Out1" class="Outline" style="cursor: hand; ">第16章  批发零售贸易和住宿餐饮业</span >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="2"></td>
+	</tr>
+	<tr id="Content" style="display:none">
+		<td>
+			<table id="M00" cellSpacing=0 cellPadding=0 style="border-collapse: collapse;" border=0>
+				<tbody >
+					<tr>
+						<td>
+							<a href="../html/16-1.html" target="right"><dd>16-1 历年社会消费品零售总额</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/16-2.html" target="right"><dd>16-2 各地区社会消费品零售总额</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/16-3.html" target="right"><dd>16-3 限额以上批发零售贸易业商品购进、销售、库存总额（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/16-4.html" target="right"><dd>16-4 限额以上批发零售企业财务状况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/16-5.html" target="right"><dd>16-5 限额以上住宿和餐饮企业主要财务状况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/16-6.html" target="right"><dd>16-6 限额以上住宿和餐饮企业主要经营情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/16-7.html" target="right"><dd>16-7 各地区限额以上批发零售贸易情况（1）（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/16-8.html" target="right"><dd>16-8 私营企业基本情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/16-9.html" target="right"><dd>16-9 各地区限额以上单位按商品类别分社会消费品零售总额（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/16-10.html" target="right"><dd>16-10 连锁零售企业基本情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/16-11.html" target="right"><dd>16-11 亿元以上商品交易市场基本情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/16-12.html" target="right"><dd>16-12 亿元以上商品交易市场摊位分类情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/16-13.html" target="right"><dd>16-13 个体工商户基本情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="./zbjs16.html" target="right"><dd>主要统计指标解释</dd></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr row_id='00'>
+		<td height="26" align="left" class="hand" name="menu" id="m00" onClick="turnit(this, 'Content');">
+			<a href="./fp17.html" target="right"> 
+				<span id="Out1" class="Outline" style="cursor: hand; ">
+					<img src="../image/image2.gif" valign="middle" BORDER="0">
+				 </span>
+				<span id="Out1" class="Outline" style="cursor: hand; ">第17章  规模以上服务业</span >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="2"></td>
+	</tr>
+	<tr id="Content" style="display:none">
+		<td>
+			<table id="M00" cellSpacing=0 cellPadding=0 style="border-collapse: collapse;" border=0>
+				<tbody >
+					<tr>
+						<td>
+							<a href="../html/17-1.html" target="right"><dd>17-1 规模以上服务业企业主要财务状况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/17-2.html" target="right"><dd>17-2 按登记注册统计类别和控股情况分规模以上服务业企业财务状况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/17-3.html" target="right"><dd>17-3 按行业分规模以上服务业企业财务状况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/17-4.html" target="right"><dd>17-4 各地区规模以上服务业企业财务状况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="./zbjs17.html" target="right"><dd>主要统计指标解释</dd></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr row_id='00'>
+		<td height="26" align="left" class="hand" name="menu" id="m00" onClick="turnit(this, 'Content');">
+			<a href="./fp18.html" target="right"> 
+				<span id="Out1" class="Outline" style="cursor: hand; ">
+					<img src="../image/image2.gif" valign="middle" BORDER="0">
+				 </span>
+				<span id="Out1" class="Outline" style="cursor: hand; ">第18章  教育、科技和文化事业</span >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="2"></td>
+	</tr>
+	<tr id="Content" style="display:none">
+		<td>
+			<table id="M00" cellSpacing=0 cellPadding=0 style="border-collapse: collapse;" border=0>
+				<tbody >
+					<tr>
+						<td>
+							<a href="../html/18-1.html" target="right"><dd>18-1 各级各类学校和教职工情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-2.html" target="right"><dd>18-2 各级各类学历教育学生情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-3.html" target="right"><dd>18-3 各级各类民办学校和教职工情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-4.html" target="right"><dd>18-4 各级各类民办教育学生情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-5.html" target="right"><dd>18-5 各级各类教育专任教师情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-6.html" target="right"><dd>18-6 各级各类学校校数情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-7.html" target="right"><dd>18-7 各级各类教育专任教师情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-8.html" target="right"><dd>18-8 各级各类教育毕业生情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-9.html" target="right"><dd>18-9 各级各类教育招生情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-10.html" target="right"><dd>18-10 各级各类教育在校生情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-11.html" target="right"><dd>18-11 进城务工子女和农村留守儿童在校情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-12.html" target="right"><dd>18-12 普通、职业本专科学生情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-13.html" target="right"><dd>18-13 普通、职业高等学校情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-14.html" target="right"><dd>18-14 分地区中等职业教育情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-15.html" target="right"><dd>18-15 分地区特殊教育情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-16.html" target="right"><dd>18-16 各级教育生师比</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-17.html" target="right"><dd>18-17 每十万人口各级教育平均在校生数</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-18.html" target="right"><dd>18-18 科技活动基本情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-19.html" target="right"><dd>18-19 科学研究与开发机构基本情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-20.html" target="right"><dd>18-20 高等学校科技活动情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-21.html" target="right"><dd>18-21 规模以上工业企业的科技活动基本情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-22.html" target="right"><dd>18-22 按登记注册统计类别分规模以上工业企业研究与试验发展（R&D）活动及专利情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-23.html" target="right"><dd>18-23 按行业分规模以上工业企业研究与试验发展（R&D）活动及专利情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-24.html" target="right"><dd>18-24 分地区规模以上工业企业研究与试验发展（R&D）活动及专利情况（2024）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-25.html" target="right"><dd>18-25 按登记注册统计类别分规模以上工业企业新产品开发及生产情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-26.html" target="right"><dd>18-26 按行业分规模以上工业企业新产品开发及生产情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-27.html" target="right"><dd>18-27 分地区规模以上工业企业新产品开发及生产情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-28.html" target="right"><dd>18-28 按行业分规模以上工业企业产品和工艺创新情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-29.html" target="right"><dd>18-29 按登记注册统计类别分规模以上工业企业产品和工艺创新情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-30.html" target="right"><dd>18-30 按行业分规模以上工业企业组织（管理）和营销创新情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-31.html" target="right"><dd>18-31 按登记注册统计类别分规模以上工业企业组织（管理）和营销创新情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-32.html" target="right"><dd>18-32 高技术产业(制造业)企业R&D及相关活动情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-33.html" target="right"><dd>18-33 高技术产业（制造业）相关情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-34.html" target="right"><dd>18-34 群众文化事业基本情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-35.html" target="right"><dd>18-35 公共图书馆、博物馆和文物保护单位基本情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-36.html" target="right"><dd>18-36 电影发展情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-37.html" target="right"><dd>18-37 图书、期刊出版</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-38.html" target="right"><dd>18-38 报纸出版</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/18-39.html" target="right"><dd>18-39 工会基本情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="./zbjs18.html" target="right"><dd>主要统计指标解释</dd></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr row_id='00'>
+		<td height="26" align="left" class="hand" name="menu" id="m00" onClick="turnit(this, 'Content');">
+			<a href="./fp19.html" target="right"> 
+				<span id="Out1" class="Outline" style="cursor: hand; ">
+					<img src="../image/image2.gif" valign="middle" BORDER="0">
+				 </span>
+				<span id="Out1" class="Outline" style="cursor: hand; ">第19章  体育、卫生和其他事业</span >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="2"></td>
+	</tr>
+	<tr id="Content" style="display:none">
+		<td>
+			<table id="M00" cellSpacing=0 cellPadding=0 style="border-collapse: collapse;" border=0>
+				<tbody >
+					<tr>
+						<td>
+							<a href="../html/19-1.html" target="right"><dd>19-1 体育系统从业人员情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/19-2.html" target="right"><dd>19-2 运动员获奖情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/19-3.html" target="right"><dd>19-3 授予一级运动员、裁判员情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/19-4.html" target="right"><dd>19-4 历年卫生健康事业基本情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/19-5.html" target="right"><dd>19-5 卫生机构、床位、技术人员情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/19-6.html" target="right"><dd>19-6 各地区医疗卫生机构情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/19-7.html" target="right"><dd>19-7 各地区卫生床位、人员情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/19-8.html" target="right"><dd>19-8 各地区医疗卫生机构住院服务情况(2024年)</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/19-9.html" target="right"><dd>19-9 医疗机构运营情况(2024年)</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/19-10.html" target="right"><dd>19-10 残疾人事业基本情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/19-11.html" target="right"><dd>19-11 律师、调解工作基本情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/19-12.html" target="right"><dd>19-12 婚姻登记情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/19-13.html" target="right"><dd>19-13 公证工作基本情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/19-14.html" target="right"><dd>19-14 社会救助情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/19-15.html" target="right"><dd>19-15 交通事故情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/19-16.html" target="right"><dd>19-16 人民法院审理刑事一审案件收结案情况</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/19-17.html" target="right"><dd>19-17 人民法院审理婚姻家庭、继承一审案件收结案情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/19-18.html" target="right"><dd>19-18 人民法院审理合同、无因管理、不当得利纠纷一审案件收结案情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/19-19.html" target="right"><dd>19-19 人民法院审理权属、侵权纠纷及其他民事一审案件收结案情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="./zbjs19.html" target="right"><dd>主要统计指标解释</dd></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr row_id='00'>
+		<td height="26" align="left" class="hand" name="menu" id="m00" onClick="turnit(this, 'Content');">
+			<a href="./fp20.html" target="right"> 
+				<span id="Out1" class="Outline" style="cursor: hand; ">
+					<img src="../image/image2.gif" valign="middle" BORDER="0">
+				 </span>
+				<span id="Out1" class="Outline" style="cursor: hand; ">第20章  市（州）和县（市）情况</span >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td height="2"></td>
+	</tr>
+	<tr id="Content" style="display:none">
+		<td>
+			<table id="M00" cellSpacing=0 cellPadding=0 style="border-collapse: collapse;" border=0>
+				<tbody >
+					<tr>
+						<td>
+							<a href="../html/20-1.html" target="right"><dd>20-1 城市社会经济基本情况（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/20-2.html" target="right"><dd>20-2 各市县地区生产总值（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/20-3.html" target="right"><dd>20-3 各市县地区生产总值指数（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/20-4.html" target="right"><dd>20-4 全省常住人口(2024年末)</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/20-5.html" target="right"><dd>20-5 各市县固定资产投资(不含农户)</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/20-6.html" target="right"><dd>20-6 各市县一般公共预算收入（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/20-7.html" target="right"><dd>20-7 各市县一般公共预算支出（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/20-8.html" target="right"><dd>20-8 各市县农林牧渔总产值（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/20-9.html" target="right"><dd>20-9 各市县主要农业机械拥有量（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/20-10.html" target="right"><dd>20-10 各市县农业现代化水平（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/20-11.html" target="right"><dd>20-11 各市县总播种面积和产量（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/20-12.html" target="right"><dd>20-12 各市县畜牧业生产情况(2024年)</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/20-13.html" target="right"><dd>20-13 各市县规模以上工业企业主要指标（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/20-14.html" target="right"><dd>20-14 各市县社会消费品零售总额（2024年）</dd></a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../html/20-15.html" target="right"><dd>20-15 各市县各级各类教育基本情况（2024年）</dd></a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+</table>
+<script language="JavaScript">
+function clickHandler() {
+  var targetId, srcElement, targetElement;
+  srcElement = window.event.srcElement;
+  if (srcElement.className == "Outline") {
+     targetId = srcElement.id + "details";
+     targetElement = document.all(targetId);
+     if (targetElement.style.display == "none") {
+  targetElement.style.display = "";
+     } else {
+  targetElement.style.display = "none";
+     }
+  }
+}
+
+document.onclick = clickHandler;
+</script> 
+<br>
+<hr color="red">
+</font>
+</body>
+<html>

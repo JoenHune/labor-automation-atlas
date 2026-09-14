@@ -1,0 +1,745 @@
+[
+  {
+    "collection": "comparisons",
+    "id": "cn-c39-regions-census2023-enterprisecount",
+    "reason": "恢复浙江官方原件，核实此前缺失的同年同口径值；其余六地行保持不变。",
+    "replacement": {
+      "id": "cn-c39-regions-census2023-enterprisecount",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "重点地区全部电子设备制造法人企业数",
+      "metric": "enterpriseCount",
+      "period": "2023",
+      "unit": "个",
+      "currency": null,
+      "coverage": "广东、江苏、浙江、上海、北京、重庆、四川七省市，全体C39工业企业法人单位；不含个体经营户。",
+      "comparisonKey": "cn-c39-all-legal-units-2023-enterpriseCount",
+      "coverageLabel": "7个重点地区 · 7地已取得 · 2023",
+      "notes": [
+        "覆盖七个重点地区；浙江原件已从统计局官方HTML恢复，七地目标数据均已取得；不是全国排名。",
+        "期末就业与31省规上表的平均用工不同，不能混列或直接计算就业覆盖率。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-gd",
+          "name": "广东",
+          "nodeIds": [],
+          "value": 82900,
+          "evidence": [
+            {
+              "sourceId": "gd-census2023",
+              "locator": "表3-2 C39行（单位万个、万人）"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "8.29万个"
+          ],
+          "missingReason": null,
+          "url": "https://m.thepaper.cn/newsDetail_forward_30383816"
+        },
+        {
+          "id": "cn-region-js",
+          "name": "江苏",
+          "nodeIds": [],
+          "value": 26852,
+          "evidence": [
+            {
+              "sourceId": "js-census2023",
+              "locator": "表3-2 C39行（单位个、万人）"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "原表数值或单位换算"
+          ],
+          "missingReason": null,
+          "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_87595_11513965.html"
+        },
+        {
+          "id": "cn-region-zj",
+          "name": "浙江",
+          "nodeIds": [],
+          "value": 13797,
+          "evidence": [
+            {
+              "sourceId": "deep-region-zj-census2023-official",
+              "locator": "表3-2C39行，已读取统计局完整HTML原表"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "本轮恢复统计局官方原件并核实；原报纸PDF404不再作为该值唯一证据。"
+          ],
+          "missingReason": null,
+          "url": "https://tjj.zj.gov.cn/art/2025/3/13/art_1229856888_58963443.html"
+        },
+        {
+          "id": "cn-region-sh",
+          "name": "上海",
+          "nodeIds": [],
+          "value": 2042,
+          "evidence": [
+            {
+              "sourceId": "sh-census2023",
+              "locator": "公报第二号 PDF第3页表2-2 C39行"
+            }
+          ],
+          "releaseDate": "2025-04-24",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "原表数值或单位换算"
+          ],
+          "missingReason": null,
+          "url": "https://tjj.sh.gov.cn/cmsres/42/4245ede056ad44d29f7c7410088be277/1fe46fa421193dfbc009dd59490aefdc.pdf"
+        },
+        {
+          "id": "cn-region-bj",
+          "name": "北京",
+          "nodeIds": [],
+          "value": 1351,
+          "evidence": [
+            {
+              "sourceId": "bj-census2023",
+              "locator": "公报第三号 PDF第3页表2 C39行（原单位个、人）；第8页注二：从业人员为期末人数"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "原表数值或单位换算"
+          ],
+          "missingReason": null,
+          "url": "https://tjj.beijing.gov.cn/zt/bjsdwcqgjjpc/wjppcyw/202503/P020250313414054067991.pdf"
+        },
+        {
+          "id": "cn-region-cq",
+          "name": "重庆",
+          "nodeIds": [],
+          "value": 2107,
+          "evidence": [
+            {
+              "sourceId": "cq-census2023",
+              "locator": "公报第三号表3-2 C39行（原单位个、人）"
+            }
+          ],
+          "releaseDate": "2025-03-21",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "原表数值或单位换算"
+          ],
+          "missingReason": null,
+          "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427445.html"
+        },
+        {
+          "id": "cn-region-sc",
+          "name": "四川",
+          "nodeIds": [],
+          "value": 2951,
+          "evidence": [
+            {
+              "sourceId": "sc-census2023",
+              "locator": "公报第三号表3-2 C39行（个、万人）"
+            }
+          ],
+          "releaseDate": "2025-03-31",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "原表数值或单位换算"
+          ],
+          "missingReason": null,
+          "url": "https://m.thepaper.cn/newsDetail_forward_30534488"
+        }
+      ]
+    }
+  },
+  {
+    "collection": "comparisons",
+    "id": "cn-c39-regions-census2023-workers",
+    "reason": "恢复浙江官方原件，核实此前缺失的同年同口径值；其余六地行保持不变。",
+    "replacement": {
+      "id": "cn-c39-regions-census2023-workers",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "重点地区全部电子设备制造法人企业年末就业",
+      "metric": "workers",
+      "period": "2023",
+      "unit": "万人",
+      "currency": null,
+      "coverage": "广东、江苏、浙江、上海、北京、重庆、四川七省市，全体C39工业企业法人单位；不含个体经营户。",
+      "comparisonKey": "cn-c39-all-legal-units-2023-workers",
+      "coverageLabel": "7个重点地区 · 7地已取得 · 2023",
+      "notes": [
+        "覆盖七个重点地区；浙江原件已从统计局官方HTML恢复，七地目标数据均已取得；不是全国排名。",
+        "期末就业与31省规上表的平均用工不同，不能混列或直接计算就业覆盖率。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-gd",
+          "name": "广东",
+          "nodeIds": [],
+          "value": 380.82,
+          "evidence": [
+            {
+              "sourceId": "gd-census2023",
+              "locator": "表3-2 C39行（单位万个、万人）"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://m.thepaper.cn/newsDetail_forward_30383816"
+        },
+        {
+          "id": "cn-region-js",
+          "name": "江苏",
+          "nodeIds": [],
+          "value": 168.9,
+          "evidence": [
+            {
+              "sourceId": "js-census2023",
+              "locator": "表3-2 C39行（单位个、万人）"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_87595_11513965.html"
+        },
+        {
+          "id": "cn-region-zj",
+          "name": "浙江",
+          "nodeIds": [],
+          "value": 75.3,
+          "evidence": [
+            {
+              "sourceId": "deep-region-zj-census2023-official",
+              "locator": "表3-2C39行，已读取统计局完整HTML原表"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "本轮恢复统计局官方原件并核实；原报纸PDF404不再作为该值唯一证据。"
+          ],
+          "missingReason": null,
+          "url": "https://tjj.zj.gov.cn/art/2025/3/13/art_1229856888_58963443.html"
+        },
+        {
+          "id": "cn-region-sh",
+          "name": "上海",
+          "nodeIds": [],
+          "value": 22.6,
+          "evidence": [
+            {
+              "sourceId": "sh-census2023",
+              "locator": "公报第二号 PDF第3页表2-2 C39行"
+            }
+          ],
+          "releaseDate": "2025-04-24",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tjj.sh.gov.cn/cmsres/42/4245ede056ad44d29f7c7410088be277/1fe46fa421193dfbc009dd59490aefdc.pdf"
+        },
+        {
+          "id": "cn-region-bj",
+          "name": "北京",
+          "nodeIds": [],
+          "value": 11.8166,
+          "evidence": [
+            {
+              "sourceId": "bj-census2023",
+              "locator": "公报第三号 PDF第3页表2 C39行（原单位个、人）；第8页注二：从业人员为期末人数"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tjj.beijing.gov.cn/zt/bjsdwcqgjjpc/wjppcyw/202503/P020250313414054067991.pdf"
+        },
+        {
+          "id": "cn-region-cq",
+          "name": "重庆",
+          "nodeIds": [],
+          "value": 26.0262,
+          "evidence": [
+            {
+              "sourceId": "cq-census2023",
+              "locator": "公报第三号表3-2 C39行（原单位个、人）"
+            }
+          ],
+          "releaseDate": "2025-03-21",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427445.html"
+        },
+        {
+          "id": "cn-region-sc",
+          "name": "四川",
+          "nodeIds": [],
+          "value": 45.0,
+          "evidence": [
+            {
+              "sourceId": "sc-census2023",
+              "locator": "公报第三号表3-2 C39行（个、万人）"
+            }
+          ],
+          "releaseDate": "2025-03-31",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://m.thepaper.cn/newsDetail_forward_30534488"
+        }
+      ]
+    }
+  },
+  {
+    "collection": "comparisons",
+    "id": "cn-c39-regions-census2023-revenue",
+    "reason": "恢复浙江官方原件，核实此前缺失的同年同口径值；其余六地行保持不变。",
+    "replacement": {
+      "id": "cn-c39-regions-census2023-revenue",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "重点地区全部电子设备制造法人企业收入",
+      "metric": "revenue",
+      "period": "2023",
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "coverage": "广东、江苏、浙江、上海、北京、重庆、四川七省市，全体C39工业企业法人单位；不含个体经营户。",
+      "comparisonKey": "cn-c39-all-legal-units-2023-revenue",
+      "coverageLabel": "7个重点地区 · 7地已取得 · 2023",
+      "notes": [
+        "覆盖七个重点地区；浙江原件已从统计局官方HTML恢复，七地目标数据均已取得；不是全国排名。",
+        "期末就业与31省规上表的平均用工不同，不能混列或直接计算就业覆盖率。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-gd",
+          "name": "广东",
+          "nodeIds": [],
+          "value": 49941.59,
+          "evidence": [
+            {
+              "sourceId": "gd-census2023",
+              "locator": "表3-3 C39行（亿元）"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://m.thepaper.cn/newsDetail_forward_30383816"
+        },
+        {
+          "id": "cn-region-js",
+          "name": "江苏",
+          "nodeIds": [],
+          "value": 24915.7,
+          "evidence": [
+            {
+              "sourceId": "js-census2023",
+              "locator": "表3-3 C39行（亿元）"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_87595_11513965.html"
+        },
+        {
+          "id": "cn-region-zj",
+          "name": "浙江",
+          "nodeIds": [],
+          "value": 10123.4,
+          "evidence": [
+            {
+              "sourceId": "deep-region-zj-census2023-official",
+              "locator": "表3-3C39行，已读取统计局完整HTML原表"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "本轮恢复统计局官方原件并核实；原报纸PDF404不再作为该值唯一证据。"
+          ],
+          "missingReason": null,
+          "url": "https://tjj.zj.gov.cn/art/2025/3/13/art_1229856888_58963443.html"
+        },
+        {
+          "id": "cn-region-sh",
+          "name": "上海",
+          "nodeIds": [],
+          "value": 5106.2,
+          "evidence": [
+            {
+              "sourceId": "sh-census2023",
+              "locator": "PDF第5页表2-3 C39行（亿元）"
+            }
+          ],
+          "releaseDate": "2025-04-24",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tjj.sh.gov.cn/cmsres/42/4245ede056ad44d29f7c7410088be277/1fe46fa421193dfbc009dd59490aefdc.pdf"
+        },
+        {
+          "id": "cn-region-bj",
+          "name": "北京",
+          "nodeIds": [],
+          "value": 5358.9,
+          "evidence": [
+            {
+              "sourceId": "bj-census2023",
+              "locator": "PDF第4页表3 C39行（亿元）"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tjj.beijing.gov.cn/zt/bjsdwcqgjjpc/wjppcyw/202503/P020250313414054067991.pdf"
+        },
+        {
+          "id": "cn-region-cq",
+          "name": "重庆",
+          "nodeIds": [],
+          "value": 5774.87,
+          "evidence": [
+            {
+              "sourceId": "cq-census2023",
+              "locator": "公报第三号表3-3 C39行（亿元）"
+            }
+          ],
+          "releaseDate": "2025-03-21",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427445.html"
+        },
+        {
+          "id": "cn-region-sc",
+          "name": "四川",
+          "nodeIds": [],
+          "value": 8672.5,
+          "evidence": [
+            {
+              "sourceId": "sc-census2023",
+              "locator": "公报第三号表3-3 C39行（亿元）"
+            }
+          ],
+          "releaseDate": "2025-03-31",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://m.thepaper.cn/newsDetail_forward_30534488"
+        }
+      ]
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-c39-seven-local-census",
+    "reason": "由入口检索推进为实际内表阅读；明确已读边界与仍未读部分。",
+    "replacement": {
+      "id": "cn-c39-seven-local-census",
+      "country": "cn",
+      "group": "地区来源覆盖",
+      "title": "七个重点地区五经普公报：七地目标值均已取得",
+      "period": "2023",
+      "status": "obtained",
+      "detail": "原有六地数据保持不变；浙江统计局完整公报HTML已取得，表3-2/3-3核实C39全部法人企业数、年末就业、营业收入。",
+      "evidence": [
+        {
+          "sourceId": "gd-census2023",
+          "locator": "第二产业基本情况，C39单位/从业人员及主要经济指标行"
+        },
+        {
+          "sourceId": "js-census2023",
+          "locator": "第二产业基本情况，C39单位/从业人员及主要经济指标行"
+        },
+        {
+          "sourceId": "sh-census2023",
+          "locator": "第二产业基本情况，C39单位/从业人员及主要经济指标行"
+        },
+        {
+          "sourceId": "bj-census2023",
+          "locator": "第二产业基本情况，C39单位/从业人员及主要经济指标行"
+        },
+        {
+          "sourceId": "cq-census2023",
+          "locator": "第二产业基本情况，C39单位/从业人员及主要经济指标行"
+        },
+        {
+          "sourceId": "sc-census2023",
+          "locator": "第二产业基本情况，C39单位/从业人员及主要经济指标行"
+        },
+        {
+          "sourceId": "deep-region-zj-census2023-official",
+          "locator": "表3-2、3-3 C39行"
+        }
+      ],
+      "nextStep": "补其他24省全体法人原表；不能与规上年度平均用工混排。"
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-c39-region-audit-bj",
+    "reason": "由入口检索推进为实际内表阅读；明确已读边界与仍未读部分。",
+    "replacement": {
+      "id": "cn-c39-region-audit-bj",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "北京：两版C39工业内表已读，就业与其他内表按需继续",
+      "period": "2023—2025",
+      "status": "obtained",
+      "detail": "本轮已实读2024版及2025版12-5C39经营/用工目标行，另读2025版就业相关内表；七地五经普C39目标值现均已取得。2026最新一期仅广东本轮取得，其他地区待继续；未宣称全书或全站已穷尽。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，北京行"
+        },
+        {
+          "sourceId": "bj-census2023",
+          "locator": "第二产业基本情况，C39行"
+        },
+        {
+          "sourceId": "bj-io2023",
+          "locator": "公开主表，部门20"
+        },
+        {
+          "sourceId": "deep-region-bj-yb2025-c39",
+          "locator": "Sheet1 第46—47行C39；B企业数/E平均用工/Q收入/R成本/F资产/W利润；表头第3—8行，金额万元、人数人"
+        },
+        {
+          "sourceId": "deep-region-bj-yb2024-c39",
+          "locator": "Sheet1 第46—47行C39；B企业数/E平均用工/Q收入/R成本/F资产/W利润；表头第3—8行，金额万元、人数人"
+        }
+      ],
+      "nextStep": "核定2024跨省总体差异；继续市内分布、行业细类及2026最新一期原文。"
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-c39-region-audit-sh",
+    "reason": "由入口检索推进为实际内表阅读；明确已读边界与仍未读部分。",
+    "replacement": {
+      "id": "cn-c39-region-audit-sh",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "上海：两版C39工业内表已读，就业与其他内表按需继续",
+      "period": "2023—2025",
+      "status": "obtained",
+      "detail": "本轮已实读2024版及2025版12.1C39经营/用工目标行，另读2025版就业相关内表；七地五经普C39目标值现均已取得。2026最新一期仅广东本轮取得，其他地区待继续；未宣称全书或全站已穷尽。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，上海行"
+        },
+        {
+          "sourceId": "sh-census2023",
+          "locator": "第二产业基本情况，C39行"
+        },
+        {
+          "sourceId": "deep-region-sh-yb2025-c39",
+          "locator": "C1201A标题、C1201C第2行列头、C1201D第40行C39；C1201E第40行第1/2/5/6列：产值/资产/收入/利润，单位亿元"
+        },
+        {
+          "sourceId": "deep-region-sh-yb2024-c39",
+          "locator": "C1201A标题、C1201C第2行列头、C1201D第40行C39；C1201E第40行第1/2/5/6列：产值/资产/收入/利润，单位亿元"
+        }
+      ],
+      "nextStep": "核定2024跨省总体差异；继续市内分布、行业细类及2026最新一期原文。"
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-c39-region-audit-js",
+    "reason": "由入口检索推进为实际内表阅读；明确已读边界与仍未读部分。",
+    "replacement": {
+      "id": "cn-c39-region-audit-js",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "江苏：两版C39工业内表已读，就业与其他内表按需继续",
+      "period": "2023—2025",
+      "status": "obtained",
+      "detail": "本轮已实读2024版及2025版11-6C39经营/用工目标行，另读2025版就业相关内表；七地五经普C39目标值现均已取得。2026最新一期仅广东本轮取得，其他地区待继续；未宣称全书或全站已穷尽。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，江苏行"
+        },
+        {
+          "sourceId": "js-census2023",
+          "locator": "第二产业基本情况，C39行"
+        },
+        {
+          "sourceId": "deep-region-js-yb2025-c39",
+          "locator": "浏览器实际渲染DOM第83行C39：企业/资产；第187行C39：收入/成本/费用/利润/平均用工；第113、163行列头，单位亿元、万人"
+        },
+        {
+          "sourceId": "deep-region-js-yb2024-c39",
+          "locator": "2024版11-6，DOM第59行C39，第3行表头；企业4175、收入23766.82亿元、平均用工151.10万人"
+        }
+      ],
+      "nextStep": "核定2024跨省总体差异；继续市内分布、行业细类及2026最新一期原文。"
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-c39-region-audit-zj",
+    "reason": "由入口检索推进为实际内表阅读；明确已读边界与仍未读部分。",
+    "replacement": {
+      "id": "cn-c39-region-audit-zj",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "浙江：两版C39工业内表已读，就业与其他内表按需继续",
+      "period": "2023—2025",
+      "status": "obtained",
+      "detail": "本轮已实读2024版及2025版7-5C39经营/用工目标行，另读2025版就业相关内表；七地五经普C39目标值现均已取得。2026最新一期仅广东本轮取得，其他地区待继续；未宣称全书或全站已穷尽。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，浙江行"
+        },
+        {
+          "sourceId": "deep-region-zj-yb2025-c39",
+          "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+        },
+        {
+          "sourceId": "deep-region-zj-yb2024-c39",
+          "locator": "嵌入页面的JSON data：C39行；表头第1—2行，企业第2列、资产第5列、收入第9列、利润第15列、平均用工第18列；金额亿元/人数万人"
+        },
+        {
+          "sourceId": "deep-region-zj-census2023-official",
+          "locator": "表3-2、3-3"
+        }
+      ],
+      "nextStep": "核定2024跨省总体差异；继续市内分布、行业细类及2026最新一期原文。"
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-c39-region-audit-gd",
+    "reason": "由入口检索推进为实际内表阅读；明确已读边界与仍未读部分。",
+    "replacement": {
+      "id": "cn-c39-region-audit-gd",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "广东：两版C39工业内表已读，就业与其他内表按需继续",
+      "period": "2023—2025",
+      "status": "obtained",
+      "detail": "本轮已实读2024版及2025版12-11C39经营/用工目标行，另读2025版就业相关内表；七地五经普C39目标值现均已取得。2026最新一期仅广东本轮取得，其他地区待继续；未宣称全书或全站已穷尽。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，广东行"
+        },
+        {
+          "sourceId": "gd-census2023",
+          "locator": "第二产业基本情况，C39行"
+        },
+        {
+          "sourceId": "deep-region-gd-yb2025-c39",
+          "locator": "官方ZIP内 directory/12/excel/12-11.xls，Sheet1第61行C39；C企业、G资产、I收入、J成本、L利润、O全部就业人员年平均人数；表头第3—10行"
+        },
+        {
+          "sourceId": "deep-region-gd-yb2024-c39",
+          "locator": "官方ZIP内 directory/12/excel/12-11.xls，Sheet1第61行C39；C企业、G资产、I收入、J成本、L利润、O全部就业人员年平均人数；表头第3—10行"
+        }
+      ],
+      "nextStep": "核定2024跨省总体差异；继续市内分布、行业细类及2026最新一期原文。"
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-c39-region-audit-cq",
+    "reason": "由入口检索推进为实际内表阅读；明确已读边界与仍未读部分。",
+    "replacement": {
+      "id": "cn-c39-region-audit-cq",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "重庆：两版C39工业内表已读，就业与其他内表按需继续",
+      "period": "2023—2025",
+      "status": "obtained",
+      "detail": "本轮已实读2024版及2025版12-6C39经营/用工目标行，另读2025版就业相关内表；七地五经普C39目标值现均已取得。2026最新一期仅广东本轮取得，其他地区待继续；未宣称全书或全站已穷尽。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，重庆行"
+        },
+        {
+          "sourceId": "cq-census2023",
+          "locator": "第二产业基本情况，C39行"
+        },
+        {
+          "sourceId": "cq-io2023",
+          "locator": "公开主表，部门20"
+        },
+        {
+          "sourceId": "deep-region-cq-yb2025-c39",
+          "locator": "PDF第248—255页表12-6；C39名称/企业数见250页，第251页第19数据行平均从业22.26万人；第255页第19数据行收入56770946.5万元、利润1527947.3万元"
+        },
+        {
+          "sourceId": "deep-region-cq-yb2024-c39",
+          "locator": "PDF第253—260页表12-6；255页C39名称/企业数，第256/260页第19数据行，金额万元、平均从业万人"
+        }
+      ],
+      "nextStep": "核定2024跨省总体差异；继续市内分布、行业细类及2026最新一期原文。"
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-c39-region-audit-sc",
+    "reason": "由入口检索推进为实际内表阅读；明确已读边界与仍未读部分。",
+    "replacement": {
+      "id": "cn-c39-region-audit-sc",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "四川：两版C39工业内表已读，就业与其他内表按需继续",
+      "period": "2023—2025",
+      "status": "obtained",
+      "detail": "本轮已实读2024版及2025版14-3C39经营/用工目标行，另读2025版就业相关内表；七地五经普C39目标值现均已取得。2026最新一期仅广东本轮取得，其他地区待继续；未宣称全书或全站已穷尽。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，四川行"
+        },
+        {
+          "sourceId": "sc-census2023",
+          "locator": "第二产业基本情况，C39行"
+        },
+        {
+          "sourceId": "deep-region-sc-yb2025-c39",
+          "locator": "整张原图14-3，C39行（电气机械下、仪器仪表上）；企业/资产/营业收入/成本/利润/平均用工列；金额亿元、人数万人"
+        },
+        {
+          "sourceId": "deep-region-sc-yb2024-c39",
+          "locator": "整张原图14-3，C39行（电气机械下、仪器仪表上）；企业/资产/营业收入/成本/利润/平均用工列；金额亿元、人数万人"
+        }
+      ],
+      "nextStep": "核定2024跨省总体差异；继续市内分布、行业细类及2026最新一期原文。"
+    }
+  }
+]

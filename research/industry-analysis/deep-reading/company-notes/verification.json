@@ -1,0 +1,686 @@
+{
+  "checkedAt": "2026-09-14",
+  "status": "passed",
+  "checks": [
+    "26原件哈希一致",
+    "26份读页边界与133个观测页匹配",
+    "13家公司国家及产品节点均CN",
+    "金额原币原单位倍率保留",
+    "两张表同期间与存量/流量分开",
+    "26个计算可复算",
+    "来源对象与冻结原件完全一致",
+    "6项修订保留同ID及旧数值",
+    "BOE与深科技原表疑点保留待核"
+  ],
+  "rawNumericChecks": [
+    {
+      "id": "dr-inspur-2025-inventory-net",
+      "pdfPage": 117,
+      "result": "原表数字跨行换列；已逐列人工重新核对"
+    },
+    {
+      "id": "dr-inspur-2025-inventory-allowance",
+      "pdfPage": 117,
+      "result": "原表数字跨行换列；已逐列人工重新核对"
+    },
+    {
+      "id": "dr-inspur-2025-goods-dispatched",
+      "pdfPage": 117,
+      "result": "原表数字跨行换列；已逐列人工重新核对"
+    },
+    {
+      "id": "dr-inspur-2025-cashflow-inventory-change",
+      "pdfPage": 147,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-inspur-2025-cashflow-receivables-change",
+      "pdfPage": 147,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-inspur-2025-cashflow-payables-change",
+      "pdfPage": 147,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-inspur-2025-subsidy-other-income",
+      "pdfPage": 158,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-inspur-2025-subsidy-finance-cost",
+      "pdfPage": 158,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-inspur-2026-h1-prepayments",
+      "pdfPage": 87,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-inspur-2026-h1-inventory-net",
+      "pdfPage": 88,
+      "result": "原表数字跨行换列；已逐列人工重新核对"
+    },
+    {
+      "id": "dr-inspur-2026-h1-raw-materials-net",
+      "pdfPage": 87,
+      "result": "原表数字跨行换列；已逐列人工重新核对"
+    },
+    {
+      "id": "dr-inspur-2026-h1-goods-dispatched",
+      "pdfPage": 87,
+      "result": "原表数字跨行换列；已逐列人工重新核对"
+    },
+    {
+      "id": "dr-inspur-2026-h1-ocf",
+      "pdfPage": 116,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-inspur-2026-h1-net-profit",
+      "pdfPage": 115,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-inspur-2026-h1-contract-liabilities",
+      "pdfPage": 102,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-inspur-2026-h1-payroll-additions",
+      "pdfPage": 102,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-smic-2025-inventory-net",
+      "pdfPage": 162,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-smic-2025-inventory-allowance",
+      "pdfPage": 162,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-smic-2025-accounts-receivable-net",
+      "pdfPage": 29,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-smic-2025-cip-net",
+      "pdfPage": 170,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-smic-2025-construction-additions",
+      "pdfPage": 171,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-smic-2025-construction-transferred",
+      "pdfPage": 171,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-smic-2025-government-grants-pnl",
+      "pdfPage": 211,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-smic-2025-depreciation-cash-reconciliation",
+      "pdfPage": 199,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-smic-2026-h1-inventory-net",
+      "pdfPage": 105,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-smic-2026-h1-cip-net",
+      "pdfPage": 113,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-smic-2026-h1-construction-additions",
+      "pdfPage": 114,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-smic-2026-h1-construction-transferred",
+      "pdfPage": 114,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-smic-2026-h1-construction-other-change",
+      "pdfPage": 114,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-smic-2026-h1-government-grants-pnl",
+      "pdfPage": 149,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-smic-2026-h1-ocf",
+      "pdfPage": 137,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-smic-2026-h1-affiliate-fair-value-income",
+      "pdfPage": 24,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-boe-2025-inventory-net",
+      "pdfPage": 155,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-boe-2025-inventory-allowance",
+      "pdfPage": 155,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-boe-2025-inventory-provision-charge",
+      "pdfPage": 156,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-boe-2025-inventory-provision-release",
+      "pdfPage": 156,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-boe-2025-cip-net",
+      "pdfPage": 162,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-boe-2025-grants-asset-income",
+      "pdfPage": 184,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-boe-2025-grants-revenue-income",
+      "pdfPage": 184,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-boe-2025-depreciation-cash-reconciliation",
+      "pdfPage": 191,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-boe-2025-employees-parent",
+      "pdfPage": 48,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-boe-2025-employees-major-subsidiaries",
+      "pdfPage": 48,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-boe-2025-employees-reported-total",
+      "pdfPage": 48,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-boe-2026-h1-inventory-net",
+      "pdfPage": 135,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-boe-2026-h1-inventory-allowance",
+      "pdfPage": 135,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-boe-2026-h1-cip-net",
+      "pdfPage": 146,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-boe-2026-h1-other-offset-revenue",
+      "pdfPage": 15,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-boe-2026-h1-grants-asset-income",
+      "pdfPage": 180,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-boe-2026-h1-grants-revenue-income",
+      "pdfPage": 180,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-boe-2026-h1-government-grants-cash",
+      "pdfPage": 184,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-boe-2026-h1-ocf",
+      "pdfPage": 187,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-luxshare-2025-inventory-net",
+      "pdfPage": 193,
+      "result": "原表数字跨行换列；已逐列人工重新核对"
+    },
+    {
+      "id": "dr-luxshare-2025-inventory-allowance",
+      "pdfPage": 193,
+      "result": "原表数字跨行换列；已逐列人工重新核对"
+    },
+    {
+      "id": "dr-luxshare-2025-inventory-allowance-acquisition",
+      "pdfPage": 193,
+      "result": "原表数字跨行换列；已逐列人工重新核对"
+    },
+    {
+      "id": "dr-luxshare-2025-cip-net",
+      "pdfPage": 200,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-luxshare-2025-government-grants-pnl",
+      "pdfPage": 264,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-luxshare-2025-cashflow-payables-change",
+      "pdfPage": 230,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-luxshare-2026-h1-inventory-net",
+      "pdfPage": 127,
+      "result": "原表数字跨行换列；已逐列人工重新核对"
+    },
+    {
+      "id": "dr-luxshare-2026-h1-inventory-allowance",
+      "pdfPage": 127,
+      "result": "原表数字跨行换列；已逐列人工重新核对"
+    },
+    {
+      "id": "dr-luxshare-2026-h1-cip-net",
+      "pdfPage": 134,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-luxshare-2026-h1-government-grants-pnl",
+      "pdfPage": 188,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-luxshare-2026-h1-ocf",
+      "pdfPage": 164,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-luxshare-2026-h1-cashflow-inventory-change",
+      "pdfPage": 164,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-luxshare-2026-h1-payroll-additions",
+      "pdfPage": 146,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-goer-2025-inventory-net",
+      "pdfPage": 146,
+      "result": "原表数字跨行换列；已逐列人工重新核对"
+    },
+    {
+      "id": "dr-goer-2025-government-grants-pnl",
+      "pdfPage": 190,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-goer-2025-optics-remeasurement-gain",
+      "pdfPage": 182,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-goer-2026-h1-inventory-net",
+      "pdfPage": 108,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-goer-2026-h1-ocf",
+      "pdfPage": 135,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-goer-2026-h1-cashflow-inventory-change",
+      "pdfPage": 135,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-goer-2026-h1-government-grants-pnl",
+      "pdfPage": 146,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-kaifa-2025-inventory-net",
+      "pdfPage": 144,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-kaifa-2026-h1-inventory-net",
+      "pdfPage": 91,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-kaifa-2025-ocf",
+      "pdfPage": 177,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-kaifa-2026-h1-ocf",
+      "pdfPage": 118,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-kaifa-2026-h1-cashflow-inventory-change",
+      "pdfPage": 118,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-kaifa-2026-h1-net-profit",
+      "pdfPage": 118,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-kaifa-2025-cip-net",
+      "pdfPage": 154,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-kaifa-2026-h1-cip-net",
+      "pdfPage": 101,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-haige-2025-inventory-net",
+      "pdfPage": 120,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-haige-2026-h1-inventory-net",
+      "pdfPage": 87,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-haige-2025-ocf",
+      "pdfPage": 26,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-haige-2026-h1-ocf",
+      "pdfPage": 112,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-haige-2026-h1-net-profit",
+      "pdfPage": 112,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-haige-2026-h1-cip-net",
+      "pdfPage": 92,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-haige-2026-h1-receivables-net",
+      "pdfPage": 18,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-hisense-2025-inventory-net",
+      "pdfPage": 143,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-hisense-2026-h1-inventory-net",
+      "pdfPage": 97,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-hisense-2025-ocf",
+      "pdfPage": 187,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-hisense-2026-h1-ocf",
+      "pdfPage": 139,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-hisense-2026-h1-net-profit",
+      "pdfPage": 139,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-hisense-2026-h1-cip-net",
+      "pdfPage": 112,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-hisense-2026-h1-grant-pnl",
+      "pdfPage": 151,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-sytech-2025-inventory-net",
+      "pdfPage": 152,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-sytech-2026-h1-inventory-net",
+      "pdfPage": 110,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-sytech-2025-ocf",
+      "pdfPage": 193,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-sytech-2026-h1-ocf",
+      "pdfPage": 148,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-sytech-2026-h1-net-profit",
+      "pdfPage": 148,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-sytech-2026-h1-cip-net",
+      "pdfPage": 120,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-sytech-2026-h1-grant-pnl",
+      "pdfPage": 159,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-sytech-2026-h1-property-development-cost-impairment",
+      "pdfPage": 110,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-sytech-2026-h1-property-development-product-impairment",
+      "pdfPage": 110,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-wus-2025-inventory-net",
+      "pdfPage": 132,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-wus-2026-h1-inventory-net",
+      "pdfPage": 92,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-wus-2025-ocf",
+      "pdfPage": 165,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-wus-2026-h1-ocf",
+      "pdfPage": 124,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-wus-2026-h1-net-profit",
+      "pdfPage": 124,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-wus-2026-h1-cip-net",
+      "pdfPage": 101,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-suncreate-2025-inventory-net",
+      "pdfPage": 131,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-suncreate-2026-h1-inventory-net",
+      "pdfPage": 95,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-suncreate-2025-ocf",
+      "pdfPage": 163,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-suncreate-2026-h1-ocf",
+      "pdfPage": 124,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-suncreate-2026-h1-net-profit",
+      "pdfPage": 124,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-suncreate-2026-h1-inventory-allowance",
+      "pdfPage": 95,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-suncreate-2026-h1-grant-pnl",
+      "pdfPage": 133,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-transsion-2025-inventory-net",
+      "pdfPage": 164,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-transsion-2026-h1-inventory-net",
+      "pdfPage": 115,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-transsion-2025-ocf",
+      "pdfPage": 200,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-transsion-2026-h1-ocf",
+      "pdfPage": 149,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-transsion-2026-h1-net-profit",
+      "pdfPage": 149,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-transsion-2026-h1-cip-net",
+      "pdfPage": 125,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-transsion-2026-h1-grant-pnl",
+      "pdfPage": 159,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-transsion-2026-h1-raw-material-net",
+      "pdfPage": 115,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-transsion-2026-h1-receivables-net",
+      "pdfPage": 32,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-zte-2025-inventory-net",
+      "pdfPage": 153,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-zte-2026-h1-inventory-net",
+      "pdfPage": 112,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-zte-2025-ocf",
+      "pdfPage": 192,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-zte-2026-h1-ocf",
+      "pdfPage": 151,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-zte-2026-h1-net-profit",
+      "pdfPage": 151,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-zte-2026-h1-cip-net",
+      "pdfPage": 120,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-zte-2026-h1-cost-expense-employee-pay",
+      "pdfPage": 144,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-zte-2025-cost-expense-employee-pay",
+      "pdfPage": 185,
+      "result": "原文数字命中，并已实际读该页"
+    },
+    {
+      "id": "dr-zte-2026-h1-receivables-net",
+      "pdfPage": 25,
+      "result": "原文数字命中，并已实际读该页"
+    }
+  ],
+  "limitations": [
+    "自动数值命中只是防抄写错误，不等于全文阅读或独立会计审计。",
+    "12个跨行金额已逐列重新人工核对；已读页外的剩余内容见read-log，不计已读。"
+  ]
+}

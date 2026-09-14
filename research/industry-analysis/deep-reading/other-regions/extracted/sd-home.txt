@@ -1,0 +1,731 @@
+山东省统计局
+#floatadv_802f2d6d3afb41dbb2b3cb853f4f925a {
+            font-size: 12px;
+        }
+.fireman930-bg {
+    background-image: url(http://www.gov.cn/govweb/xhtml/2019zhuanti/20210622qiyisytl/gcdclaooznbg.jpg);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: 0;
+}
+首页
+新闻资讯
+时政要闻
+通知公告
+最新发布
+媒体报道
+省局动态
+各地动态
+新闻发布会
+政务公开
+机构职能
+省局领导
+处室设置
+人事信息
+计划规划
+财务信息
+法规规章
+整改落实
+依申请公开
+公共数据
+数据开放说明
+数据开放目录
+年度数据
+统计公报
+普查公报
+普查数据
+进度分析
+年度分析
+统计制度
+统计标准
+办事服务
+涉外调查机构资格认定
+涉外社会调查项目审批
+行政许可公示
+行政处罚公示
+部门调查项目公示
+“用证”事项清单公示
+失信企业公示
+统计执法证人员信息
+统计职称
+政务服务网分厅
+政府信息公开
+统计数据查询
+山东国家调查队系统信息公示
+公众互动
+政策解读
+咨询建议
+在线访谈
+意见征集
+投诉举报
+常见问题解答
+/*导航下拉样式*/
+                    .nav_1100>ul {
+                        overflow: inherit;
+                    }
+
+                    .nav_1100>ul>li {
+                        position: relative;
+                        cursor: pointer;
+                        margin: 0 30px
+                    }
+
+                    .xiala {
+                        position: absolute;
+                        margin: 0;
+                        display: none;
+                        z-index: 9999
+                    }
+
+                    ul.xiala>li {
+                        float: none;
+                        margin: 0;
+                        height: 30px;
+                        line-height: 29px;
+                    }
+
+                    ul.xiala li a {
+                        color: #fff;
+                        font-size: 15px;
+                        display: block;
+                        padding: 0;
+                        display: block;
+                        background: #436eb2;
+                        border-bottom: 1px solid #537dba;
+                        width: 128px;
+                        text-align: center
+                    }
+
+                    ul.xiala li a:hover {
+                        background: #325fa9
+                    }
+
+                    .nav ul li:hover .xiala {
+                        display: block;
+                    }
+
+                    .nav ul li:hover .xiala {
+                        display: none
+                    }
+
+                    .nav ul li .show {
+                        display: block
+                    }
+
+                    .nav_1100>ul>li {
+                        overflow: visible
+                    }
+//控制导航下拉显示和隐藏
+                    function xiala(name, num, count) {
+                        for (var i = 1; i <= count; i++) {
+                            var one_list = document.getElementById('con2_' + name + '_' + i);
+                            var show = document.getElementById(name + '_' + i);
+                            show.className = num == i ? "nav_hover" : "";
+                            if (one_list.style.display == "block") {
+                                one_list.style.display = num == i ? "none" : "none";
+                            } else {
+                                one_list.style.display = num == i ? "block" : "none";
+                            }
+                        }
+                    }
+#bt-jq-TX-010108{width: 1100px;height: 88px;max-width: 1100px !important} .bt-jq-TX-010108{text-align:center;width:100%;margin:0 auto;height: 88px;} .bt-jq-TX-010108-pic li,.bt-jq-TX-010108-pic li a,.bt-jq-TX-010108-pic li a img{width: 1100px;height: 88px} .bt-jq-TX-010108 .rslides-nav,.rslides-tabs{display: none;background: none}
+function fixImage1(ImgD, width, height) {
+        var image = new Image();
+        image.src = ImgD.src;
+        imgw = image.width;
+        imgh = image.height;
+        if (imgw * 1 > width) {
+            imgh = imgh / imgw * width;
+            imgw = width;
+        }
+        if (imgh * 1 > height) {
+            imgw = imgw / imgh * height;
+            imgh = height;
+        }
+        ImgD.width = imgw;
+        ImgD.height = imgh;
+    }
+.bord {
+	width: 550px;
+	height: 360px;
+	padding: 1px;
+}
+.focusBox {
+	position: relative;
+	width: 550px;
+	height: 360px;
+	overflow: hidden;
+	text-align: left;
+	background: white;
+	list-style-type: none;
+}
+.focusBox .pic1 img {
+	display: block;
+	width: 550px;
+	height: 360px;
+}
+.pic {
+	margin-top: -22px;
+}
+.focusBox .txt-bg {
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	height: 36px;
+	width: 100%;
+	background: #333;
+	filter: alpha(opacity=40);
+	opacity: 0.4;
+	overflow: hidden;
+}
+.focusBox .txt {
+	position: absolute;
+	bottom: 0;
+	z-index: 2;
+	height: 36px;
+	width: 100%;
+	overflow: hidden;
+	font-size: 14px;
+}
+.focusBox .txt li {
+	list-style: none;
+	height: 36px;
+	line-height: 36px;
+	position: absolute;
+	bottom: -36px;
+	left: 0;
+	padding-left: 12px;
+	list-style-type: none;
+}
+.focusBox .txt li a {
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+.focusBox .txt li a:hover {
+	color: #fffcbc;
+}
+.focusBox .num {
+	position: absolute;
+	z-index: 3;
+	bottom: 10px;
+	right: 8px;
+*bottom:12px;
+}
+.focusBox .num li {
+	float: left;
+	position: relative;
+	width: 18px;
+	height: 15px;
+	line-height: 15px;
+	overflow: hidden;
+	text-align: center;
+	margin-right: 1px;
+	cursor: pointer;
+	font-size: 14px;
+	list-style-type: none;
+}
+.focusBox .num li a, .focusBox .num li span {
+	position: absolute;
+	z-index: 2;
+	display: block;
+	color: white;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	text-decoration: none;
+}
+.focusBox .num li span {
+	z-index: 1;
+	background: black;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+.focusBox .num li.on a, .focusBox .num a:hover {
+	background: #f60;
+}
+.pic1 {
+	margin-top: 0px;
+*margin-top:0px;
+*margin-left:0px;
+}
+ul li {
+	list-style-type: none;
+}
+省政府新闻办召开发布会介绍2026年上半年山东省经济社会运行...
+省政府新闻办召开发布会介绍2025年全年山东省经济社会运行情...
+山东省“统计法治宣传月”在日照启动
+山东省第十六届“中国统计开放日”活动在济宁成功举办
+影响营商环境建设问题线索征集
+1
+2
+3
+4
+5
+jQuery(".focusBox").slide({
+        titCell: ".num li",
+        mainCell: ".pic1",
+        effect: "fold",
+        autoPlay: true,
+        trigger: "click",
+        startFun: function(i) {
+            jQuery(".focusBox .txt li").eq(i).animate({
+                "bottom": 0
+            }).siblings().animate({
+                "bottom": 36
+            });
+        }
+    });
+时政要闻
+更多》
+习近平出席金砖国家领导人第十八次会晤第二阶段会议并...
+09-14
+习近平会见印度总理莫迪
+09-12
+习近平出席金砖国家领导人第十八次会晤第一阶段会议并...
+09-12
+李强主持召开国务院常务会议
+09-11
+李强签署国务院令 公布《市场监督管理所条例》
+09-11
+国务院办公厅印发《关于加强中小企业回款难问题治理有...
+09-10
+习近平就朝鲜国庆78周年向朝鲜最高领导人金正恩致贺...
+09-09
+习近平同英国首相伯纳姆通电话
+09-09
+李强主持国务院第二十一次专题学习
+09-08
+最新发布与解读
+更多》
+1-7月全省经济运行总体平稳
+08-24
+上半年全省经济运行稳健向好
+07-21
+1-5月全省经济运行总体平稳
+06-23
+2025年城镇单位就业人员年平均工资情况
+06-23
+1-4月全省经济稳健运行
+05-29
+一季度全省经济稳健向好 进中提质
+04-24
+解读：1-2月全省消费市场开局增势稳健
+03-26
+通知公告
+|
+政府信息公开
+更多》
+关于做好2026年度统计和基层统计高级专业技术职称评审工...
+09-11
+关于全省2026年度高级统计师资格考试合格标准的公告
+09-11
+关于公布2026年度全省统计科研课题的通知
+09-08
+2026年度山东省统计科研课题立项公示
+08-28
+2026年度山东省统计局公开遴选公务员拟任职人员公示
+08-23
+山东省统计局2026年度公开遴选公务员职位业务水平测试成...
+07-27
+山东省统计局关于开展2026年度公开遴选公务员职位业务水...
+07-21
+政府信息公开申请
+行政许可事项
+权责清单
+咨询建议
+公共服务事项
+行政许可处罚双公示
+举报投诉
+驻委纪检组
+省局动态
+更多》
+省统计科学研究所与山东财经大学统...
+09-14
+省统计局召开党组会议暨党的建设工...
+09-09
+山东省统计学会第九次会员代表大会...
+07-24
+省统计局举办消防安全知识专题培训
+06-10
+省统计局组织开展义务植树活动
+03-23
+全省统计工作会议在济南召开
+02-11
+省政府新闻办召开发布会介绍202...
+01-28
+各地动态
+更多》
+德州市局“三步走”筑牢投资统计数...
+09-14
+济宁市局圆满完成生育支持政策对生...
+09-04
+东营市局“四聚焦”扎实推进工业统...
+08-27
+淄博市局聚力推进贸易升规纳统工作
+08-18
+聊城市局召开机关事业单位劳动工资...
+08-11
+滨州市局精准推进劳动工资电子台账...
+07-31
+泰安市局严把“三关”提质效 筑牢...
+07-24
+媒体报道
+更多》
+前8个月山东省进出口增长4....
+据青岛海关、济南海关统计，2026年前8个月，山东省进出口2...
+[详情]
+前8个月山东省进出口增长4.7%
+09-10
+1-7月，山东经济持续稳健向好，...
+08-25
+从三个“刷新认知”的变化，看山东...
+07-23
+林毅夫：以新质生产力促进山东“十...
+06-22
+.wid125{width:125px;}
+公开指南
+公开目录
+公开申请
+公开报告
+信息公开制度
+权责清单
+公共服务事项
+随机抽查事项
+法规规章
+|
+规范性文件
+|
+规范性文件清理结果
+|
+整改落实
+|
+更多》
+更多》
+更多》
+更多》
+中华人民共和国统计法
+10-14
+统计执法监督检查办法
+12-10
+统计执法证管理办法
+12-06
+全国经济普查条例
+08-24
+山东省统计管理条例
+06-14
+山东省人民代表大会常务委员会公告（第216号）
+10-16
+山东省统计局关于印发《山东省企业统计工作规范》的通知
+07-20
+山东省统计局　国家统计局山东调查总队关于印发《山东省统计行政处罚裁量权...
+07-01
+山东省统计局　山东省人力资源和社会保障厅关于印发《山东省基层统计高级职...
+12-24
+山东省统计局　山东省人力资源和社会保障厅关于印发山东省统计系列正高级统...
+12-24
+关于印发《山东省统计行政处罚裁量基准》的通知
+12-29
+关于印发《山东省部门统计工作规范化管理办法》的通知
+06-01
+2025年规范性文件清理说明
+12-31
+2024年规范性文件清理说明
+12-31
+2023年规范性文件清理说明
+12-28
+2022年规范性文件清理说明
+12-12
+2021年规范性文件清理说明
+11-24
+2020年规范性文件清理说明
+11-25
+山东省统计局贯彻落实国家统计督察反馈意见整改情况
+07-02
+山东省统计局落实国家常规统计督察反馈意见整改情况
+07-31
+中共山东省统计局党组关于十二届省委第五轮巡视集中整改进展情况的通报
+05-08
+关于第二轮中央生态环境保护督察（“回头看”）第66项整改任务完成情况的...
+01-21
+关于第二轮中央生态环境保护督察（“回头看”）第6项整改任务完成情况的公...
+01-13
+山东省统计局关于2022年预算执行等审计问题整改情况
+08-31
+关于全省2025年度高级统计师资格考试合格标准的公告
+01-23
+关于公布山东省基层统计专业职务资格高级评审委员会2025年度评审结果的...
+06-22
+关于公布山东省统计专业职务资格高级评审委员会2025年度评审结果的通知
+06-22
+关于正高级统计师、基层正高级统计师面试答辩的通告
+05-27
+关于做好2025年度统计和基层统计高级专业技术职称评审工作的通告
+02-02
+关于公布山东省统计专业职务资格高级评审委员会2024年度评审结果的通知
+06-26
+省局领导
+党组书记、局长---刘斯杰
+党组成员、副局长---李涛
+党组成员、副局长---马伟
+党组成员、副局长---程连德
+党组成员、副局长---傅相国
+.kslj_1,.kslj_2,.kslj_3,.kslj_4,.kslj_5{width: 205px!important;}
+机构职能
+处室设置
+人事信息
+财务信息
+计划规划
+公共数据平台
+公共数据开放说明
+|
+公共数据开放目录
+|
+年度数据
+统计公报
+|
+普查公报
+更多》
+更多》
+2025年山东省国民经济和社会发展统计公报
+03-03
+2024年山东省科技经费投入统计公报
+11-10
+2024年山东省国民经济和社会发展统计公报
+03-05
+2023年山东省科技经费投入统计公报
+10-28
+2023年山东省国民经济和社会发展统计公报
+03-03
+2022年山东省科技经费投入统计公报
+11-03
+山东省第五次全国经济普查公报（第七号）
+04-10
+山东省第五次全国经济普查公报（第六号）
+04-10
+山东省第五次全国经济普查公报（第五号）
+04-10
+山东省第五次全国经济普查公报（第四号）
+04-10
+山东省第五次全国经济普查公报（第三号）
+04-10
+山东省第五次全国经济普查公报（第二号）
+04-10
+进度分析
+|
+年度分析
+|
+统计制度
+|
+统计标准
+更多》
+更多》
+更多》
+更多》
+1-7月全省经济运行总体平稳
+08-24
+上半年全省经济运行稳健向好
+07-21
+1-5月全省经济运行总体平稳
+06-23
+1-4月全省经济稳健运行
+05-29
+一季度全省经济稳健向好 进中提质
+04-24
+解读：1-2月全省经济稳健开局
+03-23
+解读：2025年全省服务业实现稳定增长
+02-12
+解读：2025年全省居民消费价格运行平稳 核心CPI持续...
+02-05
+​解读：2025年全省居民人均可支配收入增长5.0%
+02-05
+解读：2025年全省工业生产者价格低位运行
+02-04
+解读：2025年全省畜牧业生产总体平稳
+02-04
+解读：2025年全省能源供应保障有力 绿色转型加速推进
+01-29
+统计单位基本情况统计报表制度主要内容（2024年统计年报...
+02-12
+农林牧渔业统计报表制度主要内容（2024年统计年报和20...
+02-12
+农业产值和价格综合统计报表制度主要内容（2024年统计年...
+02-12
+工业统计调查制度主要内容（2024年统计年报和2025年...
+02-12
+建筑业统计报表制度主要内容（2024年统计年报和2025...
+02-12
+交通邮电互联网软件业统计报表制度主要内容（2024年统计...
+02-12
+《现代服务业统计分类》（国家统计局令第36号）
+07-31
+《关于市场主体统计分类的划分规定》（国统字〔2023〕1...
+02-06
+《节能环保清洁产业统计分类（2021）》
+（国家统计局令第...
+08-05
+《数字经济及其核心产业统计分类（2021）》（国家统计局...
+07-19
+《教育培训及相关产业统计分类（2020）》（国家统计局令...
+12-30
+《农业及相关产业统计分类（2020）》（国家统计局令第3...
+12-30
+办事导航
+面向单位
+联网直报平台
+涉外统计调查资格认定
+涉外社会调查项目审批
+面向个人
+政府信息公开
+在线咨询
+统计职称
+资源整合平台
+山东政务服务网
+省统计局分厅
+行政许可信息公示
+行政处罚信息公示
+统计调查项目公示
+"用证"事项清单公示
+.zyzhpt{width:120px;height:40px;line-height:40px;text-align:center;color:#fff;margin:10px 0 0 20px;background:url(/picture/106/1709081944404385348.png)} .zyzhpt.title{margin-top:0px;margin-bottom:10px} .zwlj{height:auto}
+服务反馈
+申请编号
+申请时间
+处理状态
+SDPR-032-2026-0128
+2026-07-28
+已处理
+SDPR-032-2026-0127
+2026-07-28
+已处理
+SDPR-032-2026-0126
+2026-07-22
+已处理
+SDPR-032-2026-0125
+2026-07-22
+已处理
+SDPR-032-2026-0124
+2026-07-07
+已处理
+SDPR-032-2026-0122
+2026-07-06
+已处理
+本月办件：11  本月办理：11  本年办件：132  本年办理：128
+咨询建议
+更多》
+在线访谈
+访谈预告
+更多》
+.zxft{cursor: auto} #xqyg{cursor: pointer;}
+省统计局副局长、新闻发言人傅相国出席...
+山东省人民政府新闻办公室于2026年7月21日举行“数说山东...
+[详情]
+省统计局副局长、新闻发言人傅相国出席2025...
+04-24
+省统计局副局长、新闻发言人傅相国出席2024...
+10-29
+山东省人民政府新闻办公室于2026年7月21日举行“数说山东看发展”主题系列新闻发布会，邀请省人民政府办公厅主要负责同志、省人民政府新闻发言人等介绍2026年上...
+政策解读
+|
+更多》
+媒体解读--《山东省企业统计工作规范》
+08-18
+一图解读--《山东省企业统计工作规范》
+08-18
+专家解读--《关于印发〈山东省企业统计工作规...
+08-18
+负责人解读--《关于印发〈山东省企业统计工作...
+08-18
+关于《山东省高级统计师职称评价标准条件（试行...
+12-14
+意见征集
+投诉举报
+常见问题解答
+var LTPspeed=20;//数值越大，速度越慢 
+var LTP2=document.getElementById("LTP2");
+var LTP1=document.getElementById("LTP1");
+var LTP=document.getElementById("LTP");
+LTP2.innerHTML=LTP1.innerHTML;
+LTP.scrollLeft=LTP.scrollWidth
+function LTPMarqueeLeft(){
+if(LTP2.offsetWidth-LTP.scrollLeft<=0)
+LTP.scrollLeft-=LTP1.offsetWidth
+else{
+LTP.scrollLeft++
+}
+}
+function LTPMarqueeRight(){
+if(LTP.scrollLeft<=0)
+LTP.scrollLeft+=LTP2.offsetWidth
+else{
+LTP.scrollLeft--
+}
+}
+var LTPMar=setInterval(LTPMarqueeRight,LTPspeed);
+LTP.onmouseover=function() {clearInterval(LTPMar);}
+LTP.onmouseout=function() {LTPMar=setInterval(LTPMarqueeRight,LTPspeed);}
+
+function changeRedirect(LorR,PlusSpeed)
+{
+ clearInterval(LTPMar);
+ if(LorR==0) 
+ {
+  LTPMar=setInterval(LTPMarqueeLeft,PlusSpeed); 
+  LTP.onmouseout=function() {LTPMar=setInterval(LTPMarqueeLeft,PlusSpeed);}
+ }
+ else
+ {
+  LTPMar=setInterval(LTPMarqueeRight,PlusSpeed);
+  LTP.onmouseout=function() {LTPMar=setInterval(LTPMarqueeRight,PlusSpeed);}
+ }
+}
+.toolbar_top li {box-sizing:content-box;}
+var time = 900;
+    var h = 0;
+    function addCount() {
+        if (time > 0) {
+            time--;
+            h = h + 15;
+        }
+        else {
+            return;
+        }
+        if (h >324)  //高度
+        {
+            return;
+        }
+        document.getElementById("ads").style.display = "";
+        document.getElementById("ads").style.height = h + "px";
+        setTimeout("addCount()", 30);
+    }
+    $(document).ready(function () {
+        showAds()
+    })
+    function showAds() {
+            addCount();
+            setTimeout("noneAds()", 10000); //停留时间自己适当调整
+        }
+var T = 260;
+    var N = 324; //高度
+    function noneAds() {
+        if (T > 0) {
+            T--;
+            N = N - 5;
+        }
+        else {
+            return;
+        }
+        if (N < 0) {
+            document.getElementById("ads").style.display = "none";
+            return;
+        }
+
+        document.getElementById("ads").style.height = N + "px";
+        setTimeout("noneAds()", 30);
+    }
+function close_float_center(it) {
+        eval(it).style.visibility = 'hidden';
+    }
+✕

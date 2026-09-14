@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-09-14",
+  "status": "frozen-for-integration",
+  "scope": "13地C39目标内表；24地逐版日志；不包括后续未读表",
+  "files": {
+    "panel-data.json": "e04141fe9e20a490fe8d698af77ad7d244e4d942ac52a31bf7abf085341d72db",
+    "observations.json": "2cf62f7bb3e965c7b8835042b01283ec3754cca721146e8369187c380a5b843b",
+    "read-log.json": "d22ab748610962e149f047d0b335e9ec00bb1506a88c5354fc7b3e167d6738b3",
+    "amendments.json": "c68f1da0700a00f1576cf129ddf284043fd4f28b8e1b1fe23d93a6f54e0639b5",
+    "analysis.md": "6f6cfb3cc14b139aaaba35e5749d052a5803dc4fc0a2053be1d487059267146b",
+    "source-manifest.json": "f3ca18389cd387483d0ff1239e3d315f117cce45bd594abcb7d2615a13030c4c",
+    "archive-policy.json": "e2c4b915ebe341cbd0a327308b4bb5c15affb8495b047aa264cacdcdb917afc4",
+    "national-review.md": "2a3f6d9e44b27651932fa9b8b63a5ca3e5906834e2b4f49e674dfc5baf4636fa",
+    "priority-regions-review.md": "e9fd6a969e67dca2a302825f91e084d8be0e08e97f2db396c68c551d57a730ee"
+  },
+  "validation": {
+    "function": "validateIndustryAnalysis",
+    "currencyRowChecks": 80,
+    "hnParentReconciliation": "六指标均衔接；公司代理独立复核通过",
+    "independentNumericalReviews": "湖南/云南/吉林；另本代理独立审读national与priority-regions指定范围"
+  }
+}

@@ -1,0 +1,1557 @@
+陕西省统计局
+.con4-tab .cm-news-list li a {width: 550px;}.cm-news-list li a {background: none;}.cm-news-list li a:hover {background-image: unset;}.rtCon-5 .img-tit {z-index: 1;}.con-3 a {margin-left: 55px;}.con4-tab .year-data .year-secondData .t-yearTong a.lf:hover {opacity: 1;cursor: default;}
+.leftadv {
+    left:1vw;
+}
+.cn_cjyx {
+    position: fixed;
+    top: 38vh;
+    z-index: 9999;
+}
+.cn_cjyx img {
+    float: left;
+width: 160px;
+}
+.rightadv {
+    right: 1vw;
+}
+.close{
+font-size: 16px;
+    margin-left: -35px;
+    color: #333;
+    cursor: pointer;
+    right: 6px;
+    bottom: -26px;
+    position: absolute;
+}
+.cn_cjyx a:hover{
+color:#333;
+}
+.gk-new{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+padding:0px;
+
+}
+.gk-new a{
+margin-left: 0; 
+}
+#ndbb{
+width: 110px; 
+}
+.s-ul a{
+height: 66px;
+line-height: 66px;
+margin-bottom:15px;
+}
+.pc-xzt{
+margin-top:15px;
+width: 415px;
+    background: #ebe8e8;
+    margin-left: 22px;
+    margin-bottom: 15px;
+    height: 60px;
+    line-height: 60px;
+}
+.pc-xzt img{
+width: 100%;
+    height: auto;
+}
+.swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content:flex-start;
+        justify-content: flex-start;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+.swiper-slide div{
+position: absolute;
+bottom:0px;
+color:#fff;
+padding-left: 20px;width: 100%;background: url(/images/banTxtBg.png) no-repeat bottom center;height: 53px;line-height: 53px;text-align: left;
+}
+.swiper-slide div p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 76%;
+}
+.swiper-pagination-bullet {
+height:12px;
+width:12px;
+border:2px solid #fff;
+opacity: var(--swiper-pagination-bullet-inactive-opacity, 1);
+}
+:root {
+    --swiper-theme-color: #fff;
+}
+
+.swiper-pagination {
+    text-align: right;
+    padding-right: 10px;
+padding-bottom: 10px;
+}
+.con-4 .tabItem {
+    height: 305px;
+}
+.ydBanner{
+display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+.ydBanner a{
+margin: 10px 0px;
+    display: block;
+    width: 33%;
+}
+.ydBanner a:nth-child(2){
+margin: 10px;
+}
+.ydBanner img{
+width:100%;
+}
+#tjxxList .cm-news-list li {
+    height: 42px;
+}
+.ydSwiper img{
+width:393px;
+height:100px;
+}
+.ydAppSwiper{
+display:none;
+}
+.con4-tab .panel{
+    width: 33.33%;
+}
+.conzt-banner{
+width: 100%;
+}
+.ztImg{
+ width: 1140px;
+  height: 159px;
+  margin-top: 30px;
+  left: 37px;
+  position: relative;
+overflow: hidden;
+}
+.ztzl .img-tit a {
+  display: inline-block;
+  font-size: 20px;
+  color: #333333;
+  line-height: 20px;
+padding:20px 0px 0px 20px
+}
+.conzt-banner .cm-banner-img1 a {
+  display: inline-block;
+  width: 365px;
+  height: 159px;
+  margin-right:18px;
+}
+.conzt-banner .btn-lf {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  background: url(/images/lfBtn.png) no-repeat;
+}
+.conzt-banner .btn-rt {
+  top: 50%;
+  right: -10px;
+  background: url(/images/rtBtn.png) no-repeat;
+}
+.con4-tab .year-data .year-firstData a:nth-child(3){
+margin-right:34px;
+}
+@media screen and (max-width: 500px){
+
+.ydBanner{
+flex-direction: column;
+}
+.ydBanner a{
+width:100%;
+}
+.ydBanner a:nth-child(2){
+margin: 10px 0px;
+}
+.pc-xzt{
+width: calc(100% - 20px);
+    margin-left: 0px;
+    height: 60px;
+    line-height: 60px;
+    margin: 10px 10px;
+}
+.ydSwiper{
+display:none;
+}
+
+.ydAppSwiper img{
+width:100%;
+height:90px;
+}
+.ydAppSwiper{
+display:block;
+}
+}
+中央人民政府网
+|
+陕西省人民政府网
+|
+国家统计局
+|
+无障碍阅读
+长者模式
+登录
+|
+注册
+2020年3月05日
+星期三
+官方抖音
+官方微信
+官方微博
+首页
+政府信息公开
+办事服务
+互动交流
+统计数据
+function submitsearch(){
+		var result = $("#textfield").val();
+		result = $.trim(result); 
+		var reg = /[`~!@#$%^&*_+<>{}\/'[\]]/im;
+
+		var url = window.location.href;
+		var arrUrl = url.split("//");
+		var arrUrl1 = arrUrl[1].split("/");
+		var para = arrUrl1[0];
+
+		if (reg.test(result)) {
+			window.wxc.xcConfirm('您输入的信息包含非法字符!', window.wxc.xcConfirm.typeEnum.info)
+			return false;
+		}
+		if (result == "请输入关键字检索" || result == "" || result == null) {
+			window.wxc.xcConfirm('请输入检索条件!', window.wxc.xcConfirm.typeEnum.info)
+			return false;
+		} else {
+			result = result.replace("-", "\-");
+			result = result.replace("(", "\(");
+			result = result.replace(")", "\)");
+		}
+		window.open("/sxsearch/search.html?code=1845a1a7d46&tenantId=14&searchWord=" + encodeURI(result));
+	}
+$(function (){
+$('.weixin-media-link').hover (function (){
+$('.weixin-media-box img').show ();
+},function (){
+$('.weixin-media-box img').hide ();
+});
+$('.douyin-media-link').hover (function (){
+$('.douyin-media-box img').show ();
+},function (){
+$('.douyin-media-box img').hide ();
+});
+});
+function dateFormat(fmt, date) {
+		let ret;
+		const opt = {
+        "Y+": date.getFullYear().toString(),        // 年
+        "m+": (date.getMonth() + 1).toString(),     // 月
+        "d+": date.getDate().toString(),            // 日
+        "H+": date.getHours().toString(),           // 时
+        "M+": date.getMinutes().toString(),         // 分
+        "S+": date.getSeconds().toString()          // 秒
+        // 有其他格式化字符需求可以继续添加，必须转化成字符串
+    };
+    for (let k in opt) {
+    	ret = new RegExp("(" + k + ")").exec(fmt);
+    	if (ret) {
+    		fmt = fmt.replace(ret[1], (ret[1].length == 1) ? (opt[k]) : (opt[k].padStart(ret[1].length, "0")))
+    	};
+    };
+    return fmt;
+}
+function getMyWeekday(mydate){
+	var myddy=mydate.getDay();
+	var weekday=["星期日","星期一","星期二","星期三","星期四","星期五","星期六"];
+	return weekday[myddy];
+}
+$('#tjj-cur-days').text(dateFormat("YYYY年mm月dd日",new Date()));
+$('#tjj-cur-weekday').text(getMyWeekday(new Date()));
+(function(window,localStorage,undefined){
+var LS = {
+    set : function(key, value){
+        //在iPhone/iPad上有时设置setItem()时会出现诡异的QUOTA_EXCEEDED_ERR错误
+        //这时一般在setItem之前，先removeItem()就ok了
+        if( this.get(key) !== null )
+            this.remove(key);
+        localStorage.setItem(key, value);
+    },
+    //查询不存在的key时，有的浏览器返回undefined，这里统一返回null
+    get : function(key){
+        var v = localStorage.getItem(key);
+        return v === undefined ? null : v;
+    },
+    remove : function(key){ localStorage.removeItem(key); },
+    clear : function(){ localStorage.clear(); },
+    each : function(fn){
+        var n = localStorage.length, i = 0, fn = fn || function(){}, key;
+        for(; i<n; i++){
+            key = localStorage.key(i);
+            if( fn.call(this, key, this.get(key)) === false )
+                break;
+            //如果内容被删除，则总长度和索引都同步减少
+            if( localStorage.length < n ){
+                n --;
+                i --;
+            }
+        }
+    }
+},
+j = window.jQuery, c = window.Core;
+//扩展到相应的对象上
+window.LS = window.LS || LS;
+//扩展到其他主要对象上
+if(j) j.LS = j.LS || LS;
+if(c) c.LS = c.LS || LS;
+})(window,window.localStorage);
+var searchUrl=window.location.href;
+var SSOSignOrder= /code=(\w*)/;
+var SSOSign = searchUrl.match(SSOSignOrder);
+SSOSign = SSOSign ? SSOSign [1] : '';
+if(SSOSign=="" || SSOSign==null||SSOSign==undefined) {
+    SSOSign = localStorage.SSOSign;
+}else {
+    $("#tempIframe1").attr("src","https://sfrz.shaanxi.gov.cn/sysauthserver/authorize?authCheck=true&needAuth=true&client_id=SN000000720&redirect_uri="+window.location.href.substring(0,window.location.href.indexOf("?")));
+    $("#tempIframe1").load(function(){  
+        if($("#tempIframe1").attr("src").indexOf("renew=true&flag=true")>-1){
+            $("#tempIframe2").attr("src","https://sfrz.shaanxi.gov.cn/sysauthserver/authorize?response_type=code&client_id=SN000000720&redirect_uri="+window.location.href.substring(0,window.location.href.indexOf("?")));
+            $("#tempIframe2").load(function(){  
+                SSOSign=$("#tempIframe2").attr("src").match(SSOSignOrder);
+                SSOSign = SSOSign ? SSOSign [1] : '';
+            });
+        }
+    });
+}
+function addTrack(){
+	$.ajax({
+        url: '/fsp/user/center/addTrack',
+        type: 'post',
+		headers: {
+            SSOSign: SSOSign
+        },
+        data: JSON.stringify({
+            articleName: $("meta[name=ArticleTitle]").attr("content"),
+            articleAddress: $("meta[name=Url]").attr("content"),
+            siteName:$("meta[name=SiteName]").attr("content"),
+			siteDomain:$("meta[name=SiteDomain]").attr("content")
+        }),
+        "contentType": 'application/json',
+        success: function(data) {
+            data = JSON.parse(data);
+            if (data.code === '200') {
+				console.log("记录足迹");
+            }
+        }
+    })
+}
+function userInfoByKey(){
+    $.ajax({
+        type: "get",
+        dataType: "json",
+        url: "/fsp/login/userInfoByKey" ,
+        contentType:"application/json",
+    headers: {
+            SSOSign: SSOSign
+        },
+        success: function (result) {
+    if(result.code==200){
+    var secretKey = result.summary_info.secretKey;
+    var userdata = result.datas;
+            $.ajax({
+    type: "get",
+    dataType: "json",
+    url: "/fsp/login/getPrivateKey?secureKey="+secretKey ,
+    contentType:"application/json",
+    headers: {
+    SSOSign: SSOSign
+    },
+    success: function (result) {
+    var decryptData = sm2.doDecrypt(userdata,result.datas.secretvalue, 1)
+    decryptData = JSON.parse(decryptData);
+    //console.log(decryptData);
+    if(result.code==200){
+    localStorage.SSOSign=SSOSign;
+    if(decryptData.accttype == "10"){
+    $("#dlxx").text("你好，"+decryptData.username);
+    }else{
+    $("#dlxx").text("你好，"+decryptData.corpname);
+    }
+    $("#dlxx").attr("href","https://zwfw.shaanxi.gov.cn/icity/uinfo");
+    $("#zcxx").text("退出");
+    $("#zcxx").attr("href","javascript:logout();");
+    var nowlasturl = /[^/]*$/.exec(window.location.href)[0];
+    if(nowlasturl.indexOf("t") == 0 && nowlasturl.indexOf("_") > 0){
+    addTrack();
+    }
+    }
+    },
+    error : function(result) {
+    }
+    });
+    }else{
+    $("#zcxx").attr("href",(result.link[0].url+window.location.href).replace("amp;",""));//给注册赋值
+    $("#dlxx").attr("href",(result.link[0].url+window.location.href).replace("amp;",""));
+    }
+        },
+        error : function(result) {
+        }
+    });
+}
+userInfoByKey();
+function logout(){
+	$.ajax({
+		type: "get",//方法类型
+		dataType: "json",//预期服务器返回的数据类型
+		url: "/fsp/login/ucBinLogout.do" ,//url
+		contentType:"application/json",
+		beforeSend: function (XMLHttpRequest) {
+		XMLHttpRequest.setRequestHeader("SSOSign", SSOSign);
+		},
+		success: function (result) {
+			if(result.code==200){
+				localStorage.removeItem("SSOSign");
+				window.location.href=(result.datas+window.location.href);
+				alert(result.msg);
+			}
+		},
+		error : function(result) {
+			alert("退出失败，请稍后再试");
+		}
+	});
+}
+.act-rotate{
+	    position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+	}
+.head-bottom .rt a {
+    position: relative;
+}
+         .weixin-media-box,.douyin-media-box {
+		display: inline;
+	}
+	.weixin-media-box img,.douyin-media-box img{
+		position: absolute;
+		right: -40px;	
+		width: 140px;
+                display:none;
+	}
+.weixin-media-link:hover + .weixin-media-box img {
+    display: block;
+}
+.douyin-media-link:hover + .douyin-media-box img {
+    display: block;
+}
+省统计局召开“七一”表彰大会暨树立和践行正确政绩观学习教育专题党课
+为庆祝中国共产党成立105周年，持续深化树立和践行正确政绩观学习教育，6月29日，省统计局隆重召开“七一”表彰大会暨树立和践行正确政绩观学习教育专题党课。局党组书记、局长张烨出席会议并为全局党员干部讲授专题党课。局党组成员，副局长胡清升主持会...
+2026年全省统计工作会议在西安召开
+2月3日，2026年全省统计工作会议在西安召开。会议以习近平新时代中国特色社会主义思想为指导，全面贯彻落实党的二十大和二十届历次全会、中央经济工作会议精神，认真学习贯彻习近平总书记关于统计工作重要讲话重要指示批示精神及历次来陕考察重要讲话重要...
+省统计局召开“七一”表彰大会暨树立和践行正确政绩观学习教育专题党课
+国务院信息
+省政府信息
+通知公告
+动态要闻
+关于转发《关于公布陕西省哲学社会科学研究专项陕西省2025年1%全国人口抽样调查课题研究项目立项结果的通知》的通知
+2026/09/08
+关于转发《关于陕西省哲学社会科学研究专项陕西省2025年全国1%人口抽样调查课题研究项目申报的通知》的通知
+2026/07/15
+省统计局关于网站信息清理工作情况的说明
+2025/12/03
+陕西省统计局2025年公开遴选公务员面试公告
+2025/11/05
+关于转发《关于陕西省哲学社会科学研究专项2025年度陕西省统计科学研究项目申报的通知》的通知
+2025/05/16
+关于转发《第二十三次全国统计科学讨论会征文通知》的通知
+2025/04/25
+陕西省统计局2022年度预算执行及其他财务收支情况审计结果
+2025/03/20
+陕西省统计局关于公开征求《陕西省统计行政处罚裁量规定（征求意见稿）》意见的公告
+2024/12/16
+省统计局赴西安市开展机关事业单位劳动工资统计数据调研
+2026/09/11
+省统计局赴咸阳、宝鸡市开展民营企业投资意愿调研
+2026/09/01
+省统计局举办第三期“聚力赋能 服务高质量发展”大讲堂
+2026/08/31
+省统计局赴西安市开展商贸领域服务高质量发展座谈会暨业务培训会
+2026/08/28
+省统计局赴安康市调研工业稳增长工作
+2026/08/28
+省统计局赴榆林市开展专题调研
+2026/08/27
+省统计局赴省税务局开展部门协作和数据共享工作座谈
+2026/08/25
+省统计局召开非公民营统计业务培训班
+2026/08/24
+政府信息
+公开指南
+政府信息
+公开制度
+法定主动
+公开内容
+政府信息
+公开年报
+政府网站工作
+年度报表
+依申请公开
+政策解读
+统计信息
+年度数据
+进度数据
+2026年9月上旬流通领域重要生产资料市场价格变动情况
+2026/09/14
+2026年8月份工业生产者出厂价格同比上涨3.8% 环比上涨0.4%
+2026/09/10
+2026年8月份居民消费价格同比上涨0.8%
+2026/09/10
+1-7月陕西外贸外资运行情况
+2026/09/08
+2026年8月下旬流通领域重要生产资料市场价格变动情况
+2026/09/04
+1-7月全省房地产市场运行情况
+2026/09/01
+1-7月全省消费市场平稳运行
+2026/09/01
+7月份全省规上工业运行情况
+2026/08/31
+统计公报
+统计年鉴
+普查数据
+省情、位次
+2026年1-7月核心指标
+2026/08/27
+2026年7月末“五上”企业数
+2026/08/27
+2026年1-7月规模以上工业
+2026/08/27
+2026年1-7月固定资产投资
+2026/08/27
+2026年1-7月国内贸易及对外经济
+2026/08/27
+2026年上半年交通运输邮电
+2026/08/27
+2026年1-7月财政收支
+2026/08/27
+2026年7月金融机构信贷收支
+2026/08/27
+统计云
+涉外调查机构资格认定
+统计专业技术资格考评
+涉外社会调查项目审批
+领导信箱
+在线访谈
+调查征集
+专题专栏
+关  闭
+关  闭
+var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        }
+      });
+var swiper = new Swiper(".ydSwiper", {
+        spaceBetween: 30,
+        loop: true,
+        slidesPerView: 3,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+       navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      }
+      });
+var swiper = new Swiper(".ydAppSwiper", {
+        spaceBetween: 0,
+        loop: true,
+        slidesPerView: 1,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+       navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      }
+      });
+//获取国务院信息
+		$(function(){
+		  var date = "";
+		  	$.ajax({
+		      url : 'https://www.gov.cn/pushinfo/v150203/pushinfo.jsonp',
+		      dataType : "jsonp",
+		      jsonp : "pushInfoJsonpCallBack",
+		      jsonpCallback:"pushInfoJsonpCallBack",
+		      success : function(data) {
+		        $.each(data,function(i,json){
+		          if (i == 8){ return false;}
+		          date = json.pubDate;
+		          $("#gwylist").append("<li><a href='"+json.link+"' title='"+json.title+"'  target='_blank'>"+json.title+"</a><span>"+date.replace('-','/')+"</span></li>");
+		        })
+		      },
+		      error:function(){
+		        console.log("获取失败");
+		      }
+		    });
+		//获取省政府信息
+			$.ajax({
+			      url : 'https://www.shaanxi.gov.cn/xw/sxyw/index.json',
+			      dataType : "jsonp",
+			      jsonp : "callback",
+			      jsonpCallback:"szfxx",
+			      success : function(data) {
+			        $.each(data.datas,function(i,json){
+			          if (i == 8){ return false;}
+			          date = json.docreltime;
+			          $("#szflist").append("<li><a href='"+json.url+"' title='"+json.title+"'  target='_blank'>"+json.title+"</a><span>"+date.replace('-','/')+"</span></li>");
+			        })
+			      },
+			      error:function(){
+			        console.log("获取失败");
+			      }
+		    });
+		});
+$(document).ready(function(){
+
+  $(".cn_cjyx .close").click(function(){
+    
+    $(".cn_cjyx").fadeOut(400);
+    
+  }); 
+});
+中央政府和国家部委网站
+外交部
+国防部
+国家发展和改革委员会
+教育部
+科学技术部
+工业和信息化部
+国家民族事务委员会
+公安部
+民政部
+司法部
+财政部
+人力资源和社会保障部
+自然资源部
+生态环境部
+住房和城乡建设部
+交通运输部
+水利部
+农业农村部
+商务部
+文化和旅游部
+国家卫生健康委员会
+退役军人事务部
+应急管理部
+人民银行
+审计署
+国家语言文字工作委员会
+国家原子能机构
+国家核安全局
+国务院国有资产监督管理委员会
+海关总署
+国家税务总局
+国家市场监督管理总局
+国家广播电视总局
+国家体育总局
+国家统计局
+全国各省区
+北京
+天津
+河北
+山西
+辽宁
+内蒙古
+吉林
+黑龙江
+上海
+江苏
+浙江
+安徽
+福建
+江西
+山东
+河南
+湖北
+湖南
+广东
+广西
+海南
+重庆
+四川
+贵州
+云南
+西藏
+陕西
+甘肃
+青海
+宁夏
+新疆
+香港
+澳门
+台湾
+新疆生产建设兵团
+省级统计网站
+北京
+天津
+河北
+山西
+内蒙古
+辽宁
+吉林
+黑龙江
+上海
+江苏
+浙江
+安徽
+福建
+江西
+山东
+河南
+湖北
+湖南
+广东
+广西
+海南
+重庆
+四川
+贵州
+云南
+西藏
+陕西
+甘肃
+青海
+宁夏
+新疆
+市级统计网站
+西安
+铜川
+宝鸡
+咸阳
+渭南
+延安
+汉中
+榆林
+安康
+商洛
+其他链接
+信用中国（陕西）
+国家企业信用信息公示系统（陕西）
+陕西日报
+西部网
+陕西政务在线
+新华网
+网站简介
+网站地图
+联系我们
+陕西省统计局
+网站标识码6100000051
+陕ICP备14004167号-2
+陕公网安备
+61010202000158号
+地址：陕西省西安市新城广场省政府大院37号楼 (710006)    电话：029-63917661
+/*bug*/.cm-news-list li a {background: none;}.cm-news-list li a:hover {background-image: none;}.cm-drop .g-drop-select .tit {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 85%;text-align: left;}/*end*/
+/* 手机适配 */
+@media screen and (max-width: 500px) {
+
+	body {
+		font-size: 14px;
+		width: 100%;
+		min-width: initial !important;
+		min-height: 100vh;
+		overflow-x: hidden;
+		display: flex;
+		flex-direction: column;
+margin-bottom:0px !important;
+	}
+
+	.lf,
+	.rt {
+		float: none !important;
+		clear: both;
+	}
+.head-top .rt,.footer-bottom .dzjg, .footer-bottom .error,.foot,.head-bottom .act-rotate,.footer-bottom .link{
+display:none;
+}
+.cg-container,.con-3,.hfbanner img,.lfCon-5,.con4-tab,.con5-banner,.con5-banner .img img,.con-tab1,.rtCon-5,.con5-rtbanner,.s-ul,.g3-tit img{
+width:100%  !important;
+}
+.nav .lfNav a{
+width: initial;
+margin-right: 0px;
+padding: 20px 6px;
+font-size: 14px;
+}
+.banner1 {
+    width: 100%;
+    height: 260px;
+}
+.gk-new {
+    flex-wrap: wrap !important;
+}
+.con5-banner .cm-banner-img1 a {
+  width: 288px;
+margin-right: 18px;
+}
+.con4-tab .cm-news-list li a{
+width: 100%;
+max-width:76%;
+}
+.rtCon-5 {
+    padding: 1rem;
+}
+.cn_cjyx img {
+    width: 110px;
+}
+.close {
+    font-size: 14px;
+}
+.rightadv {
+    right: 0vw;
+}
+.head-bottom {
+    margin-top: 20px;
+    height: 160px;
+}
+.head-bottom .lf  a{
+display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.nav .cg-container{
+position: relative;
+}
+.nav .search{
+position: absolute;
+    top: -80px;
+    width: 98%;
+left: 5px;
+}
+.nav .search button{
+position: absolute;
+    right: 0px;
+}
+.head-top .lf{
+display: flex;
+    justify-content: center;
+flex-wrap: wrap;
+        position: relative;
+}
+.wapHiden{
+display:none;
+}
+.head-top .con-wzayd {
+  top: 42px;
+        position: absolute;
+        left: 30vw;
+}
+.head-top #zzzq {
+        position: absolute;
+      top: 42px;
+    left: 51vw;
+}
+.toplic {
+    left: 10px;
+}
+.news-cont .news-box a{
+overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 98%;
+ font-size: 16px;
+}
+.news-cont .news-box .tit{
+padding-left: 82px;
+}
+.news-cont .news-box p{
+text-indent: 2rem;
+}
+.con-tab1 .com-tabPanel {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap !important;
+}
+.con-tab1 .com-tabPanel .panel{
+    margin-top: 16px;
+margin-left:0px;
+}
+.cm-news-list li a{
+max-width: 74%;
+padding-left: 0px;
+}
+.con-3 {
+    height: 300px;
+background-size: cover;
+}
+.gk-new{
+padding: 0px 1rem;
+}
+.clearfix:before, .clearfix:after{
+display:none;
+}
+.con-3 a span{
+font-size:14px;
+}
+.con4-tab .tabPanel1{
+display: flex;
+    justify-content: space-between;
+}
+.con-4 .tabItem {
+    height: max-content;
+}
+.con4-tab .cm-news-list {
+    padding: 20px 0 1rem;
+}
+.con4-tab .cm-news-list li {
+    padding-left: 1rem;
+    display: flex;
+    height: 40px;
+ align-items: center;
+}
+.s-ul{
+margin-top:0px;
+display: flex;
+    flex-wrap: wrap !important;
+}
+.s-ul a{
+width: 46%;    
+    margin-left: 10px;
+display: flex;
+    align-items: center;
+}
+.leader-list{
+display: flex;
+justify-content: space-between;
+    margin-left: 0px;
+    padding-right: 0.6rem;
+}
+.leader-list a {
+    width: calc((100% - 36px) / 3);
+}
+.con5-banner .img img{
+height:188px;
+}
+.wfjb{
+display: flex;
+    flex-wrap: wrap !important;
+}
+.sxba{
+display: inline-block;
+}
+.con-tab1 .cm-news-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-bottom {
+    padding-bottom: 18px;
+    height: max-content;
+    overflow-y: hidden;
+}
+/*公用列表*/
+.gl-page {
+    padding: 0 1rem;
+}
+.gl-zw,.gl-zw a.zw-a,.gl-zw .gl-focusImg a.news p,.g3-body-bg div.warper>img,.list-box{
+    width: 100% !important;
+}
+.gl-zw a.zw-a {
+    padding-left: 18px;
+    background-position-x: 290px;
+}
+.gl-zw .gl-focusImg a.news {
+    width: 100%;
+    height: 220px;
+}
+.dymicNews,.zt-imgGl a img,.g3-body-bg .warper,.w-gl-lf .gl-lfUl li a,.w-gl-w868,.sw-lf,.g-hd-sw-c51,.g-hd-sw-c31,.xin-notice,.writeByMy,.modal-auth .step-box .text,#location {
+    width: 100% !important;
+}
+.zt-imgGl {
+    margin-top: 20px;
+ margin-left: 0px;
+    padding-bottom: 0px;
+}
+.zt-imgGl a {
+    width: 100%;
+ margin-left: 0px;
+    padding: 0px 1rem;
+}
+.y-zt-tit a{
+padding-left: 32px;
+}
+.g3-body-bg{
+background-size: 100% !important;
+}
+/*两会专题*/
+.liang-list {
+    margin-top: 70px;
+  padding: 0px 1rem;
+}
+.g3-tit img{
+  padding: 0px 1rem;
+}
+.liang-list a {
+  margin-left: 0px;
+}
+.liang-list a img {
+    width: 100%;
+    height: 200px;
+}
+.liang-list a p {
+    margin: 10px 0px;
+}
+.other-liang {
+    height: max-content;
+}
+.other-liang .lf {
+    margin: 0px;
+text-align: center;
+}
+
+.other-liang .otherLiangList {
+    margin-right: 0px;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: space-around;
+}
+.other-liang .otherLiangList a {
+    font-size: 16px;
+    color: #333;
+width: auto;
+}
+.siderbar{
+border: none  !important;
+    background-color: initial  !important;
+}
+.siderbar span{
+font-size: 36px !important;
+}
+.siderbar img{
+display:none;
+}
+.list-box{
+padding: 20px 1rem !important;
+}
+.list-body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap !important;
+}
+.list-body li {
+    width: 50% !important;
+}
+.list-box>div{
+display: flex;
+}
+.list-box>div>div.mod2{
+    width: 50% !important;
+}
+.mod2 .pl15{
+list-style: none;
+padding-left: 0px;
+}
+.cm-loc {
+    height: 65px;
+    line-height: 32px;
+}
+.noLf-gl-page .f-mt40{
+margin-top: 20px;
+}
+.w-gl-lf {
+    width: 100%;
+    min-height: 346px;
+    margin-left: 0px;
+    background-size: 100%;
+margin-bottom: 20px;
+}
+.w-gl-lf .gl-lfUl li,.w-gl-lf .gl-lfUl li a:hover, .w-gl-lf .gl-lfUl li a.cur {
+    background-size: 100%;
+}
+.w-gl-w868 .gl-news-list li a {
+  max-width: 72%;
+}
+/*互动交流*/
+.szf-hd-w1 {
+    padding: 0 1rem 20px;
+    background-size: cover;
+    height: max-content;
+}
+.szf-hd-w1l2 .btn{
+margin-top: 15px;
+    background-size: 100%;
+}
+.sw-lf {
+    width: 100%;
+    padding: 0 1rem 20px 1rem;
+}
+.sw-lf .w518 {
+    width: 130px;
+}
+.sw-ul li ,.szf-hd-w1l2,.sw-lftit ,.sw-titdiv,.c3-tit,.szf-hd-c .szf-hd-l li,.xin-notice .xin-button{
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.szf-hd-c .sw-lf .sw-ul li p a {
+     width: 100%;
+    display: block;
+}
+.sw-lf .w140 {
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.sw-titdiv {
+    padding-left: 18px;
+}
+.sw-rt {
+    width: 100%;
+    margin-right: 0px;
+padding: 0px 1rem;
+    margin-top: 30px;
+}
+.szf-hd-c .bing-echart {
+    margin-left: 10px;
+}
+.szf-hd-c .sw-c3 {
+    padding: 20px 1rem 20px;
+    margin-top: 401px;
+}
+.c3-tit {padding-left: 26px;}
+.c3-tit>a,.sw-lf .sw-lftit a {
+    font-size: 20px;
+}
+.c3-tit span {
+    font-size: 14px;
+}
+.c3-titrt a{
+font-size:14px;
+}
+.szf-hd-c .szf-hd-l li a,.data-news-list li a{
+    max-width: 72%;
+}
+.xin-notice{
+    margin-top: 130px;
+    margin-left: 0px;
+}
+.xin-notice .xin-notice-tit{
+padding: 34px 46px 33px 1rem;
+}
+.leaderXinBox .leaderXinBox-rt a{
+    width: 100%;
+    margin-left: 0px;
+}
+.xin-notice .detail {
+    margin-left: 0px;
+}
+.xin-notice .xin-button button {
+    width: 190px;
+    margin-right: 10px;
+}
+.leaderXinBox-rt{
+margin-top: 10px;
+}
+.modal-auth{
+   height: auto !important;
+    width: 98% !important;
+    left: 46% !important;
+    margin-left: -43% !important;
+}
+.modal-auth .step-box .text {
+    height: 200px !important;
+}
+
+.emailsubmit {
+margin-top: 100px;
+}
+
+.emailsubmit p {
+    width: 100% !important;
+}
+
+.emailsubmit img{
+    width:60% !important;
+}
+.xj-c2xxr{
+margin-top: 160px;
+}
+.writeByMy .w-table {
+    width: 100vw;
+}
+.w-table  tr{
+display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 93vw;
+align-items: center;
+}
+.writeByMy .w-table tr td {
+    width: 70%;
+padding:0px;
+}
+.writeByMy .w-table tr .s-label {
+    margin-right: 12px;
+}
+.writeByMy .w-table tr .s-textarea {
+    height: max-content;
+}
+.writeByMy .write-btns {
+    margin-top: 48px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.writeByMy .w-table tr th {
+    width: 96px;
+    margin-bottom: 10px;
+}
+.pt92 {
+    padding-top: 0px;
+}
+.selet-xin input,.data-year .data-nian,.data-year .data-year-list .g-tabContent,.data-top .data-tit,.data-top .data-news-list,.dc-main,.talk_page .talk-left,.talk_page .talk-right a.hd-video,.talk_page .talk-right a.hd-video img,.g-talked .w804{
+    width: 100%;
+}
+.selet-xin span {
+    width: 100%;
+    text-align: left;
+}
+.pb137 {
+    padding-bottom: 0px;
+}
+.select-yzm{
+display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.select-yzm .f-tar{
+width: 65px;
+}
+.select-yzm input {
+    width: 64%;
+}
+.data-group{
+margin-top:40px;
+}
+
+.data-year .data-year-list .lf {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding: 0px 1rem;
+}
+.data-year .data-nian a.lf {
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+}
+.data-year .data-year-list .lf .total-gb {
+    font-size: 18px;
+}
+.data-year .data-year-list .lf a.panel.cur, .data-year .data-year-list .lf a.panel:hover {
+    height: 68px;
+    line-height: 68px;
+}
+.data-year .data-nian {
+    background-size: cover;
+    height: max-content;
+}
+.data-year .data-nian .rt a {
+    width: 110px;
+}
+.data-year-list{
+    padding-top: 20px;
+}
+.data-year .data-year-list .g-tabContent {
+    padding: 20px 1rem 0px;
+}
+.leaderXinBox {
+    padding: 16px 1rem 20px;
+}
+.leaderXinBox .leadeBox_ul {
+    margin-top: 170px;
+margin-left:0px;
+}
+
+.pl50 {
+    padding-left: 5px;
+}
+.leaderXinBox .leadeBox_ul li span a {
+background:none;
+width: 91%;
+padding-left: 0px;
+}
+.leaderXinBox .leadeBox_ul li span {
+    font-size: 14px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.leaderXinBox .leadeBox_ul .w685 {
+    width: 190px;
+}
+.leaderXinBox .leadeBox_ul li:first-child span {
+   margin-right: 0px; 
+    text-align: center;
+}
+.leaderXinBox .leadeBox_ul .w150 {
+    width: 140px;
+}
+.leaderXinBox .leadeBox_ul li span.status {
+    text-align: center;
+}
+.leaderXinBox .leadeBox_ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ml30 {
+    margin-left: 5px;
+}
+.leaderXinBox .leadeBox_ul li:first-child span:first-child {
+      text-align: left;
+    padding-left: 10px;
+    width: 158px;
+}
+.hftime{
+    width: 150px !important;
+}
+.dc-main .option-tit {
+    width: 100%;
+    padding: 20px 1rem;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dc-main .option-tit a.option {
+  margin-left: 0px; 
+    font-size: 18px;
+padding-left: 30px;
+}
+.dc-main .option-tit .cm-loc,.dc-main .cm-news-list li,.dc-main .list-head,.talk-right .cm-loc{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-title {
+    width: 44%;
+}
+.list-time {
+    width: 30%;
+}
+.dc-main .cm-news-list {
+    margin: 0px;
+    padding: 20px 1rem;
+}
+.talk_page{
+    padding: 0px 1rem;
+}
+.talk_page .talk-left {
+    width: 100%;
+    position: relative;
+}
+.talk_page .talk_tit {
+    width: 100%;
+    padding-top: 20px;
+height: max-content;
+position: absolute;
+    top: 32px;
+}
+.talk-right{
+position: relative;
+}
+.talk-right>div{
+position: absolute;
+    top: -410px;
+}
+
+.talk_content{
+position: relative;
+    top: 200px;
+    padding-bottom: 190px;
+}
+.talk_page .talk_tit a {
+    font-size: 20px;
+    width: 100%;
+}
+.talk-bottom {
+    padding: 0px 1rem;
+}
+.g-talked a.lf img {
+    width: 100%;
+    height: auto;
+}
+.wzc {
+    width: 100%;
+    padding: 24px 1rem 28px;
+}
+.wzslc {
+    width: 100%;
+    padding-right: 0px;
+}
+.wzslc p span{
+    font-size: 14px !important;
+}
+.talk_xq_tit{
+    width: 94vw !important;
+padding-top:0px !important;
+}
+.talk_page .talk_xq_tit a.detail-title,#iframe_100,.article-content img,.website_map,.website_map .website-tit {
+    width: 100% !important;
+}
+.ft-con2 {
+    padding: 0px 1rem !important;
+}
+.lfCon-5 .img-tit {
+    padding: 30px 16px 23px;
+}
+.cm-xlso{
+    padding: 0 0px 0 0px;
+display: flex;
+    justify-content: center;
+}
+.xl-page .p-title {
+    font-size: 18px;
+}
+.cm-xlso .ml40 {
+    margin-left: 4px;
+}
+.cm-xlso .f-ib,.header-hidden{
+display:none !important;
+}
+.cm-xlso span{
+font-size:13px;
+}
+.question-box {
+    width: 100%;
+    margin: 80px auto 29px;
+}
+.gl-page .cm-loc,.leaderXinBox .cm-loc{
+line-height: 22px;
+    padding: 22px 0px 0px 26px;
+margin-bottom:20px;
+}
+.article-content .view .ue_table{
+    overflow: hidden;
+    overflow-x: auto;
+}
+.website_map .wesite-content {
+    padding: 25px 0 35px 2px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.website_map .wesite-content a {
+    font-size: 14px;
+    margin-right: 0px;
+    width: 50%;
+}
+.insertfileTag img{
+width:16px !important;
+height:16px !important;
+}
+.w-dl{
+position: relative;
+}
+.cn_cjyx {
+   /* position: absolute;
+    bottom: initial;
+    top: initial;*/
+display:none;
+}
+.w853 .zw-table {
+    height: max-content;
+}
+.w853 .zw-table tr {
+    border-top: 1px solid #e5e5e5;
+    line-height: 44px;
+    display: block;
+    height: auto;
+    clear: both;
+    overflow: hidden;
+    border: none;
+}
+.w853 .zw-table th {
+    padding-left: 10px;
+    display: block;
+    width: 30%;
+    float: left;
+    line-height: 36px;
+    height: 36px;
+    border: 1px solid #ebebeb;
+    font-size: 14px;
+}
+.w853 .zw-table td{
+display: block;
+    width: 70%;
+    float: right;
+    text-align: left;
+    line-height: 36px;
+    height: 36px;
+    border: 1px solid #ebebeb;
+    font-size: 14px;
+}
+.zcjd-page .cm-xlso span,.wfjb{
+display:none
+}
+.zcjd-page .cm-xlso span.jdblock{
+display:block;
+}
+.cm-page {
+    display: flex;
+justify-content: center;
+}
+.footer-bottom p{
+line-height:24px;
+}
+.con5-rtbanner .btn-lf {
+    left: 266px;
+}
+.zswd-list li a {
+    max-width: 75%;
+}
+}

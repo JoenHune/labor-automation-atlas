@@ -12,6 +12,14 @@ import IndustryAnalysisOverview from './.vitepress/theme/components/IndustryAnal
 
 [回到电子行业图谱](./cn/?year=2025&filter.scaleBasis=cn-io2023&filter.orbitFocus=cn-io-group-39) · [下载图表数据与逐项证据](./exports/industry-analysis.json) · [下载完整研究原值、分部与复算](./exports/industry-analysis-research.json)
 
+## 补读深入到了原表和附注
+
+在既有分析上，继续进入地方年鉴的工业与就业内表、全国经济普查的控股和科技附表，并补读公司管理层讨论与财务附注。新增资料按自己的年份、人数定义和业务范围呈现；财报附注用于解释现金、存货、资本投入及合并范围变化。
+
+每份补读记录写清实际读过的页或行列，以及尚未读到的部分。取得文件、定位候选页和实际阅读分开登记；这里没有声称读完所有地方年鉴或整本财报。
+
+[实际读取范围与修订记录](./exports/industry-reading-log.json) · [本轮补读与原件](https://github.com/JoenHune/labor-automation-atlas/tree/main/research/industry-analysis/deep-reading)
+
 ## 三个视角回答不同问题
 
 | 视角 | 能回答什么 | 不能据此推断什么 |
@@ -30,6 +38,7 @@ import IndustryAnalysisOverview from './.vitepress/theme/components/IndustryAnal
 - **年度比较**：2024 年比较值优先取 2025 年报列示的可比或追溯调整数，合并范围变化就地说明。2026 年上半年单独比较，不简单翻倍成年值。
 - **币种换算**：比较表和分配图随全局设置转换；汇率默认 1 美元兑 6.71 元人民币，可编辑。比率不受显示币种影响。研究叙述、原值和证据保留所标注的原始币种。
 - **缺失与异常**：缺值保持空白并写明原因。行业普查分类、IO 产品部门与上市公司业务映射是不同层面的关联，不自动互换分母。未能衔接的原表差额保留为待核问题。
+- **补读与修订**：旧研究原值保留，当前视图通过带理由的同编号修订更新。完整研究包同时保存旧模块和补读模块；存在有意重复，不能将它们直接相加。不同名称的平均用工、平均从业与期末就业不自动拼成同一效率榜。
 
 ## 研究记录与复核
 

@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-09-14",
+  "status": "passed",
+  "checks": [
+    "IndustryAnalysisSchema: whole panel",
+    "ObservationSchema: every observation",
+    "amendments: full replacement schema and same IDs",
+    "31 source SHA-256 checks",
+    "all evidence IDs resolve within new+frozen sources",
+    "three amended comparisons preserve other six province rows",
+    "seven tables each contain one province and one monetary metric",
+    "IDs unique"
+  ],
+  "counts": {
+    "sources": 31,
+    "observations": 115,
+    "readEntries": 31,
+    "comparisons": 7,
+    "findings": 4,
+    "coverage": 8,
+    "amendments": 11
+  },
+  "limitations": [
+    "Schema checks do not prove source truth; source cells were independently read and manually reviewed.",
+    "Only one-province revenue cards are added; no cross-province 2024 rank or inferred VA."
+  ]
+}

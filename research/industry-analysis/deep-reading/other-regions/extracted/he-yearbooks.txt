@@ -1,0 +1,110 @@
+统计年鉴河北省统计局
+$(document).ready(
+            function() {
+                $.carousel1.startPlay('#J_bg_ban', '#J_bg_indicator');
+                $.carousel2.startPlay('#J_bg_ban2', '#J_bg_indicator2');
+                $.carousel3.startPlay('#J_bg_ban3', '#J_bg_indicator3'); 
+                $.carousel4.startPlay('#XWimg', '#XWimg_indicator');
+                
+            });
+setCalendar();
+<!--$(function(){$('#full_text_auto_complated').autocomplete({source:'/cms/www/search/autocompleted/753.do'}); });//-->
+首  页
+机  构
+新  闻
+数  据
+公  开
+服  务
+互  动
+专  题
+当前的位置：
+首页
+>
+统计年鉴
+统计数据查询
+数据查询
+统计年鉴
+人口年鉴
+指标查询
+var urlstr = location.href;  
+  var urlstatus=false;  
+  $(".lm_con a").each(function () {  
+   
+    if ((urlstr + '/').indexOf($(this).attr('href')) > -1&&$(this).attr('href')!='') {  
+      $(this).parent().addClass('selected');  
+  urlstatus = true;  
+    } 
+else {  
+      $(this).parent().removeClass('selected');  
+    }  
+if($(".lm_con a.selected").length>1){  
+$(".lm_con a").parent().eq().removeClass('selected');  
+
+}  
+  if (!urlstatus) {  
+ $(".lm_con a").parent().eq().addClass('selected');   
+  }  
+  });
+河北统计年鉴—2025
+2026-03-23
+河北统计年鉴—2024
+2025-04-11
+河北统计年鉴—2023
+2024-01-30
+河北统计年鉴—2022
+2023-05-11
+河北统计年鉴—2021
+2022-05-05
+河北统计年鉴—2020
+2022-03-31
+河北经济年鉴—2019
+2021-04-15
+河北经济年鉴—2018
+2019-05-10
+河北经济年鉴—2017
+2018-04-08
+河北经济年鉴—2016
+2017-04-07
+河北经济年鉴—2015
+2016-06-16
+河北经济年鉴—2014
+2015-09-19
+河北经济年鉴—2013
+2014-12-03
+河北经济年鉴-2012
+2013-07-20
+河北经济年鉴-2011
+2012-06-13
+河北经济年鉴-2010
+2011-06-28
+河北经济年鉴-2009
+2010-03-12
+河北经济年鉴-2008
+2009-09-22
+网站地图
+丨
+联系我们
+访问量：
+var idx_cookie = "_idx_count=1";
+if(document.cookie.indexOf(idx_cookie) == -1){
+	document.cookie = idx_cookie ; 
+	var scr = window.screen.width + "x" + window.screen.height;
+	var url = "/cms/www/stat/index.do?scr="+ scr +"&site_id=753&referr=" + encodeURIComponent(document.referrer);
+	$.get(url , null , function(data){
+		$('#idx_cnt_753').text(data);
+	});
+}else{
+	var url = '/cms/www/stat/get_index.do?site_id=753';
+	$.get(url , null , function(data){ 
+		$('#idx_cnt_753').text(data);
+	});
+}
+版权所有@主办单位：河北省统计局
+地址：石家庄市合作路312号
+政务公开电话：0311-87044013
+网站建设电话：（0311）87048151
+网站标识码：1300000006
+冀公安网备13010502001715号
+备案编号：
+冀ICP备06024562号
+河北统计微讯

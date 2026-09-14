@@ -1,0 +1,1193 @@
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-char-type:none;
+	display:none;}
+-->
+tr
+	{mso-height-source:auto;
+	mso-ruby-visibility:none;}
+col
+	{mso-width-source:auto;
+	mso-ruby-visibility:none;}
+br
+	{mso-data-placement:same-cell;}
+ruby
+	{ruby-align:left;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:常规;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl65
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl66
+	{mso-style-parent:style0;
+	font-weight:700;
+	mso-number-format:"0_ ";
+	text-align:right;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;}
+.xl67
+	{mso-style-parent:style0;
+	mso-number-format:"0_ ";
+	text-align:right;}
+.xl68
+	{mso-style-parent:style0;
+	mso-number-format:"0_ ";
+	text-align:right;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl69
+	{mso-style-parent:style0;
+	font-weight:700;
+	text-align:left;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:#FFFF99;
+	mso-pattern:black none;}
+.xl70
+	{mso-style-parent:style0;
+	text-align:left;
+	background:#FFFF99;
+	mso-pattern:black none;
+	padding-left:24px;
+	mso-char-indent-count:1;}
+.xl71
+	{mso-style-parent:style0;
+	text-align:center;
+	border:.5pt solid windowtext;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl72
+	{mso-style-parent:style0;
+	font-weight:700;
+	mso-number-format:"0\.0_ ";
+	text-align:right;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;}
+.xl73
+	{mso-style-parent:style0;
+	mso-number-format:"0\.0_ ";
+	text-align:right;}
+.xl74
+	{mso-style-parent:style0;
+	mso-number-format:"0\.0_ ";
+	text-align:right;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl75
+	{mso-style-parent:style0;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl76
+	{mso-style-parent:style0;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl77
+	{mso-style-parent:style0;
+	text-align:left;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#FFFF99;
+	mso-pattern:black none;
+	padding-left:24px;
+	mso-char-indent-count:1;}
+.xl78
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl79
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl80
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl81
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl82
+	{mso-style-parent:style0;
+	text-align:center;
+	white-space:normal;}
+.xl83
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl84
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl85
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl86
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl87
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl88
+	{mso-style-parent:style0;
+	font-size:14.0pt;
+	font-weight:700;
+	text-align:center;}
+.xl89
+	{mso-style-parent:style0;
+	text-align:center;}
+.xl90
+	{mso-style-parent:style0;
+	text-align:right;}
+.xl91
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl92
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl93
+	{mso-style-parent:style0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#CCFFCC;
+	mso-pattern:black none;
+	white-space:normal;}
+13-2 按行业分规模以上工业企业主要指标（2024年）
+单位：万元
+指标
+企业单位数(个)
+产成品
+资产总计
+负债合计
+所有者权益合计
+营业收入
+营业成本
+销售费用
+管理费用
+财务费用
+利润总额
+亏损企业亏损总额
+从业人员平均人数(人)
+资产负债率(％)
+营业收入利润率(％)
+人均营业收入(万元/人)
+#亏损企业
+#流动资产合计
+#利息费用
+#应收账款
+总计
+3427
+1211
+4875941
+211507697
+97451098
+24879484
+122353186
+88871374
+131183770
+113227463
+2517235
+5606361
+1187473
+1164353
+5956116
+3627439
+690872
+57.8
+4.5
+187.9
+煤炭开采和洗选业
+25
+16
+17791
+2401788
+894998
+40219
+2189014
+215964
+529432
+478813
+3521
+91983
+31797
+13067
+-48374
+66296
+14183
+91.1
+-9.1
+33.9
+石油和天然气开采业
+8
+5
+24604
+4745524
+-41904
+22463
+4260416
+485108
+1960089
+1254543
+20413
+211873
+69016
+67925
+17724
+61994
+24405
+89.8
+0.9
+80.9
+黑色金属矿采选业
+27
+12
+20459
+1251965
+587859
+255337
+624616
+627348
+429852
+354835
+5793
+29237
+6883
+5052
+22549
+4527
+3728
+49.9
+5.2
+105.0
+有色金属矿采选业
+26
+10
+28673
+2320037
+1015308
+116363
+1402195
+917841
+914075
+434442
+430
+78922
+28620
+14973
+298652
+28913
+8180
+60.4
+32.7
+118.3
+非金属矿采选业
+30
+13
+17791
+333942
+93527
+27200
+246871
+87070
+149778
+105488
+8509
+27005
+2787
+1640
+-478
+5996
+1872
+73.9
+-0.3
+77.8
+开采辅助活动
+16
+6
+39871
+994595
+362831
+130896
+787363
+207232
+721340
+692498
+71
+37903
+10542
+10349
+-10087
+15016
+12041
+79.2
+-1.4
+60.6
+其他采矿业
+农副食品加工业
+449
+151
+573182
+7853011
+4996542
+925448
+5093863
+2667923
+9321506
+8799620
+166243
+174126
+86565
+71357
+89989
+132012
+38108
+64.9
+1.0
+241.4
+食品制造业
+117
+54
+105280
+2795203
+1445442
+290272
+1797760
+994847
+1847283
+1522349
+68742
+90438
+25341
+19210
+147789
+49078
+18105
+64.3
+8.0
+104.7
+酒、饮料和精制茶制造业
+52
+18
+84967
+2785608
+1035936
+155573
+1793930
+991678
+1798230
+1441589
+111395
+109004
+16180
+17326
+71020
+85265
+12011
+64.4
+3.9
+150.4
+烟草制品业
+3
+32124
+1233911
+844841
+31550
+399629
+834282
+2133732
+571697
+27822
+101979
+-2644
+35
+171643
+3605
+32.4
+8.0
+591.9
+纺织业
+21
+13
+14968
+238039
+144363
+34727
+223599
+28656
+96950
+89653
+2764
+7025
+902
+644
+-3855
+5260
+2056
+93.9
+-4.0
+44.0
+纺织服装、服饰业
+84
+17
+40615
+486314
+341282
+102680
+366137
+117860
+576549
+489772
+16038
+33875
+992
+767
+31993
+5576
+24241
+75.3
+5.5
+23.7
+皮革、毛皮、羽毛及其制品和制鞋业
+9
+2
+18778
+72149
+57523
+16746
+55578
+16570
+95390
+91655
+330
+2286
+164
+171
+616
+1060
+1167
+77.0
+0.6
+68.0
+木材加工和木、竹、藤、棕、草制品业
+52
+16
+56744
+397771
+302923
+41924
+243104
+150763
+316013
+276885
+11290
+20306
+1951
+2007
+4930
+2601
+4873
+61.1
+1.6
+70.1
+家具制造业
+11
+7
+1925
+61819
+31428
+4133
+48693
+13127
+24364
+22074
+798
+2615
+328
+90
+-1648
+1946
+873
+78.8
+-6.8
+28.8
+造纸和纸制品业
+24
+9
+9542
+504024
+213198
+123235
+317366
+195454
+341519
+333558
+5397
+9500
+3752
+2510
+-9772
+13657
+2297
+63.0
+-2.9
+143.5
+印刷和记录媒介复制业
+26
+11
+13723
+306715
+181561
+52812
+182235
+124480
+183851
+151308
+4707
+15250
+2307
+1522
+3653
+7197
+3061
+59.4
+2.0
+60.0
+文教、工美、体育和娱乐用品制造业
+8
+1
+4343
+36231
+26255
+3303
+22999
+13233
+24139
+20473
+1158
+2165
+303
+2
+-301
+768
+1125
+63.5
+-1.2
+21.5
+石油加工、炼焦和核燃料加工业
+20
+10
+107796
+4383867
+860643
+36735
+3289522
+1078576
+6517294
+5606017
+14728
+92706
+26942
+20025
+-298729
+300301
+22817
+75.0
+-4.6
+385.5
+化学原料和化学制品制造业
+178
+82
+266064
+7064076
+3582620
+395859
+5337919
+1720991
+4315045
+3940189
+102990
+190980
+144365
+80516
+-94730
+233486
+19690
+75.6
+-2.2
+218.9
+医药制造业
+263
+107
+520514
+15352033
+8153067
+1660557
+6033017
+9213029
+4944219
+2052404
+1047054
+426868
+81066
+90964
+857193
+290500
+56335
+39.3
+17.3
+83.4
+化学纤维制造业
+9
+3
+64707
+1928483
+579551
+126650
+1283129
+650296
+820808
+721057
+9265
+21438
+36404
+32940
+9852
+3376
+9271
+66.5
+1.2
+121.8
+橡胶和塑料制品业
+81
+31
+82765
+1519223
+730801
+304790
+960185
+559037
+813246
+713605
+19380
+43404
+14502
+8129
+-7353
+40967
+9123
+63.2
+-0.9
+89.5
+非金属矿物制品业
+350
+134
+282040
+9248378
+5249203
+1754900
+6583644
+2655326
+3563457
+3083689
+101250
+204686
+117348
+84164
+-55185
+219888
+27767
+71.2
+-1.5
+123.5
+黑色金属冶炼和压延加工业
+43
+18
+171218
+8288715
+1732101
+141649
+5631069
+2657646
+6728478
+6795020
+54488
+91234
+85636
+69882
+-331072
+385331
+21832
+67.9
+-4.9
+290.6
+有色金属冶炼和压延加工业
+31
+13
+90635
+1822587
+1059328
+193549
+938170
+884417
+2163208
+2076429
+10625
+37473
+19007
+11588
+3782
+28037
+6485
+51.5
+0.2
+315.4
+金属制品业
+86
+26
+70318
+1179927
+768510
+322427
+929020
+245741
+707733
+638462
+12729
+39904
+15442
+4609
+8740
+15839
+5747
+78.7
+1.2
+116.9
+通用设备制造业
+101
+33
+100330
+1164951
+860396
+309945
+722267
+441594
+696298
+574904
+29810
+58619
+9960
+7794
+-2980
+31388
+7996
+62.0
+-0.4
+84.1
+专用设备制造业
+121
+32
+191256
+3191039
+2308776
+662118
+1970850
+1220189
+1723881
+1373410
+60729
+102706
+15194
+10106
+113159
+30709
+16770
+61.8
+6.6
+106.4
+汽车制造业
+464
+144
+1466156
+75893813
+38846583
+9129878
+34098930
+41714815
+52742436
+47439841
+329411
+2223415
+-139155
+118754
+4096337
+937658
+169335
+44.9
+7.8
+296.7
+铁路、船舶、航空航天和其他运输设备制造业
+43
+5
+84929
+7802136
+6102736
+2367751
+4764099
+3038037
+3654313
+2918822
+65821
+175367
+-12055
+2081
+311149
+1280
+19711
+61.1
+8.5
+185.8
+电气机械和器材制造业
+71
+17
+69280
+2501248
+1715986
+842781
+1645025
+859885
+1552127
+1383631
+31341
+71707
+10960
+6675
+51499
+15232
+6958
+65.8
+3.3
+218.9
+计算机、通信和其他电子设备制造业
+56
+16
+107314
+3479118
+2189724
+847122
+1415545
+2060037
+2914974
+2173507
+78452
+149449
+5610
+7160
+304218
+12285
+17873
+40.7
+10.4
+161.1
+仪器仪表制造业
+35
+3
+26199
+456188
+273591
+89329
+161158
+295029
+195966
+129344
+9588
+24910
+1373
+1637
+25168
+952
+4089
+35.3
+12.8
+50.6
+其他制造业
+6
+4
+10146
+413322
+315449
+76421
+264422
+149364
+173946
+152855
+442
+17172
+-1905
+9
+-13513
+13763
+2286
+64.0
+-7.8
+75.3
+废弃资源综合利用业
+26
+15
+11374
+559296
+185743
+41428
+407927
+158100
+273774
+265734
+4048
+15483
+1680
+825
+-2400
+6421
+1896
+72.9
+-0.9
+143.6
+金属制品、机械和设备修理业
+10
+2
+4897
+893191
+486891
+99180
+702166
+191025
+423706
+372984
+2472
+25715
+6767
+6962
+7841
+3336
+5748
+78.6
+1.9
+71.2
+电力、热力生产和供应业
+350
+119
+3544
+31798457
+7795862
+2866103
+22784808
+9008735
+12930523
+11993023
+9834
+453332
+436604
+342710
+151076
+523447
+69129
+71.7
+1.2
+188.3
+燃气生产和供应业
+63
+21
+38242
+2092401
+684373
+136339
+1351269
+741133
+1579954
+1449203
+41150
+45510
+20063
+20789
+42302
+21235
+5692
+64.6
+2.7
+270.4
+水的生产和供应业
+32
+15
+843
+1656604
+435251
+99093
+1023678
+638938
+284292
+242081
+26209
+48794
+5878
+7386
+-6280
+24847
+8391
+61.8
+-2.2
+33.6

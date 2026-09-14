@@ -1,0 +1,614 @@
+辽宁省统计局
+var _speedMark = new Date();
+辽宁省人民政府
+无障碍浏览
+首页
+统计数据
+统计工作
+信息公开
+统计服务
+统计知识
+政务服务
+公共模板
+视频宣传
+辽宁省统计局
+无障碍浏览
+首页
+首页统计专题
+统计数据
+数据发布
+省情资讯
+月度数据
+统计年鉴
+辽宁统计年鉴
+年鉴数据下载
+普查数据
+经济普查
+人口普查
+农业普查
+统计公报
+年度统计公报
+经济普查公报
+人口普查公报
+农业普查公报
+统计工作
+通知通告
+统计要闻
+统计专题
+归档专题
+辽宁省2025年全国1%人口抽样调查
+最新消息
+文件通知
+调查动态
+答疑解惑
+下载中心
+辽宁省第五次全国经济普查
+公告栏
+普查要闻
+各地动态
+普查知识
+普查宣传
+第十三届全国统计开放日
+辽宁经济社会发展成就
+图话辽宁
+开放日要闻
+历届统计开放日主题回顾
+banner
+第十二届中国统计开放日
+辽宁统计大事记
+辽宁经济社会发展成就
+我为群众办实事、争做贡献促振兴
+历届统计开放日
+第十届中国统计开放日
+历史的记忆
+庆祝中华人民共和国成立70周年
+第十届中国统计开放日要闻
+纪念中国改革开始40周年
+编者
+辽宁经济社会发展成就综述
+辽宁城镇居民消费情况
+地区
+第九届中国统计开放日
+“经普”要闻
+解读“四经普”
+流程图解
+应知应会
+“经普”纪行
+统计开放日主题回顾
+第八届中国统计开放日
+新闻报道
+“三新”视线
+一分钟读懂“三新”
+“三新”统计面面观
+“三新”风采辽宁行
+图片新闻
+时政要闻
+信息公开
+统计服务
+职称评审
+公开招聘
+统计调查项目审批目录
+失信企业信息
+法规文件
+栏目介绍
+违法举报
+意见征集
+统计执法监督
+局长信箱
+回音壁
+统计知识
+政务服务
+公共模板
+视频宣传
+$(".ph_icon").click(function(){
+    $(".gov_header_main").toggle();
+    $(".hideNav").toggle();
+})
+$('.hideNav').click(function(e) {
+    $(".gov_header_main").toggle();
+    $(".hideNav").toggle();
+});
+$(".toOpen").click(function(){
+    var hasOpen = $(this).hasClass("isOpen");
+    if(hasOpen){
+        $(this).next().hide();
+        $(this).removeClass("isOpen");
+    }else{
+        $(this).next().show();
+        $(this).addClass("isOpen");
+    }
+})
+var startUrl = window.location.pathname;
+var startPram = location.search;
+$("#wzayd").attr("href","/AiWza/index.html#" + startUrl + startPram);
+.nav-item{float:left;}
+#wzayd{
+    padding-left: 30px;
+    color: #fff;
+}
+// 修改gov_navu_two里a文字为栏目介绍的 href链接
+    $('.gov_navu_two li a').each(function () {
+        if ($(this).text() == '栏目介绍') {
+            $(this).attr('href', '/tjj/gb/tjfw/lmjs/2023111516200074052/index.shtml')
+        }
+    })
+
+    // 修改gov_navu_two里a文字为违法举报的 href链接
+    $('.gov_navu_two li a').each(function () {
+        if ($(this).text() == '违法举报') {
+            $(this).attr('href', '/tjj/gb/tjfw/wfjb/2023111010361565756/index.shtml')
+        }
+    })
+首页
+统计数据
+统计工作
+信息公开
+统计服务
+统计知识
+政务服务
+isIE();
+		$(function () {
+
+			//无障碍
+			var startUrl = window.location.pathname;
+			var startPram = location.search;
+			$("#wza").attr("href", "/AiWza/index.html#" + startUrl + startPram);
+
+			var list = $(".nav .nav-item");
+			var navw = $(".nav").width()
+			for (var i = 0; i < list.length; i++) {
+				var items = list.eq(i).find(".nav-cons")
+				var itemwi = items.width()
+				var itemle = list.eq(i).position().left
+				var itemwis = list.eq(i).width()
+				var itemri = navw - itemwis - itemle
+				if (itemwi / 2 > itemle) {
+					items.attr("style", "left:5px");
+				} else if (itemwi / 2 < itemri) {
+					var left = itemle + itemwis / 2 - itemwi / 2
+					items.attr("style", "left:" + left + "px");
+				} else {
+					items.attr("style", "left:auto;right:5px;");
+				}
+			}
+		})
+		function isIE() {
+			if (!!window.ActiveXObject || "ActiveXObject" in window) {
+				$(".isIEDiv").show();
+				$("#FlashID").hide();
+			} else {
+				$(".isIEDiv").hide();
+				$("#FlashID").show();
+			}
+		}
+$(".phone-img").click(function () {
+			console.log("Sssssssssss")
+			$(".phone-list").toggle();
+			$(".hideNav").toggle();
+		})
+		$('.hideNav').click(function (e) {
+			$(".phone-list").toggle();
+			$(".hideNav").toggle();
+		});
+		$(".toOpen").click(function () {
+			var hasOpen = $(this).parent().hasClass("isOpen");
+			if (hasOpen) {
+				$(this).parent().next(".phone-nav-e-list").hide();
+				$(this).parent().removeClass("isOpen").addClass("hasChild");
+			} else {
+				$(this).parent().next(".phone-nav-e-list").show();
+				$(this).parent().removeClass("hasChild").addClass("isOpen");
+			}
+		})
+// 只保留六个nav-item移除多余的nav-item
+var navItem = $('.nav-item');
+for (var i = 0; i < navItem.length; i++) {
+    if (i > 6) {
+        navItem[i].remove();
+    }
+}
+.general-lngov,
+	.general-bg-search,
+	.general-menu li.sp4 {
+		margin-top: 3px;
+	}
+
+	.gov_navu_two li a {
+		line-height: 44px;
+	}
+.nav-item:last-child a{ border:none; }
+我省四农普办公室主任会议在沈阳召开
+习近平同俄罗斯总统普京共同参观“传承中俄世代友好 树立大国关系典范”图片展
+习近平同俄罗斯总统普京茶叙
+习近平同俄罗斯总统普京共同会见记者
+习近平同俄罗斯总统普京会谈
+上一张
+下一张
+/*hot调用*/
+    $(document).ready(function () {
+        var widthh = $('#img-play').width();
+        $('#img-play').maiPlayer({ speedSwitch: 5000, playerWidth: widthh,autoPlay: true, });
+    });
+时政要闻
+通知通告
+统计要闻
+更多>>
+习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话
+2026-09-14
+习近平抵达新德里出席金砖国家领导人第十八次会晤
+2026-09-14
+李强主持召开国务院常务会议 对加强安全生产工作作出进一步部署
+2026-09-11
+市场监督管理所条例
+2026-09-11
+国务院办公厅关于加强中小企业回款难问题治理有关工作的通知
+2026-09-11
+在第四十二个教师节到来之际 习近平向全国广大教师和教育工作者致以节日祝贺和诚挚问候
+2026-09-10
+辽宁省统计局调查队2026年面向社会公开招聘工作人员拟聘人员公示
+2026-07-23
+【转发】关于发布2025年度辽宁省人力资源和社会保障事业发展统计公报的通知
+2026-07-14
+辽宁省统计局关于做好2026年全省统计系列高级专业技术资格评审工作的通知
+2026-07-02
+转发第二十一次全国中青年统计科学研讨会征文通知
+2026-06-23
+辽宁省统计局调查队关于开展2026年面向社会公开招聘工作人员体检工作的通知
+2026-06-17
+辽宁省统计局调查队关于公布2026年面向社会公开招聘工作人员考试成绩的通知
+2026-06-17
+我省四农普办公室主任会议在沈阳召开
+2026-09-10
+2026年度全国统计执法人员资格考试（辽宁地区）培训班在营口举办
+2026-07-17
+省统计局近日向有关地区和部门反馈2025年统计督察意见
+2026-05-11
+辽宁省统计局2025年统计督察第4统计督察组向鞍山市反馈统计督察意见
+2026-05-10
+辽宁省统计局2025年统计督察第3统计督察组向丹东市反馈统计督察意见
+2026-05-09
+辽宁省统计局2025年统计督察第2统计督察组向葫芦岛市反馈统计督察意见
+2026-05-09
+tab_down("#tab_1>li", "#content_1>li", "click");
+			tab_down("#tab_1>li", "#content_1>li", "mouseenter");
+省情资讯
+更多>>
+2026-08-28
+2026年1-7月份全省规模以上工业企业经济效益情况
+2026年1-7月份全省规模以上工业企业经济效益情况。  1-7月份。全省规模以上工业企业实现营业收...
+2026-08-28
+2026年1-7月份全省规模以上工业企业利润增长6.0%
+2026年1-7月份全省规模以上工业企业利润增长6.0%。  1-7月份。全省规模以上工业企业实现利...
+2026-08-20
+2026年1-7月份全省外贸进出口情况
+2026年1-7月份全省外贸进出口情况。2026年1-7月份。全省进出口总额4604.3亿元。同比增...
+2026-08-20
+2026年1-7月份全省社会消费品零售总额同比下降1.4%
+全省实现社会消费品零售总额5896.5亿元。同比下降1.4%。全省限额以上消费品零售额2531.9亿...
+//循环遍历每个tjj-day中的日期，根据-将其分割成数组，然后将数组中的年月赋值给tjj-yearMoon，日赋值给tjj-day
+		$('.tjj-day').each(function () {
+			var arr = $(this).text().split('-');
+			// 清空tjj-day中的内容
+			$(this).text('');
+			$(this).text(arr[2])
+			$(this).next().text(arr[0] + '-' + arr[1]);
+		});
+月度数据
+更多>>
+2026-08-28
+2026年1-7月份全省规模以上工业企业主要财务指标
+2026年1-7月份全省规模以上工业企业主要财务指标。国有控股企业6975.50.76050.3-0...
+2026-08-20
+2026年1-7月份社会消费品零售总额主要数据
+2026年1-7月份社会消费品零售总额主要数据。指标同比增长（%）社会消费品零售总额-1.4其中。
+2026-08-20
+2026年1-7月份全省规模以上工业主要能源产品产量
+产品名称 计量单位 产品产量 增速（%） 原煤 万吨 1369.8 -21.9 原油 万吨 545....
+2026-08-20
+2026年1-7月份规模以上工业生产主要数据
+2026年1-7月份规模以上工业运行情况。　7月本月增长（%）累计增长（%）规模以上工业增加值-9....
+//循环遍历每个tjj-day2中的日期，根据-将其分割成数组，然后将数组中的年月赋值给tjj-yearMoon，日赋值给tjj-day2
+		$('.tjj-day2').each(function () {
+			var arr = $(this).text().split('-');
+			// 清空tjj-day2中的内容
+			$(this).text('');
+			$(this).text(arr[2])
+			$(this).next().text(arr[0] + '-' + arr[1]);
+		});
+统计服务
+职称评审与公开招聘
+统计调查项目审批目录
+统计违法行为监督
+局长信箱
+回音壁
+政务服务
+统计专题
+更多>>
+$(document).ready(function () {
+	
+	/* 图片滚动效果 */
+	$(".mr_frbox").slide({
+		titCell: "",
+		mainCell: ".mr_frUl ul",
+		autoPage: true,
+		effect: "leftLoop",
+		autoPlay: true,
+		vis: 5
+	});
+
+});
+网站链接
+省政府部门网站
+各省统计局网站
+各市统计局网站
+.wzlj-box {
+            display: flex;
+            justify-content: left;
+            flex-wrap: wrap;
+            margin: 20px auto 50px;
+        }
+
+        .wzlj-box a {
+            width: 25%;
+            font-size: 16px;
+            font-weight: bold;
+            font-family: 思源黑体, Microsoft YaHei;
+            color: #333;
+            line-height: 32px;
+        }
+省教育厅
+省科技厅
+省工业和信息化厅
+省民族和宗教委
+省公安厅
+省民政厅
+省司法厅
+省财政厅
+省人力资源社会保障厅
+省自然资源厅
+省生态环境厅
+省住房城乡建设厅
+省交通运输厅
+省水利厅
+省农业农村厅
+省商务厅
+省文化和旅游厅
+省卫生健康委
+省退役军人事务厅
+省应急厅
+省审计厅
+省政府外办
+省国资委
+省市场监管局
+省广电局
+省体育局
+省统计局
+省金融监管局
+省国动办
+省营商环境建设局（大数据管理局）
+省医保局
+省机关事务局
+省粮食和物资储备局
+省监狱管理局
+省林草局
+省地方矿山安全监督管理局
+省药监局
+省知识产权局
+省沈抚示范区
+北京局
+天津局
+河北局
+山西局
+内蒙古局
+辽宁局
+吉林局
+黑龙江局
+上海局
+江苏局
+浙江局
+安徽局
+福建局
+江西局
+山东局
+河南局
+湖北局
+湖南局
+广东局
+广西局
+海南局
+重庆局
+四川局
+贵州局
+云南局
+西藏局
+陕西局
+甘肃局
+青海局
+宁夏局
+新疆局
+兵团局
+沈阳市统计局
+大连市统计局
+鞍山市统计局
+抚顺市统计局
+本溪市统计局
+丹东市统计局
+锦州市统计局
+营口市统计局
+阜新市统计局
+辽阳市统计局
+铁岭市统计局
+朝阳市统计局
+盘锦市统计局
+葫芦岛市统计局
+tab_down("#tab_2>li", "#content_2>li", "click");
+			tab_down("#tab_2>li", "#content_2>li", "mouseenter");
+.fixed-right-ico:hover {
+        background: #014a9b;
+    }
+
+    .fixed-right-tab-btn-show {
+        display: none;
+    }
+
+    .wx-code,
+    .dy-code {
+        position: relative;
+    }
+
+    .wx-code-img,
+    .dy-code-img {
+        display: none;
+        position: absolute;
+        left: -100%;
+        top: 0;
+        max-width: 100% !important;
+    }
+// 点击关闭按钮给fixed-right添加fadeOutRight动画
+    $('.fixed-right-tab-btn-close').click(function () {
+        $('.fixed-right-content').addClass('fadeOutRight');
+        $('.fixed-right-tab-btn-show').css('display', 'block');
+        $('.fixed-right-tab-btn-close').css('display', 'none');
+    });
+    // 点击显示按钮给fixed-right添加fadeInRight动画
+    $('.fixed-right-tab-btn-show').click(function () {
+        // 移除fadeOutRight动画
+        $('.fixed-right-content').removeClass('fadeOutRight');
+        $('.fixed-right-content').addClass('fadeInRight');
+        $('.fixed-right-tab-btn-show').css('display', 'none');
+        $('.fixed-right-tab-btn-close').css('display', 'block');
+    });
+    // 鼠标进入微信二维码显示
+    $('.wx-code').mouseenter(function () {
+        $('.wx-code-img').css('display', 'block');
+    });
+    // 鼠标离开微信二维码隐藏
+    $('.wx-code').mouseleave(function () {
+        $('.wx-code-img').css('display', 'none');
+    });
+    // 鼠标进入抖音二维码显示
+    $('.dy-code').mouseenter(function () {
+        $('.dy-code-img').css('display', 'block');
+    });
+    // 鼠标离开抖音二维码隐藏
+    $('.dy-code').mouseleave(function () {
+        $('.dy-code-img').css('display', 'none');
+    });
+body {
+        background: none;
+    }
+
+    .footer-box {
+        background-color: #0c7cdb;
+        width: 100%;
+    }
+
+    .footer-top {
+        width: 380px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 18px 0;
+        margin: 0 auto;
+    }
+
+    .footer-top a {
+        width: 22%;
+        text-align: center;
+        color: #fff;
+        border-right: 1px solid #fff;
+        font-family: 思源黑体, Microsoft YaHei;
+        font-size: 16px;
+        padding-right: 1%;
+    }
+
+    .footer-top a:last-child {
+        border-right: none;
+    }
+
+    .footer-bottom-box {
+        width: 100%;
+        background-color: #0064b8;
+        padding: 60px 0 40px 0;
+    }
+
+    .footer-bottom {
+        width: 42%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .footer-bottom-left {
+        width: 160px;
+        margin-top: 15px;
+    }
+
+    .footer-bottom-right {
+        width: 220px;
+        margin-top: 20px;
+    }
+
+    .footer-bottom-middle {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-bottom-middle p {
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+        font-family: 思源黑体, Microsoft YaHei;
+        line-height: 32px;
+        padding-left: 10px;
+    }
+
+    /* 小于780 */
+    @media screen and (max-width: 780px) {
+        .footer-bottom {
+            width: 100%;
+        }
+    }
+版本说明
+关于本站
+网站地图
+联系我们
+版权所有：辽宁省统计局
+ICP备案序号：辽ICP备2021006546号-2
+统计违法举报电话：024-86892042
+政务公开电话：024-86892591
+网站标识码：2100000052
+辽公网安备 21010502000400号
+关 闭
+$(function () {
+		//qs_xt("tab1","_x","tab_y","tab_n","tab_x_y","tab_x_n",1,1,4);  //点击
+		qs_xt("tab1", "_x", "tab_y", "tab_n", "tab_x_y", "tab_x_n", 2, 1, 4); //经过
+		qs_xt("tab2", "_x", "tab_y", "tab_n", "tab_x_y", "tab_x_n", 2, 1, 4); //经过
+		qs_xt("tab3", "_x", "tab_y", "tab_n", "tab_x_y", "tab_x_n", 2, 1, 4); //经过
+		qs_xt("tab4", "_x", "tab_y", "tab_n", "tab_x_y", "tab_x_n", 2, 1, 4); //经过
+		qs_xt("tab5", "_x", "tab_y", "tab_n", "tab_x_y", "tab_x_n", 2, 1, 4); //经过
+		qs_xt("tab6", "_x", "tab_y", "tab_n", "tab_x_y", "tab_x_n", 2, 1, 4); //经过
+	});
+//运行1
+	//var pdq1 = new AdMove("pdq1");
+	//pdq1.Run();
+
+	//关闭运行1函数
+	function closewindow1() {
+		document.getElementById('pdq1').style.display = "none";
+	}
+
+	//运行2
+	//var pdq2 = new AdMove("pdq2");
+	//pdq2.Run();
+
+	//关闭运行2函数
+	function closewindow2() {
+		document.getElementById('pdq2').style.display = "none";
+	}
+// 鼠标移出mb3 移除tab-content里的li的show类
+        $(".mb3").mouseleave(function () {
+            $("#content_2 li").removeClass("show");
+        })

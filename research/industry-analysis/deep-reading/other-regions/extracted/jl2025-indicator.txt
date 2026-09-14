@@ -1,0 +1,280 @@
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:515 680460288 22 0 262145 0;}
+@font-face
+	{font-family:黑体;
+	panose-1:2 1 6 9 6 1 1 1 1 1;
+	mso-font-alt:SimHei;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:MingLiU_HKSCS;
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-alt:"Times New Roman";
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:auto;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:"Segoe UI Symbol";
+	panose-1:2 11 5 2 4 2 4 2 2 3;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-2147483165 302055407 262144 0 1 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:515 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"\@黑体";
+	panose-1:2 1 6 9 6 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-2147482945 953122042 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	font-size:12.0pt;
+	font-family:"MingLiU_HKSCS","serif";
+	mso-fareast-font-family:MingLiU_HKSCS;
+	mso-bidi-font-family:MingLiU_HKSCS;
+	color:black;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:EN-US;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"页眉 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:"MingLiU_HKSCS","serif";
+	mso-fareast-font-family:MingLiU_HKSCS;
+	mso-bidi-font-family:MingLiU_HKSCS;
+	color:black;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:EN-US;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"页脚 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"MingLiU_HKSCS","serif";
+	mso-fareast-font-family:MingLiU_HKSCS;
+	mso-bidi-font-family:MingLiU_HKSCS;
+	color:black;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:EN-US;}
+span.Char
+	{mso-style-name:"页眉 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:"MingLiU_HKSCS","serif";
+	mso-ascii-font-family:MingLiU_HKSCS;
+	mso-fareast-font-family:MingLiU_HKSCS;
+	mso-hansi-font-family:MingLiU_HKSCS;
+	color:black;}
+span.Char0
+	{mso-style-name:"页脚 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:"MingLiU_HKSCS","serif";
+	mso-ascii-font-family:MingLiU_HKSCS;
+	mso-fareast-font-family:MingLiU_HKSCS;
+	mso-hansi-font-family:MingLiU_HKSCS;
+	color:black;}
+span.a
+	{mso-style-name:正文文本_;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:正文文本1;
+	mso-ansi-font-size:8.5pt;
+	mso-bidi-font-size:8.5pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-variant:normal !important;
+	color:#231F20;
+	mso-text-animation:none;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	text-underline:none;
+	text-decoration:none;
+	text-line-through:none;}
+p.1, li.1, div.1
+	{mso-style-name:正文文本1;
+	mso-style-unhide:no;
+	mso-style-link:正文文本_;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:20.0pt;
+	line-height:170%;
+	mso-pagination:none;
+	font-size:8.5pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	color:#231F20;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:EN-US;}
+span.a0
+	{mso-style-name:页眉或页脚_;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉或页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:"Arial","sans-serif";
+	mso-ascii-font-family:Arial;
+	mso-fareast-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	mso-bidi-font-family:Arial;
+	font-variant:normal !important;
+	color:#231F20;
+	mso-text-animation:none;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	text-underline:none;
+	text-decoration:none;
+	text-line-through:none;}
+p.a1, li.a1, div.a1
+	{mso-style-name:页眉或页脚;
+	mso-style-unhide:no;
+	mso-style-link:页眉或页脚_;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	font-size:9.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:Arial;
+	color:#231F20;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:EN-US;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:12.0pt;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"MingLiU_HKSCS","serif";
+	mso-ascii-font-family:MingLiU_HKSCS;
+	mso-hansi-font-family:MingLiU_HKSCS;
+	mso-bidi-font-family:MingLiU_HKSCS;
+	mso-font-kerning:0pt;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:EN-US;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;
+	mso-footnote-separator:url("zbjs13.files/header.html") fs;
+	mso-footnote-continuation-separator:url("zbjs13.files/header.html") fcs;
+	mso-endnote-separator:url("zbjs13.files/header.html") es;
+	mso-endnote-continuation-separator:url("zbjs13.files/header.html") ecs;
+	mso-facing-pages:yes;}
+@page WordSection1
+	{size:624.5pt 886.15pt;
+	margin:108.15pt 62.25pt 99.5pt 67.3pt;
+	mso-header-margin:0cm;
+	mso-footer-margin:.15pt;
+	mso-page-numbers:166;
+	mso-columns:2 even 19.7pt;
+	mso-even-header:url("zbjs13.files/header.html") eh1;
+	mso-header:url("zbjs13.files/header.html") h1;
+	mso-even-footer:url("zbjs13.files/header.html") ef1;
+	mso-footer:url("zbjs13.files/header.html") f1;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+♦
+主要统计指标解释
+工业
+指从事自然资源的开采，对采掘品和农产品进行加工和再加工的物质生产部门。具体包括：(
+1)
+对自然资源的开采，如采矿、晒盐等(但不包括禽兽捕猎和水产捕捞)；(
+2)
+对农副产品的加工、再加工，如粮油加工、食品加工、缫丝、纺织、制革等；
+(3)
+对采掘品的加工、再加工，如炼铁、炼钢、化工生产、石油加工、机器制造、木材加工等，以及电力、燃气及水的生产和供应等；(
+4)
+对工业品的修理、翻新，如机器设备的修理等。
+资产总计
+指企业过去的交易或者事项形成的、由企业拥有或者控制的、预期会给企业带来经济利益的资源。包括企业拥有的土地、办公楼、厂房、机器、运输工具、存货等实物资产和现金、存款、应收账款和预付账款等金融资产。资产一般按流动性分为流动资产和非流动资产。其中流动资产可分为货币资金、交易性金融资产、应收票据、应收账款、预付款项、其他应收款、存货等；非流动资产可分为长期股权投资、固定资产、无形资产及其他非流动资产等。来源于会计“资产负债表”中“资产总计”项目的期末余额数。
+流动资产合计
+资产满足以下条件之一应归为流动资产：(
+1)
+预计在一个正常营业周期中变现、出售或耗用，主要包括存货、应收账款等；(
+2)
+主要为交易目的而持有；(
+3)
+预计在资产负债表日起一年内(含一年)变现；(
+4)
+自资产负债日起一年内，交换其他资产或清偿负债的能力不受限制的现金或现金等价物。包括货币资金、应收票据、应收账款、存货等项目。来源于会计“资产负债表”中“流动资产合计”项目的期末余额数。
+负债合计
+指企业过去的交易或者事项形成的，预期会导致经济利益流出企业的现时义务。包括银行贷款、借款、应付账款、应付职工工资、应付职工福利费、应交税金等企业负有偿还责任的债务。负债一般按偿还期长短分为流动负债和非流动负债。来源于会计“资产负债表”中“负债合计”项目的期末余额数。
+应收账款
+指资产负债表日以摊余成本计量的、企业因销售商品、提供服务等经营活动应收取的款项。来源于会计“资产负债表”中“应收账款”项目的期末余额数。
+产成品
+指企业已经完成全部生产过程并验收入库，可以按照合同规定的条件送交订货单位，或者可以作为商品对外销售的产品；以及外购或委托加工完成验收入库用于销售的各种商品。如果会计“资产负债表”列示“产成品”或“库存商品”项目，则根据其期末余额填报；或者，根据会计“产成品”或“库存商品”科目的期末借方余额，减去为“产成品”或“库存商品”计提的存货跌价准备等填报。
+营业收入
+指企业从事销售商品、提供劳务和让渡资产使用权等生产经营活动形成的经济利益流入。营业收入包括“主营业务收入”和“其他业务收入”。来源于会计“利润表”中“营业收入”项目的本年累计数。
+营业成本
+指企业从事销售商品、提供劳务和让渡资产使用权等生产经营活动发生的实际成本。包括企业(单位)在报告期内从事销售商品、提供劳务等日常活动发生的各种耗费。包括“主营业务成本”和“其他业务成本”。来源于会计“利润表”中“营业成本”项目的本年累计数。
+销售费用
+指企业在销售商品和材料、提供劳务的过程中发生的各种费用，包括保险费、包装费、展览费和广告费、商品维修费、预计产品质量保证损失、运输费、装卸费等以及为销售本企业商品而专设的销售机构(含销售网点、售后服务网点等)的职工薪酬、业务费、折旧费等经营费用。
+管理费用
+指企业为组织和管理企业生产经营所发生的费用，包括企业在筹建期间内发生的开办费、董事会和行政管理部门在企业经营管理中发生的，或者应当由企业统一负担的公司经费等。来源于会计“利润表”中“管理费用”项目的本年累计数。
+财务费用
+指企业为筹集生产经营所需资金等而发生的筹资费用，包括企业生产经营期间发生的利息支出(减利息收入)、汇兑损失(减汇兑收益)以及相关的手续费等。来源于会计“利润表”中“财务费用”项目的本年累计数。
+从业人员平均人数
+指报告期企业平均实际拥有的、参与本企业生产经营活动的人员数。
