@@ -128,6 +128,12 @@ def scope(f):
 amend('findings','cn-c39-company-finding-scope','补足购买日期以及2026H1同比仍受并表影响的条件。',scope)
 def head(c):c['detail']+=' '+warning;c['evidence'].append(ev('boe','2025',48,'员工分项与总数范围'));c['nextStep']+=' 向京东方确认70918与109895的范围调节。'
 amend('coverage','cn-company-coverage-headcount','将已实际发现的员工范围疑点加入总体员工口径缺口。',head)
+for c in C:
+ def clarify_read_scope(record):
+  record['title']=c['name']+'：完整原件已取得；核心表已读'
+  record['detail']+=' 实际阅读范围为已提取的核心表及read-log.json列明的限定主题和PDF页码；完整原件已取得，但未阅读全文。'
+  record['nextStep']+=' 当前未阅读全文；继续补读须以核心表定位及read-log.json的实际页码、主题和未覆盖范围为准，逐项登记新增阅读。'
+ amend('coverage','cn-company-coverage-'+c['id'],'澄清取得完整原件与实际阅读范围的区别；只纠正范围文字，不改数值、时期、状态或证据。',clarify_read_scope)
 write('amendments.json',am)
 # Human-readable report, generated from the same working record and numeric output.
 lines=['# 上市公司财报专题补读','',f'复核日期：{DATE}。沿用原有13家目的样本、26份完整原件。本轮实际读取列明的{sum(r["readPdfPageCount"] for r in reports)}个PDF页面，范围是经营分析及六组财务问题，并未声称逐字读完26份全文。页数只是工作记录，不代表研究完整性。','', '此次增加了能解释图谱旁企业差异的库存与现金信息，同时修订旧解释的成立条件。所有企业金额均是财报集团口径；含境外生产、服务、金融或房地产业务时，不替代中国统计增加值。','', '## 新增解释','']
@@ -145,6 +151,6 @@ for c in C:
   lines += ['',r['period']+'：'+ '；'.join({'inventory':'存货/减值','cash':'应收/现金','subsidies':'补助','capital':'资本/在建','scope':'合并范围','labor':'人工口径'}.get(k,k)+'—'+v for k,v in r['topics'].items())+'。','尚未覆盖：'+'；'.join(r['notCovered'])+'。']
 lines += ['','## 仍需核实的原表问题','']
 for q in quality:lines+=['- '+q['issue']+' '+q['action']]
-lines += ['','## 使用边界与后续验证','','- 下载和关键词定位没有计为实际阅读。read-log.json列出已读页与全部未读页范围；完整原件、全文提取和页面图片只作本地核验。','- 准备余额下降不等于没有计提损失；转回、销售转销、汇兑和收购新增需要分别检查。','- 报表资产负债变动不必等于现金桥差额，非现金、并表、重分类等未调节完毕时不作机械归因。','- “劳务外包不适用”不证明供应链没有委托加工；研发人工、费用中的薪酬、应付薪酬本期增加、工资现金、期末人数和平均工时分别保留。','- 政府补助没有生成跨公司总额榜：纯补助、税费优惠、成本冲减、递延摊销与现金尚未统一。','- 后续优先核京东方员工范围、深科技准备转销合计、歌尔研发两个口径；再补全部工程续页、分部抵销、客户账龄和同口径并购备考数据。现有公开资料不足以证明业务订单质量或未来回款。','', '## 文件与复算','','- read-log.json：逐报告页码、章节、未读范围和原件哈希。','- observations.json：133个新增原值、26个库存变化/现金比率计算、原始单位及期间。','- panel-data.json：来自相同数据的网页对照、解释和缺口。','- amendments.json：6项针对旧表/结论/覆盖记录的完整替换叠层；旧目录未改。','- build.py 与 verify.py：重新生成并检查引用、页码、原件哈希及计算。','']
+lines += ['','## 使用边界与后续验证','','- 下载和关键词定位没有计为实际阅读。read-log.json列出已读页与全部未读页范围；完整原件、全文提取和页面图片只作本地核验。','- 准备余额下降不等于没有计提损失；转回、销售转销、汇兑和收购新增需要分别检查。','- 报表资产负债变动不必等于现金桥差额，非现金、并表、重分类等未调节完毕时不作机械归因。','- “劳务外包不适用”不证明供应链没有委托加工；研发人工、费用中的薪酬、应付薪酬本期增加、工资现金、期末人数和平均工时分别保留。','- 政府补助没有生成跨公司总额榜：纯补助、税费优惠、成本冲减、递延摊销与现金尚未统一。','- 后续优先核京东方员工范围、深科技准备转销合计、歌尔研发两个口径；再补全部工程续页、分部抵销、客户账龄和同口径并购备考数据。现有公开资料不足以证明业务订单质量或未来回款。','', '## 文件与复算','','- read-log.json：逐报告页码、章节、未读范围和原件哈希。','- observations.json：133个新增原值、26个库存变化/现金比率计算、原始单位及期间。','- panel-data.json：来自相同数据的网页对照、解释和缺口。','- amendments.json：保留原有6项修订，另加13项样本阅读范围文字纠正；均为同ID完整替换叠层，旧目录未改。','- build.py 与 verify.py：重新生成并检查引用、页码、原件哈希及计算。','']
 (B/'analysis.md').write_text('\n'.join(lines))
 print(f'Built {len(reports)} report logs, {len(obs)} raw observations, {len(derived)} calculations, {len(P["findings"])} findings, {len(am)} amendments.')

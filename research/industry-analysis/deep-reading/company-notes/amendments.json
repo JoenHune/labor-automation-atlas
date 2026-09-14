@@ -1561,5 +1561,330 @@
       ],
       "nextStep": "取得各企业平均用工定义、主要子公司范围、境内外及外包口径，后再比较人均增加值。 向京东方确认70918与109895的范围调节。"
     }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-company-coverage-inspur",
+    "reason": "澄清取得完整原件与实际阅读范围的区别；只纠正范围文字，不改数值、时期、状态或证据。",
+    "replacement": {
+      "id": "cn-company-coverage-inspur",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "浪潮信息：完整原件已取得；核心表已读",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。 实际阅读范围为已提取的核心表及read-log.json列明的限定主题和PDF页码；完整原件已取得，但未阅读全文。",
+      "evidence": [
+        {
+          "sourceId": "inspur-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "inspur-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。 当前未阅读全文；继续补读须以核心表定位及read-log.json的实际页码、主题和未覆盖范围为准，逐项登记新增阅读。"
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-company-coverage-kaifa",
+    "reason": "澄清取得完整原件与实际阅读范围的区别；只纠正范围文字，不改数值、时期、状态或证据。",
+    "replacement": {
+      "id": "cn-company-coverage-kaifa",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "深科技：完整原件已取得；核心表已读",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。 实际阅读范围为已提取的核心表及read-log.json列明的限定主题和PDF页码；完整原件已取得，但未阅读全文。",
+      "evidence": [
+        {
+          "sourceId": "kaifa-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "kaifa-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。 当前未阅读全文；继续补读须以核心表定位及read-log.json的实际页码、主题和未覆盖范围为准，逐项登记新增阅读。"
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-company-coverage-zte",
+    "reason": "澄清取得完整原件与实际阅读范围的区别；只纠正范围文字，不改数值、时期、状态或证据。",
+    "replacement": {
+      "id": "cn-company-coverage-zte",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "中兴通讯：完整原件已取得；核心表已读",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。 实际阅读范围为已提取的核心表及read-log.json列明的限定主题和PDF页码；完整原件已取得，但未阅读全文。",
+      "evidence": [
+        {
+          "sourceId": "zte-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "zte-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。 当前未阅读全文；继续补读须以核心表定位及read-log.json的实际页码、主题和未覆盖范围为准，逐项登记新增阅读。"
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-company-coverage-transsion",
+    "reason": "澄清取得完整原件与实际阅读范围的区别；只纠正范围文字，不改数值、时期、状态或证据。",
+    "replacement": {
+      "id": "cn-company-coverage-transsion",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "传音控股：完整原件已取得；核心表已读",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。 实际阅读范围为已提取的核心表及read-log.json列明的限定主题和PDF页码；完整原件已取得，但未阅读全文。",
+      "evidence": [
+        {
+          "sourceId": "transsion-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "transsion-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。 当前未阅读全文；继续补读须以核心表定位及read-log.json的实际页码、主题和未覆盖范围为准，逐项登记新增阅读。"
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-company-coverage-haige",
+    "reason": "澄清取得完整原件与实际阅读范围的区别；只纠正范围文字，不改数值、时期、状态或证据。",
+    "replacement": {
+      "id": "cn-company-coverage-haige",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "海格通信：完整原件已取得；核心表已读",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。 实际阅读范围为已提取的核心表及read-log.json列明的限定主题和PDF页码；完整原件已取得，但未阅读全文。",
+      "evidence": [
+        {
+          "sourceId": "haige-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "haige-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。 当前未阅读全文；继续补读须以核心表定位及read-log.json的实际页码、主题和未覆盖范围为准，逐项登记新增阅读。"
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-company-coverage-hisense",
+    "reason": "澄清取得完整原件与实际阅读范围的区别；只纠正范围文字，不改数值、时期、状态或证据。",
+    "replacement": {
+      "id": "cn-company-coverage-hisense",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "海信视像：完整原件已取得；核心表已读",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。 实际阅读范围为已提取的核心表及read-log.json列明的限定主题和PDF页码；完整原件已取得，但未阅读全文。",
+      "evidence": [
+        {
+          "sourceId": "hisense-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "hisense-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。 当前未阅读全文；继续补读须以核心表定位及read-log.json的实际页码、主题和未覆盖范围为准，逐项登记新增阅读。"
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-company-coverage-boe",
+    "reason": "澄清取得完整原件与实际阅读范围的区别；只纠正范围文字，不改数值、时期、状态或证据。",
+    "replacement": {
+      "id": "cn-company-coverage-boe",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "京东方A：完整原件已取得；核心表已读",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。 实际阅读范围为已提取的核心表及read-log.json列明的限定主题和PDF页码；完整原件已取得，但未阅读全文。",
+      "evidence": [
+        {
+          "sourceId": "boe-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "boe-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。 当前未阅读全文；继续补读须以核心表定位及read-log.json的实际页码、主题和未覆盖范围为准，逐项登记新增阅读。"
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-company-coverage-smic",
+    "reason": "澄清取得完整原件与实际阅读范围的区别；只纠正范围文字，不改数值、时期、状态或证据。",
+    "replacement": {
+      "id": "cn-company-coverage-smic",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "中芯国际：完整原件已取得；核心表已读",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。 实际阅读范围为已提取的核心表及read-log.json列明的限定主题和PDF页码；完整原件已取得，但未阅读全文。",
+      "evidence": [
+        {
+          "sourceId": "smic-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "smic-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。 当前未阅读全文；继续补读须以核心表定位及read-log.json的实际页码、主题和未覆盖范围为准，逐项登记新增阅读。"
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-company-coverage-luxshare",
+    "reason": "澄清取得完整原件与实际阅读范围的区别；只纠正范围文字，不改数值、时期、状态或证据。",
+    "replacement": {
+      "id": "cn-company-coverage-luxshare",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "立讯精密：完整原件已取得；核心表已读",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。 实际阅读范围为已提取的核心表及read-log.json列明的限定主题和PDF页码；完整原件已取得，但未阅读全文。",
+      "evidence": [
+        {
+          "sourceId": "luxshare-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "luxshare-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。 当前未阅读全文；继续补读须以核心表定位及read-log.json的实际页码、主题和未覆盖范围为准，逐项登记新增阅读。"
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-company-coverage-sytech",
+    "reason": "澄清取得完整原件与实际阅读范围的区别；只纠正范围文字，不改数值、时期、状态或证据。",
+    "replacement": {
+      "id": "cn-company-coverage-sytech",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "生益科技：完整原件已取得；核心表已读",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。 实际阅读范围为已提取的核心表及read-log.json列明的限定主题和PDF页码；完整原件已取得，但未阅读全文。",
+      "evidence": [
+        {
+          "sourceId": "sytech-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "sytech-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。 当前未阅读全文；继续补读须以核心表定位及read-log.json的实际页码、主题和未覆盖范围为准，逐项登记新增阅读。"
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-company-coverage-goer",
+    "reason": "澄清取得完整原件与实际阅读范围的区别；只纠正范围文字，不改数值、时期、状态或证据。",
+    "replacement": {
+      "id": "cn-company-coverage-goer",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "歌尔股份：完整原件已取得；核心表已读",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。 实际阅读范围为已提取的核心表及read-log.json列明的限定主题和PDF页码；完整原件已取得，但未阅读全文。",
+      "evidence": [
+        {
+          "sourceId": "goer-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "goer-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。 当前未阅读全文；继续补读须以核心表定位及read-log.json的实际页码、主题和未覆盖范围为准，逐项登记新增阅读。"
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-company-coverage-wus",
+    "reason": "澄清取得完整原件与实际阅读范围的区别；只纠正范围文字，不改数值、时期、状态或证据。",
+    "replacement": {
+      "id": "cn-company-coverage-wus",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "沪电股份：完整原件已取得；核心表已读",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。 实际阅读范围为已提取的核心表及read-log.json列明的限定主题和PDF页码；完整原件已取得，但未阅读全文。",
+      "evidence": [
+        {
+          "sourceId": "wus-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "wus-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。 当前未阅读全文；继续补读须以核心表定位及read-log.json的实际页码、主题和未覆盖范围为准，逐项登记新增阅读。"
+    }
+  },
+  {
+    "collection": "coverage",
+    "id": "cn-company-coverage-suncreate",
+    "reason": "澄清取得完整原件与实际阅读范围的区别；只纠正范围文字，不改数值、时期、状态或证据。",
+    "replacement": {
+      "id": "cn-company-coverage-suncreate",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "四创电子：完整原件已取得；核心表已读",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。 实际阅读范围为已提取的核心表及read-log.json列明的限定主题和PDF页码；完整原件已取得，但未阅读全文。",
+      "evidence": [
+        {
+          "sourceId": "suncreate-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "suncreate-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。 当前未阅读全文；继续补读须以核心表定位及read-log.json的实际页码、主题和未覆盖范围为准，逐项登记新增阅读。"
+    }
   }
 ]
