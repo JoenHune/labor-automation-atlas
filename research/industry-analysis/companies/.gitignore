@@ -1,0 +1,6 @@
+# Local source cache; sources.json records URLs and SHA-256 for restoration.
+originals/
+extracts/
+__pycache__/
+extract-index.json
+downloads.json

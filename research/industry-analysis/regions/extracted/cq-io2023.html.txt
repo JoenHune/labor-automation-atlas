@@ -1,0 +1,386 @@
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 2023年重庆市投入产出表 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+.wap-p img {
+ max-width:90%;
+ width: auto;
+ height: auto;
+ margin: 0;
+}
+
+ 
+ 
+ 
+ 
+ .hidenav {
+ min-height: 13rem;}
+ 
+ 
+
+ 
+ 
+ 关怀版 
+ 
+ 
+ 
+ 
+ 
+ 导航 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ $(function () {
+ //获取用户信息-有额外的操作可以在回调中使用
+ getUserInfo(function (res) {
+ if(res!=200){
+ // 校验国家政务网登录 start
+ checkLoginGj()
+ // 校验国家政务网登录 end
+ }
+ })
+ })
+ 
+ 
+ 
+ 首页 
+ 政务公开 
+ 政务服务 
+ 互动交流 
+ 统计工作 
+ 统计信息 
+ 专题栏目 
+ 
+
+
+ 
+ 
+ 
+ 
+//检索方法
+$("#toSearcha").click(function(){
+ var result = $("#searchWorda").val();
+ result = $.trim(result);
+
+ if (result == "请输入搜索内容" || result == "" || result == null) {
+ new TipBox({type:'error',str:'请输入检索条件!',hasBtn:true});
+ return false;
+ } else {
+ result = result.replace("-", "\-");
+ result = result.replace("(", "\(");
+ result = result.replace(")", "\)");
+ }
+ window.location.href="/cqs/searchResultWap.html?tenantId=67&configTenantId=67&areaCode=500000139&searchWord=" + encodeURI(result);
+});
+ 
+ 
+ 
+ 
+ 
+ 当前的位置： 
+ 首页 > 专题栏目 
+ > 
+ 投入产出调查 
+ 
+ 
+$('#abc').find('a').each(function(){
+ var url = $(this).attr('href')+'wap.html';
+ $(this).attr('href',url)
+})
+ 
+ 
+
+ 
+ 
+ 2023年重庆市投入产出表
+ 
+ 
+ 
+ 日期： 
+ 2025-12-18 
+ if("市统计局"!=""){document.write(' 来源： 市统计局 ');} 
+ 
+ 
+ 【 
+ 字体： 
+ 大 中 小 
+ 】 
+ 
+ 
+
+ 
+ 
+ 
+ var size="";
+ if(size.length > 5)$("#a1").css("display","block");
+ //视图时要用 包围
+ var flashvars = {f:size,s:'0',c:'0',e:'2',v:'80',p:'1',lv:'0',loaded:'loadedHandler',my_url:encodeURIComponent(window.location.href)};
+ var params = {bgcolor: '#FFF', allowFullScreen: true, allowScriptAccess: 'always', wmode: 'transparent'};
+ var video = [];
+ video.push(size);
+ CKobject.embed('//tjj.cq.gov.cn/images/ckplayer/ckplayer.swf', 'a1', 'ckplayer_a1', '100%', '100%', false, flashvars, video, params);
+ 
+ 
+ 
+ 2023年重庆市投入产出表.xlsx 
+
+
+ 
+ var hasFJ='';
+ if(hasFJ!=''){
+ var FJarr=hasFJ.split(" ")
+ document.write(' 附件下载： ');
+ 
+ for(var i=1;i ");
+ }
+ document.write(' ');
+ $('.fjxz-item a').each(function(){
+ $(this).attr('_href',$(this).attr('href')).css('cursor','pointer');
+ $(this).removeAttr('href');
+ })
+ $('.fjxz-item a').click(function(){
+ downloadFj($(this).text(),$(this).attr('_href'));
+ })
+ }
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ .mb2-footer a {
+ max-width: 7.5rem;
+ text-align: center;
+ font-size: 0.22rem;
+ color: #666666;
+ margin-bottom: 0.24rem;
+ }
+.imgcoont{
+float:left;
+}
+.ewmcont{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+ 
+ 
+ 
+ 
+ 移动版 
+ | 
+ 电脑版 
+ -->
+ 版权所有：重庆市统计局 主办单位：重庆市统计局 
+ 地址：重庆市两江新区青竹东路感育路9号 邮编：401123 电话：023- 67637000 
+ 网站标识码：5000000010   ICP备案： 渝ICP备05008095号-5 
+ 国际联网备案：渝公网安备 50011202501701号 
+ 
+ 
+ 
+ 重庆市统计局 微信公众号 
+ 
+ 
+ 
+ 重庆市统计局 新浪微博 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 返回顶部
+ 
+ 
+ // 定义后缀名与 MIME 类型的映射表
+ var mimeTypeMap = {
+ 'txt': 'text/plain',
+ 'html': 'text/html',
+ 'css': 'text/css',
+ 'js': 'application/javascript',
+ 'json': 'application/json',
+ 'png': 'image/png',
+ 'jpg': 'image/jpeg',
+ 'jpeg': 'image/jpeg',
+ 'gif': 'image/gif',
+ 'svg': 'image/svg+xml',
+ 'pdf': 'application/pdf',
+ 'doc': 'application/msword',
+ 'docx': 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+ 'xls': 'application/vnd.ms-excel',
+ 'xlsx': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+ 'zip': 'application/zip',
+ 'mp3': 'audio/mpeg',
+ 'mp4': 'video/mp4'
+ };
+
+ // 根据文件名获取 MIME 类型的函数
+ function getMimeType(fileName) {
+ // 提取文件后缀（如 "test.txt" → "txt"）
+ var ext = fileName.split('.').pop().toLowerCase();
+ // 从映射表获取，默认使用二进制流类型（通用但不精确）
+ return mimeTypeMap[ext] || 'application/octet-stream';
+ }
+
+ function downloadFj(fileName, filePath) {
+ var mimeType = getMimeType(fileName);
+
+ // 兼容 IE/360 兼容模式
+ if (window.navigator.msSaveOrOpenBlob) {
+ try {
+ // 请求前端项目内的静态文件
+ var xhr = new XMLHttpRequest();
+ xhr.open('GET', filePath, true);
+ xhr.responseType = 'blob';
+ 
+ xhr.onload = function() {
+ if (xhr.status === 200) {
+ var blob = xhr.response;
+ if (window.navigator.msSaveOrOpenBlob) {
+ window.navigator.msSaveBlob(blob, fileName);
+ } else {
+ var a = document.createElement('a');
+ a.href = URL.createObjectURL(blob);
+ a.download = fileName;
+ a.click();
+ URL.revokeObjectURL(a.href);
+ }
+ } else {
+ console.error('文件不存在');
+ }
+ };
+ 
+ xhr.onerror = function() {
+ console.error('下载失败');
+ };
+ 
+ xhr.send();
+ } catch (err) {
+ console.error('下载失败：', err);
+ }
+ } else {
+ // 现代浏览器：使用 download 属性
+ var a = document.createElement('a');
+ a.href = filePath;
+ a.download = fileName;
+ a.click();
+ // 释放 URL 对象（避免内存泄漏）
+ URL.revokeObjectURL(a.href);
+ }
+ }
+ 
+ 
+ 
+ 
+//表格处理
+if($(window).width() ");
+ $(".table-c-index-"+index).append(this.outerHTML)
+ $(this).remove();
+})
+}
+ 
+ 
+.wap-detail-info iframe,.wap-detail-info img,.wap-detail-info video{max-width:100%;}
+ 
+ 
+
+ 
+ $(function () {
+ var fontIndex = 1;
+ $(".wap-font .wap-zt").click(function () {
+ var fontIndexCur=$(".wap-font .wap-zt").index($(this));
+ $(".wap-p *").each(function () {
+ //获取para的字体大小
+ var thisEle = $(this).css("font-size");
+ //parseFloat的第二个参数表示转化的进制，10就表示转为10进制
+ var textFontSize = parseFloat(thisEle, 10);
+ //javascript自带方法
+ var unit = thisEle.slice(-2); //获取单位
+ textFontSize += (fontIndex-fontIndexCur)*2;
+ var aa = 20 - fontIndexCur*2
+ // $(this).css("cssText", "font-size:"+textFontSize + unit+" !important");
+ // $(this).css("font-size", textFontSize + unit); 
+ if($(this).attr("style")){
+ $(this).attr("style",$(this).attr("style") + "font-size:"+aa + unit+" !important;")
+ }else{
+ $(this).attr("style","font-size:"+aa + unit+" !important;")
+ }
+ 
+ })
+ 
+ //设置
+ fontIndex = fontIndexCur;
+ $(".wap-font .wap-zt").css('color', '#6a6a6a');
+ $(this).css('color', '#3354a2');
+ });
+ 
+ $(".wap-p table").each(function () {
+ if ($(this).width() > 1050) {
+ $(this).css("width", "100%");
+ }
+ });
+ });
+ 
+
+ 
+
+ 

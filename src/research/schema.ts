@@ -176,6 +176,43 @@ export const AnnualDetailsSchema=z.object({
   })).min(1),
  })),
 })
+export const IndustryAnalysisSchema=z.object({
+  version:nonempty,checkedAt:date,sources:z.array(SourceSchema),
+  distributions:z.array(z.object({
+    id:ID,country:CountrySchema,basisId:ID,year:z.number().int(),unit:nonempty,currency:z.enum(['CNY','USD']),
+    scope:nonempty,releaseDate:date.nullable(),revision:nonempty,
+    components:z.array(z.object({id:ID,label:nonempty})).length(4),
+    rows:z.array(z.object({code:nonempty,name:nonempty,valueAdded:z.number().finite(),
+      values:z.array(z.number().finite()).length(4),evidence:z.array(EvidenceRefSchema).min(1),
+    })).min(1),
+    notes:z.array(nonempty),
+  })),
+  comparisons:z.array(z.object({
+    id:ID,country:CountrySchema,section:z.enum(['regions','companies','official']),nodeIds:z.array(ID).min(1),
+    title:nonempty,metric:nonempty,period:nonempty,unit:nonempty,currency:z.enum(['CNY','USD']).nullable(),
+    coverage:nonempty,comparisonKey:nonempty,coverageLabel:nonempty,notes:z.array(nonempty),
+    rows:z.array(z.object({
+      id:ID,name:nonempty,nodeIds:z.array(ID),value:z.number().finite().nullable(),
+      unit:nonempty.optional(),currency:z.enum(['CNY','USD']).optional(),
+      evidence:z.array(EvidenceRefSchema).min(1),releaseDate:date.nullable(),revision:nonempty,
+      notes:z.array(nonempty),missingReason:z.string().nullable(),url:z.url().optional(),
+      previous:z.object({period:nonempty,value:z.number().finite(),evidence:z.array(EvidenceRefSchema).min(1),note:nonempty}).optional(),
+      computation:z.object({expression:nonempty,inputs:z.array(z.number().finite()),note:nonempty}).optional(),
+    })).min(1),
+  })),
+  findings:z.array(z.object({
+    id:ID,country:CountrySchema,section:z.enum(['structure','regions','companies','official']),
+    nodeIds:z.array(ID).min(1),period:nonempty,title:nonempty,body:nonempty,
+    evidenceKind:z.enum(['fact','calculation','judgement']),evidence:z.array(EvidenceRefSchema).min(1),
+    conditions:z.array(nonempty),
+  })),
+  coverage:z.array(z.object({
+    id:ID,country:CountrySchema,group:nonempty,title:nonempty,period:nonempty,
+    status:z.enum(['obtained','checked-no-metric','not-comparable','pending','not-checked']),
+    detail:nonempty,evidence:z.array(EvidenceRefSchema),nextStep:nonempty,
+  })),
+})
+export type IndustryAnalysis=z.infer<typeof IndustryAnalysisSchema>
 export const ResearchSchema = z.object({
   version:nonempty, checkedAt:date, publishedAt:date.nullable(),
   freezeStatus:z.enum(['working','review','frozen']),
@@ -191,6 +228,7 @@ export const ResearchSchema = z.object({
   subindustryProductivity:ProductivityDatasetSchema.optional(),
   macroStructures:MacroDatasetSchema.optional(),
   annualDetails:AnnualDetailsSchema.optional(),
+  industryAnalysis:IndustryAnalysisSchema.optional(),
 })
 export type Research = z.infer<typeof ResearchSchema>
 export type Observation = z.infer<typeof ObservationSchema>

@@ -1,0 +1,3090 @@
+{
+  "observations": [
+    {
+      "id": "inspur-2025-gross_margin_pct",
+      "companyId": "inspur",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 4.883417810997824,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "inspur-2025-revenue",
+          "inspur-2025-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "inspur-2025-capex_cash_to_revenue_pct",
+      "companyId": "inspur",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 0.13660197693249512,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "inspur-2025-cash_acquisition_long_term_assets",
+          "inspur-2025-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "inspur-2025-rd_input_to_revenue_pct",
+      "companyId": "inspur",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 2.353083076491239,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "inspur-2025-rd_input",
+          "inspur-2025-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "inspur-2025-operating_cash_flow_to_revenue_pct",
+      "companyId": "inspur",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 3.3092523040836244,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "inspur-2025-operating_cash_flow",
+          "inspur-2025-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "inspur-2024-gross_margin_pct",
+      "companyId": "inspur",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 6.901641538207971,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "inspur-2024-revenue",
+          "inspur-2024-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "inspur-2024-capex_cash_to_revenue_pct",
+      "companyId": "inspur",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 0.21548959366319975,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "inspur-2024-cash_acquisition_long_term_assets",
+          "inspur-2024-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "inspur-2024-rd_input_to_revenue_pct",
+      "companyId": "inspur",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 3.145026391599295,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "inspur-2024-rd_input",
+          "inspur-2024-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "inspur-2024-operating_cash_flow_to_revenue_pct",
+      "companyId": "inspur",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 0.06508504297457962,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "inspur-2024-operating_cash_flow",
+          "inspur-2024-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "inspur-2025-revenue_per_year_end_employee",
+      "companyId": "inspur",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_per_year_end_employee",
+      "value": 23895301.284546115,
+      "unit": "元/年末员工",
+      "currency": "CNY",
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "inspur-2025-revenue",
+          "inspur-2025-employees_year_end"
+        ]
+      },
+      "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+    },
+    {
+      "id": "inspur-2025-production_employee_pct",
+      "companyId": "inspur",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "production_employee_pct",
+      "value": 30.829466357308583,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "inspur-2025-production_employees_year_end",
+          "inspur-2025-employees_year_end"
+        ]
+      },
+      "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+    },
+    {
+      "id": "inspur-2025-revenue_growth_pct",
+      "companyId": "inspur",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_growth_pct",
+      "value": 43.25317126016288,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "inspur-2025-revenue",
+          "inspur-2024-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "inspur-2026-H1-h1_revenue_growth_pct",
+      "companyId": "inspur",
+      "country": "cn",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "h1_revenue_growth_pct",
+      "value": 5.220310486850277,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "inspur-2026-H1-revenue",
+          "inspur-2025-H1-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "kaifa-2025-gross_margin_pct",
+      "companyId": "kaifa",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 18.323825210753693,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "kaifa-2025-revenue",
+          "kaifa-2025-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "kaifa-2025-capex_cash_to_revenue_pct",
+      "companyId": "kaifa",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 7.749136502480433,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "kaifa-2025-cash_acquisition_long_term_assets",
+          "kaifa-2025-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "kaifa-2025-rd_input_to_revenue_pct",
+      "companyId": "kaifa",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 2.9198554389233426,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "kaifa-2025-rd_input",
+          "kaifa-2025-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "kaifa-2025-operating_cash_flow_to_revenue_pct",
+      "companyId": "kaifa",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 11.205782102184479,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "kaifa-2025-operating_cash_flow",
+          "kaifa-2025-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "kaifa-2024-gross_margin_pct",
+      "companyId": "kaifa",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 16.9794463990922,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "kaifa-2024-revenue",
+          "kaifa-2024-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "kaifa-2024-capex_cash_to_revenue_pct",
+      "companyId": "kaifa",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 9.65603879936426,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "kaifa-2024-cash_acquisition_long_term_assets",
+          "kaifa-2024-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "kaifa-2024-rd_input_to_revenue_pct",
+      "companyId": "kaifa",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 2.8545051170532862,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "kaifa-2024-rd_input",
+          "kaifa-2024-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "kaifa-2024-operating_cash_flow_to_revenue_pct",
+      "companyId": "kaifa",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 16.378057846338688,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "kaifa-2024-operating_cash_flow",
+          "kaifa-2024-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "kaifa-2025-revenue_per_year_end_employee",
+      "companyId": "kaifa",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_per_year_end_employee",
+      "value": 536903.9581486533,
+      "unit": "元/年末员工",
+      "currency": "CNY",
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "kaifa-2025-revenue",
+          "kaifa-2025-employees_year_end"
+        ]
+      },
+      "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+    },
+    {
+      "id": "kaifa-2025-production_employee_pct",
+      "companyId": "kaifa",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "production_employee_pct",
+      "value": 84.84486873508354,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "kaifa-2025-production_employees_year_end",
+          "kaifa-2025-employees_year_end"
+        ]
+      },
+      "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+    },
+    {
+      "id": "kaifa-2025-revenue_growth_pct",
+      "companyId": "kaifa",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_growth_pct",
+      "value": 6.2063549595979595,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "kaifa-2025-revenue",
+          "kaifa-2024-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "kaifa-2026-H1-h1_revenue_growth_pct",
+      "companyId": "kaifa",
+      "country": "cn",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "h1_revenue_growth_pct",
+      "value": 6.961611317105221,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "kaifa-2026-H1-revenue",
+          "kaifa-2025-H1-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "zte-2025-gross_margin_pct",
+      "companyId": "zte",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 30.2505716026518,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "zte-2025-revenue",
+          "zte-2025-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "zte-2025-capex_cash_to_revenue_pct",
+      "companyId": "zte",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 2.9074831962189007,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "zte-2025-cash_acquisition_long_term_assets",
+          "zte-2025-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "zte-2025-rd_input_to_revenue_pct",
+      "companyId": "zte",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 18.279260551477996,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "zte-2025-rd_input",
+          "zte-2025-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "zte-2025-operating_cash_flow_to_revenue_pct",
+      "companyId": "zte",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 2.9267205923188135,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "zte-2025-operating_cash_flow",
+          "zte-2025-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "zte-2024-gross_margin_pct",
+      "companyId": "zte",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 37.912744559812126,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "zte-2024-revenue",
+          "zte-2024-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "zte-2024-capex_cash_to_revenue_pct",
+      "companyId": "zte",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 3.309786732183362,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "zte-2024-cash_acquisition_long_term_assets",
+          "zte-2024-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "zte-2024-rd_input_to_revenue_pct",
+      "companyId": "zte",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 21.029812408952072,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "zte-2024-rd_input",
+          "zte-2024-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "zte-2024-operating_cash_flow_to_revenue_pct",
+      "companyId": "zte",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 9.464107264681502,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "zte-2024-operating_cash_flow",
+          "zte-2024-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "zte-2025-revenue_per_year_end_employee",
+      "companyId": "zte",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_per_year_end_employee",
+      "value": 2056923.880482372,
+      "unit": "元/年末员工",
+      "currency": "CNY",
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "zte-2025-revenue",
+          "zte-2025-employees_year_end"
+        ]
+      },
+      "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+    },
+    {
+      "id": "zte-2025-production_employee_pct",
+      "companyId": "zte",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "production_employee_pct",
+      "value": 20.12136108764114,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "zte-2025-production_employees_year_end",
+          "zte-2025-employees_year_end"
+        ]
+      },
+      "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+    },
+    {
+      "id": "zte-2025-revenue_growth_pct",
+      "companyId": "zte",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_growth_pct",
+      "value": 10.384861997590878,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "zte-2025-revenue",
+          "zte-2024-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "zte-2026-H1-h1_revenue_growth_pct",
+      "companyId": "zte",
+      "country": "cn",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "h1_revenue_growth_pct",
+      "value": 9.045950641103385,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "zte-2026-H1-revenue",
+          "zte-2025-H1-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "transsion-2025-gross_margin_pct",
+      "companyId": "transsion",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 19.15110635719501,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "transsion-2025-revenue",
+          "transsion-2025-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "transsion-2025-capex_cash_to_revenue_pct",
+      "companyId": "transsion",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 1.4988915945457701,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "transsion-2025-cash_acquisition_long_term_assets",
+          "transsion-2025-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "transsion-2025-rd_input_to_revenue_pct",
+      "companyId": "transsion",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 4.4979046289781,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "transsion-2025-rd_input",
+          "transsion-2025-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "transsion-2025-operating_cash_flow_to_revenue_pct",
+      "companyId": "transsion",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 2.165243010903116,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "transsion-2025-operating_cash_flow",
+          "transsion-2025-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "transsion-2024-gross_margin_pct",
+      "companyId": "transsion",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 21.282086985798557,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "transsion-2024-revenue",
+          "transsion-2024-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "transsion-2024-capex_cash_to_revenue_pct",
+      "companyId": "transsion",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 0.9316582928982116,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "transsion-2024-cash_acquisition_long_term_assets",
+          "transsion-2024-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "transsion-2024-rd_input_to_revenue_pct",
+      "companyId": "transsion",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 3.66239481159732,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "transsion-2024-rd_input",
+          "transsion-2024-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "transsion-2024-operating_cash_flow_to_revenue_pct",
+      "companyId": "transsion",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 4.144322560140521,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "transsion-2024-operating_cash_flow",
+          "transsion-2024-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "transsion-2025-revenue_per_year_end_employee",
+      "companyId": "transsion",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_per_year_end_employee",
+      "value": 2730124.2874988555,
+      "unit": "元/年末员工",
+      "currency": "CNY",
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "transsion-2025-revenue",
+          "transsion-2025-employees_year_end"
+        ]
+      },
+      "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+    },
+    {
+      "id": "transsion-2025-production_employee_pct",
+      "companyId": "transsion",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "production_employee_pct",
+      "value": 24.22476586888658,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "transsion-2025-production_employees_year_end",
+          "transsion-2025-employees_year_end"
+        ]
+      },
+      "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+    },
+    {
+      "id": "transsion-2025-revenue_growth_pct",
+      "companyId": "transsion",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_growth_pct",
+      "value": -4.546358344184521,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "transsion-2025-revenue",
+          "transsion-2024-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "transsion-2026-H1-h1_revenue_growth_pct",
+      "companyId": "transsion",
+      "country": "cn",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "h1_revenue_growth_pct",
+      "value": 21.852058697082445,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "transsion-2026-H1-revenue",
+          "transsion-2025-H1-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "haige-2025-gross_margin_pct",
+      "companyId": "haige",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 23.73604547396291,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "haige-2025-revenue",
+          "haige-2025-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "haige-2025-capex_cash_to_revenue_pct",
+      "companyId": "haige",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 17.69762855225605,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "haige-2025-cash_acquisition_long_term_assets",
+          "haige-2025-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "haige-2025-rd_input_to_revenue_pct",
+      "companyId": "haige",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 21.1544158722744,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "haige-2025-rd_input",
+          "haige-2025-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "haige-2025-operating_cash_flow_to_revenue_pct",
+      "companyId": "haige",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": -14.69243096528054,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "haige-2025-operating_cash_flow",
+          "haige-2025-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "haige-2024-gross_margin_pct",
+      "companyId": "haige",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 28.785655756545946,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "haige-2024-revenue",
+          "haige-2024-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "haige-2024-capex_cash_to_revenue_pct",
+      "companyId": "haige",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 13.96439127464704,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "haige-2024-cash_acquisition_long_term_assets",
+          "haige-2024-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "haige-2024-rd_input_to_revenue_pct",
+      "companyId": "haige",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 19.24646614304329,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "haige-2024-rd_input",
+          "haige-2024-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "haige-2024-operating_cash_flow_to_revenue_pct",
+      "companyId": "haige",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": -15.363715095115271,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "haige-2024-operating_cash_flow",
+          "haige-2024-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "haige-2025-revenue_per_year_end_employee",
+      "companyId": "haige",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_per_year_end_employee",
+      "value": 557279.733475997,
+      "unit": "元/年末员工",
+      "currency": "CNY",
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "haige-2025-revenue",
+          "haige-2025-employees_year_end"
+        ]
+      },
+      "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+    },
+    {
+      "id": "haige-2025-production_employee_pct",
+      "companyId": "haige",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "production_employee_pct",
+      "value": 58.445516891033776,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "haige-2025-production_employees_year_end",
+          "haige-2025-employees_year_end"
+        ]
+      },
+      "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+    },
+    {
+      "id": "haige-2025-revenue_growth_pct",
+      "companyId": "haige",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_growth_pct",
+      "value": -10.806757169195691,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "haige-2025-revenue",
+          "haige-2024-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "haige-2026-H1-h1_revenue_growth_pct",
+      "companyId": "haige",
+      "country": "cn",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "h1_revenue_growth_pct",
+      "value": -7.513307713220896,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "haige-2026-H1-revenue",
+          "haige-2025-H1-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "hisense-2025-gross_margin_pct",
+      "companyId": "hisense",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 16.703899946976907,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "hisense-2025-revenue",
+          "hisense-2025-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "hisense-2025-capex_cash_to_revenue_pct",
+      "companyId": "hisense",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 0.9658397792492848,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "hisense-2025-cash_acquisition_long_term_assets",
+          "hisense-2025-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "hisense-2025-rd_input_to_revenue_pct",
+      "companyId": "hisense",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 4.14215925696509,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "hisense-2025-rd_input",
+          "hisense-2025-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "hisense-2025-operating_cash_flow_to_revenue_pct",
+      "companyId": "hisense",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 7.946043341167232,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "hisense-2025-operating_cash_flow",
+          "hisense-2025-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "hisense-2024-gross_margin_pct",
+      "companyId": "hisense",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 15.659060144648656,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "hisense-2024-revenue",
+          "hisense-2024-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "hisense-2024-capex_cash_to_revenue_pct",
+      "companyId": "hisense",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 1.567406528823674,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "hisense-2024-cash_acquisition_long_term_assets",
+          "hisense-2024-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "hisense-2024-operating_cash_flow_to_revenue_pct",
+      "companyId": "hisense",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 6.144863931920518,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "hisense-2024-operating_cash_flow",
+          "hisense-2024-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "hisense-2025-revenue_per_year_end_employee",
+      "companyId": "hisense",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_per_year_end_employee",
+      "value": 3834799.876453693,
+      "unit": "元/年末员工",
+      "currency": "CNY",
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "hisense-2025-revenue",
+          "hisense-2025-employees_year_end"
+        ]
+      },
+      "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+    },
+    {
+      "id": "hisense-2025-production_employee_pct",
+      "companyId": "hisense",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "production_employee_pct",
+      "value": 36.387208297320655,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "hisense-2025-production_employees_year_end",
+          "hisense-2025-employees_year_end"
+        ]
+      },
+      "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+    },
+    {
+      "id": "hisense-2025-revenue_growth_pct",
+      "companyId": "hisense",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_growth_pct",
+      "value": -1.4543875343154267,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "hisense-2025-revenue",
+          "hisense-2024-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "hisense-2026-H1-h1_revenue_growth_pct",
+      "companyId": "hisense",
+      "country": "cn",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "h1_revenue_growth_pct",
+      "value": 3.7066715876034495,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "hisense-2026-H1-revenue",
+          "hisense-2025-H1-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "boe-2025-gross_margin_pct",
+      "companyId": "boe",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 15.635243182911761,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "boe-2025-revenue",
+          "boe-2025-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "boe-2025-capex_cash_to_revenue_pct",
+      "companyId": "boe",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 19.5974081405391,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "boe-2025-cash_acquisition_long_term_assets",
+          "boe-2025-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "boe-2025-rd_input_to_revenue_pct",
+      "companyId": "boe",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 6.8346675503916074,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "boe-2025-rd_input",
+          "boe-2025-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "boe-2025-operating_cash_flow_to_revenue_pct",
+      "companyId": "boe",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 23.864559598592503,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "boe-2025-operating_cash_flow",
+          "boe-2025-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "boe-2024-gross_margin_pct",
+      "companyId": "boe",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 15.202421621565271,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "boe-2024-revenue",
+          "boe-2024-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "boe-2024-capex_cash_to_revenue_pct",
+      "companyId": "boe",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 17.15782564257568,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "boe-2024-cash_acquisition_long_term_assets",
+          "boe-2024-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "boe-2024-rd_input_to_revenue_pct",
+      "companyId": "boe",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 6.656534827585743,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "boe-2024-rd_input",
+          "boe-2024-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "boe-2024-operating_cash_flow_to_revenue_pct",
+      "companyId": "boe",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 24.063631230451886,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "boe-2024-operating_cash_flow",
+          "boe-2024-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "boe-2025-revenue_per_year_end_employee",
+      "companyId": "boe",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_per_year_end_employee",
+      "value": 1861688.1831566496,
+      "unit": "元/年末员工",
+      "currency": "CNY",
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "boe-2025-revenue",
+          "boe-2025-employees_year_end"
+        ]
+      },
+      "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+    },
+    {
+      "id": "boe-2025-production_employee_pct",
+      "companyId": "boe",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "production_employee_pct",
+      "value": 66.2159333909641,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "boe-2025-production_employees_year_end",
+          "boe-2025-employees_year_end"
+        ]
+      },
+      "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+    },
+    {
+      "id": "boe-2025-revenue_growth_pct",
+      "companyId": "boe",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_growth_pct",
+      "value": 3.130153376792899,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "boe-2025-revenue",
+          "boe-2024-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "boe-2026-H1-h1_revenue_growth_pct",
+      "companyId": "boe",
+      "country": "cn",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "h1_revenue_growth_pct",
+      "value": 1.8307997684322785,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "boe-2026-H1-revenue",
+          "boe-2025-H1-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "smic-2025-gross_margin_pct",
+      "companyId": "smic",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 21.624151451404742,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "smic-2025-revenue",
+          "smic-2025-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "smic-2025-capex_cash_to_revenue_pct",
+      "companyId": "smic",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 89.04893131032765,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "smic-2025-cash_acquisition_long_term_assets",
+          "smic-2025-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "smic-2025-rd_input_to_revenue_pct",
+      "companyId": "smic",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 8.197169260780148,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "smic-2025-rd_input",
+          "smic-2025-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "smic-2025-operating_cash_flow_to_revenue_pct",
+      "companyId": "smic",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 29.82772860799589,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "smic-2025-operating_cash_flow",
+          "smic-2025-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "smic-2024-gross_margin_pct",
+      "companyId": "smic",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 18.59018433419724,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "smic-2024-revenue",
+          "smic-2024-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "smic-2024-capex_cash_to_revenue_pct",
+      "companyId": "smic",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 94.40046529517747,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "smic-2024-cash_acquisition_long_term_assets",
+          "smic-2024-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "smic-2024-rd_input_to_revenue_pct",
+      "companyId": "smic",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 9.424808856457338,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "smic-2024-rd_input",
+          "smic-2024-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "smic-2024-operating_cash_flow_to_revenue_pct",
+      "companyId": "smic",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 39.20478507262754,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "smic-2024-operating_cash_flow",
+          "smic-2024-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "smic-2025-revenue_per_year_end_employee",
+      "companyId": "smic",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_per_year_end_employee",
+      "value": 3374257.8187650363,
+      "unit": "元/年末员工",
+      "currency": "CNY",
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "smic-2025-revenue",
+          "smic-2025-employees_year_end"
+        ]
+      },
+      "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+    },
+    {
+      "id": "smic-2025-production_employee_pct",
+      "companyId": "smic",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "production_employee_pct",
+      "value": 80.75882117080995,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "smic-2025-production_employees_year_end",
+          "smic-2025-employees_year_end"
+        ]
+      },
+      "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+    },
+    {
+      "id": "smic-2025-revenue_growth_pct",
+      "companyId": "smic",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_growth_pct",
+      "value": 16.485038559183685,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "smic-2025-revenue",
+          "smic-2024-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "smic-2026-H1-h1_revenue_growth_pct",
+      "companyId": "smic",
+      "country": "cn",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "h1_revenue_growth_pct",
+      "value": 19.43568837799152,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "smic-2026-H1-revenue",
+          "smic-2025-H1-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "luxshare-2025-gross_margin_pct",
+      "companyId": "luxshare",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 11.91189832820509,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "luxshare-2025-revenue",
+          "luxshare-2025-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "luxshare-2025-capex_cash_to_revenue_pct",
+      "companyId": "luxshare",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 5.387283596147017,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "luxshare-2025-cash_acquisition_long_term_assets",
+          "luxshare-2025-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "luxshare-2025-rd_input_to_revenue_pct",
+      "companyId": "luxshare",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 3.438613560828929,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "luxshare-2025-rd_input",
+          "luxshare-2025-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "luxshare-2025-operating_cash_flow_to_revenue_pct",
+      "companyId": "luxshare",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 5.213064304642214,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "luxshare-2025-operating_cash_flow",
+          "luxshare-2025-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "luxshare-2024-gross_margin_pct",
+      "companyId": "luxshare",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 10.411409047868293,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "luxshare-2024-revenue",
+          "luxshare-2024-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "luxshare-2024-capex_cash_to_revenue_pct",
+      "companyId": "luxshare",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 4.505556846996547,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "luxshare-2024-cash_acquisition_long_term_assets",
+          "luxshare-2024-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "luxshare-2024-rd_input_to_revenue_pct",
+      "companyId": "luxshare",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 3.1830821940390432,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "luxshare-2024-rd_input",
+          "luxshare-2024-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "luxshare-2024-operating_cash_flow_to_revenue_pct",
+      "companyId": "luxshare",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 10.088332996910907,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "luxshare-2024-operating_cash_flow",
+          "luxshare-2024-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "luxshare-2025-revenue_per_year_end_employee",
+      "companyId": "luxshare",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_per_year_end_employee",
+      "value": 798526.7629112897,
+      "unit": "元/年末员工",
+      "currency": "CNY",
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "luxshare-2025-revenue",
+          "luxshare-2025-employees_year_end"
+        ]
+      },
+      "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+    },
+    {
+      "id": "luxshare-2025-production_employee_pct",
+      "companyId": "luxshare",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "production_employee_pct",
+      "value": 80.73989000401252,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "luxshare-2025-production_employees_year_end",
+          "luxshare-2025-employees_year_end"
+        ]
+      },
+      "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+    },
+    {
+      "id": "luxshare-2025-revenue_growth_pct",
+      "companyId": "luxshare",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_growth_pct",
+      "value": 23.642466402153172,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "luxshare-2025-revenue",
+          "luxshare-2024-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "luxshare-2026-H1-h1_revenue_growth_pct",
+      "companyId": "luxshare",
+      "country": "cn",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "h1_revenue_growth_pct",
+      "value": 40.16055185807905,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "luxshare-2026-H1-revenue",
+          "luxshare-2025-H1-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "sytech-2025-gross_margin_pct",
+      "companyId": "sytech",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 26.472701603902806,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "sytech-2025-revenue",
+          "sytech-2025-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "sytech-2025-capex_cash_to_revenue_pct",
+      "companyId": "sytech",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 8.355835921481397,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "sytech-2025-cash_acquisition_long_term_assets",
+          "sytech-2025-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "sytech-2025-rd_input_to_revenue_pct",
+      "companyId": "sytech",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 5.100317218808134,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "sytech-2025-rd_input",
+          "sytech-2025-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "sytech-2025-operating_cash_flow_to_revenue_pct",
+      "companyId": "sytech",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 18.548794016403498,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "sytech-2025-operating_cash_flow",
+          "sytech-2025-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "sytech-2024-gross_margin_pct",
+      "companyId": "sytech",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 22.0371273090906,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "sytech-2024-revenue",
+          "sytech-2024-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "sytech-2024-capex_cash_to_revenue_pct",
+      "companyId": "sytech",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 4.541425963241377,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "sytech-2024-cash_acquisition_long_term_assets",
+          "sytech-2024-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "sytech-2024-operating_cash_flow_to_revenue_pct",
+      "companyId": "sytech",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 7.141931387110622,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "sytech-2024-operating_cash_flow",
+          "sytech-2024-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "sytech-2025-revenue_per_year_end_employee",
+      "companyId": "sytech",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_per_year_end_employee",
+      "value": 1957662.9112056736,
+      "unit": "元/年末员工",
+      "currency": "CNY",
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "sytech-2025-revenue",
+          "sytech-2025-employees_year_end"
+        ]
+      },
+      "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+    },
+    {
+      "id": "sytech-2025-production_employee_pct",
+      "companyId": "sytech",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "production_employee_pct",
+      "value": 58.50719548302692,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "sytech-2025-production_employees_year_end",
+          "sytech-2025-employees_year_end"
+        ]
+      },
+      "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+    },
+    {
+      "id": "sytech-2025-revenue_growth_pct",
+      "companyId": "sytech",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_growth_pct",
+      "value": 39.44809683595783,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "sytech-2025-revenue",
+          "sytech-2024-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "sytech-2026-H1-h1_revenue_growth_pct",
+      "companyId": "sytech",
+      "country": "cn",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "h1_revenue_growth_pct",
+      "value": 50.045479145881,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "sytech-2026-H1-revenue",
+          "sytech-2025-H1-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "goer-2025-gross_margin_pct",
+      "companyId": "goer",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 11.801968162538595,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "goer-2025-revenue",
+          "goer-2025-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "goer-2025-capex_cash_to_revenue_pct",
+      "companyId": "goer",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 7.384177750064952,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "goer-2025-cash_acquisition_long_term_assets",
+          "goer-2025-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "goer-2025-rd_input_to_revenue_pct",
+      "companyId": "goer",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 5.206066460680307,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "goer-2025-rd_input",
+          "goer-2025-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "goer-2025-operating_cash_flow_to_revenue_pct",
+      "companyId": "goer",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 7.093594173569963,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "goer-2025-operating_cash_flow",
+          "goer-2025-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "goer-2024-gross_margin_pct",
+      "companyId": "goer",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 11.088692102011578,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "goer-2024-revenue",
+          "goer-2024-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "goer-2024-capex_cash_to_revenue_pct",
+      "companyId": "goer",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 3.6000735208538117,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "goer-2024-cash_acquisition_long_term_assets",
+          "goer-2024-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "goer-2024-rd_input_to_revenue_pct",
+      "companyId": "goer",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 4.526210767137365,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "goer-2024-rd_input",
+          "goer-2024-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "goer-2024-operating_cash_flow_to_revenue_pct",
+      "companyId": "goer",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 6.14186808634949,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "goer-2024-operating_cash_flow",
+          "goer-2024-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "goer-2025-revenue_per_year_end_employee",
+      "companyId": "goer",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_per_year_end_employee",
+      "value": 865261.1875723439,
+      "unit": "元/年末员工",
+      "currency": "CNY",
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "goer-2025-revenue",
+          "goer-2025-employees_year_end"
+        ]
+      },
+      "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+    },
+    {
+      "id": "goer-2025-production_employee_pct",
+      "companyId": "goer",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "production_employee_pct",
+      "value": 75.45637854550343,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "goer-2025-production_employees_year_end",
+          "goer-2025-employees_year_end"
+        ]
+      },
+      "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+    },
+    {
+      "id": "goer-2025-revenue_growth_pct",
+      "companyId": "goer",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_growth_pct",
+      "value": -4.362071006953283,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "goer-2025-revenue",
+          "goer-2024-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "goer-2026-H1-h1_revenue_growth_pct",
+      "companyId": "goer",
+      "country": "cn",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "h1_revenue_growth_pct",
+      "value": 6.649355174795657,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "goer-2026-H1-revenue",
+          "goer-2025-H1-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "wus-2025-gross_margin_pct",
+      "companyId": "wus",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 35.47556140001523,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "wus-2025-revenue",
+          "wus-2025-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "wus-2025-capex_cash_to_revenue_pct",
+      "companyId": "wus",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 16.882863647058453,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "wus-2025-cash_acquisition_long_term_assets",
+          "wus-2025-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "wus-2025-rd_input_to_revenue_pct",
+      "companyId": "wus",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 6.022339718247202,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "wus-2025-rd_input",
+          "wus-2025-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "wus-2025-operating_cash_flow_to_revenue_pct",
+      "companyId": "wus",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 20.43770234623531,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "wus-2025-operating_cash_flow",
+          "wus-2025-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "wus-2024-gross_margin_pct",
+      "companyId": "wus",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 34.53973578483297,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "wus-2024-revenue",
+          "wus-2024-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "wus-2024-capex_cash_to_revenue_pct",
+      "companyId": "wus",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 16.09872581559811,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "wus-2024-cash_acquisition_long_term_assets",
+          "wus-2024-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "wus-2024-rd_input_to_revenue_pct",
+      "companyId": "wus",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 5.918234100242018,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "wus-2024-rd_input",
+          "wus-2024-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "wus-2024-operating_cash_flow_to_revenue_pct",
+      "companyId": "wus",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 17.428158323810596,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "wus-2024-operating_cash_flow",
+          "wus-2024-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "wus-2025-revenue_per_year_end_employee",
+      "companyId": "wus",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_per_year_end_employee",
+      "value": 1242880.0488748935,
+      "unit": "元/年末员工",
+      "currency": "CNY",
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "wus-2025-revenue",
+          "wus-2025-employees_year_end"
+        ]
+      },
+      "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+    },
+    {
+      "id": "wus-2025-production_employee_pct",
+      "companyId": "wus",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "production_employee_pct",
+      "value": 74.73594436790658,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "wus-2025-production_employees_year_end",
+          "wus-2025-employees_year_end"
+        ]
+      },
+      "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+    },
+    {
+      "id": "wus-2025-revenue_growth_pct",
+      "companyId": "wus",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_growth_pct",
+      "value": 42.001736982199866,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "wus-2025-revenue",
+          "wus-2024-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "wus-2026-H1-h1_revenue_growth_pct",
+      "companyId": "wus",
+      "country": "cn",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "h1_revenue_growth_pct",
+      "value": 61.168283352596916,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "wus-2026-H1-revenue",
+          "wus-2025-H1-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "suncreate-2025-gross_margin_pct",
+      "companyId": "suncreate",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 14.688057966055593,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "suncreate-2025-revenue",
+          "suncreate-2025-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "suncreate-2025-capex_cash_to_revenue_pct",
+      "companyId": "suncreate",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 5.179126959655933,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "suncreate-2025-cash_acquisition_long_term_assets",
+          "suncreate-2025-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "suncreate-2025-rd_input_to_revenue_pct",
+      "companyId": "suncreate",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "rd_input_to_revenue_pct",
+      "value": 13.804299737685927,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "suncreate-2025-rd_input",
+          "suncreate-2025-revenue"
+        ]
+      },
+      "note": "研发投入/收入；部分研发已资本化，因此不等于研发费用。"
+    },
+    {
+      "id": "suncreate-2025-operating_cash_flow_to_revenue_pct",
+      "companyId": "suncreate",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 10.514074947128593,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "suncreate-2025-operating_cash_flow",
+          "suncreate-2025-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "suncreate-2024-gross_margin_pct",
+      "companyId": "suncreate",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "gross_margin_pct",
+      "value": 13.119418042858985,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "suncreate-2024-revenue",
+          "suncreate-2024-cost_of_revenue"
+        ]
+      },
+      "note": "(营业收入-营业成本)/营业收入×100"
+    },
+    {
+      "id": "suncreate-2024-capex_cash_to_revenue_pct",
+      "companyId": "suncreate",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "capex_cash_to_revenue_pct",
+      "value": 4.506928828316718,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "suncreate-2024-cash_acquisition_long_term_assets",
+          "suncreate-2024-revenue"
+        ]
+      },
+      "note": "购建固定资产、无形资产和其他长期资产现金/收入；不含并购支出，不代表完整资本开支。"
+    },
+    {
+      "id": "suncreate-2024-operating_cash_flow_to_revenue_pct",
+      "companyId": "suncreate",
+      "country": "cn",
+      "period": "2024",
+      "frequency": "annual",
+      "metric": "operating_cash_flow_to_revenue_pct",
+      "value": 15.263472706369999,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "suncreate-2024-operating_cash_flow",
+          "suncreate-2024-revenue"
+        ]
+      },
+      "note": "经营现金流净额/收入，受回款、采购、存货和结算节奏影响。"
+    },
+    {
+      "id": "suncreate-2025-revenue_per_year_end_employee",
+      "companyId": "suncreate",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_per_year_end_employee",
+      "value": 744937.5527315408,
+      "unit": "元/年末员工",
+      "currency": "CNY",
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "suncreate-2025-revenue",
+          "suncreate-2025-employees_year_end"
+        ]
+      },
+      "note": "分子为全年合并收入，分母为期末员工表人数；仅为规模比率，不是人均增加值、劳动生产率或生产工人产值。平均人数缺失；跨境、外包、并购边界未统一。"
+    },
+    {
+      "id": "suncreate-2025-production_employee_pct",
+      "companyId": "suncreate",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "production_employee_pct",
+      "value": 30.174989329918905,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团/员工表边界，非行业增加值",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "suncreate-2025-production_employees_year_end",
+          "suncreate-2025-employees_year_end"
+        ]
+      },
+      "note": "期末员工专业分类，不代表劳动成本或工时占比。"
+    },
+    {
+      "id": "suncreate-2025-revenue_growth_pct",
+      "companyId": "suncreate",
+      "country": "cn",
+      "period": "2025",
+      "frequency": "annual",
+      "metric": "revenue_growth_pct",
+      "value": 8.872684404740316,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "suncreate-2025-revenue",
+          "suncreate-2024-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    },
+    {
+      "id": "suncreate-2026-H1-h1_revenue_growth_pct",
+      "companyId": "suncreate",
+      "country": "cn",
+      "period": "2026-H1",
+      "frequency": "half-year",
+      "metric": "h1_revenue_growth_pct",
+      "value": -28.502594399766647,
+      "unit": "%",
+      "currency": null,
+      "scope": "合并集团",
+      "evidence": {
+        "type": "calculated",
+        "inputs": [
+          "suncreate-2026-H1-revenue",
+          "suncreate-2025-H1-revenue"
+        ],
+        "formula": "(current/previous-1)*100"
+      },
+      "note": "同期间比较；不剔除并购及汇率影响。"
+    }
+  ]
+}

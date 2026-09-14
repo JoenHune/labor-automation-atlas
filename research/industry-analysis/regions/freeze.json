@@ -1,0 +1,80 @@
+{
+  "version": "2026-09-14.regions-1",
+  "status": "frozen",
+  "checkedAt": "2026-09-14",
+  "scope": "C39地方统计分析：已取得的全国统一2023地区表、六地全体企业普查、两地2023产品IO、五地2025增速与31省首轮地方来源矩阵",
+  "notAnExhaustiveAudit": true,
+  "counts": {
+    "sources": 20,
+    "sourcesWithVerifiedArchives": 18,
+    "comparisons": 12,
+    "findings": 5,
+    "coverageEntries": 36,
+    "provinceCoverageEntries": 31,
+    "originalRegionalCells": 279,
+    "originalNumericCells": 277,
+    "originalBlankCells": 2,
+    "panelNumericValues": 183,
+    "panelMissingValues": 6,
+    "recomputedPanelValues": 67,
+    "verifiedLocalCensusRegions": 6,
+    "pendingLocalCensusRegions": 1,
+    "localIoRegions": 2,
+    "comparableLatestGrowthRegions": 5,
+    "latestGrowthMissingRegions": 2
+  },
+  "checks": {
+    "schemaPassed": true,
+    "dataVerificationPassed": true,
+    "independentReviewPassed": true,
+    "independentReviewScope": "另一个研究代理目读全国地区原图并复算重点份额、人均收入、利润率，复核地方IO与五地2025原文；最终报告与已核数据交叉一致，未重新穷尽地方检索。"
+  },
+  "pending": [
+    "浙江地方五经普原件404，候选值未进入正式比较",
+    "广东2025完整正文未取得；上海已读为产值增速，均未填入增加值增速",
+    "31省地方年鉴工业/就业内页和多数地方IO未逐项读完",
+    "地方2024连续趋势与2026最新期仍待取得"
+  ],
+  "files": [
+    {
+      "path": "research/industry-analysis/regions/analysis.md",
+      "sha256": "40db228d680525924ecc9577d07f9f18d52db864c4bb06beab1e959f61ac99c0"
+    },
+    {
+      "path": "research/industry-analysis/regions/sources.json",
+      "sha256": "8cab0ff76f4b8526a902fd6405bfa0287e23aba34801eaca0733e9d19a9e5cd7"
+    },
+    {
+      "path": "research/industry-analysis/regions/observations.json",
+      "sha256": "f848cf859a3d144a5f436fadeed4f27e35e7ee93e1a99e2a60c854e45ff19a84"
+    },
+    {
+      "path": "research/industry-analysis/regions/coverage.json",
+      "sha256": "c3bbb49fa31092ffc55a7d46009619cf8d58ed8da04752d10ff0332b80a61993"
+    },
+    {
+      "path": "research/industry-analysis/regions/panel-data.json",
+      "sha256": "3829a87d114014821f2bbd093d07226db5876b9f56a511ecaa0d958288d4acfe"
+    },
+    {
+      "path": "research/industry-analysis/regions/validation.json",
+      "sha256": "dbf11817a5d067b5d1ba84d40674dbe56b3c5eb211fedf889081b3be6665ec70"
+    },
+    {
+      "path": "research/industry-analysis/regions/original-manifest.json",
+      "sha256": "602960bec01d5b67708f2af0bd9bed4b1622e83f0d3539bf4cf076327cdbbfe9"
+    },
+    {
+      "path": "research/industry-analysis/regions/build_analysis.py",
+      "sha256": "eb59f93806e89cc05a43df1bc4ecfe4bd68399facdf868d4438ccaf9303bd9ab"
+    },
+    {
+      "path": "research/industry-analysis/regions/build_coverage.py",
+      "sha256": "206cd0af90eff1d87071cb9805e03c38d3f7950d222831c6ab9a1bb396a6aeee"
+    },
+    {
+      "path": "research/industry-analysis/regions/verify_analysis.py",
+      "sha256": "1520a7dbaddbaff1aca055fe327a9c9f52612d613e18dfc13d67cbaad9000f44"
+    }
+  ]
+}

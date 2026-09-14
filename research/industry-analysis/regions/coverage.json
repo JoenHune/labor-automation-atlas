@@ -1,0 +1,3881 @@
+{
+  "checkedAt": "2026-09-14",
+  "country": "cn",
+  "scope": "中国大陆31省级地区C39；本轮采用全国统一地区表完成比较，同时对地方资料作有记录的首轮检索",
+  "notAnExhaustiveAudit": true,
+  "definitions": {
+    "obtained": "原表已读取且目标指标已提取",
+    "located-pending-reading": "检索或目录已定位入口，内页/数值仍待取得",
+    "searched-not-obtained": "已执行记录中的检索，未取得对应原表；不推断不存在",
+    "obtained-not-comparable": "取得资料但指标与目标不同，不混入比较",
+    "not-checked-year-by-year": "尚未完成该资料年度的独立逐项核查，不能称为检索后无数据"
+  },
+  "summary": {
+    "nationalComparableRegions": 31,
+    "nationalOriginalMetrics": 9,
+    "localCensusRegions": 6,
+    "localCensusPendingRegions": 1,
+    "localIoRegions": 2,
+    "latestComparableGrowthRegions": 5,
+    "searchedLocalRegionDomains": 31,
+    "allLocalYearbooksRead": false,
+    "allLocalIoTablesRead": false
+  },
+  "regions": [
+    {
+      "region": "北京",
+      "regionId": "bj",
+      "priority": true,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "obtained",
+        "candidates": [
+          {
+            "title": "北京市第五次全国经济普查公报（第二号）——单位基本情况",
+            "url": "https://tjj.beijing.gov.cn/tjsj_31433/tjgb_31445/jpgb_31447/202505/t20250516_4090437.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "北京市第五次全国经济普查公报（第一号）——北京市第五次全国经济普查顺利完成",
+            "url": "https://tjj.beijing.gov.cn/tjsj_31433/tjgb_31445/jpgb_31447/202505/t20250515_4090279.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "北京市第五次全国经济普查公报（第三号）——第二产业基本情况",
+            "url": "https://tjj.beijing.gov.cn/tjsj_31433/tjgb_31445/jpgb_31447/202505/t20250516_4090458.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "北京市第五次全国经济普查公报（第二号）",
+            "url": "https://tjj.beijing.gov.cn/tjsj_31433/sjjd_31444/202503/P020250313413815376232.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "北京市第五次全国经济普查公报（第一号）",
+            "url": "https://tjj.beijing.gov.cn/zxfbu/202503/P020250313413812901712.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "北京市第五次全国经济普查公报（第三号）",
+            "url": "https://tjj.beijing.gov.cn/zt/bjsdwcqgjjpc/wjppcyw/202503/P020250313414054067991.pdf",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "已读第二产业公报C39行；企业数、期末就业、收入已提取",
+        "nextStep": "如发布修订，保留旧值并核对；扩展到本省市内地区/细行业须另读表。",
+        "sourceId": "bj-census2023"
+      },
+      "localYearbook2024": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "《北京统计年鉴2024》出版发行",
+            "url": "https://tjj.beijing.gov.cn/zwgkai/gzdt/202412/t20241224_3972056.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "《北京区域统计年鉴2024》出版发行",
+            "url": "https://tjj.beijing.gov.cn/tjsj_31433/tjsk_31457/202501/t20250113_3987306.html",
+            "status": "search-located-not-read"
+          }
+        ],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-0.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "│  北京统计年鉴2025                  │Beijing Statistical Yearbook 2025",
+            "url": "https://nj.tjj.beijing.gov.cn/nj/main/2025-tjnj/zk/e/html/zbe16.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "北京统计年鉴2025",
+            "url": "https://hgk.tjj.beijing.gov.cn/2025tjnj/tjnj/zk/indexce.htm",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "│  北京统计年鉴2025                  │Beijing Statistical Yearbook 2025",
+            "url": "https://nj.tjj.beijing.gov.cn/nj/main/2025-tjnj/zk/e/html/zbe10.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "│  北京统计年鉴2025                 │Beijing Statistical Yearbook 2025",
+            "url": "https://nj.tjj.beijing.gov.cn/nj/main/2025-tjnj/zk/e/html/zbe21.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "│  北京统计年鉴2025                  │Beijing Statistical Yearbook 2025",
+            "url": "https://nj.tjj.beijing.gov.cn/nj/main/2025-tjnj/zk/e/html/sm14.pdf",
+            "status": "search-located-not-read"
+          }
+        ],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-0.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "obtained-c39-growth",
+        "candidates": [
+          {
+            "title": "北京市2025年国民经济和社会发展统计公报",
+            "url": "https://tjj.beijing.gov.cn/zxfbu/202603/t20260324_4564401.html",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "上海需取得增加值增速；广东需读取完整原文；其它地区可补2024及2026最新一期，不能由增速反推现价规模。",
+        "sourceId": "bj-bulletin2025"
+      },
+      "localIo2023": {
+        "status": "obtained",
+        "candidates": [],
+        "depth": "已下载42部门xlsx，提取对外主表部门20四项增加值构成与表内合计",
+        "nextStep": "可继续分析产业联系；其他部门和省际流量需要独立口径审查。",
+        "sourceId": "bj-io2023"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-bj.txt",
+      "officialCandidates": [
+        {
+          "title": "《北京统计年鉴2025》出版发行",
+          "url": "https://tjj.beijing.gov.cn/zwgkai/gzdt/202511/t20251127_4307886.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "欢迎访问北京市统计局 国家统计局北京调查总队网站！",
+          "url": "https://tjj.beijing.gov.cn/zwgkai/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "│  北京统计年鉴2025                  │Beijing Statistical Yearbook 2025",
+          "url": "https://nj.tjj.beijing.gov.cn/nj/main/2025-tjnj/zk/e/html/sm02.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "北京市第五次全国经济普查公报（第二号）——单位基本情况",
+          "url": "https://tjj.beijing.gov.cn/tjsj_31433/tjgb_31445/jpgb_31447/202505/t20250516_4090437.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "欢迎访问北京市统计局 国家统计局北京调查总队网站",
+          "url": "https://tjj.beijing.gov.cn/zxfbu/index_16.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "北京市第五次全国经济普查公报（第一号）——北京市第五次全国经济普查顺利完成",
+          "url": "https://tjj.beijing.gov.cn/tjsj_31433/tjgb_31445/jpgb_31447/202505/t20250515_4090279.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "欢迎访问北京市统计局 国家统计局北京调查总队网站！",
+          "url": "https://tjj.beijing.gov.cn/cs1/2024cs/2024cszwgk/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "《北京区域统计年鉴2025》出版发行",
+          "url": "https://tjj.beijing.gov.cn/zwgkai/gzdt/202512/t20251226_4365931.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "欢迎访问北京市统计局 国家统计局北京调查总队网站！",
+          "url": "https://tjj.beijing.gov.cn/tjsj_31433/tjgb_31445/jpgb_31447/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "北京市第五次全国经济普查公报（第三号）——第二产业基本情况",
+          "url": "https://tjj.beijing.gov.cn/tjsj_31433/tjgb_31445/jpgb_31447/202505/t20250516_4090458.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "北京市2025年国民经济和社会发展统计公报",
+          "url": "https://tjj.beijing.gov.cn/zxfbu/202603/t20260324_4564401.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "无标题文档",
+          "url": "https://tjj.beijing.gov.cn/cs1/dcsjgb/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "欢迎访问北京市统计局 国家统计局北京调查总队网站",
+          "url": "https://tjj.beijing.gov.cn/zt/bjsdwcqgjjpc/wjppcyw/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "北京市第五次全国经济普查公报（第二号）",
+          "url": "https://tjj.beijing.gov.cn/tjsj_31433/sjjd_31444/202503/P020250313413815376232.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "北京市第五次全国经济普查公报（第一号）",
+          "url": "https://tjj.beijing.gov.cn/zxfbu/202503/P020250313413812901712.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "北京市第五次全国经济普查公报（第三号）",
+          "url": "https://tjj.beijing.gov.cn/zt/bjsdwcqgjjpc/wjppcyw/202503/P020250313414054067991.pdf",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "天津",
+      "regionId": "tj",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "第五次全国经济普查方案",
+            "url": "https://tjj.gz.gov.cn/attachment/7/7519/7519021/9363563.pdf",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-0.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-0.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "2025年天津市国民经济和社会发展统计公报_统计公报_天津政务网",
+            "url": "https://www.tj.gov.cn/sq/tjgb/202603/t20260327_7271193.html",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-tj.txt",
+      "officialCandidates": [
+        {
+          "title": "政府数据_天津政务网",
+          "url": "https://www.tj.gov.cn/sq/zfsj/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "Microsoft Word - 天津0-公报.doc",
+          "url": "https://stats.tj.gov.cn/nianjian/2025nj/zk/html/gb01.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2025年天津市国民经济和社会发展统计公报_统计公报_天津政务网",
+          "url": "https://www.tj.gov.cn/sq/tjgb/202603/t20260327_7271193.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "Microsoft Word - 天津0-公报.doc",
+          "url": "https://stats.tj.gov.cn/nianjian/2025nj/zk/html/gb02.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "附件2",
+          "url": "https://www.tjwq.gov.cn/zwgk/zfxxgk/wbj2/qtjj1/fdzdgknr27/tjxx27/202506/W020250625392175948744.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "第五次全国经济普查方案",
+          "url": "https://tjj.gz.gov.cn/attachment/7/7519/7519021/9363563.pdf",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "河北",
+      "regionId": "he",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-0.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-0.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "河北省2025年国民经济和社会发展统计公报_中共河北省委社会工作部",
+            "url": "https://www.hbshgzb.gov.cn/2026-04/13/content_9499919.htm",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-he.txt",
+      "officialCandidates": [
+        {
+          "title": "河北省2025年国民经济和社会发展统计公报_中共河北省委社会工作部",
+          "url": "https://www.hbshgzb.gov.cn/2026-04/13/content_9499919.htm",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2025五经普公报内文",
+          "url": "https://beibei.gov.cn/zwgk_239/fdzdgknr/tjxx/pcsj/202507/W020250728408183881150.pdf",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "山西",
+      "regionId": "sx",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "目录吕梁市第五次全国经济普查公告（第一号）…………………（1）",
+            "url": "https://www.lvliang.gov.cn/llxxgk/zfxxgk/xxgkml/gbmwj/tjj/fdzdgknr_55648/sjfb_55659/202507/P020250708587560713834.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "第五次全国经济普查方案",
+            "url": "https://www.urumqi.gov.cn/wlmqs/c119362/202403/10d3bee6ce16431b81e2054b14d3b856/files/20240320114318121.pdf",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-0.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-0.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-sx.txt",
+      "officialCandidates": [
+        {
+          "title": "目录吕梁市第五次全国经济普查公告（第一号）…………………（1）",
+          "url": "https://www.lvliang.gov.cn/llxxgk/zfxxgk/xxgkml/gbmwj/tjj/fdzdgknr_55648/sjfb_55659/202507/P020250708587560713834.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "第五次全国经济普查方案",
+          "url": "https://www.urumqi.gov.cn/wlmqs/c119362/202403/10d3bee6ce16431b81e2054b14d3b856/files/20240320114318121.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2025 年部门预算公开情况说明",
+          "url": "https://tjj.gansu.gov.cn/tjj/c116375/202502/174082529/files/eca7ca78456c4bb2be2608b046c0c433.pdf",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "内蒙古",
+      "regionId": "nm",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-4.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-4.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-nm.txt",
+      "officialCandidates": [
+        {
+          "title": "主  持  词",
+          "url": "https://czt.jl.gov.cn/yjs/bmyjs/bmys/2024/202402/P020240227490823239121.pdf",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "辽宁",
+      "regionId": "ln",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "辽宁省第五次全国经济普查公报",
+            "url": "https://tjj.ln.gov.cn/tjj/articleFileDir/2025-03/17/920c48b482dd48ce80762b799102ce94.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "辽宁省统计局辽宁省第五次全国经济普查",
+            "url": "https://tjj.ln.gov.cn/tjj/tjgz/ztzl/lnsdwcqgjjpc/index.shtml",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "辽宁省统计局2025-161-求2024年辽宁统计年鉴更新",
+            "url": "https://tjj.ln.gov.cn/eportal/ui?msgDataId=1d7c158d25f542a39f56003d03af23a8&pageId=373a23975d854f9b82985477c9f797eb",
+            "status": "search-located-not-read"
+          }
+        ],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-4.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "辽宁省统计局2025-161-求2024年辽宁统计年鉴更新",
+            "url": "https://tjj.ln.gov.cn/eportal/ui?msgDataId=1d7c158d25f542a39f56003d03af23a8&pageId=373a23975d854f9b82985477c9f797eb",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "454 辽宁统计年鉴 2025",
+            "url": "https://tjj.ln.gov.cn/tjj/tjxx/xxcx/tjnj/otherpages/2025/zk/html/zb24.pdf",
+            "status": "search-located-not-read"
+          }
+        ],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-4.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-ln.txt",
+      "officialCandidates": [
+        {
+          "title": "辽宁省统计局统计公报",
+          "url": "https://tjj.ln.gov.cn/tjsj/tjgb/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "辽宁省统计局年度统计公报",
+          "url": "https://tjj.ln.gov.cn/tjj/tjsj/tjgb/ndtjgb/index.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "附件2 - 2025031710053992900.pdf",
+          "url": "https://tjj.ln.gov.cn/uiFramework/js/pdfjs/web/viewer.html?aisite-article-file=tjj%2C920c48b482dd48ce80762b799102ce94%2C2025-03-17+10%3A05%3A47&file=%2Ftjj%2FarticleFileDir%2F2025-03%2F17%2F920c48b482dd48ce80762b799102ce94%2F2025031710053992900.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "辽宁省统计局统计公报",
+          "url": "https://tjj.ln.gov.cn/tjj/tjsj/tjgb/index.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "辽宁省统计局经济普查公报",
+          "url": "https://tjj.ln.gov.cn/tjj/tjsj/tjgb/jjpcgb/index.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "P—能源统计报表制度.doc - 2026033115100327617.pdf",
+          "url": "https://tjj.ln.gov.cn/uiFramework/js/pdfjs/web/viewer.html?aisite-article-file=tjj%2C7d0ebeac0ed3499da6e4aa0f94acf972%2C2026-03-31+15%3A10%3A25&file=%2Ftjj%2FarticleFileDir%2F2026-03%2F31%2F7d0ebeac0ed3499da6e4aa0f94acf972%2F2026033115100327617.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "辽宁省第五次全国经济普查公报",
+          "url": "https://tjj.ln.gov.cn/tjj/articleFileDir/2025-03/17/920c48b482dd48ce80762b799102ce94.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "辽宁省统计局辽宁省第五次全国经济普查",
+          "url": "https://tjj.ln.gov.cn/tjj/tjgz/ztzl/lnsdwcqgjjpc/index.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "辽宁省统计局统计年鉴",
+          "url": "https://tjj.ln.gov.cn/tjj/tjsj/tjnj/index.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "辽宁省统计局二〇〇五年辽宁省国民经济和社会发展统计公报",
+          "url": "https://tjj.ln.gov.cn/tjj/gb/tjsj/tjgb/ndtjgb/2023110818012343850/index.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "辽宁省统计局统计公报",
+          "url": "https://tjj.ln.gov.cn/tjj/gb/tjsj/tjgb/index.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "辽宁省统计局通知通告",
+          "url": "https://tjj.ln.gov.cn/tjj/tjgz/tztg/index.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2025033115090391807.pdf",
+          "url": "https://tjj.ln.gov.cn/uiFramework/js/pdfjs/web/viewer.html?file=%2Ftjj%2FattachDir%2F2025%2F03%2F2025033115090391807.pdf",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "吉林",
+      "regionId": "jl",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "吉林省第五次全国经济普查公报（第四号）",
+            "url": "https://tjj.jl.gov.cn/tjsj/tjgb/pcjqtgb/202504/t20250422_3449633.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "吉林省第五次全国经济普查公报（第三号）",
+            "url": "https://tjj.jl.gov.cn/tjsj/tjgb/pcjqtgb/202504/t20250422_3449636.html",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "2024 吉林统计年鉴 JILIN STATISTIAL YEARBOOK",
+            "url": "https://tjj.jl.gov.cn/tjsj/tjnj/2024/",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "2024 吉林统计年鉴 JILIN STATISTIAL YEARBOOK",
+            "url": "https://tjj.jl.gov.cn/tjsj/tjnj/2024/enter.htm",
+            "status": "search-located-not-read"
+          }
+        ],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-4.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "2025 吉林统计年鉴 JILIN STATISTIAL YEARBOOK",
+            "url": "https://tjj.jl.gov.cn/tjsj/tjnj/2025/",
+            "status": "search-located-not-read"
+          }
+        ],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-4.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "吉林市2025年国民经济和社会发展统计公报",
+            "url": "https://tjj.jl.gov.cn/tjsj/tjgb/ndgb/202608/t20260825_3665455.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "解读：吉林市2025年国民经济和社会发展统计公报",
+            "url": "https://tjj.jl.gov.cn/tjsj/sjjd/202608/t20260825_3665456.html",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-jl.txt",
+      "officialCandidates": [
+        {
+          "title": "吉林省统计局-普查及其他公报",
+          "url": "https://tjj.jl.gov.cn/tjsj/tjgb/pcjqtgb/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "吉林省第五次全国经济普查公报（第四号）",
+          "url": "https://tjj.jl.gov.cn/tjsj/tjgb/pcjqtgb/202504/t20250422_3449633.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "吉林省第五次全国经济普查公报（第三号）",
+          "url": "https://tjj.jl.gov.cn/tjsj/tjgb/pcjqtgb/202504/t20250422_3449636.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "吉林省统计局-国民经济和社会发展统计信息",
+          "url": "https://tjj.jl.gov.cn/qt/gmjj/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "吉林市2025年国民经济和社会发展统计公报",
+          "url": "https://tjj.jl.gov.cn/tjsj/tjgb/ndgb/202608/t20260825_3665455.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "吉林省统计局-年度公报",
+          "url": "https://tjj.jl.gov.cn/tjsj/tjgb/ndgb/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "吉林省统计局-年度公报",
+          "url": "https://tjj.jl.gov.cn/tjsj/tjgb/ndgb/index_1.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "1",
+          "url": "https://tjj.jl.gov.cn/zwgk/yjsgk/202408/P020240826635853217973.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2025 吉林统计年鉴 JILIN STATISTIAL YEARBOOK",
+          "url": "https://tjj.jl.gov.cn/tjsj/tjnj/2025/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "吉林省2024年国民经济和社会发展统计公报",
+          "url": "https://tjj.jl.gov.cn/tjsj/tjgb/ndgb/202503/t20250324_3419691.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "解读：吉林市2025年国民经济和社会发展统计公报",
+          "url": "https://tjj.jl.gov.cn/tjsj/sjjd/202608/t20260825_3665456.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "吉林省统计局-统计数据",
+          "url": "https://tjj.jl.gov.cn/tjsj/index.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "主  持  词",
+          "url": "https://tjj.jl.gov.cn/zwgk/yjsgk/202402/P020240530490670002046.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "主  持  词",
+          "url": "https://tjj.jl.gov.cn/zwgk/yjsgk/202402/P020260304571604350647.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "1",
+          "url": "https://tjj.jl.gov.cn/zwgk/yjsgk/202408/P020260331365222593602.pdf",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "黑龙江",
+      "regionId": "hl",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "黑龙江省第五次全国经济普查公报（第一号）_普查公报_省统计局",
+            "url": "https://tjj.hlj.gov.cn/tjj/c106780/202504/c00_31830883.shtml",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "黑龙江省第五次全国经济普查公报（第二号）_普查公报_省统计局",
+            "url": "https://tjj.hlj.gov.cn/tjj/c106780/202504/c00_31830887.shtml",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "黑龙江省第五次全国经济普查公报（第五号）_普查公报_省统计局",
+            "url": "https://tjj.hlj.gov.cn/tjj/c106780/202504/c00_31830898.shtml",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "黑龙江省第五次全国经济普查公报（第三号）_普查公报_省统计局",
+            "url": "https://tjj.hlj.gov.cn/tjj/c106780/202504/c00_31830891.shtml",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "黑龙江省第五次全国经济普查公报（第四号）_普查公报_省统计局",
+            "url": "https://tjj.hlj.gov.cn/tjj/c106780/202504/c00_31830895.shtml",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "黑龙江省第五次全国经济普查公报（第六号）_普查公报_省统计局",
+            "url": "https://tjj.hlj.gov.cn/tjj/c106780/202504/c00_31830899.shtml",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-4.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-4.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "2025年黑龙江省国民经济和社会发展统计公报_省市公报_省统计局",
+            "url": "https://tjj.hlj.gov.cn/tjj/c106779/202603/c00_31925539.shtml",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-hl.txt",
+      "officialCandidates": [
+        {
+          "title": "黑龙江省第五次全国经济普查公报（第一号）_普查公报_省统计局",
+          "url": "https://tjj.hlj.gov.cn/tjj/c106780/202504/c00_31830883.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "黑龙江省第五次全国经济普查公报（第二号）_普查公报_省统计局",
+          "url": "https://tjj.hlj.gov.cn/tjj/c106780/202504/c00_31830887.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "黑龙江省第五次全国经济普查公报（第五号）_普查公报_省统计局",
+          "url": "https://tjj.hlj.gov.cn/tjj/c106780/202504/c00_31830898.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "黑龙江省第五次全国经济普查公报（第三号）_普查公报_省统计局",
+          "url": "https://tjj.hlj.gov.cn/tjj/c106780/202504/c00_31830891.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "黑龙江省第五次全国经济普查公报（第四号）_普查公报_省统计局",
+          "url": "https://tjj.hlj.gov.cn/tjj/c106780/202504/c00_31830895.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "黑龙江省第五次全国经济普查公报（第六号）_普查公报_省统计局",
+          "url": "https://tjj.hlj.gov.cn/tjj/c106780/202504/c00_31830899.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2025年黑龙江省国民经济和社会发展统计公报_省市公报_省统计局",
+          "url": "https://tjj.hlj.gov.cn/tjj/c106779/202603/c00_31925539.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "普查公报_省统计局",
+          "url": "https://tjj.hlj.gov.cn/tjj/c106780/common_olist.shtml?tab=zdgknr",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "省市公报_省统计局",
+          "url": "https://tjj.hlj.gov.cn/tjj/c106779/common_olist.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "省统计局",
+          "url": "https://tjj.hlj.gov.cn/tjj/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "省市公报_省统计局",
+          "url": "https://tjj.hlj.gov.cn/tjj/c106779/common_olist.shtml?tab=zdgknr",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "省统计局",
+          "url": "https://tjj.hlj.gov.cn/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "黑龙江省统计局（本级）",
+          "url": "https://tjj.hlj.gov.cn/tjj/czdwjs/202410/31775029/files/2023%E5%B9%B4%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81%E7%BB%9F%E8%AE%A1%E5%B1%80%EF%BC%88%E6%9C%AC%E7%BA%A7%EF%BC%89%E9%83%A8%E9%97%A8%E5%86%B3%E7%AE%97.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "黑龙江省统计局2023年部门预算",
+          "url": "https://tjj.hlj.gov.cn/tjj/czbmys/202302/31558229/files/%E9%BB%91%E9%BE%99%E6%B1%9F%E7%9C%81%E7%BB%9F%E8%AE%A1%E5%B1%802023%E5%B9%B4%E9%83%A8%E9%97%A8%E9%A2%84%E7%AE%97.pdf",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "上海",
+      "regionId": "sh",
+      "priority": true,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "obtained",
+        "candidates": [
+          {
+            "title": "上海市第五次全国经济普查主要数据公报（第一号）_统计公报_上海市统计局",
+            "url": "https://tjj.sh.gov.cn/tjgb/20250424/fe6e54b06d3f4059a44c406b09c996fa.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "上海市第五次全国经济普查主要数据公报（第二号）_统计公报_上海市统计局",
+            "url": "https://tjj.sh.gov.cn/tjgb/20250424/3e21538a6e0a407395ac288fc8e929b3.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "上海市第五次全国经济普查主要数据公报（第三号）_统计公报_上海市统计局",
+            "url": "https://tjj.sh.gov.cn/tjgb/20250424/d9c355aa169142269a1b91be91bbbec6.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "上海经济普查年鉴2023（浏览版）_经济普查_上海市统计局",
+            "url": "https://tjj.sh.gov.cn/tjnj_jjpc/20260112/03f91e4e384a4245b04cda471af7c0df.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "上海经济普查年鉴2023（下载版）_经济普查_上海市统计局",
+            "url": "https://tjj.sh.gov.cn/tjnj_jjpc/20260112/6c16346d079a4a14af6f51665e65ed97.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "上海市第五次全国经济普查主要数据公报",
+            "url": "https://tjj.sh.gov.cn/cmsres/42/4245ede056ad44d29f7c7410088be277/1fe46fa421193dfbc009dd59490aefdc.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "上海市第五次全国经济普查主要数据公报",
+            "url": "https://tjj.sh.gov.cn/cmsres/b3/b36d6d16841e4ac0a64a2e6664c69833/85fdf28606c6847035976a586d8d028d.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "上海市第五次全国经济普查主要数据公报",
+            "url": "https://tjj.sh.gov.cn/cmsres/34/342113e5140a4ddfb8b87094a77c34bf/ab561db231f8ef1b8e3aa2ecd3616b02.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "第五次全国经济普查实施方案",
+            "url": "https://tjj.sh.gov.cn/cmsres/ca/ca201ba07a58439e8c414cd6e9468eb2/610fc9c7fad600f8d24c8f2feffc6d52.pdf",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "已读第二产业公报C39行；企业数、期末就业、收入已提取",
+        "nextStep": "如发布修订，保留旧值并核对；扩展到本省市内地区/细行业须另读表。",
+        "sourceId": "sh-census2023"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-8.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "2025_统计年鉴_上海市统计局",
+            "url": "https://tjj.sh.gov.cn/tjnj/20260302/ab5e54f645fd4184b9e9c3aeef8a1c6c.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "2025上海统计年鉴",
+            "url": "https://tjj.sh.gov.cn/tjnj/tjnj2025.htm",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "2025上海统计年鉴(英文版)",
+            "url": "https://tjj.sh.gov.cn/tjnj/tjnj2025e.htm",
+            "status": "search-located-not-read"
+          }
+        ],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-8.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "obtained-not-comparable",
+        "candidates": [
+          {
+            "title": "2025年上海市国民经济和社会发展统计公报_统计公报_上海市统计局",
+            "url": "https://tjj.sh.gov.cn/tjgb/20260330/e0772941e8e041eaaad2df850b44ef98.html",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "上海需取得增加值增速；广东需读取完整原文；其它地区可补2024及2026最新一期，不能由增速反推现价规模。",
+        "sourceId": "sh-economy2025"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-sh.txt",
+      "officialCandidates": [
+        {
+          "title": "统计公报_上海市统计局",
+          "url": "https://tjj.sh.gov.cn/tjgb/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2025年上海市国民经济和社会发展统计公报_统计公报_上海市统计局",
+          "url": "https://tjj.sh.gov.cn/tjgb/20260330/e0772941e8e041eaaad2df850b44ef98.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "上海市第五次全国经济普查主要数据公报（第一号）_统计公报_上海市统计局",
+          "url": "https://tjj.sh.gov.cn/tjgb/20250424/fe6e54b06d3f4059a44c406b09c996fa.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "上海市第五次全国经济普查主要数据公报（第二号）_统计公报_上海市统计局",
+          "url": "https://tjj.sh.gov.cn/tjgb/20250424/3e21538a6e0a407395ac288fc8e929b3.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "分析报告_上海市统计局",
+          "url": "https://tjj.sh.gov.cn/fxbg/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "上海市第五次全国经济普查主要数据公报（第三号）_统计公报_上海市统计局",
+          "url": "https://tjj.sh.gov.cn/tjgb/20250424/d9c355aa169142269a1b91be91bbbec6.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "上海市统计局",
+          "url": "https://tjj.sh.gov.cn/index.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "统计年鉴_上海市统计局",
+          "url": "https://tjj.sh.gov.cn/tjnj/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2025上海统计年鉴",
+          "url": "https://tjj.sh.gov.cn/tjnj/tjnj2025.htm",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "上海经济普查年鉴2023（浏览版）_经济普查_上海市统计局",
+          "url": "https://tjj.sh.gov.cn/tjnj_jjpc/20260112/03f91e4e384a4245b04cda471af7c0df.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "上海经济普查年鉴2023（下载版）_经济普查_上海市统计局",
+          "url": "https://tjj.sh.gov.cn/tjnj_jjpc/20260112/6c16346d079a4a14af6f51665e65ed97.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "统计服务_上海市统计局",
+          "url": "https://tjj.sh.gov.cn/tjfw/index.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "上海市第五次全国经济普查主要数据公报",
+          "url": "https://tjj.sh.gov.cn/cmsres/42/4245ede056ad44d29f7c7410088be277/1fe46fa421193dfbc009dd59490aefdc.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "上海市第五次全国经济普查主要数据公报",
+          "url": "https://tjj.sh.gov.cn/cmsres/b3/b36d6d16841e4ac0a64a2e6664c69833/85fdf28606c6847035976a586d8d028d.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "上海市第五次全国经济普查主要数据公报",
+          "url": "https://tjj.sh.gov.cn/cmsres/34/342113e5140a4ddfb8b87094a77c34bf/ab561db231f8ef1b8e3aa2ecd3616b02.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "第五次全国经济普查实施方案",
+          "url": "https://tjj.sh.gov.cn/cmsres/ca/ca201ba07a58439e8c414cd6e9468eb2/610fc9c7fad600f8d24c8f2feffc6d52.pdf",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "江苏",
+      "regionId": "js",
+      "priority": true,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "obtained",
+        "candidates": [
+          {
+            "title": "江苏省统计局 数据发布 江苏省第五次全国经济普查公报（第一号）",
+            "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_87595_11513967.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "江苏省统计局 数据发布 江苏省第五次全国经济普查公报（第五号）",
+            "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_87595_11513963.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "江苏省统计局 数据发布 江苏省第五次全国经济普查公报（第四号）",
+            "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_87595_11513964.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "江苏省统计局 数据发布 江苏省第五次全国经济普查公报（第七号）",
+            "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_85275_11513956.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "江苏省统计局 数据发布 江苏省第五次全国经济普查公报（第二号）​",
+            "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_85275_11513950.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "江苏省统计局 数据发布 江苏省第五次全国经济普查公报（第三号）",
+            "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_87595_11513965.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "江苏省统计局 通知公告 江苏省第五次全国经济普查投入产出调查招标课题立项通报",
+            "url": "https://tj.jiangsu.gov.cn/art/2025/12/15/art_87244_11691147.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "江苏省统计局 政策文件 江苏省第五次全国经济普查投入产出调查课题立项名单公示",
+            "url": "https://tj.jiangsu.gov.cn/art/2025/12/8/art_85329_11687400.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "江苏省统计局 政策文件 江苏省第五次全国经济普查投入产出课题研究招标公告",
+            "url": "https://tj.jiangsu.gov.cn/art/2025/11/14/art_85329_11675071.html",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "已读第二产业公报C39行；企业数、期末就业、收入已提取",
+        "nextStep": "如发布修订，保留旧值并核对；扩展到本省市内地区/细行业须另读表。",
+        "sourceId": "js-census2023"
+      },
+      "localYearbook2024": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "江苏省统计局 统计要闻 《江苏统计年鉴2024》正式出版发行",
+            "url": "https://tj.jiangsu.gov.cn/art/2025/1/13/art_85270_11469653.html",
+            "status": "search-located-not-read"
+          }
+        ],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-8.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-8.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "obtained-c39-growth",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "上海需取得增加值增速；广东需读取完整原文；其它地区可补2024及2026最新一期，不能由增速反推现价规模。",
+        "sourceId": "js-bulletin2025"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-js.txt",
+      "officialCandidates": [
+        {
+          "title": "江苏省统计局 数据发布 江苏省第五次全国经济普查公报（第一号）",
+          "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_87595_11513967.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "江苏省统计局 数据发布 江苏省第五次全国经济普查公报（第五号）",
+          "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_87595_11513963.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "江苏省统计局 数据发布 江苏省第五次全国经济普查公报（第四号）",
+          "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_87595_11513964.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "江苏省统计局 数据发布 江苏省第五次全国经济普查公报（第七号）",
+          "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_85275_11513956.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "江苏省统计局 数据发布 江苏省第五次全国经济普查公报（第二号）​",
+          "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_85275_11513950.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "江苏省统计局 数据发布 江苏省第五次全国经济普查公报（第三号）",
+          "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_87595_11513965.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "江苏省统计局 2025",
+          "url": "https://tj.jiangsu.gov.cn/col/col93166/index.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "江苏省统计局 通知公告 江苏省第五次全国经济普查投入产出调查招标课题立项通报",
+          "url": "https://tj.jiangsu.gov.cn/art/2025/12/15/art_87244_11691147.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "江苏省统计局 政策文件 江苏省第五次全国经济普查投入产出调查课题立项名单公示",
+          "url": "https://tj.jiangsu.gov.cn/art/2025/12/8/art_85329_11687400.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "江苏省统计局 统计要闻 《江苏统计年鉴2024》正式出版发行",
+          "url": "https://tj.jiangsu.gov.cn/art/2025/1/13/art_85270_11469653.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "江苏省统计局 政策文件 江苏省第五次全国经济普查投入产出课题研究招标公告",
+          "url": "https://tj.jiangsu.gov.cn/art/2025/11/14/art_85329_11675071.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "江苏省统计局 年度统计公报 2024年江苏省国民经济和社会发展统计公报",
+          "url": "https://tj.jiangsu.gov.cn/art/2025/3/15/art_87586_11514118.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "附件",
+          "url": "https://tj.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=a3cb289f1b5f479aa1b23e4307987664.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "<table id=\"e1\">",
+          "url": "https://tj.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=d60d632ad1ce4866b2ce7e53285b703c.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "江苏省省级部门整体预算绩效目标表",
+          "url": "https://tj.jiangsu.gov.cn/module/download/downfile.jsp?classid=0&filename=9ff52571b7044c28bb5a95abf90c2bb6.pdf",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "浙江",
+      "regionId": "zj",
+      "priority": true,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "located-pending-reading",
+        "candidates": [],
+        "depth": "已见统计局署名公报索引；PDF直接404，候选数值保留待核，正式比较留空",
+        "nextStep": "恢复官方原件或找到另一份官方全文，逐项复核后入值。",
+        "sourceId": "zj-census2023"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-8.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-8.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "obtained-c39-growth",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "上海需取得增加值增速；广东需读取完整原文；其它地区可补2024及2026最新一期，不能由增速反推现价规模。",
+        "sourceId": "zj-bulletin2025"
+      },
+      "localIo2023": {
+        "status": "historical-only-located",
+        "candidates": [
+          {
+            "title": "浙江省2012年42部门投入产出表",
+            "url": "https://tjj.zj.gov.cn/art/2020/10/23/art_1229418434_58891189.html",
+            "status": "page-read-attachment-not-extracted"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "当前已读页只提供2012表；进入浙江投入产出目录继续核2020/2023，不判断后续不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-zj.txt",
+      "officialCandidates": [
+        {
+          "title": "浙江省统计局 经济社会发展",
+          "url": "https://tjj.zj.gov.cn/col/col1525492/index.html?eqid=c07ce2cf0012f68700000004645916de",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2025 年部门预算",
+          "url": "https://tjj.zj.gov.cn/module/download/downfile.jsp?classid=0&filename=071fbcdc838c454a82b6347e20e00204.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "浙江省统计局2024 年工作要点",
+          "url": "https://tjj.zj.gov.cn/module/download/downfile.jsp?classid=0&filename=bb4ef380b95347b4a8079cc80221a3b2.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "浙江省第四次全国经济普查",
+          "url": "https://tjj.zj.gov.cn/attach/0/b967d7c84c744f0688857b08179bf1f6.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2013年浙江省国民经济和社会发展统计公报",
+          "url": "https://tjj.zj.gov.cn/art/2014/2/25/art_1525539_23199727.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "浙江省2012年42部门投入产出表",
+          "url": "https://tjj.zj.gov.cn/art/2020/10/23/art_1229418434_58891189.html",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "安徽",
+      "regionId": "ah",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-8.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-8.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-ah.txt",
+      "officialCandidates": []
+    },
+    {
+      "region": "福建",
+      "regionId": "fj",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "福建省第五次全国经济普查公报（第一号）",
+            "url": "https://tjj.fj.gov.cn/xxgk/tjgb/202503/P020250321356122709889.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "福建省第五次全国经济普查公报（第五号）",
+            "url": "https://tjj.fj.gov.cn/xxgk/tjgb/202503/P020250322417272652332.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "福建省第五次全国经济普查公报（第二号）",
+            "url": "https://tjj.fj.gov.cn/xxgk/tjgb/202503/P020250321356756940461.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "福建省第五次全国经济普查公报（第六号）",
+            "url": "https://tjj.fj.gov.cn/xxgk/tjgb/202503/P020250322365602176029.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "福建省第五次全国经济普查公报（第四号）",
+            "url": "https://tjj.fj.gov.cn/xxgk/tjgb/202503/P020250322364883596216.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "通知公告_ 福建省第五次全国经济普查_ 福建省统计局",
+            "url": "https://tjj.fj.gov.cn/ztzl/wjpzl/tzgg/202309/t20230905_6250029.htm",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-12.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-12.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-fj.txt",
+      "officialCandidates": [
+        {
+          "title": "年鉴公报_ 政务公开_ 福建省统计局",
+          "url": "https://tjj.fj.gov.cn/xxgk/njgb/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "统计公报_ 年鉴公报_ 福建省统计局",
+          "url": "https://tjj.fj.gov.cn/xxgk/njgb/tjgb/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "统计公报_ 政务公开_ 福建省统计局",
+          "url": "https://tjj.fj.gov.cn/xxgk/tjgb/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "福建省统计局",
+          "url": "https://tjj.fj.gov.cn/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "统计年鉴_ 年鉴公报_ 福建省统计局",
+          "url": "https://tjj.fj.gov.cn/xxgk/njgb/tjnj/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "福建省第五次全国经济普查公报（第一号）",
+          "url": "https://tjj.fj.gov.cn/xxgk/tjgb/202503/P020250321356122709889.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "统计公报_ 政务公开_ 福建省统计局",
+          "url": "https://tjj.fj.gov.cn/xxgk/tjgb/202603/t20260313_7109476.htm",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "福建省第五次全国经济普查公报（第五号）",
+          "url": "https://tjj.fj.gov.cn/xxgk/tjgb/202503/P020250322417272652332.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "福建省第五次全国经济普查公报（第二号）",
+          "url": "https://tjj.fj.gov.cn/xxgk/tjgb/202503/P020250321356756940461.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "统计公报_ 政务公开_ 福建省统计局",
+          "url": "https://tjj.fj.gov.cn/xxgk/tjgb/202503/t20250321_6786148.htm",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "福建省第五次全国经济普查公报（第六号）",
+          "url": "https://tjj.fj.gov.cn/xxgk/tjgb/202503/P020250322365602176029.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "福建省第五次全国经济普查公报（第四号）",
+          "url": "https://tjj.fj.gov.cn/xxgk/tjgb/202503/P020250322364883596216.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "通知公告_ 政务公开_ 福建省统计局",
+          "url": "https://tjj.fj.gov.cn/xxgk/ztgg/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "通知公告_ 福建省第五次全国经济普查_ 福建省统计局",
+          "url": "https://tjj.fj.gov.cn/ztzl/wjpzl/tzgg/202309/t20230905_6250029.htm",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "政务公开_ 福建省统计局",
+          "url": "https://tjj.fj.gov.cn/xxgk/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "全省经济运行情况_ 统计信息_ 福建省统计局",
+          "url": "https://tjj.fj.gov.cn/xxgk/tjxx/jjyxqk/202501/t20250122_6706484.htm",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "江西",
+      "regionId": "jx",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-12.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-12.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-jx.txt",
+      "officialCandidates": []
+    },
+    {
+      "region": "山东",
+      "regionId": "sd",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-12.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "山东统计年鉴2025",
+            "url": "https://tjj.shandong.gov.cn/tjnj/nj2025/zk/indexch.htm",
+            "status": "search-located-not-read"
+          }
+        ],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-12.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "山东省统计局 统计公报 2025年山东省国民经济和社会发展统计公报",
+            "url": "https://tjj.shandong.gov.cn/art/2026/3/3/art_104039_10322510.html?xxgkhide=1",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "山东省统计局 最新发布与解读 解读：2025年全省经济运行稳健向好",
+            "url": "https://tjj.shandong.gov.cn/art/2026/1/23/art_6109_10322052.html",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-sd.txt",
+      "officialCandidates": [
+        {
+          "title": "山东省统计局",
+          "url": "https://tjj.shandong.gov.cn/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "山东省统计局 统计公报 2025年山东省国民经济和社会发展统计公报",
+          "url": "https://tjj.shandong.gov.cn/art/2026/3/3/art_104039_10322510.html?xxgkhide=1",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "山东省统计局 统计公报 2024年山东省国民经济和社会发展统计公报",
+          "url": "https://tjj.shandong.gov.cn/art/2025/3/5/art_6196_10316729.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "国家统计局山东调查",
+          "url": "https://tjj.shandong.gov.cn/tjnj/nj2025/zk/html/w2501.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "山东统计年鉴2025",
+          "url": "https://tjj.shandong.gov.cn/tjnj/nj2025/zk/indexch.htm",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "山东省统计局 统计公报 2023年山东省国民经济和社会发展统计公报",
+          "url": "https://tjj.shandong.gov.cn/art/2024/3/3/art_6196_10311526.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "lefte",
+          "url": "https://tjj.shandong.gov.cn/tjnj/nj2025/zk/lefte.htm",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "山东省统计局 媒体报道 98566亿元，增长5.7%！2024年山东经济稳健向好",
+          "url": "https://tjj.shandong.gov.cn/art/2025/1/24/art_6192_10316270.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "国家",
+          "url": "https://tjj.shandong.gov.cn/tjnj/nj2024/zk/html/fu0301.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "山东省统计局 最新发布与解读 解读：2024年全省经济稳健向好 进中提质 高质量发展迈出坚实步伐",
+          "url": "https://tjj.shandong.gov.cn/art/2025/1/20/art_6109_10316031.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "山东省统计局 统计公报",
+          "url": "https://tjj.shandong.gov.cn/col/col6196/index.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "山东省统计局 媒体报道 山东破10万亿元，全国第三个、北方第一个！",
+          "url": "https://tjj.shandong.gov.cn/art/2026/1/23/art_6192_10322167.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "山东省统计局 最新发布与解读 解读：2025年全省经济运行稳健向好",
+          "url": "https://tjj.shandong.gov.cn/art/2026/1/23/art_6109_10322052.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "山东省统计局 普查公报",
+          "url": "https://tjj.shandong.gov.cn/col/col6293/index.html",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "河南",
+      "regionId": "ha",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-12.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-12.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-ha.txt",
+      "officialCandidates": [
+        {
+          "title": "经济普查_河南省统计局",
+          "url": "https://tjj.henan.gov.cn/2025/05-20/3159655.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "专题专栏_河南省统计局",
+          "url": "https://tjj.henan.gov.cn/ztzl/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "经济普查公报_河南省统计局",
+          "url": "https://tjj.henan.gov.cn/2010/04-19/1367665.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2015年河南省国民经济和社会发展统计公报_国民经济和社会发展统计公报_河南省统计局",
+          "url": "https://tjj.henan.gov.cn/2016/08-19/1367741.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2017年河南省国民经济和社会发展统计公报_国民经济和社会发展统计公报_河南省统计局",
+          "url": "https://tjj.henan.gov.cn/2018/02-27/1367745.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "工作动态_河南省统计局",
+          "url": "https://tjj.henan.gov.cn/2022/02-17/2400510.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "网上咨询_河南省统计局",
+          "url": "https://tjj.henan.gov.cn/2014/06-04/1365809.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "数据发布_河南省统计局",
+          "url": "https://tjj.henan.gov.cn/2025/04-17/3149029.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "省统计局审批的省级部门及地方统计机构的统计调查项目_河南省统计局",
+          "url": "https://tjj.henan.gov.cn/2025/02-25/3127607.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2025年1-2月份全省规模以上工业增加值增长9.1%_数据发布_河南省统计局",
+          "url": "https://tjj.henan.gov.cn/2025/03-19/3138505.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2024年全省社会消费品零售总额增长6.1%_数据发布_河南省统计局",
+          "url": "https://tjj.henan.gov.cn/2025/01-17/3113620.html",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "湖北",
+      "regionId": "hb",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "湖北省第五次全国经济普查公报（第一号）--湖北省统计局",
+            "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/pcgb/wnpc/wjp/202503/t20250321_5584639.shtml",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "湖北省第五次全国经济普查公报（第四号）--湖北省统计局",
+            "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/pcgb/wnpc/wjp/202503/t20250321_5584798.shtml",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "湖北省第五次全国经济普查公报（第三号）--湖北省统计局",
+            "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/pcgb/wnpc/wjp/202503/t20250321_5584723.shtml",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "湖北省第五次全国经济普查公报（第七号）--湖北省统计局",
+            "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/pcgb/wnpc/wjp/202503/t20250321_5584902.shtml",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "湖北省第五次全国经济普查公报（第二号）--湖北省统计局",
+            "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/pcgb/wnpc/wjp/202503/t20250321_5584672.shtml",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "湖北省第五次全国经济普查公报（第五号）--湖北省统计局",
+            "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/pcgb/wnpc/wjp/202503/t20250321_5584852.shtml",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "湖北省第五次全国经济普查公报（第六号）--湖北省统计局",
+            "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/pcgb/wnpc/wjp/202503/t20250321_5584883.shtml",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-16.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-16.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "湖北省2025年国民经济和社会发展统计公报--湖北省统计局",
+            "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/ndtjgb/qstjgb/202603/t20260318_5894639.shtml",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-hb.txt",
+      "officialCandidates": [
+        {
+          "title": "“五经普”统计公报--湖北省统计局",
+          "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/pcgb/wnpc/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖北省第五次全国经济普查公报（第一号）--湖北省统计局",
+          "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/pcgb/wnpc/wjp/202503/t20250321_5584639.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "全省统计公报--湖北省统计局",
+          "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖北省第五次全国经济普查公报（第四号）--湖北省统计局",
+          "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/pcgb/wnpc/wjp/202503/t20250321_5584798.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖北省统计局",
+          "url": "https://tjj.hubei.gov.cn/site/tjj/search.html?searchWord=%E5%85%AC%E6%8A%A5&siteId=12",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖北省第五次全国经济普查公报（第三号）--湖北省统计局",
+          "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/pcgb/wnpc/wjp/202503/t20250321_5584723.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖北省第五次全国经济普查公报（第七号）--湖北省统计局",
+          "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/pcgb/wnpc/wjp/202503/t20250321_5584902.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖北省第五次全国经济普查公报（第二号）--湖北省统计局",
+          "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/pcgb/wnpc/wjp/202503/t20250321_5584672.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖北省第五次全国经济普查公报（第五号）--湖北省统计局",
+          "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/pcgb/wnpc/wjp/202503/t20250321_5584852.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖北省第五次全国经济普查公报（第六号）--湖北省统计局",
+          "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/pcgb/wnpc/wjp/202503/t20250321_5584883.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖北省2025年国民经济和社会发展统计公报--湖北省统计局",
+          "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/ndtjgb/qstjgb/202603/t20260318_5894639.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "全省统计年鉴--湖北省统计局",
+          "url": "https://tjj.hubei.gov.cn/tjsj/sjkscx/tjnj/qstjnj/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "24年鉴.ps",
+          "url": "https://tjj.hubei.gov.cn/tjsj/sjkscx/tjnj/gsztj/ezs/202504/P020260323608378438096.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "一、统计公报",
+          "url": "https://tjj.hubei.gov.cn/tjsj/sjkscx/tjnj/gsztj/hss/202504/P020250421554816619675.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "单位名称：湖北",
+          "url": "https://tjj.hubei.gov.cn/zfxxgk_GK2020/fdzdgknr_GK2020/czzj_GK2020/czyjs_GK2020/js/2024/202508/P020250905364366007164.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "20011年湖北省经济和社会发展统计公报",
+          "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/ndtjgb/sztjgb/202504/P020250422581828392783.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "00 扉页",
+          "url": "https://tjj.hubei.gov.cn/tjsj/sjkscx/tjnj/gsztj/qjs/202505/P020260330592443528610.pdf",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "湖南",
+      "regionId": "hn",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "湖南省统计局 - 湖南经济普查年鉴（2023）",
+            "url": "https://tjj.hunan.gov.cn/hntj/tjfx/hntjnj/hnjjpcnjwlb/202601/t20260109_33889590.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "湖南省统计局 - 湖南省第五次全国经济普查公报（第一号）",
+            "url": "https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/pcgbv/202503/t20250314_33612845.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "湖南省统计局 - 湖南省第五次全国经济普查公报（第五号）",
+            "url": "https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/pcgbv/202503/t20250314_33612730.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "湖南省统计局 - 湖南省第五次全国经济普查公报（第二号）",
+            "url": "https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/pcgbv/202503/t20250314_33612836.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "湖南省统计局 - 湖南省第五次全国经济普查公报（第六号）",
+            "url": "https://tjj.hunan.gov.cn/tjfx/tjgb/pcgbv/202503/t20250314_33612715.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "湖南省统计局 - 湖南经济普查年鉴线上可查",
+            "url": "https://tjj.hunan.gov.cn/hntj/tjgz/mthntj/202601/t20260114_33892580.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "湖南省统计局 - 湖南省第五次全国经济普查公报（第七号）",
+            "url": "https://tjj.hunan.gov.cn/hntj/m/tjgb_1/202503/t20250314_33612588.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "湖南省统计局 - 湖南省第五次全国经济普查公报（第四号）",
+            "url": "https://tjj.hunan.gov.cn/hntj/m/tjgb_1/202503/t20250314_33612766.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "湖南省统计局 - 湖南省第五次全国经济普查公报（第三号）",
+            "url": "https://tjj.hunan.gov.cn/hntj/m/tjgb_1/202503/t20250314_33612806.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "湖南省第五次全国经济普查公报（第一号） | ——湖南省第五次全国经济普查顺利完成 |",
+            "url": "https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/pcgbv/202503/33612845/files/a6705d67f98f4bf78c3cbde02964f75a.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "湖南省第五次全国经济普查公报（第二号） | ——单位基本情况 |",
+            "url": "https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/pcgbv/202503/33612836/files/6819600f159a4f98ba613bdfc70766e6.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "湖南省第五次全国经济普查公报（第六号）  |  |",
+            "url": "https://tjj.hunan.gov.cn/tjfx/tjgb/pcgbv/202503/33612715/files/0a6884e7f1fc42e8958db7fbe33b530f.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "湖南省第五次全国经济普查公报（第三号） | ——第二产业基本情况 |",
+            "url": "https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/pcgbv/202503/33612806/files/ce8b8010633649e7ae827f072b13a82b.pdf",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "湖南省统计局 - 湖南统计年鉴2024",
+            "url": "https://tjj.hunan.gov.cn/hntj/tjfx/hntjnj/202503/t20250331_33627676.html",
+            "status": "search-located-not-read"
+          }
+        ],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-16.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-16.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-hn.txt",
+      "officialCandidates": [
+        {
+          "title": "湖南省统计局 - 湖南经济普查年鉴（2023）",
+          "url": "https://tjj.hunan.gov.cn/hntj/tjfx/hntjnj/hnjjpcnjwlb/202601/t20260109_33889590.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖南省统计局 - 湖南省第五次全国经济普查公报（第一号）",
+          "url": "https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/pcgbv/202503/t20250314_33612845.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖南省统计局 - 湖南省第五次全国经济普查公报（第五号）",
+          "url": "https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/pcgbv/202503/t20250314_33612730.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖南省统计局 - 普查公报",
+          "url": "https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/pcgbv/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖南省统计局 - 湖南省第五次全国经济普查公报（第二号）",
+          "url": "https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/pcgbv/202503/t20250314_33612836.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖南省统计局 - 国民经济和社会发展统计公报",
+          "url": "https://tjj.hunan.gov.cn/tjfx/tjgb/jjfzgb/index.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖南省统计局 - 湖南省第五次全国经济普查公报（第六号）",
+          "url": "https://tjj.hunan.gov.cn/tjfx/tjgb/pcgbv/202503/t20250314_33612715.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖南省统计局 - 湖南经济普查年鉴线上可查",
+          "url": "https://tjj.hunan.gov.cn/hntj/tjgz/mthntj/202601/t20260114_33892580.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖南省统计局 - 湖南省第五次全国经济普查公报（第七号）",
+          "url": "https://tjj.hunan.gov.cn/hntj/m/tjgb_1/202503/t20250314_33612588.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖南省统计局 - 湖南省第五次全国经济普查公报（第四号）",
+          "url": "https://tjj.hunan.gov.cn/hntj/m/tjgb_1/202503/t20250314_33612766.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖南省统计局 - 湖南省第五次全国经济普查公报（第三号）",
+          "url": "https://tjj.hunan.gov.cn/hntj/m/tjgb_1/202503/t20250314_33612806.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖南省统计局 - 统计年鉴",
+          "url": "https://tjj.hunan.gov.cn/tjsj/tjnj/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖南省第五次全国经济普查公报（第一号） | ——湖南省第五次全国经济普查顺利完成 |",
+          "url": "https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/pcgbv/202503/33612845/files/a6705d67f98f4bf78c3cbde02964f75a.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖南省第五次全国经济普查公报（第二号） | ——单位基本情况 |",
+          "url": "https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/pcgbv/202503/33612836/files/6819600f159a4f98ba613bdfc70766e6.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖南省第五次全国经济普查公报（第六号）  |  |",
+          "url": "https://tjj.hunan.gov.cn/tjfx/tjgb/pcgbv/202503/33612715/files/0a6884e7f1fc42e8958db7fbe33b530f.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "湖南省第五次全国经济普查公报（第三号） | ——第二产业基本情况 |",
+          "url": "https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/pcgbv/202503/33612806/files/ce8b8010633649e7ae827f072b13a82b.pdf",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "广东",
+      "regionId": "gd",
+      "priority": true,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "obtained",
+        "candidates": [
+          {
+            "title": "广东省第五次全国经济普查公报（第一号）",
+            "url": "https://stats.gd.gov.cn/attachment/0/576/576096/4680359.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "广东省第五次全国经济普查公报（第五号）",
+            "url": "https://stats.gd.gov.cn/attachment/0/576/576092/4680365.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "广东省第五次全国经济普查公报（第七号）",
+            "url": "https://stats.gd.gov.cn/attachment/0/576/576090/4680368.pdf",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "已读第二产业公报C39行；企业数、期末就业、收入已提取",
+        "nextStep": "如发布修订，保留旧值并核对；扩展到本省市内地区/细行业须另读表。",
+        "sourceId": "gd-census2023"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-16.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-16.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "located-pending-reading",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "上海需取得增加值增速；广东需读取完整原文；其它地区可补2024及2026最新一期，不能由增速反推现价规模。",
+        "sourceId": "gd-economy2025"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-gd.txt",
+      "officialCandidates": [
+        {
+          "title": "广东省第五次全国经济普查公报（第一号）",
+          "url": "https://stats.gd.gov.cn/attachment/0/576/576096/4680359.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "广东省第五次全国经济普查公报（第五号）",
+          "url": "https://stats.gd.gov.cn/attachment/0/576/576092/4680365.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "广东省第五次全国经济普查公报（第七号）",
+          "url": "https://stats.gd.gov.cn/attachment/0/576/576090/4680368.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "稳中求进 逐新而上——解读2024年国民经济和社会发展统计公报",
+          "url": "https://stats.gd.gov.cn/gkmlpt/content/4/4674/post_4674796.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2025年1-8月规模以上工业出口交货值",
+          "url": "https://stats.gd.gov.cn/gkmlpt/content/4/4773/post_4773112.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2023年全年以来广东地区生产总值增速",
+          "url": "https://stats.gd.gov.cn/gdp/content/post_4792556.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "互动交流 - 广东省统计局网站",
+          "url": "https://stats.gd.gov.cn/hdjlpt/detail?pid=3067519",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "广东省统计局-2025年1-7月规模以上工业企业主要经济效益指标",
+          "url": "https://stats.gd.gov.cn/gyqyzyjjxyzb/content/post_4766425.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "产业政策加码 激活体育消费潜力",
+          "url": "https://stats.gd.gov.cn/gkmlpt/content/4/4771/post_4771154.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2024年全年各市地区生产总值",
+          "url": "https://stats.gd.gov.cn/fsjdgnsczz/content/post_4666332.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2023年上半年以来广东地区生产总值增速",
+          "url": "https://stats.gd.gov.cn/gdp/content/post_4710040.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2024年1-5月主要产品产量",
+          "url": "https://stats.gd.gov.cn/gkmlpt/content/4/4452/post_4452849.html",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "广西",
+      "regionId": "gx",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "广西第五次全国经济普查公报（第六号）——部分新兴产业发展情况-广西壮族自治区统计局",
+            "url": "https://tjj.gxzf.gov.cn/tjsj/tjgb/qqgb/t19572433.shtml",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-16.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-16.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-gx.txt",
+      "officialCandidates": [
+        {
+          "title": "广西第五次全国经济普查公报（第六号）——部分新兴产业发展情况-广西壮族自治区统计局",
+          "url": "https://tjj.gxzf.gov.cn/tjsj/tjgb/qqgb/t19572433.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "发展统计公报 [1]广西壮族自治区统",
+          "url": "https://tjj.gxzf.gov.cn/tjsj/tjnj/material/tjnj20200415/2023/zk/html/gb.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "首页要闻-广西壮族自治区统计局",
+          "url": "https://tjj.gxzf.gov.cn/syyw/index_1.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "最新发布-广西壮族自治区统计局",
+          "url": "https://tjj.gxzf.gov.cn/zxfb/index_3.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2025年全区统计工作会议和自治区统计局党的工作暨党风廉政建设工作会议在南宁召开-广西壮族自治区统计局",
+          "url": "https://tjj.gxzf.gov.cn/qta/gzdta/qqdta/t19616220.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2022年广西壮族自治区国民经济和社会发展统计公报-广西壮族自治区统计局",
+          "url": "https://tjj.gxzf.gov.cn/qta/sjfbjjda/tjgba/qqgb/t19950105.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "广西壮族自治区统计局关于2023年度全区统计系统优秀统计分析、统计信息和课题研究报告评选结果的通报-广西壮族自治区统计局",
+          "url": "https://tjj.gxzf.gov.cn/zwgk/fdzdgknr/tzgg/t17993333.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "全区公报-广西壮族自治区统计局",
+          "url": "https://tjj.gxzf.gov.cn/qta/sjfbjjda/tjgba/qqgb/index_2.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "全市经济运行稳中向好 发展质效稳步提升 ——崇左市2024年经济运行情况分析-广西壮族自治区统计局",
+          "url": "https://tjj.gxzf.gov.cn/tjsj/jdfx/sx/t19578999.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2014年广西壮族自治区国民经济和社会发展统计公报 - 统计公报 - 广西壮族自治区统计局网站 - tjj.gxzf.gov.cn",
+          "url": "https://tjj.gxzf.gov.cn/tjsj/tjgb/t2381206.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2016年广西壮族自治区国民经济和社会发展统计公报-广西壮族自治区统计局",
+          "url": "https://tjj.gxzf.gov.cn/syyw/t2330663.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2020年广西壮族自治区国民经济和社会发展统计公报-广西壮族自治区统计局",
+          "url": "https://tjj.gxzf.gov.cn/qta/sjfbjjda/tjgba/qqgb/t19950099.shtml",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "海南",
+      "regionId": "hi",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "海南省第五次全国经济普查公报（第一号）—海南省第五次全国经济普查顺利完成 -- 普查公报 -- 海南省统计局",
+            "url": "https://stats.hainan.gov.cn/tjj/tjgb/pcgb/202504/t20250430_3857944.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "海南省第五次全国经济普查公报（第三号） ——第二产业基本情况 -- 普查公报 -- 海南省统计局",
+            "url": "https://stats.hainan.gov.cn/tjj/tjgb/pcgb/202504/t20250430_3858051.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "海南省第五次全国经济普查公报（第六号） ——部分新兴产业发展情况 -- 普查公报 -- 海南省统计局",
+            "url": "https://stats.hainan.gov.cn/tjj/tjgb/pcgb/202504/t20250430_3858078.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "海南省第五次全国经济普查公报（第七号） ——分区域单位和从业人员情况 -- 普查公报 -- 海南省统计局",
+            "url": "https://stats.hainan.gov.cn/tjj/tjgb/pcgb/202504/t20250430_3858079.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "海南省第五次全国经济普查公报（第五号） ——第三产业基本情况之二 -- 普查公报 -- 海南省统计局",
+            "url": "https://stats.hainan.gov.cn/tjj/tjgb/pcgb/202504/t20250430_3858075.html",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-20.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-20.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "2025年海南省国民经济和社会发展统计公报 -- 2025 -- 海南省统计局",
+            "url": "https://stats.hainan.gov.cn/tjj/tjgb/fzgb/2023_88252/202602/t20260226_4032927.html",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-hi.txt",
+      "officialCandidates": [
+        {
+          "title": "普查数据 -- 统计数据 -- 海南省统计局",
+          "url": "https://stats.hainan.gov.cn/tjj/tjsu/pcsj/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "海南省第五次全国经济普查公报（第一号）—海南省第五次全国经济普查顺利完成 -- 普查公报 -- 海南省统计局",
+          "url": "https://stats.hainan.gov.cn/tjj/tjgb/pcgb/202504/t20250430_3857944.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "海南省统计局",
+          "url": "https://stats.hainan.gov.cn/tjj/index.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "海南省第五次全国经济普查公报（第三号） ——第二产业基本情况 -- 普查公报 -- 海南省统计局",
+          "url": "https://stats.hainan.gov.cn/tjj/tjgb/pcgb/202504/t20250430_3858051.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2025年海南省国民经济和社会发展统计公报 -- 2025 -- 海南省统计局",
+          "url": "https://stats.hainan.gov.cn/tjj/tjgb/fzgb/2023_88252/202602/t20260226_4032927.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "海南省统计局",
+          "url": "https://stats.hainan.gov.cn/tjj/index_sj.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "海南省第五次全国经济普查公报（第六号） ——部分新兴产业发展情况 -- 普查公报 -- 海南省统计局",
+          "url": "https://stats.hainan.gov.cn/tjj/tjgb/pcgb/202504/t20250430_3858078.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "海南省第五次全国经济普查公报（第七号） ——分区域单位和从业人员情况 -- 普查公报 -- 海南省统计局",
+          "url": "https://stats.hainan.gov.cn/tjj/tjgb/pcgb/202504/t20250430_3858079.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "海南省第五次全国经济普查公报（第五号） ——第三产业基本情况之二 -- 普查公报 -- 海南省统计局",
+          "url": "https://stats.hainan.gov.cn/tjj/tjgb/pcgb/202504/t20250430_3858075.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2024年海南省国民经济和社会发展统计公报 -- 2024 -- 海南省统计局",
+          "url": "https://stats.hainan.gov.cn/tjj/tjgb/fzgb/2023_87039/202503/t20250313_3832017.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "                                   MONTHLY",
+          "url": "https://stats.hainan.gov.cn/tjj/tjsu/jdsj/2024/202501/P020250127360656758872.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "海南省统计局",
+          "url": "https://stats.hainan.gov.cn/tjj/tjsu/ndsj/2024/202412/P020250116308974141111.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2023年海南省国民经济和社会发展统计公报 -- 2023 -- 海南省统计局",
+          "url": "https://stats.hainan.gov.cn/tjj/tjgb/fzgb/2023/202402/t20240220_3598617.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "如何查询使用海南统计年鉴 -- 统计百科 -- 海南省统计局",
+          "url": "https://stats.hainan.gov.cn/tjj/tjzs/tjbk/202306/t20230628_3443476.html",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "重庆",
+      "regionId": "cq",
+      "priority": true,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "obtained",
+        "candidates": [
+          {
+            "title": "重庆市第五次全国经济普查公报（第五号） - 重庆市统计局",
+            "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427572.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "重庆市第五次全国经济普查公报（第一号） - 重庆市统计局",
+            "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427376.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "重庆市第五次全国经济普查公报（第七号） - 重庆市统计局",
+            "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427613.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "重庆市第五次全国经济普查公报（第四号） - 重庆市统计局",
+            "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427501.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "重庆市第五次全国经济普查公报（第三号） - 重庆市统计局",
+            "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427445.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "重庆市第五次全国经济普查公报（第六号） - 重庆市统计局",
+            "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427606.html",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "已读第二产业公报C39行；企业数、期末就业、收入已提取",
+        "nextStep": "如发布修订，保留旧值并核对；扩展到本省市内地区/细行业须另读表。",
+        "sourceId": "cq-census2023"
+      },
+      "localYearbook2024": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "一、《重庆统计年鉴 2024》是由重庆市统计局和国家统计局重庆调查总队编纂、中国统计出版",
+            "url": "https://tjj.cq.gov.cn/cslm/tjsjzl/202505/P020250506394667367695.pdf",
+            "status": "search-located-not-read"
+          }
+        ],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-20.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-20.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "obtained-c39-growth",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "上海需取得增加值增速；广东需读取完整原文；其它地区可补2024及2026最新一期，不能由增速反推现价规模。",
+        "sourceId": "cq-bulletin2025"
+      },
+      "localIo2023": {
+        "status": "obtained",
+        "candidates": [],
+        "depth": "已下载42部门xlsx，提取对外主表部门20四项增加值构成与表内合计",
+        "nextStep": "可继续分析产业联系；其他部门和省际流量需要独立口径审查。",
+        "sourceId": "cq-io2023"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-cq.txt",
+      "officialCandidates": [
+        {
+          "title": "统计公报",
+          "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/wap.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "统计公报_重庆市统计局",
+          "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/index.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "统计公报_重庆市统计局",
+          "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "重庆市第五次全国经济普查公报（第五号） - 重庆市统计局",
+          "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427572.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "统计公报_重庆市统计局",
+          "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/index_1.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "重庆市第五次全国经济普查公报（第一号） - 重庆市统计局",
+          "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427376.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "重庆市第五次全国经济普查公报（第七号） - 重庆市统计局",
+          "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427613.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "重庆市第五次全国经济普查公报（第四号） - 重庆市统计局",
+          "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427501.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "重庆市第五次全国经济普查公报（第三号） - 重庆市统计局",
+          "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427445.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "重庆市第五次全国经济普查公报（第六号） - 重庆市统计局",
+          "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427606.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "数据解读",
+          "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjjd_55469/wap.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "专题栏目",
+          "url": "https://tjj.cq.gov.cn/ztlm_233/wap.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2023 重庆统计年鉴 | CHONGQING STATISTICAL YEARBOOK",
+          "url": "https://tjj.cq.gov.cn/cslm/tjsjzl/202409/P020240913359957568424.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2023 重庆统计年鉴 | CHONGQING STATISTICAL YEARBOOK",
+          "url": "https://tjj.cq.gov.cn/zwgk_233/tjnj/2023/2023cqtjnj.pdf",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "四川",
+      "regionId": "sc",
+      "priority": true,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "obtained",
+        "candidates": [],
+        "depth": "已读第二产业公报C39行；企业数、期末就业、收入已提取",
+        "nextStep": "如发布修订，保留旧值并核对；扩展到本省市内地区/细行业须另读表。",
+        "sourceId": "sc-census2023"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-20.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-20.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "obtained-c39-growth",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "上海需取得增加值增速；广东需读取完整原文；其它地区可补2024及2026最新一期，不能由增速反推现价规模。",
+        "sourceId": "sc-bulletin2025"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-sc.txt",
+      "officialCandidates": [
+        {
+          "title": "2025 年单位预算",
+          "url": "https://tjj.sc.gov.cn/scstjj/c105974/2025/3/14/71d71b5c070748ec84f8e2fe27f45c03/files/%E5%9B%9B%E5%B7%9D%E7%9C%81%E7%BB%9F%E8%AE%A1%E5%B1%80%E6%9C%BA%E5%85%B32025%E5%B9%B4%E5%8D%95%E4%BD%8D%E9%A2%84%E7%AE%97%E7%BC%96%E5%88%B6%E8%AF%B4%E6%98%8E.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2025 年部门预算",
+          "url": "https://tjj.sc.gov.cn/scstjj/c105974/2025/3/3/7cc77afb3ffc4a9dae603639d89902c2/files/%E5%9B%9B%E5%B7%9D%E7%9C%81%E7%BB%9F%E8%AE%A1%E5%B1%802025%E5%B9%B4%E9%83%A8%E9%97%A8%E9%A2%84%E7%AE%97%E7%BC%96%E5%88%B6%E8%AF%B4%E6%98%8E.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2024 年部门预算",
+          "url": "https://tjj.sc.gov.cn/scstjj/c105974/2024/2/23/335c730697be4de691736999f5f26a3a/files/%E5%9B%9B%E5%B7%9D%E7%9C%81%E7%BB%9F%E8%AE%A1%E5%B1%802024%E5%B9%B4%E9%83%A8%E9%97%A8%E9%A2%84%E7%AE%97%E7%BC%96%E5%88%B6%E8%AF%B4%E6%98%8E.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "统计调查 - 四川省统计局",
+          "url": "https://tjj.sc.gov.cn/scstjj/c111974/2025/6/6/7760ef248a2b4edca8cd7eafaf758a95.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "固定资产投资(2025年5月)_四川省统计局",
+          "url": "https://tjj.sc.gov.cn/scstjj/c111998h/2025/7/1/a14a63d390dc4911a4ad68687021a3c2.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "规模以上工业企业经济效益_四川省统计局",
+          "url": "https://tjj.sc.gov.cn/scstjj/c111991v/2025/4/21/cf0af9ebd1db43e1943111af0d0680a6.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "机关简介_四川省统计局",
+          "url": "https://tjj.sc.gov.cn/scstjj/c105865/jgzn.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "社会消费品零售总额(2025年6月)_四川省统计局",
+          "url": "https://tjj.sc.gov.cn/scstjj/c111996c/2025/8/6/d53707a453c24d24a5c9a2ef2a1097b2.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "31省（自治区、直辖市）一季度经济“成绩单”出炉：经济大省表现突出 区域经济协调发展_四川省统计局",
+          "url": "https://tjj.sc.gov.cn/scstjj/c105897/2025/4/29/1a7b518073ea48a4a57e598f99ce3e5b.shtml",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "贵州",
+      "regionId": "gz",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "贵州省第五次全国经济普查-贵州省统计局门户网站",
+            "url": "https://stjj.guizhou.gov.cn/zt/gzsdwcqgjjpc/index.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "《贵州经济普查年鉴2023》正式出版",
+            "url": "https://stjj.guizhou.gov.cn/xwzx/tjyw/202601/t20260128_89349839.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "为什么要开展第五次全国经济普查？",
+            "url": "https://stjj.guizhou.gov.cn/zt/gzsdwcqgjjpc/ywjd/202307/t20230705_80685854.html",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-20.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "关于2025年贵州省统计年鉴发布时间的咨询",
+            "url": "https://stjj.guizhou.gov.cn/wzhd/govmsgbox/202512/tGovMsgBox_27701693.html",
+            "status": "search-located-not-read"
+          }
+        ],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-20.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-gz.txt",
+      "officialCandidates": [
+        {
+          "title": "贵州省第五次全国经济普查-贵州省统计局门户网站",
+          "url": "https://stjj.guizhou.gov.cn/zt/gzsdwcqgjjpc/index.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "《贵州经济普查年鉴2023》正式出版",
+          "url": "https://stjj.guizhou.gov.cn/xwzx/tjyw/202601/t20260128_89349839.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "贵州省统计局门户网站",
+          "url": "https://stjj.guizhou.gov.cn/?isMobile=true",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "贵州省统计局门户网站",
+          "url": "https://stjj.guizhou.gov.cn/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "贵州省统计局2025年部门预算公开信息",
+          "url": "https://stjj.guizhou.gov.cn/zwgk/zdlyxxgk/czxx/202502/P020250307641619017212.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "贵州省统计局本级2025年单位预算公开信息",
+          "url": "https://stjj.guizhou.gov.cn/zwgk/zdlyxxgk/czxx/202503/P020250311545825959110.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "贵州省统计局2024年部门预算公开信息",
+          "url": "https://stjj.guizhou.gov.cn/zwgk/zdlyxxgk/czxx/202403/P020241224390375708823.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "省-贵州省统计局门户网站",
+          "url": "https://stjj.guizhou.gov.cn/zt/gzsdwcqgjjpc/zywj/s/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "贵州省统计局2023年工作总结和2024年工作打算",
+          "url": "https://stjj.guizhou.gov.cn/zwgk/zdlyxxgk/ghjh/202401/t20240111_86393248.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "为什么要开展第五次全国经济普查？",
+          "url": "https://stjj.guizhou.gov.cn/zt/gzsdwcqgjjpc/ywjd/202307/t20230705_80685854.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "贵州省统计局举办2024年国民经济核算业务培训班",
+          "url": "https://stjj.guizhou.gov.cn/xwzx/tjyw/202408/t20240808_86385796.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "省-贵州省统计局门户网站",
+          "url": "https://stjj.guizhou.gov.cn/zt/gzsdwcqgjjpc/zywj/s/?isMobile=true",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "贵州省统计局2023年重点工作完成情况",
+          "url": "https://stjj.guizhou.gov.cn/zwgk/zdlyxxgk/zdgztjwcqk/202403/t20240305_86393364.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "关于2025年贵州省统计年鉴发布时间的咨询",
+          "url": "https://stjj.guizhou.gov.cn/wzhd/govmsgbox/202512/tGovMsgBox_27701693.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "贵州省统计局门户网站",
+          "url": "https://stjj.guizhou.gov.cn/?isMobile=false",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "云南",
+      "regionId": "yn",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "云南省第五次全国经济普查公报（第一号）",
+            "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202502/t20250218_1204482.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "云南省第五次全国经济普查公报（第五号）",
+            "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202502/t20250218_1204516.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "云南省第五次全国经济普查公报（第二号）",
+            "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202502/t20250218_1204490.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "云南省第五次全国经济普查公报（第四号）",
+            "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202502/t20250218_1204507.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "云南省第五次全国经济普查公报（第七号）",
+            "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202502/t20250218_1204530.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "云南省第五次全国经济普查公报（第三号）",
+            "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202502/t20250218_1204497.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "云南省第五次全国经济普查公报（第六号）",
+            "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202502/t20250218_1204522.html",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "2024云南统计年鉴",
+            "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjnj/202505/t20250523_1202961.html",
+            "status": "search-located-not-read"
+          }
+        ],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-24.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-24.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "云南省2025年国民经济和社会发展统计公报",
+            "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202603/t20260331_3052712.html",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-yn.txt",
+      "officialCandidates": [
+        {
+          "title": "云南省统计局-统计公报",
+          "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/index.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "云南省第五次全国经济普查公报（第一号）",
+          "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202502/t20250218_1204482.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "云南省第五次全国经济普查公报（第五号）",
+          "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202502/t20250218_1204516.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "云南省统计局-统计年鉴",
+          "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjnj/index.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "云南省第五次全国经济普查公报（第二号）",
+          "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202502/t20250218_1204490.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "云南省第五次全国经济普查公报（第四号）",
+          "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202502/t20250218_1204507.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "云南省2025年国民经济和社会发展统计公报",
+          "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202603/t20260331_3052712.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "云南省第五次全国经济普查公报（第七号）",
+          "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202502/t20250218_1204530.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "云南省第五次全国经济普查公报（第三号）",
+          "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202502/t20250218_1204497.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "云南省第五次全国经济普查公报（第六号）",
+          "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/tjgb/202502/t20250218_1204522.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "<table id=\"e1\">",
+          "url": "https://stats.yn.gov.cn/upload/20250126/2025012615124835.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "云南省统计局-数据发布",
+          "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/tjsj/sjfb/index.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "云南省统计局2025年部门预算信息",
+          "url": "https://stats.yn.gov.cn/zwgk/zfxxgk/fdzdgknr/zdlyyzzywxx/czzj/202501/t20250126_1203106.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "<table id",
+          "url": "https://stats.yn.gov.cn/upload/20231013/2023101314511418.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2024年部门项目中期规划预算表",
+          "url": "https://stats.yn.gov.cn/upload/20240218/2024021816284900.pdf",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "西藏",
+      "regionId": "xz",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "西藏自治区第五次全国经济普查公报_西藏自治区统计局",
+            "url": "https://tjj.xizang.gov.cn/xxgk/tjxx/tjgb/202504/t20250403_471229.html",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "西藏自治区第五次全国经济普查先进集体拟表彰名单",
+            "url": "https://tjj.xizang.gov.cn/xwzx/gsgg/202512/P020251209578764663515.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "西藏自治区第五次全国经济普查先进个人拟表彰名单",
+            "url": "https://tjj.xizang.gov.cn/xwzx/gsgg/202510/P020251027623169799947.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "西藏自治区第五次全国经济普查先进个人拟表彰名单",
+            "url": "https://tjj.xizang.gov.cn/xwzx/gsgg/202512/P020251209578765914152.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "西藏自治区人民政府发文部署第五次全国经济普查工作_西藏自治区统计局",
+            "url": "https://tjj.xizang.gov.cn/xwzx/bmkx/202303/t20230307_344840.html",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-24.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-24.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "2025年西藏自治区国民经济和社会发展 统计公报_西藏自治区统计局",
+            "url": "https://tjj.xizang.gov.cn/xxgk/tjxx/tjgb/202603/t20260331_532204.html",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-xz.txt",
+      "officialCandidates": [
+        {
+          "title": "西藏自治区统计局",
+          "url": "https://tjj.xizang.gov.cn/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "西藏自治区统计局",
+          "url": "https://tjj.xizang.gov.cn/index.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "西藏自治区第五次全国经济普查公报_西藏自治区统计局",
+          "url": "https://tjj.xizang.gov.cn/xxgk/tjxx/tjgb/202504/t20250403_471229.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2025年西藏自治区国民经济和社会发展 统计公报_西藏自治区统计局",
+          "url": "https://tjj.xizang.gov.cn/xxgk/tjxx/tjgb/202603/t20260331_532204.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2024年西藏自治区国民经济和社会发展 统计公报_西藏自治区统计局",
+          "url": "https://tjj.xizang.gov.cn/xxgk/tjxx/tjgb/202504/t20250410_472331.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "公示公告_西藏自治区统计局",
+          "url": "https://tjj.xizang.gov.cn/xwzx/gsgg/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2023年西藏自治区国民经济和社会发展统计公报_西藏自治区统计局",
+          "url": "https://tjj.xizang.gov.cn/xxgk/tjxx/tjgb/202405/t20240509_415635.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "西藏自治区第五次全国经济普查先进集体拟表彰名单",
+          "url": "https://tjj.xizang.gov.cn/xwzx/gsgg/202512/P020251209578764663515.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "西藏自治区第五次全国经济普查先进个人拟表彰名单",
+          "url": "https://tjj.xizang.gov.cn/xwzx/gsgg/202510/P020251027623169799947.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "西藏自治区第五次全国经济普查先进个人拟表彰名单",
+          "url": "https://tjj.xizang.gov.cn/xwzx/gsgg/202512/P020251209578765914152.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "西藏自治区统计局",
+          "url": "https://tjj.xizang.gov.cn/site/xztjj/search.html?searchWord=%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA%E8%80%95%E5%9C%B0&siteId=12%3Fphlnophdbiecjmgl",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "第二部分 国家统计局2012年部门预算表",
+          "url": "https://tjj.xizang.gov.cn/xxgk/czzj/202504/P020250414416267088962.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "西藏自治区统计局机关2025年度部门决算公开报告_西藏自治区统计局",
+          "url": "https://tjj.xizang.gov.cn/xxgk/czzj/202609/t20260901_556125.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "西藏自治区人民政府发文部署第五次全国经济普查工作_西藏自治区统计局",
+          "url": "https://tjj.xizang.gov.cn/xwzx/bmkx/202303/t20230307_344840.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "中标结果公告_西藏自治区统计局",
+          "url": "https://tjj.xizang.gov.cn/xwzx/gsgg/202510/t20251017_504509.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "全国经济普查条例_西藏自治区统计局",
+          "url": "https://tjj.xizang.gov.cn/xxgk/zcfg/202506/t20250627_486669.html",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "陕西",
+      "regionId": "sn",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-24.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-24.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-sn.txt",
+      "officialCandidates": [
+        {
+          "title": "陕西省统计局2023年部门预算公开信息",
+          "url": "https://tjj.shaanxi.gov.cn/zfxxgk/fdzdgknr/ysjs/202307/P020230713558174395752.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "主要负责人审签情况：已审签",
+          "url": "https://tjj.shaanxi.gov.cn/zfxxgk/fdzdgknr/ysjs/202408/P020240827611225924862.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2024年部门预算公开说明",
+          "url": "https://tjj.shaanxi.gov.cn/zfxxgk/fdzdgknr/ysjs/202403/P020240307638546446399.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "陕西省统计局",
+          "url": "https://tjj.shaanxi.gov.cn/tjsj/ndsj/tjnj/202505/P020250516621794399437.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "全省_陕西省统计局",
+          "url": "https://tjj.shaanxi.gov.cn/tjsj/jdsj/qs_440/202506/t20250610_3529888.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "全省_陕西省统计局",
+          "url": "https://tjj.shaanxi.gov.cn/tjsj/tjxx/qs/202512/t20251201_3591126.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "全国_陕西省统计局",
+          "url": "https://tjj.shaanxi.gov.cn/tjsj/tjxx/qg/202205/t20220517_2221237.html",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "甘肃",
+      "regionId": "gs",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "甘肃省第五次全国经济普查公报（第一号）",
+            "url": "https://tjj.gansu.gov.cn/tjj/c109465/202503/174107553/files/8f4b0786e8ba42a9a390382b28f12c75.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "甘肃省第五次全国经济普查公报（第五号）",
+            "url": "https://tjj.gansu.gov.cn/tjj/c109465/202503/174107560/files/78420ce2d48f4d1dae3fe7e2a123f5dd.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "甘肃省第五次全国经济普查公报（第三号）",
+            "url": "https://tjj.gansu.gov.cn/tjj/c109465/202503/174107555/files/0d61f6d3239f45ba82ec395cdd2475c8.pdf",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "甘肃省第五次全国经济普查公报（第六号）",
+            "url": "https://tjj.gansu.gov.cn/tjj/c109465/202503/174107561/files/0ec2679734ac46a8a1b40d773312d354.pdf",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-24.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-24.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-gs.txt",
+      "officialCandidates": [
+        {
+          "title": "2025 年部门预算公开情况说明",
+          "url": "https://tjj.gansu.gov.cn/tjj/c116375/202502/174082529/files/eca7ca78456c4bb2be2608b046c0c433.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "甘肃省第五次全国经济普查公报（第一号）",
+          "url": "https://tjj.gansu.gov.cn/tjj/c109465/202503/174107553/files/8f4b0786e8ba42a9a390382b28f12c75.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "甘肃省第五次全国经济普查公报（第五号）",
+          "url": "https://tjj.gansu.gov.cn/tjj/c109465/202503/174107560/files/78420ce2d48f4d1dae3fe7e2a123f5dd.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "甘肃省第五次全国经济普查公报（第三号）",
+          "url": "https://tjj.gansu.gov.cn/tjj/c109465/202503/174107555/files/0d61f6d3239f45ba82ec395cdd2475c8.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "甘肃省第五次全国经济普查公报（第六号）",
+          "url": "https://tjj.gansu.gov.cn/tjj/c109465/202503/174107561/files/0ec2679734ac46a8a1b40d773312d354.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "甘肃数据管理平台",
+          "url": "https://tjjxcx.tjj.gansu.gov.cn/admin/login/index.html",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "青海",
+      "regionId": "qh",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-28.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-28.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-qh.txt",
+      "officialCandidates": []
+    },
+    {
+      "region": "宁夏",
+      "regionId": "nx",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-28.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-28.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-nx.txt",
+      "officialCandidates": [
+        {
+          "title": "长者版-宁夏统计局",
+          "url": "https://tj.nx.gov.cn/zzb/tjgb/202604/t20260409_5213277.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "宁夏回族自治区统计局",
+          "url": "https://tj.nx.gov.cn/tjsj_htr/tjgb_htr/",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "长者版-宁夏统计局",
+          "url": "https://tj.nx.gov.cn/zzb/tzgg/202503/t20250326_4866246.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "长者版-宁夏统计局",
+          "url": "https://tj.nx.gov.cn/zzb/tzgg/202503/t20250326_4866306.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "长者版-宁夏统计局",
+          "url": "https://tj.nx.gov.cn/zzb/tzgg/index_4.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "宁夏回族自治区统计局",
+          "url": "https://tj.nx.gov.cn/tjsj_htr/tjgb_htr/202604/t20260409_5213277.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "宁夏回族自治区统计局",
+          "url": "https://tj.nx.gov.cn/tztg/index_3.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "长者版-宁夏统计局",
+          "url": "https://tj.nx.gov.cn/zzb/tzgg/202503/t20250326_4866407.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "长者版-宁夏统计局",
+          "url": "https://tj.nx.gov.cn/zzb/tzgg/202503/t20250326_4866382.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "宁夏回族自治区统计局",
+          "url": "https://tj.nx.gov.cn/tztg/202503/t20250326_4866274.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "宁夏回族自治区统计局",
+          "url": "https://tj.nx.gov.cn/tztg/202503/t20250326_4866416.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "长者版-宁夏统计局",
+          "url": "https://tj.nx.gov.cn/zzb/tzgg/202503/t20250326_4866435.html",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "自治区统计局2025 年第8 次局务会议",
+          "url": "https://tj.nx.gov.cn/xxgk_htr/gkml_xxgk/zdhy/202510/W020251013579549444879.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "宁夏回族自治区统计局（本级）",
+          "url": "https://tj.nx.gov.cn/xxgk_htr/gkml_xxgk/cwxx_gkml/bmys/202502/P020250701624256931065.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "宁夏回族自治区统计局2025 年部门预算",
+          "url": "https://tj.nx.gov.cn/xxgk_htr/gkml_xxgk/cwxx_gkml/bmys/202502/P020250701622604832278.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2025年自治区本级部门项目支出预算绩效目标表",
+          "url": "https://tj.nx.gov.cn/xxgk_htr/gkml_xxgk/cwxx_gkml/bmys/202502/P020250221555437877089.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "附件",
+          "url": "https://tj.nx.gov.cn/xxgk_htr/gkml_xxgk/cwxx_gkml/bmjs/202408/P020240816564366306551.pdf",
+          "status": "search-located-not-read"
+        }
+      ]
+    },
+    {
+      "region": "新疆",
+      "regionId": "xj",
+      "priority": false,
+      "checkedAt": "2026-09-14",
+      "nationalCensus2023": {
+        "status": "obtained",
+        "sourceId": "nbs-5ec-c39-regions",
+        "scope": "全国统一表1-B-46的本地区C39行，规上企业，九项指标"
+      },
+      "localCensus2023": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "新疆维吾尔自治区第五次全国经济普查公报（第一号）_统计公报_新疆维吾尔自治区统计局",
+            "url": "https://tjj.xinjiang.gov.cn/tjj/tjgn/202504/d47335634d0c41349c5b0201a3a1bb9b.shtml",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "新疆维吾尔自治区第五次全国经济普查公报（第二号）_统计公报_新疆维吾尔自治区统计局",
+            "url": "https://tjj.xinjiang.gov.cn/tjj/tjgn/202504/59e5719cd57d49ffb25e9dd769c79cd6.shtml",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "新疆维吾尔自治区第五次全国经济普查公报（第七号）_统计公报_新疆维吾尔自治区统计局",
+            "url": "https://tjj.xinjiang.gov.cn/tjj/tjgn/202504/9db3ed3e2e7647aa92d3d93fe008b51f.shtml",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "新疆维吾尔自治区第五次全国经济普查公报（第五号）_统计公报_新疆维吾尔自治区统计局",
+            "url": "https://tjj.xinjiang.gov.cn/tjj/tjgn/202504/4fec437d052841dab4471916d993a514.shtml",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "新疆维吾尔自治区第五次全国经济普查公报（第四号）_统计公报_新疆维吾尔自治区统计局",
+            "url": "https://tjj.xinjiang.gov.cn/tjj/tjgn/202504/79b8ccbf5a0347a782259915d2ad30b7.shtml",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "新疆维吾尔自治区第五次全国经济普查公报（第三号）_统计公报_新疆维吾尔自治区统计局",
+            "url": "https://tjj.xinjiang.gov.cn/tjj/tjgn/202504/acaf3654a1d940a5aa7fd7e6df17fd5e.shtml",
+            "status": "search-located-not-read"
+          },
+          {
+            "title": "新疆维吾尔自治区第五次全国经济普查公报（第六号）_统计公报_新疆维吾尔自治区统计局",
+            "url": "https://tjj.xinjiang.gov.cn/tjj/tjgn/202504/6c22a0088dab4c4aa0d0d91de87efd76.shtml",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localYearbook2024": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-28.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "localYearbook2025": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "searchLog": "research/industry-analysis/regions/extracted/yearbook-search-28.json",
+        "depth": "2024/2025年鉴专门定域入口检索，未逐页读完工业和就业篇",
+        "nextStep": "打开官方年鉴目录及工业/劳动就业原表，核资料年、规上范围、企业数与平均用工。"
+      },
+      "annualBulletin2025": {
+        "status": "located-pending-reading",
+        "candidates": [
+          {
+            "title": "2025年新疆维吾尔自治区国民经济运行情况新闻发布稿_新闻发布_新疆维吾尔自治区统计局",
+            "url": "https://tjj.xinjiang.gov.cn/tjj/xwfb/202601/6c0d10013e8b4841be2c9c0394dd48c8.shtml",
+            "status": "search-located-not-read"
+          }
+        ],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "localIo2023": {
+        "status": "searched-not-obtained",
+        "candidates": [],
+        "depth": "首轮定域组合检索；未穷尽站内目录、分页、附件或年鉴内页",
+        "nextStep": "进入官方目录核对资料年度、取得C39分行业原表；未取得不表示不存在。"
+      },
+      "searchLog": "research/industry-analysis/regions/extracted/search-xj.txt",
+      "officialCandidates": [
+        {
+          "title": "统计公报_新疆维吾尔自治区统计局",
+          "url": "https://tjj.xinjiang.gov.cn/tjj/tjgn/ist.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "新疆维吾尔自治区第五次全国经济普查公报（第一号）_统计公报_新疆维吾尔自治区统计局",
+          "url": "https://tjj.xinjiang.gov.cn/tjj/tjgn/202504/d47335634d0c41349c5b0201a3a1bb9b.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "新疆维吾尔自治区第五次全国经济普查公报（第二号）_统计公报_新疆维吾尔自治区统计局",
+          "url": "https://tjj.xinjiang.gov.cn/tjj/tjgn/202504/59e5719cd57d49ffb25e9dd769c79cd6.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "新疆维吾尔自治区第五次全国经济普查公报（第七号）_统计公报_新疆维吾尔自治区统计局",
+          "url": "https://tjj.xinjiang.gov.cn/tjj/tjgn/202504/9db3ed3e2e7647aa92d3d93fe008b51f.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "新疆维吾尔自治区第五次全国经济普查公报（第五号）_统计公报_新疆维吾尔自治区统计局",
+          "url": "https://tjj.xinjiang.gov.cn/tjj/tjgn/202504/4fec437d052841dab4471916d993a514.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "新疆维吾尔自治区第五次全国经济普查公报（第四号）_统计公报_新疆维吾尔自治区统计局",
+          "url": "https://tjj.xinjiang.gov.cn/tjj/tjgn/202504/79b8ccbf5a0347a782259915d2ad30b7.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "新疆维吾尔自治区第五次全国经济普查公报（第三号）_统计公报_新疆维吾尔自治区统计局",
+          "url": "https://tjj.xinjiang.gov.cn/tjj/tjgn/202504/acaf3654a1d940a5aa7fd7e6df17fd5e.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "新疆维吾尔自治区第五次全国经济普查公报（第六号）_统计公报_新疆维吾尔自治区统计局",
+          "url": "https://tjj.xinjiang.gov.cn/tjj/tjgn/202504/6c22a0088dab4c4aa0d0d91de87efd76.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "<tr><td>预算单位<",
+          "url": "https://tjj.xinjiang.gov.cn/tjj/yjs/202502/f5bb415cd6e941589ac4725a12b847d6/files/%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA%E7%BB%9F%E8%AE%A1%E5%B1%802025%E5%B9%B4%E9%83%A8%E9%97%A8%E9%A2%84%E7%AE%97%E5%85%AC%E5%BC%80%E6%8A%A5%E5%91%8A.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "政协专题网站_新疆维吾尔自治区统计局",
+          "url": "https://tjj.xinjiang.gov.cn/tjj/tjxxzt/zt_tjxx.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "人大专题网站_新疆维吾尔自治区统计局",
+          "url": "https://tjj.xinjiang.gov.cn/tjj/rdzt/zt_rd.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2026 年新疆维吾尔自治区统计局",
+          "url": "https://tjj.xinjiang.gov.cn/tjj/yjs/202602/8108166534224a3cbc2d672ed828a13d/files/2026%E5%B9%B4%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA%E7%BB%9F%E8%AE%A1%E5%B1%80%E9%83%A8%E9%97%A8%E9%A2%84%E7%AE%97%E5%85%AC%E5%BC%80%E6%8A%A5%E5%91%8A.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2026 年新疆维吾尔自治区统计局（本级）",
+          "url": "https://tjj.xinjiang.gov.cn/tjj/yjs/202602/8108166534224a3cbc2d672ed828a13d/files/2026%E5%B9%B4%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA%E7%BB%9F%E8%AE%A1%E5%B1%80%EF%BC%88%E6%9C%AC%E7%BA%A7%EF%BC%89%E5%8D%95%E4%BD%8D%E9%A2%84%E7%AE%97%E5%85%AC%E5%BC%80%E6%8A%A5%E5%91%8A.pdf",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "2025年新疆维吾尔自治区国民经济运行情况新闻发布稿_新闻发布_新疆维吾尔自治区统计局",
+          "url": "https://tjj.xinjiang.gov.cn/tjj/xwfb/202601/6c0d10013e8b4841be2c9c0394dd48c8.shtml",
+          "status": "search-located-not-read"
+        },
+        {
+          "title": "新疆2025年全国1%人口抽样调查主要数据公报[1]_统计公报_新疆维吾尔自治区统计局",
+          "url": "https://tjj.xinjiang.gov.cn/tjj/tjgn/202607/c024bc2031c240a8afa531c71d7b77ac.shtml",
+          "status": "search-located-not-read"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "checkedAt": "2026-09-14",
+  "scope": "按资料入口审计，非全部官方网站穷尽检索",
+  "rows": [
+    {
+      "id": "ia-official-coverage-annual-national",
+      "country": "cn",
+      "group": "全国官方资料",
+      "title": "国家年度/季度GDP及新版国家数据",
+      "period": "2024—2026",
+      "status": "obtained",
+      "detail": "前轮已实际读大类增加值及年度/季度表；本次审计读取其原件核查记录，不重复计为新增细分。",
+      "evidence": [
+        {
+          "sourceId": "ia-official-prior-gdp2024-final",
+          "locator": "附件1：2024年GDP最终核实数，现价总量列全部行业行"
+        },
+        {
+          "sourceId": "ia-official-prior-gdp2025-preliminary",
+          "locator": "表1：2025年四季度和全年GDP初步核算数据，绝对额全年列及核算说明"
+        },
+        {
+          "sourceId": "ia-official-prior-nbs-annual-dom",
+          "locator": "年度→国民经济核算→分行业增加值，2021—2025列与全部10个指标行，归档rows/labels"
+        },
+        {
+          "sourceId": "ia-official-prior-nbs-quarter-dom",
+          "locator": "季度→国民经济核算→国内生产总值（现价），2026Q2/2026Q1及2025各季，当季/累计行与表注"
+        }
+      ],
+      "nextStep": "保持整套修订，等待下一版新增细类；当前缺少的行业金额仍留空。"
+    },
+    {
+      "id": "ia-official-coverage-yearbook-industrial",
+      "country": "cn",
+      "group": "全国官方资料",
+      "title": "中国统计年鉴2025工业表13-2",
+      "period": "2024",
+      "status": "obtained",
+      "detail": "前轮下载原图，本轮重新目视完整表头并实际录入C39的14项经营/用工数据；晚于MIIT快报的年度营收、成本、利润采用年鉴值。没有增加值列。",
+      "evidence": [
+        {
+          "sourceId": "ia-official-prior-yearbook2025-c13-02",
+          "locator": "表13-2原图完整表头及41大类行：资产、营收、成本、利润、平均用工等；无增加值列"
+        }
+      ],
+      "nextStep": "继续取得其他年份/细类；保留发布版本差异，不用跨版金额重算可比增长。"
+    },
+    {
+      "id": "ia-official-coverage-census-finance",
+      "country": "cn",
+      "group": "全国官方资料",
+      "title": "五经普年鉴C39中类财务",
+      "period": "2023",
+      "status": "obtained",
+      "detail": "本轮取得1-A-6原图，目视C39和9中类营收、利润、平均用工、资产等；全国C39与统一地区表总项一致。",
+      "evidence": [
+        {
+          "sourceId": "ia-official-census2023-detailed",
+          "locator": "本轮保存原件与对应表/编辑说明，详见来源"
+        }
+      ],
+      "nextStep": "继续核查细类和相关年份，保持企业行业口径。"
+    },
+    {
+      "id": "ia-official-coverage-census-rd",
+      "country": "cn",
+      "group": "全国官方资料",
+      "title": "五经普研发人员及经费",
+      "period": "2023",
+      "status": "obtained",
+      "detail": "已取得1-B-3、1-C-1.3并目视C39和9中类；父子小差额未解释，保留原值。",
+      "evidence": [
+        {
+          "sourceId": "ia-official-census2023-rd-expense",
+          "locator": "本轮保存原件与对应表/编辑说明，详见来源"
+        }
+      ],
+      "nextStep": "核对父子经费、人数和人年差额的来源，不强平。"
+    },
+    {
+      "id": "ia-official-coverage-io-components",
+      "country": "cn",
+      "group": "全国官方资料",
+      "title": "全国投入产出四分项",
+      "period": "2023",
+      "status": "obtained",
+      "detail": "现有211项结构摘录，本次重新读取9个电子产品的45个值；负税和超过100%比例属原表。",
+      "evidence": [
+        {
+          "sourceId": "ia-official-io2023-independent-dom",
+          "locator": "本轮保存原件与对应表/编辑说明，详见来源"
+        }
+      ],
+      "nextStep": "取得产品/企业行业及GDP衔接说明；不直接配企业人数。"
+    },
+    {
+      "id": "ia-official-coverage-miit-annual",
+      "country": "cn",
+      "group": "全国官方资料",
+      "title": "工信部电子行业年度运行稿",
+      "period": "2024—2025",
+      "status": "obtained",
+      "detail": "本轮归档实物产品、出口及官方可比同比；2024营收、成本、利润快报金额已有较晚年鉴版，仅保留版本对照。2025仍用本次取得的年度运行稿。",
+      "evidence": [
+        {
+          "sourceId": "ia-official-miit2025",
+          "locator": "本轮保存原件与对应表/编辑说明，详见来源"
+        }
+      ],
+      "nextStep": "继续核查后续年度表更新；保留发表批次及官方可比同比，不用相邻发布金额重算同比。"
+    },
+    {
+      "id": "ia-official-coverage-latest-2026",
+      "country": "cn",
+      "group": "全国官方资料",
+      "title": "2026最新已核全国经营及解读",
+      "period": "2026年1—7月",
+      "status": "obtained",
+      "detail": "NBS8月27日金额表和利润解读、MIIT8月31日稿已读；东北月度异常已隔离。",
+      "evidence": [
+        {
+          "sourceId": "ia-official-nbs2026-07-financial",
+          "locator": "本轮保存原件与对应表/编辑说明，详见来源"
+        }
+      ],
+      "nextStep": "有更晚发布再更新，并核查异常是否修订。"
+    },
+    {
+      "id": "ia-official-coverage-rd-latest",
+      "country": "cn",
+      "group": "全国官方资料",
+      "title": "国家科技经费行业表",
+      "period": "2024",
+      "status": "obtained",
+      "detail": "2024公报有C39研发4775.5亿元、强度2.95%；本轮未取得2025行业详表。",
+      "evidence": [
+        {
+          "sourceId": "ia-official-nbs2024-rd",
+          "locator": "本轮保存原件与对应表/编辑说明，详见来源"
+        }
+      ],
+      "nextStep": "在正式发布2025行业详表后更新，缺值不外推。"
+    },
+    {
+      "id": "ia-official-coverage-miit-yearbook",
+      "country": "cn",
+      "group": "全国官方资料",
+      "title": "工信部2024年度统计数据内表",
+      "period": "2024",
+      "status": "pending",
+      "detail": "编辑说明已读，证实统计对象和主要经济指标来源；全部内表未系统取得。",
+      "evidence": [
+        {
+          "sourceId": "ia-official-miit2024-editor",
+          "locator": "本轮保存原件与对应表/编辑说明，详见来源"
+        }
+      ],
+      "nextStep": "实际逐表核读可用的细产品、地区产量，不能仅据目录宣称完成。"
+    },
+    {
+      "id": "ia-official-coverage-professional-books",
+      "country": "cn",
+      "group": "全国官方资料",
+      "title": "统计摘要2026/工业统计年鉴2025",
+      "period": "2024—2025候选",
+      "status": "pending",
+      "detail": "前轮已核出版社/图书馆目录，但核心内页未取得；目录不是书内无指标的证明。",
+      "evidence": [],
+      "nextStep": "取得合法可读内页和表注。"
+    },
+    {
+      "id": "ia-official-coverage-census-other-tables",
+      "country": "cn",
+      "group": "全国官方资料",
+      "title": "经济普查其他经营及研发详表",
+      "period": "2023",
+      "status": "not-checked",
+      "detail": "当前C39实读三张核心表；完整目录其余细分、所有权、新产品、产能表尚未逐表分析。",
+      "evidence": [
+        {
+          "sourceId": "ia-official-census2023-directory",
+          "locator": "本轮保存原件与对应表/编辑说明，详见来源"
+        }
+      ],
+      "nextStep": "按新增问题筛选有价值表，不宣称整个年鉴已充分探索。"
+    },
+    {
+      "id": "ia-official-coverage-customs-details",
+      "country": "cn",
+      "group": "全国官方资料",
+      "title": "海关HS细分/出口额与量价",
+      "period": "2024—2026",
+      "status": "pending",
+      "detail": "已采用工信部转引的海关产品数量；未取得同产品HS完整金额、数量与统计范围衔接。",
+      "evidence": [
+        {
+          "sourceId": "ia-official-miit2025",
+          "locator": "本轮保存原件与对应表/编辑说明，详见来源"
+        }
+      ],
+      "nextStep": "直接读取海关细表，拆量价、贸易方式，先核HS与行业映射。"
+    },
+    {
+      "id": "ia-official-coverage-local-statistics",
+      "country": "cn",
+      "group": "全国官方资料",
+      "title": "省市统计局及主管部门全部资料",
+      "period": "2023—2026",
+      "status": "not-checked",
+      "detail": "本审计负责国家级资料；地方研究独立进行，不能据取得一张全国地区表声称每省所有资料查完。",
+      "evidence": [],
+      "nextStep": "合并地区研究的逐省覆盖清单。"
+    }
+  ]
+}

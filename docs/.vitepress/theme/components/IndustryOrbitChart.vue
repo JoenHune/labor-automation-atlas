@@ -13,11 +13,15 @@ import {useCurrency} from '../../../../src/preferences/currency'
 import {formatAmount,moneyInBaseUnits} from '../../../../src/research/currency'
 import {downloadChartSvg} from '../../../../src/research/chart-export'
 import EvidenceList from './EvidenceList.vue'
+import IndustryAnalysisPanel from './IndustryAnalysisPanel.vue'
+import {analysisSections,analysisComparisons,valueDistribution,type AnalysisSection} from '../../../../src/research/industry-analysis'
 echarts.use([PieChart,SVGRenderer])
 const props=defineProps<{research:Research;country:Country;year:number}>()
 const emit=defineEmits<{'update:year':[year:number]}>()
 const {settings,unit}=useCurrency()
 const basis=ref(''),focusId=ref(''),detailId=ref(''),hoverId=ref(''),notice=ref('')
+const analysisTab=ref<AnalysisSection>('structure')
+const analysisReady=ref(false)
 const cameraMode=ref<'focus'|'manual'>('focus'),panning=ref(false),hoverBlocked=ref(false)
 const expandedIds=ref<string[]>([]),viewZoom=ref(1),panX=ref(0),panY=ref(0)
 const viewport=ref<HTMLElement>()
@@ -33,6 +37,9 @@ const detail=computed(()=>index.value.get(detailId.value)??visibleSectors.value.
 const hovered=computed(()=>visibleSectors.value.find(s=>s.node.id===hoverId.value)?.node)
 const terminalLayer=computed(()=>layer.value.sectors.length>0&&layer.value.sectors.every(n=>!canDrill(n)))
 const active=computed(()=>detail.value??focus.value)
+const availableAnalysis=computed(()=>analysisSections(props.research.industryAnalysis,props.country,active.value.id))
+const selectedAnalysis=computed(()=>availableAnalysis.value.includes(analysisTab.value)?analysisTab.value:'structure')
+const analysisLabels:Record<AnalysisSection,string>={structure:'组成与分配',regions:'地区分布',companies:'企业经营'}
 const activePath=computed(()=>new Set(orbitPath(index.value,active.value.id).map(n=>n.id)))
 const display=computed(()=>hovered.value??active.value)
 const structure=computed(()=>macroStructure(props.research,props.country,basis.value))
@@ -81,11 +88,14 @@ function sync(){
  for(const key of [...url.searchParams.keys()])if(/^filter\.orbitExpanded\d*$/.test(key))url.searchParams.delete(key)
  for(const [key,value] of Object.entries({...orbitExpansionParams(expandedIds.value),'filter.orbitCamera':cameraMode.value==='manual'?'manual':'','filter.orbitZoom':cameraMode.value==='focus'||viewZoom.value===1?'':String(viewZoom.value),'filter.orbitX':cameraMode.value==='manual'&&panX.value?panX.value.toFixed(4):'','filter.orbitY':cameraMode.value==='manual'&&panY.value?panY.value.toFixed(4):''})){if(value)url.searchParams.set(key,value);else url.searchParams.delete(key)}
  if(detailId.value)url.searchParams.set('filter.orbitDetail',detailId.value);else url.searchParams.delete('filter.orbitDetail')
+ if(selectedAnalysis.value!=='structure')url.searchParams.set('filter.analysis',selectedAnalysis.value);else url.searchParams.delete('filter.analysis')
+ if(selectedAnalysis.value==='structure'){url.searchParams.delete('filter.analysisMetric');url.searchParams.delete('filter.analysisSort')}
  history.replaceState(null,'',url);window.dispatchEvent(new CustomEvent('atlas:view-change'))
 }
 function restore(){
  const query=new URLSearchParams(location.search),requested=query.get('filter.scaleBasis')??''
  basis.value=macroStructure(props.research,props.country,requested)?requested:''
+ analysisTab.value=['regions','companies'].includes(query.get('filter.analysis')??'')?query.get('filter.analysis') as AnalysisSection:'structure'
  const state=restoreOrbit(root.value,query);focusId.value=state.focus;detailId.value=state.detail;hoverId.value='';expandedIds.value=singleOrbitBranch(root.value,state.detail&&index.value.has(state.detail)?state.detail:state.focus);cameraMode.value=query.get('filter.orbitCamera')==='manual'||query.has('filter.orbitZoom')?'manual':'focus'
  const number=(key:string,fallback:number)=>{const raw=query.get(key),n=raw===null?fallback:Number(raw);return Number.isFinite(n)?n:fallback};viewZoom.value=Math.min(orbitMaxZoom,Math.max(1,number('filter.orbitZoom',1)));const limit=(viewZoom.value-1)/2;panX.value=Math.max(-limit,Math.min(limit,number('filter.orbitX',0)));panY.value=Math.max(-limit,Math.min(limit,number('filter.orbitY',0)))
 }
@@ -111,6 +121,7 @@ function changeYear(event:Event){
  if(structure.value){const next=productStructures.value.find(s=>s.year===selected);if(next)changeBasis(next.id)}
  else emit('update:year',selected)
 }
+function changeAnalysis(value:AnalysisSection){analysisTab.value=value;sync()}
 function historical(){
  const current=detail.value??focus.value
  const aliases:Record<string,string>={'cn-accommodation-food':'cn-io-hospitality','cn-business-services':'cn-io-business'}
@@ -140,10 +151,11 @@ function draw(){
   return {id:'band-'+depth,type:'pie',radius:[radius.inner+'%',radius.outer+'%'],center:['50%','50%'],startAngle:90,clockwise:true,minAngle:0,padAngle:0,selectedMode:false,label:{show:false},labelLine:{show:false},animationType:'scale',animationTypeUpdate:'transition',emphasis:{focus:'self',scale:false,itemStyle:{shadowBlur:0}},blur:{itemStyle:{opacity:.35}},itemStyle:{borderColor:'#fff',borderWidth:(depth?0.7:1.5)/viewZoom.value,borderRadius:depth?0:1.5/viewZoom.value},data}
  })},{replaceMerge:['series']});anchors()
 }
-async function share(){sync();try{await navigator.clipboard.writeText(location.href.split('#')[0]+'#'+props.country+'-ranking-chart');notice.value='已复制链接，包含当前层级、年份和币种。'}catch{notice.value='复制地址栏即可分享当前层级。'}}
+async function share(){sync();try{await navigator.clipboard.writeText(location.href.split('#')[0]+'#'+props.country+'-ranking-chart');notice.value='已复制链接，包含层级、年份、币种和分析指标。'}catch{notice.value='复制地址栏即可分享当前层级。'}}
 function exportData(){
  const visible=layer.value.sectors.map(n=>({...n,displayValue:scaleAmount(n,settings.value),shareOfLevel:orbitShare(n,focus.value),shareOfEconomy:orbitShare(n,root.value)}))
- const record={version:props.research.version,basis:structure.value?.id??'annual-industry',country:props.country,year:root.value.year,settings:settings.value,focus:focus.value.id,path:path.value.map(n=>n.id),detail:detailId.value,root:root.value,visible,missing:layer.value.missing,sources:sources.value.filter(s=>[...index.value.values()].some(n=>n.evidence.some(e=>e.sourceId===s.id))),expanded:expandedIds.value,zoom:viewZoom.value,pan:{x:panX.value,y:panY.value},camera:cameraMode.value,bands:bands.value.map(b=>b.map(s=>({id:s.node.id,start:s.start,share:s.share}))),note:'只展开当前路径；镜头平移和缩放，不改变父子扇区的角度。非关注分支淡出，灰色表示未展开规模。'}
+ const analysis=props.research.industryAnalysis?{section:selectedAnalysis.value,nodeId:active.value.id,viewState:Object.fromEntries(new URLSearchParams(location.search)),distribution:valueDistribution(props.research,props.country,basis.value,active.value.id),comparisons:analysisComparisons(props.research.industryAnalysis,props.country,active.value.id,selectedAnalysis.value).map(t=>({...t,rows:t.rows.filter(r=>!r.nodeIds.length||r.nodeIds.includes(active.value.id))})),findings:props.research.industryAnalysis.findings.filter(f=>f.country===props.country&&f.nodeIds.includes(active.value.id)&&f.section===selectedAnalysis.value),sources:props.research.industryAnalysis.sources.filter(s=>s.country===props.country||s.country==='global')}:null
+ const record={version:props.research.version,basis:structure.value?.id??'annual-industry',country:props.country,year:root.value.year,settings:settings.value,focus:focus.value.id,path:path.value.map(n=>n.id),detail:detailId.value,root:root.value,visible,missing:layer.value.missing,sources:sources.value.filter(s=>[...index.value.values()].some(n=>n.evidence.some(e=>e.sourceId===s.id))),analysis,expanded:expandedIds.value,zoom:viewZoom.value,pan:{x:panX.value,y:panY.value},camera:cameraMode.value,bands:bands.value.map(b=>b.map(s=>({id:s.node.id,start:s.start,share:s.share}))),note:'只展开当前路径；镜头平移和缩放，不改变父子扇区的角度。非关注分支淡出，灰色表示未展开规模。'}
  const url=URL.createObjectURL(new Blob([JSON.stringify(record,null,2)],{type:'application/json'})),a=document.createElement('a');a.href=url;a.download=props.country+'-orbit-'+root.value.year+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)
 }
 function exportSvg(){if(chart){clearHover();downloadChartSvg(chart,root.value.year+' · '+root.value.name+'分层图','当前聚焦：'+active.value.name+' · '+money(active.value)+' '+unit.value+' · '+(structure.value?'历史产品部门':'行业现价增加值')+' · 占全体 '+pct(orbitShare(active.value,root.value))+' · 1美元='+settings.value.usdCny+'人民币',props.country+'-orbit-'+root.value.year,visibleSectors.value.map(s=>({label:'　'.repeat(s.depth)+s.node.name,detail:money(s.node)+' '+unit.value+' · 占全体 '+pct(orbitShare(s.node,root.value)),color:colorFor(s)})),{zoom:viewZoom.value,x:panX.value*chart.getWidth(),y:panY.value*chart.getHeight()})}}
@@ -153,7 +165,7 @@ watch(viewZoom,async()=>{await nextTick();draw()})
 watch([bands,settings,active],async()=>{await nextTick();draw();reframe()})
 watch(()=>[props.country,props.year],async()=>{restore();await nextTick();draw()})
 onMounted(async()=>{
- restore();await nextTick();reduced=matchMedia('(prefers-reduced-motion: reduce)').matches
+ restore();analysisReady.value=true;await nextTick();reduced=matchMedia('(prefers-reduced-motion: reduce)').matches
  chart=echarts.init(plot.value!,undefined,{renderer:'svg'});mounted=true
  chart.on('click',(e:any)=>{if(Date.now()<ignoreClickUntil)return;const node=visibleSectors.value.find(s=>s.node.id===e.data?.nodeId)?.node;if(node)choose(node)})
  chart.on('mouseover',(e:any)=>{if(!drag&&!hoverBlocked.value)hoverId.value=e.data?.nodeId??''})
@@ -198,6 +210,8 @@ onBeforeUnmount(()=>{cancelAnimationFrame(cameraFrame);observer?.disconnect();ch
     </div><div v-if="hovered" class="orbit-hover-preview" data-annotation-ui><span>{{hovered.name}}</span><strong>{{money(hovered)}} <small>{{unit}}</small></strong><small>占{{structure?'本表总量':'全国 GDP'}} {{pct(orbitShare(hovered,root))}}</small></div></div><div class="orbit-zoom" aria-label="图表缩放"><button @click="setZoom(viewZoom/1.4)" :disabled="viewZoom<=1" aria-label="缩小图表">−</button><span>{{Math.round(viewZoom*100)}}%</span><button @click="setZoom(viewZoom*1.4)" :disabled="viewZoom>=orbitMaxZoom" aria-label="放大图表">＋</button><button @click="focusCamera">聚焦</button><button @click="go(root.id)">全景</button></div><div class="orbit-scale"><span class="scale-dot"></span><span>{{terminalLayer?'同层角度表示占比 · 点击对比':'只展开当前路径 · 拖动调整视野'}}</span><span class="scale-divider">/</span><span>当前方向占{{structure?'本表总量':'全国 GDP'}} {{pct(orbitShare(active,root))}}</span></div>
    </div>
    <aside class="orbit-inspector" :data-content-id="focus.id+'-orbit-inspector-'+root.year">
+    <div v-if="availableAnalysis.length>1" class="inspector-analysis-tabs" role="group" aria-label="行业分析视角"><button v-for="tab in availableAnalysis" :key="tab" :aria-pressed="selectedAnalysis===tab" @click="changeAnalysis(tab)">{{analysisLabels[tab]}}</button></div>
+    <template v-if="selectedAnalysis==='structure'">
     <div class="inspector-top"><span>{{detail?'分区详情':'本层组成'}}</span><span>{{detail?root.year+' 年':layer.sectors.length+' 个分区'}}</span></div>
     <template v-if="detail">
      <button class="back-list" @click="detailId='';sync()">← 返回本层清单</button><h3>{{detail.name}}</h3>
@@ -220,7 +234,9 @@ onBeforeUnmount(()=>{cancelAnimationFrame(cameraFrame);observer?.disconnect();ch
      <p v-if="layer.delta!==null&&Math.abs(layer.delta)>1" class="rounding-note">子项与父项原值相差 {{formatAmount(Math.abs(layer.delta)/moneyInBaseUnits(1,focus.unit)!,4)}} {{focus.unit}}；保留原表差异，扇区按子项合计绘制。</p>
     </template>
     <p v-for="note in qualityNotes" :key="note" class="detail-gap">{{note}}</p>
-    <details class="orbit-evidence"><summary>统计口径与来源 <span>↗</span></summary><p>同层扇区按角度比较占比；环带厚度用于区分层级，不用于跨层比较金额。</p><p>{{evidenceNode.coverage}}</p><p>{{evidenceNode.year}} 年 · {{evidenceNode.revision}} · 发布 {{evidenceNode.releaseDate??'未注明确切日期'}}</p><EvidenceList :items="currentRefs" :catalog="sources"/></details>
+    </template>
+    <IndustryAnalysisPanel v-if="analysisReady&&research.industryAnalysis" :research="research" :country="country" :basis="basis" :node-id="active.id" :node-name="active.name" :section="selectedAnalysis"/>
+    <details v-if="selectedAnalysis==='structure'" class="orbit-evidence"><summary>统计口径与来源 <span>↗</span></summary><p>同层扇区按角度比较占比；环带厚度用于区分层级，不用于跨层比较金额。</p><p>{{evidenceNode.coverage}}</p><p>{{evidenceNode.year}} 年 · {{evidenceNode.revision}} · 发布 {{evidenceNode.releaseDate??'未注明确切日期'}}</p><EvidenceList :items="currentRefs" :catalog="sources"/></details>
    </aside>
   </div>
   <footer class="orbit-footer"><p><span class="gesture-icon">↗</span> 镜头走近，扇区角度保持不变</p><div><a :href="withBase('/macro-data')">数据说明</a><button @click="share">分享此视图</button><button @click="exportSvg">导出图表</button><button @click="exportData">数据与来源 ↓</button></div></footer>
@@ -228,6 +244,7 @@ onBeforeUnmount(()=>{cancelAnimationFrame(cameraFrame);observer?.disconnect();ch
  </section>
 </template>
 <style scoped>
+.inspector-analysis-tabs{display:flex;gap:18px;border-bottom:1px solid #dce4eb;margin-bottom:15px}.inspector-analysis-tabs button{font-size:12px;color:#708398;padding:7px 0 10px;border-bottom:2px solid transparent;white-space:nowrap}.inspector-analysis-tabs button[aria-pressed=true]{color:#244f7b;border-color:#426e9e}
 .orbit{margin:20px 0 44px;scroll-margin-top:88px;color:#203349}.orbit button{text-decoration:none}.orbit-toolbar{display:flex;align-items:center;justify-content:space-between;gap:18px;border-top:1px solid #dce4eb;padding-top:18px}.orbit-controls{display:flex;align-items:center;flex-wrap:wrap;gap:12px 30px}.orbit-basis{display:flex;gap:22px}.orbit-year{display:flex;align-items:center;gap:10px;margin-bottom:6px;font-size:11px;color:#667b8f}.orbit-year select{max-width:100%;border:1px solid #dce4eb;border-radius:6px;background:#fff;padding:7px 25px 7px 10px;font:inherit;font-size:13px;color:#233d5c;cursor:pointer}.orbit-year select:disabled{opacity:1;background:#f6f8fb;color:#425e7b;cursor:default;-webkit-text-fill-color:#425e7b}.orbit-period-help{margin-left:auto}.orbit-period-help summary{margin:0;color:#426991;cursor:pointer;text-align:right}.orbit-period-help[open]{flex-basis:100%;margin-left:0}.orbit-period-explanation{max-width:780px;line-height:1.85;font-size:12px}.orbit-period-explanation p{margin:10px 0!important}.orbit-basis button{font-size:13px;color:#7d8997;padding:6px 0 12px;border-bottom:2px solid transparent}.orbit-basis button[aria-pressed=true]{color:#233d5c;border-color:#355f91}.orbit-basis span{font-size:9px;padding:2px 4px;background:#f0f3f7;border-radius:3px;margin-left:4px;color:#7d8997}.orbit-unit{font-size:11px;letter-spacing:.04em;color:#8a96a3}.orbit-historical{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 16px;font-size:11px;color:#667b8f;background:#f6f8fb;padding:8px 12px;line-height:1.7!important;margin:10px 0 0!important}.orbit-historical a{text-decoration:underline;text-underline-offset:3px;color:#4c719b}.orbit-breadcrumb{display:flex;align-items:center;flex-wrap:wrap;gap:10px;min-height:44px;font-size:11px;color:#b0bcc8}.orbit-breadcrumb button{color:#8a96a3}.orbit-breadcrumb button[aria-current]{color:#264463}.orbit-layout{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:38px;align-items:start}.orbit-stage{position:relative;min-width:0;background:radial-gradient(ellipse at 50% 46%,#eff4f9 0,white 64%)}.orbit-plot{height:440px;width:100%}.orbit-center{position:absolute;left:50%;top:255px;transform:translate(-50%,-50%);width:41%;display:flex;flex-direction:column;align-items:center;text-align:center;pointer-events:none}.center-kicker{font-size:10px;letter-spacing:.12em;color:#91a0ad;margin-bottom:13px}.orbit-center h2{font-size:16px;line-height:1.6;font-weight:500;max-width:100%;margin:0 0 12px!important;overflow-wrap:anywhere}.orbit-center strong{font-size:31px;font-weight:450;letter-spacing:-.055em;line-height:1.25;font-variant-numeric:tabular-nums;color:#193e68}.center-unit{font-size:10px;color:#8c9aa8;margin-top:7px}.center-share{font-size:11px;color:#547698;margin-top:10px}.center-hint,.orbit-center button{font-size:10px;color:#6887a6;margin-top:22px}.orbit-center button{pointer-events:auto;border-bottom:1px solid #bacbdc;padding-bottom:3px}.orbit-scale{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px;font-size:10px;color:#7a8ea2;margin:10px 0 22px}.scale-dot{height:5px;width:5px;border-radius:50%;background:#6e8da9}.scale-divider{color:#bdc8d4;margin:0 2px}.orbit-inspector{min-width:0;padding-top:14px}.inspector-top{display:flex;justify-content:space-between;font-size:10px;letter-spacing:.07em;color:#91a0ae;border-bottom:1px solid #dce4eb;padding-bottom:13px}.inspector-title{padding:23px 0 17px}.orbit-inspector h3{font-size:21px;line-height:1.5;font-weight:500;letter-spacing:-.025em;margin:0!important}.inspector-title p{font-size:11px;color:#9ba6b1;margin:7px 0 0;line-height:1.6}.sector-list{max-height:265px;overflow:auto;padding-right:7px;scrollbar-width:thin;scrollbar-color:#d6dfe8 transparent}.sector-row{width:100%;display:grid;grid-template-columns:8px minmax(0,1fr) auto 16px;gap:12px;align-items:center;text-align:left;padding:12px 7px;border-bottom:1px solid #edf1f5;transition:background .18s,transform .18s;color:#344b63}.sector-row:hover,.sector-row.is-hovered{background:#f1f6fb;border-radius:5px;transform:translateX(2px)}.sector-dot{width:6px;height:6px;border-radius:50%;align-self:start;margin-top:7px}.sector-label{font-size:12px;line-height:1.6}.sector-label small{display:block;font-size:10px;font-weight:400;color:#9aa7b3;margin-top:4px;font-variant-numeric:tabular-nums}.sector-row strong{font-size:12px;font-weight:500;letter-spacing:-.02em;font-variant-numeric:tabular-nums;color:#536c85}.sector-arrow{font-size:13px;color:#9aafc3;text-align:right}.is-muted .sector-label{color:#8c9baa}.orbit-evidence{border-top:1px solid #dce4eb;margin-top:19px;padding-top:14px;font-size:11px;color:#7c8c9c}.orbit-evidence summary{display:flex;justify-content:space-between;cursor:pointer;color:#6e86a0;list-style:none}.orbit-evidence p{font-size:11px}.orbit-missing{font-size:11px;color:#8b98a5;margin-top:15px}.orbit-missing summary{cursor:pointer}.orbit-missing p{margin:5px 0}.orbit-footer{display:flex;justify-content:space-between;align-items:center;border-top:1px solid #e5ebf1;padding:19px 0;gap:18px}.orbit-footer p{font-size:11px;color:#91a0ad;margin:0}.gesture-icon{margin-right:6px;color:#456b95}.orbit-footer>div{display:flex;gap:22px}.orbit-footer button,.orbit-footer a{font-size:11px;color:#6f86a0}.orbit-notice{font-size:12px;color:#4a729e}.back-list{font-size:11px;color:#7890a7;margin:18px 0}.detail-value{font-size:30px;letter-spacing:-.04em;margin:20px 0}.detail-value small{font-size:11px;color:#8c9cac;display:block;letter-spacing:0;margin-top:6px}.detail-shares{display:flex;gap:32px}.detail-shares p{font-size:10px;color:#8d9caa;margin:0}.detail-shares strong{display:block;font-size:19px;font-weight:450;color:#476783;margin-top:4px}.detail-gap{font-size:12px;color:#8595a4;margin:20px 0 10px}.history-link{font-size:11px;color:#3c6c9a;padding:7px 0}.missing-list{max-height:160px;overflow:auto;font-size:11px;color:#8d9ca9}.missing-list p{display:flex;justify-content:space-between;margin:5px 0}.missing-list span{color:#b0bac5}.rounding-note{font-size:10px;color:#98a4b0}
 @media(min-width:1250px){.orbit-plot{height:430px}.orbit-center{top:275px}.sector-list{max-height:265px}}
 @media(max-width:960px){.orbit-layout{gap:22px;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr)}.orbit-plot{height:400px}.orbit-center{top:225px}.orbit-center strong{font-size:26px}.orbit-center h2{font-size:13px}.center-kicker{margin-bottom:9px}.center-hint,.orbit-center button{margin-top:14px}.sector-row{gap:8px}.sector-label{font-size:11px}.sector-list{max-height:280px}.orbit-inspector h3{font-size:18px}}

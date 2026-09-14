@@ -1,0 +1,436 @@
+{
+  "segments": [
+    {
+      "id": "servers",
+      "companyId": "inspur",
+      "name": "服务器产品",
+      "productIds": [
+        "cn-io-39126"
+      ],
+      "metricIds": {
+        "segment_revenue": "inspur-2025-servers-segment_revenue",
+        "segment_cost": "inspur-2025-servers-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": ""
+    },
+    {
+      "id": "storage-switch",
+      "companyId": "inspur",
+      "name": "存储类、交换类等产品",
+      "productIds": [
+        "cn-io-39127",
+        "cn-io-39128"
+      ],
+      "metricIds": {
+        "segment_revenue": "inspur-2025-storage-switch-segment_revenue",
+        "segment_cost": "inspur-2025-storage-switch-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "混合分部；不能把同一分部全额分配给多个产品。"
+    },
+    {
+      "id": "memory",
+      "companyId": "kaifa",
+      "name": "存储半导体",
+      "productIds": [
+        "cn-io-39132"
+      ],
+      "metricIds": {
+        "segment_revenue": "kaifa-2025-memory-segment_revenue",
+        "segment_cost": "kaifa-2025-memory-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": ""
+    },
+    {
+      "id": "manufacturing",
+      "companyId": "kaifa",
+      "name": "高端制造",
+      "productIds": [
+        "cn-io-39127"
+      ],
+      "metricIds": {
+        "segment_revenue": "kaifa-2025-manufacturing-segment_revenue",
+        "segment_cost": "kaifa-2025-manufacturing-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "包含硬盘零部件和多种产品，只有部分与计算机零部件对应。"
+    },
+    {
+      "id": "meter",
+      "companyId": "kaifa",
+      "name": "计量智能终端",
+      "productIds": [],
+      "metricIds": {
+        "segment_revenue": "kaifa-2025-meter-segment_revenue",
+        "segment_cost": "kaifa-2025-meter-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "保留样本的非C39纯口径业务，不强塞电子设备产品。"
+    },
+    {
+      "id": "carrier",
+      "companyId": "zte",
+      "name": "运营商网络",
+      "productIds": [
+        "cn-io-39128"
+      ],
+      "metricIds": {
+        "segment_revenue": "zte-2025-carrier-segment_revenue",
+        "segment_cost": "zte-2025-carrier-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "含服务，不是纯设备制造收入。"
+    },
+    {
+      "id": "enterprise",
+      "companyId": "zte",
+      "name": "政企业务",
+      "productIds": [
+        "cn-io-39126",
+        "cn-io-39128"
+      ],
+      "metricIds": {
+        "segment_revenue": "zte-2025-enterprise-segment_revenue",
+        "segment_cost": "zte-2025-enterprise-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "服务器、存储、通信及服务混合。"
+    },
+    {
+      "id": "consumer",
+      "companyId": "zte",
+      "name": "消费者业务",
+      "productIds": [
+        "cn-io-39129"
+      ],
+      "metricIds": {
+        "segment_revenue": "zte-2025-consumer-segment_revenue",
+        "segment_cost": "zte-2025-consumer-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": ""
+    },
+    {
+      "id": "phone",
+      "companyId": "transsion",
+      "name": "手机",
+      "productIds": [
+        "cn-io-39129"
+      ],
+      "metricIds": {
+        "segment_revenue": "transsion-2025-phone-segment_revenue",
+        "segment_cost": "transsion-2025-phone-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": ""
+    },
+    {
+      "id": "other",
+      "companyId": "transsion",
+      "name": "其他主营业务",
+      "productIds": [],
+      "metricIds": {
+        "segment_revenue": "transsion-2025-other-segment_revenue",
+        "segment_cost": "transsion-2025-other-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "没有将其他主营业务直接归为智能消费设备。"
+    },
+    {
+      "id": "wireless",
+      "companyId": "haige",
+      "name": "无线通信",
+      "productIds": [
+        "cn-io-39128",
+        "cn-io-39129"
+      ],
+      "metricIds": {
+        "segment_revenue": "haige-2025-wireless-segment_revenue",
+        "segment_cost": "haige-2025-wireless-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "设备、系统、芯片及服务混合，行业相关样本而非纯制造。"
+    },
+    {
+      "id": "navigation",
+      "companyId": "haige",
+      "name": "北斗导航",
+      "productIds": [
+        "cn-io-39128",
+        "cn-io-39129"
+      ],
+      "metricIds": {
+        "segment_revenue": "haige-2025-navigation-segment_revenue",
+        "segment_cost": "haige-2025-navigation-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "导航、芯片和终端混合，不计算IO归属金额。"
+    },
+    {
+      "id": "display-terminal",
+      "companyId": "hisense",
+      "name": "智慧显示终端",
+      "productIds": [
+        "cn-io-39131"
+      ],
+      "metricIds": {
+        "segment_revenue": "hisense-2025-display-terminal-segment_revenue",
+        "segment_cost": "hisense-2025-display-terminal-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "含显示终端业务，不能视为全部非专业视听设备行业。"
+    },
+    {
+      "id": "new-display",
+      "companyId": "hisense",
+      "name": "新显示新业务",
+      "productIds": [],
+      "metricIds": {
+        "segment_revenue": "hisense-2025-new-display-segment_revenue",
+        "segment_cost": "hisense-2025-new-display-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "激光/商显/芯片等混合，不将分部全额计入单一产品。"
+    },
+    {
+      "id": "display-devices",
+      "companyId": "boe",
+      "name": "显示器件业务",
+      "productIds": [
+        "cn-io-39132"
+      ],
+      "metricIds": {
+        "segment_revenue": "boe-2025-display-devices-segment_revenue",
+        "segment_cost": "boe-2025-display-devices-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "分部间交易与其他业务存在抵销；分部金额不能无抵销加总。"
+    },
+    {
+      "id": "iot",
+      "companyId": "boe",
+      "name": "物联网创新业务",
+      "productIds": [
+        "cn-io-39126",
+        "cn-io-39131",
+        "cn-io-39134"
+      ],
+      "metricIds": {
+        "segment_revenue": "boe-2025-iot-segment_revenue",
+        "segment_cost": "boe-2025-iot-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "整机与物联网方案混合，存在分部抵销。"
+    },
+    {
+      "id": "foundry",
+      "companyId": "smic",
+      "name": "集成电路晶圆制造代工",
+      "productIds": [
+        "cn-io-39132"
+      ],
+      "metricIds": {
+        "segment_revenue": "smic-2025-foundry-segment_revenue",
+        "segment_cost": "smic-2025-foundry-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "中国企业集团口径，不以客户所在国认定生产地。"
+    },
+    {
+      "id": "other-main",
+      "companyId": "smic",
+      "name": "其他主营业务",
+      "productIds": [],
+      "metricIds": {
+        "segment_revenue": "smic-2025-other-main-segment_revenue",
+        "segment_cost": "smic-2025-other-main-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "其他主营业务保留未拆分。"
+    },
+    {
+      "id": "consumer",
+      "companyId": "luxshare",
+      "name": "消费电子",
+      "productIds": [
+        "cn-io-39129",
+        "cn-io-39133",
+        "cn-io-39134"
+      ],
+      "metricIds": {
+        "segment_revenue": "luxshare-2025-consumer-segment_revenue",
+        "segment_cost": "luxshare-2025-consumer-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "零件/模组/整机混合；不按收入估计各产品增加值。"
+    },
+    {
+      "id": "automotive",
+      "companyId": "luxshare",
+      "name": "汽车电子",
+      "productIds": [],
+      "metricIds": {
+        "segment_revenue": "luxshare-2025-automotive-segment_revenue",
+        "segment_cost": "luxshare-2025-automotive-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "非C39纯口径，2025并入Leoni影响范围。"
+    },
+    {
+      "id": "communication",
+      "companyId": "luxshare",
+      "name": "通讯及数据中心",
+      "productIds": [
+        "cn-io-39128",
+        "cn-io-39133"
+      ],
+      "metricIds": {
+        "segment_revenue": "luxshare-2025-communication-segment_revenue",
+        "segment_cost": "luxshare-2025-communication-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "零组件和系统混合。"
+    },
+    {
+      "id": "ccl",
+      "companyId": "sytech",
+      "name": "覆铜板和粘结片",
+      "productIds": [
+        "cn-io-39133"
+      ],
+      "metricIds": {
+        "segment_revenue": "sytech-2025-ccl-segment_revenue",
+        "segment_cost": "sytech-2025-ccl-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": ""
+    },
+    {
+      "id": "pcb",
+      "companyId": "sytech",
+      "name": "印制线路板",
+      "productIds": [
+        "cn-io-39133"
+      ],
+      "metricIds": {
+        "segment_revenue": "sytech-2025-pcb-segment_revenue",
+        "segment_cost": "sytech-2025-pcb-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "集团已合并生益电子；样本不再单列生益电子，防止重复。"
+    },
+    {
+      "id": "components",
+      "companyId": "goer",
+      "name": "精密零组件",
+      "productIds": [
+        "cn-io-39133"
+      ],
+      "metricIds": {
+        "segment_revenue": "goer-2025-components-segment_revenue",
+        "segment_cost": "goer-2025-components-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "声光学及微电子相关混合业务。"
+    },
+    {
+      "id": "acoustic",
+      "companyId": "goer",
+      "name": "智能声学整机",
+      "productIds": [
+        "cn-io-39131",
+        "cn-io-39134"
+      ],
+      "metricIds": {
+        "segment_revenue": "goer-2025-acoustic-segment_revenue",
+        "segment_cost": "goer-2025-acoustic-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "耳机/音箱等，产品分类存在交叉，不能重复计量。"
+    },
+    {
+      "id": "smart",
+      "companyId": "goer",
+      "name": "智能硬件",
+      "productIds": [
+        "cn-io-39134"
+      ],
+      "metricIds": {
+        "segment_revenue": "goer-2025-smart-segment_revenue",
+        "segment_cost": "goer-2025-smart-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": ""
+    },
+    {
+      "id": "datacom",
+      "companyId": "wus",
+      "name": "数据通讯PCB",
+      "productIds": [
+        "cn-io-39133"
+      ],
+      "metricIds": {
+        "segment_revenue": "wus-2025-datacom-segment_revenue",
+        "segment_cost": "wus-2025-datacom-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "按终端用途分组，仍是PCB，不等于通信系统设备制造收入。"
+    },
+    {
+      "id": "automotive",
+      "companyId": "wus",
+      "name": "智能汽车PCB",
+      "productIds": [
+        "cn-io-39133"
+      ],
+      "metricIds": {
+        "segment_revenue": "wus-2025-automotive-segment_revenue",
+        "segment_cost": "wus-2025-automotive-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": ""
+    },
+    {
+      "id": "industrial",
+      "companyId": "wus",
+      "name": "工业控制及其他PCB",
+      "productIds": [
+        "cn-io-39133"
+      ],
+      "metricIds": {
+        "segment_revenue": "wus-2025-industrial-segment_revenue",
+        "segment_cost": "wus-2025-industrial-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": ""
+    },
+    {
+      "id": "radar",
+      "companyId": "suncreate",
+      "name": "雷达及配套产品",
+      "productIds": [
+        "cn-io-39130"
+      ],
+      "metricIds": {
+        "segment_revenue": "suncreate-2025-radar-segment_revenue",
+        "segment_cost": "suncreate-2025-radar-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": ""
+    },
+    {
+      "id": "security",
+      "companyId": "suncreate",
+      "name": "公共安全产品",
+      "productIds": [],
+      "metricIds": {
+        "segment_revenue": "suncreate-2025-security-segment_revenue",
+        "segment_cost": "suncreate-2025-security-segment_cost"
+      },
+      "attribution": "相关业务分部，不等于对应IO产品部门规模",
+      "note": "不将公共安全应用全额列入雷达制造。"
+    }
+  ]
+}

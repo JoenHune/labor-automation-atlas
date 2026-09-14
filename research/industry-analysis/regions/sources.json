@@ -1,0 +1,326 @@
+[
+  {
+    "id": "nbs-5ec-editor",
+    "title": "中国经济普查年鉴2023：编者说明",
+    "publisher": "国务院第五次全国经济普查领导小组办公室",
+    "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/note.jpg",
+    "published": null,
+    "retrieved": "2026-09-14",
+    "country": "cn",
+    "kind": "official-statistics",
+    "limitations": [
+      "编者说明落款2025年3月；未当作精确上线日期。",
+      "第四条：除建筑业以外按法人单位经营地汇总；第六条：空白表示零或不足最小单位。"
+    ],
+    "evidencePeriod": "2023",
+    "archive": "research/industry-analysis/official/originals/census2023-editor.jpg",
+    "sha256": "1c7af517fdaee2a1cf5eeeb57f77a6b68780abb73eeb174dfe00fdc4e4b0b3b5",
+    "publishedLabel": "官方表格未标注准确发布日期；本次核查日期为2026-09-14"
+  },
+  {
+    "id": "nbs-5ec-c39-scope",
+    "title": "中国经济普查年鉴2023：1-A-6 规模以上工业企业主要经济指标",
+    "publisher": "国家统计局",
+    "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-A-06.jpg",
+    "published": null,
+    "retrieved": "2026-09-14",
+    "country": "cn",
+    "kind": "official-statistics",
+    "limitations": [
+      "C39全国行与1-B-46地区表全国行收入、成本、利润、用工一致，交叉确认规模以上范围。"
+    ],
+    "evidencePeriod": "2023",
+    "archive": "research/industry-analysis/official/originals/census2023-detailed.jpg",
+    "sha256": "5bb946bf0208cb73462b15fcb127ef5dee94b84259eb1ada7048f9adb98d5175",
+    "publishedLabel": "官方表格未标注准确发布日期；本次核查日期为2026-09-14"
+  },
+  {
+    "id": "nbs-5ec-c39-regions",
+    "title": "中国经济普查年鉴2023：1-B-46 按地区分组的计算机、通信和其他电子设备制造业主要经济指标",
+    "publisher": "国家统计局",
+    "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+    "published": null,
+    "retrieved": "2026-09-14",
+    "country": "cn",
+    "kind": "official-statistics",
+    "limitations": [
+      "2023年历史资料；货币指标亿元，平均用工万人。",
+      "编者说明第六条：空白表示零或不足最小单位；本数据以null保留未给出精确数值的空白，不假定精确零。",
+      "营业收入不能替代增加值；平均用工不能替代年末从业人员。"
+    ],
+    "evidencePeriod": "2023",
+    "archive": "research/industry-analysis/regions/raw/nbs-5ec-c39-regions.jpg",
+    "sha256": "eb857abf6f952a4e927169b622f9d2085ab2ce89be6d196bd3875ded93926e15",
+    "publishedLabel": "官方表格未标注准确发布日期；本次核查日期为2026-09-14"
+  },
+  {
+    "id": "nbs-5ec-definitions",
+    "title": "中国经济普查年鉴2023：第二产业主要指标解释",
+    "publisher": "国家统计局",
+    "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/zb02.pdf",
+    "published": null,
+    "retrieved": "2026-09-14",
+    "country": "cn",
+    "kind": "official-statistics",
+    "limitations": [
+      "平均用工人数指报告期企业平均实际拥有的、参与本企业生产经营活动的人员数。"
+    ],
+    "evidencePeriod": "2023",
+    "archive": "research/industry-analysis/regions/raw/nbs-5ec-definitions.pdf",
+    "sha256": "3f71b00090c2f3e67d95837cbd106a82c7966942f5c255dd4ae560dcb9081dc1",
+    "publishedLabel": "官方表格未标注准确发布日期；本次核查日期为2026-09-14"
+  },
+  {
+    "id": "bj-census2023",
+    "title": "北京市第五次全国经济普查公报（第三号）",
+    "publisher": "北京市统计局、北京市第五次全国经济普查领导小组办公室",
+    "url": "https://tjj.beijing.gov.cn/zt/bjsdwcqgjjpc/wjppcyw/202503/P020250313414054067991.pdf",
+    "published": "2025-03-13",
+    "retrieved": "2026-09-14",
+    "country": "cn",
+    "kind": "official-statistics",
+    "limitations": [],
+    "evidencePeriod": "2023",
+    "archive": "research/industry-analysis/regions/raw/bj-census2023.pdf",
+    "sha256": "e348184bcab4e0472774860ffef7d94eeee860d82a11625f1eafd8922af1e39b"
+  },
+  {
+    "id": "sh-census2023",
+    "title": "上海市第五次全国经济普查主要数据公报（第二号）",
+    "publisher": "上海市统计局、上海市第五次全国经济普查领导小组办公室",
+    "url": "https://tjj.sh.gov.cn/cmsres/42/4245ede056ad44d29f7c7410088be277/1fe46fa421193dfbc009dd59490aefdc.pdf",
+    "published": "2025-04-24",
+    "retrieved": "2026-09-14",
+    "country": "cn",
+    "kind": "official-statistics",
+    "limitations": [],
+    "evidencePeriod": "2023",
+    "archive": "research/industry-analysis/regions/raw/sh-census2023.pdf",
+    "sha256": "03929f949818bf826d36660b27b9ffabaafc213b59c9ef3596c57f2db693ed82"
+  },
+  {
+    "id": "js-census2023",
+    "title": "江苏省第五次全国经济普查公报（第三号）",
+    "publisher": "江苏省统计局",
+    "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_87595_11513965.html",
+    "published": "2025-03-13",
+    "retrieved": "2026-09-14",
+    "country": "cn",
+    "kind": "official-statistics",
+    "limitations": [
+      "原表图片另存 js-census-table32.png 和 js-census-table33.png。"
+    ],
+    "evidencePeriod": "2023",
+    "archive": "research/industry-analysis/regions/raw/js-census2023.html",
+    "sha256": "24dbbc763c149567179a9ebfa0acfafb4e6f1db94209effc619db44a16267a19"
+  },
+  {
+    "id": "cq-census2023",
+    "title": "重庆市第五次全国经济普查公报（第三号）",
+    "publisher": "重庆市统计局、重庆市第五次全国经济普查工作领导小组办公室",
+    "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427445.html",
+    "published": "2025-03-21",
+    "retrieved": "2026-09-14",
+    "country": "cn",
+    "kind": "official-statistics",
+    "limitations": [
+      "页面模板另含2019-11-05占位日期；采用索引栏发布日期及正文落款2025-03-21。"
+    ],
+    "evidencePeriod": "2023",
+    "archive": "research/industry-analysis/regions/raw/cq-census2023.html",
+    "sha256": "b226acc00de1e0d34bc8274dd6208f2bda01f7830792f59f87039b183c84c73c"
+  },
+  {
+    "id": "gd-census2023",
+    "title": "广东省第五次全国经济普查公报（第三号）",
+    "publisher": "广东省统计局官方澎湃号",
+    "url": "https://m.thepaper.cn/newsDetail_forward_30383816",
+    "published": "2025-03-13",
+    "retrieved": "2026-09-14",
+    "country": "cn",
+    "kind": "official-statistics",
+    "limitations": [
+      "表格图片单独保存；企业数原表按万个保留两位小数。",
+      "公开发布渠道为统计局官方账号；不是澎湃记者自行估计。"
+    ],
+    "evidencePeriod": "2023",
+    "archive": "research/industry-analysis/regions/raw/gd-census2023.html",
+    "sha256": "84509e530054b50491e561f5be56da68213564a4bc93d146eaa2c0ecb3b8c233"
+  },
+  {
+    "id": "sc-census2023",
+    "title": "四川省第五次全国经济普查公报（第三号）",
+    "publisher": "四川省统计局官方澎湃号",
+    "url": "https://m.thepaper.cn/newsDetail_forward_30534488",
+    "published": "2025-03-31",
+    "retrieved": "2026-09-14",
+    "country": "cn",
+    "kind": "official-statistics",
+    "limitations": [
+      "表格图片单独保存；官方账号发布渠道。"
+    ],
+    "evidencePeriod": "2023",
+    "archive": "research/industry-analysis/regions/raw/sc-census2023.html",
+    "sha256": "3efacef0bb45ce8fd9036729cc5b440f5eae218ff092511c7b31e5579e30192e"
+  },
+  {
+    "id": "zj-census2023",
+    "title": "浙江省第五次全国经济普查公报（第三号）：浙江日报公告版",
+    "publisher": "浙江省统计局、浙江省第五次全国经济普查领导小组办公室",
+    "url": "https://zjrb.zjol.com.cn/images/2025-03/13/zjrb2025031300010v01n.pdf",
+    "published": "2025-03-13",
+    "retrieved": "2026-09-14",
+    "country": "cn",
+    "kind": "official-statistics",
+    "limitations": [
+      "官方署名公报索引指向浙江日报2025-03-13第10版；原PDF当前404，只有索引候选值，正式比较保留null待核。"
+    ],
+    "evidencePeriod": "2023"
+  },
+  {
+    "id": "bj-io2023",
+    "title": "2023年北京地区42部门投入产出表",
+    "publisher": "北京市统计局",
+    "url": "https://tjj.beijing.gov.cn/ztzl/trccdc/dcsj/202606/P020260630604077928412.xlsx",
+    "published": "2026-06-30",
+    "retrieved": "2026-09-14",
+    "country": "cn",
+    "kind": "official-statistics",
+    "limitations": [
+      "历史产品部门口径，非2025年度行业规模；不与C39企业营业收入拼接。"
+    ],
+    "evidencePeriod": "2023",
+    "archive": "research/industry-analysis/regions/raw/bj-io2023.xlsx",
+    "sha256": "0e46b3445463b88617adb3fff5bf21e78b008e21fe30d84c261d8afde1a30b14"
+  },
+  {
+    "id": "cq-io2023",
+    "title": "2023年重庆市投入产出表：42IO工作表",
+    "publisher": "重庆市统计局",
+    "url": "https://tjj.cq.gov.cn/ztlm_233/trccdc/202512/t20251218_15253734_wap.html",
+    "published": "2025-12-18",
+    "retrieved": "2026-09-14",
+    "country": "cn",
+    "kind": "official-statistics",
+    "limitations": [
+      "只使用对外显示的42IO工作表；隐藏转换表不作为研究事实来源。",
+      "历史产品部门口径，非2025年度行业规模。"
+    ],
+    "evidencePeriod": "2023",
+    "archive": "research/industry-analysis/regions/raw/cq-io2023.xlsx",
+    "sha256": "a93a73d240006aae9395d5247356c974b9ab3289fbf68efeec4886c650ea9533"
+  },
+  {
+    "id": "bj-bulletin2025",
+    "title": "北京市2025年国民经济和社会发展统计公报",
+    "publisher": "北京市统计局、国家统计局北京调查总队（北京市政府转载）",
+    "url": "https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568228.html",
+    "published": "2026-03-27",
+    "retrieved": "2026-09-14",
+    "country": "cn",
+    "kind": "official-statistics",
+    "limitations": [
+      "本链接转载日期2026-03-27，公报原数据发布时间2026-03-25。"
+    ],
+    "evidencePeriod": "2025",
+    "archive": "research/industry-analysis/regions/raw/bj-bulletin2025.html",
+    "sha256": "e3863bd81c7b991384e1a5ac58697f01105eefdac2e78ed57b94876e2b4995f1"
+  },
+  {
+    "id": "js-bulletin2025",
+    "title": "2025年江苏省国民经济和社会发展统计公报",
+    "publisher": "江苏省统计局、国家统计局江苏调查总队（省政府公报转载）",
+    "url": "https://www.jiangsu.gov.cn/art/2026/4/23/art_64797_11761592.html",
+    "published": "2026-04-23",
+    "retrieved": "2026-09-14",
+    "country": "cn",
+    "kind": "official-statistics",
+    "limitations": [
+      "本链接时间为政府公报转载日期；非最早发布日期。",
+      "正文称电子行业；与全年运行材料C39全称及13.5%交叉核对。"
+    ],
+    "evidencePeriod": "2025",
+    "archive": "research/industry-analysis/regions/raw/js-bulletin2025.html",
+    "sha256": "b69c908c84b386d35fa1b02700e64f8732b75f2704f922b5606187604e56bd6e"
+  },
+  {
+    "id": "zj-bulletin2025",
+    "title": "2025年浙江省国民经济和社会发展统计公报",
+    "publisher": "浙江省统计局、国家统计局浙江调查总队",
+    "url": "https://tjj.zj.gov.cn/col/col1229129205/art/2026/art_724c5ad52b8c4ac89def939cb9dee18c.html",
+    "published": "2026-03-03",
+    "retrieved": "2026-09-14",
+    "country": "cn",
+    "kind": "official-statistics",
+    "limitations": [
+      "页面发布时间2026-03-03；正文落款2026-02-26。"
+    ],
+    "evidencePeriod": "2025",
+    "archive": "research/industry-analysis/regions/raw/zj-bulletin2025.html",
+    "sha256": "a9524ab923f903eeab94f123e65ee86a464aff9f70c0cd515796a0df3bf321fd"
+  },
+  {
+    "id": "cq-bulletin2025",
+    "title": "2025年重庆市国民经济和社会发展统计公报",
+    "publisher": "重庆市统计局、国家统计局重庆调查总队",
+    "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjjd_55469/202603/t20260326_15568538_wap.html",
+    "published": "2026-03-26",
+    "retrieved": "2026-09-14",
+    "country": "cn",
+    "kind": "official-statistics",
+    "limitations": [
+      "2025年数据为初步统计数。"
+    ],
+    "evidencePeriod": "2025",
+    "archive": "research/industry-analysis/regions/raw/cq-bulletin2025.html",
+    "sha256": "941a9052806ed09f5b5e6e422978fdb5a98026b1a5284e5b7af0b021bf80b500"
+  },
+  {
+    "id": "sc-bulletin2025",
+    "title": "2025年四川省国民经济和社会发展统计公报",
+    "publisher": "四川省统计局、国家统计局四川调查总队（四川在线全文转载）",
+    "url": "https://sichuan.scol.com.cn/m/ggxw/202603/83223344.html",
+    "published": "2026-03-17",
+    "retrieved": "2026-09-14",
+    "country": "cn",
+    "kind": "official-statistics",
+    "limitations": [
+      "使用统计局署名的公报全文转载；统计局官网原页本次未取得。"
+    ],
+    "evidencePeriod": "2025",
+    "archive": "research/industry-analysis/regions/raw/sc-bulletin2025.html",
+    "sha256": "720284a3699e2d988412b703c77583cb2bee4bc12f4b0d9edffa2e7f144e7b47"
+  },
+  {
+    "id": "sh-economy2025",
+    "title": "2025年上海市国民经济运行情况",
+    "publisher": "上海市统计局、国家统计局上海调查总队",
+    "url": "https://tjj.sh.gov.cn/tjxw/20260120/d3f4918a77484c77bed173db6aaef33c.html",
+    "published": "2026-01-21",
+    "retrieved": "2026-09-14",
+    "country": "cn",
+    "kind": "official-statistics",
+    "limitations": [
+      "C39公布的是工业总产值增长7.7%，不得混入其他省的增加值增速表。",
+      "归档是本次网页读取工具返回的全文记录，非原始HTML。"
+    ],
+    "evidencePeriod": "2025",
+    "archive": "research/industry-analysis/regions/extracted/sh-economy2025-web.txt",
+    "sha256": "91cc9cabf225b7d3522e35bb17a7ee101e005a738c0e22faf8a5315d36076368"
+  },
+  {
+    "id": "gd-economy2025",
+    "title": "2025年广东经济运行数据出炉",
+    "publisher": "广东省人民政府侨务办公室（转载）",
+    "url": "https://www.qb.gd.gov.cn/qwdt/content/post_1317873.html",
+    "published": null,
+    "retrieved": "2026-09-14",
+    "country": "cn",
+    "kind": "official-statistics",
+    "limitations": [
+      "本次仅取得搜索索引，直接正文多次抓取失败；7.1%暂不进入已读原表的数值比较。"
+    ],
+    "evidencePeriod": "2025",
+    "publishedLabel": "完整正文未取得，发布日期待核"
+  }
+]

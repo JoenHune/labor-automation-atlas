@@ -1,0 +1,101 @@
+{
+  "period": "2023",
+  "scope": "计算机、通信和其他电子设备制造业（C39）全部工业企业法人单位；单位数、就业为年末，收入为全年",
+  "limitations": [
+    "全体法人单位与规模以上工业表分开；期末就业不得与平均用工混合。",
+    "广东企业数以8.29万个发布，转为82900个仅作单位换算，原始精度为0.01万个。",
+    "浙江经普公报取自省统计局署名的浙江日报公告版；广东、四川取自统计局官方澎湃号发布的原表。",
+    "浙江公报原件目前404，搜索索引中的候选值单独保存，正式地方全体法人比较中留空。"
+  ],
+  "rows": [
+    {
+      "region": "广东",
+      "enterpriseCount": 82900,
+      "enterpriseCountOriginal": "8.29万个",
+      "workers": 380.82,
+      "revenue": 49941.59,
+      "assets": 66028.04,
+      "liabilities": 39738.6,
+      "sourceId": "gd-census2023",
+      "countLocator": "表3-2 C39行（单位万个、万人）",
+      "financeLocator": "表3-3 C39行（亿元）"
+    },
+    {
+      "region": "江苏",
+      "enterpriseCount": 26852,
+      "workers": 168.9,
+      "revenue": 24915.7,
+      "assets": 28242.8,
+      "liabilities": 14381.0,
+      "sourceId": "js-census2023",
+      "countLocator": "表3-2 C39行（单位个、万人）",
+      "financeLocator": "表3-3 C39行（亿元）"
+    },
+    {
+      "region": "浙江",
+      "enterpriseCount": null,
+      "workers": null,
+      "revenue": null,
+      "assets": null,
+      "liabilities": null,
+      "sourceId": "zj-census2023",
+      "countLocator": "浙江日报2025-03-13第10版，公报第三号表3-2 C39行",
+      "financeLocator": "同版表3-3 C39行（亿元）",
+      "candidateValues": {
+        "enterpriseCount": 13797,
+        "workers": 75.3,
+        "revenue": 10123.4,
+        "assets": 16247.8,
+        "liabilities": 8213.9
+      },
+      "verificationStatus": "indexed-text-only-original-404",
+      "missingReason": "统计局署名浙江日报公告的搜索索引显示候选值，但原PDF直接访问404，本轮未取得可复核原件；不入正式比较。"
+    },
+    {
+      "region": "上海",
+      "enterpriseCount": 2042,
+      "workers": 22.6,
+      "revenue": 5106.2,
+      "assets": 8413.5,
+      "liabilities": 3777.1,
+      "sourceId": "sh-census2023",
+      "countLocator": "公报第二号 PDF第3页表2-2 C39行",
+      "financeLocator": "PDF第5页表2-3 C39行（亿元）"
+    },
+    {
+      "region": "北京",
+      "enterpriseCount": 1351,
+      "workers": 11.8166,
+      "workersOriginal": "118166人",
+      "revenue": 5358.9,
+      "assets": 10799.4,
+      "liabilities": 5670.5,
+      "sourceId": "bj-census2023",
+      "countLocator": "公报第三号 PDF第3页表2 C39行（原单位个、人）；第8页注二：从业人员为期末人数",
+      "financeLocator": "PDF第4页表3 C39行（亿元）"
+    },
+    {
+      "region": "重庆",
+      "enterpriseCount": 2107,
+      "workers": 26.0262,
+      "workersOriginal": "260262人",
+      "revenue": 5774.87,
+      "assets": 4602.87,
+      "liabilities": 2692.55,
+      "sourceId": "cq-census2023",
+      "countLocator": "公报第三号表3-2 C39行（原单位个、人）",
+      "financeLocator": "公报第三号表3-3 C39行（亿元）"
+    },
+    {
+      "region": "四川",
+      "enterpriseCount": 2951,
+      "workers": 45.0,
+      "revenue": 8672.5,
+      "assets": 8868.0,
+      "liabilities": 5089.5,
+      "sourceId": "sc-census2023",
+      "countLocator": "公报第三号表3-2 C39行（个、万人）",
+      "financeLocator": "公报第三号表3-3 C39行（亿元）"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 # 人力与自动化图谱
-当前执行目标为 2024、2025 年宏观行业规模补数（2026-09-14 恢复执行），见 research/current-goal.md。research/accepted-plan.md 保留原方案及范围变更；当前目标优先。
+当前执行目标为“帮我完成这些分析”（2026-09-14）：宏观价值分配、地方统计覆盖与地区分布、上市公司经营比较，见 research/industry-analysis/plan.md。research/current-goal.md 保留此前年度补数目标与缺口，不代表本轮范围；最新用户目标优先。
 
-- 只继续宏观行业层级、规模数据、来源与图谱接入；人工任务、自动化案例、回报、逐任务审校与整合暂停，未经用户重新指示不得恢复。
+- 继续宏观行业层级、规模与价值分配、地方统计、上市公司财报分析及图谱接入；人工任务、自动化案例、回报、逐任务审校与整合暂停，未经用户重新指示不得恢复。
 
 - 中文正文；白底、深色文字、蓝色强调。
 - VitePress/Vue/TypeScript/ECharts、GitHub Actions → GitHub Pages；Cloudflare Workers + D1 + R2。用户指定的技术与托管优先于通用 Sites 脚手架。

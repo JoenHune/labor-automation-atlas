@@ -1,0 +1,95 @@
+[
+  {
+    "id": "gd-census-table32.jpg",
+    "url": "https://imagepphcloud.thepaper.cn/pph/image/343/112/309.jpg",
+    "bytes": 84062,
+    "sha256": "69c0f55c4e9713de4638e993f1fa5ebdba970065ff5ab8b3dd453d4c1e040e4f",
+    "status": "acquired",
+    "retrievedAt": "2026-09-14"
+  },
+  {
+    "id": "gd-census-table33.jpg",
+    "url": "https://imagepphcloud.thepaper.cn/pph/image/343/112/311.jpg",
+    "bytes": 101410,
+    "sha256": "8e36fcf3f757ca40e54e837d6098240f6ff97492a1811f4ae75c52c8de3a947d",
+    "status": "acquired",
+    "retrievedAt": "2026-09-14"
+  },
+  {
+    "id": "sc-census-table32.jpg",
+    "url": "https://imagepphcloud.thepaper.cn/pph/image/344/940/566.jpg",
+    "bytes": 111368,
+    "sha256": "24f1c4ee708b24d19a9ff3a375deae381fc5f9846049f8911ba1a73c7004947c",
+    "status": "acquired",
+    "retrievedAt": "2026-09-14"
+  },
+  {
+    "id": "sc-census-table33.jpg",
+    "url": "https://imagepphcloud.thepaper.cn/pph/image/344/940/567.jpg",
+    "bytes": 136925,
+    "sha256": "5a661eb5c1168654f31d6138c4f7b62638e097335dcc9857cc0c7743a65c8e5e",
+    "status": "acquired",
+    "retrievedAt": "2026-09-14"
+  },
+  {
+    "id": "js-census-table32.png",
+    "url": "https://tj.jiangsu.gov.cn/picture/0/231158dfaee548e79256c01af1356395.png",
+    "bytes": 63845,
+    "sha256": "221c1e3aa04c7483fa6028f55ed389d76ac50fdb07ef3e7482af03d235f2d3ed",
+    "status": "acquired",
+    "retrievedAt": "2026-09-14",
+    "transport": "curl"
+  },
+  {
+    "id": "js-census-table33.png",
+    "url": "https://tj.jiangsu.gov.cn/picture/0/95fd9a0b19b34be49d6fec92a2cd3582.png",
+    "bytes": 84852,
+    "sha256": "2b5c9c2b3646e8833e97b0dae0f78077754b2c6a85051037ed102501deb48571",
+    "status": "acquired",
+    "retrievedAt": "2026-09-14",
+    "transport": "curl"
+  },
+  {
+    "id": "bj-bulletin2025.html",
+    "url": "https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568228.html",
+    "bytes": 63682,
+    "sha256": "e3863bd81c7b991384e1a5ac58697f01105eefdac2e78ed57b94876e2b4995f1",
+    "status": "acquired",
+    "retrievedAt": "2026-09-14",
+    "transport": "curl"
+  },
+  {
+    "id": "cq-bulletin2025.html",
+    "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjjd_55469/202603/t20260326_15568538_wap.html",
+    "bytes": 224476,
+    "sha256": "941a9052806ed09f5b5e6e422978fdb5a98026b1a5284e5b7af0b021bf80b500",
+    "status": "acquired",
+    "retrievedAt": "2026-09-14",
+    "links": [
+      [
+        "2025年重庆市国民经济和社会发展统计公报",
+        "javascript:void(0);"
+      ],
+      [
+        "50011202501701号",
+        "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50011202501701"
+      ]
+    ]
+  },
+  {
+    "id": "js-bulletin2025.html",
+    "url": "https://www.jiangsu.gov.cn/art/2026/4/23/art_64797_11761592.html",
+    "bytes": 35743,
+    "sha256": "b69c908c84b386d35fa1b02700e64f8732b75f2704f922b5606187604e56bd6e",
+    "status": "acquired",
+    "retrievedAt": "2026-09-14",
+    "transport": "curl"
+  },
+  {
+    "id": "gd-economy2025.html",
+    "url": "https://www.qb.gd.gov.cn/qwdt/content/post_1317873.html",
+    "status": "not_acquired",
+    "error": "SSLError",
+    "retrievedAt": "2026-09-14"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "bj-census2023.pdf",
+    "url": "https://tjj.beijing.gov.cn/zt/bjsdwcqgjjpc/wjppcyw/202503/P020250313414054067991.pdf",
+    "status": "not_acquired",
+    "error": "SSLError",
+    "retrievedAt": "2026-09-14"
+  },
+  {
+    "id": "sh-census2023.pdf",
+    "url": "https://tjj.sh.gov.cn/cmsres/42/4245ede056ad44d29f7c7410088be277/1fe46fa421193dfbc009dd59490aefdc.pdf",
+    "status": "not_acquired",
+    "error": "HTTPError",
+    "retrievedAt": "2026-09-14"
+  },
+  {
+    "id": "js-census2023.html",
+    "url": "https://tjj.nanjing.gov.cn/njstjj/202504/t20250408_5113194.html",
+    "status": "not_acquired",
+    "error": "HTTPError",
+    "retrievedAt": "2026-09-14"
+  },
+  {
+    "id": "cq-census2023.html",
+    "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427445.html",
+    "bytes": 232608,
+    "sha256": "b226acc00de1e0d34bc8274dd6208f2bda01f7830792f59f87039b183c84c73c",
+    "status": "acquired",
+    "retrievedAt": "2026-09-14",
+    "links": [
+      [
+        "50011202501701号",
+        "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50011202501701"
+      ]
+    ]
+  },
+  {
+    "id": "bj-io-catalog.html",
+    "url": "https://tjj.beijing.gov.cn/ztzl/trccdc/dcsj/index.html",
+    "status": "not_acquired",
+    "error": "SSLError",
+    "retrievedAt": "2026-09-14"
+  },
+  {
+    "id": "cq-io2023.html",
+    "url": "https://tjj.cq.gov.cn/ztlm_233/trccdc/202512/t20251218_15253734_wap.html",
+    "bytes": 15850,
+    "sha256": "704bdb91a3df9be0a1513306f6a9724211ed192e4f29bfe4e6179f1585703e32",
+    "status": "acquired",
+    "retrievedAt": "2026-09-14",
+    "links": [
+      [
+        "2023年重庆市投入产出表",
+        "javascript:void(0);"
+      ],
+      [
+        "2023年重庆市投入产出表.xlsx",
+        "https://tjj.cq.gov.cn/ztlm_233/trccdc/202512/P020251218372398396357.xlsx"
+      ],
+      [
+        "50011202501701号",
+        "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50011202501701"
+      ]
+    ]
+  },
+  {
+    "id": "gd-bulletin-catalog.html",
+    "url": "https://stats.gd.gov.cn/tjgb/index.html",
+    "status": "not_acquired",
+    "error": "ProxyError",
+    "retrievedAt": "2026-09-14"
+  },
+  {
+    "id": "nbs-5ec-definitions.pdf",
+    "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/zb02.pdf",
+    "bytes": 349674,
+    "sha256": "3f71b00090c2f3e67d95837cbd106a82c7966942f5c255dd4ae560dcb9081dc1",
+    "status": "acquired",
+    "retrievedAt": "2026-09-14"
+  },
+  {
+    "id": "zj-home.html",
+    "url": "https://tjj.zj.gov.cn/",
+    "bytes": 53116,
+    "sha256": "212d3c111f5e21e1b9aa5ce9aee20c409dd5dccd63b7d1f6b4d1d186bbbcd82b",
+    "status": "acquired",
+    "retrievedAt": "2026-09-14",
+    "links": [
+      [
+        "浙江省2025年1%人口抽样调查公开招标课题立项公示",
+        "https://tjj.zj.gov.cn/col/col1229128304/wjtzx/art/2026/art_a60c72d187cf41308c9a7ef3cde926b9.html"
+      ],
+      [
+        "浙江省2025年1%人口抽样调查工作协调小组办公室关于浙江省2025年1%人口抽样调查研究课题招标的公告",
+        "https://tjj.zj.gov.cn/col/col1229128304/wjtzx/art/2026/art_56fa4766d638442987899224f24175af.html"
+      ],
+      [
+        "浙江省第五次全国经济普查领导小组办公室关于公布第五次全国经济普查浙江投入产出调查研究课题评审结果的通知",
+        "https://tjj.zj.gov.cn/col/col1229128304/wjtzx/art/2026/art_b6ff84a184c944ccaba5e2112c37144a.html"
+      ],
+      [
+        "温岭市统计局作品《依法普查保密有责》",
+        "https://tjj.zj.gov.cn/art/2023/12/28/art_1229683208_58961298.html"
+      ],
+      [
+        "温岭市统计局作品《经济普查填报的数据会被“泄密”吗？》",
+        "https://tjj.zj.gov.cn/art/2023/12/28/art_1229683208_58961297.html"
+      ],
+      [
+        "2025年浙江省国民经济和社会发展统计公报",
+        "https://tjj.zj.gov.cn/col/col1229129205/art/2026/art_724c5ad52b8c4ac89def939cb9dee18c.html"
+      ],
+      [
+        "2025年浙江省人民生活等相关统计数据公报",
+        "https://tjj.zj.gov.cn/col/col1229129205/art/2026/art_f57c33b8745a42a490ce968e32ec815b.html"
+      ],
+      [
+        "2025年浙江省国民经济和社会发展统计公报",
+        "https://tjj.zj.gov.cn/col/col1229129205/art/2026/art_724c5ad52b8c4ac89def939cb9dee18c.html"
+      ],
+      [
+        "2025年浙江省人民生活等相关统计数据公报",
+        "https://tjj.zj.gov.cn/col/col1229129205/art/2026/art_f57c33b8745a42a490ce968e32ec815b.html"
+      ]
+    ]
+  },
+  {
+    "id": "sc-home.html",
+    "url": "https://tjj.sc.gov.cn/",
+    "status": "not_acquired",
+    "error": "ProxyError",
+    "retrievedAt": "2026-09-14"
+  }
+]

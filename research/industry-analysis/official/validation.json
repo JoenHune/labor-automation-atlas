@@ -1,0 +1,67 @@
+{
+  "checkedAt": "2026-09-14",
+  "sourceHashesValid": true,
+  "scope": "C39官方已摘录字段、已保存原件、9个产品四分项独立复核；不声称全国地方资料已穷尽",
+  "independentIoChecks": [
+    {
+      "code": "39126",
+      "matchesPrior": true,
+      "componentSumMinusVa": 0
+    },
+    {
+      "code": "39127",
+      "matchesPrior": true,
+      "componentSumMinusVa": 0
+    },
+    {
+      "code": "39128",
+      "matchesPrior": true,
+      "componentSumMinusVa": 0
+    },
+    {
+      "code": "39129",
+      "matchesPrior": true,
+      "componentSumMinusVa": 0
+    },
+    {
+      "code": "39130",
+      "matchesPrior": true,
+      "componentSumMinusVa": 0
+    },
+    {
+      "code": "39131",
+      "matchesPrior": true,
+      "componentSumMinusVa": 0
+    },
+    {
+      "code": "39132",
+      "matchesPrior": true,
+      "componentSumMinusVa": 0
+    },
+    {
+      "code": "39133",
+      "matchesPrior": true,
+      "componentSumMinusVa": 1
+    },
+    {
+      "code": "39134",
+      "matchesPrior": true,
+      "componentSumMinusVa": 0
+    }
+  ],
+  "financeChildrenMinusParent": {
+    "enterpriseCount": 0,
+    "revenue": 0.01,
+    "cost": 0.01,
+    "profit": 0.0,
+    "averageWorkers": 0.02
+  },
+  "rdChildrenMinusParent": {
+    "expense10000Cny": -1641,
+    "persons": -59,
+    "ftePersonYears": -41
+  },
+  "rdReconciliation": "原表数值已目视复核，细项合计仍与总项存在差额；不得强平，也不能在没有依据时将整数人数差额解释为舍入。保留差额作为待核。",
+  "observations": 216,
+  "nodes": 10
+}

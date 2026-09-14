@@ -1,0 +1,402 @@
+{
+  "checkedAt": "2026-09-14",
+  "sampling": "13家分层目的样本；不具总体代表性，不计算全国行业份额",
+  "companies": [
+    {
+      "id": "inspur",
+      "name": "浪潮信息",
+      "stockCode": "000977",
+      "country": "cn",
+      "countryMeaning": "中国企业观察样本；指标为集团合并口径，不限境内生产",
+      "businessModel": "服务器品牌与系统产品",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39",
+        "cn-io-39126",
+        "cn-io-39127",
+        "cn-io-39128"
+      ],
+      "selection": "分层目的抽样；为九类产品提供实际业务线索，不是随机样本或上市公司全覆盖",
+      "mappingEvidence": [
+        {
+          "sourceId": "inspur-ar2025",
+          "locator": "PDF第9页：主要业务；第14页：业务分部/边界",
+          "excerpt": "服务器产品为主要分部；存储/交换业务同时相关，不能把该分部全额重复分配。"
+        }
+      ],
+      "mappingNote": "服务器产品为主要分部；存储/交换业务同时相关，不能把该分部全额重复分配。",
+      "aggregationPolicy": "不跨企业或跨产品加总；关联上下游存在交易重复；上市母子只保留一个合并层级。",
+      "geographyNote": "集团包括境内外业务；披露的销售地区不替代工厂所在地。",
+      "headcountNote": "员工表通常为年末母公司及主要子公司，尚未与全年平均、所有子公司和外包人数统一；人均数仅描述性代理。",
+      "segmentIds": [
+        "servers",
+        "storage-switch"
+      ]
+    },
+    {
+      "id": "kaifa",
+      "name": "深科技",
+      "stockCode": "000021",
+      "country": "cn",
+      "countryMeaning": "中国企业观察样本；指标为集团合并口径，不限境内生产",
+      "businessModel": "电子制造服务与存储封测",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39",
+        "cn-io-39127",
+        "cn-io-39132"
+      ],
+      "selection": "分层目的抽样；为九类产品提供实际业务线索，不是随机样本或上市公司全覆盖",
+      "mappingEvidence": [
+        {
+          "sourceId": "kaifa-ar2025",
+          "locator": "PDF第12页：主要业务；第22页：业务分部/边界",
+          "excerpt": "高端制造包含硬盘零部件及多种电子产品；计量智能终端保留为非C39纯口径业务。"
+        }
+      ],
+      "mappingNote": "高端制造包含硬盘零部件及多种电子产品；计量智能终端保留为非C39纯口径业务。",
+      "aggregationPolicy": "不跨企业或跨产品加总；关联上下游存在交易重复；上市母子只保留一个合并层级。",
+      "geographyNote": "集团包括境内外业务；披露的销售地区不替代工厂所在地。",
+      "headcountNote": "员工表通常为年末母公司及主要子公司，尚未与全年平均、所有子公司和外包人数统一；人均数仅描述性代理。",
+      "segmentIds": [
+        "memory",
+        "manufacturing",
+        "meter"
+      ]
+    },
+    {
+      "id": "zte",
+      "name": "中兴通讯",
+      "stockCode": "000063",
+      "country": "cn",
+      "countryMeaning": "中国企业观察样本；指标为集团合并口径，不限境内生产",
+      "businessModel": "通信系统、企业设备与终端",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39",
+        "cn-io-39126",
+        "cn-io-39128",
+        "cn-io-39129"
+      ],
+      "selection": "分层目的抽样；为九类产品提供实际业务线索，不是随机样本或上市公司全覆盖",
+      "mappingEvidence": [
+        {
+          "sourceId": "zte-ar2025",
+          "locator": "PDF第25页：主要业务；第28页：业务分部/边界",
+          "excerpt": "运营商网络、政企、消费者按市场划分，均可能含硬件与服务；外包生产商存在。"
+        }
+      ],
+      "mappingNote": "运营商网络、政企、消费者按市场划分，均可能含硬件与服务；外包生产商存在。",
+      "aggregationPolicy": "不跨企业或跨产品加总；关联上下游存在交易重复；上市母子只保留一个合并层级。",
+      "geographyNote": "集团包括境内外业务；披露的销售地区不替代工厂所在地。",
+      "headcountNote": "员工表通常为年末母公司及主要子公司，尚未与全年平均、所有子公司和外包人数统一；人均数仅描述性代理。",
+      "segmentIds": [
+        "carrier",
+        "enterprise",
+        "consumer"
+      ]
+    },
+    {
+      "id": "transsion",
+      "name": "传音控股",
+      "stockCode": "688036",
+      "country": "cn",
+      "countryMeaning": "中国企业观察样本；指标为集团合并口径，不限境内生产",
+      "businessModel": "手机品牌与渠道",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39",
+        "cn-io-39129"
+      ],
+      "selection": "分层目的抽样；为九类产品提供实际业务线索，不是随机样本或上市公司全覆盖",
+      "mappingEvidence": [
+        {
+          "sourceId": "transsion-ar2025",
+          "locator": "PDF第12页：主要业务；第34页：业务分部/边界",
+          "excerpt": "手机相关样本，其他业务没有强行归入智能消费；合并集团不等于境内手机生产。"
+        }
+      ],
+      "mappingNote": "手机相关样本，其他业务没有强行归入智能消费；合并集团不等于境内手机生产。",
+      "aggregationPolicy": "不跨企业或跨产品加总；关联上下游存在交易重复；上市母子只保留一个合并层级。",
+      "geographyNote": "集团包括境内外业务；披露的销售地区不替代工厂所在地。",
+      "headcountNote": "员工表通常为年末母公司及主要子公司，尚未与全年平均、所有子公司和外包人数统一；人均数仅描述性代理。",
+      "segmentIds": [
+        "phone",
+        "other"
+      ]
+    },
+    {
+      "id": "haige",
+      "name": "海格通信",
+      "stockCode": "002465",
+      "country": "cn",
+      "countryMeaning": "中国企业观察样本；指标为集团合并口径，不限境内生产",
+      "businessModel": "专用通信及技术服务",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39",
+        "cn-io-39128",
+        "cn-io-39129"
+      ],
+      "selection": "分层目的抽样；为九类产品提供实际业务线索，不是随机样本或上市公司全覆盖",
+      "mappingEvidence": [
+        {
+          "sourceId": "haige-ar2025",
+          "locator": "PDF第9页：主要业务；第21页：业务分部/边界",
+          "excerpt": "按业务分部关联。公司工业收入仅占41.68%、服务业58.32%，不能将集团全额当制造业。"
+        }
+      ],
+      "mappingNote": "按业务分部关联。公司工业收入仅占41.68%、服务业58.32%，不能将集团全额当制造业。",
+      "aggregationPolicy": "不跨企业或跨产品加总；关联上下游存在交易重复；上市母子只保留一个合并层级。",
+      "geographyNote": "集团包括境内外业务；披露的销售地区不替代工厂所在地。",
+      "headcountNote": "员工表通常为年末母公司及主要子公司，尚未与全年平均、所有子公司和外包人数统一；人均数仅描述性代理。",
+      "segmentIds": [
+        "wireless",
+        "navigation"
+      ]
+    },
+    {
+      "id": "hisense",
+      "name": "海信视像",
+      "stockCode": "600060",
+      "country": "cn",
+      "countryMeaning": "中国企业观察样本；指标为集团合并口径，不限境内生产",
+      "businessModel": "显示终端品牌",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39",
+        "cn-io-39131"
+      ],
+      "selection": "分层目的抽样；为九类产品提供实际业务线索，不是随机样本或上市公司全覆盖",
+      "mappingEvidence": [
+        {
+          "sourceId": "hisense-ar2025",
+          "locator": "PDF第12页：主要业务；第27页：业务分部/边界",
+          "excerpt": "智慧显示终端与非专业视听相关，但新显示和商显等混合业务不归入单一产品。"
+        }
+      ],
+      "mappingNote": "智慧显示终端与非专业视听相关，但新显示和商显等混合业务不归入单一产品。",
+      "aggregationPolicy": "不跨企业或跨产品加总；关联上下游存在交易重复；上市母子只保留一个合并层级。",
+      "geographyNote": "集团包括境内外业务；披露的销售地区不替代工厂所在地。",
+      "headcountNote": "员工表通常为年末母公司及主要子公司，尚未与全年平均、所有子公司和外包人数统一；人均数仅描述性代理。",
+      "segmentIds": [
+        "display-terminal",
+        "new-display"
+      ]
+    },
+    {
+      "id": "boe",
+      "name": "京东方A",
+      "stockCode": "000725",
+      "country": "cn",
+      "countryMeaning": "中国企业观察样本；指标为集团合并口径，不限境内生产",
+      "businessModel": "面板制造与终端方案",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39",
+        "cn-io-39132",
+        "cn-io-39126",
+        "cn-io-39131",
+        "cn-io-39134"
+      ],
+      "selection": "分层目的抽样；为九类产品提供实际业务线索，不是随机样本或上市公司全覆盖",
+      "mappingEvidence": [
+        {
+          "sourceId": "boe-ar2025",
+          "locator": "PDF第16页：主要业务；第19页：业务分部/边界",
+          "excerpt": "显示器件为主要分部；物联网创新业务跨类且有内部抵销，A/B股合为一个集团样本。"
+        }
+      ],
+      "mappingNote": "显示器件为主要分部；物联网创新业务跨类且有内部抵销，A/B股合为一个集团样本。",
+      "aggregationPolicy": "不跨企业或跨产品加总；关联上下游存在交易重复；上市母子只保留一个合并层级。",
+      "geographyNote": "集团包括境内外业务；披露的销售地区不替代工厂所在地。",
+      "headcountNote": "员工表通常为年末母公司及主要子公司，尚未与全年平均、所有子公司和外包人数统一；人均数仅描述性代理。",
+      "segmentIds": [
+        "display-devices",
+        "iot"
+      ]
+    },
+    {
+      "id": "smic",
+      "name": "中芯国际",
+      "stockCode": "688981",
+      "country": "cn",
+      "countryMeaning": "中国企业观察样本；指标为集团合并口径，不限境内生产",
+      "businessModel": "晶圆制造代工",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39",
+        "cn-io-39132"
+      ],
+      "selection": "分层目的抽样；为九类产品提供实际业务线索，不是随机样本或上市公司全覆盖",
+      "mappingEvidence": [
+        {
+          "sourceId": "smic-ar2025",
+          "locator": "PDF第13页：主要业务；第26页：业务分部/边界",
+          "excerpt": "使用A股企业会计准则人民币财报，A/H股不重复计数；客户地域不等于生产地域。"
+        }
+      ],
+      "mappingNote": "使用A股企业会计准则人民币财报，A/H股不重复计数；客户地域不等于生产地域。",
+      "aggregationPolicy": "不跨企业或跨产品加总；关联上下游存在交易重复；上市母子只保留一个合并层级。",
+      "geographyNote": "集团包括境内外业务；披露的销售地区不替代工厂所在地。",
+      "headcountNote": "员工表通常为年末母公司及主要子公司，尚未与全年平均、所有子公司和外包人数统一；人均数仅描述性代理。",
+      "segmentIds": [
+        "foundry",
+        "other-main"
+      ]
+    },
+    {
+      "id": "luxshare",
+      "name": "立讯精密",
+      "stockCode": "002475",
+      "country": "cn",
+      "countryMeaning": "中国企业观察样本；指标为集团合并口径，不限境内生产",
+      "businessModel": "零组件、模组与整机制造",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39",
+        "cn-io-39129",
+        "cn-io-39133",
+        "cn-io-39134",
+        "cn-io-39128"
+      ],
+      "selection": "分层目的抽样；为九类产品提供实际业务线索，不是随机样本或上市公司全覆盖",
+      "mappingEvidence": [
+        {
+          "sourceId": "luxshare-ar2025",
+          "locator": "PDF第11页：主要业务；第18页：业务分部/边界",
+          "excerpt": "消费电子分部混合零件与整机，另含汽车电子。2025新增Leoni与通讯ODM范围。"
+        }
+      ],
+      "mappingNote": "消费电子分部混合零件与整机，另含汽车电子。2025新增Leoni与通讯ODM范围。",
+      "aggregationPolicy": "不跨企业或跨产品加总；关联上下游存在交易重复；上市母子只保留一个合并层级。",
+      "geographyNote": "集团包括境内外业务；披露的销售地区不替代工厂所在地。",
+      "headcountNote": "员工表通常为年末母公司及主要子公司，尚未与全年平均、所有子公司和外包人数统一；人均数仅描述性代理。",
+      "segmentIds": [
+        "consumer",
+        "automotive",
+        "communication"
+      ]
+    },
+    {
+      "id": "sytech",
+      "name": "生益科技",
+      "stockCode": "600183",
+      "country": "cn",
+      "countryMeaning": "中国企业观察样本；指标为集团合并口径，不限境内生产",
+      "businessModel": "电子材料与PCB制造",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39",
+        "cn-io-39133"
+      ],
+      "selection": "分层目的抽样；为九类产品提供实际业务线索，不是随机样本或上市公司全覆盖",
+      "mappingEvidence": [
+        {
+          "sourceId": "sytech-ar2025",
+          "locator": "PDF第10页：主要业务；第13页：业务分部/边界",
+          "excerpt": "覆铜板/粘结片与PCB均相关；已合并上市子公司生益电子，后者不再单列。"
+        }
+      ],
+      "mappingNote": "覆铜板/粘结片与PCB均相关；已合并上市子公司生益电子，后者不再单列。",
+      "aggregationPolicy": "不跨企业或跨产品加总；关联上下游存在交易重复；上市母子只保留一个合并层级。",
+      "geographyNote": "集团包括境内外业务；披露的销售地区不替代工厂所在地。",
+      "headcountNote": "员工表通常为年末母公司及主要子公司，尚未与全年平均、所有子公司和外包人数统一；人均数仅描述性代理。",
+      "segmentIds": [
+        "ccl",
+        "pcb"
+      ]
+    },
+    {
+      "id": "goer",
+      "name": "歌尔股份",
+      "stockCode": "002241",
+      "country": "cn",
+      "countryMeaning": "中国企业观察样本；指标为集团合并口径，不限境内生产",
+      "businessModel": "精密零组件及智能硬件ODM/JDM",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39",
+        "cn-io-39133",
+        "cn-io-39131",
+        "cn-io-39134"
+      ],
+      "selection": "分层目的抽样；为九类产品提供实际业务线索，不是随机样本或上市公司全覆盖",
+      "mappingEvidence": [
+        {
+          "sourceId": "goer-ar2025",
+          "locator": "PDF第11页：主要业务；第14页：业务分部/边界",
+          "excerpt": "智能声学整机和智能硬件可能跨产品分类；境外生产和品牌客户外包结构影响比较。"
+        }
+      ],
+      "mappingNote": "智能声学整机和智能硬件可能跨产品分类；境外生产和品牌客户外包结构影响比较。",
+      "aggregationPolicy": "不跨企业或跨产品加总；关联上下游存在交易重复；上市母子只保留一个合并层级。",
+      "geographyNote": "集团包括境内外业务；披露的销售地区不替代工厂所在地。",
+      "headcountNote": "员工表通常为年末母公司及主要子公司，尚未与全年平均、所有子公司和外包人数统一；人均数仅描述性代理。",
+      "segmentIds": [
+        "components",
+        "acoustic",
+        "smart"
+      ]
+    },
+    {
+      "id": "wus",
+      "name": "沪电股份",
+      "stockCode": "002463",
+      "country": "cn",
+      "countryMeaning": "中国企业观察样本；指标为集团合并口径，不限境内生产",
+      "businessModel": "PCB制造",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39",
+        "cn-io-39133"
+      ],
+      "selection": "分层目的抽样；为九类产品提供实际业务线索，不是随机样本或上市公司全覆盖",
+      "mappingEvidence": [
+        {
+          "sourceId": "wus-ar2025",
+          "locator": "PDF第15页：主要业务；第20页：业务分部/边界",
+          "excerpt": "数据通讯、智能汽车为PCB用途分组，不把通讯用途PCB归为通信系统设备。"
+        }
+      ],
+      "mappingNote": "数据通讯、智能汽车为PCB用途分组，不把通讯用途PCB归为通信系统设备。",
+      "aggregationPolicy": "不跨企业或跨产品加总；关联上下游存在交易重复；上市母子只保留一个合并层级。",
+      "geographyNote": "集团包括境内外业务；披露的销售地区不替代工厂所在地。",
+      "headcountNote": "员工表通常为年末母公司及主要子公司，尚未与全年平均、所有子公司和外包人数统一；人均数仅描述性代理。",
+      "segmentIds": [
+        "datacom",
+        "automotive",
+        "industrial"
+      ]
+    },
+    {
+      "id": "suncreate",
+      "name": "四创电子",
+      "stockCode": "600990",
+      "country": "cn",
+      "countryMeaning": "中国企业观察样本；指标为集团合并口径，不限境内生产",
+      "businessModel": "雷达产品与配套",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39",
+        "cn-io-39130"
+      ],
+      "selection": "分层目的抽样；为九类产品提供实际业务线索，不是随机样本或上市公司全覆盖",
+      "mappingEvidence": [
+        {
+          "sourceId": "suncreate-ar2025",
+          "locator": "PDF第9页：主要业务；第23页：业务分部/边界",
+          "excerpt": "仅雷达及配套分部直接关联，公共安全、电源和机动保障未一并当雷达制造。"
+        }
+      ],
+      "mappingNote": "仅雷达及配套分部直接关联，公共安全、电源和机动保障未一并当雷达制造。",
+      "aggregationPolicy": "不跨企业或跨产品加总；关联上下游存在交易重复；上市母子只保留一个合并层级。",
+      "geographyNote": "集团包括境内外业务；披露的销售地区不替代工厂所在地。",
+      "headcountNote": "员工表通常为年末母公司及主要子公司，尚未与全年平均、所有子公司和外包人数统一；人均数仅描述性代理。",
+      "segmentIds": [
+        "radar",
+        "security"
+      ]
+    }
+  ]
+}

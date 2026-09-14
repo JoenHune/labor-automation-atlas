@@ -3,10 +3,12 @@ import { annualRanking } from './ranking'
 import {validateProductivityDataset} from './productivity'
 import {validateMacroStructures} from './macro-structure'
 import {validateAnnualDetails} from './annual-details'
+import {validateIndustryAnalysis} from './industry-analysis'
 
 export function validateResearch(input: unknown) {
   const data = ResearchSchema.parse(input)
   if(data.macroStructures)validateMacroStructures(data.macroStructures)
+  if(data.industryAnalysis)validateIndustryAnalysis(data.industryAnalysis)
   if(data.annualDetails){
     validateAnnualDetails(data.annualDetails)
     for(const branch of data.annualDetails.branches){

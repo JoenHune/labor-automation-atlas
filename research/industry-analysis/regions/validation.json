@@ -1,0 +1,129 @@
+{
+  "checkedAt": "2026-09-14",
+  "regionCount": 31,
+  "sourceImageRead": true,
+  "checks": [
+    {
+      "metric": "assets",
+      "regionalSum": 190719.95,
+      "national": 190719.96,
+      "difference": -0.01,
+      "nullCount": 0,
+      "withinRoundingTolerance": true
+    },
+    {
+      "metric": "fixedAssetsNet",
+      "regionalSum": 34643.47,
+      "national": 34643.5,
+      "difference": -0.03,
+      "nullCount": 0,
+      "withinRoundingTolerance": true
+    },
+    {
+      "metric": "liabilities",
+      "regionalSum": 104362.6,
+      "national": 104362.6,
+      "difference": 0.0,
+      "nullCount": 0,
+      "withinRoundingTolerance": true
+    },
+    {
+      "metric": "revenue",
+      "regionalSum": 152540.27,
+      "national": 152540.26,
+      "difference": 0.01,
+      "nullCount": 0,
+      "withinRoundingTolerance": true
+    },
+    {
+      "metric": "operatingCost",
+      "regionalSum": 131787.34,
+      "national": 131787.35,
+      "difference": -0.01,
+      "nullCount": 0,
+      "withinRoundingTolerance": true
+    },
+    {
+      "metric": "operatingProfit",
+      "regionalSum": 7482.94,
+      "national": 7482.92,
+      "difference": 0.02,
+      "nullCount": 0,
+      "withinRoundingTolerance": true
+    },
+    {
+      "metric": "totalProfit",
+      "regionalSum": 7599.38,
+      "national": 7599.38,
+      "difference": -0.0,
+      "nullCount": 1,
+      "withinRoundingTolerance": true
+    },
+    {
+      "metric": "lossOfLossMakingEnterprises",
+      "regionalSum": 2316.64,
+      "national": 2316.65,
+      "difference": -0.01,
+      "nullCount": 1,
+      "withinRoundingTolerance": true
+    },
+    {
+      "metric": "averageWorkers",
+      "regionalSum": 921.33,
+      "national": 921.32,
+      "difference": 0.01,
+      "nullCount": 0,
+      "withinRoundingTolerance": true
+    }
+  ],
+  "ioFourComponentsReconcile": true,
+  "notes": [
+    "合计只作抄录复核；原表空白表示零或不足最小单位，未补精确零。",
+    "9指标中2个单元格为空；各指标差异在32行各保留两位小数的舍入容差内。"
+  ],
+  "counts": {
+    "sources": 20,
+    "sourcesWithVerifiedArchives": 18,
+    "comparisons": 12,
+    "findings": 5,
+    "coverageEntries": 36,
+    "provinceCoverageEntries": 31,
+    "originalRegionalCells": 279,
+    "originalNumericCells": 277,
+    "originalBlankCells": 2,
+    "panelNumericValues": 183,
+    "panelMissingValues": 6,
+    "recomputedPanelValues": 67,
+    "verifiedLocalCensusRegions": 6,
+    "pendingLocalCensusRegions": 1,
+    "localIoRegions": 2,
+    "comparableLatestGrowthRegions": 5,
+    "latestGrowthMissingRegions": 2
+  },
+  "archiveHashesVerified": [
+    "nbs-5ec-editor",
+    "nbs-5ec-c39-scope",
+    "nbs-5ec-c39-regions",
+    "nbs-5ec-definitions",
+    "bj-census2023",
+    "sh-census2023",
+    "js-census2023",
+    "cq-census2023",
+    "gd-census2023",
+    "sc-census2023",
+    "bj-io2023",
+    "cq-io2023",
+    "bj-bulletin2025",
+    "js-bulletin2025",
+    "zj-bulletin2025",
+    "cq-bulletin2025",
+    "sc-bulletin2025",
+    "sh-economy2025"
+  ],
+  "evidenceReferencesResolve": true,
+  "formulasRecomputed": true,
+  "allNullRowsExplainReason": true,
+  "countryAndNodeScopeChecked": true,
+  "excludedCandidateValuesStayNull": true,
+  "allLocalSourcesExhausted": false
+}

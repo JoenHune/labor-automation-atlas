@@ -1,0 +1,304 @@
+{
+  "coverage": [
+    {
+      "id": "cn-company-coverage-inspur",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "浪潮信息：已读完整原件并提取核心表",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。",
+      "evidence": [
+        {
+          "sourceId": "inspur-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "inspur-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。"
+    },
+    {
+      "id": "cn-company-coverage-kaifa",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "深科技：已读完整原件并提取核心表",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。",
+      "evidence": [
+        {
+          "sourceId": "kaifa-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "kaifa-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。"
+    },
+    {
+      "id": "cn-company-coverage-zte",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "中兴通讯：已读完整原件并提取核心表",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。",
+      "evidence": [
+        {
+          "sourceId": "zte-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "zte-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。"
+    },
+    {
+      "id": "cn-company-coverage-transsion",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "传音控股：已读完整原件并提取核心表",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。",
+      "evidence": [
+        {
+          "sourceId": "transsion-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "transsion-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。"
+    },
+    {
+      "id": "cn-company-coverage-haige",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "海格通信：已读完整原件并提取核心表",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。",
+      "evidence": [
+        {
+          "sourceId": "haige-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "haige-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。"
+    },
+    {
+      "id": "cn-company-coverage-hisense",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "海信视像：已读完整原件并提取核心表",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。",
+      "evidence": [
+        {
+          "sourceId": "hisense-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "hisense-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。"
+    },
+    {
+      "id": "cn-company-coverage-boe",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "京东方A：已读完整原件并提取核心表",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。",
+      "evidence": [
+        {
+          "sourceId": "boe-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "boe-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。"
+    },
+    {
+      "id": "cn-company-coverage-smic",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "中芯国际：已读完整原件并提取核心表",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。",
+      "evidence": [
+        {
+          "sourceId": "smic-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "smic-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。"
+    },
+    {
+      "id": "cn-company-coverage-luxshare",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "立讯精密：已读完整原件并提取核心表",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。",
+      "evidence": [
+        {
+          "sourceId": "luxshare-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "luxshare-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。"
+    },
+    {
+      "id": "cn-company-coverage-sytech",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "生益科技：已读完整原件并提取核心表",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。",
+      "evidence": [
+        {
+          "sourceId": "sytech-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "sytech-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。"
+    },
+    {
+      "id": "cn-company-coverage-goer",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "歌尔股份：已读完整原件并提取核心表",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。",
+      "evidence": [
+        {
+          "sourceId": "goer-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "goer-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。"
+    },
+    {
+      "id": "cn-company-coverage-wus",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "沪电股份：已读完整原件并提取核心表",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。",
+      "evidence": [
+        {
+          "sourceId": "wus-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "wus-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。"
+    },
+    {
+      "id": "cn-company-coverage-suncreate",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "四创电子：已读完整原件并提取核心表",
+      "period": "2025；2024比较列；2026-H1",
+      "status": "obtained",
+      "detail": "已取得2025年报和2026半年报原件、PDF定位、哈希；提取收入/成本/现金流/资产/研发/员工及相关分部。缺失指标逐项保留null。",
+      "evidence": [
+        {
+          "sourceId": "suncreate-ar2025",
+          "locator": "合并财务报表、主要业务、员工与成本构成；精确页码见metrics.json"
+        },
+        {
+          "sourceId": "suncreate-h12026",
+          "locator": "主要会计数据，收入本期与上年同期"
+        }
+      ],
+      "nextStep": "如需推断行业总体，先建立全量企业名录与纳入排除规则、取得非上市企业覆盖分母。"
+    },
+    {
+      "id": "cn-company-coverage-population",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "样本总体覆盖率",
+      "period": "2025",
+      "status": "pending",
+      "detail": "13家为分层目的样本，九个产品均有直接业务或部分关联，不代表全体企业；没有匹配增加值分母，因此不计算国家行业覆盖百分比。",
+      "evidence": [
+        {
+          "sourceId": "boe-ar2025",
+          "locator": "PDF第19—21页：多业务分部及其他抵销"
+        },
+        {
+          "sourceId": "sytech-ar2025",
+          "locator": "PDF第13页：生益电子列作集团子公司"
+        }
+      ],
+      "nextStep": "按具体产品建立全体上市企业/非上市重点企业名单，解决合并集团边界。"
+    },
+    {
+      "id": "cn-company-coverage-headcount",
+      "country": "cn",
+      "group": "上市公司财报样本",
+      "title": "平均员工与外包边界",
+      "period": "2025",
+      "status": "checked-no-metric",
+      "detail": "所读员工表以期末人数为主；统一全年平均人数、派遣和供应链外包人数未取得。劳务外包栏“不适用”不证明全产业链没有外包。",
+      "evidence": [
+        {
+          "sourceId": "zte-ar2025",
+          "locator": "PDF第28页：供应商包括外包生产商；第69页：集团员工"
+        },
+        {
+          "sourceId": "inspur-ar2025",
+          "locator": "PDF第29—30页：员工与劳务外包栏"
+        }
+      ],
+      "nextStep": "取得各企业平均用工定义、主要子公司范围、境内外及外包口径，后再比较人均增加值。"
+    }
+  ]
+}

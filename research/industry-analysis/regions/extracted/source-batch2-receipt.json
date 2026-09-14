@@ -1,0 +1,71 @@
+[
+  {
+    "id": "bj-io2023.xlsx",
+    "url": "https://tjj.beijing.gov.cn/ztzl/trccdc/dcsj/202606/P020260630604077928412.xlsx",
+    "bytes": 52182,
+    "sha256": "0e46b3445463b88617adb3fff5bf21e78b008e21fe30d84c261d8afde1a30b14",
+    "status": "acquired",
+    "retrievedAt": "2026-09-14",
+    "transport": "curl"
+  },
+  {
+    "id": "cq-io2023.xlsx",
+    "url": "https://tjj.cq.gov.cn/ztlm_233/trccdc/202512/P020251218372398396357.xlsx",
+    "bytes": 161145,
+    "sha256": "a93a73d240006aae9395d5247356c974b9ab3289fbf68efeec4886c650ea9533",
+    "status": "acquired",
+    "retrievedAt": "2026-09-14"
+  },
+  {
+    "id": "sh-census2023.pdf",
+    "url": "https://tjj.sh.gov.cn/cmsres/42/4245ede056ad44d29f7c7410088be277/1fe46fa421193dfbc009dd59490aefdc.pdf",
+    "bytes": 190116,
+    "sha256": "03929f949818bf826d36660b27b9ffabaafc213b59c9ef3596c57f2db693ed82",
+    "status": "acquired",
+    "retrievedAt": "2026-09-14",
+    "transport": "curl"
+  },
+  {
+    "id": "js-census2023.html",
+    "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_87595_11513965.html",
+    "bytes": 30499,
+    "sha256": "24dbbc763c149567179a9ebfa0acfafb4e6f1db94209effc619db44a16267a19",
+    "status": "acquired",
+    "retrievedAt": "2026-09-14",
+    "transport": "curl"
+  },
+  {
+    "id": "zj-census2023.pdf",
+    "url": "https://zjrb.zjol.com.cn/images/2025-03/13/zjrb2025031300010v01n.pdf",
+    "status": "not_acquired",
+    "error": "ValueError",
+    "retrievedAt": "2026-09-14"
+  },
+  {
+    "id": "gd-census2023.html",
+    "url": "https://m.thepaper.cn/newsDetail_forward_30383816",
+    "bytes": 66834,
+    "sha256": "84509e530054b50491e561f5be56da68213564a4bc93d146eaa2c0ecb3b8c233",
+    "status": "acquired",
+    "retrievedAt": "2026-09-14",
+    "links": []
+  },
+  {
+    "id": "sc-census2023.html",
+    "url": "https://m.thepaper.cn/newsDetail_forward_30534488",
+    "bytes": 65669,
+    "sha256": "3efacef0bb45ce8fd9036729cc5b440f5eae218ff092511c7b31e5579e30192e",
+    "status": "acquired",
+    "retrievedAt": "2026-09-14",
+    "links": []
+  },
+  {
+    "id": "zj-bulletin2025.html",
+    "url": "https://tjj.zj.gov.cn/col/col1229129205/art/2026/art_724c5ad52b8c4ac89def939cb9dee18c.html",
+    "bytes": 45234,
+    "sha256": "a9524ab923f903eeab94f123e65ee86a464aff9f70c0cd515796a0df3bf321fd",
+    "status": "acquired",
+    "retrievedAt": "2026-09-14",
+    "links": []
+  }
+]

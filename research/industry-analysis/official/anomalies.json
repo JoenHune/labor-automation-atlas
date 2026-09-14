@@ -1,0 +1,94 @@
+[
+  {
+    "id": "miit-ne-july2026",
+    "status": "quarantined-for-derived-trends",
+    "sourceIds": [
+      "ia-official-miit2026-06",
+      "ia-official-miit2026-07"
+    ],
+    "periods": [
+      "2026-01/2026-06",
+      "2026-01/2026-07",
+      "2026-07"
+    ],
+    "values": [
+      441,
+      369,
+      -72
+    ],
+    "unit": "亿元人民币",
+    "locator": "两期第五节东北地区营收",
+    "issue": "前7月低于前6月，单7月为负但同时报告正同比；没有取得可比调整说明。",
+    "decision": "存档原值，不发表东北月度增量/份额/趋势，不改写或推测纠正值。"
+  },
+  {
+    "id": "census-rd-residual",
+    "status": "unresolved-retain-source-values",
+    "sourceIds": [
+      "ia-official-census2023-rd-personnel",
+      "ia-official-census2023-rd-expense"
+    ],
+    "periods": [
+      "2023"
+    ],
+    "values": [
+      -1641,
+      -59,
+      -41
+    ],
+    "unit": "分别为万元、人员、人年",
+    "locator": "C39九个中类求和减C39父项",
+    "issue": "目视原图后的未解释差额，不是OCR自动入库。",
+    "decision": "保留单行数值和差额，暂不将图作完全加总平衡分解。"
+  },
+  {
+    "id": "release-vintage-growth",
+    "status": "separate-comparable-growth-from-levels",
+    "sourceIds": [
+      "ia-official-miit2024",
+      "ia-official-miit2025"
+    ],
+    "periods": [
+      "2024",
+      "2025"
+    ],
+    "values": [
+      12.5,
+      12.7,
+      -0.9
+    ],
+    "unit": "前两项亿台；第三项%",
+    "locator": "第一节智能手机产量与官方同比",
+    "issue": "两次发布绝对量之比与官方可比同比不一致，缺少同基期修订值。",
+    "decision": "分别保留官方原量与同比，不用商改写增长率，不擅自判定原文错误。"
+  },
+  {
+    "id": "c39-2024-annual-vintage",
+    "status": "prefer-later-yearbook-retain-early-release",
+    "sourceIds": [
+      "ia-official-miit2024",
+      "ia-official-prior-yearbook2025-c13-02"
+    ],
+    "periods": [
+      "2024"
+    ],
+    "unit": "亿元人民币",
+    "locator": "MIIT第三节全年金额；中国统计年鉴2025表13-2 C39行",
+    "values": {
+      "revenue": [
+        161900,
+        164047.1
+      ],
+      "cost": [
+        141100,
+        142437.9
+      ],
+      "profit": [
+        6408,
+        6822.1
+      ]
+    },
+    "issue": "同一2024年，两次发布的营收、成本、利润有差异；年鉴未给差异的细项修订原因。",
+    "decision": "2024历史经营金额采用较晚年鉴；旧快报保留并标识版本，不拼接求可比增长，不改写官方同比。"
+  }
+]

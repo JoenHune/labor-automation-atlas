@@ -1,0 +1,5293 @@
+{
+  "sources": [
+    {
+      "id": "nbs-5ec-editor",
+      "title": "中国经济普查年鉴2023：编者说明",
+      "publisher": "国务院第五次全国经济普查领导小组办公室",
+      "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/note.jpg",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "limitations": [
+        "编者说明落款2025年3月；未当作精确上线日期。",
+        "第四条：除建筑业以外按法人单位经营地汇总；第六条：空白表示零或不足最小单位。"
+      ],
+      "evidencePeriod": "2023",
+      "archive": "research/industry-analysis/official/originals/census2023-editor.jpg",
+      "sha256": "1c7af517fdaee2a1cf5eeeb57f77a6b68780abb73eeb174dfe00fdc4e4b0b3b5",
+      "publishedLabel": "官方表格未标注准确发布日期；本次核查日期为2026-09-14"
+    },
+    {
+      "id": "nbs-5ec-c39-scope",
+      "title": "中国经济普查年鉴2023：1-A-6 规模以上工业企业主要经济指标",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-A-06.jpg",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "limitations": [
+        "C39全国行与1-B-46地区表全国行收入、成本、利润、用工一致，交叉确认规模以上范围。"
+      ],
+      "evidencePeriod": "2023",
+      "archive": "research/industry-analysis/official/originals/census2023-detailed.jpg",
+      "sha256": "5bb946bf0208cb73462b15fcb127ef5dee94b84259eb1ada7048f9adb98d5175",
+      "publishedLabel": "官方表格未标注准确发布日期；本次核查日期为2026-09-14"
+    },
+    {
+      "id": "nbs-5ec-c39-regions",
+      "title": "中国经济普查年鉴2023：1-B-46 按地区分组的计算机、通信和其他电子设备制造业主要经济指标",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "limitations": [
+        "2023年历史资料；货币指标亿元，平均用工万人。",
+        "编者说明第六条：空白表示零或不足最小单位；本数据以null保留未给出精确数值的空白，不假定精确零。",
+        "营业收入不能替代增加值；平均用工不能替代年末从业人员。"
+      ],
+      "evidencePeriod": "2023",
+      "archive": "research/industry-analysis/regions/raw/nbs-5ec-c39-regions.jpg",
+      "sha256": "eb857abf6f952a4e927169b622f9d2085ab2ce89be6d196bd3875ded93926e15",
+      "publishedLabel": "官方表格未标注准确发布日期；本次核查日期为2026-09-14"
+    },
+    {
+      "id": "nbs-5ec-definitions",
+      "title": "中国经济普查年鉴2023：第二产业主要指标解释",
+      "publisher": "国家统计局",
+      "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/zb02.pdf",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "limitations": [
+        "平均用工人数指报告期企业平均实际拥有的、参与本企业生产经营活动的人员数。"
+      ],
+      "evidencePeriod": "2023",
+      "archive": "research/industry-analysis/regions/raw/nbs-5ec-definitions.pdf",
+      "sha256": "3f71b00090c2f3e67d95837cbd106a82c7966942f5c255dd4ae560dcb9081dc1",
+      "publishedLabel": "官方表格未标注准确发布日期；本次核查日期为2026-09-14"
+    },
+    {
+      "id": "bj-census2023",
+      "title": "北京市第五次全国经济普查公报（第三号）",
+      "publisher": "北京市统计局、北京市第五次全国经济普查领导小组办公室",
+      "url": "https://tjj.beijing.gov.cn/zt/bjsdwcqgjjpc/wjppcyw/202503/P020250313414054067991.pdf",
+      "published": "2025-03-13",
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "limitations": [],
+      "evidencePeriod": "2023",
+      "archive": "research/industry-analysis/regions/raw/bj-census2023.pdf",
+      "sha256": "e348184bcab4e0472774860ffef7d94eeee860d82a11625f1eafd8922af1e39b"
+    },
+    {
+      "id": "sh-census2023",
+      "title": "上海市第五次全国经济普查主要数据公报（第二号）",
+      "publisher": "上海市统计局、上海市第五次全国经济普查领导小组办公室",
+      "url": "https://tjj.sh.gov.cn/cmsres/42/4245ede056ad44d29f7c7410088be277/1fe46fa421193dfbc009dd59490aefdc.pdf",
+      "published": "2025-04-24",
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "limitations": [],
+      "evidencePeriod": "2023",
+      "archive": "research/industry-analysis/regions/raw/sh-census2023.pdf",
+      "sha256": "03929f949818bf826d36660b27b9ffabaafc213b59c9ef3596c57f2db693ed82"
+    },
+    {
+      "id": "js-census2023",
+      "title": "江苏省第五次全国经济普查公报（第三号）",
+      "publisher": "江苏省统计局",
+      "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_87595_11513965.html",
+      "published": "2025-03-13",
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "limitations": [
+        "原表图片另存 js-census-table32.png 和 js-census-table33.png。"
+      ],
+      "evidencePeriod": "2023",
+      "archive": "research/industry-analysis/regions/raw/js-census2023.html",
+      "sha256": "24dbbc763c149567179a9ebfa0acfafb4e6f1db94209effc619db44a16267a19"
+    },
+    {
+      "id": "cq-census2023",
+      "title": "重庆市第五次全国经济普查公报（第三号）",
+      "publisher": "重庆市统计局、重庆市第五次全国经济普查工作领导小组办公室",
+      "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427445.html",
+      "published": "2025-03-21",
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "limitations": [
+        "页面模板另含2019-11-05占位日期；采用索引栏发布日期及正文落款2025-03-21。"
+      ],
+      "evidencePeriod": "2023",
+      "archive": "research/industry-analysis/regions/raw/cq-census2023.html",
+      "sha256": "b226acc00de1e0d34bc8274dd6208f2bda01f7830792f59f87039b183c84c73c"
+    },
+    {
+      "id": "gd-census2023",
+      "title": "广东省第五次全国经济普查公报（第三号）",
+      "publisher": "广东省统计局官方澎湃号",
+      "url": "https://m.thepaper.cn/newsDetail_forward_30383816",
+      "published": "2025-03-13",
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "limitations": [
+        "表格图片单独保存；企业数原表按万个保留两位小数。",
+        "公开发布渠道为统计局官方账号；不是澎湃记者自行估计。"
+      ],
+      "evidencePeriod": "2023",
+      "archive": "research/industry-analysis/regions/raw/gd-census2023.html",
+      "sha256": "84509e530054b50491e561f5be56da68213564a4bc93d146eaa2c0ecb3b8c233"
+    },
+    {
+      "id": "sc-census2023",
+      "title": "四川省第五次全国经济普查公报（第三号）",
+      "publisher": "四川省统计局官方澎湃号",
+      "url": "https://m.thepaper.cn/newsDetail_forward_30534488",
+      "published": "2025-03-31",
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "limitations": [
+        "表格图片单独保存；官方账号发布渠道。"
+      ],
+      "evidencePeriod": "2023",
+      "archive": "research/industry-analysis/regions/raw/sc-census2023.html",
+      "sha256": "3efacef0bb45ce8fd9036729cc5b440f5eae218ff092511c7b31e5579e30192e"
+    },
+    {
+      "id": "zj-census2023",
+      "title": "浙江省第五次全国经济普查公报（第三号）：浙江日报公告版",
+      "publisher": "浙江省统计局、浙江省第五次全国经济普查领导小组办公室",
+      "url": "https://zjrb.zjol.com.cn/images/2025-03/13/zjrb2025031300010v01n.pdf",
+      "published": "2025-03-13",
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "limitations": [
+        "官方署名公报索引指向浙江日报2025-03-13第10版；原PDF当前404，只有索引候选值，正式比较保留null待核。"
+      ],
+      "evidencePeriod": "2023"
+    },
+    {
+      "id": "bj-io2023",
+      "title": "2023年北京地区42部门投入产出表",
+      "publisher": "北京市统计局",
+      "url": "https://tjj.beijing.gov.cn/ztzl/trccdc/dcsj/202606/P020260630604077928412.xlsx",
+      "published": "2026-06-30",
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "limitations": [
+        "历史产品部门口径，非2025年度行业规模；不与C39企业营业收入拼接。"
+      ],
+      "evidencePeriod": "2023",
+      "archive": "research/industry-analysis/regions/raw/bj-io2023.xlsx",
+      "sha256": "0e46b3445463b88617adb3fff5bf21e78b008e21fe30d84c261d8afde1a30b14"
+    },
+    {
+      "id": "cq-io2023",
+      "title": "2023年重庆市投入产出表：42IO工作表",
+      "publisher": "重庆市统计局",
+      "url": "https://tjj.cq.gov.cn/ztlm_233/trccdc/202512/t20251218_15253734_wap.html",
+      "published": "2025-12-18",
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "limitations": [
+        "只使用对外显示的42IO工作表；隐藏转换表不作为研究事实来源。",
+        "历史产品部门口径，非2025年度行业规模。"
+      ],
+      "evidencePeriod": "2023",
+      "archive": "research/industry-analysis/regions/raw/cq-io2023.xlsx",
+      "sha256": "a93a73d240006aae9395d5247356c974b9ab3289fbf68efeec4886c650ea9533"
+    },
+    {
+      "id": "bj-bulletin2025",
+      "title": "北京市2025年国民经济和社会发展统计公报",
+      "publisher": "北京市统计局、国家统计局北京调查总队（北京市政府转载）",
+      "url": "https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568228.html",
+      "published": "2026-03-27",
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "limitations": [
+        "本链接转载日期2026-03-27，公报原数据发布时间2026-03-25。"
+      ],
+      "evidencePeriod": "2025",
+      "archive": "research/industry-analysis/regions/raw/bj-bulletin2025.html",
+      "sha256": "e3863bd81c7b991384e1a5ac58697f01105eefdac2e78ed57b94876e2b4995f1"
+    },
+    {
+      "id": "js-bulletin2025",
+      "title": "2025年江苏省国民经济和社会发展统计公报",
+      "publisher": "江苏省统计局、国家统计局江苏调查总队（省政府公报转载）",
+      "url": "https://www.jiangsu.gov.cn/art/2026/4/23/art_64797_11761592.html",
+      "published": "2026-04-23",
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "limitations": [
+        "本链接时间为政府公报转载日期；非最早发布日期。",
+        "正文称电子行业；与全年运行材料C39全称及13.5%交叉核对。"
+      ],
+      "evidencePeriod": "2025",
+      "archive": "research/industry-analysis/regions/raw/js-bulletin2025.html",
+      "sha256": "b69c908c84b386d35fa1b02700e64f8732b75f2704f922b5606187604e56bd6e"
+    },
+    {
+      "id": "zj-bulletin2025",
+      "title": "2025年浙江省国民经济和社会发展统计公报",
+      "publisher": "浙江省统计局、国家统计局浙江调查总队",
+      "url": "https://tjj.zj.gov.cn/col/col1229129205/art/2026/art_724c5ad52b8c4ac89def939cb9dee18c.html",
+      "published": "2026-03-03",
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "limitations": [
+        "页面发布时间2026-03-03；正文落款2026-02-26。"
+      ],
+      "evidencePeriod": "2025",
+      "archive": "research/industry-analysis/regions/raw/zj-bulletin2025.html",
+      "sha256": "a9524ab923f903eeab94f123e65ee86a464aff9f70c0cd515796a0df3bf321fd"
+    },
+    {
+      "id": "cq-bulletin2025",
+      "title": "2025年重庆市国民经济和社会发展统计公报",
+      "publisher": "重庆市统计局、国家统计局重庆调查总队",
+      "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjjd_55469/202603/t20260326_15568538_wap.html",
+      "published": "2026-03-26",
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "limitations": [
+        "2025年数据为初步统计数。"
+      ],
+      "evidencePeriod": "2025",
+      "archive": "research/industry-analysis/regions/raw/cq-bulletin2025.html",
+      "sha256": "941a9052806ed09f5b5e6e422978fdb5a98026b1a5284e5b7af0b021bf80b500"
+    },
+    {
+      "id": "sc-bulletin2025",
+      "title": "2025年四川省国民经济和社会发展统计公报",
+      "publisher": "四川省统计局、国家统计局四川调查总队（四川在线全文转载）",
+      "url": "https://sichuan.scol.com.cn/m/ggxw/202603/83223344.html",
+      "published": "2026-03-17",
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "limitations": [
+        "使用统计局署名的公报全文转载；统计局官网原页本次未取得。"
+      ],
+      "evidencePeriod": "2025",
+      "archive": "research/industry-analysis/regions/raw/sc-bulletin2025.html",
+      "sha256": "720284a3699e2d988412b703c77583cb2bee4bc12f4b0d9edffa2e7f144e7b47"
+    },
+    {
+      "id": "sh-economy2025",
+      "title": "2025年上海市国民经济运行情况",
+      "publisher": "上海市统计局、国家统计局上海调查总队",
+      "url": "https://tjj.sh.gov.cn/tjxw/20260120/d3f4918a77484c77bed173db6aaef33c.html",
+      "published": "2026-01-21",
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "limitations": [
+        "C39公布的是工业总产值增长7.7%，不得混入其他省的增加值增速表。",
+        "归档是本次网页读取工具返回的全文记录，非原始HTML。"
+      ],
+      "evidencePeriod": "2025",
+      "archive": "research/industry-analysis/regions/extracted/sh-economy2025-web.txt",
+      "sha256": "91cc9cabf225b7d3522e35bb17a7ee101e005a738c0e22faf8a5315d36076368"
+    },
+    {
+      "id": "gd-economy2025",
+      "title": "2025年广东经济运行数据出炉",
+      "publisher": "广东省人民政府侨务办公室（转载）",
+      "url": "https://www.qb.gd.gov.cn/qwdt/content/post_1317873.html",
+      "published": null,
+      "retrieved": "2026-09-14",
+      "country": "cn",
+      "kind": "official-statistics",
+      "limitations": [
+        "本次仅取得搜索索引，直接正文多次抓取失败；7.1%暂不进入已读原表的数值比较。"
+      ],
+      "evidencePeriod": "2025",
+      "publishedLabel": "完整正文未取得，发布日期待核"
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "cn-c39-regions-2023-revenue",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "各地区电子设备制造业营业收入",
+      "metric": "revenue",
+      "period": "2023",
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "coverage": "2023年中国大陆31省级地区，规模以上C39工业企业；货币指标为当年会计金额，平均用工为全年平均；地区按法人单位经营地归集。",
+      "comparisonKey": "cn-c39-above-designated-2023-revenue",
+      "coverageLabel": "31省级地区 · 规模以上 · 2023",
+      "notes": [
+        "这是2023年历史截面，不代表2025年地区规模。",
+        "收入含中间投入和企业间交易，不能作为增加值或GDP份额。",
+        "按编者说明第四条，以法人单位经营地汇总；不用上市公司注册地推算，也不视为各工厂的生产地普查。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-bj",
+          "name": "北京",
+          "nodeIds": [],
+          "value": 5305.44,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，北京行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-tj",
+          "name": "天津",
+          "nodeIds": [],
+          "value": 1922.75,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，天津行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-he",
+          "name": "河北",
+          "nodeIds": [],
+          "value": 760.34,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，河北行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-sx",
+          "name": "山西",
+          "nodeIds": [],
+          "value": 1447.57,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，山西行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-nm",
+          "name": "内蒙古",
+          "nodeIds": [],
+          "value": 521.7,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，内蒙古行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-ln",
+          "name": "辽宁",
+          "nodeIds": [],
+          "value": 733.75,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，辽宁行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-jl",
+          "name": "吉林",
+          "nodeIds": [],
+          "value": 147.42,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，吉林行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-hl",
+          "name": "黑龙江",
+          "nodeIds": [],
+          "value": 17.4,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，黑龙江行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-sh",
+          "name": "上海",
+          "nodeIds": [],
+          "value": 4997.64,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，上海行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-js",
+          "name": "江苏",
+          "nodeIds": [],
+          "value": 23766.82,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，江苏行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-zj",
+          "name": "浙江",
+          "nodeIds": [],
+          "value": 9562.68,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，浙江行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-ah",
+          "name": "安徽",
+          "nodeIds": [],
+          "value": 4215.7,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，安徽行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-fj",
+          "name": "福建",
+          "nodeIds": [],
+          "value": 4232.8,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，福建行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-jx",
+          "name": "江西",
+          "nodeIds": [],
+          "value": 5582.36,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，江西行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-sd",
+          "name": "山东",
+          "nodeIds": [],
+          "value": 5724.21,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，山东行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-ha",
+          "name": "河南",
+          "nodeIds": [],
+          "value": 6795.43,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，河南行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-hb",
+          "name": "湖北",
+          "nodeIds": [],
+          "value": 3867.5,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，湖北行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-hn",
+          "name": "湖南",
+          "nodeIds": [],
+          "value": 3094.26,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，湖南行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-gd",
+          "name": "广东",
+          "nodeIds": [],
+          "value": 47689.96,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，广东行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-gx",
+          "name": "广西",
+          "nodeIds": [],
+          "value": 1229.5,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，广西行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-hi",
+          "name": "海南",
+          "nodeIds": [],
+          "value": 6.82,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，海南行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-cq",
+          "name": "重庆",
+          "nodeIds": [],
+          "value": 5659.77,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，重庆行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-sc",
+          "name": "四川",
+          "nodeIds": [],
+          "value": 8537.38,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，四川行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-gz",
+          "name": "贵州",
+          "nodeIds": [],
+          "value": 704.43,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，贵州行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-yn",
+          "name": "云南",
+          "nodeIds": [],
+          "value": 2053.85,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，云南行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-xz",
+          "name": "西藏",
+          "nodeIds": [],
+          "value": 0.26,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，西藏行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-sn",
+          "name": "陕西",
+          "nodeIds": [],
+          "value": 2349.88,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，陕西行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-gs",
+          "name": "甘肃",
+          "nodeIds": [],
+          "value": 329.9,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，甘肃行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-qh",
+          "name": "青海",
+          "nodeIds": [],
+          "value": 601.91,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，青海行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-nx",
+          "name": "宁夏",
+          "nodeIds": [],
+          "value": 612.04,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，宁夏行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-xj",
+          "name": "新疆",
+          "nodeIds": [],
+          "value": 68.8,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，新疆行，营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        }
+      ]
+    },
+    {
+      "id": "cn-c39-regions-2023-averageworkers",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "各地区电子设备制造业平均用工",
+      "metric": "averageWorkers",
+      "period": "2023",
+      "unit": "万人",
+      "currency": null,
+      "coverage": "2023年中国大陆31省级地区，规模以上C39工业企业；货币指标为当年会计金额，平均用工为全年平均；地区按法人单位经营地归集。",
+      "comparisonKey": "cn-c39-above-designated-2023-averageWorkers",
+      "coverageLabel": "31省级地区 · 规模以上 · 2023",
+      "notes": [
+        "这是2023年历史截面，不代表2025年地区规模。",
+        "收入含中间投入和企业间交易，不能作为增加值或GDP份额。",
+        "按编者说明第四条，以法人单位经营地汇总；不用上市公司注册地推算，也不视为各工厂的生产地普查。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-bj",
+          "name": "北京",
+          "nodeIds": [],
+          "value": 10.82,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，北京行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-tj",
+          "name": "天津",
+          "nodeIds": [],
+          "value": 8.69,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，天津行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-he",
+          "name": "河北",
+          "nodeIds": [],
+          "value": 6.79,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，河北行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-sx",
+          "name": "山西",
+          "nodeIds": [],
+          "value": 8.61,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，山西行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-nm",
+          "name": "内蒙古",
+          "nodeIds": [],
+          "value": 2.79,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，内蒙古行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-ln",
+          "name": "辽宁",
+          "nodeIds": [],
+          "value": 4.48,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，辽宁行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-jl",
+          "name": "吉林",
+          "nodeIds": [],
+          "value": 1.47,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，吉林行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-hl",
+          "name": "黑龙江",
+          "nodeIds": [],
+          "value": 0.24,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，黑龙江行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-sh",
+          "name": "上海",
+          "nodeIds": [],
+          "value": 21.89,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，上海行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-js",
+          "name": "江苏",
+          "nodeIds": [],
+          "value": 151.1,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，江苏行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-zj",
+          "name": "浙江",
+          "nodeIds": [],
+          "value": 64.06,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，浙江行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-ah",
+          "name": "安徽",
+          "nodeIds": [],
+          "value": 27.12,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，安徽行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-fj",
+          "name": "福建",
+          "nodeIds": [],
+          "value": 30.32,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，福建行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-jx",
+          "name": "江西",
+          "nodeIds": [],
+          "value": 41.61,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，江西行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-sd",
+          "name": "山东",
+          "nodeIds": [],
+          "value": 30.83,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，山东行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-ha",
+          "name": "河南",
+          "nodeIds": [],
+          "value": 32.22,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，河南行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-hb",
+          "name": "湖北",
+          "nodeIds": [],
+          "value": 23.84,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，湖北行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-hn",
+          "name": "湖南",
+          "nodeIds": [],
+          "value": 29.94,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，湖南行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-gd",
+          "name": "广东",
+          "nodeIds": [],
+          "value": 320.62,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，广东行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-gx",
+          "name": "广西",
+          "nodeIds": [],
+          "value": 10.36,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，广西行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-hi",
+          "name": "海南",
+          "nodeIds": [],
+          "value": 0.07,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，海南行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-cq",
+          "name": "重庆",
+          "nodeIds": [],
+          "value": 24.6,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，重庆行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-sc",
+          "name": "四川",
+          "nodeIds": [],
+          "value": 43.35,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，四川行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-gz",
+          "name": "贵州",
+          "nodeIds": [],
+          "value": 3.67,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，贵州行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-yn",
+          "name": "云南",
+          "nodeIds": [],
+          "value": 6.43,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，云南行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-xz",
+          "name": "西藏",
+          "nodeIds": [],
+          "value": 0.01,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，西藏行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-sn",
+          "name": "陕西",
+          "nodeIds": [],
+          "value": 9.71,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，陕西行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-gs",
+          "name": "甘肃",
+          "nodeIds": [],
+          "value": 1.67,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，甘肃行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-qh",
+          "name": "青海",
+          "nodeIds": [],
+          "value": 1.72,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，青海行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-nx",
+          "name": "宁夏",
+          "nodeIds": [],
+          "value": 1.96,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，宁夏行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-xj",
+          "name": "新疆",
+          "nodeIds": [],
+          "value": 0.34,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，新疆行，平均用工人数（万人）列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        }
+      ]
+    },
+    {
+      "id": "cn-c39-regions-2023-profitmargin",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "各地区电子设备制造业利润率",
+      "metric": "profitMargin",
+      "period": "2023",
+      "unit": "%",
+      "currency": null,
+      "coverage": "2023年中国大陆31省级地区，规模以上C39工业企业；货币指标为当年会计金额，平均用工为全年平均；地区按法人单位经营地归集。",
+      "comparisonKey": "cn-c39-above-designated-2023-profitMargin",
+      "coverageLabel": "31省级地区 · 规模以上 · 2023",
+      "notes": [
+        "这是2023年历史截面，不代表2025年地区规模。",
+        "收入含中间投入和企业间交易，不能作为增加值或GDP份额。",
+        "按编者说明第四条，以法人单位经营地汇总；不用上市公司注册地推算，也不视为各工厂的生产地普查。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-bj",
+          "name": "北京",
+          "nodeIds": [],
+          "value": 2.0373428028589524,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，北京行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              108.09,
+              5305.44
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-tj",
+          "name": "天津",
+          "nodeIds": [],
+          "value": 5.916005720972565,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，天津行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              113.75,
+              1922.75
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-he",
+          "name": "河北",
+          "nodeIds": [],
+          "value": 1.9688560380882236,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，河北行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              14.97,
+              760.34
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-sx",
+          "name": "山西",
+          "nodeIds": [],
+          "value": 2.6831172240375256,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，山西行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              38.84,
+              1447.57
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-nm",
+          "name": "内蒙古",
+          "nodeIds": [],
+          "value": 0.1974314740272187,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，内蒙古行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              1.03,
+              521.7
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-ln",
+          "name": "辽宁",
+          "nodeIds": [],
+          "value": 4.760477001703578,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，辽宁行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              34.93,
+              733.75
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-jl",
+          "name": "吉林",
+          "nodeIds": [],
+          "value": 10.805860805860807,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，吉林行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              15.93,
+              147.42
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-hl",
+          "name": "黑龙江",
+          "nodeIds": [],
+          "value": null,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，黑龙江行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": "原表留空；编者说明指零或不足最小单位，未披露精确值，保留null。",
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-sh",
+          "name": "上海",
+          "nodeIds": [],
+          "value": 2.1896335070153112,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，上海行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              109.43,
+              4997.64
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-js",
+          "name": "江苏",
+          "nodeIds": [],
+          "value": 4.0544759458774875,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，江苏行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              963.62,
+              23766.82
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-zj",
+          "name": "浙江",
+          "nodeIds": [],
+          "value": 6.271986514240778,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，浙江行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              599.77,
+              9562.68
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-ah",
+          "name": "安徽",
+          "nodeIds": [],
+          "value": -0.6198258889389663,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，安徽行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              -26.13,
+              4215.7
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-fj",
+          "name": "福建",
+          "nodeIds": [],
+          "value": 3.82040257040257,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，福建行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              161.71,
+              4232.8
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-jx",
+          "name": "江西",
+          "nodeIds": [],
+          "value": 4.588740246060807,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，江西行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              256.16,
+              5582.36
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-sd",
+          "name": "山东",
+          "nodeIds": [],
+          "value": 3.051250740276824,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，山东行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              174.66,
+              5724.21
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-ha",
+          "name": "河南",
+          "nodeIds": [],
+          "value": 2.767889596390515,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，河南行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              188.09,
+              6795.43
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-hb",
+          "name": "湖北",
+          "nodeIds": [],
+          "value": -3.3476405946994183,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，湖北行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              -129.47,
+              3867.5
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-hn",
+          "name": "湖南",
+          "nodeIds": [],
+          "value": 5.69829296827028,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，湖南行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              176.32,
+              3094.26
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-gd",
+          "name": "广东",
+          "nodeIds": [],
+          "value": 7.60765997706855,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，广东行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              3628.09,
+              47689.96
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-gx",
+          "name": "广西",
+          "nodeIds": [],
+          "value": 1.3607157381049209,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，广西行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              16.73,
+              1229.5
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-hi",
+          "name": "海南",
+          "nodeIds": [],
+          "value": 10.997067448680351,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，海南行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              0.75,
+              6.82
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-cq",
+          "name": "重庆",
+          "nodeIds": [],
+          "value": 4.051931438910062,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，重庆行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              229.33,
+              5659.77
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-sc",
+          "name": "四川",
+          "nodeIds": [],
+          "value": 3.2237056333441885,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，四川行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              275.22,
+              8537.38
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-gz",
+          "name": "贵州",
+          "nodeIds": [],
+          "value": 7.014181678804139,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，贵州行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              49.41,
+              704.43
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-yn",
+          "name": "云南",
+          "nodeIds": [],
+          "value": 9.724663436959856,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，云南行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              199.73,
+              2053.85
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-xz",
+          "name": "西藏",
+          "nodeIds": [],
+          "value": -15.384615384615385,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，西藏行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              -0.04,
+              0.26
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-sn",
+          "name": "陕西",
+          "nodeIds": [],
+          "value": 10.800125963879005,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，陕西行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              253.79,
+              2349.88
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-gs",
+          "name": "甘肃",
+          "nodeIds": [],
+          "value": 2.5341012428008485,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，甘肃行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              8.36,
+              329.9
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-qh",
+          "name": "青海",
+          "nodeIds": [],
+          "value": 13.933976840391422,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，青海行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              83.87,
+              601.91
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-nx",
+          "name": "宁夏",
+          "nodeIds": [],
+          "value": 8.033788641265277,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，宁夏行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              49.17,
+              612.04
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        },
+        {
+          "id": "cn-region-xj",
+          "name": "新疆",
+          "nodeIds": [],
+          "value": 4.752906976744186,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，新疆行，利润总额、营业收入列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "利润率＝利润总额÷营业收入；含营业外收支，非毛利率。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "totalProfit / revenue * 100",
+            "inputs": [
+              3.27,
+              68.8
+            ],
+            "note": "两个分项均以亿元计，所得单位%。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cn-c39-regions-2023-revenueperworker",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "各地区电子设备制造业人均营业收入",
+      "metric": "revenuePerWorker",
+      "period": "2023",
+      "unit": "万元人民币/人",
+      "currency": "CNY",
+      "coverage": "2023年中国大陆31省级地区，规模以上C39工业企业；货币指标为当年会计金额，平均用工为全年平均；地区按法人单位经营地归集。",
+      "comparisonKey": "cn-c39-above-designated-2023-revenuePerWorker",
+      "coverageLabel": "31省级地区 · 规模以上 · 2023",
+      "notes": [
+        "这是2023年历史截面，不代表2025年地区规模。",
+        "收入含中间投入和企业间交易，不能作为增加值或GDP份额。",
+        "按编者说明第四条，以法人单位经营地汇总；不用上市公司注册地推算，也不视为各工厂的生产地普查。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-bj",
+          "name": "北京",
+          "nodeIds": [],
+          "value": 490.3364140480591,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，北京行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              5305.44,
+              10.82
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-tj",
+          "name": "天津",
+          "nodeIds": [],
+          "value": 221.26006904487917,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，天津行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              1922.75,
+              8.69
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-he",
+          "name": "河北",
+          "nodeIds": [],
+          "value": 111.97938144329898,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，河北行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              760.34,
+              6.79
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-sx",
+          "name": "山西",
+          "nodeIds": [],
+          "value": 168.12659698025553,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，山西行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              1447.57,
+              8.61
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-nm",
+          "name": "内蒙古",
+          "nodeIds": [],
+          "value": 186.98924731182797,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，内蒙古行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              521.7,
+              2.79
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-ln",
+          "name": "辽宁",
+          "nodeIds": [],
+          "value": 163.78348214285714,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，辽宁行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              733.75,
+              4.48
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-jl",
+          "name": "吉林",
+          "nodeIds": [],
+          "value": 100.28571428571428,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，吉林行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              147.42,
+              1.47
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-hl",
+          "name": "黑龙江",
+          "nodeIds": [],
+          "value": 72.5,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，黑龙江行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              17.4,
+              0.24
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-sh",
+          "name": "上海",
+          "nodeIds": [],
+          "value": 228.30698949291914,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，上海行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              4997.64,
+              21.89
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-js",
+          "name": "江苏",
+          "nodeIds": [],
+          "value": 157.29199205823957,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，江苏行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              23766.82,
+              151.1
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-zj",
+          "name": "浙江",
+          "nodeIds": [],
+          "value": 149.2769278801124,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，浙江行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              9562.68,
+              64.06
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-ah",
+          "name": "安徽",
+          "nodeIds": [],
+          "value": 155.4461651917404,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，安徽行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              4215.7,
+              27.12
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-fj",
+          "name": "福建",
+          "nodeIds": [],
+          "value": 139.6042216358839,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，福建行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              4232.8,
+              30.32
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-jx",
+          "name": "江西",
+          "nodeIds": [],
+          "value": 134.15909637106463,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，江西行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              5582.36,
+              41.61
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-sd",
+          "name": "山东",
+          "nodeIds": [],
+          "value": 185.67012650016218,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，山东行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              5724.21,
+              30.83
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-ha",
+          "name": "河南",
+          "nodeIds": [],
+          "value": 210.907200496586,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，河南行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              6795.43,
+              32.22
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-hb",
+          "name": "湖北",
+          "nodeIds": [],
+          "value": 162.2273489932886,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，湖北行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              3867.5,
+              23.84
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-hn",
+          "name": "湖南",
+          "nodeIds": [],
+          "value": 103.34869739478958,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，湖南行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              3094.26,
+              29.94
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-gd",
+          "name": "广东",
+          "nodeIds": [],
+          "value": 148.74293556234795,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，广东行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              47689.96,
+              320.62
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-gx",
+          "name": "广西",
+          "nodeIds": [],
+          "value": 118.67760617760618,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，广西行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              1229.5,
+              10.36
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-hi",
+          "name": "海南",
+          "nodeIds": [],
+          "value": 97.42857142857142,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，海南行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              6.82,
+              0.07
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-cq",
+          "name": "重庆",
+          "nodeIds": [],
+          "value": 230.0719512195122,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，重庆行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              5659.77,
+              24.6
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-sc",
+          "name": "四川",
+          "nodeIds": [],
+          "value": 196.9407151095732,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，四川行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              8537.38,
+              43.35
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-gz",
+          "name": "贵州",
+          "nodeIds": [],
+          "value": 191.94277929155314,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，贵州行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              704.43,
+              3.67
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-yn",
+          "name": "云南",
+          "nodeIds": [],
+          "value": 319.4167962674961,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，云南行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              2053.85,
+              6.43
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-xz",
+          "name": "西藏",
+          "nodeIds": [],
+          "value": 26.0,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，西藏行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              0.26,
+              0.01
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-sn",
+          "name": "陕西",
+          "nodeIds": [],
+          "value": 242.0061791967044,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，陕西行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              2349.88,
+              9.71
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-gs",
+          "name": "甘肃",
+          "nodeIds": [],
+          "value": 197.5449101796407,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，甘肃行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              329.9,
+              1.67
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-qh",
+          "name": "青海",
+          "nodeIds": [],
+          "value": 349.94767441860466,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，青海行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              601.91,
+              1.72
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-nx",
+          "name": "宁夏",
+          "nodeIds": [],
+          "value": 312.265306122449,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，宁夏行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              612.04,
+              1.96
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        },
+        {
+          "id": "cn-region-xj",
+          "name": "新疆",
+          "nodeIds": [],
+          "value": 202.35294117647055,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，新疆行，营业收入、平均用工人数列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "人均营业收入不是人均增加值，也不是技术效率或工人工资。"
+          ],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg",
+          "computation": {
+            "expression": "revenue / averageWorkers",
+            "inputs": [
+              68.8,
+              0.34
+            ],
+            "note": "亿元÷万人＝万元/人；分母采用全年平均用工。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cn-c39-regions-2023-assets",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "各地区电子设备制造业资产总计",
+      "metric": "assets",
+      "period": "2023",
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "coverage": "2023年中国大陆31省级地区，规模以上C39工业企业；货币指标为当年会计金额，平均用工为全年平均；地区按法人单位经营地归集。",
+      "comparisonKey": "cn-c39-above-designated-2023-assets",
+      "coverageLabel": "31省级地区 · 规模以上 · 2023",
+      "notes": [
+        "这是2023年历史截面，不代表2025年地区规模。",
+        "收入含中间投入和企业间交易，不能作为增加值或GDP份额。",
+        "按编者说明第四条，以法人单位经营地汇总；不用上市公司注册地推算，也不视为各工厂的生产地普查。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-bj",
+          "name": "北京",
+          "nodeIds": [],
+          "value": 10551.28,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，北京行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-tj",
+          "name": "天津",
+          "nodeIds": [],
+          "value": 2235.18,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，天津行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-he",
+          "name": "河北",
+          "nodeIds": [],
+          "value": 1577.07,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，河北行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-sx",
+          "name": "山西",
+          "nodeIds": [],
+          "value": 1206.65,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，山西行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-nm",
+          "name": "内蒙古",
+          "nodeIds": [],
+          "value": 766.73,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，内蒙古行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-ln",
+          "name": "辽宁",
+          "nodeIds": [],
+          "value": 576.37,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，辽宁行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-jl",
+          "name": "吉林",
+          "nodeIds": [],
+          "value": 241.8,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，吉林行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-hl",
+          "name": "黑龙江",
+          "nodeIds": [],
+          "value": 92.1,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，黑龙江行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-sh",
+          "name": "上海",
+          "nodeIds": [],
+          "value": 7673.48,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，上海行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-js",
+          "name": "江苏",
+          "nodeIds": [],
+          "value": 25926.57,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，江苏行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-zj",
+          "name": "浙江",
+          "nodeIds": [],
+          "value": 14203.03,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，浙江行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-ah",
+          "name": "安徽",
+          "nodeIds": [],
+          "value": 7571.98,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，安徽行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-fj",
+          "name": "福建",
+          "nodeIds": [],
+          "value": 5924.26,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，福建行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-jx",
+          "name": "江西",
+          "nodeIds": [],
+          "value": 5221.25,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，江西行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-sd",
+          "name": "山东",
+          "nodeIds": [],
+          "value": 6054.72,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，山东行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-ha",
+          "name": "河南",
+          "nodeIds": [],
+          "value": 3954.17,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，河南行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-hb",
+          "name": "湖北",
+          "nodeIds": [],
+          "value": 7345.5,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，湖北行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-hn",
+          "name": "湖南",
+          "nodeIds": [],
+          "value": 3962.17,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，湖南行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-gd",
+          "name": "广东",
+          "nodeIds": [],
+          "value": 62221.23,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，广东行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-gx",
+          "name": "广西",
+          "nodeIds": [],
+          "value": 1476.04,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，广西行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-hi",
+          "name": "海南",
+          "nodeIds": [],
+          "value": 17.13,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，海南行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-cq",
+          "name": "重庆",
+          "nodeIds": [],
+          "value": 4436.75,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，重庆行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-sc",
+          "name": "四川",
+          "nodeIds": [],
+          "value": 8394.15,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，四川行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-gz",
+          "name": "贵州",
+          "nodeIds": [],
+          "value": 1024.08,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，贵州行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-yn",
+          "name": "云南",
+          "nodeIds": [],
+          "value": 1998.19,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，云南行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-xz",
+          "name": "西藏",
+          "nodeIds": [],
+          "value": 1.55,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，西藏行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-sn",
+          "name": "陕西",
+          "nodeIds": [],
+          "value": 3714.68,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，陕西行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-gs",
+          "name": "甘肃",
+          "nodeIds": [],
+          "value": 792.52,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，甘肃行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-qh",
+          "name": "青海",
+          "nodeIds": [],
+          "value": 815.76,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，青海行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-nx",
+          "name": "宁夏",
+          "nodeIds": [],
+          "value": 641.07,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，宁夏行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        },
+        {
+          "id": "cn-region-xj",
+          "name": "新疆",
+          "nodeIds": [],
+          "value": 102.49,
+          "evidence": [
+            {
+              "sourceId": "nbs-5ec-c39-regions",
+              "locator": "表1-B-46，新疆行，资产总计列"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.stats.gov.cn/sj/pcsj/jjpc/5jp/zk/html/Ba1-B-46.jpg"
+        }
+      ]
+    },
+    {
+      "id": "cn-c39-regions-census2023-enterprisecount",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "重点地区全部电子设备制造法人企业数",
+      "metric": "enterpriseCount",
+      "period": "2023",
+      "unit": "个",
+      "currency": null,
+      "coverage": "广东、江苏、浙江、上海、北京、重庆、四川七省市，全体C39工业企业法人单位；不含个体经营户。",
+      "comparisonKey": "cn-c39-all-legal-units-2023-enterpriseCount",
+      "coverageLabel": "7个重点地区 · 6地已取得 · 2023",
+      "notes": [
+        "覆盖七个重点地区；六地已读原件，浙江仅索引候选值、原件404，保留空白；不是全国排名。",
+        "期末就业与31省规上表的平均用工不同，不能混列或直接计算就业覆盖率。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-gd",
+          "name": "广东",
+          "nodeIds": [],
+          "value": 82900,
+          "evidence": [
+            {
+              "sourceId": "gd-census2023",
+              "locator": "表3-2 C39行（单位万个、万人）"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "8.29万个"
+          ],
+          "missingReason": null,
+          "url": "https://m.thepaper.cn/newsDetail_forward_30383816"
+        },
+        {
+          "id": "cn-region-js",
+          "name": "江苏",
+          "nodeIds": [],
+          "value": 26852,
+          "evidence": [
+            {
+              "sourceId": "js-census2023",
+              "locator": "表3-2 C39行（单位个、万人）"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "原表数值或单位换算"
+          ],
+          "missingReason": null,
+          "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_87595_11513965.html"
+        },
+        {
+          "id": "cn-region-zj",
+          "name": "浙江",
+          "nodeIds": [],
+          "value": null,
+          "evidence": [
+            {
+              "sourceId": "zj-census2023",
+              "locator": "浙江日报2025-03-13第10版，公报第三号表3-2 C39行"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "原表数值或单位换算"
+          ],
+          "missingReason": "统计局署名浙江日报公告的搜索索引显示候选值，但原PDF直接访问404，本轮未取得可复核原件；不入正式比较。",
+          "url": "https://zjrb.zjol.com.cn/images/2025-03/13/zjrb2025031300010v01n.pdf"
+        },
+        {
+          "id": "cn-region-sh",
+          "name": "上海",
+          "nodeIds": [],
+          "value": 2042,
+          "evidence": [
+            {
+              "sourceId": "sh-census2023",
+              "locator": "公报第二号 PDF第3页表2-2 C39行"
+            }
+          ],
+          "releaseDate": "2025-04-24",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "原表数值或单位换算"
+          ],
+          "missingReason": null,
+          "url": "https://tjj.sh.gov.cn/cmsres/42/4245ede056ad44d29f7c7410088be277/1fe46fa421193dfbc009dd59490aefdc.pdf"
+        },
+        {
+          "id": "cn-region-bj",
+          "name": "北京",
+          "nodeIds": [],
+          "value": 1351,
+          "evidence": [
+            {
+              "sourceId": "bj-census2023",
+              "locator": "公报第三号 PDF第3页表2 C39行（原单位个、人）；第8页注二：从业人员为期末人数"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "原表数值或单位换算"
+          ],
+          "missingReason": null,
+          "url": "https://tjj.beijing.gov.cn/zt/bjsdwcqgjjpc/wjppcyw/202503/P020250313414054067991.pdf"
+        },
+        {
+          "id": "cn-region-cq",
+          "name": "重庆",
+          "nodeIds": [],
+          "value": 2107,
+          "evidence": [
+            {
+              "sourceId": "cq-census2023",
+              "locator": "公报第三号表3-2 C39行（原单位个、人）"
+            }
+          ],
+          "releaseDate": "2025-03-21",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "原表数值或单位换算"
+          ],
+          "missingReason": null,
+          "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427445.html"
+        },
+        {
+          "id": "cn-region-sc",
+          "name": "四川",
+          "nodeIds": [],
+          "value": 2951,
+          "evidence": [
+            {
+              "sourceId": "sc-census2023",
+              "locator": "公报第三号表3-2 C39行（个、万人）"
+            }
+          ],
+          "releaseDate": "2025-03-31",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [
+            "原表数值或单位换算"
+          ],
+          "missingReason": null,
+          "url": "https://m.thepaper.cn/newsDetail_forward_30534488"
+        }
+      ]
+    },
+    {
+      "id": "cn-c39-regions-census2023-workers",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "重点地区全部电子设备制造法人企业年末就业",
+      "metric": "workers",
+      "period": "2023",
+      "unit": "万人",
+      "currency": null,
+      "coverage": "广东、江苏、浙江、上海、北京、重庆、四川七省市，全体C39工业企业法人单位；不含个体经营户。",
+      "comparisonKey": "cn-c39-all-legal-units-2023-workers",
+      "coverageLabel": "7个重点地区 · 6地已取得 · 2023",
+      "notes": [
+        "覆盖七个重点地区；六地已读原件，浙江仅索引候选值、原件404，保留空白；不是全国排名。",
+        "期末就业与31省规上表的平均用工不同，不能混列或直接计算就业覆盖率。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-gd",
+          "name": "广东",
+          "nodeIds": [],
+          "value": 380.82,
+          "evidence": [
+            {
+              "sourceId": "gd-census2023",
+              "locator": "表3-2 C39行（单位万个、万人）"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://m.thepaper.cn/newsDetail_forward_30383816"
+        },
+        {
+          "id": "cn-region-js",
+          "name": "江苏",
+          "nodeIds": [],
+          "value": 168.9,
+          "evidence": [
+            {
+              "sourceId": "js-census2023",
+              "locator": "表3-2 C39行（单位个、万人）"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_87595_11513965.html"
+        },
+        {
+          "id": "cn-region-zj",
+          "name": "浙江",
+          "nodeIds": [],
+          "value": null,
+          "evidence": [
+            {
+              "sourceId": "zj-census2023",
+              "locator": "浙江日报2025-03-13第10版，公报第三号表3-2 C39行"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": "统计局署名浙江日报公告的搜索索引显示候选值，但原PDF直接访问404，本轮未取得可复核原件；不入正式比较。",
+          "url": "https://zjrb.zjol.com.cn/images/2025-03/13/zjrb2025031300010v01n.pdf"
+        },
+        {
+          "id": "cn-region-sh",
+          "name": "上海",
+          "nodeIds": [],
+          "value": 22.6,
+          "evidence": [
+            {
+              "sourceId": "sh-census2023",
+              "locator": "公报第二号 PDF第3页表2-2 C39行"
+            }
+          ],
+          "releaseDate": "2025-04-24",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tjj.sh.gov.cn/cmsres/42/4245ede056ad44d29f7c7410088be277/1fe46fa421193dfbc009dd59490aefdc.pdf"
+        },
+        {
+          "id": "cn-region-bj",
+          "name": "北京",
+          "nodeIds": [],
+          "value": 11.8166,
+          "evidence": [
+            {
+              "sourceId": "bj-census2023",
+              "locator": "公报第三号 PDF第3页表2 C39行（原单位个、人）；第8页注二：从业人员为期末人数"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tjj.beijing.gov.cn/zt/bjsdwcqgjjpc/wjppcyw/202503/P020250313414054067991.pdf"
+        },
+        {
+          "id": "cn-region-cq",
+          "name": "重庆",
+          "nodeIds": [],
+          "value": 26.0262,
+          "evidence": [
+            {
+              "sourceId": "cq-census2023",
+              "locator": "公报第三号表3-2 C39行（原单位个、人）"
+            }
+          ],
+          "releaseDate": "2025-03-21",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427445.html"
+        },
+        {
+          "id": "cn-region-sc",
+          "name": "四川",
+          "nodeIds": [],
+          "value": 45.0,
+          "evidence": [
+            {
+              "sourceId": "sc-census2023",
+              "locator": "公报第三号表3-2 C39行（个、万人）"
+            }
+          ],
+          "releaseDate": "2025-03-31",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://m.thepaper.cn/newsDetail_forward_30534488"
+        }
+      ]
+    },
+    {
+      "id": "cn-c39-regions-census2023-revenue",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "重点地区全部电子设备制造法人企业收入",
+      "metric": "revenue",
+      "period": "2023",
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "coverage": "广东、江苏、浙江、上海、北京、重庆、四川七省市，全体C39工业企业法人单位；不含个体经营户。",
+      "comparisonKey": "cn-c39-all-legal-units-2023-revenue",
+      "coverageLabel": "7个重点地区 · 6地已取得 · 2023",
+      "notes": [
+        "覆盖七个重点地区；六地已读原件，浙江仅索引候选值、原件404，保留空白；不是全国排名。",
+        "期末就业与31省规上表的平均用工不同，不能混列或直接计算就业覆盖率。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-gd",
+          "name": "广东",
+          "nodeIds": [],
+          "value": 49941.59,
+          "evidence": [
+            {
+              "sourceId": "gd-census2023",
+              "locator": "表3-3 C39行（亿元）"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://m.thepaper.cn/newsDetail_forward_30383816"
+        },
+        {
+          "id": "cn-region-js",
+          "name": "江苏",
+          "nodeIds": [],
+          "value": 24915.7,
+          "evidence": [
+            {
+              "sourceId": "js-census2023",
+              "locator": "表3-3 C39行（亿元）"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tj.jiangsu.gov.cn/art/2025/3/13/art_87595_11513965.html"
+        },
+        {
+          "id": "cn-region-zj",
+          "name": "浙江",
+          "nodeIds": [],
+          "value": null,
+          "evidence": [
+            {
+              "sourceId": "zj-census2023",
+              "locator": "同版表3-3 C39行（亿元）"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": "统计局署名浙江日报公告的搜索索引显示候选值，但原PDF直接访问404，本轮未取得可复核原件；不入正式比较。",
+          "url": "https://zjrb.zjol.com.cn/images/2025-03/13/zjrb2025031300010v01n.pdf"
+        },
+        {
+          "id": "cn-region-sh",
+          "name": "上海",
+          "nodeIds": [],
+          "value": 5106.2,
+          "evidence": [
+            {
+              "sourceId": "sh-census2023",
+              "locator": "PDF第5页表2-3 C39行（亿元）"
+            }
+          ],
+          "releaseDate": "2025-04-24",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tjj.sh.gov.cn/cmsres/42/4245ede056ad44d29f7c7410088be277/1fe46fa421193dfbc009dd59490aefdc.pdf"
+        },
+        {
+          "id": "cn-region-bj",
+          "name": "北京",
+          "nodeIds": [],
+          "value": 5358.9,
+          "evidence": [
+            {
+              "sourceId": "bj-census2023",
+              "locator": "PDF第4页表3 C39行（亿元）"
+            }
+          ],
+          "releaseDate": "2025-03-13",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tjj.beijing.gov.cn/zt/bjsdwcqgjjpc/wjppcyw/202503/P020250313414054067991.pdf"
+        },
+        {
+          "id": "cn-region-cq",
+          "name": "重庆",
+          "nodeIds": [],
+          "value": 5774.87,
+          "evidence": [
+            {
+              "sourceId": "cq-census2023",
+              "locator": "公报第三号表3-3 C39行（亿元）"
+            }
+          ],
+          "releaseDate": "2025-03-21",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjzl_55471/tjgb_55472/202503/t20250321_14427445.html"
+        },
+        {
+          "id": "cn-region-sc",
+          "name": "四川",
+          "nodeIds": [],
+          "value": 8672.5,
+          "evidence": [
+            {
+              "sourceId": "sc-census2023",
+              "locator": "公报第三号表3-3 C39行（亿元）"
+            }
+          ],
+          "releaseDate": "2025-03-31",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://m.thepaper.cn/newsDetail_forward_30534488"
+        }
+      ]
+    },
+    {
+      "id": "cn-electronics-products-regions2023-valueadded",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "北京与重庆电子产品部门增加值",
+      "metric": "valueAdded",
+      "period": "2023",
+      "unit": "亿元人民币",
+      "currency": "CNY",
+      "coverage": "北京与重庆2023年42部门投入产出表，产品部门20；均为万元原始值。",
+      "comparisonKey": "cn-io42-product20-2023-valueAdded",
+      "coverageLabel": "2个地区 · 产品部门 · 2023",
+      "notes": [
+        "仅比较两张已取得的地方表，不是全国地区排名。",
+        "与C39企业收入口径不同；地域份额的分母是本地区投入产出表增加值合计。",
+        "劳动者报酬含工资及雇主社会缴费等，不等于可节省的人工成本。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-bj",
+          "name": "北京",
+          "nodeIds": [],
+          "value": 698.645361435947,
+          "evidence": [
+            {
+              "sourceId": "bj-io2023",
+              "locator": "2023年北京地区投入产出表，W54"
+            }
+          ],
+          "releaseDate": "2026-06-30",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tjj.beijing.gov.cn/ztzl/trccdc/dcsj/202606/P020260630604077928412.xlsx",
+          "computation": {
+            "expression": "valueAdded / 10000",
+            "inputs": [
+              6986453.61435947
+            ],
+            "note": "直接使用同一42部门表的原始万元数值；不桥接年度GDP。"
+          }
+        },
+        {
+          "id": "cn-region-cq",
+          "name": "重庆",
+          "nodeIds": [],
+          "value": 930.091748837011,
+          "evidence": [
+            {
+              "sourceId": "cq-io2023",
+              "locator": "42IO，W54"
+            }
+          ],
+          "releaseDate": "2025-12-18",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tjj.cq.gov.cn/ztlm_233/trccdc/202512/t20251218_15253734_wap.html",
+          "computation": {
+            "expression": "valueAdded / 10000",
+            "inputs": [
+              9300917.48837011
+            ],
+            "note": "直接使用同一42部门表的原始万元数值；不桥接年度GDP。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cn-electronics-products-regions2023-labourshare",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "北京与重庆电子产品部门劳动者报酬占比",
+      "metric": "labourShare",
+      "period": "2023",
+      "unit": "%",
+      "currency": null,
+      "coverage": "北京与重庆2023年42部门投入产出表，产品部门20；均为万元原始值。",
+      "comparisonKey": "cn-io42-product20-2023-labourShare",
+      "coverageLabel": "2个地区 · 产品部门 · 2023",
+      "notes": [
+        "仅比较两张已取得的地方表，不是全国地区排名。",
+        "与C39企业收入口径不同；地域份额的分母是本地区投入产出表增加值合计。",
+        "劳动者报酬含工资及雇主社会缴费等，不等于可节省的人工成本。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-bj",
+          "name": "北京",
+          "nodeIds": [],
+          "value": 38.376931760990956,
+          "evidence": [
+            {
+              "sourceId": "bj-io2023",
+              "locator": "2023年北京地区投入产出表，W50、W54"
+            }
+          ],
+          "releaseDate": "2026-06-30",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tjj.beijing.gov.cn/ztzl/trccdc/dcsj/202606/P020260630604077928412.xlsx",
+          "computation": {
+            "expression": "labourCompensation / valueAdded * 100",
+            "inputs": [
+              2681186.53609602,
+              6986453.61435947
+            ],
+            "note": "直接使用同一42部门表的原始万元数值；不桥接年度GDP。"
+          }
+        },
+        {
+          "id": "cn-region-cq",
+          "name": "重庆",
+          "nodeIds": [],
+          "value": 36.58319361303512,
+          "evidence": [
+            {
+              "sourceId": "cq-io2023",
+              "locator": "42IO，W50、W54"
+            }
+          ],
+          "releaseDate": "2025-12-18",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tjj.cq.gov.cn/ztlm_233/trccdc/202512/t20251218_15253734_wap.html",
+          "computation": {
+            "expression": "labourCompensation / valueAdded * 100",
+            "inputs": [
+              3402572.65255908,
+              9300917.48837011
+            ],
+            "note": "直接使用同一42部门表的原始万元数值；不桥接年度GDP。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cn-electronics-products-regions2023-localshare",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "电子产品部门占本地区投入产出表增加值",
+      "metric": "localShare",
+      "period": "2023",
+      "unit": "%",
+      "currency": null,
+      "coverage": "北京与重庆2023年42部门投入产出表，产品部门20；均为万元原始值。",
+      "comparisonKey": "cn-io42-product20-2023-localShare",
+      "coverageLabel": "2个地区 · 产品部门 · 2023",
+      "notes": [
+        "仅比较两张已取得的地方表，不是全国地区排名。",
+        "与C39企业收入口径不同；地域份额的分母是本地区投入产出表增加值合计。",
+        "劳动者报酬含工资及雇主社会缴费等，不等于可节省的人工成本。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-bj",
+          "name": "北京",
+          "nodeIds": [],
+          "value": 1.4753771323405713,
+          "evidence": [
+            {
+              "sourceId": "bj-io2023",
+              "locator": "2023年北京地区投入产出表，W54、AT54"
+            }
+          ],
+          "releaseDate": "2026-06-30",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tjj.beijing.gov.cn/ztzl/trccdc/dcsj/202606/P020260630604077928412.xlsx",
+          "computation": {
+            "expression": "valueAdded / tableTotalValueAdded * 100",
+            "inputs": [
+              6986453.61435947,
+              473536796.878233
+            ],
+            "note": "直接使用同一42部门表的原始万元数值；不桥接年度GDP。"
+          }
+        },
+        {
+          "id": "cn-region-cq",
+          "name": "重庆",
+          "nodeIds": [],
+          "value": 3.038097743655779,
+          "evidence": [
+            {
+              "sourceId": "cq-io2023",
+              "locator": "42IO，W54、AT54"
+            }
+          ],
+          "releaseDate": "2025-12-18",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tjj.cq.gov.cn/ztlm_233/trccdc/202512/t20251218_15253734_wap.html",
+          "computation": {
+            "expression": "valueAdded / tableTotalValueAdded * 100",
+            "inputs": [
+              9300917.48837011,
+              306142799.644695
+            ],
+            "note": "直接使用同一42部门表的原始万元数值；不桥接年度GDP。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cn-c39-regions-growth2025",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "title": "重点地区电子设备制造业2025年增加值增速",
+      "metric": "real-value-added-growth",
+      "period": "2025",
+      "unit": "%",
+      "currency": null,
+      "coverage": "七个重点地区规模以上C39工业增加值实际增长率；只纳入已读正文且指标一致的五地。",
+      "comparisonKey": "cn-c39-above-designated-real-growth-2025",
+      "coverageLabel": "5地有同口径值 · 2地缺口 · 2025",
+      "notes": [
+        "增速不表示规模，不与2023年的收入、产品增加值联结成金额趋势。",
+        "上海目前取得的是工业总产值增长7.7%，不能替代增加值增速；广东正文抓取未完成。",
+        "江苏、浙江原文使用电子行业简称；按C39全称全年运行材料交叉核验。"
+      ],
+      "rows": [
+        {
+          "id": "cn-region-bj",
+          "name": "北京",
+          "nodeIds": [],
+          "value": 20.2,
+          "evidence": [
+            {
+              "sourceId": "bj-bulletin2025",
+              "locator": "四、工业和建筑业，重点行业增加值段"
+            }
+          ],
+          "releaseDate": "2026-03-27",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568228.html"
+        },
+        {
+          "id": "cn-region-js",
+          "name": "江苏",
+          "nodeIds": [],
+          "value": 13.5,
+          "evidence": [
+            {
+              "sourceId": "js-bulletin2025",
+              "locator": "三、工业和建筑业，装备制造业支撑有力段"
+            }
+          ],
+          "releaseDate": "2026-04-23",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://www.jiangsu.gov.cn/art/2026/4/23/art_64797_11761592.html"
+        },
+        {
+          "id": "cn-region-zj",
+          "name": "浙江",
+          "nodeIds": [],
+          "value": 16.5,
+          "evidence": [
+            {
+              "sourceId": "zj-bulletin2025",
+              "locator": "三、工业和建筑业，计算机通信电子行业增加值段"
+            }
+          ],
+          "releaseDate": "2026-03-03",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tjj.zj.gov.cn/col/col1229129205/art/2026/art_724c5ad52b8c4ac89def939cb9dee18c.html"
+        },
+        {
+          "id": "cn-region-cq",
+          "name": "重庆",
+          "nodeIds": [],
+          "value": -4.4,
+          "evidence": [
+            {
+              "sourceId": "cq-bulletin2025",
+              "locator": "工业和建筑业，分行业增加值段"
+            }
+          ],
+          "releaseDate": "2026-03-26",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjjd_55469/202603/t20260326_15568538_wap.html"
+        },
+        {
+          "id": "cn-region-sc",
+          "name": "四川",
+          "nodeIds": [],
+          "value": 12.9,
+          "evidence": [
+            {
+              "sourceId": "sc-bulletin2025",
+              "locator": "四、工业和建筑业，分行业增加值段"
+            }
+          ],
+          "releaseDate": "2026-03-17",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": null,
+          "url": "https://sichuan.scol.com.cn/m/ggxw/202603/83223344.html"
+        },
+        {
+          "id": "cn-region-sh",
+          "name": "上海",
+          "nodeIds": [],
+          "value": null,
+          "evidence": [
+            {
+              "sourceId": "sh-economy2025",
+              "locator": "二、工业生产平稳增长；C39指标为产值增速"
+            }
+          ],
+          "releaseDate": "2026-01-21",
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": "已读原文为产值增速；缺同口径增加值增速。",
+          "url": "https://tjj.sh.gov.cn/tjxw/20260120/d3f4918a77484c77bed173db6aaef33c.html"
+        },
+        {
+          "id": "cn-region-gd",
+          "name": "广东",
+          "nodeIds": [],
+          "value": null,
+          "evidence": [
+            {
+              "sourceId": "gd-economy2025",
+              "locator": "全文待取得，目前仅搜索索引有C39增长7.1%"
+            }
+          ],
+          "releaseDate": null,
+          "revision": "已发布原表；未见该表独立修订说明",
+          "notes": [],
+          "missingReason": "已定位资料，完整正文暂未取得，不从索引直接入值。",
+          "url": "https://www.qb.gd.gov.cn/qwdt/content/post_1317873.html"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "cn-c39-region-concentration2023",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "period": "2023",
+      "title": "广东、江苏、浙江贡献过半规上收入",
+      "body": "2023年广东、江苏、浙江规上C39营业收入分别为47689.96、23766.82、9562.68亿元，三地合计占全国规上同行业收入53.11%。广东和江苏的平均用工合计471.72万人，占全国51.20%。",
+      "evidenceKind": "calculation",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "全国、广东、江苏、浙江行；营业收入与平均用工人数列"
+        }
+      ],
+      "conditions": [
+        "分母为原表全国行，非省级收入总和重造的全国值。",
+        "只能说明规上企业收入与用工的地区集中，不能解释为GDP份额或所有生产地点分布。"
+      ]
+    },
+    {
+      "id": "cn-c39-region-profit2023",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "period": "2023",
+      "title": "收入规模与盈利状况是不同维度",
+      "body": "2023年广东规上C39利润率为7.61%，江苏为4.05%；安徽、湖北利润总额分别为-26.13亿元、-129.47亿元。相同收入规模并不保证相同盈利。",
+      "evidenceKind": "calculation",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "广东、江苏、安徽、湖北行，营业收入及利润总额列"
+        }
+      ],
+      "conditions": [
+        "利润率=利润总额/营业收入；不是毛利率。",
+        "单年区域总量差异不能独立归因于技术水平、自动化、补贴或管理。"
+      ]
+    },
+    {
+      "id": "cn-c39-region-scale-mismatch",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "period": "2023",
+      "title": "地方公报能补充规上以外的企业与就业",
+      "body": "广东五经普公报披露全部C39工业企业法人数量、期末从业人员、营业收入。广东公布8.29万个企业、380.82万名期末从业人员；全国地区表的广东平均用工为320.62万人。两者同时受企业覆盖和时点定义影响，不能相减当作小企业就业。",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "gd-census2023",
+          "locator": "表3-2 C39行"
+        },
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "广东行，平均用工人数列"
+        },
+        {
+          "sourceId": "nbs-5ec-definitions",
+          "locator": "平均用工人数释义"
+        }
+      ],
+      "conditions": [
+        "公报覆盖全部企业法人、就业为期末；全国地区比较表为规上平均用工。"
+      ]
+    },
+    {
+      "id": "cn-electronics-local-io2023",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "period": "2023",
+      "title": "地方投入产出表已经提供可用的产品增加值",
+      "body": "2023年通信设备、计算机和其他电子设备产品部门增加值，北京为698.65亿元，重庆为930.09亿元。对应表内本地区增加值占比分别为1.48%、3.04%。这说明已有地方来源可直接补充产品结构分析，但本轮只比较这两个地区。",
+      "evidenceKind": "calculation",
+      "evidence": [
+        {
+          "sourceId": "bj-io2023",
+          "locator": "2023年北京地区投入产出表，W54、AT54"
+        },
+        {
+          "sourceId": "cq-io2023",
+          "locator": "42IO，W54、AT54"
+        }
+      ],
+      "conditions": [
+        "地方42部门产品口径；不与C39企业收入混用。",
+        "表内地域份额不称最新GDP占比。"
+      ]
+    },
+    {
+      "id": "cn-c39-regions2025-divergence",
+      "country": "cn",
+      "section": "regions",
+      "nodeIds": [
+        "cn-io-group-39",
+        "cn-gbt2017-39"
+      ],
+      "period": "2025",
+      "title": "最新全年增加值增速存在地区分化",
+      "body": "已读同口径材料显示，2025年北京、浙江、江苏、四川的规上C39增加值分别增长20.2%、16.5%、13.5%、12.9%，重庆下降4.4%。这些是实际增速，可以比较增长方向，不能据此推算2025年的现价规模。",
+      "evidenceKind": "fact",
+      "evidence": [
+        {
+          "sourceId": "bj-bulletin2025",
+          "locator": "四、工业和建筑业，重点行业增加值段"
+        },
+        {
+          "sourceId": "js-bulletin2025",
+          "locator": "三、工业和建筑业，装备制造业支撑有力段"
+        },
+        {
+          "sourceId": "zj-bulletin2025",
+          "locator": "三、工业和建筑业，计算机通信电子行业增加值段"
+        },
+        {
+          "sourceId": "cq-bulletin2025",
+          "locator": "工业和建筑业，分行业增加值段"
+        },
+        {
+          "sourceId": "sc-bulletin2025",
+          "locator": "四、工业和建筑业，分行业增加值段"
+        }
+      ],
+      "conditions": [
+        "五地有可比值；上海产值增速和广东仅索引线索未混入。",
+        "四川使用官方署名公报的四川在线全文转载。"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "id": "cn-c39-31-regional-table",
+      "country": "cn",
+      "group": "地区来源覆盖",
+      "title": "全国统一31省C39地区表",
+      "period": "2023",
+      "status": "obtained",
+      "detail": "九项原始指标已提取；收入、利润、资产、平均用工等地区合计已按原表舍入容差检查。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "表1-B-46，31省级地区及全国行"
+        },
+        {
+          "sourceId": "nbs-5ec-c39-scope",
+          "locator": "表1-A-6标题及C39行；与地区表全国值交叉核验"
+        }
+      ],
+      "nextStep": "新增同范围年度数据才能扩展趋势；不得用地方增速反推现价金额。"
+    },
+    {
+      "id": "cn-c39-seven-local-census",
+      "country": "cn",
+      "group": "地区来源覆盖",
+      "title": "七个重点地区五经普公报：六地已取，浙江待核",
+      "period": "2023",
+      "status": "obtained",
+      "detail": "广东、江苏、上海、北京、重庆、四川的全部C39工业企业法人数量、年末就业和营业收入已提取；浙江原PDF404，候选数值未进入正式比较。",
+      "evidence": [
+        {
+          "sourceId": "gd-census2023",
+          "locator": "第二产业基本情况，C39单位/从业人员及主要经济指标行"
+        },
+        {
+          "sourceId": "js-census2023",
+          "locator": "第二产业基本情况，C39单位/从业人员及主要经济指标行"
+        },
+        {
+          "sourceId": "sh-census2023",
+          "locator": "第二产业基本情况，C39单位/从业人员及主要经济指标行"
+        },
+        {
+          "sourceId": "bj-census2023",
+          "locator": "第二产业基本情况，C39单位/从业人员及主要经济指标行"
+        },
+        {
+          "sourceId": "cq-census2023",
+          "locator": "第二产业基本情况，C39单位/从业人员及主要经济指标行"
+        },
+        {
+          "sourceId": "sc-census2023",
+          "locator": "第二产业基本情况，C39单位/从业人员及主要经济指标行"
+        }
+      ],
+      "nextStep": "恢复浙江原件并补其他24省全体法人原表；不要与规上平均用工混排。"
+    },
+    {
+      "id": "cn-c39-two-local-io",
+      "country": "cn",
+      "group": "地区来源覆盖",
+      "title": "北京、重庆地方投入产出表",
+      "period": "2023",
+      "status": "obtained",
+      "detail": "两张42部门公开主表已取得，电子产品部门增加值四项与合计已核算。",
+      "evidence": [
+        {
+          "sourceId": "bj-io2023",
+          "locator": "部门20，W50:W54；增加值合计AT54"
+        },
+        {
+          "sourceId": "cq-io2023",
+          "locator": "部门20，W50:W54；增加值合计AT54"
+        }
+      ],
+      "nextStep": "继续核对其他省份可比产品部门表；本轮两地不是全国地区排名。"
+    },
+    {
+      "id": "cn-c39-local-search-boundary",
+      "country": "cn",
+      "group": "地区来源覆盖",
+      "title": "地方年鉴和投入产出表仍有覆盖缺口",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "已对31省级地区作首轮来源检索并保留查询词与结果；未逐页读取全部2024/2025地方年鉴，也未取得所有地方投入产出表，不能声称探索完。",
+      "evidence": [],
+      "nextStep": "按覆盖矩阵进入具体年鉴工业/就业篇、地方IO附件和市内地区表；先核重点产业省份。"
+    },
+    {
+      "id": "cn-c39-regions-latest2025",
+      "country": "cn",
+      "group": "地区来源覆盖",
+      "title": "最新全年地区C39增速",
+      "period": "2025",
+      "status": "obtained",
+      "detail": "五地取得同口径规上增加值增速；上海当前是产值增速，广东仅已定位索引，二者保留缺口。",
+      "evidence": [
+        {
+          "sourceId": "bj-bulletin2025",
+          "locator": "工业和建筑业，C39增加值增速段"
+        },
+        {
+          "sourceId": "js-bulletin2025",
+          "locator": "工业和建筑业，C39增加值增速段"
+        },
+        {
+          "sourceId": "zj-bulletin2025",
+          "locator": "工业和建筑业，C39增加值增速段"
+        },
+        {
+          "sourceId": "cq-bulletin2025",
+          "locator": "工业和建筑业，C39增加值增速段"
+        },
+        {
+          "sourceId": "sc-bulletin2025",
+          "locator": "工业和建筑业，C39增加值增速段"
+        }
+      ],
+      "nextStep": "补齐广东完整正文、上海增加值指标及各地2024和2026最新期，保持与现价规模分开。"
+    },
+    {
+      "id": "cn-c39-region-audit-bj",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "北京：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已提取；2024年鉴：已定位，内页待读；2025年鉴：已定位，内页待读；2025年度进展：已取得C39同口径增速；2023地方IO：已提取。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，北京行"
+        },
+        {
+          "sourceId": "bj-census2023",
+          "locator": "第二产业基本情况，C39行"
+        },
+        {
+          "sourceId": "bj-io2023",
+          "locator": "公开主表，部门20"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-tj",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "天津：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已定位，内页待读；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：已定位，内页待读；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，天津行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-he",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "河北：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：首轮检索未取得原表；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：已定位，内页待读；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，河北行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-sx",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "山西：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已定位，内页待读；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：首轮检索未取得原表；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，山西行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-nm",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "内蒙古：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：首轮检索未取得原表；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：首轮检索未取得原表；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，内蒙古行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-ln",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "辽宁：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已定位，内页待读；2024年鉴：已定位，内页待读；2025年鉴：已定位，内页待读；2025年度进展：首轮检索未取得原表；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，辽宁行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-jl",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "吉林：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已定位，内页待读；2024年鉴：已定位，内页待读；2025年鉴：已定位，内页待读；2025年度进展：已定位，内页待读；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，吉林行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-hl",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "黑龙江：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已定位，内页待读；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：已定位，内页待读；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，黑龙江行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-sh",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "上海：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已提取；2024年鉴：首轮检索未取得原表；2025年鉴：已定位，内页待读；2025年度进展：已读，指标不一致；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，上海行"
+        },
+        {
+          "sourceId": "sh-census2023",
+          "locator": "第二产业基本情况，C39行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-js",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "江苏：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已提取；2024年鉴：已定位，内页待读；2025年鉴：首轮检索未取得原表；2025年度进展：已取得C39同口径增速；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，江苏行"
+        },
+        {
+          "sourceId": "js-census2023",
+          "locator": "第二产业基本情况，C39行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-zj",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "浙江：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已定位，内页待读；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：已取得C39同口径增速；2023地方IO：仅已取得更早年份入口。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，浙江行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-ah",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "安徽：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：首轮检索未取得原表；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：首轮检索未取得原表；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，安徽行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-fj",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "福建：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已定位，内页待读；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：首轮检索未取得原表；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，福建行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-jx",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "江西：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：首轮检索未取得原表；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：首轮检索未取得原表；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，江西行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-sd",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "山东：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：首轮检索未取得原表；2024年鉴：首轮检索未取得原表；2025年鉴：已定位，内页待读；2025年度进展：已定位，内页待读；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，山东行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-ha",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "河南：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：首轮检索未取得原表；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：首轮检索未取得原表；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，河南行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-hb",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "湖北：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已定位，内页待读；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：已定位，内页待读；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，湖北行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-hn",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "湖南：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已定位，内页待读；2024年鉴：已定位，内页待读；2025年鉴：首轮检索未取得原表；2025年度进展：首轮检索未取得原表；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，湖南行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-gd",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "广东：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已提取；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：已定位，内页待读；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，广东行"
+        },
+        {
+          "sourceId": "gd-census2023",
+          "locator": "第二产业基本情况，C39行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-gx",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "广西：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已定位，内页待读；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：首轮检索未取得原表；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，广西行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-hi",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "海南：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已定位，内页待读；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：已定位，内页待读；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，海南行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-cq",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "重庆：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已提取；2024年鉴：已定位，内页待读；2025年鉴：首轮检索未取得原表；2025年度进展：已取得C39同口径增速；2023地方IO：已提取。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，重庆行"
+        },
+        {
+          "sourceId": "cq-census2023",
+          "locator": "第二产业基本情况，C39行"
+        },
+        {
+          "sourceId": "cq-io2023",
+          "locator": "公开主表，部门20"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-sc",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "四川：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已提取；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：已取得C39同口径增速；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，四川行"
+        },
+        {
+          "sourceId": "sc-census2023",
+          "locator": "第二产业基本情况，C39行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-gz",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "贵州：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已定位，内页待读；2024年鉴：首轮检索未取得原表；2025年鉴：已定位，内页待读；2025年度进展：首轮检索未取得原表；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，贵州行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-yn",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "云南：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已定位，内页待读；2024年鉴：已定位，内页待读；2025年鉴：首轮检索未取得原表；2025年度进展：已定位，内页待读；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，云南行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-xz",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "西藏：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已定位，内页待读；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：已定位，内页待读；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，西藏行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-sn",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "陕西：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：首轮检索未取得原表；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：首轮检索未取得原表；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，陕西行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-gs",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "甘肃：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已定位，内页待读；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：首轮检索未取得原表；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，甘肃行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-qh",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "青海：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：首轮检索未取得原表；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：首轮检索未取得原表；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，青海行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-nx",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "宁夏：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：首轮检索未取得原表；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：首轮检索未取得原表；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，宁夏行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    },
+    {
+      "id": "cn-c39-region-audit-xj",
+      "country": "cn",
+      "group": "逐省来源矩阵",
+      "title": "新疆：已取得全国地区表，地方内页继续核查",
+      "period": "2023—2025",
+      "status": "pending",
+      "detail": "五经普公报：已定位，内页待读；2024年鉴：首轮检索未取得原表；2025年鉴：首轮检索未取得原表；2025年度进展：已定位，内页待读；2023地方IO：首轮检索未取得原表。官方入口检索不是逐页穷尽，未取得不等于不存在。",
+      "evidence": [
+        {
+          "sourceId": "nbs-5ec-c39-regions",
+          "locator": "1-B-46，新疆行"
+        }
+      ],
+      "nextStep": "按可下载的coverage.json与查询日志继续取得当地2024/2025年鉴工业、就业内页及2023地方IO；补齐同年同口径值后再扩大排名。"
+    }
+  ]
+}

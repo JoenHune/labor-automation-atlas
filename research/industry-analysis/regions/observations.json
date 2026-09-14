@@ -1,0 +1,554 @@
+{
+  "period": "2023",
+  "country": "cn",
+  "industryCode": "C39",
+  "scope": "2023年中国大陆31省级地区，规模以上C39工业企业；货币指标为当年会计金额，平均用工为全年平均；地区按法人单位经营地归集。",
+  "units": {
+    "monetary": "亿元人民币",
+    "averageWorkers": "万人"
+  },
+  "national": {
+    "region": "全国",
+    "assets": 190719.96,
+    "fixedAssetsNet": 34643.5,
+    "liabilities": 104362.6,
+    "revenue": 152540.26,
+    "operatingCost": 131787.35,
+    "operatingProfit": 7482.92,
+    "totalProfit": 7599.38,
+    "lossOfLossMakingEnterprises": 2316.65,
+    "averageWorkers": 921.32
+  },
+  "regions": [
+    {
+      "region": "北京",
+      "assets": 10551.28,
+      "fixedAssetsNet": 872.62,
+      "liabilities": 5521.85,
+      "revenue": 5305.44,
+      "operatingCost": 4551.72,
+      "operatingProfit": 101.52,
+      "totalProfit": 108.09,
+      "lossOfLossMakingEnterprises": 122.52,
+      "averageWorkers": 10.82
+    },
+    {
+      "region": "天津",
+      "assets": 2235.18,
+      "fixedAssetsNet": 405.81,
+      "liabilities": 933.55,
+      "revenue": 1922.75,
+      "operatingCost": 1673.67,
+      "operatingProfit": 114.23,
+      "totalProfit": 113.75,
+      "lossOfLossMakingEnterprises": 18.27,
+      "averageWorkers": 8.69
+    },
+    {
+      "region": "河北",
+      "assets": 1577.07,
+      "fixedAssetsNet": 407.18,
+      "liabilities": 718.55,
+      "revenue": 760.34,
+      "operatingCost": 656.84,
+      "operatingProfit": 13.28,
+      "totalProfit": 14.97,
+      "lossOfLossMakingEnterprises": 45.82,
+      "averageWorkers": 6.79
+    },
+    {
+      "region": "山西",
+      "assets": 1206.65,
+      "fixedAssetsNet": 130.66,
+      "liabilities": 715.62,
+      "revenue": 1447.57,
+      "operatingCost": 1380.47,
+      "operatingProfit": 38.02,
+      "totalProfit": 38.84,
+      "lossOfLossMakingEnterprises": 6.25,
+      "averageWorkers": 8.61
+    },
+    {
+      "region": "内蒙古",
+      "assets": 766.73,
+      "fixedAssetsNet": 309.2,
+      "liabilities": 487.53,
+      "revenue": 521.7,
+      "operatingCost": 479.22,
+      "operatingProfit": -0.02,
+      "totalProfit": 1.03,
+      "lossOfLossMakingEnterprises": 25.72,
+      "averageWorkers": 2.79
+    },
+    {
+      "region": "辽宁",
+      "assets": 576.37,
+      "fixedAssetsNet": 78.63,
+      "liabilities": 288.6,
+      "revenue": 733.75,
+      "operatingCost": 632.89,
+      "operatingProfit": 34.61,
+      "totalProfit": 34.93,
+      "lossOfLossMakingEnterprises": 5.38,
+      "averageWorkers": 4.48
+    },
+    {
+      "region": "吉林",
+      "assets": 241.8,
+      "fixedAssetsNet": 45.84,
+      "liabilities": 96.76,
+      "revenue": 147.42,
+      "operatingCost": 108.96,
+      "operatingProfit": 14.45,
+      "totalProfit": 15.93,
+      "lossOfLossMakingEnterprises": 1.77,
+      "averageWorkers": 1.47
+    },
+    {
+      "region": "黑龙江",
+      "assets": 92.1,
+      "fixedAssetsNet": 10.49,
+      "liabilities": 45.11,
+      "revenue": 17.4,
+      "operatingCost": 12.64,
+      "operatingProfit": 0.05,
+      "totalProfit": null,
+      "lossOfLossMakingEnterprises": 1.95,
+      "averageWorkers": 0.24
+    },
+    {
+      "region": "上海",
+      "assets": 7673.48,
+      "fixedAssetsNet": 1895.54,
+      "liabilities": 3564.51,
+      "revenue": 4997.64,
+      "operatingCost": 4442.1,
+      "operatingProfit": 96.26,
+      "totalProfit": 109.43,
+      "lossOfLossMakingEnterprises": 157.12,
+      "averageWorkers": 21.89
+    },
+    {
+      "region": "江苏",
+      "assets": 25926.57,
+      "fixedAssetsNet": 5621.01,
+      "liabilities": 13173.3,
+      "revenue": 23766.82,
+      "operatingCost": 21049.41,
+      "operatingProfit": 947.49,
+      "totalProfit": 963.62,
+      "lossOfLossMakingEnterprises": 362.98,
+      "averageWorkers": 151.1
+    },
+    {
+      "region": "浙江",
+      "assets": 14203.03,
+      "fixedAssetsNet": 2098.2,
+      "liabilities": 7219.68,
+      "revenue": 9562.68,
+      "operatingCost": 7932.44,
+      "operatingProfit": 570.21,
+      "totalProfit": 599.77,
+      "lossOfLossMakingEnterprises": 171.98,
+      "averageWorkers": 64.06
+    },
+    {
+      "region": "安徽",
+      "assets": 7571.98,
+      "fixedAssetsNet": 2147.93,
+      "liabilities": 4244.79,
+      "revenue": 4215.7,
+      "operatingCost": 3827.94,
+      "operatingProfit": -35.96,
+      "totalProfit": -26.13,
+      "lossOfLossMakingEnterprises": 195.59,
+      "averageWorkers": 27.12
+    },
+    {
+      "region": "福建",
+      "assets": 5924.26,
+      "fixedAssetsNet": 1419.86,
+      "liabilities": 2639.21,
+      "revenue": 4232.8,
+      "operatingCost": 3653.21,
+      "operatingProfit": 158.04,
+      "totalProfit": 161.71,
+      "lossOfLossMakingEnterprises": 108.53,
+      "averageWorkers": 30.32
+    },
+    {
+      "region": "江西",
+      "assets": 5221.25,
+      "fixedAssetsNet": 1123.09,
+      "liabilities": 3311.97,
+      "revenue": 5582.36,
+      "operatingCost": 4973.19,
+      "operatingProfit": 246.22,
+      "totalProfit": 256.16,
+      "lossOfLossMakingEnterprises": 60.38,
+      "averageWorkers": 41.61
+    },
+    {
+      "region": "山东",
+      "assets": 6054.72,
+      "fixedAssetsNet": 1182.72,
+      "liabilities": 3383.71,
+      "revenue": 5724.21,
+      "operatingCost": 5157.73,
+      "operatingProfit": 170.65,
+      "totalProfit": 174.66,
+      "lossOfLossMakingEnterprises": 69.1,
+      "averageWorkers": 30.83
+    },
+    {
+      "region": "河南",
+      "assets": 3954.17,
+      "fixedAssetsNet": 401.98,
+      "liabilities": 2361.53,
+      "revenue": 6795.43,
+      "operatingCost": 6457.42,
+      "operatingProfit": 185.89,
+      "totalProfit": 188.09,
+      "lossOfLossMakingEnterprises": 15.03,
+      "averageWorkers": 32.22
+    },
+    {
+      "region": "湖北",
+      "assets": 7345.5,
+      "fixedAssetsNet": 2605.28,
+      "liabilities": 4252.23,
+      "revenue": 3867.5,
+      "operatingCost": 3430.49,
+      "operatingProfit": -135.53,
+      "totalProfit": -129.47,
+      "lossOfLossMakingEnterprises": 293.74,
+      "averageWorkers": 23.84
+    },
+    {
+      "region": "湖南",
+      "assets": 3962.17,
+      "fixedAssetsNet": 993.19,
+      "liabilities": 1589.43,
+      "revenue": 3094.26,
+      "operatingCost": 2551.77,
+      "operatingProfit": 186.85,
+      "totalProfit": 176.32,
+      "lossOfLossMakingEnterprises": 32.94,
+      "averageWorkers": 29.94
+    },
+    {
+      "region": "广东",
+      "assets": 62221.23,
+      "fixedAssetsNet": 6659.03,
+      "liabilities": 37169.3,
+      "revenue": 47689.96,
+      "operatingCost": 38846.36,
+      "operatingProfit": 3618.86,
+      "totalProfit": 3628.09,
+      "lossOfLossMakingEnterprises": 421.37,
+      "averageWorkers": 320.62
+    },
+    {
+      "region": "广西",
+      "assets": 1476.04,
+      "fixedAssetsNet": 179.67,
+      "liabilities": 1038.07,
+      "revenue": 1229.5,
+      "operatingCost": 1152.47,
+      "operatingProfit": 22.05,
+      "totalProfit": 16.73,
+      "lossOfLossMakingEnterprises": 25.12,
+      "averageWorkers": 10.36
+    },
+    {
+      "region": "海南",
+      "assets": 17.13,
+      "fixedAssetsNet": 0.3,
+      "liabilities": 5.27,
+      "revenue": 6.82,
+      "operatingCost": 4.69,
+      "operatingProfit": 0.75,
+      "totalProfit": 0.75,
+      "lossOfLossMakingEnterprises": null,
+      "averageWorkers": 0.07
+    },
+    {
+      "region": "重庆",
+      "assets": 4436.75,
+      "fixedAssetsNet": 1155.01,
+      "liabilities": 2606.09,
+      "revenue": 5659.77,
+      "operatingCost": 5189.01,
+      "operatingProfit": 222.55,
+      "totalProfit": 229.33,
+      "lossOfLossMakingEnterprises": 30.65,
+      "averageWorkers": 24.6
+    },
+    {
+      "region": "四川",
+      "assets": 8394.15,
+      "fixedAssetsNet": 2116.63,
+      "liabilities": 4872.89,
+      "revenue": 8537.38,
+      "operatingCost": 7802.45,
+      "operatingProfit": 268.92,
+      "totalProfit": 275.22,
+      "lossOfLossMakingEnterprises": 70.04,
+      "averageWorkers": 43.35
+    },
+    {
+      "region": "贵州",
+      "assets": 1024.08,
+      "fixedAssetsNet": 167.25,
+      "liabilities": 516.58,
+      "revenue": 704.43,
+      "operatingCost": 608.41,
+      "operatingProfit": 48.78,
+      "totalProfit": 49.41,
+      "lossOfLossMakingEnterprises": 9.69,
+      "averageWorkers": 3.67
+    },
+    {
+      "region": "云南",
+      "assets": 1998.19,
+      "fixedAssetsNet": 451.04,
+      "liabilities": 1109.33,
+      "revenue": 2053.85,
+      "operatingCost": 1774.61,
+      "operatingProfit": 199.53,
+      "totalProfit": 199.73,
+      "lossOfLossMakingEnterprises": 27.59,
+      "averageWorkers": 6.43
+    },
+    {
+      "region": "西藏",
+      "assets": 1.55,
+      "fixedAssetsNet": 0.47,
+      "liabilities": 0.07,
+      "revenue": 0.26,
+      "operatingCost": 0.17,
+      "operatingProfit": -0.04,
+      "totalProfit": -0.04,
+      "lossOfLossMakingEnterprises": 0.05,
+      "averageWorkers": 0.01
+    },
+    {
+      "region": "陕西",
+      "assets": 3714.68,
+      "fixedAssetsNet": 1341.72,
+      "liabilities": 1349.41,
+      "revenue": 2349.88,
+      "operatingCost": 2030.97,
+      "operatingProfit": 252.97,
+      "totalProfit": 253.79,
+      "lossOfLossMakingEnterprises": 19.67,
+      "averageWorkers": 9.71
+    },
+    {
+      "region": "甘肃",
+      "assets": 792.52,
+      "fixedAssetsNet": 249.84,
+      "liabilities": 341.9,
+      "revenue": 329.9,
+      "operatingCost": 300.09,
+      "operatingProfit": 8.19,
+      "totalProfit": 8.36,
+      "lossOfLossMakingEnterprises": 2.46,
+      "averageWorkers": 1.67
+    },
+    {
+      "region": "青海",
+      "assets": 815.76,
+      "fixedAssetsNet": 301.91,
+      "liabilities": 412.78,
+      "revenue": 601.91,
+      "operatingCost": 505.65,
+      "operatingProfit": 83.04,
+      "totalProfit": 83.87,
+      "lossOfLossMakingEnterprises": 4.12,
+      "averageWorkers": 1.72
+    },
+    {
+      "region": "宁夏",
+      "assets": 641.07,
+      "fixedAssetsNet": 243.44,
+      "liabilities": 320.06,
+      "revenue": 612.04,
+      "operatingCost": 538.18,
+      "operatingProfit": 48.25,
+      "totalProfit": 49.17,
+      "lossOfLossMakingEnterprises": 8.66,
+      "averageWorkers": 1.96
+    },
+    {
+      "region": "新疆",
+      "assets": 102.49,
+      "fixedAssetsNet": 27.93,
+      "liabilities": 72.92,
+      "revenue": 68.8,
+      "operatingCost": 62.17,
+      "operatingProfit": 2.83,
+      "totalProfit": 3.27,
+      "lossOfLossMakingEnterprises": 2.15,
+      "averageWorkers": 0.34
+    }
+  ],
+  "regionalIo": [
+    {
+      "labourCompensation": 2681186.53609602,
+      "netProductionTax": 292805.385645165,
+      "depreciation": 2085873.0254655,
+      "operatingSurplus": 1926588.66715278,
+      "valueAdded": 6986453.61435947,
+      "region": "北京",
+      "sourceId": "bj-io2023",
+      "unit": "万元",
+      "code": "20",
+      "scope": "42部门产品口径：通信设备、计算机和其他电子设备",
+      "sheet": "2023年北京地区投入产出表",
+      "totalValueAdded": 473536796.878233
+    },
+    {
+      "labourCompensation": 3402572.65255908,
+      "netProductionTax": 789175.545678309,
+      "depreciation": 2054546.08471668,
+      "operatingSurplus": 3054623.20541604,
+      "valueAdded": 9300917.48837011,
+      "region": "重庆",
+      "sourceId": "cq-io2023",
+      "unit": "万元",
+      "code": "20",
+      "scope": "42部门产品口径：通信设备、计算机和其他电子设备",
+      "sheet": "42IO",
+      "totalValueAdded": 306142799.644695
+    }
+  ],
+  "localCensus": [
+    {
+      "region": "广东",
+      "enterpriseCount": 82900,
+      "enterpriseCountOriginal": "8.29万个",
+      "workers": 380.82,
+      "revenue": 49941.59,
+      "assets": 66028.04,
+      "liabilities": 39738.6,
+      "sourceId": "gd-census2023",
+      "countLocator": "表3-2 C39行（单位万个、万人）",
+      "financeLocator": "表3-3 C39行（亿元）"
+    },
+    {
+      "region": "江苏",
+      "enterpriseCount": 26852,
+      "workers": 168.9,
+      "revenue": 24915.7,
+      "assets": 28242.8,
+      "liabilities": 14381.0,
+      "sourceId": "js-census2023",
+      "countLocator": "表3-2 C39行（单位个、万人）",
+      "financeLocator": "表3-3 C39行（亿元）"
+    },
+    {
+      "region": "浙江",
+      "enterpriseCount": null,
+      "workers": null,
+      "revenue": null,
+      "assets": null,
+      "liabilities": null,
+      "sourceId": "zj-census2023",
+      "countLocator": "浙江日报2025-03-13第10版，公报第三号表3-2 C39行",
+      "financeLocator": "同版表3-3 C39行（亿元）",
+      "candidateValues": {
+        "enterpriseCount": 13797,
+        "workers": 75.3,
+        "revenue": 10123.4,
+        "assets": 16247.8,
+        "liabilities": 8213.9
+      },
+      "verificationStatus": "indexed-text-only-original-404",
+      "missingReason": "统计局署名浙江日报公告的搜索索引显示候选值，但原PDF直接访问404，本轮未取得可复核原件；不入正式比较。"
+    },
+    {
+      "region": "上海",
+      "enterpriseCount": 2042,
+      "workers": 22.6,
+      "revenue": 5106.2,
+      "assets": 8413.5,
+      "liabilities": 3777.1,
+      "sourceId": "sh-census2023",
+      "countLocator": "公报第二号 PDF第3页表2-2 C39行",
+      "financeLocator": "PDF第5页表2-3 C39行（亿元）"
+    },
+    {
+      "region": "北京",
+      "enterpriseCount": 1351,
+      "workers": 11.8166,
+      "workersOriginal": "118166人",
+      "revenue": 5358.9,
+      "assets": 10799.4,
+      "liabilities": 5670.5,
+      "sourceId": "bj-census2023",
+      "countLocator": "公报第三号 PDF第3页表2 C39行（原单位个、人）；第8页注二：从业人员为期末人数",
+      "financeLocator": "PDF第4页表3 C39行（亿元）"
+    },
+    {
+      "region": "重庆",
+      "enterpriseCount": 2107,
+      "workers": 26.0262,
+      "workersOriginal": "260262人",
+      "revenue": 5774.87,
+      "assets": 4602.87,
+      "liabilities": 2692.55,
+      "sourceId": "cq-census2023",
+      "countLocator": "公报第三号表3-2 C39行（原单位个、人）",
+      "financeLocator": "公报第三号表3-3 C39行（亿元）"
+    },
+    {
+      "region": "四川",
+      "enterpriseCount": 2951,
+      "workers": 45.0,
+      "revenue": 8672.5,
+      "assets": 8868.0,
+      "liabilities": 5089.5,
+      "sourceId": "sc-census2023",
+      "countLocator": "公报第三号表3-2 C39行（个、万人）",
+      "financeLocator": "公报第三号表3-3 C39行（亿元）"
+    }
+  ],
+  "latestGrowth": {
+    "北京": [
+      20.2,
+      "bj-bulletin2025",
+      "四、工业和建筑业，重点行业增加值段"
+    ],
+    "江苏": [
+      13.5,
+      "js-bulletin2025",
+      "三、工业和建筑业，装备制造业支撑有力段"
+    ],
+    "浙江": [
+      16.5,
+      "zj-bulletin2025",
+      "三、工业和建筑业，计算机通信电子行业增加值段"
+    ],
+    "重庆": [
+      -4.4,
+      "cq-bulletin2025",
+      "工业和建筑业，分行业增加值段"
+    ],
+    "四川": [
+      12.9,
+      "sc-bulletin2025",
+      "四、工业和建筑业，分行业增加值段"
+    ],
+    "上海": [
+      null,
+      "sh-economy2025",
+      "二、工业生产平稳增长；C39指标为产值增速"
+    ],
+    "广东": [
+      null,
+      "gd-economy2025",
+      "全文待取得，目前仅搜索索引有C39增长7.1%"
+    ]
+  }
+}
