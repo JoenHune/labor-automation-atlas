@@ -9,6 +9,7 @@ import {readDisclosureBlocks} from '../../../../src/annotations/disclosures'
 import {observeContentChanges} from '../../../../src/annotations/content-observer'
 import {captureDraftSelection} from '../../../../src/annotations/draft-capture'
 import {isAnnotationShortcut,keyboardAnnotationTarget} from '../../../../src/annotations/keyboard'
+import {selectionToolbarPosition} from '../../../../src/annotations/selection-toolbar'
 import {api,post,apiOrigin,ApiError,storedSession,beginLogin,finishLogin,shareUrl,saveDraft,draftsForPage,deleteDraft,type Draft,type SiteSession} from '../../../../src/annotations/client'
 import {safeMarkdown} from '../../../../src/annotations/markdown'
 const {site}=useData(),route=useRoute(),router=useRouter()
@@ -20,9 +21,12 @@ const resolved=shallowRef<Record<string,Position>>({}),groupChoices=ref<string[]
 const draftPosition=shallowRef<{id:string;status:Position['status']}|null>(null)
 const currentDraftPosition=computed(()=>draft.value?.anchor?.id===draftPosition.value?.id?draftPosition.value?.status:null)
 const textarea=ref<HTMLTextAreaElement>(),card=ref<HTMLElement>(),viewportWidth=ref(1200),viewportHeight=ref(900)
+const toolbar=ref<HTMLElement>(),toolbarSize=ref({width:284,height:90}),drawOrigin=ref<Rect|null>(null)
 const draftSnapshotUrl=ref('')
 watch(()=>draft.value?.snapshot,blob=>{if(draftSnapshotUrl.value)URL.revokeObjectURL(draftSnapshotUrl.value);draftSnapshotUrl.value=blob?URL.createObjectURL(blob):''})
 let range:Range|null=null,observer:MutationObserver|undefined,resizeObserver:ResizeObserver|undefined,poll:number|undefined,debounce:number|undefined,repositionTimer:number|undefined
+let toolbarObserver:ResizeObserver|undefined
+let pointerSelecting=false,toolbarPointerActive=false
 let drag:{startX:number;startY:number;original:Rect|null;edge:string}|null=null,generation=0,loadingGeneration=0,captureGeneration=0,captureActive=false
 const scope=computed(()=>{route.path;return ready.value?pageScope(site.value.base):{country:'shared' as const,page:'/'}})
 const filtered=computed(()=>annotations.value.filter(a=>filter.value==='all'||filter.value===a.state||filter.value==='mine'&&session.value&&(a.author===session.value.user.login||a.comments.some(c=>c.author===session.value!.user.login))))
@@ -33,6 +37,17 @@ const orphaned=computed(()=>filtered.value.filter(a=>resolved.value[a.id]?.statu
 const hiddenAnnotations=computed(()=>filtered.value.filter(a=>resolved.value[a.id]?.status==='hidden'))
 const highlights=computed(()=>active.value?resolved.value[active.value.id]?.rects??[]:[])
 const showCard=computed(()=>Boolean(draft.value||active.value||groupChoices.value.length))
+const toolbarPosition=computed(()=>{
+ const selection=mode.value?drawOrigin.value:textPopup.value
+ return selection&&!showCard.value?selectionToolbarPosition(selection,{width:viewportWidth.value,height:viewportHeight.value},toolbarSize.value):null
+})
+const toolbarStyle=computed(()=>toolbarPosition.value?{left:toolbarPosition.value.left+'px',top:toolbarPosition.value.top+'px',maxWidth:toolbarPosition.value.maxWidth+'px',maxHeight:toolbarPosition.value.maxHeight+'px'}:{})
+watch(toolbar,element=>{
+ toolbarObserver?.disconnect()
+ if(!element)return
+ toolbarObserver=new ResizeObserver(()=>{toolbarSize.value={width:element.offsetWidth,height:element.offsetHeight}})
+ toolbarObserver.observe(element)
+})
 const cardStyle=computed(()=>{
  if(viewportWidth.value<=640)return {}
  const position=rect.value??highlights.value[0]??{x:viewportWidth.value-430,y:120,width:0,height:0}
@@ -69,6 +84,7 @@ function newDraft(kind:Draft['kind'],annotationId:string|null=null,parentComment
 async function refreshPositions() {
  const token=++generation,capturedScope={...scope.value},capturedAnchor=draft.value?.anchor
  viewportWidth.value=window.innerWidth;viewportHeight.value=window.innerHeight
+ if(range&&textPopup.value)selectionChanged()
  const [blocks,panels]=await Promise.all([liveBlocks({includeHidden:true}),readDisclosureBlocks(contentRoot(),capturedScope)]),next:typeof resolved.value={}
  for(const a of annotations.value)next[a.id]=await resolveAnchor(a.anchor,capturedScope,blocks,panels)
  if(token===generation)resolved.value=next
@@ -99,7 +115,7 @@ function disclosureToggled(event:Event){if(event.target instanceof HTMLDetailsEl
 async function loadPage() {
  const token=++loadingGeneration
  ++captureGeneration;if(captureActive){captureActive=false;busy.value=false}
- active.value=null;rect.value=null;draft.value=null;mode.value=false;groupChoices.value=[];range=null;textPopup.value=null;annotations.value=[];resolved.value={};warning.value='';error.value=''
+ active.value=null;rect.value=null;draft.value=null;mode.value=false;drawOrigin.value=null;groupChoices.value=[];range=null;textPopup.value=null;annotations.value=[];resolved.value={};warning.value='';error.value=''
  await nextTick();await ensureContentIds()
  savedDrafts.value=await draftsForPage(scope.value.page,scope.value.country).catch(()=>[])
  await reload()
@@ -124,18 +140,41 @@ async function reload() {
  await refreshPositions()
 }
 function selectionChanged() {
- if(mode.value||drag||draft.value)return
+ if(pointerSelecting||mode.value||drag||showCard.value)return
  const selection=window.getSelection(),root=contentRoot()
- if(!selection||selection.isCollapsed||!selection.rangeCount||!root){textPopup.value=null;return}
+ // Native controls can clear window.Selection while moving focus. Keep the
+ // original content range throughout a toolbar interaction, including selects.
+ if(range&&textPopup.value&&!range.collapsed&&root.contains(range.startContainer)&&root.contains(range.endContainer)&&(toolbarPointerActive||toolbar.value?.contains(document.activeElement))) {
+  textPopup.value=rectOf(range.getBoundingClientRect());return
+ }
+ if(!selection||selection.isCollapsed||!selection.rangeCount||!root){clearTextSelection();return}
  const candidate=selection.getRangeAt(0)
- if(!root.contains(candidate.startContainer)||!root.contains(candidate.endContainer)||!selection.toString().trim()){textPopup.value=null;return}
+ if(!root.contains(candidate.startContainer)||!root.contains(candidate.endContainer)||!selection.toString().trim()){clearTextSelection();return}
  range=candidate.cloneRange();textPopup.value=rectOf(range.getBoundingClientRect())
+}
+function clearTextSelection(){range=null;textPopup.value=null;toolbarPointerActive=false}
+function dismissSelection(event:PointerEvent) {
+ if(event.target instanceof Element&&event.target.closest('[data-annotation-ui]'))return
+ pointerSelecting=event.button===0
+ clearTextSelection()
+}
+function finishSelection(){pointerSelecting=false;toolbarPointerActive=false;selectionChanged()}
+function preserveSelection(event:PointerEvent) {
+ toolbarPointerActive=true
+ // Buttons and disclosure summaries must not collapse the native text selection.
+ // Native selects keep their focus and keyboard behaviour.
+ if(event.target instanceof Element&&!event.target.closest('select,input,textarea'))event.preventDefault()
+}
+async function toolbarFocusChanged() {
+ await nextTick()
+ if(!toolbar.value?.contains(document.activeElement))toolbarPointerActive=false
+ selectionChanged()
 }
 async function captureArea(selection:Rect,selectedRange:Range|null=null,existing:Draft|null=null) {
  if(busy.value)return
  if(draft.value&&draft.value!==existing)try{await persist()}catch(e){error.value=(e as Error).message;return}
  const token=++captureGeneration;captureActive=true
- busy.value=true;error.value='';mode.value=false;active.value=null;groupChoices.value=[];textPopup.value=null
+ busy.value=true;error.value='';mode.value=false;drawOrigin.value=null;active.value=null;groupChoices.value=[];textPopup.value=null
  const next=existing??newDraft('new');draft.value={...next,anchor:null,snapshot:null};draftSaved.value=false;rect.value=selection
  try {
   const captured=await captureDraftSelection(next,()=>draft.value,async()=>{
@@ -151,11 +190,15 @@ async function captureArea(selection:Rect,selectedRange:Range|null=null,existing
  }catch(e){if(token===captureGeneration)error.value=e instanceof Error?e.message:'选区保存失败；可调整范围重试'}
  finally{if(token===captureGeneration){captureActive=false;busy.value=false;window.getSelection()?.removeAllRanges();range=null}}
 }
-async function captureText(){if(range&&textPopup.value)await captureArea(textPopup.value,range.cloneRange())}
+async function captureText(){
+ const capturedRange=range?.cloneRange()
+ if(capturedRange&&textPopup.value)await captureArea(rectOf(capturedRange.getBoundingClientRect()),capturedRange)
+}
 async function toggleMode() {
  if(busy.value)return
  if(draft.value)try{await persist()}catch(e){error.value=(e as Error).message;return}
- draft.value=null;active.value=null;rect.value=null;mode.value=!mode.value;notice.value=''
+ drawOrigin.value=mode.value?null:textPopup.value
+ draft.value=null;active.value=null;rect.value=null;mode.value=!mode.value;notice.value='';clearTextSelection();window.getSelection()?.removeAllRanges()
  if(mode.value&&window.innerWidth<=640) {
   const bounds=contentRoot().getBoundingClientRect(),x=Math.max(20,bounds.x+12),y=Math.max(120,bounds.y+24)
   await captureArea({x,y,width:Math.min(280,window.innerWidth-x-20),height:160})
@@ -185,9 +228,10 @@ function moveDraw(event:PointerEvent) {
 async function endDraw() {
  if(!drag)return;drag=null
  if(rect.value&&rect.value.width>5&&rect.value.height>5)await captureArea({...rect.value},null,draft.value)
+ else rect.value=null
 }
 async function keyboard(event:KeyboardEvent) {
- if(event.key==='Escape') {mode.value=false;textPopup.value=null;if(showCard.value)await closeCard();return}
+ if(event.key==='Escape') {mode.value=false;drawOrigin.value=null;clearTextSelection();window.getSelection()?.removeAllRanges();if(showCard.value)await closeCard();else rect.value=null;return}
  if(!isAnnotationShortcut(event))return
  const el=keyboardAnnotationTarget(event.target,contentRoot())
  if(el) {
@@ -197,11 +241,12 @@ async function keyboard(event:KeyboardEvent) {
 async function closeCard() {
  if(busy.value)return
  if(draft.value)try{await persist()}catch(e){error.value=(e as Error).message;return}
- active.value=null;draft.value=null;rect.value=null;groupChoices.value=[];error.value=''
+ active.value=null;draft.value=null;rect.value=null;groupChoices.value=[];error.value='';clearTextSelection();drawOrigin.value=null
 }
 async function openAnnotation(id:string,scroll=false) {
  if(draft.value)try{await persist()}catch(e){error.value=(e as Error).message;return}
  busy.value=true;error.value='';rect.value=null;draft.value=null;groupChoices.value=[]
+ clearTextSelection();drawOrigin.value=null;mode.value=false
  try {
   const response=await api<{annotation:Annotation;warning:string|null}>('/annotations/'+id),a=response.annotation
   if(a.country!==scope.value.country||a.page!==scope.value.page){await router.go(shareUrl(a,site.value.base));return}
@@ -241,7 +286,7 @@ async function stateChange() {
 }
 async function restoreDraft(saved:Draft) {
  try{await persist()}catch(e){error.value=(e as Error).message;return}
- error.value='';active.value=null;rect.value=null
+ error.value='';active.value=null;rect.value=null;clearTextSelection();drawOrigin.value=null;mode.value=false
  if(saved.annotationId)await openAnnotation(saved.annotationId)
  draft.value=saved
  if(saved.anchor) {
@@ -311,10 +356,11 @@ const routeGuard:NonNullable<typeof router.onBeforeRouteChange>=async()=>{
 watch(()=>route.path,()=>{if(ready.value)loadPage()})
 onMounted(async()=>{
  router.onBeforeRouteChange=routeGuard
+ viewportWidth.value=window.innerWidth;viewportHeight.value=window.innerHeight
  ready.value=true;session.value=storedSession()
  const returning=new URLSearchParams(location.hash.slice(1)).has('atlas_login');let loginError=''
  try{session.value=await finishLogin()}catch(e){loginError=(e as Error).message}
- document.addEventListener('mouseup',selectionChanged);document.addEventListener('keyup',selectionChanged);document.addEventListener('keydown',keyboard)
+ document.addEventListener('pointerdown',dismissSelection);document.addEventListener('pointerup',finishSelection);document.addEventListener('pointercancel',finishSelection);document.addEventListener('selectionchange',selectionChanged);document.addEventListener('keyup',selectionChanged);document.addEventListener('keydown',keyboard)
  document.addEventListener('toggle',disclosureToggled,true)
  window.addEventListener('scroll',schedulePositions,true);window.addEventListener('resize',schedulePositions);window.addEventListener('atlas:view-change',schedulePositions);window.addEventListener('hashchange',openShared)
  await loadPage()
@@ -327,26 +373,35 @@ onMounted(async()=>{
 onBeforeUnmount(()=>{
  ++captureGeneration
  if(router.onBeforeRouteChange===routeGuard)router.onBeforeRouteChange=undefined
- document.removeEventListener('mouseup',selectionChanged);document.removeEventListener('keyup',selectionChanged);document.removeEventListener('keydown',keyboard)
+ document.removeEventListener('pointerdown',dismissSelection);document.removeEventListener('pointerup',finishSelection);document.removeEventListener('pointercancel',finishSelection);document.removeEventListener('selectionchange',selectionChanged);document.removeEventListener('keyup',selectionChanged);document.removeEventListener('keydown',keyboard)
  document.removeEventListener('toggle',disclosureToggled,true)
  window.removeEventListener('scroll',schedulePositions,true);window.removeEventListener('resize',schedulePositions);window.removeEventListener('atlas:view-change',schedulePositions);window.removeEventListener('hashchange',openShared)
- observer?.disconnect();resizeObserver?.disconnect();clearInterval(poll);clearTimeout(debounce);clearTimeout(repositionTimer);if(draftSnapshotUrl.value)URL.revokeObjectURL(draftSnapshotUrl.value)
+ observer?.disconnect();resizeObserver?.disconnect();toolbarObserver?.disconnect();clearInterval(poll);clearTimeout(debounce);clearTimeout(repositionTimer);if(draftSnapshotUrl.value)URL.revokeObjectURL(draftSnapshotUrl.value)
 })
 </script>
 <template>
  <Teleport v-if="ready" to="body">
-  <div class="annotation-toolbar" data-annotation-ui role="toolbar" aria-label="内容批注工具">
-   <button :class="{selected:mode}" :aria-pressed="mode" @click="toggleMode">{{mode?'退出框选':'框选批注'}}</button>
-   <button :aria-pressed="!markersVisible" @click="markersVisible=!markersVisible">{{markersVisible?'隐藏标记':'显示标记'}}</button>
-   <select v-model="filter" aria-label="筛选批注"><option value="open">Open</option><option value="closed">Closed</option><option value="mine">本人参与</option><option value="all">全部状态</option></select>
-   <details v-if="savedDrafts.length" class="annotation-menu"><summary>草稿 {{savedDrafts.length}}</summary><div><button v-for="d in savedDrafts" :key="d.id" @click="restoreDraft(d)">{{d.body.slice(0,26)||'尚未填写正文'}} · {{fmtTime(d.updatedAt)}}</button></div></details>
-   <details v-if="orphaned.length" class="annotation-menu"><summary>原内容已变更 {{orphaned.length}}</summary><div><button v-for="a in orphaned" :key="a.id" @click="openAnnotation(a.id)">{{a.state==='open'?'Open':'Closed'}} · {{a.title}}</button></div></details>
-   <details v-if="hiddenAnnotations.length" class="annotation-menu"><summary>内容已折叠或隐藏 {{hiddenAnnotations.length}}</summary><div><button v-for="a in hiddenAnnotations" :key="a.id" @click="openAnnotation(a.id,true)">{{a.state==='open'?'Open':'Closed'}} · {{a.title}}</button></div></details>
-   <button v-if="!session" @click="login">GitHub 登录</button><button v-else @click="logout" :title="'退出 '+session.user.login">@{{session.user.login}}</button>
+  <div v-if="toolbarPosition" ref="toolbar" class="annotation-toolbar annotation-context-toolbar" :style="toolbarStyle" data-annotation-ui role="toolbar" aria-label="内容批注工具" @pointerdown="preserveSelection" @focusout="toolbarFocusChanged">
+   <div class="annotation-context-primary">
+    <button v-if="!mode" class="annotation-context-add" @click="captureText">添加批注</button>
+    <button :class="{selected:mode}" :aria-pressed="mode" @click="toggleMode">{{mode?'退出框选':'框选区域'}}</button>
+   </div>
+   <p v-if="mode" class="annotation-context-hint">在内容上拖出矩形，再拖动四角调整。Esc 退出。</p>
+   <details v-else class="annotation-context-options">
+    <summary>更多<span v-if="savedDrafts.length"> · 草稿 {{savedDrafts.length}}</span></summary>
+    <div class="annotation-context-options-body">
+     <button :aria-pressed="!markersVisible" @click="markersVisible=!markersVisible">{{markersVisible?'隐藏标记':'显示标记'}}</button>
+     <label>批注状态 <select v-model="filter" aria-label="筛选批注"><option value="open">Open</option><option value="closed">Closed</option><option value="mine">本人参与</option><option value="all">全部状态</option></select></label>
+     <details v-if="savedDrafts.length" class="annotation-context-list"><summary>恢复草稿 {{savedDrafts.length}}</summary><div><button v-for="d in savedDrafts" :key="d.id" @click="restoreDraft(d)">{{d.body.slice(0,26)||'尚未填写正文'}} · {{fmtTime(d.updatedAt)}}</button></div></details>
+     <details v-if="orphaned.length" class="annotation-context-list"><summary>原内容已变更 {{orphaned.length}}</summary><div><button v-for="a in orphaned" :key="a.id" @click="openAnnotation(a.id)">{{a.state==='open'?'Open':'Closed'}} · {{a.title}}</button></div></details>
+     <details v-if="hiddenAnnotations.length" class="annotation-context-list"><summary>内容已折叠或隐藏 {{hiddenAnnotations.length}}</summary><div><button v-for="a in hiddenAnnotations" :key="a.id" @click="openAnnotation(a.id,true)">{{a.state==='open'?'Open':'Closed'}} · {{a.title}}</button></div></details>
+     <button v-if="!session" @click="login">GitHub 登录</button><button v-else @click="logout" :title="'退出 '+session.user.login">@{{session.user.login}}</button>
+     <p class="annotation-context-hint">键盘聚焦内容后按 Alt＋Shift＋A 添加批注。</p>
+     <p v-if="warning" class="annotation-context-hint" role="status">{{warning}}</p>
+    </div>
+   </details>
   </div>
-  <p v-if="mode" class="annotation-instruction" data-annotation-ui>在内容上拖出矩形，拖动四角调整。Esc 退出；键盘聚焦内容后按 Alt＋Shift＋A。</p>
   <div v-if="mode" class="annotation-draw-plane" data-annotation-ui @pointerdown="startDraw($event)" @pointermove="moveDraw" @pointerup="endDraw" @pointercancel="endDraw"></div>
-  <button v-if="textPopup" class="annotation-text-button" data-annotation-ui :style="{left:Math.max(8,Math.min(textPopup.x,viewportWidth-130))+'px',top:Math.max(74,textPopup.y-42)+'px'}" @mousedown.prevent @click="captureText">添加批注</button>
   <div v-if="markersVisible" class="annotation-markers" data-annotation-ui>
    <button v-for="g in groups" :key="g.items.map(i=>i.id).join(',')" class="annotation-marker" :class="{closed:g.items.every(i=>annotations.find(a=>a.id===i.id)?.state==='closed')}" :style="{left:Math.max(0,Math.min(g.x,viewportWidth-72))+'px',top:g.y+'px'}" :aria-label="'展开'+g.items.length+'条区域批注'" @click="openGroup(g.items.map(i=>i.id))">{{g.items.length>1?g.items.length+' · ':''}}{{g.items.every(i=>annotations.find(a=>a.id===i.id)?.state==='closed')?'Closed':'Open'}}</button>
   </div>
@@ -388,6 +443,23 @@ onBeforeUnmount(()=>{
    </form>
    <p v-if="error" class="annotation-alert" role="alert">{{error}}</p><p v-if="warning" class="annotation-timestamp" role="status">{{warning}}</p>
   </aside>
-  <div v-if="(notice||error||warning)&&!showCard" class="annotation-notice" data-annotation-ui role="status">{{error||notice||warning}} <button v-if="notice||error" aria-label="关闭提示" @click="notice='';error=''">×</button></div>
+  <div v-if="(notice||error)&&!showCard" class="annotation-notice" data-annotation-ui role="status">{{error||notice}} <button v-if="notice||error" aria-label="关闭提示" @click="notice='';error=''">×</button></div>
  </Teleport>
 </template>
+
+<style scoped>
+.annotation-context-toolbar{position:fixed;right:auto;bottom:auto;width:284px;display:block;padding:10px;border:1px solid #d4dfed;border-radius:10px;box-shadow:0 8px 28px #1833561c;overflow-y:auto;overscroll-behavior:contain;z-index:91}
+.annotation-context-primary{display:flex;align-items:center;gap:6px}
+.annotation-context-primary button{min-height:34px;flex:1;font-size:13px}
+.annotation-context-primary .annotation-context-add{background:#2459be;color:white;font-weight:600}
+.annotation-context-primary .annotation-context-add:hover{background:#174cad;color:white;text-decoration:none}
+.annotation-context-options{margin-top:7px;border-top:1px solid #e7edf5;padding-top:4px}
+.annotation-context-options>summary{font-size:11px;color:#687b90}
+.annotation-context-options-body{display:grid;gap:8px;margin-top:8px}
+.annotation-context-options-body>button{text-align:left}
+.annotation-context-options-body label{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:12px;color:#687b90}
+.annotation-context-list{border-top:1px solid #e7edf5;padding-top:5px}
+.annotation-context-list button{display:block;text-align:left;white-space:normal;overflow-wrap:anywhere;width:100%;border-bottom:1px solid #edf1f6}
+.annotation-context-hint{font-size:11px;line-height:1.6;color:#687b90;margin:8px 0 0}
+@media(max-width:640px){.annotation-context-toolbar{right:auto;bottom:auto;left:auto;width:270px;justify-content:initial;font-size:12px;padding:8px}.annotation-context-primary button{min-height:40px}}
+</style>

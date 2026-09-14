@@ -14,6 +14,7 @@ import ObservationDetails from './ObservationDetails.vue'
 import CountryTaskSearch from './CountryTaskSearch.vue'
 import {useCurrency} from '../../../../src/preferences/currency'
 import IndustryOrbitChart from './IndustryOrbitChart.vue'
+import IndustryRankings from './IndustryRankings.vue'
 import {loadEmployment} from '../../../../src/research/employment-loader'
 echarts.use([LineChart,GridComponent,TooltipComponent,SVGRenderer])
 const props=defineProps<{country:Country}>()
@@ -28,6 +29,8 @@ async function refreshEmployment(){
   if(request.signal.aborted||props.country!==country)return
   research.employment=data;employmentState.value='ready'
  }catch(error){if(request.signal.aborted)return;employmentState.value='failed';employmentError.value=error instanceof Error?error.message:'就业资料暂时无法读取'}
+ await nextTick()
+ if(!request.signal.aborted&&props.country===country&&location.hash==='#'+country+'-industry-rankings')document.getElementById(country+'-industry-rankings')?.scrollIntoView({block:'start'})
 }
 const profile=computed(()=>research.countries.find(p=>p.country===props.country)!)
 const year=ref(2025),focus=ref(props.country+'-gdp'),sort=ref<'value'|'name'>('value')
@@ -35,7 +38,6 @@ const scaleView=ref<InstanceType<typeof IndustryOrbitChart>>()
 const trendEl=ref<HTMLDivElement>()
 let trend:echarts.ECharts|undefined,resize:ResizeObserver|undefined
 const rank=computed(()=>annualRanking(props.country,year.value,research.industries,research.observations))
-const rows=computed(()=>sort.value==='value'?rank.value.top10:[...rank.value.top10].sort((a,b)=>a.industry.name.localeCompare(b.industry.name,'zh-CN')))
 const obs=(id:string,period:string,measure='value-added')=>research.observations.find(o=>o.country===props.country&&o.industryId===id&&o.period===period&&o.measure===measure)
 const gdp=computed(()=>obs(props.country+'-gdp',String(year.value)))
 const other=computed(()=>obs(props.country==='cn'?'cn-other':'us-other-services',String(year.value)))
@@ -75,7 +77,8 @@ function restore() {
  focus.value=f&&research.industries.some(i=>i.id===f&&i.country===props.country)?f:props.country+'-gdp'
  sort.value=q.get('sort')==='name'?'name':'value'
 }
-async function expandIndustry(id:string){await scaleView.value?.reveal(id)}
+async function expandIndustry(id:string,analysis:'structure'|'employment'='structure'){await scaleView.value?.reveal(id,analysis)}
+async function showTrend(id:string){focus.value=id;await nextTick();document.getElementById(chartId('trend'))?.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'})}
 function draw() {
  if(!trend) return
  trend.setOption({
@@ -122,16 +125,7 @@ onBeforeUnmount(()=>{employmentRequest?.abort();trend?.dispose();resize?.disconn
    <section :data-content-id="country+'-coverage-'+year" tabindex="0"><span>具名 Top 10 占 GDP</span><strong>{{coverage?.toFixed(2)}}<em>%</em></strong><span>计算：入榜行业现价之和 ÷ GDP</span><small>覆盖规模用于研究筛选，不能视为可自动化市场。</small><details class="observation-details"><summary>计算与来源</summary><p>{{year}}年，{{unit}}，现价。分子 {{rank.top10.map(r=>amount(r.observation)).join(' + ')}}；分母 {{amount(gdp)}}；结果乘100并四舍五入到两位小数。</p><EvidenceList :items="[...new Map([...rank.top10.flatMap(r=>r.observation?.evidence??[]),...(gdp?.evidence??[])].map(r=>[r.sourceId+'|'+r.locator,r])).values()]"/></details></section>
    <section :data-content-id="country+'-latest-'+profile.latestPeriod" tabindex="0"><span>最新进展 · {{profile.latestPeriod}}</span><strong>{{amount(latest)}}</strong><span>{{unit}}{{latest?.annualized?' · 季调年率':' · 当期现价'}}</span><small>发布 {{profile.latestRelease}} · 实际增长 {{latestGrowth?.value??'—'}}%{{country==='us'?'（环比折年）':'（同比）'}}</small><ObservationDetails v-if="latest" :observation="latest"/><ObservationDetails v-if="latestGrowth" :observation="latestGrowth"/></section>
   </div>
-  <section :data-content-id="country+'-ranking-table'" tabindex="0">
-   <div class="section-header"><h2>行业榜单</h2><label>排序 <select v-model="sort" aria-label="表格排序"><option value="value">增加值</option><option value="name">名称</option></select></label></div>
-   <div class="table-scroll"><table class="atlas-table"><thead><tr><th>排名</th><th>行业</th><th class="numeric">{{year}} 年 · {{unit}}</th><th>证据与趋势</th></tr></thead><tbody>
-    <tr v-for="r in rows" :key="r.industry.id" :data-content-id="r.industry.id+'-annual-'+year" :data-observation-id="r.observation?.id" tabindex="0">
-     <td>{{rank.top10.findIndex(x=>x.industry.id===r.industry.id)+1}}</td><th scope="row"><a v-if="r.industry.selected" :href="withBase('/'+country+'/industries/'+r.industry.id)">{{r.industry.name}}</a><span v-else>{{r.industry.name}}</span></th><td class="numeric">{{amount(r.observation)}}</td><td><button :aria-label="r.industry.name+'细分行业'" @click="expandIndustry(r.industry.id)">细分行业</button> · <button @click="focus=r.industry.id">看五年趋势</button><ObservationDetails v-if="r.observation" :observation="r.observation"/></td>
-    </tr>
-    <tr v-for="r in rank.supplements" :key="r.industry.id" :data-content-id="r.industry.id+'-annual-'+year" tabindex="0"><td>补充</td><th scope="row"><a :href="withBase('/'+country+'/industries/'+r.industry.id)">{{r.industry.name}}</a><small>补充榜单未覆盖产业</small></th><td class="numeric">{{amount(r.observation)}}</td><td><button :aria-label="r.industry.name+'细分行业'" @click="expandIndustry(r.industry.id)">细分行业</button> · <button @click="focus=r.industry.id">看五年趋势</button><ObservationDetails v-if="r.observation" :observation="r.observation"/></td></tr>
-   </tbody></table></div>
-   <p class="scope-note">{{country==='cn'?'工业整体入榜，制造业为子项，不再同时排名。三次产业合计不参与行业榜。':'排名以官方行值计算；不同时列入父级汇总和子行业。'}}</p>
-  </section>
+  <IndustryRankings :research="research" :country="country" :year="year" :employment-state="employmentState" :employment-error="employmentError" @inspect="expandIndustry" @trend="showTrend" @retry="refreshEmployment"/>
   <section :id="chartId('trend')" :data-content-id="focus+'-trend'" tabindex="0" class="chart-section">
    <div class="section-header"><h2>{{focusIndustry?.name}} · 2021—2025</h2><label>趋势对象 <select v-model="focus" aria-label="趋势行业"><option :value="country+'-gdp'">GDP</option><option v-for="i in research.industries.filter(i=>i.country===country&&i.rankingUniverse)" :value="i.id">{{i.name}}</option></select></label></div>
    <div ref="trendEl" :data-content-id="focus+'-trend-plot'" tabindex="0" class="trend-chart" role="img" :aria-label="focusIndustry?.name+'近五年趋势'"></div>

@@ -165,7 +165,7 @@ function exportData(){
  const url=URL.createObjectURL(new Blob([JSON.stringify({...record,employment},null,2)],{type:'application/json'})),a=document.createElement('a');a.href=url;a.download=props.country+'-orbit-'+root.value.year+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)
 }
 function exportSvg(){if(chart){clearHover();downloadChartSvg(chart,root.value.year+' · '+root.value.name+'分层图','当前聚焦：'+active.value.name+' · '+money(active.value)+' '+unit.value+' · '+(structure.value?'历史产品部门':'行业现价增加值')+' · 占全体 '+pct(orbitShare(active.value,root.value))+' · 1美元='+settings.value.usdCny+'人民币',props.country+'-orbit-'+root.value.year,visibleSectors.value.map(s=>({label:'　'.repeat(s.depth)+s.node.name,detail:money(s.node)+' '+unit.value+' · 占全体 '+pct(orbitShare(s.node,root.value)),color:colorFor(s)})),{zoom:viewZoom.value,x:panX.value*chart.getWidth(),y:panY.value*chart.getHeight()})}}
-async function reveal(id:string){if(basis.value)changeBasis('');go(id);await nextTick();host.value?.scrollIntoView({behavior:reduced?'auto':'smooth',block:'start'})}
+async function reveal(id:string,analysis:OrbitAnalysisTab='structure'){if(basis.value)changeBasis('');go(id);changeAnalysis(analysis);const url=new URL(location.href);url.hash=props.country+'-ranking-chart';history.replaceState(null,'',url);await nextTick();host.value?.scrollIntoView({behavior:reduced?'auto':'smooth',block:'start'})}
 defineExpose({reveal})
 watch(viewZoom,async()=>{await nextTick();draw()})
 watch([bands,settings,active],async()=>{await nextTick();draw();reframe()})
