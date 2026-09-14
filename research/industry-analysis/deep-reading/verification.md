@@ -38,3 +38,14 @@
 - 三份公开下载返回 HTTP 200、版本均为 2026-09-14.preview-17，并与本地字节一致：industry-analysis.json SHA256 8d333ebf27384fefda67061969b47b91dca3ff40b857b928c306292ff875756e；industry-analysis-research.json SHA256 40ee0582f7109b8ced49795c3695c549a64e6c9b6086ca56441983fa2d513d65；industry-reading-log.json SHA256 34060554d39469e2526a8edc757cd4e7ef9fad8d78885fb34474451cd302a5f6。
 - 公开 C39 页面选择 2026H1 经营现金净流量/收入后重新载入，选择保留，中芯 53.7%、四创 −52.2% 显示正确。方法页版本及新增阅读日志链接已核对。
 - 线上最后检查发现旧公司覆盖记录标题“已读完整原件并提取核心表”仍可能误解为阅读全文；与本轮限定主题日志不一致。下一版通过 13 条同 ID 覆盖文字修订澄清“完整原件已取得；核心表已读”，保留所有原值、原证据与旧记录，不以已发布为由忽略该问题。
+
+## preview-18 最终公开回执
+
+- 发布代码：51fc64e48e46d9c13232f123cc686f7ecde537c8；GitHub Actions 类型、测试、生成数据一致性、构建和部署全部成功：https://github.com/JoenHune/labor-automation-atlas/actions/runs/34848378956。
+- 与 preview-17 精确比较：当前分析只有版本及 13 条 coverage 的 title/detail/nextStep 改变；比较表、解释、来源、分配值完全一致。原有 6 项公司修订逐对象不变，新增 13 项文字修订；369 项研究输入校验通过，模块 13 文件冻结哈希复算通过。
+- 最终三份公开文件均 HTTP 200、2026-09-14.preview-18，字节与本地完全一致：
+  - industry-analysis.json：1069772 字节；SHA256 ddc83370080248f5c817fc503de2bc40d8c6278a07fd57dda055fa759f906c24。
+  - industry-analysis-research.json：3720853 字节；SHA256 d09f16f7e17999e1aab38c8419a35182f20b2bd8dcec7cf90288015e98e25970。
+  - industry-reading-log.json：401871 字节；SHA256 f15b768e8d71e348aaf1cfa8568e814d933ab9f01ada41c8ee32edb957515b81。
+- 公开方法页已显示 preview-18 和阅读日志链接，13 条标题均改为“完整原件已取得；核心表已读”，旧误导标题不再出现在当前页面或当前分析下载。历史模块的原文仍在完整研究包中留存，修订记录单独可恢复。
+- 公开图谱保留新增现金指标视图；本轮研究成果与文字纠正已上线，不据此宣称穷尽全部官方资料或 26 份财报全文。
