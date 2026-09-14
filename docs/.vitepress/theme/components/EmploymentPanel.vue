@@ -7,7 +7,7 @@ import {employmentView,employmentDisplay,employmentGroups,employmentExport,emplo
 import {useCurrency} from '../../../../src/preferences/currency'
 import EvidenceList from './EvidenceList.vue'
 import EmploymentSummary from './EmploymentSummary.vue'
-const props=defineProps<{research:Research;node:ScaleNode;peers:ScaleNode[];basis:string}>()
+const props=defineProps<{research:Research;node:ScaleNode;peers:ScaleNode[];basis:string;contentPrefix?:string}>()
 const emit=defineEmits<{select:[node:ScaleNode];hover:[id:string];clear:[]}>()
 const {settings}=useCurrency()
 const metric=ref<EmploymentMetric>('productivity'),observedOnly=ref(false)
@@ -33,10 +33,10 @@ onBeforeUnmount(()=>window.removeEventListener('popstate',restore))
 watch(()=>[props.node.country,props.node.year],()=>restore())
 </script>
 <template>
- <section class="employment-panel" :data-content-id="node.id+'-employment-panel-'+node.year">
+ <section class="employment-panel" :data-content-id="(contentPrefix??'')+node.id+'-employment-panel-'+node.year">
   <div class="employment-eyebrow">就业与人均 <span>{{node.year}} 年</span></div>
   <h3>{{node.name}}</h3>
-  <EmploymentSummary :dataset="research.employment" :node="node" :basis="basis"/>
+  <EmploymentSummary :dataset="research.employment" :node="node" :basis="basis" :content-prefix="contentPrefix"/>
   <p v-if="record" class="employment-context">{{record.pairing.explanation}}</p>
   <details v-if="record" class="employment-method">
    <summary>人数、估算方法与来源 <span>↗</span></summary>

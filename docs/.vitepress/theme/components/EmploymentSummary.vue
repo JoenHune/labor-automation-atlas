@@ -4,7 +4,7 @@ import type {EmploymentDataset} from '../../../../src/research/schema'
 import type {ScaleNode} from '../../../../src/research/industry-scale'
 import {employmentView,employmentDisplay,employmentPeriodLabels} from '../../../../src/research/employment'
 import {useCurrency} from '../../../../src/preferences/currency'
-const props=defineProps<{dataset?:EmploymentDataset;node:ScaleNode;basis:string;compact?:boolean}>()
+const props=defineProps<{dataset?:EmploymentDataset;node:ScaleNode;basis:string;compact?:boolean;contentPrefix?:string}>()
 const {settings}=useCurrency()
 const view=computed(()=>employmentView(props.dataset,props.node,props.basis))
 const display=computed(()=>employmentDisplay(view.value,settings.value))
@@ -12,7 +12,7 @@ const estimated=computed(()=>view.value.record?.employment.status==='estimated')
 const employeeCoverage=computed(()=>{const r=view.value.record;if(r?.country!=='us'||r.employment.value===null||r.employment.denominatorKind!=='jobs')return '';return '雇员岗位，不含业主'})
 </script>
 <template>
- <div :class="['employment-summary',{'is-compact':compact}]" :data-content-id="node.id+'-employment-summary-'+node.year" tabindex="0">
+ <div :class="['employment-summary',{'is-compact':compact}]" :data-content-id="(contentPrefix??'')+node.id+'-employment-summary-'+node.year" tabindex="0">
   <div class="employment-numbers">
    <div><span>就业规模 <em v-if="estimated">估算</em></span><strong>{{display.count}}<small>{{display.countUnit}}</small></strong></div>
    <div><span>{{view.productivityLabel}} <em v-if="estimated">估算</em><em v-else-if="view.record?.pairing.status==='proxy'">代理</em></span><strong>{{display.productivity}}<small>{{display.productivityUnit}}</small></strong></div>

@@ -1,0 +1,3119 @@
+{
+  "version": "2026-09-15.us-major-ranking-1",
+  "checkedAt": "2026-09-14",
+  "scope": "补齐美国20个非重叠年度大类中原未入榜的9类；45个节点年，全部复用已归档独立官方输入。",
+  "inputHashes": {
+    "research/employment/us/observations.json": "ad4a0df46c7438427d926b991f0931dd19b21b05fb8e019c31fdca3452cf6ebd",
+    "research/employment/dataset.json": "f1393271abea4c8d1fa4013078d2fe9e72ed71b278719ab65385f245208fb77f",
+    "research/us/macro.json": "39d869938a2066127eecbad3db8ca1f8459557df065aa7bae71b3504e05d9ae9"
+  },
+  "bridges": [
+    {
+      "nodeId": "us-mining",
+      "nipaLine": 7,
+      "qcewCode": "21",
+      "ownership": "5"
+    },
+    {
+      "nodeId": "us-utilities",
+      "nipaLine": 11,
+      "qcewCode": "22",
+      "ownership": "5"
+    },
+    {
+      "nodeId": "us-transport",
+      "nipaLine": 43,
+      "qcewCode": "48-49",
+      "ownership": "5"
+    },
+    {
+      "nodeId": "us-management",
+      "nipaLine": 69,
+      "qcewCode": "55",
+      "ownership": "5"
+    },
+    {
+      "nodeId": "us-administrative",
+      "nipaLine": 70,
+      "qcewCode": "56",
+      "ownership": "5"
+    },
+    {
+      "nodeId": "us-education",
+      "nipaLine": 73,
+      "qcewCode": "61",
+      "ownership": "5"
+    },
+    {
+      "nodeId": "us-arts",
+      "nipaLine": 79,
+      "qcewCode": "71",
+      "ownership": "5"
+    },
+    {
+      "nodeId": "us-hospitality",
+      "nipaLine": 82,
+      "qcewCode": "72",
+      "ownership": "5"
+    },
+    {
+      "nodeId": "us-other-services",
+      "nipaLine": 85,
+      "qcewCode": "81",
+      "ownership": "5"
+    }
+  ],
+  "excluded": [
+    {
+      "year": 2025,
+      "nodeId": "us-unclassified-employment",
+      "value": 201162,
+      "unit": "jobs",
+      "reason": "QCEW NAICS99 私营未分类岗位；没有可配的独立行业增加值，不分给任何具名行业。",
+      "evidence": [
+        {
+          "sourceId": "us-employment-qcew-2025",
+          "locator": "2025/a/area/US000.csv; row 4489; own_code=5; industry_code=99; annual_avg_emplvl=201162"
+        }
+      ]
+    }
+  ],
+  "dataset": {
+    "version": "2026-09-15.us-major-ranking-1",
+    "checkedAt": "2026-09-14",
+    "sources": [
+      {
+        "id": "us-employment-qcew-2025",
+        "title": "QCEW 2025 annual average employment — U.S. all industries and ownerships",
+        "publisher": "U.S. Bureau of Labor Statistics",
+        "url": "https://data.bls.gov/cew/data/api/2025/a/area/US000.csv",
+        "published": "2026-08-28",
+        "retrieved": "2026-09-14",
+        "country": "us",
+        "kind": "official-statistics",
+        "archive": "research/employment/us/originals/qcew-2025-us.csv",
+        "sha256": "0b5528f70d66a84ff9729691f365c667a09f854f0af3d841bdd660ef3cb01811",
+        "limitations": [
+          "仅 UI/UCFE 覆盖雇员岗位；全国合计不含波多黎各和美属维尔京群岛。"
+        ]
+      },
+      {
+        "id": "us-employment-bea-nipa-2025-09-26",
+        "title": "NIPA 6.4D employees and 6.5D FTE, annual 1998—2024",
+        "publisher": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/national/Release/XLS/Survey/Section6All_xls.xlsx",
+        "published": "2025-09-26",
+        "retrieved": "2026-09-14",
+        "country": "us",
+        "kind": "official-statistics",
+        "archive": "research/employment/us/originals/Section6All.xlsx",
+        "sha256": "07fe01381f56f3cc67ce72a0c8e5497ded2efe2a71d55749c9a39e1da93c7cce",
+        "limitations": [
+          "不含业主；年度统计时点保留表内年度观测，不将手册未说明的年均处理写成事实。"
+        ]
+      },
+      {
+        "id": "us-employment-nipa-methods",
+        "title": "NIPA Handbook Chapter 10, Appendix A employment definitions",
+        "publisher": "U.S. Bureau of Economic Analysis",
+        "url": "https://www.bea.gov/resources/methodologies/nipa-handbook/pdf/chapter-10.pdf",
+        "published": null,
+        "retrieved": "2026-09-14",
+        "country": "us",
+        "kind": "official-statistics",
+        "archive": "research/employment/us/originals/chapter-10.pdf",
+        "sha256": "176b04ebc0184e7a52097194b3843b63cd98fc6480130aeffa0b71b8c85ec396",
+        "limitations": [
+          "本轮读取附录A及覆盖调整，非整本NIPA手册。"
+        ]
+      },
+      {
+        "id": "us-employment-qcew-definition",
+        "title": "Employment and Wages Annual Averages 2025 — coverage and definitions",
+        "publisher": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/cew/publications/employment-and-wages-annual-averages/2025/home.htm",
+        "published": "2026-08-28",
+        "retrieved": "2026-09-14",
+        "country": "us",
+        "kind": "official-statistics",
+        "archive": "research/employment/us/originals/qcew-definition-web.json",
+        "sha256": "15918f2f629a00c976499841901a62e29fe237fb4e4b61940a992f72db02cf1a",
+        "limitations": [
+          "网页归档为Web工具可读摘录，非原始HTML。"
+        ]
+      }
+    ],
+    "records": [
+      {
+        "id": "us-major-employment-us-mining-2021",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-mining",
+        "nodeName": "采矿业",
+        "year": 2021,
+        "valueAddedAnchor": {
+          "baseValue": 336076000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 513000,
+          "year": 2021,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Mining；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AA15; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "513000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-7",
+                "label": "Mining",
+                "value": 513000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AA15; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-utilities-2021",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-utilities",
+        "nodeName": "公用事业",
+        "year": 2021,
+        "valueAddedAnchor": {
+          "baseValue": 392948000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 545000,
+          "year": 2021,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Utilities；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AA19; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "545000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-11",
+                "label": "Utilities",
+                "value": 545000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AA19; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-transport-2021",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-transport",
+        "nodeName": "运输和仓储业",
+        "year": 2021,
+        "valueAddedAnchor": {
+          "baseValue": 779275000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 6202000,
+          "year": 2021,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Transportation and warehousing；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AA51; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "6202000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-43",
+                "label": "Transportation and warehousing",
+                "value": 6202000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AA51; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-management-2021",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-management",
+        "nodeName": "公司和企业管理",
+        "year": 2021,
+        "valueAddedAnchor": {
+          "baseValue": 445734000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 2360000,
+          "year": 2021,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Management of companies and enterprises；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AA77; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "2360000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-69",
+                "label": "Management of companies and enterprises\\6\\",
+                "value": 2360000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AA77; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-administrative-2021",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-administrative",
+        "nodeName": "行政及废弃物管理服务业",
+        "year": 2021,
+        "valueAddedAnchor": {
+          "baseValue": 740139000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 9132000,
+          "year": 2021,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Administrative and waste management services；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AA78; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "9132000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-70",
+                "label": "Administrative and waste management services",
+                "value": 9132000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AA78; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-education-2021",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-education",
+        "nodeName": "教育服务业",
+        "year": 2021,
+        "valueAddedAnchor": {
+          "baseValue": 269939000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 3593000,
+          "year": 2021,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Educational services；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AA81; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "3593000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-73",
+                "label": "Educational services",
+                "value": 3593000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AA81; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-arts-2021",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-arts",
+        "nodeName": "艺术、娱乐和休闲业",
+        "year": 2021,
+        "valueAddedAnchor": {
+          "baseValue": 215564000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 2022000,
+          "year": 2021,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Arts, entertainment, and recreation；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AA87; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "2022000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-79",
+                "label": "Arts, entertainment, and recreation",
+                "value": 2022000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AA87; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-hospitality-2021",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-hospitality",
+        "nodeName": "住宿和餐饮业",
+        "year": 2021,
+        "valueAddedAnchor": {
+          "baseValue": 695395000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 12270000,
+          "year": 2021,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Accommodation and food services；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AA90; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "12270000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-82",
+                "label": "Accommodation and food services",
+                "value": 12270000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AA90; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-other-services-2021",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-other-services",
+        "nodeName": "其他服务业（政府除外）",
+        "year": 2021,
+        "valueAddedAnchor": {
+          "baseValue": 484518000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 6712000,
+          "year": 2021,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Other services, except government；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AA93; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "6712000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-85",
+                "label": "Other services, except government",
+                "value": 6712000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AA93; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-mining-2022",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-mining",
+        "nodeName": "采矿业",
+        "year": 2022,
+        "valueAddedAnchor": {
+          "baseValue": 466944000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 555000,
+          "year": 2022,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Mining；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AB15; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "555000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-7",
+                "label": "Mining",
+                "value": 555000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AB15; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-utilities-2022",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-utilities",
+        "nodeName": "公用事业",
+        "year": 2022,
+        "valueAddedAnchor": {
+          "baseValue": 440787000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 554000,
+          "year": 2022,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Utilities；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AB19; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "554000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-11",
+                "label": "Utilities",
+                "value": 554000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AB19; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-transport-2022",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-transport",
+        "nodeName": "运输和仓储业",
+        "year": 2022,
+        "valueAddedAnchor": {
+          "baseValue": 912104000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 6635000,
+          "year": 2022,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Transportation and warehousing；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AB51; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "6635000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-43",
+                "label": "Transportation and warehousing",
+                "value": 6635000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AB51; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-management-2022",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-management",
+        "nodeName": "公司和企业管理",
+        "year": 2022,
+        "valueAddedAnchor": {
+          "baseValue": 479846000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 2463000,
+          "year": 2022,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Management of companies and enterprises；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AB77; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "2463000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-69",
+                "label": "Management of companies and enterprises\\6\\",
+                "value": 2463000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AB77; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-administrative-2022",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-administrative",
+        "nodeName": "行政及废弃物管理服务业",
+        "year": 2022,
+        "valueAddedAnchor": {
+          "baseValue": 836987000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 9625000,
+          "year": 2022,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Administrative and waste management services；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AB78; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "9625000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-70",
+                "label": "Administrative and waste management services",
+                "value": 9625000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AB78; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-education-2022",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-education",
+        "nodeName": "教育服务业",
+        "year": 2022,
+        "valueAddedAnchor": {
+          "baseValue": 296087000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 3785000,
+          "year": 2022,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Educational services；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AB81; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "3785000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-73",
+                "label": "Educational services",
+                "value": 3785000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AB81; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-arts-2022",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-arts",
+        "nodeName": "艺术、娱乐和休闲业",
+        "year": 2022,
+        "valueAddedAnchor": {
+          "baseValue": 263960000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 2350000,
+          "year": 2022,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Arts, entertainment, and recreation；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AB87; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "2350000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-79",
+                "label": "Arts, entertainment, and recreation",
+                "value": 2350000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AB87; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-hospitality-2022",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-hospitality",
+        "nodeName": "住宿和餐饮业",
+        "year": 2022,
+        "valueAddedAnchor": {
+          "baseValue": 806303000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 13499000,
+          "year": 2022,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Accommodation and food services；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AB90; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "13499000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-82",
+                "label": "Accommodation and food services",
+                "value": 13499000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AB90; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-other-services-2022",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-other-services",
+        "nodeName": "其他服务业（政府除外）",
+        "year": 2022,
+        "valueAddedAnchor": {
+          "baseValue": 549781000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 6979000,
+          "year": 2022,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Other services, except government；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AB93; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "6979000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-85",
+                "label": "Other services, except government",
+                "value": 6979000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AB93; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-mining-2023",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-mining",
+        "nodeName": "采矿业",
+        "year": 2023,
+        "valueAddedAnchor": {
+          "baseValue": 411819000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 584000,
+          "year": 2023,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Mining；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AC15; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "584000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-7",
+                "label": "Mining",
+                "value": 584000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AC15; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-utilities-2023",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-utilities",
+        "nodeName": "公用事业",
+        "year": 2023,
+        "valueAddedAnchor": {
+          "baseValue": 457772000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 576000,
+          "year": 2023,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Utilities；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AC19; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "576000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-11",
+                "label": "Utilities",
+                "value": 576000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AC19; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-transport-2023",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-transport",
+        "nodeName": "运输和仓储业",
+        "year": 2023,
+        "valueAddedAnchor": {
+          "baseValue": 946065000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 6670000,
+          "year": 2023,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Transportation and warehousing；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AC51; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "6670000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-43",
+                "label": "Transportation and warehousing",
+                "value": 6670000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AC51; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-management-2023",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-management",
+        "nodeName": "公司和企业管理",
+        "year": 2023,
+        "valueAddedAnchor": {
+          "baseValue": 504015000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 2519000,
+          "year": 2023,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Management of companies and enterprises；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AC77; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "2519000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-69",
+                "label": "Management of companies and enterprises\\6\\",
+                "value": 2519000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AC77; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-administrative-2023",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-administrative",
+        "nodeName": "行政及废弃物管理服务业",
+        "year": 2023,
+        "valueAddedAnchor": {
+          "baseValue": 885237000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 9420000,
+          "year": 2023,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Administrative and waste management services；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AC78; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "9420000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-70",
+                "label": "Administrative and waste management services",
+                "value": 9420000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AC78; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-education-2023",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-education",
+        "nodeName": "教育服务业",
+        "year": 2023,
+        "valueAddedAnchor": {
+          "baseValue": 316421000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 3883000,
+          "year": 2023,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Educational services；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AC81; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "3883000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-73",
+                "label": "Educational services",
+                "value": 3883000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AC81; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-arts-2023",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-arts",
+        "nodeName": "艺术、娱乐和休闲业",
+        "year": 2023,
+        "valueAddedAnchor": {
+          "baseValue": 303721000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 2524000,
+          "year": 2023,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Arts, entertainment, and recreation；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AC87; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "2524000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-79",
+                "label": "Arts, entertainment, and recreation",
+                "value": 2524000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AC87; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-hospitality-2023",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-hospitality",
+        "nodeName": "住宿和餐饮业",
+        "year": 2023,
+        "valueAddedAnchor": {
+          "baseValue": 915775000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 14063000,
+          "year": 2023,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Accommodation and food services；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AC90; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "14063000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-82",
+                "label": "Accommodation and food services",
+                "value": 14063000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AC90; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-other-services-2023",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-other-services",
+        "nodeName": "其他服务业（政府除外）",
+        "year": 2023,
+        "valueAddedAnchor": {
+          "baseValue": 589187000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 7108000,
+          "year": 2023,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Other services, except government；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AC93; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "7108000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-85",
+                "label": "Other services, except government",
+                "value": 7108000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AC93; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-mining-2024",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-mining",
+        "nodeName": "采矿业",
+        "year": 2024,
+        "valueAddedAnchor": {
+          "baseValue": 404248000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 586000,
+          "year": 2024,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Mining；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AD15; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "586000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-7",
+                "label": "Mining",
+                "value": 586000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AD15; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-utilities-2024",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-utilities",
+        "nodeName": "公用事业",
+        "year": 2024,
+        "valueAddedAnchor": {
+          "baseValue": 454357000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 589000,
+          "year": 2024,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Utilities；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AD19; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "589000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-11",
+                "label": "Utilities",
+                "value": 589000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AD19; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-transport-2024",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-transport",
+        "nodeName": "运输和仓储业",
+        "year": 2024,
+        "valueAddedAnchor": {
+          "baseValue": 987302000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 6711000,
+          "year": 2024,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Transportation and warehousing；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AD51; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "6711000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-43",
+                "label": "Transportation and warehousing",
+                "value": 6711000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AD51; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-management-2024",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-management",
+        "nodeName": "公司和企业管理",
+        "year": 2024,
+        "valueAddedAnchor": {
+          "baseValue": 544333000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 2535000,
+          "year": 2024,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Management of companies and enterprises；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AD77; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "2535000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-69",
+                "label": "Management of companies and enterprises\\6\\",
+                "value": 2535000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AD77; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-administrative-2024",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-administrative",
+        "nodeName": "行政及废弃物管理服务业",
+        "year": 2024,
+        "valueAddedAnchor": {
+          "baseValue": 911703000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 9210000,
+          "year": 2024,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Administrative and waste management services；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AD78; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "9210000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-70",
+                "label": "Administrative and waste management services",
+                "value": 9210000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AD78; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-education-2024",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-education",
+        "nodeName": "教育服务业",
+        "year": 2024,
+        "valueAddedAnchor": {
+          "baseValue": 334785000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 3974000,
+          "year": 2024,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Educational services；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AD81; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "3974000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-73",
+                "label": "Educational services",
+                "value": 3974000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AD81; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-arts-2024",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-arts",
+        "nodeName": "艺术、娱乐和休闲业",
+        "year": 2024,
+        "valueAddedAnchor": {
+          "baseValue": 326765000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 2649000,
+          "year": 2024,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Arts, entertainment, and recreation；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AD87; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "2649000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-79",
+                "label": "Arts, entertainment, and recreation",
+                "value": 2649000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AD87; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-hospitality-2024",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-hospitality",
+        "nodeName": "住宿和餐饮业",
+        "year": 2024,
+        "valueAddedAnchor": {
+          "baseValue": 960356000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 14169000,
+          "year": 2024,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Accommodation and food services；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AD90; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "14169000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-82",
+                "label": "Accommodation and food services",
+                "value": 14169000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AD90; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-other-services-2024",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-other-services",
+        "nodeName": "其他服务业（政府除外）",
+        "year": 2024,
+        "valueAddedAnchor": {
+          "baseValue": 627985000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 7215000,
+          "year": 2024,
+          "denominatorKind": "jobs",
+          "periodBasis": "other",
+          "status": "official",
+          "definition": "BEA本行业年度全职与兼职雇员岗位；不含业主，一人多职可重复计数。表内年度观测的月均处理未明确，不改写为期末或全年累计人数。",
+          "coverage": "BEA国内私人行业：Other services, except government；NIPA雇员口径，包含BEA覆盖调整。",
+          "releaseDate": "2025-09-26",
+          "revision": "当前在线工作簿，2026-09-14 下载；表内 Data published September 26, 2025，不能把文件创建日当发布日期。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-bea-nipa-2025-09-26",
+              "locator": "T60400D-A!AD93; thousands × 1000"
+            },
+            {
+              "sourceId": "us-employment-nipa-methods",
+              "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "7215000",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "nipa-85",
+                "label": "Other services, except government",
+                "value": 7215000,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-bea-nipa-2025-09-26",
+                    "locator": "T60400D-A!AD93; thousands × 1000"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "bea-nipa-annual-employees-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-mining-2025",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-mining",
+        "nodeName": "采矿业",
+        "year": 2025,
+        "valueAddedAnchor": {
+          "baseValue": 384285000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 570806,
+          "year": 2025,
+          "denominatorKind": "jobs",
+          "periodBasis": "annual-average",
+          "status": "official",
+          "definition": "本行业12个月平均受保雇员岗位；全职、兼职各计一岗，不含自雇业主。",
+          "coverage": "QCEW美国50州及DC私营行业 own_code=5，NAICS 21；仅UI覆盖雇员，未含业主及其他非覆盖就业。",
+          "releaseDate": "2026-08-28",
+          "revision": "2026-09-14 下载当前在线年度档案；2025年官方年报称 complete and final，历史可因订正更新。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-qcew-2025",
+              "locator": "2025/a/area/US000.csv; row 2554; area_fips=US000; size_code=0; own_code=5; industry_code=21; annual_avg_emplvl=570806"
+            },
+            {
+              "sourceId": "us-employment-qcew-definition",
+              "locator": "Employment; Annual Average Employment; Coverage exclusions"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "570806",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "qcew-private-21",
+                "label": "采矿业 · 私营受保雇员岗位",
+                "value": 570806,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-qcew-2025",
+                    "locator": "2025/a/area/US000.csv; row 2554; area_fips=US000; size_code=0; own_code=5; industry_code=21; annual_avg_emplvl=570806"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "qcew-covered-annual-jobs-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-utilities-2025",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-utilities",
+        "nodeName": "公用事业",
+        "year": 2025,
+        "valueAddedAnchor": {
+          "baseValue": 471246000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 602080,
+          "year": 2025,
+          "denominatorKind": "jobs",
+          "periodBasis": "annual-average",
+          "status": "official",
+          "definition": "本行业12个月平均受保雇员岗位；全职、兼职各计一岗，不含自雇业主。",
+          "coverage": "QCEW美国50州及DC私营行业 own_code=5，NAICS 22；仅UI覆盖雇员，未含业主及其他非覆盖就业。",
+          "releaseDate": "2026-08-28",
+          "revision": "2026-09-14 下载当前在线年度档案；2025年官方年报称 complete and final，历史可因订正更新。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-qcew-2025",
+              "locator": "2025/a/area/US000.csv; row 2595; area_fips=US000; size_code=0; own_code=5; industry_code=22; annual_avg_emplvl=602080"
+            },
+            {
+              "sourceId": "us-employment-qcew-definition",
+              "locator": "Employment; Annual Average Employment; Coverage exclusions"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "602080",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "qcew-private-22",
+                "label": "公用事业 · 私营受保雇员岗位",
+                "value": 602080,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-qcew-2025",
+                    "locator": "2025/a/area/US000.csv; row 2595; area_fips=US000; size_code=0; own_code=5; industry_code=22; annual_avg_emplvl=602080"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "qcew-covered-annual-jobs-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-transport-2025",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-transport",
+        "nodeName": "运输和仓储业",
+        "year": 2025,
+        "valueAddedAnchor": {
+          "baseValue": 1023864000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 6618917,
+          "year": 2025,
+          "denominatorKind": "jobs",
+          "periodBasis": "annual-average",
+          "status": "official",
+          "definition": "本行业12个月平均受保雇员岗位；全职、兼职各计一岗，不含自雇业主。",
+          "coverage": "QCEW美国50州及DC私营行业 own_code=5，NAICS 48-49；仅UI覆盖雇员，未含业主及其他非覆盖就业。",
+          "releaseDate": "2026-08-28",
+          "revision": "2026-09-14 下载当前在线年度档案；2025年官方年报称 complete and final，历史可因订正更新。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-qcew-2025",
+              "locator": "2025/a/area/US000.csv; row 3642; area_fips=US000; size_code=0; own_code=5; industry_code=48-49; annual_avg_emplvl=6618917"
+            },
+            {
+              "sourceId": "us-employment-qcew-definition",
+              "locator": "Employment; Annual Average Employment; Coverage exclusions"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "6618917",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "qcew-private-48-49",
+                "label": "运输和仓储业 · 私营受保雇员岗位",
+                "value": 6618917,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-qcew-2025",
+                    "locator": "2025/a/area/US000.csv; row 3642; area_fips=US000; size_code=0; own_code=5; industry_code=48-49; annual_avg_emplvl=6618917"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "qcew-covered-annual-jobs-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-management-2025",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-management",
+        "nodeName": "公司和企业管理",
+        "year": 2025,
+        "valueAddedAnchor": {
+          "baseValue": 576771000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 2607739,
+          "year": 2025,
+          "denominatorKind": "jobs",
+          "periodBasis": "annual-average",
+          "status": "official",
+          "definition": "本行业12个月平均受保雇员岗位；全职、兼职各计一岗，不含自雇业主。",
+          "coverage": "QCEW美国50州及DC私营行业 own_code=5，NAICS 55；仅UI覆盖雇员，未含业主及其他非覆盖就业。",
+          "releaseDate": "2026-08-28",
+          "revision": "2026-09-14 下载当前在线年度档案；2025年官方年报称 complete and final，历史可因订正更新。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-qcew-2025",
+              "locator": "2025/a/area/US000.csv; row 4077; area_fips=US000; size_code=0; own_code=5; industry_code=55; annual_avg_emplvl=2607739"
+            },
+            {
+              "sourceId": "us-employment-qcew-definition",
+              "locator": "Employment; Annual Average Employment; Coverage exclusions"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "2607739",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "qcew-private-55",
+                "label": "公司和企业管理 · 私营受保雇员岗位",
+                "value": 2607739,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-qcew-2025",
+                    "locator": "2025/a/area/US000.csv; row 4077; area_fips=US000; size_code=0; own_code=5; industry_code=55; annual_avg_emplvl=2607739"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "qcew-covered-annual-jobs-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-administrative-2025",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-administrative",
+        "nodeName": "行政及废弃物管理服务业",
+        "year": 2025,
+        "valueAddedAnchor": {
+          "baseValue": 952426000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 9032175,
+          "year": 2025,
+          "denominatorKind": "jobs",
+          "periodBasis": "annual-average",
+          "status": "official",
+          "definition": "本行业12个月平均受保雇员岗位；全职、兼职各计一岗，不含自雇业主。",
+          "coverage": "QCEW美国50州及DC私营行业 own_code=5，NAICS 56；仅UI覆盖雇员，未含业主及其他非覆盖就业。",
+          "releaseDate": "2026-08-28",
+          "revision": "2026-09-14 下载当前在线年度档案；2025年官方年报称 complete and final，历史可因订正更新。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-qcew-2025",
+              "locator": "2025/a/area/US000.csv; row 4084; area_fips=US000; size_code=0; own_code=5; industry_code=56; annual_avg_emplvl=9032175"
+            },
+            {
+              "sourceId": "us-employment-qcew-definition",
+              "locator": "Employment; Annual Average Employment; Coverage exclusions"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "9032175",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "qcew-private-56",
+                "label": "行政及废弃物管理服务业 · 私营受保雇员岗位",
+                "value": 9032175,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-qcew-2025",
+                    "locator": "2025/a/area/US000.csv; row 4084; area_fips=US000; size_code=0; own_code=5; industry_code=56; annual_avg_emplvl=9032175"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "qcew-covered-annual-jobs-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-education-2025",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-education",
+        "nodeName": "教育服务业",
+        "year": 2025,
+        "valueAddedAnchor": {
+          "baseValue": 347194000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 3246686,
+          "year": 2025,
+          "denominatorKind": "jobs",
+          "periodBasis": "annual-average",
+          "status": "official",
+          "definition": "本行业12个月平均受保雇员岗位；全职、兼职各计一岗，不含自雇业主。",
+          "coverage": "QCEW美国50州及DC私营行业 own_code=5，NAICS 61；仅UI覆盖雇员，未含业主及其他非覆盖就业。",
+          "releaseDate": "2026-08-28",
+          "revision": "2026-09-14 下载当前在线年度档案；2025年官方年报称 complete and final，历史可因订正更新。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-qcew-2025",
+              "locator": "2025/a/area/US000.csv; row 4171; area_fips=US000; size_code=0; own_code=5; industry_code=61; annual_avg_emplvl=3246686"
+            },
+            {
+              "sourceId": "us-employment-qcew-definition",
+              "locator": "Employment; Annual Average Employment; Coverage exclusions"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "3246686",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "qcew-private-61",
+                "label": "教育服务业 · 私营受保雇员岗位",
+                "value": 3246686,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-qcew-2025",
+                    "locator": "2025/a/area/US000.csv; row 4171; area_fips=US000; size_code=0; own_code=5; industry_code=61; annual_avg_emplvl=3246686"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "qcew-covered-annual-jobs-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-arts-2025",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-arts",
+        "nodeName": "艺术、娱乐和休闲业",
+        "year": 2025,
+        "valueAddedAnchor": {
+          "baseValue": 355839000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 2667729,
+          "year": 2025,
+          "denominatorKind": "jobs",
+          "periodBasis": "annual-average",
+          "status": "official",
+          "definition": "本行业12个月平均受保雇员岗位；全职、兼职各计一岗，不含自雇业主。",
+          "coverage": "QCEW美国50州及DC私营行业 own_code=5，NAICS 71；仅UI覆盖雇员，未含业主及其他非覆盖就业。",
+          "releaseDate": "2026-08-28",
+          "revision": "2026-09-14 下载当前在线年度档案；2025年官方年报称 complete and final，历史可因订正更新。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-qcew-2025",
+              "locator": "2025/a/area/US000.csv; row 4301; area_fips=US000; size_code=0; own_code=5; industry_code=71; annual_avg_emplvl=2667729"
+            },
+            {
+              "sourceId": "us-employment-qcew-definition",
+              "locator": "Employment; Annual Average Employment; Coverage exclusions"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "2667729",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "qcew-private-71",
+                "label": "艺术、娱乐和休闲业 · 私营受保雇员岗位",
+                "value": 2667729,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-qcew-2025",
+                    "locator": "2025/a/area/US000.csv; row 4301; area_fips=US000; size_code=0; own_code=5; industry_code=71; annual_avg_emplvl=2667729"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "qcew-covered-annual-jobs-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-hospitality-2025",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-hospitality",
+        "nodeName": "住宿和餐饮业",
+        "year": 2025,
+        "valueAddedAnchor": {
+          "baseValue": 976493000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 14119799,
+          "year": 2025,
+          "denominatorKind": "jobs",
+          "periodBasis": "annual-average",
+          "status": "official",
+          "definition": "本行业12个月平均受保雇员岗位；全职、兼职各计一岗，不含自雇业主。",
+          "coverage": "QCEW美国50州及DC私营行业 own_code=5，NAICS 72；仅UI覆盖雇员，未含业主及其他非覆盖就业。",
+          "releaseDate": "2026-08-28",
+          "revision": "2026-09-14 下载当前在线年度档案；2025年官方年报称 complete and final，历史可因订正更新。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-qcew-2025",
+              "locator": "2025/a/area/US000.csv; row 4362; area_fips=US000; size_code=0; own_code=5; industry_code=72; annual_avg_emplvl=14119799"
+            },
+            {
+              "sourceId": "us-employment-qcew-definition",
+              "locator": "Employment; Annual Average Employment; Coverage exclusions"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "14119799",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "qcew-private-72",
+                "label": "住宿和餐饮业 · 私营受保雇员岗位",
+                "value": 14119799,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-qcew-2025",
+                    "locator": "2025/a/area/US000.csv; row 4362; area_fips=US000; size_code=0; own_code=5; industry_code=72; annual_avg_emplvl=14119799"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "qcew-covered-annual-jobs-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      },
+      {
+        "id": "us-major-employment-us-other-services-2025",
+        "country": "us",
+        "basis": "annual-industry",
+        "nodeId": "us-other-services",
+        "nodeName": "其他服务业（政府除外）",
+        "year": 2025,
+        "valueAddedAnchor": {
+          "baseValue": 649382000000,
+          "currency": "USD",
+          "coverage": "美国境内生产；BEA行业核算口径"
+        },
+        "employment": {
+          "value": 4675880,
+          "year": 2025,
+          "denominatorKind": "jobs",
+          "periodBasis": "annual-average",
+          "status": "official",
+          "definition": "本行业12个月平均受保雇员岗位；全职、兼职各计一岗，不含自雇业主。",
+          "coverage": "QCEW美国50州及DC私营行业 own_code=5，NAICS 81；仅UI覆盖雇员，未含业主及其他非覆盖就业。",
+          "releaseDate": "2026-08-28",
+          "revision": "2026-09-14 下载当前在线年度档案；2025年官方年报称 complete and final，历史可因订正更新。",
+          "evidence": [
+            {
+              "sourceId": "us-employment-qcew-2025",
+              "locator": "2025/a/area/US000.csv; row 4396; area_fips=US000; size_code=0; own_code=5; industry_code=81; annual_avg_emplvl=4675880"
+            },
+            {
+              "sourceId": "us-employment-qcew-definition",
+              "locator": "Employment; Annual Average Employment; Coverage exclusions"
+            }
+          ],
+          "calculation": {
+            "methodId": "us-major-official-input",
+            "label": "已归档的独立官方就业行",
+            "expression": "4675880",
+            "operation": "identity",
+            "inputs": [
+              {
+                "id": "qcew-private-81",
+                "label": "其他服务业（政府除外） · 私营受保雇员岗位",
+                "value": 4675880,
+                "unit": "jobs",
+                "evidence": [
+                  {
+                    "sourceId": "us-employment-qcew-2025",
+                    "locator": "2025/a/area/US000.csv; row 4396; area_fips=US000; size_code=0; own_code=5; industry_code=81; annual_avg_emplvl=4675880"
+                  }
+                ]
+              }
+            ],
+            "assumptions": []
+          }
+        },
+        "pairing": {
+          "status": "proxy",
+          "explanation": "同年本行业全部现价增加值 ÷ 所注明雇员岗位。未含业主，不是全口径自然人人均劳动生产率，也不代表员工个人贡献。",
+          "comparisonGroup": "qcew-covered-annual-jobs-private"
+        },
+        "references": [],
+        "notes": [
+          "从原“其余行业”计算中已逐项归档的官方输入独立展示；没有按增加值或汇总份额分配人数。",
+          "私营教育、医疗及其他私人行业不含政府所属机构；政府按所有权另列。"
+        ],
+        "gap": ""
+      }
+    ]
+  }
+}
