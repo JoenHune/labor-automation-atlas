@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-09-14T17:09:45.005978+00:00",
+  "version": "2026-09-15.preview-20",
+  "commit": "1c994eb28d2ba20f9503d1b9bf66af70952e30bf",
+  "workflowRun": 34872198395,
+  "files": [
+    {
+      "file": "employment-cn.json",
+      "httpStatus": 200,
+      "version": "2026-09-15.preview-20",
+      "sha256": "cdde90a224fd857dc78483ff5e3deb4d3512e6f3855fff991a657b6485da88f0",
+      "matchesLocal": true
+    },
+    {
+      "file": "employment-us.json",
+      "httpStatus": 200,
+      "version": "2026-09-15.preview-20",
+      "sha256": "f3c4be793dfc1b12a8bfa9e9e07f63aec1f9758d3eb738266943840e29780345",
+      "matchesLocal": true
+    },
+    {
+      "file": "employment-coverage.json",
+      "httpStatus": 200,
+      "version": "2026-09-15.preview-20",
+      "sha256": "a088f469b0cfd5fb18e379ee0605c26808a0c09c8457f0f912d326268e911402",
+      "matchesLocal": true
+    },
+    {
+      "file": "us-major-employment-inputs.json",
+      "httpStatus": 200,
+      "version": "2026-09-15.us-major-ranking-1",
+      "sha256": "f6ebc3a8b91a22a23980b67567416fc294aaf97779b1913afb18f37882b06c18",
+      "matchesLocal": true
+    }
+  ],
+  "passed": true,
+  "browserChecks": {
+    "country": "cn",
+    "leftYear": 2025,
+    "rightYear": 2023,
+    "employmentUniverse": 211,
+    "visibleRows": 10,
+    "columns": "side-by-side",
+    "annotationToolbarDefaultCount": 0,
+    "selectedText": "行业规模与全行业就业，分别排序",
+    "annotationToolbarAfterSelection": {
+      "x": 334,
+      "y": 103.8125,
+      "width": 284
+    },
+    "passed": true
+  }
+}
