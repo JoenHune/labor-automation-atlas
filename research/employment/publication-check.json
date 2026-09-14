@@ -1,0 +1,172 @@
+{
+  "checkedAt": "2026-09-14T15:30:44.829457+00:00",
+  "version": "2026-09-14.preview-19",
+  "commit": "f2321502ca54a5d5fb1d042fbe4895fe03f2e3d2",
+  "workflowRun": 34861828826,
+  "workflowUrl": "https://github.com/JoenHune/labor-automation-atlas/actions/runs/34861828826",
+  "passed": true,
+  "files": [
+    {
+      "name": "employment.json",
+      "url": "https://joen.site/labor-automation-atlas/exports/employment.json",
+      "status": 200,
+      "bytes": 15483213,
+      "sha256": "fc23668d1710b64a33c68ad623ff3661678a73e2ce2317b35287b5ffce3455e6",
+      "version": "2026-09-14.preview-19",
+      "records": 1258,
+      "matchesLocal": true
+    },
+    {
+      "name": "employment-cn.json",
+      "url": "https://joen.site/labor-automation-atlas/exports/employment-cn.json",
+      "status": 200,
+      "bytes": 11277558,
+      "sha256": "694ad4862488b494fea74a789f91cefa602f0e34f70998c24b77cae2234ae7e8",
+      "version": "2026-09-14.preview-19",
+      "records": 753,
+      "matchesLocal": true
+    },
+    {
+      "name": "employment-us.json",
+      "url": "https://joen.site/labor-automation-atlas/exports/employment-us.json",
+      "status": 200,
+      "bytes": 4205763,
+      "sha256": "a45c89cd8ade5bd5a2fae84d8a2602270601df3014090dc7ca71f73917409b2c",
+      "version": "2026-09-14.preview-19",
+      "records": 505,
+      "matchesLocal": true
+    },
+    {
+      "name": "employment-coverage.json",
+      "url": "https://joen.site/labor-automation-atlas/exports/employment-coverage.json",
+      "status": 200,
+      "bytes": 592073,
+      "sha256": "9b97368f9e74d29a8b087d33bace6af365913d58f67804ec4a6d468898bd64b7",
+      "version": "2026-09-14.preview-19",
+      "records": 1258,
+      "matchesLocal": true
+    },
+    {
+      "name": "employment-research.json",
+      "url": "https://joen.site/labor-automation-atlas/exports/employment-research.json",
+      "status": 200,
+      "bytes": 23681035,
+      "sha256": "a044e782276a515cd86e73176a8bcebd4070fa0898ae12e773815bd03c5c3e6a",
+      "version": "2026-09-14.preview-19",
+      "records": null,
+      "matchesLocal": true
+    }
+  ],
+  "workflowJobs": [
+    {
+      "name": "build",
+      "conclusion": "success",
+      "completedAt": "2026-09-14T15:28:55Z",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@v7.0.1",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-node@v7.0.0",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm ci",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run typecheck",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm test",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run npm run release:check",
+          "conclusion": "skipped"
+        },
+        {
+          "name": "Run npm run build",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run git diff --exit-code -- data/research.json data/site.json",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/configure-pages@v6.0.0",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/upload-pages-artifact@v5.0.0",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-node@v7.0.0",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@v7.0.1",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "name": "deploy",
+      "conclusion": "success",
+      "completedAt": "2026-09-14T15:29:48Z",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Deploy",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ],
+  "browserChecks": [
+    {
+      "page": "cn",
+      "year": 2023,
+      "basis": "cn-io2023",
+      "node": "cn-io-group-39",
+      "employmentDisplay": "1,274.9 万人",
+      "ratioDisplay": "223,135 元/人",
+      "modelBasisVisible": true
+    },
+    {
+      "page": "cn",
+      "year": 2023,
+      "check": "按就业规模排序后选择计算机整机，显示110.6万人、102647元/人；触发节点导出与方法页导航"
+    },
+    {
+      "page": "us",
+      "year": 2025,
+      "employmentDisplay": "15,573.24 万岗位",
+      "ratioDisplay": "197,532 美元/岗位",
+      "coverageVisible": "雇员岗位，不含业主",
+      "separateHousingAndGovernmentGroups": true
+    },
+    {
+      "page": "employment-methodology",
+      "coverageTableMatches": true
+    }
+  ]
+}

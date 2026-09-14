@@ -1,5 +1,5 @@
 # 人力与自动化图谱
-当前目标（2026-09-14）：为现有中美图谱每个扇区统计就业人数并估算人均增加值，完成调研计划与实际图谱接入。执行范围及验收见 research/employment/plan.md，盘点以运行时节点树为准。此前宏观补读已发布 preview-18；research/current-goal.md 保留更早年度补数目标与缺口，不代表本轮范围；最新用户要求优先。
+最近完成目标（2026-09-14）：为现有中美图谱每个扇区统计就业人数并估算人均增加值，已公开发布 preview-19 并核验，交付回执见 research/employment/verification.md。执行范围及验收见 research/employment/plan.md，盘点以运行时节点树为准。此前宏观补读已发布 preview-18；research/current-goal.md 保留更早年度补数目标与缺口，不代表本轮范围；最新用户要求优先。
 
 - 补读必须区分实际读页/读表、仅定位和未覆盖范围；下载、OCR、关键词命中不代表阅读全文。旧研究模块保留，当前修订通过同 ID amendments 显式整合。
 
