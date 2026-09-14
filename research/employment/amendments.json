@@ -1,0 +1,1441 @@
+{
+  "checkedAt": "2026-09-14",
+  "reason": "独立审校：住房资本服务单列；政府文职覆盖与军人产出单列；政府空值记录落实具体统计桥缺口。保留作者就业值、原值来源和估算输入。",
+  "inputHashes": {
+    "cn-industry": "8f0fbecfd49c0f2093eec48044d7b8bcb84a929162e795984bfc1e16ce8909f2",
+    "cn-products": "f6ec3fcd5ac577e54bc5bf9ea551ec5f39bc64a50a2518c83765370deedcade5",
+    "us": "ebb3e3d5bb3880c28994ef3f295b5e37b0dc6c8c035e286d70cb892ca9ffbe9e"
+  },
+  "records": [
+    {
+      "id": "cn-employment-cn-real-estate-2021",
+      "country": "cn",
+      "basis": "annual-industry",
+      "nodeId": "cn-real-estate",
+      "year": 2021,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 就业本身也是明确条件的估算。",
+        "comparisonGroup": "housing-capital-services-persons",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "目标年就业控制量：2021；固定行业结构：2020人口普查。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "cn-emp-pop2020-b0404",
+          "locator": "4-4，全国行，代码70 房地产业列及该产业国内行业各列合计"
+        },
+        {
+          "sourceId": "cn-emp-pop2020-note",
+          "locator": "二、普查表式；四、数据汇总口径及推算说明"
+        },
+        {
+          "sourceId": "cn-emp-national-annual-2025",
+          "locator": "年度就业表2021列，tertiary产业行"
+        }
+      ]
+    },
+    {
+      "id": "cn-employment-cn-real-estate-unallocated-2021",
+      "country": "cn",
+      "basis": "annual-industry",
+      "nodeId": "cn-real-estate-unallocated",
+      "year": 2021,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 就业本身也是明确条件的估算。",
+        "comparisonGroup": "housing-capital-services-persons",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "目标年就业控制量：2021；固定行业结构：2020人口普查。",
+        "动态未分列规模按父模型减已有金额子类同模型求差；不能与父子重复相加。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "cn-emp-pop2020-b0404",
+          "locator": "全国行，各国内行业分布；按当前父行业减已有金额子行业就业模型求差"
+        },
+        {
+          "sourceId": "cn-emp-national-annual-2025",
+          "locator": "2021年三产业官方就业控制总量"
+        }
+      ]
+    },
+    {
+      "id": "cn-employment-cn-real-estate-2022",
+      "country": "cn",
+      "basis": "annual-industry",
+      "nodeId": "cn-real-estate",
+      "year": 2022,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 就业本身也是明确条件的估算。",
+        "comparisonGroup": "housing-capital-services-persons",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "目标年就业控制量：2022；固定行业结构：2020人口普查。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "cn-emp-pop2020-b0404",
+          "locator": "4-4，全国行，代码70 房地产业列及该产业国内行业各列合计"
+        },
+        {
+          "sourceId": "cn-emp-pop2020-note",
+          "locator": "二、普查表式；四、数据汇总口径及推算说明"
+        },
+        {
+          "sourceId": "cn-emp-national-annual-2025",
+          "locator": "年度就业表2022列，tertiary产业行"
+        }
+      ]
+    },
+    {
+      "id": "cn-employment-cn-real-estate-unallocated-2022",
+      "country": "cn",
+      "basis": "annual-industry",
+      "nodeId": "cn-real-estate-unallocated",
+      "year": 2022,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 就业本身也是明确条件的估算。",
+        "comparisonGroup": "housing-capital-services-persons",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "目标年就业控制量：2022；固定行业结构：2020人口普查。",
+        "动态未分列规模按父模型减已有金额子类同模型求差；不能与父子重复相加。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "cn-emp-pop2020-b0404",
+          "locator": "全国行，各国内行业分布；按当前父行业减已有金额子行业就业模型求差"
+        },
+        {
+          "sourceId": "cn-emp-national-annual-2025",
+          "locator": "2022年三产业官方就业控制总量"
+        }
+      ]
+    },
+    {
+      "id": "cn-employment-cn-real-estate-2023",
+      "country": "cn",
+      "basis": "annual-industry",
+      "nodeId": "cn-real-estate",
+      "year": 2023,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 就业本身也是明确条件的估算。",
+        "comparisonGroup": "housing-capital-services-persons",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "目标年就业控制量：2023；固定行业结构：2020人口普查。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "cn-emp-pop2020-b0404",
+          "locator": "4-4，全国行，代码70 房地产业列及该产业国内行业各列合计"
+        },
+        {
+          "sourceId": "cn-emp-pop2020-note",
+          "locator": "二、普查表式；四、数据汇总口径及推算说明"
+        },
+        {
+          "sourceId": "cn-emp-national-annual-2025",
+          "locator": "年度就业表2023列，tertiary产业行"
+        }
+      ]
+    },
+    {
+      "id": "cn-employment-cn-real-estate-unallocated-2023",
+      "country": "cn",
+      "basis": "annual-industry",
+      "nodeId": "cn-real-estate-unallocated",
+      "year": 2023,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 就业本身也是明确条件的估算。",
+        "comparisonGroup": "housing-capital-services-persons",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "目标年就业控制量：2023；固定行业结构：2020人口普查。",
+        "动态未分列规模按父模型减已有金额子类同模型求差；不能与父子重复相加。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "cn-emp-pop2020-b0404",
+          "locator": "全国行，各国内行业分布；按当前父行业减已有金额子行业就业模型求差"
+        },
+        {
+          "sourceId": "cn-emp-national-annual-2025",
+          "locator": "2023年三产业官方就业控制总量"
+        }
+      ]
+    },
+    {
+      "id": "cn-employment-cn-real-estate-2024",
+      "country": "cn",
+      "basis": "annual-industry",
+      "nodeId": "cn-real-estate",
+      "year": 2024,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 就业本身也是明确条件的估算。",
+        "comparisonGroup": "housing-capital-services-persons",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "目标年就业控制量：2024；固定行业结构：2020人口普查。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "cn-emp-pop2020-b0404",
+          "locator": "4-4，全国行，代码70 房地产业列及该产业国内行业各列合计"
+        },
+        {
+          "sourceId": "cn-emp-pop2020-note",
+          "locator": "二、普查表式；四、数据汇总口径及推算说明"
+        },
+        {
+          "sourceId": "cn-emp-national-annual-2025",
+          "locator": "年度就业表2024列，tertiary产业行"
+        }
+      ]
+    },
+    {
+      "id": "cn-employment-cn-real-estate-unallocated-2024",
+      "country": "cn",
+      "basis": "annual-industry",
+      "nodeId": "cn-real-estate-unallocated",
+      "year": 2024,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 就业本身也是明确条件的估算。",
+        "comparisonGroup": "housing-capital-services-persons",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "目标年就业控制量：2024；固定行业结构：2020人口普查。",
+        "动态未分列规模按父模型减已有金额子类同模型求差；不能与父子重复相加。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "cn-emp-pop2020-b0404",
+          "locator": "全国行，各国内行业分布；按当前父行业减已有金额子行业就业模型求差"
+        },
+        {
+          "sourceId": "cn-emp-national-annual-2025",
+          "locator": "2024年三产业官方就业控制总量"
+        }
+      ]
+    },
+    {
+      "id": "cn-employment-cn-real-estate-2025",
+      "country": "cn",
+      "basis": "annual-industry",
+      "nodeId": "cn-real-estate",
+      "year": 2025,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 就业本身也是明确条件的估算。",
+        "comparisonGroup": "housing-capital-services-persons",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "目标年就业控制量：2025；固定行业结构：2020人口普查。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "cn-emp-pop2020-b0404",
+          "locator": "4-4，全国行，代码70 房地产业列及该产业国内行业各列合计"
+        },
+        {
+          "sourceId": "cn-emp-pop2020-note",
+          "locator": "二、普查表式；四、数据汇总口径及推算说明"
+        },
+        {
+          "sourceId": "cn-emp-national-annual-2025",
+          "locator": "年度就业表2025列，tertiary产业行"
+        }
+      ]
+    },
+    {
+      "id": "cn-employment-cn-real-estate-unallocated-2025",
+      "country": "cn",
+      "basis": "annual-industry",
+      "nodeId": "cn-real-estate-unallocated",
+      "year": 2025,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 就业本身也是明确条件的估算。",
+        "comparisonGroup": "housing-capital-services-persons",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "目标年就业控制量：2025；固定行业结构：2020人口普查。",
+        "动态未分列规模按父模型减已有金额子类同模型求差；不能与父子重复相加。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "cn-emp-pop2020-b0404",
+          "locator": "全国行，各国内行业分布；按当前父行业减已有金额子行业就业模型求差"
+        },
+        {
+          "sourceId": "cn-emp-national-annual-2025",
+          "locator": "2025年三产业官方就业控制总量"
+        }
+      ]
+    },
+    {
+      "id": "cn-emp-product-cn-io-real-estate-2023",
+      "country": "cn",
+      "basis": "cn-io2023",
+      "nodeId": "cn-io-real-estate",
+      "year": 2023,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 就业本身也是明确条件的估算。",
+        "comparisonGroup": "housing-capital-services-persons",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "产品部门与行业单位不是同一个统计对象；假设关联大类的就业可归属到本组产品，尚无副产品劳动流量桥矩阵验证。",
+        "在每一大类产品池内，基准情景假设各产品每人劳动者报酬相同，以2023劳动者报酬份额分配人数；没有按增加值份额分人。",
+        "主模型用2020人口普查长表的行业就业样本结构，校准到2023全社会三次产业年末就业控制量；固定2020年结构是假设，没有把样本人数直接乘10。",
+        "分母为2023年末人数估算，行业结构输入来自2020人口普查长表；不是2023就业结构直接观测，也不是全年平均人数、全时当量或工时。",
+        "劳动者报酬包含非工资福利，自雇混合收入还需划分；用它分人是可调整假设。",
+        "产品归并不含国际组织97；主行业模型按01—96的国内活动结构重新归一化，97未识别部分不能声称已逐产品调查。",
+        "2023就业估算；结构输入2020年、产品报酬2023年。不得无年份标签用于2024—2026。",
+        "方法情景范围：2020住户结构与2023普查结构分别校准，叠加产品相对报酬0.5—2倍假设；不是统计置信区间。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "cn-emp-pop2020-b0404",
+          "locator": "4-4，全国行，代码70 房地产业列及该产业国内行业各列合计"
+        },
+        {
+          "sourceId": "cn-emp-pop2020-note",
+          "locator": "二、普查表式；四、数据汇总口径及推算说明"
+        },
+        {
+          "sourceId": "cn-emp-national-annual-2025",
+          "locator": "年度就业表2023列，tertiary产业行"
+        },
+        {
+          "sourceId": "macro-cn-io2023-211",
+          "locator": "VA001劳动者报酬和TVA增加值行；产品列 70183"
+        },
+        {
+          "sourceId": "emp-cn-products-model-inputs",
+          "locator": "pools 中 emp-cn-products-pool-70-2023"
+        }
+      ]
+    },
+    {
+      "id": "cn-emp-product-cn-io-70183-2023",
+      "country": "cn",
+      "basis": "cn-io2023",
+      "nodeId": "cn-io-70183",
+      "year": 2023,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 就业本身也是明确条件的估算。",
+        "comparisonGroup": "housing-capital-services-persons",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "产品部门与行业单位不是同一个统计对象；假设关联大类的就业可归属到本组产品，尚无副产品劳动流量桥矩阵验证。",
+        "在每一大类产品池内，基准情景假设各产品每人劳动者报酬相同，以2023劳动者报酬份额分配人数；没有按增加值份额分人。",
+        "主模型用2020人口普查长表的行业就业样本结构，校准到2023全社会三次产业年末就业控制量；固定2020年结构是假设，没有把样本人数直接乘10。",
+        "分母为2023年末人数估算，行业结构输入来自2020人口普查长表；不是2023就业结构直接观测，也不是全年平均人数、全时当量或工时。",
+        "劳动者报酬包含非工资福利，自雇混合收入还需划分；用它分人是可调整假设。",
+        "产品归并不含国际组织97；主行业模型按01—96的国内活动结构重新归一化，97未识别部分不能声称已逐产品调查。",
+        "2023就业估算；结构输入2020年、产品报酬2023年。不得无年份标签用于2024—2026。",
+        "方法情景范围：2020住户结构与2023普查结构分别校准，叠加产品相对报酬0.5—2倍假设；不是统计置信区间。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "cn-emp-pop2020-b0404",
+          "locator": "4-4，全国行，代码70 房地产业列及该产业国内行业各列合计"
+        },
+        {
+          "sourceId": "cn-emp-pop2020-note",
+          "locator": "二、普查表式；四、数据汇总口径及推算说明"
+        },
+        {
+          "sourceId": "cn-emp-national-annual-2025",
+          "locator": "年度就业表2023列，tertiary产业行"
+        },
+        {
+          "sourceId": "macro-cn-io2023-211",
+          "locator": "VA001劳动者报酬和TVA增加值行；产品列 70183"
+        },
+        {
+          "sourceId": "emp-cn-products-model-inputs",
+          "locator": "pools 中 emp-cn-products-pool-70-2023"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-real-estate-2021",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-real-estate",
+      "year": 2021,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 分母仅为所注明范围的雇员岗位。",
+        "comparisonGroup": "housing-capital-services-jobs",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "房地产增加值含自有住房估算租金；比率同时反映住房资产服务，不能归因为房地产雇员劳动效率。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AA70; line 62 Real estate and rental and leasing; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-real-estate-bea-61-2021",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-real-estate-bea-61",
+      "year": 2021,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 分母仅为所注明范围的雇员岗位。",
+        "comparisonGroup": "housing-capital-services-jobs",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "房地产增加值含自有住房估算租金；比率同时反映住房资产服务，不能归因为房地产雇员劳动效率。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AA71; line 63 Real estate; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-real-estate-2022",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-real-estate",
+      "year": 2022,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 分母仅为所注明范围的雇员岗位。",
+        "comparisonGroup": "housing-capital-services-jobs",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "房地产增加值含自有住房估算租金；比率同时反映住房资产服务，不能归因为房地产雇员劳动效率。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AB70; line 62 Real estate and rental and leasing; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-real-estate-bea-61-2022",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-real-estate-bea-61",
+      "year": 2022,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 分母仅为所注明范围的雇员岗位。",
+        "comparisonGroup": "housing-capital-services-jobs",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "房地产增加值含自有住房估算租金；比率同时反映住房资产服务，不能归因为房地产雇员劳动效率。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AB71; line 63 Real estate; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-real-estate-2023",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-real-estate",
+      "year": 2023,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 分母仅为所注明范围的雇员岗位。",
+        "comparisonGroup": "housing-capital-services-jobs",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "房地产增加值含自有住房估算租金；比率同时反映住房资产服务，不能归因为房地产雇员劳动效率。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AC70; line 62 Real estate and rental and leasing; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-real-estate-bea-61-2023",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-real-estate-bea-61",
+      "year": 2023,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 分母仅为所注明范围的雇员岗位。",
+        "comparisonGroup": "housing-capital-services-jobs",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "房地产增加值含自有住房估算租金；比率同时反映住房资产服务，不能归因为房地产雇员劳动效率。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AC71; line 63 Real estate; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-real-estate-2024",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-real-estate",
+      "year": 2024,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 分母仅为所注明范围的雇员岗位。",
+        "comparisonGroup": "housing-capital-services-jobs",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "房地产增加值含自有住房估算租金；比率同时反映住房资产服务，不能归因为房地产雇员劳动效率。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AD70; line 62 Real estate and rental and leasing; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-real-estate-bea-61-2024",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-real-estate-bea-61",
+      "year": 2024,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 分母仅为所注明范围的雇员岗位。",
+        "comparisonGroup": "housing-capital-services-jobs",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "房地产增加值含自有住房估算租金；比率同时反映住房资产服务，不能归因为房地产雇员劳动效率。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AD71; line 63 Real estate; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-real-estate-bea-62-2024",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-real-estate-bea-62",
+      "year": 2024,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 就业本身也是明确条件的估算。",
+        "comparisonGroup": "housing-capital-services-jobs",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "住房服务与其他房地产按核算活动拆分，531 岗位不能完整分配；自有住房虚拟服务没有可直接配对的雇员分母。",
+        "缺官方同分类就业，已用2017年房地产薪酬结构给出可复算估算。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AD71; line 63 Real estate; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        },
+        {
+          "sourceId": "us-employment-bea-io2017",
+          "locator": "Use_SUT_Detail.xlsx '2017'!LL410; row V00100 Compensation of employees; industry codes 531HST; million USD"
+        },
+        {
+          "sourceId": "us-employment-bea-io2017",
+          "locator": "Use_SUT_Detail.xlsx '2017'!LL410, LM410; row V00100 Compensation of employees; industry codes 531HST,531ORE; million USD"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-real-estate-uva-131-2024",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-real-estate-uva-131",
+      "year": 2024,
+      "pairing": {
+        "status": "not-applicable",
+        "explanation": "住房服务与其他房地产按核算活动拆分，531 岗位不能完整分配；自有住房虚拟服务没有可直接配对的雇员分母。",
+        "comparisonGroup": null
+      },
+      "notes": [
+        "住房服务与其他房地产按核算活动拆分，531 岗位不能完整分配；自有住房虚拟服务没有可直接配对的雇员分母。"
+      ],
+      "gap": "住房服务与其他房地产按核算活动拆分，531 岗位不能完整分配；自有住房虚拟服务没有可直接配对的雇员分母。",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-bea-productivity-housing-scope",
+          "locator": "房地产增加值中的 owner-occupied housing；研究判断：自有住房虚拟服务没有与其核算增加值可直接配对的雇员。"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-government-uva-187-2024",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-government-uva-187",
+      "year": 2024,
+      "pairing": {
+        "status": "incompatible",
+        "explanation": "已核 BEA NIPA 6.4D 州地方一般政府/教育分项，以及 Census 政府功能就业表。NIPA 非教育还包含医院卫生，不能直接作为其他服务；Census 医院卫生为3月份岗位，与 NIPA 年度人数覆盖和时点不同，不能直接相减。",
+        "comparisonGroup": null
+      },
+      "notes": [
+        "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。",
+        "后续需取得政府机构—BEA活动的完整就业桥；机构时点数不能直接替代年度活动人数。"
+      ],
+      "gap": "已核 BEA NIPA 6.4D 州地方一般政府/教育分项，以及 Census 政府功能就业表。NIPA 非教育还包含医院卫生，不能直接作为其他服务；Census 医院卫生为3月份岗位，与 NIPA 年度人数覆盖和时点不同，不能直接相减。",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A，联邦 General government / Civilian / Military 与州地方 General government / Education / Other 行；2024年列。研究判断：这些发布分类没有提供当前节点所需的完整活动就业桥。"
+        },
+        {
+          "sourceId": "us-employment-census-apes-2025",
+          "locator": "GS00EMP01；全国，州地方，功能 Health / Hospitals；EMP 为3月岗位，不是同年 NIPA 年度非教育就业的同口径可扣减项。"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-government-bea-92-2024",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-government-bea-92",
+      "year": 2024,
+      "pairing": {
+        "status": "incompatible",
+        "explanation": "已核 BEA NIPA 6.4D 的一般政府、文职与军人行。国防活动也有文职人员，不能用 Military 一行充作国防全部岗位；QCEW 所有权表没有国防/非国防的完整活动桥，当前仍缺同年完整分母。",
+        "comparisonGroup": null
+      },
+      "notes": [
+        "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。",
+        "后续需取得政府机构—BEA活动的完整就业桥；机构时点数不能直接替代年度活动人数。"
+      ],
+      "gap": "已核 BEA NIPA 6.4D 的一般政府、文职与军人行。国防活动也有文职人员，不能用 Military 一行充作国防全部岗位；QCEW 所有权表没有国防/非国防的完整活动桥，当前仍缺同年完整分母。",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A，联邦 General government / Civilian / Military 与州地方 General government / Education / Other 行；2024年列。研究判断：这些发布分类没有提供当前节点所需的完整活动就业桥。"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-government-bea-93-2024",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-government-bea-93",
+      "year": 2024,
+      "pairing": {
+        "status": "incompatible",
+        "explanation": "已核 BEA NIPA 6.4D 与 QCEW 联邦所有权表。Civilian 一行同时含国防和非国防文职，不能全部归给非国防；需要先分离国防文职及机构活动、再核对 BEA 年度覆盖，当前不能可靠相减。",
+        "comparisonGroup": null
+      },
+      "notes": [
+        "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。",
+        "后续需取得政府机构—BEA活动的完整就业桥；机构时点数不能直接替代年度活动人数。"
+      ],
+      "gap": "已核 BEA NIPA 6.4D 与 QCEW 联邦所有权表。Civilian 一行同时含国防和非国防文职，不能全部归给非国防；需要先分离国防文职及机构活动、再核对 BEA 年度覆盖，当前不能可靠相减。",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A，联邦 General government / Civilian / Military 与州地方 General government / Education / Other 行；2024年列。研究判断：这些发布分类没有提供当前节点所需的完整活动就业桥。"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-wholesale-uva-83-2024",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-wholesale-uva-83",
+      "year": 2024,
+      "pairing": {
+        "status": "not-applicable",
+        "explanation": "关税是核算调整项，不是有独立就业的经营行业；就业和人均增加值不适用，不能填0后相除。",
+        "comparisonGroup": null
+      },
+      "notes": [
+        "关税是核算调整项，不是有独立就业的经营行业；就业和人均增加值不适用，不能填0后相除。"
+      ],
+      "gap": "关税是核算调整项，不是有独立就业的经营行业；就业和人均增加值不适用，不能填0后相除。",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-bea-tariffs-faq-2025-03-04",
+          "locator": "关税在国家经济核算中的归属；研究判断：税收核算调整本身不是独立雇佣劳动的行业。"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-real-estate-2025",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-real-estate",
+      "year": 2025,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 分母仅为所注明范围的雇员岗位。",
+        "comparisonGroup": "housing-capital-services-jobs",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "房地产增加值含自有住房估算租金；比率同时反映住房资产服务，不能归因为房地产雇员劳动效率。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-qcew-2025",
+          "locator": "2025/a/area/US000.csv; area_fips=US000; size_code=0; row 3931, own_code=5, industry_code=53, annual_avg_emplvl=2411118"
+        },
+        {
+          "sourceId": "us-employment-qcew-definition",
+          "locator": "Employment; Annual Average Employment; Coverage exclusions"
+        },
+        {
+          "sourceId": "us-employment-census-concordance",
+          "locator": "2022 to 2017 NAICS U.S.; all mapped six-digit rows. Selected set checked against every origin industry; mapping.json stores complete lists."
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-real-estate-bea-61-2025",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-real-estate-bea-61",
+      "year": 2025,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 分母仅为所注明范围的雇员岗位。",
+        "comparisonGroup": "housing-capital-services-jobs",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "房地产增加值含自有住房估算租金；比率同时反映住房资产服务，不能归因为房地产雇员劳动效率。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-qcew-2025",
+          "locator": "2025/a/area/US000.csv; area_fips=US000; size_code=0; row 3932, own_code=5, industry_code=531, annual_avg_emplvl=1818150"
+        },
+        {
+          "sourceId": "us-employment-qcew-definition",
+          "locator": "Employment; Annual Average Employment; Coverage exclusions"
+        },
+        {
+          "sourceId": "us-employment-census-concordance",
+          "locator": "2022 to 2017 NAICS U.S.; all mapped six-digit rows. Selected set checked against every origin industry; mapping.json stores complete lists."
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-real-estate-bea-62-2025",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-real-estate-bea-62",
+      "year": 2025,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 就业本身也是明确条件的估算。",
+        "comparisonGroup": "housing-capital-services-jobs",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "住房服务与其他房地产按核算活动拆分，531 岗位不能完整分配；自有住房虚拟服务没有可直接配对的雇员分母。",
+        "缺官方同分类就业，已用2017年房地产薪酬结构给出可复算估算。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-qcew-2025",
+          "locator": "2025/a/area/US000.csv; area_fips=US000; size_code=0; row 3932, own_code=5, industry_code=531, annual_avg_emplvl=1818150"
+        },
+        {
+          "sourceId": "us-employment-qcew-definition",
+          "locator": "Employment; Annual Average Employment; Coverage exclusions"
+        },
+        {
+          "sourceId": "us-employment-census-concordance",
+          "locator": "2022 to 2017 NAICS U.S.; all mapped six-digit rows. Selected set checked against every origin industry; mapping.json stores complete lists."
+        },
+        {
+          "sourceId": "us-employment-bea-io2017",
+          "locator": "Use_SUT_Detail.xlsx '2017'!LL410; row V00100 Compensation of employees; industry codes 531HST; million USD"
+        },
+        {
+          "sourceId": "us-employment-bea-io2017",
+          "locator": "Use_SUT_Detail.xlsx '2017'!LL410, LM410; row V00100 Compensation of employees; industry codes 531HST,531ORE; million USD"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-real-estate-uva-131-2025",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-real-estate-uva-131",
+      "year": 2025,
+      "pairing": {
+        "status": "not-applicable",
+        "explanation": "住房服务与其他房地产按核算活动拆分，531 岗位不能完整分配；自有住房虚拟服务没有可直接配对的雇员分母。；所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+        "comparisonGroup": null
+      },
+      "notes": [
+        "住房服务与其他房地产按核算活动拆分，531 岗位不能完整分配；自有住房虚拟服务没有可直接配对的雇员分母。",
+        "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+      ],
+      "gap": "住房服务与其他房地产按核算活动拆分，531 岗位不能完整分配；自有住房虚拟服务没有可直接配对的雇员分母。；所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-bea-productivity-housing-scope",
+          "locator": "房地产增加值中的 owner-occupied housing；研究判断：自有住房虚拟服务没有与其核算增加值可直接配对的雇员。"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-government-2025",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-government",
+      "year": 2025,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "分子为本行业同年全部现价增加值；分母为雇员岗位，未含业主，不是全口径自然人人均劳动生产率。QCEW仅覆盖文职岗位，缺军人及其他BEA覆盖调整，政府比率仅为受保雇员代理。",
+        "comparisonGroup": "qcew-federal-containing-civilian-denominator",
+        "scopeNote": "含军人产出 · 分母仅文职岗位"
+      },
+      "notes": [
+        "政府 QCEW 分母仅覆盖文职雇员，缺军人及其他 BEA 覆盖调整；不要解释为全体政府从业人员效率。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。"
+      ],
+      "gap": "政府 QCEW 分母仅覆盖文职雇员，缺军人及其他 BEA 覆盖调整；不要解释为全体政府从业人员效率。",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-qcew-2025",
+          "locator": "2025/a/area/US000.csv; area_fips=US000; size_code=0; row 3, own_code=1, industry_code=10, annual_avg_emplvl=2913515; row 588, own_code=2, industry_code=10, annual_avg_emplvl=4894763; row 1255, own_code=3, industry_code=10, annual_avg_emplvl=14763811"
+        },
+        {
+          "sourceId": "us-employment-qcew-definition",
+          "locator": "Employment; Annual Average Employment; Coverage exclusions"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-government-bea-95-2025",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-government-bea-95",
+      "year": 2025,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "分子为本行业同年全部现价增加值；分母为雇员岗位，未含业主，不是全口径自然人人均劳动生产率。QCEW只覆盖受保文职雇员岗位，与BEA覆盖调整仍有差异，比率为受保雇员代理。",
+        "comparisonGroup": "qcew-covered-annual-jobs-government"
+      },
+      "notes": [
+        "政府 QCEW 分母仅覆盖文职雇员，缺军人及其他 BEA 覆盖调整；不要解释为全体政府从业人员效率。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。"
+      ],
+      "gap": "政府 QCEW 分母仅覆盖文职雇员，缺军人及其他 BEA 覆盖调整；不要解释为全体政府从业人员效率。",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-qcew-2025",
+          "locator": "2025/a/area/US000.csv; area_fips=US000; size_code=0; row 588, own_code=2, industry_code=10, annual_avg_emplvl=4894763; row 1255, own_code=3, industry_code=10, annual_avg_emplvl=14763811"
+        },
+        {
+          "sourceId": "us-employment-qcew-definition",
+          "locator": "Employment; Annual Average Employment; Coverage exclusions"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-government-bea-96-2025",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-government-bea-96",
+      "year": 2025,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "分子为本行业同年全部现价增加值；分母为雇员岗位，未含业主，不是全口径自然人人均劳动生产率。QCEW只覆盖受保文职雇员岗位，与BEA覆盖调整仍有差异，比率为受保雇员代理。就业按明确基期份额建模；详细假设与情景范围见算式。",
+        "comparisonGroup": "qcew-covered-annual-jobs-government-us-government2024-civilian-share"
+      },
+      "notes": [
+        "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。",
+        "缺官方同分类就业，已用2024年政府文职就业结构给出可复算估算。",
+        "2025政府分母为QCEW覆盖文职岗位的估算分拆；军人未补，国防/非国防仍需文职明细来源。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。"
+      ],
+      "gap": "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。；缺官方同分类就业，已用2024年政府文职就业结构给出可复算估算。；2025政府分母为QCEW覆盖文职岗位的估算分拆；军人未补，国防/非国防仍需文职明细来源。",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-qcew-2025",
+          "locator": "2025/a/area/US000.csv; area_fips=US000; size_code=0; row 588, own_code=2, industry_code=10, annual_avg_emplvl=4894763; row 1255, own_code=3, industry_code=10, annual_avg_emplvl=14763811"
+        },
+        {
+          "sourceId": "us-employment-qcew-definition",
+          "locator": "Employment; Annual Average Employment; Coverage exclusions"
+        },
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AD101; line 93 General government; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        },
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AD101; line 93 General government; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        },
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AD104; line 96 Government enterprises; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-government-uva-185-2025",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-government-uva-185",
+      "year": 2025,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "分子为本行业同年全部现价增加值；分母为雇员岗位，未含业主，不是全口径自然人人均劳动生产率。QCEW只覆盖受保文职雇员岗位，与BEA覆盖调整仍有差异，比率为受保雇员代理。",
+        "comparisonGroup": "qcew-covered-annual-jobs-government"
+      },
+      "notes": [
+        "政府 QCEW 分母仅覆盖文职雇员，缺军人及其他 BEA 覆盖调整；不要解释为全体政府从业人员效率。",
+        "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。"
+      ],
+      "gap": "政府 QCEW 分母仅覆盖文职雇员，缺军人及其他 BEA 覆盖调整；不要解释为全体政府从业人员效率。；所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-qcew-2025",
+          "locator": "2025/a/area/US000.csv; area_fips=US000; size_code=0; row 964, own_code=2, industry_code=61, annual_avg_emplvl=2068272; row 2056, own_code=3, industry_code=61, annual_avg_emplvl=7998529"
+        },
+        {
+          "sourceId": "us-employment-qcew-definition",
+          "locator": "Employment; Annual Average Employment; Coverage exclusions"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-government-uva-187-2025",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-government-uva-187",
+      "year": 2025,
+      "pairing": {
+        "status": "incompatible",
+        "explanation": "已核 BEA NIPA 6.4D 州地方一般政府/教育分项，以及 Census 政府功能就业表。NIPA 非教育还包含医院卫生，不能直接作为其他服务；Census 医院卫生为3月份岗位，与 NIPA 年度人数覆盖和时点不同，不能直接相减。",
+        "comparisonGroup": null
+      },
+      "notes": [
+        "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。",
+        "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+        "后续需取得政府机构—BEA活动的完整就业桥；机构时点数不能直接替代年度活动人数。"
+      ],
+      "gap": "已核 BEA NIPA 6.4D 州地方一般政府/教育分项，以及 Census 政府功能就业表。NIPA 非教育还包含医院卫生，不能直接作为其他服务；Census 医院卫生为3月份岗位，与 NIPA 年度人数覆盖和时点不同，不能直接相减。",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A，联邦 General government / Civilian / Military 与州地方 General government / Education / Other 行；2024年列。研究判断：这些发布分类没有提供当前节点所需的完整活动就业桥。"
+        },
+        {
+          "sourceId": "us-employment-census-apes-2025",
+          "locator": "GS00EMP01；全国，州地方，功能 Health / Hospitals；EMP 为3月岗位，不是同年 NIPA 年度非教育就业的同口径可扣减项。"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-government-bea-97-2025",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-government-bea-97",
+      "year": 2025,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "分子为本行业同年全部现价增加值；分母为雇员岗位，未含业主，不是全口径自然人人均劳动生产率。QCEW只覆盖受保文职雇员岗位，与BEA覆盖调整仍有差异，比率为受保雇员代理。就业按明确基期份额建模；详细假设与情景范围见算式。",
+        "comparisonGroup": "qcew-covered-annual-jobs-government-us-government2024-civilian-share"
+      },
+      "notes": [
+        "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。",
+        "缺官方同分类就业，已用2024年政府文职就业结构给出可复算估算。",
+        "2025政府分母为QCEW覆盖文职岗位的估算分拆；军人未补，国防/非国防仍需文职明细来源。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。"
+      ],
+      "gap": "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。；缺官方同分类就业，已用2024年政府文职就业结构给出可复算估算。；2025政府分母为QCEW覆盖文职岗位的估算分拆；军人未补，国防/非国防仍需文职明细来源。",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-qcew-2025",
+          "locator": "2025/a/area/US000.csv; area_fips=US000; size_code=0; row 588, own_code=2, industry_code=10, annual_avg_emplvl=4894763; row 1255, own_code=3, industry_code=10, annual_avg_emplvl=14763811"
+        },
+        {
+          "sourceId": "us-employment-qcew-definition",
+          "locator": "Employment; Annual Average Employment; Coverage exclusions"
+        },
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AD104; line 96 Government enterprises; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        },
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AD101; line 93 General government; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        },
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AD104; line 96 Government enterprises; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-government-bea-90-2025",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-government-bea-90",
+      "year": 2025,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "分子为本行业同年全部现价增加值；分母为雇员岗位，未含业主，不是全口径自然人人均劳动生产率。QCEW仅覆盖文职岗位，缺军人及其他BEA覆盖调整，政府比率仅为受保雇员代理。",
+        "comparisonGroup": "qcew-federal-containing-civilian-denominator",
+        "scopeNote": "含军人产出 · 分母仅文职岗位"
+      },
+      "notes": [
+        "政府 QCEW 分母仅覆盖文职雇员，缺军人及其他 BEA 覆盖调整；不要解释为全体政府从业人员效率。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。"
+      ],
+      "gap": "政府 QCEW 分母仅覆盖文职雇员，缺军人及其他 BEA 覆盖调整；不要解释为全体政府从业人员效率。",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-qcew-2025",
+          "locator": "2025/a/area/US000.csv; area_fips=US000; size_code=0; row 3, own_code=1, industry_code=10, annual_avg_emplvl=2913515"
+        },
+        {
+          "sourceId": "us-employment-qcew-definition",
+          "locator": "Employment; Annual Average Employment; Coverage exclusions"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-government-bea-91-2025",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-government-bea-91",
+      "year": 2025,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "分子为本行业同年全部现价增加值；分母为雇员岗位，未含业主，不是全口径自然人人均劳动生产率。QCEW仅覆盖文职岗位，缺军人及其他BEA覆盖调整，政府比率仅为受保雇员代理。就业按明确基期份额建模；详细假设与情景范围见算式。",
+        "comparisonGroup": "qcew-federal-containing-civilian-denominator",
+        "scopeNote": "含军人产出 · 分母仅文职岗位"
+      },
+      "notes": [
+        "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。",
+        "缺官方同分类就业，已用2024年政府文职就业结构给出可复算估算。",
+        "2025政府分母为QCEW覆盖文职岗位的估算分拆；军人未补，国防/非国防仍需文职明细来源。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。"
+      ],
+      "gap": "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。；缺官方同分类就业，已用2024年政府文职就业结构给出可复算估算。；2025政府分母为QCEW覆盖文职岗位的估算分拆；军人未补，国防/非国防仍需文职明细来源。",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-qcew-2025",
+          "locator": "2025/a/area/US000.csv; area_fips=US000; size_code=0; row 3, own_code=1, industry_code=10, annual_avg_emplvl=2913515"
+        },
+        {
+          "sourceId": "us-employment-qcew-definition",
+          "locator": "Employment; Annual Average Employment; Coverage exclusions"
+        },
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AD97; line 89 Civilian; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        },
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AD97; line 89 Civilian; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        },
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AD99; line 91 Government enterprises; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-government-bea-92-2025",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-government-bea-92",
+      "year": 2025,
+      "pairing": {
+        "status": "incompatible",
+        "explanation": "已核 BEA NIPA 6.4D 的一般政府、文职与军人行。国防活动也有文职人员，不能用 Military 一行充作国防全部岗位；QCEW 所有权表没有国防/非国防的完整活动桥，当前仍缺同年完整分母。",
+        "comparisonGroup": null
+      },
+      "notes": [
+        "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。",
+        "后续需取得政府机构—BEA活动的完整就业桥；机构时点数不能直接替代年度活动人数。"
+      ],
+      "gap": "已核 BEA NIPA 6.4D 的一般政府、文职与军人行。国防活动也有文职人员，不能用 Military 一行充作国防全部岗位；QCEW 所有权表没有国防/非国防的完整活动桥，当前仍缺同年完整分母。",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A，联邦 General government / Civilian / Military 与州地方 General government / Education / Other 行；2024年列。研究判断：这些发布分类没有提供当前节点所需的完整活动就业桥。"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-government-bea-93-2025",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-government-bea-93",
+      "year": 2025,
+      "pairing": {
+        "status": "incompatible",
+        "explanation": "已核 BEA NIPA 6.4D 与 QCEW 联邦所有权表。Civilian 一行同时含国防和非国防文职，不能全部归给非国防；需要先分离国防文职及机构活动、再核对 BEA 年度覆盖，当前不能可靠相减。",
+        "comparisonGroup": null
+      },
+      "notes": [
+        "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。",
+        "后续需取得政府机构—BEA活动的完整就业桥；机构时点数不能直接替代年度活动人数。"
+      ],
+      "gap": "已核 BEA NIPA 6.4D 与 QCEW 联邦所有权表。Civilian 一行同时含国防和非国防文职，不能全部归给非国防；需要先分离国防文职及机构活动、再核对 BEA 年度覆盖，当前不能可靠相减。",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A，联邦 General government / Civilian / Military 与州地方 General government / Education / Other 行；2024年列。研究判断：这些发布分类没有提供当前节点所需的完整活动就业桥。"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-government-bea-94-2025",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-government-bea-94",
+      "year": 2025,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "分子为本行业同年全部现价增加值；分母为雇员岗位，未含业主，不是全口径自然人人均劳动生产率。QCEW只覆盖受保文职雇员岗位，与BEA覆盖调整仍有差异，比率为受保雇员代理。就业按明确基期份额建模；详细假设与情景范围见算式。",
+        "comparisonGroup": "qcew-covered-annual-jobs-government-us-government2024-civilian-share"
+      },
+      "notes": [
+        "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。",
+        "缺官方同分类就业，已用2024年政府文职就业结构给出可复算估算。",
+        "2025政府分母为QCEW覆盖文职岗位的估算分拆；军人未补，国防/非国防仍需文职明细来源。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。"
+      ],
+      "gap": "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。；缺官方同分类就业，已用2024年政府文职就业结构给出可复算估算。；2025政府分母为QCEW覆盖文职岗位的估算分拆；军人未补，国防/非国防仍需文职明细来源。",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-qcew-2025",
+          "locator": "2025/a/area/US000.csv; area_fips=US000; size_code=0; row 3, own_code=1, industry_code=10, annual_avg_emplvl=2913515"
+        },
+        {
+          "sourceId": "us-employment-qcew-definition",
+          "locator": "Employment; Annual Average Employment; Coverage exclusions"
+        },
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AD99; line 91 Government enterprises; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        },
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AD97; line 89 Civilian; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        },
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AD99; line 91 Government enterprises; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-wholesale-uva-83-2025",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-wholesale-uva-83",
+      "year": 2025,
+      "pairing": {
+        "status": "not-applicable",
+        "explanation": "关税是核算调整项，不是有独立就业的经营行业；就业和人均增加值不适用，不能填0后相除。；所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+        "comparisonGroup": null
+      },
+      "notes": [
+        "关税是核算调整项，不是有独立就业的经营行业；就业和人均增加值不适用，不能填0后相除。",
+        "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+      ],
+      "gap": "关税是核算调整项，不是有独立就业的经营行业；就业和人均增加值不适用，不能填0后相除。；所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-bea-tariffs-faq-2025-03-04",
+          "locator": "关税在国家经济核算中的归属；研究判断：税收核算调整本身不是独立雇佣劳动的行业。"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-real-estate-bea-62-unallocated-2025",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-real-estate-bea-62-unallocated",
+      "year": 2025,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "同年整项现价增加值 ÷ 同年所列就业分母。分子含居民自有住房等住房资本服务，部分服务没有对应直接岗位；这是含资本服务的宏观比值，不是员工劳动效率，与普通行业分组展示。 就业本身也是明确条件的估算。",
+        "comparisonGroup": "housing-capital-services-jobs",
+        "scopeNote": "含住房资本服务 · 宏观比值"
+      },
+      "notes": [
+        "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。",
+        "审校修订：中美采用一致的宏观比值解释，住房资本服务单列比较组；纯自住住房核算项仍不填就业或比率。"
+      ],
+      "gap": "",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-qcew-2025",
+          "locator": "2025/a/area/US000.csv; area_fips=US000; size_code=0; row 3932, own_code=5, industry_code=531, annual_avg_emplvl=1818150"
+        },
+        {
+          "sourceId": "us-employment-qcew-definition",
+          "locator": "Employment; Annual Average Employment; Coverage exclusions"
+        },
+        {
+          "sourceId": "us-employment-census-concordance",
+          "locator": "2022 to 2017 NAICS U.S.; all mapped six-digit rows. Selected set checked against every origin industry; mapping.json stores complete lists."
+        },
+        {
+          "sourceId": "us-employment-bea-io2017",
+          "locator": "Use_SUT_Detail.xlsx '2017'!LL410; row V00100 Compensation of employees; industry codes 531HST; million USD"
+        },
+        {
+          "sourceId": "us-employment-bea-io2017",
+          "locator": "Use_SUT_Detail.xlsx '2017'!LL410, LM410; row V00100 Compensation of employees; industry codes 531HST,531ORE; million USD"
+        }
+      ]
+    },
+    {
+      "id": "us-employment-us-government-bea-96-unallocated-2025",
+      "country": "us",
+      "basis": "annual-industry",
+      "nodeId": "us-government-bea-96-unallocated",
+      "year": 2025,
+      "pairing": {
+        "status": "proxy",
+        "explanation": "分子为本行业同年全部现价增加值；分母为雇员岗位，未含业主，不是全口径自然人人均劳动生产率。QCEW只覆盖受保文职雇员岗位，与BEA覆盖调整仍有差异，比率为受保雇员代理。就业按明确基期份额建模；详细假设与情景范围见算式。",
+        "comparisonGroup": "qcew-covered-annual-jobs-government-us-whole-parent-remainder"
+      },
+      "notes": [
+        "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。",
+        "官方就业岗位不等于去重自然人数；全职和兼职均计一个岗位。"
+      ],
+      "gap": "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。",
+      "employmentEvidence": [
+        {
+          "sourceId": "us-employment-qcew-2025",
+          "locator": "2025/a/area/US000.csv; area_fips=US000; size_code=0; row 588, own_code=2, industry_code=10, annual_avg_emplvl=4894763; row 1255, own_code=3, industry_code=10, annual_avg_emplvl=14763811"
+        },
+        {
+          "sourceId": "us-employment-qcew-definition",
+          "locator": "Employment; Annual Average Employment; Coverage exclusions"
+        },
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AD101; line 93 General government; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        },
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AD101; line 93 General government; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        },
+        {
+          "sourceId": "us-employment-bea-nipa-2025-09-26",
+          "locator": "T60400D-A!AD104; line 96 Government enterprises; thousands × 1000; A3 annual 1998—2024; A5 release; row 8 year"
+        },
+        {
+          "sourceId": "us-employment-nipa-methods",
+          "locator": "Chapter 10 Appendix A, printed 10-25—10-28 / physical 25—28; full/part-time positions, FTE and coverage adjustments"
+        }
+      ]
+    }
+  ]
+}

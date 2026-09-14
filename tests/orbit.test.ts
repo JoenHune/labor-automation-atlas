@@ -79,6 +79,12 @@ describe('drill-down donut preserves economic scale and context',()=>{
   for(const q of ['filter.orbitFocus=us-manufacturing','filter.orbitFocus=cn-io-manufacturing','filter.orbitFocus=missing&filter.orbitDetail=missing'])expect(restoreOrbit(cn,new URLSearchParams(q))).toEqual({focus:cn.id,detail:''})
   expect(restoreOrbit(us,new URLSearchParams('filter.orbitFocus=cn-industry&filter.orbitDetail=cn-manufacturing'))).toEqual({focus:us.id,detail:''})
  })
+ it('restores an employment detail even when that year has no value-added subdivision to draw',()=>{
+  const factory=scaleIndex([cn]).get('cn-manufacturing')!,child=factory.children[0]
+  expect(child.baseValue).toBeNull()
+  expect(restoreOrbit(cn,new URLSearchParams('filter.analysis=employment&filter.orbitFocus='+factory.id+'&filter.orbitDetail='+child.id))).toEqual({focus:factory.id,detail:child.id})
+  expect(restoreOrbit(us,new URLSearchParams('filter.analysis=employment&filter.orbitDetail='+child.id))).toEqual({focus:us.id,detail:''})
+ })
  it('retains zero and negative values separately instead of assigning them an invented positive area',()=>{
   const child=cn.children[0],layer=orbitLayer({...cn,children:[{...child,id:'zero',value:0,baseValue:0},{...child,id:'negative',value:-1,baseValue:-100000000},child]})
   expect(layer.sectors).toHaveLength(1)

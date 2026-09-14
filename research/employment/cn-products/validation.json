@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-09-14",
+  "passed": true,
+  "nodeCount": 258,
+  "leafCount": 211,
+  "poolCount": 92,
+  "employmentTotalPersons": 740410000.0000004,
+  "alternativeEmploymentTotalPersons": 740409999.9999999,
+  "officialControlPersons": 740410000,
+  "allParentSumsMatch": true,
+  "allIntervalsContainPoint": true,
+  "nonpositiveLaborCompensationProductCodes": [],
+  "scopeLimitedRatioNodeIds": [
+    "cn-io-real-estate",
+    "cn-io-70183"
+  ],
+  "note": "仅验证模型算术/覆盖，不验证归属假设；情景范围不是统计置信区间。"
+}

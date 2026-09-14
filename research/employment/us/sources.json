@@ -1,0 +1,410 @@
+[
+  {
+    "id": "us-employment-qcew-2021",
+    "country": "us",
+    "title": "QCEW 2021 annual average employment — U.S. all industries and ownerships",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "url": "https://data.bls.gov/cew/data/api/2021/a/area/US000.csv",
+    "published": null,
+    "retrieved": "2026-09-14",
+    "kind": "official-statistics",
+    "archive": "research/employment/us/originals/qcew-2021-us.csv",
+    "sha256": "2a6714f05b9fec6a4487310fe03f97439655e7f6206906e1db99e5d2eda3a3e7",
+    "limitations": [
+      "仅 UI/UCFE 覆盖雇员岗位；全国合计不含波多黎各和美属维尔京群岛。",
+      "历史发布日期未核实的保留空值；不能将下载日当发布日期。"
+    ]
+  },
+  {
+    "id": "us-employment-qcew-2022",
+    "country": "us",
+    "title": "QCEW 2022 annual average employment — U.S. all industries and ownerships",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "url": "https://data.bls.gov/cew/data/api/2022/a/area/US000.csv",
+    "published": null,
+    "retrieved": "2026-09-14",
+    "kind": "official-statistics",
+    "archive": "research/employment/us/originals/qcew-2022-us.csv",
+    "sha256": "c45cbb64a1b1eef16bfd743510d9d02792ccad82f60e9df202c5daa3e8c5cc18",
+    "limitations": [
+      "仅 UI/UCFE 覆盖雇员岗位；全国合计不含波多黎各和美属维尔京群岛。",
+      "历史发布日期未核实的保留空值；不能将下载日当发布日期。"
+    ]
+  },
+  {
+    "id": "us-employment-qcew-2023",
+    "country": "us",
+    "title": "QCEW 2023 annual average employment — U.S. all industries and ownerships",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "url": "https://data.bls.gov/cew/data/api/2023/a/area/US000.csv",
+    "published": null,
+    "retrieved": "2026-09-14",
+    "kind": "official-statistics",
+    "archive": "research/employment/us/originals/qcew-2023-us.csv",
+    "sha256": "fe9ffe874f6e657f6bb1558971965ce6acc015ace45d831ed32c90d97097aee9",
+    "limitations": [
+      "仅 UI/UCFE 覆盖雇员岗位；全国合计不含波多黎各和美属维尔京群岛。",
+      "历史发布日期未核实的保留空值；不能将下载日当发布日期。"
+    ]
+  },
+  {
+    "id": "us-employment-qcew-2024",
+    "country": "us",
+    "title": "QCEW 2024 annual average employment — U.S. all industries and ownerships",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "url": "https://data.bls.gov/cew/data/api/2024/a/area/US000.csv",
+    "published": "2025-09-09",
+    "retrieved": "2026-09-14",
+    "kind": "official-statistics",
+    "archive": "research/employment/us/originals/qcew-2024-us.csv",
+    "sha256": "48db086828a01798731242c6d3d4957f80f941afe75463a1ff7d43de774bea46",
+    "limitations": [
+      "仅 UI/UCFE 覆盖雇员岗位；全国合计不含波多黎各和美属维尔京群岛。"
+    ]
+  },
+  {
+    "id": "us-employment-qcew-2025",
+    "country": "us",
+    "title": "QCEW 2025 annual average employment — U.S. all industries and ownerships",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "url": "https://data.bls.gov/cew/data/api/2025/a/area/US000.csv",
+    "published": "2026-08-28",
+    "retrieved": "2026-09-14",
+    "kind": "official-statistics",
+    "archive": "research/employment/us/originals/qcew-2025-us.csv",
+    "sha256": "0b5528f70d66a84ff9729691f365c667a09f854f0af3d841bdd660ef3cb01811",
+    "limitations": [
+      "仅 UI/UCFE 覆盖雇员岗位；全国合计不含波多黎各和美属维尔京群岛。"
+    ]
+  },
+  {
+    "id": "us-employment-qcew-2026q1",
+    "country": "us",
+    "title": "QCEW first quarter 2026 — U.S. employment",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "url": "https://data.bls.gov/cew/data/api/2026/1/area/US000.csv",
+    "published": "2026-08-28",
+    "retrieved": "2026-09-14",
+    "kind": "official-statistics",
+    "archive": "research/employment/us/originals/qcew-2026q1-us.csv",
+    "sha256": "01fcd2cdd86f66d70b569286c5a88bc8558b05dc66bdb7470963e59ac173c3a8",
+    "limitations": [
+      "2026年3月工资期岗位是最新进展，不能与2025全年产出相除。"
+    ]
+  },
+  {
+    "id": "us-employment-bea-io2017",
+    "country": "us",
+    "title": "BEA Supply-Use 2017 detailed benchmark compensation by activity",
+    "publisher": "U.S. Bureau of Economic Analysis",
+    "url": "https://apps.bea.gov/industry/release/zip/SUPPLY-USE.zip",
+    "published": null,
+    "retrieved": "2026-09-14",
+    "kind": "official-statistics",
+    "archive": "research/employment/us/originals/SUPPLY-USE.zip",
+    "sha256": "ea81c1205ab824d9740695dc6242eba0315c009032b8a3853bef939a0469dc2c",
+    "limitations": [
+      "2017年基准薪酬结构，不是当前就业；工程/住房分配假设同类年均每岗位薪酬相同。工作簿未标发布日期，保持空值。"
+    ]
+  },
+  {
+    "id": "us-employment-census-apes-2025",
+    "country": "us",
+    "title": "Annual Survey of Public Employment and Payroll, national functional data 1993—2025",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www2.census.gov/programs-surveys/apes/data/GS00EMP01.zip",
+    "published": "2026-04-16",
+    "retrieved": "2026-09-14",
+    "kind": "official-statistics",
+    "archive": "research/employment/us/originals/GS00EMP01.zip",
+    "sha256": "bd7f5399cf97a5628bdc51b8fc1a08491f40ecf4a0d9f8d2169824195f4fe695",
+    "limitations": [
+      "按政府功能与3月调查时点，不是BEA年度国内雇员账户；本表同时含全国和州记录，提取仅选全国。"
+    ]
+  },
+  {
+    "id": "us-employment-census-apes-summary",
+    "country": "us",
+    "title": "2025 Annual Survey of Public Employment and Payroll Summary Report",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www.census.gov/content/dam/Census/library/publications/2025/econ/ASPEP%20Summary%20Report%202025.pdf",
+    "published": "2026-04-16",
+    "retrieved": "2026-09-14",
+    "kind": "official-statistics",
+    "archive": "research/employment/us/originals/aspep2025-summary.pdf",
+    "sha256": "163da2ff0a6762ff82dc12b97292614ac808bdccdf236e00ef571b540b8f1433",
+    "limitations": [
+      "方法与发布日期参考；具体人数取完整批量表，未用摘要四舍五入值。"
+    ]
+  },
+  {
+    "id": "us-employment-bea-nipa-2025-09-26",
+    "country": "us",
+    "title": "NIPA 6.4D employees and 6.5D FTE, annual 1998—2024",
+    "publisher": "U.S. Bureau of Economic Analysis",
+    "url": "https://apps.bea.gov/national/Release/XLS/Survey/Section6All_xls.xlsx",
+    "published": "2025-09-26",
+    "retrieved": "2026-09-14",
+    "kind": "official-statistics",
+    "archive": "research/employment/us/originals/Section6All.xlsx",
+    "sha256": "07fe01381f56f3cc67ce72a0c8e5497ded2efe2a71d55749c9a39e1da93c7cce",
+    "limitations": [
+      "不含业主；年度统计时点保留表内年度观测，不将手册未说明的年均处理写成事实。"
+    ]
+  },
+  {
+    "id": "us-employment-nipa-methods",
+    "country": "us",
+    "title": "NIPA Handbook Chapter 10, Appendix A employment definitions",
+    "publisher": "U.S. Bureau of Economic Analysis",
+    "url": "https://www.bea.gov/resources/methodologies/nipa-handbook/pdf/chapter-10.pdf",
+    "published": null,
+    "retrieved": "2026-09-14",
+    "kind": "official-statistics",
+    "archive": "research/employment/us/originals/chapter-10.pdf",
+    "sha256": "176b04ebc0184e7a52097194b3843b63cd98fc6480130aeffa0b71b8c85ec396",
+    "limitations": [
+      "本轮读取附录A及覆盖调整，非整本NIPA手册。"
+    ]
+  },
+  {
+    "id": "us-employment-census-concordance",
+    "country": "us",
+    "title": "2022 NAICS matched to 2017 NAICS — full concordance",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www.census.gov/naics/concordances/2022_to_2017_NAICS.xlsx",
+    "published": null,
+    "retrieved": "2026-09-14",
+    "kind": "official-statistics",
+    "archive": "research/employment/us/originals/2022_to_2017_NAICS.xlsx",
+    "sha256": "76ed2d5bc8cd3443dc86f0c3225b83e6d187f3fc47d4c5696c911a3234f1716f",
+    "limitations": [
+      "分类表无就业权重；一对多、多对一遇到跨行业边界时不强行分配。"
+    ]
+  },
+  {
+    "id": "us-employment-qcew-definition",
+    "country": "us",
+    "title": "Employment and Wages Annual Averages 2025 — coverage and definitions",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "url": "https://www.bls.gov/cew/publications/employment-and-wages-annual-averages/2025/home.htm",
+    "published": "2026-08-28",
+    "retrieved": "2026-09-14",
+    "kind": "official-statistics",
+    "archive": "research/employment/us/originals/qcew-definition-web.json",
+    "sha256": "15918f2f629a00c976499841901a62e29fe237fb4e4b61940a992f72db02cf1a",
+    "limitations": [
+      "网页归档为Web工具可读摘录，非原始HTML。"
+    ]
+  },
+  {
+    "id": "us-employment-qcew-notices",
+    "country": "us",
+    "title": "QCEW notices — annual release dates",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "url": "https://www.bls.gov/cew/notices/",
+    "published": null,
+    "retrieved": "2026-09-14",
+    "kind": "official-statistics",
+    "archive": "research/employment/us/originals/qcew-notices-web.json",
+    "sha256": "ae53927b5a825f9c652c5b5e0f019b6ef1521d9106653592b3f4f9127ec4ba01",
+    "limitations": [
+      "网页归档为Web工具可读摘录，非原始HTML。"
+    ]
+  },
+  {
+    "id": "us-employment-qcew-geography",
+    "country": "us",
+    "title": "QCEW U.S. total excludes Puerto Rico and Virgin Islands — footnote",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "url": "https://www.bls.gov/regions/northeast/news-release/2026/countyemploymentandwages_puertorico_20260612.htm",
+    "published": "2026-06-12",
+    "retrieved": "2026-09-14",
+    "kind": "official-statistics",
+    "archive": "research/employment/us/originals/qcew-geography-web.json",
+    "sha256": "4d516241eb6b1bb3bd8f068cc47723dec7d9adb6988240739f5264072b7a7c3a",
+    "limitations": [
+      "网页归档为Web工具可读摘录，非原始HTML。"
+    ]
+  },
+  {
+    "id": "us-employment-qcew-naics",
+    "country": "us",
+    "title": "QCEW industry classification history — 2017 through 2021, 2022 onward",
+    "publisher": "U.S. Bureau of Labor Statistics",
+    "url": "https://www.bls.gov/cew/classifications/industry/industry-titles.htm",
+    "published": null,
+    "retrieved": "2026-09-14",
+    "kind": "official-statistics",
+    "archive": "research/employment/us/originals/qcew-naics-web.json",
+    "sha256": "a02d11dc7cac165b5df72cab2fee8e5c5a526a6219ad0cd13ac0ab83e0f0f82c",
+    "limitations": [
+      "网页归档为Web工具可读摘录，非原始HTML。"
+    ]
+  },
+  {
+    "id": "us-employment-bea-discontinued",
+    "country": "us",
+    "title": "BEA discontinued and delayed statistics",
+    "publisher": "U.S. Bureau of Economic Analysis",
+    "url": "https://www.bea.gov/data/discontinued-or-delayed-statistics",
+    "published": null,
+    "retrieved": "2026-09-14",
+    "kind": "official-statistics",
+    "archive": "research/employment/us/originals/bea-discontinued.htm",
+    "sha256": "fbaa7bd081521b3b459de45c4330e23f0d107fdbf7464124609bf41e8e3381aa",
+    "limitations": [
+      "SAEMP及NIPA自雇和生产参与者表停发；不能将停发之后模型值标为官方观测。"
+    ]
+  },
+  {
+    "id": "us-employment-bea-concordance",
+    "title": "BEA Industry and Commodity Codes and 2017 NAICS Concordance",
+    "country": "us",
+    "publisher": "U.S. Bureau of Economic Analysis",
+    "url": "https://www.bea.gov/sites/default/files/2023-10/BEA-Industry-and-Commodity-Codes-and-NAICS-Concordance.xlsx",
+    "published": null,
+    "retrieved": "2026-09-14",
+    "kind": "official-statistics",
+    "archive": "research/annual-2024-2025/us/BEA-concordance.xlsx",
+    "sha256": "6e25267ff60ccedc0808c14153b0cdeb566a7f5e9097536c70c2b9694ef5ff47",
+    "limitations": [
+      "住房/工程类型/关税及政府活动不是独立NAICS雇主行业。"
+    ]
+  },
+  {
+    "id": "us-bea-value-added-2026-06-25",
+    "title": "Value Added by Industry — current-dollar annual detail",
+    "publisher": "U.S. Bureau of Economic Analysis",
+    "url": "https://apps.bea.gov/industry/Release/XLS/GDPxInd/ValueAdded.xlsx",
+    "published": "2026-06-25",
+    "retrieved": "2026-09-09",
+    "country": "us",
+    "kind": "official-statistics",
+    "sha256": "87b7484af9f75a06930151004f7f76a84b715e2ccb7ad20162e3c338e39b3e6c",
+    "limitations": [
+      "现价增加值含劳动、资本和税项贡献；不能解释为工资、劳动因果效率或可自动化节省。",
+      "2021—2025 使用2026-06-25发布的最新可得同一修订版本；2026季度不混入年度。"
+    ]
+  },
+  {
+    "id": "us-bea-saemp25n-2023-09-29",
+    "title": "SAEMP25N — Total full-time and part-time employment by NAICS industry, United States (1998–2022)",
+    "publisher": "U.S. Bureau of Economic Analysis",
+    "url": "https://apps.bea.gov/regional/histdata/releases/0324pistate/SAINC.zip",
+    "published": "2023-09-29",
+    "retrieved": "2026-09-09",
+    "country": "us",
+    "kind": "official-statistics",
+    "limitations": [
+      "停发表链接的官方历史档案；最后数据年2022，2023—2025无该表后续观测。",
+      "岗位含雇员、独资企业、个人普通合伙人；不去重为人，排除无酬家属、志愿者及有限合伙人。",
+      "非农业主为全年活跃计数且使用税务地址，雇员为工作地年均；不得标成年均全从业人数。"
+    ],
+    "sha256": "9b1c7cae85192ba587bedc7ffb77e8babb6c61da0ae7a3f162f434daf6bb3ab3"
+  },
+  {
+    "id": "us-bea-spi-methodology-2025-12",
+    "title": "State Personal Income and Employment: Concepts and Methods",
+    "publisher": "U.S. Bureau of Economic Analysis",
+    "url": "https://www.bea.gov/sites/default/files/methodologies/SPI-Methodology.pdf",
+    "published": null,
+    "retrieved": "2026-09-09",
+    "country": "us",
+    "kind": "official-statistics",
+    "limitations": [
+      "方法用于解释地理/机构/岗位范围；方法文档中存在2024汇总，不等于停发行业表已恢复。"
+    ],
+    "sha256": "64f74e711c62528d4c7aaf60b96e022f8296c632cbf439de8a5856e672f8aa6c",
+    "publishedLabel": "December 2025（封面版次，未给精确发布日期）"
+  },
+  {
+    "id": "us-bea-nipa-chapter-02-2024-12",
+    "title": "NIPA Handbook Chapter 2: Fundamental Concepts",
+    "publisher": "U.S. Bureau of Economic Analysis",
+    "url": "https://www.bea.gov/resources/methodologies/nipa-handbook/pdf/chapter-02.pdf",
+    "published": null,
+    "retrieved": "2026-09-09",
+    "country": "us",
+    "kind": "official-statistics",
+    "limitations": [
+      "解释行业账户地理、国内/国民口径与住房估算，不作为就业数来源。"
+    ],
+    "sha256": "82e9efeb46ec54b2d87d2453090457863d9c0527d41ca88c01e5b5dd7a9c30b5",
+    "publishedLabel": "December 2024（章首页更新月份）"
+  },
+  {
+    "id": "us-bea-productivity-concordance-2017-naics",
+    "title": "BEA Industry and Commodity Codes and NAICS Concordance",
+    "publisher": "U.S. Bureau of Economic Analysis",
+    "url": "https://www.bea.gov/sites/default/files/2023-10/BEA-Industry-and-Commodity-Codes-and-NAICS-Concordance.xlsx",
+    "published": null,
+    "retrieved": "2026-09-09",
+    "country": "us",
+    "kind": "official-statistics",
+    "limitations": [
+      "分类对照不是各细分在2025已经发布增加值的证据。"
+    ],
+    "sha256": "6e25267ff60ccedc0808c14153b0cdeb566a7f5e9097536c70c2b9694ef5ff47",
+    "publishedLabel": "官方2017 NAICS对照；URL目录2023-10，不当精确发布日期"
+  },
+  {
+    "id": "us-bea-productivity-housing-scope",
+    "title": "Why is GDP by state so large for the real estate industry?",
+    "publisher": "U.S. Bureau of Economic Analysis",
+    "url": "https://www.bea.gov/help/faq/95",
+    "published": "2006-01-10",
+    "retrieved": "2026-09-09",
+    "country": "us",
+    "kind": "official-statistics",
+    "limitations": [
+      "住房含自有住房估算租金，房地产增加值/岗位不是劳动独立贡献。"
+    ],
+    "sha256": "52f28814a50eb98346d630c62327e6c3cd1bacbd6af3805d0364f2eb593a0ef6"
+  },
+  {
+    "id": "us-bea-main-value-added-2026-06-25",
+    "title": "Value Added by Industry",
+    "publisher": "U.S. Bureau of Economic Analysis",
+    "url": "https://apps.bea.gov/industry/Release/XLS/GDPxInd/ValueAdded.xlsx",
+    "published": "2026-06-25",
+    "retrieved": "2026-09-14",
+    "country": "us",
+    "kind": "official-statistics",
+    "archive": "research/annual-2024-2025/us/ValueAdded-2026-09-14.xlsx",
+    "sha256": "87b7484af9f75a06930151004f7f76a84b715e2ccb7ad20162e3c338e39b3e6c",
+    "limitations": [
+      "年度现价增加值；保留官方原值及舍入差异。"
+    ]
+  },
+  {
+    "id": "us-bea-detail-value-added-2025-09-25",
+    "title": "U.Value Added by Industry — Underlying Detail",
+    "publisher": "U.S. Bureau of Economic Analysis",
+    "url": "https://apps.bea.gov/industry/Release/XLS/UGdpxInd/ValueAdded.xlsx",
+    "published": "2025-09-25",
+    "retrieved": "2026-09-14",
+    "country": "us",
+    "kind": "official-statistics",
+    "archive": "research/annual-2024-2025/us/UnderlyingValueAdded-2026-09-14.xlsx",
+    "sha256": "9238bd28af17bd50eb14a6b404e159b5e199dd11f03f6359d1f237f48a1f7193",
+    "limitations": [
+      "BEA 明示细分估计质量显著低于其所属上层汇总，见 UVA205-A!A205。",
+      "年度现价增加值；保留官方原值及舍入差异。"
+    ]
+  },
+  {
+    "id": "us-bea-tariffs-faq-2025-03-04",
+    "title": "How are tariffs reflected in BEA’s National Economic Accounts?",
+    "publisher": "U.S. Bureau of Economic Analysis",
+    "url": "https://www.bea.gov/help/faq/1476",
+    "published": "2025-03-04",
+    "retrieved": "2026-09-14",
+    "country": "us",
+    "kind": "official-statistics",
+    "archive": "research/annual-2024-2025/us/bea-tariffs-faq.html",
+    "limitations": [
+      "关税收入归政府；行业账户中归入批发业的生产及进口税核算，不是独立经营行业。"
+    ]
+  }
+]

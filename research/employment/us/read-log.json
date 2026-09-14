@@ -1,0 +1,336 @@
+{
+  "checkedAt": "2026-09-14",
+  "claim": "已完成本版全节点配对、指定官方系列和模型所需资料核对；未声称穷尽所有政府资料或完成所有网页全文阅读。",
+  "sourceReads": [
+    {
+      "sourceId": "us-employment-qcew-2021",
+      "url": "https://data.bls.gov/cew/data/api/2021/a/area/US000.csv",
+      "readAt": "2026-09-14",
+      "scopeRead": "全国全所有权/全行业CSV；全部图谱映射行、披露标记、size_code、就业字段和未分类行；其他工资指标未作产值分母。",
+      "archive": "research/employment/us/originals/qcew-2021-us.csv",
+      "sha256": "2a6714f05b9fec6a4487310fe03f97439655e7f6206906e1db99e5d2eda3a3e7",
+      "freshDownload": true,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-employment-qcew-2022",
+      "url": "https://data.bls.gov/cew/data/api/2022/a/area/US000.csv",
+      "readAt": "2026-09-14",
+      "scopeRead": "全国全所有权/全行业CSV；全部图谱映射行、披露标记、size_code、就业字段和未分类行；其他工资指标未作产值分母。",
+      "archive": "research/employment/us/originals/qcew-2022-us.csv",
+      "sha256": "c45cbb64a1b1eef16bfd743510d9d02792ccad82f60e9df202c5daa3e8c5cc18",
+      "freshDownload": true,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-employment-qcew-2023",
+      "url": "https://data.bls.gov/cew/data/api/2023/a/area/US000.csv",
+      "readAt": "2026-09-14",
+      "scopeRead": "全国全所有权/全行业CSV；全部图谱映射行、披露标记、size_code、就业字段和未分类行；其他工资指标未作产值分母。",
+      "archive": "research/employment/us/originals/qcew-2023-us.csv",
+      "sha256": "fe9ffe874f6e657f6bb1558971965ce6acc015ace45d831ed32c90d97097aee9",
+      "freshDownload": true,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-employment-qcew-2024",
+      "url": "https://data.bls.gov/cew/data/api/2024/a/area/US000.csv",
+      "readAt": "2026-09-14",
+      "scopeRead": "全国全所有权/全行业CSV；全部图谱映射行、披露标记、size_code、就业字段和未分类行；其他工资指标未作产值分母。",
+      "archive": "research/employment/us/originals/qcew-2024-us.csv",
+      "sha256": "48db086828a01798731242c6d3d4957f80f941afe75463a1ff7d43de774bea46",
+      "freshDownload": true,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-employment-qcew-2025",
+      "url": "https://data.bls.gov/cew/data/api/2025/a/area/US000.csv",
+      "readAt": "2026-09-14",
+      "scopeRead": "全国全所有权/全行业CSV；全部图谱映射行、披露标记、size_code、就业字段和未分类行；其他工资指标未作产值分母。",
+      "archive": "research/employment/us/originals/qcew-2025-us.csv",
+      "sha256": "0b5528f70d66a84ff9729691f365c667a09f854f0af3d841bdd660ef3cb01811",
+      "freshDownload": true,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-employment-qcew-2026q1",
+      "url": "https://data.bls.gov/cew/data/api/2026/1/area/US000.csv",
+      "readAt": "2026-09-14",
+      "scopeRead": "全国全所有权/全行业CSV；全部图谱映射行、披露标记、size_code、就业字段和未分类行；其他工资指标未作产值分母。",
+      "archive": "research/employment/us/originals/qcew-2026q1-us.csv",
+      "sha256": "01fcd2cdd86f66d70b569286c5a88bc8558b05dc66bdb7470963e59ac173c3a8",
+      "freshDownload": true,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-employment-bea-io2017",
+      "url": "https://apps.bea.gov/industry/release/zip/SUPPLY-USE.zip",
+      "readAt": "2026-09-14",
+      "scopeRead": "Use_SUT_Detail.xlsx，2017页标题、V00100薪酬行相关建筑12项、房地产3项和政府项；NAICS Codes工程8组归属。其余投入矩阵未逐格审读。",
+      "archive": "research/employment/us/originals/SUPPLY-USE.zip",
+      "sha256": "ea81c1205ab824d9740695dc6242eba0315c009032b8a3853bef939a0469dc2c",
+      "freshDownload": true,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-employment-census-apes-2025",
+      "url": "https://www2.census.gov/programs-surveys/apes/data/GS00EMP01.zip",
+      "readAt": "2026-09-14",
+      "scopeRead": "完整公开DAT按GEO_ID=0100000US、GOVTYPE=001筛全国；2021—2025总计、教育、医院、卫生功能雇员；未将全国与州重复加总。",
+      "archive": "research/employment/us/originals/GS00EMP01.zip",
+      "sha256": "bd7f5399cf97a5628bdc51b8fc1a08491f40ecf4a0d9f8d2169824195f4fe695",
+      "freshDownload": true,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-employment-census-apes-summary",
+      "url": "https://www.census.gov/content/dam/Census/library/publications/2025/econ/ASPEP%20Summary%20Report%202025.pdf",
+      "readAt": "2026-09-14",
+      "scopeRead": "摘要PDF两页：3月时点、方法摘要、2026-04-16发布日期。具体人数用DAT原件。",
+      "archive": "research/employment/us/originals/aspep2025-summary.pdf",
+      "sha256": "163da2ff0a6762ff82dc12b97292614ac808bdccdf236e00ef571b540b8f1433",
+      "freshDownload": true,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-employment-bea-nipa-2025-09-26",
+      "url": "https://apps.bea.gov/national/Release/XLS/Survey/Section6All_xls.xlsx",
+      "readAt": "2026-09-14",
+      "scopeRead": "工作簿T60400D-A和T60500D-A：标题、发布日期、年份行、2021—2024全部行业行及脚注；没有读取全部Section6其他表。",
+      "archive": "research/employment/us/originals/Section6All.xlsx",
+      "sha256": "07fe01381f56f3cc67ce72a0c8e5497ded2efe2a71d55749c9a39e1da93c7cce",
+      "freshDownload": true,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-employment-nipa-methods",
+      "url": "https://www.bea.gov/resources/methodologies/nipa-handbook/pdf/chapter-10.pdf",
+      "readAt": "2026-09-14",
+      "scopeRead": "Chapter10 AppendixA纸面10-25—10-28（物理25—28页），雇员/FTE/军人和覆盖调整；另检索annual sum/average段落。",
+      "archive": "research/employment/us/originals/chapter-10.pdf",
+      "sha256": "176b04ebc0184e7a52097194b3843b63cd98fc6480130aeffa0b71b8c85ec396",
+      "freshDownload": true,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-employment-census-concordance",
+      "url": "https://www.census.gov/naics/concordances/2022_to_2017_NAICS.xlsx",
+      "readAt": "2026-09-14",
+      "scopeRead": "完整六位2022到2017映射；逐图谱目标检查所有旧分类来源，以防跨边界混配。",
+      "archive": "research/employment/us/originals/2022_to_2017_NAICS.xlsx",
+      "sha256": "76ed2d5bc8cd3443dc86f0c3225b83e6d187f3fc47d4c5696c911a3234f1716f",
+      "freshDownload": true,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-employment-qcew-definition",
+      "url": "https://www.bls.gov/cew/publications/employment-and-wages-annual-averages/2025/home.htm",
+      "readAt": "2026-09-14",
+      "scopeRead": "已读取网页与任务直接相关的定义/发布时间/地域/分类说明；Web-tool可读摘录不是原HTML。",
+      "archive": "research/employment/us/originals/qcew-definition-web.json",
+      "sha256": "15918f2f629a00c976499841901a62e29fe237fb4e4b61940a992f72db02cf1a",
+      "freshDownload": true,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-employment-qcew-notices",
+      "url": "https://www.bls.gov/cew/notices/",
+      "readAt": "2026-09-14",
+      "scopeRead": "已读取网页与任务直接相关的定义/发布时间/地域/分类说明；Web-tool可读摘录不是原HTML。",
+      "archive": "research/employment/us/originals/qcew-notices-web.json",
+      "sha256": "ae53927b5a825f9c652c5b5e0f019b6ef1521d9106653592b3f4f9127ec4ba01",
+      "freshDownload": true,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-employment-qcew-geography",
+      "url": "https://www.bls.gov/regions/northeast/news-release/2026/countyemploymentandwages_puertorico_20260612.htm",
+      "readAt": "2026-09-14",
+      "scopeRead": "已读取网页与任务直接相关的定义/发布时间/地域/分类说明；Web-tool可读摘录不是原HTML。",
+      "archive": "research/employment/us/originals/qcew-geography-web.json",
+      "sha256": "4d516241eb6b1bb3bd8f068cc47723dec7d9adb6988240739f5264072b7a7c3a",
+      "freshDownload": true,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-employment-qcew-naics",
+      "url": "https://www.bls.gov/cew/classifications/industry/industry-titles.htm",
+      "readAt": "2026-09-14",
+      "scopeRead": "已读取网页与任务直接相关的定义/发布时间/地域/分类说明；Web-tool可读摘录不是原HTML。",
+      "archive": "research/employment/us/originals/qcew-naics-web.json",
+      "sha256": "a02d11dc7cac165b5df72cab2fee8e5c5a526a6219ad0cd13ac0ab83e0f0f82c",
+      "freshDownload": true,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-employment-bea-discontinued",
+      "url": "https://www.bea.gov/data/discontinued-or-delayed-statistics",
+      "readAt": "2026-09-14",
+      "scopeRead": "SAEMP25/27、NIPA6.7D/6.8D停止发布条目。",
+      "archive": "research/employment/us/originals/bea-discontinued.htm",
+      "sha256": "fbaa7bd081521b3b459de45c4330e23f0d107fdbf7464124609bf41e8e3381aa",
+      "freshDownload": true,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-employment-bea-concordance",
+      "url": "https://www.bea.gov/sites/default/files/2023-10/BEA-Industry-and-Commodity-Codes-and-NAICS-Concordance.xlsx",
+      "readAt": "2026-09-14",
+      "scopeRead": "行业/commodity分类层级及related2017NAICS列，按全部图谱已识别行业名称核对。",
+      "archive": "research/annual-2024-2025/us/BEA-concordance.xlsx",
+      "sha256": "6e25267ff60ccedc0808c14153b0cdeb566a7f5e9097536c70c2b9694ef5ff47",
+      "freshDownload": false,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-bea-value-added-2026-06-25",
+      "url": "https://apps.bea.gov/industry/Release/XLS/GDPxInd/ValueAdded.xlsx",
+      "readAt": "2026-09-14",
+      "scopeRead": "继承已冻结研究中的来源与证据；本轮未重下该来源全部文件。VA只沿用运行时锚点；历史SAEMP只作为其他分母参考。",
+      "archive": null,
+      "sha256": "87b7484af9f75a06930151004f7f76a84b715e2ccb7ad20162e3c338e39b3e6c",
+      "freshDownload": false,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-bea-saemp25n-2023-09-29",
+      "url": "https://apps.bea.gov/regional/histdata/releases/0324pistate/SAINC.zip",
+      "readAt": "2026-09-14",
+      "scopeRead": "继承已冻结研究中的来源与证据；本轮未重下该来源全部文件。VA只沿用运行时锚点；历史SAEMP只作为其他分母参考。",
+      "archive": null,
+      "sha256": "9b1c7cae85192ba587bedc7ffb77e8babb6c61da0ae7a3f162f434daf6bb3ab3",
+      "freshDownload": false,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-bea-spi-methodology-2025-12",
+      "url": "https://www.bea.gov/sites/default/files/methodologies/SPI-Methodology.pdf",
+      "readAt": "2026-09-14",
+      "scopeRead": "继承已冻结研究中的来源与证据；本轮未重下该来源全部文件。VA只沿用运行时锚点；历史SAEMP只作为其他分母参考。",
+      "archive": null,
+      "sha256": "64f74e711c62528d4c7aaf60b96e022f8296c632cbf439de8a5856e672f8aa6c",
+      "freshDownload": false,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-bea-nipa-chapter-02-2024-12",
+      "url": "https://www.bea.gov/resources/methodologies/nipa-handbook/pdf/chapter-02.pdf",
+      "readAt": "2026-09-14",
+      "scopeRead": "继承已冻结研究中的来源与证据；本轮未重下该来源全部文件。VA只沿用运行时锚点；历史SAEMP只作为其他分母参考。",
+      "archive": null,
+      "sha256": "82e9efeb46ec54b2d87d2453090457863d9c0527d41ca88c01e5b5dd7a9c30b5",
+      "freshDownload": false,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-bea-productivity-concordance-2017-naics",
+      "url": "https://www.bea.gov/sites/default/files/2023-10/BEA-Industry-and-Commodity-Codes-and-NAICS-Concordance.xlsx",
+      "readAt": "2026-09-14",
+      "scopeRead": "继承已冻结研究中的来源与证据；本轮未重下该来源全部文件。VA只沿用运行时锚点；历史SAEMP只作为其他分母参考。",
+      "archive": null,
+      "sha256": "6e25267ff60ccedc0808c14153b0cdeb566a7f5e9097536c70c2b9694ef5ff47",
+      "freshDownload": false,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-bea-productivity-housing-scope",
+      "url": "https://www.bea.gov/help/faq/95",
+      "readAt": "2026-09-14",
+      "scopeRead": "继承已冻结研究中的来源与证据；本轮未重下该来源全部文件。VA只沿用运行时锚点；历史SAEMP只作为其他分母参考。",
+      "archive": null,
+      "sha256": "52f28814a50eb98346d630c62327e6c3cd1bacbd6af3805d0364f2eb593a0ef6",
+      "freshDownload": false,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-bea-main-value-added-2026-06-25",
+      "url": "https://apps.bea.gov/industry/Release/XLS/GDPxInd/ValueAdded.xlsx",
+      "readAt": "2026-09-14",
+      "scopeRead": "继承已冻结研究中的来源与证据；本轮未重下该来源全部文件。VA只沿用运行时锚点；历史SAEMP只作为其他分母参考。",
+      "archive": "research/annual-2024-2025/us/ValueAdded-2026-09-14.xlsx",
+      "sha256": "87b7484af9f75a06930151004f7f76a84b715e2ccb7ad20162e3c338e39b3e6c",
+      "freshDownload": false,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-bea-detail-value-added-2025-09-25",
+      "url": "https://apps.bea.gov/industry/Release/XLS/UGdpxInd/ValueAdded.xlsx",
+      "readAt": "2026-09-14",
+      "scopeRead": "继承已冻结研究中的来源与证据；本轮未重下该来源全部文件。VA只沿用运行时锚点；历史SAEMP只作为其他分母参考。",
+      "archive": "research/annual-2024-2025/us/UnderlyingValueAdded-2026-09-14.xlsx",
+      "sha256": "9238bd28af17bd50eb14a6b404e159b5e199dd11f03f6359d1f237f48a1f7193",
+      "freshDownload": false,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    },
+    {
+      "sourceId": "us-bea-tariffs-faq-2025-03-04",
+      "url": "https://www.bea.gov/help/faq/1476",
+      "readAt": "2026-09-14",
+      "scopeRead": "继承已冻结研究中的来源与证据；本轮未重下该来源全部文件。VA只沿用运行时锚点；历史SAEMP只作为其他分母参考。",
+      "archive": "research/annual-2024-2025/us/bea-tariffs-faq.html",
+      "sha256": null,
+      "freshDownload": false,
+      "conclusionStatus": "来源事实与配对判断分开，来源存在不等于覆盖完整"
+    }
+  ],
+  "additionalChecks": [
+    {
+      "url": "https://www.census.gov/data/tables/2022/econ/economic-census/naics-sector-23.html",
+      "read": "2022建筑经济普查目录；BASIC/KOB/LOCCONS/VALCON及产品表存在，未找到工程类型×雇员/工时矩阵。目录不是下载并读完全部细表。",
+      "archive": "originals/construction-table-index.html"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/economic-census/year/2022/about/faq/faq-construction.html",
+      "read": "建筑调查FAQ：工时与雇主人员定义；工程所有权/类型与业务额，未验证出工程×劳动交叉矩阵。"
+    },
+    {
+      "url": "https://www.census.gov/construction/c30/definitions.html",
+      "read": "Construction Spending排除maintenance and repair，不能覆盖图谱维修维护活动。"
+    },
+    {
+      "url": "https://www.bea.gov/sites/default/files/2025-09/ComponentsOfVa.zip",
+      "read": "ComponentsOfVA.xlsx工资薪酬行、NAICS页：只有较粗行业，未提供工程8类/住房子类可直接工资拆分；弃作细就业分母。",
+      "archive": "originals/bea-va-components.zip"
+    },
+    {
+      "url": "https://www.bls.gov/emp/tables/industry-employment-and-output.htm",
+      "read": "Table2.11 2025表头、总就业/自雇/工资薪金，行业主要工资薪金，不将总自雇9822.3千人任意分配到行业；2035预测未作2025观测。"
+    },
+    {
+      "url": "https://www.bls.gov/emp/documentation/projections-methods.htm",
+      "read": "产业就业方法中工资薪金与自雇的合并/历史输入；未取得可按全部BEA节点对应的自雇数据包。"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/apes/technical-documentation/methodology/25_methodology.pdf",
+      "read": "8页：3月12工资期、州及地方文职、雇员/承包商排除、按功能、抽样权重和估算、2019起不再采兼职工时。当前数据使用TOT_EMP，不用FTE模型。"
+    },
+    {
+      "url": "https://www.bea.gov/sites/default/files/methodologies/SPI-Methodology.pdf",
+      "read": "检索到官方区域就业定义是年均，业主则全年任何时段活跃。区域定义未直接移植成NIPA6.4D的年均事实。"
+    }
+  ],
+  "accessAttempts": [
+    {
+      "url": "https://www.bls.gov/emp/industry-employment/industry.zip",
+      "result": "requests返回403；?download=1/?2026与download.bls.gov/pub/special.requests/ep/industry.zip亦403。未取得ZIP，不把访问失败说成数据不存在。"
+    },
+    {
+      "url": "https://apps.bea.gov/industry/Release/XLS/IO/Use_SUT_Framework_2017_DET.xlsx",
+      "result": "旧路径返回统一HTML不是XLSX；另两个旧文件猜测同结果。后由根代理从官方iTable下载菜单找到SUPPLY-USE.zip并成功下载；失败未作证据数字。"
+    },
+    {
+      "url": "https://api.census.gov/data/timeseries/govsemp",
+      "result": "API示例说明当前要求key；没有尝试越权，改用官方公开GS00EMP01.zip成功。"
+    },
+    {
+      "url": "https://bhs.econ.census.gov/ombpdfs2022/infosheets/23_Construction.pdf",
+      "result": "requests出现TLS连接错误；官网FAQ/目录可读。没有将未取得PDF计为完整阅读。"
+    }
+  ],
+  "unresolved": [
+    "NIPA年度源表没有明确年均处理；按other并说明年度观测",
+    "国防/非国防雇员不能用military替代，尚缺合适文职拆分",
+    "州地方政府其他服务与NIPA/Census范围仍无一致就业桥接",
+    "BLS按行业自雇完整包未取得；没有生成无行业依据的全就业扩张倍数"
+  ]
+}

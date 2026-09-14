@@ -1,0 +1,490 @@
+{
+  "checkedAt": "2026-09-14",
+  "calibrationSha256": "40d044d22c56499beab092aeb733295c3a3d1244f427b053be9c127483eb6226",
+  "sourceParsing": "独立解析公报HTML表格，另实读A1-08原图、编者说明及根归档国家数据DOM",
+  "checks": [
+    {
+      "check": "专项公报人员原值",
+      "code": "66",
+      "sourceRow": [
+        "货币金融服务",
+        "2.9",
+        "415.5"
+      ],
+      "expectedPersons": 4155000.0,
+      "modelInputPersons": 4155000,
+      "pass": true
+    },
+    {
+      "check": "专项公报人员原值",
+      "code": "67",
+      "sourceRow": [
+        "资本市场服务",
+        "5.1",
+        "73.2"
+      ],
+      "expectedPersons": 732000.0,
+      "modelInputPersons": 732000,
+      "pass": true
+    },
+    {
+      "check": "专项公报人员原值",
+      "code": "68",
+      "sourceRow": [
+        "保险业",
+        "1.7",
+        "729.8"
+      ],
+      "expectedPersons": 7298000.0,
+      "modelInputPersons": 7298000,
+      "pass": true
+    },
+    {
+      "check": "专项公报人员原值",
+      "code": "69",
+      "sourceRow": [
+        "其他金融业",
+        "0.9",
+        "17.1"
+      ],
+      "expectedPersons": 171000.0,
+      "modelInputPersons": 171000,
+      "pass": true
+    },
+    {
+      "check": "专项公报人员原值",
+      "code": "53",
+      "sourceRow": [
+        "铁路运输业",
+        "0.04",
+        "181.7"
+      ],
+      "expectedPersons": 1817000.0,
+      "modelInputPersons": 1817000,
+      "pass": true
+    },
+    {
+      "check": "独立公报门类法人/个体按同一原法人权重分配",
+      "section": "A",
+      "sourceRow": [
+        "农、林、牧、渔业*",
+        "133.5",
+        "45.9",
+        "207.7",
+        "72.1"
+      ],
+      "codeCount": 1,
+      "sourceLegalPersons": 1335000.0,
+      "sourceIndividualPersons": 2077000.0,
+      "modelLegalPersons": 1335000.0,
+      "modelIndividualPersons": 2077000.0,
+      "pass": true
+    },
+    {
+      "check": "独立公报门类法人/个体按同一原法人权重分配",
+      "section": "B",
+      "sourceRow": [
+        "采矿业",
+        "469.8",
+        "73.2",
+        "6.8",
+        "0.9"
+      ],
+      "codeCount": 7,
+      "sourceLegalPersons": 4698000.0,
+      "sourceIndividualPersons": 68000.0,
+      "modelLegalPersons": 4698000.0,
+      "modelIndividualPersons": 68000.0,
+      "pass": true
+    },
+    {
+      "check": "独立公报门类法人/个体按同一原法人权重分配",
+      "section": "C",
+      "sourceRow": [
+        "制造业",
+        "10481.5",
+        "3959.0",
+        "1836.1",
+        "884.1"
+      ],
+      "codeCount": 31,
+      "sourceLegalPersons": 104815000.0,
+      "sourceIndividualPersons": 18361000.0,
+      "modelLegalPersons": 104814999.99999999,
+      "modelIndividualPersons": 18361000.0,
+      "pass": true
+    },
+    {
+      "check": "独立公报门类法人/个体按同一原法人权重分配",
+      "section": "D",
+      "sourceRow": [
+        "电力、热力、燃气及水生产和供应业",
+        "478.2",
+        "124.8",
+        "29.6",
+        "6.5"
+      ],
+      "codeCount": 3,
+      "sourceLegalPersons": 4782000.0,
+      "sourceIndividualPersons": 296000.0,
+      "modelLegalPersons": 4782000.0,
+      "modelIndividualPersons": 296000.0,
+      "pass": true
+    },
+    {
+      "check": "独立公报门类法人/个体按同一原法人权重分配",
+      "section": "E",
+      "sourceRow": [
+        "建筑业",
+        "5117.2",
+        "990.1",
+        "961.8",
+        "194.7"
+      ],
+      "codeCount": 4,
+      "sourceLegalPersons": 51172000.0,
+      "sourceIndividualPersons": 9618000.0,
+      "modelLegalPersons": 51172000.00000001,
+      "modelIndividualPersons": 9618000.0,
+      "pass": true
+    },
+    {
+      "check": "独立公报门类法人/个体按同一原法人权重分配",
+      "section": "F",
+      "sourceRow": [
+        "批发和零售业",
+        "5325.8",
+        "2373.3",
+        "8224.1",
+        "4186.0"
+      ],
+      "codeCount": 2,
+      "sourceLegalPersons": 53258000.0,
+      "sourceIndividualPersons": 82241000.0,
+      "modelLegalPersons": 53258000.0,
+      "modelIndividualPersons": 82241000.0,
+      "pass": true
+    },
+    {
+      "check": "独立公报门类法人/个体按同一原法人权重分配",
+      "section": "G",
+      "sourceRow": [
+        "交通运输、仓储和邮政业",
+        "1582.7",
+        "420.2",
+        "1272.7",
+        "256.4"
+      ],
+      "codeCount": 8,
+      "sourceLegalPersons": 15827000.0,
+      "sourceIndividualPersons": 12727000.0,
+      "modelLegalPersons": 15827000.0,
+      "modelIndividualPersons": 12727000.0,
+      "pass": true
+    },
+    {
+      "check": "独立公报门类法人/个体按同一原法人权重分配",
+      "section": "H",
+      "sourceRow": [
+        "住宿和餐饮业",
+        "894.2",
+        "506.4",
+        "2541.0",
+        "1412.2"
+      ],
+      "codeCount": 2,
+      "sourceLegalPersons": 8942000.0,
+      "sourceIndividualPersons": 25410000.0,
+      "modelLegalPersons": 8942000.0,
+      "modelIndividualPersons": 25409999.999999996,
+      "pass": true
+    },
+    {
+      "check": "独立公报门类法人/个体按同一原法人权重分配",
+      "section": "I",
+      "sourceRow": [
+        "信息传输、软件和信息技术服务业",
+        "1517.9",
+        "586.9",
+        "154.2",
+        "70.6"
+      ],
+      "codeCount": 3,
+      "sourceLegalPersons": 15179000.0,
+      "sourceIndividualPersons": 1542000.0,
+      "modelLegalPersons": 15179000.0,
+      "modelIndividualPersons": 1542000.0,
+      "pass": true
+    },
+    {
+      "check": "独立公报门类法人/个体按同一原法人权重分配",
+      "section": "J",
+      "sourceRow": [
+        "金融业",
+        "1248.4",
+        "691.8",
+        "-",
+        "-"
+      ],
+      "codeCount": 4,
+      "sourceLegalPersons": 12484000.0,
+      "sourceIndividualPersons": 0,
+      "modelLegalPersons": 12484000.0,
+      "modelIndividualPersons": 0.0,
+      "pass": true
+    },
+    {
+      "check": "独立公报门类法人/个体按同一原法人权重分配",
+      "section": "K",
+      "sourceRow": [
+        "房地产业",
+        "1443.5",
+        "637.3",
+        "76.4",
+        "36.3"
+      ],
+      "codeCount": 1,
+      "sourceLegalPersons": 14435000.0,
+      "sourceIndividualPersons": 764000.0,
+      "modelLegalPersons": 14435000.0,
+      "modelIndividualPersons": 764000.0,
+      "pass": true
+    },
+    {
+      "check": "独立公报门类法人/个体按同一原法人权重分配",
+      "section": "L",
+      "sourceRow": [
+        "租赁和商务服务业",
+        "3906.6",
+        "1463.1",
+        "501.6",
+        "181.8"
+      ],
+      "codeCount": 2,
+      "sourceLegalPersons": 39066000.0,
+      "sourceIndividualPersons": 5016000.0,
+      "modelLegalPersons": 39066000.0,
+      "modelIndividualPersons": 5016000.0,
+      "pass": true
+    },
+    {
+      "check": "独立公报门类法人/个体按同一原法人权重分配",
+      "section": "M",
+      "sourceRow": [
+        "科学研究和技术服务业",
+        "1700.3",
+        "609.2",
+        "111.7",
+        "41.2"
+      ],
+      "codeCount": 3,
+      "sourceLegalPersons": 17003000.0,
+      "sourceIndividualPersons": 1117000.0,
+      "modelLegalPersons": 17003000.0,
+      "modelIndividualPersons": 1117000.0,
+      "pass": true
+    },
+    {
+      "check": "独立公报门类法人/个体按同一原法人权重分配",
+      "section": "N",
+      "sourceRow": [
+        "水利、环境和公共设施管理业",
+        "485.5",
+        "200.5",
+        "52.0",
+        "23.0"
+      ],
+      "codeCount": 4,
+      "sourceLegalPersons": 4855000.0,
+      "sourceIndividualPersons": 520000.0,
+      "modelLegalPersons": 4855000.0,
+      "modelIndividualPersons": 520000.00000000006,
+      "pass": true
+    },
+    {
+      "check": "独立公报门类法人/个体按同一原法人权重分配",
+      "section": "O",
+      "sourceRow": [
+        "居民服务、修理和其他服务业",
+        "673.6",
+        "340.8",
+        "1497.4",
+        "787.6"
+      ],
+      "codeCount": 3,
+      "sourceLegalPersons": 6736000.0,
+      "sourceIndividualPersons": 14974000.0,
+      "modelLegalPersons": 6736000.0,
+      "modelIndividualPersons": 14974000.0,
+      "pass": true
+    },
+    {
+      "check": "独立公报门类法人/个体按同一原法人权重分配",
+      "section": "P",
+      "sourceRow": [
+        "教育",
+        "2677.0",
+        "1779.9",
+        "77.1",
+        "49.5"
+      ],
+      "codeCount": 1,
+      "sourceLegalPersons": 26770000.0,
+      "sourceIndividualPersons": 771000.0,
+      "modelLegalPersons": 26770000.0,
+      "modelIndividualPersons": 771000.0,
+      "pass": true
+    },
+    {
+      "check": "独立公报门类法人/个体按同一原法人权重分配",
+      "section": "Q",
+      "sourceRow": [
+        "卫生和社会工作",
+        "1461.9",
+        "1003.1",
+        "132.8",
+        "72.5"
+      ],
+      "codeCount": 2,
+      "sourceLegalPersons": 14619000.0,
+      "sourceIndividualPersons": 1328000.0,
+      "modelLegalPersons": 14619000.000000002,
+      "modelIndividualPersons": 1328000.0000000002,
+      "pass": true
+    },
+    {
+      "check": "独立公报门类法人/个体按同一原法人权重分配",
+      "section": "R",
+      "sourceRow": [
+        "文化、体育和娱乐业",
+        "519.5",
+        "247.4",
+        "273.4",
+        "144.6"
+      ],
+      "codeCount": 5,
+      "sourceLegalPersons": 5195000.0,
+      "sourceIndividualPersons": 2734000.0,
+      "modelLegalPersons": 5195000.0,
+      "modelIndividualPersons": 2734000.0,
+      "pass": true
+    },
+    {
+      "check": "独立公报门类法人/个体按同一原法人权重分配",
+      "section": "S",
+      "sourceRow": [
+        "公共管理、社会保障和社会组织",
+        "2781.1",
+        "994.3",
+        "-",
+        "-"
+      ],
+      "codeCount": 6,
+      "sourceLegalPersons": 27811000.0,
+      "sourceIndividualPersons": 0,
+      "modelLegalPersons": 27811000.0,
+      "modelIndividualPersons": 0.0,
+      "pass": true
+    },
+    {
+      "check": "三产业控制量守恒",
+      "year": 2021,
+      "sector": "secondary",
+      "sum": 217120000.00000003,
+      "expected": 217120000,
+      "pass": true
+    },
+    {
+      "check": "三产业控制量守恒",
+      "year": 2021,
+      "sector": "tertiary",
+      "sum": 358680000.0000001,
+      "expected": 358680000,
+      "pass": true
+    },
+    {
+      "check": "三产业控制量守恒",
+      "year": 2022,
+      "sector": "secondary",
+      "sum": 211050000.00000006,
+      "expected": 211050000,
+      "pass": true
+    },
+    {
+      "check": "三产业控制量守恒",
+      "year": 2022,
+      "sector": "tertiary",
+      "sum": 345830000.00000006,
+      "expected": 345830000,
+      "pass": true
+    },
+    {
+      "check": "三产业控制量守恒",
+      "year": 2023,
+      "sector": "secondary",
+      "sum": 215200000.0,
+      "expected": 215200000,
+      "pass": true
+    },
+    {
+      "check": "三产业控制量守恒",
+      "year": 2023,
+      "sector": "tertiary",
+      "sum": 356390000.00000006,
+      "expected": 356390000,
+      "pass": true
+    },
+    {
+      "check": "三产业控制量守恒",
+      "year": 2024,
+      "sector": "secondary",
+      "sum": 212750000.00000003,
+      "expected": 212750000,
+      "pass": true
+    },
+    {
+      "check": "三产业控制量守恒",
+      "year": 2024,
+      "sector": "tertiary",
+      "sum": 358660000.0,
+      "expected": 358660000,
+      "pass": true
+    },
+    {
+      "check": "三产业控制量守恒",
+      "year": 2025,
+      "sector": "secondary",
+      "sum": 205760000.00000003,
+      "expected": 205760000,
+      "pass": true
+    },
+    {
+      "check": "三产业控制量守恒",
+      "year": 2025,
+      "sector": "tertiary",
+      "sum": 357979999.99999994,
+      "expected": 357980000,
+      "pass": true
+    },
+    {
+      "check": "辅助/修理归第三产业，与公报2注释1核对",
+      "code": "11",
+      "value": "tertiary",
+      "pass": true
+    },
+    {
+      "check": "辅助/修理归第三产业，与公报2注释1核对",
+      "code": "43",
+      "value": "tertiary",
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "modelBoundaryExamples": [
+    {
+      "code": "53",
+      "individualPersonsAssigned": 1461471.3443354566,
+      "meaning": "个体就业按门类法人份额分配的假设结果，不是铁路个体就业官方观测"
+    }
+  ]
+}

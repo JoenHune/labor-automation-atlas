@@ -1,0 +1,127 @@
+- banner:
+  - img "U.S. flag"
+  - paragraph: An official website of the United States government
+  - navigation:
+    - link "homepage link":
+      - /url: https://www.bea.gov
+    - list:
+      - button "Data"
+      - link "Tools":
+        - /url: https://www.bea.gov/tools
+      - link "News":
+        - /url: https://www.bea.gov/news
+      - link "Research":
+        - /url: https://www.bea.gov/research
+      - link "Resources":
+        - /url: https://www.bea.gov/resources
+      - link "About":
+        - /url: https://www.bea.gov/about
+      - link "Help":
+        - /url: https://www.bea.gov/help
+    - search:
+      - searchbox "Search"
+      - button:
+        - generic: 
+- toolbar:
+  - link "National Data GDP & Personal Income":
+    - /url: https://www.bea.gov/itable/national-gdp-and-personal-income
+    - generic: National Data
+    - text: GDP & Personal Income
+  - link "National Data Fixed Assets":
+    - /url: https://www.bea.gov/itable/fixed-assets
+    - generic: National Data
+    - text: Fixed Assets
+  - link "Industry Data GDP-by-industry":
+    - /url: https://www.bea.gov/itable/gdp-by-industry
+    - generic: Industry Data
+    - text: GDP-by-industry
+  - link "Industry Data Input-Output":
+    - /url: https://www.bea.gov/itable/input-output
+    - generic: Industry Data
+    - text: Input-Output
+  - link "International Data Int'l Transactions, Services, & IIP":
+    - /url: https://www.bea.gov/itable/international-transactions-services-and-investment-position
+    - generic: International Data
+    - text: Int'l Transactions, Services, & IIP
+  - link "International Data Direct Investment & MNEs":
+    - /url: https://www.bea.gov/itable/direct-investment-multinational-enterprises
+    - generic: International Data
+    - text: Direct Investment & MNEs
+  - link "Regional Data GDP & Personal Income":
+    - /url: https://www.bea.gov/itable/regional-gdp-and-personal-income
+    - generic: Regional Data
+    - text: GDP & Personal Income
+- list:
+  - link "Home":
+    - /url: https://www.bea.gov
+  - text: "|"
+  - link "Tools":
+    - /url: https://www.bea.gov/tools
+  - listitem: "| Interactive Data Tables"
+- heading "Interactive Data" [level=1]
+- heading "Interactive Access to Input-Output Accounts Data" [level=3]
+- tablist:
+  - tab "Publication Category"
+  - tab "Input-Output"
+  - tab "File Download" [selected]
+- text: 
+- tabpanel:
+  - generic: Input-Output
+  - link "SUPPLY-USE":
+    - /url: /industry/release/zip/SUPPLY-USE.zip
+  - link "MAKE-USE-IMPORTS (BEFORE REDEFINITIONS)":
+    - /url: /industry/release/zip/MAKE-USE-IMPORTS (BEFORE REDEFINITIONS).zip
+  - link "TOTAL AND DOMESTIC REQUIREMENTS":
+    - /url: /industry/release/zip/TOTAL AND DOMESTIC REQUIREMENTS.zip
+  - text: Next Step
+  - generic: 
+- contentinfo:
+  - heading "Bureau of Economic Analysis 4600 Silver Hill Road • Suitland, MD 20746" [level=4]
+  - list:
+    - link "Contact Us":
+      - /url: //www.bea.gov/contact-us
+    - link "Working at BEA":
+      - /url: //www.bea.gov/about/working-at-bea
+    - link "Frequently Asked Questions":
+      - /url: //www.bea.gov/help/faq
+    - link "Our Policies":
+      - /url: //www.bea.gov/about/policies-and-information
+    - link "Privacy":
+      - /url: /privacy
+  - list:
+    - link "Commitment to Scientific Integrity":
+      - /url: //www.bea.gov/statement-commitment-scientific-integrity-principal-statistical-agencies
+    - link "Data Dissemination Practices":
+      - /url: //www.bea.gov/about/policies-and-information/data-dissemination
+    - link "Open Data":
+      - /url: //www.bea.gov/open-data
+    - link "USA.gov":
+      - /url: https://www.usa.gov/
+    - link "Business USA":
+      - /url: https://business.usa.gov
+    - link "No FEAR Act":
+      - /url: http://www.osec.doc.gov/ocr/nofear/nofear.htm
+    - link "FOIA":
+      - /url: https://www.commerce.gov/opog
+    - link "U.S. Department of Commerce":
+      - /url: https://www.commerce.gov/
+    - link "Emergency Status":
+      - /url: https://apps.bea.gov/status/
+  - list:
+    - link "The BEA Wire | BEA's Official Blog":
+      - /url: //www.bea.gov/news/blog
+    - link "News Release Feed (RSS)":
+      - /url: https://apps.bea.gov/rss/rss.xml
+    - link "Sign up for Email Notifications":
+      - /url: /_subscribe/
+  - link:
+    - /url: https://x.com/bea_news
+  - link:
+    - /url: https://www.linkedin.com/company/bureau-of-economic-analysis
+  - link:
+    - /url: https://www.youtube.com/channel/UCCP9QD1x_z__duUivA6Yb5w
+  - link:
+    - /url: https://www.instagram.com/usbeagov/
+  - link:
+    - /url: https://www.facebook.com/usbeagov
+- text:   

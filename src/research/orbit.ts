@@ -42,11 +42,13 @@ export function restoreOrbit(root:ScaleNode,query:URLSearchParams){
  const paths=expanded.map(id=>orbitPath(index,id))
  const common=paths.length?paths[0].filter((n,i)=>paths.every(p=>p[i]?.id===n.id)).at(-1)?.id:root.id
  const candidate=index.get(requested??common??root.id)
- const focus=candidate&&canDrill(candidate)?candidate.id:root.id
+ const employment=query.get('filter.analysis')==='employment'
+ const focus=candidate&&(canDrill(candidate)||(employment&&candidate.children.length))?candidate.id:root.id
  const detail=query.get('filter.orbitDetail')??query.get('filter.scaleDetail')??''
  const selected=index.get(detail)??orbitLayer(index.get(focus)!).sectors.find(n=>n.id===detail)
  // An old side panel may refer to a deeper branch. Restore it beside its actual parent.
  const parent=selected?.parentId?index.get(selected.parentId):undefined
+ if(employment&&selected&&parent)return {focus:parent.id,detail:selected.id}
  return {focus:parent&&canDrill(parent)?parent.id:focus,detail:selected&&parent&&canDrill(parent)?selected.id:''}
 }
 export function orbitShare(node:ScaleNode,total:ScaleNode){

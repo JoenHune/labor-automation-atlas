@@ -1,0 +1,6567 @@
+[
+  {
+    "country": "us",
+    "nodeId": "us-orbit-economy",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "全国经济",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "房地产及租赁业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "房地产增加值含自有住房估算租金；比率同时反映住房资产服务，不能归因为房地产雇员劳动效率。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate-bea-61",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "房地产（含住房服务）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "房地产增加值含自有住房估算租金；比率同时反映住房资产服务，不能归因为房地产雇员劳动效率。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate-bea-64",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "租赁服务及无形资产出租",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "政府",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-95",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "州和地方政府",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-90",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "联邦政府",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "制造业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-32",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "化学品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-26",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "食品、饮料与烟草制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-19",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "计算机与电子产品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-18",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "机械",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-22",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "其他运输设备",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-17",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "金属制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-31",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "石油与煤制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-21",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "汽车、车身、挂车与零部件",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-24",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "其他制造业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-33",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "塑料与橡胶制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-16",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "初级金属",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-15",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "非金属矿物制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-29",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "纸制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-20",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "电气设备、家电与零部件",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-14",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "木制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-30",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "印刷及相关支持",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-23",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "家具及相关产品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-27",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "纺织厂与纺织制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-28",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "服装、皮革及相关制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "专业、科学和技术服务业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-bea-69",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "其他专业、科学和技术服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-bea-68",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "计算机系统设计及相关服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-bea-67",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "法律服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "金融和保险业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-56",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "联储银行、信贷中介及相关活动",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-58",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "保险机构及相关活动",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-57",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "证券、商品合约与投资",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-59",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "基金、信托及其他金融工具",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "医疗保健和社会援助",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-77",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "门诊医疗服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-78",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "医院",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-79",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "护理与住宿照护设施",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-80",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "社会援助",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "零售业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-39",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "其他零售",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-36",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "汽车及零部件经销商",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-37",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "食品和饮料商店",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-38",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "综合商品商店",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "批发业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-naics-423",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "耐用品商人批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-naics-424",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "非耐用品商人批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-naics-425",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "电子批发市场、代理与经纪",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "信息业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-52",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "广播和电信",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-53",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "数据处理、互联网出版及其他信息服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-50",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "出版业（不含互联网，含软件）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-51",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "电影与录音",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "建筑业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-naics-236",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "房屋建筑",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-naics-237",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "重型与土木工程建筑",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-naics-238",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "专业承包工程",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-agriculture",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "农业、林业、渔业和狩猎业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "农业业主和部分农业雇员未包含在雇员岗位中；该比率不能代表全口径农业人均产出。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-agriculture-bea-4",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "农场（作物和畜牧）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "农业业主和部分农业雇员未包含在雇员岗位中；该比率不能代表全口径农业人均产出。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-agriculture-bea-5",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "林业、渔业及相关活动",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "农业业主和部分农业雇员未包含在雇员岗位中；该比率不能代表全口径农业人均产出。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-orbit-other",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "其余行业（未展开）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-unallocated",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-unallocated",
+    "year": 2021,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-orbit-economy",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "全国经济",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "房地产及租赁业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "房地产增加值含自有住房估算租金；比率同时反映住房资产服务，不能归因为房地产雇员劳动效率。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate-bea-61",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "房地产（含住房服务）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "房地产增加值含自有住房估算租金；比率同时反映住房资产服务，不能归因为房地产雇员劳动效率。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate-bea-64",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "租赁服务及无形资产出租",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "政府",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-95",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "州和地方政府",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-90",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "联邦政府",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "制造业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-32",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "化学品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-26",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "食品、饮料与烟草制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-19",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "计算机与电子产品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-31",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "石油与煤制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-17",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "金属制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-18",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "机械",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-21",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "汽车、车身、挂车与零部件",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-22",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "其他运输设备",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-24",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "其他制造业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-33",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "塑料与橡胶制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-16",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "初级金属",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-15",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "非金属矿物制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-29",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "纸制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-20",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "电气设备、家电与零部件",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-14",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "木制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-30",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "印刷及相关支持",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-23",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "家具及相关产品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-27",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "纺织厂与纺织制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-28",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "服装、皮革及相关制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "专业、科学和技术服务业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-bea-69",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "其他专业、科学和技术服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-bea-68",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "计算机系统设计及相关服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-bea-67",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "法律服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "金融和保险业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-56",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "联储银行、信贷中介及相关活动",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-58",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "保险机构及相关活动",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-57",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "证券、商品合约与投资",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-59",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "基金、信托及其他金融工具",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "医疗保健和社会援助",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-77",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "门诊医疗服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-78",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "医院",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-79",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "护理与住宿照护设施",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-80",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "社会援助",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "零售业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-39",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "其他零售",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-36",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "汽车及零部件经销商",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-37",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "食品和饮料商店",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-38",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "综合商品商店",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "批发业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-naics-423",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "耐用品商人批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-naics-424",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "非耐用品商人批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-naics-425",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "电子批发市场、代理与经纪",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "信息业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-52",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "广播和电信",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-53",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "数据处理、互联网出版及其他信息服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-50",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "出版业（不含互联网，含软件）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-51",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "电影与录音",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "建筑业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-naics-236",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "房屋建筑",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-naics-237",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "重型与土木工程建筑",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-naics-238",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "专业承包工程",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-agriculture",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "农业、林业、渔业和狩猎业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "农业业主和部分农业雇员未包含在雇员岗位中；该比率不能代表全口径农业人均产出。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-agriculture-bea-4",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "农场（作物和畜牧）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "农业业主和部分农业雇员未包含在雇员岗位中；该比率不能代表全口径农业人均产出。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-agriculture-bea-5",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "林业、渔业及相关活动",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "农业业主和部分农业雇员未包含在雇员岗位中；该比率不能代表全口径农业人均产出。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-orbit-other",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "其余行业（未展开）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-unallocated",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-unallocated",
+    "year": 2022,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-orbit-economy",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "全国经济",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "房地产及租赁业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "房地产增加值含自有住房估算租金；比率同时反映住房资产服务，不能归因为房地产雇员劳动效率。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate-bea-61",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "房地产（含住房服务）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "房地产增加值含自有住房估算租金；比率同时反映住房资产服务，不能归因为房地产雇员劳动效率。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate-bea-64",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "租赁服务及无形资产出租",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "政府",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-95",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "州和地方政府",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-90",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "联邦政府",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "制造业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-32",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "化学品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-26",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "食品、饮料与烟草制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-19",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "计算机与电子产品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-31",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "石油与煤制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-18",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "机械",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-22",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "其他运输设备",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-17",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "金属制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-21",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "汽车、车身、挂车与零部件",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-24",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "其他制造业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-33",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "塑料与橡胶制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-16",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "初级金属",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-20",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "电气设备、家电与零部件",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-15",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "非金属矿物制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-29",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "纸制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-14",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "木制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-30",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "印刷及相关支持",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-23",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "家具及相关产品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-27",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "纺织厂与纺织制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-28",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "服装、皮革及相关制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "专业、科学和技术服务业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-bea-69",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "其他专业、科学和技术服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-bea-68",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "计算机系统设计及相关服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-bea-67",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "法律服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "金融和保险业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-56",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "联储银行、信贷中介及相关活动",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-58",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "保险机构及相关活动",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-57",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "证券、商品合约与投资",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-59",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "基金、信托及其他金融工具",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "医疗保健和社会援助",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-77",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "门诊医疗服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-78",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "医院",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-80",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "社会援助",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-79",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "护理与住宿照护设施",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "零售业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-39",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "其他零售",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-36",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "汽车及零部件经销商",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-37",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "食品和饮料商店",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-38",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "综合商品商店",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "批发业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-naics-423",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "耐用品商人批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-naics-424",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "非耐用品商人批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-naics-425",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "电子批发市场、代理与经纪",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "信息业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-52",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "广播和电信",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-53",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "数据处理、互联网出版及其他信息服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-50",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "出版业（不含互联网，含软件）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-51",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "电影与录音",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "建筑业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-naics-236",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "房屋建筑",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-naics-237",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "重型与土木工程建筑",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-naics-238",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "专业承包工程",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-agriculture",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "农业、林业、渔业和狩猎业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "农业业主和部分农业雇员未包含在雇员岗位中；该比率不能代表全口径农业人均产出。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-agriculture-bea-4",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "农场（作物和畜牧）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "农业业主和部分农业雇员未包含在雇员岗位中；该比率不能代表全口径农业人均产出。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-agriculture-bea-5",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "林业、渔业及相关活动",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "农业业主和部分农业雇员未包含在雇员岗位中；该比率不能代表全口径农业人均产出。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-orbit-other",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "其余行业（未展开）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-unallocated",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-unallocated",
+    "year": 2023,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-orbit-economy",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "全国经济",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "房地产及租赁业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "房地产增加值含自有住房估算租金；比率同时反映住房资产服务，不能归因为房地产雇员劳动效率。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate-bea-61",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "房地产（含住房服务）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "房地产增加值含自有住房估算租金；比率同时反映住房资产服务，不能归因为房地产雇员劳动效率。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate-bea-62",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "住房服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "住房服务与其他房地产按核算活动拆分，531 岗位不能完整分配；自有住房虚拟服务没有可直接配对的雇员分母。",
+      "缺官方同分类就业，已用2017年房地产薪酬结构给出可复算估算。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate-uva-131",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "业主自住住房服务",
+    "status": "not-applicable",
+    "employmentAvailable": false,
+    "ratioAvailable": false,
+    "reason": [
+      "住房服务与其他房地产按核算活动拆分，531 岗位不能完整分配；自有住房虚拟服务没有可直接配对的雇员分母。"
+    ],
+    "denominator": null
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate-uva-132",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "出租住房服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "住房服务与其他房地产按核算活动拆分，531 岗位不能完整分配；自有住房虚拟服务没有可直接配对的雇员分母。",
+      "缺官方同分类就业，已用2017年房地产薪酬结构给出可复算估算。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate-bea-63",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其他房地产业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "住房服务与其他房地产按核算活动拆分，531 岗位不能完整分配；自有住房虚拟服务没有可直接配对的雇员分母。",
+      "缺官方同分类就业，已用2017年房地产薪酬结构给出可复算估算。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate-bea-64",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "租赁服务及无形资产出租",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "政府",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-95",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "州和地方政府",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-96",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "州与地方一般政府",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-uva-185",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "州与地方公立教育服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-uva-187",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "州与地方政府其他服务",
+    "status": "gap",
+    "employmentAvailable": false,
+    "ratioAvailable": false,
+    "reason": [
+      "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。"
+    ],
+    "denominator": null
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-uva-186",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "州与地方公立医院及医疗服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。",
+      "采用Census医院及卫生功能3月岗位作代理；其时点与BEA核算调整不完全一致，不能与年均NIPA或QCEW人数混排。"
+    ],
+    "denominator": "census-government-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-97",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "州与地方政府企业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-90",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "联邦政府",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-91",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "联邦一般政府",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-92",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "国防",
+    "status": "gap",
+    "employmentAvailable": false,
+    "ratioAvailable": false,
+    "reason": [
+      "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。"
+    ],
+    "denominator": null
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-93",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "非国防",
+    "status": "gap",
+    "employmentAvailable": false,
+    "ratioAvailable": false,
+    "reason": [
+      "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。"
+    ],
+    "denominator": null
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-94",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "联邦政府企业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "制造业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-32",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "化学品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-69",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "药品与医药制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-67",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "基础化学品制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-70",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其他化学品制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-68",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "树脂、橡胶与人造纤维制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-26",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "食品、饮料与烟草制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-58",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "食品制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-59",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "饮料制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-60",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "烟草制品制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-19",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "计算机与电子产品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-41",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "导航、测量、医用电子及控制仪器制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-40",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "半导体与其他电子元件制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-38",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "计算机及外围设备制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-39",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "通信设备制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-42",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其他计算机与电子产品制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-18",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "机械",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-36",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其他机械制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-34",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "建筑机械制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-33",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "农业机械制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-35",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "采矿与油气田机械制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-22",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其他运输设备",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-50",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "航空航天产品与零部件制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-51",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其余交通运输设备制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-31",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "石油与煤制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-17",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "金属制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-21",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "汽车、车身、挂车与零部件",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-48",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "汽车车身、挂车与零部件制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-46",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "轻型卡车与多用途车辆制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 336110 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-45",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "轿车制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 336110 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-47",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "重型卡车制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-24",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其他制造业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-54",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "医疗设备与用品制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-55",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其他杂项制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-33",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "塑料与橡胶制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-20",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "电气设备、家电与零部件",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-15",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "非金属矿物制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-16",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "初级金属",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-29",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "钢铁冶炼与购入钢材加工",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-30",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "有色金属生产加工与铸造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-29",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "纸制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-14",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "木制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-30",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "印刷及相关支持",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-23",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "家具及相关产品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-27",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "纺织厂与纺织制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-28",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "服装、皮革及相关制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "专业、科学和技术服务业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-bea-69",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其他专业、科学和技术服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-uva-142",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "管理、科学与技术咨询",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-uva-141",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "建筑、工程及相关专业服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-uva-143",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "科学研发服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-uva-145",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "专业设计及其他专业科技服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-uva-140",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "会计、报税、记账与工资服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-uva-144",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "广告、公关及相关服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-bea-68",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "计算机系统设计及相关服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-bea-67",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "法律服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "金融和保险业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-56",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "联储银行、信贷中介及相关活动",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-58",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "保险机构及相关活动",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-uva-125",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其他保险承保",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-uva-126",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "保险代理、经纪与相关服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-uva-124",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "直接人寿保险",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-57",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "证券、商品合约与投资",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-59",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "基金、信托及其他金融工具",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "医疗保健和社会援助",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-77",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "门诊医疗服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-uva-157",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "医师诊所",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-uva-161",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其他门诊医疗服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-uva-160",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "门诊护理中心",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-uva-159",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其他健康从业者诊所",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-uva-158",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "牙医诊所",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-78",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "医院",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-80",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "社会援助",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-79",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "护理与住宿照护设施",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "零售业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-39",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其他零售",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-uva-93",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "无店铺零售",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 441227,441330,441340,444140,444180,444230,444240,445131,445240,445250,445298,445320,449110,449121,449122,449129,449210,455110,455211,455219,456110,456120,456130,456191,456199,458110,458210,458310,458320,459110,459120,459130,459140,459210,459310,459410,459420,459510,459910,459920,459991,459999 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-uva-94",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其余零售",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 449110,449121,449122,449129,449210,455219,459110,459120,459130,459140,459210,459310,459410,459420,459510,459910,459920,459991,459999 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-uva-89",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "建材、园艺设备与用品零售",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 444140,444180,444230,444240 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-uva-90",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "健康与个人护理用品零售",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 456110,456120,456130,456191,456199 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-uva-91",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "加油站",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-uva-92",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "服装与配饰零售",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 458110,458210,458310,458320 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-36",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "汽车及零部件经销商",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-37",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "食品和饮料商店",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-38",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "综合商品商店",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "批发业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-81",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其他非耐用品批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-77",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其他耐用品批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-75",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "家电、电气与电子产品批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-74",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "专业与商业设备及用品批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-78",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "药品及相关用品批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-76",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "机械设备及用品批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-80",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "石油及石油产品批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-79",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "食品及相关产品批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-73",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "汽车、汽车零部件及用品批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-83",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "海关关税（BEA 批发业核算项）",
+    "status": "not-applicable",
+    "employmentAvailable": false,
+    "ratioAvailable": false,
+    "reason": [
+      "关税是核算调整项，不是有独立就业的经营行业；就业和人均增加值不适用，不能填0后相除。"
+    ],
+    "denominator": null
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-82",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "批发电子市场、代理与经纪",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "信息业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-53",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "数据处理、互联网出版及其他信息服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-uva-117",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "数据处理、托管与相关服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-uva-118",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其他信息服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 513110,513120,513130,513140,513191,513199,516210 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-52",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "广播和电信",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-uva-113",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "有线电信运营",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-uva-114",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "无线电信运营（卫星除外）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 517122 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-uva-112",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "广播电视（互联网除外）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 516210 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-uva-115",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其他电信（含卫星）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 517122 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-50",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "出版业（不含互联网，含软件）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-uva-109",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "软件出版",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-uva-108",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "报纸、期刊、图书与目录出版",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 513110,513120,513130,513140,513191,513199 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-51",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "电影与录音",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "建筑业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-uva-19",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其他住宅建设",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "BEA 对照列为 23*，非可直接相配的 NAICS 就业行业；不能按增加值份额推算就业。",
+      "已检查2022建筑经济普查BASIC/KOB/LOCCONS/VALCON表目录和调查说明：就业及工时按雇主行业，工程类型公布业务额；未取得工程类型×就业/工时分配矩阵。Construction Spending排除维修维护，不能据此覆盖本图8类活动。",
+      "缺官方同分类就业，已用2017年建筑薪酬结构给出可复算估算。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-uva-22",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "独户住宅建设",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "BEA 对照列为 23*，非可直接相配的 NAICS 就业行业；不能按增加值份额推算就业。",
+      "已检查2022建筑经济普查BASIC/KOB/LOCCONS/VALCON表目录和调查说明：就业及工时按雇主行业，工程类型公布业务额；未取得工程类型×就业/工时分配矩阵。Construction Spending排除维修维护，不能据此覆盖本图8类活动。",
+      "缺官方同分类就业，已用2017年建筑薪酬结构给出可复算估算。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-uva-20",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其他非住宅建筑",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "BEA 对照列为 23*，非可直接相配的 NAICS 就业行业；不能按增加值份额推算就业。",
+      "已检查2022建筑经济普查BASIC/KOB/LOCCONS/VALCON表目录和调查说明：就业及工时按雇主行业，工程类型公布业务额；未取得工程类型×就业/工时分配矩阵。Construction Spending排除维修维护，不能据此覆盖本图8类活动。",
+      "缺官方同分类就业，已用2017年建筑薪酬结构给出可复算估算。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-uva-17",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "建筑维修与维护",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "BEA 对照列为 23*，非可直接相配的 NAICS 就业行业；不能按增加值份额推算就业。",
+      "已检查2022建筑经济普查BASIC/KOB/LOCCONS/VALCON表目录和调查说明：就业及工时按雇主行业，工程类型公布业务额；未取得工程类型×就业/工时分配矩阵。Construction Spending排除维修维护，不能据此覆盖本图8类活动。",
+      "缺官方同分类就业，已用2017年建筑薪酬结构给出可复算估算。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-uva-16",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "教育、医院与医疗建筑",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "BEA 对照列为 23*，非可直接相配的 NAICS 就业行业；不能按增加值份额推算就业。",
+      "已检查2022建筑经济普查BASIC/KOB/LOCCONS/VALCON表目录和调查说明：就业及工时按雇主行业，工程类型公布业务额；未取得工程类型×就业/工时分配矩阵。Construction Spending排除维修维护，不能据此覆盖本图8类活动。",
+      "缺官方同分类就业，已用2017年建筑薪酬结构给出可复算估算。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-uva-18",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "办公与商业建筑",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "BEA 对照列为 23*，非可直接相配的 NAICS 就业行业；不能按增加值份额推算就业。",
+      "已检查2022建筑经济普查BASIC/KOB/LOCCONS/VALCON表目录和调查说明：就业及工时按雇主行业，工程类型公布业务额；未取得工程类型×就业/工时分配矩阵。Construction Spending排除维修维护，不能据此覆盖本图8类活动。",
+      "缺官方同分类就业，已用2017年建筑薪酬结构给出可复算估算。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-uva-23",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "交通设施、公路与街道建设",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "BEA 对照列为 23*，非可直接相配的 NAICS 就业行业；不能按增加值份额推算就业。",
+      "已检查2022建筑经济普查BASIC/KOB/LOCCONS/VALCON表目录和调查说明：就业及工时按雇主行业，工程类型公布业务额；未取得工程类型×就业/工时分配矩阵。Construction Spending排除维修维护，不能据此覆盖本图8类活动。",
+      "缺官方同分类就业，已用2017年建筑薪酬结构给出可复算估算。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-uva-21",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "电力与通信设施建设",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "BEA 对照列为 23*，非可直接相配的 NAICS 就业行业；不能按增加值份额推算就业。",
+      "已检查2022建筑经济普查BASIC/KOB/LOCCONS/VALCON表目录和调查说明：就业及工时按雇主行业，工程类型公布业务额；未取得工程类型×就业/工时分配矩阵。Construction Spending排除维修维护，不能据此覆盖本图8类活动。",
+      "缺官方同分类就业，已用2017年建筑薪酬结构给出可复算估算。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-agriculture",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "农业、林业、渔业和狩猎业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "农业业主和部分农业雇员未包含在雇员岗位中；该比率不能代表全口径农业人均产出。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-agriculture-bea-4",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "农场（作物和畜牧）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "农业业主和部分农业雇员未包含在雇员岗位中；该比率不能代表全口径农业人均产出。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-agriculture-uva-6",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "畜牧业与水产养殖",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "农业业主和部分农业雇员未包含在雇员岗位中；该比率不能代表全口径农业人均产出。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-agriculture-uva-5",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "种植业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "农业业主和部分农业雇员未包含在雇员岗位中；该比率不能代表全口径农业人均产出。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-agriculture-bea-5",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "林业、渔业及相关活动",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "农业业主和部分农业雇员未包含在雇员岗位中；该比率不能代表全口径农业人均产出。"
+    ],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-orbit-other",
+    "year": 2024,
+    "basis": "annual-industry",
+    "name": "其余行业（未展开）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-orbit-economy",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "全国经济",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "房地产及租赁业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "房地产增加值含自有住房估算租金；比率同时反映住房资产服务，不能归因为房地产雇员劳动效率。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate-bea-61",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "房地产（含住房服务）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "房地产增加值含自有住房估算租金；比率同时反映住房资产服务，不能归因为房地产雇员劳动效率。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate-bea-62",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "住房服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "住房服务与其他房地产按核算活动拆分，531 岗位不能完整分配；自有住房虚拟服务没有可直接配对的雇员分母。",
+      "缺官方同分类就业，已用2017年房地产薪酬结构给出可复算估算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate-uva-131",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "业主自住住房服务",
+    "status": "not-applicable",
+    "employmentAvailable": false,
+    "ratioAvailable": false,
+    "reason": [
+      "住房服务与其他房地产按核算活动拆分，531 岗位不能完整分配；自有住房虚拟服务没有可直接配对的雇员分母。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": null
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate-uva-132",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "出租住房服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "住房服务与其他房地产按核算活动拆分，531 岗位不能完整分配；自有住房虚拟服务没有可直接配对的雇员分母。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "缺官方同分类就业，已用2017年房地产薪酬结构给出可复算估算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate-bea-63",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其他房地产业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "住房服务与其他房地产按核算活动拆分，531 岗位不能完整分配；自有住房虚拟服务没有可直接配对的雇员分母。",
+      "缺官方同分类就业，已用2017年房地产薪酬结构给出可复算估算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate-bea-64",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "租赁服务及无形资产出租",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "政府",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "政府 QCEW 分母仅覆盖文职雇员，缺军人及其他 BEA 覆盖调整；不要解释为全体政府从业人员效率。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-95",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "州和地方政府",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "政府 QCEW 分母仅覆盖文职雇员，缺军人及其他 BEA 覆盖调整；不要解释为全体政府从业人员效率。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-96",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "州与地方一般政府",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。",
+      "缺官方同分类就业，已用2024年政府文职就业结构给出可复算估算。",
+      "2025政府分母为QCEW覆盖文职岗位的估算分拆；军人未补，国防/非国防仍需文职明细来源。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-uva-185",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "州与地方公立教育服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "政府 QCEW 分母仅覆盖文职雇员，缺军人及其他 BEA 覆盖调整；不要解释为全体政府从业人员效率。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-uva-186",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "州与地方公立医院及医疗服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。",
+      "采用Census医院及卫生功能3月岗位作代理；其时点与BEA核算调整不完全一致，不能与年均NIPA或QCEW人数混排。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "census-government-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-uva-187",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "州与地方政府其他服务",
+    "status": "gap",
+    "employmentAvailable": false,
+    "ratioAvailable": false,
+    "reason": [
+      "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": null
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-97",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "州与地方政府企业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。",
+      "缺官方同分类就业，已用2024年政府文职就业结构给出可复算估算。",
+      "2025政府分母为QCEW覆盖文职岗位的估算分拆；军人未补，国防/非国防仍需文职明细来源。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-90",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "联邦政府",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "政府 QCEW 分母仅覆盖文职雇员，缺军人及其他 BEA 覆盖调整；不要解释为全体政府从业人员效率。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-91",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "联邦一般政府",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。",
+      "缺官方同分类就业，已用2024年政府文职就业结构给出可复算估算。",
+      "2025政府分母为QCEW覆盖文职岗位的估算分拆；军人未补，国防/非国防仍需文职明细来源。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-92",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "国防",
+    "status": "gap",
+    "employmentAvailable": false,
+    "ratioAvailable": false,
+    "reason": [
+      "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。"
+    ],
+    "denominator": null
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-93",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "非国防",
+    "status": "gap",
+    "employmentAvailable": false,
+    "ratioAvailable": false,
+    "reason": [
+      "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。"
+    ],
+    "denominator": null
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-94",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "联邦政府企业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "QCEW 按所有权与 NAICS，不能把一般政府/政府企业、国防/非国防及医疗等 BEA 核算拆分等同为相应 NAICS；待 BEA 对应就业细分。",
+      "缺官方同分类就业，已用2024年政府文职就业结构给出可复算估算。",
+      "2025政府分母为QCEW覆盖文职岗位的估算分拆；军人未补，国防/非国防仍需文职明细来源。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "制造业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-32",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "化学品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-67",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "基础化学品制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-68",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "树脂、橡胶与人造纤维制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-69",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "药品与医药制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-70",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其他化学品制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-26",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "食品、饮料与烟草制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-58",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "食品制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-59",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "饮料制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-60",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "烟草制品制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-19",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "计算机与电子产品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-38",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "计算机及外围设备制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-39",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "通信设备制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-40",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "半导体与其他电子元件制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-41",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "导航、测量、医用电子及控制仪器制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-42",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其他计算机与电子产品制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-22",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其他运输设备",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-50",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "航空航天产品与零部件制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-51",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其余交通运输设备制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-18",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "机械",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-33",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "农业机械制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-34",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "建筑机械制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-35",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "采矿与油气田机械制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-36",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其他机械制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-17",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "金属制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-21",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "汽车、车身、挂车与零部件",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-45",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "轿车制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 336110 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-46",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "轻型卡车与多用途车辆制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 336110 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-47",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "重型卡车制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-48",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "汽车车身、挂车与零部件制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-31",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "石油与煤制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-24",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其他制造业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-54",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "医疗设备与用品制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-55",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其他杂项制造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-33",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "塑料与橡胶制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-20",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "电气设备、家电与零部件",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-16",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "初级金属",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-29",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "钢铁冶炼与购入钢材加工",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-uva-30",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "有色金属生产加工与铸造",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-15",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "非金属矿物制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-29",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "纸制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-14",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "木制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-30",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "印刷及相关支持",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-23",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "家具及相关产品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-27",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "纺织厂与纺织制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-28",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "服装、皮革及相关制品",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "专业、科学和技术服务业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-bea-69",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其他专业、科学和技术服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-uva-140",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "会计、报税、记账与工资服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-uva-141",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "建筑、工程及相关专业服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-uva-142",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "管理、科学与技术咨询",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-uva-143",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "科学研发服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-uva-144",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "广告、公关及相关服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-uva-145",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "专业设计及其他专业科技服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-bea-68",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "计算机系统设计及相关服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-bea-67",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "法律服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "金融和保险业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-56",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "联储银行、信贷中介及相关活动",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-58",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "保险机构及相关活动",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-uva-124",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "直接人寿保险",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-uva-125",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其他保险承保",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-uva-126",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "保险代理、经纪与相关服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-57",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "证券、商品合约与投资",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-59",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "基金、信托及其他金融工具",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "医疗保健和社会援助",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-77",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "门诊医疗服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-uva-157",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "医师诊所",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-uva-158",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "牙医诊所",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-uva-159",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其他健康从业者诊所",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-uva-160",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "门诊护理中心",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-uva-161",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其他门诊医疗服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-78",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "医院",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-80",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "社会援助",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-79",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "护理与住宿照护设施",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "零售业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-39",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其他零售",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 441227,441330,441340,445131,445240,445250,445298,445320,455110,455211,455219 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-uva-89",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "建材、园艺设备与用品零售",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 444140,444180,444230,444240 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-uva-90",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "健康与个人护理用品零售",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 456110,456120,456130,456191,456199 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-uva-91",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "加油站",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-uva-92",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "服装与配饰零售",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 458110,458210,458310,458320 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-uva-93",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "无店铺零售",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 441227,441330,441340,444140,444180,444230,444240,445131,445240,445250,445298,445320,449110,449121,449122,449129,449210,455110,455211,455219,456110,456120,456130,456191,456199,458110,458210,458310,458320,459110,459120,459130,459140,459210,459310,459410,459420,459510,459910,459920,459991,459999 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-uva-94",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其余零售",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 449110,449121,449122,449129,449210,455219,459110,459120,459130,459140,459210,459310,459410,459420,459510,459910,459920,459991,459999 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-36",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "汽车及零部件经销商",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 441227,441330,441340 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-37",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "食品和饮料商店",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 445131,445240,445250,445298,445320 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-38",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "综合商品商店",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 455110,455211,455219 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "批发业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-73",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "汽车、汽车零部件及用品批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-74",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "专业与商业设备及用品批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-75",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "家电、电气与电子产品批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-76",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "机械设备及用品批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-77",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其他耐用品批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-78",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "药品及相关用品批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-79",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "食品及相关产品批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-80",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "石油及石油产品批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-81",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其他非耐用品批发",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-82",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "批发电子市场、代理与经纪",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-uva-83",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "海关关税（BEA 批发业核算项）",
+    "status": "not-applicable",
+    "employmentAvailable": false,
+    "ratioAvailable": false,
+    "reason": [
+      "关税是核算调整项，不是有独立就业的经营行业；就业和人均增加值不适用，不能填0后相除。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": null
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "信息业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-53",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "数据处理、互联网出版及其他信息服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 513110,513120,513130,513140,513191,513199,516210 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-uva-117",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "数据处理、托管与相关服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-uva-118",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其他信息服务",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 513110,513120,513130,513140,513191,513199,516210 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-52",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "广播和电信",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 516210 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-uva-112",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "广播电视（互联网除外）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 516210 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-uva-113",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "有线电信运营",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-uva-114",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "无线电信运营（卫星除外）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 517122 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-uva-115",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其他电信（含卫星）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 517122 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-50",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "出版业（不含互联网，含软件）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 513110,513120,513130,513140,513191,513199 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-uva-108",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "报纸、期刊、图书与目录出版",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "2017→2022 分类拆并不能无权重精确对应；新分类 513110,513120,513130,513140,513191,513199 混入节点之外的旧分类。需要桥接权重，不能仅凭同名或相似代码相除。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "已补显式模型；旧分类分拆的官方就业观测仍缺。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-uva-109",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "软件出版",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-51",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "电影与录音",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "建筑业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-uva-16",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "教育、医院与医疗建筑",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "BEA 对照列为 23*，非可直接相配的 NAICS 就业行业；不能按增加值份额推算就业。",
+      "已检查2022建筑经济普查BASIC/KOB/LOCCONS/VALCON表目录和调查说明：就业及工时按雇主行业，工程类型公布业务额；未取得工程类型×就业/工时分配矩阵。Construction Spending排除维修维护，不能据此覆盖本图8类活动。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "缺官方同分类就业，已用2017年建筑薪酬结构给出可复算估算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-uva-17",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "建筑维修与维护",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "BEA 对照列为 23*，非可直接相配的 NAICS 就业行业；不能按增加值份额推算就业。",
+      "已检查2022建筑经济普查BASIC/KOB/LOCCONS/VALCON表目录和调查说明：就业及工时按雇主行业，工程类型公布业务额；未取得工程类型×就业/工时分配矩阵。Construction Spending排除维修维护，不能据此覆盖本图8类活动。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "缺官方同分类就业，已用2017年建筑薪酬结构给出可复算估算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-uva-18",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "办公与商业建筑",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "BEA 对照列为 23*，非可直接相配的 NAICS 就业行业；不能按增加值份额推算就业。",
+      "已检查2022建筑经济普查BASIC/KOB/LOCCONS/VALCON表目录和调查说明：就业及工时按雇主行业，工程类型公布业务额；未取得工程类型×就业/工时分配矩阵。Construction Spending排除维修维护，不能据此覆盖本图8类活动。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "缺官方同分类就业，已用2017年建筑薪酬结构给出可复算估算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-uva-19",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其他住宅建设",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "BEA 对照列为 23*，非可直接相配的 NAICS 就业行业；不能按增加值份额推算就业。",
+      "已检查2022建筑经济普查BASIC/KOB/LOCCONS/VALCON表目录和调查说明：就业及工时按雇主行业，工程类型公布业务额；未取得工程类型×就业/工时分配矩阵。Construction Spending排除维修维护，不能据此覆盖本图8类活动。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "缺官方同分类就业，已用2017年建筑薪酬结构给出可复算估算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-uva-20",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其他非住宅建筑",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "BEA 对照列为 23*，非可直接相配的 NAICS 就业行业；不能按增加值份额推算就业。",
+      "已检查2022建筑经济普查BASIC/KOB/LOCCONS/VALCON表目录和调查说明：就业及工时按雇主行业，工程类型公布业务额；未取得工程类型×就业/工时分配矩阵。Construction Spending排除维修维护，不能据此覆盖本图8类活动。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "缺官方同分类就业，已用2017年建筑薪酬结构给出可复算估算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-uva-21",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "电力与通信设施建设",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "BEA 对照列为 23*，非可直接相配的 NAICS 就业行业；不能按增加值份额推算就业。",
+      "已检查2022建筑经济普查BASIC/KOB/LOCCONS/VALCON表目录和调查说明：就业及工时按雇主行业，工程类型公布业务额；未取得工程类型×就业/工时分配矩阵。Construction Spending排除维修维护，不能据此覆盖本图8类活动。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "缺官方同分类就业，已用2017年建筑薪酬结构给出可复算估算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-uva-22",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "独户住宅建设",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "BEA 对照列为 23*，非可直接相配的 NAICS 就业行业；不能按增加值份额推算就业。",
+      "已检查2022建筑经济普查BASIC/KOB/LOCCONS/VALCON表目录和调查说明：就业及工时按雇主行业，工程类型公布业务额；未取得工程类型×就业/工时分配矩阵。Construction Spending排除维修维护，不能据此覆盖本图8类活动。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "缺官方同分类就业，已用2017年建筑薪酬结构给出可复算估算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-uva-23",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "交通设施、公路与街道建设",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "BEA 对照列为 23*，非可直接相配的 NAICS 就业行业；不能按增加值份额推算就业。",
+      "已检查2022建筑经济普查BASIC/KOB/LOCCONS/VALCON表目录和调查说明：就业及工时按雇主行业，工程类型公布业务额；未取得工程类型×就业/工时分配矩阵。Construction Spending排除维修维护，不能据此覆盖本图8类活动。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。",
+      "缺官方同分类就业，已用2017年建筑薪酬结构给出可复算估算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-agriculture",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "农业、林业、渔业和狩猎业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "农业业主和部分农业雇员未包含在雇员岗位中；该比率不能代表全口径农业人均产出。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-agriculture-bea-4",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "农场（作物和畜牧）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "农业业主和部分农业雇员未包含在雇员岗位中；该比率不能代表全口径农业人均产出。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-agriculture-uva-5",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "种植业",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "农业业主和部分农业雇员未包含在雇员岗位中；该比率不能代表全口径农业人均产出。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-agriculture-uva-6",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "畜牧业与水产养殖",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": false,
+    "reason": [
+      "农业业主和部分农业雇员未包含在雇员岗位中；该比率不能代表全口径农业人均产出。",
+      "所选年份的该细分现价增加值未发布/未取得；即便有就业也不借用另一年产出计算。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-agriculture-bea-5",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "林业、渔业及相关活动",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "农业业主和部分农业雇员未包含在雇员岗位中；该比率不能代表全口径农业人均产出。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-orbit-other",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "其余行业（未展开）",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "就业余项另含QCEW尚未分类的私营岗位（NAICS 99）；其行业归属未知，未分配给具名行业。该就业覆盖不能解释为恰好9个BEA行业的完整同口径人数。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-real-estate-bea-62-unallocated",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-government-bea-96-unallocated",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-32-unallocated",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-26-unallocated",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-19-unallocated",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-22-unallocated",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-18-unallocated",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-21-unallocated",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-24-unallocated",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-manufacturing-bea-16-unallocated",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-professional-bea-69-unallocated",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-finance-bea-58-unallocated",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-health-bea-77-unallocated",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-retail-bea-39-unallocated",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-wholesale-unallocated",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-53-unallocated",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-52-unallocated",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-information-bea-50-unallocated",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-construction-unallocated",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "covered-employee-jobs"
+  },
+  {
+    "country": "us",
+    "nodeId": "us-agriculture-bea-4-unallocated",
+    "year": 2025,
+    "basis": "annual-industry",
+    "name": "未分列规模",
+    "status": "available",
+    "employmentAvailable": true,
+    "ratioAvailable": true,
+    "reason": [
+      "全部父项金额尚未分列；就业沿用同范围父项，不分配给各个未知子项。"
+    ],
+    "denominator": "covered-employee-jobs"
+  }
+]

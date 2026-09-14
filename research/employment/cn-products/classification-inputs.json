@@ -1,0 +1,2027 @@
+{
+  "sourceId": "emp-cn-products-gb2017-annotations",
+  "records": [
+    {
+      "code": "011",
+      "name": "谷物种植",
+      "row": 6,
+      "codeColumn": "A"
+    },
+    {
+      "code": "012",
+      "name": "豆类、油料和薯类种植",
+      "row": 39,
+      "codeColumn": "A"
+    },
+    {
+      "code": "013",
+      "name": "棉、麻、糖、烟草种植",
+      "row": 75,
+      "codeColumn": "A"
+    },
+    {
+      "code": "014",
+      "name": "蔬菜、食用菌及园艺作物种植",
+      "row": 108,
+      "codeColumn": "A"
+    },
+    {
+      "code": "015",
+      "name": "水果种植",
+      "row": 169,
+      "codeColumn": "A"
+    },
+    {
+      "code": "016",
+      "name": "坚果、含油果、香料和饮料作物种植",
+      "row": 231,
+      "codeColumn": "A"
+    },
+    {
+      "code": "017",
+      "name": "中药材种植",
+      "row": 274,
+      "codeColumn": "A"
+    },
+    {
+      "code": "018",
+      "name": "草种植及割草",
+      "row": 284,
+      "codeColumn": "A"
+    },
+    {
+      "code": "019",
+      "name": "其他农业",
+      "row": 297,
+      "codeColumn": "A"
+    },
+    {
+      "code": "02",
+      "name": "林业",
+      "row": 306,
+      "codeColumn": "A"
+    },
+    {
+      "code": "031",
+      "name": "牲畜饲养",
+      "row": 397,
+      "codeColumn": "A"
+    },
+    {
+      "code": "032",
+      "name": "家禽饲养",
+      "row": 443,
+      "codeColumn": "A"
+    },
+    {
+      "code": "033",
+      "name": "狩猎和捕捉动物",
+      "row": 473,
+      "codeColumn": "A"
+    },
+    {
+      "code": "039",
+      "name": "其他畜牧业",
+      "row": 488,
+      "codeColumn": "A"
+    },
+    {
+      "code": "041",
+      "name": "水产养殖",
+      "row": 512,
+      "codeColumn": "A"
+    },
+    {
+      "code": "042",
+      "name": "水产捕捞",
+      "row": 542,
+      "codeColumn": "A"
+    },
+    {
+      "code": "05",
+      "name": "农、林、牧、渔专业及辅助性活动",
+      "row": 564,
+      "codeColumn": "A"
+    },
+    {
+      "code": "06",
+      "name": "煤炭开采和洗选业",
+      "row": 751,
+      "codeColumn": "A"
+    },
+    {
+      "code": "071",
+      "name": "石油开采",
+      "row": 795,
+      "codeColumn": "A"
+    },
+    {
+      "code": "072",
+      "name": "天然气开采",
+      "row": 824,
+      "codeColumn": "A"
+    },
+    {
+      "code": "08",
+      "name": "黑色金属矿采选业",
+      "row": 850,
+      "codeColumn": "A"
+    },
+    {
+      "code": "09",
+      "name": "有色金属矿采选业",
+      "row": 876,
+      "codeColumn": "A"
+    },
+    {
+      "code": "101",
+      "name": "土砂石开采",
+      "row": 997,
+      "codeColumn": "A"
+    },
+    {
+      "code": "102",
+      "name": "化学矿开采",
+      "row": 1044,
+      "codeColumn": "A"
+    },
+    {
+      "code": "103",
+      "name": "采盐",
+      "row": 1067,
+      "codeColumn": "A"
+    },
+    {
+      "code": "109",
+      "name": "石棉及其他非金属矿采选",
+      "row": 1077,
+      "codeColumn": "A"
+    },
+    {
+      "code": "11",
+      "name": "开采专业及辅助性活动",
+      "row": 1112,
+      "codeColumn": "A"
+    },
+    {
+      "code": "12",
+      "name": "其他采矿业",
+      "row": 1147,
+      "codeColumn": "A"
+    },
+    {
+      "code": "131",
+      "name": "谷物磨制",
+      "row": 1163,
+      "codeColumn": "A"
+    },
+    {
+      "code": "132",
+      "name": "饲料加工",
+      "row": 1214,
+      "codeColumn": "A"
+    },
+    {
+      "code": "133",
+      "name": "植物油加工",
+      "row": 1251,
+      "codeColumn": "A"
+    },
+    {
+      "code": "134",
+      "name": "制糖业",
+      "row": 1276,
+      "codeColumn": "A"
+    },
+    {
+      "code": "135",
+      "name": "屠宰及肉类加工",
+      "row": 1288,
+      "codeColumn": "A"
+    },
+    {
+      "code": "136",
+      "name": "水产品加工",
+      "row": 1361,
+      "codeColumn": "A"
+    },
+    {
+      "code": "137",
+      "name": "蔬菜、菌类、水果和坚果加工",
+      "row": 1399,
+      "codeColumn": "A"
+    },
+    {
+      "code": "139",
+      "name": "其他农副食品加工",
+      "row": 1446,
+      "codeColumn": "A"
+    },
+    {
+      "code": "141",
+      "name": "焙烤食品制造",
+      "row": 1477,
+      "codeColumn": "A"
+    },
+    {
+      "code": "142",
+      "name": "糖果、巧克力及蜜饯制造",
+      "row": 1494,
+      "codeColumn": "A"
+    },
+    {
+      "code": "143",
+      "name": "方便食品制造",
+      "row": 1516,
+      "codeColumn": "A"
+    },
+    {
+      "code": "144",
+      "name": "乳制品制造",
+      "row": 1550,
+      "codeColumn": "A"
+    },
+    {
+      "code": "145",
+      "name": "罐头食品制造",
+      "row": 1586,
+      "codeColumn": "A"
+    },
+    {
+      "code": "146",
+      "name": "调味品、发酵制品制造",
+      "row": 1624,
+      "codeColumn": "A"
+    },
+    {
+      "code": "149",
+      "name": "其他食品制造",
+      "row": 1661,
+      "codeColumn": "A"
+    },
+    {
+      "code": "151",
+      "name": "酒的制造",
+      "row": 1760,
+      "codeColumn": "A"
+    },
+    {
+      "code": "152",
+      "name": "饮料制造",
+      "row": 1824,
+      "codeColumn": "A"
+    },
+    {
+      "code": "153",
+      "name": "精制茶加工",
+      "row": 1886,
+      "codeColumn": "A"
+    },
+    {
+      "code": "16",
+      "name": "烟草制品业",
+      "row": 1894,
+      "codeColumn": "A"
+    },
+    {
+      "code": "171",
+      "name": "棉纺织及印染精加工",
+      "row": 1927,
+      "codeColumn": "A"
+    },
+    {
+      "code": "172",
+      "name": "毛纺织及染整精加工",
+      "row": 1967,
+      "codeColumn": "A"
+    },
+    {
+      "code": "173",
+      "name": "麻纺织及染整精加工",
+      "row": 2002,
+      "codeColumn": "A"
+    },
+    {
+      "code": "174",
+      "name": "丝绢纺织及印染精加工",
+      "row": 2030,
+      "codeColumn": "A"
+    },
+    {
+      "code": "175",
+      "name": "化纤织造及印染精加工",
+      "row": 2053,
+      "codeColumn": "A"
+    },
+    {
+      "code": "176",
+      "name": "针织或钩针编织物及其制品制造",
+      "row": 2069,
+      "codeColumn": "A"
+    },
+    {
+      "code": "177",
+      "name": "家用纺织制成品制造",
+      "row": 2128,
+      "codeColumn": "A"
+    },
+    {
+      "code": "178",
+      "name": "产业用纺织制成品制造",
+      "row": 2238,
+      "codeColumn": "A"
+    },
+    {
+      "code": "181",
+      "name": "机织服装制造",
+      "row": 2345,
+      "codeColumn": "A"
+    },
+    {
+      "code": "182",
+      "name": "针织或钩针编织服装制造",
+      "row": 2394,
+      "codeColumn": "A"
+    },
+    {
+      "code": "183",
+      "name": "服饰制造",
+      "row": 2456,
+      "codeColumn": "A"
+    },
+    {
+      "code": "191",
+      "name": "皮革鞣制加工",
+      "row": 2504,
+      "codeColumn": "A"
+    },
+    {
+      "code": "192",
+      "name": "皮革制品制造",
+      "row": 2514,
+      "codeColumn": "A"
+    },
+    {
+      "code": "193",
+      "name": "毛皮鞣制及制品加工",
+      "row": 2569,
+      "codeColumn": "A"
+    },
+    {
+      "code": "194",
+      "name": "羽毛（绒）加工及制品制造",
+      "row": 2596,
+      "codeColumn": "A"
+    },
+    {
+      "code": "195",
+      "name": "制鞋业",
+      "row": 2611,
+      "codeColumn": "A"
+    },
+    {
+      "code": "201",
+      "name": "木材加工",
+      "row": 2667,
+      "codeColumn": "A"
+    },
+    {
+      "code": "202",
+      "name": "人造板制造",
+      "row": 2705,
+      "codeColumn": "A"
+    },
+    {
+      "code": "203",
+      "name": "木质制品制造",
+      "row": 2732,
+      "codeColumn": "A"
+    },
+    {
+      "code": "204",
+      "name": "竹、藤、棕、草等制品制造",
+      "row": 2784,
+      "codeColumn": "A"
+    },
+    {
+      "code": "21",
+      "name": "家具制造业",
+      "row": 2831,
+      "codeColumn": "A"
+    },
+    {
+      "code": "221",
+      "name": "纸浆制造",
+      "row": 2908,
+      "codeColumn": "A"
+    },
+    {
+      "code": "222",
+      "name": "造纸",
+      "row": 2929,
+      "codeColumn": "A"
+    },
+    {
+      "code": "223",
+      "name": "纸制品制造",
+      "row": 2962,
+      "codeColumn": "A"
+    },
+    {
+      "code": "23",
+      "name": "印刷和记录媒介复制业",
+      "row": 2990,
+      "codeColumn": "A"
+    },
+    {
+      "code": "241",
+      "name": "文教办公用品制造",
+      "row": 3043,
+      "codeColumn": "A"
+    },
+    {
+      "code": "242",
+      "name": "乐器制造",
+      "row": 3126,
+      "codeColumn": "A"
+    },
+    {
+      "code": "243",
+      "name": "工艺美术及礼仪用品制造",
+      "row": 3158,
+      "codeColumn": "A"
+    },
+    {
+      "code": "244",
+      "name": "体育用品制造",
+      "row": 3321,
+      "codeColumn": "A"
+    },
+    {
+      "code": "245",
+      "name": "玩具制造",
+      "row": 3412,
+      "codeColumn": "A"
+    },
+    {
+      "code": "246",
+      "name": "游艺器材及娱乐用品制造",
+      "row": 3463,
+      "codeColumn": "A"
+    },
+    {
+      "code": "251",
+      "name": "精炼石油产品制造",
+      "row": 3491,
+      "codeColumn": "A"
+    },
+    {
+      "code": "252",
+      "name": "煤炭加工",
+      "row": 3516,
+      "codeColumn": "A"
+    },
+    {
+      "code": "253",
+      "name": "核燃料加工",
+      "row": 3558,
+      "codeColumn": "A"
+    },
+    {
+      "code": "254",
+      "name": "生物质燃料加工",
+      "row": 3571,
+      "codeColumn": "A"
+    },
+    {
+      "code": "261",
+      "name": "基础化学原料制造",
+      "row": 3593,
+      "codeColumn": "A"
+    },
+    {
+      "code": "262",
+      "name": "肥料制造",
+      "row": 3770,
+      "codeColumn": "A"
+    },
+    {
+      "code": "263",
+      "name": "农药制造",
+      "row": 3809,
+      "codeColumn": "A"
+    },
+    {
+      "code": "264",
+      "name": "涂料、油墨、颜料及类似产品制造",
+      "row": 3825,
+      "codeColumn": "A"
+    },
+    {
+      "code": "265",
+      "name": "合成材料制造",
+      "row": 3943,
+      "codeColumn": "A"
+    },
+    {
+      "code": "266",
+      "name": "专用化学产品制造",
+      "row": 4146,
+      "codeColumn": "A"
+    },
+    {
+      "code": "267",
+      "name": "炸药、火工及焰火产品制造",
+      "row": 4398,
+      "codeColumn": "A"
+    },
+    {
+      "code": "268",
+      "name": "日用化学产品制造",
+      "row": 4422,
+      "codeColumn": "A"
+    },
+    {
+      "code": "271",
+      "name": "化学药品原料药制造",
+      "row": 4478,
+      "codeColumn": "A"
+    },
+    {
+      "code": "272",
+      "name": "化学药品制剂制造",
+      "row": 4523,
+      "codeColumn": "A"
+    },
+    {
+      "code": "273",
+      "name": "中药饮片加工",
+      "row": 4548,
+      "codeColumn": "A"
+    },
+    {
+      "code": "274",
+      "name": "中成药生产",
+      "row": 4555,
+      "codeColumn": "A"
+    },
+    {
+      "code": "275",
+      "name": "兽用药品制造",
+      "row": 4574,
+      "codeColumn": "A"
+    },
+    {
+      "code": "276",
+      "name": "生物药品制品制造",
+      "row": 4597,
+      "codeColumn": "A"
+    },
+    {
+      "code": "277",
+      "name": "卫生材料及医药用品制造",
+      "row": 4667,
+      "codeColumn": "A"
+    },
+    {
+      "code": "278",
+      "name": "药用辅料及包装材料制造",
+      "row": 4718,
+      "codeColumn": "A"
+    },
+    {
+      "code": "28",
+      "name": "化学纤维制造业",
+      "row": 4735,
+      "codeColumn": "A"
+    },
+    {
+      "code": "2911",
+      "name": "轮胎制造",
+      "row": 4870,
+      "codeColumn": "B"
+    },
+    {
+      "code": "2912",
+      "name": "橡胶板、管、带制造",
+      "row": 4900,
+      "codeColumn": "B"
+    },
+    {
+      "code": "2913",
+      "name": "橡胶零件制造",
+      "row": 4922,
+      "codeColumn": "B"
+    },
+    {
+      "code": "2914",
+      "name": "再生橡胶制造",
+      "row": 4932,
+      "codeColumn": "B"
+    },
+    {
+      "code": "2915",
+      "name": "日用及医用橡胶制品制造",
+      "row": 4939,
+      "codeColumn": "B"
+    },
+    {
+      "code": "2916",
+      "name": "运动场地用塑胶制造",
+      "row": 4946,
+      "codeColumn": "B"
+    },
+    {
+      "code": "2919",
+      "name": "其他橡胶制品制造",
+      "row": 4952,
+      "codeColumn": "B"
+    },
+    {
+      "code": "2921",
+      "name": "塑料薄膜制造",
+      "row": 4971,
+      "codeColumn": "B"
+    },
+    {
+      "code": "2922",
+      "name": "塑料板、管、型材制造",
+      "row": 5020,
+      "codeColumn": "B"
+    },
+    {
+      "code": "2923",
+      "name": "塑料丝、绳及编织品制造",
+      "row": 5032,
+      "codeColumn": "B"
+    },
+    {
+      "code": "2924",
+      "name": "泡沫塑料制造",
+      "row": 5043,
+      "codeColumn": "B"
+    },
+    {
+      "code": "2925",
+      "name": "塑料人造革、合成革制造",
+      "row": 5051,
+      "codeColumn": "B"
+    },
+    {
+      "code": "2926",
+      "name": "塑料包装箱及容器制造",
+      "row": 5057,
+      "codeColumn": "B"
+    },
+    {
+      "code": "2927",
+      "name": "日用塑料制品制造",
+      "row": 5068,
+      "codeColumn": "B"
+    },
+    {
+      "code": "2928",
+      "name": "人造草坪制造",
+      "row": 5097,
+      "codeColumn": "B"
+    },
+    {
+      "code": "2929",
+      "name": "塑料零件及其他塑料制品制造",
+      "row": 5107,
+      "codeColumn": "B"
+    },
+    {
+      "code": "301",
+      "name": "水泥、石灰和石膏制造",
+      "row": 5129,
+      "codeColumn": "A"
+    },
+    {
+      "code": "302",
+      "name": "石膏、水泥制品及类似制品制造",
+      "row": 5148,
+      "codeColumn": "A"
+    },
+    {
+      "code": "303",
+      "name": "砖瓦、石材等建筑材料制造",
+      "row": 5259,
+      "codeColumn": "A"
+    },
+    {
+      "code": "304",
+      "name": "玻璃制造",
+      "row": 5375,
+      "codeColumn": "A"
+    },
+    {
+      "code": "305",
+      "name": "玻璃制品制造",
+      "row": 5423,
+      "codeColumn": "A"
+    },
+    {
+      "code": "306",
+      "name": "玻璃纤维和玻璃纤维增强塑料制品制造",
+      "row": 5529,
+      "codeColumn": "A"
+    },
+    {
+      "code": "3071",
+      "name": "建筑陶瓷制品制造",
+      "row": 5603,
+      "codeColumn": "B"
+    },
+    {
+      "code": "3072",
+      "name": "卫生陶瓷制品制造",
+      "row": 5618,
+      "codeColumn": "B"
+    },
+    {
+      "code": "3073",
+      "name": "特种陶瓷制品制造",
+      "row": 5631,
+      "codeColumn": "B"
+    },
+    {
+      "code": "3074",
+      "name": "日用陶瓷制品制造",
+      "row": 5714,
+      "codeColumn": "B"
+    },
+    {
+      "code": "3075",
+      "name": "陈设艺术陶瓷制造",
+      "row": 5723,
+      "codeColumn": "B"
+    },
+    {
+      "code": "3076",
+      "name": "园艺陶瓷制造",
+      "row": 5731,
+      "codeColumn": "B"
+    },
+    {
+      "code": "3079",
+      "name": "其他陶瓷制品制造",
+      "row": 5737,
+      "codeColumn": "B"
+    },
+    {
+      "code": "308",
+      "name": "耐火材料制品制造",
+      "row": 5746,
+      "codeColumn": "A"
+    },
+    {
+      "code": "309",
+      "name": "石墨及其他非金属矿物制品制造",
+      "row": 5794,
+      "codeColumn": "A"
+    },
+    {
+      "code": "311",
+      "name": "炼铁",
+      "row": 5912,
+      "codeColumn": "A"
+    },
+    {
+      "code": "312",
+      "name": "炼钢",
+      "row": 5923,
+      "codeColumn": "A"
+    },
+    {
+      "code": "313",
+      "name": "钢压延加工",
+      "row": 5946,
+      "codeColumn": "A"
+    },
+    {
+      "code": "314",
+      "name": "铁合金冶炼",
+      "row": 6166,
+      "codeColumn": "A"
+    },
+    {
+      "code": "321",
+      "name": "常用有色金属冶炼",
+      "row": 6179,
+      "codeColumn": "A"
+    },
+    {
+      "code": "322",
+      "name": "贵金属冶炼",
+      "row": 6251,
+      "codeColumn": "A"
+    },
+    {
+      "code": "323",
+      "name": "稀有稀土金属冶炼",
+      "row": 6278,
+      "codeColumn": "A"
+    },
+    {
+      "code": "324",
+      "name": "有色金属合金制造",
+      "row": 6319,
+      "codeColumn": "A"
+    },
+    {
+      "code": "3251",
+      "name": "铜压延加工",
+      "row": 6482,
+      "codeColumn": "B"
+    },
+    {
+      "code": "3252",
+      "name": "铝压延加工",
+      "row": 6499,
+      "codeColumn": "B"
+    },
+    {
+      "code": "3253",
+      "name": "贵金属压延加工",
+      "row": 6532,
+      "codeColumn": "B"
+    },
+    {
+      "code": "3254",
+      "name": "稀有稀土金属压延加工",
+      "row": 6555,
+      "codeColumn": "B"
+    },
+    {
+      "code": "3259",
+      "name": "其他有色金属压延加工",
+      "row": 6590,
+      "codeColumn": "B"
+    },
+    {
+      "code": "331",
+      "name": "结构性金属制品制造",
+      "row": 6638,
+      "codeColumn": "A"
+    },
+    {
+      "code": "332",
+      "name": "金属工具制造",
+      "row": 6678,
+      "codeColumn": "A"
+    },
+    {
+      "code": "333",
+      "name": "集装箱及金属包装容器制造",
+      "row": 6775,
+      "codeColumn": "A"
+    },
+    {
+      "code": "334",
+      "name": "金属丝绳及其制品制造",
+      "row": 6810,
+      "codeColumn": "A"
+    },
+    {
+      "code": "335",
+      "name": "建筑、安全用金属制品制造",
+      "row": 6855,
+      "codeColumn": "A"
+    },
+    {
+      "code": "336",
+      "name": "金属表面处理及热处理加工",
+      "row": 6892,
+      "codeColumn": "A"
+    },
+    {
+      "code": "337",
+      "name": "搪瓷制品制造",
+      "row": 6902,
+      "codeColumn": "A"
+    },
+    {
+      "code": "338",
+      "name": "金属制日用品制造",
+      "row": 6934,
+      "codeColumn": "A"
+    },
+    {
+      "code": "339",
+      "name": "铸造及其他金属制品制造",
+      "row": 6983,
+      "codeColumn": "A"
+    },
+    {
+      "code": "341",
+      "name": "锅炉及原动设备制造",
+      "row": 7149,
+      "codeColumn": "A"
+    },
+    {
+      "code": "342",
+      "name": "金属加工机械制造",
+      "row": 7269,
+      "codeColumn": "A"
+    },
+    {
+      "code": "343",
+      "name": "物料搬运设备制造",
+      "row": 7452,
+      "codeColumn": "A"
+    },
+    {
+      "code": "344",
+      "name": "泵、阀门、压缩机及类似机械制造",
+      "row": 7580,
+      "codeColumn": "A"
+    },
+    {
+      "code": "345",
+      "name": "轴承、齿轮和传动部件制造",
+      "row": 7675,
+      "codeColumn": "A"
+    },
+    {
+      "code": "346",
+      "name": "烘炉、风机、包装等设备制造",
+      "row": 7738,
+      "codeColumn": "A"
+    },
+    {
+      "code": "347",
+      "name": "文化、办公用机械制造",
+      "row": 7948,
+      "codeColumn": "A"
+    },
+    {
+      "code": "348",
+      "name": "通用零部件制造",
+      "row": 8036,
+      "codeColumn": "A"
+    },
+    {
+      "code": "349",
+      "name": "其他通用设备制造业",
+      "row": 8089,
+      "codeColumn": "A"
+    },
+    {
+      "code": "351",
+      "name": "采矿、冶金、建筑专用设备制造",
+      "row": 8174,
+      "codeColumn": "A"
+    },
+    {
+      "code": "352",
+      "name": "化工、木材、非金属加工专用设备制造",
+      "row": 8454,
+      "codeColumn": "A"
+    },
+    {
+      "code": "353",
+      "name": "食品、饮料、烟草及饲料生产专用设备制造",
+      "row": 8586,
+      "codeColumn": "A"
+    },
+    {
+      "code": "354",
+      "name": "印刷、制药、日化及日用品生产专用设备制造",
+      "row": 8709,
+      "codeColumn": "A"
+    },
+    {
+      "code": "355",
+      "name": "纺织、服装和皮革加工专用设备制造",
+      "row": 8838,
+      "codeColumn": "A"
+    },
+    {
+      "code": "356",
+      "name": "电子和电工机械专用设备制造",
+      "row": 8891,
+      "codeColumn": "A"
+    },
+    {
+      "code": "357",
+      "name": "农、林、牧、渔专用机械制造",
+      "row": 9050,
+      "codeColumn": "A"
+    },
+    {
+      "code": "358",
+      "name": "医疗仪器设备及器械制造",
+      "row": 9209,
+      "codeColumn": "A"
+    },
+    {
+      "code": "359",
+      "name": "环保、邮政、社会公共服务及其他专用设备制造",
+      "row": 9706,
+      "codeColumn": "A"
+    },
+    {
+      "code": "3611",
+      "name": "汽柴油车整车制造",
+      "row": 10112,
+      "codeColumn": "B"
+    },
+    {
+      "code": "3612",
+      "name": "新能源车整车制造",
+      "row": 10135,
+      "codeColumn": "B"
+    },
+    {
+      "code": "362",
+      "name": "汽车用发动机制造",
+      "row": 10156,
+      "codeColumn": "A"
+    },
+    {
+      "code": "363",
+      "name": "改装汽车制造",
+      "row": 10174,
+      "codeColumn": "A"
+    },
+    {
+      "code": "364",
+      "name": "低速汽车制造",
+      "row": 10191,
+      "codeColumn": "A"
+    },
+    {
+      "code": "365",
+      "name": "电车制造",
+      "row": 10197,
+      "codeColumn": "A"
+    },
+    {
+      "code": "366",
+      "name": "汽车车身、挂车制造",
+      "row": 10202,
+      "codeColumn": "A"
+    },
+    {
+      "code": "367",
+      "name": "汽车零部件及配件制造",
+      "row": 10215,
+      "codeColumn": "A"
+    },
+    {
+      "code": "371",
+      "name": "铁路运输设备制造",
+      "row": 10278,
+      "codeColumn": "A"
+    },
+    {
+      "code": "372",
+      "name": "城市轨道交通设备制造",
+      "row": 10434,
+      "codeColumn": "A"
+    },
+    {
+      "code": "373",
+      "name": "船舶及相关装置制造",
+      "row": 10441,
+      "codeColumn": "A"
+    },
+    {
+      "code": "374",
+      "name": "航空、航天器及设备制造",
+      "row": 10635,
+      "codeColumn": "A"
+    },
+    {
+      "code": "375",
+      "name": "摩托车制造",
+      "row": 10724,
+      "codeColumn": "A"
+    },
+    {
+      "code": "376",
+      "name": "自行车和残疾人座车制造",
+      "row": 10741,
+      "codeColumn": "A"
+    },
+    {
+      "code": "377",
+      "name": "助动车制造",
+      "row": 10758,
+      "codeColumn": "A"
+    },
+    {
+      "code": "378",
+      "name": "非公路休闲车及零配件制造",
+      "row": 10766,
+      "codeColumn": "A"
+    },
+    {
+      "code": "379",
+      "name": "潜水救捞及其他未列明运输设备制造",
+      "row": 10781,
+      "codeColumn": "A"
+    },
+    {
+      "code": "381",
+      "name": "电机制造",
+      "row": 10812,
+      "codeColumn": "A"
+    },
+    {
+      "code": "382",
+      "name": "输配电及控制设备制造",
+      "row": 10959,
+      "codeColumn": "A"
+    },
+    {
+      "code": "383",
+      "name": "电线、电缆、光缆及电工器材制造",
+      "row": 11106,
+      "codeColumn": "A"
+    },
+    {
+      "code": "384",
+      "name": "电池制造",
+      "row": 11188,
+      "codeColumn": "A"
+    },
+    {
+      "code": "385",
+      "name": "家用电力器具制造",
+      "row": 11274,
+      "codeColumn": "A"
+    },
+    {
+      "code": "386",
+      "name": "非电力家用器具制造",
+      "row": 11398,
+      "codeColumn": "A"
+    },
+    {
+      "code": "387",
+      "name": "照明器具制造",
+      "row": 11448,
+      "codeColumn": "A"
+    },
+    {
+      "code": "389",
+      "name": "其他电气机械及器材制造",
+      "row": 11542,
+      "codeColumn": "A"
+    },
+    {
+      "code": "3911",
+      "name": "计算机整机制造",
+      "row": 11600,
+      "codeColumn": "B"
+    },
+    {
+      "code": "3912",
+      "name": "计算机零部件制造",
+      "row": 11610,
+      "codeColumn": "B"
+    },
+    {
+      "code": "3913",
+      "name": "计算机外围设备制造",
+      "row": 11628,
+      "codeColumn": "B"
+    },
+    {
+      "code": "3914",
+      "name": "工业控制计算机及系统制造",
+      "row": 11648,
+      "codeColumn": "B"
+    },
+    {
+      "code": "3915",
+      "name": "信息安全设备制造",
+      "row": 11659,
+      "codeColumn": "B"
+    },
+    {
+      "code": "3919",
+      "name": "其他计算机制造",
+      "row": 11693,
+      "codeColumn": "B"
+    },
+    {
+      "code": "3921",
+      "name": "通信系统设备制造",
+      "row": 11737,
+      "codeColumn": "B"
+    },
+    {
+      "code": "3922",
+      "name": "通信终端设备制造",
+      "row": 11866,
+      "codeColumn": "B"
+    },
+    {
+      "code": "393",
+      "name": "广播电视设备制造",
+      "row": 11908,
+      "codeColumn": "A"
+    },
+    {
+      "code": "394",
+      "name": "雷达及配套设备制造",
+      "row": 11995,
+      "codeColumn": "A"
+    },
+    {
+      "code": "395",
+      "name": "非专业视听设备制造",
+      "row": 12007,
+      "codeColumn": "A"
+    },
+    {
+      "code": "396",
+      "name": "智能消费设备制造",
+      "row": 12059,
+      "codeColumn": "A"
+    },
+    {
+      "code": "397",
+      "name": "电子器件制造",
+      "row": 12170,
+      "codeColumn": "A"
+    },
+    {
+      "code": "398",
+      "name": "电子元件及电子专用材料制造",
+      "row": 12273,
+      "codeColumn": "A"
+    },
+    {
+      "code": "399",
+      "name": "其他电子设备制造",
+      "row": 12510,
+      "codeColumn": "A"
+    },
+    {
+      "code": "40",
+      "name": "仪器仪表制造业",
+      "row": 12530,
+      "codeColumn": "A"
+    },
+    {
+      "code": "41",
+      "name": "其他制造业",
+      "row": 13098,
+      "codeColumn": "A"
+    },
+    {
+      "code": "42",
+      "name": "废弃资源综合利用业",
+      "row": 13173,
+      "codeColumn": "A"
+    },
+    {
+      "code": "43",
+      "name": "金属制品、机械和设备修理业",
+      "row": 13214,
+      "codeColumn": "A"
+    },
+    {
+      "code": "4411",
+      "name": "火力发电",
+      "row": 13341,
+      "codeColumn": "B"
+    },
+    {
+      "code": "4412",
+      "name": "热电联产",
+      "row": 13354,
+      "codeColumn": "B"
+    },
+    {
+      "code": "4413",
+      "name": "水力发电",
+      "row": 13358,
+      "codeColumn": "B"
+    },
+    {
+      "code": "4414",
+      "name": "核力发电",
+      "row": 13363,
+      "codeColumn": "B"
+    },
+    {
+      "code": "4415",
+      "name": "风力发电",
+      "row": 13370,
+      "codeColumn": "B"
+    },
+    {
+      "code": "4416",
+      "name": "太阳能发电",
+      "row": 13382,
+      "codeColumn": "B"
+    },
+    {
+      "code": "4417",
+      "name": "生物质能发电",
+      "row": 13390,
+      "codeColumn": "B"
+    },
+    {
+      "code": "4419",
+      "name": "其他电力生产",
+      "row": 13398,
+      "codeColumn": "B"
+    },
+    {
+      "code": "442",
+      "name": "电力供应",
+      "row": 13415,
+      "codeColumn": "A"
+    },
+    {
+      "code": "443",
+      "name": "热力生产和供应",
+      "row": 13424,
+      "codeColumn": "A"
+    },
+    {
+      "code": "45",
+      "name": "燃气生产和供应业",
+      "row": 13434,
+      "codeColumn": "A"
+    },
+    {
+      "code": "46",
+      "name": "水的生产和供应业",
+      "row": 13473,
+      "codeColumn": "A"
+    },
+    {
+      "code": "471",
+      "name": "住宅房屋建筑",
+      "row": 13507,
+      "codeColumn": "A"
+    },
+    {
+      "code": "472",
+      "name": "体育场馆建筑",
+      "row": 13513,
+      "codeColumn": "A"
+    },
+    {
+      "code": "479",
+      "name": "其他房屋建筑业",
+      "row": 13519,
+      "codeColumn": "A"
+    },
+    {
+      "code": "481",
+      "name": "铁路、道路、隧道和桥梁工程建筑",
+      "row": 13531,
+      "codeColumn": "A"
+    },
+    {
+      "code": "482",
+      "name": "水利和水运工程建筑",
+      "row": 13591,
+      "codeColumn": "A"
+    },
+    {
+      "code": "483",
+      "name": "海洋工程建筑",
+      "row": 13618,
+      "codeColumn": "A"
+    },
+    {
+      "code": "484",
+      "name": "工矿工程建筑",
+      "row": 13664,
+      "codeColumn": "A"
+    },
+    {
+      "code": "485",
+      "name": "架线和管道工程建筑",
+      "row": 13682,
+      "codeColumn": "A"
+    },
+    {
+      "code": "486",
+      "name": "节能环保工程施工",
+      "row": 13714,
+      "codeColumn": "A"
+    },
+    {
+      "code": "487",
+      "name": "电力工程施工",
+      "row": 13754,
+      "codeColumn": "A"
+    },
+    {
+      "code": "489",
+      "name": "其他土木工程建筑",
+      "row": 13786,
+      "codeColumn": "A"
+    },
+    {
+      "code": "49",
+      "name": "建筑安装业",
+      "row": 13824,
+      "codeColumn": "A"
+    },
+    {
+      "code": "501",
+      "name": "建筑装饰和装修业",
+      "row": 13875,
+      "codeColumn": "A"
+    },
+    {
+      "code": "502",
+      "name": "建筑物拆除和场地准备活动",
+      "row": 13913,
+      "codeColumn": "A"
+    },
+    {
+      "code": "503",
+      "name": "提供施工设备服务",
+      "row": 13933,
+      "codeColumn": "A"
+    },
+    {
+      "code": "509",
+      "name": "其他未列明建筑业",
+      "row": 13941,
+      "codeColumn": "A"
+    },
+    {
+      "code": "51",
+      "name": "批发业",
+      "row": 13949,
+      "codeColumn": "A"
+    },
+    {
+      "code": "52",
+      "name": "零售业",
+      "row": 14711,
+      "codeColumn": "A"
+    },
+    {
+      "code": "531",
+      "name": "铁路旅客运输",
+      "row": 15279,
+      "codeColumn": "A"
+    },
+    {
+      "code": "532",
+      "name": "铁路货物运输",
+      "row": 15299,
+      "codeColumn": "A"
+    },
+    {
+      "code": "533",
+      "name": "铁路运输辅助活动",
+      "row": 15309,
+      "codeColumn": "A"
+    },
+    {
+      "code": "541",
+      "name": "城市公共交通运输",
+      "row": 15372,
+      "codeColumn": "A"
+    },
+    {
+      "code": "542",
+      "name": "公路旅客运输",
+      "row": 15414,
+      "codeColumn": "A"
+    },
+    {
+      "code": "543",
+      "name": "道路货物运输",
+      "row": 15440,
+      "codeColumn": "A"
+    },
+    {
+      "code": "544",
+      "name": "道路运输辅助活动",
+      "row": 15510,
+      "codeColumn": "A"
+    },
+    {
+      "code": "551",
+      "name": "水上旅客运输",
+      "row": 15552,
+      "codeColumn": "A"
+    },
+    {
+      "code": "552",
+      "name": "水上货物运输",
+      "row": 15584,
+      "codeColumn": "A"
+    },
+    {
+      "code": "553",
+      "name": "水上运输辅助活动",
+      "row": 15635,
+      "codeColumn": "A"
+    },
+    {
+      "code": "5611",
+      "name": "航空旅客运输",
+      "row": 15686,
+      "codeColumn": "B"
+    },
+    {
+      "code": "5612",
+      "name": "航空货物运输",
+      "row": 15694,
+      "codeColumn": "B"
+    },
+    {
+      "code": "562",
+      "name": "通用航空服务",
+      "row": 15703,
+      "codeColumn": "A"
+    },
+    {
+      "code": "563",
+      "name": "航空运输辅助活动",
+      "row": 15752,
+      "codeColumn": "A"
+    },
+    {
+      "code": "57",
+      "name": "管道运输业",
+      "row": 15803,
+      "codeColumn": "A"
+    },
+    {
+      "code": "58",
+      "name": "多式联运和运输代理业",
+      "row": 15821,
+      "codeColumn": "A"
+    },
+    {
+      "code": "591",
+      "name": "装卸搬运",
+      "row": 15858,
+      "codeColumn": "A"
+    },
+    {
+      "code": "592",
+      "name": "通用仓储",
+      "row": 15869,
+      "codeColumn": "A"
+    },
+    {
+      "code": "593",
+      "name": "低温仓储",
+      "row": 15880,
+      "codeColumn": "A"
+    },
+    {
+      "code": "594",
+      "name": "危险品仓储",
+      "row": 15885,
+      "codeColumn": "A"
+    },
+    {
+      "code": "595",
+      "name": "谷物、棉花等农产品仓储",
+      "row": 15900,
+      "codeColumn": "A"
+    },
+    {
+      "code": "596",
+      "name": "中药材仓储",
+      "row": 15921,
+      "codeColumn": "A"
+    },
+    {
+      "code": "599",
+      "name": "其他仓储业",
+      "row": 15926,
+      "codeColumn": "A"
+    },
+    {
+      "code": "60",
+      "name": "邮政业",
+      "row": 15930,
+      "codeColumn": "A"
+    },
+    {
+      "code": "61",
+      "name": "住宿业",
+      "row": 15966,
+      "codeColumn": "A"
+    },
+    {
+      "code": "62",
+      "name": "餐饮业",
+      "row": 16032,
+      "codeColumn": "A"
+    },
+    {
+      "code": "631",
+      "name": "电信",
+      "row": 16118,
+      "codeColumn": "A"
+    },
+    {
+      "code": "632",
+      "name": "广播电视传输服务",
+      "row": 16171,
+      "codeColumn": "A"
+    },
+    {
+      "code": "633",
+      "name": "卫星传输服务",
+      "row": 16214,
+      "codeColumn": "A"
+    },
+    {
+      "code": "64",
+      "name": "互联网和相关服务",
+      "row": 16240,
+      "codeColumn": "A"
+    },
+    {
+      "code": "651",
+      "name": "软件开发",
+      "row": 16466,
+      "codeColumn": "A"
+    },
+    {
+      "code": "652",
+      "name": "集成电路设计",
+      "row": 16558,
+      "codeColumn": "A"
+    },
+    {
+      "code": "653",
+      "name": "信息系统集成和物联网技术服务",
+      "row": 16572,
+      "codeColumn": "A"
+    },
+    {
+      "code": "654",
+      "name": "运行维护服务",
+      "row": 16604,
+      "codeColumn": "A"
+    },
+    {
+      "code": "655",
+      "name": "信息处理和存储支持服务",
+      "row": 16611,
+      "codeColumn": "A"
+    },
+    {
+      "code": "656",
+      "name": "信息技术咨询服务",
+      "row": 16632,
+      "codeColumn": "A"
+    },
+    {
+      "code": "657",
+      "name": "数字内容服务",
+      "row": 16646,
+      "codeColumn": "A"
+    },
+    {
+      "code": "659",
+      "name": "其他信息技术服务业",
+      "row": 16725,
+      "codeColumn": "A"
+    },
+    {
+      "code": "661",
+      "name": "中央银行服务",
+      "row": 16739,
+      "codeColumn": "A"
+    },
+    {
+      "code": "662",
+      "name": "货币银行服务",
+      "row": 16744,
+      "codeColumn": "A"
+    },
+    {
+      "code": "663",
+      "name": "非货币银行服务",
+      "row": 16767,
+      "codeColumn": "A"
+    },
+    {
+      "code": "664",
+      "name": "银行理财服务",
+      "row": 16829,
+      "codeColumn": "A"
+    },
+    {
+      "code": "665",
+      "name": "银行监管服务",
+      "row": 16837,
+      "codeColumn": "A"
+    },
+    {
+      "code": "67",
+      "name": "资本市场服务",
+      "row": 16842,
+      "codeColumn": "A"
+    },
+    {
+      "code": "68",
+      "name": "保险业",
+      "row": 16963,
+      "codeColumn": "A"
+    },
+    {
+      "code": "69",
+      "name": "其他金融业",
+      "row": 17065,
+      "codeColumn": "A"
+    },
+    {
+      "code": "70",
+      "name": "房地产业",
+      "row": 17152,
+      "codeColumn": "A"
+    },
+    {
+      "code": "71",
+      "name": "租赁业",
+      "row": 17248,
+      "codeColumn": "A"
+    },
+    {
+      "code": "721",
+      "name": "组织管理服务",
+      "row": 17376,
+      "codeColumn": "A"
+    },
+    {
+      "code": "722",
+      "name": "综合管理服务",
+      "row": 17481,
+      "codeColumn": "A"
+    },
+    {
+      "code": "723",
+      "name": "法律服务",
+      "row": 17572,
+      "codeColumn": "A"
+    },
+    {
+      "code": "724",
+      "name": "咨询与调查",
+      "row": 17606,
+      "codeColumn": "A"
+    },
+    {
+      "code": "725",
+      "name": "广告业",
+      "row": 17737,
+      "codeColumn": "A"
+    },
+    {
+      "code": "726",
+      "name": "人力资源服务",
+      "row": 17769,
+      "codeColumn": "A"
+    },
+    {
+      "code": "727",
+      "name": "安全保护服务",
+      "row": 17849,
+      "codeColumn": "A"
+    },
+    {
+      "code": "728",
+      "name": "会议、展览及相关服务",
+      "row": 17887,
+      "codeColumn": "A"
+    },
+    {
+      "code": "729",
+      "name": "其他商务服务业",
+      "row": 17944,
+      "codeColumn": "A"
+    },
+    {
+      "code": "73",
+      "name": "研究和试验发展",
+      "row": 18073,
+      "codeColumn": "A"
+    },
+    {
+      "code": "741",
+      "name": "气象服务",
+      "row": 18358,
+      "codeColumn": "A"
+    },
+    {
+      "code": "742",
+      "name": "地震服务",
+      "row": 18363,
+      "codeColumn": "A"
+    },
+    {
+      "code": "743",
+      "name": "海洋服务",
+      "row": 18370,
+      "codeColumn": "A"
+    },
+    {
+      "code": "744",
+      "name": "测绘地理信息服务",
+      "row": 18407,
+      "codeColumn": "A"
+    },
+    {
+      "code": "745",
+      "name": "质检技术服务",
+      "row": 18442,
+      "codeColumn": "A"
+    },
+    {
+      "code": "746",
+      "name": "环境与生态监测检测服务",
+      "row": 18535,
+      "codeColumn": "A"
+    },
+    {
+      "code": "747",
+      "name": "地质勘查",
+      "row": 18596,
+      "codeColumn": "A"
+    },
+    {
+      "code": "748",
+      "name": "工程技术与设计服务",
+      "row": 18653,
+      "codeColumn": "A"
+    },
+    {
+      "code": "749",
+      "name": "工业与专业设计及其他专业技术服务",
+      "row": 18815,
+      "codeColumn": "A"
+    },
+    {
+      "code": "751",
+      "name": "技术推广服务",
+      "row": 18877,
+      "codeColumn": "A"
+    },
+    {
+      "code": "752",
+      "name": "知识产权服务",
+      "row": 19090,
+      "codeColumn": "A"
+    },
+    {
+      "code": "753",
+      "name": "科技中介服务",
+      "row": 19123,
+      "codeColumn": "A"
+    },
+    {
+      "code": "754",
+      "name": "创业空间服务",
+      "row": 19138,
+      "codeColumn": "A"
+    },
+    {
+      "code": "759",
+      "name": "其他科技推广服务业",
+      "row": 19158,
+      "codeColumn": "A"
+    },
+    {
+      "code": "76",
+      "name": "水利管理业",
+      "row": 19168,
+      "codeColumn": "A"
+    },
+    {
+      "code": "77",
+      "name": "生态保护和环境治理业",
+      "row": 19222,
+      "codeColumn": "A"
+    },
+    {
+      "code": "78",
+      "name": "公共设施管理业",
+      "row": 19414,
+      "codeColumn": "A"
+    },
+    {
+      "code": "79",
+      "name": "土地管理业",
+      "row": 19553,
+      "codeColumn": "A"
+    },
+    {
+      "code": "80",
+      "name": "居民服务业",
+      "row": 19600,
+      "codeColumn": "A"
+    },
+    {
+      "code": "81",
+      "name": "机动车、电子产品和日用产品修理业",
+      "row": 19707,
+      "codeColumn": "A"
+    },
+    {
+      "code": "82",
+      "name": "其他服务业",
+      "row": 19828,
+      "codeColumn": "A"
+    },
+    {
+      "code": "83",
+      "name": "教育",
+      "row": 19894,
+      "codeColumn": "A"
+    },
+    {
+      "code": "84",
+      "name": "卫生",
+      "row": 20075,
+      "codeColumn": "A"
+    },
+    {
+      "code": "85",
+      "name": "社会工作",
+      "row": 20265,
+      "codeColumn": "A"
+    },
+    {
+      "code": "86",
+      "name": "新闻和出版业",
+      "row": 20363,
+      "codeColumn": "A"
+    },
+    {
+      "code": "87",
+      "name": "广播、电视、电影和录音制作业",
+      "row": 20477,
+      "codeColumn": "A"
+    },
+    {
+      "code": "88",
+      "name": "文化艺术业",
+      "row": 20640,
+      "codeColumn": "A"
+    },
+    {
+      "code": "89",
+      "name": "体育",
+      "row": 20790,
+      "codeColumn": "A"
+    },
+    {
+      "code": "90",
+      "name": "娱乐业",
+      "row": 20983,
+      "codeColumn": "A"
+    },
+    {
+      "code": "91",
+      "name": "中国共产党机关",
+      "row": 21150,
+      "codeColumn": "A"
+    },
+    {
+      "code": "92",
+      "name": "国家机构",
+      "row": 21155,
+      "codeColumn": "A"
+    },
+    {
+      "code": "93",
+      "name": "人民政协、民主党派",
+      "row": 21249,
+      "codeColumn": "A"
+    },
+    {
+      "code": "94",
+      "name": "社会保障",
+      "row": 21265,
+      "codeColumn": "A"
+    },
+    {
+      "code": "95",
+      "name": "群众团体、社会团体和其他成员组织",
+      "row": 21336,
+      "codeColumn": "A"
+    },
+    {
+      "code": "96",
+      "name": "基层群众自治组织",
+      "row": 21422,
+      "codeColumn": "A"
+    }
+  ]
+}

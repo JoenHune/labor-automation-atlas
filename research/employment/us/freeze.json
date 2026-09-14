@@ -1,0 +1,272 @@
+{
+  "version": "2026-09-14.us-employment-1",
+  "checkedAt": "2026-09-14",
+  "status": "ready-for-integration",
+  "scope": "美国505节点年，原件与研究数据冻结；无UI改动，无旧研究改动，无git提交。",
+  "summary": {
+    "checkedAt": "2026-09-14",
+    "nodeYears": 505,
+    "nodeIds": 171,
+    "employmentAvailable": 495,
+    "ratios": 400,
+    "byYear": {
+      "2021": {
+        "total": 65,
+        "employment": 65,
+        "ratio": 59
+      },
+      "2022": {
+        "total": 65,
+        "employment": 65,
+        "ratio": 59
+      },
+      "2023": {
+        "total": 65,
+        "employment": 65,
+        "ratio": 59
+      },
+      "2024": {
+        "total": 145,
+        "employment": 140,
+        "ratio": 140
+      },
+      "2025": {
+        "total": 165,
+        "employment": 160,
+        "ratio": 83
+      }
+    }
+  },
+  "tests": {
+    "validateEmployment": "passed 505 records",
+    "independentVerification": "validation.json passed",
+    "archiveRestoreCheck": "fetch.py passed without downloading or changing vintage"
+  },
+  "knownLimits": [
+    "10节点年无主就业：2024/2025各含自住住房与关税不适用、国防/非国防和州地方其他一般政府服务缺就业配对",
+    "美国主分母多数为雇员岗位，不能宣传完整去重自然人人均；历史业主和FTE作为参考",
+    "63节点年模型基期与薪酬/份额假设必须在网站就地显示",
+    "NIPA年度观测的月度均值处理未由当前手册明确，保留other并说明"
+  ],
+  "inventoryAtBuild": {
+    "path": "research/employment/node-inventory.json",
+    "sha256": "7b3379b4cbb5d7cc1e6035fd9ce13231b60611070db93b6e4e0fc48c523ea579"
+  },
+  "files": [
+    {
+      "path": "research/employment/us/adapt.py",
+      "bytes": 6255,
+      "sha256": "8d6a392cbb116d3dd5841e4e48a827e73f39029bde39f53743f5040cb5811898"
+    },
+    {
+      "path": "research/employment/us/add_models.py",
+      "bytes": 6641,
+      "sha256": "cf4267d6e3e91d663a1ecbae7ab49bd629b9cdf67bf103389dd1ff9e05fa5151"
+    },
+    {
+      "path": "research/employment/us/build.py",
+      "bytes": 34199,
+      "sha256": "560a22eb4abb4d72d2b24885fc0c2c55f5347a61d5593fcd0d54779d3ca6d1c6"
+    },
+    {
+      "path": "research/employment/us/coverage.json",
+      "bytes": 194755,
+      "sha256": "65001f4f67e0a1ef42cf553ef8191db98eb4ff1d45eae836859e8f1fb881a193"
+    },
+    {
+      "path": "research/employment/us/dataset.json",
+      "bytes": 4199320,
+      "sha256": "ebb3e3d5bb3880c28994ef3f295b5e37b0dc6c8c035e286d70cb892ca9ffbe9e"
+    },
+    {
+      "path": "research/employment/us/fetch.py",
+      "bytes": 1438,
+      "sha256": "f1c29882b28baa8d751122bcdfc67598695a76623275c088e81143fff4d2286d"
+    },
+    {
+      "path": "research/employment/us/mapping.json",
+      "bytes": 336654,
+      "sha256": "82474e0744a86e8863f730b6652f56488294539d16a02b41e722635665200352"
+    },
+    {
+      "path": "research/employment/us/methodology.md",
+      "bytes": 9368,
+      "sha256": "1c8f4d0cc1101b2f784193ec541fa0d1186c1004b418a99514a00a7b94245471"
+    },
+    {
+      "path": "research/employment/us/observations.json",
+      "bytes": 3797164,
+      "sha256": "ad4a0df46c7438427d926b991f0931dd19b21b05fb8e019c31fdca3452cf6ebd"
+    },
+    {
+      "path": "research/employment/us/originals/2022_to_2017_NAICS.xlsx",
+      "bytes": 61577,
+      "sha256": "76ed2d5bc8cd3443dc86f0c3225b83e6d187f3fc47d4c5696c911a3234f1716f"
+    },
+    {
+      "path": "research/employment/us/originals/ComponentsOfVA.xlsx",
+      "bytes": 224681,
+      "sha256": "428180994831044838f13e08e8a77044e63f360418959cf8c3b43e2364eef13e"
+    },
+    {
+      "path": "research/employment/us/originals/ComponentsOfVAAppendix.xlsx",
+      "bytes": 60514,
+      "sha256": "8c949b353a7008201287a83b9efd9f7b27b3de2342eaedffb63835065d32ae70"
+    },
+    {
+      "path": "research/employment/us/originals/ComponentsOfVaInfo.xlsx",
+      "bytes": 59221,
+      "sha256": "a3caba3f6cc33dcacac180e5c217990894479ff36be7989a63e6da15a9330873"
+    },
+    {
+      "path": "research/employment/us/originals/GS00EMP01/GS00EMP01.dat",
+      "bytes": 10491056,
+      "sha256": "38c318b9b5948ec41768a1b5da878cfe35aff3484231787be5bb9815e9b75129"
+    },
+    {
+      "path": "research/employment/us/originals/GS00EMP01/GS00EMP01_FIELDS.txt",
+      "bytes": 2561,
+      "sha256": "218561a1d0267dbddcf9355d7b71e670097af58a5948fdd70753cbb593e55f01"
+    },
+    {
+      "path": "research/employment/us/originals/GS00EMP01/GS00EMP01_README.txt",
+      "bytes": 294,
+      "sha256": "1711aa74d11a1bcee75e03aefce03db4f2ae5cd551271206d8335f9d7e3abf06"
+    },
+    {
+      "path": "research/employment/us/originals/GS00EMP01.zip",
+      "bytes": 2407799,
+      "sha256": "bd7f5399cf97a5628bdc51b8fc1a08491f40ecf4a0d9f8d2169824195f4fe695"
+    },
+    {
+      "path": "research/employment/us/originals/SUPPLY-USE.zip",
+      "bytes": 4791455,
+      "sha256": "ea81c1205ab824d9740695dc6242eba0315c009032b8a3853bef939a0469dc2c"
+    },
+    {
+      "path": "research/employment/us/originals/Section6All.xlsx",
+      "bytes": 315658,
+      "sha256": "07fe01381f56f3cc67ce72a0c8e5497ded2efe2a71d55749c9a39e1da93c7cce"
+    },
+    {
+      "path": "research/employment/us/originals/Use_SUT_Detail.xlsx",
+      "bytes": 2121639,
+      "sha256": "07aa2a21151e78ec1462c8f48142d274c153d90aff07bd797e07c6bc8486911e"
+    },
+    {
+      "path": "research/employment/us/originals/aspep2025-summary.pdf",
+      "bytes": 596901,
+      "sha256": "163da2ff0a6762ff82dc12b97292614ac808bdccdf236e00ef571b540b8f1433"
+    },
+    {
+      "path": "research/employment/us/originals/bea-discontinued.htm",
+      "bytes": 163662,
+      "sha256": "fbaa7bd081521b3b459de45c4330e23f0d107fdbf7464124609bf41e8e3381aa"
+    },
+    {
+      "path": "research/employment/us/originals/bea-va-components.zip",
+      "bytes": 327148,
+      "sha256": "ee98b06680aebdae532f2bef337981fbae21f719af35ab93349e56c684ccb2cf"
+    },
+    {
+      "path": "research/employment/us/originals/chapter-10.pdf",
+      "bytes": 499930,
+      "sha256": "176b04ebc0184e7a52097194b3843b63cd98fc6480130aeffa0b71b8c85ec396"
+    },
+    {
+      "path": "research/employment/us/originals/chapter-10.txt",
+      "bytes": 106656,
+      "sha256": "ac0a7f3672daf39804755e4a5d06dfabed608b128ed115f58283489c82e960be"
+    },
+    {
+      "path": "research/employment/us/originals/construction-table-index.html",
+      "bytes": 331189,
+      "sha256": "42669c58f609df3c1d234313e7cc9574236bfabaa093fcce5c5727fe8b616a36"
+    },
+    {
+      "path": "research/employment/us/originals/itable-io-menu-failed-response.html",
+      "bytes": 26371,
+      "sha256": "cd3df195a4354d86222bf3bb92f4a6240c2a6c8a326c895ae177bde19f3f341b"
+    },
+    {
+      "path": "research/employment/us/originals/itable-scripts.js",
+      "bytes": 64209,
+      "sha256": "860c5107c8314c1e871be2b7e196a74b3f3429e0fc19aeeaa8f8a489f0ac6172"
+    },
+    {
+      "path": "research/employment/us/originals/qcew-2021-us.csv",
+      "bytes": 846843,
+      "sha256": "2a6714f05b9fec6a4487310fe03f97439655e7f6206906e1db99e5d2eda3a3e7"
+    },
+    {
+      "path": "research/employment/us/originals/qcew-2022-us.csv",
+      "bytes": 823163,
+      "sha256": "c45cbb64a1b1eef16bfd743510d9d02792ccad82f60e9df202c5daa3e8c5cc18"
+    },
+    {
+      "path": "research/employment/us/originals/qcew-2023-us.csv",
+      "bytes": 849504,
+      "sha256": "fe9ffe874f6e657f6bb1558971965ce6acc015ace45d831ed32c90d97097aee9"
+    },
+    {
+      "path": "research/employment/us/originals/qcew-2024-us.csv",
+      "bytes": 847197,
+      "sha256": "48db086828a01798731242c6d3d4957f80f941afe75463a1ff7d43de774bea46"
+    },
+    {
+      "path": "research/employment/us/originals/qcew-2025-us.csv",
+      "bytes": 841756,
+      "sha256": "0b5528f70d66a84ff9729691f365c667a09f854f0af3d841bdd660ef3cb01811"
+    },
+    {
+      "path": "research/employment/us/originals/qcew-2026q1-us.csv",
+      "bytes": 915243,
+      "sha256": "01fcd2cdd86f66d70b569286c5a88bc8558b05dc66bdb7470963e59ac173c3a8"
+    },
+    {
+      "path": "research/employment/us/originals/qcew-definition-web.json",
+      "bytes": 35633,
+      "sha256": "15918f2f629a00c976499841901a62e29fe237fb4e4b61940a992f72db02cf1a"
+    },
+    {
+      "path": "research/employment/us/originals/qcew-geography-web.json",
+      "bytes": 22520,
+      "sha256": "4d516241eb6b1bb3bd8f068cc47723dec7d9adb6988240739f5264072b7a7c3a"
+    },
+    {
+      "path": "research/employment/us/originals/qcew-naics-web.json",
+      "bytes": 27764,
+      "sha256": "a02d11dc7cac165b5df72cab2fee8e5c5a526a6219ad0cd13ac0ab83e0f0f82c"
+    },
+    {
+      "path": "research/employment/us/originals/qcew-notices-web.json",
+      "bytes": 21394,
+      "sha256": "ae53927b5a825f9c652c5b5e0f019b6ef1521d9106653592b3f4f9127ec4ba01"
+    },
+    {
+      "path": "research/employment/us/read-log.json",
+      "bytes": 20280,
+      "sha256": "cd1842bbff2d5529a13d5e3c2ada253d604947a9f73699ad54dbdcd571c16738"
+    },
+    {
+      "path": "research/employment/us/sources.json",
+      "bytes": 18109,
+      "sha256": "74febde9639b6ed92cac033a19d4490dd2b1cf988b9d712730e88b4932196d84"
+    },
+    {
+      "path": "research/employment/us/summary.json",
+      "bytes": 550,
+      "sha256": "085e8ee0e8356ac690af0c931864b00383e1cd7b489651f5c54d1e8121bd6016"
+    },
+    {
+      "path": "research/employment/us/validation.json",
+      "bytes": 6250,
+      "sha256": "ca057948dd58e90c8359d865e2999712fc34abba65486581528bd6f5eac3eb7f"
+    },
+    {
+      "path": "research/employment/us/verify.py",
+      "bytes": 6953,
+      "sha256": "8fab75b7a4c353ebe662fd29145615fc9165397cb01a2a8d07e246df346bf835"
+    }
+  ]
+}

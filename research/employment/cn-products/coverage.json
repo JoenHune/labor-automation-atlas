@@ -1,0 +1,4864 @@
+{
+  "checkedAt": "2026-09-14",
+  "scope": "211原始产品及全部现有汇总节点，2023单年，2020行业结构权重",
+  "summary": {
+    "productNodes": 211,
+    "allNodes": 258,
+    "calibrationPools": 92,
+    "employmentEstimates": 258,
+    "ratioEstimates": 256,
+    "scopeLimitedRatios": 2,
+    "officialProductEmploymentCounts": 0
+  },
+  "records": [
+    {
+      "nodeId": "cn-orbit-cn-io2023",
+      "name": "全国产品部门",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-01-2023",
+        "emp-cn-products-pool-02-2023",
+        "emp-cn-products-pool-03-2023",
+        "emp-cn-products-pool-04-2023",
+        "emp-cn-products-pool-05-2023",
+        "emp-cn-products-pool-06-2023",
+        "emp-cn-products-pool-07-2023",
+        "emp-cn-products-pool-08-2023",
+        "emp-cn-products-pool-09-2023",
+        "emp-cn-products-pool-10-2023",
+        "emp-cn-products-pool-11+12-2023",
+        "emp-cn-products-pool-13-2023",
+        "emp-cn-products-pool-14-2023",
+        "emp-cn-products-pool-15-2023",
+        "emp-cn-products-pool-16-2023",
+        "emp-cn-products-pool-17-2023",
+        "emp-cn-products-pool-18-2023",
+        "emp-cn-products-pool-19-2023",
+        "emp-cn-products-pool-20-2023",
+        "emp-cn-products-pool-21-2023",
+        "emp-cn-products-pool-22-2023",
+        "emp-cn-products-pool-23-2023",
+        "emp-cn-products-pool-24-2023",
+        "emp-cn-products-pool-25-2023",
+        "emp-cn-products-pool-26-2023",
+        "emp-cn-products-pool-27-2023",
+        "emp-cn-products-pool-28-2023",
+        "emp-cn-products-pool-29-2023",
+        "emp-cn-products-pool-30-2023",
+        "emp-cn-products-pool-31-2023",
+        "emp-cn-products-pool-32-2023",
+        "emp-cn-products-pool-33-2023",
+        "emp-cn-products-pool-34-2023",
+        "emp-cn-products-pool-35-2023",
+        "emp-cn-products-pool-36-2023",
+        "emp-cn-products-pool-37-2023",
+        "emp-cn-products-pool-38-2023",
+        "emp-cn-products-pool-39-2023",
+        "emp-cn-products-pool-40-2023",
+        "emp-cn-products-pool-41-2023",
+        "emp-cn-products-pool-42-2023",
+        "emp-cn-products-pool-43-2023",
+        "emp-cn-products-pool-44-2023",
+        "emp-cn-products-pool-45-2023",
+        "emp-cn-products-pool-46-2023",
+        "emp-cn-products-pool-47-2023",
+        "emp-cn-products-pool-48-2023",
+        "emp-cn-products-pool-49-2023",
+        "emp-cn-products-pool-50-2023",
+        "emp-cn-products-pool-51-2023",
+        "emp-cn-products-pool-52-2023",
+        "emp-cn-products-pool-53-2023",
+        "emp-cn-products-pool-54-2023",
+        "emp-cn-products-pool-55-2023",
+        "emp-cn-products-pool-56-2023",
+        "emp-cn-products-pool-57-2023",
+        "emp-cn-products-pool-58-2023",
+        "emp-cn-products-pool-59-2023",
+        "emp-cn-products-pool-60-2023",
+        "emp-cn-products-pool-61-2023",
+        "emp-cn-products-pool-62-2023",
+        "emp-cn-products-pool-63-2023",
+        "emp-cn-products-pool-64-2023",
+        "emp-cn-products-pool-65-2023",
+        "emp-cn-products-pool-66-2023",
+        "emp-cn-products-pool-67-2023",
+        "emp-cn-products-pool-68-2023",
+        "emp-cn-products-pool-69-2023",
+        "emp-cn-products-pool-70-2023",
+        "emp-cn-products-pool-71-2023",
+        "emp-cn-products-pool-72-2023",
+        "emp-cn-products-pool-73-2023",
+        "emp-cn-products-pool-74-2023",
+        "emp-cn-products-pool-75-2023",
+        "emp-cn-products-pool-76-2023",
+        "emp-cn-products-pool-77-2023",
+        "emp-cn-products-pool-78-2023",
+        "emp-cn-products-pool-79-2023",
+        "emp-cn-products-pool-80-2023",
+        "emp-cn-products-pool-81-2023",
+        "emp-cn-products-pool-82-2023",
+        "emp-cn-products-pool-83-2023",
+        "emp-cn-products-pool-84-2023",
+        "emp-cn-products-pool-85-2023",
+        "emp-cn-products-pool-86-2023",
+        "emp-cn-products-pool-87-2023",
+        "emp-cn-products-pool-88-2023",
+        "emp-cn-products-pool-89-2023",
+        "emp-cn-products-pool-90-2023",
+        "emp-cn-products-pool-91+92+93-2023",
+        "emp-cn-products-pool-94-2023",
+        "emp-cn-products-pool-95+96-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-industry",
+      "name": "工业产品及修理服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-06-2023",
+        "emp-cn-products-pool-07-2023",
+        "emp-cn-products-pool-08-2023",
+        "emp-cn-products-pool-09-2023",
+        "emp-cn-products-pool-10-2023",
+        "emp-cn-products-pool-11+12-2023",
+        "emp-cn-products-pool-13-2023",
+        "emp-cn-products-pool-14-2023",
+        "emp-cn-products-pool-15-2023",
+        "emp-cn-products-pool-16-2023",
+        "emp-cn-products-pool-17-2023",
+        "emp-cn-products-pool-18-2023",
+        "emp-cn-products-pool-19-2023",
+        "emp-cn-products-pool-20-2023",
+        "emp-cn-products-pool-21-2023",
+        "emp-cn-products-pool-22-2023",
+        "emp-cn-products-pool-23-2023",
+        "emp-cn-products-pool-24-2023",
+        "emp-cn-products-pool-25-2023",
+        "emp-cn-products-pool-26-2023",
+        "emp-cn-products-pool-27-2023",
+        "emp-cn-products-pool-28-2023",
+        "emp-cn-products-pool-29-2023",
+        "emp-cn-products-pool-30-2023",
+        "emp-cn-products-pool-31-2023",
+        "emp-cn-products-pool-32-2023",
+        "emp-cn-products-pool-33-2023",
+        "emp-cn-products-pool-34-2023",
+        "emp-cn-products-pool-35-2023",
+        "emp-cn-products-pool-36-2023",
+        "emp-cn-products-pool-37-2023",
+        "emp-cn-products-pool-38-2023",
+        "emp-cn-products-pool-39-2023",
+        "emp-cn-products-pool-40-2023",
+        "emp-cn-products-pool-41-2023",
+        "emp-cn-products-pool-42-2023",
+        "emp-cn-products-pool-43-2023",
+        "emp-cn-products-pool-44-2023",
+        "emp-cn-products-pool-45-2023",
+        "emp-cn-products-pool-46-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-manufacturing",
+      "name": "制造产品及修理服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-13-2023",
+        "emp-cn-products-pool-14-2023",
+        "emp-cn-products-pool-15-2023",
+        "emp-cn-products-pool-16-2023",
+        "emp-cn-products-pool-17-2023",
+        "emp-cn-products-pool-18-2023",
+        "emp-cn-products-pool-19-2023",
+        "emp-cn-products-pool-20-2023",
+        "emp-cn-products-pool-21-2023",
+        "emp-cn-products-pool-22-2023",
+        "emp-cn-products-pool-23-2023",
+        "emp-cn-products-pool-24-2023",
+        "emp-cn-products-pool-25-2023",
+        "emp-cn-products-pool-26-2023",
+        "emp-cn-products-pool-27-2023",
+        "emp-cn-products-pool-28-2023",
+        "emp-cn-products-pool-29-2023",
+        "emp-cn-products-pool-30-2023",
+        "emp-cn-products-pool-31-2023",
+        "emp-cn-products-pool-32-2023",
+        "emp-cn-products-pool-33-2023",
+        "emp-cn-products-pool-34-2023",
+        "emp-cn-products-pool-35-2023",
+        "emp-cn-products-pool-36-2023",
+        "emp-cn-products-pool-37-2023",
+        "emp-cn-products-pool-38-2023",
+        "emp-cn-products-pool-39-2023",
+        "emp-cn-products-pool-40-2023",
+        "emp-cn-products-pool-41-2023",
+        "emp-cn-products-pool-42-2023",
+        "emp-cn-products-pool-43-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-39",
+      "name": "计算机、通信和其他电子设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-39-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-39132",
+      "name": "电子器件",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-39-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-39133",
+      "name": "电子元件及电子专用材料",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-39-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-39129",
+      "name": "通信终端设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-39-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-39134",
+      "name": "智能消费设备和其他电子设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-39-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-39127",
+      "name": "计算机零部件、其他计算机及相关设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-39-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-39128",
+      "name": "通信系统设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-39-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-39126",
+      "name": "计算机整机",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-39-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-39131",
+      "name": "非专业视听设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-39-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-39130",
+      "name": "广播电视设备和雷达及配套设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-39-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-38",
+      "name": "电气机械和器材",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-38-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-38121",
+      "name": "输配电及控制设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-38-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-38122",
+      "name": "电线、电缆、光缆及电工器材",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-38-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-38123",
+      "name": "电池",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-38-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-38124",
+      "name": "家用器具",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-38-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-38120",
+      "name": "电机",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-38-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-38125",
+      "name": "其他电气机械和器材",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-38-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-36",
+      "name": "汽车整车及零部件",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-36-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-36116",
+      "name": "汽车零部件及配件",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-36-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-36113",
+      "name": "汽柴油车整车",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-36-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-36114",
+      "name": "新能源车整车",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-36-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-36115",
+      "name": "汽车用发动机、车身、挂车和其他汽车",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-36-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-26",
+      "name": "化学原料及化学制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-26-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-26056",
+      "name": "基础化学原料",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-26-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-26060",
+      "name": "合成材料",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-26-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-26061",
+      "name": "专用化学产品和炸药、火工、焰火产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-26-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-26057",
+      "name": "肥料",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-26-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-26062",
+      "name": "日用化学产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-26-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-26059",
+      "name": "涂料、油墨、颜料及类似产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-26-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-26058",
+      "name": "农药",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-26-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-34",
+      "name": "通用设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-34-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-34105",
+      "name": "通用零部件",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-34-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-34101",
+      "name": "泵、阀门、压缩机及类似机械",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-34-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-34103",
+      "name": "烘炉、风机、包装等设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-34-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-34099",
+      "name": "金属加工机械",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-34-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-34100",
+      "name": "物料搬运设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-34-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-34102",
+      "name": "轴承、齿轮和传动部件",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-34-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-34106",
+      "name": "其他通用设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-34-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-34098",
+      "name": "锅炉及原动设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-34-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-34104",
+      "name": "文化、办公用机械",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-34-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-30",
+      "name": "非金属矿物制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-30-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-30074",
+      "name": "石膏、水泥制品及类似制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "ambiguous-detail-broader-pool",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-30-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-30081",
+      "name": "石墨及其他非金属矿物制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "ambiguous-detail-broader-pool",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-30-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-30075",
+      "name": "砖瓦、石材等建筑材料",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "ambiguous-detail-broader-pool",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-30-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-30073",
+      "name": "水泥、石灰和石膏",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "ambiguous-detail-broader-pool",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-30-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-30077",
+      "name": "玻璃制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "ambiguous-detail-broader-pool",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-30-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-30078",
+      "name": "建筑、卫生陶瓷制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "ambiguous-detail-broader-pool",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-30-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-30076",
+      "name": "玻璃",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "ambiguous-detail-broader-pool",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-30-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-30079",
+      "name": "其他陶瓷制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "ambiguous-detail-broader-pool",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-30-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-30080",
+      "name": "耐火材料制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "ambiguous-detail-broader-pool",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-30-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-33",
+      "name": "金属制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-33-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-33092",
+      "name": "结构性金属制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-33-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-33097",
+      "name": "金属处理、搪瓷制品、铸造及其他金属制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-33-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-33093",
+      "name": "金属工具、金属丝绳及其制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-33-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-33095",
+      "name": "建筑、安全用金属制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-33-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-33094",
+      "name": "集装箱及金属包装容器",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-33-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-33096",
+      "name": "金属制日用品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-33-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-35",
+      "name": "专用设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-35-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-35112",
+      "name": "其他专用设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-35-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-35109",
+      "name": "电子和电工机械专用设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-35-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-35111",
+      "name": "医疗仪器设备及器械",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-35-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-35107",
+      "name": "采矿、冶金、建筑专用设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-35-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-35108",
+      "name": "化工、木材、非金属加工专用设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-35-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-35110",
+      "name": "农、林、牧、渔专用机械",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-35-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-25",
+      "name": "石油、煤炭及核燃料加工品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-25-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-25054",
+      "name": "精炼石油和核燃料加工品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "ambiguous-detail-broader-pool",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-25-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-25055",
+      "name": "煤炭加工品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "ambiguous-detail-broader-pool",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-25-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-31",
+      "name": "黑色金属冶炼及压延产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-31-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-31084",
+      "name": "钢压延产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-31-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-31083",
+      "name": "钢",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-31-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-31085",
+      "name": "铁合金",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-31-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-31082",
+      "name": "铁",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-31-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-16032",
+      "name": "烟草制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-16-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-27",
+      "name": "医药制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-27-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-27064",
+      "name": "化学药品制剂",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-27-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-27066",
+      "name": "其他医药制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-27-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-27065",
+      "name": "中药饮片及中成药",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-27-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-27063",
+      "name": "化学药品原料药",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-27-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-32",
+      "name": "有色金属冶炼及压延产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-32-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-32086",
+      "name": "常用有色金属",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-32-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-32089",
+      "name": "铜压延加工品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-32-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-32090",
+      "name": "铝压延加工品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-32-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-32087",
+      "name": "贵金属和稀有金属",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-32-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-32088",
+      "name": "有色金属合金",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-32-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-32091",
+      "name": "其他有色金属压延加工品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-32-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-13",
+      "name": "农副食品加工品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-13-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-13018",
+      "name": "饲料加工品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-13-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-13021",
+      "name": "屠宰及肉类加工品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-13-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-13019",
+      "name": "植物油加工品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-13-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-13017",
+      "name": "谷物磨制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-13-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-13024",
+      "name": "其他农副食品加工品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-13-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-13023",
+      "name": "蔬菜、菌类、水果和坚果加工品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-13-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-13022",
+      "name": "水产加工品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-13-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-13020",
+      "name": "糖及糖制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-13-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-29",
+      "name": "橡胶及塑料制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-29-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-29072",
+      "name": "其他塑料制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-29-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-29069",
+      "name": "其他橡胶制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-29-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-29070",
+      "name": "塑料薄膜",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-29-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-29068",
+      "name": "轮胎",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-29-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-29071",
+      "name": "日用塑料制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-29-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-42137",
+      "name": "废弃资源和废旧材料回收加工品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-42-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-15",
+      "name": "酒、饮料和精制茶",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-15-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-15029",
+      "name": "酒精和酒",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-15-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-15030",
+      "name": "饮料",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-15-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-15031",
+      "name": "精制茶",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-15-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-18",
+      "name": "服装及服饰",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-18-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-18040",
+      "name": "机织服装",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-18-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-18041",
+      "name": "针织或钩针编织服装",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-18-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-18042",
+      "name": "服饰",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-18-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-17",
+      "name": "纺织品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-17-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-17033",
+      "name": "棉纺织及印染精加工品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-17-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-17039",
+      "name": "产业用纺织制成品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-17-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-17037",
+      "name": "针织或钩针编织及其制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-17-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-17036",
+      "name": "化纤织造及印染精加工品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-17-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-17038",
+      "name": "家用纺织制成品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-17-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-17034",
+      "name": "毛纺织及染整精加工品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-17-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-17035",
+      "name": "麻、丝绢纺织及加工品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-17-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-14",
+      "name": "食品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-14-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-14028",
+      "name": "其他食品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-14-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-14027",
+      "name": "调味品、发酵制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-14-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-14025",
+      "name": "方便食品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-14-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-14026",
+      "name": "乳制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-14-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-37",
+      "name": "铁路、船舶及其他运输设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-37-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-37119",
+      "name": "其他交通运输设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-37-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-37118",
+      "name": "船舶及相关装置",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-37-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-37117",
+      "name": "铁路运输和城市轨道交通设备",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-37-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-22",
+      "name": "纸及纸制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-22-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-22050",
+      "name": "纸制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-22-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-22049",
+      "name": "纸浆和造纸",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-22-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-20",
+      "name": "木材及竹藤棕草制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-20-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-20046",
+      "name": "人造板制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-20-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-20045",
+      "name": "木材加工品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-20-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-20047",
+      "name": "木质制品和竹、藤、棕、草制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-20-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-24",
+      "name": "文教工美体育娱乐用品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-24-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-24052",
+      "name": "工艺美术品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-24-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-24053",
+      "name": "文教、体育和娱乐用品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-24-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-40135",
+      "name": "仪器仪表",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-40-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-19",
+      "name": "皮革、毛皮、羽毛及鞋",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-19-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-19044",
+      "name": "鞋",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-19-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-19043",
+      "name": "皮革、毛皮、羽毛及其制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-19-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-21048",
+      "name": "家具",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-21-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-23051",
+      "name": "印刷和记录媒介复制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-23-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-43138",
+      "name": "金属制品、机械和设备修理服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-43-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-28067",
+      "name": "化学纤维制品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-28-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-41136",
+      "name": "其他制造产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-41-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-mining",
+      "name": "采矿产品及辅助活动",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-06-2023",
+        "emp-cn-products-pool-07-2023",
+        "emp-cn-products-pool-08-2023",
+        "emp-cn-products-pool-09-2023",
+        "emp-cn-products-pool-10-2023",
+        "emp-cn-products-pool-11+12-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-06009",
+      "name": "煤炭开采和洗选产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-06-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-07",
+      "name": "石油开采产品 / 天然气开采产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-07-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-07010",
+      "name": "石油开采产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-07-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-07011",
+      "name": "天然气开采产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-07-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-08012",
+      "name": "黑色金属矿采选产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-08-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-09013",
+      "name": "有色金属矿采选产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-09-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-10",
+      "name": "土砂石开采产品 / 其他非金属矿采选产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-10-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-10014",
+      "name": "土砂石开采产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-10-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-10015",
+      "name": "其他非金属矿采选产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-10-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-11016",
+      "name": "开采辅助活动和其他采矿产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-11+12-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-utilities",
+      "name": "电热气水产品及服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-44-2023",
+        "emp-cn-products-pool-45-2023",
+        "emp-cn-products-pool-46-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-group-44",
+      "name": "火力发电和热电联产 / 其他电力生产 / 电力供应 / 热力生产和供应",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-44-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-44141",
+      "name": "电力供应",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-44-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-44140",
+      "name": "其他电力生产",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "official-scope-confirmed",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-44-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-44139",
+      "name": "火力发电和热电联产",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-44-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-44142",
+      "name": "热力生产和供应",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-44-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-46144",
+      "name": "水的生产和供应",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-46-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-45143",
+      "name": "燃气生产和供应",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-45-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-wholesale-retail",
+      "name": "批发与零售服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-51-2023",
+        "emp-cn-products-pool-52-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-52157",
+      "name": "零售",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-52-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-51156",
+      "name": "批发",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-51-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-agriculture",
+      "name": "农林牧渔产品及服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-01-2023",
+        "emp-cn-products-pool-02-2023",
+        "emp-cn-products-pool-03-2023",
+        "emp-cn-products-pool-04-2023",
+        "emp-cn-products-pool-05-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-01002",
+      "name": "其他农产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-01-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-03005",
+      "name": "牲畜和其他畜牧产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-03-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-01001",
+      "name": "谷物",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-01-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-04006",
+      "name": "水产养殖产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-04-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-05008",
+      "name": "农、林、牧、渔服务产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-05-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-03004",
+      "name": "家禽",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-03-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-02003",
+      "name": "林产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-02-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-04007",
+      "name": "水产捕捞产品",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-04-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-finance",
+      "name": "金融服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-66-2023",
+        "emp-cn-products-pool-67-2023",
+        "emp-cn-products-pool-68-2023",
+        "emp-cn-products-pool-69-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-66178",
+      "name": "中央银行、货币银行和银行监管服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-66-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-68181",
+      "name": "保险",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-68-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-67180",
+      "name": "资本市场服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-67-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-66179",
+      "name": "非货币银行和银行理财服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-66-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-69182",
+      "name": "其他金融服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-69-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-construction",
+      "name": "建筑产品及服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-47-2023",
+        "emp-cn-products-pool-48-2023",
+        "emp-cn-products-pool-49-2023",
+        "emp-cn-products-pool-50-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-47145",
+      "name": "住宅房屋建筑",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-47-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-49153",
+      "name": "建筑安装",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-49-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-47146",
+      "name": "体育场馆和其他房屋建筑",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-47-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-48147",
+      "name": "铁路、道路、隧道和桥梁工程建筑",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-48-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-50155",
+      "name": "其他建筑服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-50-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-50154",
+      "name": "建筑装饰和装修",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-50-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-48152",
+      "name": "其他土木工程建筑",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-48-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-48151",
+      "name": "电力工程",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-48-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-48148",
+      "name": "水利、水运工程和海洋工程建筑",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-48-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-48149",
+      "name": "工矿工程建筑",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-48-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-48150",
+      "name": "架线、管道工程建筑和节能环保工程",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-48-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-real-estate",
+      "name": "房地产服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "scope-limited",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构",
+        "房地产虚拟住房增加值与市场就业分母对应"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-70-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-70183",
+      "name": "房地产",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "scope-limited",
+      "mappingStatus": "mixed-market-and-imputed-housing",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构",
+        "房地产虚拟住房增加值与市场就业分母对应"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-70-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-public",
+      "name": "公共管理、社会保障及组织服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-91+92+93-2023",
+        "emp-cn-products-pool-94-2023",
+        "emp-cn-products-pool-95+96-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-91209",
+      "name": "中国共产党机关、国家机构、人民政协和民主党派",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-91+92+93-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-95211",
+      "name": "群众团体、社会团体、其他成员组织及基层群众自治组织",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-95+96-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-94210",
+      "name": "社会保障",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-94-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-information",
+      "name": "信息传输、软件和信息技术服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-63-2023",
+        "emp-cn-products-pool-64-2023",
+        "emp-cn-products-pool-65-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-65177",
+      "name": "信息技术服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-65-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-64175",
+      "name": "互联网和相关服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-64-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-65176",
+      "name": "软件服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-65-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-63173",
+      "name": "电信",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-63-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-63174",
+      "name": "广播电视及卫星传输服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-63-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-transport",
+      "name": "交通运输、仓储和邮政服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-53-2023",
+        "emp-cn-products-pool-54-2023",
+        "emp-cn-products-pool-55-2023",
+        "emp-cn-products-pool-56-2023",
+        "emp-cn-products-pool-57-2023",
+        "emp-cn-products-pool-58-2023",
+        "emp-cn-products-pool-59-2023",
+        "emp-cn-products-pool-60-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-54161",
+      "name": "道路货物运输和运输辅助活动",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-54-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-53158",
+      "name": "铁路旅客运输",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-53-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-60170",
+      "name": "邮政",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-60-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-53159",
+      "name": "铁路货物运输和运输辅助活动",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-53-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-58167",
+      "name": "多式联运和运输代理",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-58-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-54160",
+      "name": "城市公共交通及公路客运",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-54-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-59169",
+      "name": "仓储",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-59-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-59168",
+      "name": "装卸搬运",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-59-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-55163",
+      "name": "水上货物运输和运输辅助活动",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-55-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-56165",
+      "name": "航空货物运输和运输辅助活动",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "ambiguous-detail-broader-pool",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-56-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-57166",
+      "name": "管道运输",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-57-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-56164",
+      "name": "航空旅客运输",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "ambiguous-detail-broader-pool",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-56-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-55162",
+      "name": "水上旅客运输",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-55-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-business",
+      "name": "租赁和商务服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-71-2023",
+        "emp-cn-products-pool-72-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-72185",
+      "name": "法律、咨询、广告和人力资源服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-72-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-72186",
+      "name": "其他商务服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-72-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-71184",
+      "name": "租赁",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-71-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-science",
+      "name": "科学研究和技术服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-73-2023",
+        "emp-cn-products-pool-74-2023",
+        "emp-cn-products-pool-75-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-73187",
+      "name": "研究和试验发展",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-73-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-74190",
+      "name": "工程技术与设计服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "ambiguous-detail-broader-pool",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-74-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-75192",
+      "name": "技术推广服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-75-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-74191",
+      "name": "工业与专业设计及其他专业技术服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "ambiguous-detail-broader-pool",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-74-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-75193",
+      "name": "其他科技推广和应用服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-75-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-74189",
+      "name": "质检技术服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "ambiguous-detail-broader-pool",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-74-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-74188",
+      "name": "气象、地震、海洋、环境和地质服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "ambiguous-detail-broader-pool",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-74-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-education",
+      "name": "教育服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-83-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-83201",
+      "name": "教育",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-83-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-health",
+      "name": "卫生和社会工作服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-84-2023",
+        "emp-cn-products-pool-85-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-84202",
+      "name": "卫生",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-84-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-85203",
+      "name": "社会工作",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-85-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-household",
+      "name": "居民、修理和其他服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-80-2023",
+        "emp-cn-products-pool-81-2023",
+        "emp-cn-products-pool-82-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-80198",
+      "name": "居民服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-80-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-81199",
+      "name": "机动车、电子产品和日用品修理服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-81-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-82200",
+      "name": "其他服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-82-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-hospitality",
+      "name": "住宿和餐饮服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-61-2023",
+        "emp-cn-products-pool-62-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-62172",
+      "name": "餐饮",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-62-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-61171",
+      "name": "住宿",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-61-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-culture",
+      "name": "文化、体育和娱乐服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-86-2023",
+        "emp-cn-products-pool-87-2023",
+        "emp-cn-products-pool-88-2023",
+        "emp-cn-products-pool-89-2023",
+        "emp-cn-products-pool-90-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-90208",
+      "name": "娱乐",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-90-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-88206",
+      "name": "文化艺术",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-88-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-89207",
+      "name": "体育",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-89-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-87205",
+      "name": "广播、电视、电影和影视录音制作",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-87-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-86204",
+      "name": "新闻和出版",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-86-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-environment",
+      "name": "水利、环境和公共设施管理服务",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "sum-of-disjoint-product-attributions",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-76-2023",
+        "emp-cn-products-pool-77-2023",
+        "emp-cn-products-pool-78-2023",
+        "emp-cn-products-pool-79-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-78196",
+      "name": "公共设施管理",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-78-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-77195",
+      "name": "生态保护与环境治理",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-77-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-76194",
+      "name": "水利管理",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-76-2023"
+      ]
+    },
+    {
+      "nodeId": "cn-io-79197",
+      "name": "土地管理",
+      "year": 2023,
+      "status": "model-estimated",
+      "employmentType": "all-employed-calibrated-product-attribution",
+      "ratioStatus": "estimate",
+      "mappingStatus": "research-activity-correspondence",
+      "missingEvidence": [
+        "官方产品就业卫星表",
+        "实际产品相对人均劳动者报酬",
+        "行业与产品之间的劳动流量桥矩阵",
+        "2023同范围住户行业结构"
+      ],
+      "modelInputIds": [
+        "emp-cn-products-pool-79-2023"
+      ]
+    }
+  ]
+}

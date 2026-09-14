@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed,onMounted,onBeforeUnmount,ref,watch,nextTick } from 'vue'
+import { computed,onMounted,onBeforeUnmount,ref,watch,nextTick,shallowReactive } from 'vue'
 import { withBase } from 'vitepress'
 import * as echarts from 'echarts/core'
 import { LineChart } from 'echarts/charts'
@@ -14,9 +14,21 @@ import ObservationDetails from './ObservationDetails.vue'
 import CountryTaskSearch from './CountryTaskSearch.vue'
 import {useCurrency} from '../../../../src/preferences/currency'
 import IndustryOrbitChart from './IndustryOrbitChart.vue'
+import {loadEmployment} from '../../../../src/research/employment-loader'
 echarts.use([LineChart,GridComponent,TooltipComponent,SVGRenderer])
 const props=defineProps<{country:Country}>()
-const research=researchJson as Research
+const research=shallowReactive({...researchJson,employment:undefined}) as Research
+const employmentState=ref<'loading'|'ready'|'failed'>('loading'),employmentError=ref('')
+let employmentRequest:AbortController|undefined
+async function refreshEmployment(){
+ employmentRequest?.abort();const request=employmentRequest=new AbortController(),country=props.country
+ research.employment=undefined;employmentState.value='loading';employmentError.value=''
+ try{
+  const data=await loadEmployment(withBase('/exports/employment-'+country+'.json')+'?v='+encodeURIComponent(research.version),country,research.version,request.signal)
+  if(request.signal.aborted||props.country!==country)return
+  research.employment=data;employmentState.value='ready'
+ }catch(error){if(request.signal.aborted)return;employmentState.value='failed';employmentError.value=error instanceof Error?error.message:'就业资料暂时无法读取'}
+}
 const profile=computed(()=>research.countries.find(p=>p.country===props.country)!)
 const year=ref(2025),focus=ref(props.country+'-gdp'),sort=ref<'value'|'name'>('value')
 const scaleView=ref<InstanceType<typeof IndustryOrbitChart>>()
@@ -87,18 +99,20 @@ function syncChartAnchors() {
 }
 watch([year,focus,sort,currencySettings],async()=>{syncState();await nextTick();draw()})
 onMounted(async()=>{
+ void refreshEmployment()
  restore();await nextTick()
  trend=echarts.init(trendEl.value!,undefined,{renderer:'svg'})
  resize=new ResizeObserver(()=>{trend?.resize();syncChartAnchors()});resize.observe(trendEl.value!)
  window.addEventListener('popstate',restore);syncState();draw()
 })
-onBeforeUnmount(()=>{trend?.dispose();resize?.disconnect();window.removeEventListener('popstate',restore)})
+watch(()=>props.country,()=>{void refreshEmployment()})
+onBeforeUnmount(()=>{employmentRequest?.abort();trend?.dispose();resize?.disconnect();window.removeEventListener('popstate',restore)})
 </script>
 <template>
  <div class="atlas-country" :data-country="country">
   <div class="page-top"><div><h1>{{profile.name}}经济图谱<span class="atlas-title-period">.</span></h1><p class="country-deck">从经济全景，逐层看见行业的组成。</p></div>
   </div>
-  <IndustryOrbitChart ref="scaleView" :research="research" :country="country" v-model:year="year"/>
+  <IndustryOrbitChart ref="scaleView" :research="research" :country="country" v-model:year="year" :employment-state="employmentState" :employment-error="employmentError" @retry-employment="refreshEmployment"/>
   <p v-if="year!==2025" class="historical-note" :data-content-id="country+'-historical-notice'" tabindex="0">下方行业榜单与全年 GDP 为 {{year}} 年历史数据。最新完整年度为 2025 年，最新行业进展为 {{profile.latestPeriod}}。</p>
   <p class="scope-note">{{country==='cn'?'CHINA':'UNITED STATES'}} · 数据核查 {{profile.checkedAt}}</p>
   <p class="scope-note" :data-content-id="country+'-scope'" tabindex="0">{{profile.scope}} {{country==='cn'?'仅在最新官方发布的十个具名大类内排名；其他行业保留未拆分汇总。':'20 组非重叠行业构成排名范围；政府整体与私人行业分别列示。'}}</p>

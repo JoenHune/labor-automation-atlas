@@ -1,0 +1,6665 @@
+[
+  {
+    "id": "cn-emp-all-total-2021",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "total",
+    "name": "全国全部就业",
+    "year": 2021,
+    "measure": "employment",
+    "value": 74652,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，住户劳动力调查推算",
+    "coverageKey": "cn-household-employment-total",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-national-annual-2025",
+        "locator": "年度就业表：2021年列，全国全部就业行（万人）"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-all-primary-2021",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "primary",
+    "name": "第一产业就业",
+    "year": 2021,
+    "measure": "employment",
+    "value": 17072,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，住户劳动力调查推算",
+    "coverageKey": "cn-household-employment-primary",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-national-annual-2025",
+        "locator": "年度就业表：2021年列，第一产业就业行（万人）"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-all-secondary-2021",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "secondary",
+    "name": "第二产业就业",
+    "year": 2021,
+    "measure": "employment",
+    "value": 21712,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，住户劳动力调查推算",
+    "coverageKey": "cn-household-employment-secondary",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-national-annual-2025",
+        "locator": "年度就业表：2021年列，第二产业就业行（万人）"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-all-tertiary-2021",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "tertiary",
+    "name": "第三产业就业",
+    "year": 2021,
+    "measure": "employment",
+    "value": 35868,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，住户劳动力调查推算",
+    "coverageKey": "cn-household-employment-tertiary",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-national-annual-2025",
+        "locator": "年度就业表：2021年列，第三产业就业行（万人）"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-all-total-2022",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "total",
+    "name": "全国全部就业",
+    "year": 2022,
+    "measure": "employment",
+    "value": 73351,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，住户劳动力调查推算",
+    "coverageKey": "cn-household-employment-total",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-national-annual-2025",
+        "locator": "年度就业表：2022年列，全国全部就业行（万人）"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-all-primary-2022",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "primary",
+    "name": "第一产业就业",
+    "year": 2022,
+    "measure": "employment",
+    "value": 17663,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，住户劳动力调查推算",
+    "coverageKey": "cn-household-employment-primary",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-national-annual-2025",
+        "locator": "年度就业表：2022年列，第一产业就业行（万人）"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-all-secondary-2022",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "secondary",
+    "name": "第二产业就业",
+    "year": 2022,
+    "measure": "employment",
+    "value": 21105,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，住户劳动力调查推算",
+    "coverageKey": "cn-household-employment-secondary",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-national-annual-2025",
+        "locator": "年度就业表：2022年列，第二产业就业行（万人）"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-all-tertiary-2022",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "tertiary",
+    "name": "第三产业就业",
+    "year": 2022,
+    "measure": "employment",
+    "value": 34583,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，住户劳动力调查推算",
+    "coverageKey": "cn-household-employment-tertiary",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-national-annual-2025",
+        "locator": "年度就业表：2022年列，第三产业就业行（万人）"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-all-total-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "total",
+    "name": "全国全部就业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 74041,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，住户劳动力调查推算",
+    "coverageKey": "cn-household-employment-total",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-national-annual-2025",
+        "locator": "年度就业表：2023年列，全国全部就业行（万人）"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-all-primary-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "primary",
+    "name": "第一产业就业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 16882,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，住户劳动力调查推算",
+    "coverageKey": "cn-household-employment-primary",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-national-annual-2025",
+        "locator": "年度就业表：2023年列，第一产业就业行（万人）"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-all-secondary-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "secondary",
+    "name": "第二产业就业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 21520,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，住户劳动力调查推算",
+    "coverageKey": "cn-household-employment-secondary",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-national-annual-2025",
+        "locator": "年度就业表：2023年列，第二产业就业行（万人）"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-all-tertiary-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "tertiary",
+    "name": "第三产业就业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 35639,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，住户劳动力调查推算",
+    "coverageKey": "cn-household-employment-tertiary",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-national-annual-2025",
+        "locator": "年度就业表：2023年列，第三产业就业行（万人）"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-all-total-2024",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "total",
+    "name": "全国全部就业",
+    "year": 2024,
+    "measure": "employment",
+    "value": 73439,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，住户劳动力调查推算",
+    "coverageKey": "cn-household-employment-total",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-national-annual-2025",
+        "locator": "年度就业表：2024年列，全国全部就业行（万人）"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-all-primary-2024",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "primary",
+    "name": "第一产业就业",
+    "year": 2024,
+    "measure": "employment",
+    "value": 16298,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，住户劳动力调查推算",
+    "coverageKey": "cn-household-employment-primary",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-national-annual-2025",
+        "locator": "年度就业表：2024年列，第一产业就业行（万人）"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-all-secondary-2024",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "secondary",
+    "name": "第二产业就业",
+    "year": 2024,
+    "measure": "employment",
+    "value": 21275,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，住户劳动力调查推算",
+    "coverageKey": "cn-household-employment-secondary",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-national-annual-2025",
+        "locator": "年度就业表：2024年列，第二产业就业行（万人）"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-all-tertiary-2024",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "tertiary",
+    "name": "第三产业就业",
+    "year": 2024,
+    "measure": "employment",
+    "value": 35866,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，住户劳动力调查推算",
+    "coverageKey": "cn-household-employment-tertiary",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-national-annual-2025",
+        "locator": "年度就业表：2024年列，第三产业就业行（万人）"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-all-total-2025",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "total",
+    "name": "全国全部就业",
+    "year": 2025,
+    "measure": "employment",
+    "value": 72504,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，住户劳动力调查推算",
+    "coverageKey": "cn-household-employment-total",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-national-annual-2025",
+        "locator": "年度就业表：2025年列，全国全部就业行（万人）"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-all-primary-2025",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "primary",
+    "name": "第一产业就业",
+    "year": 2025,
+    "measure": "employment",
+    "value": 16130,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，住户劳动力调查推算",
+    "coverageKey": "cn-household-employment-primary",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-national-annual-2025",
+        "locator": "年度就业表：2025年列，第一产业就业行（万人）"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-all-secondary-2025",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "secondary",
+    "name": "第二产业就业",
+    "year": 2025,
+    "measure": "employment",
+    "value": 20576,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，住户劳动力调查推算",
+    "coverageKey": "cn-household-employment-secondary",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-national-annual-2025",
+        "locator": "年度就业表：2025年列，第二产业就业行（万人）"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-all-tertiary-2025",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "tertiary",
+    "name": "第三产业就业",
+    "year": 2025,
+    "measure": "employment",
+    "value": 35798,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，住户劳动力调查推算",
+    "coverageKey": "cn-household-employment-tertiary",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-national-annual-2025",
+        "locator": "年度就业表：2025年列，第三产业就业行（万人）"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-bulletin-total-2025",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "total",
+    "name": "全国全部就业",
+    "year": 2025,
+    "measure": "employment",
+    "value": 72504,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "中国内地城乡全社会就业，年末总量",
+    "coverageKey": "cn-household-employment-total",
+    "releaseDate": "2026-02-28",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-2025-bulletin",
+        "locator": "一、综合：年末全国就业人员72504万人；注1初步统计"
+      }
+    ]
+  },
+  {
+    "id": "cn-emp-census-legal-A-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "A",
+    "name": "农、林、牧、渔业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 133.5,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末全部法人单位（包含部门负责普查单位）；A仅05专业辅助活动",
+    "coverageKey": "cn-census-legal-A",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，农、林、牧、渔业行，法人单位从业人员列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-individual-A-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "A",
+    "name": "农、林、牧、渔业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 207.7,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末个体经营户；A仅05专业辅助活动",
+    "coverageKey": "cn-census-individual-A",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，农、林、牧、渔业行，个体经营户从业人员列"
+      }
+    ],
+    "component": "individual",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-legal-B-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "B",
+    "name": "采矿业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 469.8,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末全部法人单位（包含部门负责普查单位）",
+    "coverageKey": "cn-census-legal-B",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，采矿业行，法人单位从业人员列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-individual-B-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "B",
+    "name": "采矿业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 6.8,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末个体经营户",
+    "coverageKey": "cn-census-individual-B",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，采矿业行，个体经营户从业人员列"
+      }
+    ],
+    "component": "individual",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-legal-C-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "C",
+    "name": "制造业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 10481.5,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末全部法人单位（包含部门负责普查单位）",
+    "coverageKey": "cn-census-legal-C",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，制造业行，法人单位从业人员列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-individual-C-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "C",
+    "name": "制造业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1836.1,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末个体经营户",
+    "coverageKey": "cn-census-individual-C",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，制造业行，个体经营户从业人员列"
+      }
+    ],
+    "component": "individual",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-legal-D-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "D",
+    "name": "电力、热力、燃气及水生产和供应业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 478.2,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末全部法人单位（包含部门负责普查单位）",
+    "coverageKey": "cn-census-legal-D",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，电力、热力、燃气及水生产和供应业行，法人单位从业人员列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-individual-D-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "D",
+    "name": "电力、热力、燃气及水生产和供应业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 29.6,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末个体经营户",
+    "coverageKey": "cn-census-individual-D",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，电力、热力、燃气及水生产和供应业行，个体经营户从业人员列"
+      }
+    ],
+    "component": "individual",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-legal-E-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "E",
+    "name": "建筑业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 5117.2,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末全部法人单位（包含部门负责普查单位）",
+    "coverageKey": "cn-census-legal-E",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，建筑业行，法人单位从业人员列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-individual-E-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "E",
+    "name": "建筑业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 961.8,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末个体经营户",
+    "coverageKey": "cn-census-individual-E",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，建筑业行，个体经营户从业人员列"
+      }
+    ],
+    "component": "individual",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-legal-F-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "F",
+    "name": "批发和零售业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 5325.8,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末全部法人单位（包含部门负责普查单位）",
+    "coverageKey": "cn-census-legal-F",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，批发和零售业行，法人单位从业人员列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-individual-F-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "F",
+    "name": "批发和零售业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 8224.1,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末个体经营户",
+    "coverageKey": "cn-census-individual-F",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，批发和零售业行，个体经营户从业人员列"
+      }
+    ],
+    "component": "individual",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-legal-G-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "G",
+    "name": "交通运输、仓储和邮政业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1582.7,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末全部法人单位（包含部门负责普查单位）",
+    "coverageKey": "cn-census-legal-G",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，交通运输、仓储和邮政业行，法人单位从业人员列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-individual-G-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "G",
+    "name": "交通运输、仓储和邮政业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1272.7,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末个体经营户",
+    "coverageKey": "cn-census-individual-G",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，交通运输、仓储和邮政业行，个体经营户从业人员列"
+      }
+    ],
+    "component": "individual",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-legal-H-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "H",
+    "name": "住宿和餐饮业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 894.2,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末全部法人单位（包含部门负责普查单位）",
+    "coverageKey": "cn-census-legal-H",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，住宿和餐饮业行，法人单位从业人员列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-individual-H-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "H",
+    "name": "住宿和餐饮业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 2541.0,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末个体经营户",
+    "coverageKey": "cn-census-individual-H",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，住宿和餐饮业行，个体经营户从业人员列"
+      }
+    ],
+    "component": "individual",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-legal-I-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "I",
+    "name": "信息传输、软件和信息技术服务业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1517.9,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末全部法人单位（包含部门负责普查单位）",
+    "coverageKey": "cn-census-legal-I",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，信息传输、软件和信息技术服务业行，法人单位从业人员列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-individual-I-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "I",
+    "name": "信息传输、软件和信息技术服务业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 154.2,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末个体经营户",
+    "coverageKey": "cn-census-individual-I",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，信息传输、软件和信息技术服务业行，个体经营户从业人员列"
+      }
+    ],
+    "component": "individual",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-legal-J-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "J",
+    "name": "金融业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1248.4,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末全部法人单位（包含部门负责普查单位）",
+    "coverageKey": "cn-census-legal-J",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，金融业行，法人单位从业人员列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-individual-J-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "J",
+    "name": "金融业",
+    "year": 2023,
+    "measure": "employment",
+    "value": null,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末个体经营户",
+    "coverageKey": "cn-census-individual-J",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，金融业行，个体经营户从业人员列"
+      }
+    ],
+    "component": "individual",
+    "nullReason": "原表为“-”/空白；模型视为无列示个体权重，非已观察到0"
+  },
+  {
+    "id": "cn-emp-census-legal-K-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "K",
+    "name": "房地产业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1443.5,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末全部法人单位（包含部门负责普查单位）",
+    "coverageKey": "cn-census-legal-K",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，房地产业行，法人单位从业人员列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-individual-K-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "K",
+    "name": "房地产业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 76.4,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末个体经营户",
+    "coverageKey": "cn-census-individual-K",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，房地产业行，个体经营户从业人员列"
+      }
+    ],
+    "component": "individual",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-legal-L-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "L",
+    "name": "租赁和商务服务业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 3906.6,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末全部法人单位（包含部门负责普查单位）",
+    "coverageKey": "cn-census-legal-L",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，租赁和商务服务业行，法人单位从业人员列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-individual-L-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "L",
+    "name": "租赁和商务服务业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 501.6,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末个体经营户",
+    "coverageKey": "cn-census-individual-L",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，租赁和商务服务业行，个体经营户从业人员列"
+      }
+    ],
+    "component": "individual",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-legal-M-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "M",
+    "name": "科学研究和技术服务业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1700.3,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末全部法人单位（包含部门负责普查单位）",
+    "coverageKey": "cn-census-legal-M",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，科学研究和技术服务业行，法人单位从业人员列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-individual-M-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "M",
+    "name": "科学研究和技术服务业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 111.7,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末个体经营户",
+    "coverageKey": "cn-census-individual-M",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，科学研究和技术服务业行，个体经营户从业人员列"
+      }
+    ],
+    "component": "individual",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-legal-N-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "N",
+    "name": "水利、环境和公共设施管理业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 485.5,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末全部法人单位（包含部门负责普查单位）",
+    "coverageKey": "cn-census-legal-N",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，水利、环境和公共设施管理业行，法人单位从业人员列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-individual-N-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "N",
+    "name": "水利、环境和公共设施管理业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 52.0,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末个体经营户",
+    "coverageKey": "cn-census-individual-N",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，水利、环境和公共设施管理业行，个体经营户从业人员列"
+      }
+    ],
+    "component": "individual",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-legal-O-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "O",
+    "name": "居民服务、修理和其他服务业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 673.6,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末全部法人单位（包含部门负责普查单位）",
+    "coverageKey": "cn-census-legal-O",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，居民服务、修理和其他服务业行，法人单位从业人员列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-individual-O-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "O",
+    "name": "居民服务、修理和其他服务业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1497.4,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末个体经营户",
+    "coverageKey": "cn-census-individual-O",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，居民服务、修理和其他服务业行，个体经营户从业人员列"
+      }
+    ],
+    "component": "individual",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-legal-P-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "P",
+    "name": "教育",
+    "year": 2023,
+    "measure": "employment",
+    "value": 2677.0,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末全部法人单位（包含部门负责普查单位）",
+    "coverageKey": "cn-census-legal-P",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，教育行，法人单位从业人员列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-individual-P-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "P",
+    "name": "教育",
+    "year": 2023,
+    "measure": "employment",
+    "value": 77.1,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末个体经营户",
+    "coverageKey": "cn-census-individual-P",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，教育行，个体经营户从业人员列"
+      }
+    ],
+    "component": "individual",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-legal-Q-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "Q",
+    "name": "卫生和社会工作",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1461.9,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末全部法人单位（包含部门负责普查单位）",
+    "coverageKey": "cn-census-legal-Q",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，卫生和社会工作行，法人单位从业人员列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-individual-Q-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "Q",
+    "name": "卫生和社会工作",
+    "year": 2023,
+    "measure": "employment",
+    "value": 132.8,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末个体经营户",
+    "coverageKey": "cn-census-individual-Q",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，卫生和社会工作行，个体经营户从业人员列"
+      }
+    ],
+    "component": "individual",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-legal-R-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "R",
+    "name": "文化、体育和娱乐业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 519.5,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末全部法人单位（包含部门负责普查单位）",
+    "coverageKey": "cn-census-legal-R",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，文化、体育和娱乐业行，法人单位从业人员列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-individual-R-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "R",
+    "name": "文化、体育和娱乐业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 273.4,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末个体经营户",
+    "coverageKey": "cn-census-individual-R",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，文化、体育和娱乐业行，个体经营户从业人员列"
+      }
+    ],
+    "component": "individual",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-legal-S-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "S",
+    "name": "公共管理、社会保障和社会组织",
+    "year": 2023,
+    "measure": "employment",
+    "value": 2781.1,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末全部法人单位（包含部门负责普查单位）",
+    "coverageKey": "cn-census-legal-S",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，公共管理、社会保障和社会组织行，法人单位从业人员列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-census-individual-S-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "S",
+    "name": "公共管理、社会保障和社会组织",
+    "year": 2023,
+    "measure": "employment",
+    "value": null,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普2023年末个体经营户",
+    "coverageKey": "cn-census-individual-S",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census2",
+        "locator": "表2-3，公共管理、社会保障和社会组织行，个体经营户从业人员列"
+      }
+    ],
+    "component": "individual",
+    "nullReason": "原表为“-”/空白；模型视为无列示个体权重，非已观察到0"
+  },
+  {
+    "id": "cn-emp-legal-major-01-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "01",
+    "name": "农业",
+    "year": 2023,
+    "measure": "employment",
+    "value": null,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-01",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码01 农业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": "综合卷未列该范围的从业人数，不能当作零"
+  },
+  {
+    "id": "cn-emp-legal-major-02-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "02",
+    "name": "林业",
+    "year": 2023,
+    "measure": "employment",
+    "value": null,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-02",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码02 林业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": "综合卷未列该范围的从业人数，不能当作零"
+  },
+  {
+    "id": "cn-emp-legal-major-03-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "03",
+    "name": "畜牧业",
+    "year": 2023,
+    "measure": "employment",
+    "value": null,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-03",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码03 畜牧业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": "综合卷未列该范围的从业人数，不能当作零"
+  },
+  {
+    "id": "cn-emp-legal-major-04-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "04",
+    "name": "渔业",
+    "year": 2023,
+    "measure": "employment",
+    "value": null,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-04",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码04 渔业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": "综合卷未列该范围的从业人数，不能当作零"
+  },
+  {
+    "id": "cn-emp-legal-major-05-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "05",
+    "name": "农、林、牧、渔专业及辅助性活动",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1335252,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-05",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码05 农、林、牧、渔专业及辅助性活动行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-06-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "06",
+    "name": "煤炭开采和洗选业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 2772385,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-06",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码06 煤炭开采和洗选业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-07-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "07",
+    "name": "石油和天然气开采业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 511880,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-07",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码07 石油和天然气开采业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-08-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "08",
+    "name": "黑色金属矿采选业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 313245,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-08",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码08 黑色金属矿采选业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-09-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "09",
+    "name": "有色金属矿采选业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 293673,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-09",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码09 有色金属矿采选业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-10-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "10",
+    "name": "非金属矿采选业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 493184,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-10",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码10 非金属矿采选业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-11-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "11",
+    "name": "开采专业及辅助性活动",
+    "year": 2023,
+    "measure": "employment",
+    "value": 299281,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-11",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码11 开采专业及辅助性活动行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-12-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "12",
+    "name": "其他采矿业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 13614,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-12",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码12 其他采矿业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-13-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "13",
+    "name": "农副食品加工业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 4062211,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-13",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码13 农副食品加工业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-14-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "14",
+    "name": "食品制造业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 2538401,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-14",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码14 食品制造业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-15-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "15",
+    "name": "酒、饮料和精制茶制造业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1594467,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-15",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码15 酒、饮料和精制茶制造业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-16-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "16",
+    "name": "烟草制品业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 180567,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-16",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码16 烟草制品业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-17-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "17",
+    "name": "纺织业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 3844129,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-17",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码17 纺织业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-18-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "18",
+    "name": "纺织服装、服饰业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 4491581,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-18",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码18 纺织服装、服饰业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-19-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "19",
+    "name": "皮革、毛皮、羽毛及其制品和制鞋业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 2505906,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-19",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码19 皮革、毛皮、羽毛及其制品和制鞋业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-20-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "20",
+    "name": "木材加工和木、竹、藤、棕、草制品业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 2205224,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-20",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码20 木材加工和木、竹、藤、棕、草制品业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-21-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "21",
+    "name": "家具制造业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1985705,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-21",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码21 家具制造业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-22-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "22",
+    "name": "造纸和纸制品业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1682019,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-22",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码22 造纸和纸制品业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-23-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "23",
+    "name": "印刷和记录媒介复制业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1544587,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-23",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码23 印刷和记录媒介复制业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-24-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "24",
+    "name": "文教、工美、体育和娱乐用品制造业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 2870658,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-24",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码24 文教、工美、体育和娱乐用品制造业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-25-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "25",
+    "name": "石油、煤炭及其他燃料加工业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 855939,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-25",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码25 石油、煤炭及其他燃料加工业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-26-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "26",
+    "name": "化学原料和化学制品制造业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 4367254,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-26",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码26 化学原料和化学制品制造业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-27-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "27",
+    "name": "医药制造业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 2366022,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-27",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码27 医药制造业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-28-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "28",
+    "name": "化学纤维制造业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 495069,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-28",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码28 化学纤维制造业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-29-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "29",
+    "name": "橡胶和塑料制品业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 4926350,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-29",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码29 橡胶和塑料制品业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-30-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "30",
+    "name": "非金属矿物制品业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 7118765,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-30",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码30 非金属矿物制品业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-31-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "31",
+    "name": "黑色金属冶炼和压延加工业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 2011367,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-31",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码31 黑色金属冶炼和压延加工业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-32-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "32",
+    "name": "有色金属冶炼和压延加工业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1784459,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-32",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码32 有色金属冶炼和压延加工业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-33-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "33",
+    "name": "金属制品业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 7589602,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-33",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码33 金属制品业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-34-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "34",
+    "name": "通用设备制造业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 7907882,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-34",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码34 通用设备制造业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-35-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "35",
+    "name": "专用设备制造业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 6131870,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-35",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码35 专用设备制造业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-36-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "36",
+    "name": "汽车制造业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 5549941,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-36",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码36 汽车制造业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-37-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "37",
+    "name": "铁路、船舶、航空航天和其他运输设备制造业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1490547,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-37",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码37 铁路、船舶、航空航天和其他运输设备制造业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-38-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "38",
+    "name": "电气机械和器材制造业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 8103295,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-38",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码38 电气机械和器材制造业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-39-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "39",
+    "name": "计算机、通信和其他电子设备制造业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 10308701,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-39",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码39 计算机、通信和其他电子设备制造业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-40-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "40",
+    "name": "仪器仪表制造业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1504734,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-40",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码40 仪器仪表制造业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-41-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "41",
+    "name": "其他制造业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 547924,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-41",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码41 其他制造业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-42-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "42",
+    "name": "废弃资源综合利用业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 422703,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-42",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码42 废弃资源综合利用业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-43-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "43",
+    "name": "金属制品、机械和设备修理业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 853566,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-43",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码43 金属制品、机械和设备修理业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-44-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "44",
+    "name": "电力、热力生产和供应业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 3374448,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-44",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码44 电力、热力生产和供应业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-45-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "45",
+    "name": "燃气生产和供应业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 454911,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-45",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码45 燃气生产和供应业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-46-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "46",
+    "name": "水的生产和供应业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 952128,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-46",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码46 水的生产和供应业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-47-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "47",
+    "name": "房屋建筑业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 25870412,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-47",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码47 房屋建筑业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-48-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "48",
+    "name": "土木工程建筑业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 11264451,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-48",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码48 土木工程建筑业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-49-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "49",
+    "name": "建筑安装业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 3849722,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-49",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码49 建筑安装业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-50-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "50",
+    "name": "建筑装饰、装修和其他建筑业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 10187730,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-50",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码50 建筑装饰、装修和其他建筑业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-51-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "51",
+    "name": "批发业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 29931601,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-51",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码51 批发业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-52-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "52",
+    "name": "零售业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 23324403,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-52",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码52 零售业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-53-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "53",
+    "name": "铁路运输业",
+    "year": 2023,
+    "measure": "employment",
+    "value": null,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-53",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码53 铁路运输业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": "综合卷未列该范围的从业人数，不能当作零"
+  },
+  {
+    "id": "cn-emp-legal-major-54-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "54",
+    "name": "道路运输业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 8467731,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-54",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码54 道路运输业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-55-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "55",
+    "name": "水上运输业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 477993,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-55",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码55 水上运输业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-56-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "56",
+    "name": "航空运输业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 655711,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-56",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码56 航空运输业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-57-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "57",
+    "name": "管道运输业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 42119,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-57",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码57 管道运输业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-58-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "58",
+    "name": "多式联运和运输代理业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1348826,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-58",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码58 多式联运和运输代理业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-59-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "59",
+    "name": "装卸搬运和仓储业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1434011,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-59",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码59 装卸搬运和仓储业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-60-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "60",
+    "name": "邮政业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1579676,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-60",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码60 邮政业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-61-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "61",
+    "name": "住宿业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 2798224,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-61",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码61 住宿业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-62-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "62",
+    "name": "餐饮业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 6143596,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-62",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码62 餐饮业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-63-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "63",
+    "name": "电信、广播电视和卫星传输服务",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1630091,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-63",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码63 电信、广播电视和卫星传输服务行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-64-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "64",
+    "name": "互联网和相关服务",
+    "year": 2023,
+    "measure": "employment",
+    "value": 2435527,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-64",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码64 互联网和相关服务行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-65-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "65",
+    "name": "软件和信息技术服务业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 11076074,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-65",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码65 软件和信息技术服务业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-66-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "66",
+    "name": "货币金融服务",
+    "year": 2023,
+    "measure": "employment",
+    "value": 133724,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-66",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码66 货币金融服务行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-67-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "67",
+    "name": "资本市场服务",
+    "year": 2023,
+    "measure": "employment",
+    "value": 57075,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-67",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码67 资本市场服务行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-68-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "68",
+    "name": "保险业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 4564,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-68",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码68 保险业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-69-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "69",
+    "name": "其他金融业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 90047,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-69",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码69 其他金融业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-70-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "70",
+    "name": "房地产业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 14433863,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-70",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码70 房地产业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-71-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "71",
+    "name": "租赁业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 2957173,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-71",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码71 租赁业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-72-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "72",
+    "name": "商务服务业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 36092868,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-72",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码72 商务服务业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-73-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "73",
+    "name": "研究和试验发展",
+    "year": 2023,
+    "measure": "employment",
+    "value": 2165908,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-73",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码73 研究和试验发展行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-74-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "74",
+    "name": "专业技术服务业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 9804913,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-74",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码74 专业技术服务业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-75-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "75",
+    "name": "科技推广和应用服务业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 4861654,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-75",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码75 科技推广和应用服务业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-76-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "76",
+    "name": "水利管理业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 323725,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-76",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码76 水利管理业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-77-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "77",
+    "name": "生态保护和环境治理业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 495555,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-77",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码77 生态保护和环境治理业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-78-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "78",
+    "name": "公共设施管理业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 3907109,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-78",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码78 公共设施管理业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-79-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "79",
+    "name": "土地管理业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 125935,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-79",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码79 土地管理业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-80-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "80",
+    "name": "居民服务业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 2975700,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-80",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码80 居民服务业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-81-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "81",
+    "name": "机动车、电子产品和日用产品修理业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1641252,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-81",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码81 机动车、电子产品和日用产品修理业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-82-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "82",
+    "name": "其他服务业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 2119105,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-82",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码82 其他服务业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-83-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "83",
+    "name": "教育",
+    "year": 2023,
+    "measure": "employment",
+    "value": 26769212,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-83",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码83 教育行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-84-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "84",
+    "name": "卫生",
+    "year": 2023,
+    "measure": "employment",
+    "value": 13462549,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-84",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码84 卫生行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-85-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "85",
+    "name": "社会工作",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1154294,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-85",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码85 社会工作行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-86-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "86",
+    "name": "新闻和出版业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 314554,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-86",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码86 新闻和出版业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-87-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "87",
+    "name": "广播、电视、电影和录音制作业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 798007,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-87",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码87 广播、电视、电影和录音制作业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-88-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "88",
+    "name": "文化艺术业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1369038,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-88",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码88 文化艺术业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-89-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "89",
+    "name": "体育",
+    "year": 2023,
+    "measure": "employment",
+    "value": 634083,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-89",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码89 体育行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-90-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "90",
+    "name": "娱乐业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 2078848,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-90",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码90 娱乐业行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-91-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "91",
+    "name": "中国共产党机关",
+    "year": 2023,
+    "measure": "employment",
+    "value": 947827,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-91",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码91 中国共产党机关行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-92-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "92",
+    "name": "国家机构",
+    "year": 2023,
+    "measure": "employment",
+    "value": 20773706,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-92",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码92 国家机构行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-93-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "93",
+    "name": "人民政协、民主党派",
+    "year": 2023,
+    "measure": "employment",
+    "value": 121504,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-93",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码93 人民政协、民主党派行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-94-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "94",
+    "name": "社会保障",
+    "year": 2023,
+    "measure": "employment",
+    "value": 138042,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-94",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码94 社会保障行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-95-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "95",
+    "name": "群众团体、社会团体和其他成员组织",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1418060,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-95",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码95 群众团体、社会团体和其他成员组织行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-major-96-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "96",
+    "name": "基层群众自治组织",
+    "year": 2023,
+    "measure": "employment",
+    "value": 4388415,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷全部法人；排除无分组单位、部门负责普查的金融/铁路单位；A仅05；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-96",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-8",
+        "locator": "表1-8：代码96 基层群众自治组织行，全国从业人员数（人）首数列"
+      }
+    ],
+    "component": "legal",
+    "nullReason": null
+  },
+  {
+    "id": "cn-emp-legal-medium-701-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "701",
+    "name": "房地产开发经营",
+    "year": 2023,
+    "measure": "employment",
+    "value": 2712633,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷法人单位；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-701",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-3",
+        "locator": "表1-3：代码701 房地产开发经营行，从业人员数列"
+      }
+    ],
+    "component": "legal"
+  },
+  {
+    "id": "cn-emp-legal-medium-702-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "702",
+    "name": "物业管理",
+    "year": 2023,
+    "measure": "employment",
+    "value": 8555975,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷法人单位；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-702",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-3",
+        "locator": "表1-3：代码702 物业管理行，从业人员数列"
+      }
+    ],
+    "component": "legal"
+  },
+  {
+    "id": "cn-emp-legal-medium-703-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "703",
+    "name": "房地产中介服务",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1872651,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷法人单位；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-703",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-3",
+        "locator": "表1-3：代码703 房地产中介服务行，从业人员数列"
+      }
+    ],
+    "component": "legal"
+  },
+  {
+    "id": "cn-emp-legal-medium-704-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "704",
+    "name": "房地产租赁经营",
+    "year": 2023,
+    "measure": "employment",
+    "value": 1208581,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷法人单位；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-704",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-3",
+        "locator": "表1-3：代码704 房地产租赁经营行，从业人员数列"
+      }
+    ],
+    "component": "legal"
+  },
+  {
+    "id": "cn-emp-legal-medium-709-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "709",
+    "name": "其他房地产业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 84023,
+    "unit": "人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普综合卷法人单位；详编者说明第2条",
+    "coverageKey": "cn-census-general-volume-legal-709",
+    "releaseDate": null,
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census-1-3",
+        "locator": "表1-3：代码709 其他房地产业行，从业人员数列"
+      }
+    ],
+    "component": "legal"
+  },
+  {
+    "id": "cn-emp-enterprise-53-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "53",
+    "name": "铁路运输业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 181.7,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普企业法人，包含铁路/金融部门负责普查单位；非全部法人",
+    "coverageKey": "cn-census-enterprise-53",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census4",
+        "locator": "表4-4：铁路运输业行，从业人员列及脚注"
+      }
+    ],
+    "component": "enterprise-legal"
+  },
+  {
+    "id": "cn-emp-enterprise-66-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "66",
+    "name": "货币金融服务",
+    "year": 2023,
+    "measure": "employment",
+    "value": 415.5,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普企业法人，包含铁路/金融部门负责普查单位；非全部法人",
+    "coverageKey": "cn-census-enterprise-66",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census4",
+        "locator": "表4-13：货币金融服务行，从业人员列及脚注"
+      }
+    ],
+    "component": "enterprise-legal"
+  },
+  {
+    "id": "cn-emp-enterprise-67-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "67",
+    "name": "资本市场服务",
+    "year": 2023,
+    "measure": "employment",
+    "value": 73.2,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普企业法人，包含铁路/金融部门负责普查单位；非全部法人",
+    "coverageKey": "cn-census-enterprise-67",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census4",
+        "locator": "表4-13：资本市场服务行，从业人员列及脚注"
+      }
+    ],
+    "component": "enterprise-legal"
+  },
+  {
+    "id": "cn-emp-enterprise-68-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "68",
+    "name": "保险业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 729.8,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普企业法人，包含铁路/金融部门负责普查单位；非全部法人",
+    "coverageKey": "cn-census-enterprise-68",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census4",
+        "locator": "表4-13：保险业行，从业人员列及脚注"
+      }
+    ],
+    "component": "enterprise-legal"
+  },
+  {
+    "id": "cn-emp-enterprise-69-2023",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "69",
+    "name": "其他金融业",
+    "year": 2023,
+    "measure": "employment",
+    "value": 17.1,
+    "unit": "万人",
+    "periodBasis": "year-end",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "五经普企业法人，包含铁路/金融部门负责普查单位；非全部法人",
+    "coverageKey": "cn-census-enterprise-69",
+    "releaseDate": "2024-12-26",
+    "revision": "按2026-09-14取得的官方版本；普查与住户调查保留独立序列",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-census4",
+        "locator": "表4-13：其他金融业行，从业人员列及脚注"
+      }
+    ],
+    "component": "enterprise-legal"
+  },
+  {
+    "id": "cn-emp-pop2020-01",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "01",
+    "name": "农业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 11758509,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-01",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，农业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-02",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "02",
+    "name": "林业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 239237,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-02",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，林业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-03",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "03",
+    "name": "畜牧业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 1052844,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-03",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，畜牧业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-04",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "04",
+    "name": "渔业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 248734,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-04",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，渔业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-05",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "05",
+    "name": "农、林、牧、渔专业及辅助性活动",
+    "year": 2020,
+    "measure": "employment",
+    "value": 196688,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-05",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，农、林、牧、渔专业及辅助性活动列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-06",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "06",
+    "name": "煤炭开采和洗选业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 310763,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-06",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，煤炭开采和洗选业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-07",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "07",
+    "name": "石油和天然气开采业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 50559,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-07",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，石油和天然气开采业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-08",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "08",
+    "name": "黑色金属矿采选业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 37227,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-08",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，黑色金属矿采选业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-09",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "09",
+    "name": "有色金属矿采选业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 46592,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-09",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，有色金属矿采选业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-10",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "10",
+    "name": "非金属矿采选业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 59746,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-10",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，非金属矿采选业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-11",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "11",
+    "name": "开采专业及辅助性活动",
+    "year": 2020,
+    "measure": "employment",
+    "value": 54395,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-11",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，开采专业及辅助性活动列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-12",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "12",
+    "name": "其他采矿业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 9376,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-12",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，其他采矿业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-13",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "13",
+    "name": "农副食品加工业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 457267,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-13",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，农副食品加工业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-14",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "14",
+    "name": "食品制造业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 332094,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-14",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，食品制造业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-15",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "15",
+    "name": "酒、饮料和精制茶制造业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 148707,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-15",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，酒、饮料和精制茶制造业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-16",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "16",
+    "name": "烟草制品业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 22867,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-16",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，烟草制品业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-17",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "17",
+    "name": "纺织业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 534072,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-17",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，纺织业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-18",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "18",
+    "name": "纺织服装、服饰业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 1208698,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-18",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，纺织服装、服饰业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-19",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "19",
+    "name": "皮革、毛皮、羽毛及其制品和制鞋业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 492224,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-19",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，皮革、毛皮、羽毛及其制品和制鞋业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-20",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "20",
+    "name": "木材加工和木、竹、藤、棕、草制品业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 298861,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-20",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，木材加工和木、竹、藤、棕、草制品业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-21",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "21",
+    "name": "家具制造业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 340048,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-21",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，家具制造业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-22",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "22",
+    "name": "造纸和纸制品业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 207429,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-22",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，造纸和纸制品业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-23",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "23",
+    "name": "印刷和记录媒介复制业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 151634,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-23",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，印刷和记录媒介复制业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-24",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "24",
+    "name": "文教、工美、体育和娱乐用品制造业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 397460,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-24",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，文教、工美、体育和娱乐用品制造业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-25",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "25",
+    "name": "石油、煤炭及其他燃料加工业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 89134,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-25",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，石油、煤炭及其他燃料加工业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-26",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "26",
+    "name": "化学原料和化学制品制造业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 369187,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-26",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，化学原料和化学制品制造业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-27",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "27",
+    "name": "医药制造业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 184430,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-27",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，医药制造业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-28",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "28",
+    "name": "化学纤维制造业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 34029,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-28",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，化学纤维制造业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-29",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "29",
+    "name": "橡胶和塑料制品业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 520748,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-29",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，橡胶和塑料制品业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-30",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "30",
+    "name": "非金属矿物制品业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 681005,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-30",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，非金属矿物制品业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-31",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "31",
+    "name": "黑色金属冶炼和压延加工业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 232253,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-31",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，黑色金属冶炼和压延加工业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-32",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "32",
+    "name": "有色金属冶炼和压延加工业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 141540,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-32",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，有色金属冶炼和压延加工业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-33",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "33",
+    "name": "金属制品业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 900738,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-33",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，金属制品业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-34",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "34",
+    "name": "通用设备制造业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 781753,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-34",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，通用设备制造业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-35",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "35",
+    "name": "专用设备制造业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 433005,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-35",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，专用设备制造业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-36",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "36",
+    "name": "汽车制造业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 455706,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-36",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，汽车制造业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-37",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "37",
+    "name": "铁路、船舶、航空航天和其他运输设备制造业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 190748,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-37",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，铁路、船舶、航空航天和其他运输设备制造业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-38",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "38",
+    "name": "电气机械和器材制造业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 660654,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-38",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，电气机械和器材制造业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-39",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "39",
+    "name": "计算机、通信和其他电子设备制造业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 1198567,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-39",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，计算机、通信和其他电子设备制造业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-40",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "40",
+    "name": "仪器仪表制造业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 93996,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-40",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，仪器仪表制造业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-41",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "41",
+    "name": "其他制造业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 100594,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-41",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，其他制造业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-42",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "42",
+    "name": "废弃资源综合利用业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 84964,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-42",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，废弃资源综合利用业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-43",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "43",
+    "name": "金属制品、机械和设备修理业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 109016,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-43",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，金属制品、机械和设备修理业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-44",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "44",
+    "name": "电力、热力生产和供应业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 392926,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-44",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，电力、热力生产和供应业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-45",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "45",
+    "name": "燃气生产和供应业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 82973,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-45",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，燃气生产和供应业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-46",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "46",
+    "name": "水的生产和供应业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 97336,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-46",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，水的生产和供应业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-47",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "47",
+    "name": "房屋建筑业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 4071308,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-47",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，房屋建筑业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-48",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "48",
+    "name": "土木工程建筑业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 674856,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-48",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，土木工程建筑业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-49",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "49",
+    "name": "建筑安装业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 417697,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-49",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，建筑安装业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-50",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "50",
+    "name": "建筑装饰、装修和其他建筑业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 2236149,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-50",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，建筑装饰、装修和其他建筑业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-51",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "51",
+    "name": "批发业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 2580725,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-51",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，批发业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-52",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "52",
+    "name": "零售业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 6681671,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-52",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，零售业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-53",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "53",
+    "name": "铁路运输业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 140873,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-53",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，铁路运输业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-54",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "54",
+    "name": "道路运输业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 2134244,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-54",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，道路运输业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-55",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "55",
+    "name": "水上运输业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 56217,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-55",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，水上运输业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-56",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "56",
+    "name": "航空运输业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 68318,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-56",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，航空运输业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-57",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "57",
+    "name": "管道运输业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 2735,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-57",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，管道运输业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-58",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "58",
+    "name": "多式联运和运输代理业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 99684,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-58",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，多式联运和运输代理业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-59",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "59",
+    "name": "装卸搬运和仓储业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 313428,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-59",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，装卸搬运和仓储业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-60",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "60",
+    "name": "邮政业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 461709,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-60",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，邮政业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-61",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "61",
+    "name": "住宿业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 365935,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-61",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，住宿业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-62",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "62",
+    "name": "餐饮业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 2851422,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-62",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，餐饮业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-63",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "63",
+    "name": "电信、广播电视和卫星传输服务",
+    "year": 2020,
+    "measure": "employment",
+    "value": 261138,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-63",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，电信、广播电视和卫星传输服务列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-64",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "64",
+    "name": "互联网和相关服务",
+    "year": 2020,
+    "measure": "employment",
+    "value": 341419,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-64",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，互联网和相关服务列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-65",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "65",
+    "name": "软件和信息技术服务业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 526986,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-65",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，软件和信息技术服务业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-66",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "66",
+    "name": "货币金融服务",
+    "year": 2020,
+    "measure": "employment",
+    "value": 449264,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-66",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，货币金融服务列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-67",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "67",
+    "name": "资本市场服务",
+    "year": 2020,
+    "measure": "employment",
+    "value": 79342,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-67",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，资本市场服务列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-68",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "68",
+    "name": "保险业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 347413,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-68",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，保险业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-69",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "69",
+    "name": "其他金融业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 86561,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-69",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，其他金融业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-70",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "70",
+    "name": "房地产业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 1251428,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-70",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，房地产业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-71",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "71",
+    "name": "租赁业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 130303,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-71",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，租赁业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-72",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "72",
+    "name": "商务服务业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 1669350,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-72",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，商务服务业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-73",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "73",
+    "name": "研究和试验发展",
+    "year": 2020,
+    "measure": "employment",
+    "value": 139564,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-73",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，研究和试验发展列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-74",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "74",
+    "name": "专业技术服务业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 533210,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-74",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，专业技术服务业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-75",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "75",
+    "name": "科技推广和应用服务业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 172131,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-75",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，科技推广和应用服务业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-76",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "76",
+    "name": "水利管理业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 33953,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-76",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，水利管理业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-77",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "77",
+    "name": "生态保护和环境治理业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 44667,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-77",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，生态保护和环境治理业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-78",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "78",
+    "name": "公共设施管理业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 433059,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-78",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，公共设施管理业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-79",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "79",
+    "name": "土地管理业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 6209,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-79",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，土地管理业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-80",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "80",
+    "name": "居民服务业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 1353845,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-80",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，居民服务业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-81",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "81",
+    "name": "机动车、电子产品和日用产品修理业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 566293,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-81",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，机动车、电子产品和日用产品修理业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-82",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "82",
+    "name": "其他服务业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 369213,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-82",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，其他服务业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-83",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "83",
+    "name": "教育",
+    "year": 2020,
+    "measure": "employment",
+    "value": 2715648,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-83",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，教育列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-84",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "84",
+    "name": "卫生",
+    "year": 2020,
+    "measure": "employment",
+    "value": 1289254,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-84",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，卫生列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-85",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "85",
+    "name": "社会工作",
+    "year": 2020,
+    "measure": "employment",
+    "value": 52228,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-85",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，社会工作列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-86",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "86",
+    "name": "新闻和出版业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 42831,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-86",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，新闻和出版业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-87",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "87",
+    "name": "广播、电视、电影和录音制作业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 65960,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-87",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，广播、电视、电影和录音制作业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-88",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "88",
+    "name": "文化艺术业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 91242,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-88",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，文化艺术业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-89",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "89",
+    "name": "体育",
+    "year": 2020,
+    "measure": "employment",
+    "value": 65013,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-89",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，体育列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-90",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "90",
+    "name": "娱乐业",
+    "year": 2020,
+    "measure": "employment",
+    "value": 207148,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-90",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，娱乐业列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-91",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "91",
+    "name": "中国共产党机关",
+    "year": 2020,
+    "measure": "employment",
+    "value": 60404,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-91",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，中国共产党机关列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-92",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "92",
+    "name": "国家机构",
+    "year": 2020,
+    "measure": "employment",
+    "value": 2049147,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-92",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，国家机构列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-93",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "93",
+    "name": "人民政协、民主党派",
+    "year": 2020,
+    "measure": "employment",
+    "value": 7339,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-93",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，人民政协、民主党派列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-94",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "94",
+    "name": "社会保障",
+    "year": 2020,
+    "measure": "employment",
+    "value": 13346,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-94",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，社会保障列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-95",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "95",
+    "name": "群众团体、社会团体和其他成员组织",
+    "year": 2020,
+    "measure": "employment",
+    "value": 123371,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-95",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，群众团体、社会团体和其他成员组织列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-96",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "96",
+    "name": "基层群众自治组织",
+    "year": 2020,
+    "measure": "employment",
+    "value": 404641,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-96",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，基层群众自治组织列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  },
+  {
+    "id": "cn-emp-pop2020-97",
+    "country": "cn",
+    "classification": "GB/T 4754—2017",
+    "code": "97",
+    "name": "国际组织",
+    "year": 2020,
+    "measure": "employment",
+    "value": 562,
+    "unit": "人",
+    "periodBasis": "other",
+    "denominatorKind": "persons",
+    "evidenceKind": "fact",
+    "coverage": "2020七人普10%住户长表直接汇总全国样本就业人口；非推算全国总量",
+    "coverageKey": "cn-population-census-long-form-2020-97",
+    "releaseDate": null,
+    "revision": "2020人口普查年鉴原表；未扩大样本",
+    "evidence": [
+      {
+        "sourceId": "cn-emp-pop2020-b0404",
+        "locator": "4-4，全国行，国际组织列（单位：人）"
+      }
+    ],
+    "component": "household-long-form"
+  }
+]

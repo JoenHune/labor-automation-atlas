@@ -1,0 +1,43 @@
+Field_Name|Label|Field_Type|Field_Length|Number_of_Decimals
+YEAR|Year|CHARACTER|4|0
+GEOTYPE|Type of geography flag|CHARACTER|2|0
+ST|FIPS state code|CHARACTER|2|0
+GEO_ID|Geographic identifier code|CHARACTER|30|0
+GEO_LABEL|Geographic Area Name|CHARACTER|255|0
+GEO_ID_F|Geo Footnote|CHARACTER|4|0
+AGG_DESC|Aggregate Description|CHARACTER|20|0
+AGG_DESC_LABEL|Meaning of AGG_DESC|CHARACTER|255|0
+GOVTYPE|Type of Government|CHARACTER|3|0
+GOVTYPE_LABEL|Meaning of GOVTYPE|CHARACTER|255|0
+FT_EMP|Full-Time Employment|NUMBER|10|0
+FT_EMP_F|Flag for Full-Time Employment|CHARACTER|1|0
+FT_PAY|Full-Time Payroll|NUMBER|20|0
+FT_PAY_F|Flag for Full-Time Payroll|CHARACTER|1|0
+PT_EMP|Part-Time Employment|NUMBER|10|0
+PT_EMP_F|Flag for Part-Time Employment|CHARACTER|1|0
+PT_PAY|Part-Time Payroll|NUMBER|20|0
+PT_PAY_F|Flag for Part-Time Payroll|CHARACTER|1|0
+PT_HRS|Part-Time Hours|NUMBER|10|0
+PT_HRS_F|Flag for Part-Time Hours|CHARACTER|1|0
+FTE|Full-Time Equivalent Employment|NUMBER|10|0
+FTE_F|Flag for Full-Time Equivalent Employment|CHARACTER|1|0
+TOT_EMP|Total Full-Time and Part-Time Employment|NUMBER|10|0
+TOT_EMP_F|Flag for Total Full-Time and Part-Time Employment|CHARACTER|1|0
+TOT_PAY|Total Full-Time and Part-Time Payroll|NUMBER|20|0
+TOT_PAY_F|Flag for Total Full-Time and Part-Time Payroll|CHARACTER|1|0
+FT_EMP_CV|Full-Time Employment Coefficient of Variation|NUMBER|10|2
+FT_EMP_CV_F|Flag for Full-Time Employment Coefficient of Variation|CHARACTER|1|0
+FT_PAY_CV|Full-Time Payroll Coefficient of Variation|NUMBER|10|2
+FT_PAY_CV_F|Flag for Full-Time Payroll Coefficient of Variation|CHARACTER|1|0
+PT_EMP_CV|Part-Time Employment Coefficient of Variation|NUMBER|10|2
+PT_EMP_CV_F|Flag for Part-Time Employment Coefficient of Variation|CHARACTER|1|0
+PT_PAY_CV|Part-Time Payroll Coefficient of Variation|NUMBER|10|2
+PT_PAY_CV_F|Flag for Part-Time Payroll Coefficient of Variation|CHARACTER|1|0
+PT_HRS_CV|Part-Time Hours Coefficient of Variation|NUMBER|10|2
+PT_HRS_CV_F|Flag for Part-Time Hours Coefficient of Variation|CHARACTER|1|0
+FTE_CV|Full-Time Equivalent Employment Coefficient of Variation|NUMBER|10|2
+FTE_CV_F|Flag for Full-Time Equivalent Employment Coefficient of Variation|CHARACTER|1|0
+TOT_EMP_CV|Total Full-Time and Part-Time Employment Coefficient of Variation|NUMBER|10|2
+TOT_EMP_CV_F|Flag for Total Full-Time and Part-Time Employment Coefficient of Variation|CHARACTER|1|0
+TOT_PAY_CV|Total Full-Time and Part-Time Payroll Coefficient of Variation|NUMBER|10|2
+TOT_PAY_CV_F|Flag for Total Full-Time and Part-Time Payroll Coefficient of Variation|CHARACTER|1|0

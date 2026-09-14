@@ -1,0 +1,47 @@
+{
+  "records": 495,
+  "years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "rootChecks": [
+    {
+      "year": 2021,
+      "rootPersons": 746520000,
+      "sumTopLevelPersons": 746519999.9999999,
+      "difference": -1.1920928955078125e-07
+    },
+    {
+      "year": 2022,
+      "rootPersons": 733510000,
+      "sumTopLevelPersons": 733510000.0,
+      "difference": 0.0
+    },
+    {
+      "year": 2023,
+      "rootPersons": 740410000,
+      "sumTopLevelPersons": 740410000.0,
+      "difference": 0.0
+    },
+    {
+      "year": 2024,
+      "rootPersons": 734390000,
+      "sumTopLevelPersons": 734390000.0,
+      "difference": 0.0
+    },
+    {
+      "year": 2025,
+      "rootPersons": 725040000,
+      "sumTopLevelPersons": 725040000.0,
+      "difference": 0.0
+    }
+  ],
+  "populationSampleSum": 65631786,
+  "sampleDomesticSum": 65631224,
+  "excludedInternationalOrganizationSample": 562,
+  "allInventoryKeysCovered": true,
+  "note": "Typed TypeScript schema/arithmetic validation is run separately via check-dataset.ts."
+}

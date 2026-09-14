@@ -1,0 +1,1399 @@
+                      CHAPTER 10: COMPENSATION OF EMPLOYEES
+                                         (Updated: December 2023)
+
+
+Definitions and Concepts
+Recording in the NIPAs
+Overview of Source Data and Estimating Methods
+   Annual estimates
+   Current quarterly estimates
+Table 10.A—Summary of Methodology for Wages and Salaries
+Table 10.B—Summary of Methodology for Employer Contributions for Pension and Insurance
+   Funds
+Table 10.C—Summary of Methodology for Employer Contributions for Social Insurance
+Appendix A: NIPA Measures of Employment and Hours
+
+        Compensation measures the total income—both wages and salaries and supplements to
+wages and salaries—earned by employees in return for contributing to production during an
+accounting period. It is the largest component of gross domestic income (GDI), of national
+income, and of personal income in the U.S. national income and product accounts (NIPAs).
+Compensation estimates are an integral part of the NIPAs, a set of accounts that provides a
+logical and consistent framework for presenting statistics on U.S. economic activity (see
+“Chapter 2: Fundamental Concepts”).
+
+        BEA’s measures of compensation provide comprehensive and consistent economic
+measures of the income earned by all U.S. workers. In contrast to other available measures of
+compensation, the NIPA measures include not just wages and salaries but also noncash
+benefits—such as employer contributions to pension plans, to health insurance, and to social
+insurance programs. Thus, the NIPA measures of compensation are particularly useful in
+analyses of labor’s share in the functional distribution of income. Additionally, unit labor costs—
+the ratio of compensation to real output—is an important indicator of potential inflation.
+Moreover, analyses of the components and supporting detail underlying the compensation
+measures are useful for considering the differences between the individual experiences of
+households and the picture of the economy captured in broader aggregates such as GDP and
+personal income. The estimates of wages and salaries—the largest component of
+compensation—are critical for projecting federal budgets and Social Security trust fund
+balances.1
+
+         Additionally, BEA prepares associated measures of employment and hours. While the
+Bureau of Labor Statistics (BLS) is the principal provider of information on the labor market in
+the United States (including detailed data on employment, hours, and earnings), BEA’s
+supplemental measures are consistent with the NIPA compensation measures and therefore
+facilitate analyses of NIPA-based compensation and productivity by employee. These measures
+are described in appendix A to this chapter; they include full-time equivalent employees and
+hours worked.
+1
+ See J. Steven Landefeld, Brent R. Moulton, Joel D. Platt, and Shaunda M. Villones, “GDP and Beyond: Measuring
+Economic Progress and Sustainability,” Survey of Current Business 90 (April 2010): 12-25.
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+
+
+                                                Definitions and Concepts
+
+        Compensation measures the total remuneration, in cash or in kind, that accrues to
+employees in return for their work during the accounting period, regardless of when they are
+paid. As such, the NIPA treatment of compensation is consistent with the treatment
+recommended by the System of National Accounts 2008 (SNA), in which compensation reflects
+total remuneration and is measured on an accrual basis.2 Compensation consists of the earnings
+of employees, but it does not include the earnings of the self-employed, which the NIPAs treat as
+proprietors’ income (and the SNA treats as mixed income).
+        Compensation is equal to the sum of wages and salaries and of supplements to wages
+and salaries. Wages and salaries, which generally accounts for over 80 percent of compensation,
+consists of cash remuneration of labor (including sick or vacation pay, severance pay,
+commissions, tips, and bonuses), and in-kind remuneration of labor such as transit subsidies and
+meals. Supplements to wages and salaries consists of employer payments that are made on behalf
+of employees but are not included in the regular wage payments provided directly to
+employees—specifically, employer contributions for employee pension and insurance funds and
+employer contributions for government social insurance. Because these payments are made for
+the benefit of employees and because the value of the contributions is typically determined, in
+some fashion, by their labor, they are treated as compensation. Table 10.1 shows the kinds of
+transactions that are included in, and excluded from, compensation of employees.
+
+                              Table 10.1—Content of Compensation of Employees
+                      Category of transaction                                           Comments
+    Wages and salaries in cash                              Includes monetary wages and salaries payable by employers
+                                                              to employees and to corporate officers at regular intervals,
+                                                              including piecework payments; overtime or unusual-hour
+                                                              payments; payments for periods away from work due to
+                                                              temporary discontinuation of production, such as holidays or
+                                                              absences for illness; allowances for unusual location or
+                                                              conditions; early retirement (buyout) payments; severance
+                                                              pay; jury, witness, and other compensatory fees; and regular
+                                                              supplementary allowances, such as housing allowances.3
+                                                            Includes incentive payments, commissions, tips, and bonuses
+                                                              payable to employees and to corporate officers.
+                                                            Includes employee gains from exercising nonqualified stock
+                                                              options (NSOs).4
+
+2
+  See Commission of the European Communities, International Monetary Fund, Organisation for Economic Co-
+operation and Development, United Nations, and the World Bank, System of National Accounts 2008: 7.5. For a
+discussion of the accrual and cash methods of accounting, see “Accounting principles” in Chapter 2.
+3
+  The source data underlying the estimates of wages and salaries do not provide the separate estimates of severance
+payments or of payments for time away due to illness or injury that are required for excluding them from
+compensation (as the SNA recommends), so they are included in the NIPA measures of compensation.
+4
+  NSOs are regarded as additional, taxable, income at the time they are exercised; in contrast, incentive stock options
+do not require the reporting of additional income and are taxed as long-term capital gains when sold. The detailed
+data required for treating NSOs as compensation of employees when the options are granted (as the SNA
+recommends) are not currently available. Instead, NSOs are valued at the time that they are exercised, and the
+difference between the market price at the time of the exercise and the price paid by the employee at the time of the
+exercise is recorded as wages and salaries. For a discussion of the SNA recommendations and BEA’s research on
+
+
+                                                         10-2
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+                                                       Includes wages and salaries paid to employees of
+                                                         unincorporated enterprises.
+                                                       Excludes the income received by the owners or associated
+                                                         household members of unincorporated enterprises, which is
+                                                         treated as proprietors’ income.
+                                                       Excludes the income received by tax-exempt cooperatives,
+                                                         which is treated as proprietors’ income.
+                                                       Excludes reimbursement by employers of expenditures made
+                                                         by employees in order to carry out their work (such as
+                                                         purchases of tools and equipment), which are treated as
+                                                         intermediate expenditures by the employer.
+ Wages and salaries in kind                            Includes employer-provided in-kind earnings, such as transit
+                                                         subsidies, meals, and lodging.
+                                                       Excludes goods or services that employers must provide in
+                                                         order for employees to perform their work, which are treated
+                                                         as intermediate expenditures by the employer.
+ Supplements to wages and salaries                     Includes employer contributions for employee pension and
+                                                         insurance funds: private pension plans, government
+                                                         employee pension plans, private insurance funds such as
+                                                         group health and life insurance, workers’ compensation,
+                                                         supplemental unemployment insurance, and publicly
+                                                         administered government employee insurance plans.
+                                                       Includes employer contributions for government social
+                                                         insurance: old age, survivors, and disability insurance (social
+                                                         security); hospital insurance; unemployment insurance;
+                                                         railroad retirement; pension benefit guaranty; veterans life
+                                                         insurance; workers’ compensation; military medical
+                                                         insurance; and temporary disability insurance.
+
+
+
+
+         Employers provide employees with pension benefits largely through two mechanisms:
+
+              •    Defined contribution plans provide benefits during retirement based on the
+                   amount of money that has accumulated in an employee’s account as a result of
+                   employer and employee contributions to the plans and the income earned from
+                   investment of the plans’ assets.
+              •    Defined benefit plans provide benefits during retirement based on a formula that
+                   typically depends on an employee’s length of service and average pay, among
+                   other factors. To fund promised benefits to retirees, defined benefit plans
+                   primarily rely on contributions from employers and employees and on the income
+                   earned on the financial assets that the plans hold.
+
+       The contributions made by employers to both types of plans are included in supplements
+to wages and salaries; the interest and dividend income earned on the plans’ financial assets are
+included in personal interest income.
+
+       The NIPAs provide two measures of compensation in order to distinguish the
+compensation earned by all of the employees of resident U.S. employers from the compensation
+earned by resident U.S. employees from all employers. “Compensation of employees, paid” is
+the NIPA measure of the compensation paid by U.S. resident employers to their resident and
+nonresident employees. That is, it excludes compensation received from the rest of the world,
+
+
+
+NSOs, see Carol E. Moylan, “Employee Stock Options and the National Economic Accounts,” Survey 88 (February
+2008): 7-13.
+
+                                                   10-3
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+and it includes compensation paid to the rest of the world.5 “Compensation of employees” is the
+NIPA measure of the compensation paid by resident and nonresident employers to U.S. resident
+employees. That is, it excludes compensation paid to the rest of the world, and it includes
+compensation received from the rest of the world.
+
+
+                                          Recording in the NIPAs
+
+       As described in Chapter 2, the NIPAs can be viewed as aggregations of accounts
+belonging to individual transactors in the economy. In the seven summary accounts of the
+NIPAs, “compensation of employees, paid” appears as a component of GDI in the Domestic
+Income and Product Account (account 1) and “compensation of employees” appears in the
+Personal Income and Outlay Account (account 3) as a component of personal income. 6
+Additionally, as “compensation of employees” reflects the compensation liabilities of both
+resident and nonresident employers, it appears as a component of national income.7
+
+      The NIPAs present current-dollar annual estimates of GDI by type of income, national
+income by type of income, and national income by sector and legal form of organization.
+
+    •   The presentation of GDI by type of income includes “compensation of employees, paid”
+        and selected aggregate components—wages and salaries to persons, wages and salaries to
+        the rest of the world, and supplements to wages and salaries.
+    •   The presentation of national income by type of income includes “compensation of
+        employees” and selected aggregate components—wages and salaries for government and
+        for the aggregate of all other sectors and supplements to wages and salaries from
+        employer contributions for employee pension and insurance funds and from employer
+        contributions for government social insurance.
+    •   The presentation of national income by sector and legal form of organization also
+        includes “compensation of employees” and selected aggregate components—wages and
+        salaries and supplements to wages and salaries.
+
+       Additionally, annual estimates of “compensation of employees,” wages and salaries, and
+the major components of supplements to wages and salaries are presented by industry.
+
+
+5
+  Compensation paid to the rest of the world consists of compensation paid to foreign residents temporarily working
+in the United States (including undocumented migratory workers) and to Canadian and Mexican workers who
+commute to work in the United States. Compensation received from the rest of the world consists of compensation
+received by U.S. residents temporarily working abroad, working in foreign diplomatic installations, or working for
+international organizations in the United States, and by workers from the United States who commute to Mexico or
+Canada.
+6
+  In addition, compensation of general government employees is a product-side component of government
+consumption expenditures and gross investment in account 1; see “Chapter 9: Government Consumption
+Expenditures and Gross Investment” for more information on the NIPA presentation of government as both a
+consumer/investor and a producer and on the measurement of government output as the sum of the cost of its inputs.
+7
+  For a discussion of the relationship between GDP, gross national product, national income, and other important
+NIPA aggregates, see “Major NIPA aggregates” in Chapter 2. For a discussion of domestic and national measures of
+production, see “Geographic coverage” in Chapter 2.
+
+                                                      10-4
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+        The sector-specific estimates follow the NIPA sectors—business (including government
+enterprises), households and institutions, general government, and the rest of the world; within
+the business sector, the estimates by legal form are classified according to the Internal Revenue
+Service (IRS) filing requirements for corporate and noncorporate business.8 The industry-
+specific estimates for 1998 forward are classified according to the North American Industry
+Classification System (NAICS) at the three-digit industry level, and the estimates prior to 1998
+are classified according to the Standard Industrial Classification (SIC); the estimates for 1998-
+2000 are also available on an SIC basis.9 The industry-specific estimates include estimates for
+federal general government (which includes both civilian employees and military personnel), for
+federal government enterprises, for state and local general government, and for state and local
+government enterprises.
+
+        Estimates of “compensation of employees, paid” and “compensation of employees” and
+certain aggregate components are also available quarterly. The following is a list of the principal
+NIPA tables that present current-dollar estimates of compensation as a component of GDI and of
+national income. 10
+
+1.10    Gross Domestic Income by Type of Income
+1.11    Percentage Shares of Gross Domestic Income
+1.12    National Income by Type of Income11
+1.13    National Income by Sector, Legal Form of Organization, and Type of Income
+6.2     Compensation of Employees by Industry
+6.3     Wages and Salaries by Industry
+
+       Annual estimates of supplements to wages and salaries are also presented by industry and
+by detailed type of supplement in the following NIPA tables:
+
+
+
+
+8
+  For descriptions of NIPA sectors and of legal forms of organization, see the section “Classification” in.
+9
+  Time-series breaks caused by the conversion to NAICS and by previous revisions to the SIC are reflected in the
+separation of estimates into distinct tables for each range of estimates based on a different classification. For
+instance, table 6.2, Compensation of Employees by Industry, comprises four separate tables: table 6.2A, based on
+the 1942 SIC; table 6.2B, based on the 1972 SIC; table 6.2C, based on the 1987 SIC; and table 6.2D, based on the
+2012 NAICS. For more information on the conversion from the SIC to NAICS, see John R. Kort, “The North
+American Industry Classification System in BEA’s Economic Accounts,” Survey 81 (May 2001): 7–13.
+10
+   As a component of the product-side measure of government consumption expenditures and gross investment,
+BEA prepares real (inflation-adjusted) measures of the compensation of general government employees. For more
+information on the derivation of inflation-adjusted measures, see “Price and Quantity Estimates” in “Chapter 4:
+Estimating Methods.” For more information on the derivation of real compensation of general government
+employees, see the section “Quantity and price estimates” in Chapter 9, and see Bruce E. Baker and Pamela A.
+Kelly, “A Primer on BEA’s Government Accounts,” Survey 88 (March 2008): 29-38.
+11
+   The NIPAs also present annual and quarterly estimates of “compensation of employees” in NIPA table group 2 as
+a component of personal income. Annual and quarterly estimates of “compensation of employees” are available in
+NIPA table 2.1. Personal Income and Its Disposition. Annual and quarterly estimates of wages and salaries are
+available by aggregate industry groupings in NIPA table 2.2. Wages and Salaries by Industry. Monthly estimates of
+wages and salaries by aggregate industry groupings are available in NIPA table 2.7. Wages and Salaries by Industry,
+Monthly. BEA also prepares state and local area estimates of compensation and its components by industry and by
+type. For more information, see the “Regional” page at www.bea.gov.
+
+                                                      10-5
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+3.6      Contributions for Government Social Insurance12
+6.10     Employer Contributions for Government Social Insurance by Industry
+6.11     Employer Contributions for Employee Pension and Insurance Funds by Industry and by
+         Type
+7.8      Supplements to Wages and Salaries by Type
+
+        Separate receipts and expenditures accounts for defined benefit and defined contribution
+pension plans are presented annually in tables 7.20-7.25 for all plans, for all private defined
+benefit plans, for federal government defined benefit plans, for state and local defined benefit
+plans, and for all defined contribution plans, respectively.
+
+       Annual and quarterly estimates of wages and salaries paid to the rest of the world and
+wages and salaries received from the rest of the world are presented in “Table 4.1. Foreign
+Transactions in the National Income and Product Accounts.”
+
+        BEA also prepares nominal, or “current-dollar” estimates of compensation of employees
+that are not seasonally adjusted; these are available in Section 8 of the NIPA Interactive Data
+Tables.
+
+        Additional information on compensation is available in “Underlying Detail tables.”13
+Compensation paid to general government employees—that is, both civilian and military
+employees of federal and state and local agencies excluding government enterprises—is
+available in several tables, but table 3.25U provides detail not found elsewhere. And while
+annual estimates of employer contributions for government social insurance are available in table
+3.6, quarterly estimates are available as underlying detail in table 3.6U.
+
+       In addition, BEA prepares by-industry estimates of full- and part-time employees, full-
+time equivalent (FTE) employees, wages and salaries per FTE, hours worked by FTE, self-
+employed persons, and persons engaged in production (see NIPA tables 6.5-6.9). For a
+discussion of the derivation of the employment estimates, see appendix A to this chapter.
+
+        Other measures of compensation—or more specifically, measures of wages and
+employment—are prepared by the Census Bureau’s County Business Patterns series and by
+BLS’ Quarterly Census of Employment and Wages (QCEW) program.14 The Census Bureau’s
+estimates are derived from Federal administrative records and survey information from business
+establishments. BEA’s statistics and BLS’ statistics on compensation are both based primarily on
+BLS tabulations of employment and wage data from the unemployment insurance program; BEA
+presents the relationship between them annually in “Table 7.18. Relation of Wages and Salaries
+in the National Income and Product Accounts to Wages and Salaries as Published by the Bureau
+
+12
+   The NIPAs also present estimates of the benefits paid by government social insurance programs in NIPA table
+3.12. Government Social Benefits
+13
+   BEA does not include these detailed estimates in the published tables because their quality is significantly less
+than that of the higher level aggregates in which they are included. Compared with these aggregates, the more
+detailed estimates are more likely to be based on judgmental trends, on trends in higher level aggregates, or on less
+reliable source data.
+14
+   See “What is the difference between BEA employment and wages and BLS and Census employment and wages?”
+on BEA’s website at www.bea.gov; select “Help” and then “FAQs.”
+
+                                                       10-6
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+of Labor Statistics.” A reproduction of table 7.18 appears below in the section “Adjustments to
+the QCEW data.”
+
+
+                           Overview of Source Data and Estimating Methods
+
+        As described earlier in the handbook, the NIPA estimates, including those for
+compensation of employees, are prepared using a wide variety of source data (see “Chapter 3:
+Principal Source Data”) and using estimating methods that adjust the source data to the required
+NIPA concepts and that fill in gaps in coverage and timing (see “Chapter 4: Estimating
+Methods”). Specifically, the compensation estimates are based on statistical reports from federal
+agencies including BLS and the Department of the Treasury, on federal budget publications and
+other administrative and regulatory agency reports, and on reports from private organizations
+(such as trade associations).
+
+         Tables 10.A (wages and salaries), 10.B (employer contributions for pension and
+insurance funds), and 10.C (employer contributions for government social insurance) at the end
+of this chapter summarize the source data and estimating methods that are used to prepare the
+annual estimates and the current quarterly estimates of compensation and its components. The
+tables follow the categories shown in NIPA tables 6.3 (for wages and salaries), 6.11 (for
+employer contributions for pension and insurance funds), and 3.6 (for employer contributions for
+government social insurance).15 The source data and methods for the current quarterly estimates
+reflect both seasonally adjusted and not seasonally adjusted estimates unless otherwise noted.
+
+
+Annual estimates
+
+        “Compensation of employees, paid” is measured as the sum of wages and salaries and of
+supplements to wages and salaries. The primary source of information on annual wages and
+salaries is the QCEW; the sources of information on supplements to wages and salaries are as
+varied as the programs themselves.
+
+Wages and salaries
+
+      The benchmark and annual estimates are derived using the same source data and
+methodologies. For private industry employees and for civilian employees of federal
+15
+  In NIPA table 6.3. Wages and Salaries by Industry,, total wages and salaries on a national income basis—which
+includes wages and salaries received from the rest of the world and excludes wages and salaries paid to the rest of
+the world—is shown on line 1. The industry-specific estimates, beginning with “Domestic industries” on line 2,
+include payments to the rest of the world (and exclude receipts from the rest of the world) in order to accurately
+reflect each industry’s total wage and salary liability. The offsetting entry, total wages and salaries paid to the rest of
+the world netted against wages and salaries received from the rest of the world, is shown on line 97.
+    In NIPA table 3.6. Contributions for Government Social Insurance, the entry “Rest-of-the-world contributions”
+on line 32 recognizes the employer and employee contributions for government social insurance from residents of
+the U.S. territories of Guam, American Samoa, and the U.S. Virgin Islands and of the U.S. commonwealths of
+Puerto Rico and the Northern Mariana Islands. In the NIPAs, these are treated as contributions from “nonresidents”
+(see the section “Geographic coverage” in Chapter 2) and as a consequence, they are not included in the NIPA
+estimates of total supplements to wages and salaries and are not shown in table 10.C of this chapter.
+
+                                                          10-7
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+government, of state and local general government, and of the U. S. Postal Service, the estimates
+are primarily based on the QCEW. Estimates for the military and for other government
+enterprises are discussed below in the section “Adjustments to the QCEW data.” QCEW data on
+wages and salaries are generally available for all four quarters of the previous year at the time of
+the annual update of the NIPAs.
+
+         The QCEW is a federal-state cooperative program in which state employment agencies
+compile and report to BLS the monthly data on employment and the quarterly data on total and
+taxable wages that are reported to the states each quarter by private industries on quarterly tax
+returns and by federal agencies and state and local governments on similar reports for employees
+covered by state unemployment insurance (UI) laws or by the Unemployment Compensation for
+Federal Employees (UCFE) program. These data cover about 97 percent of employees on
+nonfarm payrolls. BLS tabulates the data by geographical categories (county, metropolitan
+statistical area, combined statistical area, state, and the nation), by six-digit NAICS industry
+level, and by ownership sectors (private industry, federal government, state government, or local
+government).
+
+         The composition of wages reported to state employment agencies is generally consistent
+with the NIPA definition of wages and salaries. The data are on a disbursement basis; they
+reflect the total wages and salaries paid during a calendar quarter, regardless of when the services
+were performed (although a few state laws specify that wages be reported on an accrual basis).
+Conversely, the NIPAs record compensation and its components on an accrual basis; they reflect
+the total wages and salaries earned during the period, regardless of when they were paid. In most
+years, the pattern of wage and salary accruals and disbursements is relatively stable, with no
+difference between the measures of accruals and disbursements.16 However, when there is
+evidence of a substantial departure from the usual pattern, BEA may incorporate a timing
+adjustment to better reflect the earnings accrued in each period. When these adjustments are
+made, they are recorded in the annual wage reconciliation table (NIPA table 7.18) discussed
+below in the section “Adjustments to the QCEW data.” 17
+
+        BEA sums the quarterly QCEW data for each industry to derive annual estimates and
+makes additional adjustments to account for misreporting of wages on employment tax returns
+and for differences in coverage and in definitions (see the section “Adjustments to the QCEW
+
+16
+   As a simple example, if wages and salaries accrued annually include bonuses that typically equal $100, with one-
+half of the bonuses paid in the current year and one-half paid in the following year, then each year’s disbursed wages
+will include a $50 bonus payment accrued in the current year and a $50 bonus payment accrued in the previous year;
+the total bonuses paid in each year—$100—equals the bonuses accrued.
+17
+   Prior to the 2013 comprehensive update of the NIPAs, the NIPAs presented a third compensation measure,
+“compensation of employees, received” that reflected estimates of wages and salaries on a disbursement basis. An
+entry for “wage and salary accruals less disbursements” (WALD) in the national income tables reconciled the two
+accrual-based measures with this disbursement-based measure. In practice, there was often little information on the
+timing differences between accruals and disbursements, and the measure of WALD was typically zero. The new
+treatment, introduced during the 2013 comprehensive update of the NIPAs, discontinued the disbursement-based
+measure of “compensation of employees, received” and the measures of WALD in order to better align transactions
+of the personal income and outlays account with those of the private enterprise income account, to simplify the
+presentation of wages and salaries within the accounts, and to help bring the NIPAs in line with recommendations of
+the SNA. See “Preview of the 2013 Comprehensive Revision of the National Income and Product Accounts:
+Changes in Definitions and Presentations,” Survey 93 (March 2013): 13-39.
+
+                                                        10-8
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+data”); these adjustments account for about 5 percent of the NIPA estimate of wages and salaries.
+BEA uses industry payroll data from the Census Bureau’s Economic Census to aggregate the
+estimates across industries and levels of government to prepare estimates of total wages and
+salaries by legal form and sector.
+
+Supplements to wages and salaries
+
+        The benchmark and annual estimates are derived using the same source data and
+methodologies. Employer contributions for employee pension and insurance funds consists of the
+contributions made by private or government employers to privately administered retirement and
+insurance programs and by government employers to government employee pension plans and to
+publicly administered government employee insurance programs. Employer contributions for
+government social insurance consists of the contributions made by private and public employers
+to other publicly administered programs that provide certain social benefits, such as social
+security and Medicare.18
+
+        For employer contributions for pension funds, supplements are estimated by type of
+fund—defined contribution and defined benefit pension plans—and by employer—private plans
+and government employee plans. For defined contributions plans, future benefits are determined
+by the contributions made by employers and employees into the plan and by the income earned
+on the financial assets that the plans hold; therefore, actual contributions reflect the accrual
+accounting method. For defined benefit plans, future benefit entitlements are determined
+independently of actual contributions and may differ from them.19 Thus, in order to reflect the
+accrual accounting basis, the NIPA measures of employer contributions to defined benefit plans
+reflect actual contributions and—when actual contributions differ from the entitlements earned in
+the period—imputed contributions to reflect the value of the employers’ liability for entitlements
+and for the administrative expenses of the plan that are not fulfilled by actual contributions.20
+The measurement of employer contributions for both types of plans are described below and in
+table 10.B.21
+
+18
+   For descriptions of the government social insurance programs included in the NIPA measure of employer
+contributions for government social insurance, see U.S. Bureau of Economic Analysis, MP-5: Government
+Transactions (Methodology Papers: U.S. National Income and Product Accounts, September 2005).
+19
+   This is especially true in cases where the actual contributions made by employers are sporadic. For example,
+employers sometimes skip contributions when the plans have enjoyed unusually good investment returns;
+conversely, employers sometimes make large “catch up” contributions to pay down unfunded benefit obligations.
+20
+   In periods where actual contributions exceed the total liability of employers, imputed employer contributions will
+be negative.
+21
+   The measurement of defined benefit pension plans on an accrual basis was introduced as part of the 2013
+comprehensive update of the NIPAs to better align pension-related compensation with the timing of when
+employees earned the benefit entitlements and to be consistent with the recommendations of the SNA. The accrual-
+based estimates also avoid the volatility that arises when sporadic cash payments made by employers into defined
+benefit pension plans are used to measure compensation. For detailed information on accrual-based measures of
+benefit entitlements and contributions, see “Preview of the 2013 Comprehensive Revision of the National Income
+and Product Accounts: Changes in Definitions and Presentations,” Survey 93 (March 2013): 13-39 and Marshall B.
+Reinsdorf and David G. Lenze, “Defined Benefit Pensions and Household Income and Wealth,” Survey 89 (August
+2009): 50-62. With the 2014 annual update of the NIPAs, defined contribution pension plans were also treated as
+part of the same subsector. With the 2018 comprehensive update, the valuation of state and local defined benefit
+pensions was changed from an accumulated benefit obligation basis to a projected benefit obligation basis.
+
+
+                                                        10-9
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+
+
+         For employer contributions to defined contribution pension plans, the estimates are
+primarily based on survey and administrative data from government agencies—including the
+Department of Labor, the Department of the Treasury, the Census Bureau, the Office of
+Personnel Management (OPM), the Federal Retirement Thrift Investment Board, the Pension
+Benefit Guaranty Corporation (PBGC), the Employment Benefits and Security Administration
+(EBSA), and the Department of Health and Human Services (HHS). For employer contributions
+to defined benefit pension plans, the NIPA estimates are based on actuarial estimates of the
+present value of claims to benefits accrued through service in the current period—commonly
+called normal costs—primarily from PBGC, EBSA, OPM, the Department of Treasury, the
+Department of Defense, and reports from state and local pension plans. The employers’ portion
+of the liability for these claims—referred to as employers’ normal costs—reflects actual and
+imputed employer contributions.
+
+        For privately sponsored defined benefit plans, estimates of employers’ normal costs are
+based on actuarial estimates of employers’ normal costs provided by the PBGC from data
+collected on IRS form 5500. The PBGC adjusts the estimates to include administrative expenses,
+and BEA adjusts the PBGC estimates to reflect a common discount rate based on the average
+AAA corporate bond rate published by Moody’s Investors Service.
+
+        For federal government civilian employee defined benefit pension plans, estimates of
+employers’ normal costs are based on OPM data published in the annual actuarial reports of the
+major civilian retirement plans, supplemented by data from the Department of Treasury. The
+estimates of employers’ normal costs are scaled up slightly to account for smaller retirement
+plans such as those for employees of the Foreign Service and the Coast Guard that are not
+included in the source data. For the military defined benefit plans, estimates of employers’
+normal costs are based on Department of Defense data on normal cost rates and payroll.
+
+         For state and local employee defined benefit pension plans, the estimates of employers’
+normal costs are based on the service costs and employee contribution data reported in state and
+local government financial reports. BEA adjusts the estimates to reflect the same discount rate
+that is used for measures of privately sponsored defined benefit plans. Separate measures of
+administrative expenses are based on Census Bureau data.
+
+        For private insurance funds and publicly administered government employee insurance
+plans, estimates of employer contributions are primarily based on administrative and survey data
+from HHS, OPM, the Department of Veterans’ Affairs, and A.M. Best’s Aggregates and
+Averages.
+
+       For employer contributions for government social insurance, estimates are derived by
+program. They are primarily based on administrative data from the Social Security
+Administration, the Department of Labor, and the Veterans’ Administration; on survey data from
+the Census Bureau; and on financial data from the Budget of the United States Government
+(Budget) as published by the Office of Management and Budget.
+
+
+
+
+                                             10-10
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+
+
+       The industry-specific estimates are prepared by allocating the estimates to three-digit
+NAICS industries using industry-specific information from the source data or from other
+industry-specific data that is related to the program or fund. For instance, the source data
+underlying the estimates of workers’ compensation do not include industry information, so
+industry ratios are derived from industry-specific data on occupational injuries and illnesses from
+BLS.
+
+
+Current quarterly estimates
+
+        Current quarterly estimates of wages and salaries and of supplements to wages and
+salaries are published only at aggregate levels and not by detailed industries or by program. For
+wages and salaries, seasonally adjusted current quarterly estimates are prepared by averaging the
+monthly estimates of wages and salaries that are released as part of BEA’s monthly personal
+income estimates. For the published aggregates of supplements to wages and salaries—that is,
+employer contributions for employee pension and insurance funds and employer contributions
+for government social insurance—seasonally adjusted current quarterly estimates are derived as
+the sum of the components (or some aggregate level of the components) that are, in most cases,
+prepared by extrapolation, either judgmentally or by using an indicator series (for an explanation
+of this method, see “Interpolation and extrapolation using an indicator series” in Chapter 4).22
+
+Wages and salaries
+
+As noted above, the primary source for the annual estimates of private wages and salaries is
+QCEW data. Because these quarterly data are generally available 5 months after the end of a
+quarter, the estimates of private wages and salaries for the quarters for which the QCEW data are
+not yet available are derived by averaging the current monthly estimates.23 The current monthly
+estimates are extrapolated for each industry from the historical monthly estimates, which are in
+turn based on the most recent quarterly QCEW data that are available; the industry estimates are
+then summed to derive the monthly estimates for total wages and salaries. The extrapolation is
+based on the most recent monthly data from the BLS current employment statistics (CES)
+program and is calculated as the growth rate for employment times average weekly hours times
+and average hourly earnings. Similarly, once the QCEW data are incorporated into the quarterly
+estimates, the monthly estimates are interpolated based on the same CES indicator series. For
+example, the end-of-November release of Personal Income and Outlays for October contains
+monthly estimates of wages and salaries for July through October that are CES extrapolations of
+revised monthly estimates for the second quarter that are based on newly available QCEW data.
+In turn, the end-of-November release of GDP for the third quarter (second estimate) contains
+third-quarter estimates of wages and salaries that are derived by averaging the monthly Personal
+Income and Outlay estimates.
+
+22
+   Most of the source data that are used for extrapolation are seasonally adjusted; when this is not the case, BEA
+seasonally adjusts data that display seasonality (see the section “Seasonal adjustment” in Chapter 2). In cases where
+estimates are extrapolated without the use of indicator series, there is no monthly or quarterly seasonality.
+23
+   The monthly estimates of personal income, including compensation, are expressed at annual rates; consequently,
+the current quarterly estimates, also expressed at annual rates, may be derived by averaging the monthly estimates.
+
+                                                       10-11
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+
+
+        In general, the release of the “third” current quarterly estimate of GDP marks the last
+opportunity to revise most NIPA estimates until the next annual update. However, because of the
+importance of the QCEW as a data source and because of the 5-month lag in its availability, an
+exception is made for private wages and salaries and for private employer contributions for
+government social insurance (for which the estimates are generally based on estimates of private
+wages and salaries). As part of the “second” current quarterly release of GDP, the preceding
+quarter’s estimates for these series and for affected income-side aggregates are revised in order
+to incorporate the newly available QCEW data.24 Thus, continuing with the example above, the
+end-of-November release of GDP for the third quarter (second estimate) also contains revised
+estimates of wages and salaries for the second quarter that are based on newly available QCEW
+data. The months of the second quarter are interpolated based on the QCEW-derived quarterly
+control.
+
+        For federal and for state and local government employees, the current quarterly estimates
+are derived by summing monthly extrapolations from the most recent annual estimates. Federal
+civilian estimates for both general government and government enterprises are extrapolated
+using an indicator series that is based primarily on CES employment data. Federal military
+estimates are extrapolated using Department of Defense employment data. State and local
+government estimates for both general government and government enterprises are extrapolated
+using an indicator series that is based on CES employment data and on information on the
+change in the cost of labor from the BLS employment cost index.
+
+Supplements to wages and salaries
+
+       Current quarterly estimates of employer contributions for employee pension and
+insurance funds are released only for the aggregate, which is prepared as the sum of the
+components or aggregate levels of the components. In most cases, the component estimates are
+prepared by judgmentally projecting annual estimates into the next year and then interpolating
+those projected annual estimates into quarterly (and monthly) estimates.
+
+         Current quarterly estimates of employer contributions for government social insurance
+funds are also prepared as the sum of its components. These components are generally
+extrapolated from the annual estimates to quarterly (and monthly) estimates using indicator
+series, so they are made available as part of the NIPA underlying detail (see the section
+“Recording in the NIPAs”). In most cases, the indicator series are based on NIPA wage and
+salary estimates or the component estimates are extrapolated without an indicator but with
+information from Budget projections of relevant outlays. As mentioned earlier, the estimates of
+
+24
+   This procedure was introduced as part of the 2002 annual update in order to reduce the magnitude of revisions to
+the estimates of wages and salaries. (See the box “Revisions to Wages and Salaries and to Profits” in Eugene P.
+Seskin and Stephanie H. McCulla, “Annual Revision of the National Income and Product Accounts,” Survey 82
+(August 2002): 24-25.) Affected aggregates include gross domestic income, the statistical discrepancy, gross
+national income, national income, personal income, disposable personal income, personal taxes, personal saving,
+gross (national) saving, compensation, and gross product of corporate business. Other components that are closely
+linked to wages and salaries, such as personal current taxes and employer contributions for government social
+insurance, are also revised. Product-side series, including government compensation, which is a component of GDP,
+are not revised.
+
+                                                      10-12
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+employer contributions for government social insurance funds for the preceding quarter are
+revised to incorporate newly available QCEW data as part of the “second” current quarterly
+release of GDP.
+
+        The not seasonally adjusted (NSA) estimates of compensation of employees are derived
+using the same methods as the seasonally adjusted estimates, using not seasonally adjusted
+versions of the same indicators.
+
+
+Adjustments to the QCEW data
+
+        The QCEW data on wages and salaries are largely consistent with the concepts and
+definitions underlying the NIPA estimates of wages and salaries. However, in deriving the
+annual estimates of wages and salaries for the NIPAs, BEA adjusts the QCEW data to account
+for misreporting of wages (including tips) on employment tax returns and for differences in
+coverage and in definitions. A reconciliation of the BLS and the NIPA estimates of wages and
+salaries is presented annually in NIPA table 7.18, a reproduction of which is shown for a single
+year in table 10.2 below.
+
+
+
+
+                                              10-13
+    CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+                Table 10.2: Relation of BLS Wages and Salaries and NIPA Wages and Salaries
+                                            (Billions of dollars)
+
+Line                                                      NIPA line item                                                 2017
+  in
+NIPA
+table
+7.18
+1            Total wages and salaries, BLS1                                                                              7,966.3
+             Plus:
+2              Adjustment for misreporting on employment tax returns2                                                       94.1
+3              Adjustment for wages and salaries not covered or not fully covered by unemployment insurance                393.4
+4                    Government                                                                                            151.4
+5                     Other                                                                                                242.0
+6              Timing adjustment for accrual basis                                                                           0.0
+7            Equals: Wages and salaries, NIPAs                                                                           8,453.8
+
+    1 Total annual wages of workers covered by state unemployment insurance (UI) laws and by the Unemployment Compensation for
+
+    Federal Employees program. Data for the most recent year are preliminary.
+    2
+      Consists of unreported wages and salaries paid by employers and of unreported tips.
+
+
+
+
+            Adjustment for misreporting on employment tax returns (line 2). Adjustments are made
+    to the QCEW data to account for wages and salaries that are underreported on employment tax
+    returns, for tips that are underreported, and for wages and salaries that are not reported at all
+    because the employers fail to file an employment tax return.
+
+         •    The estimates of underreported income are based on audits of individual employment tax
+              returns undertaken as part of the IRS National Research Program (NRP) for the 2001,
+              2006, 2008-2010, 2011-2013, 2014-2016 and 2017-2019 (projected) as well as tax gap
+              measures for various years from the previous IRS TCMP studies.25
+         •    The adjustment for underreported tips or gratuities is derived in the preparation of BEA’s
+              input-output accounts for industries—primarily accommodations, food services, taxis,
+              barber shops, and beauty salons—where tips are a significant factor in compensation. The
+              adjustment is based on the assumption that not all tips are included in the wages and
+              salaries reported on the employment tax returns, and it is derived using information on
+              industry sales and information on “tip rates” from the IRS.
+         •    The estimates of nonreported income are based on “exact-match” studies that the Census
+              Bureau provides to BEA. These studies match records from the Current Population
+              Survey (CPS), conducted by the Census Bureau for BLS, with individual IRS tax returns
+              in order to estimate nonfiler income for individuals.
+
+           Adjustment for wages and salaries not covered or not fully covered by unemployment
+    insurance (line 3). The QCEW data provide almost complete coverage for most private industry
+    employees, federal civilian employees, and state and local government employees. However, for
+
+
+    25
+      The IRS Taxpayer Compliance Measurement Program had provided estimates of misreported income for selected
+    years since 1963. In 2001, the IRS launched the NRP to update the research and to reflect a changing economy,
+    revisions to the tax code, and shifts in individual behavior.
+
+
+                                                                 10-14
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+military personnel and for certain private industries for which the QCEW provides little or no
+coverage—railroads, farms, farm labor contractors, private elementary and secondary schools,
+religious membership organizations, and private households—estimates of wages and salaries
+are prepared separately using other source data.
+
+   •   Government (line 4). This entry reflects the addition of the NIPA estimate for wages and
+       salaries of military personnel and for various other government wage and salary
+       payments not captured by the QCEW. The compensation paid to military personnel is
+       based on Budget data and includes cash wages as well as in-kind compensation such as
+       uniform and housing allowances and rations. The wage and salary information in the
+       Budget is available on a fiscal year basis; actual wage and salary expenses are provided
+       for one year, and projections are provided for the current year and the budget year (for
+       example, the FY2015 Budget provides actual expenses for FY2013 and projected
+       expenses for FY2014 and FY2015). BEA converts the fiscal year estimates to a calendar
+       year basis by allocating one quarter of the estimate for a given fiscal year to the previous
+       year and three quarters to the given year.
+               Additional government-related adjustments are made for students and their
+       spouses employed by public colleges or universities, for elected officials and members of
+       the judiciary, for intelligence agents, for interns employed by publicly administered
+       hospitals and by social service agencies, for judicial fees paid to jurors and witnesses, for
+       compensation of prison inmates, and for marriage and license fees paid to justices of the
+       peace. These adjustments, which comprise only a very small share of the total
+       government adjustment, are prepared using a variety of source data, including data from
+       the Census Bureau and the Department of Justice.
+   •   Other (line 5). This entry accounts for all of the other adjustments that are made in the
+       estimation of NIPA wages and salaries, including estimates for employees not covered by
+       the QCEW and estimates for differences between the QCEW and the NIPA definitions of
+       wages and salaries.
+
+       Adjustments for employees not fully captured in the QCEW data are made as follows:
+
+   •   for federal government enterprises excluding the U.S. Postal Service (which is covered
+       by the QCEW), based on Budget data.
+   •   for farms, based on data on farm labor expenses from the U.S. Department of Agriculture
+       (USDA).
+   •   for farm labor contractors, primarily based on data for contract farm labor expenses from
+       the Census of Agriculture.
+   •   for private elementary and secondary schools, primarily based on annual payroll data
+       from the Census Bureau’s County Business Patterns; estimates of in-kind wages are
+       judgmentally derived.
+   •   for religious membership organizations, primarily based on annual payroll data from the
+       Census Bureau’s County Business Patterns; estimates of in-kind wages are judgmentally
+       derived.
+   •   for private households, primarily based on CPS data; estimates of in-kind wages are
+       judgmentally derived.
+
+
+                                              10-15
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+    •   for railroads, primarily based on wage and salary data from the Railroad Retirement
+        Board.
+
+        Adjustments for differences between the QCEW and the NIPA definitions of wages and
+salaries include the following:
+
+    •   An adjustment to include compensation received from foreign employers and to exclude
+        compensation paid to foreigners in order to make the measure consistent with national
+        income, derived from ITA estimates of compensation received from foreigners.
+        Alternatively, in gross domestic income tables, the ITA estimate of compensation paid to
+        the rest of the world is included and the ITA estimate of compensation received from the
+        rest of the world is excluded. The ITA estimates of compensation received from, and paid
+        to, foreigners are based mostly on data from foreign statistical authorities and from the
+        IRS, as well as various demographic and labor market data from the USDA and the
+        Department of Labor.26
+    •   An adjustment to include employer contributions to “cafeteria plans” that are excluded
+        from the QCEW data for private industries and for state and local governments when
+        state laws do not count them as wages for unemployment insurance purposes. These
+        plans allow participating employees to use a portion of their salaries on a pre-tax basis to
+        pay for health insurance and for “flexible spending accounts,” which reimburse
+        employees for medical care and for dependent daycare. The adjustment is based on data
+        from the Agency for Healthcare Research and Quality’s Medical Expenditure Panel
+        Survey and on trade source data.27 This adjustment is not needed for federal employer
+        contributions to these plans because they are included in the QCEW data for all states.
+
+         Adjustment for timing for accrual basis (line 6). This adjustment accounts for differences
+in the timing of wage and salary disbursements from QCEW data and the accrual basis
+underlying the NIPA measure of wages and salaries. A positive adjustment reflects a net amount
+of compensation that was earned, but not actually received (and therefore not reflected in the
+source data) during the period, and a negative adjustment reflects a net amount of compensation
+that was paid (and reflected in the source data), but not actually earned, during the period. In
+practice, as reliable source data are generally lacking on these differences, timing adjustments
+are infrequent.
+
+
+
+
+26
+   For more information on the sources and methods for estimating compensation paid to and received from the rest
+of the world, see the section “Compensation of Employees” in “U.S. International Transactions Accounts: Concepts
+and Estimation Methods,” at www.bea.gov.
+27
+   For more information, see Clinton P. McCully and Steven Payson, “Preview of the 2009 Comprehensive Revision
+of the NIPAs,” Survey 89 (May 2009): 11.
+
+                                                     10-16
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+
+                                  Table 10.A—Summary of Methodology Used to Prepare Estimates of Wages and Salaries
+ Line in NIPA          Component                       Benchmark-year and nonbenchmark-year estimates                                    Current quarterly estimates
+   table 6.3                                                                                                                        (Indicator series used to extrapolate)
+                3 Private industries   Most industries: QCEW, with adjustments by BEA for coverage, misreporting, and           CES employment, hours, and earnings data.
+                                       definitions (see the section “Adjustments to the QCEW data”).
+                                       For certain other industries, or types of enterprises within industries, other sources   NSA: For quarters in which NSA QCEW data
+                                       as follows:                                                                              are available, NSA estimates are extrapolated
+                                           Farms1: USDA farm labor expense data on cash wages and payments-in-kind              from the most recent estimates not subject to
+                                           by owner-operators to hired farm labor.                                              revision using the quarter-to-quarter change in
+                                           Farm labor contractors: For Arizona and California, QCEW. For other states,          NSA QCEW. For quarters where NSA QCEW
+                                           for benchmark years, Census of Agriculture contract farm labor expenses, and         data are unavailable, NSA estimates are
+                                           for nonbenchmark years, straight-line interpolations of benchmark-year               derived by industry as a five-year moving
+                                           estimates.                                                                           average of the implied seasonal factor
+                                           Private elementary and secondary schools: For cash wages, Census Bureau              multiplied by the CES-based seasonally
+                                           County Business Patterns data on annual payrolls; for pay-in-kind,                   adjusted series.
+                                           judgmentally derived.
+                                           Religious membership organizations: For cash wages, Census Bureau County
+                                           Business Patterns data on annual payrolls. For in-kind wages, judgmentally
+                                           derived.
+                                           Private households: For cash wages, BLS Current Population Survey data. For
+                                           pay-in-kind, judgmentally derived.
+                                           Railroads: U.S. Railroad Retirement Board data on wages and salaries subject
+                                           to the payroll tax that supports the railroad retirement system, adjusted to
+                                           include the portion of wages and salaries not subject to the tax, based on the
+                                           number of employees whose wages and salaries exceed the limit for retirement
+                                           taxation.
+                                       NSA: For historical quarters subject to revision, NSA estimates are interpolated
+                                       from the annual control value using NSA QCEW by industry as the indicator.
+           86 Government:
+           87  Federal government:
+           89    Civilian general For cash wages, QCEW with adjustments by BEA for coverage (see the section                    CES civilian employment data.
+                 government       “Adjustments to the QCEW data”). For in-kind transit benefits, Department of
+                                  Transportation.
+           90         Military2        For cash and in-kind wages, Budget of the United States Government.                      Department of Defense manpower reports.
+           91        Government         For U.S. Postal Service, QCEW data. For other enterprises, Budget data.         CES employment data for Postal Service.
+                     enterprises
+           92       State and local government:
+           93        General            QCEW data for all state and local employees allocated to general government and CES employment data and BLS employment
+                     government         government enterprises using Census Bureau Public Employment payroll data with cost index data.
+                                        adjustments by BEA for coverage (see the section “Adjustments to the QCEW
+                                        data").
+
+
+                                                                              10-17
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+                                  Table 10.A—Summary of Methodology Used to Prepare Estimates of Wages and Salaries
+    Line in NIPA       Component                           Benchmark-year and nonbenchmark-year estimates                           Current quarterly estimates
+      table 6.3                                                                                                                (Indicator series used to extrapolate)
+                96    Government          QCEW data for employees allocated to government enterprises using Census       CES employment data and BLS employment
+                      enterprises3        Bureau Public Employment payroll data.                                         cost index data.
+               97 Rest of the world:
+               98    Receipts from        ITA estimates.                                                                 ITA estimates.
+                     the rest of the
+                     world
+               99    Less: Payments       ITA estimates.                                                                 ITA estimates.
+                     to the rest of the
+                     world4
+
+
+1
+  NAICS crop and animal production.
+2
+  Includes Coast Guard.
+3 Employees of Indian tribal governments are classified in state and local government. NAICS crop and animal production.
+4
+  Includes estimates of foreign professional workers and undocumented Mexican migratory workers employed temporarily in the United States.
+
+BEA        Bureau of Economic Analysis
+BLS        Bureau of Labor Statistics
+CES        Current Employment Statistics, BLS
+ITA        International Transactions Accounts, BEA
+QCEW       Quarterly Census of Employment and Wages, BLS
+
+
+
+
+                                                                              10-18
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+
+ Table 10.B—Summary of Methodology Used to Prepare Estimates of Employer Contributions for Employee Pension and Insurance Funds
+Line in NIPA          Component                 Benchmark-year and nonbenchmark-year estimates                           Current quarterly estimates*
+ table 6.11                                                                                                         (Indicator series used to extrapolate)
+           22 Employer contributions for   See method for each component.                                The aggregate of unreleased measures of (1) private
+              employee pension and                                                                       employer contributions for employee pension and
+              insurance funds                                                                            insurance funds, (2) federal government employer
+                                                                                                         contributions for employee pension and insurance funds,
+                                                                                                         and (3) state and local government employer
+                                                                                                         contributions for employee pension and insurance funds.
+                                                                                                         (1) For the aggregate of private employer contributions
+                                                                                                             for private pension and insurance funds, judgmental
+                                                                                                             trend.
+                                                                                                         (2) For the aggregate of federal employer contributions
+                                                                                                             for employee pension and insurance funds, the sum
+                                                                                                             of unreleased measures of (1) federal government
+                                                                                                             employer contributions to government employee
+                                                                                                             pension plans, (2) federal government employer
+                                                                                                             contributions to group health insurance, (3) federal
+                                                                                                             government employer contributions to group life
+                                                                                                             insurance, and (4) federal government employer
+                                                                                                             contributions to publicly administered government
+                                                                                                             employee insurance plans. See corresponding
+                                                                                                             entries below.
+                                                                                                         (3) For the aggregate of state and local employer
+                                                                                                             contributions to employee pension and insurance
+                                                                                                             funds, the sum of unreleased measures of (1) state
+                                                                                                             and local government employer contributions to
+                                                                                                             government employee pension plans, (2) state and
+                                                                                                             local government employer contributions to group
+                                                                                                             health insurance, (3) state and local government
+                                                                                                             employer contributions to group life insurance, and
+                                                                                                             (4) state and local government employer
+                                                                                                             contributions to workers’ compensation.
+
+                                                                                                         NSA: Seasonally adjusted and NSA measures of
+                                                                                                         employer contributions for employee pension and
+                                                                                                         insurance funds are presumed equal.
+          23   Pension plans1
+          24    Private pension plans
+          25     Defined benefit           For all except 2 most recent years, employers’ normal costs   Quarterly estimates are not released at this level of
+                                           based on BEA tabulations of plan-level data provided by       detail; see line 22.
+                                           PBGC from IRS form 5500 on employer normal costs for each
+                                           plan, adjusted to a uniform discount rate based on AAA
+
+
+                                                                         10-19
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+ Table 10.B—Summary of Methodology Used to Prepare Estimates of Employer Contributions for Employee Pension and Insurance Funds
+Line in NIPA         Component               Benchmark-year and nonbenchmark-year estimates                                Current quarterly estimates*
+ table 6.11                                                                                                           (Indicator series used to extrapolate)
+                                        corporate bond rates from Moody’s Investors Service and
+                                        aggregated to the total for all industries.2For second most
+                                        recent year, employers’ normal costs based on BEA
+                                        tabulations of form 5500 data provided by PBGC with
+                                        adjustments by BEA for coverage. For most recent year,
+                                        employers’ normal costs derived as BEA’s normal cost rate
+                                        applied to total covered payroll; form 5500 data are not
+                                        available for the most recent year. Covered payroll is derived
+                                        as the product of NIPA wages and salaries and a coverage
+                                        rate, which is derived as the ratio of the number of active
+                                        participants, from EBSA data, to private full-time equivalent
+                                        employees, from NIPA estimates.
+         26      Defined contribution   For all except 2 most recent years, employers’ cash            Quarterly estimates are not released at this level of
+                                        contributions from EBSA tabulations of IRS form 5500 data for detail; see line 22.
+                                        three-digit NAICS industries. For second most recent year,
+                                        PBGC tabulations of IRS form 5500 data, and for most recent
+                                        year, Standard and Poor’s 500 and other corporate financial
+                                        data.
+         27 Government employee         See method for each component,                                 Quarterly estimates are not released at this level of
+            pension plans                                                                              detail; see line 22.
+
+                                                                                                            For unreleased measures of government employee
+                                                                                                            pension plans, the sum of unreleased measures of
+                                                                                                            federal government employee pension plans and state
+                                                                                                            and local employee pension plans; see lines 28 and 29.
+         28    Federal                  Civilian: For defined contribution plans, such as Thrift Savings    Quarterly estimates are not released at this level of
+                                        Plan, actual contributions based on Federal Retirement Thrift       detail. See line 22.
+                                        Investment Board data.
+                                                                                                            For unreleased measures of federal government
+                                        For defined benefit plans, for all except most recent year, total   employer contributions to government employee pension
+                                        employer contributions based on OPM estimates of                    plans, the sum of components:
+                                        employers’ normal costs for the Federal Employees
+                                        Retirement System (FERS), and normal cost rates and payroll         Civilian: For defined contribution plans, CES
+                                        data for the Civil Service Retirement System (CSRS), adjusted       employment. For defined benefit plans, interpolation
+                                        to alternative discount rates. Total employer contributions are     without indicator of annual estimates extrapolated based
+                                        scaled up by BEA to reflect smaller plans not included in OPM       on OPM projections of normal cost rates and payroll
+                                        data. For the most recent year for both FERS and CSRS               data.
+                                        plans, total employer contributions based on OPM projections        Military: For defined contribution plans, contributions to
+                                        of normal cost rates and payroll data.                              the Thrift Savings Plan based on Federal Retirement
+                                                                                                            Thrift Investment Board data and judgmental trends. For
+                                        Military: For defined contribution plans, contributions to the      contributions for defined benefit plans, interpolation
+                                        Thrift Savings Plan based on Federal Retirement Thrift              without indicator of annual estimates extrapolated based
+                                        Investment Board data and judgmental trends.                        on DoD projections of normal cost rates and payroll data.
+
+                                                                         10-20
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+ Table 10.B—Summary of Methodology Used to Prepare Estimates of Employer Contributions for Employee Pension and Insurance Funds
+Line in NIPA          Component                 Benchmark-year and nonbenchmark-year estimates                               Current quarterly estimates*
+ table 6.11                                                                                                             (Indicator series used to extrapolate)
+                                           For defined benefit plans, for all except the most recent year,
+                                           total employer contributions derived from DoD reports on
+                                           employer normal cost rates and payroll. For the most recent
+                                           year, total employers’ normal costs derived from DoD Office of
+                                           the Actuary projections of normal cost rates and payroll.
+         29    State and local             For defined contributions plans, ratio of employer contributions   Quarterly estimates are not released at this level of
+                                           as a percent of compensation to wages as a percent of              detail. See line 22.
+                                           compensation from BLS Employer Costs for Employee
+                                           Compensation survey data applied to NIPA wages and                 For unreleased measures of state and local employer
+                                           salaries.                                                          contributions to employee pension plans, the sum of
+                                                                                                              components:
+                                           For defined benefit plans for all except 2 most recent years,
+                                           employers’ normal cost based on financial and actuarial       For defined contribution plans, same as annual.
+                                           reports of a sample (covering 90 percent of universe) of S&L
+                                           retirement systems scaled up to represent the universe of     For defined benefit plans, extrapolated using NIPA
+                                           systems and adjusted to reflect common actuarial cost method wages and salaries.
+                                           and discount rate, plus administrative expenses based on
+                                           Census data. For second most recent year, employers’ normal
+                                           cost extrapolated using incomplete sample data and
+                                           administrative data based on judgmental trend. For most
+                                           recent year, judgmental trend.
+         30    Private insurance funds
+         31     Group insurance
+         32       Group health insurance   For private employer contributions, Health and Human               Quarterly estimates are not released at this level of
+                                           Services’ Agency for Health Care Research and Quality’s            detail. See line 22.
+                                           Medical Expenditure Panel Survey data on insurance
+                                           purchased by employers for employees and on health                 For unreleased aggregate of private employer
+                                           insurance provided by employers who insure themselves (self-       contributions for private pension and insurance funds,
+                                           insurance).                                                        judgmental trend.
+
+                                           For state and local government contributions, for all except       For unreleased measures of state and local government
+                                           most recent year, same as for private employers. For most          employer contributions to group health insurance,
+                                           recent year, judgmental trend.                                     judgmental trend.
+
+                                           For federal government contributions, OPM internal                 For unreleased measures of federal government
+                                           accounting report for the Federal Employee Health Benefits         employer contributions to group health insurance, CES
+                                           Program.                                                           employment data.
+         33      Group life insurance      For private and for state and local government, for all except     Quarterly estimates are not released at this level of
+                                           the most recent year, A.M. Best’s Aggregate and Averages           detail. See line 22.
+                                           Life/Health data on premiums paid. For most recent year,
+                                           extrapolated based on the percent change in net premiums           For unreleased aggregate of private employer
+                                           from A.M. Best data.                                               contributions for private pension and insurance funds,
+                                                                                                              judgmental trend.
+
+                                                                           10-21
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+    Table 10.B—Summary of Methodology Used to Prepare Estimates of Employer Contributions for Employee Pension and Insurance Funds
+Line in NIPA              Component                  Benchmark-year and nonbenchmark-year estimates                             Current quarterly estimates*
+ table 6.11                                                                                                                (Indicator series used to extrapolate)
+                                               For federal government contributions for civilian employees,
+                                               OPM internal accounting report for the Federal Employee          For unreleased measures of federal government
+                                               Group Life Insurance Program.                                    employer contributions for group life insurance, CES
+                                               For federal government contributions for active duty military    employment data.
+                                               personnel and their families, Veterans’ Affairs Administration
+                                               data on premiums paid for Servicemen’s Group Life                For unreleased measures of state and local government
+                                               Insurance.                                                       employer contributions to group life insurance, CES
+                                                                                                                employment data.
+             34 Workers’ compensation          A.M. Best’s Aggregates and Averages Property/Casualty data       Quarterly estimates are not released at this level of
+                                               on premiums paid, supplemented by data from the National         detail. See line 22.
+                                               Academy of Social Insurance (NASI) for self-insured and for
+                                               large deductible policies, and by data on the contributions      For unreleased aggregate of private employer
+                                               made to privatized funds that are not covered by A.M. Best or    contributions for private pension and insurance funds,
+                                               by NASI from the National Council on Compensation                judgmental trend.
+                                               Insurance, the National Association of Insurance
+                                               Commissioners, and the American Association of State             For unreleased measures of state and local government
+                                               Compensation Insurance Funds.                                    employer contributions to workers’ compensation, CES
+                                                                                                                employment data.
+             35 Supplemental               EBSA tabulations of IRS form 5500 data.                              Quarterly estimates are not released at this level of
+                unemployment benefit funds                                                                      detail. See line 22.
+
+                                                                                                            For unreleased aggregate of private employer
+                                                                                                            contributions for private pension and insurance funds,
+                                                                                                            judgmental trend.
+             36 Publicly administered          Monthly Treasury Statement data on employer contributions to Quarterly estimates are not released at this level of
+                government employee            the “Medicare-Eligible Retiree Health Care Fund”             detail. See line 22.
+                insurance plans3
+                                                                                                              For unreleased measures of military employment, DoD
+                                                                                                              manpower reports.
+*Quarterly estimates are provided only for the aggregate of employer contributions for pension and insurance funds.
+
+1 Includes defined benefit and defined contributions plans. Additional detail is available in NIPA tables 7.20-7.25.
+2 Plan-level data are assigned to a 6-digit NAICS code based on the primary industry of the employer.
+3
+    Includes the Medicare-eligible Retiree Health Care Fund.
+
+BEA                 Bureau of Economic Analysis           EBSA               Employment Benefits and                NIPA               National Income and Product
+BLS                 Bureau of Labor Statistics                               Security Administration                                   Accounts
+CES                 Current Employment                    IRS                Internal Revenue Service               OPM                Office of Personnel
+                    Statistics, BLS                       MTS                Monthly Treasury Statement                                Management
+DoD                 Department of Defense                 NAICS              North American Industry                PBGC               Pension Benefit Guaranty
+                                                                             Classification System                                     Corporation
+
+
+
+                                                                               10-22
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+
+        Table 10.C—Summary of Methodology Used to Prepare Estimates of Employer Contributions to Government Social Insurance
+ Line in NIPA          Component               Benchmark-year and nonbenchmark-year estimates                              Current quarterly estimates*
+   table 3.6
+                                                                                                                     (Indicator series used to extrapolate)
+                5 Old-age, survivors,   SSA Social Security Bulletin: Annual Statistical Supplement data    NIPA wages and salaries for appropriate industries.
+                  and disability        on wages and salaries subject to OASDI taxes multiplied by
+                  insurance             OASDI tax rate.
+                6 Hospital insurance    For all employees except those in the railroad industry, SSA wages For workers covered by OASDI, same as for OASDI. For
+                                        and salaries multiplied by the hospital-insurance tax rate. For    workers not covered by OASDI, judgmental trend.
+                                        railroad employees, U.S. Railroad Retirement Board calendar year
+                                        data on railroad wages and salaries multiplied by the hospital
+                                        insurance tax rate.
+                8 State unemployment    QCEW data on total unemployment insurance taxes.                   For contributions by private employers, NIPA private
+                  insurance                                                                                wages and salaries less those of railroad, farm, and private
+                                                                                                           household workers. For state and local reimbursements,
+                                                                                                           unemployment insurance rate.
+                9 Federal               Sum of (1) Office of Workforce Security, Department of Labor       NIPA private wages and salaries less those of railroad,
+                  unemployment tax      tabulations of taxable wages and salaries by state from annual tax farm, and private household workers.
+                                        returns filed by employers multiplied by the effective federal tax
+                                        rate and (2) for states that have borrowed funds to finance
+                                        unemployment benefits, either the taxable wages and salaries
+                                        multiplied by the surtax rate or state-provided data on the amount
+                                        of surtax.
+           10 Railroad employees        Monthly Treasury Statement data on railroad unemployment tax        NIPA railroad wages and salaries.
+              unemployment              receipts.
+              insurance
+           11 Federal employees         Imputation based on Office of Workforce Security data on            Same as for annual estimates.
+              unemployment              unemployment benefits paid to unemployed former federal
+              insurance                 employees.
+           12 Railroad retirement       U.S. Railroad Retirement Board Annual Report data on wages and      NIPA railroad wages and salaries.
+                                        salaries subject to railroad retirement multiplied by railroad
+                                        retirement tax rates.
+           13 Pension benefit           Pension Benefit Guaranty Corporation monthly data on premiums       Extrapolated using information from fiscal year projections
+              guaranty                  paid by employers, aligned to the calendar years in which the       of premium collections from the Budget of the United
+                                        premiums were accrued.                                              States Government.
+           14 Veterans life             Veterans Affairs Annual Report data on premiums paid by the         Judgmental trend.
+              insurance                 federal government to life insurance programs for veterans.
+           15 Workers’                  Imputation equal to benefits paid based on unpublished data on      Extrapolated using information from fiscal year projections
+              compensation              benefits from the Department of Labor’s Employment Standards        of premium collections from the Budget.
+                                        Administration.
+
+
+                                                                            10-23
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+            Table 10.C—Summary of Methodology Used to Prepare Estimates of Employer Contributions to Government Social Insurance
+    Line in NIPA          Component                 Benchmark-year and nonbenchmark-year estimates                                 Current quarterly estimates*
+      table 3.6
+                                                                                                                               (Indicator series used to extrapolate)
+                16 Military medical          Imputation equal to benefits based on benefits data from the           Extrapolated using information from fiscal year projections
+                   insurance1                Department of Defense Military Health System’s annual TRICARE          of premium collections from the Budget.
+                                             report.
+                18 State and local           Required only by New Jersey and California. For New Jersey,            Judgmental trend.
+                   temporary disability      estimated as a percentage of Census COG/GF data on total
+                   insurance                 contributions for New Jersey. For California, estimated based on
+                                             data on total employee contributions from California Employment
+                                             Development Department.
+                19 State and local           For state government contributions, COG/GF fiscal year data on        CES employment data and judgmental extrapolation of
+                   workers’                  state and local government contributions. For local government        premiums data.
+                   compensation              contributions, state government contributions multiplied by the ratio
+                                             of local government full-time equivalent employees to state
+                                             government full-time equivalent employees. For private employer
+                                             contributions, COG/GF data on premiums.
+
+
+*Quarterly estimates are provided as underlying detail only; these detailed estimates are not included in the published tables because their quality is significantly
+less than that of the higher level aggregates in which they are included. Compared with these aggregates, the more detailed estimates are more likely to be either
+based on judgmental trends, on trends in the higher level aggregate, or on less reliable source data.
+
+1
+    Consists of payments for medical services for dependents of active duty military personnel at nonmilitary facilities.
+
+BEA                  Bureau of Economic Analysis
+COG/GF               Census of Governments and Annual Surveys of Government Finances, Census Bureau
+NIPA                 National Income and Product Accounts
+OASDI                Old-age, Survivors, and Disability Insurance
+QCEW                 Quarterly Census of Employment and Wages, Bureau of Labor Statistics
+SSA                  Social Security Administration
+
+
+
+
+                                                                                  10-24
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+
+                  Appendix A: NIPA Measures of Employment and Hours
+
+       BLS is the principal provider of information on the labor market in the United States,
+including detailed data on employment, hours, and earnings. BEA prepares its own measures of
+employment and hours—based primarily on BLS data—to provide estimates that are consistent
+with the NIPA measures of compensation. That is, the NIPA measures of compensation and of
+employment and hours cover the same employees, they are adjusted consistently for
+misreporting, coverage, and definitions, and they are based primarily on the BLS Quarterly
+Census of Employment and Wages (QCEW) source data. Thus, the NIPA measures of
+employment and hours facilitate analyses of NIPA-based compensation and productivity by
+employee.
+
+        The QCEW program serves as a near census of quarterly employment information by 6-
+digit NAICS industry. The data reflect the number of workers covered by the Unemployment
+Insurance (UI) or the Unemployment Compensation for Federal Employees (UCFE) programs
+and are derived from quarterly reports filed by almost every employer in the U.S., Puerto Rico,
+and the U.S. Virgin Islands. All filled positions are included, whether full or part-time,
+temporary, or permanent; as such it is likely that a multi-job holder will be counted two or more
+times in QCEW data. The estimates include foreign professional workers and undocumented
+migratory workers employed temporarily in the United States; these are classified as “Rest of
+world.”
+
+        The NIPA measures of employment by industry from 2001 forward are classified
+according to the North American Industry Classification System; prior to 2001, the measures are
+classified according to the Standard Industrial Classification system.
+
+
+                                    Recording in the NIPAs
+
+        The NIPAs present current-dollar annual estimates of employment and hours by industry
+in the following tables:
+
+6.4    Full-Time and Part-Time Employees by Industry
+6.5    Full Time Equivalent Employees by Industry
+6.6    Wages and Salaries per Full Time Equivalent Employee by Industry
+6.7    Self-Employed Persons by Industry
+6.8    Persons Engaged In Production by Industry
+6.9    Hours Worked by Full-Time and Part-Time Employees by Industry
+
+
+                         Overview of Source Data and Estimating Methods
+
+       The NIPAs present the following annual employment estimates:
+
+      Full- and part-time employees by industry. This measure is derived as the annual sum of
+the QCEW tabulations of the monthly employment data reported to the states each quarter by
+
+                                              10-25
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+private industries on quarterly tax returns for employees covered by UI laws and by federal
+agencies and state and local governments on similar reports for employees covered by the UCFE
+program. The measure is adjusted as described in the section on “Adjustments to the QCEW
+employment data.”
+
+        Full-time equivalent employees by industry. This measure equals the number of
+employees on full-time schedules plus the number of employees on part-time schedules
+converted to a full-time basis. For the current year, the number of nonfederal full-time equivalent
+employees in each industry is the product of the total number of employees, from the QCEW,
+and the ratio of average weekly hours per employee for all employees to average weekly hours
+per employee on full-time schedules, based on data from the Current Population Survey (CPS)
+conducted by the Census Bureau for BLS. For previous years, the number of full-time equivalent
+employees in each industry is the product of the total number of employees and the ratio of full
+time employees to total employees, also from the CPS. An industry’s full-time equivalent
+employment will be less than the number of its employees on full- and part-time schedules,
+unless it has no part-time employees. For federal employees and for the military, the number of
+full-time equivalent employees is based on data from the Budget of the United States
+Government.28
+
+       Wages and salaries per full-time equivalent employee by industry. This measure is
+derived as the NIPA wages and salaries by industry divided by the NIPA measure of full-time
+equivalent employees by industry.
+
+        Self-employed persons by industry. This measure consists of active proprietors or
+partners who devote a majority of their working hours to their unincorporated businesses. Unpaid
+family workers are not included. The measure is from BLS data on self-employment by industry
+and is not adjusted by BEA.
+
+        Persons engaged in production by industry. This measure equals the NIPA measure of
+full-time equivalent employees plus the number of self-employed persons in each industry.
+
+        Hours worked by full- and part-time employees by industry. For employees excluding the
+military, this measure is derived as the product of total full- and part-time employees and the
+number of average weekly hours per employee for all employees, multiplied by 52 weeks, based
+on BLS data. For the military, this measure is derived as the product of the number of active duty
+military members and an assumed number of hours per year, plus the product of the number of
+reservists and an assumed number of hours per year.
+
+
+
+
+28
+  For federal civilian employees, the data are from the Historical Tables of the budget, available at
+https://www.whitehouse.gov/omb/historical-tables/.
+
+                                                        10-26
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+                            Adjustments to the QCEW employment data
+
+        The QCEW employment data are largely consistent with the concepts and definitions
+underlying the NIPA estimates of employment and hours. However, as with the QCEW wage
+and salary data, BEA makes adjustments to make the data fully consistent with NIPA concepts,
+definitions, and coverage. First, BEA adjusts employment so that it remains consistent with the
+wages and salaries estimates adjusted for misreporting. Second, though the QCEW program
+provides partial information on agricultural industries and on employees in private households,
+BEA uses additional source data to estimate most or all of the employment for the same
+industries for which wages and salaries are adjusted: farms, farm labor contractors, private
+households, private elementary and secondary schools, religious membership organizations,
+railroads, military, and U.S. residents who are employed by international organizations and by
+foreign embassies and consulates in the United States.
+
+       Adjustment for misreporting. An adjustment is made to the QCEW data on private sector
+employment for consistency with the misreporting adjustments made to wages and salaries. That
+is, employment is adjusted in accordance with the adjustment to wages and salaries so that the
+proportional relationship between them remains the same.
+
+        Adjustment for employment that is not covered or not fully covered by UI and UCFE
+programs. An adjustment is made to add the employment of several industries that are not
+covered or that are not fully covered by the UI and UCFE programs. Following the entries in
+table 10.2, the adjustments are:
+
+       Government. Military employment is measured as the number of military personnel
+assigned to active duty units plus the number of military reserve unit members. The estimate is
+based on data from the Budget.
+
+        Additional government-related adjustments are made for the employment of students and
+their spouses by public colleges or universities, for elected officials and members of the
+judiciary, for intelligence agents, and for interns employed by publicly administered hospitals
+and by social service agencies. These adjustments, which comprise only a very small share of the
+total government adjustment, are based on corresponding adjustments underlying BEA’s
+estimates of state personal income.29
+
+    Other. Other adjustments include estimates for employees not fully covered by the
+QCEW, as follows:
+
+     •   for federal government enterprises based on supplemental Budget data.
+     •   for farms, based on quarterly data from USDA’s National Agricultural Statistics Service
+         on farm labor.
+     •   for farm labor contractors, based on corresponding adjustments underlying BEA’s state
+         personal income estimates based on USDA data on expenditures for farm contract labor.
+
+29
+   For more information on BEA’s estimates of state personal income, see “State Personal Income and Employment”
+at www.bea.gov.
+
+                                                    10-27
+CHAPTER 10: COMPENSATION OF EMPLOYEES
+
+
+   •   for railroads, based on data from the Railroad Retirement Board.
+   •   for private elementary and secondary schools, based on corresponding adjustments
+       underlying BEA’s state personal income estimates, which are in turn based on the
+       employment reported annually by the Census Bureau’s County Business Patterns (CBP).
+   •   for religious organizations, based on CBP data.
+   •   for private households, based on CPS data.
+
+
+
+
+                                          10-28
+

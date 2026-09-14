@@ -9,7 +9,7 @@ const json=(v:unknown)=>JSON.stringify(v,null,2)+'\n'
 const put=async(path:string,body:string)=>{if(await readFile(new URL(path,root),'utf8').catch(()=>null)===body)return;await mkdir(new URL(path.slice(0,path.lastIndexOf('/'))+'/',root),{recursive:true});await writeFile(new URL(path,root),body)}
 const samples=data.tasks.filter(t=>!t.discovery)
 const sampleIds=new Set(samples.map(t=>t.id))
-await put('data/site.json',json({...data,tasks:samples,claims:data.claims.filter(c=>c.taskId&&sampleIds.has(c.taskId)),searches:data.searches.filter(s=>sampleIds.has(s.taskId)),scenarios:data.scenarios.filter(s=>samples.some(t=>t.scenarioId===s.id))}))
+await put('data/site.json',json({...data,employment:undefined,tasks:samples,claims:data.claims.filter(c=>c.taskId&&sampleIds.has(c.taskId)),searches:data.searches.filter(s=>sampleIds.has(s.taskId)),scenarios:data.scenarios.filter(s=>samples.some(t=>t.scenarioId===s.id))}))
 for(const country of ['cn','us'])await put('docs/public/exports/task-search-'+country+'.json',json({country,version:data.version,tasks:data.tasks.filter(t=>t.country===country).map(({id,title,country,industryId,scenarioId,phase,researchStatus,countingRole})=>({id,title,country,industryId,scenarioId,phase,researchStatus,countingRole})),industries:data.industries.filter(i=>i.country===country&&i.selected).map(({id,name})=>({id,name}))}))
 const files:string[]=[]
 function page(title:string,component:string,path:string) {return '---\ntitle: '+JSON.stringify(title)+'\n---\n<script setup>\nimport record from '+JSON.stringify(path)+'\n</script>\n<'+component+' :record="record" />\n'}
@@ -36,5 +36,10 @@ await put('docs/macro-data.md',await readFile(new URL('research/macro/methodolog
 if(data.industryAnalysis){
  await put('docs/industry-analysis.md',await readFile(new URL('research/industry-analysis/methodology.md',root),'utf8'))
  await put('docs/public/exports/industry-analysis.json',json(data.industryAnalysis))
+}
+if(data.employment){
+ await put('docs/employment-methodology.md',(await readFile(new URL('research/employment/methodology.md',root),'utf8'))+'\n'+await readFile(new URL('research/employment/coverage-summary.md',root),'utf8'))
+ await put('docs/public/exports/employment.json',json(data.employment))
+ for(const country of ['cn','us'])await put('docs/public/exports/employment-'+country+'.json',json({...data.employment,records:data.employment.records.filter(r=>r.country===country),sources:data.employment.sources.filter(s=>s.country===country||s.country==='global')}))
 }
 console.log('Generated',data.industries.filter(i=>i.selected).length,'industry pages and',data.tasks.length,'task pages. Detailed records load with their own page.')

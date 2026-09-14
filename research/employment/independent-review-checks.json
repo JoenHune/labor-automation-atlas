@@ -1,0 +1,212 @@
+{
+  "checkedAt": "2026-09-14",
+  "reviewer": "employment_independent_review",
+  "scope": "Independent source and method review. These arithmetic checks do not validate structural assumptions. Review applies to listed file hashes before requested presentation fixes.",
+  "files": [
+    {
+      "path": "research/employment/us/dataset.json",
+      "sha256": "ebb3e3d5bb3880c28994ef3f295b5e37b0dc6c8c035e286d70cb892ca9ffbe9e"
+    },
+    {
+      "path": "research/employment/us/build.py",
+      "sha256": "560a22eb4abb4d72d2b24885fc0c2c55f5347a61d5593fcd0d54779d3ca6d1c6"
+    },
+    {
+      "path": "research/employment/us/adapt.py",
+      "sha256": "8d6a392cbb116d3dd5841e4e48a827e73f39029bde39f53743f5040cb5811898"
+    },
+    {
+      "path": "research/employment/us/add_models.py",
+      "sha256": "cf4267d6e3e91d663a1ecbae7ab49bd629b9cdf67bf103389dd1ff9e05fa5151"
+    },
+    {
+      "path": "research/employment/cn-industry/dataset.json",
+      "sha256": "7291b6ccf61062a231c3c9991bca1b1309496466dba6e4cc5c9c7f8db3b8e8d8"
+    },
+    {
+      "path": "research/employment/cn-products/dataset.json",
+      "sha256": "f6ec3fcd5ac577e54bc5bf9ea551ec5f39bc64a50a2518c83765370deedcade5"
+    },
+    {
+      "path": "research/employment/us/originals/Section6All.xlsx",
+      "sha256": "07fe01381f56f3cc67ce72a0c8e5497ded2efe2a71d55749c9a39e1da93c7cce"
+    },
+    {
+      "path": "research/employment/us/originals/Use_SUT_Detail.xlsx",
+      "sha256": "07aa2a21151e78ec1462c8f48142d274c153d90aff07bd797e07c6bc8486911e"
+    },
+    {
+      "path": "research/employment/us/originals/qcew-2025-us.csv",
+      "sha256": "0b5528f70d66a84ff9729691f365c667a09f854f0af3d841bdd660ef3cb01811"
+    },
+    {
+      "path": "research/employment/us/originals/GS00EMP01/GS00EMP01.dat",
+      "sha256": "38c318b9b5948ec41768a1b5da878cfe35aff3484231787be5bb9815e9b75129"
+    },
+    {
+      "path": "research/employment/us/originals/chapter-10.txt",
+      "sha256": "ac0a7f3672daf39804755e4a5d06dfabed608b128ed115f58283489c82e960be"
+    }
+  ],
+  "checks": [
+    {
+      "check": "2024-national-domestic-not-national",
+      "passed": true,
+      "actual": 163223000,
+      "expected": 163223000,
+      "source": "Section6All.xlsx",
+      "locator": "T60400D-A AD10, Domestic industries; A2 thousands"
+    },
+    {
+      "check": "2024-federal-general-includes-civilian-and-military",
+      "passed": true,
+      "actual": 4534000,
+      "expected": 4534000,
+      "source": "Section6All.xlsx",
+      "locator": "T60400D-A AD96 vs AD97 civilian and AD98 military; independently rounded"
+    },
+    {
+      "check": "2025-QCEW-us-orbit-economy",
+      "passed": true,
+      "actual": 155732363,
+      "expected": 155732363,
+      "source": "qcew-2025-us.csv",
+      "locator": "area_fips=US000 own_code=0 industry_code=10 size_code=0 annual_avg_emplvl; disclosure_code="
+    },
+    {
+      "check": "2025-QCEW-us-government-bea-90",
+      "passed": true,
+      "actual": 2913515,
+      "expected": 2913515,
+      "source": "qcew-2025-us.csv",
+      "locator": "area_fips=US000 own_code=1 industry_code=10 size_code=0 annual_avg_emplvl; disclosure_code="
+    },
+    {
+      "check": "2025-QCEW-us-real-estate-bea-61",
+      "passed": true,
+      "actual": 1818150,
+      "expected": 1818150,
+      "source": "qcew-2025-us.csv",
+      "locator": "area_fips=US000 own_code=5 industry_code=531 size_code=0 annual_avg_emplvl; disclosure_code="
+    },
+    {
+      "check": "2025-QCEW-us-construction",
+      "passed": true,
+      "actual": 8251002,
+      "expected": 8251002,
+      "source": "qcew-2025-us.csv",
+      "locator": "area_fips=US000 own_code=5 industry_code=23 size_code=0 annual_avg_emplvl; disclosure_code="
+    },
+    {
+      "check": "2024-construction-16",
+      "passed": true,
+      "actual": 876228.3680775062,
+      "expected": 876228.3680775062,
+      "source": "Use_SUT_Detail.xlsx",
+      "locator": "2017 V00100 (row410), AA410,AB410; root Section6All T60400D-A AD20"
+    },
+    {
+      "check": "2024-construction-17",
+      "passed": true,
+      "actual": 1422436.610218995,
+      "expected": 1422436.610218995,
+      "source": "Use_SUT_Detail.xlsx",
+      "locator": "2017 V00100 (row410), AC410,AD410; root Section6All T60400D-A AD20"
+    },
+    {
+      "check": "2024-construction-18",
+      "passed": true,
+      "actual": 864496.7343872197,
+      "expected": 864496.7343872197,
+      "source": "Use_SUT_Detail.xlsx",
+      "locator": "2017 V00100 (row410), AE410; root Section6All T60400D-A AD20"
+    },
+    {
+      "check": "2024-construction-19",
+      "passed": true,
+      "actual": 1249339.0722546852,
+      "expected": 1249339.0722546852,
+      "source": "Use_SUT_Detail.xlsx",
+      "locator": "2017 V00100 (row410), AF410,AG410; root Section6All T60400D-A AD20"
+    },
+    {
+      "check": "2024-construction-20",
+      "passed": true,
+      "actual": 1061664.8995144335,
+      "expected": 1061664.8995144335,
+      "source": "Use_SUT_Detail.xlsx",
+      "locator": "2017 V00100 (row410), AH410,AI410; root Section6All T60400D-A AD20"
+    },
+    {
+      "check": "2024-construction-21",
+      "passed": true,
+      "actual": 620322.1187380266,
+      "expected": 620322.1187380266,
+      "source": "Use_SUT_Detail.xlsx",
+      "locator": "2017 V00100 (row410), AJ410; root Section6All T60400D-A AD20"
+    },
+    {
+      "check": "2024-construction-22",
+      "passed": true,
+      "actual": 1512054.1444171376,
+      "expected": 1512054.1444171376,
+      "source": "Use_SUT_Detail.xlsx",
+      "locator": "2017 V00100 (row410), AK410; root Section6All T60400D-A AD20"
+    },
+    {
+      "check": "2024-construction-23",
+      "passed": true,
+      "actual": 711458.0523919965,
+      "expected": 711458.0523919965,
+      "source": "Use_SUT_Detail.xlsx",
+      "locator": "2017 V00100 (row410), AL410; root Section6All T60400D-A AD20"
+    },
+    {
+      "check": "2024-housing-compensation-allocation",
+      "passed": true,
+      "actual": 319574.1274415626,
+      "expected": 319574.1274415626,
+      "source": "Use_SUT_Detail.xlsx",
+      "locator": "2017 LL410=18920, LM410=93508; LK410 blank, owner housing NOT assumed measured zero"
+    },
+    {
+      "check": "2025-housing-compensation-allocation",
+      "passed": true,
+      "actual": 305968.24634432705,
+      "expected": 305968.24634432705,
+      "source": "Use_SUT_Detail.xlsx",
+      "locator": "2017 LL410=18920, LM410=93508; LK410 blank, owner housing NOT assumed measured zero"
+    },
+    {
+      "check": "2024-Census-health-hospitals-only-national",
+      "passed": true,
+      "actual": 1688909,
+      "expected": 1688909,
+      "source": "GS00EMP01.dat",
+      "locator": "YEAR=2024 GEO_ID=0100000US GOVTYPE=001 AGG_DESC=EP0605,EP0645 TOT_EMP"
+    },
+    {
+      "check": "2025-Census-health-hospitals-only-national",
+      "passed": true,
+      "actual": 1723890,
+      "expected": 1723890,
+      "source": "GS00EMP01.dat",
+      "locator": "YEAR=2025 GEO_ID=0100000US GOVTYPE=001 AGG_DESC=EP0605,EP0645 TOT_EMP"
+    }
+  ],
+  "passed": true,
+  "webRead": [
+    {
+      "url": "https://www.census.gov/newsroom/press-releases/2026/public-employment-and-payroll-data.html",
+      "scope": "release date, March functional employment and revised 2023/2024 release"
+    },
+    {
+      "url": "https://www.opm.gov/data/datasets/Files/756/d67e7d4a-55a6-4369-a8ee-e2ccf57d5229.pdf",
+      "scope": "March2025 snapshot, active-pay Executive Branch civilian coverage, exclusions; no personnel microdata read"
+    },
+    {
+      "url": "https://www.opm.gov/policy-data-oversight/data-analysis-documentation/fedscope/",
+      "scope": "FWD launch January2026; no full FWD dataset acquired"
+    }
+  ]
+}

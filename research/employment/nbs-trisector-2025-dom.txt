@@ -1,0 +1,584 @@
+- link:
+  - /url: https://www.stats.gov.cn/
+- link "登录":
+  - /url: "#/pc/national/login"
+- link "注册":
+  - /url: "#/pc/national/register"
+- generic: 
+- text: English
+- generic: GDP
+- generic: CPI
+- generic: 总人口
+- generic: 社会消费品零售总额
+- generic: 粮食产量
+- generic: PMI
+- generic: PPI
+- generic: 城镇居民人均可支配收入
+- textbox "如：2012年 北京 GDP"
+- button "搜索"
+- main:
+  - menubar:
+    - menuitem "首页"
+    - menuitem "月度数据"
+    - menuitem "季度数据"
+    - menuitem "年度数据"
+    - menuitem "普查数据":
+      - link "普查数据":
+        - /url: http://www.stats.gov.cn/sj/pcsj/
+    - menuitem "地区数据 ":
+      - text: 地区数据
+      - generic: 
+    - menuitem "部门数据"
+    - menuitem "国际数据 ":
+      - text: 国际数据
+      - generic: 
+    - menuitem "出版物"
+    - menuitem "我的收藏"
+    - menuitem "帮助"
+  - paragraph: 首页 . 年度数据
+  - generic: 简单查询
+  - generic: 高级查询
+  - generic: 经济图表
+  - button " 下载":
+    - generic: 
+    - text: 下载
+  - button " 打印":
+    - generic: 
+    - text: 打印
+  - text:  
+  - tree:
+    - treeitem " 指标" [expanded]:
+      - generic: 
+      - generic: 指标
+      - treeitem "  年度数据" [expanded]:
+        - generic: 
+        - generic "年度数据":
+          - generic: 
+          - generic: 年度数据
+        - treeitem "  综合":
+          - generic: 
+          - generic "综合":
+            - generic: 
+            - generic: 综合
+          - text:          
+        - treeitem "  国民经济核算":
+          - generic: 
+          - generic "国民经济核算":
+            - generic: 
+            - generic: 国民经济核算
+        - treeitem "  人口":
+          - generic: 
+          - generic "人口":
+            - generic: 
+            - generic: 人口
+        - treeitem "  就业人员和工资" [expanded]:
+          - generic: 
+          - generic "就业人员和工资":
+            - generic: 
+            - generic: 就业人员和工资
+          - treeitem "  劳动力":
+            - generic: 
+            - generic "劳动力":
+              - generic: 
+              - generic: 劳动力
+          - treeitem "  按三次产业分就业人员数" [active]:
+            - generic: 
+            - generic "按三次产业分就业人员数":
+              - generic: 
+              - generic: 按三次产业分就业人员数
+          - treeitem "  按城乡分就业人员数":
+            - generic: 
+            - generic "按城乡分就业人员数":
+              - generic: 
+              - generic: 按城乡分就业人员数
+          - treeitem "  按经济类型分城镇就业人员":
+            - generic: 
+            - generic "按经济类型分城镇就业人员":
+              - generic: 
+              - generic: 按经济类型分城镇就业人员
+          - treeitem "  按经济类型分乡村就业人员":
+            - generic: 
+            - generic "按经济类型分乡村就业人员":
+              - generic: 
+              - generic: 按经济类型分乡村就业人员
+          - treeitem "  按行业分城镇非私营单位就业人员":
+            - generic: 
+            - generic "按行业分城镇非私营单位就业人员":
+              - generic: 
+              - generic: 按行业分城镇非私营单位就业人员
+          - treeitem "  按行业分内资单位就业人员":
+            - generic: 
+            - generic "按行业分内资单位就业人员":
+              - generic: 
+              - generic: 按行业分内资单位就业人员
+          - treeitem "  按行业分国有单位就业人员":
+            - generic: 
+            - generic "按行业分国有单位就业人员":
+              - generic: 
+              - generic: 按行业分国有单位就业人员
+          - treeitem "  按行业分港澳台投资单位就业人员":
+            - generic: 
+            - generic "按行业分港澳台投资单位就业人员":
+              - generic: 
+              - generic: 按行业分港澳台投资单位就业人员
+          - treeitem "  按行业分外商投资单位就业人员":
+            - generic: 
+            - generic "按行业分外商投资单位就业人员":
+              - generic: 
+              - generic: 按行业分外商投资单位就业人员
+          - treeitem "  按行业分城镇集体单位就业人员":
+            - generic: 
+            - generic "按行业分城镇集体单位就业人员":
+              - generic: 
+              - generic: 按行业分城镇集体单位就业人员
+          - treeitem "  按行业分其他单位就业人员":
+            - generic: 
+            - generic "按行业分其他单位就业人员":
+              - generic: 
+              - generic: 按行业分其他单位就业人员
+          - treeitem "  按行业分私营企业和个体就业人员":
+            - generic: 
+            - generic "按行业分私营企业和个体就业人员":
+              - generic: 
+              - generic: 按行业分私营企业和个体就业人员
+          - treeitem "  按行业分城镇私营企业和个体就业人员":
+            - generic: 
+            - generic "按行业分城镇私营企业和个体就业人员":
+              - generic: 
+              - generic: 按行业分城镇私营企业和个体就业人员
+          - treeitem "  私营企业就业人员":
+            - generic: 
+            - generic "私营企业就业人员":
+              - generic: 
+              - generic: 私营企业就业人员
+          - treeitem "  个体就业人员":
+            - generic: 
+            - generic "个体就业人员":
+              - generic: 
+              - generic: 个体就业人员
+          - treeitem "  城镇非私营单位就业人员工资总额和指数":
+            - generic: 
+            - generic "城镇非私营单位就业人员工资总额和指数":
+              - generic: 
+              - generic: 城镇非私营单位就业人员工资总额和指数
+          - treeitem "  城镇非私营单位就业人员平均工资和指数":
+            - generic: 
+            - generic "城镇非私营单位就业人员平均工资和指数":
+              - generic: 
+              - generic: 城镇非私营单位就业人员平均工资和指数
+          - treeitem "  按登记注册统计类别分城镇非私营单位就业人员平均工资":
+            - generic: 
+            - generic "按登记注册统计类别分城镇非私营单位就业人员平均工资":
+              - generic: 
+              - generic: 按登记注册统计类别分城镇非私营单位就业人员平均工资
+          - treeitem "  按行业分城镇非私营单位就业人员工资总额":
+            - generic: 
+            - generic "按行业分城镇非私营单位就业人员工资总额":
+              - generic: 
+              - generic: 按行业分城镇非私营单位就业人员工资总额
+          - treeitem "  按行业分城镇非私营单位就业人员平均工资":
+            - generic: 
+            - generic "按行业分城镇非私营单位就业人员平均工资":
+              - generic: 
+              - generic: 按行业分城镇非私营单位就业人员平均工资
+          - treeitem "  按行业分内资单位就业人员平均工资":
+            - generic: 
+            - generic "按行业分内资单位就业人员平均工资":
+              - generic: 
+              - generic: 按行业分内资单位就业人员平均工资
+          - treeitem "  按行业分国有单位就业人员平均工资":
+            - generic: 
+            - generic "按行业分国有单位就业人员平均工资":
+              - generic: 
+              - generic: 按行业分国有单位就业人员平均工资
+          - treeitem "  按行业分港澳台投资单位就业人员平均工资":
+            - generic: 
+            - generic "按行业分港澳台投资单位就业人员平均工资":
+              - generic: 
+              - generic: 按行业分港澳台投资单位就业人员平均工资
+          - treeitem "  按行业分外商投资单位就业人员平均工资":
+            - generic: 
+            - generic "按行业分外商投资单位就业人员平均工资":
+              - generic: 
+              - generic: 按行业分外商投资单位就业人员平均工资
+          - treeitem "  按行业分城镇集体单位就业人员平均工资":
+            - generic: 
+            - generic "按行业分城镇集体单位就业人员平均工资":
+              - generic: 
+              - generic: 按行业分城镇集体单位就业人员平均工资
+          - treeitem "  按行业分其他单位就业人员平均工资":
+            - generic: 
+            - generic "按行业分其他单位就业人员平均工资":
+              - generic: 
+              - generic: 按行业分其他单位就业人员平均工资
+          - treeitem "  按行业分城镇私营单位就业人员平均工资":
+            - generic: 
+            - generic "按行业分城镇私营单位就业人员平均工资":
+              - generic: 
+              - generic: 按行业分城镇私营单位就业人员平均工资
+          - treeitem "  城镇登记失业人员及失业率":
+            - generic: 
+            - generic "城镇登记失业人员及失业率":
+              - generic: 
+              - generic: 城镇登记失业人员及失业率
+        - treeitem "  固定资产投资和房地产":
+          - generic: 
+          - generic "固定资产投资和房地产":
+            - generic: 
+            - generic: 固定资产投资和房地产
+        - treeitem "  对外经济贸易":
+          - generic: 
+          - generic "对外经济贸易":
+            - generic: 
+            - generic: 对外经济贸易
+        - treeitem "  能源":
+          - generic: 
+          - generic "能源":
+            - generic: 
+            - generic: 能源
+        - treeitem "  财政":
+          - generic: 
+          - generic "财政":
+            - generic: 
+            - generic: 财政
+        - treeitem "  价格指数":
+          - generic: 
+          - generic "价格指数":
+            - generic: 
+            - generic: 价格指数
+        - treeitem "  人民生活":
+          - generic: 
+          - generic "人民生活":
+            - generic: 
+            - generic: 人民生活
+        - treeitem "  城市概况":
+          - generic: 
+          - generic "城市概况":
+            - generic: 
+            - generic: 城市概况
+        - treeitem "  资源和环境":
+          - generic: 
+          - generic "资源和环境":
+            - generic: 
+            - generic: 资源和环境
+        - treeitem "  农业":
+          - generic: 
+          - generic "农业":
+            - generic: 
+            - generic: 农业
+        - treeitem "  工业":
+          - generic: 
+          - generic "工业":
+            - generic: 
+            - generic: 工业
+        - treeitem "  建筑业":
+          - generic: 
+          - generic "建筑业":
+            - generic: 
+            - generic: 建筑业
+        - treeitem "  运输和邮电":
+          - generic: 
+          - generic "运输和邮电":
+            - generic: 
+            - generic: 运输和邮电
+        - treeitem "  社会消费品零售总额":
+          - generic: 
+          - generic "社会消费品零售总额":
+            - generic: 
+            - generic: 社会消费品零售总额
+        - treeitem "  批发和零售业":
+          - generic: 
+          - generic "批发和零售业":
+            - generic: 
+            - generic: 批发和零售业
+        - treeitem "  住宿和餐饮业":
+          - generic: 
+          - generic "住宿和餐饮业":
+            - generic: 
+            - generic: 住宿和餐饮业
+        - treeitem "  旅游业":
+          - generic: 
+          - generic "旅游业":
+            - generic: 
+            - generic: 旅游业
+        - treeitem "  金融业":
+          - generic: 
+          - generic "金融业":
+            - generic: 
+            - generic: 金融业
+        - treeitem "  教育":
+          - generic: 
+          - generic "教育":
+            - generic: 
+            - generic: 教育
+        - treeitem "  科技":
+          - generic: 
+          - generic "科技":
+            - generic: 
+            - generic: 科技
+        - treeitem "  卫生":
+          - generic: 
+          - generic "卫生":
+            - generic: 
+            - generic: 卫生
+        - treeitem "  社会服务":
+          - generic: 
+          - generic "社会服务":
+            - generic: 
+            - generic: 社会服务
+        - treeitem "  文化":
+          - generic: 
+          - generic "文化":
+            - generic: 
+            - generic: 文化
+        - treeitem "  体育":
+          - generic: 
+          - generic "体育":
+            - generic: 
+            - generic: 体育
+        - treeitem "  公共管理、社会保障及其他":
+          - generic: 
+          - generic "公共管理、社会保障及其他":
+            - generic: 
+            - generic: 公共管理、社会保障及其他
+  - generic: ⋮
+  - button "":
+    - generic: 
+  - button "":
+    - generic: 
+  - button "":
+    - generic: 
+  - button "":
+    - generic: 
+  - text: 时间：
+  - textbox "请选择"
+  - generic: 
+  - generic: 
+  - generic: 添加收藏
+  - button " 数据管理":
+    - generic: 
+    - generic: 数据管理
+  - text: 
+  - button " 报表管理":
+    - generic: 
+    - generic: 报表管理
+  - table:
+    - rowgroup:
+      - row "2025年 2024年 2023年 2022年 2021年 2020年 2019年 2018年 2017年 2016年":
+        - columnheader
+        - columnheader "2025年":
+          - generic: 2025年
+        - columnheader "2024年":
+          - generic: 2024年
+        - columnheader "2023年":
+          - generic: 2023年
+        - columnheader "2022年":
+          - generic: 2022年
+        - columnheader "2021年":
+          - generic: 2021年
+        - columnheader "2020年":
+          - generic: 2020年
+        - columnheader "2019年":
+          - generic: 2019年
+        - columnheader "2018年":
+          - generic: 2018年
+        - columnheader "2017年":
+          - generic: 2017年
+        - columnheader "2016年":
+          - generic: 2016年
+        - columnheader
+  - table:
+    - rowgroup:
+      - row "72504 73439 74041 73351 74652 75064 75447 75782 76058 76245":
+        - cell
+        - cell "72504":
+          - generic: "72504"
+        - cell "73439":
+          - generic: "73439"
+        - cell "74041":
+          - generic: "74041"
+        - cell "73351":
+          - generic: "73351"
+        - cell "74652":
+          - generic: "74652"
+        - cell "75064":
+          - generic: "75064"
+        - cell "75447":
+          - generic: "75447"
+        - cell "75782":
+          - generic: "75782"
+        - cell "76058":
+          - generic: "76058"
+        - cell "76245":
+          - generic: "76245"
+      - row "16130 16298 16882 17663 17072 17715 18652 19515 20295 20908":
+        - cell
+        - cell "16130":
+          - generic: "16130"
+        - cell "16298":
+          - generic: "16298"
+        - cell "16882":
+          - generic: "16882"
+        - cell "17663":
+          - generic: "17663"
+        - cell "17072":
+          - generic: "17072"
+        - cell "17715":
+          - generic: "17715"
+        - cell "18652":
+          - generic: "18652"
+        - cell "19515":
+          - generic: "19515"
+        - cell "20295":
+          - generic: "20295"
+        - cell "20908":
+          - generic: "20908"
+      - row "20576 21275 21520 21105 21712 21543 21234 21356 21762 22295":
+        - cell
+        - cell "20576":
+          - generic: "20576"
+        - cell "21275":
+          - generic: "21275"
+        - cell "21520":
+          - generic: "21520"
+        - cell "21105":
+          - generic: "21105"
+        - cell "21712":
+          - generic: "21712"
+        - cell "21543":
+          - generic: "21543"
+        - cell "21234":
+          - generic: "21234"
+        - cell "21356":
+          - generic: "21356"
+        - cell "21762":
+          - generic: "21762"
+        - cell "22295":
+          - generic: "22295"
+      - row "35798 35866 35639 34583 35868 35806 35561 34911 34001 33042":
+        - cell
+        - cell "35798":
+          - generic: "35798"
+        - cell "35866":
+          - generic: "35866"
+        - cell "35639":
+          - generic: "35639"
+        - cell "34583":
+          - generic: "34583"
+        - cell "35868":
+          - generic: "35868"
+        - cell "35806":
+          - generic: "35806"
+        - cell "35561":
+          - generic: "35561"
+        - cell "34911":
+          - generic: "34911"
+        - cell "34001":
+          - generic: "34001"
+        - cell "33042":
+          - generic: "33042"
+  - table:
+    - rowgroup:
+      - row "指标":
+        - columnheader "指标":
+          - generic: 指标
+        - columnheader
+        - columnheader
+        - columnheader
+        - columnheader
+        - columnheader
+        - columnheader
+        - columnheader
+        - columnheader
+        - columnheader
+        - columnheader
+  - table:
+    - rowgroup:
+      - row " 就业人员 (万人)":
+        - cell " 就业人员 (万人)":
+          - generic "指标解释": 
+          - text: 就业人员 (万人)
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+      - row " 第一产业就业人员 (万人)":
+        - cell " 第一产业就业人员 (万人)":
+          - generic "指标解释": 
+          - text: 第一产业就业人员 (万人)
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+      - row " 第二产业就业人员 (万人)":
+        - cell " 第二产业就业人员 (万人)":
+          - generic "指标解释": 
+          - text: 第二产业就业人员 (万人)
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+      - row " 第三产业就业人员 (万人)":
+        - cell " 第三产业就业人员 (万人)":
+          - generic "指标解释": 
+          - text: 第三产业就业人员 (万人)
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+        - cell
+  - text: 
+  - generic: 
+  - text: "注:"
+  - definition: 1990年及以后的劳动力、就业人员数据根据劳动力调查、全国人口普查推算；其中2011-2019年数据是根据第七次全国人口普查修订数。城镇单位数据不含私营单位。2012年行业采用新的分类标准，与前期不可比。
+  - text:  
+  - text:   
+  - paragraph: 国家统计局
+  - paragraph: 官方微博
+  - paragraph: 官方微信
+  - paragraph: 数据中国
+  - paragraph: 帮助
+  - paragraph: 返回顶部
+- generic: 相关链接
+- text: 统计法规
+- generic: 
+- text: 标准制度
+- generic: 
+- text: 统计数据生产过程
+- generic: 
+- paragraph: 版权所有：国家统计局
+- paragraph: 咨询电话：010-68576320 周一至周五(上午8:30-11:30,下午1:30-4:30)
+- paragraph: 地址：北京市西城区月坛南街57号（100826）
+- link "京ICP备05034670号-2":
+  - /url: https://beian.miit.gov.cn/#/Integrated/index
+- link "京公网安备 11040102700142号":
+  - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040102700142
+  - generic: 京公网安备 11040102700142号
+- paragraph: 网站标识码 bm36000002
+- generic: 
+- generic: 为了获得更好的用户体验，请使用火狐、谷歌、360浏览器极速模式或IE9及以上版本的浏览器。
+- generic: 
+- textbox

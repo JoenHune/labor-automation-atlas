@@ -9,3 +9,6 @@ research/industry-analysis/regions/extracted/*.txt -diff
 research/industry-analysis/deep-reading/**/originals/** -text -diff
 research/industry-analysis/deep-reading/**/raw/** -text -diff
 research/industry-analysis/deep-reading/**/extracted/** -text -diff
+# Employment sources retain exact official bytes, including CSV line endings.
+research/employment/**/originals/** -text -diff
+research/employment/**/extracted/** -text -diff

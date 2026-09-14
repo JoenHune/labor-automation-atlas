@@ -213,6 +213,39 @@ export const IndustryAnalysisSchema=z.object({
   })),
 })
 export type IndustryAnalysis=z.infer<typeof IndustryAnalysisSchema>
+const EmploymentInputSchema=z.object({
+  id:nonempty,label:nonempty,value:z.number().finite(),unit:nonempty,
+  evidence:z.array(EvidenceRefSchema).min(1),
+})
+export const EmploymentMeasureSchema=z.object({
+  value:z.number().finite().nonnegative().nullable(),year:z.number().int(),
+  denominatorKind:z.enum(['persons','jobs','employees','fte']),
+  periodBasis:z.enum(['annual-average','year-end','other']),
+  status:z.enum(['official','calculated','estimated','unavailable','not-applicable']),
+  modelBasis:nonempty.optional(),
+  definition:nonempty,coverage:nonempty,releaseDate:date.nullable(),revision:nonempty,
+  evidence:z.array(EvidenceRefSchema),
+  calculation:z.object({
+    methodId:nonempty,label:nonempty,expression:nonempty,
+    operation:z.enum(['identity','sum','difference','share']),
+    inputs:z.array(EmploymentInputSchema).min(1),assumptions:z.array(nonempty),
+  }).optional(),
+  sensitivity:z.object({lower:z.number().finite().nonnegative(),upper:z.number().finite().nonnegative(),label:nonempty,assumptions:z.array(nonempty).min(1)}).optional(),
+})
+export const EmploymentRecordSchema=z.object({
+  id:ID,country:CountrySchema,basis:nonempty,nodeId:ID,nodeName:nonempty,year:z.number().int(),
+  valueAddedAnchor:z.object({baseValue:z.number().finite().nullable(),currency:z.enum(['CNY','USD']),coverage:nonempty}),
+  employment:EmploymentMeasureSchema,
+  pairing:z.object({status:z.enum(['matched','proxy','incompatible','not-applicable']),explanation:nonempty,comparisonGroup:nonempty.nullable(),scopeNote:nonempty.optional()}),
+  references:z.array(z.object({label:nonempty,measure:EmploymentMeasureSchema})),
+  notes:z.array(nonempty),gap:z.string(),
+})
+export const EmploymentDatasetSchema=z.object({
+  version:nonempty,checkedAt:date,sources:z.array(SourceSchema),records:z.array(EmploymentRecordSchema),
+})
+export type EmploymentMeasure=z.infer<typeof EmploymentMeasureSchema>
+export type EmploymentRecord=z.infer<typeof EmploymentRecordSchema>
+export type EmploymentDataset=z.infer<typeof EmploymentDatasetSchema>
 export const ResearchSchema = z.object({
   version:nonempty, checkedAt:date, publishedAt:date.nullable(),
   freezeStatus:z.enum(['working','review','frozen']),
@@ -229,6 +262,7 @@ export const ResearchSchema = z.object({
   macroStructures:MacroDatasetSchema.optional(),
   annualDetails:AnnualDetailsSchema.optional(),
   industryAnalysis:IndustryAnalysisSchema.optional(),
+  employment:EmploymentDatasetSchema.optional(),
 })
 export type Research = z.infer<typeof ResearchSchema>
 export type Observation = z.infer<typeof ObservationSchema>
