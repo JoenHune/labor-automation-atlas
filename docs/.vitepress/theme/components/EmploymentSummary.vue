@@ -9,7 +9,7 @@ const {settings}=useCurrency()
 const view=computed(()=>employmentView(props.dataset,props.node,props.basis))
 const display=computed(()=>employmentDisplay(view.value,settings.value))
 const estimated=computed(()=>view.value.record?.employment.status==='estimated')
-const employeeCoverage=computed(()=>{const r=view.value.record;if(r?.country!=='us'||r.employment.value===null||r.employment.denominatorKind!=='jobs')return '';return r.employment.evidence.some(e=>/^us-employment-qcew-/.test(e.sourceId))?'受保雇员岗位，不含业主':'雇员岗位，不含业主'})
+const employeeCoverage=computed(()=>{const r=view.value.record;if(r?.country!=='us'||r.employment.value===null||r.employment.denominatorKind!=='jobs')return '';return '雇员岗位，不含业主'})
 </script>
 <template>
  <div :class="['employment-summary',{'is-compact':compact}]" :data-content-id="node.id+'-employment-summary-'+node.year" tabindex="0">
