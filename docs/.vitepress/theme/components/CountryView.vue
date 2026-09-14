@@ -97,10 +97,9 @@ onBeforeUnmount(()=>{trend?.dispose();resize?.disconnect();window.removeEventLis
 <template>
  <div class="atlas-country" :data-country="country">
   <div class="page-top"><div><h1>{{profile.name}}经济图谱<span class="atlas-title-period">.</span></h1><p class="country-deck">从经济全景，逐层看见行业的组成。</p></div>
-   <label class="year-control">查看年份 <select v-model="year" aria-label="查看年份"><option v-for="y in [2025,2024,2023,2022,2021]" :value="y">{{y}}{{y===2025?' · 最新全年':''}}</option></select></label>
   </div>
-  <p v-if="year!==2025" class="historical-note" :data-content-id="country+'-historical-notice'" tabindex="0">正在查看 {{year}} 年历史数据。最新完整年度为 2025 年，最新行业进展为 {{profile.latestPeriod}}。</p>
-  <IndustryOrbitChart ref="scaleView" :research="research" :country="country" :year="year"/>
+  <IndustryOrbitChart ref="scaleView" :research="research" :country="country" v-model:year="year"/>
+  <p v-if="year!==2025" class="historical-note" :data-content-id="country+'-historical-notice'" tabindex="0">下方行业榜单与全年 GDP 为 {{year}} 年历史数据。最新完整年度为 2025 年，最新行业进展为 {{profile.latestPeriod}}。</p>
   <p class="scope-note">{{country==='cn'?'CHINA':'UNITED STATES'}} · 数据核查 {{profile.checkedAt}}</p>
   <p class="scope-note" :data-content-id="country+'-scope'" tabindex="0">{{profile.scope}} {{country==='cn'?'仅在最新官方发布的十个具名大类内排名；其他行业保留未拆分汇总。':'20 组非重叠行业构成排名范围；政府整体与私人行业分别列示。'}}</p>
   <p class="scope-note" :data-content-id="country+'-currency-display'" tabindex="0">{{currencyNote}}</p>
@@ -136,6 +135,6 @@ onBeforeUnmount(()=>{trend?.dispose();resize?.disconnect();window.removeEventLis
  </div>
 </template>
 <style scoped>
-.page-top h1{font-size:42px;font-weight:450;letter-spacing:-.05em}.atlas-title-period{color:#4678ac;margin-left:3px}.country-deck{font-size:12px;color:#667b8f;letter-spacing:.02em;margin:12px 0 0!important}.page-top .eyebrow{font-size:9px;letter-spacing:.14em;color:#9ba6b1;margin-bottom:10px!important}.year-control{font-size:10px;color:#93a1af}.year-control select{border:0;border-bottom:1px solid #d8e1e9;border-radius:0;padding:7px 24px 7px 0;color:#425e7b;background:transparent;font-size:13px}.atlas-country>.scope-note{font-size:11px}.stats-row{margin-top:24px}.chart-actions{display:flex;flex-wrap:wrap;gap:14px;margin:8px 0 18px;font-size:12px;color:#245cb5}.chart-actions button{cursor:pointer;text-decoration:underline;text-underline-offset:3px}.chart-section{scroll-margin-top:112px}
-@media(max-width:700px){.page-top h1{font-size:32px}.country-deck{font-size:11px}.page-top{align-items:center;gap:10px}.year-control select{font-size:11px;padding-right:5px}}
+.page-top h1{font-size:42px;font-weight:450;letter-spacing:-.05em}.atlas-title-period{color:#4678ac;margin-left:3px}.country-deck{font-size:12px;color:#667b8f;letter-spacing:.02em;margin:12px 0 0!important}.page-top .eyebrow{font-size:9px;letter-spacing:.14em;color:#9ba6b1;margin-bottom:10px!important}.atlas-country>.scope-note{font-size:11px}.stats-row{margin-top:24px}.chart-actions{display:flex;flex-wrap:wrap;gap:14px;margin:8px 0 18px;font-size:12px;color:#245cb5}.chart-actions button{cursor:pointer;text-decoration:underline;text-underline-offset:3px}.chart-section{scroll-margin-top:112px}
+@media(max-width:700px){.page-top h1{font-size:32px}.country-deck{font-size:11px}.page-top{align-items:center;gap:10px}}
 </style>
